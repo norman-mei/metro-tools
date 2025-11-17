@@ -6,6 +6,9 @@ import { Config, DataFeature, DataFeatureCollection, LineGroup } from '@/lib/typ
 import { getStationKey } from '@/lib/stationUtils'
 import { getCompletionColor } from '@/lib/progressColors'
 import { isColorLight } from '@/lib/colorUtils'
+import { useSettings } from '@/context/SettingsContext'
+import { ACCENT_COLOR_MAP, DEFAULT_ACCENT_COLOR_ID } from '@/lib/accentColors'
+import { STATION_TOTALS } from '@/lib/stationTotals'
 
 type CityStatsPanelProps = {
   cityDisplayName: string
@@ -126,23 +129,28 @@ const readLocalProgress = (slug: string): LocalProgress => {
     }
   }
 
-  const foundIdsRaw = parseJson<number[]>(
+  const foundIdsRaw = parseJson<number[] | number>(
     window.localStorage.getItem(`${slug}-stations`),
     [],
   )
 
   const foundIds: number[] = []
   const seenIds = new Set<number>()
-  foundIdsRaw.forEach((value) => {
-    if (typeof value !== 'number' || !Number.isFinite(value)) {
-      return
-    }
-    const normalized = Math.trunc(value)
-    if (!seenIds.has(normalized)) {
-      seenIds.add(normalized)
-      foundIds.push(normalized)
-    }
-  })
+  let numericFound = 0
+  if (Array.isArray(foundIdsRaw)) {
+    foundIdsRaw.forEach((value) => {
+      if (typeof value !== 'number' || !Number.isFinite(value)) {
+        return
+      }
+      const normalized = Math.trunc(value)
+      if (!seenIds.has(normalized)) {
+        seenIds.add(normalized)
+        foundIds.push(normalized)
+      }
+    })
+  } else if (typeof foundIdsRaw === 'number' && Number.isFinite(foundIdsRaw)) {
+    numericFound = Math.max(0, Math.trunc(foundIdsRaw))
+  }
 
   const timestamps = parseJson<Record<string, string>>(
     window.localStorage.getItem(`${slug}-stations-found-at`),
@@ -152,9 +160,18 @@ const readLocalProgress = (slug: string): LocalProgress => {
   const totalStationsRaw = window.localStorage.getItem(
     `${slug}-station-total`,
   )
-  const totalStations = totalStationsRaw
-    ? Number(totalStationsRaw)
-    : foundIds.length
+  const parsedTotal = totalStationsRaw ? Number(totalStationsRaw) : Number.NaN
+  const totalStations =
+    (Number.isFinite(parsedTotal) && parsedTotal > 0 ? parsedTotal : null) ??
+    STATION_TOTALS[slug] ??
+    Math.max(foundIds.length, numericFound)
+
+  if (numericFound > 0 && foundIds.length === 0) {
+    const synthetic = Math.min(numericFound, totalStations || numericFound)
+    for (let i = 0; i < synthetic; i += 1) {
+      foundIds.push(i)
+    }
+  }
 
   return {
     foundIds,
@@ -426,6 +443,11 @@ const CityStatsPanel = ({
   onNavigatePrevious,
   onNavigateNext,
 }: CityStatsPanelProps) => {
+  const { settings } = useSettings()
+  const accentPalette =
+    ACCENT_COLOR_MAP[settings.accentColor] ??
+    ACCENT_COLOR_MAP[DEFAULT_ACCENT_COLOR_ID]
+  const accentFallbackColor = accentPalette?.palette[600] ?? '#4f46e5'
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [stats, setStats] = useState<CityStatsSnapshot | null>(null)
@@ -719,7 +741,7 @@ const CityStatsPanel = ({
                         </p>
                       </div>
                       {(() => {
-                        const fillColor = item.accentColor ?? '#6366f1'
+                        const fillColor = item.accentColor ?? accentFallbackColor
                         const needsContrastBorder = isColorLight(fillColor)
                         return (
                           <div className="mt-1 h-2 rounded-full bg-zinc-200 dark:bg-zinc-800">

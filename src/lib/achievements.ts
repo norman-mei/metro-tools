@@ -20,6 +20,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Riding the Peach",
     description: "You know every Peachtree station in the ATL. Welcome to the A!",
   },
+  auckland: {
+    title: "City of Rails",
+    description: "You've trained through Auckland like a true Jafa! Sweet as, bro!",
+  },
   austin: {
     title: "Keep Austin Transit",
     description: "You've kept it weird and mapped every line in the Live Music Capital.",
@@ -128,6 +132,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Canton Champion",
     description: "好犀利！You've conquered one of China's largest metro systems!",
   },
+  hanoi: {
+    title: "Capital of Transit",
+    description: "You've mastered Hanoi's metro like a true Hanoian! Xuất sắc!",
+  },
   hamburg: {
     title: "Harbor Master",
     description: "You've U-Bahn'd through Germany's gateway to the world!",
@@ -135,6 +143,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   hk: {
     title: "Asia's World City",
     description: "You know the fragrant harbor's rails better than Jackie Chan knows stunts!",
+  },
+  hochiminhcity: {
+    title: "Saigon Speed",
+    description: "You've metro'd through HCMC like a million motorbikes! Tuyệt vời!",
   },
   honolulu: {
     title: "Haʻaheo No ʻO Honolulu",
@@ -147,6 +159,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   istanbul: {
     title: "East Meets West",
     description: "You've bridged two continents in your transit mind. Muthis!",
+  },
+  kaohsiung: {
+    title: "Harbor Light Master",
+    description: "You've metro'd through the Harbor Capital with southern style! 讚啦!",
   },
   karlsruhe: {
     title: "Tram-Train Brain",
@@ -348,9 +364,21 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Harbour Master",
     description: "You've bridged your knowledge of Sydney's entire network. Bonzer!",
   },
+  taichung: {
+    title: "Bubble Tea Brain",
+    description: "You've BRT'd through the birthplace of bubble tea! 珍珠奶茶!",
+  },
+  taipei: {
+    title: "101% Complete",
+    description: "You've MRT'd through Taipei faster than the 101 elevator! 太厲害了!",
+  },
   taw: {
     title: "Geordie Genius",
     description: "Why aye! You've Metro'd through Newcastle like a proper Geordie!",
+  },
+  thsr: {
+    title: "Island Speed Demon",
+    description: "You've high-speed-railed from north to south! Formosa fantastic!",
   },
   tokyo: {
     title: "Lost? Never!",
@@ -371,6 +399,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   viarail: {
     title: "Love the Way",
     description: "From sea to sea, you know Canada's rail like the back of your toque!",
+  },
+  wellington: {
+    title: "Wellywood Wizard",
+    description: "You've Metlink'd through Wellington like Peter Jackson! Middle-Earth mastery!",
   },
   wien: {
     title: "Waltz of Transit",

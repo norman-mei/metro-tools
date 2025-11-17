@@ -1,0 +1,2354 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.100759466221,
+          33.5673974970999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "StationId": 204,
+        "StationName": "19th Ave / Dunlap",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.0993888,
+        "POINT_Y": 33.56708951,
+        "Image": "https://farm8.staticflickr.com/7090/26530397293_0faa60e8de_b.jpg",
+        "Image2": "https://farm8.staticflickr.com/7641/27039654922_cec4d20e63_b.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18608,
+        "Address": "1935 West Dunlap Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.830645946242,
+          33.4151070876911
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "StationId": 104,
+        "StationName": "Center / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.83066039,
+        "POINT_Y": 33.41509754,
+        "Image": "https://farm6.staticflickr.com/5812/23984692621_8d5532a2af_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18602,
+        "Address": "26 East Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.099628965907,
+          33.5520712942292
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "StationId": 205,
+        "StationName": "Northern / 19th Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.09935953,
+        "POINT_Y": 33.55318964,
+        "Image": "https://farm8.staticflickr.com/7505/27101054406_aef88d5c18_b.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18607,
+        "Address": "7832 North 19th Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.099700877682,
+          33.537384358998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "StationId": 206,
+        "StationName": "Glendale / 19th Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.09932892,
+        "POINT_Y": 33.53864324,
+        "Image": "https://farm8.staticflickr.com/7167/26530393693_96b1baf0ea_b.jpg",
+        "Image2": "https://farm8.staticflickr.com/7377/26860112480_40f73b0d48_b.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18606,
+        "Address": "6813 North 19th Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.987983136676,
+          33.4481699244174
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "StationId": 118,
+        "StationName": "44th St / Washington",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.98798314,
+        "POINT_Y": 33.44816993,
+        "Image": "https://farm6.staticflickr.com/5771/23439060114_4cdce64345_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1502/23443590524_dc4a06a76c_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10018,
+        "Address": "4203 East Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.946627682264,
+          33.4380630453521
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "StationId": 115,
+        "StationName": "Center Pkwy / Washington",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.94662735,
+        "POINT_Y": 33.4380634,
+        "Image": "https://farm6.staticflickr.com/5815/24067296465_5c7b834c53_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10020,
+        "Address": "702 West Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.999886358593,
+          33.4481023520395
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "StationId": 119,
+        "StationName": "38th St / Washington",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.99988636,
+        "POINT_Y": 33.44810237,
+        "Image": "https://farm6.staticflickr.com/5783/24067294335_d4aeefc673_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1447/24071816735_fd6d45a268_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10017,
+        "Address": "3763 East Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.839072866663,
+          33.4151203386989
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "StationId": 105,
+        "StationName": "Country Club / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.8390359,
+        "POINT_Y": 33.41511499,
+        "Image": "https://farm6.staticflickr.com/5784/23440493303_3bbfcf60f0_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18601,
+        "Address": "300 West Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.855565487856,
+          33.4149411135333
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "StationId": 106,
+        "StationName": "Alma School / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.85554955,
+        "POINT_Y": 33.41493761,
+        "Image": "https://farm2.staticflickr.com/1620/23771607490_32dabe11a9_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18600,
+        "Address": "1128 West Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.956090063468,
+          33.4420029416517
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "StationId": 116,
+        "StationName": "Priest Dr / Washington St",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.95609026,
+        "POINT_Y": 33.44200283,
+        "Image": "https://farm6.staticflickr.com/5763/24041187666_d931bf0ba3_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10019,
+        "Address": "1166 West Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073965959755,
+          33.4592446461802
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "StationId": 217,
+        "StationName": "Roosevelt / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07406165,
+        "POINT_Y": 33.45938818,
+        "Image": "https://farm6.staticflickr.com/5636/23699464899_987184a45e_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10011,
+        "Address": "1004 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.075308589731,
+          33.5086654010472
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "StationId": 210,
+        "StationName": "Central Ave / Camelback",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.0753075,
+        "POINT_Y": 33.50866627,
+        "Image": "https://farm6.staticflickr.com/5746/23699462439_fe035808d3_o.jpg",
+        "Image2": "https://farm6.staticflickr.com/5833/23703988949_475d9c5c4d_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10004,
+        "Address": "77 West Camelback Road",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.09880709341,
+          33.5095430671203
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "StationId": 208,
+        "StationName": "19th Ave / Camelback",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.09880709,
+        "POINT_Y": 33.50954307,
+        "Image": "https://farm6.staticflickr.com/5699/24067295415_ed6193047b_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1466/23776130020_e413ed5cb6_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10002,
+        "Address": "1855 West Camelback Road ",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.099731008771,
+          33.5205918539304
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "StationId": 207,
+        "StationName": "Montebello / 19th Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.09973101,
+        "POINT_Y": 33.52059185,
+        "Image": "https://farm2.staticflickr.com/1497/23984692441_d067610604_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10001,
+        "Address": "5645 North 19th Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.083336174682,
+          33.5093081689245
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "StationId": 209,
+        "StationName": "7th Ave / Camelback",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.08333617,
+        "POINT_Y": 33.50930817,
+        "Image": "https://farm2.staticflickr.com/1534/24041186226_fccc45bb5f_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10003,
+        "Address": "705 West Camelback Road",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07378741844,
+          33.4957540851608
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "StationId": 212,
+        "StationName": "Indian School / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07378742,
+        "POINT_Y": 33.49575409,
+        "Image": "https://farm2.staticflickr.com/1451/23959139152_7ca74f286d_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10006,
+        "Address": "4111 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073785892661,
+          33.5014098853515
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "StationId": 211,
+        "StationName": "Campbell / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07378589,
+        "POINT_Y": 33.50140989,
+        "Image": "https://farm2.staticflickr.com/1636/23439058354_ec23763a2d_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10005,
+        "Address": "4411 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073806872517,
+          33.4868613021321
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "StationId": 213,
+        "StationName": "Osborn / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07380687,
+        "POINT_Y": 33.4868613,
+        "Image": "https://farm6.staticflickr.com/5818/23439058124_72357b77f8_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10007,
+        "Address": "3335 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.908240039912,
+          33.4147258670684
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "StationId": 110,
+        "StationName": "McClintock Dr / Apache Blvd",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.90824004,
+        "POINT_Y": 33.41472587,
+        "Image": "https://farm2.staticflickr.com/1671/23984693011_ffafdd3e95_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10025,
+        "Address": "1822 East Apache Boulevard",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.926903053989,
+          33.4207581730884
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "StationId": 112,
+        "StationName": "University Dr / Rural Rd",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.92690931,
+        "POINT_Y": 33.42076255,
+        "Image": "https://farm2.staticflickr.com/1511/24067296165_4da3114369_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10023,
+        "Address": "840 South Rural Road",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073771583811,
+          33.481227476293
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "StationId": 214,
+        "StationName": "Thomas / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07377158,
+        "POINT_Y": 33.48122748,
+        "Image": "https://farm6.staticflickr.com/5662/23959139042_87fae4d0f1_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10008,
+        "Address": "2903 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073815052099,
+          33.473667056443
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "StationId": 215,
+        "StationName": "Encanto / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07381505,
+        "POINT_Y": 33.47366706,
+        "Image": "https://farm2.staticflickr.com/1448/23439057074_24b218efea_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10009,
+        "Address": "2325 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073820719648,
+          33.4647252356442
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "StationId": 216,
+        "StationName": "McDowell / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07382072,
+        "POINT_Y": 33.46472524,
+        "Image": "https://farm6.staticflickr.com/5781/23984694991_f39fcb4e07_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10010,
+        "Address": "1502 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.935920525379,
+          33.4261258183162
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "StationId": 113,
+        "StationName": "Veterans Way / College Ave",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.9359264,
+        "POINT_Y": 33.42612828,
+        "Image": "https://farm2.staticflickr.com/1698/23984693291_904bf2b746_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1501/23984691361_f01dcb7c59_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10022,
+        "Address": "220 East 5th Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073927522664,
+          33.4488759878778
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "StationId": 221,
+        "StationName": "Washington / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07389472,
+        "POINT_Y": 33.44888009,
+        "Image": "https://farm2.staticflickr.com/1644/24067297565_7333ef6c38_o.jpg",
+        "Image2": null,
+        "TVM": 2,
+        "Bench": 9,
+        "TrashCan": 2,
+        "BikeRacks": null,
+        "WaterFountain": "Yes",
+        "Restroom": "No",
+        "InfoDisplay": "Yes",
+        "Em_Call": "Yes",
+        "NextRide": 10032,
+        "Address": "4 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073966654798,
+          33.4519144172446
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "StationId": 219,
+        "StationName": "Van Buren / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07392841,
+        "POINT_Y": 33.45191463,
+        "Image": "https://farm6.staticflickr.com/5800/24067297765_d97842915d_o.jpg",
+        "Image2": null,
+        "TVM": 2,
+        "Bench": 9,
+        "TrashCan": 2,
+        "BikeRacks": null,
+        "WaterFountain": "Yes",
+        "Restroom": "No",
+        "InfoDisplay": "Yes",
+        "Em_Call": "Yes",
+        "NextRide": 10033,
+        "Address": "304 North Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.075053325998,
+          33.4519256270734
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "StationId": 218,
+        "StationName": "Van Buren / 1st Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07509158,
+        "POINT_Y": 33.45192574,
+        "Image": "https://farm2.staticflickr.com/1535/23699464749_2bb3559d45_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10012,
+        "Address": "303 North 1st Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.870891244229,
+          33.4148508535363
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "StationId": 107,
+        "StationName": "Sycamore / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.87089124,
+        "POINT_Y": 33.41485085,
+        "Image": "https://farm6.staticflickr.com/5807/23984692861_d1a95aaafe_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1650/23989217991_520f376fca_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10028,
+        "Address": "1830 West Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88808677454,
+          33.4148134350923
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "StationId": 108,
+        "StationName": "Price-101 / Apache Blvd",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.88808677,
+        "POINT_Y": 33.41481344,
+        "Image": "https://farm6.staticflickr.com/5802/23959140062_4f63774c8b_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1573/23989217621_90c5fd95a0_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10027,
+        "Address": "2338 East Apache Boulevard",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.900765828012,
+          33.4147834701956
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "StationId": 109,
+        "StationName": "Smith-Martin / Apache Blvd",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.90076583,
+        "POINT_Y": 33.41478347,
+        "Image": "https://farm2.staticflickr.com/1556/23959138232_90b3b8aaa9_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10026,
+        "Address": "1964 East Apache Boulevard",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.029288796535,
+          33.4481911529942
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "StationId": 121,
+        "StationName": "24th St / Washington",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.02928853,
+        "POINT_Y": 33.44822322,
+        "Image": "https://farm2.staticflickr.com/1509/23699463719_4dbc1800a8_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10029,
+        "Address": "2411 East Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.02928243755,
+          33.4472274301101
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "StationId": 120,
+        "StationName": "24th St / Jefferson",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.02928117,
+        "POINT_Y": 33.44719506,
+        "Image": "https://farm6.staticflickr.com/5767/24067296825_a15c467cfd_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10016,
+        "Address": "2416 East Jefferson Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.070620606321,
+          33.4483506229476
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "StationId": 125,
+        "StationName": "3rd St / Washington",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07061854,
+        "POINT_Y": 33.44831856,
+        "Image": "https://farm2.staticflickr.com/1518/23439060794_ac6bea89dd_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10031,
+        "Address": "270 East Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.057211636116,
+          33.4482490199803
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "StationId": 123,
+        "StationName": "12th St / Washington",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.05721163,
+        "POINT_Y": 33.44821975,
+        "Image": "https://farm2.staticflickr.com/1612/23959141212_90b4fd47c5_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10030,
+        "Address": "1135 East Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.069311297029,
+          33.4462716774751
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "StationId": 124,
+        "StationName": "3rd St / Jefferson",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.06931138,
+        "POINT_Y": 33.44630408,
+        "Image": "https://farm6.staticflickr.com/5824/24067297435_38ce4bbafd_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10014,
+        "Address": "333 East Jefferson Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.075239896158,
+          33.4477741983472
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "StationId": 222,
+        "StationName": "Downtown Phx Hub / 1st Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07520165,
+        "POINT_Y": 33.44777443,
+        "Image": "https://farm2.staticflickr.com/1542/24041188816_c1edc50acb_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10013,
+        "Address": "70 South 1st Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.974740932105,
+          33.4469297567996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "StationId": 117,
+        "StationName": "50th St / Washington St",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.97474093,
+        "POINT_Y": 33.44692976,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18716,
+        "Address": "4835 East Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.802801849018,
+          33.4152358622292
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "StationId": 102,
+        "StationName": "Stapley Dr / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.8049355,
+        "POINT_Y": 33.4152378,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18717,
+        "Address": "1310 East Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.790306258204,
+          33.4153173038124
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "StationId": 101,
+        "StationName": "Gilbert Rd / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.78902598,
+        "POINT_Y": 33.41537564,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18718,
+        "Address": "1864 East Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.055659407477,
+          33.4471994248145
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "StationId": 122,
+        "StationName": "12th St / Jefferson",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.05565961,
+        "POINT_Y": 33.44722879,
+        "Image": "https://farm6.staticflickr.com/5804/23439057874_58d7566edd_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10015,
+        "Address": "1228 East Jefferson Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.822144320827,
+          33.4150636945396
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "StationId": 103,
+        "StationName": "Mesa Dr / Main St",
+        "Jurisdiction": "Mesa",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.82219142,
+        "POINT_Y": 33.41507829,
+        "Image": "https://farm6.staticflickr.com/5644/24041186696_c20166d946_o.jpg",
+        "Image2": "https://farm2.staticflickr.com/1716/23989217631_8fb49fc407_o.jpg",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18603,
+        "Address": "424 East Main Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916881324685,
+          33.4147603692334
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "StationId": 111,
+        "StationName": "Dorsey Ln / Apache Blvd",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.91688132,
+        "POINT_Y": 33.41476037,
+        "Image": "https://farm2.staticflickr.com/1683/23699462989_0d729e04e3_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10024,
+        "Address": "1402 East Apache Boulevard",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.917065491169,
+          33.4146637734149
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "StationId": 312,
+        "StationName": "Dorsey Ln / Apache",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.916891,
+        "POINT_Y": 33.41476,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18832,
+        "Address": "1403 East Apache Boulevard",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925251431122,
+          33.4147672021976
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "StationId": 311,
+        "StationName": "Rural / Apache",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.925945,
+        "POINT_Y": 33.414752,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18833,
+        "Address": "975 East Apache Boulevard",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.929363556996,
+          33.4147452653425
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "StationId": 310,
+        "StationName": "Paseo Del Saber / Apache",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.929116,
+        "POINT_Y": 33.414729,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18834,
+        "Address": "687 East Apache Boulevard",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.935274839588,
+          33.4146892169494
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "StationId": 309,
+        "StationName": "College Ave / Apache",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.934806,
+        "POINT_Y": 33.414684,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18835,
+        "Address": "44 East Apache Boulevard",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.942497092837,
+          33.4223609166752
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "StationId": 306,
+        "StationName": "University Dr / Ash",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.942385,
+        "POINT_Y": 33.42257,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18843,
+        "Address": "724 South Ash Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940005277903,
+          33.4249166649662
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "StationId": 313,
+        "StationName": "Sixth St / Mill",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.939994,
+        "POINT_Y": 33.424871,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18838,
+        "Address": "523 South Mill Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939952190215,
+          33.4209327530431
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "StationId": 307,
+        "StationName": "Ninth St / Mill",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.939973,
+        "POINT_Y": 33.421102,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18837,
+        "Address": "834 South Mill Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939911181563,
+          33.4180914247337
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "StationId": 308,
+        "StationName": "Eleventh St / Mill",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.939934,
+        "POINT_Y": 33.417718,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18836,
+        "Address": "1028 South Mill Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.943457941917,
+          33.4251032037422
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "StationId": 305,
+        "StationName": "Fifth St / Ash",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.943358,
+        "POINT_Y": 33.425354,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18842,
+        "Address": "505 South Ash Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.943020871362,
+          33.4274026530746
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "StationId": 304,
+        "StationName": "Third St / Ash",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.942855,
+        "POINT_Y": 33.427465,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18841,
+        "Address": "302 South Ash Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940680046286,
+          33.4275021337507
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "StationId": 114,
+        "StationName": "Mill Ave / 3rd St",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.94068005,
+        "POINT_Y": 33.4275021,
+        "Image": "https://farm2.staticflickr.com/1663/23959140552_d199d43e81_o.jpg",
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 10021,
+        "Address": "50 West 3rd Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939941397121,
+          33.4279472732223
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "StationId": 314,
+        "StationName": "Third St / Mill",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.940008,
+        "POINT_Y": 33.427516,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18839,
+        "Address": "219 South Mill Avenue",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.941982063914,
+          33.4294559984652
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "StationId": 303,
+        "StationName": "Tempe Beach Park / Rio Salado",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.937517,
+        "POINT_Y": 33.43043,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18840,
+        "Address": "248 East Rio Salado Parkway",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.932672883427,
+          33.4293695048383
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "StationId": 301,
+        "StationName": "Marina Heights / Rio Salado",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.932264,
+        "POINT_Y": 33.429375,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18845,
+        "Address": "482 East Rio Salado Parkway",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.93815295444,
+          33.4301267244977
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "StationId": 302,
+        "StationName": "Hayden Ferry / Rio Salado",
+        "Jurisdiction": "Tempe",
+        "StationStatus": "In Operation",
+        "POINT_X": -111.937517,
+        "POINT_Y": 33.43043,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18844,
+        "Address": "58 East Rio Salado Parkway",
+        "ServiceType": "StreetCar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.112254197224,
+          33.573055338879
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "StationId": 202,
+        "StationName": "Mountain View / 25th Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.11225563,
+        "POINT_Y": 33.57305374,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18901,
+        "Address": "9555 North 25th Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.111301188086,
+          33.5675546405524
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "StationId": 203,
+        "StationName": "25th Ave / Dunlap",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.11130263,
+        "POINT_Y": 33.56755303,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18902,
+        "Address": "2470 West Dunlap Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.11822142506,
+          33.5750384684392
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "StationId": 201,
+        "StationName": "Metro Parkway",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.11758738,
+        "POINT_Y": 33.5767664,
+        "Image": "https://flic.kr/p/2pvvXfD",
+        "Image2": "https://flic.kr/p/2pvwxRi",
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 18900,
+        "Address": "9804 North Metro Parkway East",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073340651292,
+          33.4058308722763
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "StationId": 228,
+        "StationName": "Broadway / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07332884,
+        "POINT_Y": 33.40672304,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19008,
+        "Address": "4415 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073310634702,
+          33.3913300737558
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "StationId": 230,
+        "StationName": "Southern / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07331145,
+        "POINT_Y": 33.39223346,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19010,
+        "Address": "6050 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073255447914,
+          33.3782750838073
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "StationId": 231,
+        "StationName": "Baseline / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07325574,
+        "POINT_Y": 33.37774626,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19011,
+        "Address": "7525 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07373613984,
+          33.4360481262768
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "StationId": 226,
+        "StationName": "Buckeye / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.0737736,
+        "POINT_Y": 33.43683759,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19006,
+        "Address": "1200 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073833096013,
+          33.4416761126636
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "StationId": 225,
+        "StationName": "Lincoln / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07379586,
+        "POINT_Y": 33.44220376,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19004,
+        "Address": "680 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073503815189,
+          33.4181643098729
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "StationId": 227,
+        "StationName": "Pioneer / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07350513,
+        "POINT_Y": 33.4181626,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19007,
+        "Address": "3200 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07333112433,
+          33.3991484954167
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "StationId": 229,
+        "StationName": "Roeser / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07333781,
+        "POINT_Y": 33.39953739,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19009,
+        "Address": "5275 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07495298225,
+          33.4416888657929
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "StationId": 224,
+        "StationName": "Lincoln / 1st Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07504798,
+        "POINT_Y": 33.44220217,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19005,
+        "Address": "675 South 1st Avenue",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0744042807,
+          33.4471047467057
+        ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "StationId": 126,
+        "StationName": "Downtown Phx Hub / Jefferson St",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07437793,
+        "POINT_Y": 33.44714529,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19002,
+        "Address": "31 West Jefferson Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.074471542079,
+          33.4483240798783
+        ]
+      },
+      "properties": {
+        "OBJECTID": 70,
+        "StationId": 127,
+        "StationName": "Downtown Phx Hub / Washington St",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07434547,
+        "POINT_Y": 33.44821824,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19000,
+        "Address": "50 West Washington Street",
+        "ServiceType": "Light Rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073762835501,
+          33.4475554060542
+        ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "StationId": 223,
+        "StationName": "Downtown Phx Hub / Central Ave",
+        "Jurisdiction": "Phoenix",
+        "StationStatus": "In Operation",
+        "POINT_X": -112.07381248,
+        "POINT_Y": 33.4476698,
+        "Image": null,
+        "Image2": null,
+        "TVM": null,
+        "Bench": null,
+        "TrashCan": null,
+        "BikeRacks": null,
+        "WaterFountain": null,
+        "Restroom": null,
+        "InfoDisplay": null,
+        "Em_Call": null,
+        "NextRide": 19003,
+        "Address": "13 South Central Avenue",
+        "ServiceType": "Light Rail"
+      }
+    }
+  ]
+}

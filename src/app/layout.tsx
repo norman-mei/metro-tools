@@ -1,4 +1,8 @@
-import Analytics from '@/components/Analytics'
+import { Analytics } from '@vercel/analytics/next'
+import ThemeProviderClient from '@/components/ThemeProviderClient'
+import { AuthProvider } from '@/context/AuthContext'
+import { SettingsProvider } from '@/context/SettingsContext'
+import SettingsSaveToast from '@/components/SettingsSaveToast'
 import '@/styles/tailwind.css'
 
 export default function RootLayout({
@@ -9,7 +13,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="bg-zinc-50 text-zinc-900 antialiased dark:bg-black dark:text-zinc-100">
-        {children}
+        <ThemeProviderClient>
+          <SettingsProvider>
+            <AuthProvider>{children}</AuthProvider>
+            <SettingsSaveToast />
+          </SettingsProvider>
+        </ThemeProviderClient>
         <Analytics />
       </body>
     </html>

@@ -1,0 +1,9 @@
+{
+  "NewcastleLR": {
+    "name": "Newcastle Light Rail",
+    "color": "#D5002B",
+    "backgroundColor": "#D5002B",
+    "textColor": "#FFFFFF",
+    "order": 0
+  }
+}

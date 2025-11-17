@@ -1,0 +1,23 @@
+{
+  "MAXRed": {
+    "name": "Main Street",
+    "color": "#D11241",
+    "backgroundColor": "#D11241",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "MAXGreen": {
+    "name": "Riverfront Loop",
+    "color": "#008752",
+    "backgroundColor": "#008752",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "MAXYellow": {
+    "name": "Madison Avenue",
+    "color": "#FFC424",
+    "backgroundColor": "#FFC424",
+    "textColor": "#000000",
+    "order": 2
+  }
+}

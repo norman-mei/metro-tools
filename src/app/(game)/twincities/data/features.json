@@ -1,0 +1,1115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.27870712323998,
+          44.98356250750847
+        ]
+      },
+      "properties": {
+        "name": "Target Field",
+        "line": "MAXBlue",
+        "order": 0,
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2730992784388,
+          44.98004592373075
+        ]
+      },
+      "properties": {
+        "name": "Warehouse District/Hennepin Avenue",
+        "line": "MAXBlue",
+        "order": 1,
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26992083374896,
+          44.97859743242234
+        ]
+      },
+      "properties": {
+        "name": "Nicollet Mall",
+        "line": "MAXBlue",
+        "order": 2,
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26589030966758,
+          44.976869419129955
+        ]
+      },
+      "properties": {
+        "name": "Government Plaza",
+        "line": "MAXBlue",
+        "order": 3,
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.25998592904111,
+          44.9750287838511
+        ]
+      },
+      "properties": {
+        "name": "U.S. Bank Stadium",
+        "line": "MAXBlue",
+        "order": 4,
+        "id": 4,
+        "alternate_names": [
+          "Stadium"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.25105539347203,
+          44.96845998723276
+        ]
+      },
+      "properties": {
+        "name": "Cedar-Riverside",
+        "line": "MAXBlue",
+        "order": 5,
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.24706113423636,
+          44.96255901909541
+        ]
+      },
+      "properties": {
+        "name": "Franklin Avenue",
+        "line": "MAXBlue",
+        "order": 6,
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.23890209983338,
+          44.94842306996159
+        ]
+      },
+      "properties": {
+        "name": "Lake Street/Midtown",
+        "line": "MAXBlue",
+        "order": 7,
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.22945283936828,
+          44.934710079913515
+        ]
+      },
+      "properties": {
+        "name": "38th Street",
+        "line": "MAXBlue",
+        "order": 8,
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.21980020562471,
+          44.920768281734716
+        ]
+      },
+      "properties": {
+        "name": "46th Street",
+        "line": "MAXBlue",
+        "order": 9,
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.21020442641404,
+          44.91246608937177
+        ]
+      },
+      "properties": {
+        "name": "50th Street/Minnehaha Park",
+        "line": "MAXBlue",
+        "order": 10,
+        "id": 10,
+        "alternate_names": [
+          "50 St"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2023291595519,
+          44.902880745417015
+        ]
+      },
+      "properties": {
+        "name": "VA Medical Center",
+        "line": "MAXBlue",
+        "order": 11,
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.19811371439992,
+          44.893256137422554
+        ]
+      },
+      "properties": {
+        "name": "Fort Snelling",
+        "line": "MAXBlue",
+        "order": 12,
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.20502073252011,
+          44.88083079882657
+        ]
+      },
+      "properties": {
+        "name": "Terminal 1-Lindbergh",
+        "line": "MAXBlue",
+        "order": 13,
+        "id": 13,
+        "alternate_names": [
+          "Terminal 1"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.22407857150064,
+          44.87412875000809
+        ]
+      },
+      "properties": {
+        "name": "Terminal 2-Humphrey",
+        "line": "MAXBlue",
+        "order": 14,
+        "id": 14,
+        "alternate_names": [
+          "Terminal 2"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.22313026528879,
+          44.85955414861496
+        ]
+      },
+      "properties": {
+        "name": "American Boulevard",
+        "line": "MAXBlue",
+        "order": 15,
+        "id": 15,
+        "alternate_names": [
+          "34 Av",
+          "34 Ave"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.226319636859,
+          44.85642440429664
+        ]
+      },
+      "properties": {
+        "name": "Bloomington Central",
+        "line": "MAXBlue",
+        "order": 16,
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.23162661951824,
+          44.85589317728371
+        ]
+      },
+      "properties": {
+        "name": "30th Avenue",
+        "line": "MAXBlue",
+        "order": 17,
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.23896610363091,
+          44.85431298938128
+        ]
+      },
+      "properties": {
+        "name": "Mall of America",
+        "line": "MAXBlue",
+        "order": 18,
+        "id": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.28302030369292,
+          44.981316567890886
+        ]
+      },
+      "properties": {
+        "name": "Royalston Avenue/Farmers Market",
+        "line": "MAXGreen",
+        "order": 0,
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.29549422851564,
+          44.974495064854565
+        ]
+      },
+      "properties": {
+        "name": "Bassett Creek Valley",
+        "line": "MAXGreen",
+        "order": 1,
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.30906452484673,
+          44.96814768528509
+        ]
+      },
+      "properties": {
+        "name": "Bryn Mawr",
+        "line": "MAXGreen",
+        "order": 2,
+        "id": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3146939113,
+          44.96080025910787
+        ]
+      },
+      "properties": {
+        "name": "West 21st Street",
+        "line": "MAXGreen",
+        "order": 3,
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.32440875719185,
+          44.947745012019254
+        ]
+      },
+      "properties": {
+        "name": "West Lake Street",
+        "line": "MAXGreen",
+        "order": 4,
+        "id": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.33950213710025,
+          44.94379769088829
+        ]
+      },
+      "properties": {
+        "name": "Beltline Boulevard",
+        "line": "MAXGreen",
+        "order": 5,
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.35480796897347,
+          44.938586199514226
+        ]
+      },
+      "properties": {
+        "name": "Wooddale Avenue",
+        "line": "MAXGreen",
+        "order": 6,
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.36500791642148,
+          44.93489448347937
+        ]
+      },
+      "properties": {
+        "name": "Louisiana Avenue",
+        "line": "MAXGreen",
+        "order": 7,
+        "id": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.38642496838531,
+          44.92782192002106
+        ]
+      },
+      "properties": {
+        "name": "Blake Road",
+        "line": "MAXGreen",
+        "order": 8,
+        "id": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.40921807422633,
+          44.92077217239986
+        ]
+      },
+      "properties": {
+        "name": "Downtown Hopkins",
+        "line": "MAXGreen",
+        "order": 9,
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.42103780678747,
+          44.91779938536518
+        ]
+      },
+      "properties": {
+        "name": "Shady Oak Road",
+        "line": "MAXGreen",
+        "order": 10,
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.41396712015691,
+          44.897806151144124
+        ]
+      },
+      "properties": {
+        "name": "Opus",
+        "line": "MAXGreen",
+        "order": 11,
+        "id": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.41092230148449,
+          44.890518821406324
+        ]
+      },
+      "properties": {
+        "name": "City West",
+        "line": "MAXGreen",
+        "order": 12,
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.41010947914701,
+          44.87729860632502
+        ]
+      },
+      "properties": {
+        "name": "Golden Triangle",
+        "line": "MAXGreen",
+        "order": 13,
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.43128198677466,
+          44.8591318629007
+        ]
+      },
+      "properties": {
+        "name": "Eden Prairie Town Center",
+        "line": "MAXGreen",
+        "order": 14,
+        "id": 33,
+        "alternate_names": [
+          "Town Center"
+        ]
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.44422405129284,
+          44.860036897639255
+        ]
+      },
+      "properties": {
+        "name": "Southwest",
+        "line": "MAXGreen",
+        "order": 15,
+        "id": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.27870712323998,
+          44.98356250750847
+        ]
+      },
+      "properties": {
+        "name": "Target Field",
+        "line": "MAXGreen",
+        "order": 16,
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2730992784388,
+          44.98004592373075
+        ]
+      },
+      "properties": {
+        "name": "Warehouse District/Hennepin Avenue",
+        "line": "MAXGreen",
+        "order": 17,
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26992083374896,
+          44.97859743242234
+        ]
+      },
+      "properties": {
+        "name": "Nicollet Mall",
+        "line": "MAXGreen",
+        "order": 18,
+        "id": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26589030966758,
+          44.976869419129955
+        ]
+      },
+      "properties": {
+        "name": "Government Plaza",
+        "line": "MAXGreen",
+        "order": 19,
+        "id": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.25998592904111,
+          44.9750287838511
+        ]
+      },
+      "properties": {
+        "name": "U.S. Bank Stadium",
+        "line": "MAXGreen",
+        "order": 20,
+        "id": 39,
+        "alternate_names": [
+          "Stadium"
+        ]
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2458237737323,
+          44.97204550670176
+        ]
+      },
+      "properties": {
+        "name": "West Bank",
+        "line": "MAXGreen",
+        "order": 21,
+        "id": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.23107077590831,
+          44.97372356893007
+        ]
+      },
+      "properties": {
+        "name": "East Bank",
+        "line": "MAXGreen",
+        "order": 22,
+        "id": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.22288202576448,
+          44.97481478714938
+        ]
+      },
+      "properties": {
+        "name": "Stadium Village",
+        "line": "MAXGreen",
+        "order": 23,
+        "id": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.21526295092676,
+          44.97158210280023
+        ]
+      },
+      "properties": {
+        "name": "Prospect Park",
+        "line": "MAXGreen",
+        "order": 24,
+        "id": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.20725995916933,
+          44.96787366036973
+        ]
+      },
+      "properties": {
+        "name": "Westgate",
+        "line": "MAXGreen",
+        "order": 25,
+        "id": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.19548172304931,
+          44.963099161392236
+        ]
+      },
+      "properties": {
+        "name": "Raymond Avenue",
+        "line": "MAXGreen",
+        "order": 26,
+        "id": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.17870378117225,
+          44.95642915283325
+        ]
+      },
+      "properties": {
+        "name": "Fairview Avenue",
+        "line": "MAXGreen",
+        "order": 27,
+        "id": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.16699504910045,
+          44.95569088191371
+        ]
+      },
+      "properties": {
+        "name": "Snelling Avenue",
+        "line": "MAXGreen",
+        "order": 28,
+        "id": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1577337605722,
+          44.95573178797264
+        ]
+      },
+      "properties": {
+        "name": "Hamline Avenue",
+        "line": "MAXGreen",
+        "order": 29,
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.14661353129424,
+          44.95574681509764
+        ]
+      },
+      "properties": {
+        "name": "Lexington Parkway",
+        "line": "MAXGreen",
+        "order": 30,
+        "id": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.13653896219463,
+          44.95574681280372
+        ]
+      },
+      "properties": {
+        "name": "Victoria Street",
+        "line": "MAXGreen",
+        "order": 31,
+        "id": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.12629583216994,
+          44.95574125641867
+        ]
+      },
+      "properties": {
+        "name": "Dale Street",
+        "line": "MAXGreen",
+        "order": 32,
+        "id": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.11615527319056,
+          44.95577992920289
+        ]
+      },
+      "properties": {
+        "name": "Western Avenue",
+        "line": "MAXGreen",
+        "order": 33,
+        "id": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1051970085061,
+          44.95573979095381
+        ]
+      },
+      "properties": {
+        "name": "Capitol/Rice Street",
+        "line": "MAXGreen",
+        "order": 34,
+        "id": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.09747111783435,
+          44.954066299872295
+        ]
+      },
+      "properties": {
+        "name": "Robert Street",
+        "line": "MAXGreen",
+        "order": 35,
+        "id": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.09755387787165,
+          44.9506496879028
+        ]
+      },
+      "properties": {
+        "name": "10th Street",
+        "line": "MAXGreen",
+        "order": 36,
+        "id": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.09230928590658,
+          44.9461874480159
+        ]
+      },
+      "properties": {
+        "name": "Central",
+        "line": "MAXGreen",
+        "order": 37,
+        "id": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.08674445368416,
+          44.94823882072105
+        ]
+      },
+      "properties": {
+        "name": "Union Depot",
+        "line": "MAXGreen",
+        "order": 38,
+        "id": 57
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2051462682104,
+          44.88092802957013
+        ]
+      },
+      "properties": {
+        "name": "Hub Building",
+        "line": "HubTram",
+        "order": 0,
+        "id": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.21153137976242,
+          44.883504231683695
+        ]
+      },
+      "properties": {
+        "name": "Terminal 1",
+        "line": "HubTram",
+        "order": 1,
+        "id": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.20997687573617,
+          44.88444009481959
+        ]
+      },
+      "properties": {
+        "name": "Gate C1",
+        "line": "ConcourseCMover",
+        "order": 0,
+        "id": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.20593790624793,
+          44.88271871116039
+        ]
+      },
+      "properties": {
+        "name": "Gate C8",
+        "line": "ConcourseCMover",
+        "order": 1,
+        "id": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.20533031450213,
+          44.88240059914948
+        ]
+      },
+      "properties": {
+        "name": "Gate C12",
+        "line": "ConcourseCMover",
+        "order": 2,
+        "id": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2012987666195,
+          44.880578032501546
+        ]
+      },
+      "properties": {
+        "name": "Gate C27",
+        "line": "ConcourseCMover",
+        "order": 3,
+        "id": 63
+      },
+      "id": 63
+    }
+  ]
+}

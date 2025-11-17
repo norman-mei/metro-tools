@@ -1,4 +1,3 @@
-import { ICity } from '@/lib/citiesConfig'
 import classNames from 'classnames'
 import clsx from 'clsx'
 import Link from 'next/link'
@@ -9,6 +8,8 @@ import OverflowMarquee from '@/components/OverflowMarquee'
 import { useAuth } from '@/context/AuthContext'
 import CityStatsPanel from '@/components/CityStatsPanel'
 import useTranslation from '@/hooks/useTranslation'
+import { STATION_TOTALS } from '@/lib/stationTotals'
+import { ICity } from '@/lib/citiesConfig'
 
 export type CityCardVariant = 'comfortable' | 'compact' | 'cover' | 'list'
 
@@ -55,18 +56,11 @@ const CityCard = ({
 
       try {
         const totalRaw = window.localStorage.getItem(`${slug}-station-total`)
-        if (!totalRaw) {
-          setStationTotal(null)
-          setProgress(0)
-          return
-        }
-
-        const total = Number(totalRaw)
-        if (!Number.isFinite(total) || total <= 0) {
-          setStationTotal(null)
-          setProgress(0)
-          return
-        }
+        const parsedTotal = Number(totalRaw)
+        const stationTotal =
+          (Number.isFinite(parsedTotal) && parsedTotal > 0 ? parsedTotal : null) ??
+          STATION_TOTALS[slug] ??
+          null
 
         const foundRaw = window.localStorage.getItem(`${slug}-stations`)
         let foundCount = 0
@@ -83,8 +77,14 @@ const CityCard = ({
           }
         }
 
-        setStationTotal(total)
-        setProgress(Math.max(0, Math.min(1, foundCount / total)))
+        if (!stationTotal || stationTotal <= 0) {
+          setStationTotal(null)
+          setProgress(0)
+          return
+        }
+
+        setStationTotal(stationTotal)
+        setProgress(Math.max(0, Math.min(1, foundCount / stationTotal)))
       } catch (error) {
         if (process.env.NODE_ENV !== 'production') {
           console.warn('Unable to read city progress', error)

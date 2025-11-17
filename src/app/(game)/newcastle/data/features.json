@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.75947368995955, -32.924329051986035]
+      },
+      "properties": {
+        "name": "Newcastle Interchange",
+        "line": "NewcastleLR",
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.7658105842664, -32.92645012227558]
+      },
+      "properties": {
+        "name": "Honeysuckle",
+        "line": "NewcastleLR",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.77193724291536, -32.92699382137649]
+      },
+      "properties": {
+        "name": "Civic",
+        "line": "NewcastleLR",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.77718722174902, -32.92639238685897]
+      },
+      "properties": {
+        "name": "Crown Street",
+        "line": "NewcastleLR",
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.7816000494174, -32.92632688978504]
+      },
+      "properties": {
+        "name": "Queens Wharf",
+        "line": "NewcastleLR",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.78623280804393, -32.927434498086214]
+      },
+      "properties": {
+        "name": "Newcastle Beach",
+        "line": "NewcastleLR",
+        "id": 5
+      },
+      "id": 5
+    }
+  ]
+}

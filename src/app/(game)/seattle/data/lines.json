@@ -1,0 +1,79 @@
+{
+  "SoundTransit1": {
+    "name": "1 Line",
+    "color": "#3DAE2B",
+    "backgroundColor": "#3DAE2B",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "SoundTransit2": {
+    "name": "2 Line",
+    "color": "#00A0DF",
+    "backgroundColor": "#00A0DF",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "SoundTransitT": {
+    "name": "T Line",
+    "color": "#F38B00",
+    "backgroundColor": "#F38B00",
+    "textColor": "#111827",
+    "order": 2
+  },
+  "SoundTransitN": {
+    "name": "N Line",
+    "color": "#9AB6D3",
+    "backgroundColor": "#9AB6D3",
+    "textColor": "#111827",
+    "order": 3
+  },
+  "SoundTransitS": {
+    "name": "S Line",
+    "color": "#9AB6D3",
+    "backgroundColor": "#9AB6D3",
+    "textColor": "#111827",
+    "order": 4
+  },
+  "SeattleStreetcarSLU": {
+    "name": "South Lake Union",
+    "color": "#F27736",
+    "backgroundColor": "#F27736",
+    "textColor": "#FFFFFF",
+    "order": 5
+  },
+  "SeattleStreetcarFirstHill": {
+    "name": "First Hill",
+    "color": "#B50939",
+    "backgroundColor": "#B50939",
+    "textColor": "#FFFFFF",
+    "order": 6
+  },
+  "SeattleCenterMonorail": {
+    "name": "Seattle Center Monorail",
+    "color": "#004A89",
+    "backgroundColor": "#004A89",
+    "textColor": "#FFFFFF",
+    "order": 7
+  },
+  "MAXGreen": {
+    "name": "Green Line",
+    "color": "#008752",
+    "backgroundColor": "#008752",
+    "textColor": "#FFFFFF",
+    "order": 8
+  },
+  "MAXBlue": {
+    "name": "Blue Line",
+    "color": "#0069AA",
+    "backgroundColor": "#0069AA",
+    "textColor": "#FFFFFF",
+    "order": 9
+  },
+  "MAXYellow": {
+    "name": "Yellow Line",
+    "color": "#FFC424",
+    "backgroundColor": "#FFC424",
+    "textColor": "#111827",
+    "order": 10
+  }
+}

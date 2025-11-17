@@ -1,0 +1,957 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37600808333279,
+          29.832462530670885
+        ]
+      },
+      "properties": {
+        "name": "Northline Transit Center / HCC",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 0,
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37051933626405,
+          29.815792758725514
+        ]
+      },
+      "properties": {
+        "name": "Melbourne / North Lindale",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 1,
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36951744690879,
+          29.808558921483147
+        ]
+      },
+      "properties": {
+        "name": "Lindale Park",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 2,
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36813078197434,
+          29.802752947089544
+        ]
+      },
+      "properties": {
+        "name": "Cavalcade",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 3,
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36580652945463,
+          29.795377970484317
+        ]
+      },
+      "properties": {
+        "name": "Moody Park",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 4,
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3607160535213,
+          29.785791316823722
+        ]
+      },
+      "properties": {
+        "name": "Fulton / North Central",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 5,
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36386650652702,
+          29.780771059246273
+        ]
+      },
+      "properties": {
+        "name": "Quitman / Near Northside",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 6,
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35927910118777,
+          29.771816296625072
+        ]
+      },
+      "properties": {
+        "name": "Burnett Transit Center / Casa De Amigos",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 7,
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35873659419921,
+          29.765880301600518
+        ]
+      },
+      "properties": {
+        "name": "UH-Downtown",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 8,
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36133739443596,
+          29.761514554014497
+        ]
+      },
+      "properties": {
+        "name": "Preston",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 9,
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3634954086414,
+          29.758782471185885
+        ]
+      },
+      "properties": {
+        "name": "Central Station / Main",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 10,
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36521606508622,
+          29.756609759274884
+        ]
+      },
+      "properties": {
+        "name": "Main Street Square",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 11,
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36788970527641,
+          29.75323217785651
+        ]
+      },
+      "properties": {
+        "name": "Bell",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 12,
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37025977827484,
+          29.75023525940748
+        ]
+      },
+      "properties": {
+        "name": "Downtown Transit Center",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 13,
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37408713414683,
+          29.74540796976541
+        ]
+      },
+      "properties": {
+        "name": "McGowen",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 14,
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37905216228745,
+          29.739126622195943
+        ]
+      },
+      "properties": {
+        "name": "Ensemble / HCC",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 15,
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38340094863193,
+          29.7327335745869
+        ]
+      },
+      "properties": {
+        "name": "Wheeler",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 16,
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38817478352222,
+          29.72432790429925
+        ]
+      },
+      "properties": {
+        "name": "Museum District",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 17,
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38909684350654,
+          29.724745082831458
+        ]
+      },
+      "properties": {
+        "name": "Museum District",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 18,
+        "id": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39358163400362,
+          29.72003043401552
+        ]
+      },
+      "properties": {
+        "name": "Hermann Park / Rice University",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 19,
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39713117809283,
+          29.71446713274583
+        ]
+      },
+      "properties": {
+        "name": "Memorial Hermann Hospital / Houston Zoo",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 20,
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40088934968294,
+          29.709723910033997
+        ]
+      },
+      "properties": {
+        "name": "Dryden / TMC",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 21,
+        "id": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40290672708423,
+          29.704127418105163
+        ]
+      },
+      "properties": {
+        "name": "TMC Transit Center",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 22,
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40483684754008,
+          29.69647184362438
+        ]
+      },
+      "properties": {
+        "name": "Smith Lands",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 23,
+        "id": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40337995985796,
+          29.68593412365343
+        ]
+      },
+      "properties": {
+        "name": "Reliant Park",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 24,
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40283663607936,
+          29.67359125124387
+        ]
+      },
+      "properties": {
+        "name": "Fannin South",
+        "line": "Houston_METRORail_Red_Line_icon",
+        "order": 25,
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36768573992603,
+          29.760775942397846
+        ]
+      },
+      "properties": {
+        "name": "Theater District",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 0,
+        "id": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36260299081142,
+          29.757709479118954
+        ]
+      },
+      "properties": {
+        "name": "Central Station / Rusk",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 1,
+        "id": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36193514914305,
+          29.75838574227531
+        ]
+      },
+      "properties": {
+        "name": "Central Station / Capitol",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 2,
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35632312812928,
+          29.755016686146263
+        ]
+      },
+      "properties": {
+        "name": "Convention District",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 3,
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35196630048318,
+          29.753553488331843
+        ]
+      },
+      "properties": {
+        "name": "EaDo / Stadium",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 4,
+        "id": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34011654086554,
+          29.747561508988213
+        ]
+      },
+      "properties": {
+        "name": "Coffee Plant / Second Ward",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 5,
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.32974012592517,
+          29.74367899775424
+        ]
+      },
+      "properties": {
+        "name": "Lockwood / Eastwood",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 6,
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.32015995701313,
+          29.741163946845074
+        ]
+      },
+      "properties": {
+        "name": "Altic / Howard Hughes",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 7,
+        "id": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.30289962666899,
+          29.73587839560495
+        ]
+      },
+      "properties": {
+        "name": "Magnolia Park",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 8,
+        "id": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.30826938004209,
+          29.737546412049547
+        ]
+      },
+      "properties": {
+        "name": "Cesar Chavez / 67th St",
+        "line": "Houston_METRORail_Green_Line_icon",
+        "order": 9,
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36768573992603,
+          29.760775942397846
+        ]
+      },
+      "properties": {
+        "name": "Theater District",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 0,
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36260299081142,
+          29.757709479118954
+        ]
+      },
+      "properties": {
+        "name": "Central Station / Rusk",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 1,
+        "id": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36193514914305,
+          29.75838574227531
+        ]
+      },
+      "properties": {
+        "name": "Central Station / Capitol",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 2,
+        "id": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35632312812928,
+          29.755016686146263
+        ]
+      },
+      "properties": {
+        "name": "Convention District",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 3,
+        "id": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35196630048318,
+          29.753553488331843
+        ]
+      },
+      "properties": {
+        "name": "EaDo / Stadium",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 4,
+        "id": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34580496887612,
+          29.73925694437738
+        ]
+      },
+      "properties": {
+        "name": "Leeland / Third Ward",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 5,
+        "id": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34988702152414,
+          29.72839193302566
+        ]
+      },
+      "properties": {
+        "name": "Elgin / Third Ward",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 6,
+        "id": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35136820209945,
+          29.72207919433517
+        ]
+      },
+      "properties": {
+        "name": "Robertson Stadium / UH / TSU",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 7,
+        "id": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34119049669985,
+          29.716122136835253
+        ]
+      },
+      "properties": {
+        "name": "UH South / University Oaks",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 8,
+        "id": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33650917273135,
+          29.709404749374844
+        ]
+      },
+      "properties": {
+        "name": "MacGregor Park / Martin Luther King Jr",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 9,
+        "id": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33230547728375,
+          29.696492374748974
+        ]
+      },
+      "properties": {
+        "name": "Palm Center Transit Center",
+        "line": "Houston_METRORail_Purple_Line_icon",
+        "order": 10,
+        "id": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33335724612506,
+          29.986629196182577
+        ]
+      },
+      "properties": {
+        "name": "Terminal D/Terminal E",
+        "line": "houstonSUB",
+        "order": 0,
+        "id": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33833705185252,
+          29.986723362330395
+        ]
+      },
+      "properties": {
+        "name": "Terminal C",
+        "line": "houstonSUB",
+        "order": 1,
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34223196083796,
+          29.98669438509126
+        ]
+      },
+      "properties": {
+        "name": "Houston Airport Marriott",
+        "line": "houstonSUB",
+        "order": 2,
+        "id": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3455695435779,
+          29.986726170613036
+        ]
+      },
+      "properties": {
+        "name": "Terminal B",
+        "line": "houstonSUB",
+        "order": 3,
+        "id": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34998243198902,
+          29.98673373048187
+        ]
+      },
+      "properties": {
+        "name": "Terminal A",
+        "line": "houstonSUB",
+        "order": 4,
+        "id": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33341644198312,
+          29.987215818207474
+        ]
+      },
+      "properties": {
+        "name": "Terminal D/Terminal E",
+        "line": "houstonSKY",
+        "order": 0,
+        "id": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33899025990681,
+          29.98746191623192
+        ]
+      },
+      "properties": {
+        "name": "Terminal C",
+        "line": "houstonSKY",
+        "order": 1,
+        "id": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34557910484473,
+          29.987362025645705
+        ]
+      },
+      "properties": {
+        "name": "Terminal B",
+        "line": "houstonSKY",
+        "order": 2,
+        "id": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.349966093178,
+          29.987399292637175
+        ]
+      },
+      "properties": {
+        "name": "Terminal A",
+        "line": "houstonSKY",
+        "order": 3,
+        "id": 55
+      },
+      "id": 55
+    }
+  ]
+}

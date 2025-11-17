@@ -1,0 +1,9 @@
+{
+  "MAXRed": {
+    "name": "Galveston Island Trolley",
+    "color": "#D11241",
+    "backgroundColor": "#D11241",
+    "textColor": "#FFFFFF",
+    "order": 0
+  }
+}

@@ -48,12 +48,15 @@ type SettingsContextValue = {
   setAchievementToastsEnabled: (enabled: boolean) => void
   setStopConfettiAfterCompletion: (enabled: boolean) => void
   setAccentColor: (accent: AccentColorId) => void
+  notifySettingsSaved: () => void
+  lastSavedAt: number
 }
 
 const SettingsContext = createContext<SettingsContextValue | undefined>(undefined)
 
 export const SettingsProvider = ({ children }: { children: ReactNode }) => {
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS)
+  const [lastSavedAt, setLastSavedAt] = useState(0)
 
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -109,15 +112,27 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
     }
   }, [])
 
+  const notifySettingsSaved = useCallback(() => {
+    setLastSavedAt(Date.now())
+  }, [])
+
   const updateSettings = useCallback(
     (partial: Partial<Settings>) => {
       setSettings((prev) => {
+        const entries = Object.entries(partial) as [keyof Settings, Settings[keyof Settings]][]
+        const shouldUpdate = entries.some(
+          ([key, value]) => value !== undefined && prev[key] !== value,
+        )
+        if (!shouldUpdate) {
+          return prev
+        }
         const next = { ...prev, ...partial }
         persist(next)
+        notifySettingsSaved()
         return next
       })
     },
-    [persist],
+    [persist, notifySettingsSaved],
   )
 
   const value = useMemo(
@@ -133,8 +148,10 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
           updateSettings({ accentColor: accent })
         }
       },
+      notifySettingsSaved,
+      lastSavedAt,
     }),
-    [settings, updateSettings],
+    [settings, updateSettings, notifySettingsSaved, lastSavedAt],
   )
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>

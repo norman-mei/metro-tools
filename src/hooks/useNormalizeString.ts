@@ -1,5 +1,29 @@
 import { useConfig } from '@/lib/configContext'
 
+const applyCommonAbbreviations = (str: string) =>
+  str
+    .replace(/street/g, 'st')
+    .replace(/ avenue/g, ' av')
+    .replace(/ ave/g, ' av')
+    .replace(/\bavenue ([a-z])\b/g, ' av $1')
+    .replace(/\bave ([a-z])\b/g, ' av $1')
+    .replace(/ road/g, ' rd')
+    .replace(/ parkway/g, ' pkwy')
+    .replace(/\bpark\b/g, ' pk')
+    .replace(/ square/g, ' sq')
+    .replace(/\bplaza\b/g, ' plz')
+    .replace(/ drive/g, ' dr')
+    .replace(/\bcourt\b/g, 'ct')
+    .replace(/ junction/g, ' jct')
+    .replace(/ place/g, ' pl')
+    .replace(/\bcenter\b/g, 'ctr')
+    .replace(/\bcentre\b/g, 'ctr')
+    .replace(/ boulevard/g, ' blvd')
+    .replace(/\bpoint\b/g, ' pt')
+    .replace(/\bfort\b/g, 'ft')
+    .replace(/ and /g, ' ')
+    .replace(/ & /g, ' ')
+
 const replacers: { [key: string]: (str: string) => string } = {
   default: (str: string) => str,
 
@@ -224,21 +248,29 @@ const replacers: { [key: string]: (str: string) => string } = {
       .trim(),
 }
 
+const NON_LATIN_ALLOWED_CITIES = new Set(['thsr', 'seoul', 'tokyo'])
+
 const getCustomReplacer = (cityName: string) => {
   return replacers[cityName] || replacers['default']
 }
 
 export const normalizeString = (city: string) => {
-  // normalization for seoul and tokyo does not use roman characters only
-  if (city === 'seoul' || city === 'tokyo') {
-    return getCustomReplacer(city)
+  const reorderSeparatedSegments = (str: string) => {
+    const parts = str.split(/\s*[/-]\s*/)
+    if (parts.length <= 1) return str
+    const normalizedParts = parts.map((p) => p.trim()).filter(Boolean)
+    if (normalizedParts.length <= 1) return str
+    // avoid reordering simple hyphenations without spaces (e.g., san-juan)
+    const hasMultiWordSegment = normalizedParts.some((p) => p.includes(' '))
+    if (!hasMultiWordSegment) return str
+    return normalizedParts.sort((a, b) => a.localeCompare(b)).join(' ')
   }
 
   const normalizeStringBefore = (str?: string) =>
-    (str || '')
-      .toLowerCase()
+    reorderSeparatedSegments((str || '').toLowerCase())
       .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ')
       .replace(/[\u2010-\u2015]/g, ' ')
+      .replace(/[\u02c6-\u02cf\u02d8-\u02dd]/g, '')
       .replace(/[\u0300-\u036F]/g, '')
 
   const customReplacements = getCustomReplacer(city)
@@ -246,12 +278,17 @@ export const normalizeString = (city: string) => {
   const normalizeStringAfter = (str?: string) =>
     (str || '')
       .normalize('NFD')
-      .replace(/[^a-z0-9]/g, '')
+      .replace(
+        NON_LATIN_ALLOWED_CITIES.has(city)
+          ? /[^a-z0-9\u3100-\u312f\u31a0-\u31bf\u3400-\u4dbf\u4e00-\u9fff]/g
+          : /[^a-z0-9]/g,
+        '',
+      )
       .replace(/\s+/g, ' ')
       .trim()
 
   return (str?: string) =>
-    normalizeStringAfter(customReplacements(normalizeStringBefore(str)))
+    normalizeStringAfter(applyCommonAbbreviations(customReplacements(normalizeStringBefore(str))))
 }
 
 const useNormalizeString = () => {

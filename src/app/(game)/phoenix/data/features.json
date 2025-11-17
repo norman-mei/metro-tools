@@ -1,0 +1,1286 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073762835501,
+          33.4475554060542
+        ]
+      },
+      "properties": {
+        "name": "Downtown Phoenix Hub",
+        "line": "ValleyMetroA",
+        "order": 0,
+        "id": 0,
+        "alternate_names": [
+          "Downtown Phx Hub"
+        ]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.069311297029,
+          33.4462716774751
+        ]
+      },
+      "properties": {
+        "name": "3rd Street/Jefferson",
+        "line": "ValleyMetroA",
+        "order": 1,
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.070620606321,
+          33.4483506229476
+        ]
+      },
+      "properties": {
+        "name": "3rd Street/Washington",
+        "line": "ValleyMetroA",
+        "order": 2,
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.055659407477,
+          33.4471994248145
+        ]
+      },
+      "properties": {
+        "name": "12th Street/Jefferson",
+        "line": "ValleyMetroA",
+        "order": 3,
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.057211636116,
+          33.4482490199803
+        ]
+      },
+      "properties": {
+        "name": "12th Street/Washington",
+        "line": "ValleyMetroA",
+        "order": 4,
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.02928243755,
+          33.4472274301101
+        ]
+      },
+      "properties": {
+        "name": "24th Street/Jefferson",
+        "line": "ValleyMetroA",
+        "order": 5,
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.029288796535,
+          33.4481911529942
+        ]
+      },
+      "properties": {
+        "name": "24th Street/Washington",
+        "line": "ValleyMetroA",
+        "order": 6,
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.999886358593,
+          33.4481023520395
+        ]
+      },
+      "properties": {
+        "name": "38th Street/Washington",
+        "line": "ValleyMetroA",
+        "order": 7,
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.987983136676,
+          33.4481699244174
+        ]
+      },
+      "properties": {
+        "name": "44th Street/Washington",
+        "line": "ValleyMetroA",
+        "order": 8,
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.974740932105,
+          33.4469297567996
+        ]
+      },
+      "properties": {
+        "name": "50th Street/Washington",
+        "line": "ValleyMetroA",
+        "order": 9,
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.956090063468,
+          33.4420029416517
+        ]
+      },
+      "properties": {
+        "name": "Priest Drive/Washington",
+        "line": "ValleyMetroA",
+        "order": 10,
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.946627682264,
+          33.4380630453521
+        ]
+      },
+      "properties": {
+        "name": "Center Parkway/Washington",
+        "line": "ValleyMetroA",
+        "order": 11,
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940680046286,
+          33.4275021337507
+        ]
+      },
+      "properties": {
+        "name": "Mill Avenue/3rd Street",
+        "line": "ValleyMetroA",
+        "order": 12,
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.935920525379,
+          33.4261258183162
+        ]
+      },
+      "properties": {
+        "name": "Veterans Way/College Avenue",
+        "line": "ValleyMetroA",
+        "order": 13,
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.926903053989,
+          33.4207581730884
+        ]
+      },
+      "properties": {
+        "name": "University Drive/Rural",
+        "line": "ValleyMetroA",
+        "order": 14,
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916881324685,
+          33.4147603692334
+        ]
+      },
+      "properties": {
+        "name": "Dorsey/Apache Boulevard",
+        "line": "ValleyMetroA",
+        "order": 15,
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.908240039912,
+          33.4147258670684
+        ]
+      },
+      "properties": {
+        "name": "McClintock/Apache Boulevard",
+        "line": "ValleyMetroA",
+        "order": 16,
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.900765828012,
+          33.4147834701956
+        ]
+      },
+      "properties": {
+        "name": "Smith–Martin/Apache Boulevard",
+        "line": "ValleyMetroA",
+        "order": 17,
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88808677454,
+          33.4148134350923
+        ]
+      },
+      "properties": {
+        "name": "Price–101 Freeway/Apache Boulevard",
+        "line": "ValleyMetroA",
+        "order": 18,
+        "id": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.870891244229,
+          33.4148508535363
+        ]
+      },
+      "properties": {
+        "name": "Sycamore/Main Street",
+        "line": "ValleyMetroA",
+        "order": 19,
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.855565487856,
+          33.4149411135333
+        ]
+      },
+      "properties": {
+        "name": "Alma School/Main Street",
+        "line": "ValleyMetroA",
+        "order": 20,
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.839072866663,
+          33.4151203386989
+        ]
+      },
+      "properties": {
+        "name": "Country Club/Main Street",
+        "line": "ValleyMetroA",
+        "order": 21,
+        "id": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.830645946242,
+          33.4151070876911
+        ]
+      },
+      "properties": {
+        "name": "Center/Main Street",
+        "line": "ValleyMetroA",
+        "order": 22,
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.822144320827,
+          33.4150636945396
+        ]
+      },
+      "properties": {
+        "name": "Mesa Drive/Main Street",
+        "line": "ValleyMetroA",
+        "order": 23,
+        "id": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.802801849018,
+          33.4152358622292
+        ]
+      },
+      "properties": {
+        "name": "Stapley/Main Street",
+        "line": "ValleyMetroA",
+        "order": 24,
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.790306258204,
+          33.4153173038124
+        ]
+      },
+      "properties": {
+        "name": "Gilbert Road/Main Street",
+        "line": "ValleyMetroA",
+        "order": 25,
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.11822142506,
+          33.5750384684392
+        ]
+      },
+      "properties": {
+        "name": "Metro Parkway",
+        "line": "ValleyMetroB",
+        "order": 0,
+        "id": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.112254197224,
+          33.573055338879
+        ]
+      },
+      "properties": {
+        "name": "Mountain View/25th Avenue",
+        "line": "ValleyMetroB",
+        "order": 1,
+        "id": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.111301188086,
+          33.5675546405524
+        ]
+      },
+      "properties": {
+        "name": "25th Avenue/Dunlap",
+        "line": "ValleyMetroB",
+        "order": 2,
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.100759466221,
+          33.5673974970999
+        ]
+      },
+      "properties": {
+        "name": "19th Avenue/Dunlap",
+        "line": "ValleyMetroB",
+        "order": 3,
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.099628965907,
+          33.5520712942292
+        ]
+      },
+      "properties": {
+        "name": "Northern/19th Avenue",
+        "line": "ValleyMetroB",
+        "order": 4,
+        "id": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.099700877682,
+          33.537384358998
+        ]
+      },
+      "properties": {
+        "name": "Glendale/19th Avenue",
+        "line": "ValleyMetroB",
+        "order": 5,
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.099731008771,
+          33.5205918539304
+        ]
+      },
+      "properties": {
+        "name": "Montebello/19th Avenue",
+        "line": "ValleyMetroB",
+        "order": 6,
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.09880709341,
+          33.5095430671203
+        ]
+      },
+      "properties": {
+        "name": "19th Avenue/Camelback",
+        "line": "ValleyMetroB",
+        "order": 7,
+        "id": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.083336174682,
+          33.5093081689245
+        ]
+      },
+      "properties": {
+        "name": "7th Avenue/Camelback",
+        "line": "ValleyMetroB",
+        "order": 8,
+        "id": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.075308589731,
+          33.5086654010472
+        ]
+      },
+      "properties": {
+        "name": "Central Avenue/Camelback",
+        "line": "ValleyMetroB",
+        "order": 9,
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073785892661,
+          33.5014098853515
+        ]
+      },
+      "properties": {
+        "name": "Campbell/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 10,
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07378741844,
+          33.4957540851608
+        ]
+      },
+      "properties": {
+        "name": "Indian School/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 11,
+        "id": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073806872517,
+          33.4868613021321
+        ]
+      },
+      "properties": {
+        "name": "Osborn/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 12,
+        "id": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073771583811,
+          33.481227476293
+        ]
+      },
+      "properties": {
+        "name": "Thomas/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 13,
+        "id": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073815052099,
+          33.473667056443
+        ]
+      },
+      "properties": {
+        "name": "Encanto/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 14,
+        "id": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073820719648,
+          33.4647252356442
+        ]
+      },
+      "properties": {
+        "name": "McDowell/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 15,
+        "id": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073965959755,
+          33.4592446461802
+        ]
+      },
+      "properties": {
+        "name": "Roosevelt/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 16,
+        "id": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.075053325998,
+          33.4519256270734
+        ]
+      },
+      "properties": {
+        "name": "Van Buren/1st Avenue",
+        "line": "ValleyMetroB",
+        "order": 17,
+        "id": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073966654798,
+          33.4519144172446
+        ]
+      },
+      "properties": {
+        "name": "Van Buren/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 18,
+        "id": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073927522664,
+          33.4488759878778
+        ]
+      },
+      "properties": {
+        "name": "Washington/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 19,
+        "id": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073762835501,
+          33.4475554060542
+        ]
+      },
+      "properties": {
+        "name": "Downtown Phoenix Hub",
+        "line": "ValleyMetroB",
+        "order": 20,
+        "id": 46,
+        "alternate_names": [
+          "Downtown Phx Hub"
+        ]
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07495298225,
+          33.4416888657929
+        ]
+      },
+      "properties": {
+        "name": "Lincoln/1st Avenue",
+        "line": "ValleyMetroB",
+        "order": 21,
+        "id": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073833096013,
+          33.4416761126636
+        ]
+      },
+      "properties": {
+        "name": "Lincoln/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 22,
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07373613984,
+          33.4360481262768
+        ]
+      },
+      "properties": {
+        "name": "Buckeye/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 23,
+        "id": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073503815189,
+          33.4181643098729
+        ]
+      },
+      "properties": {
+        "name": "Pioneer/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 24,
+        "id": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073340651292,
+          33.4058308722763
+        ]
+      },
+      "properties": {
+        "name": "Broadway/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 25,
+        "id": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07333112433,
+          33.3991484954167
+        ]
+      },
+      "properties": {
+        "name": "Roeser/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 26,
+        "id": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073310634702,
+          33.3913300737558
+        ]
+      },
+      "properties": {
+        "name": "Southern/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 27,
+        "id": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.073255447914,
+          33.3782750838073
+        ]
+      },
+      "properties": {
+        "name": "Baseline/Central Avenue",
+        "line": "ValleyMetroB",
+        "order": 28,
+        "id": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.932672883427,
+          33.4293695048383
+        ]
+      },
+      "properties": {
+        "name": "Marina Heights/Rio Salado Parkway",
+        "line": "ValleyMetroS",
+        "order": 0,
+        "id": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.93815295444,
+          33.4301267244977
+        ]
+      },
+      "properties": {
+        "name": "Hayden Ferry/Rio Salado Parkway",
+        "line": "ValleyMetroS",
+        "order": 1,
+        "id": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.941982063914,
+          33.4294559984652
+        ]
+      },
+      "properties": {
+        "name": "Tempe Beach Park/Rio Salado Parkway",
+        "line": "ValleyMetroS",
+        "order": 2,
+        "id": 57
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939941397121,
+          33.4279472732223
+        ]
+      },
+      "properties": {
+        "name": "3rd Street/Mill Avenue",
+        "line": "ValleyMetroS",
+        "order": 3,
+        "id": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.943020871362,
+          33.4274026530746
+        ]
+      },
+      "properties": {
+        "name": "3rd Street/Ash Avenue",
+        "line": "ValleyMetroS",
+        "order": 4,
+        "id": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.943457941917,
+          33.4251032037422
+        ]
+      },
+      "properties": {
+        "name": "5th Street/Ash Avenue",
+        "line": "ValleyMetroS",
+        "order": 5,
+        "id": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940005277903,
+          33.4249166649662
+        ]
+      },
+      "properties": {
+        "name": "6th Street/Mill Avenue",
+        "line": "ValleyMetroS",
+        "order": 6,
+        "id": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.942497092837,
+          33.4223609166752
+        ]
+      },
+      "properties": {
+        "name": "University Drive/Ash Avenue",
+        "line": "ValleyMetroS",
+        "order": 7,
+        "id": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939952190215,
+          33.4209327530431
+        ]
+      },
+      "properties": {
+        "name": "9th Street/Mill Avenue",
+        "line": "ValleyMetroS",
+        "order": 8,
+        "id": 63
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939911181563,
+          33.4180914247337
+        ]
+      },
+      "properties": {
+        "name": "11th Street/Mill Avenue",
+        "line": "ValleyMetroS",
+        "order": 9,
+        "id": 64
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.935274839588,
+          33.4146892169494
+        ]
+      },
+      "properties": {
+        "name": "College Avenue/Apache Boulevard",
+        "line": "ValleyMetroS",
+        "order": 10,
+        "id": 65
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.929363556996,
+          33.4147452653425
+        ]
+      },
+      "properties": {
+        "name": "Paseo del Saber/Apache Boulevard",
+        "line": "ValleyMetroS",
+        "order": 11,
+        "id": 66
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925251431122,
+          33.4147672021976
+        ]
+      },
+      "properties": {
+        "name": "Rural/Apache Boulevard",
+        "line": "ValleyMetroS",
+        "order": 12,
+        "id": 67
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.917065491169,
+          33.4146637734149
+        ]
+      },
+      "properties": {
+        "name": "Dorsey/Apache Boulevard",
+        "line": "ValleyMetroS",
+        "order": 13,
+        "id": 68
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.04451526592275,
+          33.430814331255384
+        ]
+      },
+      "properties": {
+        "name": "Rental Car Center",
+        "line": "PHXSKY",
+        "order": 0,
+        "id": 69
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.03263013706733,
+          33.435269864383734
+        ]
+      },
+      "properties": {
+        "name": "24th St Economy Parking",
+        "line": "PHXSKY",
+        "order": 1,
+        "id": 70
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.00999040247332,
+          33.43477805829031
+        ]
+      },
+      "properties": {
+        "name": "Terminal 3",
+        "line": "PHXSKY",
+        "order": 2,
+        "id": 71
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9980452592397,
+          33.43476367652381
+        ]
+      },
+      "properties": {
+        "name": "Terminal 4",
+        "line": "PHXSKY",
+        "order": 3,
+        "id": 72
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98493866246363,
+          33.434670800189615
+        ]
+      },
+      "properties": {
+        "name": "East Economy Parking",
+        "line": "PHXSKY",
+        "order": 4,
+        "id": 73
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.99038075556378,
+          33.44697030660122
+        ]
+      },
+      "properties": {
+        "name": "44th Street/Washington",
+        "line": "PHXSKY",
+        "order": 5,
+        "id": 74
+      },
+      "id": 74
+    }
+  ]
+}

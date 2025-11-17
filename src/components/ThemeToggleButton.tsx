@@ -2,7 +2,8 @@
 
 import classNames from 'classnames'
 import { useTheme } from 'next-themes'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
+import { useSettings } from '@/context/SettingsContext'
 
 function SunIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -44,6 +45,11 @@ export default function ThemeToggleButton({
   const { resolvedTheme, setTheme } = useTheme()
   const otherTheme = resolvedTheme === 'dark' ? 'light' : 'dark'
   const [mounted, setMounted] = useState(false)
+  const { notifySettingsSaved } = useSettings()
+  const handleToggleTheme = useCallback(() => {
+    setTheme(otherTheme)
+    notifySettingsSaved()
+  }, [notifySettingsSaved, otherTheme, setTheme])
 
   useEffect(() => {
     setMounted(true)
@@ -57,7 +63,7 @@ export default function ThemeToggleButton({
         'group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20',
         className,
       )}
-      onClick={() => setTheme(otherTheme)}
+      onClick={handleToggleTheme}
     >
       <SunIcon className="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600" />
       <MoonIcon className="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500" />

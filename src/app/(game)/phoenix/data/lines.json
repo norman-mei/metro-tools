@@ -1,0 +1,30 @@
+{
+  "ValleyMetroA": {
+    "name": "A Line",
+    "color": "#238dcd",
+    "backgroundColor": "#238dcd",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "ValleyMetroB": {
+    "name": "B Line",
+    "color": "#F68C1E",
+    "backgroundColor": "#F68C1E",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "ValleyMetroS": {
+    "name": "S Line Streetcar",
+    "color": "#AACE4F",
+    "backgroundColor": "#AACE4F",
+    "textColor": "#323640",
+    "order": 2
+  },
+  "PHXSKY": {
+    "name": "PHX SkyTrain",
+    "color": "#FFE600",
+    "backgroundColor": "#FFE600",
+    "textColor": "#000000",
+    "order": 3
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "MAXBlue": {
+    "name": "METRO Blue Line",
+    "color": "#0069AA",
+    "backgroundColor": "#0069AA",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "MAXGreen": {
+    "name": "METRO Green Line",
+    "color": "#008752",
+    "backgroundColor": "#008752",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "HubTram": {
+    "name": "Hub Tram",
+    "color": "#EF4D2E",
+    "backgroundColor": "#EF4D2E",
+    "textColor": "#FFFFFF",
+    "order": 2
+  },
+  "ConcourseCMover": {
+    "name": "'C' Concourse People Mover",
+    "color": "#FFF700",
+    "backgroundColor": "#FFF700",
+    "textColor": "#000000",
+    "order": 3
+  }
+}

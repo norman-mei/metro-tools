@@ -13,10 +13,13 @@ import classNames from 'classnames'
 import Fuse from 'fuse.js'
 import { Transition } from '@headlessui/react'
 import { useSearchParams } from 'next/navigation'
+import Link from 'next/link'
+import { useTheme } from 'next-themes'
 
 import { cities, ICity } from '@/lib/citiesConfig'
 import { getAchievementForCity } from '@/lib/achievements'
 import CityCard from '@/components/CityCard'
+import CityStatsPanel from '@/components/CityStatsPanel'
 import CreditsContent from '@/components/CreditsContent'
 import CollapsibleSection from '@/components/CollapsibleSection'
 import AchievementIcon from '@/components/AchievementIcon'
@@ -24,6 +27,7 @@ import SettingsPanel from '@/components/SettingsPanel'
 import AccountDashboard from '@/app/(website)/account/panel'
 import useTranslation from '@/hooks/useTranslation'
 import { useAuth } from '@/context/AuthContext'
+import { STATION_TOTALS } from '@/lib/stationTotals'
 
 type CitySortOption =
   | 'default'
@@ -74,9 +78,11 @@ const TAB_OPTIONS: Array<{ id: TabOption; label: string }> = [
   // { id: 'account', label: 'Account' }, // reserved for future use
   { id: 'testimonials', label: 'What people say' },
   { id: 'press', label: 'They talked about us' },
+  { id: 'globalStats', label: 'Global Stats' },
   { id: 'settings', label: 'Settings' },
   // { id: 'privacy', label: 'Privacy' }, // reserved for future use
 ]
+const TAB_STORAGE_KEY = 'metro-memory-active-tab'
 
 type TabOption =
   | 'cities'
@@ -87,6 +93,7 @@ type TabOption =
   | 'press'
   | 'settings'
   | 'account'
+  | 'globalStats'
   // | 'privacy'
 
 type UpdateLogStatus = 'idle' | 'loading' | 'success' | 'error'
@@ -270,6 +277,39 @@ type SearcheableCitiesListProps = {
   pressContent?: ReactNode
 }
 
+const clamp01 = (value: number) => Math.max(0, Math.min(1, value))
+
+const mixChannel = (start: number, end: number, t: number) =>
+  Math.round(start + (end - start) * clamp01(t))
+
+const getGradientColor = (percent: number) => {
+  const t = clamp01(percent)
+  const hue = 120 * t // 0 = red, 120 = green
+  const saturation = mixChannel(75, 65, t) // slightly dial back saturation toward green
+  return `hsl(${hue}deg, ${saturation}%, 50%)`
+}
+
+const getBarBackground = (percent: number) => {
+  const midColor = getGradientColor(percent)
+  return `linear-gradient(90deg, ${midColor} 0%, ${midColor} 100%)`
+}
+
+type GlobalStats = {
+  totalStationsFound: number
+  totalStations: number
+  percentFound: number
+  cityBreakdown: Array<{
+    slug: string
+    name: string
+    percent: number
+    found: number
+    total: number
+  }>
+  completedCities: number
+  partialCities: number
+  notStartedCities: number
+}
+
 const SearcheableCitiesList = ({
   testimonialsContent,
   pressContent,
@@ -280,6 +320,8 @@ const SearcheableCitiesList = ({
   const [activeTab, setActiveTab] = useState<TabOption>('cities')
   const [search, setSearch] = useState('')
   const [citySort, setCitySort] = useState<CitySortOption>('default')
+  const [globalStatsSearch, setGlobalStatsSearch] = useState('')
+  const [globalStatsSort, setGlobalStatsSort] = useState<CitySortOption>('default')
   const [cityViewMode, setCityViewMode] = useState<CityViewMode>('comfortable')
   const [achievementSearch, setAchievementSearch] = useState('')
   const [achievementSort, setAchievementSort] = useState<AchievementSortOption>('default')
@@ -290,6 +332,17 @@ const SearcheableCitiesList = ({
   })
   const { progressSummaries } = useAuth()
   const [cityProgress, setCityProgress] = useState<Record<string, number>>({})
+  const [globalStats, setGlobalStats] = useState<GlobalStats>({
+    totalStationsFound: 0,
+    totalStations: 0,
+    percentFound: 0,
+    cityBreakdown: [],
+    completedCities: 0,
+    partialCities: 0,
+    notStartedCities: 0,
+  })
+  const [statsOpen, setStatsOpen] = useState(false)
+  const [statsSlug, setStatsSlug] = useState<string | null>(null)
 
   const enrichedCities = useMemo(() => enrichCities(cities), [])
   const cityAchievementCatalog = useMemo(() => {
@@ -310,6 +363,18 @@ const SearcheableCitiesList = ({
       })
       .filter((entry): entry is AchievementMeta => entry !== null)
   }, [enrichedCities])
+  const cityMetaBySlug = useMemo(() => {
+    const map = new Map<string, ICity>()
+    enrichedCities.forEach((city) => {
+      const slug = getSlugFromLink(city.link)
+      if (slug) {
+        map.set(slug, city)
+      }
+    })
+    return map
+  }, [enrichedCities])
+  const { resolvedTheme } = useTheme()
+  const isDark = resolvedTheme === 'dark'
 
   const masterAchievement = useMemo<AchievementMeta>(() => {
     const totalCities = cityAchievementCatalog.length
@@ -361,6 +426,13 @@ const SearcheableCitiesList = ({
       return
     }
     const next: Record<string, number> = {}
+    const breakdown: GlobalStats['cityBreakdown'] = []
+    let totalStations = 0
+    let totalFound = 0
+    let completedCities = 0
+    let partialCities = 0
+    let notStartedCities = 0
+
     enrichedCities.forEach((city) => {
       const slug = getSlugFromLink(city.link)
       if (!slug) {
@@ -368,7 +440,13 @@ const SearcheableCitiesList = ({
       }
       const totalRaw = window.localStorage.getItem(`${slug}-station-total`)
       const total = Number(totalRaw)
-      const totalStations = Number.isFinite(total) && total > 0 ? total : null
+      const storedStationTotal = Number.isFinite(total) && total > 0 ? total : null
+      const fallbackStationTotal = STATION_TOTALS[slug]
+      const cityStationTotal =
+        storedStationTotal ??
+        (typeof fallbackStationTotal === 'number' && fallbackStationTotal > 0
+          ? fallbackStationTotal
+          : null)
       let foundCount = 0
       const stored = window.localStorage.getItem(`${slug}-stations`)
       if (stored) {
@@ -388,12 +466,42 @@ const SearcheableCitiesList = ({
         foundCount = remoteFound
       }
       let ratio = 0
-      if (totalStations && totalStations > 0) {
-        ratio = Math.max(0, Math.min(1, foundCount / totalStations))
+      if (cityStationTotal && cityStationTotal > 0) {
+        ratio = Math.max(0, Math.min(1, foundCount / cityStationTotal))
       } else if (foundCount > 0) {
         ratio = 1
       }
       next[slug] = ratio
+
+      const cityTotalStations = cityStationTotal ?? foundCount
+      totalStations += cityTotalStations
+      totalFound += Math.min(foundCount, cityTotalStations)
+
+      if (ratio >= 1) {
+        completedCities += 1
+      } else if (ratio > 0) {
+        partialCities += 1
+      } else {
+        notStartedCities += 1
+      }
+
+      breakdown.push({
+        slug,
+        name: city.name,
+        percent: ratio,
+        found: foundCount,
+        total: cityTotalStations,
+      })
+    })
+
+    setGlobalStats({
+      totalStationsFound: totalFound,
+      totalStations,
+      percentFound: totalStations > 0 ? totalFound / totalStations : 0,
+      cityBreakdown: breakdown.sort((a, b) => a.name.localeCompare(b.name)),
+      completedCities,
+      partialCities,
+      notStartedCities,
     })
     setCityProgress(next)
   }, [enrichedCities, progressSummaries])
@@ -416,6 +524,92 @@ const SearcheableCitiesList = ({
       window.removeEventListener('focus', handleProgressUpdate)
     }
   }, [computeCityProgress])
+
+  const cityMatchesSearch = (entry: (typeof globalStats)['cityBreakdown'][number]) => {
+    const query = globalStatsSearch.trim().toLowerCase()
+    if (!query) return true
+    const cityMeta = cityMetaBySlug.get(entry.slug)
+    const keywords = cityMeta?.keywords?.join(' ') ?? ''
+    const haystack = `${entry.name} ${entry.slug} ${cityMeta?.continent ?? ''} ${keywords}`.toLowerCase()
+    return haystack.includes(query)
+  }
+
+  const visibleCityBreakdown = useMemo(() => {
+    const filtered = globalStats.cityBreakdown.filter(cityMatchesSearch)
+    const compareName = (a: GlobalStats['cityBreakdown'][number], b: GlobalStats['cityBreakdown'][number]) =>
+      a.name.localeCompare(b.name)
+    const continentOf = (entry: GlobalStats['cityBreakdown'][number]) =>
+      cityMetaBySlug.get(entry.slug)?.continent ?? ''
+    const compareContinent = (
+      a: GlobalStats['cityBreakdown'][number],
+      b: GlobalStats['cityBreakdown'][number],
+    ) => {
+      const result = continentOf(a).localeCompare(continentOf(b))
+      return result !== 0 ? result : compareName(a, b)
+    }
+    const getProgress = (entry: GlobalStats['cityBreakdown'][number]) => clamp01(entry.percent)
+    const base = [...filtered]
+    switch (globalStatsSort) {
+      case 'name-asc':
+        return base.sort(compareName)
+      case 'name-desc':
+        return base.sort((a, b) => compareName(b, a))
+      case 'continent-asc':
+        return base.sort(compareContinent)
+      case 'continent-desc':
+        return base.sort((a, b) => compareContinent(b, a))
+      case 'progress-not-played':
+        return base.sort((a, b) => {
+          const diff = getProgress(a) - getProgress(b)
+          if (Math.abs(diff) > 0.0001) {
+            return diff
+          }
+          return compareName(a, b)
+        })
+      case 'progress-played':
+        return base.sort((a, b) => {
+          const diff = getProgress(b) - getProgress(a)
+          if (Math.abs(diff) > 0.0001) {
+            return diff
+          }
+          return compareName(a, b)
+        })
+      case 'default':
+      default:
+        return base.sort(compareName)
+    }
+  }, [cityMetaBySlug, globalStats.cityBreakdown, globalStatsSort, globalStatsSearch])
+
+  const statsNavigation = useMemo(() => {
+    if (!visibleCityBreakdown.length) {
+      return null
+    }
+    const slugs = visibleCityBreakdown.map(({ slug }) => slug)
+    const slugToName = new Map(visibleCityBreakdown.map(({ slug, name }) => [slug, name]))
+    return { slugs, slugToName }
+  }, [visibleCityBreakdown])
+
+  const statsCityDisplayName =
+    (statsSlug && statsNavigation?.slugToName.get(statsSlug)) ?? statsSlug ?? ''
+
+  const handleNavigateStats = (direction: -1 | 1) => {
+    if (!statsNavigation || !statsSlug) {
+      return
+    }
+    const { slugs } = statsNavigation
+    if (slugs.length <= 1) {
+      return
+    }
+    const currentIndex = slugs.indexOf(statsSlug)
+    if (currentIndex === -1) {
+      return
+    }
+    const nextIndex = (currentIndex + direction + slugs.length) % slugs.length
+    setStatsSlug(slugs[nextIndex])
+  }
+
+  const handlePrevStats = () => handleNavigateStats(-1)
+  const handleNextStats = () => handleNavigateStats(1)
 
   const sortedCities = useMemo(() => {
     const compareName = (a: ICity, b: ICity) => a.name.localeCompare(b.name)
@@ -712,10 +906,39 @@ const SearcheableCitiesList = ({
     const normalized = TAB_OPTIONS.find(({ id }) => id === tabParam)?.id
     if (normalized) {
       setActiveTab(normalized as TabOption)
+      try {
+        window.localStorage.setItem(TAB_STORAGE_KEY, normalized)
+      } catch {
+        // ignore
+      }
     }
   }, [searchParams])
 
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+    try {
+      const stored = window.localStorage.getItem(TAB_STORAGE_KEY) as TabOption | null
+      if (stored && TAB_OPTIONS.some((opt) => opt.id === stored)) {
+        setActiveTab(stored)
+      }
+    } catch {
+      // ignore read errors
+    }
+  }, [])
+
   const hasResults = visibleGroups.length > 0
+  const openStatsPanelForCity = (slug: string) => {
+    setStatsSlug(slug)
+    setStatsOpen(true)
+  }
+  const getStatusClass = (percent: number) =>
+    percent >= 1
+      ? 'text-emerald-600 dark:text-emerald-400'
+      : percent > 0
+        ? 'text-amber-500'
+        : 'text-red-500'
 
   const renderCityCollection = (cityList: ICity[]) => {
     const variant =
@@ -783,20 +1006,76 @@ const SearcheableCitiesList = ({
     )
   }
 
+  const renderGlobalBar = (
+    label: string,
+    percent: number,
+    detail?: string,
+    showPointer = false,
+  ) => {
+    const clamped = clamp01(percent)
+    const color = getGradientColor(clamped)
+    return (
+      <div className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm dark:border-[#18181b] dark:bg-zinc-900">
+        <div className="flex items-center justify-between">
+          <div className="text-sm font-semibold text-zinc-700 dark:text-zinc-200">{label}</div>
+          <div className="text-sm font-semibold" style={{ color }}>
+            {(clamped * 100).toFixed(2)}%
+          </div>
+        </div>
+        <div className="relative mt-2 h-3 w-full overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
+          <div
+            className="h-full rounded-full transition-[width]"
+            style={{
+              width: `${(clamped * 100).toFixed(2)}%`,
+              background: getBarBackground(clamped),
+            }}
+          />
+          {showPointer && (
+            <div
+              className="pointer-events-none absolute -bottom-[10px] h-0 w-0"
+              style={{
+                left: `${(clamped * 100).toFixed(2)}%`,
+                transform: 'translateX(-50%)',
+                borderLeft: '6px solid transparent',
+                borderRight: '6px solid transparent',
+                borderTop: `8px solid ${isDark ? '#ffffff' : '#000000'}`,
+              }}
+            />
+          )}
+        </div>
+        {detail && (
+          <p className="mt-2 text-xs font-semibold" style={{ color }}>
+            {detail}
+          </p>
+        )}
+      </div>
+    )
+  }
+
   return (
-    <div className="my-16 mt-16 sm:mt-20">
+    <>
+      <div className="my-16 mt-16 sm:mt-20">
       <div className="mb-6 flex gap-3">
         {TAB_OPTIONS.map(({ id, label }) => {
           const labelText = id === 'settings' ? t('settings') : label
-          return (
-            <button
-              key={id}
-              onClick={() => setActiveTab(id)}
-              className={classNames(
-                'rounded-full px-4 py-2 text-sm font-semibold transition',
-                activeTab === id
-                  ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
-                  : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+      return (
+        <button
+          key={id}
+          onClick={() => {
+            setActiveTab(id)
+            if (typeof window !== 'undefined') {
+              try {
+                window.localStorage.setItem(TAB_STORAGE_KEY, id)
+              } catch {
+                // ignore write errors
+              }
+            }
+          }}
+          className={classNames(
+            'rounded-full px-4 py-2 text-sm font-semibold transition',
+            activeTab === id
+              ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
+              : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
               )}
             >
               {labelText}
@@ -917,6 +1196,163 @@ const SearcheableCitiesList = ({
           )}
           {hasResults && <SuggestCity />}
         </>
+      ) : activeTab === 'globalStats' ? (
+        <div className="space-y-6">
+          <div className="space-y-3">
+            <h3 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">Global Stats</h3>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              Aggregated from your saved progress across every city on this device (plus any
+              synced progress, if logged in).
+            </p>
+          </div>
+          {renderGlobalBar(
+            'Overall completion',
+            globalStats.percentFound,
+            `${globalStats.totalStationsFound} / ${globalStats.totalStations} stations found`,
+            true,
+          )}
+
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
+              <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                Completed cities
+              </p>
+              <p className="mt-1 text-2xl font-bold text-emerald-600 dark:text-emerald-400">
+                {globalStats.completedCities}
+              </p>
+            </div>
+            <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
+              <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                In progress
+              </p>
+              <p className="mt-1 text-2xl font-bold text-amber-500">{globalStats.partialCities}</p>
+            </div>
+            <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
+              <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                Not started
+              </p>
+              <p className="mt-1 text-2xl font-bold text-red-500">{globalStats.notStartedCities}</p>
+            </div>
+            <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
+              <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                Total cities
+              </p>
+              <p
+                className="mt-1 text-2xl font-bold"
+                style={{ color: getGradientColor(globalStats.percentFound) }}
+              >
+                {globalStats.cityBreakdown.length}
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm dark:border-[#18181b] dark:bg-zinc-900">
+            <div className="mb-3 flex items-center justify-between gap-3">
+              <div>
+                <p className="text-lg font-semibold text-zinc-800 dark:text-zinc-100">By city</p>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">
+                  Use the ... button to jump straight into a city’s detailed stats panel.
+                </p>
+              </div>
+              <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                Stations progress
+              </span>
+            </div>
+            <div className="mb-3 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+              <div className="relative w-full md:max-w-sm">
+                <input
+                  value={globalStatsSearch}
+                  onChange={(event) => setGlobalStatsSearch(event.target.value)}
+                  className="block w-full rounded-full border-0 px-4 py-3 pr-10 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
+                  type="text"
+                  placeholder="Search cities..."
+                />
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 dark:text-zinc-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="w-full md:w-64">
+                <label className="sr-only" htmlFor="global-stats-city-sort">
+                  Sort cities
+                </label>
+                <select
+                  id="global-stats-city-sort"
+                  value={globalStatsSort}
+                  onChange={(event) => setGlobalStatsSort(event.target.value as CitySortOption)}
+                  className="w-full rounded-full border-0 bg-white px-4 py-3 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+                >
+                  {CITY_SORT_OPTIONS.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+            <div className="divide-y divide-zinc-200 dark:divide-[#18181b]">
+              {visibleCityBreakdown.map((entry) => {
+                const percentLabel = `${(clamp01(entry.percent) * 100).toFixed(1)}%`
+                const statusClass = getStatusClass(entry.percent)
+                const barBg = getBarBackground(entry.percent)
+                return (
+                  <div key={entry.slug} className="px-1 py-3">
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-start sm:gap-3">
+                        <span className="flex items-center gap-3">
+                          <AchievementIcon
+                            slug={entry.slug}
+                            cityName={entry.name}
+                            className="h-16 w-16 sm:h-20 sm:w-20"
+                            imageClassName="object-contain"
+                            sizes="80px"
+                          />
+                          <span className={classNames('text-base font-semibold', statusClass)}>
+                            {entry.name}
+                          </span>
+                        </span>
+                        <span
+                          className="text-sm font-semibold"
+                          style={{ color: getGradientColor(entry.percent) }}
+                        >
+                          ({entry.found} / {entry.total} stations)
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <span className="text-sm font-semibold" style={{ color: getGradientColor(entry.percent) }}>
+                          {percentLabel}
+                        </span>
+                        <div className="h-2 w-32 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
+                          <div
+                            className="h-full rounded-full"
+                            style={{ width: percentLabel, background: barBg }}
+                          />
+                        </div>
+                        <button
+                          type="button"
+                          className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-zinc-300 bg-white text-sm font-semibold text-zinc-700 transition hover:bg-[var(--accent-50)] hover:text-[var(--accent-600)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
+                          onClick={(event) => {
+                            event.preventDefault()
+                            event.stopPropagation()
+                            openStatsPanelForCity(entry.slug)
+                          }}
+                          aria-label={t('openCityStats')}
+                        >
+                          <span aria-hidden="true">...</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="mt-2 flex items-center justify-end gap-3 text-sm text-zinc-700 dark:text-zinc-200" />
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
       ) : activeTab === 'achievements' ? (
         <Achievements
           items={visibleAchievements}
@@ -988,6 +1424,24 @@ const SearcheableCitiesList = ({
         </section>
       )}
     </div>
+    {statsOpen && statsSlug && (
+      <CityStatsPanel
+        cityDisplayName={statsCityDisplayName || 'City stats'}
+        slug={statsSlug}
+        open={statsOpen}
+        onClose={() => {
+          setStatsOpen(false)
+          setStatsSlug(null)
+        }}
+        onNavigatePrevious={
+          statsNavigation && statsNavigation.slugs.length > 1 ? handlePrevStats : undefined
+        }
+        onNavigateNext={
+          statsNavigation && statsNavigation.slugs.length > 1 ? handleNextStats : undefined
+        }
+      />
+    )}
+    </>
   )
 }
 

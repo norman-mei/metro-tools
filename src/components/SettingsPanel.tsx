@@ -15,6 +15,7 @@ import {
   writeSolutionsSelection,
 } from '@/lib/solutionsAccess'
 import { ACCENT_COLOR_OPTIONS, type AccentColorId } from '@/lib/accentColors'
+import { STATION_TOTALS } from '@/lib/stationTotals'
 
 type SettingsPanelProps = {
   className?: string
@@ -28,6 +29,8 @@ const THEME_OPTIONS: Array<{ value: string; label: string }> = [
   { value: 'dark', label: 'Dark' },
 ]
 
+const LOCAL_PROGRESS_EVENT = 'local-progress-refresh'
+
 const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) => {
   const {
     settings,
@@ -35,11 +38,22 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
     setAchievementToastsEnabled,
     setStopConfettiAfterCompletion,
     setAccentColor,
+    notifySettingsSaved,
   } = useSettings()
   const { t } = useTranslation()
   const { theme, setTheme } = useTheme()
   const auth = useAuth()
   const currentTheme = theme ?? 'system'
+  const handleThemeChange = useCallback(
+    (nextTheme: string) => {
+      if (nextTheme === currentTheme) {
+        return
+      }
+      setTheme(nextTheme)
+      notifySettingsSaved()
+    },
+    [currentTheme, notifySettingsSaved, setTheme],
+  )
 
   return (
     <div
@@ -82,7 +96,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
             <button
               key={option.value}
               type="button"
-              onClick={() => setTheme(option.value)}
+              onClick={() => handleThemeChange(option.value)}
               className={classNames(
                 'rounded-full px-4 py-2 text-sm font-semibold transition',
                 currentTheme === option.value
@@ -128,7 +142,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
           })}
         </div>
       </div>
-      <SolutionsAccessPanel />
+      <SolutionsAccessPanel onSettingsChange={notifySettingsSaved} />
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-red-500 dark:text-red-400">
           Danger Zone
@@ -184,7 +198,7 @@ const SettingToggle = ({
   </label>
 )
 
-const SolutionsAccessPanel = () => {
+const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => void }) => {
   const [hasAccess, setHasAccess] = useState(false)
   const [passwordInput, setPasswordInput] = useState('')
   const [passwordError, setPasswordError] = useState<string | null>(null)
@@ -192,7 +206,7 @@ const SolutionsAccessPanel = () => {
   const [solutionsCities, setSolutionsCities] = useState<string[]>([])
   const [solutionsInitialized, setSolutionsInitialized] = useState(false)
   const [cityFilter, setCityFilter] = useState('')
-
+  const selectionHydratedRef = useRef(false)
   const allCityOptions = useMemo(
     () =>
       cities
@@ -202,6 +216,32 @@ const SolutionsAccessPanel = () => {
         }))
         .sort((a, b) => a.name.localeCompare(b.name)),
     [],
+  )
+
+  const applySolutionsProgress = useCallback(
+    (mode?: 'all' | 'custom', customCities?: string[]) => {
+      if (!hasAccess || typeof window === 'undefined') return
+      const effectiveMode = mode ?? solutionsMode
+      const targetSlugs =
+        effectiveMode === 'all'
+          ? allCityOptions.map((city) => city.slug)
+          : customCities ?? solutionsCities
+      targetSlugs.forEach((slug) => {
+        const total = STATION_TOTALS[slug]
+        if (!total || total <= 0) return
+        try {
+          window.localStorage.setItem(`${slug}-station-total`, String(total))
+          window.localStorage.setItem(`${slug}-stations`, JSON.stringify(total))
+          window.localStorage.setItem(`${slug}-stations-found-at`, '{}')
+        } catch (error) {
+          if (process.env.NODE_ENV !== 'production') {
+            console.warn(`Unable to persist solutions progress for ${slug}`, error)
+          }
+        }
+      })
+      window.dispatchEvent(new Event(LOCAL_PROGRESS_EVENT))
+    },
+    [allCityOptions, hasAccess, solutionsCities, solutionsMode],
   )
 
   useEffect(() => {
@@ -223,7 +263,26 @@ const SolutionsAccessPanel = () => {
       mode: solutionsMode,
       cities: solutionsMode === 'custom' ? solutionsCities : [],
     })
-  }, [hasAccess, solutionsInitialized, solutionsMode, solutionsCities])
+    if (selectionHydratedRef.current) {
+      onSettingsChange?.()
+      applySolutionsProgress()
+    } else {
+      selectionHydratedRef.current = true
+    }
+  }, [
+    applySolutionsProgress,
+    hasAccess,
+    onSettingsChange,
+    solutionsCities,
+    solutionsInitialized,
+    solutionsMode,
+  ])
+
+  useEffect(() => {
+    if (!hasAccess) {
+      selectionHydratedRef.current = false
+    }
+  }, [hasAccess])
 
   const filteredCities = useMemo(() => {
     const normalizedFilter = cityFilter.trim().toLowerCase()
@@ -270,6 +329,8 @@ const SolutionsAccessPanel = () => {
         if (!solutionsInitialized) {
           setSolutionsInitialized(true)
         }
+        onSettingsChange?.()
+        applySolutionsProgress(solutionsMode, solutionsCities)
       } catch (error) {
         setPasswordError('Unable to verify password. Please try again.')
         if (process.env.NODE_ENV !== 'production') {
@@ -277,7 +338,7 @@ const SolutionsAccessPanel = () => {
         }
       }
     },
-    [passwordInput, solutionsInitialized],
+    [applySolutionsProgress, onSettingsChange, passwordInput, solutionsCities, solutionsInitialized, solutionsMode],
   )
 
   const handleModeChange = useCallback((mode: 'all' | 'custom') => {
@@ -439,6 +500,28 @@ const getCityName = (slug: string) => {
     .join(' ')
 }
 
+const getSlugFromLink = (link: string) => link.replace(/^\//, '').split(/[?#]/)[0]
+
+const readLocalFoundCount = (slug: string) => {
+  if (typeof window === 'undefined') {
+    return 0
+  }
+  try {
+    const stored = window.localStorage.getItem(`${slug}-stations`)
+    if (!stored) return 0
+    const parsed = JSON.parse(stored)
+    if (Array.isArray(parsed)) {
+      return new Set(parsed.filter((value) => typeof value === 'number')).size
+    }
+    if (typeof parsed === 'number' && Number.isFinite(parsed)) {
+      return parsed
+    }
+  } catch {
+    return 0
+  }
+  return 0
+}
+
 const LOCAL_PROGRESS_SUFFIXES = [
   '-stations',
   '-stations-found-at',
@@ -446,7 +529,7 @@ const LOCAL_PROGRESS_SUFFIXES = [
   '-sidebar-open',
 ]
 
-const LONG_PRESS_DURATION_MS = 10_000
+const LONG_PRESS_DURATION_MS = 5_000
 
 const clearLocalProgressStorage = (slugs?: string[]) => {
   if (typeof window === 'undefined') {
@@ -490,16 +573,33 @@ const ResetProgressButton = ({
   const [statusVariant, setStatusVariant] = useState<'idle' | 'success' | 'error'>(
     'idle',
   )
+  const [localProgressVersion, setLocalProgressVersion] = useState(0)
   const cityOptions = useMemo(() => {
-    return Object.entries(progressSummaries ?? {})
-      .filter(([, found]) => (found ?? 0) > 0)
-      .map(([slug, found]) => ({
-        slug,
-        name: getCityName(slug),
-        found,
-      }))
-      .sort((a, b) => a.name.localeCompare(b.name))
-  }, [progressSummaries])
+    const entries = new Map<string, { slug: string; name: string; found: number }>()
+
+    Object.entries(progressSummaries ?? {}).forEach(([slug, found]) => {
+      if ((found ?? 0) > 0) {
+        entries.set(slug, { slug, name: getCityName(slug), found })
+      }
+    })
+
+    if (typeof window !== 'undefined') {
+      cities.forEach((city) => {
+        const slug = getSlugFromLink(city.link)
+        const found = readLocalFoundCount(slug)
+        if (found > 0) {
+          const existing = entries.get(slug)
+          entries.set(slug, {
+            slug,
+            name: getCityName(slug),
+            found: existing ? Math.max(existing.found, found) : found,
+          })
+        }
+      })
+    }
+
+    return Array.from(entries.values()).sort((a, b) => a.name.localeCompare(b.name))
+  }, [progressSummaries, localProgressVersion])
   const [selectedCities, setSelectedCities] = useState<string[]>([])
   const [citySelectionInitialized, setCitySelectionInitialized] = useState(false)
 
@@ -567,6 +667,23 @@ const ResetProgressButton = ({
     },
     [clearHoldTracking],
   )
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+    const handleProgressChange = () => {
+      setLocalProgressVersion((prev) => prev + 1)
+    }
+    window.addEventListener('storage', handleProgressChange)
+    window.addEventListener('focus', handleProgressChange)
+    window.addEventListener(LOCAL_PROGRESS_EVENT, handleProgressChange as EventListener)
+    return () => {
+      window.removeEventListener('storage', handleProgressChange)
+      window.removeEventListener('focus', handleProgressChange)
+      window.removeEventListener(LOCAL_PROGRESS_EVENT, handleProgressChange as EventListener)
+    }
+  }, [])
 
   const runReset = useCallback(async () => {
     setIsResetting(true)
@@ -701,7 +818,7 @@ const ResetProgressButton = ({
           Reset saved progress
         </p>
         <p className="text-red-700 dark:text-red-300">
-          Hold the button for 10 seconds to erase the selected cities. Only cities
+          Hold the button for 5 seconds to erase the selected cities. Only cities
           where you&apos;ve found at least one station appear below. This action cannot be
           undone.
         </p>

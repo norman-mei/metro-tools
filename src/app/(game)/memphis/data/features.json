@@ -1,0 +1,713 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05903328080443,
+          35.131952774140224
+        ]
+      },
+      "properties": {
+        "name": "Central",
+        "line": "MAXRed",
+        "order": 0,
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05897168751828,
+          35.13411429604756
+        ]
+      },
+      "properties": {
+        "name": "Butler Av",
+        "line": "MAXRed",
+        "order": 1,
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05827006810489,
+          35.13552100266891
+        ]
+      },
+      "properties": {
+        "name": "Huling Av",
+        "line": "MAXRed",
+        "order": 2,
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05576637967613,
+          35.13898348743656
+        ]
+      },
+      "properties": {
+        "name": "MLK Jr. Ave",
+        "line": "MAXRed",
+        "order": 3,
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05466716001906,
+          35.14055938546065
+        ]
+      },
+      "properties": {
+        "name": "Beale St",
+        "line": "MAXRed",
+        "order": 4,
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0542781372416,
+          35.1416095218701
+        ]
+      },
+      "properties": {
+        "name": "Peabody Pl",
+        "line": "MAXRed",
+        "order": 5,
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05362959942995,
+          35.14325665707958
+        ]
+      },
+      "properties": {
+        "name": "Union Av",
+        "line": "MAXRed",
+        "order": 6,
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05281663573601,
+          35.145194249189984
+        ]
+      },
+      "properties": {
+        "name": "Madison Av",
+        "line": "MAXRed",
+        "order": 7,
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05228267951884,
+          35.1465492156988
+        ]
+      },
+      "properties": {
+        "name": "Court Av",
+        "line": "MAXRed",
+        "order": 8,
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05202518548639,
+          35.14724664676539
+        ]
+      },
+      "properties": {
+        "name": "Jefferson Av",
+        "line": "MAXRed",
+        "order": 9,
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05123393477636,
+          35.14919416663851
+        ]
+      },
+      "properties": {
+        "name": "Civic Center Plaza",
+        "line": "MAXRed",
+        "order": 10,
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0502066490085,
+          35.15176008059713
+        ]
+      },
+      "properties": {
+        "name": "Convention Center",
+        "line": "MAXRed",
+        "order": 11,
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0488414049657,
+          35.15515485746281
+        ]
+      },
+      "properties": {
+        "name": "Overton Av",
+        "line": "MAXRed",
+        "order": 12,
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0488414049657,
+          35.15515485746281
+        ]
+      },
+      "properties": {
+        "name": "North End Terminal",
+        "line": "MAXRed",
+        "order": 13,
+        "id": 13,
+        "alternate_names": [
+          "North End",
+          "Hudson Transit Center"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05942731937242,
+          35.13275064297835
+        ]
+      },
+      "properties": {
+        "name": "Central",
+        "line": "MAXGreen",
+        "order": 0,
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05897168751828,
+          35.13411429604756
+        ]
+      },
+      "properties": {
+        "name": "Butler Av",
+        "line": "MAXGreen",
+        "order": 1,
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05827006810489,
+          35.13552100266891
+        ]
+      },
+      "properties": {
+        "name": "Huling Av",
+        "line": "MAXGreen",
+        "order": 2,
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05576637967613,
+          35.13898348743656
+        ]
+      },
+      "properties": {
+        "name": "MLK Jr. Ave",
+        "line": "MAXGreen",
+        "order": 3,
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05466716001906,
+          35.14055938546065
+        ]
+      },
+      "properties": {
+        "name": "Beale St",
+        "line": "MAXGreen",
+        "order": 4,
+        "id": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0542781372416,
+          35.1416095218701
+        ]
+      },
+      "properties": {
+        "name": "Peabody Pl",
+        "line": "MAXGreen",
+        "order": 5,
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05362959942995,
+          35.14325665707958
+        ]
+      },
+      "properties": {
+        "name": "Union Av",
+        "line": "MAXGreen",
+        "order": 6,
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05281663573601,
+          35.145194249189984
+        ]
+      },
+      "properties": {
+        "name": "Madison Av",
+        "line": "MAXGreen",
+        "order": 7,
+        "id": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05228267951884,
+          35.1465492156988
+        ]
+      },
+      "properties": {
+        "name": "Court Av",
+        "line": "MAXGreen",
+        "order": 8,
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05202518548639,
+          35.14724664676539
+        ]
+      },
+      "properties": {
+        "name": "Jefferson Av",
+        "line": "MAXGreen",
+        "order": 9,
+        "id": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05123393477636,
+          35.14919416663851
+        ]
+      },
+      "properties": {
+        "name": "Civic Center Plaza",
+        "line": "MAXGreen",
+        "order": 10,
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0502066490085,
+          35.15176008059713
+        ]
+      },
+      "properties": {
+        "name": "Convention Center",
+        "line": "MAXGreen",
+        "order": 11,
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0488414049657,
+          35.15515485746281
+        ]
+      },
+      "properties": {
+        "name": "Overton Av",
+        "line": "MAXGreen",
+        "order": 12,
+        "id": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0488414049657,
+          35.15515485746281
+        ]
+      },
+      "properties": {
+        "name": "North End Terminal",
+        "line": "MAXGreen",
+        "order": 13,
+        "id": 27,
+        "alternate_names": [
+          "North End",
+          "Hudson Transit Center"
+        ]
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05134956593588,
+          35.154502485336714
+        ]
+      },
+      "properties": {
+        "name": "Pyramid",
+        "line": "MAXGreen",
+        "order": 14,
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05447583947954,
+          35.14738290133283
+        ]
+      },
+      "properties": {
+        "name": "Jefferson St",
+        "line": "MAXGreen",
+        "order": 15,
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05622011139238,
+          35.143648154673436
+        ]
+      },
+      "properties": {
+        "name": "Union Av",
+        "line": "MAXGreen",
+        "order": 16,
+        "id": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05848338039053,
+          35.14018158655501
+        ]
+      },
+      "properties": {
+        "name": "Beale St. Landing",
+        "line": "MAXGreen",
+        "order": 17,
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06072763823887,
+          35.13712814695843
+        ]
+      },
+      "properties": {
+        "name": "Huling Av",
+        "line": "MAXGreen",
+        "order": 18,
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05228267951884,
+          35.1465492156988
+        ]
+      },
+      "properties": {
+        "name": "Court Av",
+        "line": "MAXYellow",
+        "order": 0,
+        "id": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04889230817216,
+          35.14416340816044
+        ]
+      },
+      "properties": {
+        "name": "Third St",
+        "line": "MAXYellow",
+        "order": 1,
+        "id": 34,
+        "alternate_names": [
+          "3 St"
+        ]
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04282824475675,
+          35.14264954035882
+        ]
+      },
+      "properties": {
+        "name": "Danny Thomas",
+        "line": "MAXYellow",
+        "order": 2,
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0459402087622,
+          35.143564846330094
+        ]
+      },
+      "properties": {
+        "name": "Danny Thomas",
+        "line": "MAXYellow",
+        "order": 3,
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.03739059472892,
+          35.14106013420406
+        ]
+      },
+      "properties": {
+        "name": "Orleans St",
+        "line": "MAXYellow",
+        "order": 4,
+        "id": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.03239771759827,
+          35.14047411083889
+        ]
+      },
+      "properties": {
+        "name": "Dunlap St",
+        "line": "MAXYellow",
+        "order": 5,
+        "id": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.02887139870941,
+          35.1401042411762
+        ]
+      },
+      "properties": {
+        "name": "Pauline St",
+        "line": "MAXYellow",
+        "order": 6,
+        "id": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.01749235596682,
+          35.13903251747233
+        ]
+      },
+      "properties": {
+        "name": "Cleveland Av",
+        "line": "MAXYellow",
+        "order": 7,
+        "id": 40
+      },
+      "id": 40
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Denver_RTD_A": {
+    "name": "A Line",
+    "color": "#53C1EA",
+    "backgroundColor": "#116C8D",
+    "progressOutlineColor": "#8CD5F1",
+    "textColor": "#111827",
+    "order": 0
+  },
+  "Denver_RTD_B": {
+    "name": "B Line",
+    "color": "#4B9E45",
+    "backgroundColor": "#254F22",
+    "progressOutlineColor": "#60B75A",
+    "textColor": "#111827",
+    "order": 1
+  },
+  "Denver_RTD_G": {
+    "name": "G Line",
+    "color": "#F4B120",
+    "backgroundColor": "#845C06",
+    "progressOutlineColor": "#F7C355",
+    "textColor": "#111827",
+    "order": 2
+  },
+  "Denver_RTD_N": {
+    "name": "N Line",
+    "color": "#8F4199",
+    "backgroundColor": "#48214D",
+    "progressOutlineColor": "#AA51B5",
+    "textColor": "#FFFFFF",
+    "order": 3
+  },
+  "Denver_RTD_D": {
+    "name": "D Line",
+    "color": "#007940",
+    "backgroundColor": "#003C20",
+    "progressOutlineColor": "#00914D",
+    "textColor": "#FFFFFF",
+    "order": 4
+  },
+  "Denver_RTD_E": {
+    "name": "E Line",
+    "color": "#682875",
+    "backgroundColor": "#34143B",
+    "progressOutlineColor": "#7D308C",
+    "textColor": "#FFFFFF",
+    "order": 5
+  },
+  "Denver_RTD_H": {
+    "name": "H Line",
+    "color": "#005DA7",
+    "backgroundColor": "#002E53",
+    "progressOutlineColor": "#0070C8",
+    "textColor": "#FFFFFF",
+    "order": 6
+  },
+  "Denver_RTD_L": {
+    "name": "L Line",
+    "color": "#FFCE01",
+    "backgroundColor": "#806700",
+    "progressOutlineColor": "#FFD834",
+    "textColor": "#111827",
+    "order": 7
+  },
+  "Denver_RTD_R": {
+    "name": "R Line",
+    "color": "#BFD42F",
+    "backgroundColor": "#606B16",
+    "progressOutlineColor": "#CCDD5A",
+    "textColor": "#111827",
+    "order": 8
+  },
+  "Denver_RTD_W": {
+    "name": "W Line",
+    "color": "#0092B3",
+    "backgroundColor": "#00495A",
+    "progressOutlineColor": "#00AFD7",
+    "textColor": "#FFFFFF",
+    "order": 9
+  },
+  "DenverAGTS": {
+    "name": "Denver International Airport AGTS",
+    "color": "#005DA8",
+    "backgroundColor": "#002F54",
+    "progressOutlineColor": "#0070CA",
+    "textColor": "#FFFFFF",
+    "order": 10
+  }
+}

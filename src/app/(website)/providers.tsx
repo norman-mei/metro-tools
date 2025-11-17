@@ -4,6 +4,7 @@ import { createContext, useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 
 import ThemeProviderClient from '@/components/ThemeProviderClient'
+import SettingsSaveToast from '@/components/SettingsSaveToast'
 import { AuthProvider } from '@/context/AuthContext'
 import { SettingsProvider } from '@/context/SettingsContext'
 
@@ -28,6 +29,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       <ThemeProviderClient>
         <SettingsProvider>
           <AuthProvider>{children}</AuthProvider>
+          <SettingsSaveToast />
         </SettingsProvider>
       </ThemeProviderClient>
     </AppContext.Provider>

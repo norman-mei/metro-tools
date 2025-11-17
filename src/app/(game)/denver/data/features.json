@@ -1,0 +1,2384 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003481093953,
+          39.7549076009976
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Union Station",
+        "line": "Denver_RTD_A",
+        "order": 0,
+        "alternate_names": [
+          "Union Station Transit Center",
+          "Denver Union Station",
+          "Union"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.973788967476,
+          39.7704929950472
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "38th & Blake",
+        "line": "Denver_RTD_A",
+        "order": 1,
+        "alternate_names": [
+          "38th / Blake Station"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.942714723646,
+          39.7760104930383
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "40th & Colorado",
+        "line": "Denver_RTD_A",
+        "order": 2,
+        "alternate_names": [
+          "40th / Colorado Station"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.89164109171,
+          39.7705966974486
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Central Park",
+        "line": "Denver_RTD_A",
+        "order": 3,
+        "alternate_names": [
+          "Central Park Station"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.850493361269,
+          39.7674541223319
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Peoria",
+        "line": "Denver_RTD_A",
+        "order": 4,
+        "alternate_names": [
+          "Peoria Station"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.787512613244,
+          39.769941878451
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "40th Ave & Airport Blvd - Gateway Park",
+        "line": "Denver_RTD_A",
+        "order": 5,
+        "alternate_names": [
+          "40th Ave & Airport Blvd–Gateway Park",
+          "40th / Airport - Gateway Park Station"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.783889171408,
+          39.8068067380141
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "61st & Peña",
+        "line": "Denver_RTD_A",
+        "order": 6,
+        "alternate_names": [
+          "61st & Pena",
+          "61st & Pena Station",
+          "61st / Pena Station"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.673926030068,
+          39.8462594884503
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Denver Airport",
+        "line": "Denver_RTD_A",
+        "order": 7,
+        "alternate_names": [
+          "Denver International Airport",
+          "Denver Airport Station",
+          "Denver Airport",
+          "DEN",
+          "DIA",
+          "Airport"
+        ],
+        "cluster_key": "denver-airport-complex"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003481093953,
+          39.7549076009976
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Union Station",
+        "line": "Denver_RTD_B",
+        "order": 0,
+        "alternate_names": [
+          "Union Station Transit Center",
+          "Denver Union Station",
+          "Union"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.996880807743,
+          39.7735424103745
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "41st & Fox",
+        "line": "Denver_RTD_B",
+        "order": 1,
+        "alternate_names": [
+          "41st / Fox Station"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005087875468,
+          39.8050717752358
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Pecos Junction",
+        "line": "Denver_RTD_B",
+        "order": 2,
+        "alternate_names": [
+          "Pecos Junction Station"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.028973835429,
+          39.8226906094732
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Westminster",
+        "line": "Denver_RTD_B",
+        "order": 3,
+        "alternate_names": [
+          "Westminster Station"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003481093953,
+          39.7549076009976
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Union Station",
+        "line": "Denver_RTD_G",
+        "order": 0,
+        "alternate_names": [
+          "Union Station Transit Center",
+          "Denver Union Station",
+          "Union"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.996880807743,
+          39.7735424103745
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "41st & Fox",
+        "line": "Denver_RTD_G",
+        "order": 1,
+        "alternate_names": [
+          "41st / Fox Station"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005087875468,
+          39.8050717752358
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Pecos Junction",
+        "line": "Denver_RTD_G",
+        "order": 2,
+        "alternate_names": [
+          "Pecos Junction Station"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.023336124588,
+          39.803927896782
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Clear Creek / Federal",
+        "line": "Denver_RTD_G",
+        "order": 3,
+        "alternate_names": [
+          "Clear Creek / Federal Station"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04917108017,
+          39.8036715617485
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "60th & Sheridan - Arvada Gold Strike",
+        "line": "Denver_RTD_G",
+        "order": 4,
+        "alternate_names": [
+          "60th & Sheridan–Arvada Gold Strike",
+          "60th/Sheridan-Arvada Gold Strike Station"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08026773517,
+          39.799032968141
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Olde Town Arvada",
+        "line": "Denver_RTD_G",
+        "order": 5,
+        "alternate_names": [
+          "Olde Town Arvada Station"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.111279208322,
+          39.7926465885373
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Arvada Ridge",
+        "line": "Denver_RTD_G",
+        "order": 6,
+        "alternate_names": [
+          "Arvada Ridge Station"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.133020944497,
+          39.7880431486683
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Wheat Ridge - Ward",
+        "line": "Denver_RTD_G",
+        "order": 7,
+        "alternate_names": [
+          "Wheat Ridge–Ward",
+          "Wheat Ridge / Ward Road Station"
+        ]
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003481093953,
+          39.7549076009976
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Union Station",
+        "line": "Denver_RTD_N",
+        "order": 0,
+        "alternate_names": [
+          "Union Station Transit Center",
+          "Denver Union Station",
+          "Union"
+        ]
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.968244363422,
+          39.7848399226152
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "48th & Brighton / National Western Center",
+        "line": "Denver_RTD_N",
+        "order": 1,
+        "alternate_names": [
+          "48th Ave/Brighton Blvd@Nat'l Western Ctr"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.942979589212,
+          39.8263491132226
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Commerce City / 72nd",
+        "line": "Denver_RTD_N",
+        "order": 2,
+        "alternate_names": [
+          "Commerce City / 72nd Ave"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95307155866,
+          39.8587786445947
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Original Thornton / 88th",
+        "line": "Denver_RTD_N",
+        "order": 3,
+        "alternate_names": [
+          "Original Thornton / 88th Ave"
+        ]
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9422377874,
+          39.8821847743462
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Thornton Crossroads / 104th",
+        "line": "Denver_RTD_N",
+        "order": 4,
+        "alternate_names": [
+          "Thornton Crossroads / 104th Ave"
+        ]
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.960076382293,
+          39.9027359665163
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Northglenn / 112th",
+        "line": "Denver_RTD_N",
+        "order": 5,
+        "alternate_names": [
+          "Northglenn / 112th Ave"
+        ]
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.962120975728,
+          39.9229035398943
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Eastlake / 124th",
+        "line": "Denver_RTD_N",
+        "order": 6,
+        "alternate_names": [
+          "Eastlake / 124th Ave"
+        ]
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990393046751,
+          39.74727055286925
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "18th & California / 18th & Stout",
+        "line": "Denver_RTD_D",
+        "order": 0,
+        "alternate_names": [
+          "18th & California",
+          "18th & Stout",
+          "18th St / California Station",
+          "18th St / Stout Station"
+        ]
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99262034493799,
+          39.7455180898895
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "16th & California / 16th & Stout",
+        "line": "Denver_RTD_D",
+        "order": 1,
+        "alternate_names": [
+          "16th & California",
+          "16th & Stout",
+          "16th Street / California Station",
+          "16th Street / Stout Station"
+        ]
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99647871194,
+          39.7438804086879
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Theatre District - Convention Center",
+        "line": "Denver_RTD_D",
+        "order": 2,
+        "alternate_names": [
+          "Theatre District–Convention Center",
+          "Theatre District / Convention Center"
+        ]
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.001977096775,
+          39.7403508319996
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Colfax at Auraria",
+        "line": "Denver_RTD_D",
+        "order": 3,
+        "alternate_names": [
+          "Colfax at Auraria Station"
+        ]
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005705010881,
+          39.7321464203231
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "10th & Osage",
+        "line": "Denver_RTD_D",
+        "order": 4,
+        "alternate_names": [
+          "10th / Osage Station"
+        ]
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.993171351321,
+          39.708681239077
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Alameda",
+        "line": "Denver_RTD_D",
+        "order": 5,
+        "alternate_names": [
+          "Alameda Station"
+        ]
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990179885068,
+          39.7019690331874
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "I-25 & Broadway",
+        "line": "Denver_RTD_D",
+        "order": 6,
+        "alternate_names": [
+          "I-25 / Broadway Station"
+        ]
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.992850697681,
+          39.6776724230828
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Evans",
+        "line": "Denver_RTD_D",
+        "order": 7,
+        "alternate_names": [
+          "Evans Station"
+        ]
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.000012348298,
+          39.655453730296
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Englewood",
+        "line": "Denver_RTD_D",
+        "order": 8,
+        "alternate_names": [
+          "Englewood Station"
+        ]
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.004822071162,
+          39.6428971915813
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Oxford - City of Sheridan",
+        "line": "Denver_RTD_D",
+        "order": 9,
+        "alternate_names": [
+          "Oxford–City of Sheridan",
+          "Oxford-City of Sheridan Station"
+        ]
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.014877056969,
+          39.6119748578426
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Littleton - Downtown",
+        "line": "Denver_RTD_D",
+        "order": 10,
+        "alternate_names": [
+          "Littleton–Downtown",
+          "Littleton / Downtown Station"
+        ]
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.025031567126,
+          39.5800932828196
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Littleton - Mineral",
+        "line": "Denver_RTD_D",
+        "order": 11,
+        "alternate_names": [
+          "Littleton–Mineral",
+          "Littleton / Mineral Station"
+        ]
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003481093953,
+          39.7549076009976
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Union Station",
+        "line": "Denver_RTD_E",
+        "order": 0,
+        "alternate_names": [
+          "Union Station Transit Center",
+          "Denver Union Station",
+          "Union"
+        ]
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.009742885083,
+          39.7486080203246
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Ball Arena - Elitch Gardens",
+        "line": "Denver_RTD_E",
+        "order": 1,
+        "alternate_names": [
+          "Ball Arena–Elitch Gardens",
+          "Ball Arena / Elitch Gardens Station"
+        ]
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.013276259133,
+          39.7434448293374
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Empower Field at Mile High",
+        "line": "Denver_RTD_E",
+        "order": 2
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.010774352252,
+          39.7416844877144
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Auraria West",
+        "line": "Denver_RTD_E",
+        "order": 3,
+        "alternate_names": [
+          "Auraria West Campus Station"
+        ]
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005705010881,
+          39.7321464203231
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "10th & Osage",
+        "line": "Denver_RTD_E",
+        "order": 4,
+        "alternate_names": [
+          "10th / Osage Station"
+        ]
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.993171351321,
+          39.708681239077
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Alameda",
+        "line": "Denver_RTD_E",
+        "order": 5,
+        "alternate_names": [
+          "Alameda Station"
+        ]
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990179885068,
+          39.7019690331874
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "I-25 & Broadway",
+        "line": "Denver_RTD_E",
+        "order": 6,
+        "alternate_names": [
+          "I-25 / Broadway Station"
+        ]
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.978220914626,
+          39.692837919654
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Louisiana - Pearl",
+        "line": "Denver_RTD_E",
+        "order": 7,
+        "alternate_names": [
+          "Louisiana–Pearl",
+          "Louisiana / Pearl Station"
+        ]
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.964702651209,
+          39.6852372690164
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "University of Denver",
+        "line": "Denver_RTD_E",
+        "order": 8,
+        "alternate_names": [
+          "University of Denver Station"
+        ]
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.937681418193,
+          39.6796455420039
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Colorado",
+        "line": "Denver_RTD_E",
+        "order": 9,
+        "alternate_names": [
+          "Colorado Station"
+        ]
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.927180908429,
+          39.6686340120539
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Yale",
+        "line": "Denver_RTD_E",
+        "order": 10,
+        "alternate_names": [
+          "Yale Station"
+        ]
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.916088478063,
+          39.6482164651713
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Southmoor",
+        "line": "Denver_RTD_E",
+        "order": 11,
+        "alternate_names": [
+          "Southmoor Station"
+        ]
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.904571186788,
+          39.6276868008032
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Belleview",
+        "line": "Denver_RTD_E",
+        "order": 12,
+        "alternate_names": [
+          "Belleview Station"
+        ]
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.896077977798,
+          39.6133775561876
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Orchard",
+        "line": "Denver_RTD_E",
+        "order": 13,
+        "alternate_names": [
+          "Orchard Station"
+        ]
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.888566410919,
+          39.6003103344811
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Arapahoe at Village Center",
+        "line": "Denver_RTD_E",
+        "order": 14,
+        "alternate_names": [
+          "Arapahoe at Village Center Station"
+        ]
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.876794802096,
+          39.5790609193795
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Dry Creek",
+        "line": "Denver_RTD_E",
+        "order": 15,
+        "alternate_names": [
+          "Dry Creek Station"
+        ]
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.872285896276,
+          39.5618182939798
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "County Line",
+        "line": "Denver_RTD_E",
+        "order": 16,
+        "alternate_names": [
+          "County Line Station"
+        ]
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.869648049139,
+          39.5457927505658
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Lincoln",
+        "line": "Denver_RTD_E",
+        "order": 17,
+        "alternate_names": [
+          "Lincoln Station"
+        ]
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.870453302553,
+          39.5322884266398
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Sky Ridge",
+        "line": "Denver_RTD_E",
+        "order": 18,
+        "alternate_names": [
+          "Sky Ridge Station"
+        ]
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.863321193034,
+          39.5276572074082
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Lone Tree City Center",
+        "line": "Denver_RTD_E",
+        "order": 19,
+        "alternate_names": [
+          "Lone Tree City Center Station"
+        ]
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.865403911867,
+          39.5204705608878
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "RidgeGate Parkway",
+        "line": "Denver_RTD_E",
+        "order": 20,
+        "alternate_names": [
+          "RidgeGate Parkway Station"
+        ]
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990393046751,
+          39.74727055286925
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "18th & California / 18th & Stout",
+        "line": "Denver_RTD_H",
+        "order": 0,
+        "alternate_names": [
+          "18th & California",
+          "18th & Stout",
+          "18th St / California Station",
+          "18th St / Stout Station"
+        ]
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99262034493799,
+          39.7455180898895
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "16th & California / 16th & Stout",
+        "line": "Denver_RTD_H",
+        "order": 1,
+        "alternate_names": [
+          "16th & California",
+          "16th & Stout",
+          "16th Street / California Station",
+          "16th Street / Stout Station"
+        ]
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99647871194,
+          39.7438804086879
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Theatre District - Convention Center",
+        "line": "Denver_RTD_H",
+        "order": 2,
+        "alternate_names": [
+          "Theatre District–Convention Center",
+          "Theatre District / Convention Center"
+        ]
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.001977096775,
+          39.7403508319996
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Colfax at Auraria",
+        "line": "Denver_RTD_H",
+        "order": 3,
+        "alternate_names": [
+          "Colfax at Auraria Station"
+        ]
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005705010881,
+          39.7321464203231
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "10th & Osage",
+        "line": "Denver_RTD_H",
+        "order": 4,
+        "alternate_names": [
+          "10th / Osage Station"
+        ]
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.993171351321,
+          39.708681239077
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Alameda",
+        "line": "Denver_RTD_H",
+        "order": 5,
+        "alternate_names": [
+          "Alameda Station"
+        ]
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990179885068,
+          39.7019690331874
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "I-25 & Broadway",
+        "line": "Denver_RTD_H",
+        "order": 6,
+        "alternate_names": [
+          "I-25 / Broadway Station"
+        ]
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.978220914626,
+          39.692837919654
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Louisiana - Pearl",
+        "line": "Denver_RTD_H",
+        "order": 7,
+        "alternate_names": [
+          "Louisiana–Pearl",
+          "Louisiana / Pearl Station"
+        ]
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.964702651209,
+          39.6852372690164
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "University of Denver",
+        "line": "Denver_RTD_H",
+        "order": 8,
+        "alternate_names": [
+          "University of Denver Station"
+        ]
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.937681418193,
+          39.6796455420039
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Colorado",
+        "line": "Denver_RTD_H",
+        "order": 9,
+        "alternate_names": [
+          "Colorado Station"
+        ]
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.927180908429,
+          39.6686340120539
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Yale",
+        "line": "Denver_RTD_H",
+        "order": 10,
+        "alternate_names": [
+          "Yale Station"
+        ]
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.916088478063,
+          39.6482164651713
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Southmoor",
+        "line": "Denver_RTD_H",
+        "order": 11,
+        "alternate_names": [
+          "Southmoor Station"
+        ]
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.877680771833,
+          39.6431236472378
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Dayton",
+        "line": "Denver_RTD_H",
+        "order": 12,
+        "alternate_names": [
+          "Dayton Station"
+        ]
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.845103082391,
+          39.6575623270546
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Nine Mile",
+        "line": "Denver_RTD_H",
+        "order": 13,
+        "alternate_names": [
+          "Nine Mile Station"
+        ]
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.826822731973,
+          39.6733388819277
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Iliff",
+        "line": "Denver_RTD_H",
+        "order": 14,
+        "alternate_names": [
+          "Iliff Station"
+        ]
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.828405528469,
+          39.6900133473622
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Florida",
+        "line": "Denver_RTD_H",
+        "order": 15,
+        "alternate_names": [
+          "Florida Station"
+        ]
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99262034493799,
+          39.7455180898895
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "16th & California / 16th & Stout",
+        "line": "Denver_RTD_L",
+        "order": 0,
+        "alternate_names": [
+          "16th & California",
+          "16th & Stout",
+          "16th Street / California Station",
+          "16th Street / Stout Station"
+        ]
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990393046751,
+          39.74727055286925
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "18th & California / 18th & Stout",
+        "line": "Denver_RTD_L",
+        "order": 1,
+        "alternate_names": [
+          "18th & California",
+          "18th & Stout",
+          "18th St / California Station",
+          "18th St / Stout Station"
+        ]
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98674059068,
+          39.7480642576877
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "20th & Welton",
+        "line": "Denver_RTD_L",
+        "order": 2,
+        "alternate_names": [
+          "20th St / Welton Station"
+        ]
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.980068794082,
+          39.7531633055278
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "25th & Welton",
+        "line": "Denver_RTD_L",
+        "order": 3,
+        "alternate_names": [
+          "25th St / Welton Station"
+        ]
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97734235599,
+          39.7552429218789
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "27th & Welton",
+        "line": "Denver_RTD_L",
+        "order": 4,
+        "alternate_names": [
+          "27th St / Welton Station"
+        ]
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.973570339096,
+          39.7586567715299
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "30th & Downing",
+        "line": "Denver_RTD_L",
+        "order": 5,
+        "alternate_names": [
+          "30th / Downing Station"
+        ]
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.850493361269,
+          39.7674541223319
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Peoria",
+        "line": "Denver_RTD_R",
+        "order": 0,
+        "alternate_names": [
+          "Peoria Station"
+        ]
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83937572777,
+          39.7549808397943
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Fitzsimons",
+        "line": "Denver_RTD_R",
+        "order": 1,
+        "alternate_names": [
+          "Fitzsimons Station"
+        ]
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.827024147735,
+          39.7404582753487
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Colfax",
+        "line": "Denver_RTD_R",
+        "order": 2,
+        "alternate_names": [
+          "Colfax Station"
+        ]
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.823528631386,
+          39.7349403795612
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "13th Avenue",
+        "line": "Denver_RTD_R",
+        "order": 3,
+        "alternate_names": [
+          "13th Avenue Station"
+        ]
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.825551510743,
+          39.7195192448818
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "2nd Avenue & Abilene",
+        "line": "Denver_RTD_R",
+        "order": 4,
+        "alternate_names": [
+          "2nd Ave / Abilene Station"
+        ]
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.819152994231,
+          39.7087423917121
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Aurora Metro Center",
+        "line": "Denver_RTD_R",
+        "order": 5,
+        "alternate_names": [
+          "Aurora Metro Center Station"
+        ]
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.828405528469,
+          39.6900133473622
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Florida",
+        "line": "Denver_RTD_R",
+        "order": 6,
+        "alternate_names": [
+          "Florida Station"
+        ]
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.826822731973,
+          39.6733388819277
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Iliff",
+        "line": "Denver_RTD_R",
+        "order": 7,
+        "alternate_names": [
+          "Iliff Station"
+        ]
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.845103082391,
+          39.6575623270546
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Nine Mile",
+        "line": "Denver_RTD_R",
+        "order": 8,
+        "alternate_names": [
+          "Nine Mile Station"
+        ]
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.877680771833,
+          39.6431236472378
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Dayton",
+        "line": "Denver_RTD_R",
+        "order": 9,
+        "alternate_names": [
+          "Dayton Station"
+        ]
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.904571186788,
+          39.6276868008032
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Belleview",
+        "line": "Denver_RTD_R",
+        "order": 10,
+        "alternate_names": [
+          "Belleview Station"
+        ]
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.896077977798,
+          39.6133775561876
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Orchard",
+        "line": "Denver_RTD_R",
+        "order": 11,
+        "alternate_names": [
+          "Orchard Station"
+        ]
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.888566410919,
+          39.6003103344811
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Arapahoe at Village Center",
+        "line": "Denver_RTD_R",
+        "order": 12,
+        "alternate_names": [
+          "Arapahoe at Village Center Station"
+        ]
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.876794802096,
+          39.5790609193795
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Dry Creek",
+        "line": "Denver_RTD_R",
+        "order": 13,
+        "alternate_names": [
+          "Dry Creek Station"
+        ]
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.872285896276,
+          39.5618182939798
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "County Line",
+        "line": "Denver_RTD_R",
+        "order": 14,
+        "alternate_names": [
+          "County Line Station"
+        ]
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.869648049139,
+          39.5457927505658
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Lincoln",
+        "line": "Denver_RTD_R",
+        "order": 15,
+        "alternate_names": [
+          "Lincoln Station"
+        ]
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003481093953,
+          39.7549076009976
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Union Station",
+        "line": "Denver_RTD_W",
+        "order": 0,
+        "alternate_names": [
+          "Union Station Transit Center",
+          "Denver Union Station",
+          "Union"
+        ]
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.009742885083,
+          39.7486080203246
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Ball Arena - Elitch Gardens",
+        "line": "Denver_RTD_W",
+        "order": 1,
+        "alternate_names": [
+          "Ball Arena–Elitch Gardens",
+          "Ball Arena / Elitch Gardens Station"
+        ]
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.013276259133,
+          39.7434448293374
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Empower Field at Mile High",
+        "line": "Denver_RTD_W",
+        "order": 2
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.010774352252,
+          39.7416844877144
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Auraria West",
+        "line": "Denver_RTD_W",
+        "order": 3,
+        "alternate_names": [
+          "Auraria West Campus Station"
+        ]
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024071006678,
+          39.7373296583408
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Decatur - Federal",
+        "line": "Denver_RTD_W",
+        "order": 4,
+        "alternate_names": [
+          "Decatur–Federal",
+          "Decatur-Federal Station"
+        ]
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.032806800321,
+          39.7356756718157
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Knox",
+        "line": "Denver_RTD_W",
+        "order": 5,
+        "alternate_names": [
+          "Knox Station"
+        ]
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.039897270232,
+          39.7348333897644
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Perry",
+        "line": "Denver_RTD_W",
+        "order": 6,
+        "alternate_names": [
+          "Perry Station"
+        ]
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.052922444796,
+          39.7351506876857
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Sheridan",
+        "line": "Denver_RTD_W",
+        "order": 7,
+        "alternate_names": [
+          "Sheridan Station"
+        ]
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.067018086888,
+          39.7367613912411
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Lamar",
+        "line": "Denver_RTD_W",
+        "order": 8,
+        "alternate_names": [
+          "Lamar Station"
+        ]
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08153871655,
+          39.7366687030589
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Lakewood - Wadsworth",
+        "line": "Denver_RTD_W",
+        "order": 9,
+        "alternate_names": [
+          "Lakewood–Wadsworth",
+          "Lakewood-Wadsworth Station"
+        ]
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.099483486022,
+          39.7365789002108
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Garrison",
+        "line": "Denver_RTD_W",
+        "order": 10,
+        "alternate_names": [
+          "Garrison Station"
+        ]
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.119734993497,
+          39.7372960010017
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Oak",
+        "line": "Denver_RTD_W",
+        "order": 11,
+        "alternate_names": [
+          "Oak Station"
+        ]
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.128962398264,
+          39.7200029061743
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Federal Center",
+        "line": "Denver_RTD_W",
+        "order": 12,
+        "alternate_names": [
+          "Federal Center Station"
+        ]
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.152115386853,
+          39.7250658022084
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Red Rocks College",
+        "line": "Denver_RTD_W",
+        "order": 13,
+        "alternate_names": [
+          "Red Rocks College Station"
+        ]
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.20134815787,
+          39.7264575307701
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Jefferson County Government Center - Golden",
+        "line": "Denver_RTD_W",
+        "order": 14,
+        "alternate_names": [
+          "Jefferson County Government Center–Golden",
+          "Jefferson CO Government-Golden Station"
+        ]
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67380301516943,
+          39.8504203071417
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Main Terminal",
+        "line": "DenverAGTS",
+        "order": 0,
+        "alternate_names": [
+          "Jeppesen Terminal"
+        ],
+        "cluster_key": "denver-airport-complex"
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67380822527777,
+          39.85386118924015
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "A Gates",
+        "line": "DenverAGTS",
+        "order": 1
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67374927259763,
+          39.859259435063215
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "B Gates",
+        "line": "DenverAGTS",
+        "order": 2
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67369296359355,
+          39.863135025873724
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "C Gates",
+        "line": "DenverAGTS",
+        "order": 3
+      },
+      "id": 117
+    }
+  ]
+}

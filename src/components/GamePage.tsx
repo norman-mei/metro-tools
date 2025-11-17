@@ -293,6 +293,10 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = [
     { name: 'Airport', line: 'MARTARD' },
   ],
   [
+    { name: 'Denver Airport', line: 'Denver_RTD_A' },
+    { name: 'Main Terminal', line: 'DenverAGTS' },
+  ],
+  [
     { name: 'Airport (機場)', line: 'AEL' },
     { name: 'Terminal 2 Interchange (二號客運大樓站)', line: 'HKAPMT1' },
     { name: 'Terminal 2 Interchange (二號客運大樓站)', line: 'HKAPMT2' },
@@ -326,6 +330,14 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = [
     { name: 'Tuen Mun (屯門)', line: 'MTR505' },
     { name: 'Tuen Mun (屯門)', line: 'MTR507' },
     { name: 'Tuen Mun (屯門)', line: 'MTR751' },
+  ],
+  [
+    { name: 'Hub Building', line: 'HubTram' },
+    { name: 'Terminal 2-Humphrey', line: 'MAXBlue' },
+  ],
+  [
+    { name: 'Terminal 1', line: 'HubTram' },
+    { name: 'Terminal 1-Lindbergh', line: 'MAXBlue' },
   ],
 ]
 

@@ -1,0 +1,2186 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.21403130415514,
+          32.8692945258979
+        ]
+      },
+      "properties": {
+        "name": "UTC Transit Center",
+        "line": "MTSBlue",
+        "order": 0,
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.214097067147,
+          32.874197374216536
+        ]
+      },
+      "properties": {
+        "name": "Executive Drive",
+        "line": "MTSBlue",
+        "order": 1,
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.22357630054537,
+          32.88190439243087
+        ]
+      },
+      "properties": {
+        "name": "UC San Diego Health La Jolla",
+        "line": "MTSBlue",
+        "order": 2,
+        "id": 2,
+        "alternate_names": [
+          "UCSD Health La Jolla",
+          "UCSD Health"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.23188562913265,
+          32.878426383030195
+        ]
+      },
+      "properties": {
+        "name": "UC San Diego Central Campus",
+        "line": "MTSBlue",
+        "order": 3,
+        "id": 3,
+        "alternate_names": [
+          "UCSD Central"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.22996607613327,
+          32.87427465851734
+        ]
+      },
+      "properties": {
+        "name": "VA Medical Center",
+        "line": "MTSBlue",
+        "order": 4,
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.23050012980121,
+          32.86694750096061
+        ]
+      },
+      "properties": {
+        "name": "Nobel Drive",
+        "line": "MTSBlue",
+        "order": 5,
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.21419593050537,
+          32.8057814556763
+        ]
+      },
+      "properties": {
+        "name": "Balboa Avenue",
+        "line": "MTSBlue",
+        "order": 6,
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.20629505146903,
+          32.790050262058955
+        ]
+      },
+      "properties": {
+        "name": "Clairemont Drive",
+        "line": "MTSBlue",
+        "order": 7,
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2050727234353,
+          32.76991042629062
+        ]
+      },
+      "properties": {
+        "name": "Tecolote Road",
+        "line": "MTSBlue",
+        "order": 8,
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15415463932173,
+          32.7052877877024
+        ]
+      },
+      "properties": {
+        "name": "12th & Imperial Transit Center",
+        "line": "MTSBlue",
+        "order": 9,
+        "id": 9,
+        "alternate_names": [
+          "12th & Imperial"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15963201001853,
+          32.706933571360715
+        ]
+      },
+      "properties": {
+        "name": "Gaslamp Quarter",
+        "line": "MTSBlue",
+        "order": 10,
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16334837243852,
+          32.708954369120946
+        ]
+      },
+      "properties": {
+        "name": "Convention Center",
+        "line": "MTSBlue",
+        "order": 11,
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16862415631444,
+          32.712029370672695
+        ]
+      },
+      "properties": {
+        "name": "Seaport Village",
+        "line": "MTSBlue",
+        "order": 12,
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16984304424575,
+          32.71730952729248
+        ]
+      },
+      "properties": {
+        "name": "Santa Fe Depot",
+        "line": "MTSBlue",
+        "order": 13,
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16999298681255,
+          32.72144981688625
+        ]
+      },
+      "properties": {
+        "name": "County Center / Little Italy",
+        "line": "MTSBlue",
+        "order": 14,
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.17500346719639,
+          32.73380708765941
+        ]
+      },
+      "properties": {
+        "name": "Middletown",
+        "line": "MTSBlue",
+        "order": 15,
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18427852560549,
+          32.741608857117335
+        ]
+      },
+      "properties": {
+        "name": "Washington Street",
+        "line": "MTSBlue",
+        "order": 16,
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19953237388867,
+          32.754761597893726
+        ]
+      },
+      "properties": {
+        "name": "Old Town Transit Center",
+        "line": "MTSBlue",
+        "order": 17,
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16899755011934,
+          32.71617601751641
+        ]
+      },
+      "properties": {
+        "name": "America Plaza",
+        "line": "MTSBlue",
+        "order": 18,
+        "id": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16233177553269,
+          32.716829862149
+        ]
+      },
+      "properties": {
+        "name": "Civic Center",
+        "line": "MTSBlue",
+        "order": 19,
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15972794056341,
+          32.71682202318303
+        ]
+      },
+      "properties": {
+        "name": "Fifth Avenue",
+        "line": "MTSBlue",
+        "order": 20,
+        "id": 20,
+        "alternate_names": [
+          "5 Av"
+        ]
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15424433460747,
+          32.716373501334864
+        ]
+      },
+      "properties": {
+        "name": "City College",
+        "line": "MTSBlue",
+        "order": 21,
+        "id": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15377203856222,
+          32.710994126316905
+        ]
+      },
+      "properties": {
+        "name": "Park & Market",
+        "line": "MTSBlue",
+        "order": 22,
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15338303768632,
+          32.70601498674778
+        ]
+      },
+      "properties": {
+        "name": "12th & Imperial Transit Center",
+        "line": "MTSBlue",
+        "order": 23,
+        "id": 23,
+        "alternate_names": [
+          "12th & Imperial"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.14666202912478,
+          32.69822176816135
+        ]
+      },
+      "properties": {
+        "name": "Barrio Logan",
+        "line": "MTSBlue",
+        "order": 24,
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.13283754962734,
+          32.691350952646694
+        ]
+      },
+      "properties": {
+        "name": "Harborside",
+        "line": "MTSBlue",
+        "order": 25,
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.12470201242331,
+          32.6861369036436
+        ]
+      },
+      "properties": {
+        "name": "Pacific Fleet",
+        "line": "MTSBlue",
+        "order": 26,
+        "id": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.11296310612472,
+          32.67514378304062
+        ]
+      },
+      "properties": {
+        "name": "8th Street",
+        "line": "MTSBlue",
+        "order": 27,
+        "id": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.10792460905468,
+          32.66193726996483
+        ]
+      },
+      "properties": {
+        "name": "24th Street",
+        "line": "MTSBlue",
+        "order": 28,
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.09900991399617,
+          32.638930563740004
+        ]
+      },
+      "properties": {
+        "name": "Bayfront / E Street",
+        "line": "MTSBlue",
+        "order": 29,
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.09556970303086,
+          32.6301312895988
+        ]
+      },
+      "properties": {
+        "name": "H Street",
+        "line": "MTSBlue",
+        "order": 30,
+        "id": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.08515307088473,
+          32.603485615071406
+        ]
+      },
+      "properties": {
+        "name": "Palomar Street",
+        "line": "MTSBlue",
+        "order": 31,
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.08373689402532,
+          32.58444349589565
+        ]
+      },
+      "properties": {
+        "name": "Palm Avenue",
+        "line": "MTSBlue",
+        "order": 32,
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.06700344355097,
+          32.569790351136135
+        ]
+      },
+      "properties": {
+        "name": "Iris Avenue",
+        "line": "MTSBlue",
+        "order": 33,
+        "id": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.04701919652997,
+          32.557778949600035
+        ]
+      },
+      "properties": {
+        "name": "Beyer Blvd",
+        "line": "MTSBlue",
+        "order": 34,
+        "id": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.02950981987149,
+          32.544661613076954
+        ]
+      },
+      "properties": {
+        "name": "San Ysidro Transit Center",
+        "line": "MTSBlue",
+        "order": 35,
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16587136004605,
+          32.716708700888816
+        ]
+      },
+      "properties": {
+        "name": "Courthouse",
+        "line": "MTSOrange",
+        "order": 0,
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16233177553269,
+          32.716829862149
+        ]
+      },
+      "properties": {
+        "name": "Civic Center",
+        "line": "MTSOrange",
+        "order": 1,
+        "id": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15972794056341,
+          32.71682202318303
+        ]
+      },
+      "properties": {
+        "name": "Fifth Avenue",
+        "line": "MTSOrange",
+        "order": 2,
+        "id": 38,
+        "alternate_names": [
+          "5 Av"
+        ]
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15424433460747,
+          32.716373501334864
+        ]
+      },
+      "properties": {
+        "name": "City College",
+        "line": "MTSOrange",
+        "order": 3,
+        "id": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15377203856222,
+          32.710994126316905
+        ]
+      },
+      "properties": {
+        "name": "Park & Market",
+        "line": "MTSOrange",
+        "order": 4,
+        "id": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15338303768632,
+          32.70601498674778
+        ]
+      },
+      "properties": {
+        "name": "12th & Imperial Transit Center",
+        "line": "MTSOrange",
+        "order": 5,
+        "id": 41,
+        "alternate_names": [
+          "12th & Imperial"
+        ]
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.14021390970758,
+          32.705372635411024
+        ]
+      },
+      "properties": {
+        "name": "25th & Commercial",
+        "line": "MTSOrange",
+        "order": 6,
+        "id": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.12458224386646,
+          32.705973063299844
+        ]
+      },
+      "properties": {
+        "name": "32nd & Commercial",
+        "line": "MTSOrange",
+        "order": 7,
+        "id": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.09497278547762,
+          32.70849716985582
+        ]
+      },
+      "properties": {
+        "name": "47th Street",
+        "line": "MTSOrange",
+        "order": 8,
+        "id": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0858213069808,
+          32.70957413602181
+        ]
+      },
+      "properties": {
+        "name": "Euclid Avenue",
+        "line": "MTSOrange",
+        "order": 9,
+        "id": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.06337430948334,
+          32.710131407151586
+        ]
+      },
+      "properties": {
+        "name": "Encanto / 62nd Street",
+        "line": "MTSOrange",
+        "order": 10,
+        "id": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.03960800063516,
+          32.7235700684728
+        ]
+      },
+      "properties": {
+        "name": "Massachusetts Avenue",
+        "line": "MTSOrange",
+        "order": 11,
+        "id": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.03070488594376,
+          32.74344576280338
+        ]
+      },
+      "properties": {
+        "name": "Lemon Grove Depot",
+        "line": "MTSOrange",
+        "order": 12,
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.01743909012394,
+          32.756869020179394
+        ]
+      },
+      "properties": {
+        "name": "Spring Street",
+        "line": "MTSOrange",
+        "order": 13,
+        "id": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.02056847994855,
+          32.76507439144537
+        ]
+      },
+      "properties": {
+        "name": "La Mesa Blvd",
+        "line": "MTSOrange",
+        "order": 14,
+        "id": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.01108855266943,
+          32.78184512024064
+        ]
+      },
+      "properties": {
+        "name": "Grossmont Transit Center",
+        "line": "MTSOrange",
+        "order": 15,
+        "id": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.00174631579395,
+          32.78544144224586
+        ]
+      },
+      "properties": {
+        "name": "Amaya Drive",
+        "line": "MTSOrange",
+        "order": 16,
+        "id": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.97615112534248,
+          32.792069043960474
+        ]
+      },
+      "properties": {
+        "name": "El Cajon Transit Center",
+        "line": "MTSOrange",
+        "order": 17,
+        "id": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15415463932173,
+          32.7052877877024
+        ]
+      },
+      "properties": {
+        "name": "12th & Imperial Transit Center",
+        "line": "MTSGreen",
+        "order": 0,
+        "id": 54,
+        "alternate_names": [
+          "12th & Imperial"
+        ]
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15963201001853,
+          32.706933571360715
+        ]
+      },
+      "properties": {
+        "name": "Gaslamp Quarter",
+        "line": "MTSGreen",
+        "order": 1,
+        "id": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16334837243852,
+          32.708954369120946
+        ]
+      },
+      "properties": {
+        "name": "Convention Center",
+        "line": "MTSGreen",
+        "order": 2,
+        "id": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16862415631444,
+          32.712029370672695
+        ]
+      },
+      "properties": {
+        "name": "Seaport Village",
+        "line": "MTSGreen",
+        "order": 3,
+        "id": 57
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16984304424575,
+          32.71730952729248
+        ]
+      },
+      "properties": {
+        "name": "Santa Fe Depot",
+        "line": "MTSGreen",
+        "order": 4,
+        "id": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16999298681255,
+          32.72144981688625
+        ]
+      },
+      "properties": {
+        "name": "County Center / Little Italy",
+        "line": "MTSGreen",
+        "order": 5,
+        "id": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.17500346719639,
+          32.73380708765941
+        ]
+      },
+      "properties": {
+        "name": "Middletown",
+        "line": "MTSGreen",
+        "order": 6,
+        "id": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18427852560549,
+          32.741608857117335
+        ]
+      },
+      "properties": {
+        "name": "Washington Street",
+        "line": "MTSGreen",
+        "order": 7,
+        "id": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19953237388867,
+          32.754761597893726
+        ]
+      },
+      "properties": {
+        "name": "Old Town Transit Center",
+        "line": "MTSGreen",
+        "order": 8,
+        "id": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19690616928705,
+          32.76368744315541
+        ]
+      },
+      "properties": {
+        "name": "Morena / Linda Vista",
+        "line": "MTSGreen",
+        "order": 9,
+        "id": 63
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16909695091071,
+          32.76555472919521
+        ]
+      },
+      "properties": {
+        "name": "Fashion Valley Transit Center",
+        "line": "MTSGreen",
+        "order": 10,
+        "id": 64
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15806909215759,
+          32.77037002748004
+        ]
+      },
+      "properties": {
+        "name": "Hazard Center",
+        "line": "MTSGreen",
+        "order": 11,
+        "id": 65
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15007905234948,
+          32.7711747037014
+        ]
+      },
+      "properties": {
+        "name": "Mission Valley Center",
+        "line": "MTSGreen",
+        "order": 12,
+        "id": 66
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.14180049407629,
+          32.77372917370832
+        ]
+      },
+      "properties": {
+        "name": "Rio Vista",
+        "line": "MTSGreen",
+        "order": 13,
+        "id": 67
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.12714201545073,
+          32.778377995688466
+        ]
+      },
+      "properties": {
+        "name": "Fenton Parkway",
+        "line": "MTSGreen",
+        "order": 14,
+        "id": 68
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.11964305356922,
+          32.78103132630918
+        ]
+      },
+      "properties": {
+        "name": "Stadium",
+        "line": "MTSGreen",
+        "order": 15,
+        "id": 69
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.11095416098897,
+          32.78090365412704
+        ]
+      },
+      "properties": {
+        "name": "Mission San Diego",
+        "line": "MTSGreen",
+        "order": 16,
+        "id": 70
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.09741984349353,
+          32.780507570714526
+        ]
+      },
+      "properties": {
+        "name": "Grantville",
+        "line": "MTSGreen",
+        "order": 17,
+        "id": 71
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0705488980155,
+          32.77344512596219
+        ]
+      },
+      "properties": {
+        "name": "SDSU Transit Center",
+        "line": "MTSGreen",
+        "order": 18,
+        "id": 72
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.05684718748608,
+          32.77740526053452
+        ]
+      },
+      "properties": {
+        "name": "UC San Diego Health East",
+        "line": "MTSGreen",
+        "order": 19,
+        "id": 73,
+        "alternate_names": [
+          "Alvarado",
+          "UCSD Health East",
+          "UCSD Health E"
+        ]
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.04247765114712,
+          32.77230939360021
+        ]
+      },
+      "properties": {
+        "name": "70th Street",
+        "line": "MTSGreen",
+        "order": 20,
+        "id": 74
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.01108855266943,
+          32.78184512024064
+        ]
+      },
+      "properties": {
+        "name": "Grossmont Transit Center",
+        "line": "MTSGreen",
+        "order": 21,
+        "id": 75
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.00174631579395,
+          32.78544144224586
+        ]
+      },
+      "properties": {
+        "name": "Amaya Drive",
+        "line": "MTSGreen",
+        "order": 22,
+        "id": 76
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.97615112534248,
+          32.792069043960474
+        ]
+      },
+      "properties": {
+        "name": "El Cajon Transit Center",
+        "line": "MTSGreen",
+        "order": 23,
+        "id": 77
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.97615112534248,
+          32.792069043960474
+        ]
+      },
+      "properties": {
+        "name": "El Cajon Transit Center",
+        "line": "MTSCopper",
+        "order": 0,
+        "id": 78
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.97579285355597,
+          32.80465501960507
+        ]
+      },
+      "properties": {
+        "name": "Arnele Avenue",
+        "line": "MTSCopper",
+        "order": 1,
+        "id": 79
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.98214388361295,
+          32.82698894016865
+        ]
+      },
+      "properties": {
+        "name": "Gillespie Field",
+        "line": "MTSCopper",
+        "order": 2,
+        "id": 80
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.98096733171108,
+          32.841809948997984
+        ]
+      },
+      "properties": {
+        "name": "Santee Town Center",
+        "line": "MTSCopper",
+        "order": 3,
+        "id": 81
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15338303768632,
+          32.70601498674778
+        ]
+      },
+      "properties": {
+        "name": "12th & Imperial Transit Center",
+        "line": "MTSSilver",
+        "order": 0,
+        "id": 82,
+        "alternate_names": [
+          "12th & Imperial"
+        ]
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15963201001853,
+          32.706933571360715
+        ]
+      },
+      "properties": {
+        "name": "Gaslamp Quarter",
+        "line": "MTSSilver",
+        "order": 1,
+        "id": 83
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16334837243852,
+          32.708954369120946
+        ]
+      },
+      "properties": {
+        "name": "Convention Center",
+        "line": "MTSSilver",
+        "order": 2,
+        "id": 84
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16862415631444,
+          32.712029370672695
+        ]
+      },
+      "properties": {
+        "name": "Seaport Village",
+        "line": "MTSSilver",
+        "order": 3,
+        "id": 85
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16899755011934,
+          32.71617601751641
+        ]
+      },
+      "properties": {
+        "name": "America Plaza",
+        "line": "MTSSilver",
+        "order": 4,
+        "id": 86
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16233177553269,
+          32.716829862149
+        ]
+      },
+      "properties": {
+        "name": "Civic Center",
+        "line": "MTSSilver",
+        "order": 5,
+        "id": 87
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15972794056341,
+          32.71682202318303
+        ]
+      },
+      "properties": {
+        "name": "Fifth Avenue",
+        "line": "MTSSilver",
+        "order": 6,
+        "id": 88,
+        "alternate_names": [
+          "5 Av"
+        ]
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15424433460747,
+          32.716373501334864
+        ]
+      },
+      "properties": {
+        "name": "City College",
+        "line": "MTSSilver",
+        "order": 7,
+        "id": 89
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15377203856222,
+          32.710994126316905
+        ]
+      },
+      "properties": {
+        "name": "Park & Market",
+        "line": "MTSSilver",
+        "order": 8,
+        "id": 90
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.21419593050537,
+          32.8057814556763
+        ]
+      },
+      "properties": {
+        "name": "Balboa Avenue",
+        "line": "MTSSpecialEvents",
+        "order": 0,
+        "id": 91
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.20629505146903,
+          32.790050262058955
+        ]
+      },
+      "properties": {
+        "name": "Clairemont Drive",
+        "line": "MTSSpecialEvents",
+        "order": 1,
+        "id": 92
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2050727234353,
+          32.76991042629062
+        ]
+      },
+      "properties": {
+        "name": "Tecolote Road",
+        "line": "MTSSpecialEvents",
+        "order": 2,
+        "id": 93
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15415463932173,
+          32.7052877877024
+        ]
+      },
+      "properties": {
+        "name": "12th & Imperial Transit Center",
+        "line": "MTSSpecialEvents",
+        "order": 3,
+        "id": 94,
+        "alternate_names": [
+          "12th & Imperial"
+        ]
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15963201001853,
+          32.706933571360715
+        ]
+      },
+      "properties": {
+        "name": "Gaslamp Quarter",
+        "line": "MTSSpecialEvents",
+        "order": 4,
+        "id": 95
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16334837243852,
+          32.708954369120946
+        ]
+      },
+      "properties": {
+        "name": "Convention Center",
+        "line": "MTSSpecialEvents",
+        "order": 5,
+        "id": 96
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16862415631444,
+          32.712029370672695
+        ]
+      },
+      "properties": {
+        "name": "Seaport Village",
+        "line": "MTSSpecialEvents",
+        "order": 6,
+        "id": 97
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16984304424575,
+          32.71730952729248
+        ]
+      },
+      "properties": {
+        "name": "Santa Fe Depot",
+        "line": "MTSSpecialEvents",
+        "order": 7,
+        "id": 98
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16999298681255,
+          32.72144981688625
+        ]
+      },
+      "properties": {
+        "name": "County Center / Little Italy",
+        "line": "MTSSpecialEvents",
+        "order": 8,
+        "id": 99
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.17500346719639,
+          32.73380708765941
+        ]
+      },
+      "properties": {
+        "name": "Middletown",
+        "line": "MTSSpecialEvents",
+        "order": 9,
+        "id": 100
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18427852560549,
+          32.741608857117335
+        ]
+      },
+      "properties": {
+        "name": "Washington Street",
+        "line": "MTSSpecialEvents",
+        "order": 10,
+        "id": 101
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19953237388867,
+          32.754761597893726
+        ]
+      },
+      "properties": {
+        "name": "Old Town Transit Center",
+        "line": "MTSSpecialEvents",
+        "order": 11,
+        "id": 102
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.37822970394802,
+          33.190626743643385
+        ]
+      },
+      "properties": {
+        "name": "Oceanside Transit Center",
+        "line": "COASTER",
+        "order": 0,
+        "id": 103
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.35090641425464,
+          33.1609760966699
+        ]
+      },
+      "properties": {
+        "name": "Carlsbad Village",
+        "line": "COASTER",
+        "order": 1,
+        "id": 104
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.31932319437635,
+          33.10921563535706
+        ]
+      },
+      "properties": {
+        "name": "Carlsbad Poinsettia",
+        "line": "COASTER",
+        "order": 2,
+        "id": 105
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.29323904193613,
+          33.04696081957251
+        ]
+      },
+      "properties": {
+        "name": "Encinitas",
+        "line": "COASTER",
+        "order": 3,
+        "id": 106
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.27158179177295,
+          32.99298575043056
+        ]
+      },
+      "properties": {
+        "name": "Solana Beach",
+        "line": "COASTER",
+        "order": 4,
+        "id": 107
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.22546307405892,
+          32.903183360327056
+        ]
+      },
+      "properties": {
+        "name": "Sorrento Valley",
+        "line": "COASTER",
+        "order": 5,
+        "id": 108
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19957436708044,
+          32.754402664833606
+        ]
+      },
+      "properties": {
+        "name": "Old Town Transit Center",
+        "line": "COASTER",
+        "order": 6,
+        "id": 109
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16998567439663,
+          32.716874808685056
+        ]
+      },
+      "properties": {
+        "name": "San Diego - Santa Fe Depot",
+        "line": "COASTER",
+        "order": 7,
+        "id": 110
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3785246633739,
+          33.19109304711021
+        ]
+      },
+      "properties": {
+        "name": "Oceanside Transit Center",
+        "line": "SPRINTER",
+        "order": 0,
+        "id": 111
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.36891332069591,
+          33.18183969554275
+        ]
+      },
+      "properties": {
+        "name": "Coast Highway",
+        "line": "SPRINTER",
+        "order": 1,
+        "id": 112
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.35365000758081,
+          33.19462967097011
+        ]
+      },
+      "properties": {
+        "name": "Crouch Street",
+        "line": "SPRINTER",
+        "order": 2,
+        "id": 113
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.33237298027377,
+          33.19973506750679
+        ]
+      },
+      "properties": {
+        "name": "El Camino Real",
+        "line": "SPRINTER",
+        "order": 3,
+        "id": 114
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3112769413369,
+          33.20160201111848
+        ]
+      },
+      "properties": {
+        "name": "Rancho Del Oro",
+        "line": "SPRINTER",
+        "order": 4,
+        "id": 115
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.28824415374858,
+          33.204586540992345
+        ]
+      },
+      "properties": {
+        "name": "College Boulevard",
+        "line": "SPRINTER",
+        "order": 5,
+        "id": 116
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.25970095706592,
+          33.219531420750585
+        ]
+      },
+      "properties": {
+        "name": "Melrose Drive",
+        "line": "SPRINTER",
+        "order": 6,
+        "id": 117
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.24504981725464,
+          33.203241326702965
+        ]
+      },
+      "properties": {
+        "name": "Vista Transit Center",
+        "line": "SPRINTER",
+        "order": 7,
+        "id": 118
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.236986007157,
+          33.19023901793291
+        ]
+      },
+      "properties": {
+        "name": "Civic Center - Vista",
+        "line": "SPRINTER",
+        "order": 8,
+        "id": 119
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2074324269987,
+          33.173600889461305
+        ]
+      },
+      "properties": {
+        "name": "Buena Creek",
+        "line": "SPRINTER",
+        "order": 9,
+        "id": 120
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18513633254919,
+          33.14693761073931
+        ]
+      },
+      "properties": {
+        "name": "Palomar College",
+        "line": "SPRINTER",
+        "order": 10,
+        "id": 121
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16207476142701,
+          33.14227776868979
+        ]
+      },
+      "properties": {
+        "name": "San Marcos Civic Center",
+        "line": "SPRINTER",
+        "order": 11,
+        "id": 122
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15361307664904,
+          33.134811070685835
+        ]
+      },
+      "properties": {
+        "name": "Cal State San Marcos",
+        "line": "SPRINTER",
+        "order": 12,
+        "id": 123
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.124084585627,
+          33.131230341742885
+        ]
+      },
+      "properties": {
+        "name": "Nordahl Road",
+        "line": "SPRINTER",
+        "order": 13,
+        "id": 124
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0920669717376,
+          33.1183660785029
+        ]
+      },
+      "properties": {
+        "name": "Escondido Transit Center",
+        "line": "SPRINTER",
+        "order": 14,
+        "id": 125
+      },
+      "id": 125
+    }
+  ]
+}

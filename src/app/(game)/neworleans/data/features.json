@@ -1,0 +1,2500 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07020430126374,
+          29.95392364054576
+        ]
+      },
+      "properties": {
+        "name": "Carondelet St",
+        "line": "RTA12",
+        "order": 0,
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06982741933231,
+          29.9523320614173
+        ]
+      },
+      "properties": {
+        "name": "Common St",
+        "line": "RTA12",
+        "order": 1,
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07023861613666,
+          29.951179840891314
+        ]
+      },
+      "properties": {
+        "name": "Union St",
+        "line": "RTA12",
+        "order": 2,
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07024736505593,
+          29.95116468004342
+        ]
+      },
+      "properties": {
+        "name": "Gravier St",
+        "line": "RTA12",
+        "order": 3,
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07061480942193,
+          29.94984947009136
+        ]
+      },
+      "properties": {
+        "name": "Poydras St",
+        "line": "RTA12",
+        "order": 4,
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0718659009645,
+          29.94965995633229
+        ]
+      },
+      "properties": {
+        "name": "Poydras St",
+        "line": "RTA12",
+        "order": 5,
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07112224837935,
+          29.948105930692453
+        ]
+      },
+      "properties": {
+        "name": "Lafayette St",
+        "line": "RTA12",
+        "order": 6,
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07133222010566,
+          29.947461572886954
+        ]
+      },
+      "properties": {
+        "name": "Girod St",
+        "line": "RTA12",
+        "order": 7,
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07252643346497,
+          29.947453990887098
+        ]
+      },
+      "properties": {
+        "name": "Girod St",
+        "line": "RTA12",
+        "order": 8,
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07169552824637,
+          29.946099824989222
+        ]
+      },
+      "properties": {
+        "name": "Julia St",
+        "line": "RTA12",
+        "order": 9,
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07290344564065,
+          29.946062666853837
+        ]
+      },
+      "properties": {
+        "name": "Julia St",
+        "line": "RTA12",
+        "order": 10,
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07218171839585,
+          29.94452003377957
+        ]
+      },
+      "properties": {
+        "name": "St. Joseph St",
+        "line": "RTA12",
+        "order": 11,
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07354187701381,
+          29.94404187815902
+        ]
+      },
+      "properties": {
+        "name": "Howard Av",
+        "line": "RTA12",
+        "order": 12,
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07281366642415,
+          29.942779861316005
+        ]
+      },
+      "properties": {
+        "name": "Tivoli Circle",
+        "line": "RTA12",
+        "order": 13,
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07446285625969,
+          29.940534165872734
+        ]
+      },
+      "properties": {
+        "name": "Erato St",
+        "line": "RTA12",
+        "order": 14,
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07560332693261,
+          29.939016902196467
+        ]
+      },
+      "properties": {
+        "name": "MLK Jr. Bl/Melpomene St",
+        "line": "RTA12",
+        "order": 15,
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07650292055435,
+          29.93781513075859
+        ]
+      },
+      "properties": {
+        "name": "Euterpe St",
+        "line": "RTA12",
+        "order": 16,
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07761666272553,
+          29.93628390666767
+        ]
+      },
+      "properties": {
+        "name": "Felicity St",
+        "line": "RTA12",
+        "order": 17,
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0787625303131,
+          29.935355879911636
+        ]
+      },
+      "properties": {
+        "name": "St. Andrew St",
+        "line": "RTA12",
+        "order": 18,
+        "id": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07965672465177,
+          29.93475729876265
+        ]
+      },
+      "properties": {
+        "name": "Josephine St",
+        "line": "RTA12",
+        "order": 19,
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08059912896059,
+          29.934126230575902
+        ]
+      },
+      "properties": {
+        "name": "Jackson Av",
+        "line": "RTA12",
+        "order": 20,
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0827141609007,
+          29.93278519690605
+        ]
+      },
+      "properties": {
+        "name": "First St",
+        "line": "RTA12",
+        "order": 21,
+        "id": 21,
+        "alternate_names": [
+          "1 St"
+        ]
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08433122399596,
+          29.931903540813853
+        ]
+      },
+      "properties": {
+        "name": "Third St",
+        "line": "RTA12",
+        "order": 22,
+        "id": 22,
+        "alternate_names": [
+          "3 St"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08602860283379,
+          29.930984751855515
+        ]
+      },
+      "properties": {
+        "name": "Washington Av",
+        "line": "RTA12",
+        "order": 23,
+        "id": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08734580968061,
+          29.930223722554118
+        ]
+      },
+      "properties": {
+        "name": "Sixth St",
+        "line": "RTA12",
+        "order": 24,
+        "id": 24,
+        "alternate_names": [
+          "6 St"
+        ]
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08898429524491,
+          29.929295643800423
+        ]
+      },
+      "properties": {
+        "name": "Eighth St",
+        "line": "RTA12",
+        "order": 25,
+        "id": 25,
+        "alternate_names": [
+          "8 St"
+        ]
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0914473714991,
+          29.92829330416612
+        ]
+      },
+      "properties": {
+        "name": "Louisiana Av",
+        "line": "RTA12",
+        "order": 26,
+        "id": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09368555706942,
+          29.92750441808236
+        ]
+      },
+      "properties": {
+        "name": "Foucher St",
+        "line": "RTA12",
+        "order": 27,
+        "id": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09559176659819,
+          29.927021797127153
+        ]
+      },
+      "properties": {
+        "name": "Peniston St",
+        "line": "RTA12",
+        "order": 28,
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0974604893217,
+          29.92687793757172
+        ]
+      },
+      "properties": {
+        "name": "Constantinople St",
+        "line": "RTA12",
+        "order": 29,
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09962906700697,
+          29.926724805676994
+        ]
+      },
+      "properties": {
+        "name": "Milan St",
+        "line": "RTA12",
+        "order": 30,
+        "id": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1020760749541,
+          29.926511337490524
+        ]
+      },
+      "properties": {
+        "name": "Napoleon Av",
+        "line": "RTA12",
+        "order": 31,
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10443505513858,
+          29.92631447547923
+        ]
+      },
+      "properties": {
+        "name": "Cadiz St",
+        "line": "RTA12",
+        "order": 32,
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10673437477853,
+          29.926136391156717
+        ]
+      },
+      "properties": {
+        "name": "Bordeaux St",
+        "line": "RTA12",
+        "order": 33,
+        "id": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10882821338299,
+          29.926578219382783
+        ]
+      },
+      "properties": {
+        "name": "Robert St",
+        "line": "RTA12",
+        "order": 34,
+        "id": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11066454598942,
+          29.92745060487728
+        ]
+      },
+      "properties": {
+        "name": "Duffosat St",
+        "line": "RTA12",
+        "order": 35,
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11152288920965,
+          29.927876650166482
+        ]
+      },
+      "properties": {
+        "name": "Valmont St",
+        "line": "RTA12",
+        "order": 36,
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11301068488034,
+          29.928559670539574
+        ]
+      },
+      "properties": {
+        "name": "Jefferson Av",
+        "line": "RTA12",
+        "order": 37,
+        "id": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11490684172769,
+          29.929459086777165
+        ]
+      },
+      "properties": {
+        "name": "Joseph St",
+        "line": "RTA12",
+        "order": 38,
+        "id": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11660011904198,
+          29.93026156716863
+        ]
+      },
+      "properties": {
+        "name": "Nashville Av",
+        "line": "RTA12",
+        "order": 39,
+        "id": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1181165259649,
+          29.93111363175441
+        ]
+      },
+      "properties": {
+        "name": "State St",
+        "line": "RTA12",
+        "order": 40,
+        "id": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11930564914053,
+          29.931953004428205
+        ]
+      },
+      "properties": {
+        "name": "Webster St",
+        "line": "RTA12",
+        "order": 41,
+        "id": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12071541257419,
+          29.932949316203576
+        ]
+      },
+      "properties": {
+        "name": "Calhoun St",
+        "line": "RTA12",
+        "order": 42,
+        "id": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12161536998548,
+          29.933609760532764
+        ]
+      },
+      "properties": {
+        "name": "Exposition Bl",
+        "line": "RTA12",
+        "order": 43,
+        "id": 43,
+        "alternate_names": [
+          "Loyola University"
+        ]
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12245030336179,
+          29.93418454626316
+        ]
+      },
+      "properties": {
+        "name": "Tulane/Loyola",
+        "line": "RTA12",
+        "order": 44,
+        "id": 44,
+        "alternate_names": [
+          "West Rd"
+        ]
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12383405711721,
+          29.935149280298376
+        ]
+      },
+      "properties": {
+        "name": "Tulane University",
+        "line": "RTA12",
+        "order": 45,
+        "id": 45,
+        "alternate_names": [
+          "Tulane"
+        ]
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12540768650713,
+          29.93628981637502
+        ]
+      },
+      "properties": {
+        "name": "Walnut St",
+        "line": "RTA12",
+        "order": 46,
+        "id": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12686426951888,
+          29.93731087756663
+        ]
+      },
+      "properties": {
+        "name": "Broadway St",
+        "line": "RTA12",
+        "order": 47,
+        "id": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12828117244074,
+          29.938355283469484
+        ]
+      },
+      "properties": {
+        "name": "Lowerline St",
+        "line": "RTA12",
+        "order": 48,
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13020800415481,
+          29.93991932436462
+        ]
+      },
+      "properties": {
+        "name": "Hilary St",
+        "line": "RTA12",
+        "order": 49,
+        "id": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13177195968589,
+          29.941158555498596
+        ]
+      },
+      "properties": {
+        "name": "Burdette St",
+        "line": "RTA12",
+        "order": 50,
+        "id": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13256881211744,
+          29.941786451147387
+        ]
+      },
+      "properties": {
+        "name": "Fern St",
+        "line": "RTA12",
+        "order": 51,
+        "id": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13403234461522,
+          29.943231121199954
+        ]
+      },
+      "properties": {
+        "name": "St. Charles Av",
+        "line": "RTA12",
+        "order": 52,
+        "id": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13271153335634,
+          29.944459627220798
+        ]
+      },
+      "properties": {
+        "name": "Maple St",
+        "line": "RTA12",
+        "order": 53,
+        "id": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13119200980024,
+          29.945871059492504
+        ]
+      },
+      "properties": {
+        "name": "Freret St",
+        "line": "RTA12",
+        "order": 54,
+        "id": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12969817666806,
+          29.947285132362413
+        ]
+      },
+      "properties": {
+        "name": "Oak St",
+        "line": "RTA12",
+        "order": 55,
+        "id": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12817884509452,
+          29.948708392580805
+        ]
+      },
+      "properties": {
+        "name": "Willow St",
+        "line": "RTA12",
+        "order": 56,
+        "id": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12742023943979,
+          29.94943750613705
+        ]
+      },
+      "properties": {
+        "name": "Jeanette St",
+        "line": "RTA12",
+        "order": 57,
+        "id": 57
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12673601133199,
+          29.95006350836693
+        ]
+      },
+      "properties": {
+        "name": "Birch St",
+        "line": "RTA12",
+        "order": 58,
+        "id": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1251828630522,
+          29.95154712343725
+        ]
+      },
+      "properties": {
+        "name": "Hickory St",
+        "line": "RTA12",
+        "order": 59,
+        "id": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1236547088701,
+          29.952948453845114
+        ]
+      },
+      "properties": {
+        "name": "Spruce St",
+        "line": "RTA12",
+        "order": 60,
+        "id": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12210911990975,
+          29.954391288576055
+        ]
+      },
+      "properties": {
+        "name": "Sycamore St",
+        "line": "RTA12",
+        "order": 61,
+        "id": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12092824697912,
+          29.955515830259174
+        ]
+      },
+      "properties": {
+        "name": "South Claiborne Av",
+        "line": "RTA12",
+        "order": 62,
+        "id": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05748626260717,
+          29.968594567281194
+        ]
+      },
+      "properties": {
+        "name": "Elysian Fields Avenue",
+        "line": "RTA46",
+        "order": 0,
+        "id": 63
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06027850542901,
+          29.968263309214773
+        ]
+      },
+      "properties": {
+        "name": "Pauger Street",
+        "line": "RTA46",
+        "order": 1,
+        "id": 64
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06373648155567,
+          29.965827674660886
+        ]
+      },
+      "properties": {
+        "name": "Esplanade Avenue",
+        "line": "RTA46",
+        "order": 2,
+        "id": 65
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06561264700176,
+          29.963713722730347
+        ]
+      },
+      "properties": {
+        "name": "Ursulines Street",
+        "line": "RTA46",
+        "order": 3,
+        "id": 66
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06773915085012,
+          29.96130419294112
+        ]
+      },
+      "properties": {
+        "name": "St. Ann Street",
+        "line": "RTA46",
+        "order": 4,
+        "id": 67
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07057833836288,
+          29.95810951922165
+        ]
+      },
+      "properties": {
+        "name": "Conti Street",
+        "line": "RTA46",
+        "order": 5,
+        "id": 68
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0731088324864,
+          29.9559358301885
+        ]
+      },
+      "properties": {
+        "name": "Canal and Rampart",
+        "line": "RTA46",
+        "order": 6,
+        "id": 69
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07468809408599,
+          29.954790843274353
+        ]
+      },
+      "properties": {
+        "name": "Tulane",
+        "line": "RTA46",
+        "order": 7,
+        "id": 70
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07576291792843,
+          29.950857823205745
+        ]
+      },
+      "properties": {
+        "name": "Poydras Street",
+        "line": "RTA46",
+        "order": 8,
+        "id": 71
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07614554067695,
+          29.949296625492664
+        ]
+      },
+      "properties": {
+        "name": "Hyatt Regency",
+        "line": "RTA46",
+        "order": 9,
+        "id": 72
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07681687087712,
+          29.94706931586502
+        ]
+      },
+      "properties": {
+        "name": "Julia Street",
+        "line": "RTA46",
+        "order": 10,
+        "id": 73
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07834388802611,
+          29.94548696313127
+        ]
+      },
+      "properties": {
+        "name": "Union Passenger Terminal (UPT)",
+        "line": "RTA46",
+        "order": 11,
+        "id": 74,
+        "alternate_names": [
+          "Union",
+          "Union Station",
+          "UPT"
+        ]
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11059858178739,
+          29.98271605225846
+        ]
+      },
+      "properties": {
+        "name": "Cemeteries Transit Center",
+        "line": "RTA47",
+        "order": 0,
+        "id": 75
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10865444046705,
+          29.97998532245612
+        ]
+      },
+      "properties": {
+        "name": "Anthony Street",
+        "line": "RTA47",
+        "order": 1,
+        "id": 76
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10672354279814,
+          29.97869095426271
+        ]
+      },
+      "properties": {
+        "name": "St. Patrick Street",
+        "line": "RTA47",
+        "order": 2,
+        "id": 77
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10491209210898,
+          29.97746567477372
+        ]
+      },
+      "properties": {
+        "name": "Murat Street",
+        "line": "RTA47",
+        "order": 3,
+        "id": 78
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10305875091865,
+          29.976214999486178
+        ]
+      },
+      "properties": {
+        "name": "Hennessey Street",
+        "line": "RTA47",
+        "order": 4,
+        "id": 79
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10037643651037,
+          29.974390938109178
+        ]
+      },
+      "properties": {
+        "name": "Carrollton Avenue",
+        "line": "RTA47",
+        "order": 5,
+        "id": 80
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09857091998848,
+          29.973171963578753
+        ]
+      },
+      "properties": {
+        "name": "Scott Street",
+        "line": "RTA47",
+        "order": 6,
+        "id": 81
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09679995772503,
+          29.971960596756745
+        ]
+      },
+      "properties": {
+        "name": "Telemachus Street",
+        "line": "RTA47",
+        "order": 7,
+        "id": 82
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09528020525822,
+          29.970931099107577
+        ]
+      },
+      "properties": {
+        "name": "Clark Street",
+        "line": "RTA47",
+        "order": 8,
+        "id": 83
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0936716198462,
+          29.96985986355574
+        ]
+      },
+      "properties": {
+        "name": "Norman Francis Parkway",
+        "line": "RTA47",
+        "order": 9,
+        "id": 84
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09211354853986,
+          29.968782451876653
+        ]
+      },
+      "properties": {
+        "name": "Lopez Street",
+        "line": "RTA47",
+        "order": 10,
+        "id": 85
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09135143068855,
+          29.968276205755174
+        ]
+      },
+      "properties": {
+        "name": "Salcedo Street",
+        "line": "RTA47",
+        "order": 11,
+        "id": 86
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08902995220743,
+          29.966699589310824
+        ]
+      },
+      "properties": {
+        "name": "White Street",
+        "line": "RTA47",
+        "order": 12,
+        "id": 87
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08760403273556,
+          29.96573894429524
+        ]
+      },
+      "properties": {
+        "name": "Broad Street",
+        "line": "RTA47",
+        "order": 13,
+        "id": 88
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08584595587686,
+          29.96456371539833
+        ]
+      },
+      "properties": {
+        "name": "Dorgenois Street",
+        "line": "RTA47",
+        "order": 14,
+        "id": 89
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.084026495346,
+          29.9632930023842
+        ]
+      },
+      "properties": {
+        "name": "Tonti Street",
+        "line": "RTA47",
+        "order": 15,
+        "id": 90
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08253775507667,
+          29.962305329709686
+        ]
+      },
+      "properties": {
+        "name": "Galvez Street",
+        "line": "RTA47",
+        "order": 16,
+        "id": 91
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08039040546464,
+          29.96084664247193
+        ]
+      },
+      "properties": {
+        "name": "Prieur Street",
+        "line": "RTA47",
+        "order": 17,
+        "id": 92
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07809918005644,
+          29.959291979455017
+        ]
+      },
+      "properties": {
+        "name": "Claiborne Avenue",
+        "line": "RTA47",
+        "order": 18,
+        "id": 93
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07547214947911,
+          29.957522574985255
+        ]
+      },
+      "properties": {
+        "name": "LaSalle Street",
+        "line": "RTA47",
+        "order": 19,
+        "id": 94
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07522073027476,
+          29.957352027588367
+        ]
+      },
+      "properties": {
+        "name": "Marais Street",
+        "line": "RTA47",
+        "order": 20,
+        "id": 95
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07375964288329,
+          29.956366537670995
+        ]
+      },
+      "properties": {
+        "name": "Elk Place/Basin Street",
+        "line": "RTA47",
+        "order": 21,
+        "id": 96
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07310088177024,
+          29.955912586972683
+        ]
+      },
+      "properties": {
+        "name": "Rampart",
+        "line": "RTA47",
+        "order": 22,
+        "id": 97
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07101277940858,
+          29.954494971443275
+        ]
+      },
+      "properties": {
+        "name": "Baronne/Dauphine",
+        "line": "RTA47",
+        "order": 23,
+        "id": 98
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07014375326781,
+          29.953915973229726
+        ]
+      },
+      "properties": {
+        "name": "Carondelet/Bourbon",
+        "line": "RTA47",
+        "order": 24,
+        "id": 99
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06893777172542,
+          29.953102371170054
+        ]
+      },
+      "properties": {
+        "name": "St. Charles/Royal",
+        "line": "RTA47",
+        "order": 25,
+        "id": 100
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06806528787594,
+          29.95250390256995
+        ]
+      },
+      "properties": {
+        "name": "Camp/Chartres",
+        "line": "RTA47",
+        "order": 26,
+        "id": 101
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06705631583553,
+          29.951799399786445
+        ]
+      },
+      "properties": {
+        "name": "Magazine/Decatur",
+        "line": "RTA47",
+        "order": 27,
+        "id": 102
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06580689381123,
+          29.95098237280078
+        ]
+      },
+      "properties": {
+        "name": "Peters Street",
+        "line": "RTA47",
+        "order": 28,
+        "id": 103
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06459711478617,
+          29.950143492716258
+        ]
+      },
+      "properties": {
+        "name": "Canal St. Ferry Terminal",
+        "line": "RTA47",
+        "order": 29,
+        "id": 104
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06356339854486,
+          29.950252556695684
+        ]
+      },
+      "properties": {
+        "name": "Canal Street",
+        "line": "RTA47",
+        "order": 30,
+        "id": 105
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09027704626092,
+          29.98375287714463
+        ]
+      },
+      "properties": {
+        "name": "City Park and Museum of Art",
+        "line": "RTA48",
+        "order": 0,
+        "id": 106,
+        "alternate_names": [
+          "Museum of Art",
+          "City Park"
+        ]
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09413958264985,
+          29.980614300012174
+        ]
+      },
+      "properties": {
+        "name": "Dumaine Street",
+        "line": "RTA48",
+        "order": 1,
+        "id": 107
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09548906725283,
+          29.97936391646296
+        ]
+      },
+      "properties": {
+        "name": "Orleans Avenue",
+        "line": "RTA48",
+        "order": 2,
+        "id": 108
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09743550846835,
+          29.977541284175675
+        ]
+      },
+      "properties": {
+        "name": "St. Louis Street",
+        "line": "RTA48",
+        "order": 3,
+        "id": 109
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09893125321592,
+          29.97613480604678
+        ]
+      },
+      "properties": {
+        "name": "Bienville Avenue",
+        "line": "RTA48",
+        "order": 4,
+        "id": 110
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10037643651037,
+          29.974390938109178
+        ]
+      },
+      "properties": {
+        "name": "Carrollton Avenue",
+        "line": "RTA48",
+        "order": 5,
+        "id": 111
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09857091998848,
+          29.973171963578753
+        ]
+      },
+      "properties": {
+        "name": "Scott Street",
+        "line": "RTA48",
+        "order": 6,
+        "id": 112
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09679995772503,
+          29.971960596756745
+        ]
+      },
+      "properties": {
+        "name": "Telemachus Street",
+        "line": "RTA48",
+        "order": 7,
+        "id": 113
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09528020525822,
+          29.970931099107577
+        ]
+      },
+      "properties": {
+        "name": "Clark Street",
+        "line": "RTA48",
+        "order": 8,
+        "id": 114
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0936716198462,
+          29.96985986355574
+        ]
+      },
+      "properties": {
+        "name": "Norman Francis Parkway",
+        "line": "RTA48",
+        "order": 9,
+        "id": 115
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09211354853986,
+          29.968782451876653
+        ]
+      },
+      "properties": {
+        "name": "Lopez Street",
+        "line": "RTA48",
+        "order": 10,
+        "id": 116
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.09135143068855,
+          29.968276205755174
+        ]
+      },
+      "properties": {
+        "name": "Salcedo Street",
+        "line": "RTA48",
+        "order": 11,
+        "id": 117
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08902995220743,
+          29.966699589310824
+        ]
+      },
+      "properties": {
+        "name": "White Street",
+        "line": "RTA48",
+        "order": 12,
+        "id": 118
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08760403273556,
+          29.96573894429524
+        ]
+      },
+      "properties": {
+        "name": "Broad Street",
+        "line": "RTA48",
+        "order": 13,
+        "id": 119
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08584595587686,
+          29.96456371539833
+        ]
+      },
+      "properties": {
+        "name": "Dorgenois Street",
+        "line": "RTA48",
+        "order": 14,
+        "id": 120
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.084026495346,
+          29.9632930023842
+        ]
+      },
+      "properties": {
+        "name": "Tonti Street",
+        "line": "RTA48",
+        "order": 15,
+        "id": 121
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08253775507667,
+          29.962305329709686
+        ]
+      },
+      "properties": {
+        "name": "Galvez Street",
+        "line": "RTA48",
+        "order": 16,
+        "id": 122
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.08039040546464,
+          29.96084664247193
+        ]
+      },
+      "properties": {
+        "name": "Prieur Street",
+        "line": "RTA48",
+        "order": 17,
+        "id": 123
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07809918005644,
+          29.959291979455017
+        ]
+      },
+      "properties": {
+        "name": "Claiborne Avenue",
+        "line": "RTA48",
+        "order": 18,
+        "id": 124
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07547214947911,
+          29.957522574985255
+        ]
+      },
+      "properties": {
+        "name": "LaSalle Street",
+        "line": "RTA48",
+        "order": 19,
+        "id": 125
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07522073027476,
+          29.957352027588367
+        ]
+      },
+      "properties": {
+        "name": "Marais Street",
+        "line": "RTA48",
+        "order": 20,
+        "id": 126
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07375964288329,
+          29.956366537670995
+        ]
+      },
+      "properties": {
+        "name": "Elk Place/Basin Street",
+        "line": "RTA48",
+        "order": 21,
+        "id": 127
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07310088177024,
+          29.955912586972683
+        ]
+      },
+      "properties": {
+        "name": "Rampart",
+        "line": "RTA48",
+        "order": 22,
+        "id": 128
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07101277940858,
+          29.954494971443275
+        ]
+      },
+      "properties": {
+        "name": "Baronne/Dauphine",
+        "line": "RTA48",
+        "order": 23,
+        "id": 129
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07014375326781,
+          29.953915973229726
+        ]
+      },
+      "properties": {
+        "name": "Carondelet/Bourbon",
+        "line": "RTA48",
+        "order": 24,
+        "id": 130
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06893777172542,
+          29.953102371170054
+        ]
+      },
+      "properties": {
+        "name": "St. Charles/Royal",
+        "line": "RTA48",
+        "order": 25,
+        "id": 131
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06806528787594,
+          29.95250390256995
+        ]
+      },
+      "properties": {
+        "name": "Camp/Chartres",
+        "line": "RTA48",
+        "order": 26,
+        "id": 132
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06705631583553,
+          29.951799399786445
+        ]
+      },
+      "properties": {
+        "name": "Magazine/Decatur",
+        "line": "RTA48",
+        "order": 27,
+        "id": 133
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06580689381123,
+          29.95098237280078
+        ]
+      },
+      "properties": {
+        "name": "Peters Street",
+        "line": "RTA48",
+        "order": 28,
+        "id": 134
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06459711478617,
+          29.950143492716258
+        ]
+      },
+      "properties": {
+        "name": "Canal St. Ferry Terminal",
+        "line": "RTA48",
+        "order": 29,
+        "id": 135
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06356339854486,
+          29.950252556695684
+        ]
+      },
+      "properties": {
+        "name": "Canal Street",
+        "line": "RTA48",
+        "order": 30,
+        "id": 136
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05715499100212,
+          29.960877451454508
+        ]
+      },
+      "properties": {
+        "name": "French Market",
+        "line": "RTA49",
+        "order": 0,
+        "id": 137
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05912368050429,
+          29.95953889736604
+        ]
+      },
+      "properties": {
+        "name": "Ursulines Street",
+        "line": "RTA49",
+        "order": 1,
+        "id": 138
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06076911867764,
+          29.957976973289238
+        ]
+      },
+      "properties": {
+        "name": "Dumaine Street",
+        "line": "RTA49",
+        "order": 2,
+        "id": 139
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06282074914724,
+          29.955684911169005
+        ]
+      },
+      "properties": {
+        "name": "Toulouse Street",
+        "line": "RTA49",
+        "order": 3,
+        "id": 140
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06372607660674,
+          29.95272512536875
+        ]
+      },
+      "properties": {
+        "name": "Bienville Street",
+        "line": "RTA49",
+        "order": 4,
+        "id": 141
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06356339854486,
+          29.950252556695684
+        ]
+      },
+      "properties": {
+        "name": "Canal Street",
+        "line": "RTA49",
+        "order": 5,
+        "id": 142
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06324018262882,
+          29.948077150701984
+        ]
+      },
+      "properties": {
+        "name": "Poydras Street",
+        "line": "RTA49",
+        "order": 6,
+        "id": 143
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06251278802846,
+          29.94415777642273
+        ]
+      },
+      "properties": {
+        "name": "Julia Street",
+        "line": "RTA49",
+        "order": 7,
+        "id": 144
+      },
+      "id": 144
+    }
+  ]
+}

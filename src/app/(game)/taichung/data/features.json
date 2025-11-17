@@ -1,0 +1,315 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70874886036555,
+          24.18891310690333
+        ]
+      },
+      "properties": {
+        "name": "Beitun Main",
+        "line": "TaichungGreen",
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70727332131897,
+          24.182398739689877
+        ]
+      },
+      "properties": {
+        "name": "Jiushe",
+        "line": "TaichungGreen",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7014542242108,
+          24.18090524781181
+        ]
+      },
+      "properties": {
+        "name": "Songzhu",
+        "line": "TaichungGreen",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69317664678793,
+          24.171357201776143
+        ]
+      },
+      "properties": {
+        "name": "Sihwei Elementary School",
+        "line": "TaichungGreen",
+        "id": 3,
+        "alternate_names": [
+          "Sihwei Primary School",
+          "Sihwei Elementary"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6848136747135,
+          24.172236635244506
+        ]
+      },
+      "properties": {
+        "name": "Wenxin Chongde",
+        "line": "TaichungGreen",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67048455932493,
+          24.173793473591374
+        ]
+      },
+      "properties": {
+        "name": "Wenxin Zhongqing",
+        "line": "TaichungGreen",
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66015895135108,
+          24.171445958343213
+        ]
+      },
+      "properties": {
+        "name": "Wenhua Senior High School",
+        "line": "TaichungGreen",
+        "id": 6,
+        "alternate_names": [
+          "Wenhua High School"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.653437358994,
+          24.167493033026343
+        ]
+      },
+      "properties": {
+        "name": "Wenxin Yinghua",
+        "line": "TaichungGreen",
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64888398457806,
+          24.161724847279466
+        ]
+      },
+      "properties": {
+        "name": "Taichung City Hall",
+        "line": "TaichungGreen",
+        "id": 8,
+        "alternate_names": [
+          "City Hall"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6466378007007,
+          24.15345551090421
+        ]
+      },
+      "properties": {
+        "name": "Shui-an Temple",
+        "line": "TaichungGreen",
+        "id": 9,
+        "alternate_names": [
+          "Shui-an",
+          "Shui-an Temple"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6466187827505,
+          24.14546928175546
+        ]
+      },
+      "properties": {
+        "name": "Wenxin Forest Park",
+        "line": "TaichungGreen",
+        "id": 10,
+        "alternate_names": [
+          "Forest Park"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6466481620079,
+          24.140585842104112
+        ]
+      },
+      "properties": {
+        "name": "Nantun",
+        "line": "TaichungGreen",
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64631539096476,
+          24.132250502742725
+        ]
+      },
+      "properties": {
+        "name": "Feng-le Park",
+        "line": "TaichungGreen",
+        "id": 12,
+        "alternate_names": [
+          "Feng-le",
+          "Fengle Park",
+          "Park"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64736821837592,
+          24.119119383832523
+        ]
+      },
+      "properties": {
+        "name": "Daqing",
+        "line": "TaichungGreen",
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63979415881805,
+          24.114501920584374
+        ]
+      },
+      "properties": {
+        "name": "Jiuzhangli",
+        "line": "TaichungGreen",
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63435493450952,
+          24.111085318225783
+        ]
+      },
+      "properties": {
+        "name": "Jiude",
+        "line": "TaichungGreen",
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62464611858942,
+          24.109030010364208
+        ]
+      },
+      "properties": {
+        "name": "Wuri",
+        "line": "TaichungGreen",
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61423546912206,
+          24.110204559503632
+        ]
+      },
+      "properties": {
+        "name": "Taichung",
+        "line": "TaichungGreen",
+        "id": 17
+      },
+      "id": 17
+    }
+  ]
+}

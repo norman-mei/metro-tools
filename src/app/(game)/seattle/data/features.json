@@ -1,0 +1,1957 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29477683478,
+          47.815684298983
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Lynnwood City Center",
+        "line": "SoundTransit1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314796766804,
+          47.785125489408
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Mountlake Terrace",
+        "line": "SoundTransit1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322974915524,
+          47.764136257774
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Shoreline North / 185th",
+        "line": "SoundTransit1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325344026983,
+          47.736183987421
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shoreline South / 148th",
+        "line": "SoundTransit1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323833709831,
+          47.723755406774
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Pinehurst",
+        "line": "SoundTransit1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328346670811,
+          47.703127749792
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Northgate",
+        "line": "SoundTransit1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316021233119,
+          47.67612431077
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Roosevelt",
+        "line": "SoundTransit1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314156324114,
+          47.660047977456
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "U District",
+        "line": "SoundTransit1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303795051366,
+          47.65040315233
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "University of Washington",
+        "line": "SoundTransit1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320234654027,
+          47.619772136823
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Capitol Hill",
+        "line": "SoundTransit1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336738638756,
+          47.611600498851
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Westlake",
+        "line": "SoundTransit1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336090429758,
+          47.60782665505
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Symphony",
+        "line": "SoundTransit1",
+        "order": 11,
+        "alternate_names": [
+          "University Street"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330812005444,
+          47.602027633393
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Pioneer Square",
+        "line": "SoundTransit1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328087362516,
+          47.598428964863
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "International District / Chinatown",
+        "line": "SoundTransit1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.327192467123,
+          47.591167175061
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Stadium",
+        "line": "SoundTransit1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.327383417553,
+          47.581202442126
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "SODO",
+        "line": "SoundTransit1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311756426847,
+          47.57934059333
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Beacon Hill",
+        "line": "SoundTransit1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297718137415,
+          47.576580256015
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Mount Baker",
+        "line": "SoundTransit1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29273836377,
+          47.5598892005
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Columbia City",
+        "line": "SoundTransit1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281525076559,
+          47.538174439752
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Othello",
+        "line": "SoundTransit1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279463714913,
+          47.522504747187
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Rainier Beach",
+        "line": "SoundTransit1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288254574451,
+          47.464137479575
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Tukwila International Boulevard",
+        "line": "SoundTransit1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29688986322,
+          47.445445627868
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "SeaTac / Airport",
+        "line": "SoundTransit1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297806314825,
+          47.422345129096
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Angle Lake",
+        "line": "SoundTransit1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29444621165,
+          47.389457939999
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Kent Des Moines",
+        "line": "SoundTransit1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297387500411,
+          47.359394636117
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Star Lake",
+        "line": "SoundTransit1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303837032836,
+          47.315915417705
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Federal Way Downtown",
+        "line": "SoundTransit1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190466999817,
+          47.58664935413
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "South Bellevue",
+        "line": "SoundTransit2",
+        "order": 0
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191220163778,
+          47.608271409143
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "East Main",
+        "line": "SoundTransit2",
+        "order": 1
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192162005734,
+          47.615275397842
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Bellevue Downtown",
+        "line": "SoundTransit2",
+        "order": 2
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.183780265661,
+          47.61806801768
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Wilburton",
+        "line": "SoundTransit2",
+        "order": 3
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.178601320225,
+          47.623896298918
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Spring District",
+        "line": "SoundTransit2",
+        "order": 4
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.165646207264,
+          47.624576635432
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "BelRed",
+        "line": "SoundTransit2",
+        "order": 5
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.138911823199,
+          47.636441662235
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Overlake Village",
+        "line": "SoundTransit2",
+        "order": 6
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133685327317,
+          47.644815319056
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Redmond Technology",
+        "line": "SoundTransit2",
+        "order": 7
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.109816973631,
+          47.66739789199
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Marymoor Village",
+        "line": "SoundTransit2",
+        "order": 8
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.118536176215,
+          47.671761234378
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Downtown Redmond",
+        "line": "SoundTransit2",
+        "order": 9
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303962145365,
+          47.590346048881
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Judkins Park",
+        "line": "SoundTransit2",
+        "order": 10
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.23426499517,
+          47.588577342726
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Mercer Island",
+        "line": "SoundTransit2",
+        "order": 11
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29477683478,
+          47.815684298983
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Lynnwood City Center",
+        "line": "SoundTransit2",
+        "order": 12
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314796766804,
+          47.785125489408
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Mountlake Terrace",
+        "line": "SoundTransit2",
+        "order": 13
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322974915524,
+          47.764136257774
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Shoreline North / 185th",
+        "line": "SoundTransit2",
+        "order": 14
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325344026983,
+          47.736183987421
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Shoreline South / 148th",
+        "line": "SoundTransit2",
+        "order": 15
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323833709831,
+          47.723755406774
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Pinehurst",
+        "line": "SoundTransit2",
+        "order": 16
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328346670811,
+          47.703127749792
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Northgate",
+        "line": "SoundTransit2",
+        "order": 17
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316021233119,
+          47.67612431077
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Roosevelt",
+        "line": "SoundTransit2",
+        "order": 18
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314156324114,
+          47.660047977456
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "U District",
+        "line": "SoundTransit2",
+        "order": 19
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303795051366,
+          47.65040315233
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "University of Washington",
+        "line": "SoundTransit2",
+        "order": 20
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320234654027,
+          47.619772136823
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Capitol Hill",
+        "line": "SoundTransit2",
+        "order": 21
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336738638756,
+          47.611600498851
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Westlake",
+        "line": "SoundTransit2",
+        "order": 22
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336090429758,
+          47.60782665505
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Symphony",
+        "line": "SoundTransit2",
+        "order": 23,
+        "alternate_names": [
+          "University Street"
+        ]
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330812005444,
+          47.602027633393
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Pioneer Square",
+        "line": "SoundTransit2",
+        "order": 24
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328087362516,
+          47.598428964863
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "International District / Chinatown",
+        "line": "SoundTransit2",
+        "order": 25
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.428242291986,
+          47.23997913952
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Tacoma Dome",
+        "line": "SoundTransitT",
+        "order": 0
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.434244269455,
+          47.239138238048
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "S 25th St",
+        "line": "SoundTransitT",
+        "order": 1
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.436658298693,
+          47.244906866171
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Union Station",
+        "line": "SoundTransitT",
+        "order": 2,
+        "alternate_names": [
+          "Union"
+        ]
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.438574236412,
+          47.249531216201
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Convention Center",
+        "line": "SoundTransitT",
+        "order": 3
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.439261870813,
+          47.252560571166
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Theater District",
+        "line": "SoundTransitT",
+        "order": 4
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.440459368845,
+          47.257796468803
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Old City Hall",
+        "line": "SoundTransitT",
+        "order": 5
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.442749965495,
+          47.261362169479
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "S 4th St",
+        "line": "SoundTransitT",
+        "order": 6
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.449017369305,
+          47.263914451046
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Stadium District",
+        "line": "SoundTransitT",
+        "order": 7
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.453555977573,
+          47.260106206088
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Tacoma General",
+        "line": "SoundTransitT",
+        "order": 8
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.452849217675,
+          47.256956538682
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "6th Ave",
+        "line": "SoundTransitT",
+        "order": 9
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.451695524084,
+          47.251787526623
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Hilltop District",
+        "line": "SoundTransitT",
+        "order": 10
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.450222752656,
+          47.245310565463
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "St Joseph",
+        "line": "SoundTransitT",
+        "order": 11
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.197315569963,
+          47.975523830884
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Everett",
+        "line": "SoundTransitN",
+        "order": 0
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298915935515,
+          47.949122551139
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Mukilteo",
+        "line": "SoundTransitN",
+        "order": 1
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385317821963,
+          47.810570411743
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Edmonds",
+        "line": "SoundTransitN",
+        "order": 2
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329554727513,
+          47.598404627034
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "King Street",
+        "line": "SoundTransitN",
+        "order": 3
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329554727513,
+          47.598404627034
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "King Street",
+        "line": "SoundTransitS",
+        "order": 0
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.240398391569,
+          47.460676873363
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Tukwila",
+        "line": "SoundTransitS",
+        "order": 1
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.23300843263,
+          47.384605448527
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Kent",
+        "line": "SoundTransitS",
+        "order": 2
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.232236681871,
+          47.30653729673
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Auburn",
+        "line": "SoundTransitS",
+        "order": 3
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24461834701,
+          47.20174310127
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Sumner",
+        "line": "SoundTransitS",
+        "order": 4
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295633459998,
+          47.192740051099
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Puyallup",
+        "line": "SoundTransitS",
+        "order": 5
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.427114429612,
+          47.239706591185
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Tacoma Dome",
+        "line": "SoundTransitS",
+        "order": 6
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48564022815,
+          47.203888657826
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "South Tacoma",
+        "line": "SoundTransitS",
+        "order": 7
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.499428920278,
+          47.153005409099
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Lakewood",
+        "line": "SoundTransitS",
+        "order": 8
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349782475004,
+          47.6213072339
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Seattle Center",
+        "line": "SeattleCenterMonorail",
+        "order": 0
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336990421014,
+          47.612108994362
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Westlake Center",
+        "line": "SeattleCenterMonorail",
+        "order": 1
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300247107666,
+          47.441339459508
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Main Terminal South",
+        "line": "MAXBlue",
+        "order": 0,
+        "alternate_names": [
+          "A Gates"
+        ]
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303825768526,
+          47.441676049234
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Concourse B",
+        "line": "MAXBlue",
+        "order": 1,
+        "alternate_names": [
+          "B Gates"
+        ]
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.302235814987,
+          47.438821937564
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "South Satellite",
+        "line": "MAXBlue",
+        "order": 2,
+        "alternate_names": [
+          "S Gates"
+        ]
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301444511556,
+          47.445117456596
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Main Terminal North",
+        "line": "MAXGreen",
+        "order": 0,
+        "alternate_names": [
+          "D Gates"
+        ]
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303966667933,
+          47.446293996527
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Concourse C",
+        "line": "MAXGreen",
+        "order": 1,
+        "alternate_names": [
+          "C Gates"
+        ]
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30260444243,
+          47.448608135701
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "North Satellite",
+        "line": "MAXGreen",
+        "order": 2,
+        "alternate_names": [
+          "N Gates"
+        ]
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298653484278,
+          47.440998989527
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Main Terminal South",
+        "line": "MAXYellow",
+        "order": 0,
+        "alternate_names": [
+          "A Gates"
+        ]
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300769111766,
+          47.445093894913
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Main Terminal North",
+        "line": "MAXYellow",
+        "order": 1,
+        "alternate_names": [
+          "D Gates"
+        ]
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337331740808,
+          47.613071765177
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Westlake Hub",
+        "line": "SeattleStreetcarSLU",
+        "order": 0,
+        "alternate_names": [
+          "Westlake Hub"
+        ]
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337832951517,
+          47.615265197255
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Westlake & 7th",
+        "line": "SeattleStreetcarSLU",
+        "order": 1,
+        "alternate_names": [
+          "Westlake & 7th"
+        ]
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338457674305,
+          47.617905458731
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Westlake & 9th",
+        "line": "SeattleStreetcarSLU",
+        "order": 2,
+        "alternate_names": [
+          "Westlake & 9th"
+        ]
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338338807159,
+          47.618089824172
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Westlake & Denny",
+        "line": "SeattleStreetcarSLU",
+        "order": 3,
+        "alternate_names": [
+          "Westlake & Denny"
+        ]
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338534246624,
+          47.621454329365
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Westlake & Thomas",
+        "line": "SeattleStreetcarSLU",
+        "order": 4,
+        "alternate_names": [
+          "Westlake & Thomas"
+        ]
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338513429841,
+          47.624321883845
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Westlake & Mercer",
+        "line": "SeattleStreetcarSLU",
+        "order": 5,
+        "alternate_names": [
+          "Westlake & Mercer"
+        ]
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337201765129,
+          47.621379451353
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Terry & Thomas",
+        "line": "SeattleStreetcarSLU",
+        "order": 6,
+        "alternate_names": [
+          "Terry & Thomas"
+        ]
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337164868722,
+          47.62434608869
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Terry & Mercer",
+        "line": "SeattleStreetcarSLU",
+        "order": 7,
+        "alternate_names": [
+          "Terry & Mercer"
+        ]
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332291393666,
+          47.627632545959
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Fairview & Campus Drive",
+        "line": "SeattleStreetcarSLU",
+        "order": 8,
+        "alternate_names": [
+          "Fairview & Campus Drive"
+        ]
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336421808224,
+          47.625896387953
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Lake Union Park",
+        "line": "SeattleStreetcarSLU",
+        "order": 9,
+        "alternate_names": [
+          "Lake Union Park"
+        ]
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333185946298,
+          47.599191513051
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Occidental Mall Pioneer Square",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 0,
+        "alternate_names": [
+          "Occidental Mall Pioneer Square"
+        ]
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32692060955,
+          47.599193688176
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "5th & Jackson",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 1,
+        "alternate_names": [
+          "5th & Jackson"
+        ]
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323200130625,
+          47.599197757741
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "7th & Jackson",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 2,
+        "alternate_names": [
+          "7th & Jackson"
+        ]
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315745966642,
+          47.599199087012
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "13th & Jackson Little Saigon",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 3,
+        "alternate_names": [
+          "13th & Jackson Little Saigon"
+        ]
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314147043957,
+          47.60063250299
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "14th & Washington Central District",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 4,
+        "alternate_names": [
+          "14th & Washington Central District"
+        ]
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320077865617,
+          47.601690335706
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Broadway & Yesler",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 5,
+        "alternate_names": [
+          "Broadway & Yesler Outbound",
+          "Broadway & Yesler Inbound"
+        ]
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320775911411,
+          47.605203567462
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Broadway & Terrace",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 6,
+        "alternate_names": [
+          "Broadway & Terrace Outbound",
+          "Broadway & Terrace Inbound"
+        ]
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320788604614,
+          47.609875412209
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Broadway & Marion",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 7,
+        "alternate_names": [
+          "Broadway & Marion Inbound",
+          "Broadway & Marion Outbound"
+        ]
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320886588083,
+          47.614292504656
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Broadway & Pike",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 8,
+        "alternate_names": [
+          "Broadway & Pike Inbound"
+        ]
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32251588703,
+          47.595614729356
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Broadway & Pine",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 9,
+        "alternate_names": [
+          "Broadway & Pine Outbound"
+        ]
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320975514832,
+          47.618047699215
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Broadway & Howell",
+        "line": "SeattleStreetcarFirstHill",
+        "order": 10,
+        "alternate_names": [
+          "Broadway & Howell Terminus"
+        ]
+      },
+      "id": 108
+    }
+  ]
+}

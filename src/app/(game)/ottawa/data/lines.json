@@ -28,11 +28,11 @@
   },
   "OTrainLine4": {
     "name": "Line 4 – Airport Link",
-    "color": "#F3F3F2",
-    "backgroundColor": "#9D9D9D",
-    "textColor": "#111827",
-    "progressOutlineColor": "#F3F3F2",
-    "statsColor": "#F3F3F2",
+    "color": "#4498D1",
+    "backgroundColor": "#4498D1",
+    "textColor": "#ffffff",
+    "progressOutlineColor": "#4498D1",
+    "statsColor": "#4498D1",
     "order": 3
   }
 }

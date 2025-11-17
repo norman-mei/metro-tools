@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13549580912922, -35.18554529230796]
+      },
+      "properties": {
+        "name": "Gungahlin Place",
+        "line": "CanberraR1",
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.1433357715715, -35.186911023008655]
+      },
+      "properties": {
+        "name": "Manning Clark North",
+        "line": "CanberraR1",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.15093899557735, -35.19342316043314]
+      },
+      "properties": {
+        "name": "Mapleton Avenue",
+        "line": "CanberraR1",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.14939698548739, -35.200278758256665]
+      },
+      "properties": {
+        "name": "Nullarbor Avenue",
+        "line": "CanberraR1",
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.14735112121232, -35.20903284493643]
+      },
+      "properties": {
+        "name": "Well Station Drive",
+        "line": "CanberraR1",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.1446359488766, -35.22157749535059]
+      },
+      "properties": {
+        "name": "Sandford Street",
+        "line": "CanberraR1",
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.1442611410945, -35.22847364094086]
+      },
+      "properties": {
+        "name": "EPIC and Racecourse",
+        "line": "CanberraR1",
+        "id": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.14387069280735, -35.23574492713031]
+      },
+      "properties": {
+        "name": "Phillip Avenue",
+        "line": "CanberraR1",
+        "id": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13453738757568, -35.244407243833436]
+      },
+      "properties": {
+        "name": "Swinden Street",
+        "line": "CanberraR1",
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13367944772205, -35.25054587944304]
+      },
+      "properties": {
+        "name": "Dickson Interchange",
+        "line": "CanberraR1",
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13216527325153, -35.26009436219464]
+      },
+      "properties": {
+        "name": "Macarthur Avenue",
+        "line": "CanberraR1",
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13124227478085, -35.26586989145618]
+      },
+      "properties": {
+        "name": "Ipima Street",
+        "line": "CanberraR1",
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.13017625032674, -35.272593426776695]
+      },
+      "properties": {
+        "name": "Elouera Street",
+        "line": "CanberraR1",
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.12929704743559, -35.27791478617855]
+      },
+      "properties": {
+        "name": "Alinga Street",
+        "line": "CanberraR1",
+        "id": 13
+      },
+      "id": 13
+    }
+  ]
+}

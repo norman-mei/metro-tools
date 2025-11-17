@@ -96,7 +96,7 @@
     "order": 11
   },
   "DisneySKYEPC": {
-    "name": "EPCOT",
+    "name": "Riviera Resort and EPCOT",
     "color": "#008000",
     "backgroundColor": "#3A86A9",
     "progressOutlineColor": "#008000",
@@ -225,9 +225,9 @@
   },
   "floridaTL": {
     "name": "Terminal Link",
-    "color": "#F4C542",
-    "backgroundColor": "#B18C19",
-    "progressOutlineColor": "#0B3ABD",
+    "color": "#FFA501",
+    "backgroundColor": "#FFA501",
+    "progressOutlineColor": "#FFA501",
     "textColor": "#1F1F1F",
     "order": 28
   },

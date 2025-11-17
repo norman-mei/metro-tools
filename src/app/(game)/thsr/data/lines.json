@@ -1,0 +1,10 @@
+{
+  "THSR": {
+    "name": "Taiwan High Speed Rail (THSR)",
+    "color": "#E8510F",
+    "backgroundColor": "#C63F08",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#F06A2A",
+    "order": 0
+  }
+}

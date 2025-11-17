@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.60691794579802, 25.05310067691531]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Nangang",
+        "line": "THSR",
+        "order": 0,
+        "alternate_names": ["南港", "南港", "Nángǎng", "ㄋㄢˊ ㄍㄤˇ", "Lâm-káng", "Nàm-kóng", "NAG"]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.51762767467515, 25.047332971535944]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Taipei",
+        "line": "THSR",
+        "order": 1,
+        "alternate_names": ["臺北", "台北", "Táiběi", "ㄊㄞˊ ㄅㄟˇ", "Tâi-pak", "Thòi-pet", "TPE"]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.46355119649436, 25.014055136912038]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Banqiao",
+        "line": "THSR",
+        "order": 2,
+        "alternate_names": ["板橋", "板桥", "Bǎnqiáo", "ㄅㄢˇ ㄑㄧㄠˊ", "Pang-kiô", "Pán-khièu", "BAQ"]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.21402415922043, 25.013660824116553]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Taoyuan",
+        "line": "THSR",
+        "order": 3,
+        "alternate_names": ["桃園", "桃园", "Táoyuán", "ㄊㄠˊ ㄩㄢˊ", "Thô-hn̂g", "Thò-yèn", "TAY"]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.04015683999343, 24.80819603337105]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hsinchu",
+        "line": "THSR",
+        "order": 4,
+        "alternate_names": ["新竹", "新竹", "Xīnzhú", "ㄒㄧㄣ ㄓㄨˊ", "Sin-tek", "Sîn-chuk", "HSC"]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.82540208130888, 24.60553958019961]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Miaoli",
+        "line": "THSR",
+        "order": 5,
+        "alternate_names": ["苗栗", "苗栗", "Miáolì", "ㄇㄧㄠˊ ㄌㄧˋ", "Biâu-le̍k", "Mèu-li̍t", "MIL"]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.61415780984953, 24.109904240576498]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Taichung",
+        "line": "THSR",
+        "order": 6,
+        "alternate_names": ["臺中", "台中", "Táizhōng", "ㄊㄞˊ ㄓㄨㄥ", "Tâi-tiong", "Thòi-chûng", "TAC"]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.57477963840768, 23.873989352556674]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Changhua",
+        "line": "THSR",
+        "order": 7,
+        "alternate_names": ["彰化", "彰化", "Zhānghuà", "ㄓㄤ ㄏㄨㄚˋ", "Chiang-hòa", "Chông-fa", "CHH"]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.41612130714661, 23.736464229807694]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Yunlin",
+        "line": "THSR",
+        "order": 8,
+        "alternate_names": ["雲林", "云林", "Yúnlín", "ㄩㄣˊ ㄌㄧㄣˊ", "Hûn-lîm", "Yùn-lìm", "YUL"]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3237411521837, 23.45912541537721]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Chiayi",
+        "line": "THSR",
+        "order": 9,
+        "alternate_names": ["嘉義", "嘉义", "Jiāyì", "ㄐㄧㄚ ㄧˋ", "Ka-gī", "Kâ-ngi", "CHY"]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2862594876787, 22.924915846687234]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Tainan",
+        "line": "THSR",
+        "order": 10,
+        "alternate_names": ["臺南", "台南", "Táinán", "ㄊㄞˊ ㄋㄢˊ", "Tâi-lâm", "Thòi-nàm", "TAN"]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3074104346195, 22.687464315667636]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Zuoying",
+        "line": "THSR",
+        "order": 11,
+        "alternate_names": ["左營", "左营", "Zuǒyíng", "ㄗㄨㄛˇ ㄧㄥˊ", "Chó-iâⁿ", "Chó-yàng", "ZUY"]
+      },
+      "id": 11
+    }
+  ]
+}

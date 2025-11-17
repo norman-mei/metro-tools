@@ -1,0 +1,37 @@
+{
+  "RTA12": {
+    "name": "St. Charles",
+    "color": "#006737",
+    "backgroundColor": "#006737",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "RTA46": {
+    "name": "Rampart-Loyola",
+    "color": "#B94BBC",
+    "backgroundColor": "#B94BBC",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "RTA47": {
+    "name": "Canal / Cemeteries",
+    "color": "#FFCB05",
+    "backgroundColor": "#FFCB05",
+    "textColor": "#000000",
+    "order": 2
+  },
+  "RTA48": {
+    "name": "Canal / City Park",
+    "color": "#C72127",
+    "backgroundColor": "#C72127",
+    "textColor": "#FFFFFF",
+    "order": 3
+  },
+  "RTA49": {
+    "name": "Riverfront",
+    "color": "#0700FD",
+    "backgroundColor": "#0700FD",
+    "textColor": "#FFFFFF",
+    "order": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Houston_METRORail_Red_Line_icon": {
+    "name": "Red Line",
+    "color": "#ec0000",
+    "backgroundColor": "#ec0000",
+    "textColor": "#ffffff",
+    "order": 0
+  },
+  "Houston_METRORail_Green_Line_icon": {
+    "name": "Green Line",
+    "color": "#75871d",
+    "backgroundColor": "#75871d",
+    "textColor": "#ffffff",
+    "order": 1
+  },
+  "Houston_METRORail_Purple_Line_icon": {
+    "name": "Purple Line",
+    "color": "#6b3a5d",
+    "backgroundColor": "#6b3a5d",
+    "textColor": "#ffffff",
+    "order": 2
+  },
+  "houstonSUB": {
+    "name": "Subway",
+    "color": "#FFE600",
+    "backgroundColor": "#FFE600",
+    "textColor": "#000000",
+    "order": 3
+  },
+  "houstonSKY": {
+    "name": "Skyway",
+    "color": "#3355FF",
+    "backgroundColor": "#3355FF",
+    "textColor": "#ffffff",
+    "order": 4
+  }
+}

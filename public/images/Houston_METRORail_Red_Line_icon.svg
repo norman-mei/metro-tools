@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.0675354mm"
+   height="8.9452057mm"
+   viewBox="0 0 9.0675355 8.9452057"
+   version="1.1"
+   id="svg57041"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Houston METRORail Red Line bullet.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview57043"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.3652637"
+     inkscape:cx="-9.5068713"
+     inkscape:cy="53.261387"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs57038" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.003166,-124.81846)">
+    <ellipse
+       style="overflow:hidden;fill:#ec0000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.477689;stroke-linecap:square;stroke-miterlimit:10;paint-order:fill markers stroke"
+       id="path15558"
+       cx="99.536934"
+       cy="129.29106"
+       rx="4.5337677"
+       ry="4.4726028" />
+    <g
+       id="use34596"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,95.189309,125.09211)">
+      <path
+         d="M 16.432,0.605 C 7.87,0.605 0.908,7.437 0.908,15.87 c 0,2.638 0.692,5.103 1.859,7.265 2.638,4.757 7.784,8 13.665,8 8.562,0 15.481,-6.832 15.481,-15.265 0,-8.433 -6.962,-15.265 -15.481,-15.265 z m 0,31.049 c -8.822,0 -16,-7.092 -16,-15.784 0,-8.692 7.178,-15.784 16,-15.784 8.822,0 16,7.092 16,15.784 0,8.692 -7.178,15.784 -16,15.784 z"
+         id="path58328" />
+      <path
+         d="m 20.93,10.205 c -0.173,0.303 -1.168,1.989 -2.162,3.719 h 8.259 V 9.34 h -4.93 c -0.389,0 -0.865,0.346 -1.168,0.865 z"
+         id="path58330" />
+      <path
+         d="m 10.768,9.341 h -4.93 v 4.541 h 8.259 C 13.102,12.152 12.108,10.466 11.935,10.163 11.632,9.687 11.157,9.341 10.767,9.341 Z"
+         id="path58332" />
+      <path
+         d="M 27.027,16.562 V 14.573 H 18.378 C 17.946,15.308 17.556,16 17.21,16.562 h 3.113 l 1.124,-1.903 v 1.903 h 5.578 z"
+         id="path58334" />
+      <path
+         d="M 14.486,14.573 H 5.837 v 1.989 h 5.578 v -1.903 l 1.124,1.903 h 3.114 C 15.307,16 14.918,15.308 14.485,14.573 Z"
+         id="path58336" />
+      <path
+         d="m 21.449,17.384 h 5.578 v 1.6 h -5.578 z"
+         id="path58338" />
+      <path
+         d="m 19.849,17.384 h -3.113 c -0.216,0.346 -0.303,0.519 -0.303,0.519 0,0 -0.13,-0.173 -0.303,-0.519 h -3.114 l 0.951,1.6 h 4.973 l 0.908,-1.6 z"
+         id="path58340" />
+      <path
+         d="m 5.838,17.384 h 5.578 v 1.6 H 5.838 Z"
+         id="path58342" />
+      <path
+         d="m 5.838,20.065 h 5.578 v 1.254 H 5.838 Z"
+         id="path58344" />
+      <path
+         d="m 18.292,20.065 h -3.719 l 0.735,1.254 h 2.249 z"
+         id="path58346" />
+      <path
+         d="m 21.449,20.065 h 5.578 v 1.254 h -5.578 z"
+         id="path58348" />
+      <path
+         d="m 5.838,22.53 h 5.578 v 0.735 H 5.838 Z"
+         id="path58350" />
+      <path
+         d="m 21.449,22.53 h 5.578 v 0.735 h -5.578 z"
+         id="path58352" />
+      <path
+         d="m 16,22.53 0.432,0.735 0.432,-0.735 z"
+         id="path58354" />
+    </g>
+  </g>
+</svg>
