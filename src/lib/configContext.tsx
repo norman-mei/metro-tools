@@ -5,7 +5,6 @@ import { Config } from './types'
 
 export const ConfigContext = createContext<Config>({
   LOCALE: 'en',
-  BEG_THRESHOLD: 0.2,
   CITY_NAME: 'default',
   MAP_CONFIG: {
     container: 'map',
@@ -21,7 +20,6 @@ export const ConfigContext = createContext<Config>({
     minZoom: 6,
     fadeDuration: 50,
   },
-  STRIPE_LINK: 'https://buy.stripe.com/bIY8x3fiCgmC9bi8wx',
   METADATA: {
     title: 'Metro Memory',
     description: 'How many of the Metro stations can you name from memory?',

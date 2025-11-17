@@ -65,10 +65,8 @@ export interface Config {
   GAUGE_COLORS?: 'inverted' | 'default'
   LOCALE: string
   CITY_NAME: string
-  STRIPE_LINK: string
   MAP_CONFIG: MapboxOptions
   METADATA: Metadata
   LINES: { [key: string]: Line }
-  BEG_THRESHOLD: number
   LINE_GROUPS?: LineGroup[]
 }

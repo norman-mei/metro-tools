@@ -1,0 +1,34 @@
+{
+  "blackpoolT1": {
+    "name": "T1 (Starr Gate \u2013 Fleetwood Ferry)",
+    "color": "#EA3829",
+    "backgroundColor": "#EA3829",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#EA3829",
+    "order": 0
+  },
+  "blackpoolT2": {
+    "name": "T2 (Starr Gate \u2013 North Station)",
+    "color": "#008CBB",
+    "backgroundColor": "#008CBB",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#008CBB",
+    "order": 1
+  },
+  "blackpoolT3": {
+    "name": "T3 (Fleetwood Ferry \u2013 North Station)",
+    "color": "#27BB36",
+    "backgroundColor": "#27BB36",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#27BB36",
+    "order": 2
+  },
+  "blackpoolheritage": {
+    "name": "Heritage Tram",
+    "color": "#FFE600",
+    "backgroundColor": "#FFE600",
+    "textColor": "#000000",
+    "progressOutlineColor": "#E5CC00",
+    "order": 3
+  }
+}

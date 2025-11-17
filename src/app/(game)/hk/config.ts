@@ -3,7 +3,6 @@ import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line, LineGroup } from '@/lib/types'
 import linesData from './data/lines.json'
 
-export const BEG_THRESHOLD = 0.2
 
 export const LINES = linesData as { [name: string]: Line }
 
@@ -40,7 +39,6 @@ export const LOCALE = 'en'
 
 export const MAP_FROM_DATA = true
 
-export const STRIPE_LINK = 'https://buy.stripe.com/aEU6oV8Ue2vMbjqcMW'
 
 export const LINE_GROUPS: LineGroup[] = [
   {
@@ -121,12 +119,10 @@ export const LINE_GROUPS: LineGroup[] = [
 
 const config: Config = {
   LOCALE,
-  STRIPE_LINK,
   CITY_NAME,
   MAP_CONFIG,
   METADATA,
   LINES,
-  BEG_THRESHOLD,
   MAP_FROM_DATA,
   LINE_GROUPS,
 }

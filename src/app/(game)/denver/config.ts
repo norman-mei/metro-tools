@@ -3,7 +3,6 @@ import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line, LineGroup } from '@/lib/types'
 import linesData from './data/lines.json'
 
-export const BEG_THRESHOLD = 0.5
 
 export const LINES = linesData as { [name: string]: Line }
 
@@ -72,7 +71,6 @@ export const MAP_CONFIG: MapboxOptions = {
   fadeDuration: 50,
 }
 
-export const STRIPE_LINK = 'https://buy.stripe.com/28o14B9Yic6m73adQT'
 
 export const CITY_NAME = 'denver'
 
@@ -86,13 +84,11 @@ const config: Config = {
   MAP_FROM_DATA,
   GAUGE_COLORS,
   LOCALE,
-  STRIPE_LINK,
   CITY_NAME,
   MAP_CONFIG,
   METADATA,
   LINES,
   LINE_GROUPS,
-  BEG_THRESHOLD,
 }
 
 export default config

@@ -18,6 +18,8 @@ export const i18n = rosetta({
     about: 'Credits',
     cityStats: 'City stats',
     settings: 'Settings',
+    account: 'Account',
+    privacy: 'Privacy',
     openCityStats: 'Open city stats',
     goToMain: 'Back to main page',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -64,6 +66,8 @@ export const i18n = rosetta({
     about: 'Crédits',
     cityStats: 'Statistiques de la ville',
     settings: 'Paramètres',
+    account: 'Compte',
+    privacy: 'Confidentialité',
     openCityStats: 'Ouvrir les statistiques de la ville',
     goToMain: 'Retour à l’accueil',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -109,6 +113,8 @@ export const i18n = rosetta({
     about: 'Créditos',
     cityStats: 'Estadísticas de la ciudad',
     settings: 'Configuración',
+    account: 'Cuenta',
+    privacy: 'Privacidad',
     openCityStats: 'Abrir las estadísticas de la ciudad',
     goToMain: 'Volver a la página principal',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -152,6 +158,8 @@ export const i18n = rosetta({
     about: 'Crèdits',
     cityStats: 'Estadístiques de la ciutat',
     settings: 'Configuració',
+    account: 'Compte',
+    privacy: 'Privadesa',
     openCityStats: 'Obrir les estadístiques de la ciutat',
     goToMain: "Torna a l'inici",
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -193,6 +201,11 @@ export const i18n = rosetta({
     showLabels: 'Beschriftungen anzeigen',
     hideLabels: 'Beschriftungen ausblenden',
     about: 'Credits',
+    cityStats: 'Stadtstatistiken',
+    settings: 'Einstellungen',
+    account: 'Konto',
+    privacy: 'Datenschutz',
+    openCityStats: 'Stadtstatistiken öffnen',
     goToMain: 'Zur Hauptseite',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
       `Gut gemacht, du hast ${Math.floor(foundProportion * 100)}% erreicht!`,
@@ -234,6 +247,8 @@ export const i18n = rosetta({
     about: '크레딧',
     cityStats: '도시 통계',
     settings: '설정',
+    account: '계정',
+    privacy: '개인정보',
     openCityStats: '도시 통계 열기',
     goToMain: '메인 페이지로 이동',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -274,6 +289,8 @@ export const i18n = rosetta({
     about: 'Krediler',
     cityStats: 'Şehir istatistikleri',
     settings: 'Ayarlar',
+    account: 'Hesap',
+    privacy: 'Gizlilik',
     openCityStats: 'Şehir istatistiklerini aç',
     goToMain: 'Ana sayfaya dön',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -315,6 +332,8 @@ export const i18n = rosetta({
     about: 'クレジット',
     cityStats: '都市の統計',
     settings: '設定',
+    account: 'アカウント',
+    privacy: 'プライバシー',
     openCityStats: '都市の統計を開く',
     goToMain: 'メインページに戻る',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -360,6 +379,8 @@ export const i18n = rosetta({
     about: 'Krediter',
     cityStats: 'Stadsstatistik',
     settings: 'Inställningar',
+    account: 'Konto',
+    privacy: 'Integritet',
     openCityStats: 'Öppna stadsstatistik',
     goToMain: 'Tillbaka till huvudsidan',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
@@ -402,6 +423,8 @@ export const i18n = rosetta({
     about: 'Kreditek',
     cityStats: 'Városstatisztika',
     settings: 'Beállítások',
+    account: 'Fiók',
+    privacy: 'Adatvédelem',
     openCityStats: 'Városstatisztika megnyitása',
     goToMain: 'Vissza a főoldalra',
     congrats: ({ foundProportion }: { foundProportion: number }) =>

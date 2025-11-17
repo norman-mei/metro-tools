@@ -2,7 +2,13 @@ import { NextResponse } from 'next/server'
 import { z } from 'zod'
 
 import { prisma } from '@/lib/prisma'
-import { hashPassword, normalizeEmail } from '@/lib/auth'
+import {
+  clearVerificationTokensForUser,
+  createVerificationToken,
+  hashPassword,
+  normalizeEmail,
+} from '@/lib/auth'
+import { sendVerificationEmail } from '@/lib/mailer'
 
 const registerSchema = z
   .object({
@@ -42,15 +48,30 @@ export async function POST(request: Request) {
     )
   }
 
-  await prisma.user.create({
+  const user = await prisma.user.create({
     data: {
       email: normalizedEmail,
       passwordHash,
-      emailVerifiedAt: new Date(),
     },
   })
 
+  try {
+    await clearVerificationTokensForUser(user.id)
+    const { token } = await createVerificationToken(user.id)
+    await sendVerificationEmail(user.email, token)
+  } catch (error) {
+    await prisma.user.delete({
+      where: { id: user.id },
+    })
+    await clearVerificationTokensForUser(user.id)
+    console.error('Failed to send verification email', error)
+    return NextResponse.json(
+      { error: 'Unable to send verification email. Please try again later.' },
+      { status: 500 },
+    )
+  }
+
   return NextResponse.json({
-    message: 'Account created! You can now log in.',
+    message: 'Account created. Check your email for a verification link.',
   })
 }

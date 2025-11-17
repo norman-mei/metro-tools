@@ -1,0 +1,1507 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.056094779108158,
+          53.77807466971092
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Starr Gate",
+        "line": "blackpoolT1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0581834158396735,
+          53.78253806287693
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Harrow Place",
+        "line": "blackpoolT1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0583992372829725,
+          53.78736386691171
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Burlington Road West",
+        "line": "blackpoolT1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0568674659883173,
+          53.79361538134623
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Pleasure Beach",
+        "line": "blackpoolT1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0564498607865955,
+          53.79593877495481
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "South Pier",
+        "line": "blackpoolT1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0559626910454063,
+          53.79894066297392
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Waterloo Road",
+        "line": "blackpoolT1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.055753596542102,
+          53.802517854636534
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "St Chad's Road",
+        "line": "blackpoolT1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.055574008435445,
+          53.8081608286054
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Manchester Square",
+        "line": "blackpoolT1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0555546740577744,
+          53.81185272455612
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Central Pier",
+        "line": "blackpoolT1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0558219777679674,
+          53.814491523767536
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Tower",
+        "line": "blackpoolT1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0557403054699828,
+          53.819666311404276
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "North Pier",
+        "line": "blackpoolT1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0556357991048393,
+          53.825489309168404
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Pleasant Street",
+        "line": "blackpoolT1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.055764489065701,
+          53.82792098949602
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Wilton Parade",
+        "line": "blackpoolT1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0551208048134937,
+          53.83382230409924
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Gynn Square",
+        "line": "blackpoolT1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0550781046446196,
+          53.836152318469
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Cliffs Hotel",
+        "line": "blackpoolT1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0547776385055254,
+          53.83822878783823
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Cabin",
+        "line": "blackpoolT1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0545199388767146,
+          53.8420016449098
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Lowther Avenue",
+        "line": "blackpoolT1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0536187498858522,
+          53.846685716577156
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Cavendish Road",
+        "line": "blackpoolT1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0534900311928412,
+          53.84944533227627
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Bispham",
+        "line": "blackpoolT1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0518162345629616,
+          53.85369816181982
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Sandhurst Avenue",
+        "line": "blackpoolT1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.050271231695133,
+          53.857950614819224
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Norbreck",
+        "line": "blackpoolT1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0488979508458027,
+          53.86164586237797
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Norbreck North",
+        "line": "blackpoolT1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.047524738498201,
+          53.86612533724048
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Little Bispham",
+        "line": "blackpoolT1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.042769300402735,
+          53.87148372559717
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Anchorsholme Lane",
+        "line": "blackpoolT1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.039842915515199,
+          53.87776444426869
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Cleveleys",
+        "line": "blackpoolT1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0390435850876805,
+          53.88044665545967
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "West Drive",
+        "line": "blackpoolT1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.039374098106467,
+          53.883298107585546
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Thornton Gate",
+        "line": "blackpoolT1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0404256931508,
+          53.88765457979209
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Rossall Beach",
+        "line": "blackpoolT1",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0395843912028155,
+          53.89686190576231
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Rossall School",
+        "line": "blackpoolT1",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.036820108365895,
+          53.90073892898861
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Rossall Square",
+        "line": "blackpoolT1",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.032283188703029,
+          53.904084598145786
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Broadwater",
+        "line": "blackpoolT1",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0274157077699586,
+          53.91010266333593
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Heathfield Road",
+        "line": "blackpoolT1",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.023599855038066,
+          53.91367768179142
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Lindel Road",
+        "line": "blackpoolT1",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.020625069356913,
+          53.91666855686536
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Stanley Road",
+        "line": "blackpoolT1",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0174371119953465,
+          53.9197289983968
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Fisherman\u2019s Walk",
+        "line": "blackpoolT1",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.011389049530314,
+          53.9227095413981
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "London Street",
+        "line": "blackpoolT1",
+        "order": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0086751026223615,
+          53.92493158783018
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Victoria Street",
+        "line": "blackpoolT1",
+        "order": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0080675289977172,
+          53.92761261638358
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Fleetwood Ferry",
+        "line": "blackpoolT1",
+        "order": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.056094779108158,
+          53.77807466971092
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Starr Gate",
+        "line": "blackpoolT2",
+        "order": 0
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0581834158396735,
+          53.78253806287693
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Harrow Place",
+        "line": "blackpoolT2",
+        "order": 1
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0583992372829725,
+          53.78736386691171
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Burlington Road West",
+        "line": "blackpoolT2",
+        "order": 2
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0568674659883173,
+          53.79361538134623
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Pleasure Beach",
+        "line": "blackpoolT2",
+        "order": 3
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0564498607865955,
+          53.79593877495481
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "South Pier",
+        "line": "blackpoolT2",
+        "order": 4
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0559626910454063,
+          53.79894066297392
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Waterloo Road",
+        "line": "blackpoolT2",
+        "order": 5
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.055753596542102,
+          53.802517854636534
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "St Chad's Road",
+        "line": "blackpoolT2",
+        "order": 6
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.055574008435445,
+          53.8081608286054
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Manchester Square",
+        "line": "blackpoolT2",
+        "order": 7
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0555546740577744,
+          53.81185272455612
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Central Pier",
+        "line": "blackpoolT2",
+        "order": 8
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0558219777679674,
+          53.814491523767536
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Tower",
+        "line": "blackpoolT2",
+        "order": 9
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.056071259328024,
+          53.817711601569926
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "North Pier",
+        "line": "blackpoolT2",
+        "order": 10
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0545074201961797,
+          53.819169069189584
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Talbot Square",
+        "line": "blackpoolT2",
+        "order": 11
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.050027400908295,
+          53.82102142305495
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "North Station",
+        "line": "blackpoolT2",
+        "order": 12,
+        "alternate_names": [
+          "Blackpool North"
+        ]
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0556357991048393,
+          53.825489309168404
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Pleasant Street",
+        "line": "blackpoolT3",
+        "order": 0
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.055764489065701,
+          53.82792098949602
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Wilton Parade",
+        "line": "blackpoolT3",
+        "order": 1
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0551208048134937,
+          53.83382230409924
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Gynn Square",
+        "line": "blackpoolT3",
+        "order": 2
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0550781046446196,
+          53.836152318469
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Cliffs Hotel",
+        "line": "blackpoolT3",
+        "order": 3
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0547776385055254,
+          53.83822878783823
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Cabin",
+        "line": "blackpoolT3",
+        "order": 4
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0545199388767146,
+          53.8420016449098
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Lowther Avenue",
+        "line": "blackpoolT3",
+        "order": 5
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0536187498858522,
+          53.846685716577156
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Cavendish Road",
+        "line": "blackpoolT3",
+        "order": 6
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0534900311928412,
+          53.84944533227627
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Bispham",
+        "line": "blackpoolT3",
+        "order": 7
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0518162345629616,
+          53.85369816181982
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Sandhurst Avenue",
+        "line": "blackpoolT3",
+        "order": 8
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.050271231695133,
+          53.857950614819224
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Norbreck",
+        "line": "blackpoolT3",
+        "order": 9
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0488979508458027,
+          53.86164586237797
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Norbreck North",
+        "line": "blackpoolT3",
+        "order": 10
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.047524738498201,
+          53.86612533724048
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Little Bispham",
+        "line": "blackpoolT3",
+        "order": 11
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.042769300402735,
+          53.87148372559717
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Anchorsholme Lane",
+        "line": "blackpoolT3",
+        "order": 12
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.039842915515199,
+          53.87776444426869
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Cleveleys",
+        "line": "blackpoolT3",
+        "order": 13
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0390435850876805,
+          53.88044665545967
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "West Drive",
+        "line": "blackpoolT3",
+        "order": 14
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.039374098106467,
+          53.883298107585546
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Thornton Gate",
+        "line": "blackpoolT3",
+        "order": 15
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0404256931508,
+          53.88765457979209
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Rossall Beach",
+        "line": "blackpoolT3",
+        "order": 16
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0395843912028155,
+          53.89686190576231
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Rossall School",
+        "line": "blackpoolT3",
+        "order": 17
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.036820108365895,
+          53.90073892898861
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Rossall Square",
+        "line": "blackpoolT3",
+        "order": 18
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.032283188703029,
+          53.904084598145786
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Broadwater",
+        "line": "blackpoolT3",
+        "order": 19
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0274157077699586,
+          53.91010266333593
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Heathfield Road",
+        "line": "blackpoolT3",
+        "order": 20
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.023599855038066,
+          53.91367768179142
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Lindel Road",
+        "line": "blackpoolT3",
+        "order": 21
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.020625069356913,
+          53.91666855686536
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Stanley Road",
+        "line": "blackpoolT3",
+        "order": 22
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0174371119953465,
+          53.9197289983968
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Fisherman\u2019s Walk",
+        "line": "blackpoolT3",
+        "order": 23
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.011389049530314,
+          53.9227095413981
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "London Street",
+        "line": "blackpoolT3",
+        "order": 24
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0086751026223615,
+          53.92493158783018
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Victoria Street",
+        "line": "blackpoolT3",
+        "order": 25
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0080675289977172,
+          53.92761261638358
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Fleetwood Ferry",
+        "line": "blackpoolT3",
+        "order": 26
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0557403054699828,
+          53.819666311404276
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "North Pier",
+        "line": "blackpoolT3",
+        "order": 27
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0545074201961797,
+          53.819169069189584
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Talbot Square",
+        "line": "blackpoolT3",
+        "order": 28
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.050027400908295,
+          53.82102142305495
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "North Station",
+        "line": "blackpoolT3",
+        "order": 29,
+        "alternate_names": [
+          "Blackpool North"
+        ]
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0080675289977172,
+          53.92761261638358
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Fleetwood Ferry",
+        "line": "blackpoolheritage",
+        "order": 0
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.039842915515199,
+          53.87776444426869
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Cleveleys",
+        "line": "blackpoolheritage",
+        "order": 1
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0534900311928412,
+          53.84944533227627
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Bispham",
+        "line": "blackpoolheritage",
+        "order": 2
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0547776385055254,
+          53.83822878783823
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Cabin",
+        "line": "blackpoolheritage",
+        "order": 3
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0557403054699828,
+          53.819666311404276
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "North Pier",
+        "line": "blackpoolheritage",
+        "order": 4
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0568674659883173,
+          53.79361538134623
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Pleasure Beach",
+        "line": "blackpoolheritage",
+        "order": 5
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.056094779108158,
+          53.77807466971092
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Starr Gate",
+        "line": "blackpoolheritage",
+        "order": 6
+      },
+      "id": 87
+    }
+  ]
+}

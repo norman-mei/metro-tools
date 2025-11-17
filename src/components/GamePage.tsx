@@ -20,6 +20,7 @@ import MenuComponent from '@/components/Menu'
 import IntroModal from '@/components/IntroModal'
 import FoundSummary from '@/components/FoundSummary'
 import AchievementToast from '@/components/AchievementToast'
+import KoFiWidget from '@/components/KoFiWidget'
 import {
   DataFeatureCollection,
   DataFeature,
@@ -46,6 +47,8 @@ import {
   clearAutoRevealSuppressionForCity,
   suppressAutoRevealForCity,
 } from '@/lib/solutionsAccess'
+import AccountDashboard from '@/app/(website)/account/panel'
+import PrivacyPanel from '@/components/PrivacyPanel'
 
 const CONNECTOR_CONFIG = [
   { delimiter: ' - ', joiner: ' - ' },
@@ -63,6 +66,7 @@ type AchievementToastState = {
 }
 
 const achievementToastStorageKey = (slug: string) => `achievement-toast-hidden-${slug}`
+const kofiWidgetStorageKey = (slug: string) => `kofi-widget-hidden-${slug}`
 
 const deriveCityDisplayName = (title?: string, fallback?: string) => {
   if (!title) {
@@ -922,11 +926,15 @@ export default function GamePage({
   const [achievementToast, setAchievementToast] = useState<AchievementToastState | null>(null)
   const [settingsModalOpen, setSettingsModalOpen] = useState(false)
   const [cityStatsOpen, setCityStatsOpen] = useState(false)
+  const [accountModalOpen, setAccountModalOpen] = useState(false)
+  const [privacyModalOpen, setPrivacyModalOpen] = useState(false)
+  const [kofiOpen, setKofiOpen] = useState(false)
   const completionConfettiStorageKey = useMemo(
     () => `${CITY_NAME}-completion-confetti-shown`,
     [CITY_NAME],
   )
   const [cityCompletionConfettiSeen, setCityCompletionConfettiSeen] = useState(false)
+  const [supportModalOpen, setSupportModalOpen] = useState(false)
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -990,6 +998,10 @@ export default function GamePage({
 
   const openSettingsModal = useCallback(() => setSettingsModalOpen(true), [])
   const closeSettingsModal = useCallback(() => setSettingsModalOpen(false), [])
+  const openAccountModal = useCallback(() => setAccountModalOpen(true), [])
+  const closeAccountModal = useCallback(() => setAccountModalOpen(false), [])
+  const openPrivacyModal = useCallback(() => setPrivacyModalOpen(true), [])
+  const closePrivacyModal = useCallback(() => setPrivacyModalOpen(false), [])
 
   const idMap = useMemo(() => {
     const map = new Map<number, DataFeature>()
@@ -1585,6 +1597,23 @@ export default function GamePage({
     }
   }, [settings.achievementToastsEnabled])
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const stored = window.localStorage.getItem(kofiWidgetStorageKey(CITY_NAME))
+    setKofiOpen(!stored)
+  }, [CITY_NAME])
+
+  const handleKofiDismiss = useCallback(() => {
+    setKofiOpen(false)
+  }, [])
+
+  const handleKofiNever = useCallback(() => {
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(kofiWidgetStorageKey(CITY_NAME), '1')
+    }
+    setKofiOpen(false)
+  }, [CITY_NAME])
+
   const mapOptions = useMemo(() => {
     const fallbackLightStyle =
       process.env.NEXT_PUBLIC_MAPBOX_STYLE ??
@@ -2177,6 +2206,9 @@ export default function GamePage({
                 foundProportion={foundProportion}
                 onOpenSettings={openSettingsModal}
                 onOpenCityStats={() => setCityStatsOpen(true)}
+                onOpenAccount={openAccountModal}
+                onOpenPrivacy={openPrivacyModal}
+                onOpenSupport={() => setSupportModalOpen(true)}
               />
               {found.length > 0 && (
                 <button
@@ -2331,12 +2363,102 @@ export default function GamePage({
           </div>
         </div>
       )}
+      {accountModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
+          onClick={closeAccountModal}
+        >
+          <div
+            className="mx-4 w-full max-w-3xl rounded-3xl border border-zinc-200 bg-white p-6 shadow-2xl dark:border-[#18181b] dark:bg-zinc-900"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-center justify-between">
+              <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+                {t('account')}
+              </h2>
+              <button
+                type="button"
+                onClick={closeAccountModal}
+                className="rounded-full border border-zinc-300 px-3 py-1 text-sm font-semibold text-zinc-700 hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:text-zinc-100 dark:hover:bg-zinc-800"
+              >
+                Close
+              </button>
+            </div>
+            <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+              Manage your Metro Memory account without leaving the map.
+            </p>
+            <div className="mt-4 max-h-[70vh] overflow-y-auto">
+              <AccountDashboard showHeading={false} />
+            </div>
+          </div>
+        </div>
+      )}
+      {privacyModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
+          onClick={closePrivacyModal}
+        >
+          <div
+            className="mx-4 w-full max-w-3xl rounded-3xl border border-zinc-200 bg-white p-6 shadow-2xl dark:border-[#18181b] dark:bg-zinc-900"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-center justify-between">
+              <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+                {t('privacy')}
+              </h2>
+              <button
+                type="button"
+                onClick={closePrivacyModal}
+                className="rounded-full border border-zinc-300 px-3 py-1 text-sm font-semibold text-zinc-700 hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:text-zinc-100 dark:hover:bg-zinc-800"
+              >
+                Close
+              </button>
+            </div>
+            <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+              Review privacy details right from the game.
+            </p>
+            <div className="mt-4 max-h-[70vh] overflow-y-auto">
+              <PrivacyPanel />
+            </div>
+          </div>
+        </div>
+      )}
       <CityStatsPanel
         cityDisplayName={cityDisplayName}
         slug={CITY_NAME}
         open={cityStatsOpen}
         onClose={() => setCityStatsOpen(false)}
       />
+      {supportModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
+          onClick={() => setSupportModalOpen(false)}
+        >
+          <div
+            className="relative w-full max-w-md rounded-3xl border border-zinc-200 bg-white shadow-2xl dark:border-[#18181b] dark:bg-zinc-900"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-zinc-200 px-5 py-4 dark:border-[#18181b]">
+              <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">Support me!</h2>
+              <button
+                type="button"
+                onClick={() => setSupportModalOpen(false)}
+                className="rounded-full border border-zinc-300 px-3 py-1 text-sm font-semibold text-zinc-700 hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:text-zinc-100 dark:hover:bg-zinc-800"
+              >
+                Close
+              </button>
+            </div>
+            <div className="p-4">
+              <KoFiWidget open onClose={() => setSupportModalOpen(false)} onNever={handleKofiNever} />
+            </div>
+          </div>
+        </div>
+      )}
+      {kofiOpen && (
+        <div className="fixed bottom-4 left-4 z-40 w-[320px] max-w-[calc(100%-1.5rem)]">
+          <KoFiWidget open onClose={handleKofiDismiss} onNever={handleKofiNever} />
+        </div>
+      )}
       {achievementToast && (
         <AchievementToast
           open

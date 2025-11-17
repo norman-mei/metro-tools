@@ -1,6 +1,7 @@
 'use client'
 
 import { type MouseEvent as ReactMouseEvent, useEffect, useState } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Config, DataFeature, DataFeatureCollection, LineGroup } from '@/lib/types'
 import { getStationKey } from '@/lib/stationUtils'
@@ -537,6 +538,16 @@ const CityStatsPanel = ({
   }
 
   const cityIconSrc = `/api/city-icon/${encodeURIComponent(slug)}`
+  const quickNavLinks = [
+    { label: 'Account tab', href: '/?tab=account' },
+    { label: 'Privacy tab', href: '/?tab=privacy' },
+    { label: 'Cities tab', href: '/?tab=cities' },
+    { label: 'Achievements tab', href: '/?tab=achievements' },
+    { label: 'Update Log tab', href: '/?tab=updateLog' },
+    { label: 'Global Stats tab', href: '/?tab=globalStats' },
+    { label: 'Settings tab', href: '/?tab=settings' },
+    { label: 'Main page', href: '/' },
+  ]
 
   const handleInnerClick = (event: ReactMouseEvent<HTMLDivElement>) => {
     event.stopPropagation()
@@ -889,6 +900,18 @@ const CityStatsPanel = ({
           >
             Close
           </button>
+        </div>
+        <div className="mb-4 flex flex-wrap justify-center gap-2">
+          {quickNavLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={onClose}
+              className="inline-flex items-center justify-center rounded-full border border-zinc-300 px-3 py-2 text-xs font-semibold text-zinc-700 transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:text-zinc-100 dark:hover:bg-zinc-800"
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
         <div className="mt-4 space-y-6">
           {loading && (

@@ -2,7 +2,6 @@ import { Config, Line } from '@/lib/types'
 import { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
-export const BEG_THRESHOLD = 0.5
 
 export const LINES: {
   [name: string]: Line
@@ -93,7 +92,6 @@ export const MAP_CONFIG: MapboxOptions = {
   dragRotate: false,
 }
 
-export const STRIPE_LINK = 'https://buy.stripe.com/cN2aFb0nI1rI9bi5km'
 
 export const CITY_NAME = 'budapest'
 
@@ -105,12 +103,10 @@ const config: Config = {
   GAUGE_COLORS: 'inverted',
   MAP_FROM_DATA,
   LOCALE,
-  STRIPE_LINK,
   CITY_NAME,
   MAP_CONFIG,
   METADATA,
   LINES,
-  BEG_THRESHOLD,
 }
 
 export default config

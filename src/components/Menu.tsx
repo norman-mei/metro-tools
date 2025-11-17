@@ -15,6 +15,9 @@ export default function MenuComponent({
   foundProportion,
   onOpenSettings,
   onOpenCityStats,
+  onOpenAccount,
+  onOpenPrivacy,
+  onOpenSupport,
 }: {
   hideLabels: boolean
   setHideLabels: (hide: boolean) => void
@@ -22,6 +25,9 @@ export default function MenuComponent({
   foundProportion: number
   onOpenSettings?: () => void
   onOpenCityStats?: () => void
+  onOpenAccount?: () => void
+  onOpenPrivacy?: () => void
+  onOpenSupport?: () => void
 }) {
   const [modalOpen, setModalOpen] = useState(false)
   const { t } = useTranslation()
@@ -110,6 +116,24 @@ export default function MenuComponent({
                 )}
               </Menu.Item>
             )}
+            {onOpenSupport && (
+              <Menu.Item>
+                {({ active }) => (
+                  <button
+                    type="button"
+                    className={classNames(
+                      active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
+                      'block w-full px-4 py-2 text-left text-sm transition',
+                    )}
+                    onClick={onOpenSupport}
+                  >
+                    Support me!
+                  </button>
+                )}
+              </Menu.Item>
+            )}
             <Menu.Item>
               {({ active }) => (
                 <button
@@ -151,6 +175,66 @@ export default function MenuComponent({
                     href="/?tab=settings"
                   >
                     {t('settings')}
+                  </Link>
+                )
+              }
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) =>
+                onOpenAccount ? (
+                  <button
+                    type="button"
+                    className={classNames(
+                      active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
+                      'block w-full px-4 py-2 text-left text-sm transition',
+                    )}
+                    onClick={onOpenAccount}
+                  >
+                    {t('account')}
+                  </button>
+                ) : (
+                  <Link
+                    className={classNames(
+                      active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
+                      'block w-full px-4 py-2 text-left text-sm transition',
+                    )}
+                    href="/?tab=account"
+                  >
+                    {t('account')}
+                  </Link>
+                )
+              }
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) =>
+                onOpenPrivacy ? (
+                  <button
+                    type="button"
+                    className={classNames(
+                      active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
+                      'block w-full px-4 py-2 text-left text-sm transition',
+                    )}
+                    onClick={onOpenPrivacy}
+                  >
+                    {t('privacy')}
+                  </button>
+                ) : (
+                  <Link
+                    className={classNames(
+                      active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
+                      'block w-full px-4 py-2 text-left text-sm transition',
+                    )}
+                    href="/?tab=privacy"
+                  >
+                    {t('privacy')}
                   </Link>
                 )
               }

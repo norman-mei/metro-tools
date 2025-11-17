@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
 import { Line } from '@/lib/types'
 
-export const BEG_THRESHOLD = 0.2
 
 export const LINES: {
   [name: string]: Line
@@ -198,7 +197,6 @@ export const MAP_CONFIG: MapboxOptions = {
   fadeDuration: 50,
 }
 
-export const STRIPE_LINK = 'https://buy.stripe.com/6oE4gN8Ue0nE3QY5kp'
 
 export const CITY_NAME = 'seoul'
 
@@ -206,12 +204,10 @@ export const LOCALE = 'ko'
 
 const config = {
   LOCALE,
-  STRIPE_LINK,
   CITY_NAME,
   MAP_CONFIG,
   METADATA,
   LINES,
-  BEG_THRESHOLD,
 }
 
 export default config

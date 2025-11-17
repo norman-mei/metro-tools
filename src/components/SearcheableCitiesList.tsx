@@ -23,8 +23,10 @@ import CityStatsPanel from '@/components/CityStatsPanel'
 import CreditsContent from '@/components/CreditsContent'
 import CollapsibleSection from '@/components/CollapsibleSection'
 import AchievementIcon from '@/components/AchievementIcon'
+import KoFiWidget from '@/components/KoFiWidget'
 import SettingsPanel from '@/components/SettingsPanel'
 import AccountDashboard from '@/app/(website)/account/panel'
+import PrivacyPanel from '@/components/PrivacyPanel'
 import useTranslation from '@/hooks/useTranslation'
 import { useAuth } from '@/context/AuthContext'
 import { STATION_TOTALS } from '@/lib/stationTotals'
@@ -74,16 +76,24 @@ const TAB_OPTIONS: Array<{ id: TabOption; label: string }> = [
   { id: 'cities', label: 'Cities' },
   { id: 'achievements', label: 'Achievements' },
   { id: 'updateLog', label: 'Update Log' },
-  { id: 'credits', label: 'Credits' },
-  // { id: 'account', label: 'Account' }, // reserved for future use
-  { id: 'testimonials', label: 'What people say' },
-  { id: 'press', label: 'They talked about us' },
+  { id: 'account', label: 'Account' },
   { id: 'globalStats', label: 'Global Stats' },
   { id: 'settings', label: 'Settings' },
-  // { id: 'privacy', label: 'Privacy' }, // reserved for future use
+  { id: 'credits', label: 'Credits' },
+  { id: 'privacy', label: 'Privacy' },
+  { id: 'testimonials', label: 'What people say' },
+  { id: 'press', label: 'They talked about us' },
+  { id: 'support', label: 'Support me!' },
 ]
-const TAB_STORAGE_KEY = 'metro-memory-active-tab'
-
+const SECONDARY_TAB_IDS = new Set<TabOption>([
+  'credits',
+  'privacy',
+  'testimonials',
+  'press',
+  'support',
+])
+const PRIMARY_TABS = TAB_OPTIONS.filter(({ id }) => !SECONDARY_TAB_IDS.has(id))
+const SECONDARY_TABS = TAB_OPTIONS.filter(({ id }) => SECONDARY_TAB_IDS.has(id))
 type TabOption =
   | 'cities'
   | 'achievements'
@@ -94,7 +104,8 @@ type TabOption =
   | 'settings'
   | 'account'
   | 'globalStats'
-  // | 'privacy'
+  | 'privacy'
+  | 'support'
 
 type UpdateLogStatus = 'idle' | 'loading' | 'success' | 'error'
 
@@ -906,27 +917,8 @@ const SearcheableCitiesList = ({
     const normalized = TAB_OPTIONS.find(({ id }) => id === tabParam)?.id
     if (normalized) {
       setActiveTab(normalized as TabOption)
-      try {
-        window.localStorage.setItem(TAB_STORAGE_KEY, normalized)
-      } catch {
-        // ignore
-      }
     }
   }, [searchParams])
-
-  useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-    try {
-      const stored = window.localStorage.getItem(TAB_STORAGE_KEY) as TabOption | null
-      if (stored && TAB_OPTIONS.some((opt) => opt.id === stored)) {
-        setActiveTab(stored)
-      }
-    } catch {
-      // ignore read errors
-    }
-  }, [])
 
   const hasResults = visibleGroups.length > 0
   const openStatsPanelForCity = (slug: string) => {
@@ -1055,34 +1047,50 @@ const SearcheableCitiesList = ({
   return (
     <>
       <div className="my-16 mt-16 sm:mt-20">
-      <div className="mb-6 flex gap-3">
-        {TAB_OPTIONS.map(({ id, label }) => {
-          const labelText = id === 'settings' ? t('settings') : label
-      return (
-        <button
-          key={id}
-          onClick={() => {
-            setActiveTab(id)
-            if (typeof window !== 'undefined') {
-              try {
-                window.localStorage.setItem(TAB_STORAGE_KEY, id)
-              } catch {
-                // ignore write errors
-              }
-            }
-          }}
-          className={classNames(
-            'rounded-full px-4 py-2 text-sm font-semibold transition',
-            activeTab === id
-              ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
-              : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
-              )}
-            >
-              {labelText}
-            </button>
-          )
-        })}
-      </div>
+        <div className="mb-6 rounded-3xl border border-zinc-200/80 bg-white/70 p-4 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/70">
+          <div className="mb-4 flex flex-wrap justify-center gap-3">
+            {PRIMARY_TABS.map(({ id, label }) => {
+              const labelText = id === 'settings' ? t('settings') : label
+              return (
+                <button
+                  key={id}
+                  onClick={() => {
+                    setActiveTab(id)
+                  }}
+                  className={classNames(
+                    'rounded-full px-4 py-2 text-sm font-semibold transition',
+                    activeTab === id
+                      ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
+                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+                  )}
+                >
+                  {labelText}
+                </button>
+              )
+            })}
+          </div>
+          <div className="flex flex-wrap justify-center gap-3">
+            {SECONDARY_TABS.map(({ id, label }) => {
+              const labelText = id === 'settings' ? t('settings') : label
+              return (
+                <button
+                  key={id}
+                  onClick={() => {
+                    setActiveTab(id)
+                  }}
+                  className={classNames(
+                    'rounded-full px-4 py-2 text-sm font-semibold transition',
+                    activeTab === id
+                      ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
+                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+                  )}
+                >
+                  {labelText}
+                </button>
+              )
+            })}
+          </div>
+        </div>
 
       {activeTab === 'cities' ? (
         <>
@@ -1394,35 +1402,18 @@ const SearcheableCitiesList = ({
             <MissingTabContent message="No press mentions available right now." />
           )}
         </div>
-      ) : (
-        <section className="rounded-2xl border border-zinc-200 bg-white p-6 text-sm leading-relaxed text-zinc-700 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-300">
-          <h3 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
-            Privacy &amp; Security
-          </h3>
-          <p className="mt-3">
-            Metro Memory now supports accounts so you can sync progress and achievements across devices.
-            Here&apos;s how your data is handled:
-          </p>
-          <ul className="mt-3 list-disc space-y-2 pl-6">
-            <li>
-              <strong>Passwords</strong> are hashed with bcrypt before they ever touch the database. We never
-              store or log plain-text passwords.
-            </li>
-            <li>
-              <strong>Sessions</strong> are maintained with short-lived, server-side tokens. Logging out or
-              resetting your password revokes them immediately.
-            </li>
-            <li>
-              <strong>Progress data</strong> (found stations + timestamps) is only saved to your account when
-              you opt in by creating one. Guests continue to use local browser storage.
-            </li>
-            <li>
-              <strong>Email verification and password resets</strong> are required during sign up to prevent
-              abuse and to keep your achievements tied to your inbox.
-            </li>
-          </ul>
-        </section>
-      )}
+      ) : activeTab === 'support' ? (
+        <div className="space-y-6">
+          <h3 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">Support me!</h3>
+          <div className="flex justify-center">
+            <div className="w-full max-w-md">
+              <KoFiWidget open onClose={() => null} onNever={() => null} />
+            </div>
+          </div>
+        </div>
+      ) : activeTab === 'privacy' ? (
+        <PrivacyPanel />
+  ) : null}
     </div>
     {statsOpen && statsSlug && (
       <CityStatsPanel

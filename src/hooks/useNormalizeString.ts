@@ -248,7 +248,26 @@ const replacers: { [key: string]: (str: string) => string } = {
       .trim(),
 }
 
-const NON_LATIN_ALLOWED_CITIES = new Set(['thsr', 'seoul', 'tokyo'])
+const NON_LATIN_ALLOWED_CITIES = new Set([
+  'beijing',
+  'dongguan',
+  'guangzhou',
+  'hk',
+  'hanoi',
+  'hochiminhcity',
+  'istanbul',
+  'kaohsiung',
+  'macau',
+  'seoul',
+  'shanghai',
+  'shenzhen',
+  'singapore',
+  'taichung',
+  'taipei',
+  'taw',
+  'thsr',
+  'tokyo',
+])
 
 const getCustomReplacer = (cityName: string) => {
   return replacers[cityName] || replacers['default']
