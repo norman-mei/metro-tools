@@ -19,6 +19,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "dc": 294,
   "denver": 117,
   "detroit": 28,
+  "dongguan": 15,
   "dresden": 449,
   "edinburgh": 23,
   "edmonton": 38,

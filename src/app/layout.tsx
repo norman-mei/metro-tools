@@ -1,9 +1,18 @@
 import { Analytics } from '@vercel/analytics/next'
+import { Metadata } from 'next'
 import ThemeProviderClient from '@/components/ThemeProviderClient'
 import { AuthProvider } from '@/context/AuthContext'
 import { SettingsProvider } from '@/context/SettingsContext'
 import SettingsSaveToast from '@/components/SettingsSaveToast'
 import '@/styles/tailwind.css'
+
+export const metadata: Metadata = {
+  icons: {
+    icon: '/icon.ico',
+    shortcut: '/icon.ico',
+    apple: '/icon.ico',
+  },
+}
 
 export default function RootLayout({
   children,

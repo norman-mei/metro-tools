@@ -1,19 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import jsdom from 'jsdom'
+import { load } from 'cheerio'
 
 async function LinkPreview({ url }: { url: string }) {
   const response = await fetch(url)
   const data = await response.text()
-  const doc = new jsdom.JSDOM(data)
-  const title = doc.window.document.querySelector('title')?.textContent || ''
-  const description =
-    doc.window.document
-      .querySelector('meta[name="description"]')
-      ?.getAttribute('content') || ''
-  const image =
-    doc.window.document
-      .querySelector('meta[property="og:image"]')
-      ?.getAttribute('content') || ''
+  const $ = load(data)
+  const title = $('title').first().text() || ''
+  const description = $('meta[name="description"]').attr('content') || ''
+  const image = $('meta[property="og:image"]').attr('content') || ''
 
   return (
     <a

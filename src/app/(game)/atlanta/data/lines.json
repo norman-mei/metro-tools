@@ -1,42 +1,42 @@
 {
   "MARTARD": {
     "name": "Red",
-    "color": "#C8102E",
-    "backgroundColor": "#8A0F23",
+    "color": "#cf232d",
+    "backgroundColor": "#8f1a27",
     "textColor": "#FFFFFF",
-    "progressOutlineColor": "#CF232D",
+    "progressOutlineColor": "#cf232d",
     "order": 0
   },
   "MARTABL": {
     "name": "Blue",
-    "color": "#0072CE",
-    "backgroundColor": "#004D8F",
+    "color": "#0476b3",
+    "backgroundColor": "#034b71",
     "textColor": "#FFFFFF",
-    "progressOutlineColor": "#0475B1",
-    "order": 1
+    "progressOutlineColor": "#0476b3",
+    "order": 2
   },
   "MARTAGD": {
     "name": "Gold",
-    "color": "#C99700",
-    "backgroundColor": "#8D6B00",
+    "color": "#d5a72b",
+    "backgroundColor": "#8c741e",
     "textColor": "#1F1F1F",
-    "progressOutlineColor": "#D6A72B",
-    "order": 2
+    "progressOutlineColor": "#d5a72b",
+    "order": 1
   },
   "MARTAGR": {
     "name": "Green",
-    "color": "#00843D",
-    "backgroundColor": "#01662F",
+    "color": "#009e4a",
+    "backgroundColor": "#016735",
     "textColor": "#FFFFFF",
-    "progressOutlineColor": "#009E4A",
+    "progressOutlineColor": "#009e4a",
     "order": 3
   },
   "MARTASC": {
     "name": "Atlanta Streetcar",
-    "color": "#00AEEF",
-    "backgroundColor": "#00769C",
+    "color": "#37A0B5",
+    "backgroundColor": "#1C505A",
     "textColor": "#FFFFFF",
-    "progressOutlineColor": "#38A1B6",
+    "progressOutlineColor": "#37A0B5",
     "order": 4
   },
   "atlantaTPT": {

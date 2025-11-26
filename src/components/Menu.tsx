@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import MenuIcon from './MenuIcon'
 import classNames from 'classnames'
@@ -29,9 +29,18 @@ export default function MenuComponent({
   onOpenPrivacy?: () => void
   onOpenSupport?: () => void
 }) {
+  const [mounted, setMounted] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)
   const { t } = useTranslation()
   const showSolutionsDisabled = foundProportion >= 1
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    // Avoid server/client useId mismatches from Headless UI during SSR.
+    return null
+  }
 
   return (
     <Menu as="div" className="relative inline-block text-left">

@@ -1,12 +1,14 @@
 import Link from 'next/link'
 
+import { Avatar, AvatarContainer } from '@/components/Avatar'
+import { BackToTopButton } from '@/components/BackToTopButton'
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@/components/SocialIcons'
+import { GitHubIcon } from '@/components/SocialIcons'
 
-import Tweets from '@/components/Tweets'
-import LinkPreviews from '@/components/LinkPreviews'
 import ConfettiButton from '@/components/ConfettiButton'
+import LinkPreviews from '@/components/LinkPreviews'
 import SearcheableCitiesList from '@/components/SearcheableCitiesList'
+import Tweets from '@/components/Tweets'
 
 function SocialLink({
   icon: Icon,
@@ -24,11 +26,17 @@ function SocialLink({
 export default async function Home() {
   return (
     <>
+      <BackToTopButton />
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Metro Memory{' '}
-          </h1>
+          <div className="flex items-center gap-4">
+            <AvatarContainer className="h-24 w-24">
+              <Avatar large className="h-24 w-24" />
+            </AvatarContainer>
+            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              Metro Memory{' '}
+            </h1>
+          </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Challenge yourself to remember the stations of your city&apos;s
             metro.

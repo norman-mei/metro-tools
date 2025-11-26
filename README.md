@@ -90,7 +90,7 @@ SOLUTIONS_PASSWORD=change-me
 
 ### Run the app
 ```bash
-npm run dev
+npm run dev   # uses Turbopack by default (experimental)
 ```
 By default the site is available at `http://localhost:3000`. The marketing homepage lives at `/`, and individual games at routes like `/ny`, `/london`, and `/tokyo`.
 

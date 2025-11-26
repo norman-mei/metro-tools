@@ -4,7 +4,6 @@ import classNames from 'classnames'
 import {
   useCallback,
   useEffect,
-  useId,
   useMemo,
   useState,
   type ReactNode,
@@ -56,7 +55,12 @@ export default function CollapsibleSection({
 }: CollapsibleSectionProps) {
   const { user, uiPreferences, setCollapsedSectionPreference } = useAuth()
   const [isOpen, setIsOpen] = useState(defaultOpen)
-  const contentId = useId()
+  const baseId = useMemo(
+    () => (sectionId ? sectionId.replace(/[^a-zA-Z0-9_-]/g, '-') : 'section'),
+    [sectionId],
+  )
+  const titleId = `${baseId}-title`
+  const contentId = `${baseId}-content`
   const HeadingTag = titleAs
 
   const storageKey = useMemo(() => `${STORAGE_PREFIX}${sectionId}`, [sectionId])
@@ -94,9 +98,9 @@ export default function CollapsibleSection({
   }, [sectionId, setCollapsedSectionPreference, storageKey, user])
 
   return (
-    <section className={className} aria-labelledby={`${contentId}-title`}>
+    <section className={className} aria-labelledby={titleId}>
       <HeadingTag
-        id={`${contentId}-title`}
+        id={titleId}
         className={
           headingClassName ??
           'mt-12 text-4xl font-bold text-zinc-900 dark:text-zinc-100'

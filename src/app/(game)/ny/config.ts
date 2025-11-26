@@ -1,6 +1,6 @@
-import { Metadata } from 'next'
-import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line, LineGroup } from '@/lib/types'
+import { MapboxOptions } from 'mapbox-gl'
+import { Metadata } from 'next'
 import linesData from './data/lines.json'
 
 
@@ -292,6 +292,7 @@ const config: Config = {
   METADATA,
   LINES,
   LINE_GROUPS,
+  MAP_FROM_DATA,
 }
 
 export default config

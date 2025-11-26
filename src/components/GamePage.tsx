@@ -1,54 +1,54 @@
 'use client'
 
-import {
-  useState,
-  useCallback,
-  useMemo,
-  useEffect,
-  useRef,
-  FormEvent,
-  ChangeEvent,
-  CSSProperties,
-} from 'react'
-import Fuse from 'fuse.js'
-import { useLocalStorageValue } from '@react-hookz/web'
-import mapboxgl from 'mapbox-gl'
-import { coordEach } from '@turf/meta'
-import 'mapbox-gl/dist/mapbox-gl.css'
-import 'react-circular-progressbar/dist/styles.css'
-import MenuComponent from '@/components/Menu'
-import IntroModal from '@/components/IntroModal'
-import FoundSummary from '@/components/FoundSummary'
+import AccountDashboard from '@/app/(website)/account/panel'
 import AchievementToast from '@/components/AchievementToast'
-import KoFiWidget from '@/components/KoFiWidget'
-import {
-  DataFeatureCollection,
-  DataFeature,
-  RoutesFeatureCollection,
-} from '@/lib/types'
-import Input from '@/components/Input'
-import useHideLabels from '@/hooks/useHideLabels'
-import { useConfig } from '@/lib/configContext'
-import useTranslation from '@/hooks/useTranslation'
-import { useAuth } from '@/context/AuthContext'
-import FoundList from '@/components/FoundList'
-import useNormalizeString from '@/hooks/useNormalizeString'
-import { bbox } from '@turf/turf'
-import ThemeToggleButton from '@/components/ThemeToggleButton'
-import { useTheme } from 'next-themes'
-import { getAchievementForCity } from '@/lib/achievements'
-import { useSettings } from '@/context/SettingsContext'
-import SettingsPanel from '@/components/SettingsPanel'
-import Link from 'next/link'
-import { getStationKey } from '@/lib/stationUtils'
 import CityStatsPanel from '@/components/CityStatsPanel'
+import FoundList from '@/components/FoundList'
+import FoundSummary from '@/components/FoundSummary'
+import Input from '@/components/Input'
+import IntroModal from '@/components/IntroModal'
+import KoFiWidget from '@/components/KoFiWidget'
+import MenuComponent from '@/components/Menu'
+import PrivacyPanel from '@/components/PrivacyPanel'
+import SettingsPanel from '@/components/SettingsPanel'
+import ThemeToggleButton from '@/components/ThemeToggleButton'
+import { useAuth } from '@/context/AuthContext'
+import { useSettings } from '@/context/SettingsContext'
+import useHideLabels from '@/hooks/useHideLabels'
+import useNormalizeString from '@/hooks/useNormalizeString'
+import useTranslation from '@/hooks/useTranslation'
+import { getAchievementForCity } from '@/lib/achievements'
+import { useConfig } from '@/lib/configContext'
 import {
-  shouldAutoRevealSolutions,
   clearAutoRevealSuppressionForCity,
+  shouldAutoRevealSolutions,
   suppressAutoRevealForCity,
 } from '@/lib/solutionsAccess'
-import AccountDashboard from '@/app/(website)/account/panel'
-import PrivacyPanel from '@/components/PrivacyPanel'
+import { getStationKey } from '@/lib/stationUtils'
+import {
+  DataFeature,
+  DataFeatureCollection,
+  RoutesFeatureCollection,
+} from '@/lib/types'
+import { useLocalStorageValue } from '@react-hookz/web'
+import { coordEach } from '@turf/meta'
+import { bbox } from '@turf/turf'
+import Fuse from 'fuse.js'
+import mapboxgl from 'mapbox-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import { useTheme } from 'next-themes'
+import Link from 'next/link'
+import {
+  CSSProperties,
+  ChangeEvent,
+  FormEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react'
+import 'react-circular-progressbar/dist/styles.css'
 
 const CONNECTOR_CONFIG = [
   { delimiter: ' - ', joiner: ' - ' },
@@ -929,6 +929,7 @@ export default function GamePage({
   const [accountModalOpen, setAccountModalOpen] = useState(false)
   const [privacyModalOpen, setPrivacyModalOpen] = useState(false)
   const [kofiOpen, setKofiOpen] = useState(false)
+  const [mapError, setMapError] = useState<string | null>(null)
   const completionConfettiStorageKey = useMemo(
     () => `${CITY_NAME}-completion-confetti-shown`,
     [CITY_NAME],
@@ -1652,14 +1653,43 @@ export default function GamePage({
       return
     }
 
-    const mapboxMap = new mapboxgl.Map({
-      ...mapOptions,
-      container: mapContainerRef.current,
-    })
+    setMapError(null)
+
+    const supported =
+      typeof mapboxgl.supported === 'function'
+        ? mapboxgl.supported({ failIfMajorPerformanceCaveat: true })
+        : true
+
+    if (!supported) {
+      setMapError(
+        'This browser cannot initialize WebGL, so the map cannot be displayed. Please enable hardware acceleration or try a different browser.',
+      )
+      return
+    }
+
+    let mapboxMap: mapboxgl.Map | null = null
+
+    try {
+      mapboxMap = new mapboxgl.Map({
+        ...mapOptions,
+        container: mapContainerRef.current,
+      })
+    } catch (error) {
+      console.error('Failed to initialize map', error)
+      setMapError(
+        'Failed to initialize the map in this environment. Please check WebGL support.',
+      )
+      return
+    }
+
+    if (!mapboxMap) {
+      return
+    }
 
     let ensureRouteLayers: (() => void) | null = null
 
     const hideBaseSymbolLayers = () => {
+      if (!mapboxMap) return
       const mapStyle = mapboxMap.getStyle()
       if (!mapStyle || !Array.isArray(mapStyle.layers)) {
         return
@@ -1705,9 +1735,27 @@ export default function GamePage({
       const ROUTES_SOURCE_ID = 'game-routes'
       const ROUTES_LAYER_ID = 'game-routes-line'
       const ROUTES_LAYER_CASING_ID = 'game-routes-line-casing'
+      const SIR_LOCAL_LAYER_ID = 'sir-local-line'
+      const SIR_LOCAL_CASING_LAYER_ID = 'sir-local-line-casing'
+      const PASCACK_LAYER_ID = 'pascack-line'
+      const PASCACK_CASING_LAYER_ID = 'pascack-line-casing'
+      const SIR_LOCAL_FILTER: any = [
+        '==',
+        ['get', 'line'],
+        'NewYorkSubwaySI',
+      ]
+      const PASCACK_FILTER: any = [
+        '==',
+        ['get', 'line'],
+        'NJTPascackValley',
+      ]
 
       ensureRouteLayers = () => {
         if (!MAP_FROM_DATA || !routes) {
+          return
+        }
+
+        if (mapboxMap.getLayer(ROUTES_LAYER_ID)) {
           return
         }
 
@@ -1735,61 +1783,136 @@ export default function GamePage({
           9.5,
         ]
         const lineOffsetExpression: any = ['match', ['get', 'line'], '', 2, 0]
+        const lineSortKeyExpression: any = [
+          'case',
+          ['==', ['get', 'line'], 'NewYorkSubwaySI'],
+          1_000,
+          ['==', ['get', 'line'], 'NewYorkSubwaySIExpress'],
+          999,
+          ['==', ['get', 'line'], 'NJTPascackValley'],
+          900,
+          ['==', ['get', 'line'], 'NJTMeadowlands'],
+          899,
+          ['-', 100, ['coalesce', ['get', 'order'], 100]],
+        ]
 
-        if (mapboxMap.getLayer(ROUTES_LAYER_ID)) {
-          mapboxMap.removeLayer(ROUTES_LAYER_ID)
+        if (!mapboxMap.getSource(ROUTES_SOURCE_ID)) {
+          mapboxMap.addSource(ROUTES_SOURCE_ID, {
+            type: 'geojson',
+            data: routeData,
+          })
         }
-        if (mapboxMap.getLayer(ROUTES_LAYER_CASING_ID)) {
-          mapboxMap.removeLayer(ROUTES_LAYER_CASING_ID)
-        }
-        if (mapboxMap.getSource(ROUTES_SOURCE_ID)) {
-          mapboxMap.removeSource(ROUTES_SOURCE_ID)
-        }
-
-        mapboxMap.addSource(ROUTES_SOURCE_ID, {
-          type: 'geojson',
-          data: routeData,
-        })
 
         try {
-          mapboxMap.addLayer({
-            id: ROUTES_LAYER_CASING_ID,
-            type: 'line',
-            paint: {
-              'line-width': casingLineWidthExpression,
-              'line-color': 'rgba(24,24,27,0.45)',
-              'line-opacity': 0.6,
-              'line-offset': lineOffsetExpression,
-            },
-            layout: {
-              'line-sort-key': ['-', 100, ['get', 'order']],
-              'line-cap': 'round',
-              'line-join': 'round',
-            },
-            source: ROUTES_SOURCE_ID,
-          })
+          const ensureOverlayPair = (
+            lineId: string,
+            casingId: string,
+            filter: any,
+            sortKeyBase: number,
+          ) => {
+            if (!mapboxMap.getSource(ROUTES_SOURCE_ID)) return
 
-          mapboxMap.addLayer({
-            id: ROUTES_LAYER_ID,
-            type: 'line',
-            paint: {
-              'line-width': lineWidthExpression,
-              'line-color': [
-                'case',
-                ['has', 'color'],
-                ['to-color', ['get', 'color']],
-                '#1d2835',
-              ],
-              'line-opacity': 0.9,
-              'line-offset': lineOffsetExpression,
-            },
-            layout: {
-              'line-sort-key': ['-', 100, ['get', 'order']],
-              'line-cap': 'round',
-              'line-join': 'round',
-            },
-            source: ROUTES_SOURCE_ID,
-          })
+            if (!mapboxMap.getLayer(casingId)) {
+              mapboxMap.addLayer({
+                id: casingId,
+                type: 'line',
+                paint: {
+                  'line-width': casingLineWidthExpression,
+                  'line-color': 'rgba(24,24,27,0.45)',
+                  'line-opacity': 0.65,
+                  'line-offset': lineOffsetExpression,
+                },
+                layout: {
+                  'line-sort-key': sortKeyBase,
+                  'line-cap': 'round',
+                  'line-join': 'round',
+                },
+                filter,
+                source: ROUTES_SOURCE_ID,
+              })
+            }
+
+            if (!mapboxMap.getLayer(lineId)) {
+              mapboxMap.addLayer({
+                id: lineId,
+                type: 'line',
+                paint: {
+                  'line-width': lineWidthExpression,
+                  'line-color': [
+                    'case',
+                    ['has', 'color'],
+                    ['to-color', ['get', 'color']],
+                    '#1d2835',
+                  ],
+                  'line-opacity': 0.95,
+                  'line-offset': lineOffsetExpression,
+                },
+                layout: {
+                  'line-sort-key': sortKeyBase + 1,
+                  'line-cap': 'round',
+                  'line-join': 'round',
+                },
+                filter,
+                source: ROUTES_SOURCE_ID,
+              })
+            }
+          }
+
+          if (!mapboxMap.getLayer(ROUTES_LAYER_CASING_ID)) {
+            mapboxMap.addLayer({
+              id: ROUTES_LAYER_CASING_ID,
+              type: 'line',
+              paint: {
+                'line-width': casingLineWidthExpression,
+                'line-color': 'rgba(24,24,27,0.45)',
+                'line-opacity': 0.6,
+                'line-offset': lineOffsetExpression,
+              },
+              layout: {
+                'line-sort-key': lineSortKeyExpression,
+                'line-cap': 'round',
+                'line-join': 'round',
+              },
+              source: ROUTES_SOURCE_ID,
+            })
+          }
+
+          if (!mapboxMap.getLayer(ROUTES_LAYER_ID)) {
+            mapboxMap.addLayer({
+              id: ROUTES_LAYER_ID,
+              type: 'line',
+              paint: {
+                'line-width': lineWidthExpression,
+                'line-color': [
+                  'case',
+                  ['has', 'color'],
+                  ['to-color', ['get', 'color']],
+                  '#1d2835',
+                ],
+                'line-opacity': 0.9,
+                'line-offset': lineOffsetExpression,
+              },
+              layout: {
+                'line-sort-key': lineSortKeyExpression,
+                'line-cap': 'round',
+                'line-join': 'round',
+              },
+              source: ROUTES_SOURCE_ID,
+            })
+          }
+
+          ensureOverlayPair(
+            SIR_LOCAL_LAYER_ID,
+            SIR_LOCAL_CASING_LAYER_ID,
+            SIR_LOCAL_FILTER,
+            10_000,
+          )
+          ensureOverlayPair(
+            PASCACK_LAYER_ID,
+            PASCACK_CASING_LAYER_ID,
+            PASCACK_FILTER,
+            9_100,
+          )
         } catch (error) {
           console.error('Failed to add route layer', error)
         }
@@ -2013,6 +2136,9 @@ export default function GamePage({
     })
 
     return () => {
+      if (!mapboxMap) {
+        return
+      }
       mapboxMap.off('styledata', hideBaseSymbolLayers)
       mapboxMap.off('style.load', hideBaseSymbolLayers)
       if (ensureRouteLayers) {
@@ -2158,6 +2284,13 @@ export default function GamePage({
       </div>
       <div className="relative flex-1 min-w-0 h-full">
         <div ref={mapContainerRef} className="absolute inset-0 h-full w-full" />
+        {mapError ? (
+          <div className="absolute inset-0 z-50 flex items-center justify-center px-4">
+            <div className="max-w-lg rounded-lg bg-white/95 p-4 text-sm font-semibold text-red-700 shadow-lg dark:bg-zinc-900/95 dark:text-red-200 dark:shadow-black/40">
+              {mapError}
+            </div>
+          </div>
+        ) : null}
         <div className="pointer-events-none absolute inset-x-0 top-4 px-3 lg:top-6 lg:px-6">
           <div className="pointer-events-auto mx-auto flex w-full max-w-3xl flex-col gap-3">
             <FoundSummary
@@ -2455,7 +2588,7 @@ export default function GamePage({
         </div>
       )}
       {kofiOpen && (
-        <div className="fixed bottom-4 left-4 z-40 w-[320px] max-w-[calc(100%-1.5rem)]">
+        <div className="fixed left-4 top-1/2 z-40 w-[320px] max-w-[calc(100%-1.5rem)] -translate-y-1/2">
           <KoFiWidget open onClose={handleKofiDismiss} onNever={handleKofiNever} />
         </div>
       )}

@@ -145,5 +145,12 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 17
+  },
+  "MBTA_CR": {
+    "name": "Commuter Rail",
+    "color": "#80276C",
+    "backgroundColor": "#451538",
+    "textColor": "#FFFFFF",
+    "order": 99
   }
 }

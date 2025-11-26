@@ -180,6 +180,9 @@ const Input = ({
         const sanitizedSearch = stripOptionalPrefixes(
           normalizeString(search),
         )
+        const isNonLatinSearch = /[\u3100-\u312f\u31a0-\u31bf\u3400-\u4dbf\u4e00-\u9fff]/.test(
+          sanitizedSearch,
+        )
         const results = fuse.search(sanitizedSearch)
         const foundSet = new Set(found || [])
         const candidateSet = new Set<number>()
@@ -191,11 +194,18 @@ const Input = ({
             result.matches &&
             result.matches.length > 0 &&
             result.matches.some(
-              (match) =>
-                match.indices[0][0] === 0 &&
-                match.value!.length - match.indices[match.indices.length - 1][1] <
-                  2 &&
-                Math.abs(match.value!.length - sanitizedSearch.length) < 4,
+              (match) => {
+                const [firstStart] = match.indices[0]
+                const lastIndex = match.indices[match.indices.length - 1][1]
+                const isPrefixMatch = firstStart === 0
+                const coversWholeValue =
+                  match.value!.length - lastIndex < 2 &&
+                  Math.abs(match.value!.length - sanitizedSearch.length) < 4
+                const coversSearchLength =
+                  isNonLatinSearch && lastIndex - firstStart + 1 >= sanitizedSearch.length
+
+                return isPrefixMatch && (coversWholeValue || coversSearchLength)
+              },
             )
           ) {
             const id = Number(result.item.id)
