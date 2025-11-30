@@ -1,12 +1,17 @@
-import fs from 'fs'
-import path from 'path'
 import GamePage from '@/components/GamePage'
 import Main from '@/components/Main'
 import { Provider } from '@/lib/configContext'
 import { DataFeatureCollection, RoutesFeatureCollection } from '@/lib/types'
-import type { Feature, FeatureCollection, Geometry } from 'geojson'
+import fs from 'fs'
+import type {
+    FeatureCollection,
+    Geometry,
+    LineString,
+    MultiLineString
+} from 'geojson'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { Inter } from 'next/font/google'
+import path from 'path'
 import 'react-circular-progressbar/dist/styles.css'
 import config from './config'
 import data from './data/features.json'
@@ -108,9 +113,13 @@ filteredRoutes.features.forEach((feature) => {
   }
 })
 
-const lightRailOverrides: Feature<Geometry, Record<string, unknown>>[] =
+const lightRailOverrides: RoutesFeatureCollection['features'] =
   lightRailGeojson.features.flatMap((feature) => {
     const getLatExtents = (geom: Geometry) => {
+      if (geom.type !== 'LineString' && geom.type !== 'MultiLineString') {
+        return { minLat: 0, maxLat: 0 }
+      }
+
       const coords =
         geom.type === 'MultiLineString'
           ? geom.coordinates.flat()
@@ -144,7 +153,7 @@ const lightRailOverrides: Feature<Geometry, Record<string, unknown>>[] =
         ? chooseNewarkLineCodes()
         : featureLineCode === 'HB'
           ? chooseHBLRLineCodes()
-        : LIGHT_RAIL_LINE_MAP[featureLineCode]
+        : featureLineCode ? LIGHT_RAIL_LINE_MAP[featureLineCode] : undefined
 
     if (!lineCodes?.length) {
       return []
@@ -156,7 +165,7 @@ const lightRailOverrides: Feature<Geometry, Record<string, unknown>>[] =
 
       return {
         type: 'Feature',
-        geometry: feature.geometry,
+        geometry: feature.geometry as LineString | MultiLineString,
         properties: {
           ...baseProps,
           line: lineId,
@@ -171,7 +180,7 @@ const lightRailOverrides: Feature<Geometry, Record<string, unknown>>[] =
     })
   })
 
-const sirExpressOverrides: Feature<Geometry, Record<string, unknown>>[] =
+const sirExpressOverrides: RoutesFeatureCollection['features'] =
   Object.entries(SIR_EXPRESS_BASE_MAP).flatMap(([expressLine, baseLine]) => {
     const baseGeometry = baseRouteGeometryByLine.get(baseLine)
     if (!baseGeometry) return []
@@ -181,7 +190,9 @@ const sirExpressOverrides: Feature<Geometry, Record<string, unknown>>[] =
     return [
       {
         type: 'Feature',
-        geometry: JSON.parse(JSON.stringify(baseGeometry)),
+        geometry: JSON.parse(JSON.stringify(baseGeometry)) as
+          | LineString
+          | MultiLineString,
         properties: {
           ...baseProps,
           line: expressLine,
@@ -202,7 +213,7 @@ const sirExpressOverrides: Feature<Geometry, Record<string, unknown>>[] =
     ]
   })
 
-const geometryOverrides: Feature<Geometry, Record<string, unknown>>[] = Object.entries(
+const geometryOverrides: RoutesFeatureCollection['features'] = Object.entries(
   LINE_GEOMETRY_OVERRIDES,
 ).flatMap(([targetLine, baseLine]) => {
   const baseGeometry = baseRouteGeometryByLine.get(baseLine)
@@ -214,7 +225,9 @@ const geometryOverrides: Feature<Geometry, Record<string, unknown>>[] = Object.e
   return [
     {
       type: 'Feature',
-      geometry: JSON.parse(JSON.stringify(baseGeometry)),
+      geometry: JSON.parse(JSON.stringify(baseGeometry)) as
+        | LineString
+        | MultiLineString,
       properties: {
         ...baseProps,
         line: targetLine,
@@ -228,14 +241,14 @@ const geometryOverrides: Feature<Geometry, Record<string, unknown>>[] = Object.e
   ]
 })
 
-const pascackOverrides: Feature<Geometry, Record<string, unknown>>[] =
+const pascackOverrides: RoutesFeatureCollection['features'] =
   pascackValleyGeojson.features.map((feature) => {
     const baseProps = baseRoutePropsByLine.get(PASCACK_LINE) || {}
     const lineMeta = config.LINES[PASCACK_LINE]
 
     return {
       type: 'Feature',
-      geometry: feature.geometry,
+      geometry: feature.geometry as LineString | MultiLineString,
       properties: {
         ...baseProps,
         line: PASCACK_LINE,

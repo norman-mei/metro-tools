@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Suspense } from 'react'
 
 import { Avatar, AvatarContainer } from '@/components/Avatar'
 import { BackToTopButton } from '@/components/BackToTopButton'
@@ -65,10 +66,12 @@ export default async function Home() {
             .
           </p>
         </div>
-        <SearcheableCitiesList
-          testimonialsContent={<Tweets />}
-          pressContent={<LinkPreviews />}
-        />
+        <Suspense>
+          <SearcheableCitiesList
+            testimonialsContent={<Tweets />}
+            pressContent={<LinkPreviews />}
+          />
+        </Suspense>
 
         <p className="mt-6"></p>
         <div className="mt-6 flex gap-6">

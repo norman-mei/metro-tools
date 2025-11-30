@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import path from 'path'
 import { promises as fs } from 'fs'
 import { createHash } from 'crypto'
@@ -45,16 +45,19 @@ const CACHE_HEADERS = {
   'Cache-Control': 'public, max-age=0, must-revalidate',
 }
 
-export async function GET(
-  request: Request,
-  { params }: { params: { slug?: string } },
-) {
-  const slug = params.slug?.toLowerCase()
-  if (!slug || !VALID_SLUG.test(slug)) {
+type RouteParams = {
+  params: Promise<{ slug: string }>
+}
+
+export async function GET(request: NextRequest, { params }: RouteParams) {
+  const { slug } = await params
+  const normalizedSlug = slug?.toLowerCase()
+
+  if (!normalizedSlug || !VALID_SLUG.test(normalizedSlug)) {
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
 
-  const iconPath = path.join(GAME_ROOT, slug, 'icon.ico')
+  const iconPath = path.join(GAME_ROOT, normalizedSlug, 'icon.ico')
   const iconBuffer =
     (await readIconFromDisk(iconPath)) ?? (await getFallbackIcon())
 

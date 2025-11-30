@@ -2,6 +2,7 @@ import { kv } from '@vercel/kv'
 import { zip, sortBy, filter } from 'lodash'
 import { promises as fs } from 'fs'
 import path from 'path'
+import { NextRequest } from 'next/server'
 
 export const revalidate = 600 // 10 minutes
 
@@ -18,11 +19,12 @@ export const generateStaticParams = async () => {
   }
 }
 
-export const GET = async (
-  req: Request,
-  { params }: { params: { slug: string } },
-) => {
-  const { slug } = params
+type RouteParams = {
+  params: Promise<{ slug: string }>
+}
+
+export const GET = async (req: NextRequest, { params }: RouteParams) => {
+  const { slug } = await params
   let data: [string, number][] = []
 
   const hasKvCredentials =

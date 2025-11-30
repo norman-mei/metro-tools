@@ -25,7 +25,7 @@ export function hashValue(value: string) {
   return createHash('sha256').update(value).digest('hex')
 }
 
-function getCookieStore() {
+async function getCookieStore() {
   return cookies()
 }
 
@@ -53,12 +53,12 @@ export async function createSession(userId: string, rememberMe = false) {
     },
   })
 
-  const store = getCookieStore()
+  const store = await getCookieStore()
   store.set(SESSION_COOKIE_NAME, rawToken, buildCookieOptions(expiresAt))
 }
 
 export async function clearSessionCookie() {
-  const store = getCookieStore()
+  const store = await getCookieStore()
   const existing = store.get(SESSION_COOKIE_NAME)?.value
   if (existing) {
     const tokenHash = hashValue(existing)
@@ -76,7 +76,7 @@ export async function clearSessionCookie() {
 }
 
 export async function getCurrentUser() {
-  const store = getCookieStore()
+  const store = await getCookieStore()
   const token = store.get(SESSION_COOKIE_NAME)?.value
   if (!token) {
     return null

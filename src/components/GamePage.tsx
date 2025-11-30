@@ -20,15 +20,15 @@ import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity } from '@/lib/achievements'
 import { useConfig } from '@/lib/configContext'
 import {
-  clearAutoRevealSuppressionForCity,
-  shouldAutoRevealSolutions,
-  suppressAutoRevealForCity,
+    clearAutoRevealSuppressionForCity,
+    shouldAutoRevealSolutions,
+    suppressAutoRevealForCity,
 } from '@/lib/solutionsAccess'
 import { getStationKey } from '@/lib/stationUtils'
 import {
-  DataFeature,
-  DataFeatureCollection,
-  RoutesFeatureCollection,
+    DataFeature,
+    DataFeatureCollection,
+    RoutesFeatureCollection,
 } from '@/lib/types'
 import { useLocalStorageValue } from '@react-hookz/web'
 import { coordEach } from '@turf/meta'
@@ -39,14 +39,14 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import {
-  CSSProperties,
-  ChangeEvent,
-  FormEvent,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
+    CSSProperties,
+    ChangeEvent,
+    FormEvent,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
 } from 'react'
 import 'react-circular-progressbar/dist/styles.css'
 
@@ -1702,6 +1702,7 @@ export default function GamePage({
     }
 
     mapboxMap.on('load', () => {
+      if (!mapboxMap) return
       mapboxMap.doubleClickZoom.disable()
       const isDarkTheme = resolvedTheme === 'dark'
       const foundTextColor = isDarkTheme
@@ -1751,11 +1752,14 @@ export default function GamePage({
       ]
 
       ensureRouteLayers = () => {
+        const mbMap = mapboxMap
+        if (!mbMap) return
+
         if (!MAP_FROM_DATA || !routes) {
           return
         }
 
-        if (mapboxMap.getLayer(ROUTES_LAYER_ID)) {
+        if (mbMap.getLayer(ROUTES_LAYER_ID)) {
           return
         }
 
@@ -1796,8 +1800,8 @@ export default function GamePage({
           ['-', 100, ['coalesce', ['get', 'order'], 100]],
         ]
 
-        if (!mapboxMap.getSource(ROUTES_SOURCE_ID)) {
-          mapboxMap.addSource(ROUTES_SOURCE_ID, {
+        if (!mbMap.getSource(ROUTES_SOURCE_ID)) {
+          mbMap.addSource(ROUTES_SOURCE_ID, {
             type: 'geojson',
             data: routeData,
           })
@@ -1810,10 +1814,10 @@ export default function GamePage({
             filter: any,
             sortKeyBase: number,
           ) => {
-            if (!mapboxMap.getSource(ROUTES_SOURCE_ID)) return
+            if (!mbMap.getSource(ROUTES_SOURCE_ID)) return
 
-            if (!mapboxMap.getLayer(casingId)) {
-              mapboxMap.addLayer({
+            if (!mbMap.getLayer(casingId)) {
+              mbMap.addLayer({
                 id: casingId,
                 type: 'line',
                 paint: {
@@ -1832,8 +1836,8 @@ export default function GamePage({
               })
             }
 
-            if (!mapboxMap.getLayer(lineId)) {
-              mapboxMap.addLayer({
+            if (!mbMap.getLayer(lineId)) {
+              mbMap.addLayer({
                 id: lineId,
                 type: 'line',
                 paint: {
@@ -1858,8 +1862,8 @@ export default function GamePage({
             }
           }
 
-          if (!mapboxMap.getLayer(ROUTES_LAYER_CASING_ID)) {
-            mapboxMap.addLayer({
+          if (!mbMap.getLayer(ROUTES_LAYER_CASING_ID)) {
+            mbMap.addLayer({
               id: ROUTES_LAYER_CASING_ID,
               type: 'line',
               paint: {
@@ -1877,8 +1881,8 @@ export default function GamePage({
             })
           }
 
-          if (!mapboxMap.getLayer(ROUTES_LAYER_ID)) {
-            mapboxMap.addLayer({
+          if (!mbMap.getLayer(ROUTES_LAYER_ID)) {
+            mbMap.addLayer({
               id: ROUTES_LAYER_ID,
               type: 'line',
               paint: {
@@ -2114,8 +2118,10 @@ export default function GamePage({
       })
 
       mapboxMap.once('idle', () => {
-        setMap((map) => (map === null ? mapboxMap : map))
-        mapboxMap.on('mousemove', ['stations-circles'], (e) => {
+        const mbMap = mapboxMap
+        if (!mbMap) return
+        setMap((map) => (map === null ? mbMap : map))
+        mbMap.on('mousemove', ['stations-circles'], (e) => {
           if (e.features && e.features.length > 0) {
             const feature = e.features.find(
               (candidate) => typeof candidate.id === 'number',
@@ -2129,7 +2135,7 @@ export default function GamePage({
           setHoveredId(null)
         })
 
-        mapboxMap.on('mouseleave', ['stations-circles'], () => {
+        mbMap.on('mouseleave', ['stations-circles'], () => {
           setHoveredId(null)
         })
       })

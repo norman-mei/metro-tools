@@ -1,13 +1,13 @@
-import data from './data/features.json'
-import 'mapbox-gl/dist/mapbox-gl.css'
-import 'react-circular-progressbar/dist/styles.css'
-import type { LineString, MultiLineString } from 'geojson'
-import { DataFeatureCollection, RoutesFeatureCollection } from '@/lib/types'
-import config from './config'
 import GamePage from '@/components/GamePage'
-import { Provider } from '@/lib/configContext'
 import Main from '@/components/Main'
+import { Provider } from '@/lib/configContext'
+import { DataFeatureCollection, RoutesFeatureCollection } from '@/lib/types'
+import type { LineString, MultiLineString } from 'geojson'
+import 'mapbox-gl/dist/mapbox-gl.css'
 import { Inter } from 'next/font/google'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
+import data from './data/features.json'
 import routesData from './data/routes.json'
 
 const font = Inter({
@@ -51,6 +51,7 @@ const routeFeatures = rawRouteFeatures
       geometry: feature.geometry,
       properties: {
         ...feature.properties,
+        line: line as string,
         color,
       },
     }

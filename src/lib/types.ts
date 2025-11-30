@@ -22,6 +22,9 @@ export type RoutesFeatureCollection = FeatureCollection<
   LineString | MultiLineString,
   {
     color: string
+    line?: string
+    name?: string
+    order?: number
   }
 >
 

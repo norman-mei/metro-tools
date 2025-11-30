@@ -5,9 +5,9 @@ import { prisma } from '@/lib/prisma'
 import { getCurrentUser } from '@/lib/auth'
 
 type RouteParams = {
-  params: {
+  params: Promise<{
     citySlug: string
-  }
+  }>
 }
 
 const progressSchema = z.object({
@@ -25,12 +25,12 @@ const isRecordOfStrings = (value: unknown): value is Record<string, string> => {
 }
 
 export async function GET(_: NextRequest, { params }: RouteParams) {
+  const { citySlug } = await params
   const user = await getCurrentUser()
   if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const citySlug = params.citySlug
   if (!citySlug) {
     return NextResponse.json({ error: 'Missing city' }, { status: 400 })
   }
@@ -63,12 +63,12 @@ export async function GET(_: NextRequest, { params }: RouteParams) {
 }
 
 export async function POST(request: NextRequest, { params }: RouteParams) {
+  const { citySlug } = await params
   const user = await getCurrentUser()
   if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const citySlug = params.citySlug
   if (!citySlug) {
     return NextResponse.json({ error: 'Missing city' }, { status: 400 })
   }
