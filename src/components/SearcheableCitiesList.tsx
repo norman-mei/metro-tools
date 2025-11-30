@@ -1130,28 +1130,22 @@ const SearcheableCitiesList = ({
                   ))}
                 </select>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+              <div className="w-full sm:w-48">
+                <label className="sr-only" htmlFor="city-view">
                   View
-                </span>
-                <div className="flex rounded-full border border-zinc-200 bg-white p-1 text-xs font-semibold dark:border-[#18181b] dark:bg-zinc-900">
+                </label>
+                <select
+                  id="city-view"
+                  value={cityViewMode}
+                  onChange={(event) => setCityViewMode(event.target.value as CityViewMode)}
+                  className="w-full rounded-full border-0 bg-white px-4 py-3 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+                >
                   {CITY_VIEW_OPTIONS.map((option) => (
-                    <button
-                      key={option.value}
-                      type="button"
-                      onClick={() => setCityViewMode(option.value)}
-                      className={classNames(
-                        'rounded-full px-3 py-1 transition',
-                        cityViewMode === option.value
-                          ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
-                          : 'text-zinc-600 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800',
-                      )}
-                      aria-pressed={cityViewMode === option.value}
-                    >
+                    <option key={option.value} value={option.value}>
                       {option.label}
-                    </button>
+                    </option>
                   ))}
-                </div>
+                </select>
               </div>
             </div>
           </div>
