@@ -1,4 +1,4 @@
-import { FeatureCollection, MultiLineString, LineString, Point } from 'geojson'
+import { FeatureCollection, LineString, MultiLineString, Point } from 'geojson'
 import { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
@@ -44,6 +44,7 @@ export interface Line {
   progressOutlineColor?: string
   statsColor?: string
   order: number
+  icon?: string
 }
 
 export interface LineGroupLinesItem {

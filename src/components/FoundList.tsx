@@ -518,16 +518,20 @@ const GroupedLine = memo(
                 CITY_NAME === 'ny' ? 'gap-[0.001rem]' : 'gap-1',
               )}
             >
-              {lineIds.map((lineId) => (
-                <Image
-                  key={lineId}
-                  alt={lineId}
-                  src={`/images/${lineId}.svg`}
-                  width={64}
-                  height={64}
-                  className="h-6 w-6 flex-shrink-0 rounded-full object-cover"
-                />
-              ))}
+              {lineIds.map((lineId) => {
+                const icon = LINES[lineId]?.icon
+                const iconSrc = icon ? `/images/${icon}` : `/images/${lineId}.svg`
+                return (
+                  <Image
+                    key={lineId}
+                    alt={lineId}
+                    src={iconSrc}
+                    width={64}
+                    height={64}
+                    className="h-6 w-6 flex-shrink-0 rounded-full object-cover"
+                  />
+                )
+              })}
             </div>
             <span
               className={classNames(

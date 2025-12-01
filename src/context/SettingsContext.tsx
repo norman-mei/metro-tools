@@ -1,19 +1,19 @@
 'use client'
 
 import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-  type ReactNode,
-} from 'react'
-import {
-  ACCENT_COLOR_MAP,
-  DEFAULT_ACCENT_COLOR_ID,
-  type AccentColorId,
+    ACCENT_COLOR_MAP,
+    DEFAULT_ACCENT_COLOR_ID,
+    type AccentColorId,
 } from '@/lib/accentColors'
+import {
+    createContext,
+    useCallback,
+    useContext,
+    useEffect,
+    useMemo,
+    useState,
+    type ReactNode,
+} from 'react'
 
 const hexToRgb = (hex: string) => {
   const normalized = hex.replace('#', '')
@@ -31,13 +31,17 @@ type Settings = {
   achievementToastsEnabled: boolean
   stopConfettiAfterCompletion: boolean
   accentColor: AccentColorId
+  language: string
 }
+
+type UpdateSettingsOptions = { silent?: boolean }
 
 const DEFAULT_SETTINGS: Settings = {
   confettiEnabled: true,
   achievementToastsEnabled: true,
   stopConfettiAfterCompletion: false,
   accentColor: DEFAULT_ACCENT_COLOR_ID,
+  language: 'en',
 }
 
 const STORAGE_KEY = 'metro-memory-settings'
@@ -48,6 +52,7 @@ type SettingsContextValue = {
   setAchievementToastsEnabled: (enabled: boolean) => void
   setStopConfettiAfterCompletion: (enabled: boolean) => void
   setAccentColor: (accent: AccentColorId) => void
+  setLanguage: (language: string, options?: UpdateSettingsOptions) => void
   notifySettingsSaved: () => void
   lastSavedAt: number
 }
@@ -81,6 +86,10 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
               parsed.accentColor in ACCENT_COLOR_MAP
                 ? (parsed.accentColor as AccentColorId)
                 : DEFAULT_SETTINGS.accentColor,
+            language:
+              typeof parsed.language === 'string'
+                ? parsed.language
+                : DEFAULT_SETTINGS.language,
           })
         }
       }
@@ -117,7 +126,7 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
   }, [])
 
   const updateSettings = useCallback(
-    (partial: Partial<Settings>) => {
+    (partial: Partial<Settings>, options?: UpdateSettingsOptions) => {
       setSettings((prev) => {
         const entries = Object.entries(partial) as [keyof Settings, Settings[keyof Settings]][]
         const shouldUpdate = entries.some(
@@ -128,7 +137,9 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
         }
         const next = { ...prev, ...partial }
         persist(next)
-        notifySettingsSaved()
+        if (!options?.silent) {
+          notifySettingsSaved()
+        }
         return next
       })
     },
@@ -148,6 +159,8 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
           updateSettings({ accentColor: accent })
         }
       },
+      setLanguage: (language: string, options?: UpdateSettingsOptions) =>
+        updateSettings({ language }, options),
       notifySettingsSaved,
       lastSavedAt,
     }),

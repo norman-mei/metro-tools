@@ -138,7 +138,7 @@ const ProgressBars = ({
           </div>
           <Image
             alt={line}
-            src={`/images/${line}.svg`}
+            src={meta.icon ? `/images/${meta.icon}` : `/images/${line}.svg`}
             width={64}
             height={64}
             className="z-20 h-6 w-6 flex-shrink-0 rounded-full object-cover"

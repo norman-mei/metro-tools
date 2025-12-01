@@ -119,7 +119,7 @@ const FoundSummary = ({
         <div className="absolute bottom-0 right-0">
           <button
             onClick={() => setMinimized(!minimized)}
-            className="mx-2 my-1 flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-500 shadow dark:bg-zinc-800 dark:text-zinc-100"
+            className="pointer-events-auto z-10 mx-2 my-1 flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-500 shadow dark:bg-zinc-800 dark:text-zinc-100"
           >
             {minimized ? (
               <MaximizeIcon className="h-4 w-4" />

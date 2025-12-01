@@ -1,3 +1,5 @@
+import { SUPPORTED_LANGUAGES } from '@/lib/i18n'
+
 type JsonRecord = Record<string, unknown>
 
 function isRecord(value: unknown): value is JsonRecord {
@@ -8,6 +10,7 @@ export type CollapsedSections = Record<string, boolean>
 
 export type UiPreferences = {
   collapsedSections?: CollapsedSections
+  language?: string
 }
 
 export function normalizeCollapsedSections(
@@ -28,6 +31,16 @@ export function normalizeCollapsedSections(
   return Object.keys(entries).length > 0 ? entries : undefined
 }
 
+export function normalizeLanguage(value: unknown): string | undefined {
+  if (typeof value !== 'string') {
+    return undefined
+  }
+
+  return SUPPORTED_LANGUAGES.some((lang) => lang.code === value)
+    ? value
+    : undefined
+}
+
 export function normalizeUiPreferences(value: unknown): UiPreferences {
   if (!isRecord(value)) {
     return {}
@@ -36,8 +49,12 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
   const collapsedSections = normalizeCollapsedSections(
     value.collapsedSections,
   )
+  const language = normalizeLanguage(value.language)
 
-  return collapsedSections ? { collapsedSections } : {}
+  return {
+    ...(collapsedSections ? { collapsedSections } : {}),
+    ...(language ? { language } : {}),
+  }
 }
 
 export function mergeCollapsedSections(

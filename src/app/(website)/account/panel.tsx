@@ -15,6 +15,7 @@ import { useAuth } from '@/context/AuthContext'
 import { cities } from '@/lib/citiesConfig'
 import { useLocalStorageValue } from '@react-hookz/web'
 import { STATION_TOTALS } from '@/lib/stationTotals'
+import useTranslation from '@/hooks/useTranslation'
 
 type SignupFormState = {
   email: string
@@ -55,6 +56,7 @@ const initialLogin: LoginFormState = {
 }
 
 export default function AccountDashboard({ showHeading = true }: { showHeading?: boolean }) {
+  const { t } = useTranslation()
   const searchParams = useSearchParams()
   const verifiedState = searchParams.get('verified')
 
@@ -109,21 +111,21 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
     if (verifiedState === 'success') {
       setSignupStatus('success')
       setResendStatus('idle')
-      setResendMessage('Email verified! You can now sign in.')
+      setResendMessage(t('accountVerifiedSuccess'))
     } else if (verifiedState === 'error') {
-      setResendMessage('The verification link is invalid or expired. Request a new one below.')
+      setResendMessage(t('accountVerifiedError'))
       setResendStatus('error')
     }
-  }, [verifiedState])
+  }, [t, verifiedState])
 
   const passwordChecklist = useMemo(
     () => [
-      { label: '8 or more characters', met: signupForm.password.length >= 8 },
-      { label: 'At least one uppercase letter', met: /[A-Z]/.test(signupForm.password) },
-      { label: 'At least one lowercase letter', met: /[a-z]/.test(signupForm.password) },
-      { label: 'At least one special character', met: /[^A-Za-z0-9]/.test(signupForm.password) },
+      { label: t('accountPasswordRuleLength'), met: signupForm.password.length >= 8 },
+      { label: t('accountPasswordRuleUpper'), met: /[A-Z]/.test(signupForm.password) },
+      { label: t('accountPasswordRuleLower'), met: /[a-z]/.test(signupForm.password) },
+      { label: t('accountPasswordRuleSpecial'), met: /[^A-Za-z0-9]/.test(signupForm.password) },
     ],
-    [signupForm.password],
+    [signupForm.password, t],
   )
 
   const handleSignupChange =
@@ -146,13 +148,13 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
     const errors: SignupFormErrors = {}
 
     if (!signupForm.email) {
-      errors.email = 'Email is required.'
+      errors.email = t('accountEmailRequired')
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(signupForm.email)) {
-      errors.email = 'Enter a valid email address.'
+      errors.email = t('accountEmailInvalid')
     }
 
     if (signupForm.confirmEmail !== signupForm.email) {
-      errors.confirmEmail = 'Email addresses do not match.'
+      errors.confirmEmail = t('accountEmailMismatch')
     }
 
     if (
@@ -161,11 +163,11 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
       !/[a-z]/.test(signupForm.password) ||
       !/[^A-Za-z0-9]/.test(signupForm.password)
     ) {
-      errors.password = 'Password must meet all requirements.'
+      errors.password = t('accountPasswordRequirementError')
     }
 
     if (signupForm.confirmPassword !== signupForm.password) {
-      errors.confirmPassword = 'Passwords do not match.'
+      errors.confirmPassword = t('accountPasswordMismatch')
     }
 
     return errors
@@ -197,7 +199,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
       const payload = await response.json().catch(() => ({}))
 
       if (!response.ok) {
-        setSignupApiError(payload?.error ?? 'Unable to create account. Please try again.')
+        setSignupApiError(payload?.error ?? t('accountSignupError'))
         setSignupStatus('idle')
         return
       }
@@ -207,7 +209,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
       setResendMessage(null)
     } catch (error) {
       console.error(error)
-      setSignupApiError('Network error. Please try again.')
+      setSignupApiError(t('accountNetworkError'))
       setSignupStatus('idle')
     }
   }
@@ -215,7 +217,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
   const handleResendVerification = async () => {
     if (!signupForm.email.trim()) {
       setResendStatus('error')
-      setResendMessage('Enter your email above so we know where to send the link.')
+      setResendMessage(t('accountResendNeedEmail'))
       return
     }
 
@@ -233,21 +235,16 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
 
       if (!response.ok) {
         setResendStatus('error')
-        setResendMessage(
-          payload?.error ?? 'Unable to resend the email right now. Please try again.',
-        )
+        setResendMessage(payload?.error ?? t('accountResendError'))
         return
       }
 
       setResendStatus('sent')
-      setResendMessage(
-        payload?.message ??
-          'If that account exists, a new verification email is on its way.',
-      )
+      setResendMessage(payload?.message ?? t('accountResendSuccess'))
     } catch (error) {
       console.error(error)
       setResendStatus('error')
-      setResendMessage('Network error. Please try again.')
+      setResendMessage(t('accountNetworkError'))
     }
   }
 
@@ -266,7 +263,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
       const payload = await response.json().catch(() => ({}))
 
       if (!response.ok) {
-        setLoginError(payload?.error ?? 'Unable to log in. Check your credentials.')
+        setLoginError(payload?.error ?? t('accountLoginError'))
         setLoginStatus('idle')
         return
       }
@@ -276,7 +273,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
       await refresh()
     } catch (error) {
       console.error(error)
-      setLoginError('Network error. Please try again.')
+      setLoginError(t('accountNetworkError'))
       setLoginStatus('idle')
     }
   }
@@ -322,20 +319,18 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
           await refresh()
         }
         setEmailStatus('idle')
-        setEmailError(payload?.error ?? 'Unable to update email.')
+        setEmailError(payload?.error ?? t('accountEmailUpdateError'))
         return
       }
 
       setEmailStatus('success')
-      setEmailMessage(
-        payload?.message ?? 'Email updated. Check your inbox to verify the new address.',
-      )
+      setEmailMessage(payload?.message ?? t('accountEmailUpdateSuccess'))
       setEmailForm({ newEmail: '', currentPassword: '' })
       await refresh()
     } catch (error) {
       console.error(error)
       setEmailStatus('idle')
-      setEmailError('Network error. Please try again.')
+      setEmailError(t('accountNetworkError'))
     }
   }
 
@@ -347,7 +342,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
 
     if (passwordForm.newPassword !== passwordForm.confirmPassword) {
       setPasswordStatus('idle')
-      setPasswordError('Passwords do not match.')
+      setPasswordError(t('accountPasswordMismatch'))
       return
     }
 
@@ -365,17 +360,17 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
           await refresh()
         }
         setPasswordStatus('idle')
-        setPasswordError(payload?.error ?? 'Unable to update password.')
+        setPasswordError(payload?.error ?? t('accountPasswordUpdateError'))
         return
       }
 
       setPasswordStatus('success')
-      setPasswordMessage(payload?.message ?? 'Password updated successfully.')
+      setPasswordMessage(payload?.message ?? t('accountPasswordUpdateSuccess'))
       setPasswordForm({ currentPassword: '', newPassword: '', confirmPassword: '' })
     } catch (error) {
       console.error(error)
       setPasswordStatus('idle')
-      setPasswordError('Network error. Please try again.')
+      setPasswordError(t('accountNetworkError'))
     }
   }
 
@@ -427,8 +422,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
           <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">Account</h1>
           {!user && (
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-              Create an account to sync your Metro Memory progress and achievements securely across
-              devices.
+              {t('accountIntro')}
             </p>
           )}
         </div>
@@ -436,13 +430,13 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
 
       {verifiedState === 'success' && (
         <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-500/80 dark:bg-emerald-500/10 dark:text-emerald-100">
-          Email verified! You can now log in and start syncing your progress.
+          {t('accountVerifiedSuccess')}
         </div>
       )}
 
       {verifiedState === 'error' && (
         <div className="rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-800 dark:border-rose-500/80 dark:bg-rose-500/10 dark:text-rose-100">
-          The verification link is invalid or expired. Request a new link below.
+          {t('accountVerifiedError')}
         </div>
       )}
 
@@ -450,13 +444,13 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
         <section className="space-y-4 rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50">
-              Logged in as {user.email}
+              {t('accountLoggedInAs', { email: user.email })}
             </h2>
             <button
               onClick={handleLogout}
               className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
             >
-              Log out
+              {t('accountLogout')}
             </button>
           </div>
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-zinc-800 dark:bg-zinc-900/40">
@@ -474,11 +468,10 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
             >
               <div>
                 <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
-                  Synced cities
+                  {t('accountSyncedCities')}
                 </h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-500">
-                  {progressEntries.length}{' '}
-                  {progressEntries.length === 1 ? 'city synced' : 'cities synced'}
+                  {t('accountSyncedCitiesCount', { count: progressEntries.length })}
                 </p>
               </div>
               <span
@@ -498,7 +491,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                       type="text"
                       value={syncedSearch}
                       onChange={(event) => setSyncedSearch(event.target.value)}
-                      placeholder="Search synced cities…"
+                      placeholder={t('accountSearchSynced')}
                       className="w-full rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 focus:border-[var(--accent-500)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-500)]/30 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500"
                     />
                     <select
@@ -508,10 +501,10 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                       }
                       className="w-full rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm text-zinc-800 focus:border-[var(--accent-500)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-500)]/30 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 sm:w-auto"
                     >
-                      <option value="name-asc">Name (A-Z)</option>
-                      <option value="name-desc">Name (Z-A)</option>
-                      <option value="progress-desc">Progress (high to low)</option>
-                      <option value="progress-asc">Progress (low to high)</option>
+                      <option value="name-asc">{t('accountSortNameAsc')}</option>
+                      <option value="name-desc">{t('accountSortNameDesc')}</option>
+                      <option value="progress-desc">{t('accountSortProgressDesc')}</option>
+                      <option value="progress-asc">{t('accountSortProgressAsc')}</option>
                     </select>
                   </div>
                   <ul className="mt-3 space-y-2 text-sm text-zinc-700 dark:text-zinc-200">
@@ -544,7 +537,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                           />
                         </span>
                         <span style={{ color: `hsl(${entry.percent * 120}, 70%, 45%)` }}>
-                          {entry.count} station{entry.count === 1 ? '' : 's'}
+                          {t('accountStationsFound', { count: entry.count })}
                         </span>
                       </span>
                     </li>
@@ -553,7 +546,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                 </>
               ) : (
                 <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">
-                  No synced cities yet. Play a city to start saving your progress.
+                  {t('accountNoSyncedCities')}
                 </p>
               )
             )}
@@ -563,15 +556,15 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
             <form className="space-y-4" onSubmit={handleChangeEmail}>
               <div className="space-y-1">
                 <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-                  Change email
+                  {t('accountChangeEmail')}
                 </h3>
                 <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  Update your sign-in address. We&apos;ll send a new verification email.
+                  {t('accountChangeEmailDesc')}
                 </p>
               </div>
               <FormField
                 id="new-email"
-                label="New email"
+                label={t('accountNewEmail')}
                 type="email"
                 value={emailForm.newEmail}
                 onChange={handleEmailFieldChange('newEmail')}
@@ -582,7 +575,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               />
               <FormField
                 id="current-password-for-email"
-                label="Current password"
+                label={t('accountCurrentPassword')}
                 type="password"
                 value={emailForm.currentPassword}
                 onChange={handleEmailFieldChange('currentPassword')}
@@ -605,22 +598,22 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                 disabled={emailStatus === 'submitting'}
                 className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] disabled:cursor-not-allowed disabled:opacity-60 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
               >
-                {emailStatus === 'submitting' ? 'Updating…' : 'Update email'}
+                {emailStatus === 'submitting' ? t('accountUpdating') : t('accountUpdateEmail')}
               </button>
             </form>
             <div className="hidden h-full w-px self-stretch bg-zinc-200 dark:bg-zinc-800 lg:block" />
             <form className="space-y-4" onSubmit={handleChangePassword}>
               <div className="space-y-1">
                 <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-                  Change password
+                  {t('accountChangePassword')}
                 </h3>
                 <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  Choose a new password for your account.
+                  {t('accountChangePasswordDesc')}
                 </p>
               </div>
               <FormField
                 id="current-password"
-                label="Current password"
+                label={t('accountCurrentPassword')}
                 type="password"
                 value={passwordForm.currentPassword}
                 onChange={handlePasswordFieldChange('currentPassword')}
@@ -630,7 +623,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               />
               <FormField
                 id="new-password"
-                label="New password"
+                label={t('accountNewPassword')}
                 type="password"
                 value={passwordForm.newPassword}
                 onChange={handlePasswordFieldChange('newPassword')}
@@ -639,7 +632,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               />
               <FormField
                 id="confirm-new-password"
-                label="Confirm new password"
+                label={t('accountConfirmPassword')}
                 type="password"
                 value={passwordForm.confirmPassword}
                 onChange={handlePasswordFieldChange('confirmPassword')}
@@ -661,7 +654,9 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                 disabled={passwordStatus === 'submitting'}
                 className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] disabled:cursor-not-allowed disabled:opacity-60 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
               >
-                {passwordStatus === 'submitting' ? 'Updating…' : 'Update password'}
+                {passwordStatus === 'submitting'
+                  ? t('accountUpdating')
+                  : t('accountUpdatePassword')}
               </button>
             </form>
           </div>
@@ -670,16 +665,17 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
         <div className="grid gap-8 lg:grid-cols-[1.35fr,1fr]">
           <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
             <div className="space-y-2">
-              <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">Create account</h2>
+              <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+                {t('accountCreateTitle')}
+              </h2>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                Passwords are hashed server-side. We&apos;ll email you a verification link to finish setting
-                things up.
+                {t('accountCreateDesc')}
               </p>
             </div>
             <form className="mt-4 space-y-4" onSubmit={handleRegister}>
               <FormField
                 id="email"
-                label="Email address"
+                label={t('accountEmail')}
                 type="email"
                 value={signupForm.email}
                 onChange={handleSignupChange('email')}
@@ -689,7 +685,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               />
               <FormField
                 id="confirm-email"
-                label="Confirm email address"
+                label={t('accountConfirmEmail')}
                 type="email"
                 value={signupForm.confirmEmail}
                 onChange={handleSignupChange('confirmEmail')}
@@ -700,7 +696,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               <div className="grid gap-4 md:grid-cols-2">
                 <PasswordField
                   id="password"
-                  label="Password"
+                  label={t('accountPassword')}
                   value={signupForm.password}
                   onChange={handleSignupChange('password')}
                   error={signupErrors.password}
@@ -710,7 +706,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                 />
                 <PasswordField
                   id="confirm-password"
-                  label="Confirm password"
+                  label={t('accountConfirmPassword')}
                   value={signupForm.confirmPassword}
                   onChange={handleSignupChange('confirmPassword')}
                   error={signupErrors.confirmPassword}
@@ -721,7 +717,9 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               </div>
 
               <div className="rounded-2xl border border-zinc-200 p-4 text-sm text-zinc-600 dark:border-zinc-800 dark:text-zinc-300">
-                <p className="font-semibold text-zinc-900 dark:text-white">Password requirements</p>
+                <p className="font-semibold text-zinc-900 dark:text-white">
+                  {t('accountPasswordRequirements')}
+                </p>
                 <ul className="mt-3 space-y-2">
                   {passwordChecklist.map((rule) => (
                     <li key={rule.label} className="flex items-center gap-2">
@@ -747,15 +745,14 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                 disabled={signupStatus === 'submitting'}
                 className="inline-flex w-full items-center justify-center rounded-full bg-[var(--accent-600)] px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[var(--accent-600)]/30 transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-[var(--accent-500)] dark:shadow-[var(--accent-500)]/30"
               >
-                {signupStatus === 'success' ? 'Verification sent' : 'Create account'}
+                {signupStatus === 'success' ? t('accountVerificationSent') : t('accountCreateButton')}
               </button>
             </form>
 
             {signupStatus === 'success' && (
               <div className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-500 dark:bg-emerald-500/10 dark:text-emerald-100">
                 <p>
-                  Check your inbox for a verification email. Click the link inside to finish activating your
-                  Metro Memory account.
+                  {t('accountVerificationInstructions')}
                 </p>
                 <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <button
@@ -764,7 +761,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                     disabled={resendStatus === 'sending'}
                     className="inline-flex w-full items-center justify-center rounded-full border border-emerald-600 px-4 py-2 text-sm font-semibold text-emerald-700 transition hover:-translate-y-0.5 hover:border-emerald-500 hover:text-emerald-600 dark:text-emerald-200 sm:w-auto"
                   >
-                    {resendStatus === 'sending' ? 'Sending…' : 'Resend verification email'}
+                    {resendStatus === 'sending' ? t('accountResendSending') : t('accountResendButton')}
                   </button>
                   {resendMessage && (
                     <p
@@ -783,11 +780,13 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
           </section>
 
           <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-            <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">Sign in</h2>
+            <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+              {t('accountSignInTitle')}
+            </h2>
             <form className="mt-4 space-y-3" onSubmit={handleLogin}>
               <FormField
                 id="login-email"
-                label="Email"
+                label={t('accountEmail')}
                 type="email"
                 value={loginForm.email}
                 onChange={handleLoginChange('email')}
@@ -796,7 +795,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               />
               <PasswordField
                 id="login-password"
-                label="Password"
+                label={t('accountPassword')}
                 value={loginForm.password}
                 onChange={handleLoginChange('password')}
                 show={showLoginPassword}
@@ -810,7 +809,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                   onChange={handleLoginChange('rememberMe')}
                   className="rounded border-zinc-300 text-[var(--accent-600)] focus:ring-[var(--accent-500)] dark:border-zinc-700"
                 />
-                Remember me on this device
+                {t('accountRememberMe')}
               </label>
 
               {loginError && (
@@ -818,7 +817,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               )}
               {loginStatus === 'success' && (
                 <p className="text-sm text-emerald-600 dark:text-emerald-300">
-                  Welcome back! Redirecting your data…
+                  {t('accountLoginSuccess')}
                 </p>
               )}
 
@@ -827,7 +826,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                 disabled={loginStatus === 'submitting'}
                 className="w-full rounded-full bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-70 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
               >
-                {loginStatus === 'submitting' ? 'Signing in…' : 'Log in'}
+                {loginStatus === 'submitting' ? t('accountSigningIn') : t('accountLoginButton')}
               </button>
             </form>
           </section>
@@ -836,7 +835,7 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
 
       {loading && (
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          Checking your account status…
+          {t('accountCheckingStatus')}
         </p>
       )}
     </div>

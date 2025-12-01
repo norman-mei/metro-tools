@@ -1,15 +1,15 @@
 'use client'
 
-import { type MouseEvent as ReactMouseEvent, useEffect, useState } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Config, DataFeature, DataFeatureCollection, LineGroup } from '@/lib/types'
-import { getStationKey } from '@/lib/stationUtils'
-import { getCompletionColor } from '@/lib/progressColors'
-import { isColorLight } from '@/lib/colorUtils'
 import { useSettings } from '@/context/SettingsContext'
 import { ACCENT_COLOR_MAP, DEFAULT_ACCENT_COLOR_ID } from '@/lib/accentColors'
+import { isColorLight } from '@/lib/colorUtils'
+import { getCompletionColor } from '@/lib/progressColors'
 import { STATION_TOTALS } from '@/lib/stationTotals'
+import { getStationKey } from '@/lib/stationUtils'
+import { Config, DataFeature, DataFeatureCollection, LineGroup } from '@/lib/types'
+import Image from 'next/image'
+import Link from 'next/link'
+import { useEffect, useState, type MouseEvent as ReactMouseEvent } from 'react'
 
 type CityStatsPanelProps = {
   cityDisplayName: string
@@ -40,6 +40,7 @@ type LineStat = {
   durationMs?: number
   firstFoundAt?: string
   lastFoundAt?: string
+  icon?: string
 }
 
 type GroupStat = {
@@ -385,6 +386,7 @@ const computeStats = ({
         firstFoundAt: first ? new Date(first).toISOString() : undefined,
         lastFoundAt: last ? new Date(last).toISOString() : undefined,
         durationMs,
+        icon: meta?.icon,
       }
     },
   )
@@ -448,7 +450,7 @@ const CityStatsPanel = ({
   const accentPalette =
     ACCENT_COLOR_MAP[settings.accentColor] ??
     ACCENT_COLOR_MAP[DEFAULT_ACCENT_COLOR_ID]
-  const accentFallbackColor = accentPalette?.palette[600] ?? '#4f46e5'
+  const accentFallbackColor = accentPalette?.palette[600] ?? '#0284c7'
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [stats, setStats] = useState<CityStatsSnapshot | null>(null)
@@ -661,7 +663,7 @@ const CityStatsPanel = ({
                   <div className="flex w-14 flex-shrink-0 items-center justify-center">
                     <Image
                       alt={line.lineId}
-                      src={`/images/${line.lineId}.svg`}
+                      src={line.icon ? `/images/${line.icon}` : `/images/${line.lineId}.svg`}
                       width={48}
                       height={48}
                       className="h-10 w-10 rounded-full object-contain"

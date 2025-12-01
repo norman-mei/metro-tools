@@ -5,15 +5,15 @@
 
 @layer base {
   :root {
-    --accent-50: #eef2ff;
-    --accent-100: #e0e7ff;
-    --accent-200: #c7d2fe;
-    --accent-300: #a5b4fc;
-    --accent-400: #818cf8;
-    --accent-500: #6366f1;
-    --accent-600: #4f46e5;
-    --accent-700: #4338ca;
-    --accent-600-rgb: 79, 70, 229;
-    --accent-ring: rgba(99, 102, 241, 0.45);
+    --accent-50: #f0f9ff;
+    --accent-100: #e0f2fe;
+    --accent-200: #bae6fd;
+    --accent-300: #7dd3fc;
+    --accent-400: #38bdf8;
+    --accent-500: #0ea5e9;
+    --accent-600: #0284c7;
+    --accent-700: #0369a1;
+    --accent-600-rgb: 2, 132, 199;
+    --accent-ring: rgba(14, 165, 233, 0.4);
   }
 }

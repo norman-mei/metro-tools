@@ -1,0 +1,16 @@
+0 verbose cli /home/kirk/.nvm/versions/node/v20.19.6/bin/node /home/kirk/.nvm/versions/node/v20.19.6/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.6
+3 silly config load:file:/home/kirk/.nvm/versions/node/v20.19.6/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/c/Users/kirk/Downloads/Coding Projects/metro-memory/.npmrc
+5 silly config load:file:/home/kirk/.nvm/versions/node/v20.19.6/etc/npmrc
+6 verbose title npm config get registry
+7 verbose argv "config" "get" "registry" "--no-workspaces"
+8 verbose logfile logs-max:10 dir:/mnt/c/Users/kirk/Downloads/Coding Projects/metro-memory/.npm/_logs/2025-12-01T01_36_16_476Z-
+9 verbose logfile /mnt/c/Users/kirk/Downloads/Coding Projects/metro-memory/.npm/_logs/2025-12-01T01_36_16_476Z-debug-0.log
+10 verbose cwd /mnt/c/Users/kirk/Downloads/Coding Projects/metro-memory
+11 verbose os Linux 6.6.87.2-microsoft-standard-WSL2
+12 verbose node v20.19.6
+13 verbose npm  v10.8.2
+14 verbose exit 0
+15 info ok

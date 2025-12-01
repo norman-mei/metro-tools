@@ -1,4 +1,6 @@
-import { Suspense } from 'react'
+'use client'
+
+import { useEffect, useMemo, useState } from 'react'
 import { getTweet } from 'react-tweet/api'
 import { type TweetProps, TweetNotFound, TweetSkeleton } from 'react-tweet'
 
@@ -31,20 +33,42 @@ export const MyTweet = ({ tweet: t, components }: Props) => {
   )
 }
 
-const TweetContent = async ({ id, components, onError }: TweetProps) => {
-  const tweet = id
-    ? await getTweet(id).catch((err) => {
+const TweetContent = ({ id, components, onError, fallback }: TweetProps) => {
+  const [tweet, setTweet] = useState<TweetType | null>(null)
+  const [error, setError] = useState<unknown>(null)
+
+  const NotFound = components?.TweetNotFound || TweetNotFound
+  const Skeleton = useMemo(() => fallback || <TweetSkeleton />, [fallback])
+
+  useEffect(() => {
+    let canceled = false
+    if (!id) {
+      setTweet(null)
+      return undefined
+    }
+    setTweet(null)
+    setError(null)
+    getTweet(id)
+      .then((res) => {
+        if (canceled) return
+        setTweet(res ?? null)
+      })
+      .catch((err) => {
+        if (canceled) return
+        setError(err)
         if (onError) {
           onError(err)
         } else {
           console.error(err)
         }
       })
-    : undefined
+    return () => {
+      canceled = true
+    }
+  }, [id, onError])
 
-  if (!tweet) {
-    const NotFound = components?.TweetNotFound || TweetNotFound
-    return <NotFound />
+  if (error || !tweet) {
+    return error ? <NotFound /> : Skeleton
   }
 
   return <MyTweet tweet={tweet} components={components} />
@@ -53,10 +77,6 @@ const TweetContent = async ({ id, components, onError }: TweetProps) => {
 export const Tweet = ({
   fallback = <TweetSkeleton />,
   ...props
-}: TweetProps) => (
-  <Suspense fallback={fallback}>
-    <TweetContent {...props} />
-  </Suspense>
-)
+}: TweetProps) => <TweetContent {...props} fallback={fallback} />
 
 export default Tweet

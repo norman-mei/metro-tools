@@ -1,14 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import { load } from 'cheerio'
 
-async function LinkPreview({ url }: { url: string }) {
-  const response = await fetch(url)
-  const data = await response.text()
-  const $ = load(data)
-  const title = $('title').first().text() || ''
-  const description = $('meta[name="description"]').attr('content') || ''
-  const image = $('meta[property="og:image"]').attr('content') || ''
+type LinkPreviewProps = {
+  url: string
+  title: string
+  description: string
+  image?: string
+}
 
+function LinkPreview({ url, title, description, image }: LinkPreviewProps) {
   return (
     <a
       href={url}

@@ -12,6 +12,7 @@ export type AccentColorPalette = {
 export type AccentColorOption = {
   id: string
   label: string
+  translationKey?: string
   palette: AccentColorPalette
   ring: string
 }
@@ -20,6 +21,7 @@ const accentColorOptions = [
   {
     id: 'amber',
     label: 'Amber',
+    translationKey: 'accentAmber',
     palette: {
       50: '#fffbeb',
       100: '#fef3c7',
@@ -35,6 +37,7 @@ const accentColorOptions = [
   {
     id: 'bubblegum',
     label: 'Bubble Gum',
+    translationKey: 'accentBubbleGum',
     palette: {
       50: '#fff0f6',
       100: '#ffe0ef',
@@ -50,6 +53,7 @@ const accentColorOptions = [
   {
     id: 'coffee',
     label: 'Coffee',
+    translationKey: 'accentCoffee',
     palette: {
       50: '#f8f5f1',
       100: '#ede5dd',
@@ -65,6 +69,7 @@ const accentColorOptions = [
   {
     id: 'emerald',
     label: 'Emerald',
+    translationKey: 'accentEmerald',
     palette: {
       50: '#ecfdf5',
       100: '#d1fae5',
@@ -80,6 +85,7 @@ const accentColorOptions = [
   {
     id: 'gold',
     label: 'Gold',
+    translationKey: 'accentGold',
     palette: {
       50: '#fffbea',
       100: '#fff1c1',
@@ -95,6 +101,7 @@ const accentColorOptions = [
   {
     id: 'indigo',
     label: 'Indigo',
+    translationKey: 'accentIndigo',
     palette: {
       50: '#eef2ff',
       100: '#e0e7ff',
@@ -110,6 +117,7 @@ const accentColorOptions = [
   {
     id: 'lime',
     label: 'Lime',
+    translationKey: 'accentLime',
     palette: {
       50: '#f7fee7',
       100: '#ecfccb',
@@ -125,6 +133,7 @@ const accentColorOptions = [
   {
     id: 'rose',
     label: 'Rose',
+    translationKey: 'accentRose',
     palette: {
       50: '#fff1f2',
       100: '#ffe4e6',
@@ -140,6 +149,7 @@ const accentColorOptions = [
   {
     id: 'sky',
     label: 'Sky',
+    translationKey: 'accentSky',
     palette: {
       50: '#f0f9ff',
       100: '#e0f2fe',
@@ -167,4 +177,4 @@ export const ACCENT_COLOR_MAP: Record<AccentColorId, AccentColorOption> =
     {} as Record<AccentColorId, AccentColorOption>,
   )
 
-export const DEFAULT_ACCENT_COLOR_ID: AccentColorId = accentColorOptions[0].id
+export const DEFAULT_ACCENT_COLOR_ID: AccentColorId = 'sky'

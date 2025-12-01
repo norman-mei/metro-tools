@@ -1,6 +1,10 @@
 import classNames from 'classnames'
 
+import useTranslation from '@/hooks/useTranslation'
+
 export default function PrivacyPanel({ className }: { className?: string }) {
+  const { t } = useTranslation()
+
   return (
     <section
       className={classNames(
@@ -9,28 +13,23 @@ export default function PrivacyPanel({ className }: { className?: string }) {
       )}
     >
       <h3 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
-        Privacy &amp; Security
+        {t('privacyTitle')}
       </h3>
       <p className="mt-3">
-        Metro Memory now supports accounts so you can sync progress and achievements across devices.
-        Here&apos;s how your data is handled:
+        {t('privacyIntro')}
       </p>
       <ul className="mt-3 list-disc space-y-2 pl-6">
         <li>
-          <strong>Passwords</strong> are hashed with bcrypt before they ever touch the database. We never
-          store or log plain-text passwords.
+          <strong>{t('privacyPasswordsLabel')}</strong> {t('privacyPasswordsDesc')}
         </li>
         <li>
-          <strong>Sessions</strong> are maintained with short-lived, server-side tokens. Logging out or
-          resetting your password revokes them immediately.
+          <strong>{t('privacySessionsLabel')}</strong> {t('privacySessionsDesc')}
         </li>
         <li>
-          <strong>Progress data</strong> (found stations + timestamps) is only saved to your account when
-          you opt in by creating one. Guests continue to use local browser storage.
+          <strong>{t('privacyProgressLabel')}</strong> {t('privacyProgressDesc')}
         </li>
         <li>
-          <strong>Email verification and password resets</strong> are required during sign up to prevent
-          abuse and to keep your achievements tied to your inbox.
+          <strong>{t('privacyVerificationLabel')}</strong> {t('privacyVerificationDesc')}
         </li>
       </ul>
     </section>

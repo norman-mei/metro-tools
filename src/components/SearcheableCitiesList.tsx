@@ -1,34 +1,33 @@
 'use client'
 
-import {
-  Fragment,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ReactNode,
-} from 'react'
+import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
 import Fuse from 'fuse.js'
-import { Transition } from '@headlessui/react'
-import { useSearchParams } from 'next/navigation'
-import Link from 'next/link'
 import { useTheme } from 'next-themes'
+import { useSearchParams } from 'next/navigation'
+import {
+    Fragment,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
+    type ReactNode,
+} from 'react'
 
-import { cities, ICity } from '@/lib/citiesConfig'
-import { getAchievementForCity } from '@/lib/achievements'
+import AccountDashboard from '@/app/(website)/account/panel'
+import AchievementIcon from '@/components/AchievementIcon'
 import CityCard from '@/components/CityCard'
 import CityStatsPanel from '@/components/CityStatsPanel'
-import CreditsContent from '@/components/CreditsContent'
 import CollapsibleSection from '@/components/CollapsibleSection'
-import AchievementIcon from '@/components/AchievementIcon'
+import CreditsContent from '@/components/CreditsContent'
 import KoFiWidget from '@/components/KoFiWidget'
-import SettingsPanel from '@/components/SettingsPanel'
-import AccountDashboard from '@/app/(website)/account/panel'
 import PrivacyPanel from '@/components/PrivacyPanel'
-import useTranslation from '@/hooks/useTranslation'
+import SettingsPanel from '@/components/SettingsPanel'
 import { useAuth } from '@/context/AuthContext'
+import useTranslation from '@/hooks/useTranslation'
+import { getAchievementForCity } from '@/lib/achievements'
+import { cities, ICity } from '@/lib/citiesConfig'
 import { STATION_TOTALS } from '@/lib/stationTotals'
 
 type CitySortOption =
@@ -51,39 +50,39 @@ type AchievementSortOption =
   | 'achieved-desc'
 
 const CITY_SORT_OPTIONS: Array<{ value: CitySortOption; label: string }> = [
-  { value: 'default', label: 'Default order' },
-  { value: 'name-asc', label: 'Name (A-Z)' },
-  { value: 'name-desc', label: 'Name (Z-A)' },
-  { value: 'continent-asc', label: 'Continent (A-Z)' },
-  { value: 'continent-desc', label: 'Continent (Z-A)' },
-  { value: 'progress-not-played', label: 'Not yet played (0 to 100%)' },
-  { value: 'progress-played', label: 'Played already (100 to 0%)' },
+  { value: 'default', label: 'sortDefault' },
+  { value: 'name-asc', label: 'sortNameAsc' },
+  { value: 'name-desc', label: 'sortNameDesc' },
+  { value: 'continent-asc', label: 'sortContinentAsc' },
+  { value: 'continent-desc', label: 'sortContinentDesc' },
+  { value: 'progress-not-played', label: 'sortNotPlayed' },
+  { value: 'progress-played', label: 'sortPlayed' },
 ]
 
 const ACHIEVEMENT_SORT_OPTIONS: Array<{ value: AchievementSortOption; label: string }> = [
-  { value: 'default', label: 'Default order' },
-  { value: 'name-asc', label: 'Name (A-Z)' },
-  { value: 'name-desc', label: 'Name (Z-A)' },
-  { value: 'continent-asc', label: 'Continent (A-Z)' },
-  { value: 'continent-desc', label: 'Continent (Z-A)' },
-  { value: 'not-achieved-asc', label: 'Not achieved (A-Z)' },
-  { value: 'not-achieved-desc', label: 'Not achieved (Z-A)' },
-  { value: 'achieved-asc', label: 'Achieved (A-Z)' },
-  { value: 'achieved-desc', label: 'Achieved (Z-A)' },
+  { value: 'default', label: 'sortDefault' },
+  { value: 'name-asc', label: 'sortNameAsc' },
+  { value: 'name-desc', label: 'sortNameDesc' },
+  { value: 'continent-asc', label: 'sortContinentAsc' },
+  { value: 'continent-desc', label: 'sortContinentDesc' },
+  { value: 'not-achieved-asc', label: 'sortNotAchieved' },
+  { value: 'not-achieved-desc', label: 'sortNotAchieved' },
+  { value: 'achieved-asc', label: 'sortAchieved' },
+  { value: 'achieved-desc', label: 'sortAchieved' },
 ]
 
 const TAB_OPTIONS: Array<{ id: TabOption; label: string }> = [
-  { id: 'cities', label: 'Cities' },
-  { id: 'achievements', label: 'Achievements' },
-  { id: 'updateLog', label: 'Update Log' },
-  { id: 'account', label: 'Account' },
-  { id: 'globalStats', label: 'Global Stats' },
-  { id: 'settings', label: 'Settings' },
-  { id: 'credits', label: 'Credits' },
-  { id: 'privacy', label: 'Privacy' },
-  { id: 'testimonials', label: 'What people say' },
-  { id: 'press', label: 'They talked about us' },
-  { id: 'support', label: 'Support me!' },
+  { id: 'cities', label: 'tabCities' },
+  { id: 'achievements', label: 'tabAchievements' },
+  { id: 'updateLog', label: 'tabUpdateLog' },
+  { id: 'account', label: 'tabAccount' },
+  { id: 'globalStats', label: 'tabGlobalStats' },
+  { id: 'settings', label: 'tabSettings' },
+  { id: 'credits', label: 'tabCredits' },
+  { id: 'privacy', label: 'tabPrivacy' },
+  { id: 'testimonials', label: 'tabTestimonials' },
+  { id: 'press', label: 'tabPress' },
+  { id: 'support', label: 'tabSupport' },
 ]
 const SECONDARY_TAB_IDS = new Set<TabOption>([
   'credits',
@@ -668,10 +667,21 @@ const SearcheableCitiesList = ({
     }
   }, [enrichedCities, cityProgress, citySort])
 
-  const continentOrder = useMemo(
-    () => ['North America', 'South America', 'Europe', 'Asia', 'Australia', 'Africa', 'Oceania', 'Antarctica'],
-    [],
-  )
+const continentOrder = useMemo(
+  () => ['North America', 'South America', 'Europe', 'Asia', 'Australia', 'Africa', 'Oceania', 'Antarctica'],
+  [],
+)
+
+const CONTINENT_LABEL_KEYS: Record<string, string> = {
+  'North America': 'northAmerica',
+  'South America': 'southAmerica',
+  Europe: 'europe',
+  Asia: 'asia',
+  Australia: 'australia',
+  Africa: 'africa',
+  Oceania: 'oceania',
+  Antarctica: 'antarctica',
+}
 
   const groupedCities = useMemo(() => {
     const continentMap = new Map<string, ICity[]>()
@@ -1050,7 +1060,7 @@ const SearcheableCitiesList = ({
         <div className="mb-6 rounded-3xl border border-zinc-200/80 bg-white/70 p-4 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/70">
           <div className="mb-4 flex flex-wrap justify-center gap-3">
             {PRIMARY_TABS.map(({ id, label }) => {
-              const labelText = id === 'settings' ? t('settings') : label
+              const labelText = t(label)
               return (
                 <button
                   key={id}
@@ -1071,7 +1081,7 @@ const SearcheableCitiesList = ({
           </div>
           <div className="flex flex-wrap justify-center gap-3">
             {SECONDARY_TABS.map(({ id, label }) => {
-              const labelText = id === 'settings' ? t('settings') : label
+              const labelText = t(label)
               return (
                 <button
                   key={id}
@@ -1101,7 +1111,7 @@ const SearcheableCitiesList = ({
                 onChange={(event) => setSearch(event.target.value)}
                 className="block w-full rounded-full border-0 px-10 py-4 pr-10 text-lg text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] sm:leading-6 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
                 type="text"
-                placeholder="Search for a city..."
+                placeholder={t('searchCities')}
               />
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 dark:text-zinc-400">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
@@ -1125,7 +1135,7 @@ const SearcheableCitiesList = ({
                 >
                   {CITY_SORT_OPTIONS.map((option) => (
                     <option key={option.value} value={option.value}>
-                      {option.label}
+                      {t(option.label)}
                     </option>
                   ))}
                 </select>
@@ -1154,16 +1164,33 @@ const SearcheableCitiesList = ({
               {visibleGroups.map(({ continent, cities }, index) => {
                 const cityCount = cities.length
                 const cityGrid = renderCityCollection(cities)
+                const translatedContinent =
+                  CONTINENT_LABEL_KEYS[continent] !== undefined
+                    ? t(CONTINENT_LABEL_KEYS[continent])
+                    : continent
+                const cityCountLabel = t('cityCount', { count: cityCount })
 
                 const isCollapsible = COLLAPSIBLE_CONTINENTS.has(continent)
                 const sectionId = getContinentSectionId(continent)
+
+                const totalProgress = cities.reduce((acc, city) => {
+                  const slug = getSlugFromLink(city.link)
+                  const progress = slug ? (cityProgress[slug] ?? 0) : 0
+                  return acc + progress
+                }, 0)
+                const averageProgress = cities.length > 0 ? totalProgress / cities.length : 0
+                const headerColor = getGradientColor(averageProgress)
 
                 return (
                   <Fragment key={continent}>
                     {isCollapsible ? (
                       <CollapsibleSection
                         sectionId={sectionId}
-                        title={`${continent} · ${cityCount} ${cityCount === 1 ? 'City' : 'Cities'}`}
+                        title={
+                          <span style={{ color: headerColor }}>
+                            {translatedContinent} · {cityCountLabel}
+                          </span>
+                        }
                         titleAs="h3"
                         className="space-y-6"
                         headingClassName="text-xl font-semibold text-zinc-800 dark:text-zinc-100"
@@ -1174,10 +1201,13 @@ const SearcheableCitiesList = ({
                     ) : (
                       <section className="space-y-6">
                         <div>
-                          <h3 className="mb-4 text-xl font-semibold text-zinc-800 dark:text-zinc-100">
-                            {continent}{' '}
-                            <span className="text-base font-normal text-zinc-500 dark:text-zinc-400">
-                              · {cityCount} {cityCount === 1 ? 'City' : 'Cities'}
+                          <h3
+                            className="mb-4 text-xl font-semibold"
+                            style={{ color: headerColor }}
+                          >
+                            {translatedContinent}{' '}
+                            <span className="text-base font-normal" style={{ color: headerColor }}>
+                              · {cityCountLabel}
                             </span>
                           </h3>
                           {cityGrid}
@@ -1449,6 +1479,7 @@ const Achievements = ({
   totalCount: number
   totalUnlocked: number
 }) => {
+  const { t } = useTranslation()
   const unlockedSet = useMemo(() => new Set(unlockedSlugs), [unlockedSlugs])
   const hasResults = items.length > 0
 
@@ -1460,7 +1491,7 @@ const Achievements = ({
             value={searchValue}
             onChange={(event) => onSearchChange(event.target.value)}
             type="text"
-            placeholder="Search achievements..."
+            placeholder={t('searchAchievements')}
             className="block w-full rounded-full border-0 px-10 py-3 text-base text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
           />
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 dark:text-zinc-400">
@@ -1473,9 +1504,9 @@ const Achievements = ({
           </div>
         </div>
         <div className="w-full md:w-64">
-          <label className="sr-only" htmlFor="achievement-sort">
-            Sort achievements
-          </label>
+                <label className="sr-only" htmlFor="achievement-sort">
+                  {t('sortAchievements')}
+                </label>
           <select
             id="achievement-sort"
             value={sortOption}
@@ -1484,7 +1515,7 @@ const Achievements = ({
           >
             {ACHIEVEMENT_SORT_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>
-                {option.label}
+                {t(option.label)}
               </option>
             ))}
           </select>
@@ -1492,16 +1523,16 @@ const Achievements = ({
       </div>
       <div className="flex flex-col gap-1 text-sm font-semibold md:flex-row md:items-center md:gap-6">
         <span className="text-emerald-600">
-          Unlocked achievements: {totalUnlocked} / {totalCount}
+          {t('unlockedAchievements', { unlocked: totalUnlocked, total: totalCount })}
         </span>
         <span className="text-red-500">
-          Locked achievements: {Math.max(totalCount - totalUnlocked, 0)}
+          {t('lockedAchievements', { locked: Math.max(totalCount - totalUnlocked, 0) })}
         </span>
       </div>
 
       {!hasResults ? (
         <div className="rounded-2xl border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-[#18181b] dark:text-zinc-400">
-          No achievements found. Try a different search or sort option.
+          {t('noAchievementsFound')}
         </div>
       ) : (
         items.map((meta) => {

@@ -2355,7 +2355,7 @@ export default function GamePage({
                   onClick={onReset}
                   className="hidden rounded-full border border-red-200 px-4 py-2 text-sm font-medium text-red-600 transition hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-300 dark:border-red-500/40 dark:text-red-300 dark:hover:bg-red-500/10 lg:inline-flex"
                 >
-                  Reset progress
+                  {t('resetProgress')}
                 </button>
               )}
             </div>

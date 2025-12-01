@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { Suspense } from 'react'
 
@@ -6,10 +8,10 @@ import { BackToTopButton } from '@/components/BackToTopButton'
 import { Container } from '@/components/Container'
 import { GitHubIcon } from '@/components/SocialIcons'
 
-import ConfettiButton from '@/components/ConfettiButton'
 import LinkPreviews from '@/components/LinkPreviews'
 import SearcheableCitiesList from '@/components/SearcheableCitiesList'
 import Tweets from '@/components/Tweets'
+import useTranslation from '@/hooks/useTranslation'
 
 function SocialLink({
   icon: Icon,
@@ -24,7 +26,8 @@ function SocialLink({
   )
 }
 
-export default async function Home() {
+export default function Home() {
+  const { t } = useTranslation()
   return (
     <>
       <BackToTopButton />
@@ -35,26 +38,22 @@ export default async function Home() {
               <Avatar large className="h-24 w-24" />
             </AvatarContainer>
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Metro Memory{' '}
+              {t('heroTitle')}
             </h1>
           </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Challenge yourself to remember the stations of your city&apos;s
-            metro.
+            {t('heroSubtitle')}
             <br />
-            How well do you think know your city&apos;s metro system?
+            {t('heroDesc1')}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            The goal is simple. Type as many of the stations as you can
-            remember, and see them pop up on the map. No time limit.
+            {t('heroDesc2')}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            If you do well, there might be some{' '}
-            <ConfettiButton>confetti</ConfettiButton> involved—and achievements
-            to celebrate it.
+            {t('heroDesc3')}
             <br />
             <br />
-            Modified fork of original Metro Memory game by Benjamin TD{' '}
+            {t('footerFork')}{' '}
             <a
               href="https://github.com/norman-mei/metro-memory"
               target="_blank"

@@ -2,14 +2,28 @@ import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 
 import { getCurrentUser } from '@/lib/auth'
+import { SUPPORTED_LANGUAGES } from '@/lib/i18n'
 import { prisma } from '@/lib/prisma'
 import {
   mergeCollapsedSections,
   normalizeUiPreferences,
 } from '@/lib/preferences'
 
+type LanguageCode = (typeof SUPPORTED_LANGUAGES)[number]['code']
+
+const SUPPORTED_LANGUAGE_CODES = new Set<LanguageCode>(
+  SUPPORTED_LANGUAGES.map((lang) => lang.code),
+)
+
+const isSupportedLanguage = (val: string) =>
+  SUPPORTED_LANGUAGE_CODES.has(val as LanguageCode)
+
 const preferencesSchema = z.object({
   collapsedSections: z.record(z.string(), z.boolean()).optional(),
+  language: z
+    .string()
+    .refine(isSupportedLanguage, 'Unsupported language')
+    .optional(),
 })
 
 export async function PATCH(request: NextRequest) {
@@ -27,15 +41,20 @@ export async function PATCH(request: NextRequest) {
 
   const existingPreferences = normalizeUiPreferences(user.uiPreferences)
 
-  const nextPreferences = parsed.data.collapsedSections
-    ? {
-        ...existingPreferences,
-        collapsedSections: mergeCollapsedSections(
-          existingPreferences.collapsedSections,
-          parsed.data.collapsedSections,
-        ),
-      }
-    : existingPreferences
+  const nextPreferences = {
+    ...existingPreferences,
+    ...(parsed.data.collapsedSections
+      ? {
+          collapsedSections: mergeCollapsedSections(
+            existingPreferences.collapsedSections,
+            parsed.data.collapsedSections,
+          ),
+        }
+      : {}),
+    ...(parsed.data.language
+      ? { language: parsed.data.language }
+      : {}),
+  }
 
   const updated = await prisma.user.update({
     where: { id: user.id },

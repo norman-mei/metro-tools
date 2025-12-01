@@ -7,6 +7,7 @@ import {
   useEffect,
   useMemo,
   useState,
+  useRef,
 } from 'react'
 
 import {
@@ -14,6 +15,7 @@ import {
   normalizeUiPreferences,
   type UiPreferences,
 } from '@/lib/preferences'
+import { useSettings } from '@/context/SettingsContext'
 
 type AuthUser = {
   id: string
@@ -39,10 +41,12 @@ type AuthContextValue = {
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
+  const { settings, setLanguage } = useSettings()
   const [user, setUser] = useState<AuthUser | null>(null)
   const [loading, setLoading] = useState(true)
   const [progressSummaries, setProgressSummaries] = useState<ProgressSummaries>({})
   const [uiPreferences, setUiPreferences] = useState<UiPreferences>({})
+  const languageInitializedRef = useRef(false)
 
   const refresh = useCallback(async () => {
     setLoading(true)
@@ -159,6 +163,63 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setCollapsedSectionPreference,
     ],
   )
+
+  useEffect(() => {
+    if (!user) {
+      languageInitializedRef.current = false
+      return
+    }
+
+    if (
+      uiPreferences.language &&
+      uiPreferences.language !== settings.language
+    ) {
+      setLanguage(uiPreferences.language, { silent: true })
+      return
+    }
+
+    languageInitializedRef.current = true
+  }, [setLanguage, settings.language, uiPreferences.language, user])
+
+  useEffect(() => {
+    if (!user || !languageInitializedRef.current) {
+      return
+    }
+
+    if (uiPreferences.language === settings.language) {
+      return
+    }
+
+    const controller = new AbortController()
+    const persistLanguage = async () => {
+      try {
+        const response = await fetch('/api/user/preferences', {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ language: settings.language }),
+          signal: controller.signal,
+        })
+
+        if (!response.ok) {
+          if (response.status === 401) {
+            setUser(null)
+            setProgressSummaries({})
+            setUiPreferences({})
+          }
+          return
+        }
+
+        const payload = await response.json().catch(() => ({}))
+        setUiPreferences(normalizeUiPreferences(payload.preferences))
+      } catch {
+        // ignore network errors; local optimistic state already applied
+      }
+    }
+
+    void persistLanguage()
+
+    return () => controller.abort()
+  }, [setProgressSummaries, setUser, settings.language, uiPreferences.language, user])
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }

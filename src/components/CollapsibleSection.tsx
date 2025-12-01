@@ -2,18 +2,18 @@
 
 import classNames from 'classnames'
 import {
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-  type ReactNode,
+    useCallback,
+    useEffect,
+    useMemo,
+    useState,
+    type ReactNode,
 } from 'react'
 
 import { useAuth } from '@/context/AuthContext'
 
 type CollapsibleSectionProps = {
   sectionId: string
-  title: string
+  title: ReactNode
   defaultOpen?: boolean
   children: ReactNode
   titleAs?: 'h2' | 'h3' | 'h4' | 'h5' | 'h6'

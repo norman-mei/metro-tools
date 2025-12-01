@@ -1,21 +1,26 @@
 'use client'
 
-import classNames from 'classnames'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { KeyboardEvent } from 'react'
-import { useTheme } from 'next-themes'
-import { useSettings } from '@/context/SettingsContext'
 import { useAuth } from '@/context/AuthContext'
+import { useSettings } from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
-import { cities } from '@/lib/citiesConfig'
 import {
-  readSolutionsAccess,
-  writeSolutionsAccess,
-  readSolutionsSelection,
-  writeSolutionsSelection,
+    ACCENT_COLOR_OPTIONS,
+    type AccentColorId,
+    type AccentColorOption,
+} from '@/lib/accentColors'
+import { cities } from '@/lib/citiesConfig'
+import { SUPPORTED_LANGUAGES } from '@/lib/i18n'
+import {
+    readSolutionsAccess,
+    readSolutionsSelection,
+    writeSolutionsAccess,
+    writeSolutionsSelection,
 } from '@/lib/solutionsAccess'
-import { ACCENT_COLOR_OPTIONS, type AccentColorId } from '@/lib/accentColors'
 import { STATION_TOTALS } from '@/lib/stationTotals'
+import classNames from 'classnames'
+import { useTheme } from 'next-themes'
+import type { KeyboardEvent } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
 type SettingsPanelProps = {
   className?: string
@@ -24,9 +29,9 @@ type SettingsPanelProps = {
 }
 
 const THEME_OPTIONS: Array<{ value: string; label: string }> = [
-  { value: 'system', label: 'System default' },
-  { value: 'light', label: 'Light' },
-  { value: 'dark', label: 'Dark' },
+  { value: 'system', label: 'systemDefault' },
+  { value: 'light', label: 'light' },
+  { value: 'dark', label: 'dark' },
 ]
 
 const LOCAL_PROGRESS_EVENT = 'local-progress-refresh'
@@ -38,6 +43,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
     setAchievementToastsEnabled,
     setStopConfettiAfterCompletion,
     setAccentColor,
+    setLanguage,
     notifySettingsSaved,
   } = useSettings()
   const { t } = useTranslation()
@@ -69,52 +75,74 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
       )}
       <div className="space-y-4">
         <SettingToggle
-          label="Celebration confetti"
-          description="Show confetti when you reach milestones or hit the confetti button."
+          label={t('celebrationConfetti')}
+          description={t('celebrationConfettiDesc')}
           checked={settings.confettiEnabled}
           onChange={setConfettiEnabled}
         />
         <SettingToggle
-          label="Hide confetti after finishing a city"
-          description="Skip future confetti for cities where you've already reached 100%."
+          label={t('hideConfetti')}
+          description={t('hideConfettiDesc')}
           checked={settings.stopConfettiAfterCompletion}
           onChange={setStopConfettiAfterCompletion}
         />
         <SettingToggle
-          label="Achievement toasts"
-          description="Display toast notifications when you complete a city."
+          label={t('achievementToasts')}
+          description={t('achievementToastsDesc')}
           checked={settings.achievementToastsEnabled}
           onChange={setAchievementToastsEnabled}
         />
       </div>
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-          Theme
+          {t('language')}
         </p>
-        <div className="flex flex-wrap gap-2">
-          {THEME_OPTIONS.map((option) => (
+        <div className="grid grid-cols-2 gap-2 justify-items-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+          {SUPPORTED_LANGUAGES.map((lang) => (
             <button
-              key={option.value}
+              key={lang.code}
               type="button"
-              onClick={() => handleThemeChange(option.value)}
+              onClick={() => setLanguage(lang.code)}
               className={classNames(
-                'rounded-full px-4 py-2 text-sm font-semibold transition',
-                currentTheme === option.value
+                'w-full rounded-full px-4 py-2 text-center text-sm font-semibold transition',
+                settings.language === lang.code
                   ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
                   : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
               )}
             >
-              {option.label}
+              {lang.label}
             </button>
           ))}
         </div>
       </div>
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-          Accent color
+          {t('theme')}
+        </p>
+        <div className="grid grid-cols-2 gap-2 justify-items-center sm:grid-cols-3">
+          {THEME_OPTIONS.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              onClick={() => handleThemeChange(option.value)}
+              className={classNames(
+                'w-full rounded-full px-4 py-2 text-center text-sm font-semibold transition',
+                currentTheme === option.value
+                  ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
+                  : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+              )}
+            >
+              {t(option.label)}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="space-y-3">
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          {t('accentColor')}
         </p>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {ACCENT_COLOR_OPTIONS.map((option) => {
+          {ACCENT_COLOR_OPTIONS.map((option: AccentColorOption) => {
             const selected = settings.accentColor === option.id
             return (
               <button
@@ -135,7 +163,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
                   aria-hidden="true"
                 />
                 <span className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-                  {option.label}
+                  {t(option.translationKey ?? option.label)}
                 </span>
               </button>
             )
@@ -145,7 +173,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
       <SolutionsAccessPanel onSettingsChange={notifySettingsSaved} />
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-red-500 dark:text-red-400">
-          Danger Zone
+          {t('dangerZone')}
         </p>
         <ResetProgressButton
           disabled={auth.loading}
@@ -190,7 +218,7 @@ const SettingToggle = ({
       <span
         className={classNames(
           'inline-block h-6 w-6 transform rounded-full bg-white transition',
-          checked ? 'translate-x-6' : 'translate-x-1',
+          checked ? 'translate-x-7' : 'translate-x-1',
         )}
       />
       <span className="sr-only">{label}</span>
@@ -199,6 +227,7 @@ const SettingToggle = ({
 )
 
 const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => void }) => {
+  const { t } = useTranslation()
   const [hasAccess, setHasAccess] = useState(false)
   const [passwordInput, setPasswordInput] = useState('')
   const [passwordError, setPasswordError] = useState<string | null>(null)
@@ -360,17 +389,16 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
     <div className="space-y-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-[#18181b] dark:bg-zinc-900/40">
       <div>
         <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-          Solutions
+          {t('solutions')}
         </p>
         <p className="text-sm text-zinc-600 dark:text-zinc-300">
-          Automatically reveal every station in the cities you choose after entering
-          the passphrase.
+          {t('solutionsDesc')}
         </p>
       </div>
       {!hasAccess ? (
         <form className="space-y-2" onSubmit={handleSolutionsPasswordSubmit}>
           <label className="text-xs font-semibold uppercase text-zinc-500 dark:text-zinc-400">
-            Enter password
+            {t('enterPassword')}
           </label>
           <div className="flex gap-2">
             <input
@@ -378,14 +406,14 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
               value={passwordInput}
               onChange={(event) => setPasswordInput(event.target.value)}
               className="flex-1 rounded-xl border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100"
-              placeholder="Password"
+              placeholder={t('password')}
             />
             <button
               type="submit"
               className="rounded-xl bg-[var(--accent-600)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--accent-500)] disabled:opacity-60 dark:bg-[var(--accent-600)] dark:hover:bg-[var(--accent-500)]"
               disabled={!passwordInput.trim()}
             >
-              Unlock
+              {t('unlock')}
             </button>
           </div>
           {passwordError && (
@@ -405,7 +433,7 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
                   : 'bg-zinc-200 text-zinc-700 hover:bg-zinc-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
               )}
             >
-              Reveal every city
+              {t('revealEveryCity')}
             </button>
             <button
               type="button"
@@ -417,14 +445,14 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
                   : 'bg-zinc-200 text-zinc-700 hover:bg-zinc-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
               )}
             >
-              Select specific cities
+              {t('selectSpecificCities')}
             </button>
           </div>
           {isCustomMode && (
             <div className="space-y-3">
               <div className="flex items-center justify-between gap-3 text-xs text-zinc-600 dark:text-zinc-400">
                 <span>
-                  Selected {selectedCount} / {allCityOptions.length}
+                  {t('selectedCount', { count: selectedCount, total: allCityOptions.length })}
                 </span>
                 <div className="flex gap-3">
                   <button
@@ -432,14 +460,14 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
                     className="text-[var(--accent-600)] underline-offset-2 hover:underline dark:text-[var(--accent-300)]"
                     onClick={handleSelectAllCities}
                   >
-                    Select all
+                    {t('selectAll')}
                   </button>
                   <button
                     type="button"
                     className="text-[var(--accent-600)] underline-offset-2 hover:underline dark:text-[var(--accent-300)]"
                     onClick={handleClearAllCities}
                   >
-                    Clear all
+                    {t('clearAll')}
                   </button>
                 </div>
               </div>
@@ -447,13 +475,13 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
                 type="text"
                 value={cityFilter}
                 onChange={(event) => setCityFilter(event.target.value)}
-                placeholder="Search cities"
+                placeholder={t('searchCities')}
                 className="w-full rounded-xl border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100"
               />
               <div className="max-h-48 space-y-2 overflow-y-auto rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900">
                 {filteredCities.length === 0 && (
                   <p className="text-xs text-zinc-500 dark:text-zinc-400">
-                    No cities match your search.
+                    {t('noCitiesMatch')}
                   </p>
                 )}
                 {filteredCities.map((city) => {
@@ -477,8 +505,7 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
             </div>
           )}
           <p className="text-xs text-zinc-500 dark:text-zinc-400">
-            The next time you open a city selected above, all stations will be marked
-            as found automatically.
+            {t('solutionsAutoMark')}
           </p>
         </div>
       )}
@@ -567,6 +594,7 @@ const ResetProgressButton = ({
   isAuthenticated: boolean
   progressSummaries: Record<string, number>
 }) => {
+  const { t } = useTranslation()
   const [holdProgress, setHoldProgress] = useState(0)
   const [statusMessage, setStatusMessage] = useState<string | null>(null)
   const [isResetting, setIsResetting] = useState(false)
@@ -706,29 +734,21 @@ const ResetProgressButton = ({
         if (response.status === 401) {
           onLogout?.()
           setStatusVariant('error')
-          setStatusMessage('Sign in again to clear synced progress.')
+          setStatusMessage(t('signInToClear'))
         } else if (!response.ok) {
           throw new Error('Failed to reset progress')
         } else {
           await onResetComplete?.()
           setStatusVariant('success')
-          setStatusMessage(
-            `Progress reset for ${
-              targets.length > 0 ? `${targets.length} city${targets.length === 1 ? '' : 'ies'}` : 'all cities'
-            }${clearedKeys > 0 ? ` (${clearedKeys} local caches removed)` : ''}.`,
-          )
+          setStatusMessage(t('resetStatusSuccess'))
         }
       } else {
         setStatusVariant('success')
-        setStatusMessage(
-          clearedKeys > 0
-            ? `Local progress cleared for ${clearedKeys} saved city caches.`
-            : 'Local progress reset.',
-        )
+        setStatusMessage(t('resetStatusLocalSuccess'))
       }
     } catch (error) {
       setStatusVariant('error')
-      setStatusMessage('Unable to reset progress. Please try again.')
+      setStatusMessage(t('resetStatusError'))
       if (process.env.NODE_ENV !== 'production') {
         console.error(error)
       }
@@ -815,23 +835,21 @@ const ResetProgressButton = ({
     <div className="space-y-3 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm dark:border-red-900/60 dark:bg-red-950/40">
       <div>
         <p className="text-base font-semibold text-red-900 dark:text-red-200">
-          Reset saved progress
+          {t('resetSavedProgressTitle')}
         </p>
         <p className="text-red-700 dark:text-red-300">
-          Hold the button for 5 seconds to erase the selected cities. Only cities
-          where you&apos;ve found at least one station appear below. This action cannot be
-          undone.
+          {t('resetSavedProgressDesc')}
         </p>
       </div>
       <div className="space-y-2">
         {cityOptions.length === 0 ? (
           <p className="text-xs text-red-600 dark:text-red-300">
-            You haven&apos;t recorded any progress yet.
+            {t('resetNoProgress')}
           </p>
         ) : (
           <>
             <p className="text-xs font-semibold text-red-700 dark:text-red-200">
-              Choose cities to reset:
+              {t('resetChooseCities')}
             </p>
             <div className="space-y-2">
               {cityOptions.map((city) => {
@@ -852,7 +870,7 @@ const ResetProgressButton = ({
                       <span>{city.name}</span>
                     </div>
                     <span className="text-xs text-red-600 dark:text-red-300">
-                      {city.found} found
+                      {t('resetFoundLabel', { count: city.found })}
                     </span>
                   </label>
                 )
@@ -865,7 +883,7 @@ const ResetProgressButton = ({
                 onClick={selectAllCities}
                 disabled={isResetting}
               >
-                Select all
+                {t('selectAll')}
               </button>
               <button
                 type="button"
@@ -873,12 +891,12 @@ const ResetProgressButton = ({
                 onClick={clearAllCities}
                 disabled={isResetting}
               >
-                Clear all
+                {t('clearAll')}
               </button>
             </div>
             {isAuthenticated && cityOptions.length > 0 && resetTargets.length === 0 && (
               <p className="text-xs text-red-600 dark:text-red-300">
-                Select at least one city to enable the reset button.
+                {t('resetSelectPrompt')}
               </p>
             )}
           </>
@@ -903,7 +921,7 @@ const ResetProgressButton = ({
           onKeyDown={handleKeyDown}
           onKeyUp={handleKeyUp}
         >
-          {isResetting ? 'Resetting…' : 'Hold to reset selected cities'}
+          {isResetting ? t('resetButtonResetting') : t('resetButtonHold')}
         </button>
         <div className="mt-2 h-1 w-full rounded-full bg-red-200 dark:bg-red-900/40">
           <div
