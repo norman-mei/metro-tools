@@ -107,6 +107,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/tokyo',
+    apple: '/api/city-icon/tokyo',
+  },
   title: 'Tokyo Metro Memory',
   // in japanese
   description: '東京メトロの駅名を覚えられますか？',

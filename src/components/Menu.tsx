@@ -138,7 +138,7 @@ export default function MenuComponent({
                     )}
                     onClick={onOpenSupport}
                   >
-                    Support me!
+                    {t('tabSupport')}
                   </button>
                 )}
               </Menu.Item>

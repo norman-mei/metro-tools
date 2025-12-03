@@ -1,0 +1,18 @@
+{
+  "Line1": {
+    "name": "Line 1",
+    "color": "#33AA4C",
+    "backgroundColor": "#33AA4C",
+    "textColor": "#FFFFFF",
+    "icon": "nottinghamline1.svg",
+    "order": 0
+  },
+  "Line2": {
+    "name": "Line 2",
+    "color": "#512986",
+    "backgroundColor": "#512986",
+    "textColor": "#FFFFFF",
+    "icon": "nottinghamline2.svg",
+    "order": 1
+  }
+}

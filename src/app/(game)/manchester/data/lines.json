@@ -1,0 +1,66 @@
+{
+  "Green": {
+    "name": "Altrincham – Bury",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "icon": "manchestergreen.svg",
+    "order": 0
+  },
+  "Purple": {
+    "name": "Altrincham – Piccadilly",
+    "color": "#6F2282",
+    "backgroundColor": "#6F2282",
+    "textColor": "#FFFFFF",
+    "icon": "manchesterpurple.svg",
+    "order": 1
+  },
+  "Cyan": {
+    "name": "Eccles – Ashton-under-Lyne",
+    "color": "#59C6F2",
+    "backgroundColor": "#59C6F2",
+    "textColor": "#000000",
+    "icon": "manchestercyan.svg",
+    "order": 2
+  },
+  "Orange": {
+    "name": "MediaCityUK – Etihad Campus",
+    "color": "#F58220",
+    "backgroundColor": "#F58220",
+    "textColor": "#000000",
+    "icon": "manchesterorange.svg",
+    "order": 3
+  },
+  "Blue": {
+    "name": "Manchester Airport – Victoria",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "icon": "manchesterblue.svg",
+    "order": 4
+  },
+  "Pink": {
+    "name": "East Didsbury – Rochdale Town Centre",
+    "color": "#FE79B0",
+    "backgroundColor": "#FE79B0",
+    "textColor": "#FFFFFF",
+    "icon": "manchesterpink.svg",
+    "order": 5
+  },
+  "Grey": {
+    "name": "East Didsbury – Shaw and Crompton",
+    "color": "#7F7F7F",
+    "backgroundColor": "#7F7F7F",
+    "textColor": "#FFFFFF",
+    "icon": "manchestergrey.svg",
+    "order": 6
+  },
+  "Red": {
+    "name": "Trafford Centre – Deansgate-Castlefield",
+    "color": "#EE3124",
+    "backgroundColor": "#EE3124",
+    "textColor": "#FFFFFF",
+    "icon": "manchesterred.svg",
+    "order": 7
+  }
+}

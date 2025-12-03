@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import { getTweet } from 'react-tweet/api'
 import { type TweetProps, TweetNotFound, TweetSkeleton } from 'react-tweet'
 
 import type { Tweet as TweetType } from 'react-tweet/api'
@@ -34,6 +33,7 @@ export const MyTweet = ({ tweet: t, components }: Props) => {
 }
 
 const TweetContent = ({ id, components, onError, fallback }: TweetProps) => {
+  const [isLoading, setIsLoading] = useState(true)
   const [tweet, setTweet] = useState<TweetType | null>(null)
   const [error, setError] = useState<unknown>(null)
 
@@ -44,14 +44,34 @@ const TweetContent = ({ id, components, onError, fallback }: TweetProps) => {
     let canceled = false
     if (!id) {
       setTweet(null)
+      setIsLoading(false)
       return undefined
     }
     setTweet(null)
     setError(null)
-    getTweet(id)
-      .then((res) => {
+    setIsLoading(true)
+
+    fetch(`/api/tweets/${id}`)
+      .then(async (res) => {
+        const data = await res.json().catch(() => null)
+        if (!res.ok) {
+          const message =
+            (data && typeof data.error === 'string' && data.error) ||
+            `Request failed with status ${res.status}`
+          const error = new Error(message)
+          error.name = 'TweetFetchError'
+          throw error
+        }
+        return data as TweetType | null
+      })
+      .then((data) => {
         if (canceled) return
-        setTweet(res ?? null)
+        // If the server returned nothing or a malformed payload, treat as not found.
+        if (!data || typeof data !== 'object' || !('id_str' in data)) {
+          setTweet(null)
+          return
+        }
+        setTweet(data as TweetType)
       })
       .catch((err) => {
         if (canceled) return
@@ -62,13 +82,21 @@ const TweetContent = ({ id, components, onError, fallback }: TweetProps) => {
           console.error(err)
         }
       })
+      .finally(() => {
+        if (canceled) return
+        setIsLoading(false)
+      })
     return () => {
       canceled = true
     }
   }, [id, onError])
 
+  if (isLoading) {
+    return Skeleton
+  }
+
   if (error || !tweet) {
-    return error ? <NotFound /> : Skeleton
+    return <NotFound />
   }
 
   return <MyTweet tweet={tweet} components={components} />

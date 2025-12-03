@@ -32,6 +32,8 @@ type Settings = {
   stopConfettiAfterCompletion: boolean
   accentColor: AccentColorId
   language: string
+  timezone: string
+  hourFormat: '12h' | '24h'
 }
 
 type UpdateSettingsOptions = { silent?: boolean }
@@ -42,6 +44,8 @@ const DEFAULT_SETTINGS: Settings = {
   stopConfettiAfterCompletion: false,
   accentColor: DEFAULT_ACCENT_COLOR_ID,
   language: 'en',
+  timezone: 'UTC',
+  hourFormat: '24h',
 }
 
 const STORAGE_KEY = 'metro-memory-settings'
@@ -53,6 +57,8 @@ type SettingsContextValue = {
   setStopConfettiAfterCompletion: (enabled: boolean) => void
   setAccentColor: (accent: AccentColorId) => void
   setLanguage: (language: string, options?: UpdateSettingsOptions) => void
+  setTimezone: (timezone: string, options?: UpdateSettingsOptions) => void
+  setHourFormat: (format: '12h' | '24h', options?: UpdateSettingsOptions) => void
   notifySettingsSaved: () => void
   lastSavedAt: number
 }
@@ -90,6 +96,14 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
               typeof parsed.language === 'string'
                 ? parsed.language
                 : DEFAULT_SETTINGS.language,
+            timezone:
+              typeof parsed.timezone === 'string'
+                ? parsed.timezone
+                : DEFAULT_SETTINGS.timezone,
+            hourFormat:
+              parsed.hourFormat === '12h' || parsed.hourFormat === '24h'
+                ? parsed.hourFormat
+                : DEFAULT_SETTINGS.hourFormat,
           })
         }
       }
@@ -161,6 +175,10 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
       },
       setLanguage: (language: string, options?: UpdateSettingsOptions) =>
         updateSettings({ language }, options),
+      setTimezone: (timezone: string, options?: UpdateSettingsOptions) =>
+        updateSettings({ timezone }, options),
+      setHourFormat: (format: '12h' | '24h', options?: UpdateSettingsOptions) =>
+        updateSettings({ hourFormat: format }, options),
       notifySettingsSaved,
       lastSavedAt,
     }),

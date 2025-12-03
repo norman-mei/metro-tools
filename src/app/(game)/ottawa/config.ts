@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/ottawa',
+    apple: '/api/city-icon/ottawa',
+  },
   title: 'Ottawa Metro Memory – OC Transpo',
   description: 'How many of the OC Transpo O-Train stations can you remember?',
   openGraph: {

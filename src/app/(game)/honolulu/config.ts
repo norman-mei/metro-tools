@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/honolulu',
+    apple: '/api/city-icon/honolulu',
+  },
   title: 'Honolulu Metro Memory',
   description:
     'How many of the Honolulu Skyline stations can you name from memory?',

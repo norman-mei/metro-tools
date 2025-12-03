@@ -29,6 +29,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/pittsburgh',
+    apple: '/api/city-icon/pittsburgh',
+  },
   title: 'Pittsburgh Metro Memory',
   description:
     'How many of the Pittsburgh “T” light-rail stations can you name from memory?',

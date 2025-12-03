@@ -524,6 +524,7 @@ export const cities: ICity[] = [
     image: nr,
     link: '/nr',
     continent: 'Europe',
+    hideInStats: true,
   },
   {
     name: 'Nottingham, UK',
@@ -572,6 +573,7 @@ export const cities: ICity[] = [
     image: wm,
     link: '/wm',
     continent: 'Europe',
+    hideInStats: true,
   },
 
   // Asia
@@ -580,6 +582,7 @@ export const cities: ICity[] = [
     image: beijing,
     link: '/beijing',
     continent: 'Asia',
+    hideInStats: true,
   },
   {
     name: 'Dongguan (东莞), CN',
@@ -592,6 +595,7 @@ export const cities: ICity[] = [
     image: guangzhou,
     link: '/guangzhou',
     continent: 'Asia',
+    hideInStats: true,
   },
   {
     name: 'Hong Kong SAR (香港), HK',
@@ -616,6 +620,7 @@ export const cities: ICity[] = [
     image: shanghai,
     link: '/shanghai',
     continent: 'Asia',
+    hideInStats: true,
   },
   {
     name: 'Shenzhen (深圳), CN',

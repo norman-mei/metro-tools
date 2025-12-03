@@ -7,6 +7,10 @@ import linesData from './data/lines.json'
 export const LINES = linesData as { [name: string]: Line }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/hk',
+    apple: '/api/city-icon/hk',
+  },
   title: 'Hong Kong Metro Memory',
   description: '你能記住香港港鐵的所有車站嗎？',
   openGraph: {

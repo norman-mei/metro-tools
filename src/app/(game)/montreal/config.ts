@@ -1,6 +1,6 @@
-import { Metadata } from 'next'
-import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line, LineGroup } from '@/lib/types'
+import { MapboxOptions } from 'mapbox-gl'
+import { Metadata } from 'next'
 
 
 export const LINES: {
@@ -43,9 +43,10 @@ export const LINES: {
   },
   AMTRailExo2: {
     name: 'Saint-Jérôme',
-    color: '#A2D586',
-    backgroundColor: '#4B812D',
-    textColor: '#FFFFFF',
+    color: '#FFDF7E',
+    progressOutlineColor: '#FFDF7E',
+    backgroundColor: '#8A6A1F',
+    textColor: '#000000',
     order: 5,
   },
   AMTRailExo3: {
@@ -79,6 +80,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/montreal',
+    apple: '/api/city-icon/montreal',
+  },
   title: 'Montreal Metro Memory Game',
   description: 'How many of the Montreal metro stations can you name from memory?',
   openGraph: {
@@ -112,6 +117,8 @@ export const CITY_NAME = 'montreal'
 export const LOCALE = 'en'
 
 export const GAUGE_COLORS = 'inverted'
+
+export const MAP_FROM_DATA = true
 
 export const LINE_GROUPS: LineGroup[] = [
   {
@@ -151,6 +158,7 @@ const config: Config = {
   METADATA,
   LINES,
   LINE_GROUPS,
+  MAP_FROM_DATA,
 }
 
 export default config

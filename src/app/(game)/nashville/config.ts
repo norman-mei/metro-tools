@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/nashville',
+    apple: '/api/city-icon/nashville',
+  },
   title: 'Nashville Metro Memory',
   description:
     'How many of the Nashville WeGo Star stations can you name from memory?',

@@ -380,11 +380,15 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
         const iconSrc = `/api/city-icon/${slug}`
         const total = STATION_TOTALS[slug] ?? 0
         const percent = total > 0 ? Math.max(0, Math.min(1, count / total)) : 0
+        const progressPercent = Math.min(100, Math.max(0, percent * 100))
+        const barColor = `hsl(${percent * 120}, 70%, 45%)`
         return {
           slug,
           count,
           total,
           percent,
+          progressPercent,
+          barColor,
           label: citySlugMap.get(slug) ?? slug,
           iconSrc,
         }
@@ -531,12 +535,12 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
                           <span
                             className="h-full transition-[width] rounded-full"
                             style={{
-                              width: `${Math.min(100, Math.max(0, entry.percent * 100))}%`,
-                              background: `linear-gradient(90deg, #ef4444 0%, #22c55e 100%)`,
+                              width: `${entry.progressPercent}%`,
+                              background: entry.barColor,
                             }}
                           />
                         </span>
-                        <span style={{ color: `hsl(${entry.percent * 120}, 70%, 45%)` }}>
+                        <span style={{ color: entry.barColor }}>
                           {t('accountStationsFound', { count: entry.count })}
                         </span>
                       </span>

@@ -25,6 +25,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/kaohsiung',
+    apple: '/api/city-icon/kaohsiung',
+  },
   title: 'Kaohsiung Metro Memory',
   description: 'How many of the Kaohsiung MRT and LRT stations can you name from memory?',
   openGraph: {

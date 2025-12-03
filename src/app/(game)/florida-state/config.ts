@@ -169,6 +169,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/florida-state',
+    apple: '/api/city-icon/florida-state',
+  },
   title: 'Florida State Metro Memory',
   description: 'How many stations across Florida can you name from memory?',
   openGraph: {

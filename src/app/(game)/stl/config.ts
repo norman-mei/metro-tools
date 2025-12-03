@@ -25,6 +25,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/stl',
+    apple: '/api/city-icon/stl',
+  },
   title: 'St. Louis Metro Memory',
   description: 'How many of the St. Louis MetroLink stations can you name from memory?',
   openGraph: {

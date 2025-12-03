@@ -86,6 +86,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/singapore',
+    apple: '/api/city-icon/singapore',
+  },
   title: 'Singapore Metro Memory Game',
   description:
     'How many of the Singapore MRT/LRT stations can you name from memory?',

@@ -72,6 +72,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/budapest',
+    apple: '/api/city-icon/budapest',
+  },
   title: 'Budapest Metro Memory',
   description: 'Hány metróállomást tudsz emlékezetből megnevezni?',
   openGraph: {

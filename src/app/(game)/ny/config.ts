@@ -7,6 +7,10 @@ import linesData from './data/lines.json'
 export const LINES = linesData as { [name: string]: Line }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/ny',
+    apple: '/api/city-icon/ny',
+  },
   title: 'New York City Subway Memory Game',
   description: 'How many of the NY subway stations can you name from memory?',
   openGraph: {

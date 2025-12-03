@@ -148,7 +148,7 @@
       },
       "properties": {
         "id": 9,
-        "name": "\u00c9douard-Montpetit",
+        "name": "Édouard-Montpetit",
         "line": "STMMetroBleue",
         "order": 45
       },
@@ -165,7 +165,7 @@
       },
       "properties": {
         "id": 10,
-        "name": "Universit\u00e9-de-Montreal",
+        "name": "Université-de-Montreal",
         "line": "STMMetroBleue",
         "order": 50
       },
@@ -182,7 +182,7 @@
       },
       "properties": {
         "id": 11,
-        "name": "C\u00f4te-des-Neiges",
+        "name": "Côte-des-Neiges",
         "line": "STMMetroBleue",
         "order": 51
       },
@@ -216,10 +216,10 @@
       },
       "properties": {
         "id": 13,
-        "name": "Longueuil-Universit\u00e9-de-Sherbrooke",
+        "name": "Longueuil-Université-de-Sherbrooke",
         "alternate_names": [
           "Longueuil",
-          "Universit\u00e9 de Sherbrooke"
+          "Université de Sherbrooke"
         ],
         "line": "STMMetroJaune",
         "order": 0
@@ -271,7 +271,7 @@
       },
       "properties": {
         "id": 16,
-        "name": "C\u00f4te-Vertu",
+        "name": "Côte-Vertu",
         "line": "STMMetroOrange",
         "order": 0
       },
@@ -288,7 +288,7 @@
       },
       "properties": {
         "id": 17,
-        "name": "Du Coll\u00e8ge",
+        "name": "Du Collège",
         "line": "STMMetroOrange",
         "order": 2
       },
@@ -356,7 +356,7 @@
       },
       "properties": {
         "id": 21,
-        "name": "C\u00f4te-Sainte-Catherine",
+        "name": "Côte-Sainte-Catherine",
         "line": "STMMetroOrange",
         "order": 23
       },
@@ -407,7 +407,7 @@
       },
       "properties": {
         "id": 24,
-        "name": "Vend\u00f4me",
+        "name": "Vendôme",
         "line": "STMMetroOrange",
         "order": 50
       },
@@ -699,7 +699,7 @@
       },
       "properties": {
         "id": 41,
-        "name": "Cr\u00e9mazie",
+        "name": "Crémazie",
         "line": "STMMetroOrange",
         "order": 129
       },
@@ -716,7 +716,7 @@
       },
       "properties": {
         "id": 42,
-        "name": "Sauv\u00e9",
+        "name": "Sauvé",
         "line": "STMMetroOrange",
         "order": 131
       },
@@ -869,7 +869,7 @@
       },
       "properties": {
         "id": 51,
-        "name": "De L'\u00c9glise",
+        "name": "De L'Église",
         "line": "STMMetroVerte",
         "order": 30
       },
@@ -1107,7 +1107,7 @@
       },
       "properties": {
         "id": 65,
-        "name": "Pr\u00e9fontaine",
+        "name": "Préfontaine",
         "line": "STMMetroVerte",
         "order": 114
       },
@@ -1243,7 +1243,7 @@
       },
       "properties": {
         "id": 73,
-        "name": "Honor\u00e9-Beaugrand",
+        "name": "Honoré-Beaugrand",
         "line": "STMMetroVerte",
         "order": 148
       },
@@ -1328,7 +1328,7 @@
       },
       "properties": {
         "id": 78,
-        "name": "\u00cele-Perrot",
+        "name": "Île-Perrot",
         "line": "AMTRailExo1",
         "order": 81
       },
@@ -1362,7 +1362,7 @@
       },
       "properties": {
         "id": 80,
-        "name": "Baie-d'Urf\u00e9",
+        "name": "Baie-d'Urfé",
         "line": "AMTRailExo1",
         "order": 103
       },
@@ -1515,7 +1515,7 @@
       },
       "properties": {
         "id": 89,
-        "name": "Montr\u00e9al-Ouest",
+        "name": "Montréal-Ouest",
         "line": "AMTRailExo1",
         "order": 167
       },
@@ -1532,7 +1532,7 @@
       },
       "properties": {
         "id": 90,
-        "name": "Vend\u00f4me",
+        "name": "Vendôme",
         "line": "AMTRailExo1",
         "order": 174
       },
@@ -1566,7 +1566,7 @@
       },
       "properties": {
         "id": 150,
-        "name": "Saint-J\u00e9r\u00f4me",
+        "name": "Saint-Jérôme",
         "line": "AMTRailExo2",
         "order": 0
       },
@@ -1617,7 +1617,7 @@
       },
       "properties": {
         "id": 153,
-        "name": "Sainte-Th\u00e9r\u00e8se",
+        "name": "Sainte-Thérèse",
         "line": "AMTRailExo2",
         "order": 69
       },
@@ -1634,7 +1634,7 @@
       },
       "properties": {
         "id": 154,
-        "name": "Rosem\u00e8re",
+        "name": "Rosemère",
         "line": "AMTRailExo2",
         "order": 80
       },
@@ -1753,7 +1753,7 @@
       },
       "properties": {
         "id": 161,
-        "name": "Montr\u00e9al-Ouest",
+        "name": "Montréal-Ouest",
         "line": "AMTRailExo2",
         "order": 202
       },
@@ -1770,7 +1770,7 @@
       },
       "properties": {
         "id": 162,
-        "name": "Vend\u00f4me",
+        "name": "Vendôme",
         "line": "AMTRailExo2",
         "order": 207
       },
@@ -2029,7 +2029,7 @@
       },
       "properties": {
         "id": 209,
-        "name": "Montr\u00e9al-Ouest",
+        "name": "Montréal-Ouest",
         "line": "AMTRailExo4",
         "order": 66
       },
@@ -2046,7 +2046,7 @@
       },
       "properties": {
         "id": 210,
-        "name": "Vend\u00f4me",
+        "name": "Vendôme",
         "line": "AMTRailExo4",
         "order": 73
       },
@@ -2148,7 +2148,7 @@
       },
       "properties": {
         "id": 216,
-        "name": "Rivi\u00e8re-des-Prairies",
+        "name": "Rivière-des-Prairies",
         "line": "AMTRailExo5",
         "order": 127
       },
@@ -2182,9 +2182,9 @@
       },
       "properties": {
         "id": 218,
-        "name": "Saint-L\u00e9onard-Montr\u00e9al-Nord",
+        "name": "Saint-Léonard-Montréal-Nord",
         "alternate_names": [
-          "Saint-L\u00e9onard"
+          "Saint-Léonard"
         ],
         "line": "AMTRailExo5",
         "order": 143
@@ -2202,7 +2202,7 @@
       },
       "properties": {
         "id": 219,
-        "name": "Saint-Michel-Montr\u00e9al-Nord",
+        "name": "Saint-Michel-Montréal-Nord",
         "alternate_names": [
           "Saint-Michel"
         ],
@@ -2222,7 +2222,7 @@
       },
       "properties": {
         "id": 220,
-        "name": "Sauv\u00e9",
+        "name": "Sauvé",
         "line": "AMTRailExo5",
         "order": 149
       },
@@ -2327,7 +2327,7 @@
       },
       "properties": {
         "id": 226,
-        "name": "\u00cele-des-Soeurs",
+        "name": "Île-des-Soeurs",
         "line": "MontrealREM",
         "order": 30,
         "alternate_names": [
@@ -2381,7 +2381,7 @@
       },
       "properties": {
         "id": 229,
-        "name": "\u00c9douard-Montpetit",
+        "name": "Édouard-Montpetit",
         "line": "MontrealREM",
         "order": 60,
         "alternate_names": [
@@ -2395,8 +2395,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.64594127868924,
-          45.51720809018939
+          -73.63465478152658,
+          45.51400042502855
         ]
       },
       "properties": {
@@ -2412,8 +2412,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.6438213253188,
-          45.516650867615674
+          -73.64353929092175,
+          45.516571899782264
         ]
       },
       "properties": {
@@ -2438,7 +2438,7 @@
       },
       "properties": {
         "id": 232,
-        "name": "C\u00f4te-de-Liesse",
+        "name": "Côte-de-Liesse",
         "line": "MontrealREM",
         "order": 90,
         "alternate_names": [
@@ -2543,7 +2543,7 @@
       },
       "properties": {
         "id": 238,
-        "name": "\u00cele-Bigras",
+        "name": "Île-Bigras",
         "line": "MontrealREM",
         "order": 150,
         "alternate_names": [
@@ -2563,7 +2563,7 @@
       },
       "properties": {
         "id": 239,
-        "name": "Sainte-Doroth\u00e9e",
+        "name": "Sainte-Dorothée",
         "line": "MontrealREM",
         "order": 160
       },
@@ -2631,7 +2631,7 @@
       },
       "properties": {
         "id": 243,
-        "name": "YUL-A\u00e9roport-Montr\u00e9al-Trudeau",
+        "name": "YUL-Aéroport-Montréal-Trudeau",
         "line": "MontrealREM",
         "order": 200,
         "alternate_names": [
@@ -2639,7 +2639,7 @@
           "Airport",
           "YUL Airport",
           "Montreal Airport",
-          "Montr\u00e9al-Trudeau",
+          "Montréal-Trudeau",
           "Montreal-Trudeau"
         ]
       },
@@ -2676,7 +2676,7 @@
       },
       "properties": {
         "id": 245,
-        "name": "Fairview\u2013Pointe-Claire",
+        "name": "Fairview–Pointe-Claire",
         "line": "MontrealREM",
         "order": 220,
         "alternate_names": [
@@ -2714,7 +2714,7 @@
       },
       "properties": {
         "id": 247,
-        "name": "Anse-\u00e0-l'Orme",
+        "name": "Anse-à-l'Orme",
         "line": "MontrealREM",
         "order": 240,
         "alternate_names": [
@@ -2734,7 +2734,7 @@
       },
       "properties": {
         "id": 248,
-        "name": "Verti\u00e8res",
+        "name": "Vertières",
         "line": "STMMetroBleue",
         "order": -10
       },
@@ -2768,7 +2768,7 @@
       },
       "properties": {
         "id": 250,
-        "name": "C\u00e9sira-Parisotto",
+        "name": "Césira-Parisotto",
         "line": "STMMetroBleue",
         "order": -30
       },
@@ -2807,17 +2807,37 @@
         "order": -50
       },
       "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55880470660254,
+          45.49631269897932
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Griffintown–Bernard-Landry",
+        "line": "MontrealREM",
+        "order": 35,
+        "alternate_names": [
+          "Griffintown-Bernard-Landry"
+        ]
+      },
+      "id": 253
     }
   ],
   "properties": {
-    "totalStations": 162,
+    "totalStations": 163,
     "stationsPerLine": {
       "AMTRailExo1": 18,
       "AMTRailExo2": 14,
       "AMTRailExo3": 7,
       "AMTRailExo4": 9,
       "AMTRailExo5": 11,
-      "MontrealREM": 25,
+      "MontrealREM": 26,
       "STMMetroBleue": 17,
       "STMMetroJaune": 3,
       "STMMetroOrange": 31,

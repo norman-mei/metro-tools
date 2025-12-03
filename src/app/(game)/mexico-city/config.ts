@@ -93,6 +93,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/mexico-city',
+    apple: '/api/city-icon/mexico-city',
+  },
   title: 'Mexico City Metro Memory',
   description:
     '¿Cuántas estaciones del metro de Mexico City puedes nombrar de memoria?',

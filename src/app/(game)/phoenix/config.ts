@@ -38,6 +38,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/phoenix',
+    apple: '/api/city-icon/phoenix',
+  },
   title: 'Phoenix-Tempe Metro Memory',
   description:
     'How many of the Phoenix-Tempe Valley Metro and PHX SkyTrain stops can you name from memory?',

@@ -38,6 +38,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/sd',
+    apple: '/api/city-icon/sd',
+  },
   title: 'San Diego-Oceanside Metro Memory',
   description:
     'How many of the San Diego Trolley, COASTER, and SPRINTER stops can you name from memory?',

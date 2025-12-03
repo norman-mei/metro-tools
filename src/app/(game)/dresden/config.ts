@@ -94,6 +94,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/dresden',
+    apple: '/api/city-icon/dresden',
+  },
   title: 'Dresden Tram Memory',
   description: 'Wie viele Tram-Stationen können Sie auswendig nennen?',
   openGraph: {

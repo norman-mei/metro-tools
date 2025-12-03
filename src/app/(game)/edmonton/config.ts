@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/edmonton',
+    apple: '/api/city-icon/edmonton',
+  },
   title: 'Edmonton Metro Memory – ETS LRT',
   description: 'How many Edmonton LRT stations can you remember from memory?',
   openGraph: {

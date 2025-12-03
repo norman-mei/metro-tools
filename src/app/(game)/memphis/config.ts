@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/memphis',
+    apple: '/api/city-icon/memphis',
+  },
   title: 'Memphis Metro Memory',
   description:
     'How many of the Memphis MATA Trolley stops can you name from memory?',

@@ -114,6 +114,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/madrid',
+    apple: '/api/city-icon/madrid',
+  },
   title: 'Madrid Metro Memory',
   description:
     '¿Cuántas estaciones del metro de Madrid puedes nombrar de memoria?',

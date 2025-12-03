@@ -55,6 +55,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/seattle',
+    apple: '/api/city-icon/seattle',
+  },
   title: 'Seattle—Tacoma Metro Memory',
   description: 'Test your knowledge of Puget Sound transit lines from Link to SEA Underground.',
   openGraph: {

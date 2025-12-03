@@ -185,6 +185,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/karlsruhe',
+    apple: '/api/city-icon/karlsruhe',
+  },
   title: 'Karlsruhe Tram(-Train) Memory',
   description:
     'How many of the Karlsruhe tram(-train) stations can you name from memory?',

@@ -11,6 +11,8 @@ export type CollapsedSections = Record<string, boolean>
 export type UiPreferences = {
   collapsedSections?: CollapsedSections
   language?: string
+  timezone?: string
+  hourFormat?: '12h' | '24h'
 }
 
 export function normalizeCollapsedSections(
@@ -41,6 +43,18 @@ export function normalizeLanguage(value: unknown): string | undefined {
     : undefined
 }
 
+export function normalizeTimezone(value: unknown): string | undefined {
+  if (typeof value !== 'string') {
+    return undefined
+  }
+  const trimmed = value.trim()
+  return trimmed.length > 0 ? trimmed : undefined
+}
+
+export function normalizeHourFormat(value: unknown): '12h' | '24h' | undefined {
+  return value === '12h' || value === '24h' ? value : undefined
+}
+
 export function normalizeUiPreferences(value: unknown): UiPreferences {
   if (!isRecord(value)) {
     return {}
@@ -50,10 +64,14 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
     value.collapsedSections,
   )
   const language = normalizeLanguage(value.language)
+  const timezone = normalizeTimezone(value.timezone)
+  const hourFormat = normalizeHourFormat(value.hourFormat)
 
   return {
     ...(collapsedSections ? { collapsedSections } : {}),
     ...(language ? { language } : {}),
+    ...(timezone ? { timezone } : {}),
+    ...(hourFormat ? { hourFormat } : {}),
   }
 }
 

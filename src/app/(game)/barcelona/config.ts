@@ -163,6 +163,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/barcelona',
+    apple: '/api/city-icon/barcelona',
+  },
   title: 'Barcelona Metro Memory',
   description:
     'Quantes estacions del metro de Barcelona pots nomenar de memòria? Prova aquest joc per descobrir-ho.',

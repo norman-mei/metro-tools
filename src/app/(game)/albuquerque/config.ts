@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/albuquerque',
+    apple: '/api/city-icon/albuquerque',
+  },
   title: 'Albuquerque Metro Memory',
   description:
     'How many of the New Mexico Rail Runner Express stations can you name from memory?',

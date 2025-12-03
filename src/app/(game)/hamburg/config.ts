@@ -65,6 +65,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/hamburg',
+    apple: '/api/city-icon/hamburg',
+  },
   title: 'Hamburg Bahn Memory',
   description: 'Wie viele S- und U-Bahn Stationen können Sie auswendig nennen?',
   openGraph: {

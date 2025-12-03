@@ -51,6 +51,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/detroit',
+    apple: '/api/city-icon/detroit',
+  },
   title: 'Detroit Metro Memory',
   description:
     'How many of the Detroit QLine, People Mover, and ExpressTram stations can you name from memory?',

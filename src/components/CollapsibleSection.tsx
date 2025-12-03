@@ -5,6 +5,7 @@ import {
     useCallback,
     useEffect,
     useMemo,
+    useRef,
     useState,
     type ReactNode,
 } from 'react'
@@ -55,6 +56,7 @@ export default function CollapsibleSection({
 }: CollapsibleSectionProps) {
   const { user, uiPreferences, setCollapsedSectionPreference } = useAuth()
   const [isOpen, setIsOpen] = useState(defaultOpen)
+  const userTogglePendingRef = useRef(false)
   const baseId = useMemo(
     () => (sectionId ? sectionId.replace(/[^a-zA-Z0-9_-]/g, '-') : 'section'),
     [sectionId],
@@ -84,18 +86,27 @@ export default function CollapsibleSection({
   }, [sectionId, storageKey, uiPreferences])
 
   const toggleSection = useCallback(() => {
+    userTogglePendingRef.current = true
     setIsOpen((prev) => {
       const nextOpen = !prev
       const collapsed = !nextOpen
       if (typeof window !== 'undefined') {
         window.localStorage.setItem(storageKey, collapsed ? 'true' : 'false')
       }
-      if (user) {
-        void setCollapsedSectionPreference(sectionId, collapsed)
-      }
       return nextOpen
     })
-  }, [sectionId, setCollapsedSectionPreference, storageKey, user])
+  }, [storageKey])
+
+  useEffect(() => {
+    if (!user) {
+      userTogglePendingRef.current = false
+      return
+    }
+    if (!userTogglePendingRef.current) return
+
+    userTogglePendingRef.current = false
+    void setCollapsedSectionPreference(sectionId, !isOpen)
+  }, [isOpen, sectionId, setCollapsedSectionPreference, user])
 
   return (
     <section className={className} aria-labelledby={titleId}>

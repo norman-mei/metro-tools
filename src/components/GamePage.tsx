@@ -2578,7 +2578,9 @@ export default function GamePage({
             onClick={(event) => event.stopPropagation()}
           >
             <div className="flex items-center justify-between border-b border-zinc-200 px-5 py-4 dark:border-[#18181b]">
-              <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">Support me!</h2>
+          <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+            {t('tabSupport')}
+          </h2>
               <button
                 type="button"
                 onClick={() => setSupportModalOpen(false)}

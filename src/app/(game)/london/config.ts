@@ -109,6 +109,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/london',
+    apple: '/api/city-icon/london',
+  },
   title: 'London Tube Memory Game',
   description: 'How many of the London Tube stations can you name from memory?',
   openGraph: {

@@ -1,0 +1,167 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.3392587261519, -27.925787071284194] },
+      "properties": { "name": "Helensvale", "line": "Glink", "id": 0 },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.34710359994446, -27.95189119964129] },
+      "properties": { "name": "Parkwood", "line": "Glink", "id": 1 },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.36465718160653, -27.96304969282091] },
+      "properties": { "name": "Parkwood East", "line": "Glink", "id": 2 },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.3807483330524, -27.960786966249962] },
+      "properties": { "name": "Gold Coast University Hospital", "line": "Glink", "id": 3 },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.3846592860712, -27.963293516269914] },
+      "properties": { "name": "Griffith University", "line": "Glink", "id": 4 },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.39434957672717, -27.97016150629962] },
+      "properties": { "name": "Queen Street", "line": "Glink", "id": 5 },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.40853371406092, -27.970619887181094] },
+      "properties": { "name": "Nerang Street", "line": "Glink", "id": 6 },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4135181304419, -27.967827163348954] },
+      "properties": { "name": "Southport", "line": "Glink", "id": 7 },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4154947321958, -27.97237553772334] },
+      "properties": { "name": "Southport South", "line": "Glink", "id": 8 },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.41876799631382, -27.97356144103847] },
+      "properties": { "name": "Broadwater Parklands", "line": "Glink", "id": 9 },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.42345699050045, -27.98199686068235] },
+      "properties": { "name": "Main Beach", "line": "Glink", "id": 10 },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.42922921741126, -27.992633486790197] },
+      "properties": { "name": "Surfers Paradise North", "line": "Glink", "id": 11 },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4291368171509, -27.99648717490604] },
+      "properties": { "name": "Cypress Avenue", "line": "Glink", "id": 12 },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.42835328943875, -28.001475597477757] },
+      "properties": { "name": "Cavill Avenue", "line": "Glink", "id": 13 },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.42906220732024, -28.006148608852573] },
+      "properties": { "name": "Surfers Paradise", "line": "Glink", "id": 14 },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.42947571528762, -28.01003839237215] },
+      "properties": { "name": "Northcliffe", "line": "Glink", "id": 15 },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.42927639656784, -28.017298505656772] },
+      "properties": { "name": "Florida Gardens", "line": "Glink", "id": 16 },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4296432331552, -28.02801468228661] },
+      "properties": { "name": "Broadbeach North", "line": "Glink", "id": 17 },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.43111165436767, -28.035319410463917] },
+      "properties": { "name": "Broadbeach South", "line": "Glink", "id": 18 },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.43428910362132, -28.042240844121427] },
+      "properties": { "name": "Mermaid Beach", "line": "Glink", "id": 19 },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4364244479362, -28.05075029088424] },
+      "properties": { "name": "Mermaid Beach South", "line": "Glink", "id": 20 },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.43781866365404, -28.059497864463808] },
+      "properties": { "name": "Nobby Beach", "line": "Glink", "id": 21 },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.43883537161213, -28.06521161746861] },
+      "properties": { "name": "Miami North", "line": "Glink", "id": 22 },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4420553865577, -28.069088435439586] },
+      "properties": { "name": "Miami", "line": "Glink", "id": 23 },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4453291781209, -28.076087048492866] },
+      "properties": { "name": "Christine Avenue", "line": "Glink", "id": 24 },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.4482771387812, -28.08424089346765] },
+      "properties": { "name": "Second Avenue", "line": "Glink", "id": 25 },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.452924335111, -28.089837875152316] },
+      "properties": { "name": "Burleigh Heads", "line": "Glink", "id": 26 },
+      "id": 26
+    }
+  ]
+}

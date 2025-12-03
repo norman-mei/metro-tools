@@ -1,0 +1,18 @@
+{
+  "Green": {
+    "name": "Airport – South Hylton",
+    "color": "#00843D",
+    "backgroundColor": "#00843D",
+    "textColor": "#FFFFFF",
+    "icon": "MAXGreen.svg",
+    "order": 0
+  },
+  "Orange": {
+    "name": "St James – South Shields",
+    "color": "#F6A600",
+    "backgroundColor": "#F6A600",
+    "textColor": "#000000",
+    "icon": "MAXOrange.svg",
+    "order": 1
+  }
+}

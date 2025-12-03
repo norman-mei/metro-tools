@@ -34,6 +34,41 @@ const THEME_OPTIONS: Array<{ value: string; label: string }> = [
   { value: 'dark', label: 'dark' },
 ]
 
+const CURATED_TIMEZONES: string[] = [
+  'UTC',
+  'America/New_York',
+  'America/Chicago',
+  'America/Denver',
+  'America/Los_Angeles',
+  'America/Phoenix',
+  'America/Toronto',
+  'America/Vancouver',
+  'America/Mexico_City',
+  'America/Bogota',
+  'America/Sao_Paulo',
+  'Europe/London',
+  'Europe/Dublin',
+  'Europe/Lisbon',
+  'Europe/Paris',
+  'Europe/Berlin',
+  'Europe/Madrid',
+  'Europe/Rome',
+  'Europe/Warsaw',
+  'Europe/Athens',
+  'Europe/Moscow',
+  'Africa/Cairo',
+  'Africa/Johannesburg',
+  'Asia/Dubai',
+  'Asia/Jerusalem',
+  'Asia/Kolkata',
+  'Asia/Bangkok',
+  'Asia/Hong_Kong',
+  'Asia/Tokyo',
+  'Asia/Seoul',
+  'Australia/Sydney',
+  'Pacific/Auckland',
+]
+
 const LOCAL_PROGRESS_EVENT = 'local-progress-refresh'
 
 const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) => {
@@ -44,12 +79,30 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
     setStopConfettiAfterCompletion,
     setAccentColor,
     setLanguage,
+    setTimezone,
+    setHourFormat,
     notifySettingsSaved,
   } = useSettings()
   const { t } = useTranslation()
   const { theme, setTheme } = useTheme()
   const auth = useAuth()
   const currentTheme = theme ?? 'system'
+  const timezoneOptions = useMemo(() => {
+    const supportedValuesOf =
+      typeof Intl !== 'undefined' && 'supportedValuesOf' in Intl
+        ? (Intl as unknown as { supportedValuesOf?: (key: string) => string[] }).supportedValuesOf
+        : undefined
+    const supportedTimezones =
+      typeof supportedValuesOf === 'function' ? supportedValuesOf('timeZone') ?? [] : []
+    const combined = [...CURATED_TIMEZONES, ...supportedTimezones]
+    const withCurrent =
+      settings.timezone && !combined.includes(settings.timezone)
+        ? [settings.timezone, ...combined]
+        : combined
+    return Array.from(new Set(withCurrent))
+  }, [settings.timezone])
+  const [isLocating, setIsLocating] = useState(false)
+  const [timezoneStatus, setTimezoneStatus] = useState<string | null>(null)
   const handleThemeChange = useCallback(
     (nextTheme: string) => {
       if (nextTheme === currentTheme) {
@@ -60,6 +113,27 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
     },
     [currentTheme, notifySettingsSaved, setTheme],
   )
+  const handleGetTimezone = useCallback(() => {
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+      setTimezoneStatus(t('getTimezoneError'))
+      return
+    }
+    setIsLocating(true)
+    setTimezoneStatus(t('getTimezoneRequest'))
+    navigator.geolocation.getCurrentPosition(
+      () => {
+        const resolvedTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone ?? 'UTC'
+        setTimezone(resolvedTimezone)
+        setTimezoneStatus(t('getTimezoneSuccess', { timezone: resolvedTimezone }))
+        setIsLocating(false)
+      },
+      () => {
+        setTimezoneStatus(t('getTimezoneError'))
+        setIsLocating(false)
+      },
+      { timeout: 10000 },
+    )
+  }, [setTimezone, t])
 
   return (
     <div
@@ -114,6 +188,74 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
             </button>
           ))}
         </div>
+      </div>
+      <div className="space-y-2">
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          {t('timezone')}
+        </p>
+        <p className="text-sm text-zinc-600 dark:text-zinc-400">{t('timezoneDesc')}</p>
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3">
+          <div className="relative w-full sm:flex-1">
+            <select
+              value={settings.timezone}
+              onChange={(event) => {
+                setTimezone(event.target.value)
+                setTimezoneStatus(null)
+              }}
+              className="w-full appearance-none rounded-xl border border-zinc-200 bg-white px-4 py-3 pr-10 text-left text-sm font-semibold text-zinc-900 shadow-sm transition hover:border-zinc-300 focus:border-[var(--accent-500)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100 dark:hover:border-zinc-700"
+            >
+              {timezoneOptions.map((timezone) => (
+                <option key={timezone} value={timezone}>
+                  {timezone}
+                </option>
+              ))}
+            </select>
+            <svg
+              aria-hidden="true"
+              className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-zinc-500 dark:text-zinc-400"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <button
+            type="button"
+            onClick={handleGetTimezone}
+            disabled={isLocating}
+            className={classNames(
+              'w-full rounded-xl px-4 py-3 text-sm font-semibold transition sm:w-auto',
+              isLocating
+                ? 'bg-zinc-300 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300'
+                : 'bg-[var(--accent-600)] text-white hover:bg-[var(--accent-500)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-[var(--accent-500)] dark:hover:bg-[var(--accent-400)]',
+            )}
+          >
+            {isLocating ? t('gettingTimezone') : t('getTimezone')}
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              const next = settings.hourFormat === '24h' ? '12h' : '24h'
+              setHourFormat(next)
+              setTimezoneStatus(null)
+            }}
+            className={classNames(
+              'w-full rounded-xl px-4 py-3 text-sm font-semibold transition sm:w-auto',
+              'bg-zinc-100 text-zinc-800 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)]',
+            )}
+          >
+            {settings.hourFormat === '24h' ? t('switchTo12Hour') : t('switchTo24Hour')}
+          </button>
+        </div>
+        {timezoneStatus && (
+          <p className="text-sm text-zinc-600 dark:text-zinc-400" aria-live="polite">
+            {timezoneStatus}
+          </p>
+        )}
       </div>
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">

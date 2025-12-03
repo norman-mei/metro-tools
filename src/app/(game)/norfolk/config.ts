@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/norfolk',
+    apple: '/api/city-icon/norfolk',
+  },
   title: 'Norfolk Metro Memory',
   description:
     'How many of the Norfolk Tide light rail stations can you name from memory?',

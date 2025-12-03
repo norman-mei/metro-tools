@@ -15,8 +15,8 @@ export const generateStaticParams = () =>
       slug: slugify(city),
     }))
 
-const StatsPage = async ({ params }: { params: { slug: string } }) => {
-  const { slug } = params
+const StatsPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
+  const { slug } = await params
   const city = cities.find((city) => slugify(city) === slug)
 
   if (!city) {

@@ -44,6 +44,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/wien',
+    apple: '/api/city-icon/wien',
+  },
   title: 'Wien U-Bahn Memory',
   description: 'Wie viele U-Bahn Stationen können Sie auswendig nennen?',
   openGraph: {

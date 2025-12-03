@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/morgantown',
+    apple: '/api/city-icon/morgantown',
+  },
   title: 'Morgantown Metro Memory',
   description:
     'How many of the Morgantown Personal Rapid Transit stations can you name from memory?',

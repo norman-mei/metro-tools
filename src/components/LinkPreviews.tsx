@@ -3,52 +3,55 @@ import LinkPreview from './LinkPreview'
 const links = [
   {
     url: 'https://www.theguardian.com/travel/2023/oct/31/metro-memory-and-tim-marshall-put-cartography-back-on-the-map',
-    title: 'The Guardian',
-    description: 'Metro Memory and Tim Marshall put cartography back on the map.',
-    image:
-      'https://i.guim.co.uk/img/media/5ba27b222fc00477ef2adbf3cc7bb53a1205aa68/0_0_2500_1500/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=8f58ce95b712c795d4e2e7f3aa466091',
+    title: 'Britons go map-crazy, with geographical games and books becoming bestsellers | Maps | The Guardian',
+    description:
+      'London tube game Metro Memory is a surprise hit, with geography books also finding favour with readers',
+    image: '/images/press/the-guardian.png',
   },
   {
     url: 'https://www.numerama.com/vroom/1518632-votre-mission-si-vous-lacceptez-retrouver-les-309-stations-de-metro-de-paris.html',
-    title: 'Numerama',
-    description: 'Un défi pour retrouver les 309 stations de métro de Paris.',
-    image:
-      'https://www.numerama.com/wp-content/uploads/2023/10/metro-memory.jpg?resize=1200%2C675&quality=80',
+    title:
+      "Votre mission, si vous l'acceptez : retrouver les 309 stations de métro de Paris - Numerama",
+    description:
+      'Des millions de personnes empruntent chaque jour le métro parisien. Mais, qui est vraiment capable de citer toutes les 309 stations de métro de Paris ...',
+    image: '/images/press/numerama.png',
   },
   {
     url: 'https://www.thetimes.co.uk/article/london-underground-map-game-tube-quiz-qqqgpmkps',
-    title: 'The Times',
-    description: 'The London Underground map game that tests your Tube knowledge.',
-    image:
-      'https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F347c8f80-7790-11ee-9e55-46c1d2b3b73f.jpg?crop=1024%2C576%2C0%2C0',
+    title: 'The viral Underground map game with half a million fans',
+    description:
+      'If friends or family have, in recent weeks, woken from a stupor screaming “Belsize Park!”, blame Tran Dinh: he is the creator of the Metro Memory Game...',
+    image: '/images/press/the-times.png',
   },
   {
     url: 'https://www.bbc.com/news/uk-england-london-67197933',
-    title: 'BBC',
-    description: 'A London Underground memory challenge that went viral.',
-    image:
-      'https://ichef.bbci.co.uk/news/1024/branded_news/0EF4/production/_131499478_thewissen-min-min.png',
+    title: 'Metro Memory Game: Tube station challenge becomes commuter hit',
+    description:
+      'The Metro Memory Game, released on Friday, has already had over 100,000 plays.',
+    image: '/images/press/bbc.png',
   },
   {
     url: 'https://www.timeout.fr/paris/actualites/ce-jeu-vous-defie-de-retrouver-le-maximum-de-stations-de-metro-de-tete-100923',
-    title: 'Time Out Paris',
-    description: 'Un jeu qui vous défie de retrouver un maximum de stations de métro.',
-    image:
-      'https://media.timeout.com/images/105805654/750/422/image.jpg',
+    title: 'Ce jeu vous défie de retrouver le maximum de stations de métro… de tête !',
+    description:
+      'La règle est simple : vous devez renseigner – sans contrainte de temps – le maximum de stations que vous connaissez dans la barre de recherche.',
+    image: '/images/press/timeout-paris.png',
   },
   {
     url: 'https://parissecret.com/jeu-stations-metro/',
-    title: 'Paris Secret',
-    description: 'Le jeu Metro Memory pour les passionnés de stations parisiennes.',
-    image:
-      'https://parissecret.com/wp-content/uploads/2023/10/metro-memory-paris-1200x900.jpg',
+    title:
+      'Combien de stations du métro parisien pouvez-vous nommer de tête ? Ce jeu vous le dira ! - Paris Secret',
+    description:
+      'Un petit jeu interactif a été conçu pour tester vos connaissances sur le métro parisien !',
+    image: '/images/press/paris-secret.png',
   },
   {
     url: 'https://www.sopitas.com/noticias/metro-memory-juego-nombres-estaciones-metro-cdmx/',
-    title: 'Sopitas',
-    description: 'El juego Metro Memory te reta con las estaciones del Metro CDMX.',
-    image:
-      'https://www.sopitas.com/wp-content/uploads/2023/11/metro-memory-juego-nombres-estaciones-metro-cdmx.jpg',
+    title:
+      'Metro Memory: El juego en boca de todos y que pone a prueba qué tanto sabes del Metro CDMX',
+    description:
+      'Metro Memory es el juego que está quebrando cabezas de capitalinos, pues pone a prueba tus conocimientos sobre las estaciones de la CDMX.',
+    image: '/images/press/sopitas.png',
   },
 ]
 

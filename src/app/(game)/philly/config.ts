@@ -196,6 +196,10 @@ export const LINES: { [name: string]: Line } = {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/philly',
+    apple: '/api/city-icon/philly',
+  },
   title: 'Philadelphia Transit Memory Game',
   description: 'How many of the Philadelphia transit stations can you name from memory?',
   openGraph: {

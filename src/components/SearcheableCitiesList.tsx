@@ -1152,7 +1152,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                 >
                   {CITY_VIEW_OPTIONS.map((option) => (
                     <option key={option.value} value={option.value}>
-                      {option.label}
+                      {t(option.label)}
                     </option>
                   ))}
                 </select>
@@ -1238,16 +1238,19 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             </p>
           </div>
           {renderGlobalBar(
-            'Overall completion',
+            t('globalOverallCompletion'),
             globalStats.percentFound,
-            `${globalStats.totalStationsFound} / ${globalStats.totalStations} stations found`,
+            t('globalOverallDetail', {
+              found: globalStats.totalStationsFound.toLocaleString(),
+              total: globalStats.totalStations.toLocaleString(),
+            }),
             true,
           )}
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
               <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-                Completed cities
+                {t('globalCompletedCities')}
               </p>
               <p className="mt-1 text-2xl font-bold text-emerald-600 dark:text-emerald-400">
                 {globalStats.completedCities}
@@ -1255,19 +1258,19 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             </div>
             <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
               <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-                In progress
+                {t('globalInProgress')}
               </p>
               <p className="mt-1 text-2xl font-bold text-amber-500">{globalStats.partialCities}</p>
             </div>
             <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
               <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-                Not started
+                {t('globalNotStarted')}
               </p>
               <p className="mt-1 text-2xl font-bold text-red-500">{globalStats.notStartedCities}</p>
             </div>
             <div className="rounded-2xl border border-zinc-200 bg-white p-4 text-sm font-semibold text-zinc-800 shadow-sm dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">
               <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-                Total cities
+                {t('globalTotalCities')}
               </p>
               <p
                 className="mt-1 text-2xl font-bold"
@@ -1283,11 +1286,11 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
               <div>
                 <p className="text-lg font-semibold text-zinc-800 dark:text-zinc-100">By city</p>
                 <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  Use the ... button to jump straight into a city’s detailed stats panel.
+                  {t('globalByCityHint')}
                 </p>
               </div>
               <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-                Stations progress
+                {t('cityStatsStationsProgress')}
               </span>
             </div>
             <div className="mb-3 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -1297,7 +1300,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                   onChange={(event) => setGlobalStatsSearch(event.target.value)}
                   className="block w-full rounded-full border-0 px-4 py-3 pr-10 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
                   type="text"
-                  placeholder="Search cities..."
+                  placeholder={t('globalSearchCities')}
                 />
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 dark:text-zinc-400">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -1310,7 +1313,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
               </div>
               <div className="w-full md:w-64">
                 <label className="sr-only" htmlFor="global-stats-city-sort">
-                  Sort cities
+                  {t('globalSortCities')}
                 </label>
                 <select
                   id="global-stats-city-sort"
@@ -1320,7 +1323,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                 >
                   {CITY_SORT_OPTIONS.map((option) => (
                     <option key={option.value} value={option.value}>
-                      {option.label}
+                      {t(option.label as any)}
                     </option>
                   ))}
                 </select>
@@ -1351,7 +1354,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                           className="text-sm font-semibold"
                           style={{ color: getGradientColor(entry.percent) }}
                         >
-                          ({entry.found} / {entry.total} stations)
+                          ({entry.found} / {entry.total} {t('stationsFound')})
                         </span>
                       </div>
                       <div className="flex items-center gap-3">
@@ -1428,11 +1431,9 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
         </div>
       ) : activeTab === 'support' ? (
         <div className="space-y-6">
-          <h3 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">Support me!</h3>
-          <div className="flex justify-center">
-            <div className="w-full max-w-md">
-              <KoFiWidget open onClose={() => null} onNever={() => null} />
-            </div>
+          <h3 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">{t('tabSupport')}</h3>
+          <div className="w-full">
+            <KoFiWidget open onClose={() => null} onNever={() => null} height={600} showFooter={false} />
           </div>
         </div>
       ) : activeTab === 'privacy' ? (
@@ -1576,7 +1577,7 @@ const Achievements = ({
                   isUnlocked ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-500',
                 )}
               >
-                {isUnlocked ? 'Unlocked' : 'Locked'}
+                {isUnlocked ? t('achievementUnlocked') : t('achievementLocked')}
               </span>
             </div>
           )
@@ -1740,8 +1741,8 @@ export default SearcheableCitiesList
 type CityViewMode = 'comfortable' | 'compact' | 'cover' | 'list'
 
 const CITY_VIEW_OPTIONS: Array<{ value: CityViewMode; label: string }> = [
-  { value: 'comfortable', label: 'Comfortable' },
-  { value: 'compact', label: 'Compact' },
-  { value: 'cover', label: 'Cover' },
-  { value: 'list', label: 'List' },
+  { value: 'comfortable', label: 'cityViewComfortable' },
+  { value: 'compact', label: 'cityViewCompact' },
+  { value: 'cover', label: 'cityViewCover' },
+  { value: 'list', label: 'cityViewList' },
 ]

@@ -28423,12 +28423,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7265,
-          40.7128
+          -73.725549,
+          40.720074
         ]
       },
       "properties": {
-        "name": "Elmont UBS Arena",
+        "name": "Elmont-UBS Arena",
         "alternate_names": [
           "Elmont",
           "UBS Arena"
@@ -28443,12 +28443,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7265,
-          40.7128
+          -73.725549,
+          40.720074
         ]
       },
       "properties": {
-        "name": "Elmont UBS Arena",
+        "name": "Elmont-UBS Arena",
         "alternate_names": [
           "Elmont",
           "UBS Arena"

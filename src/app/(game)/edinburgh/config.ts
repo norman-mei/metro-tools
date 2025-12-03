@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/edinburgh',
+    apple: '/api/city-icon/edinburgh',
+  },
   title: 'Edinburgh Tram Memory Game',
   description: 'How many stops along the Edinburgh Tram can you remember?',
   openGraph: {

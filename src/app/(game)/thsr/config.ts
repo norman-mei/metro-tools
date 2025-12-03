@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/thsr',
+    apple: '/api/city-icon/thsr',
+  },
   title: 'Taiwan High Speed Rail Metro Memory',
   description: 'How many Taiwan High Speed Rail stations can you name from memory?',
   openGraph: {

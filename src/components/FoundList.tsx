@@ -1,16 +1,17 @@
 'use client'
 
+import SortMenu from '@/components/SortMenu'
+import useTranslation from '@/hooks/useTranslation'
+import { useConfig } from '@/lib/configContext'
+import { DataFeature, SortOption, SortOptionType } from '@/lib/types'
 import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
-import SortMenu from '@/components/SortMenu'
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { SortOption, DataFeature, SortOptionType } from '@/lib/types'
-import { DateAddedIcon } from './DateAddedIcon'
 import { sortBy } from 'lodash'
-import Image from 'next/image'
-import { useConfig } from '@/lib/configContext'
-import useTranslation from '@/hooks/useTranslation'
 import { useTheme } from 'next-themes'
+import Image from 'next/image'
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { DateAddedIcon } from './DateAddedIcon'
+import { useSettings } from '@/context/SettingsContext'
 
 const getStationKey = (feature: DataFeature) => {
   const nameCandidates: unknown[] = [
@@ -126,6 +127,7 @@ const FoundList = ({
 }) => {
   const { LINES } = useConfig()
   const { t } = useTranslation()
+  const { settings } = useSettings()
 
   const sortOptions: SortOption[] = useMemo(
     () => [
@@ -263,16 +265,31 @@ const FoundList = ({
 
   const timestampFormatter = useMemo(
     () =>
-      new Intl.DateTimeFormat('en-US', {
-        month: '2-digit',
-        day: '2-digit',
-        year: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false,
-        timeZone: 'UTC',
-      }),
-    [],
+      (() => {
+        const baseOptions: Intl.DateTimeFormatOptions = {
+          month: '2-digit',
+          day: '2-digit',
+          year: '2-digit',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false,
+          timeZoneName: 'short',
+        }
+        try {
+          return new Intl.DateTimeFormat('en-US', {
+            ...baseOptions,
+            timeZone: settings.timezone || 'UTC',
+            hour12: settings.hourFormat === '12h',
+          })
+        } catch {
+          return new Intl.DateTimeFormat('en-US', {
+            ...baseOptions,
+            timeZone: 'UTC',
+            hour12: settings.hourFormat === '12h',
+          })
+        }
+      })(),
+    [settings.timezone, settings.hourFormat],
   )
 
   const formatTimestamp = useCallback(
@@ -292,7 +309,7 @@ const FoundList = ({
         .replace(/\s+/g, ' ')
         .trim()
 
-      return `${formatted} UTC`
+      return formatted
     },
     [timestampFormatter],
   )
@@ -515,7 +532,7 @@ const GroupedLine = memo(
             <div
               className={classNames(
                 'flex flex-wrap items-center',
-                CITY_NAME === 'ny' ? 'gap-[0.001rem]' : 'gap-1',
+                CITY_NAME === 'ny' ? 'gap-0' : 'gap-1',
               )}
             >
               {lineIds.map((lineId) => {

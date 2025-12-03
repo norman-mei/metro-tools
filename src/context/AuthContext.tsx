@@ -41,12 +41,12 @@ type AuthContextValue = {
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const { settings, setLanguage } = useSettings()
+  const { settings, setLanguage, setTimezone, setHourFormat } = useSettings()
   const [user, setUser] = useState<AuthUser | null>(null)
   const [loading, setLoading] = useState(true)
   const [progressSummaries, setProgressSummaries] = useState<ProgressSummaries>({})
   const [uiPreferences, setUiPreferences] = useState<UiPreferences>({})
-  const languageInitializedRef = useRef(false)
+  const preferencesInitializedRef = useRef(false)
 
   const refresh = useCallback(async () => {
     setLoading(true)
@@ -166,27 +166,70 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!user) {
-      languageInitializedRef.current = false
+      preferencesInitializedRef.current = false
       return
     }
 
-    if (
-      uiPreferences.language &&
-      uiPreferences.language !== settings.language
-    ) {
-      setLanguage(uiPreferences.language, { silent: true })
+    if (!preferencesInitializedRef.current) {
+      let hydrated = false
+      if (
+        uiPreferences.language &&
+        uiPreferences.language !== settings.language
+      ) {
+        setLanguage(uiPreferences.language, { silent: true })
+        hydrated = true
+      }
+      if (
+        uiPreferences.timezone &&
+        uiPreferences.timezone !== settings.timezone
+      ) {
+        setTimezone(uiPreferences.timezone, { silent: true })
+        hydrated = true
+      }
+      if (
+        uiPreferences.hourFormat &&
+        uiPreferences.hourFormat !== settings.hourFormat
+      ) {
+        setHourFormat(uiPreferences.hourFormat, { silent: true })
+        hydrated = true
+      }
+
+      if (!hydrated) {
+        preferencesInitializedRef.current = true
+      }
       return
     }
-
-    languageInitializedRef.current = true
-  }, [setLanguage, settings.language, uiPreferences.language, user])
+  }, [
+    setHourFormat,
+    setLanguage,
+    setTimezone,
+    settings.hourFormat,
+    settings.language,
+    settings.timezone,
+    uiPreferences.hourFormat,
+    uiPreferences.language,
+    uiPreferences.timezone,
+    user,
+  ])
 
   useEffect(() => {
-    if (!user || !languageInitializedRef.current) {
+    if (!user || !preferencesInitializedRef.current) {
       return
     }
 
-    if (uiPreferences.language === settings.language) {
+    const changes: Partial<UiPreferences> = {}
+
+    if (uiPreferences.language !== settings.language) {
+      changes.language = settings.language
+    }
+    if (uiPreferences.timezone !== settings.timezone) {
+      changes.timezone = settings.timezone
+    }
+    if (uiPreferences.hourFormat !== settings.hourFormat) {
+      changes.hourFormat = settings.hourFormat
+    }
+
+    if (Object.keys(changes).length === 0) {
       return
     }
 
@@ -196,7 +239,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         const response = await fetch('/api/user/preferences', {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ language: settings.language }),
+          body: JSON.stringify(changes),
           signal: controller.signal,
         })
 
@@ -211,6 +254,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
         const payload = await response.json().catch(() => ({}))
         setUiPreferences(normalizeUiPreferences(payload.preferences))
+        preferencesInitializedRef.current = true
       } catch {
         // ignore network errors; local optimistic state already applied
       }

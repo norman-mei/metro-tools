@@ -1,0 +1,576 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.5082492248556818, 53.40070526518103] },
+      "properties": { "name": "Malin Bridge", "line": "Blue", "id": 0 },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4999738937976397, 53.40203629970028] },
+      "properties": { "name": "Hillsborough", "line": "Blue", "id": 1 },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.492569806820258, 53.39890244935776] },
+      "properties": { "name": "Bamforth Street", "line": "Blue", "id": 2 },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4893834541008273, 53.395795778490125] },
+      "properties": { "name": "Langsett/Primrose View", "line": "Blue", "id": 3 },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4826396285571097, 53.39097228948256] },
+      "properties": { "name": "Infirmary Road", "line": "Blue", "id": 4 },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4779635418901027, 53.38869226507265] },
+      "properties": {
+        "name": "Shalesmoor",
+        "line": "Blue",
+        "id": 5,
+        "alternate_names": ["Kelham Island"]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4825477181109266, 53.38474864555839] },
+      "properties": { "name": "Netherthorpe Road", "line": "Blue", "id": 6 },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4840739906338516, 53.380729214111135] },
+      "properties": { "name": "University of Sheffield", "line": "Blue", "id": 7 },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4778222842490716, 53.38049094265649] },
+      "properties": { "name": "West Street", "line": "Blue", "id": 8 },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4723605476567057, 53.38208839353532] },
+      "properties": { "name": "City Hall", "line": "Blue", "id": 9 },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4690443512547577, 53.382609114915326] },
+      "properties": { "name": "Cathedral", "line": "Blue", "id": 10 },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4660746466867849, 53.38312006874723] },
+      "properties": { "name": "Castle Square", "line": "Blue", "id": 11 },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4638780226341428, 53.383179642672076] },
+      "properties": { "name": "Fitzalan Square / Ponds Forge", "line": "Blue", "id": 12 },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4613564647804922, 53.377953063762696] },
+      "properties": {
+        "name": "Sheffield",
+        "line": "Blue",
+        "id": 13,
+        "alternate_names": ["Sheffield Hallam University"]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4615851994699918, 53.375053498735014] },
+      "properties": {
+        "name": "Granville Road",
+        "line": "Blue",
+        "id": 14,
+        "alternate_names": ["The Sheffield College"]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4587883135659885, 53.370350034172795] },
+      "properties": { "name": "Park Grange Croft", "line": "Blue", "id": 15 },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.455024075592244, 53.36714440206149] },
+      "properties": { "name": "Park Grange", "line": "Blue", "id": 16 },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.448028702167738, 53.363441390447676] },
+      "properties": { "name": "Arbourthorne Road", "line": "Blue", "id": 17 },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4388100786885551, 53.36635129409835] },
+      "properties": { "name": "Spring Lane", "line": "Blue", "id": 18 },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4288648805029638, 53.35968066127316] },
+      "properties": { "name": "Manor Top", "line": "Blue", "id": 19 },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4245400844936018, 53.35207636314188] },
+      "properties": { "name": "Hollinsend", "line": "Blue", "id": 20 },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.425910087213633, 53.34611841685509] },
+      "properties": { "name": "Gleadless Townend", "line": "Blue", "id": 21 },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4197959154169255, 53.34308487102697] },
+      "properties": { "name": "White Lane", "line": "Blue", "id": 22 },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3993547716922385, 53.340418737951886] },
+      "properties": { "name": "Birley Lane", "line": "Blue", "id": 23 },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.388712416216926, 53.34160317382941] },
+      "properties": { "name": "Birley Moor Road", "line": "Blue", "id": 24 },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.381037817335936, 53.343606287152724] },
+      "properties": { "name": "Hackenthorpe", "line": "Blue", "id": 25 },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3703922627724656, 53.34175353147757] },
+      "properties": { "name": "Donetsk Way", "line": "Blue", "id": 26 },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3626587452298273, 53.34219070750237] },
+      "properties": { "name": "Moss Way", "line": "Blue", "id": 27 },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3561302227160363, 53.34171123907058] },
+      "properties": { "name": "Crystal Peaks", "line": "Blue", "id": 28 },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.347513025982437, 53.341739190588676] },
+      "properties": {
+        "name": "Drake House Lane",
+        "line": "Blue",
+        "id": 29,
+        "alternate_names": ["Beighton"]
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3450814745298656, 53.33652099610962] },
+      "properties": { "name": "Waterthorpe", "line": "Blue", "id": 30 },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3438448026647403, 53.331861510513434] },
+      "properties": { "name": "Westfield", "line": "Blue", "id": 31 },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.344330859695218, 53.328570482778886] },
+      "properties": { "name": "Halfway", "line": "Blue", "id": 32 },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.5101605302804206, 53.41594806206955] },
+      "properties": { "name": "Middlewood", "line": "Yellow", "id": 33 },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.504225966114538, 53.41028535024916] },
+      "properties": { "name": "Leppings Lane", "line": "Yellow", "id": 34 },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.5036645481730184, 53.40443450260195] },
+      "properties": { "name": "Hillsborough Park", "line": "Yellow", "id": 35 },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4999738937976397, 53.40203629970028] },
+      "properties": { "name": "Hillsborough", "line": "Yellow", "id": 36 },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.492569806820258, 53.39890244935776] },
+      "properties": { "name": "Bamforth Street", "line": "Yellow", "id": 37 },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4893834541008273, 53.395795778490125] },
+      "properties": { "name": "Langsett/Primrose View", "line": "Yellow", "id": 38 },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4826396285571097, 53.39097228948256] },
+      "properties": { "name": "Infirmary Road", "line": "Yellow", "id": 39 },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4779635418901027, 53.38869226507265] },
+      "properties": {
+        "name": "Shalesmoor",
+        "line": "Yellow",
+        "id": 40,
+        "alternate_names": ["Kelham Island"]
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4825477181109266, 53.38474864555839] },
+      "properties": { "name": "Netherthorpe Road", "line": "Yellow", "id": 41 },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4840739906338516, 53.380729214111135] },
+      "properties": { "name": "University of Sheffield", "line": "Yellow", "id": 42 },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4778222842490716, 53.38049094265649] },
+      "properties": { "name": "West Street", "line": "Yellow", "id": 43 },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4723605476567057, 53.38208839353532] },
+      "properties": { "name": "City Hall", "line": "Yellow", "id": 44 },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4690443512547577, 53.382609114915326] },
+      "properties": { "name": "Cathedral", "line": "Yellow", "id": 45 },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4660746466867849, 53.38312006874723] },
+      "properties": { "name": "Castle Square", "line": "Yellow", "id": 46 },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4638780226341428, 53.383179642672076] },
+      "properties": { "name": "Fitzalan Square / Ponds Forge", "line": "Yellow", "id": 47 },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4524441164341957, 53.38465628890422] },
+      "properties": { "name": "Hyde Park", "line": "Yellow", "id": 48 },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4466503317892427, 53.38403767970226] },
+      "properties": { "name": "Cricket Inn Road", "line": "Yellow", "id": 49 },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.441826554181071, 53.38552510367081] },
+      "properties": { "name": "Nunnery Square", "line": "Yellow", "id": 50 },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4345712198620209, 53.3888783651916] },
+      "properties": { "name": "Woodbourn Road", "line": "Yellow", "id": 51 },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4299857926850497, 53.392324263094274] },
+      "properties": { "name": "Attercliffe", "line": "Yellow", "id": 52 },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.420314188118948, 53.39831533518349] },
+      "properties": { "name": "Arena / Olympic Legacy Park", "line": "Yellow", "id": 53 },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4126274977928095, 53.40222069850813] },
+      "properties": { "name": "Valley Centertainment", "line": "Yellow", "id": 54 },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4108993645024517, 53.405538725818126] },
+      "properties": {
+        "name": "Carbrook",
+        "line": "Yellow",
+        "id": 55,
+        "alternate_names": ["IKEA"]
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4049981369737512, 53.414304639641] },
+      "properties": { "name": "Meadowhall South / Tinsley", "line": "Yellow", "id": 56 },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4126927724456693, 53.41744281404193] },
+      "properties": {
+        "name": "Meadowhall Interchange",
+        "line": "Yellow",
+        "id": 57,
+        "alternate_names": ["Meadowhall"]
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4690443512547577, 53.382609114915326] },
+      "properties": { "name": "Cathedral", "line": "Purple", "id": 58 },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4660746466867849, 53.38312006874723] },
+      "properties": { "name": "Castle Square", "line": "Purple", "id": 59 },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4638780226341428, 53.383179642672076] },
+      "properties": { "name": "Fitzalan Square / Ponds Forge", "line": "Purple", "id": 60 },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4613564647804922, 53.377953063762696] },
+      "properties": {
+        "name": "Sheffield",
+        "line": "Purple",
+        "id": 61,
+        "alternate_names": ["Sheffield Hallam University"]
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4615851994699918, 53.375053498735014] },
+      "properties": {
+        "name": "Granville Road",
+        "line": "Purple",
+        "id": 62,
+        "alternate_names": ["The Sheffield College"]
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4587883135659885, 53.370350034172795] },
+      "properties": { "name": "Park Grange Croft", "line": "Purple", "id": 63 },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.455024075592244, 53.36714440206149] },
+      "properties": { "name": "Park Grange", "line": "Purple", "id": 64 },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.448028702167738, 53.363441390447676] },
+      "properties": { "name": "Arbourthorne Road", "line": "Purple", "id": 65 },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4388100786885551, 53.36635129409835] },
+      "properties": { "name": "Spring Lane", "line": "Purple", "id": 66 },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4288648805029638, 53.35968066127316] },
+      "properties": { "name": "Manor Top", "line": "Purple", "id": 67 },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4245400844936018, 53.35207636314188] },
+      "properties": { "name": "Hollinsend", "line": "Purple", "id": 68 },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.425910087213633, 53.34611841685509] },
+      "properties": { "name": "Gleadless Townend", "line": "Purple", "id": 69 },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4324712112153066, 53.34249842082155] },
+      "properties": { "name": "Herdings / Leighton Road", "line": "Purple", "id": 70 },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4398967601044124, 53.34248413704107] },
+      "properties": { "name": "Herdings Park", "line": "Purple", "id": 71 },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4690443512547577, 53.382609114915326] },
+      "properties": { "name": "Cathedral", "line": "TramTrain", "id": 72 },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4660746466867849, 53.38312006874723] },
+      "properties": { "name": "Castle Square", "line": "TramTrain", "id": 73 },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4638780226341428, 53.383179642672076] },
+      "properties": { "name": "Fitzalan Square / Ponds Forge", "line": "TramTrain", "id": 74 },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4524441164341957, 53.38465628890422] },
+      "properties": { "name": "Hyde Park", "line": "TramTrain", "id": 75 },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4466503317892427, 53.38403767970226] },
+      "properties": { "name": "Cricket Inn Road", "line": "TramTrain", "id": 76 },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.441826554181071, 53.38552510367081] },
+      "properties": { "name": "Nunnery Square", "line": "TramTrain", "id": 77 },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4345712198620209, 53.3888783651916] },
+      "properties": { "name": "Woodbourn Road", "line": "TramTrain", "id": 78 },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4299857926850497, 53.392324263094274] },
+      "properties": { "name": "Attercliffe", "line": "TramTrain", "id": 79 },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.420314188118948, 53.39831533518349] },
+      "properties": { "name": "Arena / Olympic Legacy Park", "line": "TramTrain", "id": 80 },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4126274977928095, 53.40222069850813] },
+      "properties": { "name": "Valley Centertainment", "line": "TramTrain", "id": 81 },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4108993645024517, 53.405538725818126] },
+      "properties": {
+        "name": "Carbrook",
+        "line": "TramTrain",
+        "id": 82,
+        "alternate_names": ["IKEA"]
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.4049981369737512, 53.414304639641] },
+      "properties": { "name": "Meadowhall South / Tinsley", "line": "TramTrain", "id": 83 },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.361093455811529, 53.431655860262445] },
+      "properties": { "name": "Rotherham Central", "line": "TramTrain", "id": 84 },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.3433177336855098, 53.4429568484816] },
+      "properties": {
+        "name": "Parkgate",
+        "line": "TramTrain",
+        "id": 85,
+        "alternate_names": ["Rotherham Parkgate"]
+      },
+      "id": 85
+    }
+  ]
+}

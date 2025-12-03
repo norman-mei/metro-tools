@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/dongguan',
+    apple: '/api/city-icon/dongguan',
+  },
   title: 'Dongguan Metro Memory',
   description: 'How many Dongguan Rail Transit Line 2 stations can you name from memory?',
   openGraph: {

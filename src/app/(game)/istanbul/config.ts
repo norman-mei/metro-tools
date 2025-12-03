@@ -121,6 +121,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/istanbul',
+    apple: '/api/city-icon/istanbul',
+  },
   title: 'Istanbul Metro Memory',
   description:
     'İstanbul metrosu hakkında bilgi edinin ve hafızanızı test edin.',

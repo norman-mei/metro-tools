@@ -1,0 +1,34 @@
+{
+  "Yellow": {
+    "name": "Yellow",
+    "color": "#FFCC00",
+    "backgroundColor": "#FFCC00",
+    "textColor": "#000000",
+    "icon": "sheffieldyellow.svg",
+    "order": 0
+  },
+  "Blue": {
+    "name": "Blue",
+    "color": "#007AC8",
+    "backgroundColor": "#007AC8",
+    "textColor": "#FFFFFF",
+    "icon": "sheffieldblue.svg",
+    "order": 1
+  },
+  "Purple": {
+    "name": "Purple",
+    "color": "#7A3E8C",
+    "backgroundColor": "#7A3E8C",
+    "textColor": "#FFFFFF",
+    "icon": "sheffieldpurple.svg",
+    "order": 2
+  },
+  "TramTrain": {
+    "name": "Tram Train",
+    "color": "#E86A10",
+    "backgroundColor": "#E86A10",
+    "textColor": "#FFFFFF",
+    "icon": "sheffieldtt.svg",
+    "order": 3
+  }
+}

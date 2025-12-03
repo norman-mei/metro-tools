@@ -35,6 +35,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/cincinnati',
+    apple: '/api/city-icon/cincinnati',
+  },
   title: 'Cincinnati Metro Memory',
   description:
     'How many of the Cincinnati Connector streetcar and airport people mover stops can you name from memory?',

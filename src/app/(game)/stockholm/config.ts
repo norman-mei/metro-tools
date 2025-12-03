@@ -58,6 +58,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/stockholm',
+    apple: '/api/city-icon/stockholm',
+  },
   title: 'Stockholm Metro Memory',
   description: 'Hur bra kan du namnen på Stockholms tunnelbanestationer?',
   openGraph: {

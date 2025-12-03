@@ -33,6 +33,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/twincities',
+    apple: '/api/city-icon/twincities',
+  },
   title: 'Minneapolis-St. Paul Metro Memory',
   description:
     'How many of the Minneapolis-St. Paul METRO & airport tram stations can you name from memory?',

@@ -30,6 +30,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/portland',
+    apple: '/api/city-icon/portland',
+  },
   title: 'Portland Metro Memory',
   description: 'How many TriMet stations in the Portland region can you name from memory?',
   openGraph: {

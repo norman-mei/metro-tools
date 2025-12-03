@@ -32,6 +32,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/lv',
+    apple: '/api/city-icon/lv',
+  },
   title: 'Las Vegas Metro Memory',
   description:
     'How many of the Las Vegas Monorail stations can you name from memory?',

@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/newcastle',
+    apple: '/api/city-icon/newcastle',
+  },
   title: 'Newcastle Metro Memory',
   description: 'How many of the Newcastle Light Rail stops can you name from memory?',
   openGraph: {

@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/macau',
+    apple: '/api/city-icon/macau',
+  },
   title: 'Macau Metro Memory',
   description:
     'How many of the Macau LRT stations can you name from memory?',

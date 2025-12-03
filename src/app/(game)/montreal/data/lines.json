@@ -36,9 +36,10 @@
   },
   "AMTRailExo2": {
     "name": "exo2",
-    "color": "#A2D586",
-    "backgroundColor": "#4B812D",
-    "textColor": "#FFFFFF",
+    "color": "#FFDF7E",
+    "progressOutlineColor": "#FFDF7E",
+    "backgroundColor": "#8A6A1F",
+    "textColor": "#000000",
     "order": 5
   },
   "AMTRailExo3": {

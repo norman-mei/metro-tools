@@ -114,6 +114,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/dc',
+    apple: '/api/city-icon/dc',
+  },
   title: 'Washington DC Metro Memory Game',
   description: 'How many of the DC metro stations can you name from memory?',
   openGraph: {

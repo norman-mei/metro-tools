@@ -20,6 +20,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/galveston',
+    apple: '/api/city-icon/galveston',
+  },
   title: 'Galveston Metro Memory',
   description: 'How many of the Galveston Island Trolley stops can you name from memory?',
   openGraph: {

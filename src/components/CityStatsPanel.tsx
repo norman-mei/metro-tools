@@ -7,6 +7,7 @@ import { getCompletionColor } from '@/lib/progressColors'
 import { STATION_TOTALS } from '@/lib/stationTotals'
 import { getStationKey } from '@/lib/stationUtils'
 import { Config, DataFeature, DataFeatureCollection, LineGroup } from '@/lib/types'
+import useTranslation from '@/hooks/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState, type MouseEvent as ReactMouseEvent } from 'react'
@@ -446,6 +447,7 @@ const CityStatsPanel = ({
   onNavigatePrevious,
   onNavigateNext,
 }: CityStatsPanelProps) => {
+  const { t } = useTranslation()
   const { settings } = useSettings()
   const accentPalette =
     ACCENT_COLOR_MAP[settings.accentColor] ??
@@ -564,7 +566,7 @@ const CityStatsPanel = ({
       <div className="grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-[#18181b] dark:bg-zinc-900/40">
           <p className="text-sm uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-            Stations progress
+            {t('cityStatsStationsProgress')}
           </p>
           <p className="mt-2 text-3xl font-semibold text-zinc-900 dark:text-zinc-50">
             <span className="text-emerald-500">
@@ -578,35 +580,36 @@ const CityStatsPanel = ({
             className="mt-1 text-sm font-semibold"
             style={{ color: getCompletionColor(stats.percentFound) }}
           >
-            {formatPercent(stats.percentFound)} found
+            {t('cityStatsPercentFound', { percent: formatPercent(stats.percentFound) })}
           </p>
         </div>
         <div className="rounded-2xl border border-zinc-200 bg-white p-4 dark:border-[#18181b] dark:bg-zinc-900">
           <p className="text-sm uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-            Time spent
+            {t('cityStatsTimeSpent')}
           </p>
           <p className="mt-2 text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
             {formatDuration(stats.cumulativeTimeMs)}
           </p>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
-            Avg {formatDuration(stats.avgTimePerStationMs)} per station ·{' '}
-            {stats.uniquePlayDays} play day
-            {stats.uniquePlayDays === 1 ? '' : 's'}
+            {t('cityStatsAvgPerStation', {
+              duration: formatDuration(stats.avgTimePerStationMs),
+            })}{' '}
+            · {t('cityStatsPlayDays', { count: stats.uniquePlayDays })}
           </p>
         </div>
         <div className="rounded-2xl border border-zinc-200 bg-white p-4 dark:border-[#18181b] dark:bg-zinc-900">
           <p className="text-sm uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-            First &amp; latest finds
+            {t('cityStatsFirstLatest')}
           </p>
           <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-200">
-            First: {formatDateTime(stats.firstFoundAt)}
+            {t('cityStatsFirst', { value: formatDateTime(stats.firstFoundAt) })}
             <br />
-            Latest: {formatDateTime(stats.lastFoundAt)}
+            {t('cityStatsLatest', { value: formatDateTime(stats.lastFoundAt) })}
           </p>
         </div>
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-[#18181b] dark:bg-zinc-900/40">
           <p className="text-sm uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-            Completed lines
+            {t('cityStatsCompletedLines')}
           </p>
           {(() => {
             const totalLineCount = stats.lineStats.filter((line) => line.total > 0).length
@@ -623,10 +626,12 @@ const CityStatsPanel = ({
           })()}
           {stats.fastestCompletedLine && (
             <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
-              Fastest: {stats.fastestCompletedLine.name}{' '}
-              {stats.fastestCompletedLine.durationMs
-                ? `in ${formatDuration(stats.fastestCompletedLine.durationMs)}`
-                : ''}
+              {t('cityStatsFastestLine', {
+                line: stats.fastestCompletedLine.name,
+                duration: stats.fastestCompletedLine.durationMs
+                  ? formatDuration(stats.fastestCompletedLine.durationMs)
+                  : undefined,
+              })}
             </p>
           )}
         </div>
@@ -647,7 +652,7 @@ const CityStatsPanel = ({
     return (
       <div>
         <h4 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-          Line breakdown
+          {t('cityStatsLineBreakdown')}
         </h4>
         <div className="mt-3 space-y-3">
           {visibleLines
@@ -685,7 +690,7 @@ const CityStatsPanel = ({
                       <div className="text-right text-xs text-zinc-500 dark:text-zinc-400">
                         {line.durationMs
                           ? `Active for ${formatDuration(line.durationMs)}`
-                          : 'No time data yet'}
+                          : t('cityStatsNoTimeData')}
                       </div>
                     </div>
                     <div className="mt-2 h-2 rounded-full bg-zinc-200 dark:bg-zinc-800">
@@ -717,7 +722,7 @@ const CityStatsPanel = ({
     return (
       <div>
         <h4 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-          Headers &amp; subheaders
+          {t('cityStatsHeadersSubheaders')}
         </h4>
         <div className="mt-3 space-y-4">
           {stats.groupStats.map((group, idx) => (
@@ -932,10 +937,10 @@ const CityStatsPanel = ({
           {!loading && !error && (
             <div>
               <h4 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-                Station timeline
+                {t('cityStatsTimelineTitle')}
               </h4>
               <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
-                Latest ten timestamped stations with time elapsed since your first find.
+                {t('cityStatsTimelineSubtitle')}
               </p>
               <div className="mt-3">{renderTimeline()}</div>
             </div>

@@ -38,6 +38,23 @@ export const i18n = rosetta({
     hideLabels: 'Hide station labels',
     about: 'Credits',
     cityStats: 'City stats',
+    cityStatsStationsProgress: 'Stations progress',
+    cityStatsTimeSpent: 'Time spent',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Avg ${duration} per station`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} play day${count === 1 ? "" : "s"}`,
+    cityStatsFirstLatest: 'First & latest finds',
+    cityStatsFirst: ({ value }: { value: string }): string => `First: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Latest: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} found`,
+    cityStatsCompletedLines: 'Completed lines',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Fastest: ${line}${duration ? ` in ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Line breakdown',
+    cityStatsNoTimeData: 'No time data yet',
+    cityStatsTimelineTitle: 'Station timeline',
+    cityStatsTimelineSubtitle: 'Latest ten timestamped stations with time elapsed since your first find.',
+    cityStatsHeadersSubheaders: 'Headers & subheaders',
+
+
     settings: 'Settings',
     account: 'Account',
     privacy: 'Privacy',
@@ -54,7 +71,10 @@ export const i18n = rosetta({
         donation.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Support the project',
+    kofiDismiss: 'Dismiss',
+    kofiNever: 'Do not show again',
+opensANewTab:
       'This link will open a new tab and your progress is saved in your browser.',
     keepGoingForFree: 'Keep going for free',
     sort: {
@@ -70,6 +90,16 @@ export const i18n = rosetta({
         : 'No stations found',
     // New UI Keys
     language: 'Language',
+    timezone: 'Timezone',
+    timezoneDesc: 'Default is UTC. Choose a timezone or detect it automatically.',
+    getTimezone: 'Get timezone',
+    gettingTimezone: 'Getting timezone...',
+    getTimezoneRequest: 'Requesting location access to detect your timezone...',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Timezone set to ${timezone}.`,
+    getTimezoneError: 'Unable to detect your timezone. Please choose one.',
+    switchTo12Hour: 'Switch to 12-hour',
+    switchTo24Hour: 'Switch to 24-hour',
+
     theme: 'Theme',
     systemDefault: 'System default',
     light: 'Light',
@@ -133,10 +163,24 @@ export const i18n = rosetta({
     tabTestimonials: 'What people say',
     tabPress: 'They talked about us',
     tabSupport: 'Support me!',
+    globalOverallCompletion: 'Overall completion',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string =>
+      `${found} / ${total} stations found`,
+    globalCompletedCities: 'Completed cities',
+    globalInProgress: 'In progress',
+    globalNotStarted: 'Not started',
+    globalTotalCities: 'Total cities',
+    globalByCityHint: 'Use the ... button to jump straight into a city’s detailed stats panel.',
+    globalSearchCities: 'Search cities...',
+    globalSortCities: 'Sort cities',
 
     // Sort
     sortDefault: 'Default order',
     sortNameAsc: 'Name (A-Z)',
+    cityViewComfortable: 'Comfortable',
+    cityViewCompact: 'Compact',
+    cityViewCover: 'Cover',
+    cityViewList: 'List',
     sortNameDesc: 'Name (Z-A)',
     sortContinentAsc: 'Continent (A-Z)',
     sortContinentDesc: 'Continent (Z-A)',
@@ -150,6 +194,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Unlocked achievements: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Locked achievements: ${locked}`,
+    achievementUnlocked: 'Unlocked',
+    achievementLocked: 'Locked',
 
     // Continents
     northAmerica: 'North America',
@@ -285,6 +331,23 @@ export const i18n = rosetta({
     hideLabels: 'Masquer les étiquettes',
     about: 'Crédits',
     cityStats: 'Statistiques de la ville',
+    cityStatsStationsProgress: 'Progression des stations',
+    cityStatsTimeSpent: 'Temps passé',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Moyenne de ${duration} par station`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} jour${count > 1 ? 's' : ''} de jeu`,
+    cityStatsFirstLatest: 'Premières et dernières trouvailles',
+    cityStatsFirst: ({ value }: { value: string }): string => `Première : ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Dernière : ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} trouvées`,
+    cityStatsCompletedLines: 'Lignes complétées',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Plus rapide : ${line}${duration ? ` en ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Répartition par ligne',
+    cityStatsNoTimeData: 'Pas encore de données de temps',
+    cityStatsTimelineTitle: 'Chronologie des stations',
+    cityStatsTimelineSubtitle: 'Dix dernières stations horodatées avec le temps écoulé depuis votre première découverte.',
+    cityStatsHeadersSubheaders: 'En-têtes et sous-titres',
+
+
     settings: 'Paramètres',
     account: 'Compte',
     privacy: 'Confidentialité',
@@ -300,7 +363,10 @@ export const i18n = rosetta({
         Soutenez le développement de <strong>{title}</strong> en faisant un don.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Soutenir le projet',
+    kofiDismiss: 'Fermer',
+    kofiNever: 'Ne plus afficher',
+opensANewTab:
       'Ce lien ouvrira un nouvel onglet et votre progression est sauvegardée dans votre navigateur.',
     keepGoingForFree: 'Continuer gratuitement',
     sort: {
@@ -316,6 +382,16 @@ export const i18n = rosetta({
         : 'Aucune station trouvée',
     // New UI Keys
     language: 'Langue',
+    timezone: 'Fuseau horaire',
+    timezoneDesc: 'Par défaut : UTC. Choisissez un fuseau ou détectez-le automatiquement.',
+    getTimezone: 'Obtenir le fuseau horaire',
+    gettingTimezone: 'Récupération du fuseau horaire…',
+    getTimezoneRequest: 'Demande d\'accès à votre position pour détecter votre fuseau horaire…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Fuseau horaire défini sur ${timezone}.`,
+    getTimezoneError: 'Impossible de détecter votre fuseau horaire. Veuillez en choisir un.',
+    switchTo12Hour: 'Passer au format 12 h',
+    switchTo24Hour: 'Passer au format 24 h',
+
     theme: 'Thème',
     systemDefault: 'Valeur par défaut du système',
     light: 'Clair',
@@ -385,10 +461,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Ce que disent les gens',
     tabPress: 'Ils ont parlé de nous',
     tabSupport: 'Soutenez-moi !',
+    globalOverallCompletion: 'Progression globale',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} stations trouvées`,
+    globalCompletedCities: 'Villes terminées',
+    globalInProgress: 'En cours',
+    globalNotStarted: 'Non commencées',
+    globalTotalCities: 'Nombre total de villes',
+    globalByCityHint: 'Utilisez le bouton … pour ouvrir directement les stats détaillées d’une ville.',
+    globalSearchCities: 'Rechercher des villes…',
+    globalSortCities: 'Trier les villes',
 
     // Sort
     sortDefault: 'Ordre par défaut',
     sortNameAsc: 'Nom (A-Z)',
+    cityViewComfortable: 'Confort',
+    cityViewCompact: 'Compact',
+    cityViewCover: 'Couverture',
+    cityViewList: 'Liste',
     sortNameDesc: 'Nom (Z-A)',
     sortContinentAsc: 'Continent (A-Z)',
     sortContinentDesc: 'Continent (Z-A)',
@@ -403,6 +492,8 @@ export const i18n = rosetta({
       `Succès débloqués : ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }) =>
       `Succès verrouillés : ${locked}`,
+    achievementUnlocked: 'Débloqué',
+    achievementLocked: 'Verrouillé',
     // Continents
     northAmerica: 'Amérique du Nord',
     southAmerica: 'Amérique du Sud',
@@ -542,6 +633,23 @@ export const i18n = rosetta({
     hideLabels: 'Ocultar etiquetas',
     about: 'Créditos',
     cityStats: 'Estadísticas de la ciudad',
+    cityStatsStationsProgress: 'Progreso de estaciones',
+    cityStatsTimeSpent: 'Tiempo invertido',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Promedio ${duration} por estación`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} día de juego${count === 1 ? "" : "s"}`,
+    cityStatsFirstLatest: 'Primeros y últimos hallazgos',
+    cityStatsFirst: ({ value }: { value: string }): string => `Primero: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Último: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} encontradas`,
+    cityStatsCompletedLines: 'Líneas completadas',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Más rápida: ${line}${duration ? ` en ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Desglose por línea',
+    cityStatsNoTimeData: 'Sin datos de tiempo aún',
+    cityStatsTimelineTitle: 'Cronología de estaciones',
+    cityStatsTimelineSubtitle: 'Últimas diez estaciones con marca de tiempo y tiempo transcurrido desde tu primera hallazgo.',
+    cityStatsHeadersSubheaders: 'Encabezados y subtítulos',
+
+
     settings: 'Configuración',
     account: 'Cuenta',
     privacy: 'Privacidad',
@@ -555,7 +663,10 @@ export const i18n = rosetta({
         Apoya el desarrollo de <strong>{title}</strong> haciendo una donación.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Apoyar el proyecto',
+    kofiDismiss: 'Cerrar',
+    kofiNever: 'No volver a mostrar',
+opensANewTab:
       'Este enlace abrirá una nueva pestaña y tu progreso se guarda en tu navegador.',
     keepGoingForFree: 'Continuar gratis',
     sort: {
@@ -571,6 +682,16 @@ export const i18n = rosetta({
         : 'No se encontraron estaciones',
     // New UI Keys
     language: 'Idioma',
+    timezone: 'Zona horaria',
+    timezoneDesc: 'Por defecto es UTC. Elige una zona horaria o detecta la automáticamente.',
+    getTimezone: 'Obtener zona horaria',
+    gettingTimezone: 'Obteniendo zona horaria…',
+    getTimezoneRequest: 'Solicitando acceso a tu ubicación para detectar tu zona horaria…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Zona horaria establecida en ${timezone}.`,
+    getTimezoneError: 'No se pudo detectar tu zona horaria. Elige una.',
+    switchTo12Hour: 'Cambiar a formato de 12 horas',
+    switchTo24Hour: 'Cambiar a formato de 24 horas',
+
     theme: 'Tema',
     systemDefault: 'Predeterminado del sistema',
     light: 'Claro',
@@ -640,10 +761,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Lo que dice la gente',
     tabPress: 'Han hablado de nosotros',
     tabSupport: 'Apóyame',
+    globalOverallCompletion: 'Progreso general',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} estaciones encontradas`,
+    globalCompletedCities: 'Ciudades completadas',
+    globalInProgress: 'En progreso',
+    globalNotStarted: 'No iniciadas',
+    globalTotalCities: 'Total de ciudades',
+    globalByCityHint: 'Usa el botón … para ir directo a las estadísticas detalladas de una ciudad.',
+    globalSearchCities: 'Buscar ciudades…',
+    globalSortCities: 'Ordenar ciudades',
 
     // Sort
     sortDefault: 'Orden predeterminado',
     sortNameAsc: 'Nombre (A-Z)',
+    cityViewComfortable: 'Cómodo',
+    cityViewCompact: 'Compacto',
+    cityViewCover: 'Portada',
+    cityViewList: 'Lista',
     sortNameDesc: 'Nombre (Z-A)',
     sortContinentAsc: 'Continente (A-Z)',
     sortContinentDesc: 'Continente (Z-A)',
@@ -657,6 +791,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Logros desbloqueados: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Logros bloqueados: ${locked}`,
+    achievementUnlocked: 'Desbloqueado',
+    achievementLocked: 'Bloqueado',
     // Continents
     northAmerica: 'América del Norte',
     southAmerica: 'América del Sur',
@@ -796,6 +932,23 @@ export const i18n = rosetta({
     hideLabels: 'Amaga les etiquetes',
     about: 'Crèdits',
     cityStats: 'Estadístiques de la ciutat',
+    cityStatsStationsProgress: 'Progrés de les estacions',
+    cityStatsTimeSpent: 'Temps invertit',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Mitjana de ${duration} per estació`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} dia de joc${count === 1 ? "" : "s"}`,
+    cityStatsFirstLatest: 'Primers i últims descobriments',
+    cityStatsFirst: ({ value }: { value: string }): string => `Primer: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Últim: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} trobades`,
+    cityStatsCompletedLines: 'Línies completades',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Més ràpida: ${line}${duration ? ` en ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Desglossament per línia',
+    cityStatsNoTimeData: 'Encara sense dades de temps',
+    cityStatsTimelineTitle: 'Cronologia d\'estacions',
+    cityStatsTimelineSubtitle: 'Darreres deu estacions amb marca horària i temps des de la primera troballa.',
+    cityStatsHeadersSubheaders: 'Capçaleres i subtítols',
+
+
     settings: 'Configuració',
     account: 'Compte',
     privacy: 'Privadesa',
@@ -809,7 +962,10 @@ export const i18n = rosetta({
         Ajuda el desenvolupament de <strong>{title}</strong> fent una donació.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Donar suport al projecte',
+    kofiDismiss: 'Tanca',
+    kofiNever: 'No ho tornis a mostrar',
+opensANewTab:
       'Aquest enllaç obrirà una nova pestanya i el teu progrés es guarda al teu navegador.',
     keepGoingForFree: 'Continua gratis',
     sort: {
@@ -825,6 +981,16 @@ export const i18n = rosetta({
         : 'No s’han trobat estacions',
     // New UI Keys
     language: 'Idioma',
+    timezone: 'Zona horària',
+    timezoneDesc: 'Per defecte és UTC. Tria una zona horària o detecta-la automàticament.',
+    getTimezone: 'Obtenir zona horària',
+    gettingTimezone: 'S\'està obtenint la zona horària…',
+    getTimezoneRequest: 'S\'està sol·licitant accés a la ubicació per detectar la zona horària…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Zona horària establerta a ${timezone}.`,
+    getTimezoneError: 'No s\'ha pogut detectar la zona horària. Si us plau, tria\'n una.',
+    switchTo12Hour: 'Canvia al format de 12 hores',
+    switchTo24Hour: 'Canvia al format de 24 hores',
+
     theme: 'Tema',
     systemDefault: 'Per defecte del sistema',
     light: 'Clar',
@@ -893,10 +1059,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Què diu la gent',
     tabPress: 'Han parlat de nosaltres',
     tabSupport: 'Dona’m suport!',
+    globalOverallCompletion: 'Progrés global',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} estacions trobades`,
+    globalCompletedCities: 'Ciutats completades',
+    globalInProgress: 'En progrés',
+    globalNotStarted: 'No iniciades',
+    globalTotalCities: 'Total de ciutats',
+    globalByCityHint: 'Fes servir el botó … per obrir directament les estadístiques detallades d’una ciutat.',
+    globalSearchCities: 'Cercar ciutats…',
+    globalSortCities: 'Ordenar ciutats',
 
     // Sort
     sortDefault: 'Ordre per defecte',
     sortNameAsc: 'Nom (A-Z)',
+    cityViewComfortable: 'Còmode',
+    cityViewCompact: 'Compacte',
+    cityViewCover: 'Portada',
+    cityViewList: 'Llista',
     sortNameDesc: 'Nom (Z-A)',
     sortContinentAsc: 'Continent (A-Z)',
     sortContinentDesc: 'Continent (Z-A)',
@@ -911,6 +1090,8 @@ export const i18n = rosetta({
       `Assoliments desbloquejats: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }) =>
       `Assoliments bloquejats: ${locked}`,
+    achievementUnlocked: 'Desbloquejat',
+    achievementLocked: 'Blocat',
     // Continents
     northAmerica: 'Amèrica del Nord',
     southAmerica: 'Amèrica del Sud',
@@ -1050,6 +1231,23 @@ export const i18n = rosetta({
     hideLabels: 'Beschriftungen ausblenden',
     about: 'Credits',
     cityStats: 'Stadtstatistiken',
+    cityStatsStationsProgress: 'Stationsfortschritt',
+    cityStatsTimeSpent: 'Aufgewendete Zeit',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Ø ${duration} pro Station`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} Spieltag${count === 1 ? "" : "e"}`,
+    cityStatsFirstLatest: 'Erste und letzte Funde',
+    cityStatsFirst: ({ value }: { value: string }): string => `Erster Fund: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Letzter Fund: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} gefunden`,
+    cityStatsCompletedLines: 'Abgeschlossene Linien',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Schnellste: ${line}${duration ? ` in ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Linienübersicht',
+    cityStatsNoTimeData: 'Noch keine Zeitdaten',
+    cityStatsTimelineTitle: 'Stationszeitachse',
+    cityStatsTimelineSubtitle: 'Neueste zehn Zeitstempel mit Zeit seit deinem ersten Fund.',
+    cityStatsHeadersSubheaders: 'Überschriften & Unterüberschriften',
+
+
     settings: 'Einstellungen',
     account: 'Konto',
     privacy: 'Datenschutz',
@@ -1064,7 +1262,10 @@ export const i18n = rosetta({
         Spende.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Projekt unterstützen',
+    kofiDismiss: 'Schließen',
+    kofiNever: 'Nicht wieder anzeigen',
+opensANewTab:
       'Dieser Link öffnet einen neuen Tab und dein Fortschritt wird in deinem Browser gespeichert.',
     keepGoingForFree: 'Kostenlos weitermachen',
     sort: {
@@ -1080,6 +1281,16 @@ export const i18n = rosetta({
         : 'Keine Stationen gefunden',
     // New UI Keys
     language: 'Sprache',
+    timezone: 'Zeitzone',
+    timezoneDesc: 'Standard ist UTC. Wähle eine Zeitzone oder ermittele sie automatisch.',
+    getTimezone: 'Zeitzone abrufen',
+    gettingTimezone: 'Zeitzone wird abgerufen…',
+    getTimezoneRequest: 'Standortzugriff wird angefordert, um deine Zeitzone zu ermitteln…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Zeitzone auf ${timezone} gesetzt.`,
+    getTimezoneError: 'Zeitzone konnte nicht ermittelt werden. Bitte wähle eine aus.',
+    switchTo12Hour: 'Zu 12-Stunden-Format wechseln',
+    switchTo24Hour: 'Zu 24-Stunden-Format wechseln',
+
     theme: 'Thema',
     systemDefault: 'Systemstandard',
     light: 'Hell',
@@ -1149,10 +1360,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Was die Leute sagen',
     tabPress: 'Sie haben über uns berichtet',
     tabSupport: 'Unterstütze mich!',
+    globalOverallCompletion: 'Gesamtfortschritt',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} Stationen gefunden`,
+    globalCompletedCities: 'Abgeschlossene Städte',
+    globalInProgress: 'In Bearbeitung',
+    globalNotStarted: 'Nicht begonnen',
+    globalTotalCities: 'Städte gesamt',
+    globalByCityHint: 'Mit der …-Taste direkt in die Detailstatistik einer Stadt springen.',
+    globalSearchCities: 'Städte suchen…',
+    globalSortCities: 'Städte sortieren',
 
     // Sort
     sortDefault: 'Standardreihenfolge',
     sortNameAsc: 'Name (A-Z)',
+    cityViewComfortable: 'Komfortabel',
+    cityViewCompact: 'Kompakt',
+    cityViewCover: 'Cover',
+    cityViewList: 'Liste',
     sortNameDesc: 'Name (Z-A)',
     sortContinentAsc: 'Kontinent (A-Z)',
     sortContinentDesc: 'Kontinent (Z-A)',
@@ -1166,6 +1390,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Freigeschaltete Erfolge: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Gesperrte Erfolge: ${locked}`,
+    achievementUnlocked: 'Freigeschaltet',
+    achievementLocked: 'Gesperrt',
     // Continents
     northAmerica: 'Nordamerika',
     southAmerica: 'Südamerika',
@@ -1303,6 +1529,23 @@ export const i18n = rosetta({
     hideLabels: '레이블 숨기기',
     about: '크레딧',
     cityStats: '도시 통계',
+    cityStatsStationsProgress: '역 진행 상황',
+    cityStatsTimeSpent: '소요 시간',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `역당 평균 ${duration}`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count}일 플레이`,
+    cityStatsFirstLatest: '첫/마지막 발견',
+    cityStatsFirst: ({ value }: { value: string }): string => `첫 발견: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `마지막 발견: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} 찾음`,
+    cityStatsCompletedLines: '완료된 노선',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `가장 빠름: ${line}${duration ? ` (${duration})` : ""}`,
+    cityStatsLineBreakdown: '노선별 요약',
+    cityStatsNoTimeData: '시간 데이터 없음',
+    cityStatsTimelineTitle: '역 타임라인',
+    cityStatsTimelineSubtitle: '첫 발견 이후 경과 시간과 함께 최신 10개 타임스탬프 역.',
+    cityStatsHeadersSubheaders: '헤더 및 서브헤더',
+
+
     settings: '설정',
     account: '계정',
     privacy: '개인정보',
@@ -1313,7 +1556,10 @@ export const i18n = rosetta({
     freeGame: '이 게임은 무료로 제공됩니다.',
     supportWithDonation: ({ title }: { title: string }) =>
       `<span><strong>${title}</strong> 개발을 후원하기 위해 기부해 주세요.</span>`,
-    opensANewTab:
+        kofiTitle: '프로젝트 후원하기',
+    kofiDismiss: '닫기',
+    kofiNever: '다시 보지 않기',
+opensANewTab:
       '이 링크를 클릭하면 새 탭에서 열리며, 진행 상황은 브라우저에 저장됩니다.',
     keepGoingForFree: '무료로 계속 진행하기',
     sort: {
@@ -1329,6 +1575,16 @@ export const i18n = rosetta({
         : '일치하는 역이 없습니다',
     // New UI Keys
     language: '언어',
+    timezone: '시간대',
+    timezoneDesc: '기본값은 UTC입니다. 시간대를 선택하거나 자동으로 감지하세요.',
+    getTimezone: '시간대 가져오기',
+    gettingTimezone: '시간대를 가져오는 중…',
+    getTimezoneRequest: '시간대 감지를 위해 위치 접근을 요청하는 중입니다…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `${timezone} 시간대로 설정되었습니다.`,
+    getTimezoneError: '시간대를 감지할 수 없습니다. 직접 선택해주세요.',
+    switchTo12Hour: '12시간제로 전환',
+    switchTo24Hour: '24시간제로 전환',
+
     theme: '테마',
     systemDefault: '시스템 기본값',
     light: '라이트',
@@ -1395,10 +1651,23 @@ export const i18n = rosetta({
     tabTestimonials: '사람들이 말해요',
     tabPress: '보도 자료',
     tabSupport: '후원하기!',
+    globalOverallCompletion: '전체 완료도',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `{found} / {total}개 역 발견`,
+    globalCompletedCities: '완료한 도시',
+    globalInProgress: '진행 중',
+    globalNotStarted: '시작 안 함',
+    globalTotalCities: '전체 도시',
+    globalByCityHint: '... 버튼을 눌러 바로 도시별 상세 통계로 이동하세요.',
+    globalSearchCities: '도시 검색…',
+    globalSortCities: '도시 정렬',
 
     // Sort
     sortDefault: '기본 순서',
     sortNameAsc: '이름 (A-Z)',
+    cityViewComfortable: '편안하게',
+    cityViewCompact: '컴팩트',
+    cityViewCover: '커버',
+    cityViewList: '목록',
     sortNameDesc: '이름 (Z-A)',
     sortContinentAsc: '대륙 (A-Z)',
     sortContinentDesc: '대륙 (Z-A)',
@@ -1412,6 +1681,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `잠금 해제된 업적: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `잠긴 업적: ${locked}`,
+    achievementUnlocked: '해제됨',
+    achievementLocked: '잠김',
     // Continents
     northAmerica: '북아메리카',
     southAmerica: '남아메리카',
@@ -1533,6 +1804,23 @@ export const i18n = rosetta({
     hideLabels: 'Etiketleri gizle',
     about: 'Krediler',
     cityStats: 'Şehir istatistikleri',
+    cityStatsStationsProgress: 'İstasyon ilerlemesi',
+    cityStatsTimeSpent: 'Harcanan süre',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `İstasyon başına ortalama ${duration}`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} oyun günü`,
+    cityStatsFirstLatest: 'İlk ve son bulgular',
+    cityStatsFirst: ({ value }: { value: string }): string => `İlk: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Son: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} bulundu`,
+    cityStatsCompletedLines: 'Tamamlanan hatlar',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `En hızlı: ${line}${duration ? ` (${duration})` : ""}`,
+    cityStatsLineBreakdown: 'Hat dökümü',
+    cityStatsNoTimeData: 'Henüz zaman verisi yok',
+    cityStatsTimelineTitle: 'İstasyon zaman çizelgesi',
+    cityStatsTimelineSubtitle: 'İlk bulgundan bu yana geçen süreyle birlikte son on zaman damgalı istasyon.',
+    cityStatsHeadersSubheaders: 'Başlıklar ve alt başlıklar',
+
+
     settings: 'Ayarlar',
     account: 'Hesap',
     privacy: 'Gizlilik',
@@ -1546,7 +1834,10 @@ export const i18n = rosetta({
         <strong>{title}</strong> gelişimini bağış yaparak destekleyin.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Projeyi destekle',
+    kofiDismiss: 'Kapat',
+    kofiNever: 'Bir daha gösterme',
+opensANewTab:
       'Bu bağlantı yeni bir sekmede açılır ve ilerlemeniz tarayıcınızda kaydedilir.',
     keepGoingForFree: 'Ücretsiz devam et',
     sort: {
@@ -1562,6 +1853,16 @@ export const i18n = rosetta({
         : 'Hiç istasyon bulunamadı',
     // New UI Keys
     language: 'Dil',
+    timezone: 'Saat dilimi',
+    timezoneDesc: 'Varsayılan UTC. Bir saat dilimi seçin veya otomatik algılatın.',
+    getTimezone: 'Saat dilimi al',
+    gettingTimezone: 'Saat dilimi alınıyor…',
+    getTimezoneRequest: 'Saat diliminizi algılamak için konum erişimi isteniyor…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Saat dilimi ${timezone} olarak ayarlandı.`,
+    getTimezoneError: 'Saat dilimi algılanamadı. Lütfen birini seçin.',
+    switchTo12Hour: '12 saat formatına geç',
+    switchTo24Hour: '24 saat formatına geç',
+
     theme: 'Tema',
     systemDefault: 'Sistem varsayılanı',
     light: 'Açık',
@@ -1629,10 +1930,23 @@ export const i18n = rosetta({
     tabTestimonials: 'İnsanlar ne diyor',
     tabPress: 'Bizi yazdılar',
     tabSupport: 'Beni destekle!',
+    globalOverallCompletion: 'Genel tamamlanma',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} istasyon bulundu`,
+    globalCompletedCities: 'Tamamlanan şehirler',
+    globalInProgress: 'Devam eden',
+    globalNotStarted: 'Başlanmadı',
+    globalTotalCities: 'Toplam şehir',
+    globalByCityHint: '… düğmesiyle bir şehrin ayrıntılı istatistiklerine hemen atlayın.',
+    globalSearchCities: 'Şehir ara…',
+    globalSortCities: 'Şehirleri sırala',
 
     // Sort
     sortDefault: 'Varsayılan sıralama',
     sortNameAsc: 'İsim (A-Z)',
+    cityViewComfortable: 'Rahat',
+    cityViewCompact: 'Kompakt',
+    cityViewCover: 'Kapak',
+    cityViewList: 'Liste',
     sortNameDesc: 'İsim (Z-A)',
     sortContinentAsc: 'Kıta (A-Z)',
     sortContinentDesc: 'Kıta (Z-A)',
@@ -1646,6 +1960,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Açılan başarılar: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Kilitli başarılar: ${locked}`,
+    achievementUnlocked: 'Açıldı',
+    achievementLocked: 'Kilitli',
     // Continents
     northAmerica: 'Kuzey Amerika',
     southAmerica: 'Güney Amerika',
@@ -1766,6 +2082,23 @@ export const i18n = rosetta({
     hideLabels: 'ラベルを非表示',
     about: 'クレジット',
     cityStats: '都市の統計',
+    cityStatsStationsProgress: '駅の進捗',
+    cityStatsTimeSpent: 'プレイ時間',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `駅あたり平均 ${duration}`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count}日プレイ`,
+    cityStatsFirstLatest: '最初と最新の発見',
+    cityStatsFirst: ({ value }: { value: string }): string => `最初: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `最新: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} 発見`,
+    cityStatsCompletedLines: '完了した路線',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `最速: ${line}${duration ? `（${duration}）` : ""}`,
+    cityStatsLineBreakdown: '路線内訳',
+    cityStatsNoTimeData: 'まだ時間データがありません',
+    cityStatsTimelineTitle: '駅タイムライン',
+    cityStatsTimelineSubtitle: '最初の発見からの経過時間付き最新10件のタイムスタンプ駅。',
+    cityStatsHeadersSubheaders: 'ヘッダーとサブヘッダー',
+
+
     settings: '設定',
     account: 'アカウント',
     privacy: 'プライバシー',
@@ -1781,7 +2114,10 @@ export const i18n = rosetta({
         <strong>{title}</strong> の開発を寄付によって支援してください。
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'プロジェクトを支援する',
+    kofiDismiss: '閉じる',
+    kofiNever: '再表示しない',
+opensANewTab:
       'このリンクをクリックすると新しいタブが開き、進捗はブラウザに保存されます。',
     keepGoingForFree: '無料で続ける',
     sort: {
@@ -1797,6 +2133,16 @@ export const i18n = rosetta({
         : '該当する駅は見つかりません',
     // New UI Keys
     language: '言語',
+    timezone: 'タイムゾーン',
+    timezoneDesc: 'デフォルトはUTCです。タイムゾーンを選択するか自動検出してください。',
+    getTimezone: 'タイムゾーンを取得',
+    gettingTimezone: 'タイムゾーンを取得中…',
+    getTimezoneRequest: 'タイムゾーン検出のため位置情報へのアクセスを要求しています…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `タイムゾーンを${timezone}に設定しました。`,
+    getTimezoneError: 'タイムゾーンを検出できませんでした。手動で選択してください。',
+    switchTo12Hour: '12時間制に切り替え',
+    switchTo24Hour: '24時間制に切り替え',
+
     theme: 'テーマ',
     systemDefault: 'システムデフォルト',
     light: 'ライト',
@@ -1863,10 +2209,23 @@ export const i18n = rosetta({
     tabTestimonials: 'ユーザーの声',
     tabPress: 'メディア掲載',
     tabSupport: 'サポートしてください！',
+    globalOverallCompletion: '全体の進行度',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} 駅を発見`,
+    globalCompletedCities: '完了した都市',
+    globalInProgress: '進行中',
+    globalNotStarted: '未開始',
+    globalTotalCities: '都市の合計',
+    globalByCityHint: '… ボタンで都市の詳細統計へ直接移動できます。',
+    globalSearchCities: '都市を検索…',
+    globalSortCities: '都市を並べ替え',
 
     // Sort
     sortDefault: '既定の順序',
     sortNameAsc: '名前 (A-Z)',
+    cityViewComfortable: '快適',
+    cityViewCompact: 'コンパクト',
+    cityViewCover: 'カバー',
+    cityViewList: 'リスト',
     sortNameDesc: '名前 (Z-A)',
     sortContinentAsc: '大陸 (A-Z)',
     sortContinentDesc: '大陸 (Z-A)',
@@ -1880,6 +2239,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `解除済みの実績: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `未解除の実績: ${locked}`,
+    achievementUnlocked: 'アンロック済み',
+    achievementLocked: 'ロック中',
     // Continents
     northAmerica: '北アメリカ',
     southAmerica: '南アメリカ',
@@ -2002,6 +2363,23 @@ export const i18n = rosetta({
     hideLabels: 'Dölj etiketter',
     about: 'Krediter',
     cityStats: 'Stadsstatistik',
+    cityStatsStationsProgress: 'Stationers progress',
+    cityStatsTimeSpent: 'Nedlagd tid',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Snitt ${duration} per station`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} speldag${count === 1 ? "" : "ar"}`,
+    cityStatsFirstLatest: 'Första och senaste fynd',
+    cityStatsFirst: ({ value }: { value: string }): string => `Första: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Senaste: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} hittade`,
+    cityStatsCompletedLines: 'Färdiga linjer',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Snabbast: ${line}${duration ? ` på ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Linjesammanställning',
+    cityStatsNoTimeData: 'Inga tidsdata ännu',
+    cityStatsTimelineTitle: 'Stationstidslinje',
+    cityStatsTimelineSubtitle: 'Senaste tio tidsstämplade stationer med tid sedan din första träff.',
+    cityStatsHeadersSubheaders: 'Rubriker och underrubriker',
+
+
     settings: 'Inställningar',
     account: 'Konto',
     privacy: 'Integritet',
@@ -2015,7 +2393,10 @@ export const i18n = rosetta({
         Stöd utvecklingen av <strong>{title}</strong> genom att donera.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Stöd projektet',
+    kofiDismiss: 'Stäng',
+    kofiNever: 'Visa inte igen',
+opensANewTab:
       'Denna länk öppnar en ny flik och din progress sparas i din webbläsare.',
     keepGoingForFree: 'Fortsätt gratis',
     sort: {
@@ -2031,6 +2412,16 @@ export const i18n = rosetta({
         : 'Inga stationer hittades',
     // New UI Keys
     language: 'Språk',
+    timezone: 'Tidszon',
+    timezoneDesc: 'Standard är UTC. Välj en tidszon eller upptäck den automatiskt.',
+    getTimezone: 'Hämta tidszon',
+    gettingTimezone: 'Hämtar tidszon…',
+    getTimezoneRequest: 'Begär platsåtkomst för att upptäcka din tidszon…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Tidszon satt till ${timezone}.`,
+    getTimezoneError: 'Det gick inte att upptäcka din tidszon. Välj en.',
+    switchTo12Hour: 'Byt till 12-timmarsformat',
+    switchTo24Hour: 'Byt till 24-timmarsformat',
+
     theme: 'Tema',
     systemDefault: 'Systemstandard',
     light: 'Ljust',
@@ -2098,10 +2489,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Vad folk säger',
     tabPress: 'De skrev om oss',
     tabSupport: 'Stöd mig!',
+    globalOverallCompletion: 'Övergripande färdigställande',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} stationer hittade`,
+    globalCompletedCities: 'Färdiga städer',
+    globalInProgress: 'Pågår',
+    globalNotStarted: 'Inte påbörjat',
+    globalTotalCities: 'Antal städer',
+    globalByCityHint: 'Använd …-knappen för att hoppa till en stads detaljerade statistik.',
+    globalSearchCities: 'Sök städer…',
+    globalSortCities: 'Sortera städer',
 
     // Sort
     sortDefault: 'Standardordning',
     sortNameAsc: 'Namn (A-Z)',
+    cityViewComfortable: 'Bekväm',
+    cityViewCompact: 'Kompakt',
+    cityViewCover: 'Omslag',
+    cityViewList: 'Lista',
     sortNameDesc: 'Namn (Z-A)',
     sortContinentAsc: 'Kontinent (A-Z)',
     sortContinentDesc: 'Kontinent (Z-A)',
@@ -2115,6 +2519,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Upplåsta prestationer: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Låsta prestationer: ${locked}`,
+    achievementUnlocked: 'Upplåst',
+    achievementLocked: 'Låst',
     // Continents
     northAmerica: 'Nordamerika',
     southAmerica: 'Sydamerika',
@@ -2237,6 +2643,23 @@ export const i18n = rosetta({
     hideLabels: 'Címkék elrejtése',
     about: 'Kreditek',
     cityStats: 'Városstatisztika',
+    cityStatsStationsProgress: 'Állomások állása',
+    cityStatsTimeSpent: 'Eltöltött idő',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Átlag ${duration} állomásonként`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} játéknap`,
+    cityStatsFirstLatest: 'Első és legutóbbi találatok',
+    cityStatsFirst: ({ value }: { value: string }): string => `Első: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Legutóbbi: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} megtalálva`,
+    cityStatsCompletedLines: 'Befejezett vonalak',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Leggyorsabb: ${line}${duration ? ` (${duration})` : ""}`,
+    cityStatsLineBreakdown: 'Vonalbontás',
+    cityStatsNoTimeData: 'Még nincs időadat',
+    cityStatsTimelineTitle: 'Állomás idővonal',
+    cityStatsTimelineSubtitle: 'Legutóbbi tíz időbélyeges állomás az első találat óta eltelt idővel.',
+    cityStatsHeadersSubheaders: 'Fejlécek és alcímek',
+
+
     settings: 'Beállítások',
     account: 'Fiók',
     privacy: 'Adatvédelem',
@@ -2252,7 +2675,10 @@ export const i18n = rosetta({
         Támogasd a <strong>{title}</strong> fejlesztését adományozással.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Támogasd a projektet',
+    kofiDismiss: 'Bezárás',
+    kofiNever: 'Ne jelenjen meg újra',
+opensANewTab:
       'Ez a link új lapot nyit meg, és a haladásod a böngésződben mentésre kerül.',
     keepGoingForFree: 'Folytatás ingyen',
     sort: {
@@ -2268,6 +2694,16 @@ export const i18n = rosetta({
         : 'Nem található állomás',
     // New UI Keys
     language: 'Nyelv',
+    timezone: 'Időzóna',
+    timezoneDesc: 'Alapértelmezés: UTC. Válassz időzónát vagy észleltesd automatikusan.',
+    getTimezone: 'Időzóna lekérése',
+    gettingTimezone: 'Időzóna lekérése…',
+    getTimezoneRequest: 'Helyhozzáférés kérése az időzóna észleléséhez…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Az időzóna beállítva: ${timezone}.`,
+    getTimezoneError: 'Nem sikerült észlelni az időzónát. Válassz egyet.',
+    switchTo12Hour: 'Váltás 12 órás formátumra',
+    switchTo24Hour: 'Váltás 24 órás formátumra',
+
     theme: 'Téma',
     systemDefault: 'Rendszer alapértelmezés',
     light: 'Világos',
@@ -2335,10 +2771,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Vélemények',
     tabPress: 'Rólunk írták',
     tabSupport: 'Támogass!',
+    globalOverallCompletion: 'Általános készültség',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} állomás megtalálva`,
+    globalCompletedCities: 'Kész városok',
+    globalInProgress: 'Folyamatban',
+    globalNotStarted: 'Nincs elkezdve',
+    globalTotalCities: 'Városok összesen',
+    globalByCityHint: 'A … gombbal azonnal megnyithatod a város részletes statisztikáját.',
+    globalSearchCities: 'Városok keresése…',
+    globalSortCities: 'Városok rendezése',
 
     // Sort
     sortDefault: 'Alapértelmezett sorrend',
     sortNameAsc: 'Név (A-Z)',
+    cityViewComfortable: 'Kényelmes',
+    cityViewCompact: 'Kompakt',
+    cityViewCover: 'Borító',
+    cityViewList: 'Lista',
     sortNameDesc: 'Név (Z-A)',
     sortContinentAsc: 'Kontinens (A-Z)',
     sortContinentDesc: 'Kontinens (Z-A)',
@@ -2352,6 +2801,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Feloldott teljesítmények: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Zárt teljesítmények: ${locked}`,
+    achievementUnlocked: 'Feloldva',
+    achievementLocked: 'Zárolva',
     // Continents
     northAmerica: 'Észak-Amerika',
     southAmerica: 'Dél-Amerika',
@@ -2472,6 +2923,23 @@ export const i18n = rosetta({
     hideLabels: '隐藏标签',
     about: '关于',
     cityStats: '城市统计',
+    cityStatsStationsProgress: '车站进度',
+    cityStatsTimeSpent: '花费时间',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `平均每站 ${duration}`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} 天游玩`,
+    cityStatsFirstLatest: '首次和最近找到',
+    cityStatsFirst: ({ value }: { value: string }): string => `首次：${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `最近：${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} 已找到`,
+    cityStatsCompletedLines: '完成的线路',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `最快：${line}${duration ? `（${duration}）` : ""}`,
+    cityStatsLineBreakdown: '线路分解',
+    cityStatsNoTimeData: '暂无时间数据',
+    cityStatsTimelineTitle: '车站时间线',
+    cityStatsTimelineSubtitle: '最近十个带时间戳的车站及自首次发现以来的时间。',
+    cityStatsHeadersSubheaders: '标题和副标题',
+
+
     settings: '设置',
     account: '账户',
     privacy: '隐私',
@@ -2485,7 +2953,10 @@ export const i18n = rosetta({
         通过捐赠支持 <strong>{title}</strong> 的开发。
       </span>
     ),
-    opensANewTab:
+        kofiTitle: '支持项目',
+    kofiDismiss: '关闭',
+    kofiNever: '不再显示',
+opensANewTab:
       '此链接将打开一个新标签页，你的进度将保存在浏览器中。',
     keepGoingForFree: '免费继续',
     sort: {
@@ -2501,6 +2972,16 @@ export const i18n = rosetta({
         : '未找到车站',
     // New UI Keys
     language: '语言',
+    timezone: '时区',
+    timezoneDesc: '默认是 UTC。选择一个时区或自动检测。',
+    getTimezone: '获取时区',
+    gettingTimezone: '正在获取时区…',
+    getTimezoneRequest: '请求位置权限以检测您的时区…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `时区已设置为 ${timezone}。`,
+    getTimezoneError: '无法检测您的时区。请选择一个。',
+    switchTo12Hour: '切换到12小时制',
+    switchTo24Hour: '切换到24小时制',
+
     theme: '主题',
     systemDefault: '系统默认',
     light: '浅色',
@@ -2566,10 +3047,23 @@ export const i18n = rosetta({
     tabTestimonials: '大家的评价',
     tabPress: '媒体报道',
     tabSupport: '支持我！',
+    globalOverallCompletion: '总体完成度',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} 个车站已找到`,
+    globalCompletedCities: '已完成城市',
+    globalInProgress: '进行中',
+    globalNotStarted: '未开始',
+    globalTotalCities: '城市总数',
+    globalByCityHint: '使用 … 按钮可直接跳转到城市的详细统计面板。',
+    globalSearchCities: '搜索城市…',
+    globalSortCities: '排序城市',
 
     // Sort
     sortDefault: '默认顺序',
     sortNameAsc: '名称 (A-Z)',
+    cityViewComfortable: '舒适',
+    cityViewCompact: '紧凑',
+    cityViewCover: '封面',
+    cityViewList: '列表',
     sortNameDesc: '名称 (Z-A)',
     sortContinentAsc: '大洲 (A-Z)',
     sortContinentDesc: '大洲 (Z-A)',
@@ -2583,6 +3077,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `已解锁成就：${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `未解锁成就：${locked}`,
+    achievementUnlocked: '已解锁',
+    achievementLocked: '未解锁',
     // Continents
     northAmerica: '北美洲',
     southAmerica: '南美洲',
@@ -2713,6 +3209,23 @@ export const i18n = rosetta({
     hideLabels: '隱藏標籤',
     about: '關於',
     cityStats: '城市統計',
+    cityStatsStationsProgress: '車站進度',
+    cityStatsTimeSpent: '花費時間',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `平均每站 ${duration}`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} 天遊玩`,
+    cityStatsFirstLatest: '首次和最近找到',
+    cityStatsFirst: ({ value }: { value: string }): string => `首次：${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `最近：${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} 已找到`,
+    cityStatsCompletedLines: '完成的路線',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `最快：${line}${duration ? `（${duration}）` : ""}`,
+    cityStatsLineBreakdown: '路線分解',
+    cityStatsNoTimeData: '尚無時間資料',
+    cityStatsTimelineTitle: '車站時間軸',
+    cityStatsTimelineSubtitle: '最新十個帶時間戳的車站以及自首次發現以來的時間。',
+    cityStatsHeadersSubheaders: '標題與副標題',
+
+
     settings: '設定',
     account: '帳戶',
     privacy: '隱私',
@@ -2726,7 +3239,10 @@ export const i18n = rosetta({
         透過捐贈支持 <strong>{title}</strong> 的開發。
       </span>
     ),
-    opensANewTab:
+        kofiTitle: '支持專案',
+    kofiDismiss: '關閉',
+    kofiNever: '不要再顯示',
+opensANewTab:
       '此連結將開啟一個新分頁，你的進度將儲存在瀏覽器中。',
     keepGoingForFree: '免費繼續',
     sort: {
@@ -2742,6 +3258,16 @@ export const i18n = rosetta({
         : '未找到車站',
     // New UI Keys
     language: '語言',
+    timezone: '時區',
+    timezoneDesc: '預設為 UTC。選擇時區或自動偵測。',
+    getTimezone: '取得時區',
+    gettingTimezone: '正在取得時區…',
+    getTimezoneRequest: '正在請求位置存取以偵測您的時區…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `時區已設定為 ${timezone}。`,
+    getTimezoneError: '無法偵測您的時區。請手動選擇。',
+    switchTo12Hour: '切換為12小時制',
+    switchTo24Hour: '切換為24小時制',
+
     theme: '主題',
     systemDefault: '系統預設',
     light: '淺色',
@@ -2807,10 +3333,23 @@ export const i18n = rosetta({
     tabTestimonials: '使用者回饋',
     tabPress: '媒體報導',
     tabSupport: '支持我！',
+    globalOverallCompletion: '整體完成度',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} 個車站已找到`,
+    globalCompletedCities: '已完成城市',
+    globalInProgress: '進行中',
+    globalNotStarted: '未開始',
+    globalTotalCities: '城市總數',
+    globalByCityHint: '使用 … 按鈕可直接跳轉到城市的詳細統計。',
+    globalSearchCities: '搜尋城市…',
+    globalSortCities: '排序城市',
 
     // Sort
     sortDefault: '預設順序',
     sortNameAsc: '名稱 (A-Z)',
+    cityViewComfortable: '舒適',
+    cityViewCompact: '緊湊',
+    cityViewCover: '封面',
+    cityViewList: '列表',
     sortNameDesc: '名稱 (Z-A)',
     sortContinentAsc: '洲別 (A-Z)',
     sortContinentDesc: '洲別 (Z-A)',
@@ -2824,6 +3363,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `已解鎖成就：${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `未解鎖成就：${locked}`,
+    achievementUnlocked: '已解鎖',
+    achievementLocked: '未解鎖',
     // Continents
     northAmerica: '北美洲',
     southAmerica: '南美洲',
@@ -2956,6 +3497,23 @@ export const i18n = rosetta({
     hideLabels: 'Ẩn nhãn',
     about: 'Giới thiệu',
     cityStats: 'Thống kê thành phố',
+    cityStatsStationsProgress: 'Tiến độ nhà ga',
+    cityStatsTimeSpent: 'Thời gian chơi',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Trung bình ${duration} mỗi ga`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} ngày chơi`,
+    cityStatsFirstLatest: 'Lần đầu và lần mới nhất',
+    cityStatsFirst: ({ value }: { value: string }): string => `Đầu tiên: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Mới nhất: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} đã tìm thấy`,
+    cityStatsCompletedLines: 'Tuyến đã hoàn thành',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Nhanh nhất: ${line}${duration ? ` trong ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Phân tách tuyến',
+    cityStatsNoTimeData: 'Chưa có dữ liệu thời gian',
+    cityStatsTimelineTitle: 'Dòng thời gian nhà ga',
+    cityStatsTimelineSubtitle: '10 ga có dấu thời gian mới nhất kèm thời gian tính từ lần tìm đầu tiên.',
+    cityStatsHeadersSubheaders: 'Tiêu đề và phụ đề',
+
+
     settings: 'Cài đặt',
     account: 'Tài khoản',
     privacy: 'Quyền riêng tư',
@@ -2969,7 +3527,10 @@ export const i18n = rosetta({
         Ủng hộ phát triển <strong>{title}</strong> bằng cách quyên góp.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Hỗ trợ dự án',
+    kofiDismiss: 'Đóng',
+    kofiNever: 'Không hiển thị lại',
+opensANewTab:
       'Liên kết này sẽ mở tab mới và tiến trình của bạn được lưu trong trình duyệt.',
     keepGoingForFree: 'Tiếp tục miễn phí',
     sort: {
@@ -2985,6 +3546,16 @@ export const i18n = rosetta({
         : 'Không tìm thấy ga nào',
     // New UI Keys
     language: 'Ngôn ngữ',
+    timezone: 'Múi giờ',
+    timezoneDesc: 'Mặc định là UTC. Chọn múi giờ hoặc phát hiện tự động.',
+    getTimezone: 'Lấy múi giờ',
+    gettingTimezone: 'Đang lấy múi giờ…',
+    getTimezoneRequest: 'Đang yêu cầu quyền vị trí để xác định múi giờ của bạn…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Đã đặt múi giờ thành ${timezone}.`,
+    getTimezoneError: 'Không thể xác định múi giờ của bạn. Hãy chọn thủ công.',
+    switchTo12Hour: 'Chuyển sang định dạng 12 giờ',
+    switchTo24Hour: 'Chuyển sang định dạng 24 giờ',
+
     theme: 'Giao diện',
     systemDefault: 'Theo hệ thống',
     light: 'Sáng',
@@ -3052,10 +3623,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Mọi người nói gì',
     tabPress: 'Báo chí viết gì',
     tabSupport: 'Ủng hộ tôi!',
+    globalOverallCompletion: 'Mức hoàn thành tổng thể',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} ga đã tìm thấy`,
+    globalCompletedCities: 'Thành phố đã hoàn thành',
+    globalInProgress: 'Đang chơi',
+    globalNotStarted: 'Chưa bắt đầu',
+    globalTotalCities: 'Tổng số thành phố',
+    globalByCityHint: 'Dùng nút … để vào ngay bảng thống kê chi tiết của thành phố.',
+    globalSearchCities: 'Tìm kiếm thành phố…',
+    globalSortCities: 'Sắp xếp thành phố',
 
     // Sort
     sortDefault: 'Thứ tự mặc định',
     sortNameAsc: 'Tên (A-Z)',
+    cityViewComfortable: 'Thoải mái',
+    cityViewCompact: 'Gọn',
+    cityViewCover: 'Bìa',
+    cityViewList: 'Danh sách',
     sortNameDesc: 'Tên (Z-A)',
     sortContinentAsc: 'Châu lục (A-Z)',
     sortContinentDesc: 'Châu lục (Z-A)',
@@ -3069,6 +3653,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Thành tích đã mở: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Thành tích bị khóa: ${locked}`,
+    achievementUnlocked: 'Đã mở khóa',
+    achievementLocked: 'Chưa mở',
     // Continents
     northAmerica: 'Bắc Mỹ',
     southAmerica: 'Nam Mỹ',
@@ -3191,6 +3777,23 @@ export const i18n = rosetta({
     hideLabels: 'Ocultar rótulos',
     about: 'Créditos',
     cityStats: 'Estatísticas da cidade',
+    cityStatsStationsProgress: 'Progresso de estações',
+    cityStatsTimeSpent: 'Tempo gasto',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Média de ${duration} por estação`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} dia de jogo${count === 1 ? "" : "s"}`,
+    cityStatsFirstLatest: 'Primeiras e últimas descobertas',
+    cityStatsFirst: ({ value }: { value: string }): string => `Primeira: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Última: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} encontradas`,
+    cityStatsCompletedLines: 'Linhas concluídas',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Mais rápida: ${line}${duration ? ` em ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Detalhe por linha',
+    cityStatsNoTimeData: 'Sem dados de tempo ainda',
+    cityStatsTimelineTitle: 'Linha do tempo das estações',
+    cityStatsTimelineSubtitle: 'Dez estações mais recentes com carimbo de tempo e tempo desde sua primeira descoberta.',
+    cityStatsHeadersSubheaders: 'Cabeçalhos e subtítulos',
+
+
     settings: 'Configurações',
     account: 'Conta',
     privacy: 'Privacidade',
@@ -3204,7 +3807,10 @@ export const i18n = rosetta({
         Apoie o desenvolvimento de <strong>{title}</strong> fazendo uma doação.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Apoiar o projeto',
+    kofiDismiss: 'Fechar',
+    kofiNever: 'Não mostrar novamente',
+opensANewTab:
       'Este link abrirá uma nova guia e seu progresso será salvo no navegador.',
     keepGoingForFree: 'Continuar de graça',
     sort: {
@@ -3220,6 +3826,16 @@ export const i18n = rosetta({
         : 'Nenhuma estação encontrada',
     // New UI Keys
     language: 'Idioma',
+    timezone: 'Fuso horário',
+    timezoneDesc: 'O padrão é UTC. Escolha um fuso ou detecte automaticamente.',
+    getTimezone: 'Obter fuso horário',
+    gettingTimezone: 'Obtendo fuso horário…',
+    getTimezoneRequest: 'Solicitando acesso à sua localização para detectar o fuso horário…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Fuso horário definido para ${timezone}.`,
+    getTimezoneError: 'Não foi possível detectar seu fuso horário. Escolha um.',
+    switchTo12Hour: 'Mudar para 12 horas',
+    switchTo24Hour: 'Mudar para 24 horas',
+
     theme: 'Tema',
     systemDefault: 'Padrão do sistema',
     light: 'Claro',
@@ -3287,10 +3903,23 @@ export const i18n = rosetta({
     tabTestimonials: 'O que as pessoas dizem',
     tabPress: 'Saiu na imprensa',
     tabSupport: 'Apoie-me!',
+    globalOverallCompletion: 'Conclusão geral',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} estações encontradas`,
+    globalCompletedCities: 'Cidades concluídas',
+    globalInProgress: 'Em andamento',
+    globalNotStarted: 'Não iniciado',
+    globalTotalCities: 'Total de cidades',
+    globalByCityHint: 'Use o botão … para abrir diretamente as estatísticas detalhadas de uma cidade.',
+    globalSearchCities: 'Pesquisar cidades…',
+    globalSortCities: 'Ordenar cidades',
 
     // Sort
     sortDefault: 'Ordem padrão',
     sortNameAsc: 'Nome (A-Z)',
+    cityViewComfortable: 'Confortável',
+    cityViewCompact: 'Compacto',
+    cityViewCover: 'Capa',
+    cityViewList: 'Lista',
     sortNameDesc: 'Nome (Z-A)',
     sortContinentAsc: 'Continente (A-Z)',
     sortContinentDesc: 'Continente (Z-A)',
@@ -3304,6 +3933,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Conquistas desbloqueadas: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Conquistas bloqueadas: ${locked}`,
+    achievementUnlocked: 'Desbloqueado',
+    achievementLocked: 'Bloqueado',
     // Continents
     northAmerica: 'América do Norte',
     southAmerica: 'América do Sul',
@@ -3427,6 +4058,23 @@ export const i18n = rosetta({
     hideLabels: 'Nascondi etichette',
     about: 'Crediti',
     cityStats: 'Statistiche città',
+    cityStatsStationsProgress: 'Avanzamento stazioni',
+    cityStatsTimeSpent: 'Tempo trascorso',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Media ${duration} per stazione`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} giorno di gioco${count === 1 ? "" : "i"}`,
+    cityStatsFirstLatest: 'Prime e ultime scoperte',
+    cityStatsFirst: ({ value }: { value: string }): string => `Prima: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Ultima: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} trovate`,
+    cityStatsCompletedLines: 'Linee completate',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Più veloce: ${line}${duration ? ` in ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Dettaglio per linea',
+    cityStatsNoTimeData: 'Nessun dato temporale',
+    cityStatsTimelineTitle: 'Cronologia stazioni',
+    cityStatsTimelineSubtitle: 'Ultime dieci stazioni con timestamp e tempo trascorso dal primo ritrovamento.',
+    cityStatsHeadersSubheaders: 'Intestazioni e sottotitoli',
+
+
     settings: 'Impostazioni',
     account: 'Account',
     privacy: 'Privacy',
@@ -3440,7 +4088,10 @@ export const i18n = rosetta({
         Sostieni lo sviluppo di <strong>{title}</strong> con una donazione.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Sostieni il progetto',
+    kofiDismiss: 'Chiudi',
+    kofiNever: 'Non mostrare più',
+opensANewTab:
       'Questo link aprirà una nuova scheda e i tuoi progressi verranno salvati nel browser.',
     keepGoingForFree: 'Continua gratis',
     sort: {
@@ -3456,6 +4107,16 @@ export const i18n = rosetta({
         : 'Nessuna stazione trovata',
     // New UI Keys
     language: 'Lingua',
+    timezone: 'Fuso orario',
+    timezoneDesc: 'Predefinito UTC. Scegli un fuso orario o rilevalo automaticamente.',
+    getTimezone: 'Ottieni fuso orario',
+    gettingTimezone: 'Recupero fuso orario…',
+    getTimezoneRequest: 'Richiesta accesso alla posizione per rilevare il fuso orario…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Fuso orario impostato su ${timezone}.`,
+    getTimezoneError: 'Impossibile rilevare il fuso orario. Selezionane uno.',
+    switchTo12Hour: 'Passa al formato 12 ore',
+    switchTo24Hour: 'Passa al formato 24 ore',
+
     theme: 'Tema',
     systemDefault: 'Predefinito di sistema',
     light: 'Chiaro',
@@ -3523,10 +4184,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Cosa dicono le persone',
     tabPress: 'Hanno parlato di noi',
     tabSupport: 'Sostienimi!',
+    globalOverallCompletion: 'Completamento generale',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} stazioni trovate`,
+    globalCompletedCities: 'Città completate',
+    globalInProgress: 'In corso',
+    globalNotStarted: 'Non iniziato',
+    globalTotalCities: 'Totale città',
+    globalByCityHint: 'Usa il pulsante … per aprire subito le statistiche dettagliate di una città.',
+    globalSearchCities: 'Cerca città…',
+    globalSortCities: 'Ordina città',
 
     // Sort
     sortDefault: 'Ordine predefinito',
     sortNameAsc: 'Nome (A-Z)',
+    cityViewComfortable: 'Comodo',
+    cityViewCompact: 'Compatto',
+    cityViewCover: 'Copertina',
+    cityViewList: 'Elenco',
     sortNameDesc: 'Nome (Z-A)',
     sortContinentAsc: 'Continente (A-Z)',
     sortContinentDesc: 'Continente (Z-A)',
@@ -3540,6 +4214,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Obiettivi sbloccati: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Obiettivi bloccati: ${locked}`,
+    achievementUnlocked: 'Sbloccato',
+    achievementLocked: 'Bloccato',
     // Continents
     northAmerica: 'Nord America',
     southAmerica: 'Sud America',
@@ -3664,6 +4340,23 @@ export const i18n = rosetta({
     hideLabels: 'Verberg labels',
     about: 'Credits',
     cityStats: 'Stadsstatistieken',
+    cityStatsStationsProgress: 'Stationsvoortgang',
+    cityStatsTimeSpent: 'Besteedde tijd',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Gemiddeld ${duration} per station`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} speeldag${count === 1 ? "" : "en"}`,
+    cityStatsFirstLatest: 'Eerste en laatste vondsten',
+    cityStatsFirst: ({ value }: { value: string }): string => `Eerste: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `Laatste: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} gevonden`,
+    cityStatsCompletedLines: 'Voltooide lijnen',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Snelst: ${line}${duration ? ` in ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'Lijnoverzicht',
+    cityStatsNoTimeData: 'Nog geen tijdgegevens',
+    cityStatsTimelineTitle: 'Stations tijdlijn',
+    cityStatsTimelineSubtitle: 'Laatste tien getimestampte stations met verstreken tijd sinds je eerste vondst.',
+    cityStatsHeadersSubheaders: 'Kop- en subkoppen',
+
+
     settings: 'Instellingen',
     account: 'Account',
     privacy: 'Privacy',
@@ -3677,7 +4370,10 @@ export const i18n = rosetta({
         Steun de ontwikkeling van <strong>{title}</strong> met een donatie.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'Steun het project',
+    kofiDismiss: 'Sluiten',
+    kofiNever: 'Niet meer tonen',
+opensANewTab:
       'Deze link opent een nieuw tabblad en je voortgang wordt opgeslagen in je browser.',
     keepGoingForFree: 'Ga gratis door',
     sort: {
@@ -3693,6 +4389,16 @@ export const i18n = rosetta({
         : 'Geen stations gevonden',
     // New UI Keys
     language: 'Taal',
+    timezone: 'Tijdzone',
+    timezoneDesc: 'Standaard is UTC. Kies een tijdzone of detecteer automatisch.',
+    getTimezone: 'Tijdzone ophalen',
+    gettingTimezone: 'Tijdzone ophalen…',
+    getTimezoneRequest: 'Locatietoegang aanvragen om je tijdzone te bepalen…',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `Tijdzone ingesteld op ${timezone}.`,
+    getTimezoneError: 'Kon je tijdzone niet bepalen. Kies er een.',
+    switchTo12Hour: 'Overschakelen naar 12-uurs',
+    switchTo24Hour: 'Overschakelen naar 24-uurs',
+
     theme: 'Thema',
     systemDefault: 'Systeemstandaard',
     light: 'Licht',
@@ -3760,10 +4466,23 @@ export const i18n = rosetta({
     tabTestimonials: 'Wat mensen zeggen',
     tabPress: 'In de pers',
     tabSupport: 'Steun me!',
+    globalOverallCompletion: 'Totale voortgang',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} stations gevonden`,
+    globalCompletedCities: 'Voltooide steden',
+    globalInProgress: 'Bezig',
+    globalNotStarted: 'Niet begonnen',
+    globalTotalCities: 'Totaal steden',
+    globalByCityHint: 'Gebruik de …-knop om direct naar de gedetailleerde stadsstatistieken te gaan.',
+    globalSearchCities: 'Zoek steden…',
+    globalSortCities: 'Steden sorteren',
 
     // Sort
     sortDefault: 'Standaardvolgorde',
     sortNameAsc: 'Naam (A-Z)',
+    cityViewComfortable: 'Comfortabel',
+    cityViewCompact: 'Compact',
+    cityViewCover: 'Cover',
+    cityViewList: 'Lijst',
     sortNameDesc: 'Naam (Z-A)',
     sortContinentAsc: 'Continent (A-Z)',
     sortContinentDesc: 'Continent (Z-A)',
@@ -3777,6 +4496,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `Vrijgespeelde prestaties: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `Vergrendelde prestaties: ${locked}`,
+    achievementUnlocked: 'Ontgrendeld',
+    achievementLocked: 'Vergrendeld',
     // Continents
     northAmerica: 'Noord-Amerika',
     southAmerica: 'Zuid-Amerika',
@@ -3899,6 +4620,23 @@ export const i18n = rosetta({
     hideLabels: 'إخفاء التسميات',
     about: 'الاعتمادات',
     cityStats: 'إحصائيات المدينة',
+    cityStatsStationsProgress: 'تقدم المحطات',
+    cityStatsTimeSpent: 'الوقت المستغرق',
+    cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `متوسط ${duration} لكل محطة`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} يوم لعب`,
+    cityStatsFirstLatest: 'أول وآخر اكتشاف',
+    cityStatsFirst: ({ value }: { value: string }): string => `الأول: ${value}`,
+    cityStatsLatest: ({ value }: { value: string }): string => `الأخير: ${value}`,
+    cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} تم العثور عليها`,
+    cityStatsCompletedLines: 'الخطوط المكتملة',
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `الأسرع: ${line}${duration ? ` خلال ${duration}` : ""}`,
+    cityStatsLineBreakdown: 'تفصيل الخطوط',
+    cityStatsNoTimeData: 'لا توجد بيانات وقت بعد',
+    cityStatsTimelineTitle: 'الجدول الزمني للمحطات',
+    cityStatsTimelineSubtitle: 'أحدث عشرة محطات ذات طابع زمني مع الزمن المنقضي منذ أول اكتشاف لك.',
+    cityStatsHeadersSubheaders: 'العناوين والرؤوس الفرعية',
+
+
     settings: 'الإعدادات',
     account: 'الحساب',
     privacy: 'الخصوصية',
@@ -3912,7 +4650,10 @@ export const i18n = rosetta({
         ادعم تطوير <strong>{title}</strong> بالتبرع.
       </span>
     ),
-    opensANewTab:
+        kofiTitle: 'ادعم المشروع',
+    kofiDismiss: 'إغلاق',
+    kofiNever: 'لا تظهر مرة أخرى',
+opensANewTab:
       'سيفتح هذا الرابط علامة تبويب جديدة وسيتم حفظ تقدمك في المتصفح.',
     keepGoingForFree: 'استمر مجانًا',
     sort: {
@@ -3928,6 +4669,16 @@ export const i18n = rosetta({
         : 'لم يتم العثور على محطات',
     // New UI Keys
     language: 'اللغة',
+    timezone: 'المنطقة الزمنية',
+    timezoneDesc: 'الإعداد الافتراضي هو UTC. اختر منطقة زمنية أو اكتشفها تلقائيًا.',
+    getTimezone: 'الحصول على المنطقة الزمنية',
+    gettingTimezone: 'جارٍ الحصول على المنطقة الزمنية...',
+    getTimezoneRequest: 'يتم طلب إذن الموقع لاكتشاف منطقتك الزمنية...',
+    getTimezoneSuccess: ({ timezone }: { timezone: string }): string => `تم ضبط المنطقة الزمنية على ${timezone}.`,
+    getTimezoneError: 'تعذر اكتشاف منطقتك الزمنية. يرجى الاختيار يدويًا.',
+    switchTo12Hour: 'التبديل إلى تنسيق 12 ساعة',
+    switchTo24Hour: 'التبديل إلى تنسيق 24 ساعة',
+
     theme: 'السمة',
     systemDefault: 'إعدادات النظام الافتراضية',
     light: 'فاتح',
@@ -3995,10 +4746,23 @@ export const i18n = rosetta({
     tabTestimonials: 'آراء الناس',
     tabPress: 'تحدثوا عنا',
     tabSupport: 'ادعمني!',
+    globalOverallCompletion: 'نسبة الإكمال العامة',
+    globalOverallDetail: ({ found, total }: { found: string; total: string }): string => `${found} / ${total} محطة تم العثور عليها`,
+    globalCompletedCities: 'المدن المكتملة',
+    globalInProgress: 'قيد التقدم',
+    globalNotStarted: 'غير مبدوءة',
+    globalTotalCities: 'إجمالي المدن',
+    globalByCityHint: 'استخدم زر … للانتقال مباشرة إلى لوحة إحصاءات المدينة التفصيلية.',
+    globalSearchCities: 'ابحث عن المدن…',
+    globalSortCities: 'رتب المدن',
 
     // Sort
     sortDefault: 'الترتيب الافتراضي',
     sortNameAsc: 'الاسم (أ-ي)',
+    cityViewComfortable: 'مريح',
+    cityViewCompact: 'مضغوط',
+    cityViewCover: 'غلاف',
+    cityViewList: 'قائمة',
     sortNameDesc: 'الاسم (ي-أ)',
     sortContinentAsc: 'القارة (أ-ي)',
     sortContinentDesc: 'القارة (ي-أ)',
@@ -4012,6 +4776,8 @@ export const i18n = rosetta({
     unlockedAchievements: ({ unlocked, total }: { unlocked: number; total: number }): string =>
       `الإنجازات المفتوحة: ${unlocked} / ${total}`,
     lockedAchievements: ({ locked }: { locked: number }): string => `الإنجازات المقفلة: ${locked}`,
+    achievementUnlocked: 'تم الفتح',
+    achievementLocked: 'مغلق',
     // Continents
     northAmerica: 'أمريكا الشمالية',
     southAmerica: 'أمريكا الجنوبية',

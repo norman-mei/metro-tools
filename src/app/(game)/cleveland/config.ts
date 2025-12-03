@@ -19,6 +19,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/cleveland',
+    apple: '/api/city-icon/cleveland',
+  },
   title: 'Cleveland Metro Memory',
   description:
     'How many of the Cleveland RTA Rapid Transit stations can you name from memory?',

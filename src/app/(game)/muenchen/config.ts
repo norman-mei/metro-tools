@@ -121,6 +121,10 @@ export const LINES: {
 }
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/muenchen',
+    apple: '/api/city-icon/muenchen',
+  },
   title: 'München Bahn Memory',
   description: 'Wie viele S- und U-Bahn Stationen können Sie auswendig nennen?',
   openGraph: {

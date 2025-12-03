@@ -78,6 +78,10 @@ export const LINE_GROUPS: LineGroup[] = [
 ]
 
 export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/boston',
+    apple: '/api/city-icon/boston',
+  },
   title: 'Boston Metro Memory',
   description:
     'How many of the Boston metro stations can you name from memory?',

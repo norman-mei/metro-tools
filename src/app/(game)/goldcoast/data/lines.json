@@ -1,0 +1,10 @@
+{
+  "Glink": {
+    "name": "G:link",
+    "color": "#FFCC00",
+    "backgroundColor": "#FFCC00",
+    "textColor": "#000000",
+    "icon": "goldcoast.svg",
+    "order": 0
+  }
+}

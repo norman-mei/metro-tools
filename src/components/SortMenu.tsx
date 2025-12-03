@@ -57,9 +57,9 @@ export default function SortMenu({
 
 const Option = ({ option }: { option: SortOption }) => {
   return (
-    <Listbox.Option value={option.id}>
+    <Listbox.Option value={option.id} as={Fragment}>
       {({ selected, active }) => (
-        <li
+        <div
           className={classNames(
             'relative cursor-default select-none py-2 pl-10 pr-4',
             {
@@ -82,7 +82,7 @@ const Option = ({ option }: { option: SortOption }) => {
               <CheckIcon className="h-5 w-5" aria-hidden="true" />
             </span>
           ) : null}
-        </li>
+        </div>
       )}
     </Listbox.Option>
   )

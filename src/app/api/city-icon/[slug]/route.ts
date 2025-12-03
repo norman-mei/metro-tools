@@ -1,13 +1,14 @@
+import { createHash } from 'crypto'
+import { promises as fs } from 'fs'
 import { NextRequest, NextResponse } from 'next/server'
 import path from 'path'
-import { promises as fs } from 'fs'
-import { createHash } from 'crypto'
 
 const VALID_SLUG = /^[a-z0-9-]+$/
 const GAME_ROOT = path.join(process.cwd(), 'src', 'app', '(game)')
 const FALLBACK_CANDIDATES = [
   path.join(process.cwd(), 'src', 'app', 'favicon.ico'),
   path.join(process.cwd(), 'public', 'favicon.ico'),
+  path.join(process.cwd(), 'public', 'images', 'favicon.ico'),
 ]
 
 let fallbackCache: Buffer | null = null
@@ -58,8 +59,12 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
   }
 
   const iconPath = path.join(GAME_ROOT, normalizedSlug, 'icon.ico')
+  const faviconPath = path.join(GAME_ROOT, normalizedSlug, 'favicon.ico')
+  
   const iconBuffer =
-    (await readIconFromDisk(iconPath)) ?? (await getFallbackIcon())
+    (await readIconFromDisk(iconPath)) ??
+    (await readIconFromDisk(faviconPath)) ??
+    (await getFallbackIcon())
 
   if (!iconBuffer || iconBuffer.length === 0) {
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
