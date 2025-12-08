@@ -16,16 +16,16 @@ const KoFiWidget = ({ open, onClose, onNever, height = 480, showFooter = true }:
   const { t } = useTranslation()
   const { settings } = useSettings()
 
-  if (!open) {
-    return null
-  }
-
   useEffect(() => {
     const iframe = document.getElementById('kofiframe') as HTMLIFrameElement | null
     if (iframe) {
       iframe.setAttribute('aria-live', 'polite')
     }
   }, [open])
+
+  if (!open) {
+    return null
+  }
 
   return (
     <div className="w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-2xl ring-1 ring-black/5 dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100">

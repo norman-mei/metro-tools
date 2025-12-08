@@ -1,21 +1,21 @@
 'use client'
 
 import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-  useRef,
+    createContext,
+    useCallback,
+    useContext,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
 } from 'react'
 
-import {
-  mergeCollapsedSections,
-  normalizeUiPreferences,
-  type UiPreferences,
-} from '@/lib/preferences'
 import { useSettings } from '@/context/SettingsContext'
+import {
+    mergeCollapsedSections,
+    normalizeUiPreferences,
+    type UiPreferences,
+} from '@/lib/preferences'
 
 type AuthUser = {
   id: string
@@ -263,7 +263,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     void persistLanguage()
 
     return () => controller.abort()
-  }, [setProgressSummaries, setUser, settings.language, uiPreferences.language, user])
+  }, [
+    setProgressSummaries,
+    setUser,
+    settings.language,
+    settings.timezone,
+    settings.hourFormat,
+    uiPreferences.language,
+    uiPreferences.timezone,
+    uiPreferences.hourFormat,
+    user,
+  ])
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }

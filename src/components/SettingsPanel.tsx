@@ -769,7 +769,7 @@ const ResetProgressButton = ({
     }
 
     return Array.from(entries.values()).sort((a, b) => a.name.localeCompare(b.name))
-  }, [progressSummaries, localProgressVersion])
+  }, [progressSummaries, localProgressVersion, cities])
   const [selectedCities, setSelectedCities] = useState<string[]>([])
   const [citySelectionInitialized, setCitySelectionInitialized] = useState(false)
 
@@ -898,7 +898,7 @@ const ResetProgressButton = ({
       setIsResetting(false)
       setHoldProgress(0)
     }
-  }, [isAuthenticated, onLogout, onResetComplete, resetTargets])
+  }, [isAuthenticated, onLogout, onResetComplete, resetTargets, t])
 
   const completeHold = useCallback(() => {
     clearHoldTracking()

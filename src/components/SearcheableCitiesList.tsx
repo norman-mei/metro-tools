@@ -535,14 +535,17 @@ const SearcheableCitiesList = ({
     }
   }, [computeCityProgress])
 
-  const cityMatchesSearch = (entry: (typeof globalStats)['cityBreakdown'][number]) => {
-    const query = globalStatsSearch.trim().toLowerCase()
-    if (!query) return true
-    const cityMeta = cityMetaBySlug.get(entry.slug)
-    const keywords = cityMeta?.keywords?.join(' ') ?? ''
-    const haystack = `${entry.name} ${entry.slug} ${cityMeta?.continent ?? ''} ${keywords}`.toLowerCase()
-    return haystack.includes(query)
-  }
+  const cityMatchesSearch = useCallback(
+    (entry: (typeof globalStats)['cityBreakdown'][number]) => {
+      const query = globalStatsSearch.trim().toLowerCase()
+      if (!query) return true
+      const cityMeta = cityMetaBySlug.get(entry.slug)
+      const keywords = cityMeta?.keywords?.join(' ') ?? ''
+      const haystack = `${entry.name} ${entry.slug} ${cityMeta?.continent ?? ''} ${keywords}`.toLowerCase()
+      return haystack.includes(query)
+    },
+    [cityMetaBySlug, globalStatsSearch],
+  )
 
   const visibleCityBreakdown = useMemo(() => {
     const filtered = globalStats.cityBreakdown.filter(cityMatchesSearch)
@@ -588,7 +591,7 @@ const SearcheableCitiesList = ({
       default:
         return base.sort(compareName)
     }
-  }, [cityMetaBySlug, globalStats.cityBreakdown, globalStatsSort, globalStatsSearch])
+  }, [cityMetaBySlug, globalStats.cityBreakdown, globalStatsSort, cityMatchesSearch])
 
   const statsNavigation = useMemo(() => {
     if (!visibleCityBreakdown.length) {

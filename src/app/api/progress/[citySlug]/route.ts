@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 
-import { prisma } from '@/lib/prisma'
 import { getCurrentUser } from '@/lib/auth'
+import { prisma } from '@/lib/prisma'
 
 type RouteParams = {
   params: Promise<{
@@ -55,7 +55,7 @@ export async function GET(_: NextRequest, { params }: RouteParams) {
   return NextResponse.json({
     progress: {
       foundIds: Array.isArray(record.foundIds)
-        ? record.foundIds.filter((id): id is number => typeof id === 'number')
+        ? record.foundIds.filter((id: any): id is number => typeof id === 'number')
         : [],
       foundTimestamps: storedTimestamps,
     },

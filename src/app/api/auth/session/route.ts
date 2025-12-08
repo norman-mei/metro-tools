@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server'
 
 import { getCurrentUser } from '@/lib/auth'
-import { prisma } from '@/lib/prisma'
 import { normalizeUiPreferences } from '@/lib/preferences'
+import { prisma } from '@/lib/prisma'
 
 export async function GET() {
   const user = await getCurrentUser()
@@ -14,9 +14,9 @@ export async function GET() {
     where: { userId: user.id },
   })
 
-  const summaries = progress.map((entry) => {
+  const summaries = progress.map((entry: any) => {
     const raw = Array.isArray(entry.foundIds) ? entry.foundIds : []
-    const foundIds = raw.filter((id): id is number => typeof id === 'number')
+    const foundIds = raw.filter((id: any): id is number => typeof id === 'number')
     return {
       citySlug: entry.citySlug,
       foundCount: new Set(foundIds).size,

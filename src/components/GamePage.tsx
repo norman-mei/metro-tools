@@ -1304,7 +1304,6 @@ export default function GamePage({
     submitProgress,
     inputRef,
     CITY_NAME,
-    suppressAutoRevealForCity,
   ])
 
   const foundStationsPerLine = useMemo(() => {
@@ -1417,7 +1416,6 @@ export default function GamePage({
     setSolutionsPassword,
     setSolutionsError,
     setSolutionsPromptOpen,
-    clearAutoRevealSuppressionForCity,
   ])
 
   const handleSolutionsClose = useCallback(() => {
@@ -1478,7 +1476,6 @@ export default function GamePage({
       setSolutionsPromptOpen,
       setSolutionsPassword,
       setSolutionsError,
-      clearAutoRevealSuppressionForCity,
     ],
   )
 

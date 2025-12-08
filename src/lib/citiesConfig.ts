@@ -125,6 +125,7 @@ export const cities: ICity[] = [
     image: amtrak,
     link: '/amtrak',
     continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Atlanta, GA',
@@ -143,6 +144,7 @@ export const cities: ICity[] = [
     image: bayarea,
     link: '/bayarea',
     continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Boston, MA',
@@ -198,6 +200,7 @@ export const cities: ICity[] = [
     image: dallas,
     link: '/dallas',
     continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Denver, CO',
@@ -265,6 +268,7 @@ export const cities: ICity[] = [
     link: '/la',
     keywords: ['Los Angeles', 'LA'],
     continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Memphis, TN',
@@ -408,6 +412,7 @@ export const cities: ICity[] = [
     image: toronto,
     link: '/toronto',
     continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Tucson, AZ',
@@ -427,6 +432,7 @@ export const cities: ICity[] = [
     image: viarail,
     link: '/viarail',
     continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Washington DC—Baltimore, DC/MD',
@@ -627,6 +633,7 @@ export const cities: ICity[] = [
     image: shenzhen,
     link: '/shenzhen',
     continent: 'Asia',
+    hideInStats: true,
   },
   {
     name: 'Singapore, SG',
@@ -657,6 +664,7 @@ export const cities: ICity[] = [
     image: taipei,
     link: '/taipei',
     continent: 'Asia',
+    hideInStats: true,
   },
   {
     name: 'Taichung (臺中), TW',
@@ -669,12 +677,14 @@ export const cities: ICity[] = [
     image: hochiminhcity,
     link: '/hochiminhcity',
     continent: 'Asia',
+    hideInStats: true,
   },
   {
     name: 'Hanoi (Hà Nội), VN',
     image: hanoi,
     link: '/hanoi',
     continent: 'Asia',
+    hideInStats: true,
   },
 
   // Oceania
@@ -683,12 +693,14 @@ export const cities: ICity[] = [
     image: adelaide,
     link: '/adelaide',
     continent: 'Oceania',
+    hideInStats: true,
   },
   {
     name: 'Auckland, NZ',
     image: auckland,
     link: '/auckland',
     continent: 'Oceania',
+    hideInStats: true,
   },
   {
     name: 'Canberra, ACT',
@@ -707,6 +719,7 @@ export const cities: ICity[] = [
     image: melbourne,
     link: '/melbourne',
     continent: 'Oceania',
+    hideInStats: true,
   },
   {
     name: 'Newcastle, NSW',
@@ -719,24 +732,28 @@ export const cities: ICity[] = [
     image: perth,
     link: '/perth',
     continent: 'Oceania',
+    hideInStats: true,
   },
   {
     name: 'Sydney, NSW',
     image: sydney,
     link: '/sydney',
     continent: 'Oceania',
+    hideInStats: true,
   },
   {
     name: 'Wellington, NZ',
     image: wellington,
     link: '/wellington',
     continent: 'Oceania',
+    hideInStats: true,
   },
   {
     name: 'Yarra, VIC',
     image: yarra,
     link: '/yarra',
     continent: 'Oceania',
+    hideInStats: true,
   },
 ]
 
