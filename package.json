@@ -64,7 +64,8 @@
   "devDependencies": {
     "axios": "^1.9.0",
     "baseline-browser-mapping": "^2.8.32",
-    "eslint": "8.45.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "16.0.7",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.5.2",
