@@ -4,6 +4,7 @@ import { AuthProvider } from '@/context/AuthContext'
 import { SettingsProvider } from '@/context/SettingsContext'
 import '@/styles/tailwind.css'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({
           </SettingsProvider>
         </ThemeProviderClient>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

@@ -1,88 +1,154 @@
-import _ from 'lodash'
+'use client'
+
+import type { FeatureCollection, LineString, Point } from 'geojson'
+import { useEffect, useMemo, useState } from 'react'
 import StatsGraph from './StatsGraph'
-import { promises as fs } from 'fs'
 
-const CityStats = async ({ name, slug }: { name: string; slug: string }) => {
-  const features = await import(`@/app/(game)/${slug}/data/features.json`)
-  const routes = await import(`@/app/(game)/${slug}/data/routes.json`)
+type CityData = {
+  features: FeatureCollection<Point, { name: string; line: string }>
+  routes: FeatureCollection<LineString, { color: string }>
+}
 
-  let cityStats: [string, number][] = []
-  try {
-    // load from file cache
-    cityStats = JSON.parse(
-      await fs.readFile(`public/stats/${slug}.json`, { encoding: 'utf-8' }),
-    )
-    console.log('loaded from file cache')
-  } catch (error) {
-    console.log(`loading ${slug} from API`)
-    // scan all keys
-    cityStats = await fetch('https://www.metro-memory.com/api/stats/' + slug, {
-      cache: 'force-cache',
-    }).then((res) => res.json())
+type CityValue = {
+  lines: string[]
+  value: number
+  name: string
+  geometry: Point
+  id: number
+  percentile: number
+}
 
-    if (process.env.NODE_ENV !== 'production') {
-      // save to file cache
-      await fs.writeFile(
-        `public/stats/${slug}.json`,
-        JSON.stringify(cityStats),
-        'utf-8',
+const CityStats = ({ name, slug }: { name: string; slug: string }) => {
+  const [stats, setStats] = useState<[string, number][]>([])
+  const [cityData, setCityData] = useState<CityData | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    let isMounted = true
+    setLoading(true)
+    setError(null)
+
+    const fetchData = async () => {
+      try {
+        const [statsRes, dataRes] = await Promise.all([
+          fetch(`/api/stats/${slug}`),
+          fetch(`/api/city-data/${slug}`),
+        ])
+
+        if (!statsRes.ok) {
+          throw new Error(`Failed to load stats for ${name}`)
+        }
+
+        if (!dataRes.ok) {
+          throw new Error(`Failed to load map data for ${name}`)
+        }
+
+        const [statsJson, dataJson] = await Promise.all([
+          statsRes.json(),
+          dataRes.json(),
+        ])
+
+        if (isMounted) {
+          setStats(statsJson)
+          setCityData(dataJson)
+        }
+      } catch (err) {
+        console.error(err)
+        if (isMounted) {
+          setError('Unable to load stats right now. Please try again later.')
+        }
+      } finally {
+        if (isMounted) {
+          setLoading(false)
+        }
+      }
+    }
+
+    fetchData()
+
+    return () => {
+      isMounted = false
+    }
+  }, [name, slug])
+
+  const values = useMemo(() => {
+    if (!cityData) return [] as CityValue[]
+
+    const mapped = stats
+      .map(([key, value]) => {
+        const id = +key.replace(`${slug}-`, '')
+        const feature = cityData.features.features.find((f) => f.id === id)
+
+        if (!feature) {
+          return null
+        }
+
+        return {
+          id,
+          name: feature.properties.name,
+          value,
+          line: feature.properties.line,
+          geometry: feature.geometry,
+        }
+      })
+      .filter(Boolean) as Array<{
+      id: number
+      name: string
+      value: number
+      line: string
+      geometry: Point
+    }>
+
+    const grouped = mapped.reduce<Record<string, typeof mapped>>((acc, item) => {
+      acc[item.name] = acc[item.name] || []
+      acc[item.name].push(item)
+      return acc
+    }, {})
+
+    const groups = Object.values(grouped)
+
+    return groups.map((items, index): CityValue => {
+      return items.reduce<CityValue>(
+        (acc, item) => ({
+          name: item.name,
+          value: item.value,
+          geometry: item.geometry,
+          lines: [...acc.lines, item.line],
+          id: item.id,
+          percentile: index / groups.length,
+        }),
+        {
+          lines: [],
+          value: 0,
+          name: '',
+          geometry: { type: 'Point', coordinates: [0, 0] },
+          id: 0,
+          percentile: 0,
+        },
       )
-    }
-  }
+    })
+  }, [cityData, slug, stats])
 
-  const mapFeature = ([key, value]: [string, number]) => {
-    const id = +key.replace(`${slug}-`, '')
-    const feature = features.features.find((f: any) => f.id === id)
-
-    if (!feature) {
-      return null
-    }
-
-    return {
-      id,
-      name: feature.properties.name,
-      value,
-      line: feature.properties.line,
-      geometry: feature.geometry,
-    }
-  }
-
-  const reduceLines = (items: any[], index: number, array: any[]): any => {
-    return items.reduce(
-      (acc, item): any => ({
-        name: item.name,
-        value: item.value,
-        geometry: item.geometry,
-        lines: [...acc.lines, item.line],
-        id: item.id,
-        percentile: index / array.length,
-      }),
-      {
-        lines: [],
-        value: 0,
-        name: '',
-        geometry: null,
-        id: 0,
-        percentile: 0,
-      },
+  if (loading) {
+    return (
+      <div className="mx-auto w-full max-w-5xl rounded border bg-white p-4 text-center">
+        Loading stats for {name}...
+      </div>
     )
   }
 
-  const values = _.chain(cityStats)
-    .map(mapFeature)
-    .filter(Boolean)
-    .groupBy('name')
-    .values()
-    .map(reduceLines)
-    .value() as any
+  if (error || !cityData) {
+    return (
+      <div className="mx-auto w-full max-w-5xl rounded border bg-white p-4 text-center text-red-600">
+        {error || 'Unable to load stats.'}
+      </div>
+    )
+  }
 
   return (
     <div className="mx-auto w-full max-w-5xl rounded border bg-white p-2">
-      <StatsGraph
-        values={values}
-        routes={JSON.parse(JSON.stringify(routes))}
-        slug={slug}
-      />
+      <StatsGraph values={values} routes={cityData.routes} slug={slug} />
     </div>
   )
 }
