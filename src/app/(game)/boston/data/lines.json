@@ -139,13 +139,6 @@
     "textColor": "#FFFFFF",
     "order": 16
   },
-  "FB": {
-    "name": "Fall River/New Bedford",
-    "color": "#7B388C",
-    "backgroundColor": "#7B388C",
-    "textColor": "#FFFFFF",
-    "order": 17
-  },
   "MBTA_CR": {
     "name": "Commuter Rail",
     "color": "#80276C",

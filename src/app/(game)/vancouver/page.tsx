@@ -1,12 +1,13 @@
-import data from './data/features.json'
-import 'mapbox-gl/dist/mapbox-gl.css'
-import 'react-circular-progressbar/dist/styles.css'
-import { DataFeatureCollection } from '@/lib/types'
-import config from './config'
 import GamePage from '@/components/GamePage'
-import { Provider } from '@/lib/configContext'
 import Main from '@/components/Main'
+import { Provider } from '@/lib/configContext'
+import { DataFeatureCollection, RoutesFeatureCollection } from '@/lib/types'
+import 'mapbox-gl/dist/mapbox-gl.css'
 import { Inter } from 'next/font/google'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
+import data from './data/features.json'
+import routes from './data/routes.json'
 
 const font = Inter({
   subsets: ['latin'],
@@ -20,11 +21,19 @@ const fc = {
 
 export const metadata = config.METADATA
 
+// Filter out the Seabus line
+const filteredRoutes = {
+  ...routes,
+  features: routes.features.filter(
+    (f) => f.properties.line !== 'VancouverSeabusSeabus'
+  ),
+} as unknown as RoutesFeatureCollection
+
 export default function DC() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>
-        <GamePage fc={fc} />
+        <GamePage fc={fc} routes={filteredRoutes} />
       </Main>
     </Provider>
   )

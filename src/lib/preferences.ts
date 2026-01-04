@@ -8,11 +8,21 @@ function isRecord(value: unknown): value is JsonRecord {
 
 export type CollapsedSections = Record<string, boolean>
 
+export type CityViewMode =
+  | 'globe'
+  | 'map'
+  | 'comfortable'
+  | 'compact'
+  | 'cover'
+  | 'list'
+
 export type UiPreferences = {
   collapsedSections?: CollapsedSections
   language?: string
   timezone?: string
   hourFormat?: '12h' | '24h'
+  cityViewMode?: CityViewMode
+  cityViewSatellite?: boolean
 }
 
 export function normalizeCollapsedSections(
@@ -55,6 +65,23 @@ export function normalizeHourFormat(value: unknown): '12h' | '24h' | undefined {
   return value === '12h' || value === '24h' ? value : undefined
 }
 
+export function normalizeCityViewMode(value: unknown): CityViewMode | undefined {
+  if (typeof value !== 'string') return undefined
+  const allowed: CityViewMode[] = [
+    'globe',
+    'map',
+    'comfortable',
+    'compact',
+    'cover',
+    'list',
+  ]
+  return allowed.includes(value as CityViewMode) ? (value as CityViewMode) : undefined
+}
+
+export function normalizeCityViewSatellite(value: unknown): boolean | undefined {
+  return typeof value === 'boolean' ? value : undefined
+}
+
 export function normalizeUiPreferences(value: unknown): UiPreferences {
   if (!isRecord(value)) {
     return {}
@@ -66,12 +93,16 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
   const language = normalizeLanguage(value.language)
   const timezone = normalizeTimezone(value.timezone)
   const hourFormat = normalizeHourFormat(value.hourFormat)
+  const cityViewMode = normalizeCityViewMode(value.cityViewMode)
+  const cityViewSatellite = normalizeCityViewSatellite(value.cityViewSatellite)
 
   return {
     ...(collapsedSections ? { collapsedSections } : {}),
     ...(language ? { language } : {}),
     ...(timezone ? { timezone } : {}),
     ...(hourFormat ? { hourFormat } : {}),
+    ...(cityViewMode ? { cityViewMode } : {}),
+    ...(cityViewSatellite !== undefined ? { cityViewSatellite } : {}),
   }
 }
 

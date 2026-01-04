@@ -12,6 +12,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Yeah, Science!",
     description: "You've mastered the Duke City's transit system. Jesse Pinkman would be proud.",
   },
+  algiers: {
+    title: "Desert Metro",
+    description: "You've discovered the Algiers Metro like a true explorer!",
+  },
   amtrak: {
     title: "All Aboard America",
     description: "You've tracked every Amtrak route across the nation. Coast to coast champion!",
@@ -96,10 +100,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Motor City Mind",
     description: "You've cruised through Motown's People Mover like it's nothing.",
   },
-  dongguan: {
-    title: "Manufacturing Marvel",
-    description: "厉害！You've metro'd through Dongguan's industrial heartland!",
-  },
   dresden: {
     title: "Baroque and Roll",
     description: "You've tram'd through Dresden like a phoenix rising!",
@@ -128,10 +128,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Surfer's Paradise Navigator",
     description: "You've G-linked the Coast like a true surfie!",
   },
-  guangzhou: {
-    title: "Canton Champion",
-    description: "好犀利！You've conquered one of China's largest metro systems!",
-  },
   hanoi: {
     title: "Capital of Transit",
     description: "You've mastered Hanoi's metro like a true Hanoian! Xuất sắc!",
@@ -139,10 +135,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   hamburg: {
     title: "Harbor Master",
     description: "You've U-Bahn'd through Germany's gateway to the world!",
-  },
-  hk: {
-    title: "Asia's World City",
-    description: "You know the fragrant harbor's rails better than Jackie Chan knows stunts!",
   },
   hochiminhcity: {
     title: "Saigon Speed",
@@ -192,13 +184,13 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "House Always Knows",
     description: "You bet on every station and won big in Sin City!",
   },
-  macau: {
-    title: "Lucky Lines",
-    description: "You've LRT'd through the Vegas of Asia. 好彩！",
-  },
   madrid: {
     title: "Madrileno Completo",
     description: "Ole! You've danced through Madrid Metro like flamenco!",
+  },
+  maracaibo: {
+    title: "Maracaibo Sun",
+    description: "You've explored the Maracaibo Metro under the Venezuelan sun!",
   },
   manchester: {
     title: "Madchester Mind",
@@ -336,10 +328,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Steel City Scholar",
     description: "You've Supertram'd through Sheffield with full force!",
   },
-  shenzhen: {
-    title: "Silicon Valley of China",
-    description: "真厉害！You've speed-metro'd through China's tech capital!",
-  },
   singapore: {
     title: "The Lion City",
     description: "Your MRT knowledge is as efficient and spotless as Singapore itself!",
@@ -429,3 +417,10 @@ export const getAchievementForCity = (
     }
   )
 }
+
+export const getMasterAchievementDefinition = (totalCities: number): AchievementDefinition => ({
+  title: "Master Completionist",
+  description: totalCities > 0
+    ? `Unlock all ${totalCities} city achievements to earn this final badge.`
+    : "Unlock every city achievement to earn this final badge.",
+})

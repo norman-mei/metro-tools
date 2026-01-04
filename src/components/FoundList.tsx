@@ -357,7 +357,7 @@ const FoundList = ({
 
   return (
     <div>
-      <div className="mb-4 space-y-3">
+      <div className="sticky top-0 z-10 mb-4 space-y-3 bg-white pb-3 dark:bg-zinc-900">
         {grouped.length > 0 && (
           <div className="flex items-center justify-between">
             <p className="text-sm uppercase text-zinc-900 dark:text-zinc-100">
@@ -439,6 +439,7 @@ const GroupedLine = memo(
     const { resolvedTheme } = useTheme()
     const isDark = resolvedTheme === 'dark'
     const buttonRef = useRef<HTMLButtonElement | null>(null)
+    const [nextIndex, setNextIndex] = useState(0)
 
     const featureIds = useMemo(() => {
       return features
@@ -446,7 +447,8 @@ const GroupedLine = memo(
         .filter((id): id is number => typeof id === 'number')
     }, [features])
 
-    const primaryId = featureIds[0] ?? null
+    const featureIdKey = featureIds.join('|')
+    const nextId = featureIds[nextIndex] ?? featureIds[0] ?? null
 
     const lineIds = useMemo(() => {
       const ids = new Set<string>()
@@ -483,6 +485,11 @@ const GroupedLine = memo(
       })
     }, [features, LINES])
 
+    useEffect(() => {
+      // Reset cycling when the available feature set changes
+      setNextIndex(0)
+    }, [featureIdKey])
+
     const isHovered = hoveredId !== null && featureIds.includes(hoveredId)
     const isActive =
       activeStationId !== null && featureIds.includes(activeStationId)
@@ -511,11 +518,17 @@ const GroupedLine = memo(
           ref={buttonRef}
           type="button"
           onClick={() => {
-            if (typeof primaryId !== 'number') return
-            zoomToFeature(primaryId)
-            onStationFocus?.(primaryId)
+            if (typeof nextId !== 'number' || featureIds.length === 0) return
+            zoomToFeature(nextId)
+            onStationFocus?.(nextId)
+            setHoveredId(nextId)
+            setNextIndex((prev) => {
+              const count = featureIds.length
+              if (count === 0) return 0
+              return (prev + 1) % count
+            })
           }}
-          onMouseOver={() => setHoveredId(primaryId ?? null)}
+          onMouseOver={() => setHoveredId(nextId ?? null)}
           onMouseOut={() => setHoveredId(null)}
           disabled={disabled}
           className={classNames(

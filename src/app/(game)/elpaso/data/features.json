@@ -6,17 +6,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4892388436709,
-          31.760920411322022
+          -106.4887283,
+          31.7612013
         ]
       },
       "properties": {
         "name": "San Jacinto",
         "line": "Elpasodowntownloop",
         "id": 0,
-        "alternate_names": [
-          "Franklin & Mesa"
-        ]
+        "alternate_names": []
       },
       "id": 0
     },
@@ -25,17 +23,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48600017882876,
-          31.760543422946032
+          -106.4855598,
+          31.7600557
         ]
       },
       "properties": {
         "name": "City Hall",
         "line": "Elpasodowntownloop",
         "id": 1,
-        "alternate_names": [
-          "Kansas & Mills"
-        ]
+        "alternate_names": []
       },
       "id": 1
     },
@@ -44,17 +40,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48481263697964,
-          31.75842451304122
+          -106.4847466,
+          31.7582713
         ]
       },
       "properties": {
         "name": "Courthouse",
         "line": "Elpasodowntownloop",
         "id": 2,
-        "alternate_names": [
-          "Kansas & San Antonio"
-        ]
+        "alternate_names": []
       },
       "id": 2
     },
@@ -63,17 +57,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4842803026751,
-          31.756812899156305
+          -106.4842811,
+          31.7567437
         ]
       },
       "properties": {
-        "name": "1st Ave",
+        "name": "1st Avenue",
         "line": "Elpasodowntownloop",
         "id": 3,
-        "alternate_names": [
-          "Kansas & 1st"
-        ]
+        "alternate_names": []
       },
       "id": 3
     },
@@ -82,17 +74,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48413928159444,
-          31.753294395370958
+          -106.4840708,
+          31.7532808
         ]
       },
       "properties": {
         "name": "Stanton",
         "line": "Elpasodowntownloop",
         "id": 4,
-        "alternate_names": [
-          "Father Rahm & Stanton"
-        ]
+        "alternate_names": []
       },
       "id": 4
     },
@@ -101,17 +91,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48750487759064,
-          31.752550432845126
+          -106.4876914,
+          31.7524653
         ]
       },
       "properties": {
         "name": "El Paso",
         "line": "Elpasodowntownloop",
         "id": 5,
-        "alternate_names": [
-          "Father Rahm & El Paso"
-        ]
+        "alternate_names": []
       },
       "id": 5
     },
@@ -120,17 +108,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48863417747529,
-          31.753007827678953
+          -106.488598,
+          31.7529997
         ]
       },
       "properties": {
         "name": "Downtown Transit Center",
         "line": "Elpasodowntownloop",
         "id": 6,
-        "alternate_names": [
-          "Santa Fe & 4th"
-        ]
+        "alternate_names": []
       },
       "id": 6
     },
@@ -139,17 +125,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48976940437332,
-          31.75676864813162
+          -106.4897545,
+          31.7566754
         ]
       },
       "properties": {
         "name": "Overland",
         "line": "Elpasodowntownloop",
         "id": 7,
-        "alternate_names": [
-          "Santa Fe & Overland"
-        ]
+        "alternate_names": []
       },
       "id": 7
     },
@@ -158,17 +142,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49032075379696,
-          31.757979307280284
+          -106.4903292,
+          31.7579672
         ]
       },
       "properties": {
         "name": "Convention Center",
         "line": "Elpasodowntownloop",
         "id": 8,
-        "alternate_names": [
-          "Santa Fe / Sheldon"
-        ]
+        "alternate_names": []
       },
       "id": 8
     },
@@ -177,17 +159,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49090029127315,
-          31.759862899445338
+          -106.4909164,
+          31.7597721
         ]
       },
       "properties": {
         "name": "Cleveland Square",
         "line": "Elpasodowntownloop",
         "id": 9,
-        "alternate_names": [
-          "Franklin & El Paso"
-        ]
+        "alternate_names": []
       },
       "id": 9
     },
@@ -196,17 +176,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.48890953624749,
-          31.762492924213348
+          -106.4887283,
+          31.7612013
         ]
       },
       "properties": {
-        "name": "Missouri",
+        "name": "San Jacinto",
         "line": "Elpasouptownloop",
         "id": 10,
-        "alternate_names": [
-          "Stanton & Missouri"
-        ]
+        "alternate_names": []
       },
       "id": 10
     },
@@ -215,17 +193,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.490321461269,
-          31.764019380874416
+          -106.4904303,
+          31.7609852
         ]
       },
       "properties": {
-        "name": "Montana",
+        "name": "Arts District",
         "line": "Elpasouptownloop",
         "id": 11,
-        "alternate_names": [
-          "Stanton & Yandell"
-        ]
+        "alternate_names": []
       },
       "id": 11
     },
@@ -234,17 +210,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49213034161113,
-          31.766128771109596
+          -106.4922085,
+          31.7629491
         ]
       },
       "properties": {
-        "name": "Arizona",
+        "name": "Yandell",
         "line": "Elpasouptownloop",
         "id": 12,
-        "alternate_names": [
-          "Stanton & Arizona"
-        ]
+        "alternate_names": []
       },
       "id": 12
     },
@@ -253,17 +227,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49341279713047,
-          31.767551204646132
+          -106.4933271,
+          31.7642102
         ]
       },
       "properties": {
-        "name": "Cathedral",
+        "name": "Rio Grande",
         "line": "Elpasouptownloop",
         "id": 13,
-        "alternate_names": [
-          "Stanton & California"
-        ]
+        "alternate_names": []
       },
       "id": 13
     },
@@ -272,17 +244,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49664262227178,
-          31.771133161281128
+          -106.4965072,
+          31.7678433
         ]
       },
       "properties": {
-        "name": "Rim",
+        "name": "Cliff",
         "line": "Elpasouptownloop",
         "id": 14,
-        "alternate_names": [
-          "Stanton & Rim"
-        ]
+        "alternate_names": []
       },
       "id": 14
     },
@@ -291,17 +261,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49986341422355,
-          31.774818515094267
+          -106.4980687,
+          31.7696027
         ]
       },
       "properties": {
-        "name": "Kerbey",
+        "name": "Schuster",
         "line": "Elpasouptownloop",
         "id": 15,
-        "alternate_names": [
-          "Stanton & Kerbey"
-        ]
+        "alternate_names": []
       },
       "id": 15
     },
@@ -310,17 +278,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.50215947401831,
-          31.77740316422623
+          -106.499487,
+          31.7712235
         ]
       },
       "properties": {
-        "name": "Cincinnati",
+        "name": "Hague",
         "line": "Elpasouptownloop",
         "id": 16,
-        "alternate_names": [
-          "Stanton & Cincinnati"
-        ]
+        "alternate_names": []
       },
       "id": 16
     },
@@ -329,17 +295,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.50354346978119,
-          31.777869492507918
+          -106.5011185,
+          31.773074
         ]
       },
       "properties": {
-        "name": "Baltimore",
+        "name": "University",
         "line": "Elpasouptownloop",
         "id": 17,
-        "alternate_names": [
-          "Baltimore & Mesa"
-        ]
+        "alternate_names": []
       },
       "id": 17
     },
@@ -348,17 +312,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.50419185242825,
-          31.776604862897084
+          -106.5023106,
+          31.7744362
         ]
       },
       "properties": {
-        "name": "Glory Road Transit Center",
+        "name": "Boston",
         "line": "Elpasouptownloop",
         "id": 18,
-        "alternate_names": [
-          "Oregon & Glory Road TC"
-        ]
+        "alternate_names": []
       },
       "id": 18
     },
@@ -367,17 +329,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.5019425681469,
-          31.774084138947355
+          -106.5044066,
+          31.7768128
         ]
       },
       "properties": {
-        "name": "Boston",
+        "name": "Glory Road Transit Center",
         "line": "Elpasouptownloop",
         "id": 19,
-        "alternate_names": [
-          "Oregon & Boston"
-        ]
+        "alternate_names": []
       },
       "id": 19
     },
@@ -386,17 +346,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.50093656191451,
-          31.772884261503172
+          -106.5035533,
+          31.7778492
         ]
       },
       "properties": {
-        "name": "University",
+        "name": "Baltimore",
         "line": "Elpasouptownloop",
         "id": 20,
-        "alternate_names": [
-          "Oregon & University"
-        ]
+        "alternate_names": []
       },
       "id": 20
     },
@@ -405,17 +363,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49898307401615,
-          31.770717057011513
+          -106.5022218,
+          31.7773899
         ]
       },
       "properties": {
-        "name": "Hague",
+        "name": "Cincinnati",
         "line": "Elpasouptownloop",
         "id": 21,
-        "alternate_names": [
-          "Oregon & Hague"
-        ]
+        "alternate_names": []
       },
       "id": 21
     },
@@ -424,17 +380,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49815483721622,
-          31.769745339435516
+          -106.499929,
+          31.7747908
         ]
       },
       "properties": {
-        "name": "Schuster",
+        "name": "Kern",
         "line": "Elpasouptownloop",
         "id": 22,
-        "alternate_names": [
-          "Oregon & Rim"
-        ]
+        "alternate_names": []
       },
       "id": 22
     },
@@ -443,17 +397,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49638970805455,
-          31.767798449743562
+          -106.4967446,
+          31.7711528
         ]
       },
       "properties": {
-        "name": "Cliff",
+        "name": "Rim",
         "line": "Elpasouptownloop",
         "id": 23,
-        "alternate_names": [
-          "Oregon & Cliff"
-        ]
+        "alternate_names": []
       },
       "id": 23
     },
@@ -462,17 +414,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49357488851177,
-          31.764557708757916
+          -106.4935521,
+          31.767555
         ]
       },
       "properties": {
-        "name": "Rio Grande",
+        "name": "Cathedral",
         "line": "Elpasouptownloop",
         "id": 24,
-        "alternate_names": [
-          "Oregon & Rio Grande"
-        ]
+        "alternate_names": []
       },
       "id": 24
     },
@@ -481,17 +431,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49196795170589,
-          31.762788240507213
+          -106.4922712,
+          31.766081
         ]
       },
       "properties": {
-        "name": "Yandell",
+        "name": "Arizona",
         "line": "Elpasouptownloop",
         "id": 25,
-        "alternate_names": [
-          "Oregon & Yandell"
-        ]
+        "alternate_names": []
       },
       "id": 25
     },
@@ -500,17 +448,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.49050190391618,
-          31.761108351098194
+          -106.4903644,
+          31.7640207
         ]
       },
       "properties": {
-        "name": "Arts District",
+        "name": "Montana",
         "line": "Elpasouptownloop",
         "id": 26,
-        "alternate_names": [
-          "Oregon & Missouri"
-        ]
+        "alternate_names": []
       },
       "id": 26
     },
@@ -519,17 +465,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.4892388436709,
-          31.760920411322022
+          -106.4890344,
+          31.7625146
         ]
       },
       "properties": {
-        "name": "San Jacinto",
+        "name": "Missouri",
         "line": "Elpasouptownloop",
         "id": 27,
-        "alternate_names": [
-          "Franklin & Mesa"
-        ]
+        "alternate_names": []
       },
       "id": 27
     }

@@ -109,7 +109,11 @@ export default function CollapsibleSection({
   }, [isOpen, sectionId, setCollapsedSectionPreference, user])
 
   return (
-    <section className={className} aria-labelledby={titleId}>
+    <section
+      id={baseId}
+      className={classNames('scroll-mt-28', className)}
+      aria-labelledby={titleId}
+    >
       <HeadingTag
         id={titleId}
         className={

@@ -12,13 +12,15 @@ import MenuComponent from '@/components/Menu'
 import PrivacyPanel from '@/components/PrivacyPanel'
 import SettingsPanel from '@/components/SettingsPanel'
 import ThemeToggleButton from '@/components/ThemeToggleButton'
+import ZenModeToast from '@/components/ZenModeToast'
 import { useAuth } from '@/context/AuthContext'
-import { useSettings } from '@/context/SettingsContext'
+import { KeybindingAction, useSettings } from '@/context/SettingsContext'
 import useHideLabels from '@/hooks/useHideLabels'
 import useNormalizeString from '@/hooks/useNormalizeString'
 import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity } from '@/lib/achievements'
 import { useConfig } from '@/lib/configContext'
+import { getKeystrokeFromEvent } from '@/lib/keyboardUtils'
 import {
     clearAutoRevealSuppressionForCity,
     shouldAutoRevealSolutions,
@@ -99,6 +101,7 @@ const extractMetadataTitle = (title: unknown): string | undefined => {
 }
 
 const EMPTY_TIMESTAMPS: Record<string, string> = {}
+const GLOBAL_SATELLITE_STORAGE_KEY = 'global-satellite-enabled'
 
 const MANUAL_ALTERNATE_NAMES: Record<string, string[]> = {
   '42 St - Port Authority Bus Terminal': [
@@ -192,6 +195,10 @@ const MANUAL_ALTERNATE_NAMES: Record<string, string[]> = {
   'Terminal 7': ['JFK Terminal 7'],
   'Terminal 8': ['JFK Terminal 8'],
   'Glen Rock-Boro Hall': ['Boro Hall - Glen Rock'],
+  'Lo Wu (羅湖)': ['Lo Hu', 'Lo Hu Station'],
+  'Luohu (罗湖)': ['Lo Wu', 'Lo Hu', 'Lo Wu Station', 'Lo Hu Station'],
+  'Lok Ma Chau (落馬洲)': ['Futian Checkpoint', 'Futian Checkpoint Station'],
+  'Futian Checkpoint (福田口岸)': ['Lok Ma Chau', 'Lok Ma Chau Station'],
 }
 
 type ManualComplexSelector = {
@@ -235,6 +242,10 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = [
     { name: '42 St - Bryant Pk' },
     { name: '5 Av', line: 'NewYorkSubway7' },
     { name: '5 Av', line: 'NewYorkSubway7X' },
+  ],
+  [
+    { name: 'South China Normal University (华师)', line: 'gzline10' },
+    { name: 'South China Normal University (华师)', line: 'gzline11' },
   ],
   [
     { name: '34 St - Penn Station' },
@@ -315,6 +326,27 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = [
   [
     { name: 'Tsim Sha Tsui (尖沙咀)', line: 'TWL' },
     { name: 'East Tsim Sha Tsui (尖東)', line: 'TML' },
+  ],
+  [
+    { name: 'Lok Ma Chau (落馬洲)', line: 'EAL' },
+    { name: 'Futian Checkpoint (福田口岸)', line: 'szline4' },
+  ],
+  [
+    { name: 'Lo Wu (羅湖)', line: 'EAL' },
+    { name: 'Luohu (罗湖)', line: 'szline1' },
+    { name: 'Luohu West (罗湖西)', line: 'szline17' },
+    { name: 'Renmin South (人民南)', line: 'szline9' },
+  ],
+  [
+    { name: 'Shenzhen North Station West Square (北站西广场)', line: 'szline27' },
+    { name: 'Shenzhen North (深圳北)', line: 'szline4' },
+    { name: 'Shenzhen North (深圳北)', line: 'szline5' },
+    { name: 'Shenzhen North (深圳北)', line: 'szline6' },
+    { name: 'Shenzhen North (深圳北)', line: 'XRL' },
+  ],
+  [
+    { name: 'Guahu (观湖)', line: 'szline22' },
+    { name: 'HTIP East (高新区东)', line: 'sztram1' },
   ],
   [
     { name: 'Tuen Mun South (屯門南)', line: 'TML' },
@@ -585,9 +617,11 @@ export default function GamePage({
   const { resolvedTheme } = useTheme()
   const { settings } = useSettings()
   const mapContainerRef = useRef<HTMLDivElement | null>(null)
+  
+  const [zenMode, setZenMode] = useState(false)
 
   const normalizeString = useNormalizeString()
-  const { featureCollection, clusterGroups } = useMemo(() => {
+  const { featureCollection, clusterGroups, clusterMembersById } = useMemo(() => {
     const featuresWithAlternates = fc.features.map((feature) => {
       const originalName =
         typeof feature.properties.name === 'string'
@@ -816,6 +850,14 @@ export default function GamePage({
       })
     })
 
+    const clusterMembersById = new Map<number, number[]>()
+
+    clusterGroups.forEach((members) => {
+      members.forEach((memberId) => {
+        clusterMembersById.set(memberId, members)
+      })
+    })
+
     const finalFeatures = featuresWithAlternates.map((feature) => {
       const id = feature.id
       if (typeof id !== 'number') {
@@ -871,6 +913,7 @@ export default function GamePage({
         features: finalFeatures,
       },
       clusterGroups,
+      clusterMembersById,
     }
   }, [fc])
 
@@ -910,11 +953,16 @@ export default function GamePage({
   const [hoveredId, setHoveredId] = useState<number | null>(null)
   const inputRef = useRef<HTMLInputElement | null>(null)
   const { hideLabels, setHideLabels } = useHideLabels(map)
-  const { user, updateProgressSummary } = useAuth()
+  const { user, updateProgressSummary, uiPreferences, updateUiPreferences } = useAuth()
   const [solutionsPromptOpen, setSolutionsPromptOpen] = useState(false)
   const [solutionsPassword, setSolutionsPassword] = useState('')
   const [solutionsError, setSolutionsError] = useState(false)
   const [solutionsUnlocked, setSolutionsUnlocked] = useState(false)
+  const [showSatellite, setShowSatellite] = useState(false)
+  const [showMapNames, setShowMapNames] = useState(false)
+  const [actionType, setActionType] = useState<'solutions' | 'satellite' | 'mapNames' | null>(null)
+  const pendingActionRef = useRef<(() => void) | null>(null)
+  const satelliteHydratedRef = useRef(false)
   const { value: storedSidebarOpen, set: setStoredSidebarOpen } =
     useLocalStorageValue<boolean>(`${CITY_NAME}-sidebar-open`, {
       defaultValue: true,
@@ -930,6 +978,40 @@ export default function GamePage({
   const [privacyModalOpen, setPrivacyModalOpen] = useState(false)
   const [kofiOpen, setKofiOpen] = useState(false)
   const [mapError, setMapError] = useState<string | null>(null)
+
+  useEffect(() => {
+    let nextSatellite = showSatellite
+
+    if (typeof uiPreferences.cityViewSatellite === 'boolean') {
+      nextSatellite = uiPreferences.cityViewSatellite
+    } else if (!satelliteHydratedRef.current && typeof window !== 'undefined') {
+      const stored = window.localStorage.getItem(GLOBAL_SATELLITE_STORAGE_KEY)
+      if (stored === '1' || stored === 'true') {
+        nextSatellite = true
+      } else if (stored === '0' || stored === 'false') {
+        nextSatellite = false
+      }
+    }
+
+    if (nextSatellite !== showSatellite) {
+      setShowSatellite(nextSatellite)
+    }
+
+    if (!satelliteHydratedRef.current) {
+      satelliteHydratedRef.current = true
+    }
+  }, [showSatellite, uiPreferences.cityViewSatellite])
+
+  useEffect(() => {
+    if (!satelliteHydratedRef.current) return
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(
+        GLOBAL_SATELLITE_STORAGE_KEY,
+        showSatellite ? '1' : '0',
+      )
+    }
+    updateUiPreferences({ cityViewSatellite: showSatellite })
+  }, [showSatellite, updateUiPreferences])
   const completionConfettiStorageKey = useMemo(
     () => `${CITY_NAME}-completion-confetti-shown`,
     [CITY_NAME],
@@ -1088,12 +1170,34 @@ export default function GamePage({
     if (!Array.isArray(localFound)) {
       return
     }
-    const filtered = localFound.filter((id) => idMap.has(id))
-    const unique = Array.from(new Set(filtered))
-    if (unique.length !== localFound.length || filtered.length !== localFound.length) {
-      setFound(unique)
+
+    const seen = new Set<number>()
+    const expanded: number[] = []
+
+    const addId = (id: number) => {
+      if (!idMap.has(id) || seen.has(id)) {
+        return
+      }
+      seen.add(id)
+      expanded.push(id)
     }
-  }, [localFound, idMap, setFound])
+
+    localFound.forEach((id) => {
+      addId(id)
+      const clusterMembers = clusterMembersById.get(id)
+      if (clusterMembers && clusterMembers.length > 0) {
+        clusterMembers.forEach(addId)
+      }
+    })
+
+    const hasDifference =
+      expanded.length !== localFound.length ||
+      expanded.some((id) => !localFound.includes(id))
+
+    if (hasDifference) {
+      setFound(expanded)
+    }
+  }, [clusterMembersById, idMap, localFound, setFound])
 
   const syncTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -1396,27 +1500,52 @@ export default function GamePage({
     launchCompletionConfetti,
   ])
 
-  const handleRevealSolutions = useCallback(() => {
-    if (solutionsUnlocked) {
-      clearAutoRevealSuppressionForCity(CITY_NAME)
-      revealAllStations()
-      setTimeout(() => {
-        inputRef.current?.focus()
-      }, 0)
-      return
-    }
+  const handleProtectedAction = useCallback(
+    (action: () => void, type: 'solutions' | 'satellite' | 'mapNames') => {
+      if (solutionsUnlocked) {
+        action()
+        return
+      }
 
-    setSolutionsPassword('')
-    setSolutionsError(false)
-    setSolutionsPromptOpen(true)
+      pendingActionRef.current = action
+      setActionType(type)
+      setSolutionsPassword('')
+      setSolutionsError(false)
+      setSolutionsPromptOpen(true)
+    },
+    [solutionsUnlocked, setSolutionsPassword, setSolutionsError, setSolutionsPromptOpen],
+  )
+
+  const handleRevealSolutions = useCallback(() => {
+    handleProtectedAction(() => {
+        clearAutoRevealSuppressionForCity(CITY_NAME)
+        revealAllStations()
+        setTimeout(() => {
+          inputRef.current?.focus()
+        }, 0)
+    }, 'solutions')
   }, [
     CITY_NAME,
-    solutionsUnlocked,
+    handleProtectedAction,
     revealAllStations,
-    setSolutionsPassword,
-    setSolutionsError,
-    setSolutionsPromptOpen,
+    inputRef,
   ])
+
+  const handleToggleSatellite = useCallback(() => {
+    handleProtectedAction(() => {
+      setShowSatellite((prev) => !prev)
+    }, 'satellite')
+  }, [handleProtectedAction])
+
+  const handleToggleZen = useCallback(() => {
+    setZenMode((prev) => !prev)
+  }, [])
+
+  const handleToggleMapNames = useCallback(() => {
+    handleProtectedAction(() => {
+      setShowMapNames((prev) => !prev)
+    }, 'mapNames')
+  }, [handleProtectedAction])
 
   const handleSolutionsClose = useCallback(() => {
     setSolutionsPromptOpen(false)
@@ -1455,7 +1584,14 @@ export default function GamePage({
         }
         clearAutoRevealSuppressionForCity(CITY_NAME)
         setSolutionsUnlocked(true)
-        revealAllStations()
+        if (pendingActionRef.current) {
+            pendingActionRef.current()
+            pendingActionRef.current = null
+        } else {
+             // Fallback if no specific action was pending, though technically should allow just unlocking
+             // But for now, if they just hit unlock without a pending action (not possible via UI currently), do nothing special
+        }
+        
         setSolutionsPromptOpen(false)
         setSolutionsPassword('')
         setSolutionsError(false)
@@ -1628,10 +1764,13 @@ export default function GamePage({
       process.env.NEXT_PUBLIC_MAPBOX_STYLE_DARK ??
       'mapbox://styles/mapbox/dark-v11'
 
+    const satelliteStyle = 'mapbox://styles/mapbox/satellite-streets-v12'
     const resolvedStyle =
-      resolvedTheme === 'dark'
-        ? darkStyle
-        : baseStyle ?? fallbackLightStyle
+      showSatellite
+        ? satelliteStyle
+        : resolvedTheme === 'dark'
+          ? darkStyle
+          : baseStyle ?? fallbackLightStyle
 
     const { container: _ignored, ...rest } = MAP_CONFIG as typeof MAP_CONFIG & {
       container?: unknown
@@ -1641,7 +1780,7 @@ export default function GamePage({
       ...rest,
       style: resolvedStyle,
     }
-  }, [MAP_CONFIG, resolvedTheme])
+  }, [MAP_CONFIG, resolvedTheme, showSatellite])
 
   useEffect(() => {
     mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!
@@ -1685,23 +1824,10 @@ export default function GamePage({
 
     let ensureRouteLayers: (() => void) | null = null
 
-    const hideBaseSymbolLayers = () => {
-      if (!mapboxMap) return
-      const mapStyle = mapboxMap.getStyle()
-      if (!mapStyle || !Array.isArray(mapStyle.layers)) {
-        return
-      }
-      for (const layer of mapStyle.layers) {
-        if (layer.type === 'symbol' && mapboxMap.getLayer(layer.id)) {
-          mapboxMap.setLayoutProperty(layer.id, 'visibility', 'none')
-        }
-      }
-    }
-
-    mapboxMap.on('load', () => {
+      mapboxMap.on('load', () => {
       if (!mapboxMap) return
       mapboxMap.doubleClickZoom.disable()
-      const isDarkTheme = resolvedTheme === 'dark'
+      const isDarkTheme = resolvedTheme === 'dark' || showSatellite
       const foundTextColor = isDarkTheme
         ? 'rgb(255, 255, 255)'
         : 'rgb(29, 40, 53)'
@@ -1712,10 +1838,6 @@ export default function GamePage({
       const hoverHaloColor = isDarkTheme
         ? 'rgba(0, 0, 0, 0.85)'
         : 'rgb(255, 255, 255)'
-
-      hideBaseSymbolLayers()
-      mapboxMap.on('styledata', hideBaseSymbolLayers)
-      mapboxMap.on('style.load', hideBaseSymbolLayers)
 
       mapboxMap.addSource('features', {
         type: 'geojson',
@@ -2142,8 +2264,6 @@ export default function GamePage({
       if (!mapboxMap) {
         return
       }
-      mapboxMap.off('styledata', hideBaseSymbolLayers)
-      mapboxMap.off('style.load', hideBaseSymbolLayers)
       if (ensureRouteLayers) {
         mapboxMap.off('styledata', ensureRouteLayers)
       }
@@ -2153,23 +2273,112 @@ export default function GamePage({
   }, [setMap, featureCollection, LINES, mapOptions, MAP_FROM_DATA, routes, resolvedTheme])
 
   useEffect(() => {
-    if (!map || !(map as any).style) {
-      return
-    } else {
-      const hoveredSource = map.getSource('hovered') as
-        | mapboxgl.GeoJSONSource
-        | undefined
+    if (!map) return
 
-      if (!hoveredSource) {
+    const applyVisibility = () => {
+      const style = map.getStyle()
+      if (!style?.layers) return
+
+      for (const layer of style.layers) {
+        if (layer.type === 'symbol') {
+          if (
+            layer.source === 'features' ||
+            layer.source === 'hovered' ||
+            layer.source === 'game-routes' ||
+            layer.id === 'stations-labels' ||
+            layer.id === 'hover-label-point'
+          ) {
+            continue
+          }
+          const targetVisibility = showMapNames ? 'visible' : 'none'
+          if (map.getLayoutProperty(layer.id, 'visibility') !== targetVisibility) {
+             map.setLayoutProperty(layer.id, 'visibility', targetVisibility)
+          }
+        }
+      }
+    }
+
+    applyVisibility()
+    map.on('styledata', applyVisibility)
+
+    return () => {
+      map.off('styledata', applyVisibility)
+    }
+  }, [map, showMapNames])
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      // Ignore if user is typing in an input
+      const activeTag = document.activeElement?.tagName.toLowerCase()
+      const isInputActive = activeTag === 'input' || activeTag === 'textarea'
+      
+      const combo = getKeystrokeFromEvent(event)
+      if (!combo) return
+
+      // Allow Escape to clear from input even if active
+      if (isInputActive && combo !== 'Escape') {
         return
       }
 
-      hoveredSource.setData({
-        type: 'FeatureCollection',
-        features: hoveredId ? [idMap.get(hoveredId)!] : [],
-      })
+      // Check for matching action
+      const actionEntry = Object.entries(settings.keybindings).find(
+        ([_, boundKey]) => boundKey === combo
+      )
+
+      if (actionEntry) {
+        const action = actionEntry[0] as KeybindingAction
+        
+        if (action === 'FOCUS_INPUT') {
+            event.preventDefault()
+            inputRef.current?.focus()
+        } else if (action === 'CLEAR_INPUT') {
+            event.preventDefault()
+            if (activeFoundId) {
+                setActiveFoundId(null)
+            } else if (sidebarOpen) {
+                setSidebarOpen(false)
+            } else {
+                inputRef.current?.blur()
+            }
+        } else if (action === 'TOGGLE_ZEN_MODE') {
+            event.preventDefault()
+            setZenMode(prev => !prev)
+        } else if (action === 'TOGGLE_SIDEBAR') {
+            event.preventDefault()
+            setSidebarOpen(prev => !prev)
+        } else if (action === 'TOGGLE_SOLUTIONS') {
+            event.preventDefault()
+            handleRevealSolutions()
+        }
+      }
     }
-  }, [map, hoveredId, idMap])
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [settings.keybindings, activeFoundId, sidebarOpen, handleRevealSolutions])
+
+
+  useEffect(() => {
+    if (!map || !(map as any).style) {
+      return
+    }
+
+    const hoveredSource = map.getSource('hovered') as
+      | mapboxgl.GeoJSONSource
+      | undefined
+
+    if (!hoveredSource) {
+      return
+    }
+
+    const isFoundHover =
+      hoveredId !== null && found.includes(hoveredId) && idMap.has(hoveredId)
+
+    hoveredSource.setData({
+      type: 'FeatureCollection',
+      features: isFoundHover ? [idMap.get(hoveredId)!] : [],
+    })
+  }, [map, hoveredId, idMap, found])
 
   useEffect(() => {
     if (!map || !(map as any).style || !found) return
@@ -2265,7 +2474,7 @@ export default function GamePage({
         window.cancelAnimationFrame(raf)
       }
     }
-  }, [map, sidebarOpen])
+  }, [map, sidebarOpen, zenMode])
 
   useEffect(() => {
     if (activeFoundId !== null && !found.includes(activeFoundId)) {
@@ -2282,9 +2491,7 @@ export default function GamePage({
 
   return (
     <div className="relative flex h-screen flex-row items-start justify-start bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
-      <div className="absolute right-4 top-4 z-[100]">
-        <ThemeToggleButton />
-      </div>
+      <ZenModeToast zenMode={zenMode} toggleKey={settings.keybindings.TOGGLE_ZEN_MODE} />
       <div className="relative flex-1 min-w-0 h-full">
         <div ref={mapContainerRef} className="absolute inset-0 h-full w-full" />
         {mapError ? (
@@ -2294,17 +2501,18 @@ export default function GamePage({
             </div>
           </div>
         ) : null}
-        <div className="pointer-events-none absolute inset-x-0 top-4 px-3 lg:top-6 lg:px-6">
-          <div className="pointer-events-auto mx-auto flex w-full max-w-3xl flex-col gap-3">
-            <FoundSummary
-              className="rounded-lg bg-white/95 p-4 shadow-md dark:bg-zinc-900/95 dark:text-zinc-100 dark:shadow-black/40 lg:hidden"
-              foundProportion={foundProportion}
-              foundStationsPerLine={foundStationsPerLine}
-              stationsPerLine={stationsPerLine}
-              cityCompletionConfettiSeen={cityCompletionConfettiSeen}
-              onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
-              minimizable
-            />
+        {!zenMode && (
+          <div className="pointer-events-none absolute inset-x-0 top-4 px-3 lg:top-6 lg:px-6">
+            <div className="pointer-events-auto mx-auto flex w-full max-w-3xl flex-col gap-3">
+              <FoundSummary
+                className="rounded-lg bg-white/95 p-4 shadow-md dark:bg-zinc-900/95 dark:text-zinc-100 dark:shadow-black/40 lg:hidden"
+                foundProportion={foundProportion}
+                foundStationsPerLine={foundStationsPerLine}
+                stationsPerLine={stationsPerLine}
+                cityCompletionConfettiSeen={cityCompletionConfettiSeen}
+                onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
+                minimizable
+              />
             <div className="flex items-center gap-2 lg:gap-3">
               <button
                 type="button"
@@ -2345,6 +2553,12 @@ export default function GamePage({
                 onOpenAccount={openAccountModal}
                 onOpenPrivacy={openPrivacyModal}
                 onOpenSupport={() => setSupportModalOpen(true)}
+                zenMode={zenMode}
+                onToggleZen={handleToggleZen}
+                showSatellite={showSatellite}
+                onToggleSatellite={handleToggleSatellite}
+                showMapNames={showMapNames}
+                onToggleMapNames={handleToggleMapNames}
               />
               {found.length > 0 && (
                 <button
@@ -2355,10 +2569,13 @@ export default function GamePage({
                   {t('resetProgress')}
                 </button>
               )}
+              <ThemeToggleButton />
             </div>
           </div>
         </div>
+      )}
       </div>
+      {!zenMode && (
       <div
         className={`relative hidden h-full min-w-0 overflow-visible lg:flex ${
           sidebarOpen ? 'w-96 xl:w-[32rem]' : 'w-0'
@@ -2401,6 +2618,7 @@ export default function GamePage({
           </div>
         ) : null}
       </div>
+      )}
       {mobileSidebarOpen && (
         <div
           className="fixed inset-0 z-30 flex flex-col bg-zinc-900/50 backdrop-blur-sm lg:hidden"
@@ -2616,10 +2834,18 @@ export default function GamePage({
             className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-xl dark:bg-zinc-900 dark:text-zinc-100"
           >
             <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-              {t('showSolutions')}
+              {actionType === 'satellite'
+                ? 'Show satellite'
+                : actionType === 'mapNames'
+                  ? 'Show map names'
+                  : t('showSolutions')}
             </h2>
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-300">
-              Enter the password to reveal every station.
+              {actionType === 'satellite'
+                ? 'Enter the password to view the satellite map.'
+                : actionType === 'mapNames'
+                  ? 'Enter the password to see map labels.'
+                  : 'Enter the password to reveal every station.'}
             </p>
             <form className="mt-4 space-y-4" onSubmit={handleSolutionsSubmit}>
               <input

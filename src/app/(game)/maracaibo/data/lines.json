@@ -1,0 +1,10 @@
+{
+  "Line1": {
+    "name": "Line 1",
+    "color": "#008000",
+    "backgroundColor": "#008000",
+    "textColor": "#ffffff",
+    "icon": "maracaiboline1.svg",
+    "order": 1
+  }
+}

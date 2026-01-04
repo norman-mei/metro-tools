@@ -6,14 +6,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.52276632194388,
-          35.47960392295744
+          -97.5227083,
+          35.4795128
         ]
       },
       "properties": {
         "name": "Dewey Avenue",
         "line": "OKCSDL",
-        "id": 0
+        "id": 0,
+        "alternate_names": []
       },
       "id": 0
     },
@@ -22,14 +23,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51945546991867,
-          35.478177301433966
+          -97.5193552,
+          35.4782052
         ]
       },
       "properties": {
         "name": "Midtown",
         "line": "OKCSDL",
-        "id": 1
+        "id": 1,
+        "alternate_names": []
       },
       "id": 1
     },
@@ -38,14 +40,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51657061362202,
-          35.478138107476596
+          -97.5164615,
+          35.4781344
         ]
       },
       "properties": {
-        "name": "NW 10th Street",
+        "name": "Northwest 10th Street",
         "line": "OKCSDL",
-        "id": 2
+        "id": 2,
+        "alternate_names": []
       },
       "id": 2
     },
@@ -54,14 +57,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51628130650363,
-          35.47531106223925
+          -97.5162372,
+          35.4752418
         ]
       },
       "properties": {
         "name": "Law School",
         "line": "OKCSDL",
-        "id": 3
+        "id": 3,
+        "alternate_names": []
       },
       "id": 3
     },
@@ -70,14 +74,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51638578971068,
-          35.472169752545135
+          -97.5163433,
+          35.4720792
         ]
       },
       "properties": {
         "name": "Memorial Museum",
         "line": "OKCSDL",
-        "id": 4
+        "id": 4,
+        "alternate_names": []
       },
       "id": 4
     },
@@ -86,14 +91,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.5165063418679,
-          35.469041471444875
+          -97.5164617,
+          35.468952
         ]
       },
       "properties": {
         "name": "Business District",
         "line": "OKCSDL",
-        "id": 5
+        "id": 5,
+        "alternate_names": []
       },
       "id": 5
     },
@@ -102,14 +108,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51547767779431,
-          35.4664104418456
+          -97.5153946,
+          35.4663924
         ]
       },
       "properties": {
         "name": "Century Center",
         "line": "OKCSDL",
-        "id": 6
+        "id": 6,
+        "alternate_names": []
       },
       "id": 6
     },
@@ -118,14 +125,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51255261824784,
-          35.46641044258922
+          -97.5116165,
+          35.4663896
         ]
       },
       "properties": {
         "name": "Bricktown",
         "line": "OKCSDL",
-        "id": 7
+        "id": 7,
+        "alternate_names": []
       },
       "id": 7
     },
@@ -134,14 +142,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.50953112268954,
-          35.466430081388985
+          -97.5093931,
+          35.4664077
         ]
       },
       "properties": {
         "name": "Mickey Mantle",
         "line": "OKCSDL",
-        "id": 8
+        "id": 8,
+        "alternate_names": []
       },
       "id": 8
     },
@@ -150,14 +159,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.50613190784645,
-          35.46564466573167
+          -97.5060921,
+          35.4655256
         ]
       },
       "properties": {
         "name": "East Bricktown",
         "line": "OKCSDL",
-        "id": 9
+        "id": 9,
+        "alternate_names": []
       },
       "id": 9
     },
@@ -166,14 +176,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.50876769331823,
-          35.46434223651004
+          -97.5089145,
+          35.4643064
         ]
       },
       "properties": {
         "name": "Ballpark",
         "line": "OKCSDL",
-        "id": 10
+        "id": 10,
+        "alternate_names": []
       },
       "id": 10
     },
@@ -182,14 +193,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51200101480164,
-          35.46437438321231
+          -97.512106,
+          35.4643063
         ]
       },
       "properties": {
         "name": "Santa Fe Hub",
         "line": "OKCSDL",
-        "id": 11
+        "id": 11,
+        "alternate_names": []
       },
       "id": 11
     },
@@ -198,14 +210,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51515106965618,
-          35.46438895664866
+          -97.5151582,
+          35.4643375
         ]
       },
       "properties": {
         "name": "Arena",
         "line": "OKCSDL",
-        "id": 12
+        "id": 12,
+        "alternate_names": []
       },
       "id": 12
     },
@@ -214,14 +227,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51679466694331,
-          35.462431868877125
+          -97.5168542,
+          35.4623999
         ]
       },
       "properties": {
         "name": "Scissortail Park",
         "line": "OKCSDL",
-        "id": 13
+        "id": 13,
+        "alternate_names": []
       },
       "id": 13
     },
@@ -230,14 +244,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51944748197359,
-          35.46608320232041
+          -97.5194728,
+          35.4661713
         ]
       },
       "properties": {
         "name": "Myriad Gardens",
         "line": "OKCSDL",
-        "id": 14
+        "id": 14,
+        "alternate_names": []
       },
       "id": 14
     },
@@ -246,14 +261,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51944750074176,
-          35.46864224039461
+          -97.5194521,
+          35.4686829
         ]
       },
       "properties": {
         "name": "Library",
         "line": "OKCSDL",
-        "id": 15
+        "id": 15,
+        "alternate_names": []
       },
       "id": 15
     },
@@ -262,14 +278,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51933497731966,
-          35.47165931133522
+          -97.5193737,
+          35.4717057
         ]
       },
       "properties": {
         "name": "Transit Center",
         "line": "OKCSDL",
-        "id": 16
+        "id": 16,
+        "alternate_names": []
       },
       "id": 16
     },
@@ -278,14 +295,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51601304880863,
-          35.47190259076859
+          -97.5159076,
+          35.4718929
         ]
       },
       "properties": {
         "name": "Federal Courthouse",
         "line": "OKCSDL",
-        "id": 17
+        "id": 17,
+        "alternate_names": []
       },
       "id": 17
     },
@@ -294,14 +312,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51419200234166,
-          35.472470797557584
+          -97.5142493,
+          35.4725078
         ]
       },
       "properties": {
         "name": "Broadway Avenue",
         "line": "OKCSDL",
-        "id": 18
+        "id": 18,
+        "alternate_names": []
       },
       "id": 18
     },
@@ -310,14 +329,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51409553000138,
-          35.475854226400614
+          -97.5141348,
+          35.4758976
         ]
       },
       "properties": {
         "name": "Automobile Alley",
         "line": "OKCSDL",
-        "id": 19
+        "id": 19,
+        "alternate_names": []
       },
       "id": 19
     },
@@ -326,14 +346,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51391873106917,
-          35.47991804943512
+          -97.5139554,
+          35.4799636
         ]
       },
       "properties": {
         "name": "Art Park",
         "line": "OKCSDL",
-        "id": 20
+        "id": 20,
+        "alternate_names": []
       },
       "id": 20
     },
@@ -342,14 +363,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.5189652578853,
-          35.480107746739186
+          -97.5189838,
+          35.4800332
         ]
       },
       "properties": {
         "name": "North Hudson",
         "line": "OKCSDL",
-        "id": 21
+        "id": 21,
+        "alternate_names": []
       },
       "id": 21
     },
@@ -358,14 +380,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51547767779431,
-          35.4664104418456
+          -97.5153946,
+          35.4663924
         ]
       },
       "properties": {
         "name": "Century Center",
         "line": "OKCSBL",
-        "id": 22
+        "id": 22,
+        "alternate_names": []
       },
       "id": 22
     },
@@ -374,14 +397,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51255261824784,
-          35.46641044258922
+          -97.5116165,
+          35.4663896
         ]
       },
       "properties": {
         "name": "Bricktown",
         "line": "OKCSBL",
-        "id": 23
+        "id": 23,
+        "alternate_names": []
       },
       "id": 23
     },
@@ -390,14 +414,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.50953112268954,
-          35.466430081388985
+          -97.5093931,
+          35.4664077
         ]
       },
       "properties": {
         "name": "Mickey Mantle",
         "line": "OKCSBL",
-        "id": 24
+        "id": 24,
+        "alternate_names": []
       },
       "id": 24
     },
@@ -406,14 +431,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.50613190784645,
-          35.46564466573167
+          -97.5060921,
+          35.4655256
         ]
       },
       "properties": {
         "name": "East Bricktown",
         "line": "OKCSBL",
-        "id": 25
+        "id": 25,
+        "alternate_names": []
       },
       "id": 25
     },
@@ -422,14 +448,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.50876769331823,
-          35.46434223651004
+          -97.5089145,
+          35.4643064
         ]
       },
       "properties": {
         "name": "Ballpark",
         "line": "OKCSBL",
-        "id": 26
+        "id": 26,
+        "alternate_names": []
       },
       "id": 26
     },
@@ -438,14 +465,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51200101480164,
-          35.46437438321231
+          -97.512106,
+          35.4643063
         ]
       },
       "properties": {
         "name": "Santa Fe Hub",
         "line": "OKCSBL",
-        "id": 27
+        "id": 27,
+        "alternate_names": []
       },
       "id": 27
     },
@@ -454,14 +482,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51515106965618,
-          35.46438895664866
+          -97.5151582,
+          35.4643375
         ]
       },
       "properties": {
         "name": "Arena",
         "line": "OKCSBL",
-        "id": 28
+        "id": 28,
+        "alternate_names": []
       },
       "id": 28
     },
@@ -470,14 +499,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51679466694331,
-          35.462431868877125
+          -97.5168542,
+          35.4623999
         ]
       },
       "properties": {
         "name": "Scissortail Park",
         "line": "OKCSBL",
-        "id": 29
+        "id": 29,
+        "alternate_names": []
       },
       "id": 29
     },
@@ -486,14 +516,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.51944748197359,
-          35.46608320232041
+          -97.5194728,
+          35.4661713
         ]
       },
       "properties": {
         "name": "Myriad Gardens",
         "line": "OKCSBL",
-        "id": 30
+        "id": 30,
+        "alternate_names": []
       },
       "id": 30
     }

@@ -1,0 +1,730 @@
+{
+  "EAL": {
+    "name": "East Rail",
+    "color": "#53B7E8",
+    "progressOutlineColor": "#53B7E8",
+    "backgroundColor": "#2D647F",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "TCL": {
+    "name": "Tung Chung",
+    "color": "#F6933D",
+    "progressOutlineColor": "#F6933D",
+    "backgroundColor": "#875122",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "TML": {
+    "name": "Tuen Ma",
+    "color": "#923011",
+    "progressOutlineColor": "#923011",
+    "backgroundColor": "#501A09",
+    "textColor": "#FFFFFF",
+    "order": 2
+  },
+  "NOL": {
+    "name": "Northern Link",
+    "color": "#E0027A",
+    "progressOutlineColor": "#E0027A",
+    "backgroundColor": "#7A013E",
+    "textColor": "#FFFFFF",
+    "order": 3
+  },
+  "KTL": {
+    "name": "Kwun Tong",
+    "color": "#00AB4E",
+    "progressOutlineColor": "#00AB4E",
+    "backgroundColor": "#005E2A",
+    "textColor": "#FFFFFF",
+    "order": 4
+  },
+  "TWL": {
+    "name": "Tsuen Wan",
+    "color": "#ED1D24",
+    "progressOutlineColor": "#ED1D24",
+    "backgroundColor": "#820F13",
+    "textColor": "#FFFFFF",
+    "order": 5
+  },
+  "ISL": {
+    "name": "Island",
+    "color": "#007DC5",
+    "progressOutlineColor": "#007DC5",
+    "backgroundColor": "#00446C",
+    "textColor": "#FFFFFF",
+    "order": 6
+  },
+  "TKL": {
+    "name": "Tseung Kwan O",
+    "color": "#7D499D",
+    "progressOutlineColor": "#7D499D",
+    "backgroundColor": "#442856",
+    "textColor": "#FFFFFF",
+    "order": 7
+  },
+  "SIL": {
+    "name": "South Island",
+    "color": "#BAC429",
+    "progressOutlineColor": "#BAC429",
+    "backgroundColor": "#666B16",
+    "textColor": "#000000",
+    "order": 8
+  },
+  "AEL": {
+    "name": "Airport Express",
+    "color": "#007F81",
+    "progressOutlineColor": "#007F81",
+    "backgroundColor": "#004A4B",
+    "textColor": "#FFFFFF",
+    "order": 9
+  },
+  "DRL": {
+    "name": "Disneyland Resort",
+    "color": "#F173AC",
+    "progressOutlineColor": "#F173AC",
+    "backgroundColor": "#843F5E",
+    "textColor": "#FFFFFF",
+    "order": 10
+  },
+  "XRL": {
+    "name": "Express Rail Link",
+    "color": "#CDC5BB",
+    "progressOutlineColor": "#CDC5BB",
+    "backgroundColor": "#666059",
+    "textColor": "#FFFFFF",
+    "order": 11
+  },
+  "HKNP360": {
+    "name": "Ngong Ping 360",
+    "color": "#F4DB7C",
+    "progressOutlineColor": "#F4DB7C",
+    "backgroundColor": "#7C6F3F",
+    "textColor": "#1D1D1B",
+    "order": 12
+  },
+  "HKAPMT1": {
+    "name": "T1 Line",
+    "color": "#03CFD0",
+    "progressOutlineColor": "#03CFD0",
+    "backgroundColor": "#026F70",
+    "textColor": "#FFFFFF",
+    "order": 13
+  },
+  "HKAPMT2": {
+    "name": "T2 Line",
+    "color": "#5DD95F",
+    "progressOutlineColor": "#5DD95F",
+    "backgroundColor": "#2F7331",
+    "textColor": "#0F2611",
+    "order": 14
+  },
+  "HKAPMSKY": {
+    "name": "SkyPier Line",
+    "color": "#D04A7D",
+    "progressOutlineColor": "#D04A7D",
+    "backgroundColor": "#752640",
+    "textColor": "#FFFFFF",
+    "order": 15
+  },
+  "MTR505": {
+    "name": "Sam Shing — Siu Hong",
+    "color": "#EE1C05",
+    "progressOutlineColor": "#EE1C05",
+    "backgroundColor": "#7A0D02",
+    "textColor": "#FFFFFF",
+    "order": 16
+  },
+  "MTR507": {
+    "name": "Tuen Mun Ferry Pier — Tin King",
+    "color": "#00A844",
+    "progressOutlineColor": "#00A844",
+    "backgroundColor": "#005726",
+    "textColor": "#FFFFFF",
+    "order": 17
+  },
+  "MTR610": {
+    "name": "Tuen Mun Ferry Pier — Yuen Long",
+    "color": "#B14242",
+    "progressOutlineColor": "#B14242",
+    "backgroundColor": "#5A2020",
+    "textColor": "#FFFFFF",
+    "order": 18
+  },
+  "MTR614": {
+    "name": "Tuen Mun Ferry Pier — Yuen Long",
+    "color": "#34D0FA",
+    "progressOutlineColor": "#34D0FA",
+    "backgroundColor": "#1B6A80",
+    "textColor": "#FFFFFF",
+    "order": 19
+  },
+  "MTR614P": {
+    "name": "Tuen Mun Ferry Pier — Siu Hong",
+    "color": "#FF8CA1",
+    "progressOutlineColor": "#FF8CA1",
+    "backgroundColor": "#9B4254",
+    "textColor": "#FFFFFF",
+    "order": 20
+  },
+  "MTR615": {
+    "name": "Tuen Mun Ferry Pier — Yuen Long",
+    "color": "#FFF35C",
+    "progressOutlineColor": "#FFF35C",
+    "backgroundColor": "#7B702C",
+    "textColor": "#1D1D1B",
+    "order": 21
+  },
+  "MTR615P": {
+    "name": "Tuen Mun Ferry Pier — Siu Hong",
+    "color": "#00577C",
+    "progressOutlineColor": "#00577C",
+    "backgroundColor": "#002C40",
+    "textColor": "#FFFFFF",
+    "order": 22
+  },
+  "MTR705": {
+    "name": "Tin Shui Wai — Counterclockwise",
+    "color": "#6FC44A",
+    "progressOutlineColor": "#6FC44A",
+    "backgroundColor": "#355E23",
+    "textColor": "#FFFFFF",
+    "order": 23
+  },
+  "MTR706": {
+    "name": "Tin Shui Wai — Clockwise",
+    "color": "#AA72B6",
+    "progressOutlineColor": "#AA72B6",
+    "backgroundColor": "#55375B",
+    "textColor": "#FFFFFF",
+    "order": 24
+  },
+  "MTR751": {
+    "name": "Yau Oi — Tin Yat",
+    "color": "#FF9951",
+    "progressOutlineColor": "#FF9951",
+    "backgroundColor": "#A24D21",
+    "textColor": "#1D1D1B",
+    "order": 25
+  },
+  "MTR751P": {
+    "name": "Tin Shui Wai — Tin Yat",
+    "color": "#C89F0F",
+    "progressOutlineColor": "#C89F0F",
+    "backgroundColor": "#7A3618",
+    "textColor": "#FFFFFF",
+    "order": 26
+  },
+  "MTR761P": {
+    "name": "Yuen Long — Tin Yat",
+    "color": "#4C138F",
+    "progressOutlineColor": "#4C138F",
+    "backgroundColor": "#250748",
+    "textColor": "#FFFFFF",
+    "order": 27
+  },
+  "HKTPT": {
+    "name": "Peak Tram",
+    "color": "#014147",
+    "progressOutlineColor": "#014147",
+    "backgroundColor": "#001E21",
+    "textColor": "#FFFFFF",
+    "order": 28
+  },
+  "HKOEX": {
+    "name": "Ocean Express",
+    "color": "#0087D6",
+    "progressOutlineColor": "#0087D6",
+    "backgroundColor": "#004163",
+    "textColor": "#FFFFFF",
+    "order": 29
+  },
+  "HKOCC": {
+    "name": "Ocean Park Gondola",
+    "color": "#D60317",
+    "progressOutlineColor": "#D60317",
+    "backgroundColor": "#6B000B",
+    "textColor": "#FFFFFF",
+    "order": 30
+  },
+  "HKT": {
+    "name": "Hong Kong Tramways",
+    "color": "#007549",
+    "progressOutlineColor": "#007549",
+    "backgroundColor": "#00301A",
+    "textColor": "#FFFFFF",
+    "order": 31
+  },
+  "TPA": {
+    "name": "Taipa",
+    "color": "#96C93C",
+    "progressOutlineColor": "#96C93C",
+    "backgroundColor": "#96C93C",
+    "textColor": "#000000",
+    "order": 0
+  },
+  "HNQ": {
+    "name": "Hengqin",
+    "color": "#B82A3C",
+    "progressOutlineColor": "#B82A3C",
+    "backgroundColor": "#B82A3C",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "SPV": {
+    "name": "Seac Pai Van",
+    "color": "#8966C3",
+    "progressOutlineColor": "#8966C3",
+    "backgroundColor": "#8966C3",
+    "textColor": "#000000",
+    "order": 2
+  },
+  "dongguanline2": {
+    "name": "Line 2",
+    "color": "#ED1C24",
+    "backgroundColor": "#7B0A0E",
+    "progressOutlineColor": "#ED1C24",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "dongguanline1": {
+    "name": "Line 1",
+    "color": "#034EA2",
+    "backgroundColor": "#022751",
+    "progressOutlineColor": "#034EA2",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "gzline1": {
+    "name": "Line 1",
+    "color": "#F3D03E",
+    "progressOutlineColor": "#F3D03E",
+    "backgroundColor": "#F3D03E",
+    "textColor": "#000000",
+    "order": 32
+  },
+  "gzline2": {
+    "name": "Line 2",
+    "color": "#00629B",
+    "progressOutlineColor": "#00629B",
+    "backgroundColor": "#00629B",
+    "textColor": "#FFFFFF",
+    "order": 33
+  },
+  "gzline3": {
+    "name": "Line 3",
+    "color": "#ECA154",
+    "progressOutlineColor": "#ECA154",
+    "backgroundColor": "#ECA154",
+    "textColor": "#000000",
+    "order": 34
+  },
+  "gzline4": {
+    "name": "Line 4",
+    "color": "#00843D",
+    "progressOutlineColor": "#00843D",
+    "backgroundColor": "#00843D",
+    "textColor": "#FFFFFF",
+    "order": 35
+  },
+  "gzline5": {
+    "name": "Line 5",
+    "color": "#C5003E",
+    "progressOutlineColor": "#C5003E",
+    "backgroundColor": "#C5003E",
+    "textColor": "#FFFFFF",
+    "order": 36
+  },
+  "gzline6": {
+    "name": "Line 6",
+    "color": "#80225F",
+    "progressOutlineColor": "#80225F",
+    "backgroundColor": "#80225F",
+    "textColor": "#FFFFFF",
+    "order": 37
+  },
+  "gzline7": {
+    "name": "Line 7",
+    "color": "#97D700",
+    "progressOutlineColor": "#97D700",
+    "backgroundColor": "#97D700",
+    "textColor": "#000000",
+    "order": 38
+  },
+  "gzline8": {
+    "name": "Line 8",
+    "color": "#008C95",
+    "progressOutlineColor": "#008C95",
+    "backgroundColor": "#008C95",
+    "textColor": "#FFFFFF",
+    "order": 39
+  },
+  "gzline9": {
+    "name": "Line 9",
+    "color": "#71CC98",
+    "progressOutlineColor": "#71CC98",
+    "backgroundColor": "#71CC98",
+    "textColor": "#000000",
+    "order": 40
+  },
+  "gzline10": {
+    "name": "Line 10",
+    "color": "#7389B2",
+    "progressOutlineColor": "#7389B2",
+    "backgroundColor": "#7389B2",
+    "textColor": "#FFFFFF",
+    "order": 41
+  },
+  "gzline11": {
+    "name": "Line 11",
+    "color": "#FFB40C",
+    "progressOutlineColor": "#FFB40C",
+    "backgroundColor": "#FFB40C",
+    "textColor": "#000000",
+    "order": 42
+  },
+  "gzline12": {
+    "name": "Line 12",
+    "color": "#505D12",
+    "progressOutlineColor": "#505D12",
+    "backgroundColor": "#505D12",
+    "textColor": "#FFFFFF",
+    "order": 43
+  },
+  "gzline13": {
+    "name": "Line 13",
+    "color": "#8E8C13",
+    "progressOutlineColor": "#8E8C13",
+    "backgroundColor": "#8E8C13",
+    "textColor": "#FFFFFF",
+    "order": 44
+  },
+  "gzline14": {
+    "name": "Line 14",
+    "color": "#81312F",
+    "progressOutlineColor": "#81312F",
+    "backgroundColor": "#81312F",
+    "textColor": "#FFFFFF",
+    "order": 45
+  },
+  "gzline18": {
+    "name": "Line 18",
+    "color": "#0047BA",
+    "progressOutlineColor": "#0047BA",
+    "backgroundColor": "#0047BA",
+    "textColor": "#ffffff",
+    "order": 46
+  },
+  "gzline21": {
+    "name": "Line 21",
+    "color": "#201747",
+    "progressOutlineColor": "#201747",
+    "backgroundColor": "#201747",
+    "textColor": "#ffffff",
+    "order": 47
+  },
+  "gzline22": {
+    "name": "Line 22",
+    "color": "#CD5228",
+    "progressOutlineColor": "#CD5228",
+    "backgroundColor": "#CD5228",
+    "textColor": "#ffffff",
+    "order": 48
+  },
+  "gzapm": {
+    "name": "Zhujiang New Town Automated People Mover System",
+    "color": "#00B5E2",
+    "progressOutlineColor": "#00B5E2",
+    "backgroundColor": "#00B5E2",
+    "textColor": "#FFFFFF",
+    "order": 49
+  },
+  "gzt_thp1": {
+    "name": "Huangpu Tram Line 1",
+    "color": "#BD0000",
+    "progressOutlineColor": "#BD0000",
+    "backgroundColor": "#BD0000",
+    "textColor": "#FFFFFF",
+    "order": 50
+  },
+  "gzt_thp2": {
+    "name": "Huangpu Tram Line 2",
+    "color": "#E4007F",
+    "progressOutlineColor": "#E4007F",
+    "backgroundColor": "#E4007F",
+    "textColor": "#FFFFFF",
+    "order": 51
+  },
+  "gzt_thz1": {
+    "name": "Haizhu Tram Line 1",
+    "color": "#43B02A",
+    "progressOutlineColor": "#43B02A",
+    "backgroundColor": "#43B02A",
+    "textColor": "#FFFFFF",
+    "order": 52
+  },
+  "fs_guangfo": {
+    "name": "Guangfo",
+    "color": "#C4D600",
+    "progressOutlineColor": "#C4D600",
+    "backgroundColor": "#C4D600",
+    "textColor": "#000000",
+    "order": 53
+  },
+  "fs_line2": {
+    "name": "Line 2",
+    "color": "#F5333F",
+    "progressOutlineColor": "#F5333F",
+    "backgroundColor": "#F5333F",
+    "textColor": "#FFFFFF",
+    "order": 54
+  },
+  "fs_line3": {
+    "name": "Line 3",
+    "color": "#002F87",
+    "progressOutlineColor": "#002F87",
+    "backgroundColor": "#002F87",
+    "textColor": "#FFFFFF",
+    "order": 55
+  },
+  "fs_tnh1": {
+    "name": "Nanhai Tram Line 1",
+    "color": "#78C7EB",
+    "progressOutlineColor": "#78C7EB",
+    "backgroundColor": "#78C7EB",
+    "textColor": "#000000",
+    "order": 56
+  },
+  "gzline24": {
+    "name": "Line 24",
+    "color": "#20ACAC",
+    "progressOutlineColor": "#20ACAC",
+    "backgroundColor": "#20ACAC",
+    "textColor": "#ffffff",
+    "order": 63
+  },
+  "szline1": {
+    "name": "Line 1",
+    "color": "#00AB39",
+    "progressOutlineColor": "#00AB39",
+    "backgroundColor": "#00AB39",
+    "textColor": "#FFFFFF",
+    "order": 100
+  },
+  "szline2": {
+    "name": "Line 2",
+    "color": "#DB6D1C",
+    "progressOutlineColor": "#DB6D1C",
+    "backgroundColor": "#DB6D1C",
+    "textColor": "#FFFFFF",
+    "order": 101
+  },
+  "szline3": {
+    "name": "Line 3",
+    "color": "#00A2E1",
+    "progressOutlineColor": "#00A2E1",
+    "backgroundColor": "#00A2E1",
+    "textColor": "#FFFFFF",
+    "order": 102
+  },
+  "szline4": {
+    "name": "Line 4",
+    "color": "#DC241F",
+    "progressOutlineColor": "#DC241F",
+    "backgroundColor": "#DC241F",
+    "textColor": "#FFFFFF",
+    "order": 103
+  },
+  "szline5": {
+    "name": "Line 5",
+    "color": "#9950B2",
+    "progressOutlineColor": "#9950B2",
+    "backgroundColor": "#9950B2",
+    "textColor": "#FFFFFF",
+    "order": 104
+  },
+  "szline6": {
+    "name": "Line 6",
+    "color": "#3ABCA8",
+    "progressOutlineColor": "#3ABCA8",
+    "backgroundColor": "#3ABCA8",
+    "textColor": "#FFFFFF",
+    "order": 105
+  },
+  "szline6b": {
+    "name": "Line 6B",
+    "color": "#037776",
+    "progressOutlineColor": "#037776",
+    "backgroundColor": "#037776",
+    "textColor": "#FFFFFF",
+    "order": 106
+  },
+  "szline7": {
+    "name": "Line 7",
+    "color": "#0035AD",
+    "progressOutlineColor": "#0035AD",
+    "backgroundColor": "#0035AD",
+    "textColor": "#FFFFFF",
+    "order": 107
+  },
+  "szline8": {
+    "name": "Line 8",
+    "color": "#DB6D1C",
+    "progressOutlineColor": "#DB6D1C",
+    "backgroundColor": "#DB6D1C",
+    "textColor": "#FFFFFF",
+    "order": 108
+  },
+  "szline9": {
+    "name": "Line 9",
+    "color": "#846E74",
+    "progressOutlineColor": "#846E74",
+    "backgroundColor": "#846E74",
+    "textColor": "#FFFFFF",
+    "order": 109
+  },
+  "szline10": {
+    "name": "Line 10",
+    "color": "#F8779E",
+    "progressOutlineColor": "#F8779E",
+    "backgroundColor": "#F8779E",
+    "textColor": "#FFFFFF",
+    "order": 110
+  },
+  "szline11": {
+    "name": "Line 11",
+    "color": "#6A1D44",
+    "progressOutlineColor": "#6A1D44",
+    "backgroundColor": "#6A1D44",
+    "textColor": "#FFFFFF",
+    "order": 111
+  },
+  "szline12": {
+    "name": "Line 12",
+    "color": "#A192B2",
+    "progressOutlineColor": "#A192B2",
+    "backgroundColor": "#A192B2",
+    "textColor": "#FFFFFF",
+    "order": 112
+  },
+  "szline13": {
+    "name": "Line 13",
+    "color": "#DE7C00",
+    "progressOutlineColor": "#DE7C00",
+    "backgroundColor": "#DE7C00",
+    "textColor": "#FFFFFF",
+    "order": 113
+  },
+  "szline14": {
+    "name": "Line 14",
+    "color": "#F2C75C",
+    "progressOutlineColor": "#F2C75C",
+    "backgroundColor": "#F2C75C",
+    "textColor": "#FFFFFF",
+    "order": 114
+  },
+  "szline15": {
+    "name": "Line 15",
+    "color": "#77BA00",
+    "progressOutlineColor": "#77BA00",
+    "backgroundColor": "#77BA00",
+    "textColor": "#FFFFFF",
+    "order": 115
+  },
+  "szline16": {
+    "name": "Line 16",
+    "color": "#1E22AA",
+    "progressOutlineColor": "#1E22AA",
+    "backgroundColor": "#1E22AA",
+    "textColor": "#FFFFFF",
+    "order": 116
+  },
+  "szline17": {
+    "name": "Line 17",
+    "color": "#D3C0CD",
+    "progressOutlineColor": "#D3C0CD",
+    "backgroundColor": "#D3C0CD",
+    "textColor": "#FFFFFF",
+    "order": 117
+  },
+  "szline20": {
+    "name": "Line 20",
+    "color": "#88DBDF",
+    "progressOutlineColor": "#88DBDF",
+    "backgroundColor": "#88DBDF",
+    "textColor": "#FFFFFF",
+    "order": 118
+  },
+  "szline25": {
+    "name": "Line 25",
+    "color": "#FEAD77",
+    "progressOutlineColor": "#FEAD77",
+    "backgroundColor": "#FEAD77",
+    "textColor": "#FFFFFF",
+    "order": 119
+  },
+  "szline27": {
+    "name": "Line 27",
+    "color": "#3C8065",
+    "progressOutlineColor": "#3C8065",
+    "backgroundColor": "#3C8065",
+    "textColor": "#FFFFFF",
+    "order": 120
+  },
+  "szline29": {
+    "name": "Line 29",
+    "color": "#9F2F47",
+    "progressOutlineColor": "#9F2F47",
+    "backgroundColor": "#9F2F47",
+    "textColor": "#FFFFFF",
+    "order": 121
+  },
+  "szline32": {
+    "name": "Line 32",
+    "color": "#BA5801",
+    "progressOutlineColor": "#BA5801",
+    "backgroundColor": "#BA5801",
+    "textColor": "#FFFFFF",
+    "order": 122
+  },
+  "sztram1": {
+    "name": "Line 1",
+    "color": "#95C943",
+    "progressOutlineColor": "#95C943",
+    "backgroundColor": "#95C943",
+    "textColor": "#FFFFFF",
+    "order": 123
+  },
+  "sztram2": {
+    "name": "Line 2",
+    "color": "#02481E",
+    "progressOutlineColor": "#02481E",
+    "backgroundColor": "#02481E",
+    "textColor": "#FFFFFF",
+    "order": 124
+  },
+  "szbyd1": {
+    "name": "Pingshan SkyShuttle Line 1",
+    "color": "#2374C7",
+    "progressOutlineColor": "#2374C7",
+    "backgroundColor": "#2374C7",
+    "textColor": "#FFFFFF",
+    "order": 125
+  },
+  "szline22": {
+    "name": "Line 22",
+    "color": "#FBE122",
+    "progressOutlineColor": "#FBE122",
+    "backgroundColor": "#FBE122",
+    "textColor": "#FFFFFF",
+    "order": 126
+  },
+  "moeast": {
+    "name": "East",
+    "color": "#FFC933",
+    "progressOutlineColor": "#FFC933",
+    "backgroundColor": "#B38600",
+    "textColor": "#000000",
+    "order": 127
+  }
+}

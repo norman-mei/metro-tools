@@ -1,9 +1,10 @@
 {
   "RD": {
     "name": "Red Line",
-    "color": "#BF1939",
-    "backgroundColor": "#BF1939",
+    "color": "#FF0000",
+    "backgroundColor": "#FF0000",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "AustinRed.svg"
   }
 }

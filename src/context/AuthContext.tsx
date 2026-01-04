@@ -36,6 +36,7 @@ type AuthContextValue = {
     sectionId: string,
     collapsed: boolean,
   ) => Promise<void>
+  updateUiPreferences: (updates: Partial<UiPreferences>) => Promise<void>
 }
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined)
@@ -133,7 +134,53 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         }
 
         const payload = await response.json().catch(() => ({}))
-        setUiPreferences(normalizeUiPreferences(payload.preferences))
+        setUiPreferences((prev) =>
+          normalizeUiPreferences({
+            ...prev,
+            ...(payload?.preferences ?? {}),
+          }),
+        )
+      } catch {
+        // ignore network errors; local optimistic state already applied
+      }
+    },
+    [user],
+  )
+
+  const updateUiPreferences = useCallback(
+    async (updates: Partial<UiPreferences>) => {
+      if (!user) return
+
+      setUiPreferences((prev) =>
+        normalizeUiPreferences({
+          ...prev,
+          ...updates,
+        }),
+      )
+
+      try {
+        const response = await fetch('/api/user/preferences', {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updates),
+        })
+
+        if (!response.ok) {
+          if (response.status === 401) {
+            setUser(null)
+            setProgressSummaries({})
+            setUiPreferences({})
+          }
+          return
+        }
+
+        const payload = await response.json().catch(() => ({}))
+        setUiPreferences((prev) =>
+          normalizeUiPreferences({
+            ...prev,
+            ...(payload?.preferences ?? {}),
+          }),
+        )
       } catch {
         // ignore network errors; local optimistic state already applied
       }
@@ -151,6 +198,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       logoutLocally,
       uiPreferences,
       setCollapsedSectionPreference,
+      updateUiPreferences,
     }),
     [
       user,
@@ -161,6 +209,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       logoutLocally,
       uiPreferences,
       setCollapsedSectionPreference,
+      updateUiPreferences,
     ],
   )
 

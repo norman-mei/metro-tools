@@ -97,15 +97,10 @@ const ProgressBars = ({
     const title = `${displayName} - ${found}/${total}`
     const customProgressColor = meta.progressOutlineColor
     const progressColor = customProgressColor ?? meta.color ?? '#000000'
-    const needsContrastBoost = gaugeMode === 'inverted' && !isDark && isColorLight(progressColor)
+    const needsContrastBoost =
+      gaugeMode === 'inverted' && !isDark && isColorLight(progressColor)
     const gaugeBackground =
-      gaugeMode === 'inverted'
-        ? isDark
-          ? '#27272a'
-          : needsContrastBoost
-            ? '#e4e4e7'
-            : '#ffffff'
-        : meta.color
+      gaugeMode === 'inverted' ? (isDark ? '#27272a' : '#ffffff') : meta.color
     const percentComplete = total > 0 ? found / total : 0
     const completionColor = getCompletionColor(percentComplete)
 
@@ -118,7 +113,7 @@ const ProgressBars = ({
           <div
             className={clsx(
               'absolute h-full w-full rounded-full shadow dark:shadow-black/40',
-              needsContrastBoost && 'ring-1 ring-zinc-200',
+              needsContrastBoost && 'ring-1 ring-white',
             )}
           >
             <CircularProgressbar

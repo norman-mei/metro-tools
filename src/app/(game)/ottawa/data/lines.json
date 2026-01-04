@@ -1,29 +1,29 @@
 {
   "OTrainLine1": {
     "name": "Line 1 – Confederation Line",
-    "color": "#C22924",
+    "color": "#C12D29",
     "backgroundColor": "#8F1B19",
     "textColor": "#ffffff",
-    "progressOutlineColor": "#C22924",
-    "statsColor": "#C22924",
+    "progressOutlineColor": "#C12D29",
+    "statsColor": "#C12D29",
     "order": 0
   },
   "OTrainLine2": {
     "name": "Line 2 – Trillium Line",
-    "color": "#74A142",
+    "color": "#73A044",
     "backgroundColor": "#466326",
     "textColor": "#ffffff",
-    "progressOutlineColor": "#74A142",
-    "statsColor": "#74A142",
+    "progressOutlineColor": "#73A044",
+    "statsColor": "#73A044",
     "order": 1
   },
   "OTrainLine3": {
     "name": "Line 3",
-    "color": "#8B741E",
+    "color": "#8A7323",
     "backgroundColor": "#4E3F0F",
     "textColor": "#ffffff",
-    "progressOutlineColor": "#8B741E",
-    "statsColor": "#8B741E",
+    "progressOutlineColor": "#8A7323",
+    "statsColor": "#8A7323",
     "order": 2
   },
   "OTrainLine4": {

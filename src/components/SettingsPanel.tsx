@@ -21,11 +21,13 @@ import classNames from 'classnames'
 import { useTheme } from 'next-themes'
 import type { KeyboardEvent } from 'react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import KeybindingRecorder from './KeybindingRecorder'
 
 type SettingsPanelProps = {
   className?: string
   showHeading?: boolean
   onClose?: () => void
+  disableScroll?: boolean
 }
 
 const THEME_OPTIONS: Array<{ value: string; label: string }> = [
@@ -71,7 +73,7 @@ const CURATED_TIMEZONES: string[] = [
 
 const LOCAL_PROGRESS_EVENT = 'local-progress-refresh'
 
-const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) => {
+const SettingsPanel = ({ className, showHeading = true, disableScroll = false }: SettingsPanelProps) => {
   const {
     settings,
     setConfettiEnabled,
@@ -81,6 +83,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
     setLanguage,
     setTimezone,
     setHourFormat,
+    setKeybinding,
     notifySettingsSaved,
   } = useSettings()
   const { t } = useTranslation()
@@ -139,7 +142,7 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
     <div
       className={classNames(
         'space-y-6 rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-[#18181b] dark:bg-zinc-900',
-        'max-h-[70vh] overflow-y-auto',
+        !disableScroll && 'max-h-[70vh] overflow-y-auto',
         'w-full',
         className,
       )}
@@ -313,6 +316,42 @@ const SettingsPanel = ({ className, showHeading = true }: SettingsPanelProps) =>
         </div>
       </div>
       <SolutionsAccessPanel onSettingsChange={notifySettingsSaved} />
+      <div className="space-y-3">
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          Keybindings
+        </p>
+        <div className="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-2 dark:border-[#18181b] dark:bg-zinc-900/40">
+            <KeybindingRecorder
+                label="Focus Search"
+                value={settings.keybindings.FOCUS_INPUT}
+                onChange={(val) => setKeybinding('FOCUS_INPUT', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Clear / Close"
+                value={settings.keybindings.CLEAR_INPUT}
+                onChange={(val) => setKeybinding('CLEAR_INPUT', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Zen Mode"
+                value={settings.keybindings.TOGGLE_ZEN_MODE}
+                onChange={(val) => setKeybinding('TOGGLE_ZEN_MODE', val)}
+            />
+             <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Sidebar"
+                value={settings.keybindings.TOGGLE_SIDEBAR}
+                onChange={(val) => setKeybinding('TOGGLE_SIDEBAR', val)}
+            />
+             <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Solutions"
+                value={settings.keybindings.TOGGLE_SOLUTIONS}
+                onChange={(val) => setKeybinding('TOGGLE_SOLUTIONS', val)}
+            />
+        </div>
+      </div>
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-red-500 dark:text-red-400">
           {t('dangerZone')}

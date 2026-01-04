@@ -1,16 +1,17 @@
 'use client'
 
 import { useSettings } from '@/context/SettingsContext'
+import useTranslation from '@/hooks/useTranslation'
 import { ACCENT_COLOR_MAP, DEFAULT_ACCENT_COLOR_ID } from '@/lib/accentColors'
 import { isColorLight } from '@/lib/colorUtils'
 import { getCompletionColor } from '@/lib/progressColors'
 import { STATION_TOTALS } from '@/lib/stationTotals'
 import { getStationKey } from '@/lib/stationUtils'
 import { Config, DataFeature, DataFeatureCollection, LineGroup } from '@/lib/types'
-import useTranslation from '@/hooks/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState, type MouseEvent as ReactMouseEvent } from 'react'
+import { createPortal } from 'react-dom'
 
 type CityStatsPanelProps = {
   cityDisplayName: string
@@ -541,6 +542,10 @@ const CityStatsPanel = ({
     return null
   }
 
+  if (typeof document === 'undefined') {
+      return null
+  }
+
   const cityIconSrc = `/api/city-icon/${encodeURIComponent(slug)}`
   const quickNavLinks = [
     { label: 'Account tab', href: '/?tab=account' },
@@ -841,9 +846,9 @@ const CityStatsPanel = ({
     )
   }
 
-  return (
+  return createPortal(
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
       role="dialog"
       aria-modal="true"
       onClick={onClose}
@@ -947,7 +952,8 @@ const CityStatsPanel = ({
           )}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
 

@@ -1,0 +1,260 @@
+{
+  "BARTYellow": {
+    "name": "BART Yellow Line",
+    "color": "#ffe800",
+    "backgroundColor": "#A69700",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#ffe800",
+    "order": 0,
+    "icon": "Yellow_Line_(BART).svg"
+  },
+  "BARTOrange": {
+    "name": "BART Orange Line",
+    "color": "#faa61a",
+    "backgroundColor": "#B06F04",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#faa61a",
+    "order": 1,
+    "icon": "Orange_Line_(BART).svg"
+  },
+  "BARTBlue": {
+    "name": "BART Blue Line",
+    "color": "#00aeef",
+    "backgroundColor": "#00719B",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#00aeef",
+    "order": 2,
+    "icon": "Blue_Line_(BART).svg"
+  },
+  "BARTGreen": {
+    "name": "BART Green Line",
+    "color": "#4db848",
+    "backgroundColor": "#32782F",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#4db848",
+    "order": 3,
+    "icon": "Green_Line_(BART).svg"
+  },
+  "BARTRed": {
+    "name": "BART Red Line",
+    "color": "#ed1c24",
+    "backgroundColor": "#A00D12",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#ed1c24",
+    "order": 4,
+    "icon": "Red_Line_(BART).svg"
+  },
+  "BARTOAC": {
+    "name": "Oakland Airport Connector",
+    "color": "#b0bdc6",
+    "backgroundColor": "#667D8D",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#b0bdc6",
+    "order": 5,
+    "icon": "Oakland_Airport_Connector.svg"
+  },
+  "CaltrainLocal": {
+    "name": "Caltrain Local",
+    "color": "#e41838",
+    "backgroundColor": "#941024",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#e41838",
+    "order": 6
+  },
+  "CaltrainLimited": {
+    "name": "Caltrain Limited",
+    "color": "#e41838",
+    "backgroundColor": "#941024",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#e41838",
+    "order": 7
+  },
+  "CaltrainExpress": {
+    "name": "Caltrain Express",
+    "color": "#e41838",
+    "backgroundColor": "#941024",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#e41838",
+    "order": 8
+  },
+  "CaltrainSouth": {
+    "name": "Caltrain South County Connector",
+    "color": "#e41838",
+    "backgroundColor": "#941024",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#e41838",
+    "order": 9
+  },
+  "SMART": {
+    "name": "SMART",
+    "color": "#0f5a2d",
+    "backgroundColor": "#0A3B1D",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#0f5a2d",
+    "order": 10
+  },
+  "MuniJ": {
+    "name": "J Church",
+    "color": "#e18813",
+    "backgroundColor": "#92580C",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#e18813",
+    "order": 10,
+    "icon": "J_Church_logo.svg"
+  },
+  "ACE": {
+    "name": "Altamont Corridor Express",
+    "color": "#9c67a0",
+    "backgroundColor": "#664269",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#9c67a0",
+    "order": 11
+  },
+  "MuniK": {
+    "name": "K Ingleside",
+    "color": "#549dbf",
+    "backgroundColor": "#316882",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#549dbf",
+    "order": 11,
+    "icon": "K_Ingleside_logo.svg"
+  },
+  "MuniL": {
+    "name": "L Taraval",
+    "color": "#932290",
+    "backgroundColor": "#60165E",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#932290",
+    "order": 12,
+    "icon": "L_Taraval_logo.svg"
+  },
+  "MuniM": {
+    "name": "M Ocean View",
+    "color": "#008851",
+    "backgroundColor": "#005835",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#008851",
+    "order": 13,
+    "icon": "M_Ocean_View_logo.svg"
+  },
+  "MuniN": {
+    "name": "N Judah",
+    "color": "#004988",
+    "backgroundColor": "#002F58",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#004988",
+    "order": 14,
+    "icon": "N_Judah_logo.svg"
+  },
+  "MuniT": {
+    "name": "T Third Street",
+    "color": "#d40843",
+    "backgroundColor": "#8A052C",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#d40843",
+    "order": 15,
+    "icon": "T_Third_Street_logo.svg"
+  },
+  "MuniS": {
+    "name": "S Shuttle",
+    "color": "#ffcc00",
+    "backgroundColor": "#A68500",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#ffcc00",
+    "order": 16,
+    "icon": "S_Shuttle_logo.svg"
+  },
+  "MuniE": {
+    "name": "E Embarcadero",
+    "color": "#1E9999",
+    "backgroundColor": "#146363",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#666666",
+    "order": 17,
+    "icon": "E_Embarcadero_logo.svg"
+  },
+  "MuniF": {
+    "name": "F Market & Wharves",
+    "color": "#f0e68c",
+    "backgroundColor": "#DBC81D",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#f0e68c",
+    "order": 18,
+    "icon": "F_Market_&_Wharves_logo.svg"
+  },
+  "MuniC": {
+    "name": "California Cable Car",
+    "color": "#913108",
+    "backgroundColor": "#5E2005",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#913108",
+    "order": 19
+  },
+  "MuniPH": {
+    "name": "Powell-Hyde Cable Car",
+    "color": "#913108",
+    "backgroundColor": "#5E2005",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#913108",
+    "order": 20
+  },
+  "MuniPM": {
+    "name": "Powell-Mason Cable Car",
+    "color": "#913108",
+    "backgroundColor": "#5E2005",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#913108",
+    "order": 21
+  },
+  "VTABlue": {
+    "name": "VTA Blue Line",
+    "color": "#3bb4e6",
+    "backgroundColor": "#157CA7",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#3bb4e6",
+    "order": 30,
+    "icon": "VTA-Blue-icon.svg"
+  },
+  "VTAGreen": {
+    "name": "VTA Green Line",
+    "color": "#a0cf65",
+    "backgroundColor": "#6A9930",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#a0cf65",
+    "order": 31,
+    "icon": "VTA-Green-icon.svg"
+  },
+  "VTAOrange": {
+    "name": "VTA Orange Line",
+    "color": "#f79729",
+    "backgroundColor": "#B46407",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#f79729",
+    "order": 32,
+    "icon": "VTA-Orange-icon.svg"
+  },
+  "SacRTGold": {
+    "name": "SacRT Gold Line",
+    "color": "#ffba00",
+    "backgroundColor": "#A67900",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#ffba00",
+    "order": 40
+  },
+  "SacRTBlue": {
+    "name": "SacRT Blue Line",
+    "color": "#002666",
+    "backgroundColor": "#001942",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#002666",
+    "order": 41
+  },
+  "SacRTGreen": {
+    "name": "SacRT Green Line",
+    "color": "#006633",
+    "backgroundColor": "#004221",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#006633",
+    "order": 42
+  }
+}

@@ -1,12 +1,12 @@
 'use client'
 
-import { Fragment, useEffect, useState } from 'react'
-import { Menu, Transition } from '@headlessui/react'
-import MenuIcon from './MenuIcon'
-import classNames from 'classnames'
-import AboutModal from './AboutModal'
 import useTranslation from '@/hooks/useTranslation'
+import { Menu, Transition } from '@headlessui/react'
+import classNames from 'classnames'
 import Link from 'next/link'
+import { Fragment, useEffect, useState } from 'react'
+import AboutModal from './AboutModal'
+import MenuIcon from './MenuIcon'
 
 export default function MenuComponent({
   setHideLabels,
@@ -18,6 +18,12 @@ export default function MenuComponent({
   onOpenAccount,
   onOpenPrivacy,
   onOpenSupport,
+  zenMode,
+  onToggleZen,
+  showSatellite,
+  onToggleSatellite,
+  showMapNames,
+  onToggleMapNames,
 }: {
   hideLabels: boolean
   setHideLabels: (hide: boolean) => void
@@ -28,6 +34,12 @@ export default function MenuComponent({
   onOpenAccount?: () => void
   onOpenPrivacy?: () => void
   onOpenSupport?: () => void
+  zenMode?: boolean
+  onToggleZen?: () => void
+  showSatellite: boolean
+  onToggleSatellite: () => void
+  showMapNames: boolean
+  onToggleMapNames: () => void
 }) {
   const [mounted, setMounted] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)
@@ -63,33 +75,58 @@ export default function MenuComponent({
           <div className="py-1">
             <Menu.Item disabled={showSolutionsDisabled}>
               {({ active, disabled }) => (
-                <span
+                <button
+                  type="button"
                   className={classNames(
-                    'block w-full cursor-pointer px-4 py-2 text-gray-700 transition dark:text-zinc-100',
-                    disabled && 'cursor-not-allowed opacity-60 text-gray-500 dark:text-zinc-400',
-                    active &&
-                      !disabled &&
-                      'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100',
+                    'block w-full px-4 py-2 text-left text-sm transition',
+                    disabled
+                      ? 'cursor-not-allowed opacity-60 text-gray-500 dark:text-zinc-400'
+                      : active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
                   )}
+                  onClick={() => {
+                    if (!disabled) {
+                      onRevealSolutions()
+                    }
+                  }}
+                  disabled={disabled}
                   title={
                     disabled ? 'You already found all the stations!' : undefined
                   }
                 >
-                  <button
-                    type="button"
-                    className={classNames(
-                      'w-full text-left text-sm',
-                    )}
-                    onClick={() => {
-                      if (!disabled) {
-                        onRevealSolutions()
-                      }
-                    }}
-                    disabled={disabled}
-                  >
-                    {t('showSolutions')}
-                  </button>
-                </span>
+                  {t('showSolutions')}
+                </button>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <button
+                  className={classNames(
+                    active
+                      ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                      : 'text-gray-700 dark:text-zinc-100',
+                    'block w-full px-4 py-2 text-left text-sm transition',
+                  )}
+                  onClick={onToggleSatellite}
+                >
+                  {showSatellite ? 'Hide satellite' : 'Show satellite'}
+                </button>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <button
+                  className={classNames(
+                    active
+                      ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                      : 'text-gray-700 dark:text-zinc-100',
+                    'block w-full px-4 py-2 text-left text-sm transition',
+                  )}
+                  onClick={onToggleMapNames}
+                >
+                  {showMapNames ? 'Hide map names' : 'Show map names'}
+                </button>
               )}
             </Menu.Item>
             <Menu.Item>
@@ -188,6 +225,24 @@ export default function MenuComponent({
                 )
               }
             </Menu.Item>
+            {onToggleZen && (
+              <Menu.Item>
+                {({ active }) => (
+                  <button
+                    type="button"
+                    className={classNames(
+                      active
+                        ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                        : 'text-gray-700 dark:text-zinc-100',
+                      'block w-full px-4 py-2 text-left text-sm transition',
+                    )}
+                    onClick={onToggleZen}
+                  >
+                    {zenMode ? 'Exit Zen Mode' : 'Enter Zen Mode'}
+                  </button>
+                )}
+              </Menu.Item>
+            )}
             <Menu.Item>
               {({ active }) =>
                 onOpenAccount ? (

@@ -5,7 +5,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.30347851028161, 36.858714501686876]
+        "coordinates": [-76.30352783070221, 36.85870568416088]
       },
       "properties": {
         "name": "EVMC/Fort Norfolk",
@@ -19,7 +19,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.2939011075089, 36.85357310615745]
+        "coordinates": [-76.2938888529621, 36.85355282255425]
       },
       "properties": {
         "name": "York Street/Freemason",
@@ -33,7 +33,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.28885999999152, 36.851200957711036]
+        "coordinates": [-76.2887917206621, 36.85119526777095]
       },
       "properties": {
         "name": "Monticello",
@@ -46,7 +46,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.28968195277905, 36.847132538917556]
+        "coordinates": [-76.2897212594357, 36.84715366072001]
       },
       "properties": {
         "name": "MacArthur Square",
@@ -59,7 +59,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.28557176020423, 36.84560827887493]
+        "coordinates": [-76.28550751626018, 36.84559348931895]
       },
       "properties": {
         "name": "Civic Plaza",
@@ -72,7 +72,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.27804167580322, 36.844044582473856]
+        "coordinates": [-76.27801595633346, 36.84399317814344]
       },
       "properties": {
         "name": "Harbor Park",
@@ -85,7 +85,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.26931285768303, 36.84588976842175]
+        "coordinates": [-76.2694603824631, 36.84586984015672]
       },
       "properties": {
         "name": "NSU",
@@ -99,7 +99,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.25317495197362, 36.84626787918237]
+        "coordinates": [-76.2531943609598, 36.84618725017891]
       },
       "properties": {
         "name": "Ballentine/Broad Creek",
@@ -113,7 +113,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.23488113452673, 36.84275766898096]
+        "coordinates": [-76.23502037601139, 36.84270178242603]
       },
       "properties": {
         "name": "Ingleside Road",
@@ -126,7 +126,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.21313343689017, 36.84155950998053]
+        "coordinates": [-76.2131029887859, 36.84143747581923]
       },
       "properties": {
         "name": "Military Highway",
@@ -139,7 +139,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.19028259727821, 36.84110758547085]
+        "coordinates": [-76.19017821271932, 36.84103035216116]
       },
       "properties": {
         "name": "Newtown Road",

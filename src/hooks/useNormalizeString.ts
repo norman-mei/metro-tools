@@ -250,17 +250,13 @@ const replacers: { [key: string]: (str: string) => string } = {
 
 const NON_LATIN_ALLOWED_CITIES = new Set([
   'beijing',
-  'dongguan',
-  'guangzhou',
-  'hk',
+  'gba',
   'hanoi',
   'hochiminhcity',
   'istanbul',
   'kaohsiung',
-  'macau',
   'seoul',
   'shanghai',
-  'shenzhen',
   'singapore',
   'taichung',
   'taipei',

@@ -1,0 +1,5625 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8891598,
+          38.0168742
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Pittsburg Center",
+        "line": "BARTYellow"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4139639,
+          37.7793583
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Civic Center",
+        "line": "BARTYellow"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1246366,
+          37.8931856
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Lafayette",
+        "line": "BARTYellow"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2512573,
+          37.8447574
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Rockridge",
+        "line": "BARTYellow"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0290705,
+          37.9737812
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Concord",
+        "line": "BARTYellow"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4071867,
+          37.7847076
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Powell Street",
+        "line": "BARTYellow"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271692,
+          37.8034958
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Oakland City Center - 12th Street",
+        "line": "BARTYellow"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4439774,
+          37.6642278
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "South San Francisco",
+        "line": "BARTYellow"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4338051,
+          37.7331037
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Glen Park",
+        "line": "BARTYellow"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419678,
+          37.7650686
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "16th Street Mission",
+        "line": "BARTYellow"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4475473,
+          37.7214274
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Balboa Park",
+        "line": "BARTYellow"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418449,
+          37.7522559
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "24th Street Mission",
+        "line": "BARTYellow"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3915235,
+          37.6162238
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "San Francisco International Airport",
+        "line": "BARTYellow"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.780005,
+          37.9957458
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Antioch",
+        "line": "BARTYellow"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4014677,
+          37.7892257
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Montgomery Street",
+        "line": "BARTYellow"
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.183681,
+          37.8784879
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Orinda",
+        "line": "BARTYellow"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Embarcadero",
+        "line": "BARTYellow"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9451489,
+          38.0182952
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Pittsburg/Bay Point",
+        "line": "BARTYellow"
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0243458,
+          38.0029897
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "North Concord/Martinez",
+        "line": "BARTYellow"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0559847,
+          37.9284398
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Pleasant Hill/Contra Costa Centre",
+        "line": "BARTYellow"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0673437,
+          37.905796
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Walnut Creek",
+        "line": "BARTYellow"
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267125,
+          37.8288064
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "MacArthur",
+        "line": "BARTYellow"
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2690026,
+          37.8076621
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "19th Street Oakland",
+        "line": "BARTYellow"
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2951752,
+          37.8048919
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "West Oakland",
+        "line": "BARTYellow"
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4688905,
+          37.7063084
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Daly City",
+        "line": "BARTYellow"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.466213,
+          37.684628
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Colma",
+        "line": "BARTYellow"
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4163021,
+          37.6377524
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "San Bruno",
+        "line": "BARTYellow"
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3867821,
+          37.6002442
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Millbrae",
+        "line": "BARTYellow"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.874677,
+          37.3684396
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Berryessa/North San José",
+        "line": "BARTOrange"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0173972,
+          37.5906286
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Union City",
+        "line": "BARTOrange"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9766318,
+          37.5574802
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Fremont",
+        "line": "BARTOrange"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267125,
+          37.8288064
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "MacArthur",
+        "line": "BARTOrange"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0569501,
+          37.6344666
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "South Hayward",
+        "line": "BARTOrange"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1264655,
+          37.6969122
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Bay Fair",
+        "line": "BARTOrange"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269711,
+          37.8529812
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Ashby",
+        "line": "BARTOrange"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271692,
+          37.8034958
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Oakland City Center - 12th Street",
+        "line": "BARTOrange"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2834392,
+          37.8739663
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "North Berkeley",
+        "line": "BARTOrange"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268138,
+          37.8701007
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Downtown Berkeley",
+        "line": "BARTOrange"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1972051,
+          37.7539702
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Coliseum",
+        "line": "BARTOrange"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.939208,
+          37.5019913
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Warm Springs/South Fremont",
+        "line": "BARTOrange"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3531597,
+          37.9368681
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Richmond",
+        "line": "BARTOrange"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3169068,
+          37.9251823
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "El Cerrito del Norte",
+        "line": "BARTOrange"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2690026,
+          37.8076621
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "19th Street Oakland",
+        "line": "BARTOrange"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0869842,
+          37.66971
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Hayward",
+        "line": "BARTOrange"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160584,
+          37.7215601
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "San Leandro",
+        "line": "BARTOrange"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.224095,
+          37.7748464
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Fruitvale",
+        "line": "BARTOrange"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265039,
+          37.7972157
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Lake Merritt",
+        "line": "BARTOrange"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2989397,
+          37.9026207
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "El Cerrito Plaza",
+        "line": "BARTOrange"
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.890972,
+          37.4100396
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Milpitas",
+        "line": "BARTOrange"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4139639,
+          37.7793583
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Civic Center",
+        "line": "BARTBlue"
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1264655,
+          37.6969122
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Bay Fair",
+        "line": "BARTBlue"
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4688905,
+          37.7063084
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Daly City",
+        "line": "BARTBlue"
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4071867,
+          37.7847076
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Powell Street",
+        "line": "BARTBlue"
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4338051,
+          37.7331037
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Glen Park",
+        "line": "BARTBlue"
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419678,
+          37.7650686
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "16th Street Mission",
+        "line": "BARTBlue"
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4475473,
+          37.7214274
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Balboa Park",
+        "line": "BARTBlue"
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418449,
+          37.7522559
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "24th Street Mission",
+        "line": "BARTBlue"
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1972051,
+          37.7539702
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Coliseum",
+        "line": "BARTBlue"
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8992387,
+          37.7016465
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Dublin/Pleasanton",
+        "line": "BARTBlue"
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4014677,
+          37.7892257
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Montgomery Street",
+        "line": "BARTBlue"
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9281673,
+          37.6997514
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "West Dublin/Pleasanton",
+        "line": "BARTBlue"
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Embarcadero",
+        "line": "BARTBlue"
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2951752,
+          37.8048919
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "West Oakland",
+        "line": "BARTBlue"
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265039,
+          37.7972157
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Lake Merritt",
+        "line": "BARTBlue"
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.224095,
+          37.7748464
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Fruitvale",
+        "line": "BARTBlue"
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160584,
+          37.7215601
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "San Leandro",
+        "line": "BARTBlue"
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0759234,
+          37.691213
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Castro Valley",
+        "line": "BARTBlue"
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4139639,
+          37.7793583
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Civic Center",
+        "line": "BARTGreen"
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.874677,
+          37.3684396
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Berryessa/North San José",
+        "line": "BARTGreen"
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0173972,
+          37.5906286
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Union City",
+        "line": "BARTGreen"
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9766318,
+          37.5574802
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Fremont",
+        "line": "BARTGreen"
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0569501,
+          37.6344666
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "South Hayward",
+        "line": "BARTGreen"
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1264655,
+          37.6969122
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Bay Fair",
+        "line": "BARTGreen"
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4688905,
+          37.7063084
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Daly City",
+        "line": "BARTGreen"
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4071867,
+          37.7847076
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Powell Street",
+        "line": "BARTGreen"
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4338051,
+          37.7331037
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Glen Park",
+        "line": "BARTGreen"
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419678,
+          37.7650686
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "16th Street Mission",
+        "line": "BARTGreen"
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4475473,
+          37.7214274
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Balboa Park",
+        "line": "BARTGreen"
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418449,
+          37.7522559
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "24th Street Mission",
+        "line": "BARTGreen"
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1972051,
+          37.7539702
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Coliseum",
+        "line": "BARTGreen"
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.939208,
+          37.5019913
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Warm Springs/South Fremont",
+        "line": "BARTGreen"
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4014677,
+          37.7892257
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Montgomery Street",
+        "line": "BARTGreen"
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Embarcadero",
+        "line": "BARTGreen"
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2951752,
+          37.8048919
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "West Oakland",
+        "line": "BARTGreen"
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265039,
+          37.7972157
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Lake Merritt",
+        "line": "BARTGreen"
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.224095,
+          37.7748464
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Fruitvale",
+        "line": "BARTGreen"
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160584,
+          37.7215601
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "San Leandro",
+        "line": "BARTGreen"
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0869842,
+          37.66971
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Hayward",
+        "line": "BARTGreen"
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.890972,
+          37.4100396
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Milpitas",
+        "line": "BARTGreen"
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4139639,
+          37.7793583
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Civic Center",
+        "line": "BARTRed"
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3867821,
+          37.6002442
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Millbrae",
+        "line": "BARTRed"
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267125,
+          37.8288064
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "MacArthur",
+        "line": "BARTRed"
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4071867,
+          37.7847076
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Powell Street",
+        "line": "BARTRed"
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269711,
+          37.8529812
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Ashby",
+        "line": "BARTRed"
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271692,
+          37.8034958
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Oakland City Center - 12th Street",
+        "line": "BARTRed"
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4439774,
+          37.6642278
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "South San Francisco",
+        "line": "BARTRed"
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2834392,
+          37.8739663
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "North Berkeley",
+        "line": "BARTRed"
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268138,
+          37.8701007
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Downtown Berkeley",
+        "line": "BARTRed"
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4338051,
+          37.7331037
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Glen Park",
+        "line": "BARTRed"
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419678,
+          37.7650686
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "16th Street Mission",
+        "line": "BARTRed"
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4475473,
+          37.7214274
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Balboa Park",
+        "line": "BARTRed"
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418449,
+          37.7522559
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "24th Street Mission",
+        "line": "BARTRed"
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3915235,
+          37.6162238
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "San Francisco International Airport",
+        "line": "BARTRed"
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4014677,
+          37.7892257
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Montgomery Street",
+        "line": "BARTRed"
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Embarcadero",
+        "line": "BARTRed"
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3531597,
+          37.9368681
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Richmond",
+        "line": "BARTRed"
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3169068,
+          37.9251823
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "El Cerrito del Norte",
+        "line": "BARTRed"
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2690026,
+          37.8076621
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "19th Street Oakland",
+        "line": "BARTRed"
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2951752,
+          37.8048919
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "West Oakland",
+        "line": "BARTRed"
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4688905,
+          37.7063084
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Daly City",
+        "line": "BARTRed"
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.466213,
+          37.684628
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Colma",
+        "line": "BARTRed"
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2989397,
+          37.9026207
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "El Cerrito Plaza",
+        "line": "BARTRed"
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4163021,
+          37.6377524
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "San Bruno",
+        "line": "BARTRed"
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2123989,
+          37.7131093
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Oakland International Airport",
+        "line": "BARTOAC"
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1972051,
+          37.7539702
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Coliseum",
+        "line": "BARTOAC"
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3957151487875,
+          37.77573154758324
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "San Francisco",
+        "line": "CaltrainLocal"
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3923302090034,
+          37.75608484552124
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "22nd Street",
+        "line": "CaltrainLocal"
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4018505290972,
+          37.70762796795865
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Bayshore",
+        "line": "CaltrainLocal"
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4054796133308,
+          37.65543413801611
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "South San Francisco",
+        "line": "CaltrainLocal"
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4118467742343,
+          37.63097634646675
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "San Bruno",
+        "line": "CaltrainLocal"
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3869602686765,
+          37.60012583695458
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Millbrae",
+        "line": "CaltrainLocal"
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.362005858777,
+          37.58730138086963
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Broadway",
+        "line": "CaltrainLocal"
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3449300950458,
+          37.58002657877088
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Burlingame",
+        "line": "CaltrainLocal"
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3238931919833,
+          37.56822417252274
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "San Mateo",
+        "line": "CaltrainLocal"
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3095462286198,
+          37.55324889980453
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Hayward Park",
+        "line": "CaltrainLocal"
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2978201169503,
+          37.53848546436393
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Hillsdale",
+        "line": "CaltrainLocal"
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276342887571,
+          37.52126505164468
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Belmont",
+        "line": "CaltrainLocal"
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2599539347281,
+          37.50754211802637
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "San Carlos",
+        "line": "CaltrainLocal"
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2317083447714,
+          37.48585493086335
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Redwood City",
+        "line": "CaltrainLocal"
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1825449222494,
+          37.45477641127497
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Menlo Park",
+        "line": "CaltrainLocal"
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1652615844162,
+          37.44387478635246
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Palo Alto",
+        "line": "CaltrainLocal"
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1567284148478,
+          37.43854454864635
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Stanford",
+        "line": "CaltrainLocal"
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1419225642629,
+          37.42916853792232
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "California Avenue",
+        "line": "CaltrainLocal"
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1071355481836,
+          37.40719838178607
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "San Antonio",
+        "line": "CaltrainLocal"
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0755472063865,
+          37.39420596378977
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Mountain View",
+        "line": "CaltrainLocal"
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0314896416744,
+          37.37881348334722
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Sunnyvale",
+        "line": "CaltrainLocal"
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9970820282676,
+          37.37069818854798
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Lawrence",
+        "line": "CaltrainLocal"
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9369778582656,
+          37.35355629313803
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Santa Clara",
+        "line": "CaltrainLocal"
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9155380585034,
+          37.34270631757564
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "College Park",
+        "line": "CaltrainLocal"
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9026123715168,
+          37.32988333333334
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "San Jose Diridon",
+        "line": "CaltrainLocal"
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8846565267303,
+          37.31252072196983
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Tamien",
+        "line": "CaltrainLocal"
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3957151487875,
+          37.77573154758324
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "San Francisco",
+        "line": "CaltrainLimited"
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3923302090034,
+          37.75608484552124
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "22nd Street",
+        "line": "CaltrainLimited"
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4054796133308,
+          37.65543413801611
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "South San Francisco",
+        "line": "CaltrainLimited"
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3869602686765,
+          37.60012583695458
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Millbrae",
+        "line": "CaltrainLimited"
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3238931919833,
+          37.56822417252274
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "San Mateo",
+        "line": "CaltrainLimited"
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2978201169503,
+          37.53848546436393
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Hillsdale",
+        "line": "CaltrainLimited"
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2317083447714,
+          37.48585493086335
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Redwood City",
+        "line": "CaltrainLimited"
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1825449222494,
+          37.45477641127497
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Menlo Park",
+        "line": "CaltrainLimited"
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1652615844162,
+          37.44387478635246
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Palo Alto",
+        "line": "CaltrainLimited"
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1419225642629,
+          37.42916853792232
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "California Avenue",
+        "line": "CaltrainLimited"
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1071355481836,
+          37.40719838178607
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "San Antonio",
+        "line": "CaltrainLimited"
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0755472063865,
+          37.39420596378977
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Mountain View",
+        "line": "CaltrainLimited"
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0314896416744,
+          37.37881348334722
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Sunnyvale",
+        "line": "CaltrainLimited"
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9970820282676,
+          37.37069818854798
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Lawrence",
+        "line": "CaltrainLimited"
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9369778582656,
+          37.35355629313803
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Santa Clara",
+        "line": "CaltrainLimited"
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9026123715168,
+          37.32988333333334
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "San Jose Diridon",
+        "line": "CaltrainLimited"
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3957151487875,
+          37.77573154758324
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "San Francisco",
+        "line": "CaltrainExpress"
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3923302090034,
+          37.75608484552124
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "22nd Street",
+        "line": "CaltrainExpress"
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4054796133308,
+          37.65543413801611
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "South San Francisco",
+        "line": "CaltrainExpress"
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3869602686765,
+          37.60012583695458
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Millbrae",
+        "line": "CaltrainExpress"
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3238931919833,
+          37.56822417252274
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "San Mateo",
+        "line": "CaltrainExpress"
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2978201169503,
+          37.53848546436393
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Hillsdale",
+        "line": "CaltrainExpress"
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2317083447714,
+          37.48585493086335
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Redwood City",
+        "line": "CaltrainExpress"
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1652615844162,
+          37.44387478635246
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Palo Alto",
+        "line": "CaltrainExpress"
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0755472063865,
+          37.39420596378977
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Mountain View",
+        "line": "CaltrainExpress"
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0314896416744,
+          37.37881348334722
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Sunnyvale",
+        "line": "CaltrainExpress"
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9026123715168,
+          37.32988333333334
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "San Jose Diridon",
+        "line": "CaltrainExpress"
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5668379163536,
+          37.00440419271698
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Gilroy",
+        "line": "CaltrainSouth"
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6103474278517,
+          37.08565656812286
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "San Martin",
+        "line": "CaltrainSouth"
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.650535945992,
+          37.12963425704319
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Morgan Hill",
+        "line": "CaltrainSouth"
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7974813989014,
+          37.25239624626188
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Blossom Hill",
+        "line": "CaltrainSouth"
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8418250800582,
+          37.28401216840754
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Capitol",
+        "line": "CaltrainSouth"
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8846565267303,
+          37.31252072196983
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Tamien",
+        "line": "CaltrainSouth"
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9026123715168,
+          37.32988333333334
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "San Jose Diridon",
+        "line": "CaltrainSouth"
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81797,
+          38.54853
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Windsor",
+        "line": "SMART"
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.78423665829,
+          38.51000248880541
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Sonoma County Airport",
+        "line": "SMART"
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7364587066455,
+          38.4551970796115
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Santa Rosa North",
+        "line": "SMART"
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7217870441316,
+          38.43759260477973
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Santa Rosa Downtown",
+        "line": "SMART"
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7010788990605,
+          38.34714262533065
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Rohnert Park",
+        "line": "SMART"
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6910257308003,
+          38.33104143921219
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Cotati",
+        "line": "SMART"
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65569476680223,
+          38.2675972457235
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Petaluma North",
+        "line": "SMART"
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6348805825937,
+          38.23726337483875
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Petaluma Downtown",
+        "line": "SMART"
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5661069491954,
+          38.12079420502335
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Novato San Marin",
+        "line": "SMART"
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5647,
+          38.1063
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Novato Downtown",
+        "line": "SMART"
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5239935992445,
+          38.05647071368301
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Novato Hamilton",
+        "line": "SMART"
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5377535989496,
+          38.00125087936029
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Marin Civic Center",
+        "line": "SMART"
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.522706635804,
+          37.97201694686423
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "San Rafael",
+        "line": "SMART"
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.51248,
+          37.94785
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Larkspur",
+        "line": "SMART"
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2789053921262,
+          37.95707329242247
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Stockton",
+        "line": "ACE"
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.263253683097,
+          37.7987373090491
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Lathrop/Manteca",
+        "line": "ACE"
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.433299516912,
+          37.69622119336831
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Tracy",
+        "line": "ACE"
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7176965236095,
+          37.69703207354669
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Vasco Road",
+        "line": "ACE"
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7675781357347,
+          37.68503770543137
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Livermore",
+        "line": "ACE"
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8825110438397,
+          37.65820260838957
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Pleasanton",
+        "line": "ACE"
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0073458835513,
+          37.55914116111558
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Fremont",
+        "line": "ACE"
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9668722571812,
+          37.40654085000792
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Great America",
+        "line": "ACE"
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9369938937529,
+          37.35355169184822
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Santa Clara",
+        "line": "ACE"
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.902512362458,
+          37.32987801340147
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "San Jose",
+        "line": "ACE"
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8592089,
+          37.2665907
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Branham",
+        "line": "VTABlue"
+      },
+      "id": 352
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8934312,
+          37.3274996
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "name": "Children’s Discovery Museum",
+        "line": "VTABlue"
+      },
+      "id": 353
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8973722,
+          37.3453002
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "name": "Japantown/Ayer",
+        "line": "VTABlue"
+      },
+      "id": 354
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.789321,
+          37.2363413
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Santa Teresa",
+        "line": "VTABlue"
+      },
+      "id": 355
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8725692,
+          37.2935322
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "name": "Curtner",
+        "line": "VTABlue"
+      },
+      "id": 356
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8897839,
+          37.3301801
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "name": "Convention Center",
+        "line": "VTABlue"
+      },
+      "id": 357
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9444674,
+          37.4086658
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "name": "Tasman",
+        "line": "VTABlue"
+      },
+      "id": 358
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8845746,
+          37.3116082
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "name": "Tamien",
+        "line": "VTABlue"
+      },
+      "id": 359
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9415655,
+          37.4108732
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "name": "Baypointe",
+        "line": "VTABlue"
+      },
+      "id": 360
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9019913,
+          37.3514091
+        ]
+      },
+      "properties": {
+        "id": 361,
+        "name": "Civic Center",
+        "line": "VTABlue"
+      },
+      "id": 361
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8031659,
+          37.2427306
+        ]
+      },
+      "properties": {
+        "id": 362,
+        "name": "Cottle",
+        "line": "VTABlue"
+      },
+      "id": 362
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.934342,
+          37.3949088
+        ]
+      },
+      "properties": {
+        "id": 363,
+        "name": "Orchard",
+        "line": "VTABlue"
+      },
+      "id": 363
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8300563,
+          37.2477049
+        ]
+      },
+      "properties": {
+        "id": 364,
+        "name": "Snell",
+        "line": "VTABlue"
+      },
+      "id": 364
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9096544,
+          37.3617535
+        ]
+      },
+      "properties": {
+        "id": 365,
+        "name": "Gish",
+        "line": "VTABlue"
+      },
+      "id": 365
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8629473,
+          37.2743053
+        ]
+      },
+      "properties": {
+        "id": 366,
+        "name": "Capitol",
+        "line": "VTABlue"
+      },
+      "id": 366
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8875974,
+          37.3331608
+        ]
+      },
+      "properties": {
+        "id": 367,
+        "name": "San Antonio",
+        "line": "VTABlue"
+      },
+      "id": 367
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.890125,
+          37.3197653
+        ]
+      },
+      "properties": {
+        "id": 368,
+        "name": "Virginia",
+        "line": "VTABlue"
+      },
+      "id": 368
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8900141,
+          37.3363493
+        ]
+      },
+      "properties": {
+        "id": 369,
+        "name": "Santa Clara",
+        "line": "VTABlue"
+      },
+      "id": 369
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.891247,
+          37.3380256
+        ]
+      },
+      "properties": {
+        "id": 370,
+        "name": "Saint James",
+        "line": "VTABlue"
+      },
+      "id": 370
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.860265,
+          37.2573606
+        ]
+      },
+      "properties": {
+        "id": 371,
+        "name": "Ohlone/Chynoweth",
+        "line": "VTABlue"
+      },
+      "id": 371
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9154297,
+          37.3695033
+        ]
+      },
+      "properties": {
+        "id": 372,
+        "name": "Metro/Airport",
+        "line": "VTABlue"
+      },
+      "id": 372
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8407029,
+          37.2526064
+        ]
+      },
+      "properties": {
+        "id": 373,
+        "name": "Blossom Hill",
+        "line": "VTABlue"
+      },
+      "id": 373
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9198509,
+          37.3754438
+        ]
+      },
+      "properties": {
+        "id": 374,
+        "name": "Karina",
+        "line": "VTABlue"
+      },
+      "id": 374
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9253193,
+          37.3827725
+        ]
+      },
+      "properties": {
+        "id": 375,
+        "name": "Component",
+        "line": "VTABlue"
+      },
+      "id": 375
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9292915,
+          37.3880688
+        ]
+      },
+      "properties": {
+        "id": 376,
+        "name": "Bonaventura",
+        "line": "VTABlue"
+      },
+      "id": 376
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9395039,
+          37.4020125
+        ]
+      },
+      "properties": {
+        "id": 377,
+        "name": "River Oaks",
+        "line": "VTABlue"
+      },
+      "id": 377
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9362119,
+          37.2940035
+        ]
+      },
+      "properties": {
+        "id": 378,
+        "name": "Hamilton",
+        "line": "VTAGreen"
+      },
+      "id": 378
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9182615,
+          37.3103124
+        ]
+      },
+      "properties": {
+        "id": 379,
+        "name": "Fruitdale",
+        "line": "VTAGreen"
+      },
+      "id": 379
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.930089,
+          37.2996704
+        ]
+      },
+      "properties": {
+        "id": 380,
+        "name": "Bascom",
+        "line": "VTAGreen"
+      },
+      "id": 380
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8973722,
+          37.3453002
+        ]
+      },
+      "properties": {
+        "id": 381,
+        "name": "Japantown/Ayer",
+        "line": "VTAGreen"
+      },
+      "id": 381
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8897839,
+          37.3301801
+        ]
+      },
+      "properties": {
+        "id": 382,
+        "name": "Convention Center",
+        "line": "VTAGreen"
+      },
+      "id": 382
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9432202,
+          37.2856948
+        ]
+      },
+      "properties": {
+        "id": 383,
+        "name": "Campbell",
+        "line": "VTAGreen"
+      },
+      "id": 383
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9444674,
+          37.4086658
+        ]
+      },
+      "properties": {
+        "id": 384,
+        "name": "Tasman",
+        "line": "VTAGreen"
+      },
+      "id": 384
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9105401,
+          37.3173631
+        ]
+      },
+      "properties": {
+        "id": 385,
+        "name": "Race",
+        "line": "VTAGreen"
+      },
+      "id": 385
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948138,
+          37.2793937
+        ]
+      },
+      "properties": {
+        "id": 386,
+        "name": "Winchester",
+        "line": "VTAGreen"
+      },
+      "id": 386
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9749586,
+          37.4034543
+        ]
+      },
+      "properties": {
+        "id": 387,
+        "name": "Great America",
+        "line": "VTAGreen"
+      },
+      "id": 387
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9637465,
+          37.4076101
+        ]
+      },
+      "properties": {
+        "id": 388,
+        "name": "Lick Mill",
+        "line": "VTAGreen"
+      },
+      "id": 388
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9019913,
+          37.3514091
+        ]
+      },
+      "properties": {
+        "id": 389,
+        "name": "Civic Center",
+        "line": "VTAGreen"
+      },
+      "id": 389
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979866,
+          37.4033218
+        ]
+      },
+      "properties": {
+        "id": 390,
+        "name": "Old Ironsides",
+        "line": "VTAGreen"
+      },
+      "id": 390
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9035623,
+          37.3287014
+        ]
+      },
+      "properties": {
+        "id": 391,
+        "name": "San Jose Diridon",
+        "line": "VTAGreen"
+      },
+      "id": 391
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8985623,
+          37.330319
+        ]
+      },
+      "properties": {
+        "id": 392,
+        "name": "San Fernando",
+        "line": "VTAGreen"
+      },
+      "id": 392
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8934312,
+          37.3274996
+        ]
+      },
+      "properties": {
+        "id": 393,
+        "name": "Children’s Discovery Museum",
+        "line": "VTAGreen"
+      },
+      "id": 393
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8875974,
+          37.3331608
+        ]
+      },
+      "properties": {
+        "id": 394,
+        "name": "San Antonio",
+        "line": "VTAGreen"
+      },
+      "id": 394
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8900141,
+          37.3363493
+        ]
+      },
+      "properties": {
+        "id": 395,
+        "name": "Santa Clara",
+        "line": "VTAGreen"
+      },
+      "id": 395
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.891247,
+          37.3380256
+        ]
+      },
+      "properties": {
+        "id": 396,
+        "name": "Saint James",
+        "line": "VTAGreen"
+      },
+      "id": 396
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9096544,
+          37.3617535
+        ]
+      },
+      "properties": {
+        "id": 397,
+        "name": "Gish",
+        "line": "VTAGreen"
+      },
+      "id": 397
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9154297,
+          37.3695033
+        ]
+      },
+      "properties": {
+        "id": 398,
+        "name": "Metro/Airport",
+        "line": "VTAGreen"
+      },
+      "id": 398
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9198509,
+          37.3754438
+        ]
+      },
+      "properties": {
+        "id": 399,
+        "name": "Karina",
+        "line": "VTAGreen"
+      },
+      "id": 399
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9253193,
+          37.3827725
+        ]
+      },
+      "properties": {
+        "id": 400,
+        "name": "Component",
+        "line": "VTAGreen"
+      },
+      "id": 400
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9292915,
+          37.3880688
+        ]
+      },
+      "properties": {
+        "id": 401,
+        "name": "Bonaventura",
+        "line": "VTAGreen"
+      },
+      "id": 401
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.934342,
+          37.3949088
+        ]
+      },
+      "properties": {
+        "id": 402,
+        "name": "Orchard",
+        "line": "VTAGreen"
+      },
+      "id": 402
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9395039,
+          37.4020125
+        ]
+      },
+      "properties": {
+        "id": 403,
+        "name": "River Oaks",
+        "line": "VTAGreen"
+      },
+      "id": 403
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9526847,
+          37.409416
+        ]
+      },
+      "properties": {
+        "id": 404,
+        "name": "Champion",
+        "line": "VTAGreen"
+      },
+      "id": 404
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8551213,
+          37.3820107
+        ]
+      },
+      "properties": {
+        "id": 405,
+        "name": "Penitencia Creek",
+        "line": "VTAOrange"
+      },
+      "id": 405
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0112044,
+          37.4088705
+        ]
+      },
+      "properties": {
+        "id": 406,
+        "name": "Crossman",
+        "line": "VTAOrange"
+      },
+      "id": 406
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0521192,
+          37.3957149
+        ]
+      },
+      "properties": {
+        "id": 407,
+        "name": "Middlefield",
+        "line": "VTAOrange"
+      },
+      "id": 407
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0586148,
+          37.3919831
+        ]
+      },
+      "properties": {
+        "id": 408,
+        "name": "Whisman",
+        "line": "VTAOrange"
+      },
+      "id": 408
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077198,
+          37.3951093
+        ]
+      },
+      "properties": {
+        "id": 409,
+        "name": "Downtown Mountain View",
+        "line": "VTAOrange"
+      },
+      "id": 409
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9171414,
+          37.413605
+        ]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Alder",
+        "line": "VTAOrange"
+      },
+      "id": 410
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9283094,
+          37.4123687
+        ]
+      },
+      "properties": {
+        "id": 411,
+        "name": "Cisco Way",
+        "line": "VTAOrange"
+      },
+      "id": 411
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9749586,
+          37.4034543
+        ]
+      },
+      "properties": {
+        "id": 412,
+        "name": "Great America",
+        "line": "VTAOrange"
+      },
+      "id": 412
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8913527,
+          37.4089217
+        ]
+      },
+      "properties": {
+        "id": 413,
+        "name": "Milpitas",
+        "line": "VTAOrange"
+      },
+      "id": 413
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0495919,
+          37.4045111
+        ]
+      },
+      "properties": {
+        "id": 414,
+        "name": "Bayshore/NASA",
+        "line": "VTAOrange"
+      },
+      "id": 414
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9017889,
+          37.4141532
+        ]
+      },
+      "properties": {
+        "id": 415,
+        "name": "Great Mall/Main",
+        "line": "VTAOrange"
+      },
+      "id": 415
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0340701,
+          37.402452
+        ]
+      },
+      "properties": {
+        "id": 416,
+        "name": "Moffett Park",
+        "line": "VTAOrange"
+      },
+      "id": 416
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8324565,
+          37.3580575
+        ]
+      },
+      "properties": {
+        "id": 417,
+        "name": "Alum Rock",
+        "line": "VTAOrange"
+      },
+      "id": 417
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.009538,
+          37.4027659
+        ]
+      },
+      "properties": {
+        "id": 418,
+        "name": "Fair Oaks",
+        "line": "VTAOrange"
+      },
+      "id": 418
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9637465,
+          37.4076101
+        ]
+      },
+      "properties": {
+        "id": 419,
+        "name": "Lick Mill",
+        "line": "VTAOrange"
+      },
+      "id": 419
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9415655,
+          37.4108732
+        ]
+      },
+      "properties": {
+        "id": 420,
+        "name": "Baypointe",
+        "line": "VTAOrange"
+      },
+      "id": 420
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979866,
+          37.4033218
+        ]
+      },
+      "properties": {
+        "id": 421,
+        "name": "Old Ironsides",
+        "line": "VTAOrange"
+      },
+      "id": 421
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8447734,
+          37.371851
+        ]
+      },
+      "properties": {
+        "id": 422,
+        "name": "McKee",
+        "line": "VTAOrange"
+      },
+      "id": 422
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8697528,
+          37.3949306
+        ]
+      },
+      "properties": {
+        "id": 423,
+        "name": "Hostetter",
+        "line": "VTAOrange"
+      },
+      "id": 423
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0268833,
+          37.4102236
+        ]
+      },
+      "properties": {
+        "id": 424,
+        "name": "Lockheed Martin",
+        "line": "VTAOrange"
+      },
+      "id": 424
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0179548,
+          37.4116461
+        ]
+      },
+      "properties": {
+        "id": 425,
+        "name": "Borregas",
+        "line": "VTAOrange"
+      },
+      "id": 425
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99952,
+          37.4033742
+        ]
+      },
+      "properties": {
+        "id": 426,
+        "name": "Vienna",
+        "line": "VTAOrange"
+      },
+      "id": 426
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988524,
+          37.4035453
+        ]
+      },
+      "properties": {
+        "id": 427,
+        "name": "Reamwood",
+        "line": "VTAOrange"
+      },
+      "id": 427
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9444674,
+          37.4086658
+        ]
+      },
+      "properties": {
+        "id": 428,
+        "name": "Tasman",
+        "line": "VTAOrange"
+      },
+      "id": 428
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9526847,
+          37.409416
+        ]
+      },
+      "properties": {
+        "id": 429,
+        "name": "Champion",
+        "line": "VTAOrange"
+      },
+      "id": 429
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8820973,
+          37.4033576
+        ]
+      },
+      "properties": {
+        "id": 430,
+        "name": "Cropley",
+        "line": "VTAOrange"
+      },
+      "id": 430
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8623488,
+          37.3882796
+        ]
+      },
+      "properties": {
+        "id": 431,
+        "name": "Berryessa",
+        "line": "VTAOrange"
+      },
+      "id": 431
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4145068,
+          37.7790243
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "id": 504
+      },
+      "id": 504
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4145068,
+          37.7790243
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "id": 505
+      },
+      "id": 505
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4145068,
+          37.7790243
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "id": 506
+      },
+      "id": 506
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4145068,
+          37.7790243
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "id": 507
+      },
+      "id": 507
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4145068,
+          37.7790243
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "id": 508
+      },
+      "id": 508
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3880663,
+          37.7561219
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "id": 509
+      },
+      "id": 509
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4145068,
+          37.7790243
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "id": 510
+      },
+      "id": 510
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394276,
+          37.7954898
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "id": 511
+      },
+      "id": 511
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394276,
+          37.7954898
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "id": 512
+      },
+      "id": 512
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4110282,
+          37.7918304
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "id": 513
+      },
+      "id": 513
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.408283,
+          37.7874691
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "id": 514
+      },
+      "id": 514
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.408283,
+          37.7874691
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "id": 515
+      },
+      "id": 515
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.50046321983567,
+          38.58463969429393
+        ]
+      },
+      "properties": {
+        "id": 516,
+        "name": "Sacramento Valley Station",
+        "line": "SacRTGold"
+      },
+      "id": 516
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4968248,
+          38.582626
+        ]
+      },
+      "properties": {
+        "id": 517,
+        "name": "7th & I/County Center",
+        "line": "SacRTGold"
+      },
+      "id": 517
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4986797,
+          38.5783095
+        ]
+      },
+      "properties": {
+        "id": 518,
+        "name": "7th & Capitol",
+        "line": "SacRTGold"
+      },
+      "id": 518
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.498421,
+          38.5755071
+        ]
+      },
+      "properties": {
+        "id": 519,
+        "name": "8th & O",
+        "line": "SacRTGold"
+      },
+      "id": 519
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.494535,
+          38.5743957
+        ]
+      },
+      "properties": {
+        "id": 520,
+        "name": "Archives Plaza",
+        "line": "SacRTGold"
+      },
+      "id": 520
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.493473,
+          38.5710594
+        ]
+      },
+      "properties": {
+        "id": 521,
+        "name": "13th Street",
+        "line": "SacRTGold"
+      },
+      "id": 521
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.489487,
+          38.5700156
+        ]
+      },
+      "properties": {
+        "id": 522,
+        "name": "16th Street",
+        "line": "SacRTGold"
+      },
+      "id": 522
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.479016,
+          38.5666884
+        ]
+      },
+      "properties": {
+        "id": 523,
+        "name": "23rd Street",
+        "line": "SacRTGold"
+      },
+      "id": 523
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.471061,
+          38.5644856
+        ]
+      },
+      "properties": {
+        "id": 524,
+        "name": "29th Street",
+        "line": "SacRTGold"
+      },
+      "id": 524
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.457278,
+          38.5607846
+        ]
+      },
+      "properties": {
+        "id": 525,
+        "name": "39th Street",
+        "line": "SacRTGold"
+      },
+      "id": 525
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.449048,
+          38.5585295
+        ]
+      },
+      "properties": {
+        "id": 526,
+        "name": "48th Street",
+        "line": "SacRTGold"
+      },
+      "id": 526
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.435957,
+          38.5549334
+        ]
+      },
+      "properties": {
+        "id": 527,
+        "name": "59th Street",
+        "line": "SacRTGold"
+      },
+      "id": 527
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.427334,
+          38.5526324
+        ]
+      },
+      "properties": {
+        "id": 528,
+        "name": "University/65th Street",
+        "line": "SacRTGold"
+      },
+      "id": 528
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.407597,
+          38.5474511
+        ]
+      },
+      "properties": {
+        "id": 529,
+        "name": "Power Inn",
+        "line": "SacRTGold"
+      },
+      "id": 529
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3936987,
+          38.5470754
+        ]
+      },
+      "properties": {
+        "id": 530,
+        "name": "College Greens",
+        "line": "SacRTGold"
+      },
+      "id": 530
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3733582,
+          38.553857
+        ]
+      },
+      "properties": {
+        "id": 531,
+        "name": "Watt/Manlove",
+        "line": "SacRTGold"
+      },
+      "id": 531
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.362402,
+          38.5593339
+        ]
+      },
+      "properties": {
+        "id": 532,
+        "name": "Starfire",
+        "line": "SacRTGold"
+      },
+      "id": 532
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.353417,
+          38.5638838
+        ]
+      },
+      "properties": {
+        "id": 533,
+        "name": "Tiber",
+        "line": "SacRTGold"
+      },
+      "id": 533
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3469204,
+          38.5671011
+        ]
+      },
+      "properties": {
+        "id": 534,
+        "name": "Butterfield",
+        "line": "SacRTGold"
+      },
+      "id": 534
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3113409,
+          38.5847612
+        ]
+      },
+      "properties": {
+        "id": 535,
+        "name": "Mather Field/Mills",
+        "line": "SacRTGold"
+      },
+      "id": 535
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2902136,
+          38.5950732
+        ]
+      },
+      "properties": {
+        "id": 536,
+        "name": "Zinfandel",
+        "line": "SacRTGold"
+      },
+      "id": 536
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2829478,
+          38.5986687
+        ]
+      },
+      "properties": {
+        "id": 537,
+        "name": "Cordova Town Center",
+        "line": "SacRTGold"
+      },
+      "id": 537
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.266583,
+          38.6067334
+        ]
+      },
+      "properties": {
+        "id": 538,
+        "name": "Sunrise",
+        "line": "SacRTGold"
+      },
+      "id": 538
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2122288,
+          38.6304334
+        ]
+      },
+      "properties": {
+        "id": 539,
+        "name": "Hazel",
+        "line": "SacRTGold"
+      },
+      "id": 539
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1901418,
+          38.6446095
+        ]
+      },
+      "properties": {
+        "id": 540,
+        "name": "Iron Point",
+        "line": "SacRTGold"
+      },
+      "id": 540
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1836115,
+          38.6629382
+        ]
+      },
+      "properties": {
+        "id": 541,
+        "name": "Glenn/Robert G Holderness",
+        "line": "SacRTGold"
+      },
+      "id": 541
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1805719,
+          38.6759589
+        ]
+      },
+      "properties": {
+        "id": 542,
+        "name": "Historic Folsom",
+        "line": "SacRTGold"
+      },
+      "id": 542
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.493473,
+          38.5710594
+        ]
+      },
+      "properties": {
+        "id": 543,
+        "name": "13th Street",
+        "line": "SacRTGreen"
+      },
+      "id": 543
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.494535,
+          38.5743957
+        ]
+      },
+      "properties": {
+        "id": 544,
+        "name": "Archives Plaza",
+        "line": "SacRTGreen"
+      },
+      "id": 544
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4978027,
+          38.5775002
+        ]
+      },
+      "properties": {
+        "id": 545,
+        "name": "8th & Capitol",
+        "line": "SacRTGreen"
+      },
+      "id": 545
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.495494,
+          38.5795544
+        ]
+      },
+      "properties": {
+        "id": 546,
+        "name": "St. Rose of Lima Park",
+        "line": "SacRTGreen"
+      },
+      "id": 546
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.496529,
+          38.580399
+        ]
+      },
+      "properties": {
+        "id": 547,
+        "name": "8th & K",
+        "line": "SacRTGreen"
+      },
+      "id": 547
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4922296,
+          38.5966817
+        ]
+      },
+      "properties": {
+        "id": 548,
+        "name": "7th & Richards/Township 9",
+        "line": "SacRTGreen"
+      },
+      "id": 548
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3840186,
+          38.6450265
+        ]
+      },
+      "properties": {
+        "id": 549,
+        "name": "Watt/I-80",
+        "line": "SacRTBlue"
+      },
+      "id": 549
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.394739,
+          38.6427779
+        ]
+      },
+      "properties": {
+        "id": 550,
+        "name": "Watt/I-80 West",
+        "line": "SacRTBlue"
+      },
+      "id": 550
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.402348,
+          38.6381534
+        ]
+      },
+      "properties": {
+        "id": 551,
+        "name": "Roseville Road",
+        "line": "SacRTBlue"
+      },
+      "id": 551
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4248945,
+          38.6213176
+        ]
+      },
+      "properties": {
+        "id": 552,
+        "name": "Marconi/Arcade",
+        "line": "SacRTBlue"
+      },
+      "id": 552
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4396628,
+          38.6076623
+        ]
+      },
+      "properties": {
+        "id": 553,
+        "name": "Swanston",
+        "line": "SacRTBlue"
+      },
+      "id": 553
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.447876,
+          38.6062039
+        ]
+      },
+      "properties": {
+        "id": 554,
+        "name": "Royal Oaks",
+        "line": "SacRTBlue"
+      },
+      "id": 554
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4568789,
+          38.6061648
+        ]
+      },
+      "properties": {
+        "id": 555,
+        "name": "Arden/Del Paso",
+        "line": "SacRTBlue"
+      },
+      "id": 555
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.466265,
+          38.602714
+        ]
+      },
+      "properties": {
+        "id": 556,
+        "name": "Globe",
+        "line": "SacRTBlue"
+      },
+      "id": 556
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4881219,
+          38.5856101
+        ]
+      },
+      "properties": {
+        "id": 557,
+        "name": "Alkali Flat/La Valentina",
+        "line": "SacRTBlue"
+      },
+      "id": 557
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4900378,
+          38.5811738
+        ]
+      },
+      "properties": {
+        "id": 558,
+        "name": "12th & I",
+        "line": "SacRTBlue"
+      },
+      "id": 558
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.492808,
+          38.5788988
+        ]
+      },
+      "properties": {
+        "id": 559,
+        "name": "Cathedral Square",
+        "line": "SacRTBlue"
+      },
+      "id": 559
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.495494,
+          38.5795544
+        ]
+      },
+      "properties": {
+        "id": 560,
+        "name": "St. Rose of Lima Park",
+        "line": "SacRTBlue"
+      },
+      "id": 560
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4978027,
+          38.5775002
+        ]
+      },
+      "properties": {
+        "id": 561,
+        "name": "8th & Capitol",
+        "line": "SacRTBlue"
+      },
+      "id": 561
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.498421,
+          38.5755071
+        ]
+      },
+      "properties": {
+        "id": 562,
+        "name": "8th & O",
+        "line": "SacRTBlue"
+      },
+      "id": 562
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.494535,
+          38.5743957
+        ]
+      },
+      "properties": {
+        "id": 563,
+        "name": "Archives Plaza",
+        "line": "SacRTBlue"
+      },
+      "id": 563
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.493473,
+          38.5710594
+        ]
+      },
+      "properties": {
+        "id": 564,
+        "name": "13th Street",
+        "line": "SacRTBlue"
+      },
+      "id": 564
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.489487,
+          38.5700156
+        ]
+      },
+      "properties": {
+        "id": 565,
+        "name": "16th Street",
+        "line": "SacRTBlue"
+      },
+      "id": 565
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.487808,
+          38.560006
+        ]
+      },
+      "properties": {
+        "id": 566,
+        "name": "Broadway",
+        "line": "SacRTBlue"
+      },
+      "id": 566
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.488316,
+          38.551842
+        ]
+      },
+      "properties": {
+        "id": 567,
+        "name": "4th Avenue/Wayne Hultgren",
+        "line": "SacRTBlue"
+      },
+      "id": 567
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.485413,
+          38.5418738
+        ]
+      },
+      "properties": {
+        "id": 568,
+        "name": "City College",
+        "line": "SacRTBlue"
+      },
+      "id": 568
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4800505,
+          38.5249809
+        ]
+      },
+      "properties": {
+        "id": 569,
+        "name": "Fruitridge",
+        "line": "SacRTBlue"
+      },
+      "id": 569
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.476017,
+          38.5118914
+        ]
+      },
+      "properties": {
+        "id": 570,
+        "name": "47th Avenue",
+        "line": "SacRTBlue"
+      },
+      "id": 570
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.471599,
+          38.4976475
+        ]
+      },
+      "properties": {
+        "id": 571,
+        "name": "Florin",
+        "line": "SacRTBlue"
+      },
+      "id": 571
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.467131,
+          38.4831762
+        ]
+      },
+      "properties": {
+        "id": 572,
+        "name": "Meadowview",
+        "line": "SacRTBlue"
+      },
+      "id": 572
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4631067,
+          38.4662111
+        ]
+      },
+      "properties": {
+        "id": 573,
+        "name": "Morrison Creek",
+        "line": "SacRTBlue"
+      },
+      "id": 573
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.448405,
+          38.462907
+        ]
+      },
+      "properties": {
+        "id": 574,
+        "name": "Franklin",
+        "line": "SacRTBlue"
+      },
+      "id": 574
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.429739,
+          38.4586698
+        ]
+      },
+      "properties": {
+        "id": 575,
+        "name": "Center Parkway",
+        "line": "SacRTBlue"
+      },
+      "id": 575
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.41839,
+          38.4535047
+        ]
+      },
+      "properties": {
+        "id": 576,
+        "name": "Cosumnes River College",
+        "line": "SacRTBlue"
+      },
+      "id": 576
+    }
+  ]
+}

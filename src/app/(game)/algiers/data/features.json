@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Central Station",
+        "line": "PL0",
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05,
+          0.05
+        ]
+      },
+      "properties": {
+        "name": "Museum",
+        "line": "PL0",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05,
+          0.08
+        ]
+      },
+      "properties": {
+        "name": "Riverfront",
+        "line": "PL0",
+        "id": 2
+      },
+      "id": 2
+    }
+  ]
+}

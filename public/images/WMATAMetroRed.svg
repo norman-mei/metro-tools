@@ -1,20 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#E21936;}
-	.st1{fill:#FFFFFF;}
-</style>
-<path class="st0" d="M0,150C0,67.2,67.2,0,150,0s150,67.2,150,150c0,82.8-67.2,150-150,150S0,232.8,0,150"/>
-<path class="st1" d="M105.2,90.6c5.3,0,10.1,0.9,14.4,2.6c4.3,1.7,7.9,4.1,11,7.1c3,3,5.4,6.5,7,10.4c1.6,3.9,2.4,8.2,2.4,12.7
-	c0,7-1.5,13-4.4,18.1c-2.9,5.1-7.7,9-14.4,11.6v0.3c3.2,0.9,5.9,2.2,8,4.1c2.1,1.8,3.8,4,5.2,6.5c1.3,2.5,2.3,5.2,2.9,8.2
-	c0.6,3,1,6,1.2,9c0.1,1.9,0.2,4.1,0.3,6.7c0.1,2.6,0.3,5.2,0.6,7.8c0.3,2.7,0.7,5.2,1.3,7.6c0.6,2.4,1.5,4.4,2.7,6.1h-26.1
-	c-1.4-3.8-2.3-8.3-2.7-13.5c-0.3-5.2-0.8-10.2-1.5-15c-0.9-6.2-2.8-10.8-5.7-13.6c-2.9-2.9-7.6-4.3-14.1-4.3H67.3v46.4H41.2V90.6
-	H105.2z M95.9,144.3c6,0,10.5-1.3,13.5-4c3-2.7,4.5-7,4.5-13c0-5.8-1.5-10-4.5-12.6c-3-2.6-7.5-3.9-13.5-3.9H67.3v33.4H95.9z"/>
-<path class="st1" d="M212.5,90.6c7.6,0,14.8,1.2,21.4,3.7c6.6,2.4,12.3,6.1,17.1,11c4.8,4.9,8.6,11,11.3,18.3
-	c2.7,7.3,4.1,15.9,4.1,25.8c0,8.6-1.1,16.6-3.3,23.9c-2.2,7.3-5.6,13.6-10.1,19c-4.5,5.3-10.1,9.5-16.8,12.6
-	c-6.7,3-14.6,4.6-23.7,4.6h-51.2V90.6H212.5z M210.7,187.4c3.8,0,7.4-0.6,11-1.8c3.5-1.2,6.7-3.3,9.5-6.1c2.8-2.8,5-6.5,6.7-11.1
-	c1.7-4.5,2.5-10.1,2.5-16.6c0-6-0.6-11.4-1.7-16.2c-1.2-4.8-3.1-9-5.7-12.4c-2.7-3.4-6.2-6.1-10.6-7.9c-4.4-1.8-9.8-2.7-16.2-2.7
-	h-18.6v74.8H210.7z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="594.0072pt"
+   height="594.0072pt"
+   viewBox="0 0 5.940072 5.940072"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="WMATA_Red_New.svg"
+   inkscape:export-filename="WMATA_Red_New.png"
+   inkscape:export-xdpi="36.363197"
+   inkscape:export-ydpi="36.363197"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.065512531"
+     inkscape:cx="2388.856"
+     inkscape:cy="2259.1098"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1566">
+      <path
+         d="M 25,98.744 H 1055 V 1217.558 H 25 Z"
+         transform="translate(-400.19251,-1186.2328)"
+         id="path1566" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1568">
+      <path
+         d="M 25,98.744 H 1055 V 1217.558 H 25 Z"
+         transform="translate(-409.17701,-1186.9908)"
+         id="path1568" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-842.43333,3212.8354)">
+    <path
+       id="path1565"
+       d="m 0,0 c 0,4.65 3.769,8.419 8.419,8.419 4.65,0 8.419,-3.769 8.419,-8.419 0,-4.649 -3.769,-8.419 -8.419,-8.419 C 3.769,-8.419 0,-4.649 0,0"
+       style="fill:#e51636;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0.35277776,0,0,-0.35277776,842.43333,-3209.8654)"
+       clip-path="url(#clipPath1566)" />
+    <path
+       id="path1567"
+       d="M 0,0 C 0.4,0 0.7,0.089 0.9,0.267 1.101,0.445 1.2,0.734 1.2,1.134 1.2,1.519 1.101,1.799 0.9,1.972 0.7,2.147 0.4,2.234 0,2.234 H -1.911 V 0 Z M 0.622,3.59 C 0.978,3.59 1.298,3.532 1.584,3.418 1.869,3.303 2.113,3.146 2.317,2.945 2.521,2.745 2.677,2.513 2.784,2.251 2.891,1.988 2.945,1.704 2.945,1.4 2.945,0.934 2.847,0.529 2.65,0.189 2.454,-0.152 2.134,-0.411 1.689,-0.589 v -0.022 c 0.215,-0.06 0.393,-0.15 0.534,-0.273 0.141,-0.122 0.256,-0.266 0.344,-0.433 0.089,-0.166 0.154,-0.35 0.195,-0.55 0.04,-0.2 0.068,-0.401 0.083,-0.6 0.007,-0.127 0.015,-0.275 0.023,-0.445 0.007,-0.171 0.02,-0.344 0.038,-0.522 0.019,-0.178 0.048,-0.347 0.089,-0.506 0.041,-0.159 0.102,-0.294 0.184,-0.406 H 1.434 c -0.097,0.252 -0.156,0.552 -0.178,0.901 -0.022,0.348 -0.056,0.681 -0.1,1 -0.06,0.415 -0.185,0.719 -0.378,0.911 -0.193,0.193 -0.508,0.289 -0.945,0.289 H -1.911 V -4.346 H -3.657 V 3.59 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(0.35277776,0,0,-0.35277776,845.60286,-3210.1328)"
+       clip-path="url(#clipPath1568)" />
+  </g>
 </svg>

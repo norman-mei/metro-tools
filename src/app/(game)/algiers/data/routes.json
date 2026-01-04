@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0,
+            0
+          ],
+          [
+            0.05,
+            0.05
+          ],
+          [
+            -0.05,
+            0.08
+          ]
+        ]
+      },
+      "properties": {
+        "line": "PL0",
+        "color": "#6366f1",
+        "order": 0
+      }
+    }
+  ]
+}

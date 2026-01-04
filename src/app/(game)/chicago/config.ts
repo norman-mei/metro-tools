@@ -1,6 +1,6 @@
-import { Metadata } from 'next'
-import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line, LineGroup } from '@/lib/types'
+import { MapboxOptions } from 'mapbox-gl'
+import { Metadata } from 'next'
 import linesData from './data/lines.json'
 
 
@@ -131,6 +131,8 @@ export const CITY_NAME = 'chicago'
 
 export const LOCALE = 'en'
 
+export const MAP_FROM_DATA = true
+
 const config: Config = {
   LOCALE,
   CITY_NAME,
@@ -138,6 +140,7 @@ const config: Config = {
   METADATA,
   LINES,
   LINE_GROUPS,
+  MAP_FROM_DATA,
 }
 
 export default config

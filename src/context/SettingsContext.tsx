@@ -34,6 +34,22 @@ type Settings = {
   language: string
   timezone: string
   hourFormat: '12h' | '24h'
+  keybindings: Record<KeybindingAction, string>
+}
+
+export type KeybindingAction =
+  | 'FOCUS_INPUT'
+  | 'CLEAR_INPUT'
+  | 'TOGGLE_ZEN_MODE'
+  | 'TOGGLE_SIDEBAR'
+  | 'TOGGLE_SOLUTIONS'
+
+export const DEFAULT_KEYBINDINGS: Record<KeybindingAction, string> = {
+  FOCUS_INPUT: '/',
+  CLEAR_INPUT: 'Escape',
+  TOGGLE_ZEN_MODE: 'Alt+z',
+  TOGGLE_SIDEBAR: 'Alt+b',
+  TOGGLE_SOLUTIONS: 'Alt+s',
 }
 
 type UpdateSettingsOptions = { silent?: boolean }
@@ -46,6 +62,7 @@ const DEFAULT_SETTINGS: Settings = {
   language: 'en',
   timezone: 'UTC',
   hourFormat: '24h',
+  keybindings: DEFAULT_KEYBINDINGS,
 }
 
 const STORAGE_KEY = 'metro-memory-settings'
@@ -59,6 +76,7 @@ type SettingsContextValue = {
   setLanguage: (language: string, options?: UpdateSettingsOptions) => void
   setTimezone: (timezone: string, options?: UpdateSettingsOptions) => void
   setHourFormat: (format: '12h' | '24h', options?: UpdateSettingsOptions) => void
+  setKeybinding: (action: KeybindingAction, key: string) => void
   notifySettingsSaved: () => void
   lastSavedAt: number
 }
@@ -104,6 +122,10 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
               parsed.hourFormat === '12h' || parsed.hourFormat === '24h'
                 ? parsed.hourFormat
                 : DEFAULT_SETTINGS.hourFormat,
+            keybindings:
+              typeof parsed.keybindings === 'object' && parsed.keybindings !== null
+                ? { ...DEFAULT_SETTINGS.keybindings, ...parsed.keybindings }
+                : DEFAULT_SETTINGS.keybindings,
           })
         }
       }
@@ -120,9 +142,9 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
     const root = document.documentElement
     Object.entries(accent.palette).forEach(([stop, value]) => {
       root.style.setProperty(`--accent-${stop}`, value)
+      root.style.setProperty(`--accent-${stop}-rgb`, hexToRgb(value))
     })
     root.style.setProperty('--accent-ring', accent.ring)
-    root.style.setProperty('--accent-600-rgb', hexToRgb(accent.palette[600]))
     root.dataset.accent = accent.id
   }, [settings.accentColor])
 
@@ -179,6 +201,10 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
         updateSettings({ timezone }, options),
       setHourFormat: (format: '12h' | '24h', options?: UpdateSettingsOptions) =>
         updateSettings({ hourFormat: format }, options),
+      setKeybinding: (action: KeybindingAction, key: string) =>
+        updateSettings({
+          keybindings: { ...settings.keybindings, [action]: key },
+        }),
       notifySettingsSaved,
       lastSavedAt,
     }),

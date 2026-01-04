@@ -1,5 +1,6 @@
-import adelaide from '@/app/(game)/adelaide/opengraph-image.jpg'
+import adelaide from '@/app/(game)/adelaide/cover.jpg'
 import albuquerque from '@/app/(game)/albuquerque/opengraph-image.jpg'
+import algiers from '@/app/(game)/algiers/opengraph-image.jpg'
 import amtrak from '@/app/(game)/amtrak/opengraph-image.jpg'
 import atlanta from '@/app/(game)/atlanta/opengraph-image.jpg'
 import auckland from '@/app/(game)/auckland/opengraph-image.jpg'
@@ -22,19 +23,17 @@ import dallas from '@/app/(game)/dallas/opengraph-image.jpg'
 import dc from '@/app/(game)/dc/opengraph-image.jpg'
 import denver from '@/app/(game)/denver/opengraph-image.jpg'
 import detroit from '@/app/(game)/detroit/opengraph-image.jpg'
-import dongguan from '@/app/(game)/dongguan/opengraph-image.jpg'
 import dresden from '@/app/(game)/dresden/opengraph-image.jpg'
 import edinburgh from '@/app/(game)/edinburgh/opengraph-image.jpg'
 import edmonton from '@/app/(game)/edmonton/opengraph-image.jpg'
 import elpaso from '@/app/(game)/elpaso/opengraph-image.jpg'
 import floridaState from '@/app/(game)/florida-state/opengraph-image.jpg'
 import galveston from '@/app/(game)/galveston/opengraph-image.jpg'
+import gba from '@/app/(game)/gba/opengraph-image.jpg'
 import glasgow from '@/app/(game)/glasgow/opengraph-image.jpg'
 import goldcoast from '@/app/(game)/goldcoast/opengraph-image.jpg'
-import guangzhou from '@/app/(game)/guangzhou/opengraph-image.jpg'
 import hamburg from '@/app/(game)/hamburg/opengraph-image.jpg'
 import hanoi from '@/app/(game)/hanoi/opengraph-image.jpg'
-import hk from '@/app/(game)/hk/opengraph-image.jpg'
 import hochiminhcity from '@/app/(game)/hochiminhcity/opengraph-image.jpg'
 import honolulu from '@/app/(game)/honolulu/opengraph-image.jpg'
 import houston from '@/app/(game)/houston/opengraph-image.jpg'
@@ -46,9 +45,9 @@ import la from '@/app/(game)/la/opengraph-image.jpg'
 import london from '@/app/(game)/london/opengraph-image.jpg'
 import lr from '@/app/(game)/lr/opengraph-image.jpg'
 import lv from '@/app/(game)/lv/opengraph-image.jpg'
-import macau from '@/app/(game)/macau/opengraph-image.jpg'
 import madrid from '@/app/(game)/madrid/opengraph-image.jpg'
 import manchester from '@/app/(game)/manchester/opengraph-image.jpg'
+import maracaibo from '@/app/(game)/maracaibo/opengraph-image.jpg'
 import melbourne from '@/app/(game)/melbourne/opengraph-image.jpg'
 import memphis from '@/app/(game)/memphis/opengraph-image.jpg'
 import mexicoCity from '@/app/(game)/mexico-city/opengraph-image.jpg'
@@ -79,7 +78,6 @@ import seattle from '@/app/(game)/seattle/opengraph-image.jpg'
 import seoul from '@/app/(game)/seoul/opengraph-image.jpg'
 import shanghai from '@/app/(game)/shanghai/opengraph-image.jpg'
 import sheffield from '@/app/(game)/sheffield/opengraph-image.jpg'
-import shenzhen from '@/app/(game)/shenzhen/opengraph-image.jpg'
 import singapore from '@/app/(game)/singapore/opengraph-image.jpg'
 import slc from '@/app/(game)/slc/opengraph-image.jpg'
 import stl from '@/app/(game)/stl/opengraph-image.jpg'
@@ -144,7 +142,7 @@ export const cities: ICity[] = [
     image: bayarea,
     link: '/bayarea',
     continent: 'North America',
-    hideInStats: true,
+    keywords: ['San Francisco', 'San Jose', 'Sacramento', 'BART', 'Muni', 'VTA'],
   },
   {
     name: 'Boston, MA',
@@ -232,6 +230,22 @@ export const cities: ICity[] = [
     link: '/galveston',
     continent: 'North America',
   },
+  // Africa
+  {
+    name: 'Algiers, DZ',
+    image: algiers,
+    link: '/algiers',
+    continent: 'Africa',
+    keywords: ['Alger', 'Algérie'],
+  },
+  // South America
+  {
+    name: 'Maracaibo, VE',
+    image: maracaibo,
+    link: '/maracaibo',
+    continent: 'South America',
+    keywords: ['Zulia', 'Venezuela', 'Lago de Maracaibo'],
+  },
   {
     name: 'Honolulu, HI',
     image: honolulu,
@@ -268,7 +282,6 @@ export const cities: ICity[] = [
     link: '/la',
     keywords: ['Los Angeles', 'LA'],
     continent: 'North America',
-    hideInStats: true,
   },
   {
     name: 'Memphis, TN',
@@ -584,36 +597,18 @@ export const cities: ICity[] = [
 
   // Asia
   {
+    name: 'Guangdong–Hong Kong–Macao Greater Bay Area (粤港澳大湾区), CN/HK/MO',
+    image: gba,
+    link: '/gba',
+    continent: 'Asia',
+    keywords: ['Hong Kong', 'Shenzhen', 'Dongguan', 'Guangzhou', 'Foshan', 'Macau', 'Macao', 'Canton', 'GBA', 'Greater Bay Area'],
+  },
+  {
     name: 'Beijing (北京), CN',
     image: beijing,
     link: '/beijing',
     continent: 'Asia',
     hideInStats: true,
-  },
-  {
-    name: 'Dongguan (东莞), CN',
-    image: dongguan,
-    link: '/dongguan',
-    continent: 'Asia',
-  },
-  {
-    name: 'Guangzhou—Foshan (广州—佛山), CN',
-    image: guangzhou,
-    link: '/guangzhou',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Hong Kong SAR (香港), HK',
-    image: hk,
-    link: '/hk',
-    continent: 'Asia',
-  },
-  {
-    name: 'Macau SAR (澳門), MO',
-    image: macau,
-    link: '/macau',
-    continent: 'Asia',
   },
   {
     name: 'Seoul (서울), KR',
@@ -625,13 +620,6 @@ export const cities: ICity[] = [
     name: 'Shanghai (上海), CN',
     image: shanghai,
     link: '/shanghai',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Shenzhen (深圳), CN',
-    image: shenzhen,
-    link: '/shenzhen',
     continent: 'Asia',
     hideInStats: true,
   },
@@ -696,7 +684,7 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
-    name: 'Auckland, NZ',
+    name: 'Auckland, AUK',
     image: auckland,
     link: '/auckland',
     continent: 'Oceania',
@@ -742,7 +730,7 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
-    name: 'Wellington, NZ',
+    name: 'Wellington, WGN',
     image: wellington,
     link: '/wellington',
     continent: 'Oceania',
@@ -757,7 +745,7 @@ export const cities: ICity[] = [
   },
 ]
 
-const getSlugFromLink = (link: string): string | null => {
+export const getSlugFromLink = (link: string): string | null => {
   if (!link.startsWith('/')) {
     return null
   }

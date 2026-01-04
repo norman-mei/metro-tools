@@ -1,13 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFD200;}
-	.st1{fill:#231F20;}
-</style>
-<path class="st0" d="M0,150C0,67.2,67.2,0,150,0s150,67.2,150,150c0,82.8-67.2,150-150,150S0,232.8,0,150"/>
-<polygon class="st1" points="46.1,90.6 75.4,90.6 103.2,137.5 130.8,90.6 159.9,90.6 115.8,163.8 115.8,209.4 89.7,209.4 
-	89.7,163.1 "/>
-<polygon class="st1" points="196,90.6 196,187.4 253.9,187.4 253.9,209.4 169.9,209.4 169.9,90.6 "/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="594.0072"
+   height="593.97192"
+   viewBox="0 0 5.940072 5.9397192"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="WMATA_Yellow_New.svg"
+   inkscape:export-filename="WMATA_Yellow_New.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.11313708"
+     inkscape:cx="649.65436"
+     inkscape:cy="123.74369"
+     inkscape:window-width="1824"
+     inkscape:window-height="721"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath903">
+      <path
+         d="M 25,98.744 H 1055 V 1217.558 H 25 Z"
+         transform="translate(-629.20181,-668.37702)"
+         id="path903" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-132.55624,-130.96875)">
+    <path
+       id="path902"
+       d="m 0,0 c -4.65,0 -8.419,3.769 -8.419,8.419 0,4.649 3.769,8.418 8.419,8.418 4.65,0 8.419,-3.769 8.419,-8.418 C 8.419,3.769 4.65,0 0,0"
+       style="fill:#fcd006;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0.35277776,0,0,-0.35277776,135.52628,136.90847)"
+       clip-path="url(#clipPath903)" />
+    <path
+       id="path904"
+       d="m 135.18878,135.51425 h 0.64906 v -1.13688 l 1.09554,-1.81901 h -0.72347 l -0.68627,1.16582 -0.69453,-1.16582 h -0.73174 l 1.09141,1.80247 z m 0,0"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       aria-label="Y" />
+  </g>
 </svg>

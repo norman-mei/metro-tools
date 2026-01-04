@@ -108,12 +108,17 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [{ type: 'separator' }],
   },
   {
-    title: 'Hillsborough Area Regional Transit (HART)',
+    title: 'Greater Orlando Aviation Authority (GOAA)',
     items: [
       {
         type: 'lines',
-        title: 'TECO Line Streetcar',
-        lines: ['floridaTECO'],
+        title: 'Gate Links',
+        lines: ['floridaAS1', 'floridaAS2', 'floridaAS3', 'floridaAS4'],
+      },
+      {
+        type: 'lines',
+        title: 'Terminal Link',
+        lines: ['floridaTL'],
       },
     ],
   },
@@ -139,17 +144,12 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [{ type: 'separator' }],
   },
   {
-    title: 'Greater Orlando Aviation Authority (GOAA)',
+    title: 'Hillsborough Area Regional Transit (HART)',
     items: [
       {
         type: 'lines',
-        title: 'Gate Links',
-        lines: ['floridaAS1', 'floridaAS2', 'floridaAS3', 'floridaAS4'],
-      },
-      {
-        type: 'lines',
-        title: 'Terminal Link',
-        lines: ['floridaTL'],
+        title: 'TECO Line Streetcar',
+        lines: ['floridaTECO'],
       },
     ],
   },
@@ -196,7 +196,7 @@ export const MAP_CONFIG: MapboxOptions = {
     [-75, 34],
   ],
   minZoom: 3,
-  maxZoom: 14,
+  maxZoom: 18,
   fadeDuration: 50,
 }
 

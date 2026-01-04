@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Ngong Ping Cable Car",
-"features": [
-{ "type": "Feature", "properties": { "Name": "Ngong Ping 360" }, "geometry": { "type": "LineString", "coordinates": [ [ 113.9013791, 22.2562534, 0.0 ], [ 113.9079237, 22.2692208, 0.0 ], [ 113.9322352, 22.2911017, 0.0 ], [ 113.9332008, 22.2913796, 0.0 ], [ 113.9343381, 22.2912605, 0.0 ], [ 113.9385652, 22.2901686, 0.0 ] ] } }
-]
-}

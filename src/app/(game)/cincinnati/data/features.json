@@ -5,13 +5,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.50967797836068, 39.09824804779645]
+        "coordinates": [
+          -84.50967797836068,
+          39.09824804779645
+        ]
       },
       "properties": {
         "name": "The Banks",
         "line": "100",
         "id": 0,
-        "alternate_names": ["2nd & Main", "Second & Main", "The Banks 2nd & Main"]
+        "alternate_names": [
+          "2nd & Main",
+          "Second & Main",
+          "The Banks 2nd & Main"
+        ]
       },
       "id": 0
     },
@@ -19,13 +26,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.50942961387805, 39.10076244764973]
+        "coordinates": [
+          -84.50942961387805,
+          39.10076244764973
+        ]
       },
       "properties": {
         "name": "4th & Main",
         "line": "100",
         "id": 1,
-        "alternate_names": ["Fourth & Main", "247 Telemarketing"]
+        "alternate_names": [
+          "Fourth & Main",
+          "247 Telemarketing"
+        ]
       },
       "id": 1
     },
@@ -33,13 +46,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51012988943862, 39.10318669783913]
+        "coordinates": [
+          -84.51012988943862,
+          39.10318669783913
+        ]
       },
       "properties": {
         "name": "6th & Main",
         "line": "100",
         "id": 2,
-        "alternate_names": ["Sixth & Main", "Richter & Phillips", "Richter and Phillips"]
+        "alternate_names": [
+          "Sixth & Main",
+          "Richter & Phillips",
+          "Richter and Phillips"
+        ]
       },
       "id": 2
     },
@@ -47,13 +67,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51066834231055, 39.10519294733078]
+        "coordinates": [
+          -84.51066834231055,
+          39.10519294733078
+        ]
       },
       "properties": {
         "name": "8th & Main",
         "line": "100",
         "id": 3,
-        "alternate_names": ["Eighth & Main"]
+        "alternate_names": [
+          "Eighth & Main"
+        ]
       },
       "id": 3
     },
@@ -61,13 +86,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51109965708889, 39.10707054587767]
+        "coordinates": [
+          -84.51109965708889,
+          39.10707054587767
+        ]
       },
       "properties": {
         "name": "Court & Main",
         "line": "100",
         "id": 4,
-        "alternate_names": ["Court Street & Main", "Jack Casino"]
+        "alternate_names": [
+          "Court Street & Main",
+          "Jack Casino"
+        ]
       },
       "id": 4
     },
@@ -75,13 +106,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51146330202877, 39.10838054644709]
+        "coordinates": [
+          -84.51146330202877,
+          39.10838054644709
+        ]
       },
       "properties": {
         "name": "12th & Main",
         "line": "100",
         "id": 5,
-        "alternate_names": ["Twelfth & Main", "Hanke Exchange"]
+        "alternate_names": [
+          "Twelfth & Main",
+          "Hanke Exchange"
+        ]
       },
       "id": 5
     },
@@ -89,13 +126,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51453615065803, 39.10836944082165]
+        "coordinates": [
+          -84.51453615065803,
+          39.10836944082165
+        ]
       },
       "properties": {
         "name": "12th & Vine",
         "line": "100",
         "id": 6,
-        "alternate_names": ["Twelfth & Vine"]
+        "alternate_names": [
+          "Twelfth & Vine"
+        ]
       },
       "id": 6
     },
@@ -103,13 +145,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51855110954163, 39.109997100434505]
+        "coordinates": [
+          -84.51855110954163,
+          39.109997100434505
+        ]
       },
       "properties": {
         "name": "14th & Elm",
         "line": "100",
         "id": 7,
-        "alternate_names": ["Fourteenth & Elm"]
+        "alternate_names": [
+          "Fourteenth & Elm"
+        ]
       },
       "id": 7
     },
@@ -117,13 +164,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51928865243691, 39.11281959619644]
+        "coordinates": [
+          -84.51928865243691,
+          39.11281959619644
+        ]
       },
       "properties": {
         "name": "Liberty & Elm",
         "line": "100",
         "id": 8,
-        "alternate_names": ["Liberty Street & Elm"]
+        "alternate_names": [
+          "Liberty Street & Elm"
+        ]
       },
       "id": 8
     },
@@ -131,13 +183,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51985733485643, 39.11500971973537]
+        "coordinates": [
+          -84.51985733485643,
+          39.11500971973537
+        ]
       },
       "properties": {
         "name": "Findlay Market - Elm",
         "line": "100",
         "id": 9,
-        "alternate_names": ["Findlay Market Elm", "Elm & Glass Alley", "Elm and Glass Alley"]
+        "alternate_names": [
+          "Findlay Market Elm",
+          "Elm & Glass Alley",
+          "Elm and Glass Alley"
+        ]
       },
       "id": 9
     },
@@ -145,13 +204,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.5204695668951, 39.11755145422368]
+        "coordinates": [
+          -84.5204695668951,
+          39.11755145422368
+        ]
       },
       "properties": {
         "name": "Brewery District",
         "line": "100",
         "id": 10,
-        "alternate_names": ["Elm & Henry", "Elm and Henry", "Brewery District Elm & Henry"]
+        "alternate_names": [
+          "Elm & Henry",
+          "Elm and Henry",
+          "Brewery District Elm & Henry"
+        ]
       },
       "id": 10
     },
@@ -159,13 +225,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51830832020664, 39.11568920989984]
+        "coordinates": [
+          -84.51830832020664,
+          39.11568920989984
+        ]
       },
       "properties": {
         "name": "Findlay Market - Race",
         "line": "100",
         "id": 11,
-        "alternate_names": ["Findlay Market Race", "Race & Elder", "Race and Elder"]
+        "alternate_names": [
+          "Findlay Market Race",
+          "Race & Elder",
+          "Race and Elder"
+        ]
       },
       "id": 11
     },
@@ -173,13 +246,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.5175287015178, 39.112747803856685]
+        "coordinates": [
+          -84.5175287015178,
+          39.112747803856685
+        ]
       },
       "properties": {
         "name": "Liberty & Race",
         "line": "100",
         "id": 12,
-        "alternate_names": ["Liberty Street & Race"]
+        "alternate_names": [
+          "Liberty Street & Race"
+        ]
       },
       "id": 12
     },
@@ -187,13 +265,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51651882597845, 39.108581954569786]
+        "coordinates": [
+          -84.51651882597845,
+          39.108581954569786
+        ]
       },
       "properties": {
         "name": "Washington Park",
         "line": "100",
         "id": 13,
-        "alternate_names": ["12th & Race", "Twelfth & Race"]
+        "alternate_names": [
+          "12th & Race",
+          "Twelfth & Race"
+        ]
       },
       "id": 13
     },
@@ -201,13 +285,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51425365427589, 39.107197139637826]
+        "coordinates": [
+          -84.51425365427589,
+          39.107197139637826
+        ]
       },
       "properties": {
         "name": "Central Parkway & Vine",
         "line": "100",
         "id": 14,
-        "alternate_names": ["Central Parkway and Vine", "Central Pkwy & Vine"]
+        "alternate_names": [
+          "Central Parkway and Vine",
+          "Central Pkwy & Vine"
+        ]
       },
       "id": 14
     },
@@ -215,13 +305,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.512405066808, 39.105479442338655]
+        "coordinates": [
+          -84.512405066808,
+          39.105479442338655
+        ]
       },
       "properties": {
         "name": "Public Library",
         "line": "100",
         "id": 15,
-        "alternate_names": ["9th & Walnut", "Ninth & Walnut", "Main Library"]
+        "alternate_names": [
+          "9th & Walnut",
+          "Ninth & Walnut",
+          "Main Library"
+        ]
       },
       "id": 15
     },
@@ -229,13 +326,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51204330748277, 39.104079422543116]
+        "coordinates": [
+          -84.51204330748277,
+          39.104079422543116
+        ]
       },
       "properties": {
         "name": "Aronoff Center",
         "line": "100",
         "id": 16,
-        "alternate_names": ["7th & Walnut", "Seventh & Walnut"]
+        "alternate_names": [
+          "7th & Walnut",
+          "Seventh & Walnut"
+        ]
       },
       "id": 16
     },
@@ -243,55 +346,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.51126602702618, 39.10103475576852]
+        "coordinates": [
+          -84.51126602702618,
+          39.10103475576852
+        ]
       },
       "properties": {
         "name": "Fountain Square",
         "line": "100",
         "id": 17,
-        "alternate_names": ["5th & Walnut", "Fifth & Walnut", "Fountain Square Fifth & Walnut"]
+        "alternate_names": [
+          "5th & Walnut",
+          "Fifth & Walnut",
+          "Fountain Square Fifth & Walnut"
+        ]
       },
       "id": 17
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [-84.65619229880434, 39.05546464985632]
+        "coordinates": [
+          -84.65619373313245,
+          39.05102309788239
+        ],
+        "type": "Point"
       },
       "properties": {
-        "name": "Main Terminal",
+        "name": "Concourse B",
         "line": "CincinnatiAPM",
         "id": 18,
-        "alternate_names": ["CVG Main Terminal"]
+        "alternate_names": []
       },
       "id": 18
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [-84.65572836377953, 39.0534402435636]
+        "coordinates": [
+          -84.65617466497345,
+          39.054596002721695
+        ],
+        "type": "Point"
       },
       "properties": {
-        "name": "Concourse A",
+        "name": "Main Terminal",
         "line": "CincinnatiAPM",
         "id": 19,
-        "alternate_names": ["CVG Concourse A"]
+        "alternate_names": []
       },
       "id": 19
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [-84.65617040451083, 39.050350497272966]
+        "coordinates": [
+          -84.65617293389,
+          39.05303274655512
+        ],
+        "type": "Point"
       },
       "properties": {
-        "name": "Concourse B",
+        "name": "Concourse A",
         "line": "CincinnatiAPM",
         "id": 20,
-        "alternate_names": ["CVG Concourse B"]
+        "alternate_names": []
       },
       "id": 20
     }

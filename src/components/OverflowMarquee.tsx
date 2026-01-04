@@ -2,13 +2,13 @@
 
 import classNames from 'classnames'
 import {
-  CSSProperties,
-  HTMLAttributes,
-  ReactNode,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
+    CSSProperties,
+    HTMLAttributes,
+    ReactNode,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
 } from 'react'
 
 type OverflowMarqueeProps = {
@@ -52,7 +52,11 @@ const OverflowMarquee = ({
       }
 
       const containerWidth = containerRef.current.clientWidth
-      const contentWidth = contentRef.current.scrollWidth
+      let contentWidth = contentRef.current.scrollWidth
+
+      if (isOverflowing) {
+        contentWidth -= gap
+      }
 
       const shouldOverflow = contentWidth > containerWidth + 1
       setIsOverflowing(shouldOverflow)
@@ -95,7 +99,7 @@ const OverflowMarquee = ({
         window.removeEventListener('resize', measure)
       }
     }
-  }, [children, gap, minDuration, speed])
+  }, [children, gap, minDuration, speed, isOverflowing])
 
   const mergedContainerClassName = useMemo(
     () =>
@@ -109,15 +113,16 @@ const OverflowMarquee = ({
   const repeatedContent = useMemo(() => {
     if (!isOverflowing) return null
 
-    return (
+    return [0, 1].map((idx) => (
       <span
-        className="inline-flex items-center gap-1"
+        key={idx}
+        className="inline-flex shrink-0 items-center gap-1"
         style={{ paddingInlineEnd: `${gap}px` }}
         aria-hidden="true"
       >
         {children}
       </span>
-    )
+    ))
   }, [children, gap, isOverflowing])
 
   return (
@@ -135,7 +140,7 @@ const OverflowMarquee = ({
       >
         <span
           ref={contentRef}
-          className="inline-flex min-w-0 items-center gap-1"
+          className="inline-flex shrink-0 items-center gap-1"
           style={
             isOverflowing
               ? { paddingInlineEnd: `${gap}px` }

@@ -1,19 +1,19 @@
 {
   "OKCSDL": {
     "name": "Downtown Loop (DL)",
-    "color": "#0072CE",
-    "backgroundColor": "#004C8F",
+    "color": "#CD0166",
+    "backgroundColor": "#B35422",
     "progressOutlineColor": "#CD0066",
-    "statsColor": "#CD0166",
+    "statsColor": "#0072CE",
     "textColor": "#FFFFFF",
     "order": 0
   },
   "OKCSBL": {
     "name": "Bricktown Loop (BL)",
-    "color": "#CD0166",
-    "backgroundColor": "#B35422",
+    "color": "#0072CE",
+    "backgroundColor": "#004C8F",
     "progressOutlineColor": "#002F99",
-    "statsColor": "#0072CE",
+    "statsColor": "#CD0166",
     "textColor": "#FFFFFF",
     "order": 1
   }

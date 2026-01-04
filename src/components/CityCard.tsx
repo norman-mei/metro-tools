@@ -1,18 +1,19 @@
-import classNames from 'classnames'
-import clsx from 'clsx'
-import Link from 'next/link'
-import Image from 'next/image'
-import { useEffect, useMemo, useState, type CSSProperties } from 'react'
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
+import CityStatsPanel from '@/components/CityStatsPanel'
 import OverflowMarquee from '@/components/OverflowMarquee'
 import { useAuth } from '@/context/AuthContext'
-import CityStatsPanel from '@/components/CityStatsPanel'
 import useTranslation from '@/hooks/useTranslation'
-import { STATION_TOTALS } from '@/lib/stationTotals'
 import { ICity } from '@/lib/citiesConfig'
+import { STATION_TOTALS } from '@/lib/stationTotals'
+import classNames from 'classnames'
+import clsx from 'clsx'
+import Image from 'next/image'
+import Link from 'next/link'
+import { useEffect, useMemo, useState, type CSSProperties } from 'react'
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 
-export type CityCardVariant = 'comfortable' | 'compact' | 'cover' | 'list'
-
+export type CityCardVariant = 'comfortable' | 'compact' | 'cover'  | 'list'
+  | 'globe' // Added for globe view compatibility
+  | 'map'   // Added for 2D map view compatibility
 const UNAVAILABLE_CITY_SLUGS = new Set(['omaha'])
 
 const getSlugFromLink = (link: string) => {
@@ -170,6 +171,7 @@ const CityCard = ({
     variant === 'compact' && 'text-xl',
     variant === 'cover' && 'text-2xl',
     variant === 'list' && 'text-2xl',
+    variant === 'globe' && 'text-lg',
     {
       'text-zinc-800 dark:text-zinc-100': !displayAsDisabled && variant !== 'cover',
       'text-white drop-shadow': variant === 'cover',
@@ -193,7 +195,11 @@ const CityCard = ({
   const progressColor = `hsl(${progressValue * 120}, 70%, 45%)`
 
   const progressSizeClass =
-    variant === 'compact' ? 'h-5 w-5' : variant === 'list' ? 'h-8 w-8' : 'h-6 w-6'
+    variant === 'compact' || variant === 'globe'
+      ? 'h-5 w-5'
+      : variant === 'list'
+      ? 'h-8 w-8'
+      : 'h-6 w-6'
   const progressSizeClassName = classNames(progressSizeClass, 'flex-shrink-0')
 
   const imageClass = classNames(
@@ -202,6 +208,7 @@ const CityCard = ({
       'aspect-square w-full': variant === 'comfortable',
       'aspect-[4/3] w-full': variant === 'compact',
       'aspect-[5/3] w-full': variant === 'cover',
+      'aspect-video w-full': variant === 'globe',
       'h-28 w-40 flex-shrink-0 rounded-none': variant === 'list',
     },
     className,
@@ -402,11 +409,16 @@ const CityCard = ({
         <div
           className={classNames('w-full', {
             'px-4 pb-6 pt-4': variant === 'comfortable',
-            'px-3 pb-4 pt-3': variant === 'compact',
+            'px-3 pb-4 pt-3': variant === 'compact' || variant === 'globe',
           })}
         >
           {renderHeadingSection()}
           {renderMeta()}
+          {variant === 'globe' && (
+            <div className="mt-3 flex w-full items-center justify-center rounded-md bg-zinc-900 px-3 py-2 text-sm font-semibold text-white shadow-sm group-hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:group-hover:bg-zinc-200">
+              Play {city.name} Metro Memory
+            </div>
+          )}
         </div>
       </>
     )

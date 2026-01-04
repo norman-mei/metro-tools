@@ -2,22 +2,24 @@
 
 import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
+import clsx from 'clsx'
 import Fuse from 'fuse.js'
 import { useTheme } from 'next-themes'
 import { useSearchParams } from 'next/navigation'
 import {
-    Fragment,
-    useCallback,
-    useEffect,
-    useMemo,
-    useRef,
-    useState,
-    type ReactNode,
+  Fragment,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
 } from 'react'
 
 import AccountDashboard from '@/app/(website)/account/panel'
 import AchievementIcon from '@/components/AchievementIcon'
-import CityCard from '@/components/CityCard'
+import CitiesGlobe from '@/components/CitiesGlobe'
+import CityCard, { CityCardVariant } from '@/components/CityCard'
 import CityStatsPanel from '@/components/CityStatsPanel'
 import CollapsibleSection from '@/components/CollapsibleSection'
 import CreditsContent from '@/components/CreditsContent'
@@ -25,10 +27,12 @@ import KoFiWidget from '@/components/KoFiWidget'
 import PrivacyPanel from '@/components/PrivacyPanel'
 import SettingsPanel from '@/components/SettingsPanel'
 import { useAuth } from '@/context/AuthContext'
+import { useSettings } from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
-import { getAchievementForCity } from '@/lib/achievements'
-import { cities, ICity } from '@/lib/citiesConfig'
+import { getAchievementForCity, getMasterAchievementDefinition } from '@/lib/achievements'
+import { ICity, cities } from '@/lib/citiesConfig'
 import { STATION_TOTALS } from '@/lib/stationTotals'
+
 
 type CitySortOption =
   | 'default'
@@ -45,9 +49,7 @@ type AchievementSortOption =
   | 'continent-asc'
   | 'continent-desc'
   | 'not-achieved-asc'
-  | 'not-achieved-desc'
   | 'achieved-asc'
-  | 'achieved-desc'
 
 const CITY_SORT_OPTIONS: Array<{ value: CitySortOption; label: string }> = [
   { value: 'default', label: 'sortDefault' },
@@ -66,10 +68,20 @@ const ACHIEVEMENT_SORT_OPTIONS: Array<{ value: AchievementSortOption; label: str
   { value: 'continent-asc', label: 'sortContinentAsc' },
   { value: 'continent-desc', label: 'sortContinentDesc' },
   { value: 'not-achieved-asc', label: 'sortNotAchieved' },
-  { value: 'not-achieved-desc', label: 'sortNotAchieved' },
-  { value: 'achieved-asc', label: 'sortAchieved' },
-  { value: 'achieved-desc', label: 'sortAchieved' },
+  { value: 'achieved-asc', label: 'sortAchievedInOrder' },
 ]
+
+const CITY_VIEW_OPTIONS: Array<{ value: CityCardVariant; label: string }> = [
+  { value: 'globe', label: 'cityViewGlobe' },
+  { value: 'map', label: 'cityViewMap' },
+  { value: 'comfortable', label: 'cityViewComfortable' },
+  { value: 'compact', label: 'cityViewCompact' },
+  { value: 'cover', label: 'cityViewCover' },
+  { value: 'list', label: 'cityViewList' },
+]
+
+const CITY_VIEW_MODE_STORAGE_KEY = 'city-view-mode'
+const CITY_VIEW_SATELLITE_STORAGE_KEY = 'city-view-satellite'
 
 const TAB_OPTIONS: Array<{ id: TabOption; label: string }> = [
   { id: 'cities', label: 'tabCities' },
@@ -318,6 +330,13 @@ type GlobalStats = {
   completedCities: number
   partialCities: number
   notStartedCities: number
+  continentBreakdown: Array<{
+    continent: string
+    percent: number
+    found: number
+    total: number
+    cityCount: number
+  }>
 }
 
 const SearcheableCitiesList = ({
@@ -329,18 +348,21 @@ const SearcheableCitiesList = ({
   const lastSearchParamStringRef = useRef<string | null>(null)
   const [activeTab, setActiveTab] = useState<TabOption>('cities')
   const [search, setSearch] = useState('')
+  const [continentNavOpen, setContinentNavOpen] = useState(true)
   const [citySort, setCitySort] = useState<CitySortOption>('default')
   const [globalStatsSearch, setGlobalStatsSearch] = useState('')
   const [globalStatsSort, setGlobalStatsSort] = useState<CitySortOption>('default')
-  const [cityViewMode, setCityViewMode] = useState<CityViewMode>('comfortable')
+  const [cityViewMode, setCityViewMode] = useState<CityCardVariant>('map')
+  const [isSatellite, setIsSatellite] = useState(false)
   const [achievementSearch, setAchievementSearch] = useState('')
   const [achievementSort, setAchievementSort] = useState<AchievementSortOption>('default')
-  const [unlockedSlugs, setUnlockedSlugs] = useState<string[]>([])
+  const [unlockedData, setUnlockedData] = useState<Map<string, number>>(new Map())
+  const { settings } = useSettings()
   const [updateLogState, setUpdateLogState] = useState<UpdateLogState>({
     status: 'idle',
     entries: [],
   })
-  const { progressSummaries } = useAuth()
+  const { progressSummaries, uiPreferences, updateUiPreferences } = useAuth()
   const [cityProgress, setCityProgress] = useState<Record<string, number>>({})
   const [globalStats, setGlobalStats] = useState<GlobalStats>({
     totalStationsFound: 0,
@@ -350,9 +372,14 @@ const SearcheableCitiesList = ({
     completedCities: 0,
     partialCities: 0,
     notStartedCities: 0,
+    continentBreakdown: [],
   })
   const [statsOpen, setStatsOpen] = useState(false)
   const [statsSlug, setStatsSlug] = useState<string | null>(null)
+  const [activeSection, setActiveSection] = useState<string | null>(null)
+  const viewPrefsHydratedRef = useRef(false)
+
+
 
   const enrichedCities = useMemo(() => enrichCities(cities), [])
   const cityAchievementCatalog = useMemo(() => {
@@ -388,14 +415,12 @@ const SearcheableCitiesList = ({
 
   const masterAchievement = useMemo<AchievementMeta>(() => {
     const totalCities = cityAchievementCatalog.length
+    const def = getMasterAchievementDefinition(totalCities)
     return {
       slug: 'metro-memory-master',
       cityName: 'Metro Memory',
-      title: 'Master Completionist',
-      description:
-        totalCities > 0
-          ? `Unlock all ${totalCities} city achievements to earn this final badge.`
-          : 'Unlock every city achievement to earn this final badge.',
+      title: def.title,
+      description: def.description,
       continent: 'Global',
       order: Number.MAX_SAFE_INTEGER,
       iconSrc: '/favicon.ico',
@@ -442,6 +467,10 @@ const SearcheableCitiesList = ({
     let completedCities = 0
     let partialCities = 0
     let notStartedCities = 0
+    const continentTotals = new Map<
+      string,
+      { found: number; total: number; cityCount: number }
+    >()
 
     enrichedCities.forEach((city) => {
       const slug = getSlugFromLink(city.link)
@@ -495,6 +524,14 @@ const SearcheableCitiesList = ({
         notStartedCities += 1
       }
 
+      const continent = city.continent || 'Unknown'
+      const existing = continentTotals.get(continent) ?? { found: 0, total: 0, cityCount: 0 }
+      continentTotals.set(continent, {
+        found: existing.found + Math.min(foundCount, cityTotalStations),
+        total: existing.total + cityTotalStations,
+        cityCount: existing.cityCount + 1,
+      })
+
       breakdown.push({
         slug,
         name: city.name,
@@ -504,6 +541,16 @@ const SearcheableCitiesList = ({
       })
     })
 
+    const continentBreakdown = Array.from(continentTotals.entries())
+      .map(([continent, { found, total, cityCount }]) => ({
+        continent,
+        percent: total > 0 ? found / total : 0,
+        found,
+        total,
+        cityCount,
+      }))
+      .sort((a, b) => a.continent.localeCompare(b.continent))
+
     setGlobalStats({
       totalStationsFound: totalFound,
       totalStations,
@@ -512,6 +559,7 @@ const SearcheableCitiesList = ({
       completedCities,
       partialCities,
       notStartedCities,
+      continentBreakdown,
     })
     setCityProgress(next)
   }, [enrichedCities, progressSummaries])
@@ -546,6 +594,75 @@ const SearcheableCitiesList = ({
     },
     [cityMetaBySlug, globalStatsSearch],
   )
+
+  const isValidCityViewMode = useCallback(
+    (value: string | undefined | null): value is CityCardVariant =>
+      !!value && CITY_VIEW_OPTIONS.some((option) => option.value === value),
+    [],
+  )
+
+  useEffect(() => {
+    let nextMode: CityCardVariant | null = null
+    let nextSatellite: boolean | null = null
+
+    if (isValidCityViewMode(uiPreferences.cityViewMode)) {
+      nextMode = uiPreferences.cityViewMode
+    } else if (!viewPrefsHydratedRef.current && typeof window !== 'undefined') {
+      const storedMode = window.localStorage.getItem(CITY_VIEW_MODE_STORAGE_KEY)
+      if (isValidCityViewMode(storedMode)) {
+        nextMode = storedMode
+      }
+    }
+
+    if (typeof uiPreferences.cityViewSatellite === 'boolean') {
+      nextSatellite = uiPreferences.cityViewSatellite
+    } else if (!viewPrefsHydratedRef.current && typeof window !== 'undefined') {
+      const storedSatellite = window.localStorage.getItem(
+        CITY_VIEW_SATELLITE_STORAGE_KEY,
+      )
+      if (storedSatellite === '1' || storedSatellite === 'true') {
+        nextSatellite = true
+      } else if (storedSatellite === '0' || storedSatellite === 'false') {
+        nextSatellite = false
+      }
+    }
+
+    if (nextMode && nextMode !== cityViewMode) {
+      setCityViewMode(nextMode)
+    }
+    if (nextSatellite !== null && nextSatellite !== isSatellite) {
+      setIsSatellite(nextSatellite)
+    }
+
+    if (!viewPrefsHydratedRef.current) {
+      viewPrefsHydratedRef.current = true
+    }
+  }, [
+    cityViewMode,
+    isSatellite,
+    isValidCityViewMode,
+    uiPreferences.cityViewMode,
+    uiPreferences.cityViewSatellite,
+  ])
+
+  useEffect(() => {
+    if (!viewPrefsHydratedRef.current) return
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(CITY_VIEW_MODE_STORAGE_KEY, cityViewMode)
+    }
+    updateUiPreferences({ cityViewMode })
+  }, [cityViewMode, updateUiPreferences])
+
+  useEffect(() => {
+    if (!viewPrefsHydratedRef.current) return
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(
+        CITY_VIEW_SATELLITE_STORAGE_KEY,
+        isSatellite ? '1' : '0',
+      )
+    }
+    updateUiPreferences({ cityViewSatellite: isSatellite })
+  }, [isSatellite, updateUiPreferences])
 
   const visibleCityBreakdown = useMemo(() => {
     const filtered = globalStats.cityBreakdown.filter(cityMatchesSearch)
@@ -730,12 +847,32 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       .filter((group) => group.cities.length > 0)
   }, [groupedCities, results])
 
+  const continentNavItems = useMemo(
+    () =>
+      visibleGroups.map((group) => {
+        const totalProgress = group.cities.reduce((acc, city) => {
+          const slug = getSlugFromLink(city.link)
+          const progress = slug ? cityProgress[slug] ?? 0 : 0
+          return acc + progress
+        }, 0)
+        const averagePercent =
+          group.cities.length > 0 ? Math.max(0, Math.min(1, totalProgress / group.cities.length)) : 0
+        return {
+          continent: group.continent,
+          cityCount: group.cities.length,
+          sectionId: getContinentSectionId(group.continent),
+          averagePercent,
+        }
+      }),
+    [visibleGroups, cityProgress],
+  )
+
   const navigationCities = useMemo(
     () => visibleGroups.flatMap((group) => group.cities),
     [visibleGroups],
   )
 
-  const unlockedSet = useMemo(() => new Set(unlockedSlugs), [unlockedSlugs])
+  const unlockedSet = useMemo(() => new Set(unlockedData.keys()), [unlockedData])
   const allAchievementSlugs = useMemo(() => achievementCatalog.map((entry) => entry.slug), [achievementCatalog])
 
   const achievementSearchSet = useMemo(() => {
@@ -874,10 +1011,11 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     fetchUpdateLog()
   }, [fetchUpdateLog, updateLogState.status])
 
+
   useEffect(() => {
     const computeAchievements = () => {
       if (typeof window === 'undefined') return
-      const unlocked: string[] = []
+      const curUnlocked = new Map<string, number>()
       cityAchievementCatalog.forEach((entry) => {
         const { slug } = entry
         const totalRaw = window.localStorage.getItem(`${slug}-station-total`)
@@ -900,13 +1038,31 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
           }
         }
         if (foundCount >= total) {
-          unlocked.push(slug)
+          // Calculate timestamp
+          let maxTime = 0
+          const timestampsRaw = window.localStorage.getItem(`${slug}-stations-found-at`)
+          if (timestampsRaw) {
+             try {
+                const timestamps = JSON.parse(timestampsRaw)
+                Object.values(timestamps).forEach((ts) => {
+                    if (typeof ts === 'string') {
+                        const t = Date.parse(ts)
+                        if (t > maxTime) maxTime = t
+                    }
+                })
+             } catch {}
+           }
+           // Fallback to now if 0? Or just 0.
+           curUnlocked.set(slug, maxTime)
         }
       })
-      if (cityAchievementCatalog.length > 0 && unlocked.length === cityAchievementCatalog.length) {
-        unlocked.push(masterAchievement.slug)
+      if (cityAchievementCatalog.length > 0 && curUnlocked.size === cityAchievementCatalog.length) {
+        // Master achievement gets latest time of all cities
+        const times = Array.from(curUnlocked.values())
+        const maxTime = times.length > 0 ? Math.max(...times) : 0
+        curUnlocked.set(masterAchievement.slug, maxTime)
       }
-      setUnlockedSlugs(unlocked)
+      setUnlockedData(curUnlocked)
     }
 
     computeAchievements()
@@ -934,6 +1090,47 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
   }, [searchParams])
 
   const hasResults = visibleGroups.length > 0
+  const shouldShowContinentNav = activeTab === 'cities' && hasResults
+
+  useEffect(() => {
+    if (!shouldShowContinentNav) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visibleParams = entries
+          .filter((e) => e.isIntersecting)
+          .map((e) => ({
+            id: e.target.id,
+            ratio: e.intersectionRatio,
+            y: e.boundingClientRect.y,
+          }))
+
+        if (visibleParams.length > 0) {
+            const best = visibleParams.sort((a,b) => b.ratio - a.ratio)[0]
+            if (best) {
+                setActiveSection(best.id)
+            }
+        }
+      },
+      {
+        rootMargin: '-20% 0px -60% 0px',
+        threshold: [0, 0.1, 0.5],
+      }
+    )
+
+    const sections = document.querySelectorAll('section[id^="continent-"]')
+    sections.forEach((section) => observer.observe(section))
+
+    return () => observer.disconnect()
+  }, [shouldShowContinentNav, visibleGroups])
+
+  const handleJumpToContinent = useCallback((sectionId: string) => {
+    const target = document.getElementById(sectionId)
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [])
+
   const openStatsPanelForCity = (slug: string) => {
     setStatsSlug(slug)
     setStatsOpen(true)
@@ -1059,8 +1256,107 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
 
   return (
     <>
+      {shouldShowContinentNav && (
+        <>
+          <nav
+            aria-label="Continent shortcuts"
+            className={classNames(
+              'fixed left-0 top-0 bottom-0 z-50 hidden w-64 bg-white/80 backdrop-blur-md transition-transform duration-300 dark:bg-zinc-900/80 lg:flex lg:flex-col border-r border-zinc-200 dark:border-zinc-800',
+              continentNavOpen
+                ? 'translate-x-0 shadow-2xl shadow-zinc-200/50 dark:shadow-black/20'
+                : '-translate-x-full',
+            )}
+          >
+            <div className="flex h-16 flex-shrink-0 items-center justify-between border-b border-zinc-200/50 px-4 dark:border-zinc-800/50">
+              <span className="text-sm font-bold uppercase tracking-wider text-zinc-900 dark:text-zinc-100">
+                {t('continents')}
+              </span>
+            </div>
+            
+            <div className="flex-1 overflow-y-auto px-2 py-4">
+              <div className="flex flex-col gap-1">
+                {continentNavItems.map(({ continent, cityCount, sectionId, averagePercent }) => {
+                  const translatedContinent =
+                    CONTINENT_LABEL_KEYS[continent] !== undefined
+                      ? t(CONTINENT_LABEL_KEYS[continent])
+                      : continent
+                  const percentLabel = `${(averagePercent * 100).toFixed(0)}%`
+                  const percentColor = getGradientColor(averagePercent)
+                  const isActive = sectionId === activeSection
+                  
+                  return (
+                    <button
+                      key={sectionId}
+                      type="button"
+                      onClick={() => handleJumpToContinent(sectionId)}
+                      className={classNames(
+                        "group w-full rounded-xl px-3 py-3 text-left transition",
+                        isActive 
+                            ? "bg-zinc-100 dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700" 
+                            : "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
+                      )}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className={classNames(
+                            "text-sm font-semibold transition",
+                            isActive ? "text-zinc-900 dark:text-zinc-100" : "text-zinc-700 group-hover:text-zinc-900 dark:text-zinc-300 dark:group-hover:text-zinc-100"
+                        )}>
+                            {translatedContinent}
+                        </span>
+                        
+                        {isActive ? (
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-[var(--accent-600)] dark:text-[var(--accent-400)]">
+                                <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
+                            </svg>
+                        ) : (
+                            <span 
+                                className="text-xs font-bold tabular-nums"
+                                style={{ color: percentColor }}
+                            >
+                                {percentLabel}
+                            </span>
+                        )}
+
+                      </div>
+                      <div className="mt-1 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-500">
+                        <span>{cityCount} {cityCount === 1 ? 'city' : 'cities'}</span>
+                        {isActive && (
+                            <span className="font-medium" style={{ color: percentColor }}>
+                                {percentLabel}
+                            </span>
+                        )}
+                      </div>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+          </nav>
+          
+          <button
+            type="button"
+            onClick={() => setContinentNavOpen((open) => !open)}
+            className={classNames(
+                "fixed top-32 z-40 hidden h-10 w-8 items-center justify-center rounded-r-xl border border-l-0 border-zinc-200 bg-white shadow-md transition-all hover:w-10 hover:bg-zinc-50 focus:outline-none dark:border-zinc-800 dark:bg-zinc-900 dark:hover:bg-zinc-800 lg:flex",
+                continentNavOpen ? "left-64" : "left-0"
+            )}
+            style={{ transitionDuration: '300ms' }}
+            aria-label={continentNavOpen ? 'Hide continent navigation' : 'Show continent navigation'}
+          >
+             {continentNavOpen ? (
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-4 w-4 text-zinc-500 dark:text-zinc-400">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+             ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-4 w-4 text-zinc-500 dark:text-zinc-400">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+             )}
+          </button>
+        </>
+      )}
       <div className="my-16 mt-16 sm:mt-20">
-        <div className="mb-6 rounded-3xl border border-zinc-200/80 bg-white/70 p-4 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/70">
+        <div className="sticky top-6 z-30 mb-6 rounded-3xl border border-zinc-200/80 bg-white/70 p-4 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/70">
           <div className="mb-4 flex flex-wrap justify-center gap-3">
             {PRIMARY_TABS.map(({ id, label }) => {
               const labelText = t(label)
@@ -1150,7 +1446,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                 <select
                   id="city-view"
                   value={cityViewMode}
-                  onChange={(event) => setCityViewMode(event.target.value as CityViewMode)}
+                  onChange={(event) => setCityViewMode(event.target.value as CityCardVariant)}
                   className="w-full rounded-full border-0 bg-white px-4 py-3 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
                 >
                   {CITY_VIEW_OPTIONS.map((option) => (
@@ -1160,9 +1456,35 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                   ))}
                 </select>
               </div>
+              
+              {(cityViewMode === 'globe' || cityViewMode === 'map') && (
+                <button
+                    onClick={() => setIsSatellite(!isSatellite)}
+                    className={clsx(
+                        "flex items-center gap-2 rounded-full border px-4 py-3 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)]",
+                        isSatellite 
+                            ? "border-[var(--accent-600)] bg-[var(--accent-600)] text-white hover:bg-[var(--accent-700)] dark:border-[var(--accent-500)] dark:bg-[var(--accent-500)] dark:text-zinc-900 dark:hover:bg-[var(--accent-400)]"
+                            : "border-gray-300 bg-white text-gray-700 hover:bg-gray-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
+                    )}
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-5 w-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                    </svg>
+                    {t('satelliteView')}
+                </button>
+              )}
             </div>
           </div>
-          {hasResults ? (
+          {cityViewMode === 'globe' || cityViewMode === 'map' ? (
+             <div className="mt-6">
+                <CitiesGlobe 
+                  cities={navigationCities} 
+                  cityProgress={cityProgress}
+                  projection={cityViewMode === 'map' ? 'mercator' : 'globe'} 
+                  satellite={isSatellite}
+                />
+             </div>
+          ) : hasResults ? (
             <div className="space-y-10">
               {visibleGroups.map(({ continent, cities }, index) => {
                 const cityCount = cities.length
@@ -1183,6 +1505,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                 }, 0)
                 const averageProgress = cities.length > 0 ? totalProgress / cities.length : 0
                 const headerColor = getGradientColor(averageProgress)
+                const averageProgressLabel = `${(averageProgress * 100).toFixed(2)}%`
 
                 return (
                   <Fragment key={continent}>
@@ -1191,18 +1514,18 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                         sectionId={sectionId}
                         title={
                           <span style={{ color: headerColor }}>
-                            {translatedContinent} · {cityCountLabel}
+                            {translatedContinent} · {cityCountLabel} ({averageProgressLabel})
                           </span>
                         }
-                        titleAs="h3"
-                        className="space-y-6"
-                        headingClassName="text-xl font-semibold text-zinc-800 dark:text-zinc-100"
-                        contentClassName="mt-4"
-                      >
-                        {cityGrid}
+                    titleAs="h3"
+                    className="space-y-6"
+                    headingClassName="text-xl font-semibold text-zinc-800 dark:text-zinc-100"
+                    contentClassName="mt-4"
+                  >
+                    {cityGrid}
                       </CollapsibleSection>
                     ) : (
-                      <section className="space-y-6">
+                      <section id={sectionId} className="space-y-6 scroll-mt-28">
                         <div>
                           <h3
                             className="mb-4 text-xl font-semibold"
@@ -1210,7 +1533,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                           >
                             {translatedContinent}{' '}
                             <span className="text-base font-normal" style={{ color: headerColor }}>
-                              · {cityCountLabel}
+                              · {cityCountLabel} ({averageProgressLabel})
                             </span>
                           </h3>
                           {cityGrid}
@@ -1248,6 +1571,59 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
               total: globalStats.totalStations.toLocaleString(),
             }),
             true,
+          )}
+
+          {globalStats.continentBreakdown.length > 0 && (
+            <div className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm dark:border-[#18181b] dark:bg-zinc-900">
+              <div className="mb-3 flex items-center justify-between gap-3">
+                <div>
+                  <p className="text-lg font-semibold text-zinc-800 dark:text-zinc-100">
+                    By continent
+                  </p>
+                  <p className="text-sm text-zinc-600 dark:text-zinc-400">
+                    Overall completion for each continent.
+                  </p>
+                </div>
+                <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                  {t('cityStatsStationsProgress')}
+                </span>
+              </div>
+              <div className="divide-y divide-zinc-200 dark:divide-[#18181b]">
+                {globalStats.continentBreakdown.map((entry) => {
+                  const percentLabel = `${(clamp01(entry.percent) * 100).toFixed(2)}%`
+                  const barBg = getBarBackground(entry.percent)
+                  return (
+                    <div key={entry.continent} className="py-3">
+                      <div className="flex flex-wrap items-center justify-between gap-3">
+                        <div className="flex flex-col">
+                          <span className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
+                            {entry.continent}
+                          </span>
+                          <span className="text-sm font-semibold text-zinc-600 dark:text-zinc-300">
+                            {entry.cityCount} Cities · {entry.found.toLocaleString()} /{' '}
+                            {entry.total.toLocaleString()} stations
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <span
+                            className="text-sm font-semibold"
+                            style={{ color: getGradientColor(entry.percent) }}
+                          >
+                            {percentLabel}
+                          </span>
+                          <div className="h-2 w-32 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
+                            <div
+                              className="h-full rounded-full"
+                              style={{ width: percentLabel, background: barBg }}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
           )}
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -1394,13 +1770,14 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       ) : activeTab === 'achievements' ? (
         <Achievements
           items={visibleAchievements}
-          unlockedSlugs={unlockedSlugs}
+          unlockedData={unlockedData}
           searchValue={achievementSearch}
           onSearchChange={setAchievementSearch}
           sortOption={achievementSort}
           onSortChange={setAchievementSort}
           totalCount={achievementCatalog.length}
-          totalUnlocked={unlockedSlugs.length}
+          totalUnlocked={unlockedData.size}
+          timezone={settings.timezone}
         />
       ) : activeTab === 'updateLog' ? (
         <UpdateLogPanel state={updateLogState} onRetry={handleUpdateLogRetry} />
@@ -1422,7 +1799,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
           )}
         </div>
       ) : activeTab === 'settings' ? (
-        <SettingsPanel />
+        <SettingsPanel disableScroll />
       ) : activeTab === 'press' ? (
         <div className="space-y-6">
           <h3 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">
@@ -1445,7 +1822,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     </div>
     {statsOpen && statsSlug && (
       <CityStatsPanel
-        cityDisplayName={statsCityDisplayName || 'City stats'}
+        cityDisplayName={statsCityDisplayName || 'City Statistics'}
         slug={statsSlug}
         open={statsOpen}
         onClose={() => {
@@ -1466,26 +1843,41 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
 
 const Achievements = ({
   items,
-  unlockedSlugs,
+  unlockedData,
   searchValue,
   onSearchChange,
   sortOption,
   onSortChange,
   totalCount,
   totalUnlocked,
+  timezone,
 }: {
   items: AchievementMeta[]
-  unlockedSlugs: string[]
+  unlockedData: Map<string, number>
   searchValue: string
   onSearchChange: (value: string) => void
   sortOption: AchievementSortOption
   onSortChange: (value: AchievementSortOption) => void
   totalCount: number
   totalUnlocked: number
+  timezone?: string
 }) => {
   const { t } = useTranslation()
-  const unlockedSet = useMemo(() => new Set(unlockedSlugs), [unlockedSlugs])
+  const unlockedSet = useMemo(() => new Set(unlockedData.keys()), [unlockedData])
   const hasResults = items.length > 0
+
+  const formatAchievementDate = (timestamp: number) => {
+    if (!timestamp) return ''
+    try {
+      return new Intl.DateTimeFormat(undefined, {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+        timeZone: timezone,
+      }).format(new Date(timestamp))
+    } catch {
+      return ''
+    }
+  }
 
   return (
     <div className="space-y-4">
@@ -1541,6 +1933,8 @@ const Achievements = ({
       ) : (
         items.map((meta) => {
           const isUnlocked = unlockedSet.has(meta.slug)
+          const unlockTimestamp = unlockedData.get(meta.slug) ?? 0
+          const unlockDateLabel = isUnlocked ? formatAchievementDate(unlockTimestamp) : ''
           return (
             <div
               key={meta.slug}
@@ -1580,7 +1974,16 @@ const Achievements = ({
                   isUnlocked ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-500',
                 )}
               >
-                {isUnlocked ? t('achievementUnlocked') : t('achievementLocked')}
+                {isUnlocked ? (
+                    <div className="flex flex-col items-end">
+                       <span>{t('achievementUnlocked')}</span>
+                       {unlockDateLabel && (
+                           <span className="text-xs font-normal opacity-80">{unlockDateLabel}</span>
+                       )}
+                    </div>
+                ) : (
+                  t('achievementLocked')
+                )}
               </span>
             </div>
           )
@@ -1696,6 +2099,7 @@ const sortAchievementEntries = (
   entries: AchievementMeta[],
   sort: AchievementSortOption,
   unlockedSet: Set<string>,
+  unlockedData?: Map<string, number>,
 ): AchievementMeta[] => {
   const compareName = (a: AchievementMeta, b: AchievementMeta) => a.cityName.localeCompare(b.cityName)
   const compareContinent = (a: AchievementMeta, b: AchievementMeta) => {
@@ -1714,12 +2118,32 @@ const sortAchievementEntries = (
       return base.sort((a, b) => compareContinent(b, a))
     case 'not-achieved-asc':
       return base.filter((entry) => !unlockedSet.has(entry.slug)).sort(compareName)
-    case 'not-achieved-desc':
-      return base.filter((entry) => !unlockedSet.has(entry.slug)).sort((a, b) => compareName(b, a))
+    case 'not-achieved-asc':
+      return base.filter((entry) => !unlockedSet.has(entry.slug)).sort(compareName)
     case 'achieved-asc':
+      if (unlockedData) {
+        return base
+          .filter((entry) => unlockedSet.has(entry.slug))
+          .sort((a, b) => {
+             const tA = unlockedData.get(a.slug) ?? 0
+             const tB = unlockedData.get(b.slug) ?? 0
+             return tB - tA // Descending time (most recent first) usually expected, or Ascending?
+             // "Achieved in order" usually means chronological (oldest first) or stack (newest first).
+             // Let's assume most recent first (descending) is generally preferred for "In Order" of timeline?
+             // Or "In Order" meant "Chronological"? User said "Achieved in order"
+             // I'll stick to DESCENDING time (Newest on top) which is standard for feeds.
+             // Wait, "Achieved in order" -> could be 1st achieved, 2nd achieved... (ASC)
+             // or Latest achieved.
+             // The previous sort was "achieved-asc" (Name A-Z).
+             // Let's do DESCENDING (Newest first) as it matches "Latest".
+             // Actually, let's look at what the user likely wants.
+             // "timestamps... make sure it aligns with timezone"
+             // "Achieved in order" -> The order they achieved them.
+             // Usually lists are newest first.
+             // I will do Newest First (tB - tA).
+          })
+      }
       return base.filter((entry) => unlockedSet.has(entry.slug)).sort(compareName)
-    case 'achieved-desc':
-      return base.filter((entry) => unlockedSet.has(entry.slug)).sort((a, b) => compareName(b, a))
     case 'default':
     default:
       return base.sort((a, b) => a.order - b.order)
@@ -1741,11 +2165,3 @@ const formatUpdateDate = (iso?: string) => {
 }
 
 export default SearcheableCitiesList
-type CityViewMode = 'comfortable' | 'compact' | 'cover' | 'list'
-
-const CITY_VIEW_OPTIONS: Array<{ value: CityViewMode; label: string }> = [
-  { value: 'comfortable', label: 'cityViewComfortable' },
-  { value: 'compact', label: 'cityViewCompact' },
-  { value: 'cover', label: 'cityViewCover' },
-  { value: 'list', label: 'cityViewList' },
-]

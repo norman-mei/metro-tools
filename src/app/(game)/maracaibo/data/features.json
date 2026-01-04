@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Libertador",
+        "line": "Line1",
+        "id": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.62144292262414,
+          10.639183491328652
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urdaneta",
+        "line": "Line1",
+        "id": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.63029215372755,
+          10.635673995479138
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sabaneta",
+        "line": "Line1",
+        "id": 2
+      },
+      "geometry": {
+        "coordinates": [
+          -71.6398390011929,
+          10.630033023455155
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Guayabal",
+        "line": "Line1",
+        "id": 3
+      },
+      "geometry": {
+        "coordinates": [
+          -71.64931704695437,
+          10.626405484961026
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Varillal",
+        "line": "Line1",
+        "id": 4
+      },
+      "geometry": {
+        "coordinates": [
+          -71.65899009925953,
+          10.623794346579885
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Altos de la Vanega",
+        "line": "Line1",
+        "id": 5
+      },
+      "geometry": {
+        "coordinates": [
+          -71.66827402474694,
+          10.616143221270733
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    }
+  ]
+}
