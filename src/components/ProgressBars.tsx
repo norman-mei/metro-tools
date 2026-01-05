@@ -1,14 +1,14 @@
 'use client'
 
-import { useMemo } from 'react'
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
-import Image from 'next/image'
-import { useConfig } from '@/lib/configContext'
 import OverflowMarquee from '@/components/OverflowMarquee'
-import { useTheme } from 'next-themes'
+import { isColorLight } from '@/lib/colorUtils'
+import { useConfig } from '@/lib/configContext'
 import { getCompletionColor } from '@/lib/progressColors'
 import clsx from 'clsx'
-import { isColorLight } from '@/lib/colorUtils'
+import { useTheme } from 'next-themes'
+import Image from 'next/image'
+import { useEffect, useMemo, useRef } from 'react'
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 
 const cleanupLineName = (name?: string) => {
   if (!name) return ''
@@ -36,15 +36,29 @@ const ProgressBars = ({
   foundStationsPerLine,
   stationsPerLine,
   minimized = false,
+  highlightedLineId,
 }: {
   foundStationsPerLine: Record<string, number>
   stationsPerLine: Record<string, number>
   minimized?: boolean
+  highlightedLineId?: string | null
 }) => {
   const { LINES, GAUGE_COLORS, LINE_GROUPS } = useConfig()
   const gaugeMode = GAUGE_COLORS ?? 'inverted'
   const { resolvedTheme } = useTheme()
   const isDark = resolvedTheme === 'dark'
+  
+  const lineRefs = useRef<Record<string, HTMLDivElement | null>>({})
+
+  useEffect(() => {
+     if (highlightedLineId && lineRefs.current[highlightedLineId]) {
+         lineRefs.current[highlightedLineId]?.scrollIntoView({
+             behavior: 'smooth',
+             block: 'center'
+         })
+     }
+  }, [highlightedLineId])
+
   const orderedLines = useMemo(
     () =>
       Object.entries(LINES)
@@ -104,8 +118,23 @@ const ProgressBars = ({
     const percentComplete = total > 0 ? found / total : 0
     const completionColor = getCompletionColor(percentComplete)
 
+    const isHighlighted = highlightedLineId === line
+
     return (
-      <div key={line} className="flex items-center gap-2">
+      <div 
+        key={line} 
+        className={clsx(
+            "flex items-center gap-2 transition-colors duration-300",
+            compact ? "rounded-full" : "rounded-lg",
+            isHighlighted && [
+                "bg-yellow-200 dark:bg-yellow-500/40",
+                "ring-4 ring-yellow-200 dark:ring-yellow-500 z-10"
+            ]
+        )}
+        ref={(el) => {
+            if (el) lineRefs.current[line] = el
+        }}
+      >
         <div
           title={title}
           className="relative flex h-8 w-8 shrink-0 items-center justify-center"

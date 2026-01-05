@@ -1,15 +1,15 @@
 'use client'
 
+import { useSettings } from '@/context/SettingsContext'
+import useTranslation from '@/hooks/useTranslation'
+import { useConfig } from '@/lib/configContext'
+import { getCompletionColor } from '@/lib/progressColors'
 import { usePrevious } from '@react-hookz/web'
 import classNames from 'classnames'
 import { useEffect, useState } from 'react'
-import ProgressBars from './ProgressBars'
 import { MaximizeIcon } from './MaximizeIcon'
 import { MinimizeIcon } from './MinimizeIcon'
-import useTranslation from '@/hooks/useTranslation'
-import { useConfig } from '@/lib/configContext'
-import { useSettings } from '@/context/SettingsContext'
-import { getCompletionColor } from '@/lib/progressColors'
+import ProgressBars from './ProgressBars'
 
 const FoundSummary = ({
   className,
@@ -20,6 +20,7 @@ const FoundSummary = ({
   onCityCompletionConfettiSeen,
   minimizable = false,
   defaultMinimized = false,
+  highlightedLineId,
 }: {
   className?: string
   foundStationsPerLine: Record<string, number>
@@ -29,6 +30,7 @@ const FoundSummary = ({
   onCityCompletionConfettiSeen: () => void
   minimizable?: boolean
   defaultMinimized?: boolean
+  highlightedLineId?: string | null
 }) => {
   const { t } = useTranslation()
   const { LINES } = useConfig()
@@ -113,6 +115,7 @@ const FoundSummary = ({
           minimized={minimized}
           foundStationsPerLine={foundStationsPerLine}
           stationsPerLine={stationsPerLine}
+          highlightedLineId={highlightedLineId}
         />
       </div>
       {minimizable && (

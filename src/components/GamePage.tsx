@@ -996,6 +996,16 @@ export default function GamePage({
   const [privacyModalOpen, setPrivacyModalOpen] = useState(false)
   const [kofiOpen, setKofiOpen] = useState(false)
   const [mapError, setMapError] = useState<string | null>(null)
+  const [highlightedLineId, setHighlightedLineId] = useState<string | null>(null)
+
+  useEffect(() => {
+    if (highlightedLineId) {
+        const timer = setTimeout(() => {
+            setHighlightedLineId(null)
+        }, 3000)
+        return () => clearTimeout(timer)
+    }
+  }, [highlightedLineId])
 
   useEffect(() => {
     let nextSatellite = showSatellite
@@ -1839,6 +1849,7 @@ export default function GamePage({
     }
 
     let mapboxMap: mapboxgl.Map | null = null
+    let mapFailed = false
 
     try {
       mapboxMap = new mapboxgl.Map({
@@ -1857,10 +1868,27 @@ export default function GamePage({
       return
     }
 
+    const handleMapError = (event: mapboxgl.MapboxEvent & { error?: unknown }) => {
+      const message =
+        (event?.error as { message?: string })?.message ??
+        (event?.error ? String(event.error) : '')
+      if (message.toLowerCase().includes('webgl')) {
+        setMapError(
+          'This browser cannot initialize WebGL, so the map cannot be displayed. Please enable hardware acceleration or try a different browser.',
+        )
+        mapFailed = true
+        mapboxMap?.remove()
+        mapboxMap = null
+        setMap(null)
+      }
+    }
+
+    mapboxMap.on('error', handleMapError)
+
     let ensureRouteLayers: (() => void) | null = null
 
       mapboxMap.on('load', () => {
-      if (!mapboxMap) return
+      if (!mapboxMap || mapFailed) return
       mapboxMap.doubleClickZoom.disable()
       const isDarkTheme = resolvedTheme === 'dark' || showSatellite
       const foundTextColor = isDarkTheme
@@ -2302,6 +2330,7 @@ export default function GamePage({
       if (ensureRouteLayers) {
         mapboxMap.off('styledata', ensureRouteLayers)
       }
+      mapboxMap.off('error', handleMapError)
       mapboxMap.remove()
       setMap(null)
     }
@@ -2464,9 +2493,30 @@ export default function GamePage({
     }
 
     map.on('dblclick', 'stations-circles', handleDoubleClick)
+    
+    const handleLineDoubleClick = (event: mapboxgl.MapLayerMouseEvent) => {
+        if (typeof event.preventDefault === 'function') {
+            event.preventDefault()
+        }
+        
+        const feature = event.features?.[0]
+        if (!feature) return
+
+        const lineId = feature.properties?.line
+        if (typeof lineId === 'string' && lineId) {
+            setHighlightedLineId(lineId)
+            setSidebarOpen(true)
+            if (typeof window !== 'undefined' && window.innerWidth < 1024) {
+                setMobileSidebarOpen(true)
+            }
+        }
+    }
+
+    map.on('dblclick', 'game-routes-line', handleLineDoubleClick)
 
     return () => {
       map.off('dblclick', 'stations-circles', handleDoubleClick)
+      map.off('dblclick', 'game-routes-line', handleLineDoubleClick)
     }
   }, [map, found, setSidebarOpen, setMobileSidebarOpen, setActiveFoundId, setHoveredId])
 
@@ -2547,6 +2597,7 @@ export default function GamePage({
                 cityCompletionConfettiSeen={cityCompletionConfettiSeen}
                 onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
                 minimizable
+                highlightedLineId={highlightedLineId}
               />
             <div className="flex items-center gap-2 lg:gap-3">
               <button
@@ -2653,6 +2704,7 @@ export default function GamePage({
               onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
               minimizable
               defaultMinimized
+              highlightedLineId={highlightedLineId}
             />
             <hr className="my-4 w-full border-b border-zinc-100 dark:border-[#18181b]" />
             <FoundList
@@ -2701,6 +2753,7 @@ export default function GamePage({
               stationsPerLine={stationsPerLine}
               cityCompletionConfettiSeen={cityCompletionConfettiSeen}
               onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
+              highlightedLineId={highlightedLineId}
             />
             <div className="mt-4 max-h-[60vh] overflow-y-auto pr-1">
               <FoundList
