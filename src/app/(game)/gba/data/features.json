@@ -740,8 +740,8 @@
       },
       "properties": {
         "id": 90017,
-        "name": "Dongchengnan Railway Station (东城南站)",
-        "long_name": "东城南站 Dongchengnan Railway Station",
+        "name": "Dongcheng South Railway Station (东城南站)",
+        "long_name": "东城南站 Dongcheng South Railway Station",
         "alternate_names": [
           "Dongchengnan Railway Station",
           "Dongchengnan",
@@ -755,7 +755,13 @@
           "dungsingnaamzaam"
         ],
         "line": "dongguanline1",
-        "original_city": "dongguan"
+        "original_city": "dongguan",
+        "names": [
+          "Dongcheng South"
+        ],
+        "connections": [
+          "Dongcheng South"
+        ]
       },
       "id": 90017
     },
@@ -992,8 +998,8 @@
       },
       "properties": {
         "id": 90025,
-        "name": "Dongguanxi Railway Station (东莞西站)",
-        "long_name": "东莞西站 Dongguanxi Railway Station",
+        "name": "Dongguan West Railway Station (东莞西站)",
+        "long_name": "Dongguan West Railway Station (东莞西站)",
         "alternate_names": [
           "Dongguanxi Railway Station",
           "Dongguanxi",
@@ -1457,7 +1463,11 @@
         ],
         "line": "dongguanline2",
         "order": 14,
-        "original_city": "dongguan"
+        "original_city": "dongguan",
+        "connections": [
+          "Dongguan",
+          "Dongguan (东莞)"
+        ]
       },
       "id": 20015
     },
@@ -3278,7 +3288,7 @@
         "order": 0,
         "original_city": "gz"
       },
-      "id": 90397
+      "id": 90535
     },
     {
       "type": "Feature",
@@ -3518,7 +3528,7 @@
         "order": 8,
         "original_city": "gz"
       },
-      "id": 90398
+      "id": 90542
     },
     {
       "type": "Feature",
@@ -3973,11 +3983,16 @@
           "gwong2zau1dung1zaam6",
           "gwongzaudungzaam",
           "guang zhou dong zhan",
-          "gwong2 zau1 dung1 zaam6"
+          "gwong2 zau1 dung1 zaam6",
+          "Guangzhou East"
         ],
         "line": "gzline1",
         "order": 15,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou East",
+          "Guangzhou East (广州东)"
+        ]
       },
       "id": 90041
     },
@@ -4549,11 +4564,16 @@
           "gwong2zau1dung1zaam6",
           "gwongzaudungzaam",
           "guang zhou dong zhan",
-          "gwong2 zau1 dung1 zaam6"
+          "gwong2 zau1 dung1 zaam6",
+          "Guangzhou East"
         ],
         "line": "gzline11",
         "order": 6,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou East",
+          "Guangzhou East (广州东)"
+        ]
       },
       "id": 90273
     },
@@ -5614,11 +5634,16 @@
           "gwong2zau1baak6wan4zaam6",
           "gwongzaubaakwanzaam",
           "guang zhou bai yun zhan",
-          "gwong2 zau1 baak6 wan4 zaam6"
+          "gwong2 zau1 baak6 wan4 zaam6",
+          "Guangzhou Baiyun"
         ],
         "line": "gzline12",
         "order": 11,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou Baiyun",
+          "Shitan"
+        ]
       },
       "id": 90309
     },
@@ -6906,11 +6931,16 @@
           "gwong2zau1dung1zaam6",
           "gwongzaudungzaam",
           "guang zhou dong zhan",
-          "gwong2 zau1 dung1 zaam6"
+          "gwong2 zau1 dung1 zaam6",
+          "Guangzhou East"
         ],
         "line": "gzline18",
         "order": 8,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou East",
+          "Guangzhou East (广州东)"
+        ]
       },
       "id": 90578
     },
@@ -7022,11 +7052,16 @@
           "gwong2zau1baak6wan4zaam6",
           "gwongzaubaakwanzaam",
           "guang zhou bai yun zhan",
-          "gwong2 zau1 baak6 wan4 zaam6"
+          "gwong2 zau1 baak6 wan4 zaam6",
+          "Guangzhou Baiyun"
         ],
         "line": "gzline24",
         "order": 1,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou Baiyun",
+          "Shitan"
+        ]
       },
       "id": 90582
     },
@@ -8325,63 +8360,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.4786121,
-          23.1932017
-        ]
-      },
-      "properties": {
-        "id": 90387,
-        "name": "Juntai Lu (峻泰路)",
-        "long_name": "Juntai Lu (峻泰路)",
-        "alternate_names": [
-          "Juntai Lu",
-          "峻泰路",
-          "juntailu",
-          "zeon3taai3lou6",
-          "zeontaailou",
-          "jun tai lu",
-          "zeon3 taai3 lou6"
-        ],
-        "line": "gzline21",
-        "order": 19,
-        "original_city": "gz"
-      },
-      "id": 90387
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.4685142,
-          23.1832508
-        ]
-      },
-      "properties": {
-        "id": 90389,
-        "name": "Convention Center (会议中心)",
-        "long_name": "Convention Center (会议中心)",
-        "alternate_names": [
-          "Convention Center",
-          "会议中心",
-          "會議中心",
-          "huiyizhongxin",
-          "wui6ji5zung1sam1",
-          "wuijizungsam",
-          "hui yi zhong xin",
-          "wui6 ji5 zung1 sam1"
-        ],
-        "line": "gzline21",
-        "order": 21,
-        "original_city": "gz"
-      },
-      "id": 90389
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           113.3787824,
           22.9362295
         ]
@@ -8656,11 +8634,16 @@
           "gwong2zau1baak6wan4zaam6",
           "gwongzaubaakwanzaam",
           "guang zhou bai yun zhan",
-          "gwong2 zau1 baak6 wan4 zaam6"
+          "gwong2 zau1 baak6 wan4 zaam6",
+          "Guangzhou Baiyun"
         ],
         "line": "gzline22",
         "order": 10,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou Baiyun",
+          "Shitan"
+        ]
       },
       "id": 90566
     },
@@ -8869,7 +8852,10 @@
         ],
         "line": "gzline3",
         "order": 3,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Dashi East (大石东)"
+        ]
       },
       "id": 90070
     },
@@ -9208,11 +9194,16 @@
           "gwong2zau1dung1zaam6",
           "gwongzaudungzaam",
           "guang zhou dong zhan",
-          "gwong2 zau1 dung1 zaam6"
+          "gwong2 zau1 dung1 zaam6",
+          "Guangzhou East"
         ],
         "line": "gzline3",
         "order": 16,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou East",
+          "Guangzhou East (广州东)"
+        ]
       },
       "id": 90083
     },
@@ -13114,7 +13105,11 @@
         ],
         "line": "gzline8",
         "order": 4,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Guangzhou Baiyun",
+          "Guangzhou Baiyun Railway Station"
+        ]
       },
       "id": 90220
     },
@@ -32411,7 +32406,8 @@
           "A16 station",
           "a16",
           "a16 Station",
-          "a16 station"
+          "a16 station",
+          "A16站"
         ],
         "line": "TML",
         "order": 1,
@@ -35040,7 +35036,13 @@
         ],
         "line": "gzline13",
         "order": 11,
-        "original_city": "gz"
+        "original_city": "gz",
+        "connections": [
+          "Xintang South (新塘南)",
+          "Xintang South",
+          "Guangzhou Xintang (广州新塘)",
+          "Guangzhou Xintang"
+        ]
       },
       "id": 90327
     },
@@ -40074,7 +40076,11 @@
         ],
         "line": "szline3",
         "order": 16,
-        "original_city": "sz"
+        "original_city": "sz",
+        "connections": [
+          "Shenzhen East",
+          "Shenzhen East (深圳东)"
+        ]
       },
       "id": 91077
     },
@@ -42351,7 +42357,11 @@
         ],
         "line": "szline5",
         "order": 28,
-        "original_city": "sz"
+        "original_city": "sz",
+        "connections": [
+          "Shenzhen East",
+          "Shenzhen East (深圳东)"
+        ]
       },
       "id": 91148
     },
@@ -44478,8 +44488,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1113511,
-          22.5684835
+          114.1074,
+          22.5666
         ]
       },
       "properties": {
@@ -49407,7 +49417,11 @@
         ],
         "line": "szline14",
         "order": 3,
-        "original_city": "sz"
+        "original_city": "sz",
+        "connections": [
+          "Shenzhen East",
+          "Shenzhen East (深圳东)"
+        ]
       },
       "id": 91365
     },
@@ -51086,8 +51100,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1113511,
-          22.5684835
+          114.1074,
+          22.5666
         ]
       },
       "properties": {
@@ -58280,13 +58294,4296 @@
           "关闸",
           "Portas do Cerco",
           "guan zha",
-          "gwaan1 zaap6"
+          "gwaan1 zaap6",
+          "Zhuhai (珠海)",
+          "Border Gate (关闸)",
+          "Border Gate (關閘)"
         ],
         "line": "moeast",
         "order": 6,
         "original_city": "macau"
       },
       "id": 91681
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2640375,
+          22.9914143
+        ]
+      },
+      "properties": {
+        "id": 91682,
+        "name": "Guangzhou South (广州南)",
+        "long_name": "广州南 Guangzhou South",
+        "alternate_names": [
+          "Guangzhou South",
+          "Guangzhou South Station",
+          "广州南",
+          "广州南站",
+          "廣州南站",
+          "guang zhou nan zhan",
+          "gwong2 zau1 naam4 zaam6"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91682
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2571916,
+          22.9524868
+        ]
+      },
+      "properties": {
+        "id": 91683,
+        "name": "Bijiang (碧江)",
+        "long_name": "碧江",
+        "alternate_names": [
+          "Bijiang",
+          "碧江",
+          "bi jiang",
+          "bik1 gong1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91683
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.200719392406,
+          22.291253282318
+        ]
+      },
+      "properties": {
+        "id": 91684,
+        "name": "Beijiao (书局街)",
+        "long_name": "書局街 Shu Kuk Street",
+        "alternate_names": [
+          "North Point",
+          "North Point MTR",
+          "North Point MTR Station",
+          "North Point MTR station",
+          "North Point Station",
+          "North-Point",
+          "North-Point-MTR",
+          "North-Point-MTR Station",
+          "North-Point-MTR station",
+          "NorthPoint",
+          "NorthPointMTR",
+          "NorthPointMTR Station",
+          "NorthPointMTR station",
+          "Shu Kuk Street",
+          "Shu Kuk Street Station",
+          "Shu Kuk Street station",
+          "Shu-Kuk-Street",
+          "Shu-Kuk-Street Station",
+          "Shu-Kuk-Street station",
+          "ShuKukStreet",
+          "ShuKukStreet Station",
+          "ShuKukStreet station",
+          "Shūjú jiē",
+          "bak gok",
+          "bak-gok",
+          "bakgok",
+          "bei jiao",
+          "bei-jiao",
+          "beijiao",
+          "north point",
+          "north point mtr",
+          "north point mtr Station",
+          "north point mtr station",
+          "north point station",
+          "north-point-mtr",
+          "north-point-mtr Station",
+          "north-point-mtr station",
+          "northpointmtr",
+          "northpointmtr Station",
+          "northpointmtr station",
+          "shu kuk street",
+          "shu kuk street Station",
+          "shu kuk street station",
+          "shu-kuk-street",
+          "shu-kuk-street Station",
+          "shu-kuk-street station",
+          "shukukstreet",
+          "shukukstreet Station",
+          "shukukstreet station",
+          "syu1 guk6 gaai1",
+          "书局街",
+          "书局街站",
+          "北角",
+          "北角站",
+          "書局街",
+          "書局街站",
+          "shu ju jie zhan",
+          "syu1 guk2 gaai1 zaam6",
+          "Beijiao"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91684
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2899451,
+          22.834765
+        ]
+      },
+      "properties": {
+        "id": 91685,
+        "name": "Shunde (顺德一中)",
+        "long_name": "顺德一中 Shunde No.1 High School",
+        "alternate_names": [
+          "Shunde No.1 High School",
+          "Shunde No.1 High School Station",
+          "顺德一中",
+          "顺德一中站",
+          "順德一中站",
+          "shun de yi zhong zhan",
+          "seon6 dak1 jat1 zung1 zaam6",
+          "Shunde"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91685
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3128817,
+          22.8216171
+        ]
+      },
+      "properties": {
+        "id": 91686,
+        "name": "Shunde College (顺德学院)",
+        "long_name": "Shunde College Railway Station (顺德学院站)",
+        "alternate_names": [
+          "Shunde College Railway Station",
+          "顺德学院站",
+          "順德學院站",
+          "shundexueyuanzhan",
+          "seon6dak1hok6jyun2zaam6",
+          "seondakhokjyunzaam",
+          "shun de xue yuan zhan",
+          "seon6 dak1 hok6 jyun2 zaam6",
+          "Shunde College"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91686
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3071457,
+          22.7539701
+        ]
+      },
+      "properties": {
+        "id": 91687,
+        "name": "Ronggui (容桂)",
+        "long_name": "容桂",
+        "alternate_names": [
+          "Ronggui",
+          "容桂",
+          "rong gui",
+          "jung4 gwai3"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91687
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9194304,
+          22.5403527
+        ]
+      },
+      "properties": {
+        "id": 91688,
+        "name": "Nantou (南头古城)",
+        "long_name": "南头古城 Nantou Ancient City",
+        "alternate_names": [
+          "Nantou Ancient City",
+          "南头古城",
+          "Nantou Ancient City Station",
+          "南头古城站",
+          "南頭古城",
+          "nantougucheng",
+          "naam4tau4gu2sing4",
+          "naamtaugusing",
+          "南頭古城站",
+          "nan tou gu cheng zhan",
+          "naam4 tau4 gu2 sing4 zaam6",
+          "Nantou"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91688
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2645825,
+          22.6505591
+        ]
+      },
+      "properties": {
+        "id": 91689,
+        "name": "Xiaolan (小榄)",
+        "long_name": "小榄",
+        "alternate_names": [
+          "Xiaolan",
+          "小欖",
+          "xiao lan",
+          "siu2 laam5"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91689
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2793078,
+          22.6073119
+        ]
+      },
+      "properties": {
+        "id": 91690,
+        "name": "Dongsheng (东升)",
+        "long_name": "东升",
+        "alternate_names": [
+          "Dongsheng",
+          "東昇",
+          "dong sheng",
+          "dung1 sing1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91690
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3770449,
+          22.5608246
+        ]
+      },
+      "properties": {
+        "id": 91691,
+        "name": "Zhongshan North (中山北)",
+        "long_name": "中山北",
+        "alternate_names": [
+          "Zhongshan North",
+          "中山北",
+          "zhong shan bei",
+          "zung1 saan1 bak1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 9,
+        "original_city": "prdir"
+      },
+      "id": 91691
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4248,
+          22.5485
+        ]
+      },
+      "properties": {
+        "id": 91692,
+        "name": "Zhongshan (中山)",
+        "long_name": "中山 Zhongshan",
+        "alternate_names": [
+          "Zhongshan",
+          "中山",
+          "zung1 saan1",
+          "zhong shan"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91692
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5282463,
+          22.4891049
+        ]
+      },
+      "properties": {
+        "id": 91693,
+        "name": "Nanlang (南朗)",
+        "long_name": "南朗",
+        "alternate_names": [
+          "Nanlang",
+          "南朗",
+          "nan lang",
+          "naam4 long5"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91693
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5409425,
+          22.4419789
+        ]
+      },
+      "properties": {
+        "id": 91694,
+        "name": "Cuiheng (翠亨)",
+        "long_name": "翠亨",
+        "alternate_names": [
+          "Cuiheng",
+          "翠亨",
+          "cui heng",
+          "ceoi3 hang1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 12,
+        "original_city": "prdir"
+      },
+      "id": 91694
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5468823,
+          22.4037481
+        ]
+      },
+      "properties": {
+        "id": 91695,
+        "name": "Zhuhai North (珠海北)",
+        "long_name": "珠海北",
+        "alternate_names": [
+          "Zhuhai North",
+          "珠海北",
+          "zhu hai bei",
+          "zyu1 hoi2 bak1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 13,
+        "original_city": "prdir"
+      },
+      "id": 91695
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5463592,
+          22.3659329
+        ]
+      },
+      "properties": {
+        "id": 91696,
+        "name": "Tangjiawan (唐家湾)",
+        "long_name": "唐家湾",
+        "alternate_names": [
+          "Tangjiawan",
+          "唐家灣",
+          "tang jia wan",
+          "tong4 gaa1 waan1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 14,
+        "original_city": "prdir"
+      },
+      "id": 91696
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5103774,
+          22.2713963
+        ]
+      },
+      "properties": {
+        "id": 91697,
+        "name": "Mingzhu (明珠)",
+        "long_name": "明珠",
+        "alternate_names": [
+          "Mingzhu",
+          "明珠",
+          "ming zhu",
+          "ming4 zyu1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 15,
+        "original_city": "prdir"
+      },
+      "id": 91697
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5205738,
+          22.2373748
+        ]
+      },
+      "properties": {
+        "id": 91698,
+        "name": "Qianshan (前山)",
+        "long_name": "前山",
+        "alternate_names": [
+          "Qianshan",
+          "前山",
+          "qian shan",
+          "cin4 saan1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 16,
+        "original_city": "prdir"
+      },
+      "id": 91698
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5468823,
+          22.4037481
+        ]
+      },
+      "properties": {
+        "id": 91699,
+        "name": "Zhuhai (珠海北)",
+        "long_name": "珠海北",
+        "alternate_names": [
+          "Zhuhai North",
+          "Zhuhai",
+          "珠海北",
+          "zhu hai bei",
+          "zyu1 hoi2 bak1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 17,
+        "original_city": "prdir"
+      },
+      "id": 91699
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5984647,
+          23.1347455
+        ]
+      },
+      "properties": {
+        "id": 91700,
+        "name": "Xintang South (新塘南)",
+        "long_name": "新塘南",
+        "alternate_names": [
+          "Xintang South",
+          "新塘南",
+          "xin tang nan",
+          "san1 tong4 naam4"
+        ],
+        "line": "prdir_suishen",
+        "order": 8,
+        "original_city": "prdir",
+        "connections": [
+          "Xintang (新塘)",
+          "Xintang",
+          "Guangzhou Xintang (广州新塘)",
+          "Guangzhou Xintang"
+        ]
+      },
+      "id": 91700
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6163133,
+          23.0787919
+        ]
+      },
+      "properties": {
+        "id": 91701,
+        "name": "Zhongtang (中堂)",
+        "long_name": "中堂",
+        "alternate_names": [
+          "Zhongtang",
+          "中堂",
+          "zhong tang",
+          "zung1 tong4"
+        ],
+        "line": "prdir_suishen",
+        "order": 9,
+        "original_city": "prdir"
+      },
+      "id": 91701
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6228718,
+          23.0393379
+        ]
+      },
+      "properties": {
+        "id": 91702,
+        "name": "Wangniudun (望牛墩)",
+        "long_name": "望牛墩",
+        "alternate_names": [
+          "Wangniudun",
+          "望牛墩",
+          "wang niu dun",
+          "mong6 ngau4 deon1"
+        ],
+        "line": "prdir_suishen",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91702
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6225441,
+          23.0125273
+        ]
+      },
+      "properties": {
+        "id": 91703,
+        "name": "Dongguan West (东莞西)",
+        "long_name": "东莞西站 Dongguanxi Railway Station",
+        "alternate_names": [
+          "Dongguanxi Railway Station",
+          "Dongguanxi",
+          "Dongguan West",
+          "dongguan xi zhan",
+          "dongguanxi zhan",
+          "dung1 gun2 sai1 zaam6",
+          "东莞西站",
+          "東莞西站",
+          "dongguanxizhan",
+          "dung1gun2sai1zaam6",
+          "dunggunsaizaam",
+          "dong guan xi zhan"
+        ],
+        "line": "prdir_suishen",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91703
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6126852,
+          22.9831739
+        ]
+      },
+      "properties": {
+        "id": 91704,
+        "name": "Hongmei (洪梅)",
+        "long_name": "洪梅",
+        "alternate_names": [
+          "Hongmei",
+          "洪梅",
+          "hong mei",
+          "hung4 mui4"
+        ],
+        "line": "prdir_suishen",
+        "order": 12,
+        "original_city": "prdir"
+      },
+      "id": 91704
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6061726,
+          22.9106447
+        ]
+      },
+      "properties": {
+        "id": 91705,
+        "name": "Dongguan Port (东莞港)",
+        "long_name": "东莞港",
+        "alternate_names": [
+          "Dongguan Port",
+          "東莞港",
+          "dong guan gang",
+          "dung1 gun2 gong2"
+        ],
+        "line": "prdir_suishen",
+        "order": 13,
+        "original_city": "prdir"
+      },
+      "id": 91705
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6455825,
+          22.9005046
+        ]
+      },
+      "properties": {
+        "id": 91706,
+        "name": "Houjie (厚街)",
+        "long_name": "厚街",
+        "alternate_names": [
+          "Houjie",
+          "厚街",
+          "hou jie",
+          "hau6 gaai1"
+        ],
+        "line": "prdir_suishen",
+        "order": 14,
+        "original_city": "prdir"
+      },
+      "id": 91706
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6665058,
+          22.8618715
+        ]
+      },
+      "properties": {
+        "id": 91707,
+        "name": "Humen North (虎门北)",
+        "long_name": "虎门北",
+        "alternate_names": [
+          "Humen North",
+          "虎門北",
+          "hu men bei",
+          "fu2 mun4 bak1"
+        ],
+        "line": "prdir_suishen",
+        "order": 15,
+        "original_city": "prdir"
+      },
+      "id": 91707
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6883564,
+          22.8313929
+        ]
+      },
+      "properties": {
+        "id": 91708,
+        "name": "Humen East (虎门东)",
+        "long_name": "虎门东",
+        "alternate_names": [
+          "Humen East",
+          "虎門東",
+          "hu men dong",
+          "fu2 mun4 dung1"
+        ],
+        "line": "prdir_suishen",
+        "order": 16,
+        "original_city": "prdir"
+      },
+      "id": 91708
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7240824,
+          22.7882761
+        ]
+      },
+      "properties": {
+        "id": 91709,
+        "name": "Chang'an West (长安西)",
+        "long_name": "长安西",
+        "alternate_names": [
+          "Chang'an West",
+          "長安西",
+          "chang an xi",
+          "coeng4 on1 sai1"
+        ],
+        "line": "prdir_suishen",
+        "order": 17,
+        "original_city": "prdir"
+      },
+      "id": 91709
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7240824,
+          22.7882761
+        ]
+      },
+      "properties": {
+        "id": 91710,
+        "name": "Chang'an (长安)",
+        "long_name": "Chang'an (长安)",
+        "alternate_names": [
+          "Chang'an",
+          "Chang’an",
+          "长安",
+          "長安",
+          "chang an",
+          "coeng4 on1"
+        ],
+        "line": "prdir_suishen",
+        "order": 18,
+        "original_city": "prdir"
+      },
+      "id": 91710
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7882189,
+          22.7363592
+        ]
+      },
+      "properties": {
+        "id": 91711,
+        "name": "Shajing West (沙井西)",
+        "long_name": "沙井西",
+        "alternate_names": [
+          "Shajing West",
+          "沙井西",
+          "sha jing xi",
+          "saa1 zeng2 sai1"
+        ],
+        "line": "prdir_suishen",
+        "order": 19,
+        "original_city": "prdir"
+      },
+      "id": 91711
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7844909,
+          22.6928022
+        ]
+      },
+      "properties": {
+        "id": 91712,
+        "name": "Fuhai West (福海西)",
+        "long_name": "福海西 Fuhai West",
+        "alternate_names": [
+          "Fuhai West",
+          "福海西",
+          "Fuhai West Station",
+          "福海西站",
+          "fuhaixi",
+          "fuk1hoi2sai1",
+          "fukhoisai",
+          "fu hai xi zhan",
+          "fuk1 hoi2 sai1 zaam6"
+        ],
+        "line": "prdir_suishen",
+        "order": 20,
+        "original_city": "prdir"
+      },
+      "id": 91712
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7926164,
+          22.653813
+        ]
+      },
+      "properties": {
+        "id": 91713,
+        "name": "Shenzhen Airport North (深圳机场北)",
+        "long_name": "深圳机场北",
+        "alternate_names": [
+          "Shenzhen Airport North",
+          "深圳機場北",
+          "shen zhen ji chang bei",
+          "sam1 zan3 gei1 coeng4 bak1"
+        ],
+        "line": "prdir_suishen",
+        "order": 21,
+        "original_city": "prdir"
+      },
+      "id": 91713
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8059,
+          22.6243
+        ]
+      },
+      "properties": {
+        "id": 91714,
+        "name": "Shenzhen Airport (深圳机场)",
+        "long_name": "Shenzhen Airport (深圳机场)",
+        "alternate_names": [
+          "Shenzhen Airport North",
+          "Shenzhen Airport",
+          "深圳機場",
+          "shen zhen ji chang",
+          "sam1 zan3 gei1 coeng4"
+        ],
+        "line": "prdir_suishen",
+        "order": 22,
+        "original_city": "prdir"
+      },
+      "id": 91714
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8549,
+          22.5873
+        ]
+      },
+      "properties": {
+        "id": 91715,
+        "name": "Xixiang (西乡)",
+        "long_name": "西乡 Xixiang",
+        "alternate_names": [
+          "Xixiang",
+          "西乡",
+          "Xixiang Station",
+          "西乡站",
+          "西鄉",
+          "xixiang",
+          "sai1hoeng1",
+          "saihoeng",
+          "西鄉站",
+          "xi xiang zhan",
+          "sai1 hoeng1 zaam6"
+        ],
+        "line": "prdir_suishen",
+        "order": 23,
+        "original_city": "prdir"
+      },
+      "id": 91715
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8848,
+          22.5635
+        ]
+      },
+      "properties": {
+        "id": 91716,
+        "name": "Bao'an (宝安)",
+        "long_name": "宝安 Bao’an",
+        "alternate_names": [
+          "Bao’an",
+          "宝安",
+          "Bao’an Station",
+          "宝安站",
+          "寶安",
+          "baoan",
+          "bou2on1",
+          "bouon",
+          "寶安站",
+          "bao an zhan",
+          "bou2 on1 zaam6",
+          "Bao'an",
+          "Fanshen",
+          "Fan Shen",
+          "翻身"
+        ],
+        "line": "prdir_suishen",
+        "order": 24,
+        "original_city": "prdir"
+      },
+      "id": 91716
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8912,
+          22.5381
+        ]
+      },
+      "properties": {
+        "id": 91717,
+        "name": "Qianhai (前海)",
+        "long_name": "Qianhai (前海)",
+        "alternate_names": [
+          "Qianhaiwan",
+          "前海湾",
+          "Qianhaiwan Station",
+          "前海湾站",
+          "前海灣",
+          "qianhaiwan",
+          "cin4hoi2waan1",
+          "cinhoiwaan",
+          "前海灣站",
+          "qian hai wan zhan",
+          "cin4 hoi2 waan1 zaam6",
+          "Qianhai"
+        ],
+        "line": "prdir_suishen",
+        "order": 25,
+        "original_city": "prdir"
+      },
+      "id": 91717
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9699,
+          22.5229
+        ]
+      },
+      "properties": {
+        "id": 91718,
+        "name": "Chaojizongbu (超级总部)",
+        "long_name": "超级总部",
+        "alternate_names": [
+          "Chaojizongbu",
+          "超級總部",
+          "chao ji zong bu",
+          "ciu1 kap1 zung2 bou6"
+        ],
+        "line": "prdir_suishen",
+        "order": 26,
+        "original_city": "prdir"
+      },
+      "id": 91718
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0711,
+          22.525
+        ]
+      },
+      "properties": {
+        "id": 91719,
+        "name": "Huanggang Checkpoint (皇岗口岸)",
+        "long_name": "皇岗口岸 Huanggang Checkpoint",
+        "alternate_names": [
+          "Huanggang Checkpoint",
+          "皇岗口岸",
+          "Huanggang Checkpoint Station",
+          "皇岗口岸站",
+          "皇崗口岸",
+          "huanggangkouan",
+          "wong4gong1hau2ngon6",
+          "wonggonghaungon",
+          "皇崗口岸站",
+          "huang gang kou an zhan",
+          "wong4 gong1 hau2 ngon6 zaam6"
+        ],
+        "line": "prdir_suishen",
+        "order": 27,
+        "original_city": "prdir"
+      },
+      "id": 91719
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.529214,
+          22.1979405
+        ]
+      },
+      "properties": {
+        "id": 91721,
+        "name": "Wanzai North (湾仔北)",
+        "long_name": "湾仔北",
+        "alternate_names": [
+          "Wanzai North",
+          "灣仔北",
+          "wan zai bei",
+          "waan1 zai2 bak1"
+        ],
+        "line": "prdir_zhuji",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91721
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5156668,
+          22.1755776
+        ]
+      },
+      "properties": {
+        "id": 91722,
+        "name": "Shizimen (十字门)",
+        "long_name": "十字门",
+        "alternate_names": [
+          "Shizimen",
+          "十字門",
+          "shi zi men",
+          "sap6 zi6 mun4"
+        ],
+        "line": "prdir_zhuji",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91722
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5396,
+          22.141
+        ]
+      },
+      "properties": {
+        "id": 91723,
+        "name": "Hengqin (橫琴)",
+        "long_name": "Hengqin (橫琴)",
+        "alternate_names": [
+          "Hengqin",
+          "Hengqin Station",
+          "橫琴",
+          "横琴",
+          "Posto Fronteiriço Hengqin",
+          "Héngqín",
+          "waang4 kam4",
+          "heng qin"
+        ],
+        "line": "prdir_zhuji",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91723
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5360576,
+          22.1071541
+        ]
+      },
+      "properties": {
+        "id": 91724,
+        "name": "Zhuhai Changlong (珠海长隆)",
+        "long_name": "珠海长隆",
+        "alternate_names": [
+          "Zhuhai Changlong",
+          "珠海長隆",
+          "zhu hai chang long",
+          "zyu1 hoi2 coeng4 lung4"
+        ],
+        "line": "prdir_zhuji",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91724
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3982977,
+          22.0425666
+        ]
+      },
+      "properties": {
+        "id": 91725,
+        "name": "Sanzao East (三灶东)",
+        "long_name": "三灶东",
+        "alternate_names": [
+          "Sanzao East",
+          "三灶東",
+          "san zao dong",
+          "saam1 zou3 dung1"
+        ],
+        "line": "prdir_zhuji",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91725
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3724,
+          22.0152
+        ]
+      },
+      "properties": {
+        "id": 91726,
+        "name": "Zhuhai Airport (横琴)",
+        "long_name": "横琴",
+        "alternate_names": [
+          "Zhuhai Airport",
+          "橫琴",
+          "heng qin",
+          "waang4 kam4"
+        ],
+        "line": "prdir_zhuji",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91726
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2702,
+          22.9924
+        ]
+      },
+      "properties": {
+        "id": 91727,
+        "name": "Panyu (番禺)",
+        "long_name": "Panyu (番禺)",
+        "alternate_names": [
+          "Panyu Square",
+          "番禺",
+          "番禺廣場",
+          "panyuguangchang",
+          "pun1jyu4gwong2coeng4",
+          "punjyugwongcoeng",
+          "pan yu guang chang",
+          "pun1 jyu4 gwong2 coeng4",
+          "Panyu",
+          "Guangzhou South",
+          "Guangzhou South Railway Station",
+          "广州南",
+          "广州南站",
+          "廣州南站"
+        ],
+        "line": "prdir_guanghui",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91727
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3248275,
+          22.9926925
+        ]
+      },
+      "properties": {
+        "id": 91728,
+        "name": "Guangzhou Changlong (广州长隆)",
+        "long_name": "广州长隆",
+        "alternate_names": [
+          "Guangzhou Changlong",
+          "Hanxi Changlong",
+          "汉溪长隆",
+          "漢溪長隆",
+          "廣州長隆",
+          "guang zhou zhang long",
+          "gwong2 zau1 zoeng2 lung4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91728
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3604784,
+          22.9768441
+        ]
+      },
+      "properties": {
+        "id": 91729,
+        "name": "Donghuan (东环)",
+        "long_name": "东环",
+        "alternate_names": [
+          "Donghuan",
+          "東環",
+          "dong huan",
+          "dung1 waan4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91729
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.439353,
+          22.9847281
+        ]
+      },
+      "properties": {
+        "id": 91730,
+        "name": "Guanqiao North (官桥北)",
+        "long_name": "官桥北",
+        "alternate_names": [
+          "Guanqiao North",
+          "Guanqiao",
+          "官桥",
+          "官橋",
+          "官橋北",
+          "guan qiao bei",
+          "gun1 kiu4 bak1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91730
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4868,
+          23.0053
+        ]
+      },
+      "properties": {
+        "id": 91731,
+        "name": "Guangzhou Lianhuashan (广州莲花山)",
+        "long_name": "Guangzhou Lianhuashan (广州莲花山)",
+        "alternate_names": [
+          "Lotus",
+          "Lotus Station",
+          "蓮花",
+          "莲花",
+          "Lótus",
+          "Lotus — Hengqin Line",
+          "Liánhuā",
+          "Lianhua",
+          "lin4 faa1",
+          "lian hua",
+          "Guangzhou Lianhuashan",
+          "广州莲花山",
+          "廣州蓮花山",
+          "guang zhou lian hua shan",
+          "gwong2 zau1 lin4 faa1 saan1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91731
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5689013,
+          23.0232104
+        ]
+      },
+      "properties": {
+        "id": 91732,
+        "name": "Machong (麻涌)",
+        "long_name": "麻涌",
+        "alternate_names": [
+          "Machong",
+          "麻涌",
+          "ma yong",
+          "maa4 cung1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91732
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6225441,
+          23.0125273
+        ]
+      },
+      "properties": {
+        "id": 91733,
+        "name": "Dongguan West (东莞西)",
+        "long_name": "东莞西站 Dongguanxi Railway Station",
+        "alternate_names": [
+          "Dongguanxi Railway Station",
+          "Dongguanxi",
+          "Dongguan West",
+          "dongguan xi zhan",
+          "dongguanxi zhan",
+          "dung1 gun2 sai1 zaam6",
+          "东莞西站",
+          "東莞西站",
+          "dongguanxizhan",
+          "dung1gun2sai1zaam6",
+          "dunggunsaizaam",
+          "dong guan xi zhan"
+        ],
+        "line": "prdir_guanghui",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91733
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6537851,
+          22.9937567
+        ]
+      },
+      "properties": {
+        "id": 91734,
+        "name": "Daojiao (道滘)",
+        "long_name": "道滘",
+        "alternate_names": [
+          "Daojiao",
+          "道滘",
+          "dao jiao",
+          "dou6 gaau3"
+        ],
+        "line": "prdir_guanghui",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91734
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.741339,
+          22.996826
+        ]
+      },
+      "properties": {
+        "id": 91735,
+        "name": "Xiping West (西平西)",
+        "long_name": "Xiping West (西平西)",
+        "alternate_names": [
+          "Xiping",
+          "Xiping Station",
+          "西平",
+          "xiping",
+          "sai1 ping4",
+          "sai1ping4",
+          "saiping",
+          "xi ping",
+          "sai1 peng4",
+          "Xiping West",
+          "西平西",
+          "xi ping xi",
+          "sai1 peng4 sai1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91735
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7699274,
+          22.9902055
+        ]
+      },
+      "properties": {
+        "id": 91736,
+        "name": "Dongcheng South (东城南)",
+        "long_name": "东城南",
+        "alternate_names": [
+          "Dongcheng South",
+          "東城南",
+          "dong cheng nan",
+          "dung1 sing4 naam4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 9,
+        "original_city": "prdir",
+        "names": [
+          "Dongcheng South",
+          "Dongcheng South Railway Station"
+        ],
+        "connections": [
+          "Dongcheng South Railway Station"
+        ]
+      },
+      "id": 91736
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8463214,
+          22.992013
+        ]
+      },
+      "properties": {
+        "id": 91737,
+        "name": "Liaobu (寮步)",
+        "long_name": "寮步",
+        "alternate_names": [
+          "Liaobu",
+          "寮步",
+          "liao bu",
+          "liu4 bou6"
+        ],
+        "line": "prdir_guanghui",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91737
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8920806,
+          22.9611685
+        ]
+      },
+      "properties": {
+        "id": 91738,
+        "name": "Songshanhu North (松山湖北)",
+        "long_name": "松山湖北",
+        "alternate_names": [
+          "Songshanhu North",
+          "松山湖北",
+          "song shan hu bei",
+          "cung4 saan1 wu4 bak1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91738
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9437471,
+          22.9570397
+        ]
+      },
+      "properties": {
+        "id": 91739,
+        "name": "Dalang Town (大朗镇)",
+        "long_name": "大朗镇",
+        "alternate_names": [
+          "Dalang Town",
+          "大朗鎮",
+          "da lang zhen",
+          "daai6 long5 zan3"
+        ],
+        "line": "prdir_guanghui",
+        "order": 12,
+        "original_city": "prdir"
+      },
+      "id": 91739
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9979563,
+          22.9752531
+        ]
+      },
+      "properties": {
+        "id": 91740,
+        "name": "Changping South (常平南)",
+        "long_name": "常平南",
+        "alternate_names": [
+          "Changping South",
+          "常平南",
+          "chang ping nan",
+          "soeng4 peng4 naam4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 13,
+        "original_city": "prdir"
+      },
+      "id": 91740
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0354609,
+          22.9650597
+        ]
+      },
+      "properties": {
+        "id": 91741,
+        "name": "Changping East (常平东)",
+        "long_name": "常平东",
+        "alternate_names": [
+          "Changping East",
+          "常平東",
+          "chang ping dong",
+          "soeng4 peng4 dung1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 14,
+        "original_city": "prdir"
+      },
+      "id": 91741
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1001335,
+          22.9607253
+        ]
+      },
+      "properties": {
+        "id": 91742,
+        "name": "Zhangmutou East (樟木头东)",
+        "long_name": "樟木头东",
+        "alternate_names": [
+          "Zhangmutou East",
+          "樟木頭東",
+          "zhang mu tou dong",
+          "zoeng1 muk6 tau4 dung1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 15,
+        "original_city": "prdir"
+      },
+      "id": 91742
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1515158,
+          22.9692197
+        ]
+      },
+      "properties": {
+        "id": 91743,
+        "name": "Yinping (银瓶)",
+        "long_name": "银瓶",
+        "alternate_names": [
+          "Yinping",
+          "銀瓶",
+          "yin ping",
+          "ngan4 ping4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 16,
+        "original_city": "prdir"
+      },
+      "id": 91743
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2248548,
+          22.98177
+        ]
+      },
+      "properties": {
+        "id": 91744,
+        "name": "Lilin North (沥林北)",
+        "long_name": "沥林北",
+        "alternate_names": [
+          "Lilin North",
+          "瀝林北",
+          "li lin bei",
+          "lik6 lam4 bak1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 17,
+        "original_city": "prdir"
+      },
+      "id": 91744
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3218713,
+          23.0087456
+        ]
+      },
+      "properties": {
+        "id": 91745,
+        "name": "Chenjiang South (陈江南)",
+        "long_name": "陈江南",
+        "alternate_names": [
+          "Chenjiang South",
+          "陳江南",
+          "chen jiang nan",
+          "can4 gong1 naam4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 18,
+        "original_city": "prdir"
+      },
+      "id": 91745
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3610058,
+          23.0326635
+        ]
+      },
+      "properties": {
+        "id": 91746,
+        "name": "Huihuan (惠环)",
+        "long_name": "惠环",
+        "alternate_names": [
+          "Huihuan",
+          "惠環",
+          "hui huan",
+          "wai6 waan4"
+        ],
+        "line": "prdir_guanghui",
+        "order": 19,
+        "original_city": "prdir"
+      },
+      "id": 91746
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3896876,
+          23.06593
+        ]
+      },
+      "properties": {
+        "id": 91747,
+        "name": "Longfeng (龙丰)",
+        "long_name": "龙丰",
+        "alternate_names": [
+          "Longfeng",
+          "龍豐",
+          "long feng",
+          "lung4 fung1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 20,
+        "original_city": "prdir"
+      },
+      "id": 91747
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3958371,
+          23.0890524
+        ]
+      },
+      "properties": {
+        "id": 91748,
+        "name": "Xihu East (西湖东)",
+        "long_name": "西湖东",
+        "alternate_names": [
+          "Xihu East",
+          "西湖東",
+          "xi hu dong",
+          "sai1 wu4 dung1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 21,
+        "original_city": "prdir"
+      },
+      "id": 91748
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4125411,
+          23.1126949
+        ]
+      },
+      "properties": {
+        "id": 91749,
+        "name": "Yunshan (云山)",
+        "long_name": "云山",
+        "alternate_names": [
+          "Yunshan",
+          "雲山",
+          "yun shan",
+          "wan4 saan1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 22,
+        "original_city": "prdir"
+      },
+      "id": 91749
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4132051,
+          23.1543456
+        ]
+      },
+      "properties": {
+        "id": 91750,
+        "name": "Xiaojinkou (小金口)",
+        "long_name": "小金口",
+        "alternate_names": [
+          "Xiaojinkou",
+          "小金口",
+          "xiao jin kou",
+          "siu2 gam1 hau2"
+        ],
+        "line": "prdir_guanghui",
+        "order": 23,
+        "original_city": "prdir"
+      },
+      "id": 91750
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3752592,
+          23.1828713
+        ]
+      },
+      "properties": {
+        "id": 91751,
+        "name": "Huizhou North (惠州北)",
+        "long_name": "惠州北",
+        "alternate_names": [
+          "Huizhou North",
+          "惠州北",
+          "hui zhou bei",
+          "wai6 zau1 bak1"
+        ],
+        "line": "prdir_guanghui",
+        "order": 24,
+        "original_city": "prdir"
+      },
+      "id": 91751
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2702,
+          22.9924
+        ]
+      },
+      "properties": {
+        "id": 91752,
+        "name": "Panyu (番禺)",
+        "long_name": "Panyu (番禺)",
+        "alternate_names": [
+          "Panyu Square",
+          "番禺",
+          "番禺廣場",
+          "panyuguangchang",
+          "pun1jyu4gwong2coeng4",
+          "punjyugwongcoeng",
+          "pan yu guang chang",
+          "pun1 jyu4 gwong2 coeng4",
+          "Panyu"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91752
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2315806,
+          22.9707566
+        ]
+      },
+      "properties": {
+        "id": 91753,
+        "name": "Chencun (陈村)",
+        "long_name": "Chencun (陈村)",
+        "alternate_names": [
+          "Chencun",
+          "陈村",
+          "陳村",
+          "chencun",
+          "can4cyun1",
+          "cancyun",
+          "chen cun",
+          "can4 cyun1"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91753
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1727839,
+          22.9547553
+        ]
+      },
+      "properties": {
+        "id": 91754,
+        "name": "Beijiao West (北滘西)",
+        "long_name": "Beijiao West Railway Station (北滘西站)",
+        "alternate_names": [
+          "Beijiao West Railway Station",
+          "北滘西站",
+          "beijiaoxizhan",
+          "bak1gaau3sai1zaam6",
+          "bakgaausaizaam",
+          "bei jiao xi zhan",
+          "bak1 gaau3 sai1 zaam6",
+          "Beijiao West"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91754
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1236856,
+          22.9677025
+        ]
+      },
+      "properties": {
+        "id": 91755,
+        "name": "Shunde North (东平)",
+        "long_name": "Dongping (东平)",
+        "alternate_names": [
+          "Dongping",
+          "东平",
+          "東平",
+          "dongping",
+          "dung1ping4",
+          "dungping",
+          "dong ping",
+          "dung1 peng4",
+          "Shunde North"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91755
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0625491,
+          23.0136445
+        ]
+      },
+      "properties": {
+        "id": 91756,
+        "name": "Zhangcha (张槎)",
+        "long_name": "Zhangcha (张槎)",
+        "alternate_names": [
+          "Zhangcha",
+          "张槎",
+          "張槎",
+          "zhangcha",
+          "zoeng1caa4",
+          "zoengcaa",
+          "zhang cha",
+          "zoeng1 caa4"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91756
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0280719,
+          23.0823919
+        ]
+      },
+      "properties": {
+        "id": 91757,
+        "name": "Foshan West (佛山西)",
+        "long_name": "Foshan West Railway Station (佛山西站)",
+        "alternate_names": [
+          "Foshan West Railway Station",
+          "佛山西站",
+          "foshanxizhan",
+          "fat6saan1sai1zaam6",
+          "fatsaansaizaam",
+          "fo shan xi zhan",
+          "fat6 saan1 sai1 zaam6",
+          "Foshan West"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91757
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20026760050594,
+          22.340287925682947
+        ]
+      },
+      "properties": {
+        "id": 91758,
+        "name": "Shishan (鑽石山)",
+        "long_name": "鑽石山 Diamond Hill",
+        "alternate_names": [
+          "Diamond Hill",
+          "Diamond Hill Station",
+          "Diamond-Hill",
+          "DiamondHill",
+          "diamond hill",
+          "diamond hill station",
+          "zuan shi shan",
+          "zuan-shi-shan",
+          "zuanshishan",
+          "zyun sek saan",
+          "zyun-sek-saan",
+          "zyunseksaan",
+          "鑽石山",
+          "鑽石山站",
+          "钻石山",
+          "钻石山站",
+          "zuan shi shan zhan",
+          "zyun3 sek6 saan1 zaam6",
+          "Shishan"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91758
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.9660265,
+          23.1563568
+        ]
+      },
+      "properties": {
+        "id": 91759,
+        "name": "Shishan North (狮山北)",
+        "long_name": "狮山北",
+        "alternate_names": [
+          "Shishan North",
+          "獅山北",
+          "shi shan bei",
+          "si1 saan1 bak1"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91759
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.9135497,
+          23.187404
+        ]
+      },
+      "properties": {
+        "id": 91760,
+        "name": "Sanshui North (三水北)",
+        "long_name": "三水北",
+        "alternate_names": [
+          "Sanshui North",
+          "三水北",
+          "san shui bei",
+          "saam1 seoi2 bak1"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91760
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.8405188,
+          23.2205097
+        ]
+      },
+      "properties": {
+        "id": 91761,
+        "name": "Yundonghai (云东海)",
+        "long_name": "云东海",
+        "alternate_names": [
+          "Yundonghai",
+          "雲東海",
+          "yun dong hai",
+          "wan4 dung1 hoi2"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 9,
+        "original_city": "prdir"
+      },
+      "id": 91761
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.8071078,
+          23.2563323
+        ]
+      },
+      "properties": {
+        "id": 91762,
+        "name": "Dawang (大旺)",
+        "long_name": "大旺",
+        "alternate_names": [
+          "Dawang",
+          "大旺",
+          "da wang",
+          "daai6 wong6"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91762
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7493259,
+          23.2731227
+        ]
+      },
+      "properties": {
+        "id": 91763,
+        "name": "Sihui (四会)",
+        "long_name": "四会",
+        "alternate_names": [
+          "Sihui",
+          "四會",
+          "si hui",
+          "sei3 wui5"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91763
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.654978,
+          23.2166847
+        ]
+      },
+      "properties": {
+        "id": 91764,
+        "name": "Dinghu East (鼎湖东)",
+        "long_name": "鼎湖东",
+        "alternate_names": [
+          "Dinghu East",
+          "鼎湖東",
+          "ding hu dong",
+          "ding2 wu4 dung1"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 12,
+        "original_city": "prdir"
+      },
+      "id": 91764
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5819817,
+          23.1766514
+        ]
+      },
+      "properties": {
+        "id": 91765,
+        "name": "Dinghushan (鼎湖山)",
+        "long_name": "鼎湖山",
+        "alternate_names": [
+          "Dinghushan",
+          "鼎湖山",
+          "ding hu shan",
+          "ding2 wu4 saan1"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 13,
+        "original_city": "prdir"
+      },
+      "id": 91765
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5083491,
+          23.1133832
+        ]
+      },
+      "properties": {
+        "id": 91766,
+        "name": "Duanzhou (端州)",
+        "long_name": "端州",
+        "alternate_names": [
+          "Duanzhou",
+          "端州",
+          "duan zhou",
+          "dyun1 zau1"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 14,
+        "original_city": "prdir"
+      },
+      "id": 91766
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4458361,
+          23.0847101
+        ]
+      },
+      "properties": {
+        "id": 91767,
+        "name": "Zhaoqing (肇庆)",
+        "long_name": "肇庆",
+        "alternate_names": [
+          "Zhaoqing",
+          "肇慶",
+          "zhao qing",
+          "siu6 hing3"
+        ],
+        "line": "prdir_guangzhao",
+        "order": 15,
+        "original_city": "prdir"
+      },
+      "id": 91767
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0794,
+          23.744
+        ]
+      },
+      "properties": {
+        "id": 91768,
+        "name": "Feixia (飞霞)",
+        "long_name": "Feixia (飞霞)",
+        "alternate_names": [
+          "Feixiang Park",
+          "飞霞",
+          "飛翔公園",
+          "feixianggongyuan",
+          "fei1coeng4gung1jyun2",
+          "feicoenggungjyun",
+          "fei xiang gong yuan",
+          "fei1 coeng4 gung1 jyun2",
+          "Feixia"
+        ],
+        "line": "prdir_guangqing",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91768
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1277274,
+          23.6953057
+        ]
+      },
+      "properties": {
+        "id": 91769,
+        "name": "Zhouxin (洲心)",
+        "long_name": "洲心",
+        "alternate_names": [
+          "Zhouxin",
+          "洲心",
+          "zhou xin",
+          "zau1 sam1"
+        ],
+        "line": "prdir_guangqing",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91769
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0842547,
+          23.6727957
+        ]
+      },
+      "properties": {
+        "id": 91770,
+        "name": "Yanhu (燕湖)",
+        "long_name": "燕湖",
+        "alternate_names": [
+          "Yanhu",
+          "燕湖",
+          "yan hu",
+          "jin3 wu4"
+        ],
+        "line": "prdir_guangqing",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91770
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0607505,
+          23.6560817
+        ]
+      },
+      "properties": {
+        "id": 91771,
+        "name": "Qingcheng (清城)",
+        "long_name": "清城",
+        "alternate_names": [
+          "Qingcheng",
+          "清城",
+          "qing cheng",
+          "cing1 sing4"
+        ],
+        "line": "prdir_guangqing",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91771
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0785404,
+          23.6086625
+        ]
+      },
+      "properties": {
+        "id": 91772,
+        "name": "Longtangzhen (龙塘镇)",
+        "long_name": "龙塘镇",
+        "alternate_names": [
+          "Longtangzhen",
+          "龍塘鎮",
+          "long tang zhen",
+          "lung4 tong4 zan3"
+        ],
+        "line": "prdir_guangqing",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91772
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1247,
+          23.552
+        ]
+      },
+      "properties": {
+        "id": 91773,
+        "name": "Yinzhan (银盏)",
+        "long_name": "Yinzhan (银盏)",
+        "alternate_names": [
+          "Yinzhan",
+          "银盏",
+          "銀盞",
+          "yin zhan",
+          "ngan4 zaan2"
+        ],
+        "line": "prdir_guangqing",
+        "order": 5,
+        "original_city": "prdir",
+        "connections": [
+          "Qingyuan Chimelong (清远长隆)",
+          "Qingyuan Chimelong"
+        ]
+      },
+      "id": 91773
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2801067,
+          23.1293267
+        ]
+      },
+      "properties": {
+        "id": 91774,
+        "name": "Shiling (狮岭)",
+        "long_name": "Shiling (狮岭)",
+        "alternate_names": [
+          "Martyrs' Park",
+          "狮岭",
+          "烈士陵園",
+          "lieshilingyuan",
+          "lit6si6ling4jyun4",
+          "litsilingjyun",
+          "lie shi ling yuan",
+          "lit6 si6 ling4 jyun4",
+          "Shiling"
+        ],
+        "line": "prdir_guangqing",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91774
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1698218,
+          23.4261529
+        ]
+      },
+      "properties": {
+        "id": 91775,
+        "name": "Letong (乐同)",
+        "long_name": "乐同",
+        "alternate_names": [
+          "Letong",
+          "樂同",
+          "le tong",
+          "lok6 tung4"
+        ],
+        "line": "prdir_guangqing",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91775
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1974,
+          23.3799
+        ]
+      },
+      "properties": {
+        "id": 91776,
+        "name": "Huadu (花都)",
+        "long_name": "Huadu (花都)",
+        "alternate_names": [
+          "Huadu Auto City",
+          "花都",
+          "花都汽車城",
+          "huadouqichecheng",
+          "faa1dou1hei3ce1sing4",
+          "faadouheicesing",
+          "hua dou qi che cheng",
+          "faa1 dou1 hei3 ce1 sing4",
+          "Huadu",
+          "hua dou qi ju cheng"
+        ],
+        "line": "prdir_guangqing",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91776
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2252,
+          23.3286
+        ]
+      },
+      "properties": {
+        "id": 91777,
+        "name": "Shenshan (神山)",
+        "long_name": "Shenshan (神山)",
+        "alternate_names": [
+          "Shenshandong",
+          "神山",
+          "san4 saan1 dung1",
+          "shen shan dong",
+          "神山東",
+          "Shenshan"
+        ],
+        "line": "prdir_guangqing",
+        "order": 9,
+        "original_city": "prdir"
+      },
+      "id": 91777
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2179,
+          23.2793
+        ]
+      },
+      "properties": {
+        "id": 91778,
+        "name": "Jianggao (江高)",
+        "long_name": "江高 Jianggao",
+        "alternate_names": [
+          "Jianggao",
+          "Jianggao Station",
+          "江高",
+          "江高站",
+          "jiang gao zhan",
+          "gong1 gou1 zaam6"
+        ],
+        "line": "prdir_guangqing",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91778
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2334045,
+          23.2272295
+        ]
+      },
+      "properties": {
+        "id": 91779,
+        "name": "Baiyunhu (白云湖)",
+        "long_name": "白云湖",
+        "alternate_names": [
+          "Baiyunhu",
+          "白雲湖",
+          "bai yun hu",
+          "baak6 wan4 wu4"
+        ],
+        "line": "prdir_guangqing",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91779
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2425587,
+          23.1951004
+        ]
+      },
+      "properties": {
+        "id": 91780,
+        "name": "Guangzhou Baiyun (广州白云)",
+        "long_name": "Guangzhou Baiyun Railway Station (广州白云站)",
+        "alternate_names": [
+          "Guangzhou Baiyun Railway Station",
+          "广州白云站",
+          "廣州白雲站",
+          "guangzhoubaiyunzhan",
+          "gwong2zau1baak6wan4zaam6",
+          "gwongzaubaakwanzaam",
+          "guang zhou bai yun zhan",
+          "gwong2 zau1 baak6 wan4 zaam6",
+          "Guangzhou Baiyun"
+        ],
+        "line": "prdir_guangqing",
+        "order": 12,
+        "original_city": "prdir",
+        "connections": [
+          "Guangzhou Baiyun Railway Station",
+          "Shitan"
+        ]
+      },
+      "id": 91780
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1974,
+          23.3799
+        ]
+      },
+      "properties": {
+        "id": 91782,
+        "name": "Huadu (花都)",
+        "long_name": "Huadu (花都)",
+        "alternate_names": [
+          "Huadu Auto City",
+          "花都",
+          "花都汽車城",
+          "huadouqichecheng",
+          "faa1dou1hei3ce1sing4",
+          "faadouheicesing",
+          "hua dou qi che cheng",
+          "faa1 dou1 hei3 ce1 sing4",
+          "Huadu",
+          "hua dou qi ju cheng"
+        ],
+        "line": "prdir_guangforing",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91782
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2295,
+          23.4281
+        ]
+      },
+      "properties": {
+        "id": 91783,
+        "name": "Huachengjie (花城街)",
+        "long_name": "花城街 Huachengjie",
+        "alternate_names": [
+          "Huachengjie",
+          "花城街",
+          "faa1 sing4 gaai1",
+          "hua cheng jie"
+        ],
+        "line": "prdir_guangforing",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91783
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2632333,
+          23.4280279
+        ]
+      },
+      "properties": {
+        "id": 91784,
+        "name": "Huashanzhen (花山镇)",
+        "long_name": "花山镇",
+        "alternate_names": [
+          "Huashanzhen",
+          "花山鎮",
+          "hua shan zhen",
+          "faa1 saan1 zan3"
+        ],
+        "line": "prdir_guangforing",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91784
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.300523,
+          23.3975564
+        ]
+      },
+      "properties": {
+        "id": 91785,
+        "name": "Baiyun Airport North (白云机场北)",
+        "long_name": "白云机场北",
+        "alternate_names": [
+          "Baiyun Airport North",
+          "白雲機場北",
+          "bai yun ji chang bei",
+          "baak6 wan4 gei1 coeng4 bak1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91785
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.298076,
+          23.3857638
+        ]
+      },
+      "properties": {
+        "id": 91786,
+        "name": "Baiyun Airport South (白云机场南)",
+        "long_name": "白云机场南",
+        "alternate_names": [
+          "Baiyun Airport South",
+          "白雲機場南",
+          "bai yun ji chang nan",
+          "baak6 wan4 gei1 coeng4 naam4"
+        ],
+        "line": "prdir_guangforing",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91786
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3147363,
+          23.3671276
+        ]
+      },
+      "properties": {
+        "id": 91787,
+        "name": "Baiyun Airport East (白云机场东)",
+        "long_name": "白云机场东",
+        "alternate_names": [
+          "Baiyun Airport East",
+          "白雲機場東",
+          "bai yun ji chang dong",
+          "baak6 wan4 gei1 coeng4 dung1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91787
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3629548,
+          23.3512259
+        ]
+      },
+      "properties": {
+        "id": 91788,
+        "name": "Zhuliao (竹料)",
+        "long_name": "Zhuliao (竹料)",
+        "alternate_names": [
+          "Zhuliao",
+          "竹料",
+          "zhuliao",
+          "zuk1liu2",
+          "zukliu",
+          "zhu liao",
+          "zuk1 liu2"
+        ],
+        "line": "prdir_guangforing",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91788
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3649713,
+          23.3136986
+        ]
+      },
+      "properties": {
+        "id": 91789,
+        "name": "Maofengshan (帽峰山)",
+        "long_name": "帽峰山",
+        "alternate_names": [
+          "Maofengshan",
+          "帽峯山",
+          "mao feng shan",
+          "mou2 fung1 saan1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91789
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3499583,
+          23.2504281
+        ]
+      },
+      "properties": {
+        "id": 91790,
+        "name": "Dayuan (大源)",
+        "long_name": "大源",
+        "alternate_names": [
+          "Dayuan",
+          "大源",
+          "da yuan",
+          "daai6 jyun4"
+        ],
+        "line": "prdir_guangforing",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91790
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3720698,
+          23.1934238
+        ]
+      },
+      "properties": {
+        "id": 91791,
+        "name": "Longdong (龙洞)",
+        "long_name": "Longdong (龙洞)",
+        "alternate_names": [
+          "Longdong",
+          "龙洞",
+          "龍洞",
+          "longdong",
+          "lung4dung6",
+          "lungdung",
+          "long dong",
+          "lung4 dung6"
+        ],
+        "line": "prdir_guangforing",
+        "order": 9,
+        "original_city": "prdir"
+      },
+      "id": 91791
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.376733,
+          23.160648
+        ]
+      },
+      "properties": {
+        "id": 91792,
+        "name": "Cencun (岑村)",
+        "long_name": "岑村",
+        "alternate_names": [
+          "Cencun",
+          "岑村",
+          "cen cun",
+          "sam4 cyun1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91792
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3718568,
+          23.1215413
+        ]
+      },
+      "properties": {
+        "id": 91793,
+        "name": "Keyunllu (科韵路)",
+        "long_name": "Keyun Lu (科韵路)",
+        "alternate_names": [
+          "Keyun Lu",
+          "科韵路",
+          "科韻路",
+          "keyunlu",
+          "fo1wan5lou6",
+          "fowanlou",
+          "ke yun lu",
+          "fo1 wan5 lou6",
+          "Keyunllu"
+        ],
+        "line": "prdir_guangforing",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91793
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3622342,
+          23.1012875
+        ]
+      },
+      "properties": {
+        "id": 91794,
+        "name": "Pazhou (琶洲)",
+        "long_name": "Pazhou (琶洲)",
+        "alternate_names": [
+          "Pazhou",
+          "琶洲",
+          "pazhou",
+          "paa4zau1",
+          "paazau",
+          "pa zhou",
+          "paa4 zau1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 12,
+        "original_city": "prdir"
+      },
+      "id": 91794
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3585,
+          23.0413
+        ]
+      },
+      "properties": {
+        "id": 91795,
+        "name": "Guangzhou Higher Education Mega Center (大学城北)",
+        "long_name": "Higher Education Mega Center North (大学城北)",
+        "alternate_names": [
+          "Higher Education Mega Center North",
+          "大学城北",
+          "大學城北",
+          "daxuechengbei",
+          "daai6hok6sing4bak1",
+          "daaihoksingbak",
+          "da xue cheng bei",
+          "daai6 hok6 sing4 bak1",
+          "Guangzhou Higher Education Mega Center"
+        ],
+        "line": "prdir_guangforing",
+        "order": 13,
+        "original_city": "prdir"
+      },
+      "id": 91795
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.319092,
+          23.0216158
+        ]
+      },
+      "properties": {
+        "id": 91796,
+        "name": "Dashi East (大石东)",
+        "long_name": "大石东",
+        "alternate_names": [
+          "Dashi East",
+          "大石東",
+          "da shi dong",
+          "daai6 sek6 dung1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 14,
+        "original_city": "prdir",
+        "connections": [
+          "Dashi (大石)"
+        ]
+      },
+      "id": 91796
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2702,
+          22.9924
+        ]
+      },
+      "properties": {
+        "id": 91797,
+        "name": "Panyu (番禺)",
+        "long_name": "Panyu (番禺)",
+        "alternate_names": [
+          "Panyu Square",
+          "番禺",
+          "番禺廣場",
+          "panyuguangchang",
+          "pun1jyu4gwong2coeng4",
+          "punjyugwongcoeng",
+          "pan yu guang chang",
+          "pun1 jyu4 gwong2 coeng4",
+          "Panyu"
+        ],
+        "line": "prdir_guangforing",
+        "order": 15,
+        "original_city": "prdir"
+      },
+      "id": 91797
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2315806,
+          22.9707566
+        ]
+      },
+      "properties": {
+        "id": 91798,
+        "name": "Chencun (陈村)",
+        "long_name": "Chencun (陈村)",
+        "alternate_names": [
+          "Chencun",
+          "陈村",
+          "陳村",
+          "chencun",
+          "can4cyun1",
+          "cancyun",
+          "chen cun",
+          "can4 cyun1"
+        ],
+        "line": "prdir_guangforing",
+        "order": 16,
+        "original_city": "prdir"
+      },
+      "id": 91798
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1727839,
+          22.9547553
+        ]
+      },
+      "properties": {
+        "id": 91799,
+        "name": "Beijiao West (北滘西)",
+        "long_name": "Beijiao West Railway Station (北滘西站)",
+        "alternate_names": [
+          "Beijiao West Railway Station",
+          "北滘西站",
+          "beijiaoxizhan",
+          "bak1gaau3sai1zaam6",
+          "bakgaausaizaam",
+          "bei jiao xi zhan",
+          "bak1 gaau3 sai1 zaam6",
+          "Beijiao West"
+        ],
+        "line": "prdir_guangforing",
+        "order": 17,
+        "original_city": "prdir"
+      },
+      "id": 91799
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1236856,
+          22.9677025
+        ]
+      },
+      "properties": {
+        "id": 91800,
+        "name": "Shunde North (东平)",
+        "long_name": "Dongping (东平)",
+        "alternate_names": [
+          "Dongping",
+          "东平",
+          "東平",
+          "dongping",
+          "dung1ping4",
+          "dungping",
+          "dong ping",
+          "dung1 peng4",
+          "Shunde North"
+        ],
+        "line": "prdir_guangforing",
+        "order": 18,
+        "original_city": "prdir"
+      },
+      "id": 91800
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0625491,
+          23.0136445
+        ]
+      },
+      "properties": {
+        "id": 91801,
+        "name": "Zhangcha (张槎)",
+        "long_name": "Zhangcha (张槎)",
+        "alternate_names": [
+          "Zhangcha",
+          "张槎",
+          "張槎",
+          "zhangcha",
+          "zoeng1caa4",
+          "zoengcaa",
+          "zhang cha",
+          "zoeng1 caa4"
+        ],
+        "line": "prdir_guangforing",
+        "order": 19,
+        "original_city": "prdir"
+      },
+      "id": 91801
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0280719,
+          23.0823919
+        ]
+      },
+      "properties": {
+        "id": 91802,
+        "name": "Foshan West (佛山西)",
+        "long_name": "Foshan West Railway Station (佛山西站)",
+        "alternate_names": [
+          "Foshan West Railway Station",
+          "佛山西站",
+          "foshanxizhan",
+          "fat6saan1sai1zaam6",
+          "fatsaansaizaam",
+          "fo shan xi zhan",
+          "fat6 saan1 sai1 zaam6",
+          "Foshan West"
+        ],
+        "line": "prdir_guangforing",
+        "order": 20,
+        "original_city": "prdir"
+      },
+      "id": 91802
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9219983,
+          22.9308935
+        ]
+      },
+      "properties": {
+        "id": 91803,
+        "name": "Dalan (大朗)",
+        "long_name": "大朗 Dalang",
+        "alternate_names": [
+          "Dalang",
+          "Da Lang",
+          "Datang",
+          "Da Tang",
+          "daai6 long5",
+          "大朗",
+          "大朗站",
+          "dalang",
+          "daai6long5",
+          "daailong",
+          "da lang zhan",
+          "daai6 long5 zaam6",
+          "Dalan"
+        ],
+        "line": "prdir_guangforing",
+        "order": 22,
+        "original_city": "prdir"
+      },
+      "id": 91803
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2523,
+          23.1526
+        ]
+      },
+      "properties": {
+        "id": 91804,
+        "name": "Guangzhou (广州)",
+        "long_name": "Guangzhou (广州)",
+        "alternate_names": [
+          "Guangzhou",
+          "Guangzhou Railway Station",
+          "Guangzhou Station",
+          "广州",
+          "广州站",
+          "廣州",
+          "廣州站",
+          "guang zhou zhan",
+          "gwong2 zau1 zaam6"
+        ],
+        "line": "prdir_guangshen",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91804
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3190458,
+          23.1537492
+        ]
+      },
+      "properties": {
+        "id": 91805,
+        "name": "Guangzhou East (广州东)",
+        "long_name": "Guangzhou East Railway Station (广州东站)",
+        "alternate_names": [
+          "Guangzhou East Railway Station",
+          "广州东站",
+          "廣州東站",
+          "guangzhoudongzhan",
+          "gwong2zau1dung1zaam6",
+          "gwongzaudungzaam",
+          "guang zhou dong zhan",
+          "gwong2 zau1 dung1 zaam6",
+          "Guangzhou East"
+        ],
+        "line": "prdir_guangshen",
+        "order": 1,
+        "original_city": "prdir",
+        "connections": [
+          "Guangzhou East Railway Station",
+          "Guangzhou East"
+        ]
+      },
+      "id": 91805
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6005178,
+          23.1367538
+        ]
+      },
+      "properties": {
+        "id": 91806,
+        "name": "Guangzhou Xintang (广州新塘)",
+        "long_name": "广州新塘",
+        "alternate_names": [
+          "Guangzhou Xintang",
+          "廣州新塘",
+          "guang zhou xin tang",
+          "gwong2 zau1 san1 tong4"
+        ],
+        "line": "prdir_guangshen",
+        "order": 2,
+        "original_city": "prdir",
+        "connections": [
+          "Xintang (新塘)",
+          "Xintang",
+          "Xintang South (新塘南)",
+          "Xintang South"
+        ]
+      },
+      "id": 91806
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.855706,
+          23.091427
+        ]
+      },
+      "properties": {
+        "id": 91807,
+        "name": "Dongguan (东莞)",
+        "long_name": "Dongguan (东莞)",
+        "alternate_names": [
+          "Dongguan Railway Station",
+          "Dongguan Station",
+          "Dongguan",
+          "东莞火车站",
+          "東莞火車站",
+          "dongguan huoche zhan",
+          "dung1 gun2 fo2 ce1 zaam6",
+          "dongguanhuochezhan",
+          "dung1gun2fo2ce1zaam6",
+          "dunggunfocezaam",
+          "dong guan huo che zhan"
+        ],
+        "line": "prdir_guangshen",
+        "order": 3,
+        "original_city": "prdir",
+        "connections": [
+          "Dongguan Railway Station",
+          "Dongguan Railway Station (东莞火车站)"
+        ]
+      },
+      "id": 91807
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0626,
+          22.9044
+        ]
+      },
+      "properties": {
+        "id": 91808,
+        "name": "Zhangmutou (樟木头东)",
+        "long_name": "樟木头东",
+        "alternate_names": [
+          "Zhangmutou East",
+          "Zhangmutou",
+          "樟木頭東",
+          "zhang mu tou dong",
+          "zoeng1 muk6 tau4 dung1"
+        ],
+        "line": "prdir_guangshen",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91808
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1209,
+          22.6965
+        ]
+      },
+      "properties": {
+        "id": 91809,
+        "name": "Pinghu (平湖)",
+        "long_name": "平湖 Pinghu",
+        "alternate_names": [
+          "Pinghu",
+          "Pinghu Station",
+          "平湖",
+          "平湖站",
+          "ping hu zhan",
+          "peng4 wu4 zaam6"
+        ],
+        "line": "prdir_guangshen",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91809
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1146,
+          22.605
+        ]
+      },
+      "properties": {
+        "id": 91810,
+        "name": "Shenzhen East (深圳东)",
+        "long_name": "深圳东",
+        "alternate_names": [
+          "Shenzhen East",
+          "深圳東",
+          "shen zhen dong",
+          "sam1 zan3 dung1"
+        ],
+        "line": "prdir_guangshen",
+        "order": 7,
+        "original_city": "prdir",
+        "connections": [
+          "Buji"
+        ]
+      },
+      "id": 91810
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1121,
+          22.5343
+        ]
+      },
+      "properties": {
+        "id": 91811,
+        "name": "Shenzhen (深圳)",
+        "long_name": "Shenzhen (深圳)",
+        "alternate_names": [
+          "Shenzhen North",
+          "Shenzhen North Station",
+          "深圳北",
+          "深圳北站",
+          "shen zhen bei zhan",
+          "sam1 zan3 bak1 zaam6",
+          "Shenzhen",
+          "深圳"
+        ],
+        "line": "prdir_guangshen",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91811
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0003801,
+          22.9871798
+        ]
+      },
+      "properties": {
+        "id": 91812,
+        "name": "Changping (常平)",
+        "long_name": "Changping (常平)",
+        "alternate_names": [
+          "Changping",
+          "常平",
+          "chang ping",
+          "soeng4 peng4"
+        ],
+        "line": "prdir_guangshen",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91812
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2007,
+          22.6009
+        ]
+      },
+      "properties": {
+        "id": 91813,
+        "name": "Guzhen (古镇)",
+        "long_name": "Guzhen (古镇)",
+        "alternate_names": [
+          "Guzhen",
+          "古镇",
+          "古鎮",
+          "gu zhen",
+          "gu2 zan3"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 18,
+        "original_city": "prdir"
+      },
+      "id": 91813
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1584,
+          22.5857
+        ]
+      },
+      "properties": {
+        "id": 91814,
+        "name": "Jianghai (江海)",
+        "long_name": "Jianghai (江海)",
+        "alternate_names": [
+          "Jianghai",
+          "江海",
+          "jiang hai",
+          "gong1 hoi2"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 19,
+        "original_city": "prdir"
+      },
+      "id": 91814
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0977,
+          22.5639
+        ]
+      },
+      "properties": {
+        "id": 91815,
+        "name": "Jiangmen East (江门东)",
+        "long_name": "Jiangmen East (江门东)",
+        "alternate_names": [
+          "Jiangmen East",
+          "江门东",
+          "江門東",
+          "jiang men dong",
+          "gong1 mun4 dung1"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 20,
+        "original_city": "prdir"
+      },
+      "id": 91815
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0723,
+          22.5482
+        ]
+      },
+      "properties": {
+        "id": 91816,
+        "name": "Liyue (礼乐)",
+        "long_name": "Liyue (礼乐)",
+        "alternate_names": [
+          "Liyue",
+          "礼乐",
+          "禮樂",
+          "li yue",
+          "lai5 lok6"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 21,
+        "original_city": "prdir"
+      },
+      "id": 91816
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0659,
+          22.5203
+        ]
+      },
+      "properties": {
+        "id": 91817,
+        "name": "Xinhui (新会)",
+        "long_name": "Xinhui (新会)",
+        "alternate_names": [
+          "Xinhui",
+          "新会",
+          "新會",
+          "xin hui",
+          "san1 wui6"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 22,
+        "original_city": "prdir"
+      },
+      "id": 91817
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0653,
+          22.491
+        ]
+      },
+      "properties": {
+        "id": 91818,
+        "name": "Jiangmen (江门)",
+        "long_name": "Jiangmen (江门)",
+        "alternate_names": [
+          "Jiangmen",
+          "江门",
+          "江門",
+          "jiang men",
+          "gong1 mun4"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 23,
+        "original_city": "prdir"
+      },
+      "id": 91818
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5427,
+          22.2179
+        ]
+      },
+      "properties": {
+        "id": 91819,
+        "name": "Zhuhai (珠海)",
+        "long_name": "Zhuhai (珠海)",
+        "alternate_names": [
+          "Zhuhai",
+          "珠海",
+          "Zhuhai (珠海)",
+          "Border Gate (关闸)",
+          "Border Gate",
+          "Border Gate (關閘)",
+          "zhu hai",
+          "zyu1 hoi2"
+        ],
+        "line": "prdir_guangzhu",
+        "order": 24,
+        "original_city": "prdir"
+      },
+      "id": 91819
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5427,
+          22.2179
+        ]
+      },
+      "properties": {
+        "id": 91820,
+        "name": "Zhuhai (珠海)",
+        "long_name": "Zhuhai (珠海)",
+        "alternate_names": [
+          "Zhuhai",
+          "珠海",
+          "Zhuhai (珠海)",
+          "Border Gate (关闸)",
+          "Border Gate",
+          "Border Gate (關閘)",
+          "zhu hai",
+          "zyu1 hoi2"
+        ],
+        "line": "prdir_zhuji",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91820
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5221,
+          22.1837
+        ]
+      },
+      "properties": {
+        "id": 91821,
+        "name": "Wanzai (湾仔)",
+        "long_name": "Wanzai (湾仔)",
+        "alternate_names": [
+          "Wanzai",
+          "湾仔",
+          "灣仔",
+          "wan zai",
+          "waan1 zai2"
+        ],
+        "line": "prdir_zhuji",
+        "order": 8,
+        "original_city": "prdir"
+      },
+      "id": 91821
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5287,
+          22.1641
+        ]
+      },
+      "properties": {
+        "id": 91822,
+        "name": "Hengqin North (横琴北)",
+        "long_name": "Hengqin North (横琴北)",
+        "alternate_names": [
+          "Hengqin North",
+          "横琴北",
+          "橫琴北",
+          "heng qin bei",
+          "waang4 kam4 bak1"
+        ],
+        "line": "prdir_zhuji",
+        "order": 9,
+        "original_city": "prdir"
+      },
+      "id": 91822
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4806,
+          22.1124
+        ]
+      },
+      "properties": {
+        "id": 91823,
+        "name": "Jingwan (井湾)",
+        "long_name": "Jingwan (井湾)",
+        "alternate_names": [
+          "Jingwan",
+          "井湾",
+          "井灣",
+          "jing wan",
+          "zeng2 waan1"
+        ],
+        "line": "prdir_zhuji",
+        "order": 10,
+        "original_city": "prdir"
+      },
+      "id": 91823
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4456,
+          22.0896
+        ]
+      },
+      "properties": {
+        "id": 91824,
+        "name": "Hezhou South (鹤洲南)",
+        "long_name": "Hezhou South (鹤洲南)",
+        "alternate_names": [
+          "Hezhou South",
+          "鹤洲南",
+          "鶴洲南",
+          "he zhou nan",
+          "hok6 zau1 naam4"
+        ],
+        "line": "prdir_zhuji",
+        "order": 11,
+        "original_city": "prdir"
+      },
+      "id": 91824
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3609,
+          23.3504
+        ]
+      },
+      "properties": {
+        "id": 91825,
+        "name": "Zhuliao (竹料)",
+        "long_name": "Zhuliao (竹料)",
+        "alternate_names": [
+          "Zhuliao",
+          "竹料",
+          "zhu liao",
+          "zuk1 liu2"
+        ],
+        "line": "prdir_suishen",
+        "order": 0,
+        "original_city": "prdir"
+      },
+      "id": 91825
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4393,
+          23.3621
+        ]
+      },
+      "properties": {
+        "id": 91826,
+        "name": "Zhongluotan East (钟落潭东)",
+        "long_name": "Zhongluotan East (钟落潭东)",
+        "alternate_names": [
+          "Zhongluotan East",
+          "钟落潭东",
+          "鍾落潭東",
+          "zhong luo tan dong",
+          "zung1 lok6 taam4 dung1"
+        ],
+        "line": "prdir_suishen",
+        "order": 1,
+        "original_city": "prdir"
+      },
+      "id": 91826
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4928,
+          23.3782
+        ]
+      },
+      "properties": {
+        "id": 91827,
+        "name": "Jiufo (九佛)",
+        "long_name": "Jiufo (九佛)",
+        "alternate_names": [
+          "Jiufo",
+          "九佛",
+          "Xinnan",
+          "jiu fo",
+          "gau2 fat6"
+        ],
+        "line": "prdir_suishen",
+        "order": 2,
+        "original_city": "prdir"
+      },
+      "id": 91827
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5336,
+          23.3674
+        ]
+      },
+      "properties": {
+        "id": 91828,
+        "name": "Folang (佛塱)",
+        "long_name": "Folang (佛塱)",
+        "alternate_names": [
+          "Folang",
+          "佛塱",
+          "fo lang",
+          "fat6 long5"
+        ],
+        "line": "prdir_suishen",
+        "order": 3,
+        "original_city": "prdir"
+      },
+      "id": 91828
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5704,
+          23.3155
+        ]
+      },
+      "properties": {
+        "id": 91829,
+        "name": "Xinlong (新龙)",
+        "long_name": "Xinlong (新龙)",
+        "alternate_names": [
+          "Xinlong",
+          "新龙",
+          "新龍",
+          "xin long",
+          "san1 lung4"
+        ],
+        "line": "prdir_suishen",
+        "order": 4,
+        "original_city": "prdir"
+      },
+      "id": 91829
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5862,
+          23.2871
+        ]
+      },
+      "properties": {
+        "id": 91830,
+        "name": "Zhenlong (镇龙)",
+        "long_name": "Zhenlong (镇龙)",
+        "alternate_names": [
+          "Zhenlong",
+          "镇龙",
+          "鎮龍",
+          "zhen long",
+          "zan3 lung4"
+        ],
+        "line": "prdir_suishen",
+        "order": 5,
+        "original_city": "prdir"
+      },
+      "id": 91830
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5963,
+          23.2172
+        ]
+      },
+      "properties": {
+        "id": 91831,
+        "name": "Yongning North (永宁北)",
+        "long_name": "Yongning North (永宁北)",
+        "alternate_names": [
+          "Yongning North",
+          "永宁北",
+          "永寧北",
+          "yong ning bei",
+          "wing5 ning4 bak1"
+        ],
+        "line": "prdir_suishen",
+        "order": 6,
+        "original_city": "prdir"
+      },
+      "id": 91831
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5853,
+          23.1829
+        ]
+      },
+      "properties": {
+        "id": 91832,
+        "name": "Yongning South (永宁南)",
+        "long_name": "Yongning South (永宁南)",
+        "alternate_names": [
+          "Yongning South",
+          "永宁南",
+          "永寧南",
+          "yong ning nan",
+          "wing5 ning4 naam4"
+        ],
+        "line": "prdir_suishen",
+        "order": 7,
+        "original_city": "prdir"
+      },
+      "id": 91832
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7869,
+          23.2819
+        ]
+      },
+      "properties": {
+        "id": 91833,
+        "name": "Zhonggang (钟岗)",
+        "long_name": "Zhonggang (钟岗)",
+        "alternate_names": [
+          "Zhonggang",
+          "钟岗",
+          "鍾崗",
+          "zhong gang",
+          "zung1 gong1"
+        ],
+        "line": "gzline21",
+        "order": 22,
+        "original_city": "gz"
+      },
+      "id": 91833
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8087,
+          23.281
+        ]
+      },
+      "properties": {
+        "id": 91834,
+        "name": "Zengcheng Square (增城广场)",
+        "long_name": "Zengcheng Square (增城广场)",
+        "alternate_names": [
+          "Zengcheng Square",
+          "增城广场",
+          "增城廣場",
+          "zeng cheng guang chang",
+          "zang1 sing4 gwong2 coeng4"
+        ],
+        "line": "gzline21",
+        "order": 23,
+        "original_city": "gz"
+      },
+      "id": 91834
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2523,
+          23.1526
+        ]
+      },
+      "properties": {
+        "id": 91781,
+        "name": "Guangzhou (广州)",
+        "long_name": "Guangzhou (广州)",
+        "alternate_names": [
+          "Guangzhou",
+          "Guangzhou Railway Station",
+          "Guangzhou Station",
+          "广州",
+          "广州站",
+          "廣州",
+          "廣州站",
+          "guang zhou zhan",
+          "gwong2 zau1 zaam6"
+        ],
+        "line": "prdir_guangqing",
+        "order": 13,
+        "original_city": "prdir"
+      },
+      "id": 91781
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1243,
+          23.5517
+        ]
+      },
+      "properties": {
+        "id": 91850,
+        "name": "Qingyuan Chimelong (清远长隆)",
+        "long_name": "Qingyuan Chimelong (清远长隆)",
+        "alternate_names": [
+          "Qingyuan Chimelong",
+          "清远长隆",
+          "Changlong",
+          "清遠長隆",
+          "qing yuan chang long",
+          "cing1 jyun5 coeng4 lung4"
+        ],
+        "line": "qymaglev",
+        "order": 0,
+        "original_city": "qingyuan",
+        "connections": [
+          "Yinzhan (银盏)",
+          "Yinzhan"
+        ]
+      },
+      "id": 91850
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1249,
+          23.575
+        ]
+      },
+      "properties": {
+        "id": 91851,
+        "name": "Butterfly Bay (湖蝶湾)",
+        "long_name": "Butterfly Bay (湖蝶湾)",
+        "alternate_names": [
+          "Butterfly Bay",
+          "湖蝶湾",
+          "湖蝶灣",
+          "hu die wan",
+          "wu4 dip6 waan1"
+        ],
+        "line": "qymaglev",
+        "order": 1,
+        "original_city": "qingyuan"
+      },
+      "id": 91851
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1586,
+          23.592
+        ]
+      },
+      "properties": {
+        "id": 91852,
+        "name": "Chimelong Forest Kingdom (长隆森林王国)",
+        "long_name": "Chimelong Forest Kingdom (长隆森林王国)",
+        "alternate_names": [
+          "Chimelong Forest Kingdom",
+          "长隆森林王国",
+          "Forest Kingdom",
+          "長隆森林王國",
+          "chang long sen lin wang guo",
+          "coeng4 lung4 sam1 lam4 wong4 gwok3"
+        ],
+        "line": "qymaglev",
+        "order": 2,
+        "original_city": "qingyuan"
+      },
+      "id": 91852
     }
   ]
 }

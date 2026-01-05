@@ -43,6 +43,7 @@ import Link from 'next/link'
 import {
     CSSProperties,
     ChangeEvent,
+    ComponentPropsWithoutRef,
     FormEvent,
     useCallback,
     useEffect,
@@ -51,6 +52,21 @@ import {
     useState,
 } from 'react'
 import 'react-circular-progressbar/dist/styles.css'
+
+function SidebarArrowUpIcon(props: ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        d="M12 19.5v-15m0 0L5.25 11.25M12 4.5l6.75 6.75"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
 
 const CONNECTOR_CONFIG = [
   { delimiter: ' - ', joiner: ' - ' },
@@ -970,6 +986,8 @@ export default function GamePage({
     })
   const [sidebarOpenState, setSidebarOpenState] = useState(true)
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
+  const sidebarScrollRef = useRef<HTMLDivElement | null>(null)
+  const [sidebarScrolled, setSidebarScrolled] = useState(false)
   const [activeFoundId, setActiveFoundId] = useState<number | null>(null)
   const [achievementToast, setAchievementToast] = useState<AchievementToastState | null>(null)
   const [settingsModalOpen, setSettingsModalOpen] = useState(false)
@@ -1063,6 +1081,23 @@ export default function GamePage({
   )
 
   const sidebarOpen = sidebarOpenState
+  useEffect(() => {
+    const el = sidebarScrollRef.current
+    if (!el) {
+      setSidebarScrolled(false)
+      return
+    }
+    const onScroll = () => setSidebarScrolled(el.scrollTop > 120)
+    onScroll()
+    el.addEventListener('scroll', onScroll, { passive: true })
+    return () => {
+      el.removeEventListener('scroll', onScroll)
+    }
+  }, [sidebarOpen])
+
+  const scrollSidebarToTop = useCallback(() => {
+    sidebarScrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
 
   const handleAchievementToastClose = useCallback(() => {
     setAchievementToast(null)
@@ -2582,16 +2617,33 @@ export default function GamePage({
         }`}
         style={sidebarStyle}
       >
-        <button
-          type="button"
-          onClick={() => setSidebarOpen((open) => !open)}
-          className="absolute left-0 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 -translate-x-[65%] items-center justify-center rounded-full bg-white text-zinc-700 shadow-lg transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
-          aria-label={sidebarOpen ? 'Hide sidebar' : 'Show sidebar'}
-        >
-          {sidebarOpen ? '<' : '>'}
-        </button>
+        <div className="absolute left-0 top-1/2 z-20 flex -translate-y-1/2 -translate-x-[65%] flex-col gap-3">
+          <button
+            type="button"
+            onClick={() => setSidebarOpen((open) => !open)}
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-zinc-700 shadow-lg transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
+            aria-label={sidebarOpen ? 'Hide sidebar' : 'Show sidebar'}
+          >
+            {sidebarOpen ? '<' : '>'}
+          </button>
+          {sidebarOpen ? (
+            <button
+              type="button"
+              onClick={scrollSidebarToTop}
+              aria-label="Back to top"
+              className={`flex h-10 w-10 items-center justify-center rounded-full bg-white text-zinc-700 shadow-lg transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700 ${
+                sidebarScrolled ? 'opacity-100' : 'opacity-0 pointer-events-none translate-y-2'
+              }`}
+            >
+              <SidebarArrowUpIcon className="h-6 w-6" />
+            </button>
+          ) : null}
+        </div>
         {sidebarOpen ? (
-          <div className="flex h-full w-full flex-col overflow-y-auto bg-white p-6 shadow-lg dark:bg-zinc-900/95 dark:shadow-black/40">
+          <div
+            ref={sidebarScrollRef}
+            className="flex h-full w-full flex-col overflow-y-auto bg-white p-6 shadow-lg dark:bg-zinc-900/95 dark:shadow-black/40"
+          >
             <FoundSummary
               className="rounded-lg bg-white p-4 shadow-md dark:bg-zinc-900 dark:text-zinc-100 dark:shadow-black/40"
               foundProportion={foundProportion}

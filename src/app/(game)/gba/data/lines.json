@@ -719,6 +719,78 @@
     "textColor": "#FFFFFF",
     "order": 126
   },
+  "prdir_guangzhu": {
+    "name": "Guangzhu",
+    "color": "#113858",
+    "progressOutlineColor": "#113858",
+    "backgroundColor": "#113858",
+    "textColor": "#FFFFFF",
+    "order": 128
+  },
+  "prdir_suishen": {
+    "name": "Suishen",
+    "color": "#113858",
+    "progressOutlineColor": "#113858",
+    "backgroundColor": "#113858",
+    "textColor": "#FFFFFF",
+    "order": 129
+  },
+  "prdir_zhuji": {
+    "name": "Zhuji",
+    "color": "#089444",
+    "progressOutlineColor": "#089444",
+    "backgroundColor": "#089444",
+    "textColor": "#FFFFFF",
+    "order": 130
+  },
+  "prdir_guanghui": {
+    "name": "Guanghui",
+    "color": "#2A59A7",
+    "progressOutlineColor": "#2A59A7",
+    "backgroundColor": "#2A59A7",
+    "textColor": "#FFFFFF",
+    "order": 131
+  },
+  "prdir_guangzhao": {
+    "name": "Guangzhao",
+    "color": "#2A59A7",
+    "progressOutlineColor": "#2A59A7",
+    "backgroundColor": "#2A59A7",
+    "textColor": "#FFFFFF",
+    "order": 132
+  },
+  "prdir_guangqing": {
+    "name": "Guangqing",
+    "color": "#2A59A7",
+    "progressOutlineColor": "#2A59A7",
+    "backgroundColor": "#2A59A7",
+    "textColor": "#FFFFFF",
+    "order": 133
+  },
+  "prdir_guangforing": {
+    "name": "Guangfo Ring",
+    "color": "#2A59A7",
+    "progressOutlineColor": "#2A59A7",
+    "backgroundColor": "#2A59A7",
+    "textColor": "#FFFFFF",
+    "order": 134
+  },
+  "prdir_guangshen": {
+    "name": "Guangshen",
+    "color": "#0000FF",
+    "progressOutlineColor": "#0000FF",
+    "backgroundColor": "#0000FF",
+    "textColor": "#FFFFFF",
+    "order": 137
+  },
+  "prdir_shenshan": {
+    "name": "Shenshan",
+    "color": "#2A59A7",
+    "progressOutlineColor": "#2A59A7",
+    "backgroundColor": "#2A59A7",
+    "textColor": "#FFFFFF",
+    "order": 138
+  },
   "moeast": {
     "name": "East",
     "color": "#FFC933",
@@ -726,5 +798,13 @@
     "backgroundColor": "#B38600",
     "textColor": "#000000",
     "order": 127
+  },
+  "qymaglev": {
+    "name": "Qingyuan Maglev Tourist Line",
+    "color": "#F2A700",
+    "progressOutlineColor": "#F2A700",
+    "backgroundColor": "#F2A700",
+    "textColor": "#000000",
+    "order": 134
   }
 }

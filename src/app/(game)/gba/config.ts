@@ -229,6 +229,40 @@ export const LINE_GROUPS: LineGroup[] = [
                 lines: ['TPA', 'HNQ', 'SPV', 'moeast']
             }
         ]
+    },
+    {
+        items: [{ type: 'separator' }]
+    },
+    {
+        title: 'Intercity/High-Speed Rail',
+        items: [
+            {
+                type: 'lines',
+                lines: [
+                    'prdir_guangzhu',
+                    'prdir_suishen',
+                    'prdir_zhuji',
+                    'prdir_guanghui',
+                    'prdir_guangzhao',
+                    'prdir_guangqing',
+                    'prdir_guangforing',
+                    'prdir_guangshen',
+                    'prdir_shenshan'
+                ]
+            }
+        ]
+    },
+    {
+        items: [{ type: 'separator' }]
+    },
+    {
+        title: 'Qingyuan Maglev Transportation Co., Ltd',
+        items: [
+            {
+                type: 'lines',
+                lines: ['qymaglev']
+            }
+        ]
     }
 ]
 
