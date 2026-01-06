@@ -3,9 +3,29 @@
 import { ReactNode, useCallback } from 'react'
 import colors from 'tailwindcss/colors'
 import { useSettings } from '@/context/SettingsContext'
+import { useConfig } from '@/lib/configContext'
+
+const buildLineImageConfetti = (
+  lines: Record<string, { icon?: string } | undefined>,
+) => {
+  const images: { src: string; width: number; height: number }[] = []
+  const seen = new Set<string>()
+
+  Object.values(lines || {}).forEach((line) => {
+    const icon = line?.icon
+    if (!icon || typeof icon !== 'string') return
+    const src = `/images/${icon}`
+    if (seen.has(src)) return
+    seen.add(src)
+    images.push({ src, width: 64, height: 64 })
+  })
+
+  return images.length > 0 ? images : null
+}
 
 const ConfettiButton = ({ children }: { children: ReactNode }) => {
   const { settings } = useSettings()
+  const { LINES } = useConfig()
 
   const onClick = useCallback(() => {
     if (!settings.confettiEnabled) {
@@ -13,21 +33,26 @@ const ConfettiButton = ({ children }: { children: ReactNode }) => {
     }
     const makeConfetti = async () => {
       const confetti = (await import('tsparticles-confetti')).confetti
+      const images = buildLineImageConfetti(LINES ?? {})
       confetti({
         spread: 120,
         ticks: 200,
         particleCount: 150,
         origin: { y: 0.2 },
-        colors: [
-          colors.yellow[500],
-          colors.amber[500],
-          colors.orange[500],
-          colors.yellow[400],
-          colors.amber[400],
-          colors.orange[400],
-        ],
+        colors:
+          images === null
+            ? [
+                colors.yellow[500],
+                colors.amber[500],
+                colors.orange[500],
+                colors.yellow[400],
+                colors.amber[400],
+                colors.orange[400],
+              ]
+            : undefined,
         decay: 0.85,
-        shapes: ['square'],
+        shapes: images ? ['image'] : ['square'],
+        shapeOptions: images ? { image: images } : undefined,
         gravity: 2,
         startVelocity: 50,
         scalar: 2,
@@ -35,7 +60,7 @@ const ConfettiButton = ({ children }: { children: ReactNode }) => {
     }
 
     void makeConfetti()
-  }, [settings.confettiEnabled])
+  }, [LINES, settings.confettiEnabled])
 
   return (
     <button

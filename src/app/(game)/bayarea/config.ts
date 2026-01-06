@@ -17,6 +17,15 @@ export const LINE_GROUPS: LineGroup[] = [
     ],
   },
   {
+    title: 'San Francisco Airports Commission',
+    items: [
+      {
+        type: 'lines',
+        lines: ['SFOBlue', 'SFORed'],
+      },
+    ],
+  },
+  {
     items: [{ type: 'separator' }],
   },
   {
@@ -61,7 +70,7 @@ export const LINE_GROUPS: LineGroup[] = [
       {
         type: 'lines',
         title: 'MUNI Metro',
-        lines: ['MuniJ', 'MuniK', 'MuniL', 'MuniM', 'MuniN', 'MuniT', 'MuniS'],
+        lines: ['MuniJ', 'MuniK', 'MuniL', 'MuniM', 'MuniN', 'MuniS', 'MuniT'],
       },
       {
         type: 'lines',
@@ -96,6 +105,18 @@ export const LINE_GROUPS: LineGroup[] = [
       {
         type: 'lines',
         lines: ['SacRTGold', 'SacRTBlue', 'SacRTGreen'],
+      },
+    ],
+  },
+  {
+    items: [{ type: 'separator' }],
+  },
+  {
+    title: 'California High-Speed Rail Authority',
+    items: [
+      {
+        type: 'lines',
+        lines: ['CAHSR'],
       },
     ],
   },

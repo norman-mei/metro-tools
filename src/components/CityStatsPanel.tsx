@@ -55,7 +55,9 @@ type GroupStat = {
         found: number
         total: number
         percent: number
+        lineIds: string[]
         accentColor?: string
+        lineNames: string[]
       }
   >
 }
@@ -227,6 +229,9 @@ const resolveLineGroupStats = (
                 .map((lineId) => linesMetadata[lineId]?.name ?? lineId)
                 .join(', ')
             : 'Misc services')
+      const lineNames = visibleLines.map(
+        (lineId) => linesMetadata[lineId]?.name ?? lineId,
+      )
 
       return {
         type: 'lines' as const,
@@ -238,6 +243,8 @@ const resolveLineGroupStats = (
           visibleLines.length === 1
             ? linesMetadata[visibleLines[0]]?.color
             : undefined,
+        lineIds: visibleLines,
+        lineNames,
       }
     }),
   }))
@@ -654,6 +661,21 @@ const CityStatsPanel = ({
       return null
     }
 
+    const orderedLineIds: string[] = []
+    stats.groupStats.forEach((group) => {
+      group.items.forEach((item) => {
+        if (item.type === 'lines') {
+          item.lineIds.forEach((lineId) => {
+            if (!orderedLineIds.includes(lineId)) {
+              orderedLineIds.push(lineId)
+            }
+          })
+        }
+      })
+    })
+    const orderIndex = new Map<string, number>()
+    orderedLineIds.forEach((id, idx) => orderIndex.set(id, idx))
+
     return (
       <div>
         <h4 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
@@ -661,7 +683,16 @@ const CityStatsPanel = ({
         </h4>
         <div className="mt-3 space-y-3">
           {visibleLines
-            .sort((a, b) => b.percent - a.percent)
+            .sort((a, b) => {
+              const ai = orderIndex.has(a.lineId)
+                ? orderIndex.get(a.lineId)!
+                : Number.POSITIVE_INFINITY
+              const bi = orderIndex.has(b.lineId)
+                ? orderIndex.get(b.lineId)!
+                : Number.POSITIVE_INFINITY
+              if (ai !== bi) return ai - bi
+              return a.name.localeCompare(b.name)
+            })
             .map((line) => {
               const fillColor = line.color ?? '#4f46e5'
               const needsContrastBorder = isColorLight(fillColor)

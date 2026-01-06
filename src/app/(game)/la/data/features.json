@@ -1069,7 +1069,8 @@
       "properties": {
         "id": 67,
         "name": "LAX/Metro Transit Center",
-        "line": "LACMTA_C"
+        "line": "LACMTA_C",
+        "cluster_key": "lax_itf_complex"
       },
       "id": 67
     },
@@ -1869,7 +1870,8 @@
       "properties": {
         "id": 120,
         "name": "LAX/Metro Transit Center",
-        "line": "LACMTA_K"
+        "line": "LACMTA_K",
+        "cluster_key": "lax_itf_complex"
       },
       "id": 120
     },
@@ -3597,7 +3599,8 @@
         "name": "ITF East",
         "line": "LAXAPM",
         "id": 236,
-        "alternate_names": []
+        "alternate_names": [],
+        "cluster_key": "lax_itf_complex"
       },
       "id": 236
     },

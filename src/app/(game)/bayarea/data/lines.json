@@ -1,6 +1,6 @@
 {
   "BARTYellow": {
-    "name": "BART Yellow Line",
+    "name": "Yellow",
     "color": "#ffe800",
     "backgroundColor": "#A69700",
     "textColor": "#1F1F1F",
@@ -9,7 +9,7 @@
     "icon": "Yellow_Line_(BART).svg"
   },
   "BARTOrange": {
-    "name": "BART Orange Line",
+    "name": "Orange",
     "color": "#faa61a",
     "backgroundColor": "#B06F04",
     "textColor": "#1F1F1F",
@@ -18,7 +18,7 @@
     "icon": "Orange_Line_(BART).svg"
   },
   "BARTBlue": {
-    "name": "BART Blue Line",
+    "name": "Blue",
     "color": "#00aeef",
     "backgroundColor": "#00719B",
     "textColor": "#1F1F1F",
@@ -27,7 +27,7 @@
     "icon": "Blue_Line_(BART).svg"
   },
   "BARTGreen": {
-    "name": "BART Green Line",
+    "name": "Green",
     "color": "#4db848",
     "backgroundColor": "#32782F",
     "textColor": "#1F1F1F",
@@ -36,7 +36,7 @@
     "icon": "Green_Line_(BART).svg"
   },
   "BARTRed": {
-    "name": "BART Red Line",
+    "name": "Red",
     "color": "#ed1c24",
     "backgroundColor": "#A00D12",
     "textColor": "#FFFFFF",
@@ -54,7 +54,7 @@
     "icon": "Oakland_Airport_Connector.svg"
   },
   "CaltrainLocal": {
-    "name": "Caltrain Local",
+    "name": "Local",
     "color": "#e41838",
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
@@ -62,7 +62,7 @@
     "order": 6
   },
   "CaltrainLimited": {
-    "name": "Caltrain Limited",
+    "name": "Limited",
     "color": "#e41838",
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
@@ -70,7 +70,7 @@
     "order": 7
   },
   "CaltrainExpress": {
-    "name": "Caltrain Express",
+    "name": "Express",
     "color": "#e41838",
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
@@ -78,7 +78,7 @@
     "order": 8
   },
   "CaltrainSouth": {
-    "name": "Caltrain South County Connector",
+    "name": "South County Connector",
     "color": "#e41838",
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
@@ -94,12 +94,12 @@
     "order": 10
   },
   "MuniJ": {
-    "name": "J Church",
+    "name": "Church",
     "color": "#e18813",
     "backgroundColor": "#92580C",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#e18813",
-    "order": 10,
+    "order": 11,
     "icon": "J_Church_logo.svg"
   },
   "ACE": {
@@ -111,52 +111,52 @@
     "order": 11
   },
   "MuniK": {
-    "name": "K Ingleside",
+    "name": "Ingleside",
     "color": "#549dbf",
     "backgroundColor": "#316882",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#549dbf",
-    "order": 11,
+    "order": 12,
     "icon": "K_Ingleside_logo.svg"
   },
   "MuniL": {
-    "name": "L Taraval",
+    "name": "Taraval",
     "color": "#932290",
     "backgroundColor": "#60165E",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#932290",
-    "order": 12,
+    "order": 13,
     "icon": "L_Taraval_logo.svg"
   },
   "MuniM": {
-    "name": "M Ocean View",
+    "name": "Ocean View",
     "color": "#008851",
     "backgroundColor": "#005835",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#008851",
-    "order": 13,
+    "order": 14,
     "icon": "M_Ocean_View_logo.svg"
   },
   "MuniN": {
-    "name": "N Judah",
+    "name": "Judah",
     "color": "#004988",
     "backgroundColor": "#002F58",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#004988",
-    "order": 14,
+    "order": 15,
     "icon": "N_Judah_logo.svg"
   },
   "MuniT": {
-    "name": "T Third Street",
+    "name": "Third Street",
     "color": "#d40843",
     "backgroundColor": "#8A052C",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#d40843",
-    "order": 15,
+    "order": 17,
     "icon": "T_Third_Street_logo.svg"
   },
   "MuniS": {
-    "name": "S Shuttle",
+    "name": "Shuttle",
     "color": "#ffcc00",
     "backgroundColor": "#A68500",
     "textColor": "#1F1F1F",
@@ -165,21 +165,21 @@
     "icon": "S_Shuttle_logo.svg"
   },
   "MuniE": {
-    "name": "E Embarcadero",
+    "name": "Embarcadero",
     "color": "#1E9999",
     "backgroundColor": "#146363",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#666666",
-    "order": 17,
+    "order": 9,
     "icon": "E_Embarcadero_logo.svg"
   },
   "MuniF": {
-    "name": "F Market & Wharves",
+    "name": "Market & Wharves",
     "color": "#f0e68c",
     "backgroundColor": "#DBC81D",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#f0e68c",
-    "order": 18,
+    "order": 10,
     "icon": "F_Market_&_Wharves_logo.svg"
   },
   "MuniC": {
@@ -207,7 +207,7 @@
     "order": 21
   },
   "VTABlue": {
-    "name": "VTA Blue Line",
+    "name": "Blue",
     "color": "#3bb4e6",
     "backgroundColor": "#157CA7",
     "textColor": "#1F1F1F",
@@ -216,7 +216,7 @@
     "icon": "VTA-Blue-icon.svg"
   },
   "VTAGreen": {
-    "name": "VTA Green Line",
+    "name": "Green",
     "color": "#a0cf65",
     "backgroundColor": "#6A9930",
     "textColor": "#1F1F1F",
@@ -225,7 +225,7 @@
     "icon": "VTA-Green-icon.svg"
   },
   "VTAOrange": {
-    "name": "VTA Orange Line",
+    "name": "Orange",
     "color": "#f79729",
     "backgroundColor": "#B46407",
     "textColor": "#1F1F1F",
@@ -234,27 +234,54 @@
     "icon": "VTA-Orange-icon.svg"
   },
   "SacRTGold": {
-    "name": "SacRT Gold Line",
-    "color": "#ffba00",
+    "name": "Gold",
+    "color": "#FEB627",
     "backgroundColor": "#A67900",
     "textColor": "#1F1F1F",
-    "progressOutlineColor": "#ffba00",
+    "progressOutlineColor": "#FEB627",
     "order": 40
   },
   "SacRTBlue": {
-    "name": "SacRT Blue Line",
-    "color": "#002666",
+    "name": "Blue",
+    "color": "#243386",
     "backgroundColor": "#001942",
     "textColor": "#FFFFFF",
-    "progressOutlineColor": "#002666",
+    "progressOutlineColor": "#243386",
     "order": 41
   },
   "SacRTGreen": {
-    "name": "SacRT Green Line",
-    "color": "#006633",
+    "name": "Green",
+    "color": "#02A14E",
     "backgroundColor": "#004221",
     "textColor": "#FFFFFF",
-    "progressOutlineColor": "#006633",
+    "progressOutlineColor": "#02A14E",
     "order": 42
+  },
+  "SFOBlue": {
+    "name": "Blue",
+    "color": "#43B0DC",
+    "backgroundColor": "#2E7CA0",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#43B0DC",
+    "order": 60,
+    "icon": "SFOBlue.svg"
+  },
+  "SFORed": {
+    "name": "Red",
+    "color": "#C42524",
+    "backgroundColor": "#821717",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#C42524",
+    "order": 61,
+    "icon": "SFORed.svg"
+  },
+  "CAHSR": {
+    "name": "CAHSR",
+    "color": "#233C81",
+    "backgroundColor": "#16265A",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#233C81",
+    "order": 70,
+    "icon": "CAHSR.svg"
   }
 }

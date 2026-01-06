@@ -1,17 +1,18 @@
 'use client'
 
 import SortMenu from '@/components/SortMenu'
+import { useSettings } from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
 import { useConfig } from '@/lib/configContext'
 import { DataFeature, SortOption, SortOptionType } from '@/lib/types'
-import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
 import { sortBy } from 'lodash'
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { DateAddedIcon } from './DateAddedIcon'
-import { useSettings } from '@/context/SettingsContext'
+
+let isGlobalMouseDown = false
 
 const getStationKey = (feature: DataFeature) => {
   const nameCandidates: unknown[] = [
@@ -128,6 +129,22 @@ const FoundList = ({
   const { LINES } = useConfig()
   const { t } = useTranslation()
   const { settings } = useSettings()
+
+  useEffect(() => {
+    const handleMouseDown = () => {
+      isGlobalMouseDown = true
+    }
+    const handleMouseUp = () => {
+      isGlobalMouseDown = false
+    }
+    document.addEventListener('mousedown', handleMouseDown, { passive: true })
+    document.addEventListener('mouseup', handleMouseUp, { passive: true })
+    return () => {
+      document.removeEventListener('mousedown', handleMouseDown)
+      document.removeEventListener('mouseup', handleMouseUp)
+    }
+  }, [])
+
 
   const sortOptions: SortOption[] = useMemo(
     () => [
@@ -434,7 +451,7 @@ const GroupedLine = memo(
     onStationFocus?: (id: number) => void
     activeStationId: number | null
     disabled?: boolean
-  }) => {
+  } ) => {
     const { LINES, CITY_NAME } = useConfig()
     const { resolvedTheme } = useTheme()
     const isDark = resolvedTheme === 'dark'
@@ -449,7 +466,6 @@ const GroupedLine = memo(
 
     const featureIdKey = featureIds.join('|')
     const nextId = featureIds[nextIndex] ?? featureIds[0] ?? null
-
     const lineIds = useMemo(() => {
       const ids = new Set<string>()
 
@@ -502,22 +518,26 @@ const GroupedLine = memo(
     }, [isActive])
 
     return (
-      <Transition
-        appear
-        as="li"
+      <li
         key={getStationKey(features[0])}
-        show
-        enter="transition duration-200 ease-out"
-        enterFrom="opacity-0 -translate-y-1"
-        enterTo="opacity-100 translate-y-0"
-        leave="transition duration-150 ease-in"
-        leaveFrom="opacity-100 translate-y-0"
-        leaveTo="opacity-0 -translate-y-1"
+        className="transition-opacity duration-200 ease-out"
       >
-        <button
+        <div
           ref={buttonRef}
-          type="button"
+          role="button"
+          tabIndex={disabled ? -1 : 0}
+          aria-label={displayName}
+          aria-disabled={disabled}
           onClick={() => {
+            const selection = window.getSelection()
+            const hasSelection =
+              selection &&
+              selection.type === 'Range' &&
+              selection.toString().length > 0
+            if (hasSelection) {
+              return
+            }
+            if (disabled) return
             if (typeof nextId !== 'number' || featureIds.length === 0) return
             zoomToFeature(nextId)
             onStationFocus?.(nextId)
@@ -528,15 +548,46 @@ const GroupedLine = memo(
               return (prev + 1) % count
             })
           }}
-          onMouseOver={() => setHoveredId(nextId ?? null)}
-          onMouseOut={() => setHoveredId(null)}
-          disabled={disabled}
+          onKeyDown={(event) => {
+            if (disabled) return
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault()
+              if (typeof nextId !== 'number' || featureIds.length === 0) return
+              zoomToFeature(nextId)
+              onStationFocus?.(nextId)
+              setHoveredId(nextId)
+              setNextIndex((prev) => {
+                const count = featureIds.length
+                if (count === 0) return 0
+                return (prev + 1) % count
+              })
+            }
+          }}
+          onMouseOver={() => {
+            const selection = window.getSelection()
+            const hasSelection =
+              selection &&
+              selection.type === 'Range' &&
+              selection.toString().length > 0
+            if (isGlobalMouseDown || hasSelection) return
+            setHoveredId(nextId ?? null)
+          }}
+          onMouseOut={() => {
+            const selection = window.getSelection()
+            const hasSelection =
+              selection &&
+              selection.type === 'Range' &&
+              selection.toString().length > 0
+            if (isGlobalMouseDown || hasSelection) return
+            setHoveredId(null)
+          }}
           className={classNames(
-            'flex w-full items-start gap-3 rounded border border-zinc-200 bg-white px-3 py-2 text-sm transition-colors dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100',
+            'flex w-full items-start gap-3 rounded border border-zinc-200 bg-white px-3 py-2 text-sm transition-colors dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100 select-text',
             {
               'bg-yellow-200 shadow-sm dark:bg-amber-300/40': isHovered,
               'ring-2 ring-[var(--accent-ring)] shadow-lg dark:ring-[var(--accent-ring)]': isActive,
               'cursor-not-allowed opacity-60': disabled,
+              'cursor-pointer': !disabled,
             },
           )}
           aria-pressed={isActive}
@@ -575,12 +626,12 @@ const GroupedLine = memo(
             </span>
           </div>
           <div className="ml-auto flex items-baseline gap-2">
-            <span className="whitespace-nowrap text-xs text-gray-400 dark:text-gray-300">
+            <span className="whitespace-nowrap text-xs text-gray-400 dark:text-gray-300 select-none">
               {timestamp}
             </span>
           </div>
-        </button>
-      </Transition>
+        </div>
+      </li>
     )
   },
 )

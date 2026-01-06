@@ -11,6 +11,24 @@ import { MaximizeIcon } from './MaximizeIcon'
 import { MinimizeIcon } from './MinimizeIcon'
 import ProgressBars from './ProgressBars'
 
+const buildLineImageConfetti = (
+  lines: Record<string, { icon?: string } | undefined>,
+) => {
+  const images: { src: string; width: number; height: number }[] = []
+  const seen = new Set<string>()
+
+  Object.values(lines || {}).forEach((line) => {
+    const icon = line?.icon
+    if (!icon || typeof icon !== 'string') return
+    const src = `/images/${icon}`
+    if (seen.has(src)) return
+    seen.add(src)
+    images.push({ src, width: 64, height: 64 })
+  })
+
+  return images.length > 0 ? images : null
+}
+
 const FoundSummary = ({
   className,
   foundStationsPerLine,
@@ -60,6 +78,7 @@ const FoundSummary = ({
         const colors = newFoundLines
           .map((line) => LINES[line]?.color)
           .filter((color): color is string => Boolean(color))
+        const images = buildLineImageConfetti(LINES)
         confetti({
           spread: 120,
           ticks: 200,
@@ -68,8 +87,9 @@ const FoundSummary = ({
           decay: 0.85,
           gravity: 2,
           startVelocity: 50,
-          shapes: ['circle'],
-          colors: colors.length > 0 ? colors : undefined,
+          shapes: images ? ['image'] : ['circle'],
+          shapeOptions: images ? { image: images } : undefined,
+          colors: images ? undefined : colors.length > 0 ? colors : undefined,
           scalar: 1.8,
         })
       }

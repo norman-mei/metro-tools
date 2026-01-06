@@ -1853,7 +1853,10 @@
       "properties": {
         "id": 116,
         "name": "San Francisco",
-        "line": "CaltrainLocal"
+        "line": "CaltrainLocal",
+        "alternate_names": [
+          "CalTrain Depot"
+        ]
       },
       "id": 116
     },
@@ -3036,8 +3039,12 @@
       },
       "properties": {
         "id": 206,
-        "name": "Stockton",
-        "line": "ACE"
+        "name": "Robert J. Cabral",
+        "line": "ACE",
+        "alternate_names": [
+          "Robert J. Cabral",
+          "Stockton"
+        ]
       },
       "id": 206
     },
@@ -3149,7 +3156,8 @@
       "properties": {
         "id": 213,
         "name": "Great America",
-        "line": "ACE"
+        "line": "ACE",
+        "cluster_key": 2
       },
       "id": 213
     },
@@ -3436,8 +3444,11 @@
       },
       "properties": {
         "id": 367,
-        "name": "San Antonio",
-        "line": "VTABlue"
+        "name": "Paseo de San Antonio",
+        "line": "VTABlue",
+        "alternate_names": [
+          "San Antonio"
+        ]
       },
       "id": 367
     },
@@ -3692,8 +3703,11 @@
       },
       "properties": {
         "id": 383,
-        "name": "Campbell",
-        "line": "VTAGreen"
+        "name": "Downtown Campbell",
+        "line": "VTAGreen",
+        "alternate_names": [
+          "Campbell"
+        ]
       },
       "id": 383
     },
@@ -3773,7 +3787,8 @@
       "properties": {
         "id": 388,
         "name": "Lick Mill",
-        "line": "VTAGreen"
+        "line": "VTAGreen",
+        "cluster_key": 2
       },
       "id": 388
     },
@@ -3846,30 +3861,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.8934312,
-          37.3274996
-        ]
-      },
-      "properties": {
-        "id": 393,
-        "name": "Children’s Discovery Museum",
-        "line": "VTAGreen"
-      },
-      "id": 393
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.8875974,
           37.3331608
         ]
       },
       "properties": {
         "id": 394,
-        "name": "San Antonio",
-        "line": "VTAGreen"
+        "name": "Paseo de San Antonio",
+        "line": "VTAGreen",
+        "alternate_names": [
+          "San Antonio"
+        ]
       },
       "id": 394
     },
@@ -4470,186 +4472,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4145068,
-          37.7790243
-        ]
-      },
-      "properties": {
-        "line": "MuniJ",
-        "id": 504
-      },
-      "id": 504
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4145068,
-          37.7790243
-        ]
-      },
-      "properties": {
-        "line": "MuniK",
-        "id": 505
-      },
-      "id": 505
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4145068,
-          37.7790243
-        ]
-      },
-      "properties": {
-        "line": "MuniL",
-        "id": 506
-      },
-      "id": 506
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4145068,
-          37.7790243
-        ]
-      },
-      "properties": {
-        "line": "MuniM",
-        "id": 507
-      },
-      "id": 507
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4145068,
-          37.7790243
-        ]
-      },
-      "properties": {
-        "line": "MuniN",
-        "id": 508
-      },
-      "id": 508
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3880663,
-          37.7561219
-        ]
-      },
-      "properties": {
-        "line": "MuniT",
-        "id": 509
-      },
-      "id": 509
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4145068,
-          37.7790243
-        ]
-      },
-      "properties": {
-        "line": "MuniS",
-        "id": 510
-      },
-      "id": 510
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.394276,
-          37.7954898
-        ]
-      },
-      "properties": {
-        "line": "MuniE",
-        "id": 511
-      },
-      "id": 511
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.394276,
-          37.7954898
-        ]
-      },
-      "properties": {
-        "line": "MuniF",
-        "id": 512
-      },
-      "id": 512
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4110282,
-          37.7918304
-        ]
-      },
-      "properties": {
-        "line": "MuniC",
-        "id": 513
-      },
-      "id": 513
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.408283,
-          37.7874691
-        ]
-      },
-      "properties": {
-        "line": "MuniPH",
-        "id": 514
-      },
-      "id": 514
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.408283,
-          37.7874691
-        ]
-      },
-      "properties": {
-        "line": "MuniPM",
-        "id": 515
-      },
-      "id": 515
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.50046321983567,
           38.58463969429393
         ]
@@ -4689,7 +4511,8 @@
       "properties": {
         "id": 518,
         "name": "7th & Capitol",
-        "line": "SacRTGold"
+        "line": "SacRTGold",
+        "cluster_key": 1
       },
       "id": 518
     },
@@ -4800,8 +4623,12 @@
       },
       "properties": {
         "id": 525,
-        "name": "39th Street",
-        "line": "SacRTGold"
+        "name": "39th Street/UC Davis Health",
+        "line": "SacRTGold",
+        "alternate_names": [
+          "39th St",
+          "39th Street"
+        ]
       },
       "id": 525
     },
@@ -5057,7 +4884,10 @@
       "properties": {
         "id": 541,
         "name": "Glenn/Robert G Holderness",
-        "line": "SacRTGold"
+        "line": "SacRTGold",
+        "alternate_names": [
+          "Glenn"
+        ]
       },
       "id": 541
     },
@@ -5121,7 +4951,8 @@
       "properties": {
         "id": 545,
         "name": "8th & Capitol",
-        "line": "SacRTGreen"
+        "line": "SacRTGreen",
+        "cluster_key": 1
       },
       "id": 545
     },
@@ -5297,7 +5128,8 @@
       "properties": {
         "id": 556,
         "name": "Globe",
-        "line": "SacRTBlue"
+        "line": "SacRTBlue",
+        "cluster_key": 3
       },
       "id": 556
     },
@@ -5377,7 +5209,8 @@
       "properties": {
         "id": 561,
         "name": "8th & Capitol",
-        "line": "SacRTBlue"
+        "line": "SacRTBlue",
+        "cluster_key": 1
       },
       "id": 561
     },
@@ -5620,6 +5453,5940 @@
         "line": "SacRTBlue"
       },
       "id": 576
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50446731707902,
+          37.73614850805532
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "SF Zoo",
+        "id": 577
+      },
+      "id": 577
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50436810633526,
+          37.73810621436116
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "46th Ave & Vicente",
+        "id": 578
+      },
+      "id": 578
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50451419971469,
+          37.73993756694935
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "46th Ave & Ulloa",
+        "id": 579
+      },
+      "id": 579
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50456917102568,
+          37.741757632156556
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "46th Ave & Taraval",
+        "id": 580
+      },
+      "id": 580
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50249853196016,
+          37.741880624959045
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 44th Ave",
+        "id": 581
+      },
+      "id": 581
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50036472014254,
+          37.74197952053467
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 42nd Ave",
+        "id": 582
+      },
+      "id": 582
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49821915401799,
+          37.742075821740976
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 40th Ave",
+        "id": 583
+      },
+      "id": 583
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49446832370833,
+          37.742236342803864
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & Sunset",
+        "id": 584
+      },
+      "id": 584
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48965066126678,
+          37.74245215237321
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 32nd Ave",
+        "id": 585
+      },
+      "id": 585
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48750571937563,
+          37.74255203151649
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 30th Ave",
+        "id": 586
+      },
+      "id": 586
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48321583390157,
+          37.74273752014949
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 26th Ave",
+        "id": 587
+      },
+      "id": 587
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47892594881519,
+          37.74292122664301
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 23rd Ave",
+        "id": 588
+      },
+      "id": 588
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47999503611408,
+          37.74288020126166
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 22nd Ave",
+        "id": 589
+      },
+      "id": 589
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47566680936289,
+          37.74306925781334
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 19th Ave",
+        "id": 590
+      },
+      "id": 590
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47357599802923,
+          37.74316021934518
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Taraval & 17th Ave",
+        "id": 591
+      },
+      "id": 591
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47137399591576,
+          37.74312726964711
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "15th Ave & Taraval",
+        "id": 592
+      },
+      "id": 592
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.470126572352,
+          37.74143841620213
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Ulloa & 14th Ave",
+        "id": 593
+      },
+      "id": 593
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46556978377382,
+          37.74122567823675
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "West Portal",
+        "id": 594
+      },
+      "id": 594
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45911904776142,
+          37.74798747690975
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Forest Hill",
+        "id": 595
+      },
+      "id": 595
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4347871376747,
+          37.76286924070163
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Castro",
+        "id": 596
+      },
+      "id": 596
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42851193371698,
+          37.767859530265014
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Church",
+        "id": 597
+      },
+      "id": 597
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Van Ness",
+        "id": 598
+      },
+      "id": 598
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Civic Center/UN Plaza",
+        "id": 599
+      },
+      "id": 599
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4072113288944,
+          37.784707369695965
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Powell",
+        "id": 600
+      },
+      "id": 600
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40119155764367,
+          37.78947774083331
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Montgomery",
+        "id": 601
+      },
+      "id": 601
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39696914859314,
+          37.79281338152934
+        ]
+      },
+      "properties": {
+        "line": "MuniL",
+        "name": "Embarcadero",
+        "id": 602
+      },
+      "id": 602
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44730051237937,
+          37.72218159823985
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Balboa Park",
+        "id": 603
+      },
+      "id": 603
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44469830386686,
+          37.7231035025899
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "San Jose and Ocean",
+        "id": 604
+      },
+      "id": 604
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44240490990134,
+          37.72580730821397
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "San Jose and Santa Ynez",
+        "id": 605
+      },
+      "id": 605
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44009769996529,
+          37.728929348271144
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "San Jose and Santa Rosa",
+        "id": 606
+      },
+      "id": 606
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43368149843876,
+          37.73246696278222
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "San Jose/Glen Park",
+        "id": 607
+      },
+      "id": 607
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42429279787576,
+          37.739456287516475
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "San Jose and Randall",
+        "id": 608
+      },
+      "id": 608
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4242560752344,
+          37.74224989393273
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "30th St and Dolores St",
+        "id": 609
+      },
+      "id": 609
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42655227155731,
+          37.74223655041236
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 30th St",
+        "id": 610
+      },
+      "id": 610
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42660691970772,
+          37.742718823021676
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church & Day St",
+        "id": 611
+      },
+      "id": 611
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42669364677383,
+          37.7437170126082
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 29th St",
+        "id": 612
+      },
+      "id": 612
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42685804519586,
+          37.74534096053175
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 28th St",
+        "id": 613
+      },
+      "id": 613
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4271575290727,
+          37.74852862813542
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 26th St",
+        "id": 614
+      },
+      "id": 614
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42746420276508,
+          37.751728247563044
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 24th St",
+        "id": 615
+      },
+      "id": 615
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4277548516275,
+          37.754746666865486
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 22nd St",
+        "id": 616
+      },
+      "id": 616
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42700314159728,
+          37.75632896024671
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Right Of Way/21st St",
+        "id": 617
+      },
+      "id": 617
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42696781034171,
+          37.757396141188664
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Right Of Way/Liberty St",
+        "id": 618
+      },
+      "id": 618
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42789938234563,
+          37.758266788283485
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Right Of Way/20th St",
+        "id": 619
+      },
+      "id": 619
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42835149665544,
+          37.761336731643944
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 18th St",
+        "id": 620
+      },
+      "id": 620
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42869539700006,
+          37.76453689582902
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and 16th St",
+        "id": 621
+      },
+      "id": 621
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42893722610901,
+          37.76708845835494
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and Market St",
+        "id": 622
+      },
+      "id": 622
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42912092684224,
+          37.769156196803564
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Church and Duboce Ave",
+        "id": 623
+      },
+      "id": 623
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Van Ness",
+        "id": 624
+      },
+      "id": 624
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Civic Center/UN Plaza",
+        "id": 625
+      },
+      "id": 625
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4072113288944,
+          37.784707369695965
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Powell",
+        "id": 626
+      },
+      "id": 626
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40119155764367,
+          37.78947774083331
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Montgomery",
+        "id": 627
+      },
+      "id": 627
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39696914859314,
+          37.79281338152934
+        ]
+      },
+      "properties": {
+        "line": "MuniJ",
+        "name": "Embarcadero",
+        "id": 628
+      },
+      "id": 628
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44730051237937,
+          37.72218159823985
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Balboa Park",
+        "id": 629
+      },
+      "id": 629
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45098920650423,
+          37.72299874542363
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean Avenue/CCSF Pedestrian Bridge",
+        "id": 630
+      },
+      "id": 630
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4541380561499,
+          37.723463973140305
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Lee",
+        "id": 631
+      },
+      "id": 631
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45823359884778,
+          37.724329747864466
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Miramar",
+        "id": 632
+      },
+      "id": 632
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46151917159946,
+          37.725037823295985
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Jules",
+        "id": 633
+      },
+      "id": 633
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46102791488501,
+          37.72491739845584
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Dorado",
+        "id": 634
+      },
+      "id": 634
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46410300769463,
+          37.72598468673745
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Fairfield",
+        "id": 635
+      },
+      "id": 635
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46441790113552,
+          37.72610231912774
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Victoria",
+        "id": 636
+      },
+      "id": 636
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46776662174875,
+          37.72835282433406
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and Aptos",
+        "id": 637
+      },
+      "id": 637
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46936203673799,
+          37.72998770072644
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Ocean and San Leandro",
+        "id": 638
+      },
+      "id": 638
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47178039671229,
+          37.73132109915764
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Junipero Serra and Ocean",
+        "id": 639
+      },
+      "id": 639
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47139092520146,
+          37.735262187544755
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "St. Francis Circle",
+        "id": 640
+      },
+      "id": 640
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46906139854873,
+          37.738008624188716
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "West Portal and 14th Ave",
+        "id": 641
+      },
+      "id": 641
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46556978377382,
+          37.74122567823675
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "West Portal",
+        "id": 642
+      },
+      "id": 642
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45911904776142,
+          37.74798747690975
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Forest Hill",
+        "id": 643
+      },
+      "id": 643
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4347871376747,
+          37.76286924070163
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Castro",
+        "id": 644
+      },
+      "id": 644
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42851193371698,
+          37.767859530265014
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Church",
+        "id": 645
+      },
+      "id": 645
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Van Ness",
+        "id": 646
+      },
+      "id": 646
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Civic Center/UN Plaza",
+        "id": 647
+      },
+      "id": 647
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4072113288944,
+          37.784707369695965
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Powell Street",
+        "id": 648
+      },
+      "id": 648
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40119155764367,
+          37.78947774083331
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Montgomery Street",
+        "id": 649
+      },
+      "id": 649
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39696914859314,
+          37.79281338152934
+        ]
+      },
+      "properties": {
+        "line": "MuniK",
+        "name": "Embarcadero",
+        "id": 650
+      },
+      "id": 650
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44715821295082,
+          37.72008744159575
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "San Jose and Geneva",
+        "id": 651
+      },
+      "id": 651
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44760684333141,
+          37.71952292161273
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "San Jose and Niagara",
+        "id": 652
+      },
+      "id": 652
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45040999246513,
+          37.71618939423496
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "San Jose and Lakeview",
+        "id": 653
+      },
+      "id": 653
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45223070345956,
+          37.71407084597659
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "San Jose and Farallones",
+        "id": 654
+      },
+      "id": 654
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45607635933217,
+          37.713207130189176
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Broad and Plymouth",
+        "id": 655
+      },
+      "id": 655
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46235424498053,
+          37.71316812274315
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Broad and Orizaba",
+        "id": 656
+      },
+      "id": 656
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46255593190811,
+          37.71333740241696
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Orizaba and Broad",
+        "id": 657
+      },
+      "id": 657
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46352758755118,
+          37.714311544497335
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Randolph and Bright",
+        "id": 658
+      },
+      "id": 658
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46712406268851,
+          37.71428580757143
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Randolph and Arch",
+        "id": 659
+      },
+      "id": 659
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4703435041816,
+          37.714821193103425
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "19th Ave and Randolph",
+        "id": 660
+      },
+      "id": 660
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47164124872353,
+          37.71621726186923
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "19th Ave and Randolph",
+        "id": 661
+      },
+      "id": 661
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47226716894691,
+          37.71690058202938
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "19th Ave and Junipero Serra",
+        "id": 662
+      },
+      "id": 662
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47521501610042,
+          37.72173120668435
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "San Franciso State University",
+        "id": 663,
+        "alternate_names": [
+          "SFSU",
+          "San Franciso State",
+          "SF State",
+          "19th Ave and Holloway Ave",
+          "Holloway Ave and 19th Ave"
+        ]
+      },
+      "id": 663
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4749016124707,
+          37.72745214080406
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Stonestown Galleria",
+        "id": 664
+      },
+      "id": 664
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47435943407336,
+          37.7311101444887
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Right of Way/Eucalyptus",
+        "id": 665
+      },
+      "id": 665
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47377503462225,
+          37.731947733041544
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Right of Way/Ocean",
+        "id": 666
+      },
+      "id": 666
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47139092520146,
+          37.735262187544755
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "St. Francis Circle",
+        "id": 667
+      },
+      "id": 667
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46906139854873,
+          37.738008624188716
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "West Portal and 14th Ave",
+        "id": 668
+      },
+      "id": 668
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46556978377382,
+          37.74122567823675
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "West Portal",
+        "id": 669
+      },
+      "id": 669
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45911904776142,
+          37.74798747690975
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Forest Hill",
+        "id": 670
+      },
+      "id": 670
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4347871376747,
+          37.76286924070163
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Castro",
+        "id": 671
+      },
+      "id": 671
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42851193371698,
+          37.767859530265014
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Church",
+        "id": 672
+      },
+      "id": 672
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Van Ness",
+        "id": 673
+      },
+      "id": 673
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Civic Center/UN Plaza",
+        "id": 674
+      },
+      "id": 674
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4071867,
+          37.7847076
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Powell Street",
+        "id": 675
+      },
+      "id": 675
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4014677,
+          37.7892257
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Montgomery Street",
+        "id": 676
+      },
+      "id": 676
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "line": "MuniM",
+        "name": "Embarcadero",
+        "id": 677
+      },
+      "id": 677
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5082880720132,
+          37.76033254422198
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and La Playa",
+        "id": 678
+      },
+      "id": 678
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50595549393543,
+          37.76043585832037
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 46th Ave",
+        "id": 679
+      },
+      "id": 679
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5027332062037,
+          37.760585875686616
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 43rd Ave",
+        "id": 680
+      },
+      "id": 680
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49928994996473,
+          37.760729399062136
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 40th Ave",
+        "id": 681
+      },
+      "id": 681
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49577382707777,
+          37.760886259330185
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and Sunset",
+        "id": 682
+      },
+      "id": 682
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49310763365935,
+          37.76100227090992
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 34th Ave",
+        "id": 683
+      },
+      "id": 683
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48965717258261,
+          37.761153828967096
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 31st Ave",
+        "id": 684
+      },
+      "id": 684
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4866603767955,
+          37.76128865844608
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 28th Ave",
+        "id": 685
+      },
+      "id": 685
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48344377836602,
+          37.76143126723205
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 25th Ave",
+        "id": 686
+      },
+      "id": 686
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48130076945324,
+          37.76152300001163
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 23rd Ave",
+        "id": 687
+      },
+      "id": 687
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48023164536963,
+          37.76157108991001
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 22nd Ave",
+        "id": 688
+      },
+      "id": 688
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47703349017941,
+          37.76171826993747
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 19th Ave",
+        "id": 689
+      },
+      "id": 689
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47381149638643,
+          37.761856632599326
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 16th Ave",
+        "id": 690
+      },
+      "id": 690
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47267969870389,
+          37.76190617732488
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 15th Ave",
+        "id": 691
+      },
+      "id": 691
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47049730016877,
+          37.76200032328476
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and Funston",
+        "id": 692
+      },
+      "id": 692
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46941896005274,
+          37.762049870435916
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 12th Ave",
+        "id": 693
+      },
+      "id": 693
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4666097441175,
+          37.76217373485156
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Judah and 9th Ave",
+        "id": 694
+      },
+      "id": 694
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46550006536644,
+          37.76409436822171
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Irving and 8th Ave",
+        "id": 695
+      },
+      "id": 695
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46628900827277,
+          37.76331621352228
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "9th Ave and Irving",
+        "id": 696
+      },
+      "id": 696
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46228163453293,
+          37.7642342578781
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Irving and 5th Ave",
+        "id": 697
+      },
+      "id": 697
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4629747237449,
+          37.76420657480734
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Irving and 6th",
+        "id": 698
+      },
+      "id": 698
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45853374487918,
+          37.76440657506037
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "UCSF Parnassus",
+        "id": 699,
+        "alternate_names": [
+          "Irving and 2nd Av",
+          "Irving and Arguello",
+          "Arguello and Irving",
+          "2nd Av and Irving"
+        ]
+      },
+      "id": 699
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45657154204041,
+          37.764979194221546
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Carl and Hillway",
+        "id": 700
+      },
+      "id": 700
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45278966453564,
+          37.76546032882455
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Carl and Stanyan",
+        "id": 701
+      },
+      "id": 701
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4499864336859,
+          37.765811568432795
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Carl and Cole",
+        "id": 702
+      },
+      "id": 702
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43356007635957,
+          37.76932296614276
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Duboce and Noe",
+        "id": 703
+      },
+      "id": 703
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4295710396589,
+          37.76945015910694
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Duboce and Church",
+        "id": 704
+      },
+      "id": 704
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Van Ness",
+        "id": 705
+      },
+      "id": 705
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Civic Center/UN Plaza",
+        "id": 706
+      },
+      "id": 706
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4071867,
+          37.7847076
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Powell Street",
+        "id": 707
+      },
+      "id": 707
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4014677,
+          37.7892257
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Montgomery Street",
+        "id": 708
+      },
+      "id": 708
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Embarcadero",
+        "id": 709
+      },
+      "id": 709
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Embarcadero",
+        "id": 710
+      },
+      "id": 710
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40119155764367,
+          37.78947774083331
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Montgomery",
+        "id": 711
+      },
+      "id": 711
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4072113288944,
+          37.784707369695965
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Powell",
+        "id": 712
+      },
+      "id": 712
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Civic Center/UN Plaza",
+        "id": 713
+      },
+      "id": 713
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Van Ness",
+        "id": 714
+      },
+      "id": 714
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42851193371698,
+          37.767859530265014
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Church",
+        "id": 715
+      },
+      "id": 715
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4347871376747,
+          37.76286924070163
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Castro",
+        "id": 716
+      },
+      "id": 716
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45911904776142,
+          37.74798747690975
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "Forest Hill",
+        "id": 717
+      },
+      "id": 717
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46556978377382,
+          37.74122567823675
+        ]
+      },
+      "properties": {
+        "line": "MuniS",
+        "name": "West Portal",
+        "id": 718
+      },
+      "id": 718
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40489090968171,
+          37.70945411787701
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Sunnydale",
+        "id": 719
+      },
+      "id": 719
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40232348138267,
+          37.71226209434675
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Arleta",
+        "id": 720
+      },
+      "id": 720
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39781016057319,
+          37.718549263708155
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Le Conte",
+        "id": 721
+      },
+      "id": 721
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39583441465805,
+          37.72210169000954
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Gilman/Paul",
+        "id": 722
+      },
+      "id": 722
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3954917678409,
+          37.722777812896005
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Gilman/Paul",
+        "id": 723
+      },
+      "id": 723
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39445879382349,
+          37.72511767824942
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Carroll",
+        "id": 724
+      },
+      "id": 724
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39410293013238,
+          37.72587035603462
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Carroll",
+        "id": 725
+      },
+      "id": 725
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39280321188053,
+          37.72893636646386
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Williams",
+        "id": 726
+      },
+      "id": 726
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39258245182903,
+          37.72954481108511
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Williams",
+        "id": 727
+      },
+      "id": 727
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391627500549,
+          37.73227361458045
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Revere/Shafter",
+        "id": 728
+      },
+      "id": 728
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39086730924517,
+          37.73440025604259
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Oakdale/Palou",
+        "id": 729
+      },
+      "id": 729
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38973537255548,
+          37.73765842623921
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Kirkwood/La Salle",
+        "id": 730
+      },
+      "id": 730
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38892988725532,
+          37.739937776773544
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Hudson/Innes",
+        "id": 731
+      },
+      "id": 731
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38808658460006,
+          37.74234250950459
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Evans",
+        "id": 732
+      },
+      "id": 732
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3878026373148,
+          37.74313276778505
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Evans",
+        "id": 733
+      },
+      "id": 733
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38744410732015,
+          37.748470598813526
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Marin St",
+        "id": 734
+      },
+      "id": 734
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38753881278694,
+          37.74938736339122
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Marin St",
+        "id": 735
+      },
+      "id": 735
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38799498115286,
+          37.75499526284968
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "23rd St",
+        "id": 736
+      },
+      "id": 736
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.388056003651,
+          37.75585559327944
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "23rd St",
+        "id": 737
+      },
+      "id": 737
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38855680781789,
+          37.76011160433665
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "20th St",
+        "id": 738
+      },
+      "id": 738
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38860723981192,
+          37.760881638465605
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "20th St",
+        "id": 739
+      },
+      "id": 739
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38890640624687,
+          37.76476412406711
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "UCSF Medical Center",
+        "id": 740
+      },
+      "id": 740
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38927933241077,
+          37.76851087844048
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "UCSF/Chase Center",
+        "id": 741
+      },
+      "id": 741
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3896693724684,
+          37.77254995145694
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Mission Rock",
+        "id": 742
+      },
+      "id": 742
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38973097666647,
+          37.773313092302985
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Mission Rock",
+        "id": 743
+      },
+      "id": 743
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39366787345608,
+          37.776042914184046
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "4th and King",
+        "id": 744
+      },
+      "id": 744
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39704722029566,
+          37.7787370713635
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "4th and Brannan",
+        "id": 745
+      },
+      "id": 745
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40157299270703,
+          37.78238136016752
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Yerba Buena/Moscone",
+        "id": 746
+      },
+      "id": 746
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40645,
+          37.786846
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Union Square/Market St",
+        "id": 747
+      },
+      "id": 747
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.408063377793,
+          37.79479920392255
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Chinatown",
+        "id": 748,
+        "alternate_names": [
+          "Chinatown-Rose Pak"
+        ]
+      },
+      "id": 748
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925936196719,
+          37.77523039854974
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Van Ness",
+        "id": 749
+      },
+      "id": 749
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41348879091638,
+          37.7797589791906
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Civic Center/UN Plaza",
+        "id": 750
+      },
+      "id": 750
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4072113288944,
+          37.784707369695965
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Powell",
+        "id": 751
+      },
+      "id": 751
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40119155764367,
+          37.78947774083331
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Montgomery",
+        "id": 752
+      },
+      "id": 752
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968986,
+          37.792855
+        ]
+      },
+      "properties": {
+        "line": "MuniT",
+        "name": "Embarcadero",
+        "id": 753
+      },
+      "id": 753
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39443198167088,
+          37.7760630474829
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "4th and King",
+        "id": 754
+      },
+      "id": 754
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39013001202044,
+          37.77943763344283
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "2nd and King",
+        "id": 755
+      },
+      "id": 755
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38813906882915,
+          37.783789071055544
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Brannan",
+        "id": 756
+      },
+      "id": 756
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38955664793136,
+          37.79046656641956
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Folsom",
+        "id": 757
+      },
+      "id": 757
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39428011332211,
+          37.79546418401919
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "Ferry Building",
+        "id": 758,
+        "alternate_names": [
+          "Embarcadero",
+          "Embarcadero Station"
+        ]
+      },
+      "id": 758
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39520569775183,
+          37.796445325888044
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Washington",
+        "id": 759
+      },
+      "id": 759
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39572806245835,
+          37.797035154154806
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Washington",
+        "id": 760
+      },
+      "id": 760
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39745760080507,
+          37.79898188128167
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Broadway",
+        "id": 761
+      },
+      "id": 761
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39791841239985,
+          37.79950137423993
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Broadway",
+        "id": 762
+      },
+      "id": 762
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39895454642199,
+          37.80068966169646
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Green",
+        "id": 763
+      },
+      "id": 763
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39942211343285,
+          37.80121345656863
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Green",
+        "id": 764
+      },
+      "id": 764
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40114361847517,
+          37.80313723279159
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Greenwich",
+        "id": 765
+      },
+      "id": 765
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40306751690022,
+          37.804917782363624
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Sansome",
+        "id": 766
+      },
+      "id": 766
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40627006720398,
+          37.806879287034825
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Bay",
+        "id": 767
+      },
+      "id": 767
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41031796790861,
+          37.808346248975894
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "The Embarcadero and Stockton",
+        "id": 768
+      },
+      "id": 768
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41105208370729,
+          37.80783216780578
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "Beach and Stockton",
+        "id": 769
+      },
+      "id": 769
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41436593602093,
+          37.80738771476385
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "Beach and Mason",
+        "id": 770
+      },
+      "id": 770
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4133627284065,
+          37.8085828011605
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "Jefferson and Powell",
+        "id": 771
+      },
+      "id": 771
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41550575696584,
+          37.808310478944996
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "Jefferson and Taylor",
+        "id": 772
+      },
+      "id": 772
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41735411621931,
+          37.80720815559045
+        ]
+      },
+      "properties": {
+        "line": "MuniE",
+        "name": "Jones and Beach",
+        "id": 773
+      },
+      "id": 773
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39359831374657,
+          37.794013142240054
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Don Chee Way and Steuart",
+        "id": 774
+      },
+      "id": 774
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3967353280469,
+          37.792953199057536
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Main",
+        "id": 775
+      },
+      "id": 775
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39592755491316,
+          37.793702184165774
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Drumm",
+        "id": 776
+      },
+      "id": 776
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3994139732486,
+          37.790814821996634
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 1st St",
+        "id": 777
+      },
+      "id": 777
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39899403836625,
+          37.79125217472546
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Battery",
+        "id": 778
+      },
+      "id": 778
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40121928509724,
+          37.78948357474352
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 2nd St",
+        "id": 779
+      },
+      "id": 779
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40227767873324,
+          37.78857039942112
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and New Montgomery",
+        "id": 780
+      },
+      "id": 780
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40377248788171,
+          37.78739390712967
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 3rd St",
+        "id": 781
+      },
+      "id": 781
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40322328794015,
+          37.78793321650522
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Kearny",
+        "id": 782
+      },
+      "id": 782
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40623870882696,
+          37.78543618348641
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 4th St",
+        "id": 783
+      },
+      "id": 783
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40573844762878,
+          37.78592716154115
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Stockton",
+        "id": 784
+      },
+      "id": 784
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4078780673139,
+          37.78423604966628
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 5th St",
+        "id": 785
+      },
+      "id": 785
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40830220170224,
+          37.783799853714825
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 5th St",
+        "id": 786
+      },
+      "id": 786
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41067416425477,
+          37.78193156394105
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 6th St",
+        "id": 787
+      },
+      "id": 787
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4101507955764,
+          37.782433310623624
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Taylor",
+        "id": 788
+      },
+      "id": 788
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41232507853393,
+          37.780718798468776
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 7th St",
+        "id": 789
+      },
+      "id": 789
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41274205178107,
+          37.78029523546479
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 7th St",
+        "id": 790
+      },
+      "id": 790
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41496881356427,
+          37.778535530371954
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 8th St",
+        "id": 791
+      },
+      "id": 791
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41458478447967,
+          37.77894109856564
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Hyde",
+        "id": 792
+      },
+      "id": 792
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41654515477568,
+          37.777291392035885
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and 9th St",
+        "id": 793
+      },
+      "id": 793
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41606638033228,
+          37.777755673227084
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Larkin",
+        "id": 794
+      },
+      "id": 794
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41896517312809,
+          37.775463660537355
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Van Ness",
+        "id": 795
+      },
+      "id": 795
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41961568855467,
+          37.77487695916252
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Van Ness",
+        "id": 796
+      },
+      "id": 796
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42177627854244,
+          37.77327521931609
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Gough",
+        "id": 797
+      },
+      "id": 797
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42210227140939,
+          37.77284081336551
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Gough",
+        "id": 798
+      },
+      "id": 798
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42503562119964,
+          37.77060811439687
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Guerrero",
+        "id": 799
+      },
+      "id": 799
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42463646114078,
+          37.77102812116615
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Laguna",
+        "id": 800
+      },
+      "id": 800
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42615508810805,
+          37.769820423005335
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Dolores",
+        "id": 801
+      },
+      "id": 801
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42615508810805,
+          37.769820423005335
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Buchanan",
+        "id": 802
+      },
+      "id": 802
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42898102981408,
+          37.76751250228816
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Church",
+        "id": 803
+      },
+      "id": 803
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43104966117112,
+          37.7658626845164
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Markett and Sanchez",
+        "id": 804
+      },
+      "id": 804
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43342593749311,
+          37.763935787133484
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Market and Noe",
+        "id": 805
+      },
+      "id": 805
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43479863450099,
+          37.762537990244375
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "17th St and Castro",
+        "id": 806
+      },
+      "id": 806
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39428011332211,
+          37.79546418401919
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Ferry Building",
+        "id": 807
+      },
+      "id": 807
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39520569775183,
+          37.796445325888044
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Washington",
+        "id": 808
+      },
+      "id": 808
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39572806245835,
+          37.797035154154806
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Washington",
+        "id": 809
+      },
+      "id": 809
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39745760080507,
+          37.79898188128167
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Broadway",
+        "id": 810
+      },
+      "id": 810
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39791841239985,
+          37.79950137423993
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Broadway",
+        "id": 811
+      },
+      "id": 811
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39895454642199,
+          37.80068966169646
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Green",
+        "id": 812
+      },
+      "id": 812
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39942211343285,
+          37.80121345656863
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Green",
+        "id": 813
+      },
+      "id": 813
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40114361847517,
+          37.80313723279159
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Greenwich",
+        "id": 814
+      },
+      "id": 814
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40306751690022,
+          37.804917782363624
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Sansome",
+        "id": 815
+      },
+      "id": 815
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40627006720398,
+          37.806879287034825
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Bay",
+        "id": 816
+      },
+      "id": 816
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41031796790861,
+          37.808346248975894
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "The Embarcadero and Stockton",
+        "id": 817
+      },
+      "id": 817
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41105208370729,
+          37.80783216780578
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Beach and Stockton",
+        "id": 818
+      },
+      "id": 818
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41436593602093,
+          37.80738771476385
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Beach and Mason",
+        "id": 819
+      },
+      "id": 819
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4133627284065,
+          37.8085828011605
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Jefferson and Powell",
+        "id": 820
+      },
+      "id": 820
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41550575696584,
+          37.808310478944996
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Jefferson and Taylor",
+        "id": 821
+      },
+      "id": 821
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41735411621931,
+          37.80720815559045
+        ]
+      },
+      "properties": {
+        "line": "MuniF",
+        "name": "Jones and Beach",
+        "id": 822
+      },
+      "id": 822
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38955664793136,
+          37.79046656641956
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Folsom",
+        "id": 823
+      },
+      "id": 823
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38813906882915,
+          37.783789071055544
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "Brannan",
+        "id": 824
+      },
+      "id": 824
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39013001202044,
+          37.77943763344283
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "2nd and King",
+        "id": 825
+      },
+      "id": 825
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39443198167088,
+          37.7760630474829
+        ]
+      },
+      "properties": {
+        "line": "MuniN",
+        "name": "4th and King",
+        "id": 826
+      },
+      "id": 826
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39680338348556,
+          37.7935474516401
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Drumm",
+        "id": 827
+      },
+      "id": 827
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39780941542206,
+          37.79349240815331
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Davis",
+        "id": 828
+      },
+      "id": 828
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39893065744137,
+          37.79334966988864
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Front",
+        "id": 829
+      },
+      "id": 829
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40011349666368,
+          37.793199037322346
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Battery",
+        "id": 830
+      },
+      "id": 830
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40131158923174,
+          37.793045923766286
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Sansome",
+        "id": 831
+      },
+      "id": 831
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40295018791315,
+          37.79283864605778
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Montgomery",
+        "id": 832
+      },
+      "id": 832
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40426351484723,
+          37.79267139879302
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Kearny",
+        "id": 833
+      },
+      "id": 833
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40581323239115,
+          37.79248716198735
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Grant",
+        "id": 834
+      },
+      "id": 834
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40745030899136,
+          37.792271829816535
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Stockton",
+        "id": 835
+      },
+      "id": 835
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40935671349742,
+          37.79203063918357
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "Powell and California",
+        "id": 836
+      },
+      "id": 836
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4110140778708,
+          37.79182277446908
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Mason",
+        "id": 837
+      },
+      "id": 837
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41229437502287,
+          37.79166256746982
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Taylor",
+        "id": 838
+      },
+      "id": 838
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41398457679827,
+          37.791448159155856
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Jones",
+        "id": 839
+      },
+      "id": 839
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41596112142592,
+          37.79119347628923
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Leavenworth",
+        "id": 840
+      },
+      "id": 840
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41756769649038,
+          37.79096423457492
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Hyde",
+        "id": 841
+      },
+      "id": 841
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41924938726135,
+          37.79077051221162
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Larkin",
+        "id": 842
+      },
+      "id": 842
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42084217211685,
+          37.790567539491555
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Polk",
+        "id": 843
+      },
+      "id": 843
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42201366056163,
+          37.79042309269114
+        ]
+      },
+      "properties": {
+        "line": "MuniC",
+        "name": "California and Van Ness",
+        "id": 844
+      },
+      "id": 844
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4210097287338,
+          37.806940905840165
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Beach",
+        "id": 845
+      },
+      "id": 845
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42037709279195,
+          37.80564448726391
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and North Point",
+        "id": 846
+      },
+      "id": 846
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42019737526364,
+          37.80481783836901
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Bay",
+        "id": 847
+      },
+      "id": 847
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4198189929753,
+          37.802970259025074
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Chestnut",
+        "id": 848
+      },
+      "id": 848
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41963097188172,
+          37.802022392588654
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Lombard",
+        "id": 849
+      },
+      "id": 849
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194284141679,
+          37.80099946803173
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Greenwich",
+        "id": 850
+      },
+      "id": 850
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41926822933547,
+          37.800151997342745
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Filbert",
+        "id": 851
+      },
+      "id": 851
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41907543356781,
+          37.79921407877575
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Union",
+        "id": 852
+      },
+      "id": 852
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41889185101769,
+          37.79828187758896
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Green",
+        "id": 853
+      },
+      "id": 853
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41870362592817,
+          37.79735509458567
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Vallejo",
+        "id": 854
+      },
+      "id": 854
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41853481506031,
+          37.796566020216204
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Broadway",
+        "id": 855
+      },
+      "id": 855
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41832067117183,
+          37.79547923403842
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Hyde and Pacific",
+        "id": 856
+      },
+      "id": 856
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41815012272126,
+          37.794517410937516
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Jackson and Hyde",
+        "id": 857
+      },
+      "id": 857
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41646686980032,
+          37.793880311596766
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Washington and Leavenworth",
+        "id": 858
+      },
+      "id": 858
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41636073115765,
+          37.794806900022024
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Jackson and Leavenworth",
+        "id": 859
+      },
+      "id": 859
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41483685223757,
+          37.79410494173456
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Washington and Jones",
+        "id": 860
+      },
+      "id": 860
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.414998288081,
+          37.7949693728033
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Jackson and Jones",
+        "id": 861
+      },
+      "id": 861
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41316424745281,
+          37.79430936755406
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Washington and Taylor",
+        "id": 862
+      },
+      "id": 862
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41304324680348,
+          37.79522799947556
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Jackson and Taylor",
+        "id": 863
+      },
+      "id": 863
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41150558542856,
+          37.79451949557257
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Washington and Mason",
+        "id": 864
+      },
+      "id": 864
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41170520278304,
+          37.79539607549345
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Jackson and Mason",
+        "id": 865
+      },
+      "id": 865
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41000512093571,
+          37.7947123646291
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Washington",
+        "id": 866
+      },
+      "id": 866
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41011834373641,
+          37.79560193506762
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Jackson",
+        "id": 867
+      },
+      "id": 867
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40954733638817,
+          37.79379512635017
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Clay",
+        "id": 868
+      },
+      "id": 868
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40936909230156,
+          37.792900562263014
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Sacramento",
+        "id": 869
+      },
+      "id": 869
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40923675639866,
+          37.79222738909349
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and California",
+        "id": 870
+      },
+      "id": 870
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40902734526668,
+          37.79122351123964
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Pine",
+        "id": 871
+      },
+      "id": 871
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40879212511999,
+          37.79005248275523
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Bush",
+        "id": 872
+      },
+      "id": 872
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40860112469836,
+          37.789102829449895
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Sutter",
+        "id": 873
+      },
+      "id": 873
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40841925022488,
+          37.78817983593452
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Post",
+        "id": 874
+      },
+      "id": 874
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4082816053166,
+          37.787514934647945
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Geary",
+        "id": 875
+      },
+      "id": 875
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4080339937002,
+          37.786352941249504
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and O'Farrell",
+        "id": 876
+      },
+      "id": 876
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40774474649821,
+          37.78488959907028
+        ]
+      },
+      "properties": {
+        "line": "MuniPH",
+        "name": "Powell and Market",
+        "id": 877
+      },
+      "id": 877
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41522826466334,
+          37.80511711467105
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Taylor and Bay",
+        "id": 878
+      },
+      "id": 878
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4149362876244,
+          37.803779994672674
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Columbus and Chestnut",
+        "id": 879
+      },
+      "id": 879
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41362195985855,
+          37.80267773320411
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Columbus and Lombard",
+        "id": 880
+      },
+      "id": 880
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41283253716533,
+          37.801747907272905
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Greenwich",
+        "id": 881
+      },
+      "id": 881
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41266348619138,
+          37.800915071186225
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Filbert",
+        "id": 882
+      },
+      "id": 882
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41247283421548,
+          37.799964963808485
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Union",
+        "id": 883
+      },
+      "id": 883
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41232897239497,
+          37.79925174637009
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Green",
+        "id": 884
+      },
+      "id": 884
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41213604637271,
+          37.7983332850936
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Vallejo",
+        "id": 885
+      },
+      "id": 885
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41196602535952,
+          37.79742982556797
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Broadway",
+        "id": 886
+      },
+      "id": 886
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41174913877985,
+          37.796382629815916
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Mason and Pacific",
+        "id": 887
+      },
+      "id": 887
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41154528717874,
+          37.79535667223777
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Jackson and Mason",
+        "id": 888
+      },
+      "id": 888
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41144014024987,
+          37.79469755586476
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Washington and Mason",
+        "id": 889
+      },
+      "id": 889
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40954733638817,
+          37.79379512635017
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Clay",
+        "id": 890
+      },
+      "id": 890
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40936909230156,
+          37.792900562263014
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Sacramento",
+        "id": 891
+      },
+      "id": 891
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40923675639866,
+          37.79222738909349
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and California",
+        "id": 892
+      },
+      "id": 892
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40902734526668,
+          37.79122351123964
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Pine",
+        "id": 893
+      },
+      "id": 893
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40879212511999,
+          37.79005248275523
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Bush",
+        "id": 894
+      },
+      "id": 894
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40860112469836,
+          37.789102829449895
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Sutter",
+        "id": 895
+      },
+      "id": 895
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40841925022488,
+          37.78817983593452
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Post",
+        "id": 896
+      },
+      "id": 896
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4082816053166,
+          37.787514934647945
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Geary",
+        "id": 897
+      },
+      "id": 897
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4080339937002,
+          37.786352941249504
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and O'Farrell",
+        "id": 898
+      },
+      "id": 898
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40774474649821,
+          37.78488959907028
+        ]
+      },
+      "properties": {
+        "line": "MuniPM",
+        "name": "Powell and Market",
+        "id": 899
+      },
+      "id": 899
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.393416,
+          37.613459
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "Grand Hyatt",
+        "id": 900
+      },
+      "id": 900
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391905,
+          37.6138308
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "Garage A",
+        "id": 901
+      },
+      "id": 901
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3888019,
+          37.6145864
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "International Terminal A",
+        "id": 902
+      },
+      "id": 902
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385673,
+          37.6151926
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "Harvey Milk Terminal 1",
+        "id": 903,
+        "alternate_names": [
+          "Terminal 1"
+        ]
+      },
+      "id": 903
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3846,
+          37.6167492
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "Terminal 2",
+        "id": 904
+      },
+      "id": 904
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.386613,
+          37.6175234
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "Terminal 3",
+        "id": 905
+      },
+      "id": 905
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3896211,
+          37.6166295
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "International Terminal G",
+        "id": 906
+      },
+      "id": 906
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3915235,
+          37.6162238
+        ]
+      },
+      "properties": {
+        "line": "SFORed",
+        "name": "Garage G / BART",
+        "id": 907
+      },
+      "id": 907
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.393416,
+          37.613459
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Grand Hyatt",
+        "id": 908
+      },
+      "id": 908
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391905,
+          37.6138308
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Garage A",
+        "id": 909
+      },
+      "id": 909
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3888019,
+          37.6145864
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "International Terminal A",
+        "id": 910
+      },
+      "id": 910
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385673,
+          37.6151926
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Harvey Milk Terminal 1",
+        "id": 911,
+        "alternate_names": [
+          "Terminal 1"
+        ]
+      },
+      "id": 911
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3846,
+          37.6167492
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Terminal 2",
+        "id": 912
+      },
+      "id": 912
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.386613,
+          37.6175234
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Terminal 3",
+        "id": 913
+      },
+      "id": 913
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3896211,
+          37.6166295
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "International Terminal G",
+        "id": 914
+      },
+      "id": 914
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3915235,
+          37.6162238
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Garage G / BART",
+        "id": 915
+      },
+      "id": 915
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.399484,
+          37.6216985
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "West Field Road",
+        "id": 916
+      },
+      "id": 916
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.401219,
+          37.6281828
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Rental Car Center",
+        "id": 917
+      },
+      "id": 917
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4004,
+          37.6351
+        ]
+      },
+      "properties": {
+        "line": "SFOBlue",
+        "name": "Long-Term Parking",
+        "id": 918
+      },
+      "id": 918
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8656,
+          38.6069
+        ]
+      },
+      "properties": {
+        "line": "SMART",
+        "name": "Healdsburg",
+        "id": 919
+      },
+      "id": 919
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0119,
+          38.798
+        ]
+      },
+      "properties": {
+        "line": "SMART",
+        "name": "Cloverdale",
+        "id": 920
+      },
+      "id": 920
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4986797,
+          38.5783095
+        ]
+      },
+      "properties": {
+        "line": "SacRTGreen",
+        "name": "7th & Capitol",
+        "id": 921,
+        "cluster_key": 1
+      },
+      "id": 921
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4968248,
+          38.582626
+        ]
+      },
+      "properties": {
+        "line": "SacRTGreen",
+        "name": "7th & I/County Center",
+        "id": 922
+      },
+      "id": 922
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.498421,
+          38.5755071
+        ]
+      },
+      "properties": {
+        "line": "SacRTGreen",
+        "name": "8th & O",
+        "id": 923
+      },
+      "id": 923
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.496529,
+          38.580399
+        ]
+      },
+      "properties": {
+        "line": "SacRTGold",
+        "name": "8th & K",
+        "id": 924
+      },
+      "id": 924
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4986797,
+          38.5783095
+        ]
+      },
+      "properties": {
+        "line": "SacRTBlue",
+        "name": "7th & Capitol",
+        "id": 925,
+        "cluster_key": 1
+      },
+      "id": 925
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4978027,
+          38.5775002
+        ]
+      },
+      "properties": {
+        "line": "SacRTGold",
+        "name": "8th & Capitol",
+        "id": 926,
+        "cluster_key": 1
+      },
+      "id": 926
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47979933819433,
+          38.59331438279969
+        ]
+      },
+      "properties": {
+        "line": "SacRTBlue",
+        "name": "Dos Rios",
+        "id": 927
+      },
+      "id": 927
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.32911416572537,
+          38.575892911457636
+        ]
+      },
+      "properties": {
+        "line": "SacRTGold",
+        "name": "Horn",
+        "id": 928
+      },
+      "id": 928
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27494254320192,
+          37.82780931641585
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "North Lathrop",
+        "id": 929
+      },
+      "id": 929
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.35833758271234,
+          38.11668877649242
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Lodi",
+        "id": 930
+      },
+      "id": 930
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.45666861266514,
+          38.42615622256755
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Elk Grove",
+        "id": 931
+      },
+      "id": 931
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.48499345847583,
+          38.54193602149673
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Sacramento City College",
+        "id": 932
+      },
+      "id": 932
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.48377735732231,
+          38.56909766146392
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Midtown Sacramento",
+        "id": 933
+      },
+      "id": 933
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46863964410899,
+          38.604003921790685
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Old North Sacramento",
+        "id": 934,
+        "cluster_key": 3
+      },
+      "id": 934
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47990239319498,
+          38.6847052038046
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Natomas/Sacramento Airport",
+        "id": 935
+      },
+      "id": 935
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.21596360100314,
+          37.794848471756495
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Manteca",
+        "id": 936
+      },
+      "id": 936
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.12124666361078,
+          37.73872183528531
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Ripon",
+        "id": 937
+      },
+      "id": 937
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.00198859344277,
+          37.6393713663799
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Modesto",
+        "id": 938
+      },
+      "id": 938
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.9570349776886,
+          37.59114578611956
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Ceres",
+        "id": 939
+      },
+      "id": 939
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.85990763857265,
+          37.505878399940045
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Turlock",
+        "id": 940
+      },
+      "id": 940
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.72270977362878,
+          37.38707616285738
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Livingston",
+        "id": 941
+      },
+      "id": 941
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.49109939514858,
+          37.302291126774264
+        ]
+      },
+      "properties": {
+        "line": "ACE",
+        "name": "Merced",
+        "id": 942
+      },
+      "id": 942
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.98644,
+          36.93647
+        ]
+      },
+      "properties": {
+        "line": "CAHSR",
+        "name": "Madera",
+        "id": 943
+      },
+      "id": 943
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.793732,
+          36.733074
+        ]
+      },
+      "properties": {
+        "line": "CAHSR",
+        "name": "Fresno",
+        "id": 944
+      },
+      "id": 944
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.592321,
+          36.335141
+        ]
+      },
+      "properties": {
+        "line": "CAHSR",
+        "name": "Kings-Tulare Regional",
+        "id": 945
+      },
+      "id": 945
     }
   ]
 }

@@ -491,6 +491,31 @@ const generateAlternateNames = (name?: string): string[] => {
   const formatDirection = (direction: string) =>
     direction.charAt(0).toUpperCase() + direction.slice(1).toLowerCase()
 
+  const baseForCrossNames = englishPortion || trimmed
+
+  if (baseForCrossNames) {
+    const crossParts = baseForCrossNames
+      .split(/\s*(?:&|\/| and )\s*/i)
+      .map((part) => part.trim())
+      .filter(Boolean)
+
+    if (crossParts.length >= 2) {
+      const [first, second] = crossParts
+      const separators = [' & ', ' and ', ' / ']
+      const compactSeparators = ['&', '/', ' and ']
+
+      const addCrossAlternate = (a: string, b: string) => {
+        separators.forEach((sep) => alternates.add(`${a}${sep}${b}`.trim()))
+        compactSeparators.forEach((sep) =>
+          alternates.add(`${a}${sep}${b}`.trim()),
+        )
+      }
+
+      addCrossAlternate(first, second)
+      addCrossAlternate(second, first)
+    }
+  }
+
   if (englishPortion) {
     const suffixMatch = englishPortion.match(DIRECTION_SUFFIX_REGEX)
     if (suffixMatch) {
@@ -619,6 +644,24 @@ const generateAlternateNames = (name?: string): string[] => {
   }
 
   return Array.from(alternates)
+}
+
+const buildLineImageConfetti = (
+  lines: Record<string, { icon?: string } | undefined>,
+) => {
+  const images: { src: string; width: number; height: number }[] = []
+  const seen = new Set<string>()
+
+  Object.values(lines || {}).forEach((line) => {
+    const icon = line?.icon
+    if (!icon || typeof icon !== 'string') return
+    const src = `/images/${icon}`
+    if (seen.has(src)) return
+    seen.add(src)
+    images.push({ src, width: 64, height: 64 })
+  })
+
+  return images.length > 0 ? images : null
 }
 
 export default function GamePage({
@@ -1490,6 +1533,7 @@ export default function GamePage({
     const lineColors = Object.values(LINES ?? {})
       .map((line) => line?.color)
       .filter((color): color is string => typeof color === 'string' && color.length > 0)
+    const images = buildLineImageConfetti(LINES ?? {})
 
     const makeConfetti = async () => {
       const confetti = (await import('tsparticles-confetti')).confetti
@@ -1502,8 +1546,9 @@ export default function GamePage({
         gravity: 1.8,
         startVelocity: 55,
         scalar: 1.4,
-        shapes: ['circle', 'square'],
-        colors: lineColors.length > 0 ? lineColors : undefined,
+        shapes: images ? ['image'] : ['circle', 'square'],
+        shapeOptions: images ? { image: images } : undefined,
+        colors: images ? undefined : lineColors.length > 0 ? lineColors : undefined,
       })
     }
 
