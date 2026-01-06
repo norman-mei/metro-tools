@@ -5,6 +5,7 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   atlanta: [-84.387985, 33.748997],
   austin: [-97.7431, 30.2672],
   bayarea: [-122.4194, 37.7749], // San Francisco
+  'california-state': [-119.4179, 36.7783], // Central California
   boston: [-71.0589, 42.3601],
   buffalo: [-78.8784, 42.8864],
   calgary: [-114.0719, 51.0447],

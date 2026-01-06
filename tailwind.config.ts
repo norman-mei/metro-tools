@@ -5,7 +5,12 @@ import { type Config } from 'tailwindcss'
 import typographyStyles from './typography'
 
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    '!./src/app/(game)/bayarea/**/*',
+    '!./src/app/(game)/la/**/*',
+    '!./src/app/(game)/sd/**/*',
+  ],
   darkMode: 'class',
   plugins: [typographyPlugin, containerQueriesPlugin],
   theme: {

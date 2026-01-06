@@ -126,9 +126,32 @@ const FoundList = ({
   activeStationId: number | null
   disabled?: boolean
 }) => {
-  const { LINES } = useConfig()
+  const { LINES, LINE_GROUPS } = useConfig()
   const { t } = useTranslation()
   const { settings } = useSettings()
+
+  const lineOrderMap = useMemo(() => {
+    const orderMap = new Map<string, number>()
+    let groupIndex = 0
+
+    for (const group of LINE_GROUPS) {
+      for (const item of group.items ?? []) {
+        if (item.type === 'lines') {
+          const lines = item.lines ?? []
+          lines.forEach((line, idx) => {
+            if (!orderMap.has(line)) {
+              orderMap.set(line, groupIndex * 1000 + idx)
+            }
+          })
+          groupIndex += 1
+        } else if (item.type === 'separator') {
+          groupIndex += 1
+        }
+      }
+    }
+
+    return orderMap
+  }, [LINE_GROUPS])
 
   useEffect(() => {
     const handleMouseDown = () => {
@@ -208,6 +231,8 @@ const FoundList = ({
             if (!feature) return Number.MAX_SAFE_INTEGER
             const line = feature.properties.line
             if (!line) return Number.MAX_SAFE_INTEGER
+            const groupOrder = lineOrderMap.get(line)
+            if (groupOrder !== undefined) return groupOrder
             return LINES[line]?.order ?? Number.MAX_SAFE_INTEGER
           },
           (id) => {
@@ -226,7 +251,7 @@ const FoundList = ({
       default:
         return ids
     }
-  }, [found, sort, idMap, LINES, foundTimestamps])
+  }, [found, sort, idMap, LINES, foundTimestamps, lineOrderMap])
 
   const normalizedFilter = filter.trim().toLowerCase()
 
@@ -452,11 +477,34 @@ const GroupedLine = memo(
     activeStationId: number | null
     disabled?: boolean
   } ) => {
-    const { LINES, CITY_NAME } = useConfig()
+    const { LINES, CITY_NAME, LINE_GROUPS } = useConfig()
     const { resolvedTheme } = useTheme()
     const isDark = resolvedTheme === 'dark'
     const buttonRef = useRef<HTMLButtonElement | null>(null)
     const [nextIndex, setNextIndex] = useState(0)
+
+    const lineOrderMap = useMemo(() => {
+      const orderMap = new Map<string, number>()
+      let groupIndex = 0
+
+      for (const group of LINE_GROUPS) {
+        for (const item of group.items ?? []) {
+          if (item.type === 'lines') {
+            const lines = item.lines ?? []
+            lines.forEach((line, idx) => {
+              if (!orderMap.has(line)) {
+                orderMap.set(line, groupIndex * 1000 + idx)
+              }
+            })
+            groupIndex += 1
+          } else if (item.type === 'separator') {
+            groupIndex += 1
+          }
+        }
+      }
+
+      return orderMap
+    }, [LINE_GROUPS])
 
     const featureIds = useMemo(() => {
       return features
@@ -492,14 +540,20 @@ const GroupedLine = memo(
       }
 
       return Array.from(ids).sort((a, b) => {
-        const aOrder = LINES[a]?.order ?? Number.MAX_SAFE_INTEGER
-        const bOrder = LINES[b]?.order ?? Number.MAX_SAFE_INTEGER
+        const aOrder =
+          lineOrderMap.get(a) ??
+          LINES[a]?.order ??
+          Number.MAX_SAFE_INTEGER
+        const bOrder =
+          lineOrderMap.get(b) ??
+          LINES[b]?.order ??
+          Number.MAX_SAFE_INTEGER
         if (aOrder !== bOrder) {
           return aOrder - bOrder
         }
         return a.localeCompare(b)
       })
-    }, [features, LINES])
+    }, [features, LINES, lineOrderMap])
 
     useEffect(() => {
       // Reset cycling when the available feature set changes

@@ -6,7 +6,6 @@ import atlanta from '@/app/(game)/atlanta/opengraph-image.jpg'
 import auckland from '@/app/(game)/auckland/opengraph-image.jpg'
 import austin from '@/app/(game)/austin/opengraph-image.jpg'
 import barcelona from '@/app/(game)/barcelona/opengraph-image.jpg'
-import bayarea from '@/app/(game)/bayarea/opengraph-image.jpg'
 import beijing from '@/app/(game)/beijing/opengraph-image.jpg'
 import berlin from '@/app/(game)/berlin/opengraph-image.jpg'
 import blackpool from '@/app/(game)/blackpool/opengraph-image.jpg'
@@ -28,6 +27,7 @@ import edinburgh from '@/app/(game)/edinburgh/opengraph-image.jpg'
 import edmonton from '@/app/(game)/edmonton/opengraph-image.jpg'
 import elpaso from '@/app/(game)/elpaso/opengraph-image.jpg'
 import floridaState from '@/app/(game)/florida-state/opengraph-image.jpg'
+import californiaState from '@/app/(game)/california-state/opengraph-image.jpg'
 import galveston from '@/app/(game)/galveston/opengraph-image.jpg'
 import gba from '@/app/(game)/gba/opengraph-image.jpg'
 import glasgow from '@/app/(game)/glasgow/opengraph-image.jpg'
@@ -41,7 +41,6 @@ import istanbul from '@/app/(game)/istanbul/opengraph-image.jpg'
 import kaohsiung from '@/app/(game)/kaohsiung/opengraph-image.jpg'
 import karlsruhe from '@/app/(game)/karlsruhe/opengraph-image.jpg'
 import kc from '@/app/(game)/kc/opengraph-image.jpg'
-import la from '@/app/(game)/la/opengraph-image.jpg'
 import london from '@/app/(game)/london/opengraph-image.jpg'
 import lr from '@/app/(game)/lr/opengraph-image.jpg'
 import lv from '@/app/(game)/lv/opengraph-image.jpg'
@@ -73,7 +72,6 @@ import phoenix from '@/app/(game)/phoenix/opengraph-image.jpg'
 import pittsburgh from '@/app/(game)/pittsburgh/opengraph-image.jpg'
 import portland from '@/app/(game)/portland/opengraph-image.jpg'
 import potsdam from '@/app/(game)/potsdam/opengraph-image.jpg'
-import sd from '@/app/(game)/sd/opengraph-image.jpg'
 import seattle from '@/app/(game)/seattle/opengraph-image.jpg'
 import seoul from '@/app/(game)/seoul/opengraph-image.jpg'
 import shanghai from '@/app/(game)/shanghai/opengraph-image.jpg'
@@ -138,11 +136,11 @@ export const cities: ICity[] = [
     continent: 'North America',
   },
   {
-    name: 'Bay Area—Sacramento, CA',
-    image: bayarea,
-    link: '/bayarea',
+    name: 'California State, USA',
+    image: californiaState,
+    link: '/california-state',
     continent: 'North America',
-    keywords: ['San Francisco', 'San Jose', 'Sacramento', 'BART', 'Muni', 'VTA'],
+    keywords: ['San Francisco', 'Los Angeles', 'San Diego', 'Sacramento', 'BART', 'Muni', 'LA Metro', 'MTS'],
   },
   {
     name: 'Boston, MA',
@@ -277,13 +275,6 @@ export const cities: ICity[] = [
     continent: 'North America',
   },
   {
-    name: 'Los Angeles, CA',
-    image: la,
-    link: '/la',
-    keywords: ['Los Angeles', 'LA'],
-    continent: 'North America',
-  },
-  {
     name: 'Memphis, TN',
     image: memphis,
     link: '/memphis',
@@ -296,7 +287,7 @@ export const cities: ICity[] = [
     continent: 'North America',
   },
   {
-    name: 'Florida State',
+    name: 'Florida State, USA',
     image: floridaState,
     link: '/florida-state',
     keywords: ['Florida', 'Miami', 'Orlando', 'Tampa', 'Jacksonville'],
@@ -401,13 +392,6 @@ export const cities: ICity[] = [
     link: '/slc',
     continent: 'North America',
   },
-  {
-    name: 'San Diego—Oceanside, CA',
-    image: sd,
-    link: '/sd',
-    continent: 'North America',
-  },
-  
   {
     name: 'Seattle—Tacoma, WA',
     image: seattle,
