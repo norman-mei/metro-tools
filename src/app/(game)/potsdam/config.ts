@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Config, Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 // Note: below LINES data is just a copy of generated data/lines.json
@@ -58,6 +58,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['PotsdamTram91', 'PotsdamTram92', 'PotsdamTram93', 'PotsdamTram94', 'PotsdamTram96', 'PotsdamTram98', 'PotsdamTram99'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/potsdam',
@@ -95,6 +107,8 @@ const config: Config = {
   MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

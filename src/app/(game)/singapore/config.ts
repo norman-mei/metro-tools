@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Config, Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -85,6 +85,18 @@ export const LINES: {
   // },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['SingaporeMRTCircleLine', 'SingaporeMRTDowntownLine', 'SingaporeMRTEastwestLine', 'SingaporeMRTNortheastLine', 'SingaporeMRTNorthsouthLine', 'CM_SingaporeMRT_tel', 'SingaporeLRTBukitPanjangLine', 'SingaporeLRTPunggolLineEastLoop', 'SingaporeLRTPunggolLineWestLoop', 'SingaporeLRTSengkangLineEastLoop', 'SingaporeLRTSengkangLineWestLoop'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/singapore',
@@ -123,9 +135,17 @@ export const CITY_NAME = 'singapore'
 
 export const LOCALE = 'en'
 
+export const MAP_FROM_DATA = true
+
+export const GAUGE_COLORS = 'inverted'
+
 const config: Config = {
+  GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

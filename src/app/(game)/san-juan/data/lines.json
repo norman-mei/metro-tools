@@ -5,6 +5,7 @@
     "backgroundColor": "#003B69",
     "progressOutlineColor": "#66C2FF",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "TU.png"
   }
 }

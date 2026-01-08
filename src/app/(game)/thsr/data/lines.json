@@ -5,6 +5,7 @@
     "backgroundColor": "#C63F08",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#F06A2A",
-    "order": 0
+    "order": 0,
+    "icon": "THSR.png"
   }
 }

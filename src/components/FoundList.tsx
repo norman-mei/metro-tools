@@ -126,7 +126,7 @@ const FoundList = ({
   activeStationId: number | null
   disabled?: boolean
 }) => {
-  const { LINES, LINE_GROUPS } = useConfig()
+  const { LINES, LINE_GROUPS = [] } = useConfig()
   const { t } = useTranslation()
   const { settings } = useSettings()
 
@@ -477,7 +477,7 @@ const GroupedLine = memo(
     activeStationId: number | null
     disabled?: boolean
   } ) => {
-    const { LINES, CITY_NAME, LINE_GROUPS } = useConfig()
+    const { LINES, CITY_NAME, LINE_GROUPS = [] } = useConfig()
     const { resolvedTheme } = useTheme()
     const isDark = resolvedTheme === 'dark'
     const buttonRef = useRef<HTMLButtonElement | null>(null)

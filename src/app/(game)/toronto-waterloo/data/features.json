@@ -1,0 +1,4442 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5274638,
+          43.7942413
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Vaughan Metropolitan Centre",
+        "line": "TTC1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5230877,
+          43.7833141
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Highway 407",
+        "line": "TTC1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5092824,
+          43.7768588
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Pioneer Village",
+        "line": "TTC1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4996291,
+          43.7741232
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "York University",
+        "line": "TTC1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4915419,
+          43.7639743
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Finch West",
+        "line": "TTC1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4784098,
+          43.7535983
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Downsview Park",
+        "line": "TTC1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.462248,
+          43.7492988
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Sheppard West",
+        "line": "TTC1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4500619,
+          43.7344762
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Wilson",
+        "line": "TTC1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4475031,
+          43.7246418
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Yorkdale",
+        "line": "TTC1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4439143,
+          43.7152207
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Lawrence West",
+        "line": "TTC1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4406853,
+          43.7086497
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Glencairn",
+        "line": "TTC1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40134459324022,
+          43.66999136906228
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Eglinton West",
+        "line": "TTC1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4153079,
+          43.6850034
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "St. Clair West",
+        "line": "TTC1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.406983,
+          43.6747046
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Dupont",
+        "line": "TTC1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4047039,
+          43.6685404
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Spadina",
+        "line": "TTC1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.398844,
+          43.6684387
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "St. George",
+        "line": "TTC1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3933506,
+          43.6668462
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Museum",
+        "line": "TTC1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3901923,
+          43.6596838
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Queen’s Park",
+        "line": "TTC1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3882736,
+          43.6548199
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "St. Patrick",
+        "line": "TTC1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3865409,
+          43.6508016
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Osgoode",
+        "line": "TTC1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3848711,
+          43.6477917
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "St. Andrew",
+        "line": "TTC1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3819718,
+          43.6451222
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Union",
+        "line": "TTC1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3777538,
+          43.6489494
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "King",
+        "line": "TTC1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3794575,
+          43.6529083
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Queen",
+        "line": "TTC1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43353122827358,
+          43.71003218817578
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Dundas",
+        "line": "TTC1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3827952,
+          43.6606617
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "College",
+        "line": "TTC1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3838011,
+          43.6655242
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Wellesley",
+        "line": "TTC1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3856867,
+          43.6707855
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Bloor-Yonge",
+        "line": "TTC1",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47891410974658,
+          43.745852544534614
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Rosedale",
+        "line": "TTC1",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3905037,
+          43.6816776
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Summerhill",
+        "line": "TTC1",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3936947,
+          43.6879512
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "St. Clair",
+        "line": "TTC1",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3972908,
+          43.697936
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Davisville",
+        "line": "TTC1",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2320997,
+          43.7394646
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Eglinton",
+        "line": "TTC1",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4024743,
+          43.7263483
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Lawrence",
+        "line": "TTC1",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.406657,
+          43.7440391
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "York Mills",
+        "line": "TTC1",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4109148,
+          43.7614518
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Sheppard-Yonge",
+        "line": "TTC1",
+        "order": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4126298,
+          43.7686787
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "North York Centre",
+        "line": "TTC1",
+        "order": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4158993,
+          43.7812974
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Finch",
+        "line": "TTC1",
+        "order": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5355081,
+          43.6376161
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Kipling",
+        "line": "TTC2",
+        "order": 0
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5248163,
+          43.645335
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Islington",
+        "line": "TTC2",
+        "order": 1
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5112961,
+          43.6481827
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Royal York",
+        "line": "TTC2",
+        "order": 2
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4943338,
+          43.649826
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Old Mill",
+        "line": "TTC2",
+        "order": 3
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4838463,
+          43.6499177
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Jane",
+        "line": "TTC2",
+        "order": 4
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4759978,
+          43.6517026
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Runnymede",
+        "line": "TTC2",
+        "order": 5
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4668644,
+          43.6538668
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "High Park",
+        "line": "TTC2",
+        "order": 6
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4595795,
+          43.655569
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Keele",
+        "line": "TTC2",
+        "order": 7
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4530402,
+          43.656937
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Dundas West",
+        "line": "TTC2",
+        "order": 8
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4427866,
+          43.6591114
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Lansdowne",
+        "line": "TTC2",
+        "order": 9
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4353869,
+          43.6602635
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Dufferin",
+        "line": "TTC2",
+        "order": 10
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42633,
+          43.6623783
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ossington",
+        "line": "TTC2",
+        "order": 11
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4183969,
+          43.6641066
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Christie",
+        "line": "TTC2",
+        "order": 12
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4112359,
+          43.6659322
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Bathurst",
+        "line": "TTC2",
+        "order": 13
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4047039,
+          43.6685404
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Spadina",
+        "line": "TTC2",
+        "order": 14
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.398844,
+          43.6684387
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "St. George",
+        "line": "TTC2",
+        "order": 15
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3902694,
+          43.6701851
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Bay",
+        "line": "TTC2",
+        "order": 16
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3856867,
+          43.6707855
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Bloor-Yonge",
+        "line": "TTC2",
+        "order": 17
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.376394,
+          43.6722828
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Sherbourne",
+        "line": "TTC2",
+        "order": 18
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3690458,
+          43.6734986
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Castle Frank",
+        "line": "TTC2",
+        "order": 19
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42601589027706,
+          43.66318528261868
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Broadview",
+        "line": "TTC2",
+        "order": 20
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3525143,
+          43.6782277
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Chester",
+        "line": "TTC2",
+        "order": 21
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3449046,
+          43.6799212
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Pape",
+        "line": "TTC2",
+        "order": 22
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3377871,
+          43.6810265
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Donlands",
+        "line": "TTC2",
+        "order": 23
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3302652,
+          43.6825599
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Greenwood",
+        "line": "TTC2",
+        "order": 24
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.323043,
+          43.6841524
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Coxwell",
+        "line": "TTC2",
+        "order": 25
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3126246,
+          43.6864139
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Woodbine",
+        "line": "TTC2",
+        "order": 26
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3016043,
+          43.6890489
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Main Street",
+        "line": "TTC2",
+        "order": 27
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2887965,
+          43.6948799
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Victoria Park",
+        "line": "TTC2",
+        "order": 28
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2790432,
+          43.7111204
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Warden",
+        "line": "TTC2",
+        "order": 29
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2637529,
+          43.732429
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Kennedy",
+        "line": "TTC2",
+        "order": 30
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4188537,
+          43.6360095
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Exhibition",
+        "line": "TTC3",
+        "order": 0
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35640148428317,
+          43.69769346463845
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "King–Bathurst",
+        "line": "TTC3",
+        "order": 1
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39574435849107,
+          43.66144297334221
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Queen–Spadina",
+        "line": "TTC3",
+        "order": 2
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3865409,
+          43.6508016
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Osgoode",
+        "line": "TTC3",
+        "order": 3
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3794575,
+          43.6529083
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Queen",
+        "line": "TTC3",
+        "order": 4
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37224637023633,
+          43.65419848337204
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Moss Park",
+        "line": "TTC3",
+        "order": 5
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40713756878355,
+          43.640485931891206
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Corktown",
+        "line": "TTC3",
+        "order": 6
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3589002272126,
+          43.64951549767171
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "East Harbour",
+        "line": "TTC3",
+        "order": 7
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39826211085908,
+          43.641284420966656
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Riverside–Leslieville",
+        "line": "TTC3",
+        "order": 8
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38064278735642,
+          43.652045074133774
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Gerrard",
+        "line": "TTC3",
+        "order": 9
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3449046,
+          43.6799212
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Pape",
+        "line": "TTC3",
+        "order": 10
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3417172575617,
+          43.668769385190004
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Cosburn",
+        "line": "TTC3",
+        "order": 11
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3465615583591,
+          43.68341210875757
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Thorncliffe Park",
+        "line": "TTC3",
+        "order": 12
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3506550442326,
+          43.70442566729562
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Flemingdon Park",
+        "line": "TTC3",
+        "order": 13
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3453888,
+          43.7109442
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Don Valley",
+        "line": "TTC3",
+        "order": 14
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4109148,
+          43.7614518
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Sheppard-Yonge",
+        "line": "TTC4",
+        "order": 0
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3873787,
+          43.7667987
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Bayview",
+        "line": "TTC4",
+        "order": 1
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3765761,
+          43.7691308
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Bessarion",
+        "line": "TTC4",
+        "order": 2
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.365634,
+          43.7710725
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Leslie",
+        "line": "TTC4",
+        "order": 3
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3459439,
+          43.775347
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Don Mills",
+        "line": "TTC4",
+        "order": 4
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4799596,
+          43.6890939
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Renforth",
+        "line": "TTC5",
+        "order": 0
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5923394,
+          43.7366316
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Martin Grove",
+        "line": "TTC5",
+        "order": 1
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5355081,
+          43.6376161
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Kipling",
+        "line": "TTC5",
+        "order": 2
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5248163,
+          43.645335
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Islington",
+        "line": "TTC5",
+        "order": 3
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5112961,
+          43.6481827
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Royal York",
+        "line": "TTC5",
+        "order": 4
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35561308058264,
+          43.71438738700642
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Scarlett",
+        "line": "TTC5",
+        "order": 5
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4878946,
+          43.6877711
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Mount Dennis",
+        "line": "TTC5",
+        "order": 6
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31963813934829,
+          43.721737599521056
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Keelesdale",
+        "line": "TTC5",
+        "order": 7
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3933198627527,
+          43.706716146262615
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Caledonia",
+        "line": "TTC5",
+        "order": 8
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46700158615712,
+          43.69169469300418
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Fairbank",
+        "line": "TTC5",
+        "order": 9
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41152419923877,
+          43.7039917005738
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Oakwood",
+        "line": "TTC5",
+        "order": 10
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4363964,
+          43.7000172
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Cedarvale",
+        "line": "TTC5",
+        "order": 11
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4459441467291,
+          43.696351179363724
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Forest Hill",
+        "line": "TTC5",
+        "order": 12
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45335020529495,
+          43.69467815167045
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Chaplin",
+        "line": "TTC5",
+        "order": 13
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37978822272068,
+          43.71027543161228
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Avenue",
+        "line": "TTC5",
+        "order": 14
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2320997,
+          43.7394646
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Eglinton",
+        "line": "TTC5",
+        "order": 15
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8208895,
+          43.675414
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Mount Pleasant",
+        "line": "TTC5",
+        "order": 16
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31191730415269,
+          43.724873131666676
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Leaside",
+        "line": "TTC5",
+        "order": 17
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27012283299442,
+          43.73190590675243
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Laird",
+        "line": "TTC5",
+        "order": 18
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33142521981597,
+          43.71921848382608
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Sunnybrook Park",
+        "line": "TTC5",
+        "order": 19
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40512706416862,
+          43.70429606576278
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Don Valley",
+        "line": "TTC5",
+        "order": 20
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4788289085213,
+          43.68937364769948
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Aga Khan Park & Museum",
+        "line": "TTC5",
+        "order": 21
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44831132173425,
+          43.695405138573314
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Wynford",
+        "line": "TTC5",
+        "order": 22
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37459185343965,
+          43.71024024612943
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Sloane",
+        "line": "TTC5",
+        "order": 23
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30087238514504,
+          43.72507535368555
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "O'Connor",
+        "line": "TTC5",
+        "order": 24
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28533042845508,
+          43.72837471708278
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Pharmacy",
+        "line": "TTC5",
+        "order": 25
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27039373453337,
+          43.73169385016931
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Hakimi Lebovic",
+        "line": "TTC5",
+        "order": 26
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32847954998714,
+          43.72243452408552
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Golden Mile",
+        "line": "TTC5",
+        "order": 27
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33957324917395,
+          43.7172788745517
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Birchmount",
+        "line": "TTC5",
+        "order": 28
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4133140093247,
+          43.70254996711662
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Ionview",
+        "line": "TTC5",
+        "order": 29
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2637529,
+          43.732429
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Kennedy",
+        "line": "TTC5",
+        "order": 30
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4915419,
+          43.7639743
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Finch West",
+        "line": "TTC6",
+        "order": 0
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.500013,
+          43.7610537
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Sentinel",
+        "line": "TTC6",
+        "order": 1
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5079134,
+          43.7592824
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Tobermory",
+        "line": "TTC6",
+        "order": 2
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5133814,
+          43.7580635
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Driftwood",
+        "line": "TTC6",
+        "order": 3
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.517746,
+          43.7572507
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Jane and Finch",
+        "line": "TTC6",
+        "order": 4
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.524251,
+          43.7559301
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Norfinch Oakdale",
+        "line": "TTC6",
+        "order": 5
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5361882,
+          43.7532955
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Signet Arrow",
+        "line": "TTC6",
+        "order": 6
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5423827,
+          43.7520405
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Emery",
+        "line": "TTC6",
+        "order": 7
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.552337,
+          43.7499601
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Milvan Rumike",
+        "line": "TTC6",
+        "order": 8
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.556895,
+          43.7489724
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Duncanwoods",
+        "line": "TTC6",
+        "order": 9
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5629559,
+          43.7476892
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Pearldale",
+        "line": "TTC6",
+        "order": 10
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5813581,
+          43.7433737
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Mount Olive",
+        "line": "TTC6",
+        "order": 11
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5865726,
+          43.7432573
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Stevenson",
+        "line": "TTC6",
+        "order": 12
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5892051,
+          43.7411377
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Albion",
+        "line": "TTC6",
+        "order": 13
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6003652,
+          43.7348147
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Westmore",
+        "line": "TTC6",
+        "order": 14
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6015296,
+          43.7299048
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Humber College",
+        "line": "TTC6",
+        "order": 15
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6127699,
+          43.6825791
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Terminal 1",
+        "line": "UPExpress",
+        "order": 0
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3126246,
+          43.6864139
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Woodbine",
+        "line": "UPExpress",
+        "order": 1
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5631531,
+          43.7064243
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Etobicoke North",
+        "line": "UPExpress",
+        "order": 2
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5127589,
+          43.7000465
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Weston",
+        "line": "UPExpress",
+        "order": 3
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4878946,
+          43.6877711
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Mount Dennis",
+        "line": "UPExpress",
+        "order": 4
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4507397,
+          43.6577734
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Bloor",
+        "line": "UPExpress",
+        "order": 5
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Toronto Union",
+        "line": "UPExpress",
+        "order": 6
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Toronto Union",
+        "line": "GOLW",
+        "order": 0
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4188537,
+          43.6360095
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Exhibition",
+        "line": "GOLW",
+        "order": 1
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4968048,
+          43.6166773
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Mimico",
+        "line": "GOLW",
+        "order": 2
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5439217,
+          43.5927356
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Long Branch",
+        "line": "GOLW",
+        "order": 3
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5870828,
+          43.5560546
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Port Credit",
+        "line": "GOLW",
+        "order": 4
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6335498,
+          43.5132821
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Clarkson",
+        "line": "GOLW",
+        "order": 5
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6812335,
+          43.456027
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Oakville",
+        "line": "GOLW",
+        "order": 6
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7220412,
+          43.4168957
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Bronte",
+        "line": "GOLW",
+        "order": 7
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7622691,
+          43.37831
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Appleby",
+        "line": "GOLW",
+        "order": 8
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8107569,
+          43.3402212
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Burlington",
+        "line": "GOLW",
+        "order": 9
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8550272,
+          43.3128143
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Aldershot",
+        "line": "GOLW",
+        "order": 10
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8667181,
+          43.2667717
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "West Harbour GO",
+        "line": "GOLW",
+        "order": 11
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8664468,
+          43.2523567
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Hamilton GO Centre",
+        "line": "GOLW",
+        "order": 12
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7581315,
+          43.2413672
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Confederation GO",
+        "line": "GOLW",
+        "order": 13
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5582597,
+          43.1960808
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Grimsby",
+        "line": "GOLW",
+        "order": 14
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2563811,
+          43.1476555
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "St. Catharines",
+        "line": "GOLW",
+        "order": 15
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0636193,
+          43.1089442
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Niagara Falls, Ontario",
+        "line": "GOLW",
+        "order": 16
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Toronto Union",
+        "line": "GOLE",
+        "order": 0
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3003555,
+          43.6864333
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Danforth",
+        "line": "GOLE",
+        "order": 1
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2546806,
+          43.7169869
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Scarborough",
+        "line": "GOLE",
+        "order": 2
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2320997,
+          43.7394646
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Eglinton",
+        "line": "GOLE",
+        "order": 3
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1982293,
+          43.7552251
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Guildwood",
+        "line": "GOLE",
+        "order": 4
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1304992,
+          43.7802711
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Rouge Hill",
+        "line": "GOLE",
+        "order": 5
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0868592,
+          43.8306033
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Pickering",
+        "line": "GOLE",
+        "order": 6
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0446468,
+          43.8476327
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Ajax",
+        "line": "GOLE",
+        "order": 7
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.940493,
+          43.8652818
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Whitby",
+        "line": "GOLE",
+        "order": 8
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8853768,
+          43.8707541
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Oshawa GO",
+        "line": "GOLE",
+        "order": 9
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Toronto Union",
+        "line": "GOMI",
+        "order": 0
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5355081,
+          43.6376161
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Kipling",
+        "line": "GOMI",
+        "order": 1
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5777401,
+          43.6080162
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Dixie",
+        "line": "GOMI",
+        "order": 2
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6240431,
+          43.5830451
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Cooksville",
+        "line": "GOMI",
+        "order": 3
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6707667,
+          43.5675268
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Erindale",
+        "line": "GOMI",
+        "order": 4
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7089736,
+          43.5761899
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Streetsville",
+        "line": "GOMI",
+        "order": 5
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7543022,
+          43.5975336
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Meadowvale",
+        "line": "GOMI",
+        "order": 6
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.788362,
+          43.5905809
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Lisgar",
+        "line": "GOMI",
+        "order": 7
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8682203,
+          43.5229624
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Milton",
+        "line": "GOMI",
+        "order": 8
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Toronto Union",
+        "line": "GOKI",
+        "order": 0
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4507397,
+          43.6577734
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Bloor",
+        "line": "GOKI",
+        "order": 1
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4878946,
+          43.6877711
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Mount Dennis",
+        "line": "GOKI",
+        "order": 2
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5127589,
+          43.7000465
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Weston",
+        "line": "GOKI",
+        "order": 3
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5631531,
+          43.7064243
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Etobicoke North",
+        "line": "GOKI",
+        "order": 4
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6382343,
+          43.7051705
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Malton",
+        "line": "GOKI",
+        "order": 5
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6919794,
+          43.70139
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Bramalea",
+        "line": "GOKI",
+        "order": 6
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.00400963029898,
+          43.60637409101081
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Brampton",
+        "line": "GOKI",
+        "order": 7
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8208895,
+          43.675414
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Mount Pleasant",
+        "line": "GOKI",
+        "order": 8
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9165341,
+          43.6561527
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Georgetown",
+        "line": "GOKI",
+        "order": 9
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0336504,
+          43.6337298
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Acton",
+        "line": "GOKI",
+        "order": 10
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2471846,
+          43.543809
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Guelph Central",
+        "line": "GOKI",
+        "order": 11
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4931389,
+          43.455758
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Kitchener",
+        "line": "GOKI",
+        "order": 12
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Toronto Union",
+        "line": "GOBR",
+        "order": 0
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4784098,
+          43.7535983
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Downsview Park",
+        "line": "GOBR",
+        "order": 1
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4979107,
+          43.8362847
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Rutherford",
+        "line": "GOBR",
+        "order": 2
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5068973,
+          43.8594952
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Maple",
+        "line": "GOBR",
+        "order": 3
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5270426,
+          43.9201118
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "King City",
+        "line": "GOBR",
+        "order": 4
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4599864,
+          44.0011219
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Aurora",
+        "line": "GOBR",
+        "order": 5
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4608393,
+          44.0630167
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Newmarket",
+        "line": "GOBR",
+        "order": 6
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4554952,
+          44.0789155
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "East Gwillimbury",
+        "line": "GOBR",
+        "order": 7
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5572807,
+          44.1188197
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Bradford",
+        "line": "GOBR",
+        "order": 8
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6287534,
+          44.3522718
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Barrie South",
+        "line": "GOBR",
+        "order": 9
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6860622,
+          44.373301
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Allandale Waterfront",
+        "line": "GOBR",
+        "order": 10
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Toronto Union",
+        "line": "GORH",
+        "order": 0
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3642688,
+          43.765498
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Oriole",
+        "line": "GORH",
+        "order": 1
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3713948,
+          43.7936472
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Old Cummer",
+        "line": "GORH",
+        "order": 2
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4215582,
+          43.8363577
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Langstaff",
+        "line": "GORH",
+        "order": 3
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4266122,
+          43.8747978
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Richmond Hill",
+        "line": "GORH",
+        "order": 4
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3989309,
+          43.9412657
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Gormley",
+        "line": "GORH",
+        "order": 5
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.397251,
+          43.9762474
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Bloomington",
+        "line": "GORH",
+        "order": 6
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380381,
+          43.6445345
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Toronto Union",
+        "line": "GOST",
+        "order": 0
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3003555,
+          43.6864333
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Danforth",
+        "line": "GOST",
+        "order": 1
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2546806,
+          43.7169869
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Scarborough",
+        "line": "GOST",
+        "order": 2
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.284356,
+          43.7860522
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Agincourt",
+        "line": "GOST",
+        "order": 3
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3017626,
+          43.8231743
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Milliken",
+        "line": "GOST",
+        "order": 4
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29808778161404,
+          43.8348896971724
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Unionville",
+        "line": "GOST",
+        "order": 5
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.288858,
+          43.8738256
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Centennial",
+        "line": "GOST",
+        "order": 6
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2624676,
+          43.8826569
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Markham",
+        "line": "GOST",
+        "order": 7
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2630684,
+          43.900508
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Mount Joy",
+        "line": "GOST",
+        "order": 8
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.249949,
+          43.9737851
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Stouffville",
+        "line": "GOST",
+        "order": 9
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2379167,
+          43.9894192
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Old Elm",
+        "line": "GOST",
+        "order": 10
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5870828,
+          43.5560546
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Port Credit",
+        "line": "Hazel",
+        "order": 0
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.68936457588651,
+          43.63360815404305
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Mineola",
+        "line": "Hazel",
+        "order": 1
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.66122924522315,
+          43.61193429301253
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "North Service",
+        "line": "Hazel",
+        "order": 2
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61285484535038,
+          43.57777559724866
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Queensway",
+        "line": "Hazel",
+        "order": 3
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.60790866609612,
+          43.574181481743665
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Dundas & Hurontario",
+        "line": "Hazel",
+        "order": 4
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6240431,
+          43.5830451
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Cooksville",
+        "line": "Hazel",
+        "order": 5
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.70598127636958,
+          43.646012367154974
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Fairview",
+        "line": "Hazel",
+        "order": 6
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.71160601257998,
+          43.64991631297199
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Burnhamthorpe",
+        "line": "Hazel",
+        "order": 7
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.66451048315504,
+          43.615200363687165
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Robert Speck",
+        "line": "Hazel",
+        "order": 8
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.65672464020797,
+          43.60944596299978
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Mississauga City Centre",
+        "line": "Hazel",
+        "order": 9
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64931983466701,
+          43.603505854271965
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Eglinton & Hurontario",
+        "line": "Hazel",
+        "order": 10
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.69788538469005,
+          43.64005571483651
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Bristol",
+        "line": "Hazel",
+        "order": 11
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.67716852211454,
+          43.62509807955014
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Matheson",
+        "line": "Hazel",
+        "order": 12
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.62817427772666,
+          43.58912490936473
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Britannia",
+        "line": "Hazel",
+        "order": 13
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58944868473888,
+          43.560248854494276
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Courtneypark",
+        "line": "Hazel",
+        "order": 14
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.64011469992553,
+          43.593826523583026
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Derry",
+        "line": "Hazel",
+        "order": 15
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6746032283821,
+          43.622365256071376
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Ray Lawson",
+        "line": "Hazel",
+        "order": 16
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.70875972713112,
+          43.64796308635355
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "County Court",
+        "line": "Hazel",
+        "order": 17
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7160693,
+          43.6532974
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Brampton Gateway",
+        "line": "Hazel",
+        "order": 18
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6127699,
+          43.6825791
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Terminal 1",
+        "line": "TerminalLink",
+        "order": 0
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6199591,
+          43.6861625
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Terminal 3",
+        "line": "TerminalLink",
+        "order": 1
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6157729,
+          43.6898667
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Viscount",
+        "line": "TerminalLink",
+        "order": 2
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5292872,
+          43.4978595
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Conestoga",
+        "line": "ION",
+        "order": 0
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5430945,
+          43.4969438
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Northfield",
+        "line": "ION",
+        "order": 1
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53749032465446,
+          43.47061070078257
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Research & Technology",
+        "line": "ION",
+        "order": 2
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5413296,
+          43.4734728
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "University of Waterloo",
+        "line": "ION",
+        "order": 3
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5346697,
+          43.4690103
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Laurier–Waterloo Park",
+        "line": "ION",
+        "order": 4
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5234978,
+          43.4622326
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Willis Way",
+        "line": "ION",
+        "order": 5
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5185215,
+          43.4599335
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Allen",
+        "line": "ION",
+        "order": 6
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5117691,
+          43.4571552
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Grand River Hospital",
+        "line": "ION",
+        "order": 7
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4990306,
+          43.4530652
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Central",
+        "line": "ION",
+        "order": 8
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4910743,
+          43.4520083
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Kitchener City Hall",
+        "line": "ION",
+        "order": 9
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2887965,
+          43.6948799
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Victoria Park",
+        "line": "ION",
+        "order": 10
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.487437,
+          43.4495756
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Frederick",
+        "line": "ION",
+        "order": 11
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3794575,
+          43.6529083
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Queen",
+        "line": "ION",
+        "order": 12
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4836542,
+          43.44629
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Kitchener Market",
+        "line": "ION",
+        "order": 13
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4753164,
+          43.4423637
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Borden",
+        "line": "ION",
+        "order": 14
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4780507,
+          43.4337406
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Mill",
+        "line": "ION",
+        "order": 15
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4629847,
+          43.4227326
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Block Line",
+        "line": "ION",
+        "order": 16
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.441834,
+          43.4222382
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Fairway",
+        "line": "ION",
+        "order": 17
+      },
+      "id": 260
+    }
+  ]
+}

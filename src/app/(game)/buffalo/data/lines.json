@@ -4,6 +4,7 @@
     "color": "#004A91",
     "backgroundColor": "#004A91",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "MR.png"
   }
 }

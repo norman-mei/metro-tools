@@ -1,12 +1,13 @@
-import data from './data/features.json'
-import 'mapbox-gl/dist/mapbox-gl.css'
-import 'react-circular-progressbar/dist/styles.css'
-import { DataFeatureCollection } from '@/lib/types'
-import config from './config'
 import GamePage from '@/components/GamePage'
-import { Provider } from '@/lib/configContext'
 import Main from '@/components/Main'
+import { Provider } from '@/lib/configContext'
+import { DataFeatureCollection, RoutesFeatureCollection } from '@/lib/types'
+import 'mapbox-gl/dist/mapbox-gl.css'
 import localFont from 'next/font/local'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
+import data from './data/features.json'
+import routes from './data/routes.json'
 
 const font = localFont({
   src: [
@@ -35,7 +36,7 @@ export default function Berlin() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>
-        <GamePage fc={fc} />
+        <GamePage fc={fc} routes={routes as RoutesFeatureCollection} />
       </Main>
     </Provider>
   )

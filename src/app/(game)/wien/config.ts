@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Config, Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -43,6 +43,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['ViennaUBahnU1', 'ViennaUBahnU2', 'ViennaUBahnU3', 'ViennaUBahnU4', 'ViennaUBahnU6', 'ViennaStrassenbahn38', 'ViennaStrassenbahn44'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/wien',
@@ -81,10 +93,15 @@ export const CITY_NAME = 'wien'
 
 export const LOCALE = 'de'
 
+export const MAP_FROM_DATA = true
+
 const config: Config = {
+  MAP_FROM_DATA,
   GAUGE_COLORS: 'inverted',
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

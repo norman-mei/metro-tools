@@ -4,6 +4,7 @@
     "color": "#C62828",
     "backgroundColor": "#C62828",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "CanberraR1.png"
   }
 }

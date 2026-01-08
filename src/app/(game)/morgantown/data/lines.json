@@ -4,6 +4,7 @@
     "color": "#EBAC00",
     "backgroundColor": "#173764",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "PRT.png"
   }
 }

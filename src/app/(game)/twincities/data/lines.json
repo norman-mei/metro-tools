@@ -18,13 +18,15 @@
     "color": "#EF4D2E",
     "backgroundColor": "#EF4D2E",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "HubTram.png"
   },
   "ConcourseCMover": {
     "name": "'C' Concourse People Mover",
     "color": "#FFF700",
     "backgroundColor": "#FFF700",
     "textColor": "#000000",
-    "order": 3
+    "order": 3,
+    "icon": "ConcourseCMover.png"
   }
 }

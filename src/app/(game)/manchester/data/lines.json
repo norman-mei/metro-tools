@@ -1,66 +1,66 @@
 {
   "Green": {
-    "name": "Altrincham – Bury",
+    "name": "Altrincham \u2013 Bury",
     "color": "#00A651",
     "backgroundColor": "#00A651",
     "textColor": "#FFFFFF",
-    "icon": "manchestergreen.svg",
+    "icon": "manchestergreen.png",
     "order": 0
   },
   "Purple": {
-    "name": "Altrincham – Piccadilly",
+    "name": "Altrincham \u2013 Piccadilly",
     "color": "#6F2282",
     "backgroundColor": "#6F2282",
     "textColor": "#FFFFFF",
-    "icon": "manchesterpurple.svg",
+    "icon": "manchesterpurple.png",
     "order": 1
   },
   "Cyan": {
-    "name": "Eccles – Ashton-under-Lyne",
+    "name": "Eccles \u2013 Ashton-under-Lyne",
     "color": "#59C6F2",
     "backgroundColor": "#59C6F2",
     "textColor": "#000000",
-    "icon": "manchestercyan.svg",
+    "icon": "manchestercyan.png",
     "order": 2
   },
   "Orange": {
-    "name": "MediaCityUK – Etihad Campus",
+    "name": "MediaCityUK \u2013 Etihad Campus",
     "color": "#F58220",
     "backgroundColor": "#F58220",
     "textColor": "#000000",
-    "icon": "manchesterorange.svg",
+    "icon": "manchesterorange.png",
     "order": 3
   },
   "Blue": {
-    "name": "Manchester Airport – Victoria",
+    "name": "Manchester Airport \u2013 Victoria",
     "color": "#0072CE",
     "backgroundColor": "#0072CE",
     "textColor": "#FFFFFF",
-    "icon": "manchesterblue.svg",
+    "icon": "manchesterblue.png",
     "order": 4
   },
   "Pink": {
-    "name": "East Didsbury – Rochdale Town Centre",
+    "name": "East Didsbury \u2013 Rochdale Town Centre",
     "color": "#FE79B0",
     "backgroundColor": "#FE79B0",
     "textColor": "#FFFFFF",
-    "icon": "manchesterpink.svg",
+    "icon": "manchesterpink.png",
     "order": 5
   },
   "Grey": {
-    "name": "East Didsbury – Shaw and Crompton",
+    "name": "East Didsbury \u2013 Shaw and Crompton",
     "color": "#7F7F7F",
     "backgroundColor": "#7F7F7F",
     "textColor": "#FFFFFF",
-    "icon": "manchestergrey.svg",
+    "icon": "manchestergrey.png",
     "order": 6
   },
   "Red": {
-    "name": "Trafford Centre – Deansgate-Castlefield",
+    "name": "Trafford Centre \u2013 Deansgate-Castlefield",
     "color": "#EE3124",
     "backgroundColor": "#EE3124",
     "textColor": "#FFFFFF",
-    "icon": "manchesterred.svg",
+    "icon": "manchesterred.png",
     "order": 7
   }
 }

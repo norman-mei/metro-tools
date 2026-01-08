@@ -6,26 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.073762835501,
-          33.4475554060542
-        ]
-      },
-      "properties": {
-        "name": "Downtown Phoenix Hub",
-        "line": "ValleyMetroA",
-        "order": 0,
-        "id": 0,
-        "alternate_names": [
-          "Downtown Phx Hub"
-        ]
-      },
-      "id": 0
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -112.069311297029,
           33.4462716774751
         ]
@@ -34,7 +14,8 @@
         "name": "3rd Street/Jefferson",
         "line": "ValleyMetroA",
         "order": 1,
-        "id": 1
+        "id": 1,
+        "cluster_key": "wash_3rd_complex"
       },
       "id": 1
     },
@@ -51,7 +32,8 @@
         "name": "3rd Street/Washington",
         "line": "ValleyMetroA",
         "order": 2,
-        "id": 2
+        "id": 2,
+        "cluster_key": "wash_3rd_complex"
       },
       "id": 2
     },
@@ -68,7 +50,8 @@
         "name": "12th Street/Jefferson",
         "line": "ValleyMetroA",
         "order": 3,
-        "id": 3
+        "id": 3,
+        "cluster_key": "wash_12th_complex"
       },
       "id": 3
     },
@@ -85,7 +68,8 @@
         "name": "12th Street/Washington",
         "line": "ValleyMetroA",
         "order": 4,
-        "id": 4
+        "id": 4,
+        "cluster_key": "wash_12th_complex"
       },
       "id": 4
     },
@@ -102,7 +86,8 @@
         "name": "24th Street/Jefferson",
         "line": "ValleyMetroA",
         "order": 5,
-        "id": 5
+        "id": 5,
+        "cluster_key": "wash_24th_complex"
       },
       "id": 5
     },
@@ -119,7 +104,8 @@
         "name": "24th Street/Washington",
         "line": "ValleyMetroA",
         "order": 6,
-        "id": 6
+        "id": 6,
+        "cluster_key": "wash_24th_complex"
       },
       "id": 6
     },
@@ -221,7 +207,8 @@
         "name": "Mill Avenue/3rd Street",
         "line": "ValleyMetroA",
         "order": 12,
-        "id": 12
+        "id": 12,
+        "cluster_key": "mill_3rd_complex"
       },
       "id": 12
     },
@@ -303,7 +290,7 @@
         ]
       },
       "properties": {
-        "name": "Smith–Martin/Apache Boulevard",
+        "name": "Smith\u2013Martin/Apache Boulevard",
         "line": "ValleyMetroA",
         "order": 17,
         "id": 17
@@ -320,7 +307,7 @@
         ]
       },
       "properties": {
-        "name": "Price–101 Freeway/Apache Boulevard",
+        "name": "Price\u2013101 Freeway/Apache Boulevard",
         "line": "ValleyMetroA",
         "order": 18,
         "id": 18
@@ -748,7 +735,8 @@
         "name": "Van Buren/1st Avenue",
         "line": "ValleyMetroB",
         "order": 17,
-        "id": 43
+        "id": 43,
+        "cluster_key": "vanburen_complex"
       },
       "id": 43
     },
@@ -765,7 +753,8 @@
         "name": "Van Buren/Central Avenue",
         "line": "ValleyMetroB",
         "order": 18,
-        "id": 44
+        "id": 44,
+        "cluster_key": "vanburen_complex"
       },
       "id": 44
     },
@@ -791,26 +780,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.073762835501,
-          33.4475554060542
-        ]
-      },
-      "properties": {
-        "name": "Downtown Phoenix Hub",
-        "line": "ValleyMetroB",
-        "order": 20,
-        "id": 46,
-        "alternate_names": [
-          "Downtown Phx Hub"
-        ]
-      },
-      "id": 46
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -112.07495298225,
           33.4416888657929
         ]
@@ -819,7 +788,8 @@
         "name": "Lincoln/1st Avenue",
         "line": "ValleyMetroB",
         "order": 21,
-        "id": 47
+        "id": 47,
+        "cluster_key": "lincoln_complex"
       },
       "id": 47
     },
@@ -836,7 +806,8 @@
         "name": "Lincoln/Central Avenue",
         "line": "ValleyMetroB",
         "order": 22,
-        "id": 48
+        "id": 48,
+        "cluster_key": "lincoln_complex"
       },
       "id": 48
     },
@@ -1006,7 +977,8 @@
         "name": "3rd Street/Mill Avenue",
         "line": "ValleyMetroS",
         "order": 3,
-        "id": 58
+        "id": 58,
+        "cluster_key": "mill_3rd_complex"
       },
       "id": 58
     },
@@ -1281,6 +1253,70 @@
         "id": 74
       },
       "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0752,
+          33.4478
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Downtown Phoenix Hub",
+        "line": "ValleyMetroB"
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0738,
+          33.4477
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Downtown Phoenix Hub",
+        "line": "ValleyMetroB"
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0745,
+          33.4483
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Downtown Phoenix Hub",
+        "line": "ValleyMetroA"
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0745,
+          33.4471
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Downtown Phoenix Hub",
+        "line": "ValleyMetroA"
+      },
+      "id": 78
     }
   ]
 }

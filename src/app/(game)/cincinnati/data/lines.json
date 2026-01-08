@@ -4,13 +4,15 @@
     "color": "#41B4E8",
     "backgroundColor": "#41B4E8",
     "textColor": "#000000",
-    "order": 0
+    "order": 0,
+    "icon": "100.png"
   },
   "CincinnatiAPM": {
     "name": "Cincinnati Airport People Mover",
     "color": "#004DA3",
     "backgroundColor": "#00326C",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "CincinnatiAPM.png"
   }
 }

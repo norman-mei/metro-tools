@@ -1356,9 +1356,10 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
         </>
       )}
       <div className="my-16 mt-16 sm:mt-20">
-        <div className="sticky top-6 z-30 mb-6 rounded-3xl border border-zinc-200/80 bg-white/70 p-4 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/70">
-          <div className="mb-4 flex flex-wrap justify-center gap-3">
-            {PRIMARY_TABS.map(({ id, label }) => {
+        <div className="sticky top-6 z-30 mb-6 flex flex-col gap-4 rounded-3xl border border-zinc-200/80 bg-white/70 p-4 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/70">
+          <div>
+          <div className="flex overflow-x-auto pb-2 sm:mx-0 sm:flex-wrap sm:justify-center sm:gap-3 sm:overflow-visible sm:px-0 sm:pb-0 hide-scrollbar">
+            {[...PRIMARY_TABS, ...SECONDARY_TABS].map(({ id, label }) => {
               const labelText = t(label)
               return (
                 <button
@@ -1367,28 +1368,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                     setActiveTab(id)
                   }}
                   className={classNames(
-                    'rounded-full px-4 py-2 text-sm font-semibold transition',
-                    activeTab === id
-                      ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
-                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
-                  )}
-                >
-                  {labelText}
-                </button>
-              )
-            })}
-          </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {SECONDARY_TABS.map(({ id, label }) => {
-              const labelText = t(label)
-              return (
-                <button
-                  key={id}
-                  onClick={() => {
-                    setActiveTab(id)
-                  }}
-                  className={classNames(
-                    'rounded-full px-4 py-2 text-sm font-semibold transition',
+                    'mr-2 shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold transition sm:mr-0',
                     activeTab === id
                       ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
                       : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
@@ -1401,19 +1381,18 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
           </div>
         </div>
 
-      {activeTab === 'cities' ? (
-        <>
-          <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+        {activeTab === 'cities' && (
+           <div className="flex flex-col gap-2 transition-all lg:flex-row lg:items-center lg:justify-between">
             <div className="relative w-full">
               <input
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}
-                className="block w-full rounded-full border-0 px-10 py-4 pr-10 text-lg text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] sm:leading-6 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
+                className="block w-full rounded-full border-0 px-4 py-2.5 pl-10 text-base text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] sm:px-10 sm:py-4 sm:leading-6 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
                 type="text"
                 placeholder={t('searchCities')}
               />
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 dark:text-zinc-400">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400 dark:text-zinc-400 sm:left-auto sm:right-0 sm:pl-0 sm:pr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" className="sm:h-8 sm:w-8">
                   <path
                     fill="currentColor"
                     d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
@@ -1421,47 +1400,61 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                 </svg>
               </div>
             </div>
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center lg:w-auto">
+            <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-row sm:items-center lg:w-auto">
               <div className="w-full sm:w-48">
                 <label className="sr-only" htmlFor="city-sort">
                   Sort cities
                 </label>
-                <select
-                  id="city-sort"
-                  value={citySort}
-                  onChange={(event) => setCitySort(event.target.value as CitySortOption)}
-                  className="w-full rounded-full border-0 bg-white px-4 py-3 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
-                >
-                  {CITY_SORT_OPTIONS.map((option) => (
-                    <option key={option.value} value={option.value}>
-                      {t(option.label)}
-                    </option>
-                  ))}
-                </select>
+                <div className="relative">
+                    <select
+                      id="city-sort"
+                      value={citySort}
+                      onChange={(event) => setCitySort(event.target.value as CitySortOption)}
+                      className="w-full appearance-none rounded-full border-0 bg-white px-4 py-2.5 pr-8 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:appearance-auto sm:py-3 sm:pr-10 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+                    >
+                      {CITY_SORT_OPTIONS.map((option) => (
+                        <option key={option.value} value={option.value}>
+                          {t(option.label)}
+                        </option>
+                      ))}
+                    </select>
+                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500 sm:hidden">
+                        <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                            <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" fillRule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
               </div>
               <div className="w-full sm:w-48">
                 <label className="sr-only" htmlFor="city-view">
                   View
                 </label>
-                <select
-                  id="city-view"
-                  value={cityViewMode}
-                  onChange={(event) => setCityViewMode(event.target.value as CityCardVariant)}
-                  className="w-full rounded-full border-0 bg-white px-4 py-3 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
-                >
-                  {CITY_VIEW_OPTIONS.map((option) => (
-                    <option key={option.value} value={option.value}>
-                      {t(option.label)}
-                    </option>
-                  ))}
-                </select>
+                <div className="relative">
+                    <select
+                      id="city-view"
+                      value={cityViewMode}
+                      onChange={(event) => setCityViewMode(event.target.value as CityCardVariant)}
+                      className="w-full appearance-none rounded-full border-0 bg-white px-4 py-2.5 pr-8 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:appearance-auto sm:py-3 sm:pr-10 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+                    >
+                      {CITY_VIEW_OPTIONS.map((option) => (
+                        <option key={option.value} value={option.value}>
+                          {t(option.label)}
+                        </option>
+                      ))}
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500 sm:hidden">
+                        <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                            <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" fillRule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
               </div>
               
               {(cityViewMode === 'globe' || cityViewMode === 'map') && (
                 <button
                     onClick={() => setIsSatellite(!isSatellite)}
                     className={clsx(
-                        "flex items-center gap-2 rounded-full border px-4 py-3 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)]",
+                        "col-span-2 sm:col-span-1 flex items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)]",
                         isSatellite 
                             ? "border-[var(--accent-600)] bg-[var(--accent-600)] text-white hover:bg-[var(--accent-700)] dark:border-[var(--accent-500)] dark:bg-[var(--accent-500)] dark:text-zinc-900 dark:hover:bg-[var(--accent-400)]"
                             : "border-gray-300 bg-white text-gray-700 hover:bg-gray-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
@@ -1475,6 +1468,11 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
               )}
             </div>
           </div>
+        )}
+        </div>
+
+      {activeTab === 'cities' ? (
+        <>
           {cityViewMode === 'globe' || cityViewMode === 'map' ? (
              <div className="mt-6">
                 <CitiesGlobe 
@@ -1729,22 +1727,27 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                             {entry.name}
                           </span>
                         </span>
+                      </div>
+                      <div className="flex items-center gap-3">
                         <span
                           className="text-sm font-semibold"
                           style={{ color: getGradientColor(entry.percent) }}
                         >
-                          ({entry.found} / {entry.total} {t('stationsFound')})
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <span className="text-sm font-semibold" style={{ color: getGradientColor(entry.percent) }}>
                           {percentLabel}
                         </span>
-                        <div className="h-2 w-32 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
-                          <div
-                            className="h-full rounded-full"
-                            style={{ width: percentLabel, background: barBg }}
-                          />
+                        <div className="relative">
+                          <div className="h-2 w-32 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
+                            <div
+                              className="h-full rounded-full"
+                              style={{ width: percentLabel, background: barBg }}
+                            />
+                          </div>
+                          <span
+                            className="absolute left-1/2 top-full mt-1 -translate-x-1/2 whitespace-nowrap text-xs font-bold"
+                            style={{ color: getGradientColor(entry.percent) }}
+                          >
+                            {entry.found}/{entry.total} {t('stationsFound')}
+                          </span>
                         </div>
                         <button
                           type="button"

@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -131,12 +131,41 @@ export const CITY_NAME = 'mexico-city'
 
 export const LOCALE = 'es'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Sistema de Transporte Colectivo (STC Metro)',
+    items: [
+      {
+        type: 'lines',
+        lines: [
+          'DFMetro1',
+          'DFMetro2',
+          'DFMetro3',
+          'DFMetro4',
+          'DFMetro5',
+          'DFMetro6',
+          'DFMetro7',
+          'DFMetro8',
+          'DFMetro9',
+          'DFMetro12',
+          'DFMetroA',
+          'DFMetroB',
+        ],
+      },
+    ],
+  },
+]
+
+const config: Config = {
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
   MAP_CONFIG,
   METADATA,
   LINES,
+  LINE_GROUPS,
 }
 
 export default config

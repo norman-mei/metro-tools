@@ -17,7 +17,7 @@ export const LINE_GROUPS: LineGroup[] = [
       },
       {
         type: 'lines',
-        title: 'Sounder (N and S Lines)',
+        title: 'Sounder',
         lines: ['SoundTransitN', 'SoundTransitS'],
       },
     ],

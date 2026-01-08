@@ -234,7 +234,7 @@ export const LINE_GROUPS: LineGroup[] = [
         items: [{ type: 'separator' }]
     },
     {
-        title: 'Intercity/High-Speed Rail',
+        title: 'Intercity Rail',
         items: [
             {
                 type: 'lines',

@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -106,6 +106,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['TokyoMetroM', 'TokyoMetroMb', 'TokyoMetroF', 'TokyoMetroC', 'TokyoMetroZ', 'TokyoMetroN', 'TokyoMetroH', 'TokyoMetroY', 'TokyoMetroT', 'TokyoMetroG', 'ToeiSubwayI', 'ToeiSubwayE', 'ToeiSubwayS', 'ToeiSubwayA'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/tokyo',
@@ -143,9 +155,17 @@ export const CITY_NAME = 'tokyo'
 
 export const LOCALE = 'jp'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const GAUGE_COLORS = 'inverted'
+
+const config: Config = {
+  GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

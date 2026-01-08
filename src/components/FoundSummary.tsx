@@ -125,9 +125,9 @@ const FoundSummary = ({
             style={{ color: percentColor }}
           >
             {((foundProportion || 0) * 100).toFixed(2)}
-            <span className="ml-1 text-lg font-semibold @md:text-xl">%</span>
+            <span className="ml-1 text-base font-semibold @md:text-xl">%</span>
           </span>{' '}
-          <span className="text-sm text-zinc-600 dark:text-zinc-200">
+          <span className="text-xs text-zinc-600 dark:text-zinc-400 @md:text-sm">
             {t('stationsFound')}
           </span>
         </p>
@@ -139,15 +139,16 @@ const FoundSummary = ({
         />
       </div>
       {minimizable && (
-        <div className="absolute bottom-0 right-0">
+        <div className="absolute top-0 right-0 -mt-1 -mr-1">
           <button
             onClick={() => setMinimized(!minimized)}
-            className="pointer-events-auto z-10 mx-2 my-1 flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-500 shadow dark:bg-zinc-800 dark:text-zinc-100"
+            className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-zinc-400 shadow-sm ring-1 ring-zinc-200 hover:bg-zinc-50 hover:text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400 dark:ring-zinc-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-200"
+            aria-label={minimized ? "Expand summary" : "Minimize summary"}
           >
             {minimized ? (
-              <MaximizeIcon className="h-4 w-4" />
+              <MaximizeIcon className="h-3.5 w-3.5" />
             ) : (
-              <MinimizeIcon className="h-4 w-4" />
+              <MinimizeIcon className="h-3.5 w-3.5" />
             )}
           </button>
         </div>

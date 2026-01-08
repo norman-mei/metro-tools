@@ -1,18 +1,20 @@
 {
   "TheHopL": {
-    "name": "L Line (Lakefront)",
+    "name": "Lakefront",
     "color": "#F3C53F",
     "backgroundColor": "#C3941A",
     "progressOutlineColor": "#F3C53F",
     "textColor": "#1F1F1F",
-    "order": 0
+    "order": 0,
+    "icon": "TheHopL_v2.png"
   },
   "TheHopM": {
-    "name": "M Line (Burns Commons \u2013 Intermodal Station)",
+    "name": "Burn Commons - Intermodal Station",
     "color": "#4C74AC",
     "backgroundColor": "#2F4C78",
     "progressOutlineColor": "#4C74AC",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "TheHopM_v2.png"
   }
 }

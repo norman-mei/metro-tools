@@ -1241,13 +1241,149 @@
         "order": 0
       },
       "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8339467,
+          49.1786215
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Green Timbers",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 282
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8008789,
+          49.1660719
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "152 Street",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 287
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7779123,
+          49.1571885
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Fleetwood",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 292
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.762541,
+          49.1511711
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Bakerview-166 Street",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 297
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7131469,
+          49.1291743
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Hillcrest-184 Street",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 302
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6962219,
+          49.1214918
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Clayton",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 307
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6788837,
+          49.1138355
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Willowbrook",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 312
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6586098,
+          49.1060399
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Langley City Centre",
+        "line": "VancouverSkytrainExpoLine",
+        "order": 317
+      },
+      "id": 81
     }
   ],
   "properties": {
-    "totalStations": 73,
+    "totalStations": 81,
     "stationsPerLine": {
       "VancouverWestCoastExpressWce": 8,
-      "VancouverSkytrainExpoLine": 24,
+      "VancouverSkytrainExpoLine": 32,
       "VancouverSkytrainMillenniumLine": 23,
       "VancouverSkytrainCanadaLine": 16,
       "VancouverSeabusSeabus": 2

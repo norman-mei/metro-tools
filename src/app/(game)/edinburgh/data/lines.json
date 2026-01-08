@@ -5,6 +5,7 @@
     "backgroundColor": "#5B0200",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#910500",
-    "order": 0
+    "order": 0,
+    "icon": "EdinburghTram.png"
   }
 }

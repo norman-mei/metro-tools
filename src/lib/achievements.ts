@@ -372,7 +372,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Lost? Never!",
     description: "Unlike Bill Murray, you're never lost in Tokyo's transit web!",
   },
-  toronto: {
+  'toronto-waterloo': {
     title: "Ride the Rocket",
     description: "Started from the TTC, now you know the whole thing!",
   },

@@ -73,6 +73,7 @@ export default function CitiesGlobe({
     lngLat: [number, number]
     city: ICity
   } | null>(null)
+  const [mapReady, setMapReady] = useState(false)
 
   const handleClosePopup = useCallback(() => {
     setActivePopup(null)
@@ -97,6 +98,9 @@ export default function CitiesGlobe({
     })
 
     mapRef.current = map
+    map.once('load', () => {
+      setMapReady(true)
+    })
 
     // Add interactions immediately (they persist across style changes)
     map.on('mouseenter', 'city-points', () => {
@@ -148,7 +152,7 @@ export default function CitiesGlobe({
   // Update map source when cities change or style reloads
   useEffect(() => {
     const map = mapRef.current
-    if (!map) return
+    if (!map || !mapReady) return
 
     const updateSource = () => {
         // Apply Fog (needs to be re-applied on style load)
@@ -245,18 +249,23 @@ export default function CitiesGlobe({
         }
     }
 
-    // Subscribe to style.load to handle style switches
-    map.on('style.load', updateSource)
-    
-    // Also run immediately if loaded (for initial render)
-    if (map.isStyleLoaded()) {
+    const safeUpdate = () => {
+      if (map.isStyleLoaded()) {
         updateSource()
+      } else {
+        map.once('style.load', updateSource)
+      }
     }
 
+    // Subscribe to style.load to handle style switches
+    map.on('style.load', safeUpdate)
+    // Also run immediately if loaded (for initial render)
+    safeUpdate()
+
     return () => {
-        map.off('style.load', updateSource)
+        map.off('style.load', safeUpdate)
     }
-  }, [cities, resolvedTheme, cityProgress, projection])
+  }, [cities, resolvedTheme, cityProgress, projection, mapReady])
   
   // Handle projection changes dynamically if map instance exists
   useEffect(() => {

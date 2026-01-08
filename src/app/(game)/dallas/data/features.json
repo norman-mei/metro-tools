@@ -1,0 +1,3235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3278313,
+          32.7453157
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Fort Worth T&P",
+        "line": "TEXRail",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3256473,
+          32.7514836
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Fort Worth Central",
+        "line": "TEXRail",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3375873,
+          32.7958002
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "North Side",
+        "line": "TEXRail",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2940482,
+          32.81993
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Mercantile Center",
+        "line": "TEXRail",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2485254,
+          32.8455165
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "North Richland Hills/Iron Horse",
+        "line": "TEXRail",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2112736,
+          32.8642247
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "North Richland Hills/Smithfield",
+        "line": "TEXRail",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0772824,
+          32.9337161
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Grapevine/Main Street",
+        "line": "TEXRail",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0540544,
+          32.9337891
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "DFW Airport North",
+        "line": "TEXRail",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0412351,
+          32.906418
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "DFW Airport Terminal B",
+        "line": "TEXRail",
+        "order": 8,
+        "cluster_key": "dfw_terminal_ab_complex"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3278313,
+          32.7453157
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Fort Worth T&P",
+        "line": "TRE",
+        "order": 0
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3256473,
+          32.7514836
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Fort Worth Central",
+        "line": "TRE",
+        "order": 1
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2097214,
+          32.8053519
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Richland Hills",
+        "line": "TRE",
+        "order": 2
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1551434,
+          32.8046022
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bell",
+        "line": "TRE",
+        "order": 3
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0519086,
+          32.8182374
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "CentrePort/DFW Airport",
+        "line": "TRE",
+        "order": 4
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0072629,
+          32.816075
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "West Irving",
+        "line": "TRE",
+        "order": 5
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9477035,
+          32.8149065
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Downtown Irving/Heritage Crossing",
+        "line": "TRE",
+        "order": 6
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8399986,
+          32.8087132
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Medical/Market Center",
+        "line": "TRE",
+        "order": 7
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8126728,
+          32.7896489
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Victory",
+        "line": "TRE",
+        "order": 8
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8071451,
+          32.7760668
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "EBJ Union",
+        "line": "TRE",
+        "order": 9
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0363808,
+          32.9066651
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Terminal A (Gates A8-A21)",
+        "line": "Skylink",
+        "order": 0,
+        "cluster_key": "dfw_terminal_a_complex"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0365567,
+          32.9024848
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Terminal A (Gates A22-A39)",
+        "line": "Skylink",
+        "order": 1
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0442605,
+          32.9027905
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Terminal B (Gates B1-B19)",
+        "line": "Skylink",
+        "order": 2
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0443546,
+          32.9065929
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Terminal B (Gates B20-B49)",
+        "line": "Skylink",
+        "order": 3,
+        "cluster_key": "dfw_terminal_b_complex"
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0363645,
+          32.8995066
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Terminal C (Gates C2-C19)",
+        "line": "Skylink",
+        "order": 4
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0364005,
+          32.8955622
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Terminal C (Gates C20-C39)",
+        "line": "Skylink",
+        "order": 5
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0441611,
+          32.8962624
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Terminal D (Gates D6-D22)",
+        "line": "Skylink",
+        "order": 6
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0441816,
+          32.8988576
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Terminal D (Gates D23-D40)",
+        "line": "Skylink",
+        "order": 7
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.036434,
+          32.8923544
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Terminal E (Gates E2-E16)",
+        "line": "Skylink",
+        "order": 8
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0365854,
+          32.888335
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Terminal E (Gates E17-E38)",
+        "line": "Skylink",
+        "order": 9
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8071451,
+          32.7760668
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "EBJ Union",
+        "line": "DallasStreetcar",
+        "order": 0
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8151746,
+          32.7623505
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Greenbriar",
+        "line": "DallasStreetcar",
+        "order": 1
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.818015,
+          32.7605437
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Oakenwald",
+        "line": "DallasStreetcar",
+        "order": 2
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8225833,
+          32.7588684
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Beckley",
+        "line": "DallasStreetcar",
+        "order": 3
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8241538,
+          32.7529882
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "6th Street",
+        "line": "DallasStreetcar",
+        "order": 4
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.824417,
+          32.7490128
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Bishop Arts",
+        "line": "DallasStreetcar",
+        "order": 5
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.794103,
+          32.8055581
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Uptown",
+        "line": "MLineTrolley",
+        "order": 0,
+        "cluster_key": "cityplace_uptown_complex"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7960459,
+          32.8072212
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "CityPlace & Noble",
+        "line": "MLineTrolley",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7967083,
+          32.8077839
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "CityPlace & McKinney",
+        "line": "MLineTrolley",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7960749,
+          32.8085335
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "McKinney & Blackburn",
+        "line": "MLineTrolley",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7965349,
+          32.8092196
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Blackburn & West Village",
+        "line": "MLineTrolley",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7983142,
+          32.8083331
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Cole & West Village",
+        "line": "MLineTrolley",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7995018,
+          32.8063747
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Cole & Lemmon",
+        "line": "MLineTrolley",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7984239,
+          32.8057199
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "McKinney & Lemmon",
+        "line": "MLineTrolley",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8003009,
+          32.8051415
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Cole & Hall",
+        "line": "MLineTrolley",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7997639,
+          32.8036099
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "McKinney & Hall",
+        "line": "MLineTrolley",
+        "order": 9
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8013019,
+          32.8036085
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Cole & Bowen",
+        "line": "MLineTrolley",
+        "order": 10
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8005303,
+          32.8024903
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "McKinney & Bowen",
+        "line": "MLineTrolley",
+        "order": 11
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8023623,
+          32.8019927
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Cole & Allen",
+        "line": "MLineTrolley",
+        "order": 12
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8009078,
+          32.7995267
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "McKinney & Allen",
+        "line": "MLineTrolley",
+        "order": 13
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.801196,
+          32.7983135
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "McKinney & Worthington",
+        "line": "MLineTrolley",
+        "order": 14
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8013831,
+          32.7977545
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "McKinney & Boll",
+        "line": "MLineTrolley",
+        "order": 15
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8017895,
+          32.7961819
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "McKinney & Routh",
+        "line": "MLineTrolley",
+        "order": 16
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8021454,
+          32.7950232
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "McKinney & Fairmount",
+        "line": "MLineTrolley",
+        "order": 17
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8025447,
+          32.7938117
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "McKinney & Maple",
+        "line": "MLineTrolley",
+        "order": 18
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8029109,
+          32.792701
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "McKinney & Pearl",
+        "line": "MLineTrolley",
+        "order": 19
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8033055,
+          32.7918046
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "McKinney & Olive",
+        "line": "MLineTrolley",
+        "order": 20
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8029274,
+          32.7911684
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Olive & Colby",
+        "line": "MLineTrolley",
+        "order": 21
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8035535,
+          32.7908745
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "McKinney & Harwood",
+        "line": "MLineTrolley",
+        "order": 22
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8037478,
+          32.7890476
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "St Paul & McKinney",
+        "line": "MLineTrolley",
+        "order": 23
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8008824,
+          32.7892673
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "KWP / Arts District",
+        "line": "MLineTrolley",
+        "order": 24
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8022732,
+          32.7878079
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "St Paul & Woodall Rodgers",
+        "line": "MLineTrolley",
+        "order": 25
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7999304,
+          32.7885284
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Olive & Flora",
+        "line": "MLineTrolley",
+        "order": 26
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8006567,
+          32.7864398
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "St Paul & Ross",
+        "line": "MLineTrolley",
+        "order": 27
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7986797,
+          32.7878543
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Olive & Ross",
+        "line": "MLineTrolley",
+        "order": 28
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7972062,
+          32.7866873
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Olive & San Jacinto",
+        "line": "MLineTrolley",
+        "order": 29
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.799752,
+          32.7856662
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "St Paul & San Jacinto",
+        "line": "MLineTrolley",
+        "order": 30
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7964041,
+          32.7857009
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Federal & Olive",
+        "line": "MLineTrolley",
+        "order": 31
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.798463,
+          32.7845497
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "St Paul & Federal",
+        "line": "MLineTrolley",
+        "order": 32,
+        "cluster_key": "stpaul_federal_harwood_complex"
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.797161,
+          32.7849748
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Federal & Harwood",
+        "line": "MLineTrolley",
+        "order": 33,
+        "cluster_key": "stpaul_federal_harwood_complex"
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0412351,
+          32.906418
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "DFW Airport Terminal B",
+        "line": "DARTSilver",
+        "order": 0,
+        "cluster_key": "dfw_terminal_ab_complex"
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0540544,
+          32.9337891
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "DFW Airport North",
+        "line": "DARTSilver",
+        "order": 1
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.983196,
+          32.9505763
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Cypress Waters",
+        "line": "DARTSilver",
+        "order": 2
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9081223,
+          32.9555512
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Downtown Carrollton",
+        "line": "DARTSilver",
+        "order": 3,
+        "cluster_key": "downtown_carrollton_complex"
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8282584,
+          32.9589586
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Addison",
+        "line": "DARTSilver",
+        "order": 4
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8177632,
+          32.9627817
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Knoll Trail",
+        "line": "DARTSilver",
+        "order": 5
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7493349,
+          32.997075
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "UT Dallas",
+        "line": "DARTSilver",
+        "order": 6
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7031495,
+          33.0020961
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "CityLine/Bush",
+        "line": "DARTSilver",
+        "order": 7
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6985468,
+          33.0150396
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "12th Street",
+        "line": "DARTSilver",
+        "order": 8,
+        "cluster_key": "12th_street_complex"
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6659285,
+          33.0117901
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Shiloh Road",
+        "line": "DARTSilver",
+        "order": 9
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9265302099581,
+          32.98081779829075
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Trinity Mills",
+        "line": "ATrain",
+        "order": 0
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.95841721342347,
+          33.01012795879276
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Hebron",
+        "line": "ATrain",
+        "order": 1
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.98634707678548,
+          33.04729121993276
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Old Town",
+        "line": "ATrain",
+        "order": 2
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.02599098454903,
+          33.08339202730227
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Highland Village/Lewisville Lake",
+        "line": "ATrain",
+        "order": 3
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.09052233220861,
+          33.18233197049625
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "MedPark",
+        "line": "ATrain",
+        "order": 4
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.12616359576212,
+          33.2136443652545
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Downtown Denton Transit Center (DDTC)",
+        "line": "ATrain",
+        "order": 5
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8010281,
+          32.6540976
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "UNT Dallas",
+        "line": "DARTBlue",
+        "order": 0
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7881119,
+          32.66658
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Camp Wisdom",
+        "line": "DARTBlue",
+        "order": 1
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7887915,
+          32.6833423
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Ledbetter",
+        "line": "DARTBlue",
+        "order": 2
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7928594,
+          32.6935438
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "VA Medical Center",
+        "line": "DARTBlue",
+        "order": 3
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8011349,
+          32.7071683
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Kiest",
+        "line": "DARTBlue",
+        "order": 4
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8051913,
+          32.7231802
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Illinois",
+        "line": "DARTBlue",
+        "order": 5
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8026503,
+          32.7397332
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Morrell",
+        "line": "DARTBlue",
+        "order": 6
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7983829,
+          32.7481411
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "8th & Corinth",
+        "line": "DARTBlue",
+        "order": 7
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.793581,
+          32.7687679
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Cedars",
+        "line": "DARTBlue",
+        "order": 8
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8025291,
+          32.7725813
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Convention Center",
+        "line": "DARTBlue",
+        "order": 9
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8071451,
+          32.7760668
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "EBJ Union",
+        "line": "DARTBlue",
+        "order": 10
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8056505,
+          32.780877
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "West End",
+        "line": "DARTBlue",
+        "order": 11
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8006975,
+          32.7819069
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Akard",
+        "line": "DARTBlue",
+        "order": 12
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7970536,
+          32.7842858
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "St. Paul",
+        "line": "DARTBlue",
+        "order": 13,
+        "cluster_key": "stpaul_federal_harwood_complex"
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7945311,
+          32.7864392
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Pearl/Arts District",
+        "line": "DARTBlue",
+        "order": 14
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7933465,
+          32.8055969
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "CityPlace/Uptown",
+        "line": "DARTBlue",
+        "order": 15,
+        "cluster_key": "cityplace_uptown_complex"
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7749351,
+          32.8378737
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "SMU/Mockingbird",
+        "line": "DARTBlue",
+        "order": 16
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7327685,
+          32.8559297
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "White Rock",
+        "line": "DARTBlue",
+        "order": 17
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7309321,
+          32.8800327
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Lake Highlands",
+        "line": "DARTBlue",
+        "order": 18
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7117729,
+          32.8980519
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "LBJ/Skillman",
+        "line": "DARTBlue",
+        "order": 19
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6795275,
+          32.9080601
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Forest/Jupiter",
+        "line": "DARTBlue",
+        "order": 20
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6353136,
+          32.9163019
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Downtown Garland",
+        "line": "DARTBlue",
+        "order": 21
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5635217,
+          32.9041239
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Downtown Rowlett",
+        "line": "DARTBlue",
+        "order": 22
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6850777,
+          32.7185993
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Buckner",
+        "line": "DARTGreen",
+        "order": 0
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7093491,
+          32.7324317
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Lake June",
+        "line": "DARTGreen",
+        "order": 1
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7205231,
+          32.7656511
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Lawnview",
+        "line": "DARTGreen",
+        "order": 2
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7424681,
+          32.7663116
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Hatcher",
+        "line": "DARTGreen",
+        "order": 3
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7645711,
+          32.7737291
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "MLK Jr.",
+        "line": "DARTGreen",
+        "order": 4
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7659451,
+          32.7819732
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Fair Park",
+        "line": "DARTGreen",
+        "order": 5
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7819904,
+          32.7865443
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Baylor University Medical Center",
+        "line": "DARTGreen",
+        "order": 6
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7885161,
+          32.7858612
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Deep Ellum",
+        "line": "DARTGreen",
+        "order": 7
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7945311,
+          32.7864392
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Pearl/Arts District",
+        "line": "DARTGreen",
+        "order": 8
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7970536,
+          32.7842858
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "St. Paul",
+        "line": "DARTGreen",
+        "order": 9,
+        "cluster_key": "stpaul_federal_harwood_complex"
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8006975,
+          32.7819069
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Akard",
+        "line": "DARTGreen",
+        "order": 10
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8056505,
+          32.780877
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "West End",
+        "line": "DARTGreen",
+        "order": 11
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8126728,
+          32.7896489
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Victory",
+        "line": "DARTGreen",
+        "order": 12
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8237695,
+          32.8047553
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Market Center",
+        "line": "DARTGreen",
+        "order": 13
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8332884,
+          32.8137619
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Southwestern Medical District/Parkland",
+        "line": "DARTGreen",
+        "order": 14
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8333833,
+          32.8222027
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Inwood/Love Field",
+        "line": "DARTGreen",
+        "order": 15
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8621471,
+          32.8429541
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Burbank",
+        "line": "DARTGreen",
+        "order": 16
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8773001,
+          32.8537337
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Bachman",
+        "line": "DARTGreen",
+        "order": 17
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8838487,
+          32.8820287
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Walnut Hill/Denton",
+        "line": "DARTGreen",
+        "order": 18
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8882447,
+          32.8959989
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Royal Lane",
+        "line": "DARTGreen",
+        "order": 19
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.896197,
+          32.9217901
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Farmers Branch",
+        "line": "DARTGreen",
+        "order": 20
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9082854,
+          32.9544834
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Downtown Carrollton",
+        "line": "DARTGreen",
+        "order": 21,
+        "cluster_key": "downtown_carrollton_complex"
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9265302099581,
+          32.98081779829075
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Trinity Mills",
+        "line": "DARTGreen",
+        "order": 22
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9370253,
+          32.9917989
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "North Carrollton/Frankford",
+        "line": "DARTGreen",
+        "order": 23
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0394364,
+          32.907237
+        ]
+      },
+      "properties": {
+        "name": "DFW Airport Terminal A",
+        "line": "DARTOrange",
+        "order": 0,
+        "cluster_key": "dfw_terminal_ab_complex"
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9865202,
+          32.8880204
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Belt Line",
+        "line": "DARTOrange",
+        "order": 1
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9671805,
+          32.8751777
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Dallas College North Lake Campus",
+        "line": "DARTOrange",
+        "order": 2
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.954873,
+          32.8820635
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Hidden Ridge",
+        "line": "DARTOrange",
+        "order": 3
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9385518,
+          32.8769489
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Irving Convention Center",
+        "line": "DARTOrange",
+        "order": 4
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9335904,
+          32.8686206
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Las Colinas Urban Center",
+        "line": "DARTOrange",
+        "order": 5
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9144156,
+          32.8493628
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "University of Dallas",
+        "line": "DARTOrange",
+        "order": 6
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8773001,
+          32.8537337
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Bachman",
+        "line": "DARTOrange",
+        "order": 7
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8621471,
+          32.8429541
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Burbank",
+        "line": "DARTOrange",
+        "order": 8
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8333833,
+          32.8222027
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Inwood/Love Field",
+        "line": "DARTOrange",
+        "order": 9
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8332884,
+          32.8137619
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Southwestern Medical District/Parkland",
+        "line": "DARTOrange",
+        "order": 10
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8237695,
+          32.8047553
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Market Center",
+        "line": "DARTOrange",
+        "order": 11
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8126728,
+          32.7896489
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Victory",
+        "line": "DARTOrange",
+        "order": 12
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8056505,
+          32.780877
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "West End",
+        "line": "DARTOrange",
+        "order": 13
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8006975,
+          32.7819069
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Akard",
+        "line": "DARTOrange",
+        "order": 14
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7970536,
+          32.7842858
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "St. Paul",
+        "line": "DARTOrange",
+        "order": 15,
+        "cluster_key": "stpaul_federal_harwood_complex"
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7945311,
+          32.7864392
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Pearl/Arts District",
+        "line": "DARTOrange",
+        "order": 16
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7933465,
+          32.8055969
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "CityPlace/Uptown",
+        "line": "DARTOrange",
+        "order": 17,
+        "cluster_key": "cityplace_uptown_complex"
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7749351,
+          32.8378737
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "SMU/Mockingbird",
+        "line": "DARTOrange",
+        "order": 18
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.771749,
+          32.8486414
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Lovers Lane",
+        "line": "DARTOrange",
+        "order": 19
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7659144,
+          32.8726584
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Park Lane",
+        "line": "DARTOrange",
+        "order": 20
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7649317,
+          32.8826402
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Walnut Hill",
+        "line": "DARTOrange",
+        "order": 21
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.762432,
+          32.9084163
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Forest Lane",
+        "line": "DARTOrange",
+        "order": 22
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7520908,
+          32.9184199
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "LBJ/Central",
+        "line": "DARTOrange",
+        "order": 23
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7374057,
+          32.9408624
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Spring Valley",
+        "line": "DARTOrange",
+        "order": 24
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7228317,
+          32.9636306
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Arapaho Center",
+        "line": "DARTOrange",
+        "order": 25
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7109292,
+          32.9851602
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Galatyn Park",
+        "line": "DARTOrange",
+        "order": 26
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7031495,
+          33.0020961
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "CityLine/Bush",
+        "line": "DARTOrange",
+        "order": 27
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7009598,
+          33.0208974
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Downtown Plano",
+        "line": "DARTOrange",
+        "order": 28
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7010215,
+          33.0145097
+        ]
+      },
+      "properties": {
+        "name": "12th Street",
+        "line": "DARTOrange",
+        "cluster_key": "12th_street_complex",
+        "order": 29
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7007175,
+          33.0337947
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Parker Road",
+        "line": "DARTOrange",
+        "order": 30
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8713949,
+          32.7195591
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Westmoreland",
+        "line": "DARTRed",
+        "order": 0
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8554245,
+          32.7263842
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Hampton",
+        "line": "DARTRed",
+        "order": 1
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8385187,
+          32.7331271
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Tyler/Vernon",
+        "line": "DARTRed",
+        "order": 2
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8130144,
+          32.7406773
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Dallas Zoo",
+        "line": "DARTRed",
+        "order": 3
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7983829,
+          32.7481411
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "8th & Corinth",
+        "line": "DARTRed",
+        "order": 4
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.793581,
+          32.7687679
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Cedars",
+        "line": "DARTRed",
+        "order": 5
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8025291,
+          32.7725813
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Convention Center",
+        "line": "DARTRed",
+        "order": 6
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8071451,
+          32.7760668
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "EBJ Union",
+        "line": "DARTRed",
+        "order": 7
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8056505,
+          32.780877
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "West End",
+        "line": "DARTRed",
+        "order": 8
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8006975,
+          32.7819069
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Akard",
+        "line": "DARTRed",
+        "order": 9
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7970536,
+          32.7842858
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "St. Paul",
+        "line": "DARTRed",
+        "order": 10,
+        "cluster_key": "stpaul_federal_harwood_complex"
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7945311,
+          32.7864392
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Pearl/Arts District",
+        "line": "DARTRed",
+        "order": 11
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7933465,
+          32.8055969
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "CityPlace/Uptown",
+        "line": "DARTRed",
+        "order": 12,
+        "cluster_key": "cityplace_uptown_complex"
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7749351,
+          32.8378737
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "SMU/Mockingbird",
+        "line": "DARTRed",
+        "order": 13
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.771749,
+          32.8486414
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Lovers Lane",
+        "line": "DARTRed",
+        "order": 14
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7659144,
+          32.8726584
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Park Lane",
+        "line": "DARTRed",
+        "order": 15
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7649317,
+          32.8826402
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Walnut Hill",
+        "line": "DARTRed",
+        "order": 16
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.762432,
+          32.9084163
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Forest Lane",
+        "line": "DARTRed",
+        "order": 17
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7520908,
+          32.9184199
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "LBJ/Central",
+        "line": "DARTRed",
+        "order": 18
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7374057,
+          32.9408624
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Spring Valley",
+        "line": "DARTRed",
+        "order": 19
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7228317,
+          32.9636306
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Arapaho Center",
+        "line": "DARTRed",
+        "order": 20
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7109292,
+          32.9851602
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Galatyn Park",
+        "line": "DARTRed",
+        "order": 21
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7031495,
+          33.0020961
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "CityLine/Bush",
+        "line": "DARTRed",
+        "order": 22
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7009598,
+          33.0208974
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Downtown Plano",
+        "line": "DARTRed",
+        "order": 23
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7010215,
+          33.0145097
+        ]
+      },
+      "properties": {
+        "name": "12th Street",
+        "line": "DARTRed",
+        "cluster_key": "12th_street_complex",
+        "order": 24
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7007175,
+          33.0337947
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Parker Road",
+        "line": "DARTRed",
+        "order": 25
+      },
+      "id": 109
+    }
+  ]
+}

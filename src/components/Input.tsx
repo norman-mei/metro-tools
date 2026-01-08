@@ -1,15 +1,15 @@
 'use client'
 
-import classNames from 'classnames'
-import { useState, KeyboardEventHandler, useCallback, useRef } from 'react'
-import Fuse from 'fuse.js'
-import { DataFeature } from '@/lib/types'
-import { Transition } from '@headlessui/react'
-import { Feature, Point } from 'geojson'
-import useTranslation from '@/hooks/useTranslation'
 import useNormalizeString from '@/hooks/useNormalizeString'
 import usePushEvent from '@/hooks/usePushEvent'
+import useTranslation from '@/hooks/useTranslation'
 import { useConfig } from '@/lib/configContext'
+import { DataFeature } from '@/lib/types'
+import { Transition } from '@headlessui/react'
+import classNames from 'classnames'
+import Fuse from 'fuse.js'
+import { Feature, Point } from 'geojson'
+import { KeyboardEventHandler, useCallback, useRef, useState } from 'react'
 
 const Input = ({
   fuse,
@@ -338,7 +338,7 @@ const Input = ({
   )
 
   return (
-    <div className="relative grow">
+    <div className="relative grow min-w-0">
       <input
         className={classNames(
           {

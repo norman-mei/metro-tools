@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -120,6 +120,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['CM_Istanbulmetro_m1', 'CM_Istanbulmetro_m2', 'CM_Istanbulmetro_m3', 'CM_Istanbulmetro_m4', 'CM_Istanbulmetro_m5', 'CM_Istanbulmetro_m6', 'CM_Istanbulmetro_m7', 'CM_Istanbulmetro_m8', 'CM_Istanbulmetro_m9', 'CM_Istanbulmetro_m10', 'CM_Istanbulmetro_m11', 'CM_CagdasTramvay_t1', 'CM_NostaljikTramvay_t2', 'CM_NostaljikTramvay_t3', 'CM_CagdasTramvay_t4', 'CM_CagdasTramvay_t5'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/istanbul',
@@ -158,9 +170,17 @@ export const CITY_NAME = 'istanbul'
 
 export const LOCALE = 'tr'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const GAUGE_COLORS = 'inverted'
+
+const config: Config = {
+  GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

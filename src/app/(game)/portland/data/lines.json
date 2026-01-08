@@ -45,7 +45,8 @@
     "backgroundColor": "#92185F",
     "progressOutlineColor": "#FF7CC9",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "PortlandA.png"
   },
   "PortlandB": {
     "name": "Portland Streetcar B Loop",
@@ -53,7 +54,8 @@
     "backgroundColor": "#00556D",
     "progressOutlineColor": "#4DD1F5",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "PortlandB.png"
   },
   "PortlandNS": {
     "name": "Portland Streetcar North/South Line",
@@ -61,7 +63,8 @@
     "backgroundColor": "#5E8030",
     "progressOutlineColor": "#DFFAA3",
     "textColor": "#1F1F1F",
-    "order": 7
+    "order": 7,
+    "icon": "PortlandNS.png"
   },
   "PortlandWES": {
     "name": "WES Commuter Rail",
@@ -69,6 +72,7 @@
     "backgroundColor": "#3C3D3F",
     "progressOutlineColor": "#A5A7AA",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "PortlandWES.png"
   }
 }

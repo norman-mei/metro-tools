@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -57,6 +57,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['Tunnelbana10', 'Tunnelbana11', 'Tunnelbana13', 'Tunnelbana14', 'Tunnelbana17', 'Tunnelbana18', 'Tunnelbana19', 'Lokalbana30', 'Lokalbana31', 'LokalbanaL12', 'LokalbanaL21', 'LokalbanaL27', 'LokalbanaL28', 'LokalbanaL29', 'Pendeltag40', 'Pendeltag41', 'Pendeltag42X', 'Pendeltag43', 'Pendeltag43X', 'Pendeltag48'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/stockholm',
@@ -93,9 +105,17 @@ export const CITY_NAME = 'stockholm'
 
 export const LOCALE = 'sv'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const GAUGE_COLORS = 'inverted'
+
+const config: Config = {
+  GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

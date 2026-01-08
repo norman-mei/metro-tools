@@ -39,14 +39,16 @@
     "color": "#F27736",
     "backgroundColor": "#F27736",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "SLU.png"
   },
   "SeattleStreetcarFirstHill": {
     "name": "First Hill",
     "color": "#B50939",
     "backgroundColor": "#B50939",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "FH.png"
   },
   "SeattleCenterMonorail": {
     "name": "Seattle Center Monorail",
@@ -56,21 +58,21 @@
     "order": 7
   },
   "MAXGreen": {
-    "name": "Green Line",
+    "name": "Green",
     "color": "#008752",
     "backgroundColor": "#008752",
     "textColor": "#FFFFFF",
     "order": 8
   },
   "MAXBlue": {
-    "name": "Blue Line",
+    "name": "Blue",
     "color": "#0069AA",
     "backgroundColor": "#0069AA",
     "textColor": "#FFFFFF",
     "order": 9
   },
   "MAXYellow": {
-    "name": "Yellow Line",
+    "name": "Yellow",
     "color": "#FFC424",
     "backgroundColor": "#FFC424",
     "textColor": "#111827",

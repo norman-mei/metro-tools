@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -169,6 +169,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['SeoulSubway1Hoseon', 'SeoulSubway2Hoseon', 'SeoulSubway3Hoseon', 'SeoulSubway4Hoseon', 'SeoulSubway5Hoseon', 'SeoulSubway6Hoseon', 'SeoulSubway7Hoseon', 'SeoulSubway8Hoseon', 'SeoulSubway9Hoseon', 'SeoulMTRGyeonggangseon', 'SeoulMTRGyeongyijungangseon', 'SeoulMTRGyeongcunseon', 'SeoulAirportRailroadGonghangceoldo', 'SeoulMTRSuinbundangseon', 'SeoulMTRSinbundangseon', 'SeoulIncheonMetroInceon1Hoseon', 'CM_SeoulIncheonMetro2_inceon2hoseon', 'CM_SeoulLightRailTransit_gimpogoldeurain', 'SeoulLightRailTransitSeohaeseon', 'SeoulLightRailTransitSinrimseon', 'SeoulLightRailTransitEverline', 'SeoulLightRailTransitUisinseolgyeongjeonceol', 'SeoulLightRailTransitUijeongbu'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/seoul',
@@ -206,9 +218,17 @@ export const CITY_NAME = 'seoul'
 
 export const LOCALE = 'ko'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const GAUGE_COLORS = 'inverted'
+
+const config: Config = {
+  GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

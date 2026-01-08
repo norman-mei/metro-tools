@@ -4,34 +4,39 @@
     "color": "#006737",
     "backgroundColor": "#006737",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "RTA12.png"
   },
   "RTA46": {
     "name": "Rampart-Loyola",
     "color": "#B94BBC",
     "backgroundColor": "#B94BBC",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "RTA46.png"
   },
   "RTA47": {
     "name": "Canal / Cemeteries",
     "color": "#FFCB05",
     "backgroundColor": "#FFCB05",
     "textColor": "#000000",
-    "order": 2
+    "order": 2,
+    "icon": "RTA47.png"
   },
   "RTA48": {
     "name": "Canal / City Park",
     "color": "#C72127",
     "backgroundColor": "#C72127",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "RTA48.png"
   },
   "RTA49": {
     "name": "Riverfront",
     "color": "#0700FD",
     "backgroundColor": "#0700FD",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "RTA49.png"
   }
 }

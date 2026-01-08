@@ -1,4 +1,4 @@
-import { Config, Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 import { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
@@ -71,6 +71,18 @@ export const LINES: {
   }
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['BudapestMetro1', 'BudapestMetro2', 'BudapestMetro3', 'BudapestMetro4', 'BudapestHEV5', 'BudapestHEV6', 'BudapestHEV7', 'BudapestHEV8', 'BudapestHEV9'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/budapest',
@@ -108,6 +120,8 @@ const config: Config = {
   MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

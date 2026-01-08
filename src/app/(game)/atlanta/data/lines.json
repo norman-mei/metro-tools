@@ -5,7 +5,8 @@
     "backgroundColor": "#8f1a27",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#cf232d",
-    "order": 0
+    "order": 0,
+    "icon": "MARTARD.png"
   },
   "MARTABL": {
     "name": "Blue",
@@ -13,7 +14,8 @@
     "backgroundColor": "#034b71",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#0476b3",
-    "order": 2
+    "order": 2,
+    "icon": "MARTABL.png"
   },
   "MARTAGD": {
     "name": "Gold",
@@ -21,7 +23,8 @@
     "backgroundColor": "#8c741e",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#d5a72b",
-    "order": 1
+    "order": 1,
+    "icon": "MARTAGD.png"
   },
   "MARTAGR": {
     "name": "Green",
@@ -29,7 +32,8 @@
     "backgroundColor": "#016735",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#009e4a",
-    "order": 3
+    "order": 3,
+    "icon": "MARTAGR.png"
   },
   "MARTASC": {
     "name": "Atlanta Streetcar",
@@ -37,7 +41,8 @@
     "backgroundColor": "#1C505A",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#37A0B5",
-    "order": 4
+    "order": 4,
+    "icon": "MARTASC.png"
   },
   "atlantaTPT": {
     "name": "The Plane Train",
@@ -45,7 +50,8 @@
     "backgroundColor": "#8C0000",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#FF0000",
-    "order": 5
+    "order": 5,
+    "icon": "atlantaTPT.png"
   },
   "atlantaSKY": {
     "name": "ATL SkyTrain",
@@ -53,6 +59,7 @@
     "backgroundColor": "#7A0B2B",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#BB1041",
-    "order": 6
+    "order": 6,
+    "icon": "atlantaSKY.png"
   }
 }

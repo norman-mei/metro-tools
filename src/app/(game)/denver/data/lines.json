@@ -85,6 +85,7 @@
     "backgroundColor": "#002F54",
     "progressOutlineColor": "#0070CA",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "DenverAGTS.png"
   }
 }

@@ -661,90 +661,112 @@ const CityStatsPanel = ({
       return null
     }
 
-    const orderedLineIds: string[] = []
-    stats.groupStats.forEach((group) => {
-      group.items.forEach((item) => {
-        if (item.type === 'lines') {
-          item.lineIds.forEach((lineId) => {
-            if (!orderedLineIds.includes(lineId)) {
-              orderedLineIds.push(lineId)
-            }
-          })
-        }
-      })
-    })
-    const orderIndex = new Map<string, number>()
-    orderedLineIds.forEach((id, idx) => orderIndex.set(id, idx))
+    const lineStatsMap = new Map(stats.lineStats.map((line) => [line.lineId, line]))
 
     return (
       <div>
         <h4 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
           {t('cityStatsLineBreakdown')}
         </h4>
-        <div className="mt-3 space-y-3">
-          {visibleLines
-            .sort((a, b) => {
-              const ai = orderIndex.has(a.lineId)
-                ? orderIndex.get(a.lineId)!
-                : Number.POSITIVE_INFINITY
-              const bi = orderIndex.has(b.lineId)
-                ? orderIndex.get(b.lineId)!
-                : Number.POSITIVE_INFINITY
-              if (ai !== bi) return ai - bi
-              return a.name.localeCompare(b.name)
-            })
-            .map((line) => {
-              const fillColor = line.color ?? '#4f46e5'
-              const needsContrastBorder = isColorLight(fillColor)
-              return (
-                <div
-                  key={line.lineId}
-                  className="flex gap-3 rounded-2xl border border-zinc-200 bg-white p-3 dark:border-[#18181b] dark:bg-zinc-900"
-                >
-                  <div className="flex w-14 flex-shrink-0 items-center justify-center">
-                    <Image
-                      alt={line.lineId}
-                      src={line.icon ? `/images/${line.icon}` : `/images/${line.lineId}.svg`}
-                      width={48}
-                      height={48}
-                      className="h-10 w-10 rounded-full object-contain"
+        <div className="mt-3 space-y-6">
+          {stats.groupStats.map((group, groupIndex) => (
+            <div key={`${group.title ?? 'group'}-${groupIndex}`} className="space-y-3">
+              {group.title && (
+                <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                  {group.title}
+                </p>
+              )}
+              {group.items.map((item, itemIndex) => {
+                if (item.type === 'separator') {
+                  return (
+                    <hr
+                      key={`separator-${groupIndex}-${itemIndex}`}
+                      className="border-zinc-200 dark:border-[#18181b]"
                     />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex flex-wrap items-center justify-between gap-2">
-                      <div>
-                        <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-                          {line.name}
-                        </p>
-                        <p
-                          className="text-xs font-semibold"
-                          style={{ color: getCompletionColor(line.percent) }}
-                        >
-                          {line.found}/{line.total} ({formatPercent(line.percent)})
-                        </p>
-                      </div>
-                      <div className="text-right text-xs text-zinc-500 dark:text-zinc-400">
-                        {line.durationMs
-                          ? `Active for ${formatDuration(line.durationMs)}`
-                          : t('cityStatsNoTimeData')}
-                      </div>
+                  )
+                }
+
+                const itemVisibleLines = item.lineIds
+                  .map((id) => lineStatsMap.get(id))
+                  .filter((line): line is LineStat => !!line && line.total > 0)
+
+                if (itemVisibleLines.length === 0) {
+                  return null
+                }
+
+                return (
+                  <div
+                    key={`${item.title ?? 'lines'}-${groupIndex}-${itemIndex}`}
+                    className="space-y-2"
+                  >
+                    {item.title && (
+                       <p className="text-sm font-semibold text-zinc-700 dark:text-zinc-200">
+                        {item.title}
+                      </p>
+                    )}
+                    <div className="space-y-2">
+                      {itemVisibleLines.map((line) => {
+                        const fillColor = line.color ?? '#4f46e5'
+                        const needsContrastBorder = isColorLight(fillColor)
+                        return (
+                          <div
+                            key={line.lineId}
+                            className="flex gap-3 rounded-2xl border border-zinc-200 bg-white p-3 dark:border-[#18181b] dark:bg-zinc-900"
+                          >
+                            <div className="flex w-14 flex-shrink-0 items-center justify-center">
+                              <Image
+                                alt={line.lineId}
+                                src={
+                                  line.icon
+                                    ? `/images/${line.icon}`
+                                    : `/images/${line.lineId}.svg`
+                                }
+                                width={48}
+                                height={48}
+                                className="h-10 w-10 rounded-full object-contain"
+                              />
+                            </div>
+                            <div className="flex-1">
+                              <div className="flex flex-wrap items-center justify-between gap-2">
+                                <div>
+                                  <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                                    {line.name}
+                                  </p>
+                                  <p
+                                    className="text-xs font-semibold"
+                                    style={{ color: getCompletionColor(line.percent) }}
+                                  >
+                                    {line.found}/{line.total} ({formatPercent(line.percent)})
+                                  </p>
+                                </div>
+                                <div className="text-right text-xs text-zinc-500 dark:text-zinc-400">
+                                  {line.durationMs
+                                    ? `Active for ${formatDuration(line.durationMs)}`
+                                    : t('cityStatsNoTimeData')}
+                                </div>
+                              </div>
+                              <div className="mt-2 h-2 rounded-full bg-zinc-200 dark:bg-zinc-800">
+                                <div
+                                  className="h-full rounded-full"
+                                  style={{
+                                    width: `${Math.min(100, line.percent * 100)}%`,
+                                    backgroundColor: fillColor,
+                                    boxShadow: needsContrastBorder
+                                      ? 'inset 0 0 0 1px rgba(24,24,27,0.18)'
+                                      : undefined,
+                                  }}
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        )
+                      })}
                     </div>
-                    <div className="mt-2 h-2 rounded-full bg-zinc-200 dark:bg-zinc-800">
-                      <div
-                        className="h-full rounded-full"
-                        style={{
-                          width: `${Math.min(100, line.percent * 100)}%`,
-                          backgroundColor: fillColor,
-                          boxShadow: needsContrastBorder
-                            ? 'inset 0 0 0 1px rgba(24,24,27,0.18)'
-                            : undefined,
-                        }}
-                      ></div>
-                    </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
+          ))}
         </div>
       </div>
     )

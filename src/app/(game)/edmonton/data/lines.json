@@ -6,7 +6,8 @@
     "textColor": "#ffffff",
     "progressOutlineColor": "#4895D0",
     "statsColor": "#4895D0",
-    "order": 0
+    "order": 0,
+    "icon": "ETSCapital.png"
   },
   "ETSMetro": {
     "name": "Metro Line",
@@ -15,7 +16,8 @@
     "textColor": "#ffffff",
     "progressOutlineColor": "#DB1D32",
     "statsColor": "#DB1D32",
-    "order": 1
+    "order": 1,
+    "icon": "ETSMetro.png"
   },
   "ETSValley": {
     "name": "Valley Line",
@@ -24,6 +26,7 @@
     "textColor": "#ffffff",
     "progressOutlineColor": "#2A6A3B",
     "statsColor": "#2A6A3B",
-    "order": 2
+    "order": 2,
+    "icon": "ETSValley.png"
   }
 }

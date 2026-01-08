@@ -1,0 +1,90 @@
+{
+  "DARTRed": {
+    "name": "Red",
+    "color": "#F14F5A",
+    "backgroundColor": "#F14F5A",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "DARTRed.svg"
+  },
+  "DARTBlue": {
+    "name": "Blue",
+    "color": "#3F8ACA",
+    "backgroundColor": "#3F8ACA",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "DARTBlue.svg"
+  },
+  "DARTGreen": {
+    "name": "Green",
+    "color": "#216631",
+    "backgroundColor": "#216631",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "DARTGreen.svg"
+  },
+  "DARTOrange": {
+    "name": "Orange",
+    "color": "#F57F12",
+    "backgroundColor": "#F57F12",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "DARTOrange.svg"
+  },
+  "DARTSilver": {
+    "name": "Silver",
+    "color": "#8299B1",
+    "backgroundColor": "#8299B1",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "DARTSilver.svg"
+  },
+  "DallasStreetcar": {
+    "name": "Dallas Streetcar",
+    "color": "#31ACE5",
+    "backgroundColor": "#31ACE5",
+    "textColor": "#000000",
+    "order": 5,
+    "icon": "DallasStreetcar.png"
+  },
+  "MLineTrolley": {
+    "name": "M-Line Trolley",
+    "color": "#7C2B3A",
+    "backgroundColor": "#7C2B3A",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "MLineTrolley.svg"
+  },
+  "TRE": {
+    "name": "Trinity Railway Express",
+    "color": "#002579",
+    "backgroundColor": "#002579",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "TRE.png"
+  },
+  "TEXRail": {
+    "name": "TEXRail",
+    "color": "#E91C2C",
+    "backgroundColor": "#E91C2C",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "TEXRail.png"
+  },
+  "ATrain": {
+    "name": "A-train",
+    "color": "#FFCF02",
+    "backgroundColor": "#FFCF02",
+    "textColor": "#000000",
+    "order": 9,
+    "icon": "A-train.png"
+  },
+  "Skylink": {
+    "name": "Skylink",
+    "color": "#F16824",
+    "backgroundColor": "#F16824",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "DFWSkylink.png"
+  }
+}

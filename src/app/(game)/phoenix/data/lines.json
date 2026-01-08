@@ -25,6 +25,7 @@
     "color": "#FFE600",
     "backgroundColor": "#FFE600",
     "textColor": "#000000",
-    "order": 3
+    "order": 3,
+    "icon": "PHXSKY.png"
   }
 }

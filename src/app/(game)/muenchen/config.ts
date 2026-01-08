@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Config, Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -120,6 +120,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['MunichUBahn_UbahnU1', 'MunichUBahn_UbahnU2', 'MunichUBahn_UbahnU3', 'MunichUBahn_UbahnU4', 'MunichUBahn_UbahnU5', 'MunichUBahn_UbahnU6', 'MunichUBahn_UbahnU7', 'MunichUBahn_UbahnU8', 'MunichSBahn_DbRegioAgBayernS1', 'MunichSBahn_DbRegioAgBayernS2', 'MunichSBahn_DbRegioAgBayernS20', 'MunichSBahn_DbRegioAgBayernS3', 'MunichSBahn_DbRegioAgBayernS4', 'MunichSBahn_DbRegioAgBayernS6', 'MunichSBahn_DbRegioAgBayernS7', 'MunichSBahn_DbRegioAgBayernS8', 'AugsburgTram_Strassenbahn1', 'AugsburgTram_Strassenbahn2', 'AugsburgTram_Strassenbahn3', 'AugsburgTram_Strassenbahn4', 'AugsburgTram_Strassenbahn6', 'AugsburgTram_Strassenbahn8'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/muenchen',
@@ -157,6 +169,8 @@ const config: Config = {
   MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

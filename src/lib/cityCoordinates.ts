@@ -48,7 +48,7 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   sd: [-117.1611, 32.7157], // San Diego
   seattle: [-122.3321, 47.6062],
   stl: [-90.1994, 38.6270], // St. Louis
-  toronto: [-79.3832, 43.6532],
+  'toronto-waterloo': [-79.55, 43.7],
   tucson: [-110.9747, 32.2226],
   vancouver: [-123.1207, 49.2827],
   viarail: [-106.3468, 56.1304], // Center of Canada approx

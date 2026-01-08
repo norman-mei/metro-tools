@@ -6,6 +6,7 @@
     "progressOutlineColor": "#4D4DFF",
     "textColor": "#FFFFFF",
     "order": 0,
-    "image": "tucson"
+    "image": "tucson",
+    "icon": "tucsonSunLink.png"
   }
 }

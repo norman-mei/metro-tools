@@ -1896,11 +1896,36 @@ export default function GamePage({
     let mapboxMap: mapboxgl.Map | null = null
     let mapFailed = false
 
+    let initialBounds: [number, number, number, number] | undefined
+
+    if (MAP_FROM_DATA && routes) {
+      const box = bbox(routes)
+      if (
+        box.length === 4 &&
+        box.every((n) => Number.isFinite(n)) &&
+        box[2] > box[0] &&
+        box[3] > box[1]
+      ) {
+        initialBounds = box as [number, number, number, number]
+      }
+    }
+
     try {
-      mapboxMap = new mapboxgl.Map({
+      const options = {
         ...mapOptions,
         container: mapContainerRef.current,
-      })
+      }
+      
+      if (initialBounds) {
+        const [minLng, minLat, maxLng, maxLat] = initialBounds
+        options.bounds = [
+          [minLng, minLat],
+          [maxLng, maxLat],
+        ]
+        options.fitBoundsOptions = { padding: 100 }
+      }
+
+      mapboxMap = new mapboxgl.Map(options)
     } catch (error) {
       console.error('Failed to initialize map', error)
       setMapError(
@@ -2632,32 +2657,30 @@ export default function GamePage({
           </div>
         ) : null}
         {!zenMode && (
-          <div className="pointer-events-none absolute inset-x-0 top-4 px-3 lg:top-6 lg:px-6">
-            <div className="pointer-events-auto mx-auto flex w-full max-w-3xl flex-col gap-3">
+          <div className="pointer-events-none absolute inset-x-0 top-3 px-3 transition-all lg:top-6 lg:px-6">
+            <div className="pointer-events-auto mx-auto flex w-full max-w-3xl flex-col gap-2 lg:gap-3">
               <FoundSummary
-                className="rounded-lg bg-white/95 p-4 shadow-md dark:bg-zinc-900/95 dark:text-zinc-100 dark:shadow-black/40 lg:hidden"
+                className="rounded-lg bg-white/95 p-3 shadow-md backdrop-blur-sm dark:bg-zinc-900/95 dark:text-zinc-100 dark:shadow-black/40 lg:hidden"
                 foundProportion={foundProportion}
                 foundStationsPerLine={foundStationsPerLine}
                 stationsPerLine={stationsPerLine}
                 cityCompletionConfettiSeen={cityCompletionConfettiSeen}
                 onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
                 minimizable
+                defaultMinimized
                 highlightedLineId={highlightedLineId}
               />
             <div className="flex items-center gap-2 lg:gap-3">
               <button
                 type="button"
                 onClick={() => setMobileSidebarOpen((open) => !open)}
-                className="inline-flex h-12 items-center gap-2 rounded-full bg-white px-4 text-sm font-semibold text-zinc-700 shadow-lg transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700 lg:hidden"
+                className="inline-flex h-10 items-center gap-2 rounded-full bg-white px-3 text-sm font-semibold text-zinc-700 shadow-lg transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700 lg:hidden shrink-0"
                 aria-label={`${mobileSidebarOpen ? 'Hide sidebar' : 'Show sidebar'} (${foundStationKeys.size} found)`}
               >
                 <span className="flex flex-col items-start leading-none">
-                  <span className="text-base font-bold">{foundStationKeys.size}</span>
-                  <span className="text-[10px] uppercase tracking-wide text-zinc-500 dark:text-zinc-300">
-                    {t('stationsFound')}
-                  </span>
+                  <span className="text-sm font-bold">{foundStationKeys.size}</span>
                 </span>
-                <span className="text-base font-semibold">
+                <span className="text-sm font-semibold">
                   {mobileSidebarOpen ? '<' : '>'}
                 </span>
               </button>
@@ -2775,32 +2798,49 @@ export default function GamePage({
           role="presentation"
         >
           <div
-            className="mt-auto max-h-[90vh] w-full rounded-t-3xl bg-white p-5 shadow-2xl dark:bg-zinc-900 dark:text-zinc-100"
+            className="mt-auto flex max-h-[85vh] w-full flex-col rounded-t-3xl bg-white shadow-2xl dark:bg-zinc-900 dark:text-zinc-100"
             onClick={(event) => event.stopPropagation()}
+            style={{ paddingBottom: 'env(safe-area-inset-bottom, 20px)' }}
           >
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                {t('stationsFound')}
-              </h2>
-              <button
-                type="button"
-                onClick={() => setMobileSidebarOpen(false)}
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-zinc-100 text-zinc-700 shadow hover:bg-zinc-200 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
-                aria-label="Hide sidebar"
-              >
-                {'<'}
-              </button>
+            <div className="relative flex-none px-6 pt-5 pb-2">
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-100">
+                  {t('stationsFound')}
+                </h2>
+                <button
+                  type="button"
+                  onClick={() => setMobileSidebarOpen(false)}
+                  className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-zinc-100 text-zinc-600 transition hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+                  aria-label="Hide sidebar"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="h-5 w-5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
             </div>
-            <FoundSummary
-              className="rounded-xl border border-zinc-100 bg-white p-4 shadow-sm dark:border-[#18181b] dark:bg-zinc-800/80"
-              foundProportion={foundProportion}
-              foundStationsPerLine={foundStationsPerLine}
-              stationsPerLine={stationsPerLine}
-              cityCompletionConfettiSeen={cityCompletionConfettiSeen}
-              onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
-              highlightedLineId={highlightedLineId}
-            />
-            <div className="mt-4 max-h-[60vh] overflow-y-auto pr-1">
+
+            <div className="flex-none px-4 py-2">
+              <FoundSummary
+                className="rounded-xl border border-zinc-100 bg-white p-3 shadow-sm dark:border-[#18181b] dark:bg-zinc-800/80"
+                foundProportion={foundProportion}
+                foundStationsPerLine={foundStationsPerLine}
+                stationsPerLine={stationsPerLine}
+                cityCompletionConfettiSeen={cityCompletionConfettiSeen}
+                onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
+                highlightedLineId={highlightedLineId}
+              />
+            </div>
+
+            <div className="flex-1 overflow-y-auto px-4 pb-4">
               <FoundList
                 found={found}
                 idMap={idMap}

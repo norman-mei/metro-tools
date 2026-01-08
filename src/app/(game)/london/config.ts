@@ -1,6 +1,6 @@
-import { Metadata } from 'next'
-import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line } from '@/lib/types'
+import { MapboxOptions } from 'mapbox-gl'
+import { Metadata } from 'next'
 
 
 export const LINES: {
@@ -147,8 +147,11 @@ export const LOCALE = 'en'
 
 export const GAUGE_COLORS = 'inverted'
 
+export const MAP_FROM_DATA = true
+
 const config: Config = {
   GAUGE_COLORS,
+  MAP_FROM_DATA: true,
   LOCALE,
   CITY_NAME,
   MAP_CONFIG,

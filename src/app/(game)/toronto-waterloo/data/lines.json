@@ -1,0 +1,226 @@
+{
+  "TTC1": {
+    "name": "Line 1 (Yonge-University)",
+    "color": "#F8C400",
+    "icon": "TTCLine1.svg",
+    "order": 0,
+    "backgroundColor": "#F8C400",
+    "textColor": "#000000"
+  },
+  "TTC2": {
+    "name": "Line 2 (Bloor-Danforth)",
+    "color": "#0EA952",
+    "icon": "TTCLine2.svg",
+    "order": 1,
+    "backgroundColor": "#0EA952",
+    "textColor": "#FFFFFF"
+  },
+  "TTC3": {
+    "name": "Line 3 (Ontario)",
+    "color": "#00A6E4",
+    "icon": "TTCLine3.svg",
+    "order": 2,
+    "backgroundColor": "#00A6E4",
+    "textColor": "#FFFFFF"
+  },
+  "TTC4": {
+    "name": "Line 4 (Sheppard)",
+    "color": "#B51A79",
+    "icon": "TTCLine4.svg",
+    "order": 3,
+    "backgroundColor": "#B51A79",
+    "textColor": "#FFFFFF"
+  },
+  "TTC5": {
+    "name": "Line 5 (Eglinton)",
+    "color": "#F87101",
+    "icon": "TTCLine5.svg",
+    "order": 4,
+    "backgroundColor": "#F87101",
+    "textColor": "#FFFFFF"
+  },
+  "TTC6": {
+    "name": "Line 6 (Finch West)",
+    "color": "#8C9B9C",
+    "icon": "TTCLine6.svg",
+    "order": 5,
+    "backgroundColor": "#8C9B9C",
+    "textColor": "#FFFFFF"
+  },
+  "TTC501": {
+    "name": "501",
+    "color": "#DB2017",
+    "icon": "TTC501.png",
+    "order": 6,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC503": {
+    "name": "503",
+    "color": "#DB2017",
+    "icon": "TTC503.png",
+    "order": 7,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC504": {
+    "name": "504",
+    "color": "#DB2017",
+    "icon": "TTC504.png",
+    "order": 8,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC505": {
+    "name": "505",
+    "color": "#DB2017",
+    "icon": "TTC505.png",
+    "order": 9,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC506": {
+    "name": "506",
+    "color": "#DB2017",
+    "icon": "TTC506.png",
+    "order": 10,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC507": {
+    "name": "507",
+    "color": "#DB2017",
+    "icon": "TTC507.png",
+    "order": 11,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC508": {
+    "name": "508",
+    "color": "#DB2017",
+    "icon": "TTC508.png",
+    "order": 12,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC509": {
+    "name": "509",
+    "color": "#DB2017",
+    "icon": "TTC509.png",
+    "order": 13,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC510": {
+    "name": "510",
+    "color": "#DB2017",
+    "icon": "TTC510.png",
+    "order": 14,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC511": {
+    "name": "511",
+    "color": "#DB2017",
+    "icon": "TTC511.png",
+    "order": 15,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "TTC512": {
+    "name": "512",
+    "color": "#DB2017",
+    "icon": "TTC512.png",
+    "order": 16,
+    "backgroundColor": "#DB2017",
+    "textColor": "#FFFFFF"
+  },
+  "UPExpress": {
+    "name": "Union Pearson Express",
+    "color": "#2386C7",
+    "icon": "UPExpress.png",
+    "order": 20,
+    "backgroundColor": "#2386C7",
+    "textColor": "#FFFFFF"
+  },
+  "GOLW": {
+    "name": "Lakeshore West",
+    "color": "#8C032D",
+    "icon": "GOLW.svg",
+    "order": 21,
+    "backgroundColor": "#8C032D",
+    "textColor": "#FFFFFF"
+  },
+  "GOLE": {
+    "name": "Lakeshore East",
+    "color": "#EF221C",
+    "icon": "GOLE.svg",
+    "order": 22,
+    "backgroundColor": "#EF221C",
+    "textColor": "#FFFFFF"
+  },
+  "GOMI": {
+    "name": "Milton",
+    "color": "#DE5119",
+    "icon": "GOMI.svg",
+    "order": 23,
+    "backgroundColor": "#DE5119",
+    "textColor": "#FFFFFF"
+  },
+  "GOKI": {
+    "name": "Kitchener",
+    "color": "#0B8433",
+    "icon": "GOKI.svg",
+    "order": 24,
+    "backgroundColor": "#0B8433",
+    "textColor": "#FFFFFF"
+  },
+  "GOBR": {
+    "name": "Barrie",
+    "color": "#0D5BA1",
+    "icon": "GOBR.svg",
+    "order": 25,
+    "backgroundColor": "#0D5BA1",
+    "textColor": "#FFFFFF"
+  },
+  "GORH": {
+    "name": "Richmond Hill",
+    "color": "#22AFEB",
+    "icon": "GORH.svg",
+    "order": 26,
+    "backgroundColor": "#22AFEB",
+    "textColor": "#FFFFFF"
+  },
+  "GOST": {
+    "name": "Stouffville",
+    "color": "#783F08",
+    "icon": "GOST.svg",
+    "order": 27,
+    "backgroundColor": "#783F08",
+    "textColor": "#FFFFFF"
+  },
+  "Hazel": {
+    "name": "Hazel McCallion Line",
+    "color": "#275497",
+    "icon": "HM.png",
+    "order": 28,
+    "backgroundColor": "#275497",
+    "textColor": "#FFFFFF"
+  },
+  "TerminalLink": {
+    "name": "Terminal Link",
+    "color": "#336699",
+    "icon": "TL.png",
+    "order": 29,
+    "backgroundColor": "#336699",
+    "textColor": "#FFFFFF"
+  },
+  "ION": {
+    "name": "301 ION Light Rail",
+    "color": "#0092DD",
+    "icon": "WaterlooION.png",
+    "order": 30,
+    "backgroundColor": "#0092DD",
+    "textColor": "#FFFFFF"
+  }
+}

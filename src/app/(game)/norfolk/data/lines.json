@@ -4,6 +4,7 @@
     "color": "#38B2E6",
     "backgroundColor": "#38B2E6",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "TT.png"
   }
 }

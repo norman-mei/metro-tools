@@ -4,7 +4,8 @@
     "color": "#EF4D2E",
     "backgroundColor": "#EF4D2E",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "QL.png"
   },
   "DPM": {
     "name": "Detroit People Mover",
@@ -19,6 +20,7 @@
     "backgroundColor": "#8E0B1F",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#EB3C0E",
-    "order": 2
+    "order": 2,
+    "icon": "EXT.png"
   }
 }

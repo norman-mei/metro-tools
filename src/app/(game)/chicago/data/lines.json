@@ -197,7 +197,8 @@
     "backgroundColor": "#88070C",
     "progressOutlineColor": "#FF6A6F",
     "textColor": "#FFFFFF",
-    "order": 24
+    "order": 24,
+    "icon": "ChicagoATS.png"
   },
   "kenoshaStreetcar": {
     "name": "Kenosha Streetcar",
@@ -206,6 +207,7 @@
     "progressOutlineColor": "#5584FF",
     "textColor": "#FFFFFF",
     "order": 25,
-    "image": "kenoshaSC"
+    "image": "kenoshaSC",
+    "icon": "kenoshaStreetcar.png"
   }
 }

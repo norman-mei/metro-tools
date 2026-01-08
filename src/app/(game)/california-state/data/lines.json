@@ -59,7 +59,8 @@
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
-    "order": 6
+    "order": 6,
+    "icon": "CaltrainLocal.png"
   },
   "CaltrainLimited": {
     "name": "Limited",
@@ -67,7 +68,8 @@
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
-    "order": 7
+    "order": 7,
+    "icon": "CaltrainLimited.png"
   },
   "CaltrainExpress": {
     "name": "Express",
@@ -75,7 +77,8 @@
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
-    "order": 8
+    "order": 8,
+    "icon": "CaltrainExpress.png"
   },
   "CaltrainSouth": {
     "name": "South County Connector",
@@ -83,7 +86,8 @@
     "backgroundColor": "#941024",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
-    "order": 9
+    "order": 9,
+    "icon": "CaltrainSouth.png"
   },
   "SMART": {
     "name": "SMART",
@@ -188,7 +192,8 @@
     "backgroundColor": "#5E2005",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#913108",
-    "order": 19
+    "order": 19,
+    "icon": "MuniC.png"
   },
   "MuniPH": {
     "name": "Powell-Hyde Cable Car",
@@ -196,7 +201,8 @@
     "backgroundColor": "#5E2005",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#913108",
-    "order": 20
+    "order": 20,
+    "icon": "MuniPH.png"
   },
   "MuniPM": {
     "name": "Powell-Mason Cable Car",
@@ -204,7 +210,8 @@
     "backgroundColor": "#5E2005",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#913108",
-    "order": 21
+    "order": 21,
+    "icon": "MuniPM.png"
   },
   "VTABlue": {
     "name": "Blue",
@@ -239,7 +246,8 @@
     "backgroundColor": "#A67900",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#FEB627",
-    "order": 40
+    "order": 40,
+    "icon": "SacRTGold.png"
   },
   "SacRTBlue": {
     "name": "Blue",
@@ -247,7 +255,8 @@
     "backgroundColor": "#001942",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#243386",
-    "order": 41
+    "order": 41,
+    "icon": "SacRTBlue.png"
   },
   "SacRTGreen": {
     "name": "Green",
@@ -255,7 +264,8 @@
     "backgroundColor": "#004221",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#02A14E",
-    "order": 42
+    "order": 42,
+    "icon": "SacRTGreen.png"
   },
   "SFOBlue": {
     "name": "Blue",
@@ -264,7 +274,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#43B0DC",
     "order": 60,
-    "icon": "SFOBlue.svg"
+    "icon": "SFOBlue.png"
   },
   "SFORed": {
     "name": "Red",
@@ -273,7 +283,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#C42524",
     "order": 61,
-    "icon": "SFORed.svg"
+    "icon": "SFORed.png"
   },
   "CAHSR": {
     "name": "CAHSR",
@@ -282,7 +292,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#233C81",
     "order": 70,
-    "icon": "CAHSR.svg"
+    "icon": "CAHSR.png"
   },
   "LACMTA_A": {
     "name": "A Line",
@@ -344,7 +354,8 @@
     "backgroundColor": "#B3662F",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#FF9447",
-    "order": 6
+    "order": 6,
+    "icon": "OCStreetcar.png"
   },
   "MetrolinkAV": {
     "name": "Antelope Valley Line",
@@ -352,7 +363,8 @@
     "backgroundColor": "#820A1E",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#1E9E04",
-    "order": 10
+    "order": 10,
+    "icon": "MetrolinkAV.png"
   },
   "MetrolinkVC": {
     "name": "Ventura County Line",
@@ -360,7 +372,8 @@
     "backgroundColor": "#00719B",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#F6A705",
-    "order": 11
+    "order": 11,
+    "icon": "MetrolinkVC.png"
   },
   "MetrolinkSB": {
     "name": "San Bernardino Line",
@@ -368,7 +381,8 @@
     "backgroundColor": "#004A7A",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#A52639",
-    "order": 12
+    "order": 12,
+    "icon": "MetrolinkSB.png"
   },
   "MetrolinkRIV": {
     "name": "Riverside Line",
@@ -376,7 +390,8 @@
     "backgroundColor": "#5A3D27",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#682E85",
-    "order": 13
+    "order": 13,
+    "icon": "MetrolinkRIV.png"
   },
   "MetrolinkOC": {
     "name": "Orange County Line",
@@ -384,7 +399,8 @@
     "backgroundColor": "#AC5308",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#FE7501",
-    "order": 14
+    "order": 14,
+    "icon": "MetrolinkOC.png"
   },
   "Metrolink91PV": {
     "name": "91/Perris Valley Line",
@@ -392,15 +408,17 @@
     "backgroundColor": "#466B25",
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#0272CF",
-    "order": 15
+    "order": 15,
+    "icon": "Metrolink91PV.png"
   },
   "MetrolinkIEOC": {
-    "name": "Inland Empire–Orange County Line",
+    "name": "Inland Empire\u2013Orange County Line",
     "color": "#C0295C",
     "backgroundColor": "#421D5E",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#C0295C",
-    "order": 16
+    "order": 16,
+    "icon": "MetrolinkIEOC.png"
   },
   "Arrow": {
     "name": "Arrow",
@@ -408,7 +426,8 @@
     "backgroundColor": "#6B2226",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#C3E35A",
-    "order": 17
+    "order": 17,
+    "icon": "Arrow.png"
   },
   "LAXAPM": {
     "name": "LAX Automated People Mover",
@@ -416,7 +435,8 @@
     "backgroundColor": "#056A86",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#08A4CF",
-    "order": 18
+    "order": 18,
+    "icon": "LAXAPM.png"
   },
   "MTSBlue": {
     "name": "Blue",

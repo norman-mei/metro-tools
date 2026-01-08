@@ -6,7 +6,8 @@
     "progressOutlineColor": "#CD0066",
     "statsColor": "#0072CE",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "OKCSDL.png"
   },
   "OKCSBL": {
     "name": "Bricktown Loop (BL)",
@@ -15,6 +16,7 @@
     "progressOutlineColor": "#002F99",
     "statsColor": "#CD0166",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "OKCSBL.png"
   }
 }

@@ -37,6 +37,7 @@
     "backgroundColor": "#022E3E",
     "progressOutlineColor": "#C02ABA",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "UTAFR.png"
   }
 }

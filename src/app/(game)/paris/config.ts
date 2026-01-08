@@ -61,8 +61,11 @@ export const LOCALE = 'fr'
 
 export const GAUGE_COLORS = 'inverted'
 
+export const MAP_FROM_DATA = true
+
 const config: Config = {
   GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
   MAP_CONFIG,

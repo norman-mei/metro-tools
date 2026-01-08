@@ -86,7 +86,7 @@ import taipei from '@/app/(game)/taipei/opengraph-image.jpg'
 import taw from '@/app/(game)/taw/opengraph-image.jpg'
 import thsr from '@/app/(game)/thsr/opengraph-image.jpg'
 import tokyo from '@/app/(game)/tokyo/opengraph-image.jpg'
-import toronto from '@/app/(game)/toronto/opengraph-image.jpg'
+import torontoWaterloo from '@/app/(game)/toronto-waterloo/opengraph-image.jpg'
 import tucson from '@/app/(game)/tucson/opengraph-image.jpg'
 import twincities from '@/app/(game)/twincities/opengraph-image.jpg'
 import vancouver from '@/app/(game)/vancouver/opengraph-image.jpg'
@@ -406,10 +406,9 @@ export const cities: ICity[] = [
   },
   {
     name: 'Toronto—Waterloo, ON',
-    image: toronto,
-    link: '/toronto',
+    image: torontoWaterloo,
+    link: '/toronto-waterloo',
     continent: 'North America',
-    hideInStats: true,
   },
   {
     name: 'Tucson, AZ',

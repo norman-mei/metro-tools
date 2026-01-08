@@ -214,161 +214,184 @@
     "color": "#0082C6",
     "backgroundColor": "#0442A0",
     "textColor": "#000000",
-    "order": 30
+    "order": 30,
+    "icon": "NewYorkSubwayPATHHob33.png"
   },
   "NewYorkSubwayPATHHobwtc": {
     "name": "HOB-WTC",
     "color": "#65c100",
     "backgroundColor": "#336100",
     "textColor": "#000000",
-    "order": 31
+    "order": 31,
+    "icon": "NewYorkSubwayPATHHobwtc.png"
   },
   "NewYorkSubwayPATHJsq33": {
     "name": "JSQ-33",
     "color": "#ff9900",
     "backgroundColor": "#804D00",
     "textColor": "#000000",
-    "order": 32
+    "order": 32,
+    "icon": "NewYorkSubwayPATHJsq33.png"
   },
   "NewYorkSubwayPATHNwkwtc": {
     "name": "NWK-WTC",
     "color": "#d93a30",
     "backgroundColor": "#701A15",
     "textColor": "#ffffff",
-    "order": 34
+    "order": 34,
+    "icon": "NewYorkSubwayPATHNwkwtc.png"
   },
   "LIRRBabylon": {
     "name": "LIRR Babylon",
     "color": "#36943F",
     "backgroundColor": "#1D5122",
     "textColor": "#FFFFFF",
-    "order": 35
+    "order": 35,
+    "icon": "LIRRBabylon.png"
   },
   "LIRRBelmont": {
     "name": "Belmont Park",
     "color": "#60269E",
     "backgroundColor": "#341456",
     "textColor": "#FFFFFF",
-    "order": 36
+    "order": 36,
+    "icon": "LIRRBelmont.png"
   },
   "LIRRAtlantic": {
     "name": "LIRR Atlantic",
     "color": "#999999",
     "backgroundColor": "#999999",
     "textColor": "#FFFFFF",
-    "order": 37.5
+    "order": 37.5,
+    "icon": "LIRRAtlantic.png"
   },
   "LIRRFarRockaway": {
     "name": "LIRR Far Rockaway",
     "color": "#8C5F47",
     "backgroundColor": "#4D3427",
     "textColor": "#FFFFFF",
-    "order": 38
+    "order": 38,
+    "icon": "LIRRFarRockaway.png"
   },
   "LIRRGreenport": {
     "name": "LIRR Greenport",
     "color": "#A626AA",
     "backgroundColor": "#5B145D",
     "textColor": "#FFFFFF",
-    "order": 39
+    "order": 39,
+    "icon": "LIRRGreenport.png"
   },
   "LIRRHempstead": {
     "name": "LIRR Hempstead",
     "color": "#D18C36",
     "backgroundColor": "#724D1D",
     "textColor": "#FFFFFF",
-    "order": 40
+    "order": 40,
+    "icon": "LIRRHempstead.png"
   },
   "LIRRLongBeach": {
     "name": "LIRR Long Beach",
     "color": "#FF6E49",
     "backgroundColor": "#8C3C28",
     "textColor": "#FFFFFF",
-    "order": 41
+    "order": 41,
+    "icon": "LIRRLongBeach.png"
   },
   "LIRRMontauk": {
     "name": "LIRR Montauk",
     "color": "#00B2A9",
     "backgroundColor": "#00615C",
     "textColor": "#FFFFFF",
-    "order": 42
+    "order": 42,
+    "icon": "LIRRMontauk.png"
   },
   "LIRROysterBay": {
     "name": "LIRR Oyster Bay",
     "color": "#36B64B",
     "backgroundColor": "#1D6429",
     "textColor": "#FFFFFF",
-    "order": 43
+    "order": 43,
+    "icon": "LIRROysterBay.png"
   },
   "LIRRPortJefferson": {
     "name": "LIRR Port Jefferson",
     "color": "#0060AC",
     "backgroundColor": "#00345E",
     "textColor": "#FFFFFF",
-    "order": 44
+    "order": 44,
+    "icon": "LIRRPortJefferson.png"
   },
   "LIRRPortWashington": {
     "name": "LIRR Port Washington",
     "color": "#FC2D3A",
     "backgroundColor": "#8A181F",
     "textColor": "#FFFFFF",
-    "order": 45
+    "order": 45,
+    "icon": "LIRRPortWashington.png"
   },
   "LIRRRonkonkoma": {
     "name": "LIRR Ronkonkoma",
     "color": "#A626AA",
     "backgroundColor": "#5B145D",
     "textColor": "#FFFFFF",
-    "order": 46
+    "order": 46,
+    "icon": "LIRRRonkonkoma.png"
   },
   "LIRRWestHempstead": {
     "name": "LIRR West Hempstead",
     "color": "#299BD6",
     "backgroundColor": "#165575",
     "textColor": "#FFFFFF",
-    "order": 47
+    "order": 47,
+    "icon": "LIRRWestHempstead.png"
   },
   "MNRRHarlem": {
     "name": "MNRR Harlem",
     "color": "#0039A6",
     "backgroundColor": "#001F5B",
     "textColor": "#FFFFFF",
-    "order": 49
+    "order": 49,
+    "icon": "MNRRHarlem.png"
   },
   "MNRRHudson": {
     "name": "MNRR Hudson",
     "color": "#009B3A",
     "backgroundColor": "#00551F",
     "textColor": "#FFFFFF",
-    "order": 50
+    "order": 50,
+    "icon": "MNRRHudson.png"
   },
   "MNRRNewHaven": {
     "name": "MNRR New Haven",
     "color": "#EE0034",
     "backgroundColor": "#82001C",
     "textColor": "#FFFFFF",
-    "order": 51
+    "order": 51,
+    "icon": "MNRRNewHaven.png"
   },
   "MNRRNewCanaan": {
     "name": "MNRR New Canaan",
     "color": "#EE0034",
     "backgroundColor": "#82001C",
     "textColor": "#FFFFFF",
-    "order": 53
+    "order": 53,
+    "icon": "MNRRNewCanaan.png"
   },
   "MNRRDanbury": {
     "name": "MNRR Danbury",
     "color": "#EE0034",
     "backgroundColor": "#82001C",
     "textColor": "#FFFFFF",
-    "order": 54
+    "order": 54,
+    "icon": "MNRRDanbury.png"
   },
   "MNRRWaterbury": {
     "name": "MNRR Waterbury",
     "color": "#EE0034",
     "backgroundColor": "#82001C",
     "textColor": "#FFFFFF",
-    "order": 55
+    "order": 55,
+    "icon": "MNRRWaterbury.png"
   },
   "NJTAtlanticCity": {
     "name": "NJT Atlantic City",
@@ -525,21 +548,21 @@
     "order": 78
   },
   "AirTrainJFKHowardBeach": {
-    "name": "AirTrain JFK – Howard Beach",
+    "name": "AirTrain JFK \u2013 Howard Beach",
     "color": "#009E58",
     "backgroundColor": "#005630",
     "textColor": "#FFFFFF",
     "order": 79
   },
   "AirTrainJFKJamaica": {
-    "name": "AirTrain JFK – Jamaica",
+    "name": "AirTrain JFK \u2013 Jamaica",
     "color": "#EF3941",
     "backgroundColor": "#831F23",
     "textColor": "#FFFFFF",
     "order": 80
   },
   "AirTrainJFKAllTerminals": {
-    "name": "AirTrain JFK – All Terminals Loop",
+    "name": "AirTrain JFK \u2013 All Terminals Loop",
     "color": "#FDB827",
     "backgroundColor": "#8B6515",
     "textColor": "#000000",

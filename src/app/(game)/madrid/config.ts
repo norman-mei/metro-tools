@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -113,6 +113,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['MadridMetroL1', 'MadridMetroL2', 'MadridMetroL3', 'MadridMetroL4', 'MadridMetroL5', 'MadridMetroL6', 'MadridMetroL7', 'MadridMetroL8', 'MadridMetroL9', 'MadridMetroL10', 'MadridMetroL11', 'MadridMetroL12', 'MetroLigeroMl1', 'MetroLigeroMl2', 'MetroLigeroMl3'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/madrid',
@@ -151,9 +163,17 @@ export const CITY_NAME = 'madrid'
 
 export const LOCALE = 'es'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const GAUGE_COLORS = 'inverted'
+
+const config: Config = {
+  GAUGE_COLORS,
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

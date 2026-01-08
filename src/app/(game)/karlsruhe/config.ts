@@ -1,4 +1,4 @@
-import { Config, Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 import { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
@@ -184,6 +184,18 @@ export const LINES: {
   },
 }
 
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['Karlsruhe1', 'Karlsruhe17', 'Karlsruhe18', 'Karlsruhe2', 'Karlsruhe3', 'Karlsruhe4', 'Karlsruhe5', 'Karlsruhe8', 'KarlsruheS1', 'KarlsruheS11', 'KarlsruheS12', 'KarlsruheS2', 'KarlsruheS31', 'KarlsruheS32', 'KarlsruheS4', 'KarlsruheS41', 'KarlsruheS42', 'KarlsruheS5', 'KarlsruheS51', 'KarlsruheS52', 'KarlsruheS6', 'KarlsruheS7', 'KarlsruheS71', 'KarlsruheS8', 'KarlsruheS81'],
+      },
+    ],
+  },
+]
+
 export const METADATA: Metadata = {
   icons: {
     icon: '/api/city-icon/karlsruhe',
@@ -222,6 +234,8 @@ const config: Config = {
   MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
+  MAP_FROM_DATA,
+  LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
   LINES,

@@ -1,0 +1,3660 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-01-07T23:57:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/595618033",
+        "area": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "bridge": "yes",
+        "layer": "5",
+        "lit": "yes",
+        "network": "UP Express",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.614026,
+              43.6835104
+            ],
+            [
+              -79.6141033,
+              43.6834579
+            ],
+            [
+              -79.6132511,
+              43.6828018
+            ],
+            [
+              -79.6131738,
+              43.6828543
+            ],
+            [
+              -79.614026,
+              43.6835104
+            ]
+          ]
+        ]
+      },
+      "id": "way/595618033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/5468828",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5898607,
+            43.7057899
+          ],
+          [
+            -79.5876218,
+            43.7058206
+          ],
+          [
+            -79.5794686,
+            43.7059814
+          ],
+          [
+            -79.5782353,
+            43.7060106
+          ],
+          [
+            -79.5776569,
+            43.7060192
+          ]
+        ]
+      },
+      "id": "way/5468828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42502507",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6168872,
+            43.7052527
+          ],
+          [
+            -79.6166137,
+            43.7052578
+          ]
+        ]
+      },
+      "id": "way/42502507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42502508",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.641187,
+            43.7047751
+          ],
+          [
+            -79.6392163,
+            43.7048098
+          ],
+          [
+            -79.6368674,
+            43.7048543
+          ],
+          [
+            -79.6359193,
+            43.7048722
+          ],
+          [
+            -79.6350054,
+            43.7048897
+          ],
+          [
+            -79.6302747,
+            43.7049855
+          ],
+          [
+            -79.6286769,
+            43.7050179
+          ],
+          [
+            -79.6267743,
+            43.705055
+          ],
+          [
+            -79.6236416,
+            43.7051169
+          ],
+          [
+            -79.6232763,
+            43.7051233
+          ],
+          [
+            -79.6214913,
+            43.7051581
+          ],
+          [
+            -79.6216393,
+            43.705155
+          ],
+          [
+            -79.6193571,
+            43.7052009
+          ],
+          [
+            -79.6168872,
+            43.7052527
+          ]
+        ]
+      },
+      "id": "way/42502508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42502520",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6149726,
+            43.7052922
+          ],
+          [
+            -79.6146381,
+            43.7053006
+          ]
+        ]
+      },
+      "id": "way/42502520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42502521",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6166137,
+            43.7052578
+          ],
+          [
+            -79.6153859,
+            43.70528
+          ],
+          [
+            -79.6149726,
+            43.7052922
+          ]
+        ]
+      },
+      "id": "way/42502521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58745946",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5905267,
+            43.7057759
+          ],
+          [
+            -79.5898607,
+            43.7057899
+          ]
+        ]
+      },
+      "id": "way/58745946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58745957",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6068084,
+            43.7054827
+          ],
+          [
+            -79.6083637,
+            43.7054573
+          ],
+          [
+            -79.6087295,
+            43.7054529
+          ]
+        ]
+      },
+      "id": "way/58745957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96773159",
+        "name": "Viscount",
+        "public_transport": "platform",
+        "railway": "platform",
+        "source": "Bing, survey",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6152215,
+            43.6899939
+          ],
+          [
+            -79.6154043,
+            43.68995
+          ],
+          [
+            -79.6157729,
+            43.6898667
+          ],
+          [
+            -79.6161565,
+            43.6897782
+          ]
+        ]
+      },
+      "id": "way/96773159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96773161",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "yes",
+        "monorail": "yes",
+        "name": "Terminal 1",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "smoothness": "excellent",
+        "source": "Bing, survey",
+        "surface": "concrete",
+        "tactile_paving": "yes",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6131312,
+            43.6828099
+          ],
+          [
+            -79.6124195,
+            43.6823079
+          ]
+        ]
+      },
+      "id": "way/96773161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96773162",
+        "layer": "2",
+        "name": "Terminal 3",
+        "public_transport": "platform",
+        "railway": "platform",
+        "source": "Bing, survey",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6201434,
+            43.6862562
+          ],
+          [
+            -79.6200384,
+            43.6862028
+          ],
+          [
+            -79.6200017,
+            43.6861841
+          ],
+          [
+            -79.6199591,
+            43.6861625
+          ],
+          [
+            -79.6195331,
+            43.6859458
+          ]
+        ]
+      },
+      "id": "way/96773162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96773163",
+        "bridge": "yes",
+        "funicular": "rubber_tyres",
+        "layer": "4",
+        "name": "Terminal Link",
+        "note": "\"Double Shuttle \" Cable Liner system (see https://en.wikipedia.org/wiki/Cable_Liner)",
+        "operator": "Greater Toronto Airports Authority",
+        "railway": "funicular",
+        "wikipedia": "en:Terminal Link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6152846,
+            43.6900781
+          ],
+          [
+            -79.6163882,
+            43.6897849
+          ],
+          [
+            -79.6168838,
+            43.6896257
+          ],
+          [
+            -79.6172116,
+            43.689537
+          ],
+          [
+            -79.6197174,
+            43.6889307
+          ],
+          [
+            -79.6200957,
+            43.6888255
+          ],
+          [
+            -79.6203776,
+            43.6887178
+          ],
+          [
+            -79.6205264,
+            43.688644
+          ],
+          [
+            -79.6206291,
+            43.6885777
+          ],
+          [
+            -79.6208016,
+            43.6884491
+          ],
+          [
+            -79.6208878,
+            43.6883652
+          ],
+          [
+            -79.6209694,
+            43.6882771
+          ],
+          [
+            -79.6210787,
+            43.6881113
+          ],
+          [
+            -79.6211574,
+            43.6879653
+          ],
+          [
+            -79.6211942,
+            43.6878537
+          ],
+          [
+            -79.6212203,
+            43.6877397
+          ],
+          [
+            -79.6212286,
+            43.6875764
+          ],
+          [
+            -79.6212304,
+            43.6874803
+          ],
+          [
+            -79.6212032,
+            43.6873442
+          ],
+          [
+            -79.6211708,
+            43.6872403
+          ],
+          [
+            -79.6211131,
+            43.6871071
+          ],
+          [
+            -79.6210018,
+            43.6869154
+          ],
+          [
+            -79.6209027,
+            43.6867691
+          ],
+          [
+            -79.620806,
+            43.6866351
+          ],
+          [
+            -79.6206897,
+            43.6865104
+          ],
+          [
+            -79.620523,
+            43.6863714
+          ],
+          [
+            -79.6203173,
+            43.6862613
+          ],
+          [
+            -79.6196546,
+            43.6859253
+          ],
+          [
+            -79.6194724,
+            43.6858309
+          ],
+          [
+            -79.6192682,
+            43.6857628
+          ],
+          [
+            -79.6191296,
+            43.6857352
+          ],
+          [
+            -79.6189679,
+            43.6857112
+          ],
+          [
+            -79.6186944,
+            43.6857032
+          ],
+          [
+            -79.6184678,
+            43.6856973
+          ],
+          [
+            -79.6182875,
+            43.6856986
+          ],
+          [
+            -79.6180299,
+            43.6857085
+          ],
+          [
+            -79.6177221,
+            43.6857187
+          ],
+          [
+            -79.6174941,
+            43.6857245
+          ],
+          [
+            -79.6172747,
+            43.6857195
+          ],
+          [
+            -79.6171542,
+            43.6857124
+          ],
+          [
+            -79.6170491,
+            43.6856974
+          ],
+          [
+            -79.6169056,
+            43.6856659
+          ],
+          [
+            -79.6167914,
+            43.6856319
+          ],
+          [
+            -79.6166811,
+            43.6855865
+          ],
+          [
+            -79.6165307,
+            43.6855029
+          ],
+          [
+            -79.6164009,
+            43.6854082
+          ],
+          [
+            -79.6157873,
+            43.6848326
+          ],
+          [
+            -79.6156225,
+            43.6846545
+          ],
+          [
+            -79.6153962,
+            43.6844451
+          ],
+          [
+            -79.6150984,
+            43.6841671
+          ],
+          [
+            -79.6149796,
+            43.6840768
+          ],
+          [
+            -79.613941,
+            43.6832466
+          ],
+          [
+            -79.6125149,
+            43.682189
+          ]
+        ]
+      },
+      "id": "way/96773163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96773164",
+        "bridge": "yes",
+        "funicular": "rubber_tyres",
+        "layer": "4",
+        "name": "Terminal Link",
+        "note": "\"Double Shuttle \" Cable Liner system (see https://en.wikipedia.org/wiki/Cable_Liner)",
+        "operator": "Greater Toronto Airports Authority",
+        "railway": "funicular",
+        "wikipedia": "en:Terminal Link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.612275,
+            43.6823585
+          ],
+          [
+            -79.6132655,
+            43.6831126
+          ],
+          [
+            -79.6132972,
+            43.6831362
+          ],
+          [
+            -79.614669,
+            43.6841286
+          ],
+          [
+            -79.6150018,
+            43.6843127
+          ],
+          [
+            -79.615343,
+            43.6845053
+          ],
+          [
+            -79.6155793,
+            43.684681
+          ],
+          [
+            -79.615754,
+            43.6848506
+          ],
+          [
+            -79.6163804,
+            43.6854364
+          ],
+          [
+            -79.6165093,
+            43.6855292
+          ],
+          [
+            -79.6166613,
+            43.6856125
+          ],
+          [
+            -79.6167766,
+            43.6856581
+          ],
+          [
+            -79.6168892,
+            43.6856945
+          ],
+          [
+            -79.6170388,
+            43.6857274
+          ],
+          [
+            -79.6171469,
+            43.6857392
+          ],
+          [
+            -79.6172764,
+            43.6857483
+          ],
+          [
+            -79.6174879,
+            43.6857529
+          ],
+          [
+            -79.6177235,
+            43.6857483
+          ],
+          [
+            -79.6180312,
+            43.6857361
+          ],
+          [
+            -79.618286,
+            43.6857235
+          ],
+          [
+            -79.6184658,
+            43.6857269
+          ],
+          [
+            -79.6186811,
+            43.6857424
+          ],
+          [
+            -79.6189428,
+            43.6857887
+          ],
+          [
+            -79.619092,
+            43.6858331
+          ],
+          [
+            -79.6192228,
+            43.685885
+          ],
+          [
+            -79.6193872,
+            43.6859615
+          ],
+          [
+            -79.6195195,
+            43.6860281
+          ],
+          [
+            -79.6201912,
+            43.686372
+          ],
+          [
+            -79.6203902,
+            43.6864727
+          ],
+          [
+            -79.6205733,
+            43.6865809
+          ],
+          [
+            -79.6207201,
+            43.6866798
+          ],
+          [
+            -79.6208448,
+            43.6867948
+          ],
+          [
+            -79.6209582,
+            43.6869304
+          ],
+          [
+            -79.6210715,
+            43.6871156
+          ],
+          [
+            -79.6211319,
+            43.6872476
+          ],
+          [
+            -79.6211616,
+            43.687346
+          ],
+          [
+            -79.6211875,
+            43.6874837
+          ],
+          [
+            -79.6211917,
+            43.6875763
+          ],
+          [
+            -79.6211784,
+            43.687737
+          ],
+          [
+            -79.6211527,
+            43.6878517
+          ],
+          [
+            -79.6211141,
+            43.6879585
+          ],
+          [
+            -79.6210416,
+            43.6881024
+          ],
+          [
+            -79.6209334,
+            43.6882624
+          ],
+          [
+            -79.6208496,
+            43.6883526
+          ],
+          [
+            -79.6207616,
+            43.688435
+          ],
+          [
+            -79.6206015,
+            43.6885541
+          ],
+          [
+            -79.6205042,
+            43.6886164
+          ],
+          [
+            -79.6204254,
+            43.6886622
+          ],
+          [
+            -79.6201571,
+            43.6887809
+          ],
+          [
+            -79.6197649,
+            43.6888875
+          ],
+          [
+            -79.6188668,
+            43.6890907
+          ],
+          [
+            -79.6171318,
+            43.689524
+          ],
+          [
+            -79.616552,
+            43.6896155
+          ],
+          [
+            -79.6163021,
+            43.6896642
+          ],
+          [
+            -79.6160683,
+            43.6897163
+          ],
+          [
+            -79.6152175,
+            43.6899287
+          ]
+        ]
+      },
+      "id": "way/96773164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/144489880",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6041242,
+            43.7055839
+          ],
+          [
+            -79.6049083,
+            43.7055629
+          ],
+          [
+            -79.606551,
+            43.7055303
+          ],
+          [
+            -79.6067972,
+            43.7055254
+          ],
+          [
+            -79.6069155,
+            43.7055232
+          ],
+          [
+            -79.6091458,
+            43.7054778
+          ],
+          [
+            -79.6106157,
+            43.7054414
+          ],
+          [
+            -79.6112421,
+            43.7054211
+          ],
+          [
+            -79.6120955,
+            43.7053917
+          ],
+          [
+            -79.6123379,
+            43.7053836
+          ],
+          [
+            -79.613174,
+            43.7053652
+          ],
+          [
+            -79.6138751,
+            43.7053503
+          ],
+          [
+            -79.6142668,
+            43.7053434
+          ],
+          [
+            -79.6146493,
+            43.7053388
+          ]
+        ]
+      },
+      "id": "way/144489880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/144489892",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5905633,
+            43.7058527
+          ],
+          [
+            -79.5935561,
+            43.7057791
+          ],
+          [
+            -79.5945337,
+            43.7057636
+          ],
+          [
+            -79.5980642,
+            43.705689
+          ],
+          [
+            -79.5991237,
+            43.7056676
+          ],
+          [
+            -79.6002797,
+            43.7056473
+          ],
+          [
+            -79.6011736,
+            43.7056313
+          ],
+          [
+            -79.6018481,
+            43.7056187
+          ],
+          [
+            -79.6022424,
+            43.705608
+          ],
+          [
+            -79.6036718,
+            43.7055927
+          ],
+          [
+            -79.6038112,
+            43.7055914
+          ]
+        ]
+      },
+      "id": "way/144489892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/165788091",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5898979,
+            43.705867
+          ],
+          [
+            -79.5905633,
+            43.7058527
+          ]
+        ]
+      },
+      "id": "way/165788091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241597",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6168812,
+            43.7052905
+          ],
+          [
+            -79.6193603,
+            43.7052391
+          ],
+          [
+            -79.624601,
+            43.7051378
+          ],
+          [
+            -79.6324692,
+            43.7049844
+          ],
+          [
+            -79.6350123,
+            43.704931
+          ],
+          [
+            -79.6364851,
+            43.704901
+          ],
+          [
+            -79.6392094,
+            43.7048494
+          ],
+          [
+            -79.6401271,
+            43.7048332
+          ],
+          [
+            -79.6411655,
+            43.7048164
+          ]
+        ]
+      },
+      "id": "way/209241597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241600",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6149817,
+            43.7053324
+          ],
+          [
+            -79.6163903,
+            43.7052991
+          ],
+          [
+            -79.6166167,
+            43.7052963
+          ]
+        ]
+      },
+      "id": "way/209241600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241602",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5776882,
+            43.7060967
+          ],
+          [
+            -79.5793498,
+            43.7060627
+          ],
+          [
+            -79.5825,
+            43.7059924
+          ],
+          [
+            -79.583369,
+            43.7059759
+          ],
+          [
+            -79.5876243,
+            43.7058945
+          ],
+          [
+            -79.5878617,
+            43.7058896
+          ],
+          [
+            -79.58894,
+            43.7058729
+          ],
+          [
+            -79.5891921,
+            43.7058671
+          ],
+          [
+            -79.5898979,
+            43.705867
+          ]
+        ]
+      },
+      "id": "way/209241602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241603",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5898788,
+            43.7058274
+          ],
+          [
+            -79.589249,
+            43.7058342
+          ],
+          [
+            -79.5876237,
+            43.7058564
+          ],
+          [
+            -79.5836271,
+            43.7059399
+          ],
+          [
+            -79.5787436,
+            43.7060356
+          ],
+          [
+            -79.5776739,
+            43.7060582
+          ]
+        ]
+      },
+      "id": "way/209241603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241607",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6166167,
+            43.7052963
+          ],
+          [
+            -79.6168812,
+            43.7052905
+          ]
+        ]
+      },
+      "id": "way/209241607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241618",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5905452,
+            43.7058147
+          ],
+          [
+            -79.5898788,
+            43.7058274
+          ]
+        ]
+      },
+      "id": "way/209241618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209241625",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6146493,
+            43.7053388
+          ],
+          [
+            -79.6149817,
+            43.7053324
+          ]
+        ]
+      },
+      "id": "way/209241625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209633170",
+        "alt_name": "UP Express",
+        "electrified": "no",
+        "gauge": "1435",
+        "maxspeed": "25 mph",
+        "name": "Pearson Subdivision",
+        "note": "layout as of 2015",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6087295,
+            43.7054529
+          ],
+          [
+            -79.6091707,
+            43.7054316
+          ],
+          [
+            -79.6093754,
+            43.7054202
+          ],
+          [
+            -79.6094979,
+            43.7054134
+          ],
+          [
+            -79.6105054,
+            43.7053587
+          ],
+          [
+            -79.6116349,
+            43.705304
+          ],
+          [
+            -79.6120651,
+            43.7052817
+          ],
+          [
+            -79.6127601,
+            43.7052483
+          ],
+          [
+            -79.6130544,
+            43.7052301
+          ],
+          [
+            -79.6131861,
+            43.705223
+          ],
+          [
+            -79.6135838,
+            43.7051399
+          ],
+          [
+            -79.6138027,
+            43.7050619
+          ],
+          [
+            -79.61394,
+            43.7049839
+          ],
+          [
+            -79.6141011,
+            43.7048836
+          ],
+          [
+            -79.6142469,
+            43.7047596
+          ]
+        ]
+      },
+      "id": "way/209633170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/305085828",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "40 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6139016,
+            43.703039
+          ],
+          [
+            -79.611805,
+            43.7012755
+          ],
+          [
+            -79.6115437,
+            43.7010505
+          ],
+          [
+            -79.6112109,
+            43.7007257
+          ],
+          [
+            -79.6110295,
+            43.7005043
+          ],
+          [
+            -79.6109164,
+            43.7003287
+          ],
+          [
+            -79.61072,
+            43.6999798
+          ],
+          [
+            -79.610527,
+            43.6994902
+          ],
+          [
+            -79.6100195,
+            43.6981019
+          ],
+          [
+            -79.6099246,
+            43.6976844
+          ],
+          [
+            -79.6099147,
+            43.6973704
+          ],
+          [
+            -79.6099546,
+            43.697078
+          ],
+          [
+            -79.6100295,
+            43.6968723
+          ],
+          [
+            -79.6101426,
+            43.6966341
+          ],
+          [
+            -79.6103173,
+            43.6963718
+          ],
+          [
+            -79.6117667,
+            43.6947476
+          ],
+          [
+            -79.6118782,
+            43.6946044
+          ],
+          [
+            -79.6120529,
+            43.6943361
+          ],
+          [
+            -79.612211,
+            43.6940426
+          ],
+          [
+            -79.6123225,
+            43.6937622
+          ],
+          [
+            -79.6123891,
+            43.6935336
+          ],
+          [
+            -79.6126054,
+            43.6928069
+          ],
+          [
+            -79.6128084,
+            43.6920706
+          ],
+          [
+            -79.6130979,
+            43.6910731
+          ],
+          [
+            -79.6133392,
+            43.69022
+          ],
+          [
+            -79.6138035,
+            43.6886077
+          ],
+          [
+            -79.6139116,
+            43.6882311
+          ],
+          [
+            -79.6140497,
+            43.6879303
+          ],
+          [
+            -79.6141679,
+            43.6877368
+          ],
+          [
+            -79.6143344,
+            43.6874915
+          ],
+          [
+            -79.6146159,
+            43.6871384
+          ],
+          [
+            -79.6148264,
+            43.6868834
+          ],
+          [
+            -79.6151492,
+            43.6864915
+          ],
+          [
+            -79.6153951,
+            43.686193
+          ]
+        ]
+      },
+      "id": "way/305085828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/305085829",
+        "alt_name": "UP Express",
+        "electrified": "no",
+        "gauge": "1435",
+        "maxspeed": "25 mph",
+        "name": "Pearson Subdivision",
+        "note": "layout as of 2015",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6142338,
+            43.7046854
+          ],
+          [
+            -79.6141754,
+            43.7047519
+          ],
+          [
+            -79.6140927,
+            43.7048198
+          ],
+          [
+            -79.6139834,
+            43.7048968
+          ],
+          [
+            -79.6138489,
+            43.7049758
+          ],
+          [
+            -79.61372,
+            43.7050335
+          ],
+          [
+            -79.6135785,
+            43.7050882
+          ],
+          [
+            -79.613329,
+            43.7051521
+          ],
+          [
+            -79.6130964,
+            43.7051845
+          ],
+          [
+            -79.6129675,
+            43.7051956
+          ],
+          [
+            -79.6127139,
+            43.7052047
+          ],
+          [
+            -79.6122612,
+            43.7052301
+          ],
+          [
+            -79.6117582,
+            43.7052574
+          ],
+          [
+            -79.6113868,
+            43.7052746
+          ],
+          [
+            -79.6108964,
+            43.705301
+          ],
+          [
+            -79.6100991,
+            43.7053476
+          ],
+          [
+            -79.6091728,
+            43.7054012
+          ],
+          [
+            -79.6089028,
+            43.7054135
+          ],
+          [
+            -79.6082662,
+            43.7054253
+          ]
+        ]
+      },
+      "id": "way/305085829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/305085831",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "40 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6153298,
+            43.6861832
+          ],
+          [
+            -79.615101,
+            43.6864614
+          ],
+          [
+            -79.6147736,
+            43.686862
+          ],
+          [
+            -79.6145983,
+            43.6870738
+          ],
+          [
+            -79.6142799,
+            43.6874677
+          ],
+          [
+            -79.6141856,
+            43.6876091
+          ],
+          [
+            -79.6141021,
+            43.6877333
+          ],
+          [
+            -79.6139656,
+            43.6879446
+          ],
+          [
+            -79.6138538,
+            43.6882271
+          ],
+          [
+            -79.6137208,
+            43.6886406
+          ],
+          [
+            -79.6132725,
+            43.6902231
+          ],
+          [
+            -79.6130348,
+            43.691062
+          ],
+          [
+            -79.6127489,
+            43.6920626
+          ],
+          [
+            -79.6125371,
+            43.692801
+          ],
+          [
+            -79.6123312,
+            43.6935165
+          ],
+          [
+            -79.6122583,
+            43.6937428
+          ],
+          [
+            -79.6121465,
+            43.694027
+          ],
+          [
+            -79.6119935,
+            43.6943214
+          ],
+          [
+            -79.6118194,
+            43.6945757
+          ],
+          [
+            -79.6117088,
+            43.6947187
+          ],
+          [
+            -79.6110499,
+            43.6954486
+          ],
+          [
+            -79.6105851,
+            43.6959565
+          ],
+          [
+            -79.610298,
+            43.6962925
+          ],
+          [
+            -79.6101791,
+            43.6964567
+          ],
+          [
+            -79.6100485,
+            43.6966779
+          ],
+          [
+            -79.6099897,
+            43.6967868
+          ],
+          [
+            -79.6099167,
+            43.6970097
+          ],
+          [
+            -79.6098709,
+            43.6971858
+          ],
+          [
+            -79.6098438,
+            43.6973729
+          ],
+          [
+            -79.6098567,
+            43.6976843
+          ],
+          [
+            -79.6098909,
+            43.6978782
+          ],
+          [
+            -79.6099568,
+            43.6981062
+          ],
+          [
+            -79.6104674,
+            43.6994971
+          ],
+          [
+            -79.6106616,
+            43.6999956
+          ],
+          [
+            -79.6108463,
+            43.7003393
+          ],
+          [
+            -79.610971,
+            43.7005239
+          ],
+          [
+            -79.6111522,
+            43.7007467
+          ],
+          [
+            -79.6114876,
+            43.7010742
+          ],
+          [
+            -79.611757,
+            43.7013031
+          ],
+          [
+            -79.6138397,
+            43.7030639
+          ]
+        ]
+      },
+      "id": "way/305085831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/352421815",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "4",
+        "maxspeed": "10 mph",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "railway": "rail",
+        "service": "crossover",
+        "source": "Region of Peel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6145462,
+            43.6838075
+          ],
+          [
+            -79.614781,
+            43.6840181
+          ],
+          [
+            -79.6150156,
+            43.6842387
+          ]
+        ]
+      },
+      "id": "way/352421815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/352421816",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "4",
+        "maxspeed": "10 mph",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "railway": "rail",
+        "service": "crossover",
+        "source": "Region of Peel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6144889,
+            43.6838488
+          ],
+          [
+            -79.614781,
+            43.6840181
+          ],
+          [
+            -79.6150652,
+            43.684203
+          ]
+        ]
+      },
+      "id": "way/352421816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344796",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "name": "GO Transit - Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "service": "crossover"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6153859,
+            43.70528
+          ],
+          [
+            -79.6149744,
+            43.7053001
+          ]
+        ]
+      },
+      "id": "way/373344796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344797",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "service": "crossover"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6149744,
+            43.7053001
+          ],
+          [
+            -79.6146433,
+            43.7053184
+          ]
+        ]
+      },
+      "id": "way/373344797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344798",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "service": "crossover"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6146433,
+            43.7053184
+          ],
+          [
+            -79.6138751,
+            43.7053503
+          ]
+        ]
+      },
+      "id": "way/373344798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344799",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "name": "GO Transit - Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "service": "crossover"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6066195,
+            43.7054862
+          ],
+          [
+            -79.6060123,
+            43.705484
+          ],
+          [
+            -79.6051557,
+            43.7054848
+          ]
+        ]
+      },
+      "id": "way/373344799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344800",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "service": "crossover"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6041242,
+            43.7055839
+          ],
+          [
+            -79.604848,
+            43.7055431
+          ],
+          [
+            -79.6055675,
+            43.705512
+          ]
+        ]
+      },
+      "id": "way/373344800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344803",
+        "alt_name": "Air Rail Link",
+        "electrified": "no",
+        "gauge": "1435",
+        "name": "Union Pearson Express",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "service": "crossover",
+        "source": "Region of Peel",
+        "tracks": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6082662,
+            43.7054253
+          ],
+          [
+            -79.6076061,
+            43.7054522
+          ],
+          [
+            -79.6068084,
+            43.7054827
+          ]
+        ]
+      },
+      "id": "way/373344803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373344804",
+        "alt_name": "Air Rail Link",
+        "electrified": "no",
+        "gauge": "1435",
+        "name": "Union Pearson Express",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "railway": "rail",
+        "service": "crossover",
+        "source": "Region of Peel",
+        "tracks": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6069155,
+            43.7055232
+          ],
+          [
+            -79.6075711,
+            43.7054952
+          ],
+          [
+            -79.6078898,
+            43.7054761
+          ],
+          [
+            -79.6083637,
+            43.7054573
+          ]
+        ]
+      },
+      "id": "way/373344804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436912701",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.603991,
+            43.7055521
+          ],
+          [
+            -79.6037995,
+            43.7055548
+          ]
+        ]
+      },
+      "id": "way/436912701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436912706",
+        "bridge": "yes",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6038112,
+            43.7055914
+          ],
+          [
+            -79.6039991,
+            43.7055866
+          ]
+        ]
+      },
+      "id": "way/436912706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436912708",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6037878,
+            43.7055183
+          ],
+          [
+            -79.6031433,
+            43.705532
+          ],
+          [
+            -79.6018045,
+            43.7055438
+          ],
+          [
+            -79.5982265,
+            43.705615
+          ],
+          [
+            -79.5973266,
+            43.7056335
+          ],
+          [
+            -79.5934642,
+            43.7057081
+          ],
+          [
+            -79.5925664,
+            43.7057277
+          ],
+          [
+            -79.5905267,
+            43.7057759
+          ]
+        ]
+      },
+      "id": "way/436912708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436912710",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6037995,
+            43.7055548
+          ],
+          [
+            -79.6018307,
+            43.7055792
+          ],
+          [
+            -79.6006525,
+            43.705601
+          ],
+          [
+            -79.5982895,
+            43.7056495
+          ],
+          [
+            -79.5955127,
+            43.7057081
+          ],
+          [
+            -79.5939919,
+            43.7057362
+          ],
+          [
+            -79.5920876,
+            43.7057721
+          ],
+          [
+            -79.5905452,
+            43.7058147
+          ]
+        ]
+      },
+      "id": "way/436912710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436912711",
+        "alt_name": "Air Rail Link",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "note": "layout as of 2015",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6039822,
+            43.7055141
+          ],
+          [
+            -79.6037878,
+            43.7055183
+          ]
+        ]
+      },
+      "id": "way/436912711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482124383",
+        "alt_name": "Air Rail Link",
+        "electrified": "no",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "note": "layout as of 2015",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6051557,
+            43.7054848
+          ],
+          [
+            -79.6039822,
+            43.7055141
+          ]
+        ]
+      },
+      "id": "way/482124383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482124384",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6066195,
+            43.7054862
+          ],
+          [
+            -79.6055675,
+            43.705512
+          ]
+        ]
+      },
+      "id": "way/482124384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482124386",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6039991,
+            43.7055866
+          ],
+          [
+            -79.6041242,
+            43.7055839
+          ]
+        ]
+      },
+      "id": "way/482124386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/531484433",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6146381,
+            43.7053006
+          ],
+          [
+            -79.6131707,
+            43.7053327
+          ],
+          [
+            -79.6115968,
+            43.7053724
+          ],
+          [
+            -79.6110993,
+            43.7053896
+          ],
+          [
+            -79.6103508,
+            43.7054154
+          ],
+          [
+            -79.6097641,
+            43.7054321
+          ],
+          [
+            -79.6090378,
+            43.7054478
+          ],
+          [
+            -79.6087295,
+            43.7054529
+          ]
+        ]
+      },
+      "id": "way/531484433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/595618030",
+        "layer": "2",
+        "name": "Terminal 3",
+        "public_transport": "platform",
+        "railway": "platform",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6194867,
+            43.6859836
+          ],
+          [
+            -79.6199656,
+            43.686217
+          ],
+          [
+            -79.6200022,
+            43.6862377
+          ],
+          [
+            -79.6201011,
+            43.686289
+          ]
+        ]
+      },
+      "id": "way/595618030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/595618034",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "yes",
+        "monorail": "yes",
+        "name": "Terminal 1",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6123813,
+            43.6823333
+          ],
+          [
+            -79.6130982,
+            43.682829
+          ]
+        ]
+      },
+      "id": "way/595618034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/677531482",
+        "alt_name": "Air Rail Link",
+        "electrified": "no",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Union Pearson Express",
+        "note": "layout as of 2015",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6082662,
+            43.7054253
+          ],
+          [
+            -79.6073084,
+            43.7054324
+          ],
+          [
+            -79.6060117,
+            43.7054611
+          ],
+          [
+            -79.6051557,
+            43.7054848
+          ]
+        ]
+      },
+      "id": "way/677531482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765214794",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "10 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel;CN;Metrolinx",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6144889,
+            43.6838488
+          ],
+          [
+            -79.6146438,
+            43.6839568
+          ],
+          [
+            -79.6150156,
+            43.6842387
+          ]
+        ]
+      },
+      "id": "way/765214794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765214795",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "10 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6131898,
+            43.6829057
+          ],
+          [
+            -79.613389,
+            43.683051
+          ],
+          [
+            -79.6140032,
+            43.6835191
+          ],
+          [
+            -79.6141358,
+            43.6836135
+          ],
+          [
+            -79.6142043,
+            43.6836579
+          ],
+          [
+            -79.6144889,
+            43.6838488
+          ]
+        ]
+      },
+      "id": "way/765214795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765214796",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "10 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6145462,
+            43.6838075
+          ],
+          [
+            -79.6135083,
+            43.6829874
+          ],
+          [
+            -79.6133199,
+            43.6828359
+          ]
+        ]
+      },
+      "id": "way/765214796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765214797",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "10 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6150652,
+            43.684203
+          ],
+          [
+            -79.6145462,
+            43.6838075
+          ]
+        ]
+      },
+      "id": "way/765214797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/799211480",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6066195,
+            43.7054862
+          ],
+          [
+            -79.6068084,
+            43.7054827
+          ]
+        ]
+      },
+      "id": "way/799211480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222837682",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "25 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6142469,
+            43.7047596
+          ],
+          [
+            -79.6143326,
+            43.7046763
+          ],
+          [
+            -79.6144674,
+            43.704491
+          ],
+          [
+            -79.6145406,
+            43.7043106
+          ],
+          [
+            -79.6145673,
+            43.7041855
+          ],
+          [
+            -79.6145722,
+            43.7040207
+          ],
+          [
+            -79.6145606,
+            43.7038907
+          ],
+          [
+            -79.614504,
+            43.7036971
+          ],
+          [
+            -79.614336,
+            43.7034348
+          ],
+          [
+            -79.6142311,
+            43.7033254
+          ],
+          [
+            -79.6139016,
+            43.703039
+          ]
+        ]
+      },
+      "id": "way/1222837682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222837683",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "25 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6138397,
+            43.7030639
+          ],
+          [
+            -79.6141421,
+            43.7033276
+          ],
+          [
+            -79.6142644,
+            43.7034552
+          ],
+          [
+            -79.6143621,
+            43.7035862
+          ],
+          [
+            -79.6144197,
+            43.7037036
+          ],
+          [
+            -79.614488,
+            43.7038915
+          ],
+          [
+            -79.6145021,
+            43.7040225
+          ],
+          [
+            -79.6144939,
+            43.7041808
+          ],
+          [
+            -79.6144692,
+            43.7042854
+          ],
+          [
+            -79.6144044,
+            43.704453
+          ],
+          [
+            -79.6142868,
+            43.7046273
+          ],
+          [
+            -79.6142338,
+            43.7046854
+          ]
+        ]
+      },
+      "id": "way/1222837683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222837684",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "20 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6150156,
+            43.6842387
+          ],
+          [
+            -79.6152072,
+            43.6843847
+          ],
+          [
+            -79.6153151,
+            43.684464
+          ],
+          [
+            -79.6154581,
+            43.6845543
+          ],
+          [
+            -79.6155056,
+            43.6845994
+          ],
+          [
+            -79.6155712,
+            43.6846701
+          ],
+          [
+            -79.6156202,
+            43.6847332
+          ],
+          [
+            -79.6156898,
+            43.6848399
+          ],
+          [
+            -79.6157134,
+            43.6849272
+          ],
+          [
+            -79.6157518,
+            43.6850171
+          ],
+          [
+            -79.6157728,
+            43.6850922
+          ],
+          [
+            -79.6157893,
+            43.6851797
+          ],
+          [
+            -79.6157955,
+            43.6852979
+          ],
+          [
+            -79.6157897,
+            43.6853991
+          ],
+          [
+            -79.6157761,
+            43.6854772
+          ],
+          [
+            -79.6157529,
+            43.6855535
+          ],
+          [
+            -79.6157301,
+            43.6856198
+          ],
+          [
+            -79.6156941,
+            43.6857002
+          ],
+          [
+            -79.6156475,
+            43.6857781
+          ],
+          [
+            -79.615567,
+            43.6858914
+          ],
+          [
+            -79.6153298,
+            43.6861832
+          ]
+        ]
+      },
+      "id": "way/1222837684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222837685",
+        "alt_name": "UP Express",
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1435",
+        "layer": "5",
+        "maxspeed": "20 mph",
+        "name": "Pearson Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "source": "Region of Peel",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6153951,
+            43.686193
+          ],
+          [
+            -79.615634,
+            43.6859009
+          ],
+          [
+            -79.6157154,
+            43.6857898
+          ],
+          [
+            -79.6157566,
+            43.6857178
+          ],
+          [
+            -79.6158036,
+            43.6856149
+          ],
+          [
+            -79.6158406,
+            43.6854939
+          ],
+          [
+            -79.6158569,
+            43.6854116
+          ],
+          [
+            -79.6158643,
+            43.6853306
+          ],
+          [
+            -79.6158644,
+            43.6852425
+          ],
+          [
+            -79.6158532,
+            43.6851471
+          ],
+          [
+            -79.6158313,
+            43.6850466
+          ],
+          [
+            -79.6157807,
+            43.6849181
+          ],
+          [
+            -79.6157157,
+            43.6847649
+          ],
+          [
+            -79.6155861,
+            43.6846037
+          ],
+          [
+            -79.6154462,
+            43.6844763
+          ],
+          [
+            -79.6153568,
+            43.6844032
+          ],
+          [
+            -79.6150652,
+            43.684203
+          ]
+        ]
+      },
+      "id": "way/1222837685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1328694251",
+        "electrified": "no",
+        "former_name": "Canadian National Railway - Weston Subdivision",
+        "gauge": "1435",
+        "maxspeed": "80 mph",
+        "name": "Weston Subdivision",
+        "operator": "GO Transit",
+        "operator:wikidata": "Q1357727",
+        "operator:wikipedia": "en:GO Transit",
+        "owner": "Metrolinx",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "60",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "rail",
+        "railway:traffic_mode": "mixed",
+        "usage": "main"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6055675,
+            43.705512
+          ],
+          [
+            -79.604674,
+            43.705531
+          ],
+          [
+            -79.603991,
+            43.7055521
+          ]
+        ]
+      },
+      "id": "way/1328694251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1120475783",
+        "name": "Terminal 1",
+        "operator": "Terminal Link Train",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "monorail",
+        "wheelchair": "yes",
+        "wikidata": "Q16901889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6127699,
+          43.6825791
+        ]
+      },
+      "id": "node/1120475783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1120480667",
+        "monorail": "yes",
+        "name": "Terminal 3",
+        "operator": "Terminal Link Train",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "monorail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6199591,
+          43.6861625
+        ]
+      },
+      "id": "node/1120480667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1120482031",
+        "monorail": "yes",
+        "name": "Viscount",
+        "operator": "Terminal Link Train",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "monorail",
+        "wikidata": "Q18394792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6157729,
+          43.6898667
+        ]
+      },
+      "id": "node/1120482031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2198240763",
+        "name": "Toronto Pearson Terminal 1",
+        "network": "UP Express",
+        "public_transport": "stop_position",
+        "railway": "buffer_stop",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6135083,
+          43.6829874
+        ]
+      },
+      "id": "node/2198240763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3096606861",
+        "name": "Toronto Pearson Terminal 1",
+        "network": "UP Express",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.613389,
+          43.683051
+        ]
+      },
+      "id": "node/3096606861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3503666885",
+        "name": "Toronto Pearson Terminal 1",
+        "network": "UP Express",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q16901889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.613438,
+          43.6830012
+        ]
+      },
+      "id": "node/3503666885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12089616615",
+        "gtfs:feed": "CA-ON-MW",
+        "gtfs:stop_id": "2968",
+        "highway": "bus_stop",
+        "name": "American Drive At Northam Drive",
+        "public_transport": "platform",
+        "ref": "2968"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6145006,
+          43.6955659
+        ]
+      },
+      "id": "node/12089616615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12089616618",
+        "gtfs:feed": "CA-ON-MW",
+        "gtfs:stop_id": "1396",
+        "highway": "bus_stop",
+        "name": "Northwest Drive At American Drive",
+        "public_transport": "platform",
+        "ref": "1396"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6119234,
+          43.6987515
+        ]
+      },
+      "id": "node/12089616618"
+    }
+  ]
+}

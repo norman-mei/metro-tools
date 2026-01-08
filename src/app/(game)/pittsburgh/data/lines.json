@@ -29,6 +29,7 @@
     "backgroundColor": "#8C3247",
     "progressOutlineColor": "#D4687C",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "pittsburghAPM.png"
   }
 }

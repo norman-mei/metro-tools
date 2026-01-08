@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
-import { Line } from '@/lib/types'
+import { Config, Line, LineGroup } from '@/lib/types'
 
 
 export const LINES: {
@@ -200,12 +200,56 @@ export const CITY_NAME = 'barcelona'
 
 export const LOCALE = 'ca'
 
-const config = {
+export const MAP_FROM_DATA = true
+
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Transports Metropolitans de Barcelona (TMB) & Ferrocarrils de la Generalitat de Catalunya (FGC)',
+    items: [
+      {
+        type: 'lines',
+        lines: [
+          'TMBMetroFm',
+          'TMBMetroL1',
+          'TMBMetroL2',
+          'TMBMetroL3',
+          'TMBMetroL4',
+          'TMBMetroL5',
+          'FGCL6',
+          'FGCL7',
+          'FGCL8',
+          'TMBMetroL9',
+          'TMBMetroL10',
+          'FGCL12',
+          'TMBMetroL11',
+          'TMBMetroL9n',
+          'TMBMetroL10n',
+        ],
+      },
+    ],
+  },
+  {
+    items: [{ type: 'separator' }],
+  },
+  {
+    title: 'Trambaix / Trambesòs',
+    items: [
+      {
+        type: 'lines',
+        lines: ['TramCatT1', 'TramCatT2', 'TramCatT3', 'TramCatT4', 'TramCatT5', 'TramCatT6'],
+      },
+    ],
+  },
+]
+
+const config: Config = {
+  MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
   MAP_CONFIG,
   METADATA,
   LINES,
+  LINE_GROUPS,
 }
 
 export default config
