@@ -897,5 +897,23 @@
     "textColor": "#000000",
     "order": 134,
     "icon": "qymaglev.png"
+  },
+  "gzsp_cable": {
+    "name": "Safari Park Cable Car",
+    "color": "#cf34eb",
+    "progressOutlineColor": "#cf34eb",
+    "backgroundColor": "#cf34eb",
+    "textColor": "#000000",
+    "order": 135,
+    "icon": "GZSP.png"
+  },
+  "gzcw_cable": {
+    "name": "Baiyun Mountain Cableway",
+    "color": "#3489eb",
+    "progressOutlineColor": "#3489eb",
+    "backgroundColor": "#3489eb",
+    "textColor": "#FFFFFF",
+    "order": 136,
+    "icon": "GZCW.png"
   }
 }

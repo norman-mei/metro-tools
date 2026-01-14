@@ -1024,13 +1024,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.6682891,
-          22.8632157
+          113.6666,
+          22.8623
         ]
       },
       "properties": {
         "id": 20001,
-        "name": "Humen (虎门)",
+        "name": "Humen Railway Station (虎门火车站)",
+        "long_name": "Humen Railway Station (虎门火车站)",
         "alternate_names": [
           "Humen Railway Station",
           "Humen Station",
@@ -1047,6 +1048,7 @@
         ],
         "line": "dongguanline2",
         "order": 0,
+        "cluster_key": "humen_station_complex",
         "original_city": "dongguan"
       },
       "id": 20001
@@ -3468,6 +3470,7 @@
         ],
         "line": "gzapm",
         "order": 6,
+        "cluster_key": "tiyuxilu_complex",
         "original_city": "gz"
       },
       "id": 90543
@@ -3843,6 +3846,7 @@
         ],
         "line": "gzline1",
         "order": 10,
+        "cluster_key": "tiyuxilu_complex",
         "original_city": "gz"
       },
       "id": 90036
@@ -4748,6 +4752,7 @@
         ],
         "line": "gzline11",
         "order": 12,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90563
@@ -4777,6 +4782,7 @@
         ],
         "line": "gzline14",
         "order": 12,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90278
@@ -7017,6 +7023,7 @@
         "long_name": "Guangzhou North Railway Station (广州北站)",
         "alternate_names": [
           "Guangzhou North Railway Station",
+          "Guangzhou North",
           "广州北站",
           "廣州北站",
           "guangzhoubeizhan",
@@ -7027,6 +7034,7 @@
         ],
         "line": "gzline24",
         "order": 0,
+        "cluster_key": "guangzhou_north_huadu_complex",
         "original_city": "gz"
       },
       "id": 90581
@@ -7519,6 +7527,7 @@
         ],
         "line": "gzline14",
         "order": 13,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90056
@@ -7548,6 +7557,7 @@
         ],
         "line": "gzline2",
         "order": 13,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90561
@@ -8580,6 +8590,7 @@
         ],
         "line": "gzline22",
         "order": 8,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90564
@@ -8704,6 +8715,7 @@
         ],
         "line": "gzline22",
         "order": 12,
+        "cluster_key": "baiyun_airport_complex",
         "original_city": "gz"
       },
       "id": 90568
@@ -9055,6 +9067,7 @@
         ],
         "line": "gzline3",
         "order": 10,
+        "cluster_key": "tiyuxilu_complex",
         "original_city": "gz"
       },
       "id": 90077
@@ -9116,6 +9129,35 @@
         "original_city": "gz"
       },
       "id": 90079
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3164,
+          23.136
+        ]
+      },
+      "properties": {
+        "id": 91860,
+        "name": "Tianhe Road (天河路)",
+        "long_name": "Tianhe Road (天河路)",
+        "alternate_names": [
+          "Tianhe Road",
+          "天河路",
+          "tianhelu",
+          "tin1ho4lou6",
+          "tinholou",
+          "tian he lu",
+          "tin1 ho4 lou6"
+        ],
+        "line": "gzline10",
+        "order": 13,
+        "cluster_key": "tiyuxilu_complex",
+        "original_city": "gz"
+      },
+      "id": 91860
     },
     {
       "type": "Feature",
@@ -9521,6 +9563,7 @@
         ],
         "line": "gzline3",
         "order": 27,
+        "cluster_key": "baiyun_airport_complex",
         "original_city": "gz"
       },
       "id": 90094
@@ -10555,6 +10598,7 @@
         ],
         "line": "gzline14",
         "order": 5,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90132
@@ -10584,6 +10628,7 @@
         ],
         "line": "gzline5",
         "order": 5,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "gz"
       },
       "id": 90562
@@ -13874,6 +13919,7 @@
         "long_name": "Guangzhou North Railway Station (广州北站)",
         "alternate_names": [
           "Guangzhou North Railway Station",
+          "Guangzhou North",
           "广州北站",
           "廣州北站",
           "guangzhoubeizhan",
@@ -13884,6 +13930,7 @@
         ],
         "line": "gzline9",
         "order": 2,
+        "cluster_key": "guangzhou_north_huadu_complex",
         "original_city": "gz"
       },
       "id": 90246
@@ -34618,6 +34665,356 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          113.6769,
+          22.8393
+        ]
+      },
+      "properties": {
+        "id": 91861,
+        "name": "Humen North (虎门北)",
+        "long_name": "Humen North (虎门北)",
+        "alternate_names": [
+          "Humen North",
+          "虎门北",
+          "hu men bei",
+          "fu2 mun4 bak1"
+        ],
+        "line": "dongguanline2",
+        "order": -1,
+        "original_city": "dongguan"
+      },
+      "id": 91861
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6788,
+          22.8211
+        ]
+      },
+      "properties": {
+        "id": 91862,
+        "name": "Humen Avenue (虎门大道)",
+        "long_name": "Humen Avenue (虎门大道)",
+        "alternate_names": [
+          "Humen Avenue",
+          "虎门大道",
+          "hu men da dao",
+          "fu2 mun4 daai6 dou6"
+        ],
+        "line": "dongguanline2",
+        "order": -2,
+        "original_city": "dongguan"
+      },
+      "id": 91862
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6819,
+          22.8103
+        ]
+      },
+      "properties": {
+        "id": 91863,
+        "name": "Humen Jinjie Road (虎门金捷路)",
+        "long_name": "Humen Jinjie Road (虎门金捷路)",
+        "alternate_names": [
+          "Humen Jinjie Road",
+          "虎门金捷路",
+          "hu men jin jie lu",
+          "fu2 mun4 gam1 zit3 lou6"
+        ],
+        "line": "dongguanline2",
+        "order": -3,
+        "original_city": "dongguan"
+      },
+      "id": 91863
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6889,
+          22.7944
+        ]
+      },
+      "properties": {
+        "id": 91864,
+        "name": "Humen Guangming Road (虎门光明路)",
+        "long_name": "Humen Guangming Road (虎门光明路)",
+        "alternate_names": [
+          "Humen Guangming Road",
+          "虎门光明路",
+          "hu men guang ming lu",
+          "fu2 mun4 gwong1 ming4 lou6"
+        ],
+        "line": "dongguanline2",
+        "order": -4,
+        "original_city": "dongguan"
+      },
+      "id": 91864
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6954,
+          22.7754
+        ]
+      },
+      "properties": {
+        "id": 91865,
+        "name": "Binhaiwan (滨海湾)",
+        "long_name": "Binhaiwan (滨海湾)",
+        "alternate_names": [
+          "Binhaiwan",
+          "滨海湾",
+          "bin hai wan",
+          "ban1 hoi2 waan1"
+        ],
+        "line": "dongguanline2",
+        "order": -5,
+        "original_city": "dongguan"
+      },
+      "id": 91865
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6954,
+          22.7639
+        ]
+      },
+      "properties": {
+        "id": 91866,
+        "name": "Qingchuangcheng (青创城)",
+        "long_name": "Qingchuangcheng (青创城)",
+        "alternate_names": [
+          "Qingchuangcheng",
+          "青创城",
+          "qing chuang cheng",
+          "cing1 cong3 sing4"
+        ],
+        "line": "dongguanline2",
+        "order": -6,
+        "original_city": "dongguan"
+      },
+      "id": 91866
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.707,
+          22.7501
+        ]
+      },
+      "properties": {
+        "id": 91867,
+        "name": "Hong Kong and Macau Ferry Terminal (港澳码头)",
+        "long_name": "Hong Kong and Macau Ferry Terminal (港澳码头)",
+        "alternate_names": [
+          "Hong Kong and Macau Ferry Terminal",
+          "港澳码头",
+          "hong kong and macau ferry",
+          "gong2 ou3 maa5 tau4"
+        ],
+        "line": "dongguanline2",
+        "order": -7,
+        "original_city": "dongguan"
+      },
+      "id": 91867
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7257,
+          22.7522
+        ]
+      },
+      "properties": {
+        "id": 91868,
+        "name": "Jiaoyiwan West (交椅湾西)",
+        "long_name": "Jiaoyiwan West (交椅湾西)",
+        "alternate_names": [
+          "Jiaoyiwan West",
+          "交椅湾西",
+          "jiao yi wan xi",
+          "gaau1 ji5 waan1 sai1"
+        ],
+        "line": "dongguanline2",
+        "order": -8,
+        "original_city": "dongguan"
+      },
+      "id": 91868
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.737,
+          22.7439
+        ]
+      },
+      "properties": {
+        "id": 91869,
+        "name": "Jiaoyiwan (交椅湾)",
+        "long_name": "Jiaoyiwan (交椅湾)",
+        "alternate_names": [
+          "Jiaoyiwan",
+          "交椅湾",
+          "jiao yi wan",
+          "gaau1 ji5 waan1"
+        ],
+        "line": "dongguanline2",
+        "order": -9,
+        "original_city": "dongguan"
+      },
+      "id": 91869
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2899523,
+          23.1598111
+        ]
+      },
+      "properties": {
+        "id": 91870,
+        "name": "Baiyun Cableway (白云索道)",
+        "long_name": "Baiyun Cableway (白云索道)",
+        "alternate_names": [
+          "Baiyun Cableway",
+          "白云索道",
+          "bai yun suo dao",
+          "baak6 wan4 sok3 dou6"
+        ],
+        "line": "gzcw_cable",
+        "order": 0,
+        "original_city": "gz"
+      },
+      "id": 91870
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2950997,
+          23.1740035
+        ]
+      },
+      "properties": {
+        "id": 91871,
+        "name": "Baiyun Mountain (白云山)",
+        "long_name": "Baiyun Mountain (白云山)",
+        "alternate_names": [
+          "Baiyun Mountain",
+          "白云山",
+          "bai yun shan",
+          "baak6 wan4 saan1"
+        ],
+        "line": "gzcw_cable",
+        "order": 1,
+        "original_city": "gz"
+      },
+      "id": 91871
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3058817,
+          23.0034067
+        ]
+      },
+      "properties": {
+        "id": 91872,
+        "name": "African Savanna (非洲草原)",
+        "long_name": "African Savanna (非洲草原)",
+        "alternate_names": [
+          "African Savanna",
+          "非洲草原",
+          "fei zhou cao yuan",
+          "fei1 zau1 cou2 jyun4"
+        ],
+        "line": "gzsp_cable",
+        "order": 0,
+        "original_city": "gz"
+      },
+      "id": 91872
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3128783,
+          23.0030837
+        ]
+      },
+      "properties": {
+        "id": 91873,
+        "name": "Triplets Park (熊猫乐园)",
+        "long_name": "Triplets Park (熊猫乐园)",
+        "alternate_names": [
+          "Triplets Park",
+          "熊猫乐园",
+          "xiong mao le yuan",
+          "hung4 maau1 lok6 jyun4"
+        ],
+        "line": "gzsp_cable",
+        "order": 1,
+        "original_city": "gz"
+      },
+      "id": 91873
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3086798,
+          23.0102973
+        ]
+      },
+      "properties": {
+        "id": 91874,
+        "name": "Swan Lake (天鹅湖)",
+        "long_name": "Swan Lake (天鹅湖)",
+        "alternate_names": [
+          "Swan Lake",
+          "天鹅湖",
+          "tian e hu",
+          "tin1 ngo4 wu4"
+        ],
+        "line": "gzsp_cable",
+        "order": 2,
+        "original_city": "gz"
+      },
+      "id": 91874
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           113.6682891,
           22.8632157
         ]
@@ -34637,7 +35034,8 @@
         ],
         "line": "XRL",
         "order": 4,
-        "original_city": "hk"
+        "original_city": "hk",
+        "cluster_key": "humen_station_complex"
       },
       "id": 20020
     },
@@ -56601,6 +56999,7 @@
         ],
         "line": "gzline13",
         "order": 23,
+        "cluster_key": "tiyuxilu_complex",
         "original_city": "gz"
       },
       "id": 91617
@@ -57318,8 +57717,8 @@
       },
       "properties": {
         "id": 91645,
-        "name": "Airport East (机场东)",
-        "long_name": "机场东 Airport East",
+        "name": "Airport East (Terminal 3) (机场东（3号航站楼）)",
+        "long_name": "Airport East (Terminal 3) (机场东（3号航站楼）)",
         "alternate_names": [
           "Airport East",
           "Airport East (Terminal 3)",
@@ -60899,6 +61298,7 @@
         ],
         "line": "prdir_guangqing",
         "order": 8,
+        "cluster_key": "guangzhou_north_huadu_complex",
         "original_city": "prdir"
       },
       "id": 91776
@@ -61043,6 +61443,7 @@
         ],
         "line": "prdir_guangforing",
         "order": 0,
+        "cluster_key": "guangzhou_north_huadu_complex",
         "original_city": "prdir"
       },
       "id": 91782
@@ -61118,6 +61519,7 @@
         ],
         "line": "prdir_guangforing",
         "order": 3,
+        "cluster_key": "baiyun_airport_complex",
         "original_city": "prdir"
       },
       "id": 91785
@@ -61143,6 +61545,7 @@
         ],
         "line": "prdir_guangforing",
         "order": 4,
+        "cluster_key": "baiyun_airport_complex",
         "original_city": "prdir"
       },
       "id": 91786
@@ -61656,6 +62059,7 @@
         ],
         "line": "prdir_guangshen",
         "order": 0,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "prdir"
       },
       "id": 91804
@@ -62497,6 +62901,7 @@
         ],
         "line": "prdir_guangqing",
         "order": 13,
+        "cluster_key": "guangzhou_station_complex",
         "original_city": "prdir"
       },
       "id": 91781

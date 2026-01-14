@@ -139,11 +139,11 @@ const FoundSummary = ({
         />
       </div>
       {minimizable && (
-        <div className="absolute top-0 right-0 -mt-1 -mr-1">
+        <div className="sticky bottom-2 z-10 mt-2 flex justify-end pointer-events-none">
           <button
             onClick={() => setMinimized(!minimized)}
-            className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-zinc-400 shadow-sm ring-1 ring-zinc-200 hover:bg-zinc-50 hover:text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400 dark:ring-zinc-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-200"
-            aria-label={minimized ? "Expand summary" : "Minimize summary"}
+            className="pointer-events-auto flex h-7 w-7 items-center justify-center rounded-full bg-white text-zinc-400 shadow-sm ring-1 ring-zinc-200 hover:bg-zinc-50 hover:text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400 dark:ring-zinc-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-200"
+            aria-label={minimized ? 'Expand summary' : 'Minimize summary'}
           >
             {minimized ? (
               <MaximizeIcon className="h-3.5 w-3.5" />

@@ -233,6 +233,7 @@ export const LINE_GROUPS: LineGroup[] = [
     {
         items: [{ type: 'separator' }]
     },
+
     {
         title: 'Intercity Rail',
         items: [
@@ -261,6 +262,30 @@ export const LINE_GROUPS: LineGroup[] = [
             {
                 type: 'lines',
                 lines: ['qymaglev']
+            }
+        ]
+    },
+    {
+        items: [{ type: 'separator' }]
+    },
+    {
+        title: 'Guangzhou Chimelong Safari Park',
+        items: [
+            {
+                type: 'lines',
+                lines: ['gzsp_cable']
+            }
+        ]
+    },
+    {
+        items: [{ type: 'separator' }]
+    },
+    {
+        title: 'Baiyun Mountain Cableway',
+        items: [
+            {
+                type: 'lines',
+                lines: ['gzcw_cable']
             }
         ]
     }

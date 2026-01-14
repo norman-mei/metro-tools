@@ -789,6 +789,35 @@ export default function GamePage({
 
     const COMPLEX_THRESHOLD = 0.00075
 
+    const explicitClusterMembers = new Map<string | number, number[]>()
+
+    pointFeatures.forEach((entry) => {
+      const propertiesWithCluster = entry.feature.properties as typeof entry.feature.properties & {
+        cluster_key?: number | string
+      }
+
+      const clusterKey = propertiesWithCluster?.cluster_key
+      const normalizedKey =
+        typeof clusterKey === 'string' ? clusterKey.trim() : clusterKey
+
+      if (normalizedKey === undefined || normalizedKey === null || normalizedKey === '') {
+        return
+      }
+
+      const members = explicitClusterMembers.get(normalizedKey) ?? []
+      members.push(entry.id)
+      explicitClusterMembers.set(normalizedKey, members)
+    })
+
+    explicitClusterMembers.forEach((members) => {
+      if (members.length <= 1) {
+        return
+      }
+
+      const [first, ...rest] = members
+      rest.forEach((id) => union(first, id))
+    })
+
     for (let i = 0; i < pointFeatures.length; i++) {
       const current = pointFeatures[i]
       for (let j = i + 1; j < pointFeatures.length; j++) {
