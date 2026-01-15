@@ -74,15 +74,14 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   london: [-0.1276, 51.5072],
   madrid: [-3.7038, 40.4168],
   manchester: [-2.2426, 53.4808],
-  muenchen: [11.5820, 48.1351], // Munich
-  nr: [-1.4701, 52.9228], // UK Center approx (Derby)
+  munich: [11.5820, 48.1351], // Munich
   nottingham: [-1.1581, 52.9548],
   paris: [2.3522, 48.8566],
   potsdam: [13.0645, 52.3960],
   sheffield: [-1.4701, 53.3811],
   stockholm: [18.0686, 59.3293],
   taw: [-1.6178, 54.9783], // Tyne and Wear (Newcastle)
-  wien: [16.3738, 48.2082], // Vienna
+  vienna: [16.3738, 48.2082], // Vienna
   wm: [-1.8904, 52.4862], // West Midlands (Birmingham)
 
   // Asia

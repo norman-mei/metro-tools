@@ -22,7 +22,7 @@ const fc = {
 
 export const metadata = config.METADATA
 
-export default function Wien() {
+export default function Vienna() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>

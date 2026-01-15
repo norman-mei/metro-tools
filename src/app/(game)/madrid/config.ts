@@ -172,7 +172,6 @@ const config: Config = {
   MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
-  MAP_FROM_DATA,
   LINE_GROUPS,
   MAP_CONFIG,
   METADATA,

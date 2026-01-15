@@ -51,7 +51,7 @@ const replacers: { [key: string]: (str: string) => string } = {
       .replace(/hbf/g, 'hauptbahnhof')
       .replace(/ß/g, 'ss'),
 
-  muenchen: (str) =>
+  munich: (str) =>
     str
       .replace(/straße/g, 'str')
       .replace(/strasse/g, 'str')
@@ -69,7 +69,7 @@ const replacers: { [key: string]: (str: string) => string } = {
       .replace(/ and /g, ' ')
       .replace(/ & /g, ' '),
 
-  wien: (str) =>
+  vienna: (str) =>
     str
       .replace(/ß/g, 'ss')
       .replace(/strasse/g, 'str')

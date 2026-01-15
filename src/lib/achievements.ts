@@ -228,7 +228,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Mountaineer Mind",
     description: "You've PRT'd through the mountains like a true West Virginian!",
   },
-  muenchen: {
+  munich: {
     title: "Oktoberfest Navigator",
     description: "Prost! You've U-Bahn'd and S-Bahn'd through Bavaria's capital!",
   },
@@ -251,10 +251,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   nottingham: {
     title: "The Queen of the Midlands",
     description: "You've tram'd through Sherwood like the hero of transit!",
-  },
-  nr: {
-    title: "Nothing Beats Being There!",
-    description: "You've conquered Britain's entire rail network. Mind the gap indeed!",
   },
   ny: {
     title: "Stand Clear of the Closing Doors, Please.",
@@ -392,7 +388,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Wellywood Wizard",
     description: "You've Metlink'd through Wellington like Peter Jackson! Middle-Earth mastery!",
   },
-  wien: {
+  vienna: {
     title: "Waltz of Transit",
     description: "You've U-Bahn'd through Vienna with imperial elegance. Wunderbar!",
   },

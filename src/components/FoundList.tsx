@@ -480,7 +480,7 @@ const GroupedLine = memo(
     const { LINES, CITY_NAME, LINE_GROUPS = [] } = useConfig()
     const { resolvedTheme } = useTheme()
     const isDark = resolvedTheme === 'dark'
-    const buttonRef = useRef<HTMLButtonElement | null>(null)
+    const buttonRef = useRef<HTMLDivElement | null>(null)
     const [nextIndex, setNextIndex] = useState(0)
 
     const lineOrderMap = useMemo(() => {

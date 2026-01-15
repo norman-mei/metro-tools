@@ -23,7 +23,7 @@ const routesFc = routes as RoutesFeatureCollection
 
 export const metadata = config.METADATA
 
-export default function Hamburg() {
+export default function Munich() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>

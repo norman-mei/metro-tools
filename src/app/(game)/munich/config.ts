@@ -134,8 +134,8 @@ export const LINE_GROUPS: LineGroup[] = [
 
 export const METADATA: Metadata = {
   icons: {
-    icon: '/api/city-icon/muenchen',
-    apple: '/api/city-icon/muenchen',
+    icon: '/api/city-icon/munich',
+    apple: '/api/city-icon/munich',
   },
   title: 'München Bahn Memory',
   description: 'Wie viele S- und U-Bahn Stationen können Sie auswendig nennen?',
@@ -145,7 +145,7 @@ export const METADATA: Metadata = {
       'Wie viele S- und U-Bahn-Stationen können Sie auswendig nennen? Spielen Sie das München Bahn Memory und finden Sie es heraus!',
     type: 'website',
     locale: 'de_DE',
-    url: 'https://metro-memory.com/muenchen',
+    url: 'https://metro-memory.com/munich',
   },
 }
 
@@ -158,7 +158,7 @@ export const MAP_CONFIG: MapboxOptions = {
 }
 
 
-export const CITY_NAME = 'muenchen'
+export const CITY_NAME = 'munich'
 
 export const LOCALE = 'de'
 
@@ -169,7 +169,6 @@ const config: Config = {
   MAP_FROM_DATA,
   LOCALE,
   CITY_NAME,
-  MAP_FROM_DATA,
   LINE_GROUPS,
   MAP_CONFIG,
   METADATA,

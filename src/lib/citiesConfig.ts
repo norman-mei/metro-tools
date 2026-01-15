@@ -53,13 +53,12 @@ import mexicoCity from '@/app/(game)/mexico-city/opengraph-image.jpg'
 import milwaukee from '@/app/(game)/milwaukee/opengraph-image.jpg'
 import montreal from '@/app/(game)/montreal/opengraph-image.jpg'
 import morgantown from '@/app/(game)/morgantown/opengraph-image.jpg'
-import muenchen from '@/app/(game)/muenchen/opengraph-image.jpg'
+import munich from '@/app/(game)/munich/opengraph-image.jpg'
 import nashville from '@/app/(game)/nashville/opengraph-image.jpg'
 import newcastle from '@/app/(game)/newcastle/opengraph-image.jpg'
 import neworleans from '@/app/(game)/neworleans/opengraph-image.jpg'
 import norfolk from '@/app/(game)/norfolk/opengraph-image.jpg'
 import nottingham from '@/app/(game)/nottingham/opengraph-image.jpg'
-import nr from '@/app/(game)/nr/opengraph-image.jpg'
 import ny from '@/app/(game)/ny/opengraph-image.jpg'
 import okc from '@/app/(game)/okc/opengraph-image.jpg'
 import sanJuan from '@/app/(game)/san-juan/opengraph-image.jpg'
@@ -92,7 +91,7 @@ import twincities from '@/app/(game)/twincities/opengraph-image.jpg'
 import vancouver from '@/app/(game)/vancouver/opengraph-image.jpg'
 import viarail from '@/app/(game)/viarail/opengraph-image.jpg'
 import wellington from '@/app/(game)/wellington/opengraph-image.jpg'
-import wien from '@/app/(game)/wien/opengraph-image.jpg'
+import vienna from '@/app/(game)/vienna/opengraph-image.jpg'
 import wm from '@/app/(game)/wm/opengraph-image.jpg'
 import yarra from '@/app/(game)/yarra/opengraph-image.jpg'
 
@@ -516,17 +515,11 @@ export const cities: ICity[] = [
     continent: 'Europe',
   },
   {
-    name: 'München, DE',
-    image: muenchen,
-    link: '/muenchen',
+    name: 'Munich, DE',
+    image: munich,
+    link: '/munich',
     continent: 'Europe',
-  },
-  {
-    name: 'National Rail, UK',
-    image: nr,
-    link: '/nr',
-    continent: 'Europe',
-    hideInStats: true,
+    keywords: ['Muenchen', 'München'],
   },
   {
     name: 'Nottingham, UK',
@@ -566,8 +559,8 @@ export const cities: ICity[] = [
   },
   {
     name: 'Vienna, AT',
-    image: wien,
-    link: '/wien',
+    image: vienna,
+    link: '/vienna',
     continent: 'Europe',
   },
   {

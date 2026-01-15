@@ -57,8 +57,8 @@ export const LINE_GROUPS: LineGroup[] = [
 
 export const METADATA: Metadata = {
   icons: {
-    icon: '/api/city-icon/wien',
-    apple: '/api/city-icon/wien',
+    icon: '/api/city-icon/vienna',
+    apple: '/api/city-icon/vienna',
   },
   title: 'Wien U-Bahn Memory',
   description: 'Wie viele U-Bahn Stationen können Sie auswendig nennen?',
@@ -68,7 +68,7 @@ export const METADATA: Metadata = {
       'Wie viele U-Bahn-Stationen können Sie auswendig nennen? Spielen Sie das Wien Bahn Memory und finden Sie es heraus!',
     type: 'website',
     locale: 'de_DE',
-    url: 'https://wien.metro-memory.com/',
+    url: 'https://metro-memory.com/vienna',
   },
 }
 
@@ -89,7 +89,7 @@ export const MAP_CONFIG: MapboxOptions = {
 }
 
 
-export const CITY_NAME = 'wien'
+export const CITY_NAME = 'vienna'
 
 export const LOCALE = 'de'
 
@@ -100,7 +100,6 @@ const config: Config = {
   GAUGE_COLORS: 'inverted',
   LOCALE,
   CITY_NAME,
-  MAP_FROM_DATA,
   LINE_GROUPS,
   MAP_CONFIG,
   METADATA,
