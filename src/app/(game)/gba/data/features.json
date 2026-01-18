@@ -93,6 +93,7 @@
         ],
         "line": "AEL",
         "order": 1,
+        "cluster_key": "kowloon_austin_west_kowloon_complex",
         "original_city": "hk"
       },
       "id": 53
@@ -31727,6 +31728,7 @@
         ],
         "line": "TCL",
         "order": 4,
+        "cluster_key": "kowloon_austin_west_kowloon_complex",
         "original_city": "hk"
       },
       "id": 18
@@ -32880,6 +32882,7 @@
         ],
         "line": "TML",
         "order": 12,
+        "cluster_key": "kowloon_austin_west_kowloon_complex",
         "original_city": "hk"
       },
       "id": 34
@@ -34575,6 +34578,7 @@
         ],
         "line": "XRL",
         "order": 0,
+        "cluster_key": "kowloon_austin_west_kowloon_complex",
         "original_city": "hk"
       },
       "id": 20016
@@ -40474,6 +40478,7 @@
         ],
         "line": "szline3",
         "order": 16,
+        "cluster_key": "buji_shenzhen_east_complex",
         "original_city": "sz",
         "connections": [
           "Shenzhen East",
@@ -42755,6 +42760,7 @@
         ],
         "line": "szline5",
         "order": 28,
+        "cluster_key": "buji_shenzhen_east_complex",
         "original_city": "sz",
         "connections": [
           "Shenzhen East",
@@ -49815,6 +49821,7 @@
         ],
         "line": "szline14",
         "order": 3,
+        "cluster_key": "buji_shenzhen_east_complex",
         "original_city": "sz",
         "connections": [
           "Shenzhen East",
@@ -62239,6 +62246,7 @@
         ],
         "line": "prdir_guangshen",
         "order": 7,
+        "cluster_key": "buji_shenzhen_east_complex",
         "original_city": "prdir",
         "connections": [
           "Buji"
