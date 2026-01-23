@@ -54,6 +54,7 @@ import milwaukee from '@/app/(game)/milwaukee/opengraph-image.jpg'
 import montreal from '@/app/(game)/montreal/opengraph-image.jpg'
 import morgantown from '@/app/(game)/morgantown/opengraph-image.jpg'
 import munich from '@/app/(game)/munich/opengraph-image.jpg'
+import nanning from '@/app/(game)/nanning/opengraph-image.jpg'
 import nashville from '@/app/(game)/nashville/opengraph-image.jpg'
 import newcastle from '@/app/(game)/newcastle/opengraph-image.jpg'
 import neworleans from '@/app/(game)/neworleans/opengraph-image.jpg'
@@ -94,6 +95,8 @@ import wellington from '@/app/(game)/wellington/opengraph-image.jpg'
 import vienna from '@/app/(game)/vienna/opengraph-image.jpg'
 import wm from '@/app/(game)/wm/opengraph-image.jpg'
 import yarra from '@/app/(game)/yarra/opengraph-image.jpg'
+import taizhou from '@/app/(game)/taizhou/opengraph-image.jpg'
+import urumqi from '@/app/(game)/urumqi/opengraph-image.jpg'
 
 import { StaticImageData } from 'next/image'
 
@@ -596,6 +599,26 @@ export const cities: ICity[] = [
     name: 'Shanghai (上海), CN',
     image: shanghai,
     link: '/shanghai',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Nanning (南宁), CN',
+    image: nanning,
+    link: '/nanning',
+    continent: 'Asia',
+  },
+  {
+    name: 'Taizhou (台州), CN',
+    image: taizhou,
+    link: '/taizhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Ürümqi (乌鲁木齐), CN',
+    image: urumqi,
+    link: '/urumqi',
     continent: 'Asia',
     hideInStats: true,
   },

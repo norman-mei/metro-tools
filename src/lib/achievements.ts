@@ -232,6 +232,18 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Oktoberfest Navigator",
     description: "Prost! You've U-Bahn'd and S-Bahn'd through Bavaria's capital!",
   },
+  nanning: {
+    title: "Green City Guru",
+    description: "You've cruised through Nanning's network in the Green City! 干得好！",
+  },
+  taizhou: {
+    title: "Harbor Coast Hero",
+    description: "You've mapped Taizhou's seaside network like a local! 太棒了！",
+  },
+  urumqi: {
+    title: "Silk Road Savant",
+    description: "You've navigated Ürümqi's network at the edge of the Silk Road! 太厉害了！",
+  },
   nashville: {
     title: "Music City Maestro",
     description: "You've hit all the right notes on Nashville's transit lines!",

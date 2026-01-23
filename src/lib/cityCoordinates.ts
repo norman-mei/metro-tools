@@ -87,6 +87,7 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   // Asia
   beijing: [116.4074, 39.9042],
   gba: [113.6, 22.9], // Greater Bay Area centroid (Guangdong)
+  nanning: [108.3200, 22.8240],
   seoul: [126.9780, 37.5665],
   shanghai: [121.4737, 31.2304],
   singapore: [103.8198, 1.3521],
@@ -97,6 +98,8 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   taichung: [120.6736, 24.1477],
   hochiminhcity: [106.6297, 10.8231],
   hanoi: [105.8342, 21.0278],
+  taizhou: [121.4200, 28.6561],
+  urumqi: [87.6168, 43.8256],
 
   // Oceania
   adelaide: [138.6007, -34.9285],

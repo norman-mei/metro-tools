@@ -1,0 +1,2938 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.367,
+          22.8156
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Jinhu Square (金湖广场)",
+        "alternate_names": [
+          "金湖广场",
+          "Jinhu Square",
+          "JINHU Square (金湖广场)",
+          "JINHU Square",
+          "Ginhhuz Gvangjcangz"
+        ],
+        "line": "nanning1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4145649,
+          22.8155939
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Langdong Coach Station (埌东客运站)",
+        "alternate_names": [
+          "埌东客运站",
+          "Langdong Coach Station"
+        ],
+        "line": "nanning1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.31231147999999,
+          22.82764898
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nanning Railway Station (火车站)",
+        "alternate_names": [
+          "火车站",
+          "Nanning Railway Station",
+          "Nanning Railway Station (火车站)",
+          "Hojcehcan"
+        ],
+        "line": "nanning1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.40991230000002,
+          22.842163333333332
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nanning East Railway Station (火车东站)",
+        "alternate_names": [
+          "火车东站",
+          "Nanning East Railway Station",
+          "Nanning East Railway Station (火车东站)",
+          "Hojceh Dunghcan"
+        ],
+        "line": "nanning1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.31696643999999,
+          22.8195749
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Chaoyang Square (朝阳广场)",
+        "alternate_names": [
+          "朝阳广场",
+          "Chaoyang Square",
+          "Chaoyang Square (朝阳广场)",
+          "Cauzyangz Gvangjcangz"
+        ],
+        "line": "nanning1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.32279706666667,
+          22.8157973
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Xinmin Road (新民路)",
+        "alternate_names": [
+          "新民路",
+          "Xinmin Road",
+          "Xinmin LU",
+          "XINMIN LU (新民路)",
+          "XINMIN LU",
+          "Roen Sinhminz"
+        ],
+        "line": "nanning1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.35881216666667,
+          22.815691833333332
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nanhu (南湖)",
+        "alternate_names": [
+          "南湖",
+          "Nanhu",
+          "NANHU (南湖)",
+          "NANHU",
+          "Nanzhuz"
+        ],
+        "line": "nanning1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.34340329999999,
+          22.815743466666664
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Macun (麻村)",
+        "alternate_names": [
+          "麻村",
+          "Macun",
+          "MACUN (麻村)",
+          "MACUN",
+          "Mazcunh"
+        ],
+        "line": "nanning1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.33226533333334,
+          22.815770666666666
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Minzu Square (民族广场)",
+        "alternate_names": [
+          "民族广场",
+          "Minzu Square",
+          "MINZU Square (民族广场)",
+          "MINZU Square",
+          "Minzcuz Gvangjcangz"
+        ],
+        "line": "nanning1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.42082183333332,
+          22.834146500000003
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Foziling (佛子岭)",
+        "alternate_names": [
+          "佛子岭",
+          "Foziling",
+          "FOZILING (佛子岭)",
+          "FOZILING",
+          "Fuzswjlingj"
+        ],
+        "line": "nanning1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.42371553333334,
+          22.821303866666668
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Baihualing (百花岭)",
+        "alternate_names": [
+          "百花岭",
+          "Baihualing",
+          "BAIHUALING (百花岭)",
+          "BAIHUALING",
+          "Bwzvahlingj"
+        ],
+        "line": "nanning1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4062978,
+          22.815592366666664
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Fengling (凤岭)",
+        "alternate_names": [
+          "凤岭",
+          "Fengling",
+          "FENGLING (凤岭)",
+          "FENGLING",
+          "Funglingj"
+        ],
+        "line": "nanning1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2887,
+          22.8339
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Guangxi University (广西大学)",
+        "alternate_names": [
+          "广西大学",
+          "Guangxi University",
+          "Guangxi University (广西大学)",
+          "Gvangjsih Dayoz"
+        ],
+        "line": "nanning1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.39482526666666,
+          22.815614933333336
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Asean Business District (东盟商务区)",
+        "alternate_names": [
+          "东盟商务区",
+          "Asean Business District",
+          "ASEAN Business District",
+          "ASEAN Business District (东盟商务区)",
+          "Dunghmungz Sanghvugih"
+        ],
+        "line": "nanning1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.38743446666666,
+          22.815660666666663
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Wanxiangcheng (万象城)",
+        "alternate_names": [
+          "万象城",
+          "Wanxiangcheng",
+          "WANXIANGCHENG (万象城)",
+          "WANXIANGCHENG",
+          "Vansiengcwngz"
+        ],
+        "line": "nanning1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.37935793333334,
+          22.815670566666668
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Convention & Exhibition Center (会展中心)",
+        "alternate_names": [
+          "会展中心",
+          "Convention & Exhibition Center",
+          "Convention & Exhibition Center (会展中心)",
+          "Veicanj Cunghsinh"
+        ],
+        "line": "nanning1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3033203,
+          22.833864766666665
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Baicangling (白苍岭)",
+        "alternate_names": [
+          "白苍岭",
+          "Baicangling",
+          "BAICANGLING (白苍岭)",
+          "BAICANGLING",
+          "Bwzcanghlingj"
+        ],
+        "line": "nanning1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2639155,
+          22.84058536666667
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Nanning Zoo (动物园)",
+        "alternate_names": [
+          "动物园",
+          "Nanning Zoo",
+          "Nanning Zoo (动物园)",
+          "Dungvuzyenz"
+        ],
+        "line": "nanning1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24905193333332,
+          22.84302683333333
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Qingchuan (清川)",
+        "alternate_names": [
+          "清川",
+          "Qingchuan",
+          "QINGCHUAN (清川)",
+          "QINGCHUAN",
+          "Cinghconh"
+        ],
+        "line": "nanning1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22914526666666,
+          22.840168833333333
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Guangxi University For Nationalities (民族大学)",
+        "alternate_names": [
+          "民族大学",
+          "Guangxi University For Nationalities",
+          "Guangxi University for Nationalities (民族大学)",
+          "Guangxi University for Nationalities",
+          "Minzcuz Dayoz"
+        ],
+        "line": "nanning1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2148932,
+          22.835718566666667
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Xixiangtang Coach Station (西乡塘客运站)",
+        "alternate_names": [
+          "西乡塘客运站",
+          "Xixiangtang Coach Station",
+          "XIXIANGTANG Coach Station (西乡塘客运站)",
+          "XIXIANGTANG Coach Station",
+          "Camh Yinhhek Sihyanghdangz"
+        ],
+        "line": "nanning1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2792953,
+          22.8368479
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Luban Road (鲁班路)",
+        "alternate_names": [
+          "鲁班路",
+          "Luban Road",
+          "Luban Lu",
+          "Luban Lu (鲁班路)",
+          "Roen Lujbanh"
+        ],
+        "line": "nanning1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.19820533333332,
+          22.835748866666666
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Pengfei Road (鹏飞路)",
+        "alternate_names": [
+          "鹏飞路",
+          "Pengfei Road",
+          "Pengfei LU",
+          "PENGFEI LU (鹏飞路)",
+          "PENGFEI LU",
+          "Roen Bungzfaih"
+        ],
+        "line": "nanning1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1882758,
+          22.835756866666667
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Nanning College For Vocational Technology (南职院)",
+        "alternate_names": [
+          "南职院",
+          "Nanning College For Vocational Technology",
+          "Nanning College for Vocational Technology (南职院)",
+          "Nanning College for Vocational Technology",
+          "Nanzciyenz"
+        ],
+        "line": "nanning1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.17322956666668,
+          22.828853199999998
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Shibu (石埠)",
+        "alternate_names": [
+          "石埠",
+          "Shibu",
+          "SHIBU (石埠)",
+          "SHIBU",
+          "Sizbu"
+        ],
+        "line": "nanning1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3072,
+          22.7977
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Fujian Garden (福建园)",
+        "alternate_names": [
+          "福建园",
+          "Fujian Garden"
+        ],
+        "line": "nanning2",
+        "order": 0
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.29452966666668,
+          22.892097466666666
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Xijin (西津)",
+        "alternate_names": [
+          "西津",
+          "Xijin",
+          "Xijin (西津)"
+        ],
+        "line": "nanning2",
+        "order": 1
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.313,
+          22.7636
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Dashatian (大沙田)",
+        "alternate_names": [
+          "大沙田",
+          "Dashatian",
+          "DASHATIAN (大沙田)",
+          "DASHATIAN"
+        ],
+        "line": "nanning2",
+        "order": 2
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.31696643999999,
+          22.8195749
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Chaoyang Square (朝阳广场)",
+        "alternate_names": [
+          "朝阳广场",
+          "Chaoyang Square",
+          "Chaoyang Square (朝阳广场)",
+          "Cauzyangz Gvangjcangz"
+        ],
+        "line": "nanning2",
+        "order": 3
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.31231147999999,
+          22.82764898
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Nanning Railway Station (火车站)",
+        "alternate_names": [
+          "火车站",
+          "Nanning Railway Station",
+          "Nanning Railway Station (火车站)",
+          "Hojcehcan"
+        ],
+        "line": "nanning2",
+        "order": 4
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3083,
+          22.8428
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Mingxiu Road (明秀路)",
+        "alternate_names": [
+          "明秀路",
+          "Mingxiu Road",
+          "Mingxiu LU",
+          "MINGXIU LU (明秀路)",
+          "MINGXIU LU",
+          "Roen Mingzsiu"
+        ],
+        "line": "nanning2",
+        "order": 5
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3325441,
+          22.7252409
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Yudong (玉洞)",
+        "alternate_names": [
+          "玉洞",
+          "Yudong",
+          "Yudong (玉洞)"
+        ],
+        "line": "nanning2",
+        "order": 6
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.30813640000001,
+          22.7693062
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Jiangnan Coach Station (江南客运站)",
+        "alternate_names": [
+          "江南客运站",
+          "Jiangnan Coach Station",
+          "Jiangnan Coach Station (江南客运站)"
+        ],
+        "line": "nanning2",
+        "order": 7
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.32021579999999,
+          22.7440189
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Shizitang (石子塘)",
+        "alternate_names": [
+          "石子塘",
+          "Shizitang",
+          "Shizitang (石子塘)"
+        ],
+        "line": "nanning2",
+        "order": 8
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.29833839999999,
+          22.8605475
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Nanning No. 33 Middle School (三十三中)",
+        "alternate_names": [
+          "三十三中",
+          "Nanning No. 33 Middle School",
+          "Nanning No. 33 Middle School (三十三中)"
+        ],
+        "line": "nanning2",
+        "order": 9
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.30733950000001,
+          22.791668299999998
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Tinghong Road (亭洪路)",
+        "alternate_names": [
+          "亭洪路",
+          "Tinghong Road",
+          "Tinghong Lu",
+          "Tinghong Lu (亭洪路)"
+        ],
+        "line": "nanning2",
+        "order": 10
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.30292643333333,
+          22.8510084
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Xiuxiang (秀厢)",
+        "alternate_names": [
+          "秀厢",
+          "Xiuxiang",
+          "Xiuxiang (秀厢)"
+        ],
+        "line": "nanning2",
+        "order": 11
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.31435556666668,
+          22.754564966666667
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Jianshe Road (建设路)",
+        "alternate_names": [
+          "建设路",
+          "Jianshe Road",
+          "Jianshe Lu",
+          "Jianshe Lu (建设路)"
+        ],
+        "line": "nanning2",
+        "order": 12
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.36938449999998,
+          22.7276275
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Nafu Road (那福路)",
+        "alternate_names": [
+          "那福路",
+          "Nafu Road",
+          "Nafu Lu",
+          "Nafu Lu (那福路)"
+        ],
+        "line": "nanning2",
+        "order": 13
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.29555536666668,
+          22.8718009
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Sulu (苏卢)",
+        "alternate_names": [
+          "苏卢",
+          "Sulu",
+          "Sulu (苏卢)"
+        ],
+        "line": "nanning2",
+        "order": 14
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.356285,
+          22.724155033333332
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Yuling Road (玉岭路)",
+        "alternate_names": [
+          "玉岭路",
+          "Yuling Road",
+          "Yuling LU",
+          "YULING LU (玉岭路)",
+          "YULING LU"
+        ],
+        "line": "nanning2",
+        "order": 15
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.30746633333332,
+          22.784261400000002
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Shizhuling (石柱岭)",
+        "alternate_names": [
+          "石柱岭",
+          "Shizhuling",
+          "Shizhuling (石柱岭)"
+        ],
+        "line": "nanning2",
+        "order": 16
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3095795,
+          22.806916933333337
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Nanning Theater (南宁剧场)",
+        "alternate_names": [
+          "南宁剧场",
+          "Nanning Theater",
+          "Nanning Theater (南宁剧场)"
+        ],
+        "line": "nanning2",
+        "order": 17
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3797,
+          22.729
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Pingliang Overpass (平良立交)",
+        "alternate_names": [
+          "平良立交",
+          "Pingliang Overpass",
+          "PINGLIANG Overpass (平良立交)",
+          "PINGLIANG Overpass"
+        ],
+        "line": "nanning2",
+        "order": 18
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.34837806666667,
+          22.72213526666667
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Dongfeng Road (东风路)",
+        "alternate_names": [
+          "东风路",
+          "Dongfeng Road",
+          "Dongfeng Lu",
+          "Dongfeng Lu (东风路)"
+        ],
+        "line": "nanning2",
+        "order": 19
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2938,
+          22.8824
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Anji Coach Station (安吉客运站)",
+        "alternate_names": [
+          "安吉客运站",
+          "Anji Coach Station",
+          "Anji Coach Station (安吉客运站)"
+        ],
+        "line": "nanning2",
+        "order": 20
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3923751,
+          22.728850000000005
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Tanze (坛泽)",
+        "alternate_names": [
+          "坛泽",
+          "Tanze",
+          "Tanze (坛泽)"
+        ],
+        "line": "nanning2",
+        "order": 21
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3284,
+          22.734
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Jinxiang (金象)",
+        "alternate_names": [
+          "金象",
+          "Jinxiang"
+        ],
+        "line": "nanning2",
+        "order": 22
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.367,
+          22.8156
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Jinhu Square (金湖广场)",
+        "alternate_names": [
+          "金湖广场",
+          "Jinhu Square",
+          "JINHU Square (金湖广场)",
+          "JINHU Square",
+          "Ginhhuz Gvangjcangz"
+        ],
+        "line": "nanning3",
+        "order": 0
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3642,
+          22.8109
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Langxi (埌西)",
+        "alternate_names": [
+          "埌西",
+          "Langxi"
+        ],
+        "line": "nanning3",
+        "order": 1
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.26586094999999,
+          22.88126295
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Keyuan Dadao (科园大道)",
+        "alternate_names": [
+          "科园大道",
+          "Keyuan Dadao",
+          "Keyuan Dadao (科园大道)"
+        ],
+        "line": "nanning3",
+        "order": 2
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.360759,
+          22.8015843
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Qingzhu Overpass (青竹立交)",
+        "alternate_names": [
+          "青竹立交",
+          "Qingzhu Overpass",
+          "Qingzhu Overpass (青竹立交)"
+        ],
+        "line": "nanning3",
+        "order": 3
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.36452865000001,
+          22.79535275
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Qingxiushan (青秀山)",
+        "alternate_names": [
+          "青秀山",
+          "Qingxiushan",
+          "Qingxiushan (青秀山)"
+        ],
+        "line": "nanning3",
+        "order": 4
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2798892,
+          22.881623400000002
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Chuangye Road (创业路)",
+        "alternate_names": [
+          "创业路",
+          "Chuangye Road",
+          "Chuangye Road (创业路)"
+        ],
+        "line": "nanning3",
+        "order": 5
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2938,
+          22.8824
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Anji Coach Station (安吉客运站)",
+        "alternate_names": [
+          "安吉客运站",
+          "Anji Coach Station",
+          "Anji Coach Station (安吉客运站)"
+        ],
+        "line": "nanning3",
+        "order": 6
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.37208100000001,
+          22.77768925
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Nanning Museum (市博物馆)",
+        "alternate_names": [
+          "市博物馆",
+          "Nanning Museum",
+          "Nanning Museum (市博物馆)"
+        ],
+        "line": "nanning3",
+        "order": 7
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3723,
+          22.7706
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Advanced Business Park (总部基地)",
+        "alternate_names": [
+          "总部基地",
+          "Advanced Business Park",
+          "Advanced Business Park (总部基地)"
+        ],
+        "line": "nanning3",
+        "order": 8
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.312469,
+          22.87893105
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Beihubei Road (北湖北路)",
+        "alternate_names": [
+          "北湖北路",
+          "Beihubei Road",
+          "Beihubei Road (北湖北路)"
+        ],
+        "line": "nanning3",
+        "order": 9
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.37374439999999,
+          22.759864
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Guangxi Planning Exhibition Hall (广西规划馆)",
+        "alternate_names": [
+          "广西规划馆",
+          "Guangxi Planning Exhibition Hall",
+          "Guangxi Planning Exhibition Hall (广西规划馆)"
+        ],
+        "line": "nanning3",
+        "order": 10
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.37921015,
+          22.753105599999998
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Qing'ge Road (庆歌路)",
+        "alternate_names": [
+          "庆歌路",
+          "Qing'ge Road",
+          "Qing'ge Road (庆歌路)"
+        ],
+        "line": "nanning3",
+        "order": 11
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.32731945,
+          22.88108395
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Xiufeng Road (秀峰路)",
+        "alternate_names": [
+          "秀峰路",
+          "Xiufeng Road",
+          "Xiufeng Road (秀峰路)"
+        ],
+        "line": "nanning3",
+        "order": 12
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.37989805000001,
+          22.74154605
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Wuxiang Lake (五象湖)",
+        "alternate_names": [
+          "五象湖",
+          "Wuxiang Lake",
+          "Wuxiang Lake (五象湖)"
+        ],
+        "line": "nanning3",
+        "order": 13
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3363459,
+          22.87839585
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Yongwu Road (邕武路)",
+        "alternate_names": [
+          "邕武路",
+          "Yongwu Road",
+          "Yongwu Road (邕武路)"
+        ],
+        "line": "nanning3",
+        "order": 14
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3797,
+          22.729
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Pingliang Overpass (平良立交)",
+        "alternate_names": [
+          "平良立交",
+          "Pingliang Overpass",
+          "PINGLIANG Overpass (平良立交)",
+          "PINGLIANG Overpass"
+        ],
+        "line": "nanning3",
+        "order": 15
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3475689,
+          22.875264
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Dajicun (大鸡村)",
+        "alternate_names": [
+          "大鸡村",
+          "Dajicun",
+          "Dajicun (大鸡村)",
+          "Dagihcunh"
+        ],
+        "line": "nanning3",
+        "order": 16
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3525637,
+          22.86758005
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Xinggui Road (兴桂路)",
+        "alternate_names": [
+          "兴桂路",
+          "Xinggui Road",
+          "Xinggui Road (兴桂路)"
+        ],
+        "line": "nanning3",
+        "order": 17
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3518945,
+          22.8590348
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Xiaojicun (小鸡村)",
+        "alternate_names": [
+          "小鸡村",
+          "Xiaojicun",
+          "XIAO Jicun",
+          "XIAO JICUN (小鸡村)",
+          "XIAO JICUN",
+          "Siujgihcunh"
+        ],
+        "line": "nanning3",
+        "order": 18
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3507945,
+          22.84850625
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Donggouling (东沟岭)",
+        "alternate_names": [
+          "东沟岭",
+          "Donggouling",
+          "Donggouling (东沟岭)"
+        ],
+        "line": "nanning3",
+        "order": 19
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.35301125000001,
+          22.83891355
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Changgang Road (长堽路)",
+        "alternate_names": [
+          "长堽路",
+          "Changgang Road",
+          "Changgang Road (长堽路)"
+        ],
+        "line": "nanning3",
+        "order": 20
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.35566650000001,
+          22.83299755
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Dongge Road (东葛路)",
+        "alternate_names": [
+          "东葛路",
+          "Dongge Road",
+          "Dongge Road (东葛路)"
+        ],
+        "line": "nanning3",
+        "order": 21
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.365516,
+          22.827667849999997
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Binhu Road (滨湖路)",
+        "alternate_names": [
+          "滨湖路",
+          "Binhu Road",
+          "Binhu Road (滨湖路)"
+        ],
+        "line": "nanning3",
+        "order": 22
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.267,
+          22.7636
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Nahong Overpass (那洪立交)",
+        "alternate_names": [
+          "那洪立交",
+          "Nahong Overpass",
+          "Nahong Overpass (那洪立交)",
+          "Nazhungz Lizgyauh"
+        ],
+        "line": "nanning4",
+        "order": 0
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2378365,
+          22.768441733333333
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Hongyun Road (洪运路)",
+        "alternate_names": [
+          "洪运路",
+          "Hongyun Road",
+          "Hongyun Lu",
+          "Hongyun Lu (洪运路)"
+        ],
+        "line": "nanning4",
+        "order": 1
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.313,
+          22.7636
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Dashatian (大沙田)",
+        "alternate_names": [
+          "大沙田",
+          "Dashatian",
+          "DASHATIAN (大沙田)",
+          "DASHATIAN"
+        ],
+        "line": "nanning4",
+        "order": 2
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.46065206666667,
+          22.766109966666665
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Longgang (龙岗)",
+        "alternate_names": [
+          "龙岗",
+          "Longgang",
+          "Longgang (龙岗)"
+        ],
+        "line": "nanning4",
+        "order": 3
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.25507526666667,
+          22.763626399999996
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Nalicun (那历村)",
+        "alternate_names": [
+          "那历村",
+          "Nalicun",
+          "NALICUN (那历村)",
+          "NALICUN"
+        ],
+        "line": "nanning4",
+        "order": 4
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45080436666666,
+          22.762270166666667
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Qingpingpo (清平坡)",
+        "alternate_names": [
+          "清平坡",
+          "Qingpingpo",
+          "Qingpingpo (清平坡)"
+        ],
+        "line": "nanning4",
+        "order": 5
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2964132,
+          22.761338166666665
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Tongyuan Road (通源路)",
+        "alternate_names": [
+          "通源路",
+          "Tongyuan Road",
+          "Tongyuan LU",
+          "TONGYUAN LU (通源路)",
+          "TONGYUAN LU"
+        ],
+        "line": "nanning4",
+        "order": 6
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.27756253333332,
+          22.763523066666664
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Jinyang Road (金阳路)",
+        "alternate_names": [
+          "金阳路",
+          "Jinyang Road",
+          "Jinyang LU",
+          "JINYANG LU (金阳路)",
+          "JINYANG LU"
+        ],
+        "line": "nanning4",
+        "order": 7
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.26744283333333,
+          22.7713416
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Jinkai Road (金凯路)",
+        "alternate_names": [
+          "金凯路",
+          "Jinkai Road",
+          "Jinkai LU",
+          "JINKAI LU (金凯路)",
+          "JINKAI LU",
+          "Roen Ginhgaij"
+        ],
+        "line": "nanning4",
+        "order": 8
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.42478816666666,
+          22.7569206
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Lengtangcun (楞塘村)",
+        "alternate_names": [
+          "楞塘村",
+          "Lengtangcun",
+          "Lengtangcun (楞塘村)"
+        ],
+        "line": "nanning4",
+        "order": 9
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3188075,
+          22.763504433333335
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Jinxiang Dadao (金象大道)",
+        "alternate_names": [
+          "金象大道",
+          "Jinxiang Dadao",
+          "Jinxiang Dadao (金象大道)"
+        ],
+        "line": "nanning4",
+        "order": 10
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.41376026666667,
+          22.7555784
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Liangqingxu (良庆圩)",
+        "alternate_names": [
+          "良庆圩",
+          "Liangqingxu",
+          "LIANGQINGXU (良庆圩)",
+          "LIANGQINGXU"
+        ],
+        "line": "nanning4",
+        "order": 11
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.38802593333332,
+          22.768069466666663
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Guangxi Sports Center West (体育中心西)",
+        "alternate_names": [
+          "体育中心西",
+          "Guangxi Sports Center West",
+          "Guangxi Sports Center West (体育中心西)"
+        ],
+        "line": "nanning4",
+        "order": 12
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3822804,
+          22.768992466666663
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Feilong Road (飞龙路)",
+        "alternate_names": [
+          "飞龙路",
+          "Feilong Road",
+          "Feilong LU",
+          "FEILONG LU (飞龙路)",
+          "FEILONG LU"
+        ],
+        "line": "nanning4",
+        "order": 13
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3723,
+          22.7706
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Advanced Business Park (总部基地)",
+        "alternate_names": [
+          "总部基地",
+          "Advanced Business Park",
+          "Advanced Business Park (总部基地)"
+        ],
+        "line": "nanning4",
+        "order": 14
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.35886403333332,
+          22.771117966666665
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Yuxiang Road (玉象路)",
+        "alternate_names": [
+          "玉象路",
+          "Yuxiang Road",
+          "Yuxiang LU",
+          "YUXIANG LU (玉象路)",
+          "YUXIANG LU"
+        ],
+        "line": "nanning4",
+        "order": 15
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3950984,
+          22.763436066666667
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Guangxi Sports Center East (体育中心东)",
+        "alternate_names": [
+          "体育中心东",
+          "Guangxi Sports Center East",
+          "Guangxi Sports Center East (体育中心东)"
+        ],
+        "line": "nanning4",
+        "order": 16
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4021188,
+          22.757544566666667
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Liangqing Bridge South (良庆大桥南)",
+        "alternate_names": [
+          "良庆大桥南",
+          "Liangqing Bridge South",
+          "LIANGQING Bridge South (良庆大桥南)",
+          "LIANGQING Bridge South"
+        ],
+        "line": "nanning4",
+        "order": 17
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.33516353333334,
+          22.76428196666667
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Wuxiangling (五象岭)",
+        "alternate_names": [
+          "五象岭",
+          "Wuxiangling",
+          "Wuxiangling (五象岭)"
+        ],
+        "line": "nanning4",
+        "order": 18
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2724,
+          22.8043
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Wuyi Overpass (五一立交)",
+        "alternate_names": [
+          "五一立交",
+          "Wuyi Overpass"
+        ],
+        "line": "nanning5",
+        "order": 0
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3518945,
+          22.8590348
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Xiaojicun (小鸡村)",
+        "alternate_names": [
+          "小鸡村",
+          "Xiaojicun",
+          "XIAO Jicun",
+          "XIAO JICUN (小鸡村)",
+          "XIAO JICUN",
+          "Siujgihcunh"
+        ],
+        "line": "nanning5",
+        "order": 1
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.38089916666667,
+          22.867175033333336
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Jinqiao Coach Station (金桥客运站)",
+        "alternate_names": [
+          "金桥客运站",
+          "Jinqiao Coach Station",
+          "JINQIAO Coach Station (金桥客运站)",
+          "JINQIAO Coach Station",
+          "Camh Yinhhek Ginhgyauz"
+        ],
+        "line": "nanning5",
+        "order": 2
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.26744283333333,
+          22.7713416
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Jinkai Road (金凯路)",
+        "alternate_names": [
+          "金凯路",
+          "Jinkai Road",
+          "Jinkai LU",
+          "JINKAI LU (金凯路)",
+          "JINKAI LU",
+          "Roen Ginhgaij"
+        ],
+        "line": "nanning5",
+        "order": 3
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.26767256666666,
+          22.783719566666665
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Jiangnan Park (江南公园)",
+        "alternate_names": [
+          "江南公园",
+          "Jiangnan Park",
+          "JIANGNAN Park (江南公园)",
+          "JIANGNAN Park",
+          "Gyanghnanz Gunghyenz"
+        ],
+        "line": "nanning5",
+        "order": 4
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.26815219999999,
+          22.792249366666667
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Zhoujiapo (周家坡)",
+        "alternate_names": [
+          "周家坡",
+          "Zhoujiapo",
+          "ZHOUJIAPO (周家坡)",
+          "ZHOUJIAPO"
+        ],
+        "line": "nanning5",
+        "order": 5
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3264788,
+          22.850558700000004
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Huqiu (虎邱)",
+        "alternate_names": [
+          "虎邱",
+          "Huqiu",
+          "HUQIU (虎邱)",
+          "HUQIU",
+          "Hujgiuh"
+        ],
+        "line": "nanning5",
+        "order": 6
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.30179820000001,
+          22.84001926666667
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Xiuling Road (秀灵路)",
+        "alternate_names": [
+          "秀灵路",
+          "Xiuling Road",
+          "Xiuling LU",
+          "XIULING LU (秀灵路)",
+          "XIULING LU",
+          "Roen Siulingz"
+        ],
+        "line": "nanning5",
+        "order": 7
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2887,
+          22.8339
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Guangxi University (广西大学)",
+        "alternate_names": [
+          "广西大学",
+          "Guangxi University",
+          "Guangxi University (广西大学)",
+          "Gvangjsih Dayoz"
+        ],
+        "line": "nanning5",
+        "order": 8
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3083,
+          22.8428
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Mingxiu Road (明秀路)",
+        "alternate_names": [
+          "明秀路",
+          "Mingxiu Road",
+          "Mingxiu LU",
+          "MINGXIU LU (明秀路)",
+          "MINGXIU LU",
+          "Roen Mingzsiu"
+        ],
+        "line": "nanning5",
+        "order": 9
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.28251686666665,
+          22.821754166666665
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Xinxiu Park (新秀公园)",
+        "alternate_names": [
+          "新秀公园",
+          "Xinxiu Park",
+          "XINXIU Park (新秀公园)",
+          "XINXIU Park",
+          "Sinhsiu Gunghyenz"
+        ],
+        "line": "nanning5",
+        "order": 10
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.31788086666666,
+          22.8469091
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Beihunan Road (北湖南路)",
+        "alternate_names": [
+          "北湖南路",
+          "Beihunan Road",
+          "Beihunan Lu",
+          "Beihunan Lu (北湖南路)",
+          "Roen Namz Bwzhuz"
+        ],
+        "line": "nanning5",
+        "order": 11
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.33668773333333,
+          22.855923366666662
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Shishan Park (狮山公园)",
+        "alternate_names": [
+          "狮山公园",
+          "Shishan Park",
+          "SHISHAN Park (狮山公园)",
+          "SHISHAN Park",
+          "Swhsanh Gunghyenz"
+        ],
+        "line": "nanning5",
+        "order": 12
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.35984586666666,
+          22.859559233333332
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Yongbing Overpass (邕宾立交)",
+        "alternate_names": [
+          "邕宾立交",
+          "Yongbing Overpass",
+          "YONGBING Overpass (邕宾立交)",
+          "YONGBING Overpass",
+          "Yunghbinh Lizgyauh"
+        ],
+        "line": "nanning5",
+        "order": 13
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.36981016666668,
+          22.8653597
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Jiangqiao (降桥)",
+        "alternate_names": [
+          "降桥",
+          "Jiangqiao",
+          "JIANGQIAO (降桥)",
+          "JIANGQIAO",
+          "Gyanggyauz"
+        ],
+        "line": "nanning5",
+        "order": 14
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.26781569999999,
+          22.7568407
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Guokai Dadao (国凯大道)",
+        "alternate_names": [
+          "国凯大道",
+          "Guokai Dadao",
+          "GUOKAI DADAO (国凯大道)",
+          "GUOKAI DADAO",
+          "Daihloh Gozgaij"
+        ],
+        "line": "nanning5",
+        "order": 15
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.267,
+          22.7636
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Nahong Overpass (那洪立交)",
+        "alternate_names": [
+          "那洪立交",
+          "Nahong Overpass",
+          "Nahong Overpass (那洪立交)",
+          "Nazhungz Lizgyauh"
+        ],
+        "line": "nanning5",
+        "order": 16
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2246276,
+          22.8058699
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Sanjin Dadao (三津大道)",
+        "alternate_names": [
+          "三津大道",
+          "Sanjin Dadao",
+          "Sanjin Dadao (三津大道)"
+        ],
+        "line": "nanning6",
+        "order": 0
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2323425,
+          22.8058829
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "South China City (华南城)",
+        "alternate_names": [
+          "华南城",
+          "South China City",
+          "South China City (华南城)"
+        ],
+        "line": "nanning6",
+        "order": 1
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2403261,
+          22.8058936
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "South China City East (华南城东)",
+        "alternate_names": [
+          "华南城东",
+          "South China City East",
+          "South China City East (华南城东)"
+        ],
+        "line": "nanning6",
+        "order": 2
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2584823,
+          22.8050271
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Hengling (横岭)",
+        "alternate_names": [
+          "横岭",
+          "Hengling",
+          "Hengling (横岭)"
+        ],
+        "line": "nanning6",
+        "order": 3
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4053392,
+          22.8094681
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Science And Technology Museum (市科技馆)",
+        "alternate_names": [
+          "市科技馆",
+          "Science And Technology Museum",
+          "Science and Technology Museum (市科技馆)",
+          "Science and Technology Museum"
+        ],
+        "line": "nanning6",
+        "order": 4
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2795024,
+          22.8016072
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Xinwu (新屋)",
+        "alternate_names": [
+          "新屋",
+          "Xinwu",
+          "Xinwu (新屋)"
+        ],
+        "line": "nanning6",
+        "order": 5
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3874762,
+          22.8040041
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Qingxiu Road (青秀路)",
+        "alternate_names": [
+          "青秀路",
+          "Qingxiu Road",
+          "Qingxiu Lu",
+          "Qingxiu Lu (青秀路)"
+        ],
+        "line": "nanning6",
+        "order": 6
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2724,
+          22.8043
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Wuyi Overpass (五一立交)",
+        "alternate_names": [
+          "五一立交",
+          "Wuyi Overpass",
+          "Wuyi Overpass (五一立交)"
+        ],
+        "line": "nanning6",
+        "order": 7
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.373492,
+          22.8048572
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Convention And Exhibition Center South (会展中心南)",
+        "alternate_names": [
+          "会展中心南",
+          "Convention And Exhibition Center South",
+          "Convention and Exhibition Center South (会展中心南)",
+          "Convention and Exhibition Center South"
+        ],
+        "line": "nanning6",
+        "order": 8
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4145649,
+          22.8155939
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Langdong Coach Station (埌东客运站)",
+        "alternate_names": [
+          "埌东客运站",
+          "Langdong Coach Station",
+          "Langdong Coach Station (埌东客运站)",
+          "Camh Yinhhek Langdungh"
+        ],
+        "line": "nanning6",
+        "order": 9
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3310189,
+          22.8026522
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Tangcheng Road (唐城路)",
+        "alternate_names": [
+          "唐城路",
+          "Tangcheng Road",
+          "Tangcheng Lu",
+          "Tangcheng Lu (唐城路)"
+        ],
+        "line": "nanning6",
+        "order": 10
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3496997,
+          22.8053628
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "No. 3 Middle School (市三中)",
+        "alternate_names": [
+          "市三中",
+          "No. 3 Middle School",
+          "No. 3 Middle School (市三中)"
+        ],
+        "line": "nanning6",
+        "order": 11
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.39522195,
+          22.80861435
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Hezuo Road (合作路)",
+        "alternate_names": [
+          "合作路",
+          "Hezuo Road",
+          "Hezuo Lu",
+          "Hezuo Lu (合作路)"
+        ],
+        "line": "nanning6",
+        "order": 12
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.33905,
+          22.8020727
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Medical University (医科大)",
+        "alternate_names": [
+          "医科大",
+          "Medical University",
+          "Medical University (医科大)"
+        ],
+        "line": "nanning6",
+        "order": 13
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3231754,
+          22.8066927
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "District Hospital (区医院)",
+        "alternate_names": [
+          "区医院",
+          "District Hospital",
+          "District Hospital (区医院)"
+        ],
+        "line": "nanning6",
+        "order": 14
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3642,
+          22.8109
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Langxi (埌西)",
+        "alternate_names": [
+          "埌西",
+          "Langxi",
+          "Langxi (埌西)",
+          "Langsih"
+        ],
+        "line": "nanning6",
+        "order": 15
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3072,
+          22.7977
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Fujian Garden (福建园)",
+        "alternate_names": [
+          "福建园",
+          "Fujian Garden",
+          "Fujian Garden (福建园)"
+        ],
+        "line": "nanning6",
+        "order": 16
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.301157,
+          22.7976275
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "No. 1 Hospital (市一医院)",
+        "alternate_names": [
+          "市一医院",
+          "No. 1 Hospital",
+          "No. 1 Hospital (市一医院)"
+        ],
+        "line": "nanning6",
+        "order": 17
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4231137,
+          22.8134576
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Linli Bridge (林里桥)",
+        "alternate_names": [
+          "林里桥",
+          "Linli Bridge",
+          "Linli Bridge (林里桥)"
+        ],
+        "line": "nanning6",
+        "order": 18
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4410788,
+          22.8119047
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Kaitai Road (开泰路)",
+        "alternate_names": [
+          "开泰路",
+          "Kaitai Road",
+          "Kaitai Lu",
+          "Kaitai Lu (开泰路)"
+        ],
+        "line": "nanning6",
+        "order": 19
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4545939,
+          22.8115072
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Tianchi Shan (天池山)",
+        "alternate_names": [
+          "天池山",
+          "Tianchi Shan",
+          "Tianchi Shan (天池山)"
+        ],
+        "line": "nanning6",
+        "order": 20
+      },
+      "id": 128
+    }
+  ]
+}

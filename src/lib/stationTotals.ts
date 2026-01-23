@@ -51,6 +51,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "montreal": 163,
   "morgantown": 5,
   "munich": 392,
+  "nanning": 128,
   "nashville": 7,
   "newcastle": 6,
   "neworleans": 145,
