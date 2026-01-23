@@ -83,4 +83,5 @@ export const STATION_TOTALS: Record<string, number> = {
   "twincities": 64,
   "vancouver": 81,
   "vienna": 138,
+  "wenzhou": 38,
 }

@@ -99,6 +99,7 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   hochiminhcity: [106.6297, 10.8231],
   hanoi: [105.8342, 21.0278],
   taizhou: [121.4200, 28.6561],
+  wenzhou: [120.6994, 27.9949],
   urumqi: [87.6168, 43.8256],
 
   // Oceania

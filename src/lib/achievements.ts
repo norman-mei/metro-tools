@@ -240,6 +240,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Harbor Coast Hero",
     description: "You've mapped Taizhou's seaside network like a local! 太棒了！",
   },
+  wenzhou: {
+    title: "Ou River Navigator",
+    description: "You've charted Wenzhou's network like a true Oujiang local! 温州加油！",
+  },
   urumqi: {
     title: "Silk Road Savant",
     description: "You've navigated Ürümqi's network at the edge of the Silk Road! 太厉害了！",

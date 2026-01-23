@@ -18,7 +18,9 @@
           "Jinhu Square",
           "JINHU Square (金湖广场)",
           "JINHU Square",
-          "Ginhhuz Gvangjcangz"
+          "Ginhhuz Gvangjcangz",
+          "金湖廣場",
+          "jin hu guang chang"
         ],
         "line": "nanning1",
         "order": 0
@@ -39,7 +41,9 @@
         "name": "Langdong Coach Station (埌东客运站)",
         "alternate_names": [
           "埌东客运站",
-          "Langdong Coach Station"
+          "Langdong Coach Station",
+          "埌東客運站",
+          "lang dong ke yun zhan"
         ],
         "line": "nanning1",
         "order": 1
@@ -62,7 +66,9 @@
           "火车站",
           "Nanning Railway Station",
           "Nanning Railway Station (火车站)",
-          "Hojcehcan"
+          "Hojcehcan",
+          "火車站",
+          "huo che zhan"
         ],
         "line": "nanning1",
         "order": 2
@@ -85,7 +91,9 @@
           "火车东站",
           "Nanning East Railway Station",
           "Nanning East Railway Station (火车东站)",
-          "Hojceh Dunghcan"
+          "Hojceh Dunghcan",
+          "火車東站",
+          "huo che dong zhan"
         ],
         "line": "nanning1",
         "order": 3
@@ -108,7 +116,9 @@
           "朝阳广场",
           "Chaoyang Square",
           "Chaoyang Square (朝阳广场)",
-          "Cauzyangz Gvangjcangz"
+          "Cauzyangz Gvangjcangz",
+          "朝陽廣場",
+          "chao yang guang chang"
         ],
         "line": "nanning1",
         "order": 4
@@ -133,7 +143,8 @@
           "Xinmin LU",
           "XINMIN LU (新民路)",
           "XINMIN LU",
-          "Roen Sinhminz"
+          "Roen Sinhminz",
+          "xin min lu"
         ],
         "line": "nanning1",
         "order": 5
@@ -157,7 +168,8 @@
           "Nanhu",
           "NANHU (南湖)",
           "NANHU",
-          "Nanzhuz"
+          "Nanzhuz",
+          "nan hu"
         ],
         "line": "nanning1",
         "order": 6
@@ -181,7 +193,8 @@
           "Macun",
           "MACUN (麻村)",
           "MACUN",
-          "Mazcunh"
+          "Mazcunh",
+          "ma cun"
         ],
         "line": "nanning1",
         "order": 7
@@ -205,7 +218,9 @@
           "Minzu Square",
           "MINZU Square (民族广场)",
           "MINZU Square",
-          "Minzcuz Gvangjcangz"
+          "Minzcuz Gvangjcangz",
+          "民族廣場",
+          "min zu guang chang"
         ],
         "line": "nanning1",
         "order": 8
@@ -229,7 +244,9 @@
           "Foziling",
           "FOZILING (佛子岭)",
           "FOZILING",
-          "Fuzswjlingj"
+          "Fuzswjlingj",
+          "佛子嶺",
+          "fo zi ling"
         ],
         "line": "nanning1",
         "order": 9
@@ -253,7 +270,9 @@
           "Baihualing",
           "BAIHUALING (百花岭)",
           "BAIHUALING",
-          "Bwzvahlingj"
+          "Bwzvahlingj",
+          "百花嶺",
+          "bai hua ling"
         ],
         "line": "nanning1",
         "order": 10
@@ -277,7 +296,9 @@
           "Fengling",
           "FENGLING (凤岭)",
           "FENGLING",
-          "Funglingj"
+          "Funglingj",
+          "鳳嶺",
+          "feng ling"
         ],
         "line": "nanning1",
         "order": 11
@@ -300,7 +321,9 @@
           "广西大学",
           "Guangxi University",
           "Guangxi University (广西大学)",
-          "Gvangjsih Dayoz"
+          "Gvangjsih Dayoz",
+          "廣西大學",
+          "guang xi da xue"
         ],
         "line": "nanning1",
         "order": 12
@@ -324,7 +347,9 @@
           "Asean Business District",
           "ASEAN Business District",
           "ASEAN Business District (东盟商务区)",
-          "Dunghmungz Sanghvugih"
+          "Dunghmungz Sanghvugih",
+          "東盟商務區",
+          "dong meng shang wu qu"
         ],
         "line": "nanning1",
         "order": 13
@@ -348,7 +373,9 @@
           "Wanxiangcheng",
           "WANXIANGCHENG (万象城)",
           "WANXIANGCHENG",
-          "Vansiengcwngz"
+          "Vansiengcwngz",
+          "萬象城",
+          "wan xiang cheng"
         ],
         "line": "nanning1",
         "order": 14
@@ -371,7 +398,9 @@
           "会展中心",
           "Convention & Exhibition Center",
           "Convention & Exhibition Center (会展中心)",
-          "Veicanj Cunghsinh"
+          "Veicanj Cunghsinh",
+          "會展中心",
+          "hui zhan zhong xin"
         ],
         "line": "nanning1",
         "order": 15
@@ -395,7 +424,9 @@
           "Baicangling",
           "BAICANGLING (白苍岭)",
           "BAICANGLING",
-          "Bwzcanghlingj"
+          "Bwzcanghlingj",
+          "白蒼嶺",
+          "bai cang ling"
         ],
         "line": "nanning1",
         "order": 16
@@ -418,7 +449,9 @@
           "动物园",
           "Nanning Zoo",
           "Nanning Zoo (动物园)",
-          "Dungvuzyenz"
+          "Dungvuzyenz",
+          "動物園",
+          "dong wu yuan"
         ],
         "line": "nanning1",
         "order": 17
@@ -442,7 +475,8 @@
           "Qingchuan",
           "QINGCHUAN (清川)",
           "QINGCHUAN",
-          "Cinghconh"
+          "Cinghconh",
+          "qing chuan"
         ],
         "line": "nanning1",
         "order": 18
@@ -466,7 +500,9 @@
           "Guangxi University For Nationalities",
           "Guangxi University for Nationalities (民族大学)",
           "Guangxi University for Nationalities",
-          "Minzcuz Dayoz"
+          "Minzcuz Dayoz",
+          "民族大學",
+          "min zu da xue"
         ],
         "line": "nanning1",
         "order": 19
@@ -490,7 +526,9 @@
           "Xixiangtang Coach Station",
           "XIXIANGTANG Coach Station (西乡塘客运站)",
           "XIXIANGTANG Coach Station",
-          "Camh Yinhhek Sihyanghdangz"
+          "Camh Yinhhek Sihyanghdangz",
+          "西鄉塘客運站",
+          "xi xiang tang ke yun zhan"
         ],
         "line": "nanning1",
         "order": 20
@@ -514,7 +552,9 @@
           "Luban Road",
           "Luban Lu",
           "Luban Lu (鲁班路)",
-          "Roen Lujbanh"
+          "Roen Lujbanh",
+          "魯班路",
+          "lu ban lu"
         ],
         "line": "nanning1",
         "order": 21
@@ -539,7 +579,9 @@
           "Pengfei LU",
           "PENGFEI LU (鹏飞路)",
           "PENGFEI LU",
-          "Roen Bungzfaih"
+          "Roen Bungzfaih",
+          "鵬飛路",
+          "peng fei lu"
         ],
         "line": "nanning1",
         "order": 22
@@ -563,7 +605,9 @@
           "Nanning College For Vocational Technology",
           "Nanning College for Vocational Technology (南职院)",
           "Nanning College for Vocational Technology",
-          "Nanzciyenz"
+          "Nanzciyenz",
+          "南職院",
+          "nan zhi yuan"
         ],
         "line": "nanning1",
         "order": 23
@@ -587,7 +631,8 @@
           "Shibu",
           "SHIBU (石埠)",
           "SHIBU",
-          "Sizbu"
+          "Sizbu",
+          "shi bu"
         ],
         "line": "nanning1",
         "order": 24
@@ -608,7 +653,10 @@
         "name": "Fujian Garden (福建园)",
         "alternate_names": [
           "福建园",
-          "Fujian Garden"
+          "Fujian Garden",
+          "Fujianyuan",
+          "福建園",
+          "fu jian yuan"
         ],
         "line": "nanning2",
         "order": 0
@@ -630,7 +678,8 @@
         "alternate_names": [
           "西津",
           "Xijin",
-          "Xijin (西津)"
+          "Xijin (西津)",
+          "xi jin"
         ],
         "line": "nanning2",
         "order": 1
@@ -653,7 +702,8 @@
           "大沙田",
           "Dashatian",
           "DASHATIAN (大沙田)",
-          "DASHATIAN"
+          "DASHATIAN",
+          "da sha tian"
         ],
         "line": "nanning2",
         "order": 2
@@ -676,7 +726,9 @@
           "朝阳广场",
           "Chaoyang Square",
           "Chaoyang Square (朝阳广场)",
-          "Cauzyangz Gvangjcangz"
+          "Cauzyangz Gvangjcangz",
+          "朝陽廣場",
+          "chao yang guang chang"
         ],
         "line": "nanning2",
         "order": 3
@@ -699,7 +751,9 @@
           "火车站",
           "Nanning Railway Station",
           "Nanning Railway Station (火车站)",
-          "Hojcehcan"
+          "Hojcehcan",
+          "火車站",
+          "huo che zhan"
         ],
         "line": "nanning2",
         "order": 4
@@ -724,7 +778,8 @@
           "Mingxiu LU",
           "MINGXIU LU (明秀路)",
           "MINGXIU LU",
-          "Roen Mingzsiu"
+          "Roen Mingzsiu",
+          "ming xiu lu"
         ],
         "line": "nanning2",
         "order": 5
@@ -746,7 +801,8 @@
         "alternate_names": [
           "玉洞",
           "Yudong",
-          "Yudong (玉洞)"
+          "Yudong (玉洞)",
+          "yu dong"
         ],
         "line": "nanning2",
         "order": 6
@@ -768,7 +824,9 @@
         "alternate_names": [
           "江南客运站",
           "Jiangnan Coach Station",
-          "Jiangnan Coach Station (江南客运站)"
+          "Jiangnan Coach Station (江南客运站)",
+          "江南客運站",
+          "jiang nan ke yun zhan"
         ],
         "line": "nanning2",
         "order": 7
@@ -790,7 +848,8 @@
         "alternate_names": [
           "石子塘",
           "Shizitang",
-          "Shizitang (石子塘)"
+          "Shizitang (石子塘)",
+          "shi zi tang"
         ],
         "line": "nanning2",
         "order": 8
@@ -812,7 +871,8 @@
         "alternate_names": [
           "三十三中",
           "Nanning No. 33 Middle School",
-          "Nanning No. 33 Middle School (三十三中)"
+          "Nanning No. 33 Middle School (三十三中)",
+          "san shi san zhong"
         ],
         "line": "nanning2",
         "order": 9
@@ -835,7 +895,8 @@
           "亭洪路",
           "Tinghong Road",
           "Tinghong Lu",
-          "Tinghong Lu (亭洪路)"
+          "Tinghong Lu (亭洪路)",
+          "ting hong lu"
         ],
         "line": "nanning2",
         "order": 10
@@ -857,7 +918,9 @@
         "alternate_names": [
           "秀厢",
           "Xiuxiang",
-          "Xiuxiang (秀厢)"
+          "Xiuxiang (秀厢)",
+          "秀廂",
+          "xiu xiang"
         ],
         "line": "nanning2",
         "order": 11
@@ -880,7 +943,9 @@
           "建设路",
           "Jianshe Road",
           "Jianshe Lu",
-          "Jianshe Lu (建设路)"
+          "Jianshe Lu (建设路)",
+          "建設路",
+          "jian she lu"
         ],
         "line": "nanning2",
         "order": 12
@@ -903,7 +968,8 @@
           "那福路",
           "Nafu Road",
           "Nafu Lu",
-          "Nafu Lu (那福路)"
+          "Nafu Lu (那福路)",
+          "na fu lu"
         ],
         "line": "nanning2",
         "order": 13
@@ -925,7 +991,9 @@
         "alternate_names": [
           "苏卢",
           "Sulu",
-          "Sulu (苏卢)"
+          "Sulu (苏卢)",
+          "蘇盧",
+          "su lu"
         ],
         "line": "nanning2",
         "order": 14
@@ -949,7 +1017,9 @@
           "Yuling Road",
           "Yuling LU",
           "YULING LU (玉岭路)",
-          "YULING LU"
+          "YULING LU",
+          "玉嶺路",
+          "yu ling lu"
         ],
         "line": "nanning2",
         "order": 15
@@ -971,7 +1041,9 @@
         "alternate_names": [
           "石柱岭",
           "Shizhuling",
-          "Shizhuling (石柱岭)"
+          "Shizhuling (石柱岭)",
+          "石柱嶺",
+          "shi zhu ling"
         ],
         "line": "nanning2",
         "order": 16
@@ -993,7 +1065,9 @@
         "alternate_names": [
           "南宁剧场",
           "Nanning Theater",
-          "Nanning Theater (南宁剧场)"
+          "Nanning Theater (南宁剧场)",
+          "南寧劇場",
+          "nan ning ju chang"
         ],
         "line": "nanning2",
         "order": 17
@@ -1016,7 +1090,8 @@
           "平良立交",
           "Pingliang Overpass",
           "PINGLIANG Overpass (平良立交)",
-          "PINGLIANG Overpass"
+          "PINGLIANG Overpass",
+          "ping liang li jiao"
         ],
         "line": "nanning2",
         "order": 18
@@ -1039,7 +1114,9 @@
           "东风路",
           "Dongfeng Road",
           "Dongfeng Lu",
-          "Dongfeng Lu (东风路)"
+          "Dongfeng Lu (东风路)",
+          "東風路",
+          "dong feng lu"
         ],
         "line": "nanning2",
         "order": 19
@@ -1061,7 +1138,9 @@
         "alternate_names": [
           "安吉客运站",
           "Anji Coach Station",
-          "Anji Coach Station (安吉客运站)"
+          "Anji Coach Station (安吉客运站)",
+          "安吉客運站",
+          "an ji ke yun zhan"
         ],
         "line": "nanning2",
         "order": 20
@@ -1083,7 +1162,9 @@
         "alternate_names": [
           "坛泽",
           "Tanze",
-          "Tanze (坛泽)"
+          "Tanze (坛泽)",
+          "壇澤",
+          "tan ze"
         ],
         "line": "nanning2",
         "order": 21
@@ -1104,7 +1185,8 @@
         "name": "Jinxiang (金象)",
         "alternate_names": [
           "金象",
-          "Jinxiang"
+          "Jinxiang",
+          "jin xiang"
         ],
         "line": "nanning2",
         "order": 22
@@ -1128,7 +1210,9 @@
           "Jinhu Square",
           "JINHU Square (金湖广场)",
           "JINHU Square",
-          "Ginhhuz Gvangjcangz"
+          "Ginhhuz Gvangjcangz",
+          "金湖廣場",
+          "jin hu guang chang"
         ],
         "line": "nanning3",
         "order": 0
@@ -1149,7 +1233,8 @@
         "name": "Langxi (埌西)",
         "alternate_names": [
           "埌西",
-          "Langxi"
+          "Langxi",
+          "lang xi"
         ],
         "line": "nanning3",
         "order": 1
@@ -1171,7 +1256,9 @@
         "alternate_names": [
           "科园大道",
           "Keyuan Dadao",
-          "Keyuan Dadao (科园大道)"
+          "Keyuan Dadao (科园大道)",
+          "科園大道",
+          "ke yuan da dao"
         ],
         "line": "nanning3",
         "order": 2
@@ -1193,7 +1280,8 @@
         "alternate_names": [
           "青竹立交",
           "Qingzhu Overpass",
-          "Qingzhu Overpass (青竹立交)"
+          "Qingzhu Overpass (青竹立交)",
+          "qing zhu li jiao"
         ],
         "line": "nanning3",
         "order": 3
@@ -1215,7 +1303,8 @@
         "alternate_names": [
           "青秀山",
           "Qingxiushan",
-          "Qingxiushan (青秀山)"
+          "Qingxiushan (青秀山)",
+          "qing xiu shan"
         ],
         "line": "nanning3",
         "order": 4
@@ -1237,7 +1326,9 @@
         "alternate_names": [
           "创业路",
           "Chuangye Road",
-          "Chuangye Road (创业路)"
+          "Chuangye Road (创业路)",
+          "創業路",
+          "chuang ye lu"
         ],
         "line": "nanning3",
         "order": 5
@@ -1259,7 +1350,9 @@
         "alternate_names": [
           "安吉客运站",
           "Anji Coach Station",
-          "Anji Coach Station (安吉客运站)"
+          "Anji Coach Station (安吉客运站)",
+          "安吉客運站",
+          "an ji ke yun zhan"
         ],
         "line": "nanning3",
         "order": 6
@@ -1281,7 +1374,9 @@
         "alternate_names": [
           "市博物馆",
           "Nanning Museum",
-          "Nanning Museum (市博物馆)"
+          "Nanning Museum (市博物馆)",
+          "市博物館",
+          "shi bo wu guan"
         ],
         "line": "nanning3",
         "order": 7
@@ -1303,7 +1398,9 @@
         "alternate_names": [
           "总部基地",
           "Advanced Business Park",
-          "Advanced Business Park (总部基地)"
+          "Advanced Business Park (总部基地)",
+          "總部基地",
+          "zong bu ji di"
         ],
         "line": "nanning3",
         "order": 8
@@ -1325,7 +1422,8 @@
         "alternate_names": [
           "北湖北路",
           "Beihubei Road",
-          "Beihubei Road (北湖北路)"
+          "Beihubei Road (北湖北路)",
+          "bei hu bei lu"
         ],
         "line": "nanning3",
         "order": 9
@@ -1347,7 +1445,9 @@
         "alternate_names": [
           "广西规划馆",
           "Guangxi Planning Exhibition Hall",
-          "Guangxi Planning Exhibition Hall (广西规划馆)"
+          "Guangxi Planning Exhibition Hall (广西规划馆)",
+          "廣西規劃館",
+          "guang xi gui hua guan"
         ],
         "line": "nanning3",
         "order": 10
@@ -1369,7 +1469,9 @@
         "alternate_names": [
           "庆歌路",
           "Qing'ge Road",
-          "Qing'ge Road (庆歌路)"
+          "Qing'ge Road (庆歌路)",
+          "慶歌路",
+          "qing ge lu"
         ],
         "line": "nanning3",
         "order": 11
@@ -1391,7 +1493,9 @@
         "alternate_names": [
           "秀峰路",
           "Xiufeng Road",
-          "Xiufeng Road (秀峰路)"
+          "Xiufeng Road (秀峰路)",
+          "秀峯路",
+          "xiu feng lu"
         ],
         "line": "nanning3",
         "order": 12
@@ -1413,7 +1517,8 @@
         "alternate_names": [
           "五象湖",
           "Wuxiang Lake",
-          "Wuxiang Lake (五象湖)"
+          "Wuxiang Lake (五象湖)",
+          "wu xiang hu"
         ],
         "line": "nanning3",
         "order": 13
@@ -1435,7 +1540,8 @@
         "alternate_names": [
           "邕武路",
           "Yongwu Road",
-          "Yongwu Road (邕武路)"
+          "Yongwu Road (邕武路)",
+          "yong wu lu"
         ],
         "line": "nanning3",
         "order": 14
@@ -1458,7 +1564,8 @@
           "平良立交",
           "Pingliang Overpass",
           "PINGLIANG Overpass (平良立交)",
-          "PINGLIANG Overpass"
+          "PINGLIANG Overpass",
+          "ping liang li jiao"
         ],
         "line": "nanning3",
         "order": 15
@@ -1481,7 +1588,9 @@
           "大鸡村",
           "Dajicun",
           "Dajicun (大鸡村)",
-          "Dagihcunh"
+          "Dagihcunh",
+          "大雞村",
+          "da ji cun"
         ],
         "line": "nanning3",
         "order": 16
@@ -1503,7 +1612,9 @@
         "alternate_names": [
           "兴桂路",
           "Xinggui Road",
-          "Xinggui Road (兴桂路)"
+          "Xinggui Road (兴桂路)",
+          "興桂路",
+          "xing gui lu"
         ],
         "line": "nanning3",
         "order": 17
@@ -1528,7 +1639,9 @@
           "XIAO Jicun",
           "XIAO JICUN (小鸡村)",
           "XIAO JICUN",
-          "Siujgihcunh"
+          "Siujgihcunh",
+          "小雞村",
+          "xiao ji cun"
         ],
         "line": "nanning3",
         "order": 18
@@ -1550,7 +1663,9 @@
         "alternate_names": [
           "东沟岭",
           "Donggouling",
-          "Donggouling (东沟岭)"
+          "Donggouling (东沟岭)",
+          "東溝嶺",
+          "dong gou ling"
         ],
         "line": "nanning3",
         "order": 19
@@ -1572,7 +1687,9 @@
         "alternate_names": [
           "长堽路",
           "Changgang Road",
-          "Changgang Road (长堽路)"
+          "Changgang Road (长堽路)",
+          "長堽路",
+          "chang gang lu"
         ],
         "line": "nanning3",
         "order": 20
@@ -1594,7 +1711,9 @@
         "alternate_names": [
           "东葛路",
           "Dongge Road",
-          "Dongge Road (东葛路)"
+          "Dongge Road (东葛路)",
+          "東葛路",
+          "dong ge lu"
         ],
         "line": "nanning3",
         "order": 21
@@ -1616,7 +1735,9 @@
         "alternate_names": [
           "滨湖路",
           "Binhu Road",
-          "Binhu Road (滨湖路)"
+          "Binhu Road (滨湖路)",
+          "濱湖路",
+          "bin hu lu"
         ],
         "line": "nanning3",
         "order": 22
@@ -1639,7 +1760,8 @@
           "那洪立交",
           "Nahong Overpass",
           "Nahong Overpass (那洪立交)",
-          "Nazhungz Lizgyauh"
+          "Nazhungz Lizgyauh",
+          "na hong li jiao"
         ],
         "line": "nanning4",
         "order": 0
@@ -1662,7 +1784,9 @@
           "洪运路",
           "Hongyun Road",
           "Hongyun Lu",
-          "Hongyun Lu (洪运路)"
+          "Hongyun Lu (洪运路)",
+          "洪運路",
+          "hong yun lu"
         ],
         "line": "nanning4",
         "order": 1
@@ -1685,7 +1809,8 @@
           "大沙田",
           "Dashatian",
           "DASHATIAN (大沙田)",
-          "DASHATIAN"
+          "DASHATIAN",
+          "da sha tian"
         ],
         "line": "nanning4",
         "order": 2
@@ -1707,7 +1832,9 @@
         "alternate_names": [
           "龙岗",
           "Longgang",
-          "Longgang (龙岗)"
+          "Longgang (龙岗)",
+          "龍崗",
+          "long gang"
         ],
         "line": "nanning4",
         "order": 3
@@ -1730,7 +1857,9 @@
           "那历村",
           "Nalicun",
           "NALICUN (那历村)",
-          "NALICUN"
+          "NALICUN",
+          "那歷村",
+          "na li cun"
         ],
         "line": "nanning4",
         "order": 4
@@ -1752,7 +1881,8 @@
         "alternate_names": [
           "清平坡",
           "Qingpingpo",
-          "Qingpingpo (清平坡)"
+          "Qingpingpo (清平坡)",
+          "qing ping po"
         ],
         "line": "nanning4",
         "order": 5
@@ -1776,7 +1906,8 @@
           "Tongyuan Road",
           "Tongyuan LU",
           "TONGYUAN LU (通源路)",
-          "TONGYUAN LU"
+          "TONGYUAN LU",
+          "tong yuan lu"
         ],
         "line": "nanning4",
         "order": 6
@@ -1800,7 +1931,9 @@
           "Jinyang Road",
           "Jinyang LU",
           "JINYANG LU (金阳路)",
-          "JINYANG LU"
+          "JINYANG LU",
+          "金陽路",
+          "jin yang lu"
         ],
         "line": "nanning4",
         "order": 7
@@ -1825,7 +1958,9 @@
           "Jinkai LU",
           "JINKAI LU (金凯路)",
           "JINKAI LU",
-          "Roen Ginhgaij"
+          "Roen Ginhgaij",
+          "金凱路",
+          "jin kai lu"
         ],
         "line": "nanning4",
         "order": 8
@@ -1847,7 +1982,8 @@
         "alternate_names": [
           "楞塘村",
           "Lengtangcun",
-          "Lengtangcun (楞塘村)"
+          "Lengtangcun (楞塘村)",
+          "leng tang cun"
         ],
         "line": "nanning4",
         "order": 9
@@ -1869,7 +2005,8 @@
         "alternate_names": [
           "金象大道",
           "Jinxiang Dadao",
-          "Jinxiang Dadao (金象大道)"
+          "Jinxiang Dadao (金象大道)",
+          "jin xiang da dao"
         ],
         "line": "nanning4",
         "order": 10
@@ -1892,7 +2029,9 @@
           "良庆圩",
           "Liangqingxu",
           "LIANGQINGXU (良庆圩)",
-          "LIANGQINGXU"
+          "LIANGQINGXU",
+          "良慶圩",
+          "liang qing xu"
         ],
         "line": "nanning4",
         "order": 11
@@ -1914,7 +2053,9 @@
         "alternate_names": [
           "体育中心西",
           "Guangxi Sports Center West",
-          "Guangxi Sports Center West (体育中心西)"
+          "Guangxi Sports Center West (体育中心西)",
+          "體育中心西",
+          "ti yu zhong xin xi"
         ],
         "line": "nanning4",
         "order": 12
@@ -1938,7 +2079,9 @@
           "Feilong Road",
           "Feilong LU",
           "FEILONG LU (飞龙路)",
-          "FEILONG LU"
+          "FEILONG LU",
+          "飛龍路",
+          "fei long lu"
         ],
         "line": "nanning4",
         "order": 13
@@ -1960,7 +2103,9 @@
         "alternate_names": [
           "总部基地",
           "Advanced Business Park",
-          "Advanced Business Park (总部基地)"
+          "Advanced Business Park (总部基地)",
+          "總部基地",
+          "zong bu ji di"
         ],
         "line": "nanning4",
         "order": 14
@@ -1984,7 +2129,8 @@
           "Yuxiang Road",
           "Yuxiang LU",
           "YUXIANG LU (玉象路)",
-          "YUXIANG LU"
+          "YUXIANG LU",
+          "yu xiang lu"
         ],
         "line": "nanning4",
         "order": 15
@@ -2006,7 +2152,9 @@
         "alternate_names": [
           "体育中心东",
           "Guangxi Sports Center East",
-          "Guangxi Sports Center East (体育中心东)"
+          "Guangxi Sports Center East (体育中心东)",
+          "體育中心東",
+          "ti yu zhong xin dong"
         ],
         "line": "nanning4",
         "order": 16
@@ -2029,7 +2177,9 @@
           "良庆大桥南",
           "Liangqing Bridge South",
           "LIANGQING Bridge South (良庆大桥南)",
-          "LIANGQING Bridge South"
+          "LIANGQING Bridge South",
+          "良慶大橋南",
+          "liang qing da qiao nan"
         ],
         "line": "nanning4",
         "order": 17
@@ -2051,7 +2201,9 @@
         "alternate_names": [
           "五象岭",
           "Wuxiangling",
-          "Wuxiangling (五象岭)"
+          "Wuxiangling (五象岭)",
+          "五象嶺",
+          "wu xiang ling"
         ],
         "line": "nanning4",
         "order": 18
@@ -2072,7 +2224,8 @@
         "name": "Wuyi Overpass (五一立交)",
         "alternate_names": [
           "五一立交",
-          "Wuyi Overpass"
+          "Wuyi Overpass",
+          "wu yi li jiao"
         ],
         "line": "nanning5",
         "order": 0
@@ -2097,7 +2250,9 @@
           "XIAO Jicun",
           "XIAO JICUN (小鸡村)",
           "XIAO JICUN",
-          "Siujgihcunh"
+          "Siujgihcunh",
+          "小雞村",
+          "xiao ji cun"
         ],
         "line": "nanning5",
         "order": 1
@@ -2121,7 +2276,9 @@
           "Jinqiao Coach Station",
           "JINQIAO Coach Station (金桥客运站)",
           "JINQIAO Coach Station",
-          "Camh Yinhhek Ginhgyauz"
+          "Camh Yinhhek Ginhgyauz",
+          "金橋客運站",
+          "jin qiao ke yun zhan"
         ],
         "line": "nanning5",
         "order": 2
@@ -2146,7 +2303,9 @@
           "Jinkai LU",
           "JINKAI LU (金凯路)",
           "JINKAI LU",
-          "Roen Ginhgaij"
+          "Roen Ginhgaij",
+          "金凱路",
+          "jin kai lu"
         ],
         "line": "nanning5",
         "order": 3
@@ -2170,7 +2329,9 @@
           "Jiangnan Park",
           "JIANGNAN Park (江南公园)",
           "JIANGNAN Park",
-          "Gyanghnanz Gunghyenz"
+          "Gyanghnanz Gunghyenz",
+          "江南公園",
+          "jiang nan gong yuan"
         ],
         "line": "nanning5",
         "order": 4
@@ -2193,7 +2354,8 @@
           "周家坡",
           "Zhoujiapo",
           "ZHOUJIAPO (周家坡)",
-          "ZHOUJIAPO"
+          "ZHOUJIAPO",
+          "zhou jia po"
         ],
         "line": "nanning5",
         "order": 5
@@ -2217,7 +2379,8 @@
           "Huqiu",
           "HUQIU (虎邱)",
           "HUQIU",
-          "Hujgiuh"
+          "Hujgiuh",
+          "hu qiu"
         ],
         "line": "nanning5",
         "order": 6
@@ -2242,7 +2405,9 @@
           "Xiuling LU",
           "XIULING LU (秀灵路)",
           "XIULING LU",
-          "Roen Siulingz"
+          "Roen Siulingz",
+          "秀靈路",
+          "xiu ling lu"
         ],
         "line": "nanning5",
         "order": 7
@@ -2265,7 +2430,9 @@
           "广西大学",
           "Guangxi University",
           "Guangxi University (广西大学)",
-          "Gvangjsih Dayoz"
+          "Gvangjsih Dayoz",
+          "廣西大學",
+          "guang xi da xue"
         ],
         "line": "nanning5",
         "order": 8
@@ -2290,7 +2457,8 @@
           "Mingxiu LU",
           "MINGXIU LU (明秀路)",
           "MINGXIU LU",
-          "Roen Mingzsiu"
+          "Roen Mingzsiu",
+          "ming xiu lu"
         ],
         "line": "nanning5",
         "order": 9
@@ -2314,7 +2482,9 @@
           "Xinxiu Park",
           "XINXIU Park (新秀公园)",
           "XINXIU Park",
-          "Sinhsiu Gunghyenz"
+          "Sinhsiu Gunghyenz",
+          "新秀公園",
+          "xin xiu gong yuan"
         ],
         "line": "nanning5",
         "order": 10
@@ -2338,7 +2508,8 @@
           "Beihunan Road",
           "Beihunan Lu",
           "Beihunan Lu (北湖南路)",
-          "Roen Namz Bwzhuz"
+          "Roen Namz Bwzhuz",
+          "bei hu nan lu"
         ],
         "line": "nanning5",
         "order": 11
@@ -2362,7 +2533,9 @@
           "Shishan Park",
           "SHISHAN Park (狮山公园)",
           "SHISHAN Park",
-          "Swhsanh Gunghyenz"
+          "Swhsanh Gunghyenz",
+          "獅山公園",
+          "shi shan gong yuan"
         ],
         "line": "nanning5",
         "order": 12
@@ -2386,7 +2559,9 @@
           "Yongbing Overpass",
           "YONGBING Overpass (邕宾立交)",
           "YONGBING Overpass",
-          "Yunghbinh Lizgyauh"
+          "Yunghbinh Lizgyauh",
+          "邕賓立交",
+          "yong bin li jiao"
         ],
         "line": "nanning5",
         "order": 13
@@ -2410,7 +2585,9 @@
           "Jiangqiao",
           "JIANGQIAO (降桥)",
           "JIANGQIAO",
-          "Gyanggyauz"
+          "Gyanggyauz",
+          "降橋",
+          "jiang qiao"
         ],
         "line": "nanning5",
         "order": 14
@@ -2434,7 +2611,9 @@
           "Guokai Dadao",
           "GUOKAI DADAO (国凯大道)",
           "GUOKAI DADAO",
-          "Daihloh Gozgaij"
+          "Daihloh Gozgaij",
+          "國凱大道",
+          "guo kai da dao"
         ],
         "line": "nanning5",
         "order": 15
@@ -2457,7 +2636,8 @@
           "那洪立交",
           "Nahong Overpass",
           "Nahong Overpass (那洪立交)",
-          "Nazhungz Lizgyauh"
+          "Nazhungz Lizgyauh",
+          "na hong li jiao"
         ],
         "line": "nanning5",
         "order": 16
@@ -2479,7 +2659,8 @@
         "alternate_names": [
           "三津大道",
           "Sanjin Dadao",
-          "Sanjin Dadao (三津大道)"
+          "Sanjin Dadao (三津大道)",
+          "san jin da dao"
         ],
         "line": "nanning6",
         "order": 0
@@ -2501,7 +2682,9 @@
         "alternate_names": [
           "华南城",
           "South China City",
-          "South China City (华南城)"
+          "South China City (华南城)",
+          "華南城",
+          "hua nan cheng"
         ],
         "line": "nanning6",
         "order": 1
@@ -2523,7 +2706,9 @@
         "alternate_names": [
           "华南城东",
           "South China City East",
-          "South China City East (华南城东)"
+          "South China City East (华南城东)",
+          "華南城東",
+          "hua nan cheng dong"
         ],
         "line": "nanning6",
         "order": 2
@@ -2545,7 +2730,9 @@
         "alternate_names": [
           "横岭",
           "Hengling",
-          "Hengling (横岭)"
+          "Hengling (横岭)",
+          "橫嶺",
+          "heng ling"
         ],
         "line": "nanning6",
         "order": 3
@@ -2568,7 +2755,9 @@
           "市科技馆",
           "Science And Technology Museum",
           "Science and Technology Museum (市科技馆)",
-          "Science and Technology Museum"
+          "Science and Technology Museum",
+          "市科技館",
+          "shi ke ji guan"
         ],
         "line": "nanning6",
         "order": 4
@@ -2590,7 +2779,8 @@
         "alternate_names": [
           "新屋",
           "Xinwu",
-          "Xinwu (新屋)"
+          "Xinwu (新屋)",
+          "xin wu"
         ],
         "line": "nanning6",
         "order": 5
@@ -2613,7 +2803,8 @@
           "青秀路",
           "Qingxiu Road",
           "Qingxiu Lu",
-          "Qingxiu Lu (青秀路)"
+          "Qingxiu Lu (青秀路)",
+          "qing xiu lu"
         ],
         "line": "nanning6",
         "order": 6
@@ -2635,7 +2826,8 @@
         "alternate_names": [
           "五一立交",
           "Wuyi Overpass",
-          "Wuyi Overpass (五一立交)"
+          "Wuyi Overpass (五一立交)",
+          "wu yi li jiao"
         ],
         "line": "nanning6",
         "order": 7
@@ -2658,7 +2850,9 @@
           "会展中心南",
           "Convention And Exhibition Center South",
           "Convention and Exhibition Center South (会展中心南)",
-          "Convention and Exhibition Center South"
+          "Convention and Exhibition Center South",
+          "會展中心南",
+          "hui zhan zhong xin nan"
         ],
         "line": "nanning6",
         "order": 8
@@ -2681,7 +2875,9 @@
           "埌东客运站",
           "Langdong Coach Station",
           "Langdong Coach Station (埌东客运站)",
-          "Camh Yinhhek Langdungh"
+          "Camh Yinhhek Langdungh",
+          "埌東客運站",
+          "lang dong ke yun zhan"
         ],
         "line": "nanning6",
         "order": 9
@@ -2704,7 +2900,8 @@
           "唐城路",
           "Tangcheng Road",
           "Tangcheng Lu",
-          "Tangcheng Lu (唐城路)"
+          "Tangcheng Lu (唐城路)",
+          "tang cheng lu"
         ],
         "line": "nanning6",
         "order": 10
@@ -2726,7 +2923,8 @@
         "alternate_names": [
           "市三中",
           "No. 3 Middle School",
-          "No. 3 Middle School (市三中)"
+          "No. 3 Middle School (市三中)",
+          "shi san zhong"
         ],
         "line": "nanning6",
         "order": 11
@@ -2749,7 +2947,8 @@
           "合作路",
           "Hezuo Road",
           "Hezuo Lu",
-          "Hezuo Lu (合作路)"
+          "Hezuo Lu (合作路)",
+          "he zuo lu"
         ],
         "line": "nanning6",
         "order": 12
@@ -2771,7 +2970,9 @@
         "alternate_names": [
           "医科大",
           "Medical University",
-          "Medical University (医科大)"
+          "Medical University (医科大)",
+          "醫科大",
+          "yi ke da"
         ],
         "line": "nanning6",
         "order": 13
@@ -2793,7 +2994,9 @@
         "alternate_names": [
           "区医院",
           "District Hospital",
-          "District Hospital (区医院)"
+          "District Hospital (区医院)",
+          "區醫院",
+          "qu yi yuan"
         ],
         "line": "nanning6",
         "order": 14
@@ -2816,7 +3019,8 @@
           "埌西",
           "Langxi",
           "Langxi (埌西)",
-          "Langsih"
+          "Langsih",
+          "lang xi"
         ],
         "line": "nanning6",
         "order": 15
@@ -2838,7 +3042,10 @@
         "alternate_names": [
           "福建园",
           "Fujian Garden",
-          "Fujian Garden (福建园)"
+          "Fujian Garden (福建园)",
+          "Fujianyuan",
+          "福建園",
+          "fu jian yuan"
         ],
         "line": "nanning6",
         "order": 16
@@ -2860,7 +3067,9 @@
         "alternate_names": [
           "市一医院",
           "No. 1 Hospital",
-          "No. 1 Hospital (市一医院)"
+          "No. 1 Hospital (市一医院)",
+          "市一醫院",
+          "shi yi yi yuan"
         ],
         "line": "nanning6",
         "order": 17
@@ -2882,7 +3091,9 @@
         "alternate_names": [
           "林里桥",
           "Linli Bridge",
-          "Linli Bridge (林里桥)"
+          "Linli Bridge (林里桥)",
+          "林裏橋",
+          "lin li qiao"
         ],
         "line": "nanning6",
         "order": 18
@@ -2905,7 +3116,9 @@
           "开泰路",
           "Kaitai Road",
           "Kaitai Lu",
-          "Kaitai Lu (开泰路)"
+          "Kaitai Lu (开泰路)",
+          "開泰路",
+          "kai tai lu"
         ],
         "line": "nanning6",
         "order": 19
@@ -2927,7 +3140,8 @@
         "alternate_names": [
           "天池山",
           "Tianchi Shan",
-          "Tianchi Shan (天池山)"
+          "Tianchi Shan (天池山)",
+          "tian chi shan"
         ],
         "line": "nanning6",
         "order": 20

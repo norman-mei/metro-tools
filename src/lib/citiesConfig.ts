@@ -97,6 +97,7 @@ import wm from '@/app/(game)/wm/opengraph-image.jpg'
 import yarra from '@/app/(game)/yarra/opengraph-image.jpg'
 import taizhou from '@/app/(game)/taizhou/opengraph-image.jpg'
 import urumqi from '@/app/(game)/urumqi/opengraph-image.jpg'
+import wenzhou from '@/app/(game)/wenzhou/opengraph-image.jpg'
 
 import { StaticImageData } from 'next/image'
 
@@ -612,6 +613,13 @@ export const cities: ICity[] = [
     name: 'Taizhou (台州), CN',
     image: taizhou,
     link: '/taizhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Wenzhou (温州), CN',
+    image: wenzhou,
+    link: '/wenzhou',
     continent: 'Asia',
     hideInStats: true,
   },

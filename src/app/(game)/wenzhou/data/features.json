@@ -1,0 +1,878 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5648317,
+          27.92414545
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Tongling (桐岭)",
+        "alternate_names": [
+          "桐岭",
+          "Tongling",
+          "桐嶺",
+          "tong ling"
+        ],
+        "line": "wenzhous1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56998705000001,
+          27.944234450000003
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Panqiao (潘桥)",
+        "alternate_names": [
+          "潘桥",
+          "Panqiao",
+          "潘橋",
+          "pan qiao"
+        ],
+        "line": "wenzhous1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57994120000001,
+          27.970089350000002
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "South Railway Station (动车南)",
+        "alternate_names": [
+          "动车南",
+          "South Railway Station",
+          "動車南",
+          "dong che nan",
+          "动车南站",
+          "動車南站"
+        ],
+        "line": "wenzhous1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.623638,
+          27.9807992
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Xinqiao (新桥)",
+        "alternate_names": [
+          "新桥",
+          "Xinqiao",
+          "新橋",
+          "xin qiao"
+        ],
+        "line": "wenzhous1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6460581,
+          27.979186849999998
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Dezheng (德政)",
+        "alternate_names": [
+          "德政",
+          "Dezheng",
+          "de zheng"
+        ],
+        "line": "wenzhous1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66536395,
+          27.982516099999998
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Longxia Road (龙霞路)",
+        "alternate_names": [
+          "龙霞路",
+          "Longxia Road",
+          "龍霞路",
+          "long xia lu"
+        ],
+        "line": "wenzhous1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6928292,
+          27.9829118
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Huimin Road (惠民路)",
+        "alternate_names": [
+          "惠民路",
+          "Huimin Road",
+          "hui min lu"
+        ],
+        "line": "wenzhous1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70980695,
+          27.9763558
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Sanyang Wetland (三垟湿地)",
+        "alternate_names": [
+          "三垟湿地",
+          "Sanyang Wetland",
+          "三垟濕地",
+          "san yang shi di"
+        ],
+        "line": "wenzhous1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7586804,
+          27.961922649999998
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Longteng Road (龙腾路)",
+        "alternate_names": [
+          "龙腾路",
+          "Longteng Road",
+          "龍騰路",
+          "long teng lu"
+        ],
+        "line": "wenzhous1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.78014694999999,
+          27.9579692
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Kejicheng (科技城)",
+        "alternate_names": [
+          "科技城",
+          "Kejicheng",
+          "ke ji cheng"
+        ],
+        "line": "wenzhous1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.77898339999999,
+          27.9338027
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Yaoxi (瑶溪)",
+        "alternate_names": [
+          "瑶溪",
+          "Yaoxi",
+          "瑤溪",
+          "yao xi"
+        ],
+        "line": "wenzhous1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.80685754999999,
+          27.91884605
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Olympic Center (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "Olympic Center",
+          "奧體中心",
+          "ao ti zhong xin"
+        ],
+        "line": "wenzhous1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.82388685,
+          27.911745
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Yongzhong (永中)",
+        "alternate_names": [
+          "永中",
+          "Yongzhong",
+          "yong zhong"
+        ],
+        "line": "wenzhous1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8427897,
+          27.9090972
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Airport (机场)",
+        "alternate_names": [
+          "机场",
+          "Airport",
+          "機場",
+          "ji chang",
+          "WNZ",
+          "ZSWZ",
+          "Wenzhou Longwan International Airport",
+          "温州龙湾国际机场",
+          "温州龍灣國際機場"
+        ],
+        "line": "wenzhous1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.88807805,
+          27.956469325
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Lingkun (灵昆)",
+        "alternate_names": [
+          "灵昆",
+          "Lingkun",
+          "靈昆",
+          "ling kun"
+        ],
+        "line": "wenzhous1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.91576595,
+          27.943862799999998
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Oujiangkou (瓯江口)",
+        "alternate_names": [
+          "瓯江口",
+          "Oujiangkou",
+          "甌江口",
+          "ou jiang kou"
+        ],
+        "line": "wenzhous1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.93088155000001,
+          27.9337948
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Ouhua (瓯华)",
+        "alternate_names": [
+          "瓯华",
+          "Ouhua",
+          "甌華",
+          "ou hua"
+        ],
+        "line": "wenzhous1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94717495,
+          27.9229652
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Shuang'ou Avenue (双瓯大道)",
+        "alternate_names": [
+          "双瓯大道",
+          "Shuang'ou Avenue",
+          "雙甌大道",
+          "shuang ou da dao"
+        ],
+        "line": "wenzhous1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99889023333334,
+          28.132495466666665
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Qingdong Road (清东路)",
+        "alternate_names": [
+          "清东路",
+          "Qingdong Road",
+          "清東路",
+          "qing dong lu"
+        ],
+        "line": "wenzhous2",
+        "order": 0
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98217393333334,
+          28.111768800000004
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Xuyang Road (旭阳路)",
+        "alternate_names": [
+          "旭阳路",
+          "Xuyang Road",
+          "旭陽路",
+          "xu yang lu"
+        ],
+        "line": "wenzhous2",
+        "order": 1
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96391469999999,
+          28.091250733333336
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Wan'ao (万岙)",
+        "alternate_names": [
+          "万岙",
+          "Wan'ao",
+          "萬岙",
+          "wan ao"
+        ],
+        "line": "wenzhous2",
+        "order": 2
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97008386666668,
+          28.067306666666667
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Yanpen (盐盆)",
+        "alternate_names": [
+          "盐盆",
+          "Yanpen",
+          "鹽盆",
+          "yan pen"
+        ],
+        "line": "wenzhous2",
+        "order": 3
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97459393333334,
+          28.042173000000002
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Xinwang (新望)",
+        "alternate_names": [
+          "新望",
+          "Xinwang",
+          "xin wang"
+        ],
+        "line": "wenzhous2",
+        "order": 4
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97571703333334,
+          28.0225867
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Wengyang (翁垟)",
+        "alternate_names": [
+          "翁垟",
+          "Wengyang",
+          "weng yang"
+        ],
+        "line": "wenzhous2",
+        "order": 5
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95124093333334,
+          27.9954635
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Liushi East (柳市东)",
+        "alternate_names": [
+          "柳市东",
+          "Liushi East",
+          "柳市東",
+          "liu shi dong"
+        ],
+        "line": "wenzhous2",
+        "order": 6
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.88807805,
+          27.956469325
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Lingkun (灵昆)",
+        "alternate_names": [
+          "灵昆",
+          "Lingkun",
+          "靈昆",
+          "ling kun"
+        ],
+        "line": "wenzhous2",
+        "order": 7
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8427897,
+          27.9090972
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Airport (机场)",
+        "alternate_names": [
+          "机场",
+          "Airport",
+          "機場",
+          "ji chang",
+          "WNZ",
+          "ZSWZ",
+          "Wenzhou Longwan International Airport",
+          "温州龙湾国际机场",
+          "温州龍灣國際機場"
+        ],
+        "line": "wenzhous2",
+        "order": 8
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.81899969999999,
+          27.890351533333334
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Yongxing (永兴)",
+        "alternate_names": [
+          "永兴",
+          "Yongxing",
+          "永興",
+          "yong xing"
+        ],
+        "line": "wenzhous2",
+        "order": 9
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.80339893333333,
+          27.874346133333333
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Shacheng (沙城)",
+        "alternate_names": [
+          "沙城",
+          "Shacheng",
+          "sha cheng"
+        ],
+        "line": "wenzhous2",
+        "order": 10
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.78791266666667,
+          27.8511085
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Tianhe (天河)",
+        "alternate_names": [
+          "天河",
+          "Tianhe",
+          "tian he"
+        ],
+        "line": "wenzhous2",
+        "order": 11
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.77451839999999,
+          27.829913466666667
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Haicheng (海城)",
+        "alternate_names": [
+          "海城",
+          "Haicheng",
+          "hai cheng"
+        ],
+        "line": "wenzhous2",
+        "order": 12
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.73133986666666,
+          27.812275366666668
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Baotian (鲍田)",
+        "alternate_names": [
+          "鲍田",
+          "Baotian",
+          "鮑田",
+          "bao tian"
+        ],
+        "line": "wenzhous2",
+        "order": 13
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.71529706666666,
+          27.795239866666666
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Dadianxia (大典下)",
+        "alternate_names": [
+          "大典下",
+          "Dadianxia",
+          "da dian xia"
+        ],
+        "line": "wenzhous2",
+        "order": 14
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7055429,
+          27.7862212
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Tingtian (汀田)",
+        "alternate_names": [
+          "汀田",
+          "Tingtian",
+          "ting tian"
+        ],
+        "line": "wenzhous2",
+        "order": 15
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6912494,
+          27.772372833333336
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Xincheng (莘塍)",
+        "alternate_names": [
+          "莘塍",
+          "Xincheng",
+          "shen cheng"
+        ],
+        "line": "wenzhous2",
+        "order": 16
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67955146666667,
+          27.760931
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Shangwang (上望)",
+        "alternate_names": [
+          "上望",
+          "Shangwang",
+          "shang wang"
+        ],
+        "line": "wenzhous2",
+        "order": 17
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66787386666668,
+          27.758425366666668
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Shangdong Road (上东路)",
+        "alternate_names": [
+          "上东路",
+          "Shangdong Road",
+          "上東路",
+          "shang dong lu"
+        ],
+        "line": "wenzhous2",
+        "order": 18
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65104373333334,
+          27.756390800000002
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Dongshan (东山)",
+        "alternate_names": [
+          "东山",
+          "Dongshan",
+          "東山",
+          "dong shan"
+        ],
+        "line": "wenzhous2",
+        "order": 19
+      },
+      "id": 38
+    }
+  ]
+}
