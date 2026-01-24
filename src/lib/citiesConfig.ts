@@ -98,6 +98,84 @@ import yarra from '@/app/(game)/yarra/opengraph-image.jpg'
 import taizhou from '@/app/(game)/taizhou/opengraph-image.jpg'
 import urumqi from '@/app/(game)/urumqi/opengraph-image.jpg'
 import wenzhou from '@/app/(game)/wenzhou/opengraph-image.jpg'
+import changzhou from '@/app/(game)/changzhou/opengraph-image.jpg'
+import guiyang from '@/app/(game)/guiyang/opengraph-image.jpg'
+import harbin from '@/app/(game)/harbin/opengraph-image.jpg'
+import hohhot from '@/app/(game)/hohhot/opengraph-image.jpg'
+import jinhua from '@/app/(game)/jinhua/opengraph-image.jpg'
+import lanzhou from '@/app/(game)/lanzhou/opengraph-image.jpg'
+import luoyang from '@/app/(game)/luoyang/opengraph-image.jpg'
+import nantong from '@/app/(game)/nantong/opengraph-image.jpg'
+import shaoxing from '@/app/(game)/shaoxing/opengraph-image.jpg'
+import shijiazhuang from '@/app/(game)/shijiazhuang/opengraph-image.jpg'
+import taiyuan from '@/app/(game)/taiyuan/opengraph-image.jpg'
+import wuhu from '@/app/(game)/wuhu/opengraph-image.jpg'
+import xiamen from '@/app/(game)/xiamen/opengraph-image.jpg'
+import pyongyang from '@/app/(game)/pyongyang/opengraph-image.jpg'
+import nanchang from '@/app/(game)/nanchang/opengraph-image.jpg'
+import xuzhou from '@/app/(game)/xuzhou/opengraph-image.jpg'
+import shenyang from '@/app/(game)/shenyang/opengraph-image.jpg'
+import wuxi from '@/app/(game)/wuxi/opengraph-image.jpg'
+import changchun from '@/app/(game)/changchun/opengraph-image.jpg'
+import dalian from '@/app/(game)/dalian/opengraph-image.jpg'
+import fuzhou from '@/app/(game)/fuzhou/opengraph-image.jpg'
+import hefei from '@/app/(game)/hefei/opengraph-image.jpg'
+import jinan from '@/app/(game)/jinan/opengraph-image.jpg'
+import kunming from '@/app/(game)/kunming/opengraph-image.jpg'
+import changsha from '@/app/(game)/changsha/opengraph-image.jpg'
+import ningbo from '@/app/(game)/ningbo/opengraph-image.jpg'
+import qingdao from '@/app/(game)/qingdao/opengraph-image.jpg'
+import suzhou from '@/app/(game)/suzhou/opengraph-image.jpg'
+import chongqing from '@/app/(game)/chongqing/opengraph-image.jpg'
+import zhengzhou from '@/app/(game)/zhengzhou/opengraph-image.jpg'
+import wuhan from '@/app/(game)/wuhan/opengraph-image.jpg'
+import hangzhou from '@/app/(game)/hangzhou/opengraph-image.jpg'
+import nanjing from '@/app/(game)/nanjing/opengraph-image.jpg'
+import tianjin from '@/app/(game)/tianjin/opengraph-image.jpg'
+import xian from '@/app/(game)/xian/opengraph-image.jpg'
+import chengdu from '@/app/(game)/chengdu/opengraph-image.jpg'
+import fukuoka from '@/app/(game)/fukuoka/opengraph-image.jpg'
+import hiroshima from '@/app/(game)/hiroshima/opengraph-image.jpg'
+import nagoya from '@/app/(game)/nagoya/opengraph-image.jpg'
+import okayama from '@/app/(game)/okayama/opengraph-image.jpg'
+import osakaKobe from '@/app/(game)/osaka-kobe/opengraph-image.jpg'
+import kyoto from '@/app/(game)/kyoto/opengraph-image.jpg'
+import sapporo from '@/app/(game)/sapporo/opengraph-image.jpg'
+import sendai from '@/app/(game)/sendai/opengraph-image.jpg'
+import daegu from '@/app/(game)/daegu/opengraph-image.jpg'
+import daejeon from '@/app/(game)/daejeon/opengraph-image.jpg'
+import gimpo from '@/app/(game)/gimpo/opengraph-image.jpg'
+import gwangju from '@/app/(game)/gwangju/opengraph-image.jpg'
+import kualaLumpur from '@/app/(game)/kuala-lumpur/opengraph-image.jpg'
+import bangkok from '@/app/(game)/bangkok/opengraph-image.jpg'
+import busan from '@/app/(game)/busan/opengraph-image.jpg'
+import huaian from '@/app/(game)/huaian/opengraph-image.jpg'
+import huangshi from '@/app/(game)/huangshi/opengraph-image.jpg'
+import mengzhi from '@/app/(game)/mengzhi/opengraph-image.jpg'
+import jiaxing from '@/app/(game)/jiaxing/opengraph-image.jpg'
+import sanya from '@/app/(game)/sanya/opengraph-image.jpg'
+import tianshui from '@/app/(game)/tianshui/opengraph-image.jpg'
+import qiubei from '@/app/(game)/qiubei/opengraph-image.jpg'
+import nanping from '@/app/(game)/nanping/opengraph-image.jpg'
+import zhangjiakou from '@/app/(game)/zhangjiakou/opengraph-image.jpg'
+import baoshan from '@/app/(game)/baoshan/opengraph-image.jpg'
+import dujiangyan from '@/app/(game)/dujiangyan/opengraph-image.jpg'
+import haixi from '@/app/(game)/haixi/opengraph-image.jpg'
+import lijiang from '@/app/(game)/lijiang/opengraph-image.jpg'
+import zhangye from '@/app/(game)/zhangye/opengraph-image.jpg'
+import fenghuang from '@/app/(game)/fenghuang/opengraph-image.jpg'
+import xishui from '@/app/(game)/xishui/opengraph-image.jpg'
+import yinchuan from '@/app/(game)/yinchuan/opengraph-image.jpg'
+import liupanshui from '@/app/(game)/liupanshui/opengraph-image.jpg'
+import enshi from '@/app/(game)/enshi/opengraph-image.jpg'
+import guangan from '@/app/(game)/guangan/opengraph-image.jpg'
+import guilin from '@/app/(game)/guilin/opengraph-image.jpg'
+import jining from '@/app/(game)/jining/opengraph-image.jpg'
+import anyang from '@/app/(game)/anyang/opengraph-image.jpg'
+import qingyuan from '@/app/(game)/qingyuan/opengraph-image.jpg'
+import shantou from '@/app/(game)/shantou/opengraph-image.jpg'
+import liuzhou from '@/app/(game)/liuzhou/opengraph-image.jpg'
+import bengbu from '@/app/(game)/bengbu/opengraph-image.jpg'
 
 import { StaticImageData } from 'next/image'
 
@@ -591,6 +669,57 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
+    name: 'Changzhou (常州), CN',
+    image: changzhou,
+    link: '/changzhou',
+    continent: 'Asia',
+  },
+  {
+    name: 'Guiyang (贵阳), CN',
+    image: guiyang,
+    link: '/guiyang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Pyongyang (평양), KP',
+    image: pyongyang,
+    link: '/pyongyang',
+    continent: 'Asia',
+  },
+  {
+    name: 'Harbin (哈尔滨), CN',
+    image: harbin,
+    link: '/harbin',
+    continent: 'Asia',
+  },
+  {
+    name: 'Hohhot (呼和浩特), CN',
+    image: hohhot,
+    link: '/hohhot',
+    continent: 'Asia',
+  },
+  {
+    name: 'Jinhua (金华), CN',
+    image: jinhua,
+    link: '/jinhua',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Lanzhou (兰州), CN',
+    image: lanzhou,
+    link: '/lanzhou',
+    continent: 'Asia',
+  },
+  {
+    name: 'Luoyang (洛阳), CN',
+    image: luoyang,
+    link: '/luoyang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
     name: 'Seoul (서울), KR',
     image: seoul,
     link: '/seoul',
@@ -610,6 +739,34 @@ export const cities: ICity[] = [
     continent: 'Asia',
   },
   {
+    name: 'Nantong (南通), CN',
+    image: nantong,
+    link: '/nantong',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Shaoxing (绍兴), CN',
+    image: shaoxing,
+    link: '/shaoxing',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Shijiazhuang (石家庄), CN',
+    image: shijiazhuang,
+    link: '/shijiazhuang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Taiyuan (太原), CN',
+    image: taiyuan,
+    link: '/taiyuan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
     name: 'Taizhou (台州), CN',
     image: taizhou,
     link: '/taizhou',
@@ -624,11 +781,472 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
+    name: 'Wuhu (芜湖), CN',
+    image: wuhu,
+    link: '/wuhu',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Xiamen (厦门), CN',
+    image: xiamen,
+    link: '/xiamen',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Nanchang (南昌), CN',
+    image: nanchang,
+    link: '/nanchang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Xuzhou (徐州), CN',
+    image: xuzhou,
+    link: '/xuzhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Shenyang (沈阳), CN',
+    image: shenyang,
+    link: '/shenyang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Wuxi (无锡), CN',
+    image: wuxi,
+    link: '/wuxi',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Changchun (长春), CN',
+    image: changchun,
+    link: '/changchun',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Dalian (大连), CN',
+    image: dalian,
+    link: '/dalian',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Fuzhou (福州), CN',
+    image: fuzhou,
+    link: '/fuzhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Hefei (合肥), CN',
+    image: hefei,
+    link: '/hefei',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Jinan (济南), CN',
+    image: jinan,
+    link: '/jinan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Kunming (昆明), CN',
+    image: kunming,
+    link: '/kunming',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Changsha (长沙), CN',
+    image: changsha,
+    link: '/changsha',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Ningbo (宁波), CN',
+    image: ningbo,
+    link: '/ningbo',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Qingdao (青岛), CN',
+    image: qingdao,
+    link: '/qingdao',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Suzhou (苏州), CN',
+    image: suzhou,
+    link: '/suzhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Chongqing (重庆), CN',
+    image: chongqing,
+    link: '/chongqing',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Zhengzhou (郑州), CN',
+    image: zhengzhou,
+    link: '/zhengzhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Wuhan (武汉), CN',
+    image: wuhan,
+    link: '/wuhan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Hangzhou (杭州), CN',
+    image: hangzhou,
+    link: '/hangzhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Nanjing (南京), CN',
+    image: nanjing,
+    link: '/nanjing',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Tianjin (天津), CN',
+    image: tianjin,
+    link: '/tianjin',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: "Xi'an (西安), CN",
+    image: xian,
+    link: '/xian',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Chengdu (成都), CN',
+    image: chengdu,
+    link: '/chengdu',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Fukuoka (福岡), JP',
+    image: fukuoka,
+    link: '/fukuoka',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Hiroshima (広島), JP',
+    image: hiroshima,
+    link: '/hiroshima',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Nagoya (名古屋), JP',
+    image: nagoya,
+    link: '/nagoya',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Okayama (岡山), JP',
+    image: okayama,
+    link: '/okayama',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Osaka–Kobe (大阪・神戸), JP',
+    image: osakaKobe,
+    link: '/osaka-kobe',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Kyoto (京都), JP',
+    image: kyoto,
+    link: '/kyoto',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Sapporo (札幌), JP',
+    image: sapporo,
+    link: '/sapporo',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Sendai (仙台), JP',
+    image: sendai,
+    link: '/sendai',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Daegu (대구), KR',
+    image: daegu,
+    link: '/daegu',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Daejeon (대전), KR',
+    image: daejeon,
+    link: '/daejeon',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Busan (부산), KR',
+    image: busan,
+    link: '/busan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Gimpo (김포), KR',
+    image: gimpo,
+    link: '/gimpo',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Gwangju (광주), KR',
+    image: gwangju,
+    link: '/gwangju',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Kuala Lumpur (吉隆坡), MY',
+    image: kualaLumpur,
+    link: '/kuala-lumpur',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Bangkok (กรุงเทพฯ), TH',
+    image: bangkok,
+    link: '/bangkok',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: "Guang'an (广安), CN",
+    image: guangan,
+    link: '/guangan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Huai\'an (淮安), CN',
+    image: huaian,
+    link: '/huaian',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Huangshi (黄石), CN',
+    image: huangshi,
+    link: '/huangshi',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Mengzhi (蒙自), CN',
+    image: mengzhi,
+    link: '/mengzhi',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Jiaxing (嘉兴), CN',
+    image: jiaxing,
+    link: '/jiaxing',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Sanya (三亚), CN',
+    image: sanya,
+    link: '/sanya',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Tianshui (天水), CN',
+    image: tianshui,
+    link: '/tianshui',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Qiubei (丘北), CN',
+    image: qiubei,
+    link: '/qiubei',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Nanping (南平), CN',
+    image: nanping,
+    link: '/nanping',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Zhangjiakou (张家口), CN',
+    image: zhangjiakou,
+    link: '/zhangjiakou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Baoshan (保山), CN',
+    image: baoshan,
+    link: '/baoshan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Dujiangyan (都江堰), CN',
+    image: dujiangyan,
+    link: '/dujiangyan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Haixi (海西), CN',
+    image: haixi,
+    link: '/haixi',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Lijiang (丽江), CN',
+    image: lijiang,
+    link: '/lijiang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Zhangye (张掖), CN',
+    image: zhangye,
+    link: '/zhangye',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Fenghuang (凤凰), CN',
+    image: fenghuang,
+    link: '/fenghuang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Xishui (浠水), CN',
+    image: xishui,
+    link: '/xishui',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Yinchuan (银川), CN',
+    image: yinchuan,
+    link: '/yinchuan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Liupanshui (六盘水), CN',
+    image: liupanshui,
+    link: '/liupanshui',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Enshi (恩施), CN',
+    image: enshi,
+    link: '/enshi',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Guilin (桂林), CN',
+    image: guilin,
+    link: '/guilin',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Jining (济宁), CN',
+    image: jining,
+    link: '/jining',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Anyang (安阳), CN',
+    image: anyang,
+    link: '/anyang',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Qingyuan (清远), CN',
+    image: qingyuan,
+    link: '/qingyuan',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Shantou (汕头), CN',
+    image: shantou,
+    link: '/shantou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Liuzhou (柳州), CN',
+    image: liuzhou,
+    link: '/liuzhou',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Bengbu (蚌埠), CN',
+    image: bengbu,
+    link: '/bengbu',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
     name: 'Ürümqi (乌鲁木齐), CN',
     image: urumqi,
     link: '/urumqi',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Singapore, SG',

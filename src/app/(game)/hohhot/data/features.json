@@ -1,0 +1,1037 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.5684909,
+          40.7835389
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Yili Health Valley (伊利健康谷)",
+        "alternate_names": [
+          "伊利健康谷",
+          "Yili Health Valley",
+          "yi li jian kang gu",
+          "ᠢᠯᠢ ᠡᠷᠡᠭᠦᠯ ᠮᠡᠳᠦ ᠶᠢᠨ ᠵᠢᠯᠠᠭ᠎ᠠ",
+          "ᠶᠢ ᠯᠢ ᠡᠷᠡᠭᠦᠯ ᠮᠡᠨᠳᠦ ᠭᠦ᠋"
+        ],
+        "line": "hohhot1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.585667,
+          40.7936904
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xi'erhuanlu (西二环路)",
+        "alternate_names": [
+          "西二环路",
+          "Xi'erhuanlu",
+          "xi er huan lu",
+          "ᠪᠠᠷᠠᠭᠤᠨ ᠬᠣᠶᠠᠳᠤᠭᠠᠷ ᠲᠣᠭᠣᠷᠢᠭ ᠵᠠᠮ",
+          "ᠪᠠᠷᠠᠭᠤᠨ ᠬᠤᠶᠠᠳᠤᠭᠠᠷ ᠲᠣᠭᠤᠷᠢᠨ ᠵᠠᠮ"
+        ],
+        "line": "hohhot1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.597875,
+          40.7986793
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Kongjiaying (孔家营)",
+        "alternate_names": [
+          "孔家营",
+          "Kongjiaying",
+          "kong jia ying",
+          "ᠺᠦᠩ ᠵᠢᠶᠠ ᠶᠢᠩ",
+          "ᠺᠦᠩ ᠵᠢᠶᠡ ᠶᠢᠩ"
+        ],
+        "line": "hohhot1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6099993,
+          40.8038028
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hugangnanlu (呼钢南路)",
+        "alternate_names": [
+          "呼钢南路",
+          "Hugangnanlu",
+          "hu gang nan lu",
+          "ᠬᠥᠬᠡᠬᠣᠲᠠ ᠶᠢᠨ ᠪᠣᠯᠣᠳ ᠲᠡᠮᠦᠷ ᠦ᠋ᠨ ᠡᠮᠦᠨ᠎ᠡ ᠵᠠᠮ",
+          "ᠬᠦᠬᠡᠬᠤᠲᠠ ᠶᠢᠨ ᠪᠤᠯᠤᠳ ᠲᠡᠮᠦᠷ ᠤᠨ ᠵᠡᠭᠦᠨ ᠵᠠᠮ"
+        ],
+        "line": "hohhot1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6250876,
+          40.8100748
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Xilongwangmiao (西龙王庙)",
+        "alternate_names": [
+          "西龙王庙",
+          "Xilongwangmiao",
+          "xi long wang miao",
+          "ᠪᠠᠷᠠᠭᠤᠨ ᠯᠤᠤᠰ ᠤᠨ ᠰᠦᠮ᠎ᠡ",
+          "ᠪᠠᠷᠠᠭᠤᠨ ᠯᠦᠩ ᠤᠨ ᠰᠦᠮ᠎ᠡ"
+        ],
+        "line": "hohhot1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6348414,
+          40.8140631
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Wulanfu Memorial Hall (乌兰夫纪念馆)",
+        "alternate_names": [
+          "乌兰夫纪念馆",
+          "Wulanfu Memorial Hall",
+          "wu lan fu ji nian guan",
+          "ᠤᠯᠠᠭᠠᠨᠬᠦᠦ ᠶᠢᠨ ᠳᠤᠷᠠᠰᠬᠠᠯ ᠤᠨ ᠣᠷᠳᠣᠨ",
+          "ᠤᠯᠠᠭᠠᠨᠬᠦᠥ ᠶᠢᠨ ᠲᠤᠷᠠᠰᠬᠠᠯ ᠤᠨ ᠤᠷᠳᠤᠨ",
+          "乌兰夫纪念馆站"
+        ],
+        "line": "hohhot1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6489249,
+          40.817667
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Affiliated Hospital (附属医院)",
+        "alternate_names": [
+          "附属医院",
+          "Affiliated Hospital",
+          "fu shu yi yuan",
+          "ᠬᠠᠷᠢᠶᠠᠲᠤ ᠡᠮᠨᠡᠯᠭᠡ ᠶᠢᠨ ᠬᠣᠷᠢᠶ᠎ᠠ",
+          "ᠬᠠᠷᠢᠶᠠᠲᠦ ᠡᠮᠨᠡᠯᠭᠡ ᠶᠢᠨ ᠬᠠᠷᠢᠶ᠎ᠠ"
+        ],
+        "line": "hohhot1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6608672,
+          40.8202623
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Xinhua Square (新华广场)",
+        "alternate_names": [
+          "新华广场",
+          "Xinhua Square",
+          "xin hua guang chang",
+          "ᠰᠢᠨᠬᠤᠸᠠ ᠲᠠᠯᠠᠪᠠᠢ"
+        ],
+        "line": "hohhot1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6695471,
+          40.8221452
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "People's Hall (人民会堂)",
+        "alternate_names": [
+          "人民会堂",
+          "People's Hall",
+          "ren min hui tang",
+          "ᠠᠷᠠᠳ ᠤᠨ ᠬᠤᠷᠠᠯ ᠤᠨ ᠲᠠᠩᠬᠢᠮ"
+        ],
+        "line": "hohhot1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6816008,
+          40.8247606
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Jiangjunyashu (将军衙署)",
+        "alternate_names": [
+          "将军衙署",
+          "Jiangjunyashu",
+          "jiang jun ya shu",
+          "ᠵᠠᠩᠵᠤᠨ ᠤ ᠶᠠᠮᠤᠨ",
+          "ᠵᠠᠩᠶᠦ᠋ᠨ ᠤ ᠶᠠᠮᠳᠠ"
+        ],
+        "line": "hohhot1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6927036,
+          40.8276572
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Arts College (艺术学院)",
+        "alternate_names": [
+          "艺术学院",
+          "Arts College",
+          "yi shu xue yuan",
+          "ᠤᠷᠠᠯᠢᠭ ᠤᠨ ᠳᠡᠭᠡᠳᠦ ᠰᠤᠷᠭᠠᠭᠤᠯᠢ",
+          "ᠤᠷᠠᠯᠢᠭ ᠤᠨ ᠲᠡᠭᠡᠳᠦ ᠰᠤᠷᠭᠠᠭᠤᠯᠢ"
+        ],
+        "line": "hohhot1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.701823,
+          40.8296596
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Dongyinglu (东影路)",
+        "alternate_names": [
+          "东影路",
+          "Dongyinglu",
+          "dong ying lu",
+          "ᠳ᠋ᠦᠩ ᠶᠢᠩ ᠵᠠᠮ"
+        ],
+        "line": "hohhot1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7134673,
+          40.8322275
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Inner Mongolia Exhibition Hall (内蒙古展览馆)",
+        "alternate_names": [
+          "内蒙古展览馆",
+          "Inner Mongolia Exhibition Hall",
+          "nei meng gu zhan lan guan",
+          "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠦᠵᠡᠰᠬᠦᠯᠡᠩ ᠦᠨ ᠣᠷᠳᠣᠨ",
+          "ᠦᠪᠦᠷ ᠮᠤᠩᠭ᠋ᠤᠯ ᠤᠨ ᠦᠵᠡᠰᠬᠦᠯᠡᠩ ᠤᠨ ᠤᠷᠳᠤᠨ"
+        ],
+        "line": "hohhot1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.728527,
+          40.8354385
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Inner Mongolia Museum (内蒙古博物院)",
+        "alternate_names": [
+          "内蒙古博物院",
+          "Inner Mongolia Museum",
+          "nei meng gu bo wu yuan",
+          "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠮᠦᠽᠧᠢ",
+          "ᠦᠪᠦᠷ ᠮᠤᠩᠭ᠋ᠤᠯ ᠤᠨ ᠮᠦᠽᠸᠢ"
+        ],
+        "line": "hohhot1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7404873,
+          40.8380728
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "City Government (市政府)",
+        "alternate_names": [
+          "市政府",
+          "City Government",
+          "shi zheng fu",
+          "ᠬᠣᠲᠠ ᠶᠢᠨ ᠵᠠᠰᠠᠭ ᠤᠨ ᠣᠷᠳᠣᠨ",
+          "ᠬᠤᠲᠠ ᠶᠢᠨ ᠵᠠᠰᠠᠭ ᠤᠨ ᠣᠷᠳᠣᠨ"
+        ],
+        "line": "hohhot1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7597592,
+          40.8458916
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Hohhot East Railway Station (呼和浩特东站)",
+        "alternate_names": [
+          "呼和浩特东站",
+          "Hohhot East Railway Station",
+          "hu he hao te dong zhan",
+          "ᠬᠥᠬᠡᠬᠣᠲᠠ ᠶᠢᠨ ᠵᠡᠭᠦᠨ ᠥᠷᠲᠡᠭᠡ",
+          "ᠬᠥᠬᠡᠬᠣᠲᠠ ᠶᠢᠨ ᠵᠡᠭᠦᠨ ᠮᠡᠳᠡᠭᠡ"
+        ],
+        "line": "hohhot1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7739827,
+          40.8465066
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Houbutaqi (后不塔气)",
+        "alternate_names": [
+          "后不塔气",
+          "Houbutaqi",
+          "hou bu ta qi",
+          "ᠬᠣᠢᠲᠤ ᠪᠤᠲᠠᠴᠢ",
+          "ᠬᠣᠶᠢᠲᠤ ᠪᠠᠲᠠᠵᠢ"
+        ],
+        "line": "hohhot1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7936674,
+          40.8507813
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Shilandai (什兰岱)",
+        "alternate_names": [
+          "什兰岱",
+          "Shilandai",
+          "shi lan dai",
+          "ᠰᠢᠯᠠᠷᠳᠠᠢ",
+          "ᠰᠢᠮᠷᠲᠵᠢ"
+        ],
+        "line": "hohhot1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.8047222,
+          40.8533828
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Baita West (白塔西)",
+        "alternate_names": [
+          "白塔西",
+          "Baita West",
+          "bai ta xi",
+          "ᠴᠠᠭᠠᠨ ᠰᠤᠪᠤᠷᠭ᠎ᠠ ᠶᠢᠨ ᠪᠠᠷᠠᠭᠤᠨ",
+          "ᠴᠠᠭᠠᠨ ᠰᠤᠪᠤᠷᠭ᠎ᠠ ᠶᠢᠨ ᠪᠠᠷᠠᠭᠤᠨ"
+        ],
+        "line": "hohhot1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.8177809,
+          40.8564792
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Bayan (Airport) (坝堰（机场）)",
+        "alternate_names": [
+          "坝堰（机场）",
+          "Bayan (Airport)",
+          "ba yan",
+          "ᠪᠠᠶᠠᠨ",
+          "ᠪᠠᠶ᠋ᠠᠨ (ᠨᠢᠰᠬᠡᠯ ᠦᠨ ᠪᠠᠭᠤᠳᠠᠯ)"
+        ],
+        "line": "hohhot1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7700328,
+          40.8680493
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Talidonglu (塔利东路)",
+        "alternate_names": [
+          "塔利东路",
+          "Talidonglu",
+          "ta li dong lu",
+          "ᠲᠠᠪᠤᠨ ᠲᠣᠯᠣᠭᠠᠢ ᠵᠡᠭᠦᠨ ᠵᠠᠮ"
+        ],
+        "line": "hohhot2",
+        "order": 0
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7589134,
+          40.8658182
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Xindian (新店)",
+        "alternate_names": [
+          "新店",
+          "Xindian",
+          "xin dian",
+          "ᠰᠢᠨ ᠳ᠋ᠢᠶᠠᠨ"
+        ],
+        "line": "hohhot2",
+        "order": 1
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7517049,
+          40.8637325
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Baihelu (百合路)",
+        "alternate_names": [
+          "百合路",
+          "Baihelu",
+          "bai he lu",
+          "ᠪᠠᠢ ᠾᠧ ᠵᠠᠮ"
+        ],
+        "line": "hohhot2",
+        "order": 2
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7403289,
+          40.8611238
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Beishan Park (北山公园)",
+        "alternate_names": [
+          "北山公园",
+          "Beishan Park",
+          "bei shan gong yuan",
+          "ᠬᠣᠢᠲᠤ ᠠᠭᠤᠯᠠ ᠴᠡᠴᠡᠷᠯᠵᠭ"
+        ],
+        "line": "hohhot2",
+        "order": 3
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7259957,
+          40.8577514
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Sichouzhiludadao (丝绸之路大道)",
+        "alternate_names": [
+          "丝绸之路大道",
+          "Sichouzhiludadao",
+          "si chou zhi lu da dao",
+          "ᠲᠣᠷᠭᠠᠨ ᠵᠠᠮ"
+        ],
+        "line": "hohhot2",
+        "order": 4
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7116243,
+          40.85803
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Yijiacun (一家村)",
+        "alternate_names": [
+          "一家村",
+          "Yijiacun",
+          "yi jia cun",
+          "ᠭᠠᠭᠴᠠ ᠭᠡᠷ ᠲᠣᠰᠬᠣᠨ"
+        ],
+        "line": "hohhot2",
+        "order": 5
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6977895,
+          40.8601679
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Genghis Khan Park (成吉思汗公园)",
+        "alternate_names": [
+          "成吉思汗公园",
+          "Genghis Khan Park",
+          "cheng ji si han gong yuan",
+          "ᠴᠢᠩᠭᠢᠰ ᠬᠠᠭᠠᠨ ᠴᠡᠴᠡᠷᠯᠢᠭ",
+          "Genghis Khan"
+        ],
+        "line": "hohhot2",
+        "order": 6
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6841932,
+          40.858121
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Haoqinying (毫沁营)",
+        "alternate_names": [
+          "毫沁营",
+          "Haoqinying",
+          "hao qin ying",
+          "ᠬᠠᠭᠤᠴᠢᠨ ᠠᠢᠯ"
+        ],
+        "line": "hohhot2",
+        "order": 7
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.66955,
+          40.8561693
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Genghis Khan Square (成吉思汗广场)",
+        "alternate_names": [
+          "成吉思汗广场",
+          "Genghis Khan Square",
+          "cheng ji si han guang chang",
+          "ᠴᠢᠩᠭᠢᠰ ᠬᠠᠭᠠᠨ ᠲᠠᠯᠠᠪᠠᠢ"
+        ],
+        "line": "hohhot2",
+        "order": 8
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.657551,
+          40.8546001
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Inner Mongolia Gymnasium (内蒙古体育馆)",
+        "alternate_names": [
+          "内蒙古体育馆",
+          "Inner Mongolia Gymnasium",
+          "nei meng gu ti yu guan",
+          "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠲᠠᠮᠢᠷ ᠤᠨ ᠣᠷᠳᠣᠨ"
+        ],
+        "line": "hohhot2",
+        "order": 9
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6491679,
+          40.8491138
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Hohhot Stadium (呼和浩特体育场)",
+        "alternate_names": [
+          "呼和浩特体育场",
+          "Hohhot Stadium",
+          "hu he hao te ti yu chang",
+          "ᠬᠥᠬᠡᠬᠣᠲᠠ ᠶᠢᠨ ᠲᠠᠮᠢᠷ ᠤᠨ ᠲᠠᠯᠠᠪᠠᠢ"
+        ],
+        "line": "hohhot2",
+        "order": 10
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6553971,
+          40.8349775
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Gongzhufu (公主府)",
+        "alternate_names": [
+          "公主府",
+          "Gongzhufu",
+          "gong zhu fu",
+          "ᠭᠦᠩᠵᠦ ᠶᠢᠨ ᠣᠷᠳᠣᠨ"
+        ],
+        "line": "hohhot2",
+        "order": 11
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6588506,
+          40.8278831
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Hohhot Railway Station (呼和浩特站)",
+        "alternate_names": [
+          "呼和浩特站",
+          "Hohhot Railway Station",
+          "hu he hao te zhan",
+          "ᠬᠥᠬᠡᠬᠣᠲᠠ ᠶᠢᠨ ᠭᠠᠯᠲᠤ ᠲᠡᠷᠭᠡᠨ ᠦ ᠥᠷᠲᠡᠭᠡ",
+          "ᠪᠠᠢ ᠾᠧ ᠵᠠᠮ"
+        ],
+        "line": "hohhot2",
+        "order": 12
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6608672,
+          40.8202623
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Xinhua Square (新华广场)",
+        "alternate_names": [
+          "新华广场",
+          "Xinhua Square",
+          "xin hua guang chang",
+          "ᠰᠢᠨᠬᠤᠸᠠ ᠲᠠᠯᠠᠪᠠᠢ"
+        ],
+        "line": "hohhot2",
+        "order": 13
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6640354,
+          40.8141402
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Zhongshanlu (中山路)",
+        "alternate_names": [
+          "中山路",
+          "Zhongshanlu",
+          "zhong shan lu",
+          "ᠵᠦᠩᠱᠠᠨ ᠵᠠᠮ"
+        ],
+        "line": "hohhot2",
+        "order": 14
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6689795,
+          40.8045398
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Daxuexijie (大学西街)",
+        "alternate_names": [
+          "大学西街",
+          "Daxuexijie",
+          "da xue xi jie",
+          "ᠶᠡᠬᠡ ᠰᠤᠷᠭᠠᠭᠤᠯᠢ ᠪᠠᠷᠠᠭᠤᠠᠯ ᠵᠡᠭᠡᠯᠢ"
+        ],
+        "line": "hohhot2",
+        "order": 15
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6728265,
+          40.7970527
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Nuohemule (诺和木勒)",
+        "alternate_names": [
+          "诺和木勒",
+          "Nuohemule",
+          "nuo he mu le",
+          "ᠨᠡᠬᠮᠡᠯ"
+        ],
+        "line": "hohhot2",
+        "order": 16
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.674489,
+          40.7850169
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Shuishang Park (水上公园)",
+        "alternate_names": [
+          "水上公园",
+          "Shuishang Park",
+          "shui shang gong yuan",
+          "ᠤᠰᠤᠨ ᠳᠡᠭᠡᠷᠡᠬᠢ ᠴᠡᠴᠡᠷᠯᠢᠭ"
+        ],
+        "line": "hohhot2",
+        "order": 17
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.678142,
+          40.7759291
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Wuliying (五里营)",
+        "alternate_names": [
+          "五里营",
+          "Wuliying",
+          "wu li ying",
+          "ᠦ᠋ ᠯᠢ ᠶᠢᠩ"
+        ],
+        "line": "hohhot2",
+        "order": 18
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6807553,
+          40.7696955
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Xilin Park (锡林公园)",
+        "alternate_names": [
+          "锡林公园",
+          "Xilin Park",
+          "xi lin gong yuan",
+          "ᠰᠢᠯᠢ ᠶᠢᠨ ᠴᠡᠴᠡᠷᠯᠢᠭ"
+        ],
+        "line": "hohhot2",
+        "order": 19
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6856168,
+          40.757834
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Neida Nanxiaoqu (内大南校区)",
+        "alternate_names": [
+          "内大南校区",
+          "Neida Nanxiaoqu",
+          "nei da nan xiao qu",
+          "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠶᠡᠬᠡ ᠰᠤᠷᠭᠠᠭᠤᠯᠢ ᠶᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠲᠣᠭᠣᠷᠢᠭ"
+        ],
+        "line": "hohhot2",
+        "order": 20
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7000669,
+          40.754343
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Shuaijiaying (帅家营)",
+        "alternate_names": [
+          "帅家营",
+          "Shuaijiaying",
+          "shuai jia ying",
+          "ᠱᠤᠸᠠᠢ ᠣᠪᠣᠭᠲᠤ ᠠᠢᠯ"
+        ],
+        "line": "hohhot2",
+        "order": 21
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7243776,
+          40.7542896
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Lamaying (喇嘛营)",
+        "alternate_names": [
+          "喇嘛营",
+          "Lamaying",
+          "la ma ying",
+          "ᠯᠠᠮᠠ ᠶᠢᠨ ᠠᠢᠯ"
+        ],
+        "line": "hohhot2",
+        "order": 22
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7409174,
+          40.7541076
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "A'ershanlu (阿尔山路)",
+        "alternate_names": [
+          "阿尔山路",
+          "A'ershanlu",
+          "a er shan lu",
+          "ᠷᠠᠰᠢᠶᠠᠨ ᠵᠠᠮ"
+        ],
+        "line": "hohhot2",
+        "order": 23
+      },
+      "id": 44
+    }
+  ]
+}

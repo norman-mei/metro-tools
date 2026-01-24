@@ -1,0 +1,26 @@
+{
+  "urumqi1": {
+    "name": "Line 1",
+    "color": "#1D47A1",
+    "backgroundColor": "#1D47A1",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "urumqi1.png"
+  },
+  "urumqi2": {
+    "name": "Line 2",
+    "color": "#29BD4B",
+    "backgroundColor": "#29BD4B",
+    "textColor": "#000000",
+    "order": 2,
+    "icon": "urumqi2.png"
+  },
+  "urumqi4": {
+    "name": "Line 4",
+    "color": "#B4851A",
+    "backgroundColor": "#B4851A",
+    "textColor": "#ffffff",
+    "order": 4,
+    "icon": "urumqi4.png"
+  }
+}

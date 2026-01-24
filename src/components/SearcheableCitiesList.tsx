@@ -316,6 +316,8 @@ const getBarBackground = (percent: number) => {
   return `linear-gradient(90deg, ${midColor} 0%, ${midColor} 100%)`
 }
 
+const HIDDEN_CITY_SLUGS = new Set(['amtrak', 'viarail'])
+
 type GlobalStats = {
   totalStationsFound: number
   totalStations: number
@@ -377,11 +379,32 @@ const SearcheableCitiesList = ({
   const [statsOpen, setStatsOpen] = useState(false)
   const [statsSlug, setStatsSlug] = useState<string | null>(null)
   const [activeSection, setActiveSection] = useState<string | null>(null)
+  const [continentFocus, setContinentFocus] = useState<{ name: string; token: number } | null>(
+    null,
+  )
   const viewPrefsHydratedRef = useRef(false)
 
+  const filteredCities = useMemo(
+    () =>
+      cities.filter((city) => {
+        const slug = getSlugFromLink(city.link)
+        return slug ? !HIDDEN_CITY_SLUGS.has(slug) : true
+      }),
+    [],
+  )
+
+  const focusContinentOnMap = useCallback(
+    (continent: string) => {
+      if (cityViewMode === 'globe' || cityViewMode === 'map') {
+        setContinentFocus({ name: continent, token: Date.now() })
+      }
+    },
+    [cityViewMode],
+  )
 
 
-  const enrichedCities = useMemo(() => enrichCities(cities), [])
+
+  const enrichedCities = useMemo(() => enrichCities(filteredCities), [filteredCities])
   const cityAchievementCatalog = useMemo(() => {
     return enrichedCities
       .map((city, index) => {
@@ -652,6 +675,12 @@ const SearcheableCitiesList = ({
     }
     updateUiPreferences({ cityViewMode })
   }, [cityViewMode, updateUiPreferences])
+
+  useEffect(() => {
+    if (cityViewMode !== 'globe' && cityViewMode !== 'map') {
+      setContinentFocus(null)
+    }
+  }, [cityViewMode])
 
   useEffect(() => {
     if (!viewPrefsHydratedRef.current) return
@@ -1124,12 +1153,15 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     return () => observer.disconnect()
   }, [shouldShowContinentNav, visibleGroups])
 
-  const handleJumpToContinent = useCallback((sectionId: string) => {
+  const handleJumpToContinent = useCallback((sectionId: string, continent?: string) => {
     const target = document.getElementById(sectionId)
     if (target) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
-  }, [])
+    if (continent) {
+      focusContinentOnMap(continent)
+    }
+  }, [focusContinentOnMap])
 
   const openStatsPanelForCity = (slug: string) => {
     setStatsSlug(slug)
@@ -1288,7 +1320,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                     <button
                       key={sectionId}
                       type="button"
-                      onClick={() => handleJumpToContinent(sectionId)}
+                      onClick={() => handleJumpToContinent(sectionId, continent)}
                       className={classNames(
                         "group w-full rounded-xl px-3 py-3 text-left transition",
                         isActive 
@@ -1480,6 +1512,8 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                   cityProgress={cityProgress}
                   projection={cityViewMode === 'map' ? 'mercator' : 'globe'} 
                   satellite={isSatellite}
+                  selectedContinent={continentFocus?.name}
+                  continentFocusVersion={continentFocus?.token}
                 />
              </div>
           ) : hasResults ? (

@@ -236,6 +236,62 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Green City Guru",
     description: "You've cruised through Nanning's network in the Green City! 干得好！",
   },
+  changzhou: {
+    title: "Canal City Cruiser",
+    description: "You've glided through Changzhou's lines along the Grand Canal! 常州加油！",
+  },
+  guiyang: {
+    title: "Karst Capital Captain",
+    description: "You've tunneled through Guiyang's hills like a metro pro! 贵阳棒棒哒！",
+  },
+  harbin: {
+    title: "Ice City Conductor",
+    description: "You've kept Harbin's network warm even at minus 30C! 冰城无敌！",
+  },
+  pyongyang: {
+    title: "Juche Journey",
+    description: "You've ventured through Pyongyang's underground like a true explorer!",
+  },
+  hohhot: {
+    title: "Grassland Gateway Guru",
+    description: "You've mastered Hohhot's lines from the steppe to the city! 呼和浩特真棒！",
+  },
+  jinhua: {
+    title: "Golden Flower Finder",
+    description: "You've mapped Jinhua's routes brighter than its famous ham! 金华厉害！",
+  },
+  lanzhou: {
+    title: "Beef Noodle Navigator",
+    description: "You've slurped through Lanzhou's Yellow River lines like lamian! 牛气冲天！",
+  },
+  luoyang: {
+    title: "Peony Line Pro",
+    description: "You've ridden Luoyang's network blooming like its peonies! 洛阳真妙！",
+  },
+  nantong: {
+    title: "River Delta Rider",
+    description: "You've linked Nantong's rails across the Yangtze gateway! 南通加油！",
+  },
+  shaoxing: {
+    title: "Rice Wine Rider",
+    description: "You've cruised Shaoxing's canals and Keqiao lines like a local! 绍兴好样的！",
+  },
+  shijiazhuang: {
+    title: "Stone City Strategist",
+    description: "You've mastered Shijiazhuang's grid in the heart of Hebei! 石家庄牛！",
+  },
+  taiyuan: {
+    title: "Shanxi Skyline Strategist",
+    description: "You've powered through Taiyuan's grid like the Fen River wind! 太原给力！",
+  },
+  wuhu: {
+    title: "Yangtze Wingman",
+    description: "You've soared over Wuhu's rails—wuhu indeed! 芜湖起飞！",
+  },
+  xiamen: {
+    title: "Sea Breeze Surfer",
+    description: "You've glided across Xiamen's island lines to Gulangyu vibes! 厦门真美！",
+  },
   taizhou: {
     title: "Harbor Coast Hero",
     description: "You've mapped Taizhou's seaside network like a local! 太棒了！",

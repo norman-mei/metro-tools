@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "name": "Beitun Main",
+        "name": "Beitun Main (北屯總站)",
         "line": "TaichungGreen",
         "id": 0
       },
@@ -27,7 +27,7 @@
         ]
       },
       "properties": {
-        "name": "Jiushe",
+        "name": "Jiushe (舊社)",
         "line": "TaichungGreen",
         "id": 1
       },
@@ -43,7 +43,7 @@
         ]
       },
       "properties": {
-        "name": "Songzhu",
+        "name": "Songzhu (松竹)",
         "line": "TaichungGreen",
         "id": 2
       },
@@ -59,7 +59,7 @@
         ]
       },
       "properties": {
-        "name": "Sihwei Elementary School",
+        "name": "Sihwei Elementary School (四維國小)",
         "line": "TaichungGreen",
         "id": 3,
         "alternate_names": [
@@ -79,7 +79,7 @@
         ]
       },
       "properties": {
-        "name": "Wenxin Chongde",
+        "name": "Wenxin Chongde (文心崇德)",
         "line": "TaichungGreen",
         "id": 4
       },
@@ -95,7 +95,7 @@
         ]
       },
       "properties": {
-        "name": "Wenxin Zhongqing",
+        "name": "Wenxin Zhongqing (文心中清)",
         "line": "TaichungGreen",
         "id": 5
       },
@@ -111,7 +111,7 @@
         ]
       },
       "properties": {
-        "name": "Wenhua Senior High School",
+        "name": "Wenhua Senior High School (文華高中)",
         "line": "TaichungGreen",
         "id": 6,
         "alternate_names": [
@@ -130,7 +130,7 @@
         ]
       },
       "properties": {
-        "name": "Wenxin Yinghua",
+        "name": "Wenxin Yinghua (文心櫻花)",
         "line": "TaichungGreen",
         "id": 7
       },
@@ -146,7 +146,7 @@
         ]
       },
       "properties": {
-        "name": "Taichung City Hall",
+        "name": "Taichung City Hall (市政府)",
         "line": "TaichungGreen",
         "id": 8,
         "alternate_names": [
@@ -165,7 +165,7 @@
         ]
       },
       "properties": {
-        "name": "Shui-an Temple",
+        "name": "Shui-an Temple (水安宮)",
         "line": "TaichungGreen",
         "id": 9,
         "alternate_names": [
@@ -185,7 +185,7 @@
         ]
       },
       "properties": {
-        "name": "Wenxin Forest Park",
+        "name": "Wenxin Forest Park (文心森林公園)",
         "line": "TaichungGreen",
         "id": 10,
         "alternate_names": [
@@ -204,7 +204,7 @@
         ]
       },
       "properties": {
-        "name": "Nantun",
+        "name": "Nantun (南屯)",
         "line": "TaichungGreen",
         "id": 11
       },
@@ -220,7 +220,7 @@
         ]
       },
       "properties": {
-        "name": "Feng-le Park",
+        "name": "Feng-le Park (豐樂公園)",
         "line": "TaichungGreen",
         "id": 12,
         "alternate_names": [
@@ -241,7 +241,7 @@
         ]
       },
       "properties": {
-        "name": "Daqing",
+        "name": "Daqing (大慶)",
         "line": "TaichungGreen",
         "id": 13
       },
@@ -257,7 +257,7 @@
         ]
       },
       "properties": {
-        "name": "Jiuzhangli",
+        "name": "Jiuzhangli (九張犁)",
         "line": "TaichungGreen",
         "id": 14
       },
@@ -273,7 +273,7 @@
         ]
       },
       "properties": {
-        "name": "Jiude",
+        "name": "Jiude (九德)",
         "line": "TaichungGreen",
         "id": 15
       },
@@ -289,7 +289,7 @@
         ]
       },
       "properties": {
-        "name": "Wuri",
+        "name": "Wuri (烏日)",
         "line": "TaichungGreen",
         "id": 16
       },
@@ -305,7 +305,7 @@
         ]
       },
       "properties": {
-        "name": "Taichung",
+        "name": "Taichung (台中)",
         "line": "TaichungGreen",
         "id": 17
       },

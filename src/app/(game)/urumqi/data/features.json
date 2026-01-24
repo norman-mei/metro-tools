@@ -1,0 +1,1078 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6078772,
+          43.7600876
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Santunbei (三屯碑)",
+        "alternate_names": [
+          "三屯碑",
+          "Santunbei",
+          "san tun bei",
+          "سەندۈڭبىي‎"
+        ],
+        "line": "urumqi1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6111589,
+          43.7677182
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xinjiang University (新疆大学)",
+        "alternate_names": [
+          "新疆大学",
+          "Xinjiang University",
+          "xin jiang da xue",
+          "شىنجاڭ داشۆ‎",
+          "新疆大学‎ شىنجاڭ داشۆ‎"
+        ],
+        "line": "urumqi1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6141094,
+          43.7787459
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Erdaoqiao (二道桥)",
+        "alternate_names": [
+          "二道桥",
+          "Erdaoqiao",
+          "er dao qiao",
+          "ئيرداۋ چىيا ۋ‎",
+          "二道桥‎ ئيرداۋ چىيا ۋ‎"
+        ],
+        "line": "urumqi1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6179,
+          43.7901
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nanmen (南门)",
+        "alternate_names": [
+          "南门",
+          "Nanmen",
+          "nan men",
+          "نە نمين‎",
+          "Line 1"
+        ],
+        "line": "urumqi1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6184666,
+          43.8004492
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Beimen (北门)",
+        "alternate_names": [
+          "北门",
+          "Beimen",
+          "bei men",
+          "بېيمىن‎",
+          "北门 بېيمىن‎"
+        ],
+        "line": "urumqi1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6124155,
+          43.8119628
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Xinxing Street (新兴街)",
+        "alternate_names": [
+          "新兴街",
+          "Xinxing Street",
+          "xin xing jie",
+          "شىنشىڭ كوچىسى",
+          "新兴街 شىنشىڭ كوچىسى"
+        ],
+        "line": "urumqi1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6107848,
+          43.8205405
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nanhu Square (南湖广场)",
+        "alternate_names": [
+          "南湖广场",
+          "Nanhu Square",
+          "nan hu guang chang",
+          "نەنخۈ مەيدانى‎",
+          "南湖广场 نەنخۈ مەيدانى"
+        ],
+        "line": "urumqi1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6097709,
+          43.8307848
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nanhu North Road (南湖北路)",
+        "alternate_names": [
+          "南湖北路",
+          "Nanhu North Road",
+          "nan hu bei lu",
+          "شمالىي نەنخۈ‎‎",
+          "南湖北路 شمالىي نەنخۈ‎‎"
+        ],
+        "line": "urumqi1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5999916,
+          43.8357457
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Wangjialiang (王家梁)",
+        "alternate_names": [
+          "王家梁",
+          "Wangjialiang",
+          "wang jia liang",
+          "ۋاڭجيالياڭ‎",
+          "王家梁 ۋاڭجيالياڭ"
+        ],
+        "line": "urumqi1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.582128,
+          43.8332421
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Balou (八楼)",
+        "alternate_names": [
+          "八楼",
+          "Balou",
+          "ba lou",
+          "بالۇ",
+          "八楼 بالۇ"
+        ],
+        "line": "urumqi1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5717428,
+          43.8394231
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Xinjiang Library (新疆图书馆)",
+        "alternate_names": [
+          "新疆图书馆",
+          "Xinjiang Library",
+          "xin jiang tu shu guan",
+          "شىنجاڭ كۈتۈپخانىس‎",
+          "新疆图书馆 شىنجاڭ كۈتۈپخانىس‎"
+        ],
+        "line": "urumqi1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5686671,
+          43.8466982
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Zhongyinggong (中营工)",
+        "alternate_names": [
+          "中营工",
+          "Zhongyinggong",
+          "zhong ying gong",
+          "جوڭيىڭگوڭ‎",
+          "中营工 جوڭيىڭگوڭ‎"
+        ],
+        "line": "urumqi1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5632667,
+          43.8594262
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Xiaoxigou (小西沟)",
+        "alternate_names": [
+          "小西沟",
+          "Xiaoxigou",
+          "xiao xi gou",
+          "شىاۋشىگۈ‎",
+          "小西沟 شىاۋشىگۈ‎"
+        ],
+        "line": "urumqi1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5591,
+          43.8692
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Tieluju (铁路局)",
+        "alternate_names": [
+          "铁路局",
+          "Tieluju",
+          "tie lu ju",
+          "تۆمۈريول ئىدارىسى‎‎",
+          "铁路局 تۆمۈريول ئىدارىسى"
+        ],
+        "line": "urumqi1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5520122,
+          43.8796755
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Sports Center (体育中心)",
+        "alternate_names": [
+          "体育中心",
+          "Sports Center",
+          "ti yu zhong xin",
+          "تەنتەربىيە مەركىزى",
+          "体育中心 تەنتەربىيە مەركىزى"
+        ],
+        "line": "urumqi1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.545127,
+          43.889755
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Botanical Garden (植物园)",
+        "alternate_names": [
+          "植物园",
+          "Botanical Garden",
+          "zhi wu yuan",
+          "ئۆسۈملۈكلەر باغچىسى‎"
+        ],
+        "line": "urumqi1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5389023,
+          43.8988154
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Yingbin Road Crossing (迎宾路口)",
+        "alternate_names": [
+          "迎宾路口",
+          "Yingbin Road Crossing",
+          "ying bin lu kou",
+          "يىنبىن يولى ئېغىزى"
+        ],
+        "line": "urumqi1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.531842,
+          43.9088848
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Sangong (三工)",
+        "alternate_names": [
+          "三工",
+          "Sangong",
+          "san gong",
+          "سەنگۇڭ"
+        ],
+        "line": "urumqi1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5197774,
+          43.9132132
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Xuanrendun (宣仁墩)",
+        "alternate_names": [
+          "宣仁墩",
+          "Xuanrendun",
+          "xuan ren dun",
+          "شۈەنرېندۈن"
+        ],
+        "line": "urumqi1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4937117,
+          43.8954648
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Dadiwopu (大地窝堡)",
+        "alternate_names": [
+          "大地窝堡",
+          "Dadiwopu",
+          "da di wo bao",
+          "چوڭ دىئوپو",
+          "大地窝堡 چوڭ دىئوپو"
+        ],
+        "line": "urumqi1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4712,
+          43.8995
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "International Airport (国际机场)",
+        "alternate_names": [
+          "国际机场",
+          "International Airport",
+          "guo ji ji chang"
+        ],
+        "line": "urumqi1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5111675,
+          43.8515041
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Huashan Street (华山街)",
+        "alternate_names": [
+          "华山街",
+          "Huashan Street",
+          "hua shan jie"
+        ],
+        "line": "urumqi2",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5249702,
+          43.8379242
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Urumqi Railway Station (乌鲁木齐站)",
+        "alternate_names": [
+          "乌鲁木齐站",
+          "Urumqi Railway Station",
+          "wu lu mu qi zhan"
+        ],
+        "line": "urumqi2",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5387326,
+          43.8301473
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Jiujiawan (九家湾)",
+        "alternate_names": [
+          "九家湾",
+          "Jiujiawan",
+          "jiu jia wan"
+        ],
+        "line": "urumqi2",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5478977,
+          43.8134958
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Pingchuan Road (平川路)",
+        "alternate_names": [
+          "平川路",
+          "Pingchuan Road",
+          "ping chuan lu"
+        ],
+        "line": "urumqi2",
+        "order": 3
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5577092,
+          43.8096789
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Maliaodi (马料地)",
+        "alternate_names": [
+          "马料地",
+          "Maliaodi",
+          "ma liao di"
+        ],
+        "line": "urumqi2",
+        "order": 4
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5695968,
+          43.8124157
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Xinjiang Agricultural University (农业大学)",
+        "alternate_names": [
+          "农业大学",
+          "Xinjiang Agricultural University",
+          "nong ye da xue"
+        ],
+        "line": "urumqi2",
+        "order": 5
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5787753,
+          43.8065276
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Nanliangpo (南梁坡)",
+        "alternate_names": [
+          "南梁坡",
+          "Nanliangpo",
+          "nan liang po"
+        ],
+        "line": "urumqi2",
+        "order": 6
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.593264,
+          43.792969
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Nianzigou (碾子沟)",
+        "alternate_names": [
+          "碾子沟",
+          "Nianzigou",
+          "nian zi gou"
+        ],
+        "line": "urumqi2",
+        "order": 7
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6078238,
+          43.7902744
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Zhongqiao (中桥)",
+        "alternate_names": [
+          "中桥",
+          "Zhongqiao",
+          "zhong qiao"
+        ],
+        "line": "urumqi2",
+        "order": 8
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6179,
+          43.7901
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Nanmen (南门)",
+        "alternate_names": [
+          "南门",
+          "Nanmen",
+          "nan men",
+          "نە نمين‎",
+          "Line 1"
+        ],
+        "line": "urumqi2",
+        "order": 9
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4721889,
+          43.8992103
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "International Airport (国际机场)",
+        "alternate_names": [
+          "国际机场",
+          "International Airport",
+          "guo ji ji chang"
+        ],
+        "line": "urumqi2",
+        "order": 10
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4803975,
+          43.9167241
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "North International Airport (国际机场北)",
+        "alternate_names": [
+          "国际机场北",
+          "North International Airport",
+          "guo ji ji chang bei"
+        ],
+        "line": "urumqi2",
+        "order": 11
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5014265,
+          43.921082
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "East International Airport (国际机场东)",
+        "alternate_names": [
+          "国际机场东",
+          "East International Airport",
+          "guo ji ji chang dong"
+        ],
+        "line": "urumqi2",
+        "order": 12
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4442196,
+          43.828248
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Jinhu Road (金湖路)",
+        "alternate_names": [
+          "金湖路",
+          "Jinhu Road",
+          "jin hu lu"
+        ],
+        "line": "urumqi4",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.467882,
+          43.8281494
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Niunaichang (牛奶厂)",
+        "alternate_names": [
+          "牛奶厂",
+          "Niunaichang",
+          "niu nai chang"
+        ],
+        "line": "urumqi4",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4856222,
+          43.8327235
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Yanchang (烟厂)",
+        "alternate_names": [
+          "烟厂",
+          "Yanchang",
+          "yan chang"
+        ],
+        "line": "urumqi4",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5084997,
+          43.8337819
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Ergong West (二工西)",
+        "alternate_names": [
+          "二工西",
+          "Ergong West",
+          "er gong xi"
+        ],
+        "line": "urumqi4",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5249702,
+          43.8379242
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Urumqi Railway Station (乌鲁木齐站)",
+        "alternate_names": [
+          "乌鲁木齐站",
+          "Urumqi Railway Station",
+          "wu lu mu qi zhan"
+        ],
+        "line": "urumqi4",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5294414,
+          43.8454264
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Beiguangchang (北广场)",
+        "alternate_names": [
+          "北广场",
+          "Beiguangchang",
+          "bei guang chang"
+        ],
+        "line": "urumqi4",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5235845,
+          43.8538851
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Mianfangcangku (棉纺仓库)",
+        "alternate_names": [
+          "棉纺仓库",
+          "Mianfangcangku",
+          "mian fang cang ku"
+        ],
+        "line": "urumqi4",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5368692,
+          43.862831
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Mucaichang (木材场)",
+        "alternate_names": [
+          "木材场",
+          "Mucaichang",
+          "mu cai chang"
+        ],
+        "line": "urumqi4",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5591,
+          43.8692
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Tieluju (铁路局)",
+        "alternate_names": [
+          "铁路局",
+          "Tieluju",
+          "tie lu ju",
+          "تۆمۈريول ئىدارىسى‎‎",
+          "铁路局 تۆمۈريول ئىدارىسى"
+        ],
+        "line": "urumqi4",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5800488,
+          43.875096
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Jiaqichang (加气场)",
+        "alternate_names": [
+          "加气场",
+          "Jiaqichang",
+          "jia qi chang"
+        ],
+        "line": "urumqi4",
+        "order": 9
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5911838,
+          43.8747176
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Automobile City (汽车城)",
+        "alternate_names": [
+          "汽车城",
+          "Automobile City",
+          "qi che cheng"
+        ],
+        "line": "urumqi4",
+        "order": 10
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6069868,
+          43.873883
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Bajiahu (八家户)",
+        "alternate_names": [
+          "八家户",
+          "Bajiahu",
+          "ba jia hu"
+        ],
+        "line": "urumqi4",
+        "order": 11
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.623992,
+          43.8749425
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Exhibition Center (会展中心)",
+        "alternate_names": [
+          "会展中心",
+          "Exhibition Center",
+          "hui zhan zhong xin"
+        ],
+        "line": "urumqi4",
+        "order": 12
+      },
+      "id": 47
+    }
+  ]
+}

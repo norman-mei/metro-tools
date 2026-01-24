@@ -13,6 +13,37 @@ import CityCard from './CityCard'
 // Mapbox Token
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || ''
 
+const CONTINENT_BOUNDS: Record<string, mapboxgl.LngLatBoundsLike> = {
+  'North America': [
+    [-169, 5],
+    [-52, 83],
+  ],
+  'South America': [
+    [-92, -58],
+    [-30, 15],
+  ],
+  Europe: [
+    [-25, 34],
+    [45, 72],
+  ],
+  Asia: [
+    [25, -5],
+    [170, 80],
+  ],
+  Africa: [
+    [-20, -35],
+    [55, 38],
+  ],
+  Oceania: [
+    [110, -50],
+    [180, 5],
+  ],
+}
+
+const CONTINENT_SOURCE_ID = 'continent-boundaries'
+const CONTINENT_FILL_LAYER_ID = 'continent-highlight-fill'
+const CONTINENT_LINE_LAYER_ID = 'continent-highlight-outline'
+
 const getProgressColor = (progress: number): string => {
   // progress is 0 to 100
   // 0 -> Red (#ef4444)
@@ -60,11 +91,15 @@ export default function CitiesGlobe({
   cityProgress = {},
   projection = 'globe',
   satellite = false,
+  selectedContinent,
+  continentFocusVersion,
 }: { 
   cities?: ICity[]
   cityProgress?: Record<string, number> 
   projection?: 'globe' | 'mercator'
   satellite?: boolean
+  selectedContinent?: string
+  continentFocusVersion?: number
 }) {
   const mapContainerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<mapboxgl.Map | null>(null)
@@ -296,6 +331,81 @@ export default function CitiesGlobe({
      // The 'style.load' event handler in the other useEffect will trigger updateSource
      // to re-add our layers.
   }, [resolvedTheme, satellite])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !mapReady) return
+
+    const bounds = selectedContinent ? CONTINENT_BOUNDS[selectedContinent] : undefined
+    const filter: any =
+      selectedContinent && selectedContinent in CONTINENT_BOUNDS
+        ? ['match', ['get', 'continent'], [selectedContinent], true, false]
+        : ['==', ['get', 'continent'], '']
+
+    const ensureLayers = () => {
+      if (!map.getSource(CONTINENT_SOURCE_ID)) {
+        map.addSource(CONTINENT_SOURCE_ID, {
+          type: 'vector',
+          url: 'mapbox://mapbox.country-boundaries-v1',
+        })
+      }
+
+      const beforeId = map.getLayer('city-points') ? 'city-points' : undefined
+
+      if (!map.getLayer(CONTINENT_FILL_LAYER_ID)) {
+        map.addLayer(
+          {
+            id: CONTINENT_FILL_LAYER_ID,
+            type: 'fill',
+            source: CONTINENT_SOURCE_ID,
+            'source-layer': 'country_boundaries',
+            paint: {
+              'fill-color': '#ef4444',
+              'fill-opacity': 0.2,
+            },
+            filter,
+          },
+          beforeId,
+        )
+      } else {
+        map.setFilter(CONTINENT_FILL_LAYER_ID, filter)
+      }
+
+      if (!map.getLayer(CONTINENT_LINE_LAYER_ID)) {
+        map.addLayer(
+          {
+            id: CONTINENT_LINE_LAYER_ID,
+            type: 'line',
+            source: CONTINENT_SOURCE_ID,
+            'source-layer': 'country_boundaries',
+            paint: {
+              'line-color': '#ef4444',
+              'line-width': 2.8,
+            },
+            filter,
+          },
+          beforeId,
+        )
+      } else {
+        map.setFilter(CONTINENT_LINE_LAYER_ID, filter)
+      }
+    }
+
+    if (map.isStyleLoaded()) {
+      ensureLayers()
+    } else {
+      map.once('style.load', ensureLayers)
+    }
+
+    if (bounds && selectedContinent) {
+      map.fitBounds(bounds, {
+        padding: 80,
+        duration: 1200,
+        essential: true,
+        maxZoom: projection === 'globe' ? 3.5 : 4.5,
+      })
+    }
+  }, [selectedContinent, continentFocusVersion, mapReady, projection, resolvedTheme, satellite])
 
   // Auto-fly if only one city is visible (search result)
   useEffect(() => {

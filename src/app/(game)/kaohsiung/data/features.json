@@ -5,10 +5,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.35372173498683, 22.564873536867687]
+        "coordinates": [
+          120.35372173498683,
+          22.564873536867687
+        ]
       },
       "properties": {
-        "name": "Siaogang",
+        "name": "Siaogang (小港)",
         "line": "KaohsiungRed",
         "id": 0,
         "alternate_names": [
@@ -28,10 +31,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.34171760040009, 22.570340347695453]
+        "coordinates": [
+          120.34171760040009,
+          22.570340347695453
+        ]
       },
       "properties": {
-        "name": "Kaohsiung International Airport",
+        "name": "Kaohsiung International Airport (高雄國際機場)",
         "line": "KaohsiungRed",
         "id": 1,
         "alternate_names": [
@@ -53,10 +59,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32864551141921, 22.58042921599926]
+        "coordinates": [
+          120.32864551141921,
+          22.58042921599926
+        ]
       },
       "properties": {
-        "name": "Caoya",
+        "name": "Caoya (草衙)",
         "line": "KaohsiungRed",
         "id": 2,
         "alternate_names": [
@@ -76,10 +85,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32195309842383, 22.588099024219254]
+        "coordinates": [
+          120.32195309842383,
+          22.588099024219254
+        ]
       },
       "properties": {
-        "name": "Cianjhen Senior High School",
+        "name": "Cianjhen Senior High School (前鎮高中)",
         "line": "KaohsiungRed",
         "id": 3,
         "alternate_names": [
@@ -98,10 +110,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31537783659685, 22.596870263646174]
+        "coordinates": [
+          120.31537783659685,
+          22.596870263646174
+        ]
       },
       "properties": {
-        "name": "Kaisyuan",
+        "name": "Kaisyuan (凱旋)",
         "line": "KaohsiungRed",
         "id": 4,
         "alternate_names": [
@@ -120,10 +135,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30800693227113, 22.60611631955678]
+        "coordinates": [
+          120.30800693227113,
+          22.60611631955678
+        ]
       },
       "properties": {
-        "name": "Shihjia",
+        "name": "Shihjia (獅甲)",
         "line": "KaohsiungRed",
         "id": 5,
         "alternate_names": [
@@ -142,10 +160,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30445755362169, 22.614081401245716]
+        "coordinates": [
+          120.30445755362169,
+          22.614081401245716
+        ]
       },
       "properties": {
-        "name": "Sanduo Shopping District",
+        "name": "Sanduo Shopping District (三多商圈)",
         "line": "KaohsiungRed",
         "id": 6,
         "alternate_names": [
@@ -166,10 +187,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30113484284757, 22.62498929296536]
+        "coordinates": [
+          120.30113484284757,
+          22.62498929296536
+        ]
       },
       "properties": {
-        "name": "Central Park",
+        "name": "Central Park (中央公園)",
         "line": "KaohsiungRed",
         "id": 7,
         "alternate_names": [
@@ -188,10 +212,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30183674103932, 22.631425679061284]
+        "coordinates": [
+          120.30183674103932,
+          22.631425679061284
+        ]
       },
       "properties": {
-        "name": "Formosa Boulevard",
+        "name": "Formosa Boulevard (美麗島)",
         "line": "KaohsiungRed",
         "id": 8,
         "alternate_names": [
@@ -211,10 +238,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30256222331487, 22.63952465877359]
+        "coordinates": [
+          120.30256222331487,
+          22.63952465877359
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Main Station",
+        "name": "Kaohsiung Main Station (高雄車站)",
         "line": "KaohsiungRed",
         "id": 9,
         "alternate_names": [
@@ -235,10 +265,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30325323614413, 22.648139742169636]
+        "coordinates": [
+          120.30325323614413,
+          22.648139742169636
+        ]
       },
       "properties": {
-        "name": "Houyi",
+        "name": "Houyi (後驛)",
         "line": "KaohsiungRed",
         "id": 10,
         "alternate_names": [
@@ -258,10 +291,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30305093252993, 22.65713304211427]
+        "coordinates": [
+          120.30305093252993,
+          22.65713304211427
+        ]
       },
       "properties": {
-        "name": "Aozihdi",
+        "name": "Aozihdi (凹子底)",
         "line": "KaohsiungRed",
         "id": 11,
         "alternate_names": [
@@ -279,10 +315,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30308047184512, 22.66639352309884]
+        "coordinates": [
+          120.30308047184512,
+          22.66639352309884
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Arena",
+        "name": "Kaohsiung Arena (巨蛋)",
         "line": "KaohsiungRed",
         "id": 12,
         "alternate_names": [
@@ -302,10 +341,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3065073794127, 22.67673976013203]
+        "coordinates": [
+          120.3065073794127,
+          22.67673976013203
+        ]
       },
       "properties": {
-        "name": "Ecological District",
+        "name": "Ecological District (生態園區)",
         "line": "KaohsiungRed",
         "id": 13,
         "alternate_names": [
@@ -324,10 +366,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30923476484506, 22.688035871908454]
+        "coordinates": [
+          120.30923476484506,
+          22.688035871908454
+        ]
       },
       "properties": {
-        "name": "Zuoying",
+        "name": "Zuoying (左營)",
         "line": "KaohsiungRed",
         "id": 14,
         "alternate_names": [
@@ -346,10 +391,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30242369752442, 22.702023059739687]
+        "coordinates": [
+          120.30242369752442,
+          22.702023059739687
+        ]
       },
       "properties": {
-        "name": "World Games",
+        "name": "World Games (世運)",
         "line": "KaohsiungRed",
         "id": 15,
         "alternate_names": [
@@ -369,10 +417,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30228989475253, 22.708550540470593]
+        "coordinates": [
+          120.30228989475253,
+          22.708550540470593
+        ]
       },
       "properties": {
-        "name": "Oil Refinery Elementary School",
+        "name": "Oil Refinery Elementary School (油廠國小)",
         "line": "KaohsiungRed",
         "id": 16,
         "alternate_names": [
@@ -391,10 +442,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3069925274723, 22.718778294151925]
+        "coordinates": [
+          120.3069925274723,
+          22.718778294151925
+        ]
       },
       "properties": {
-        "name": "Nanzih Technology Industrial Park",
+        "name": "Nanzih Technology Industrial Park (楠梓科技園區)",
         "line": "KaohsiungRed",
         "id": 17,
         "alternate_names": [
@@ -416,10 +470,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31656394968026, 22.722499642456444]
+        "coordinates": [
+          120.31656394968026,
+          22.722499642456444
+        ]
       },
       "properties": {
-        "name": "Houjing",
+        "name": "Houjing (後勁)",
         "line": "KaohsiungRed",
         "id": 18,
         "alternate_names": [
@@ -438,10 +495,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32094159681358, 22.7294644486122]
+        "coordinates": [
+          120.32094159681358,
+          22.7294644486122
+        ]
       },
       "properties": {
-        "name": "Metropolitan Park",
+        "name": "Metropolitan Park (都會公園)",
         "line": "KaohsiungRed",
         "id": 19,
         "alternate_names": [
@@ -460,10 +520,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31772039172331, 22.74422301341752]
+        "coordinates": [
+          120.31772039172331,
+          22.74422301341752
+        ]
       },
       "properties": {
-        "name": "Cingpu",
+        "name": "Cingpu (青埔)",
         "line": "KaohsiungRed",
         "id": 20,
         "alternate_names": [
@@ -481,10 +544,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31469369136944, 22.753165069154225]
+        "coordinates": [
+          120.31469369136944,
+          22.753165069154225
+        ]
       },
       "properties": {
-        "name": "Ciaotou Sugar Refinery",
+        "name": "Ciaotou Sugar Refinery (橋頭糖廠)",
         "line": "KaohsiungRed",
         "id": 21,
         "alternate_names": [
@@ -504,10 +570,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31094693589442, 22.760334545053702]
+        "coordinates": [
+          120.31094693589442,
+          22.760334545053702
+        ]
       },
       "properties": {
-        "name": "Ciaotou Station",
+        "name": "Ciaotou Station (橋頭火車站)",
         "line": "KaohsiungRed",
         "id": 22,
         "alternate_names": [
@@ -526,10 +595,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30171160955277, 22.78073761800322]
+        "coordinates": [
+          120.30171160955277,
+          22.78073761800322
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Medical University Gangshan Hospital",
+        "name": "Kaohsiung Medical University Gangshan Hospital (岡山高醫)",
         "line": "KaohsiungRed",
         "id": 23,
         "alternate_names": [
@@ -549,10 +621,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29899358908266, 22.792854942341695]
+        "coordinates": [
+          120.29899358908266,
+          22.792854942341695
+        ]
       },
       "properties": {
-        "name": "Gangshan",
+        "name": "Gangshan (岡山)",
         "line": "KaohsiungRed",
         "id": 24,
         "alternate_names": [
@@ -572,10 +647,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.27535519762067, 22.621399956424884]
+        "coordinates": [
+          120.27535519762067,
+          22.621399956424884
+        ]
       },
       "properties": {
-        "name": "Hamasen",
+        "name": "Hamasen (哈瑪星)",
         "line": "KaohsiungOrange",
         "id": 25,
         "alternate_names": [
@@ -594,10 +672,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28370027668146, 22.623598958352904]
+        "coordinates": [
+          120.28370027668146,
+          22.623598958352904
+        ]
       },
       "properties": {
-        "name": "Yanchengpu",
+        "name": "Yanchengpu (鹽埕埔)",
         "line": "KaohsiungOrange",
         "id": 26,
         "alternate_names": [
@@ -616,10 +697,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29454259943418, 22.628990349976494]
+        "coordinates": [
+          120.29454259943418,
+          22.628990349976494
+        ]
       },
       "properties": {
-        "name": "Cianjin",
+        "name": "Cianjin (前金)",
         "line": "KaohsiungOrange",
         "id": 27,
         "alternate_names": [
@@ -637,10 +721,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30183674103932, 22.631425679061284]
+        "coordinates": [
+          120.30183674103932,
+          22.631425679061284
+        ]
       },
       "properties": {
-        "name": "Formosa Boulevard (Orange)",
+        "name": "Formosa Boulevard (美麗島)",
         "line": "KaohsiungOrange",
         "id": 28,
         "alternate_names": [
@@ -660,10 +747,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3113996513831, 22.63082496054676]
+        "coordinates": [
+          120.3113996513831,
+          22.63082496054676
+        ]
       },
       "properties": {
-        "name": "Sinyi Elementary School",
+        "name": "Sinyi Elementary School (信義國小)",
         "line": "KaohsiungOrange",
         "id": 29,
         "alternate_names": [
@@ -682,10 +772,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3175588226762, 22.630414310035327]
+        "coordinates": [
+          120.3175588226762,
+          22.630414310035327
+        ]
       },
       "properties": {
-        "name": "Cultural Center",
+        "name": "Cultural Center (文化中心)",
         "line": "KaohsiungOrange",
         "id": 30,
         "alternate_names": [
@@ -704,10 +797,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32785715402728, 22.629637935197522]
+        "coordinates": [
+          120.32785715402728,
+          22.629637935197522
+        ]
       },
       "properties": {
-        "name": "Wukuaicuo",
+        "name": "Wukuaicuo (五塊厝)",
         "line": "KaohsiungOrange",
         "id": 31,
         "alternate_names": [
@@ -726,10 +822,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.33447263713622, 22.627413651151745]
+        "coordinates": [
+          120.33447263713622,
+          22.627413651151745
+        ]
       },
       "properties": {
-        "name": "Lingya Sports Park",
+        "name": "Lingya Sports Park (苓雅運動園區)",
         "line": "KaohsiungOrange",
         "id": 32,
         "alternate_names": [
@@ -747,10 +846,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3408835051587, 22.625210371869745]
+        "coordinates": [
+          120.3408835051587,
+          22.625210371869745
+        ]
       },
       "properties": {
-        "name": "Weiwuying",
+        "name": "Weiwuying (衛武營)",
         "line": "KaohsiungOrange",
         "id": 33,
         "alternate_names": [
@@ -769,10 +871,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.34811275205614, 22.625420194718103]
+        "coordinates": [
+          120.34811275205614,
+          22.625420194718103
+        ]
       },
       "properties": {
-        "name": "Fongshan West",
+        "name": "Fongshan West (鳳山西站)",
         "line": "KaohsiungOrange",
         "id": 34,
         "alternate_names": [
@@ -792,10 +897,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.35522837510837, 22.62604971821754]
+        "coordinates": [
+          120.35522837510837,
+          22.62604971821754
+        ]
       },
       "properties": {
-        "name": "Fongshan",
+        "name": "Fongshan (鳳山)",
         "line": "KaohsiungOrange",
         "id": 35,
         "alternate_names": [
@@ -814,10 +922,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.36309091690367, 22.625362135238564]
+        "coordinates": [
+          120.36309091690367,
+          22.625362135238564
+        ]
       },
       "properties": {
-        "name": "Dadong",
+        "name": "Dadong (大東)",
         "line": "KaohsiungOrange",
         "id": 36,
         "alternate_names": [
@@ -836,10 +947,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.37121647469083, 22.624720029299578]
+        "coordinates": [
+          120.37121647469083,
+          22.624720029299578
+        ]
       },
       "properties": {
-        "name": "Fongshan Junior High School",
+        "name": "Fongshan Junior High School (鳳山國中)",
         "line": "KaohsiungOrange",
         "id": 37,
         "alternate_names": [
@@ -858,10 +972,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.39034500252323, 22.62230407420718]
+        "coordinates": [
+          120.39034500252323,
+          22.62230407420718
+        ]
       },
       "properties": {
-        "name": "Daliao",
+        "name": "Daliao (大寮)",
         "line": "KaohsiungOrange",
         "id": 38,
         "alternate_names": [
@@ -880,10 +997,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32459142255945, 22.604633917195667]
+        "coordinates": [
+          120.32459142255945,
+          22.604633917195667
+        ]
       },
       "properties": {
-        "name": "Lizihnei",
+        "name": "Lizihnei (籬仔內)",
         "line": "KaohsiungCircular",
         "id": 39,
         "alternate_names": [
@@ -902,10 +1022,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3196762124989, 22.599580963713883]
+        "coordinates": [
+          120.3196762124989,
+          22.599580963713883
+        ]
       },
       "properties": {
-        "name": "Kaisyuan Rueitian",
+        "name": "Kaisyuan Rueitian (凱旋瑞田)",
         "line": "KaohsiungCircular",
         "id": 40,
         "alternate_names": [
@@ -924,10 +1047,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31530919325732, 22.595562016343855]
+        "coordinates": [
+          120.31530919325732,
+          22.595562016343855
+        ]
       },
       "properties": {
-        "name": "Cianjhen Star",
+        "name": "Cianjhen Star (前鎮之星)",
         "line": "KaohsiungCircular",
         "id": 41,
         "alternate_names": [
@@ -946,10 +1072,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31045730931989, 22.59367296962689]
+        "coordinates": [
+          120.31045730931989,
+          22.59367296962689
+        ]
       },
       "properties": {
-        "name": "Kaisyuan Jhonghua",
+        "name": "Kaisyuan Jhonghua (凱旋中華)",
         "line": "KaohsiungCircular",
         "id": 42,
         "alternate_names": [
@@ -968,10 +1097,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3049976798896, 22.594898041995563]
+        "coordinates": [
+          120.3049976798896,
+          22.594898041995563
+        ]
       },
       "properties": {
-        "name": "Dream Mall",
+        "name": "Dream Mall (夢時代)",
         "line": "KaohsiungCircular",
         "id": 43,
         "alternate_names": [
@@ -990,10 +1122,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30261844123491, 22.60094571627076]
+        "coordinates": [
+          120.30261844123491,
+          22.60094571627076
+        ]
       },
       "properties": {
-        "name": "Commerce and Trade Park",
+        "name": "Commerce and Trade Park (經貿園區)",
         "line": "KaohsiungCircular",
         "id": 44,
         "alternate_names": [
@@ -1012,10 +1147,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30076452469429, 22.6056841305677]
+        "coordinates": [
+          120.30076452469429,
+          22.6056841305677
+        ]
       },
       "properties": {
-        "name": "Software Technology Park",
+        "name": "Software Technology Park (軟體園區)",
         "line": "KaohsiungCircular",
         "id": 45,
         "alternate_names": [
@@ -1034,10 +1172,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29797085121662, 22.6101655941842]
+        "coordinates": [
+          120.29797085121662,
+          22.6101655941842
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Exhibition Center",
+        "name": "Kaohsiung Exhibition Center (高雄展覽館)",
         "line": "KaohsiungCircular",
         "id": 46,
         "alternate_names": [
@@ -1056,10 +1197,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29341952705767, 22.611639925694558]
+        "coordinates": [
+          120.29341952705767,
+          22.611639925694558
+        ]
       },
       "properties": {
-        "name": "Cruise Terminal",
+        "name": "Cruise Terminal (旅運中心)",
         "line": "KaohsiungCircular",
         "id": 47,
         "alternate_names": [
@@ -1078,10 +1222,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29321464267554, 22.616814230059376]
+        "coordinates": [
+          120.29321464267554,
+          22.616814230059376
+        ]
       },
       "properties": {
-        "name": "Glory Pier",
+        "name": "Glory Pier (光榮碼頭)",
         "line": "KaohsiungCircular",
         "id": 48,
         "alternate_names": [
@@ -1100,10 +1247,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28938810923029, 22.61935502248699]
+        "coordinates": [
+          120.28938810923029,
+          22.61935502248699
+        ]
       },
       "properties": {
-        "name": "Love Pier",
+        "name": "Love Pier (真愛碼頭)",
         "line": "KaohsiungCircular",
         "id": 49,
         "alternate_names": [
@@ -1122,10 +1272,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28413962079131, 22.6185800455806]
+        "coordinates": [
+          120.28413962079131,
+          22.6185800455806
+        ]
       },
       "properties": {
-        "name": "Dayi Pier-2",
+        "name": "Dayi Pier-2 (駁二大義)",
         "line": "KaohsiungCircular",
         "id": 50,
         "alternate_names": [
@@ -1144,10 +1297,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.27987113181315, 22.62046325930909]
+        "coordinates": [
+          120.27987113181315,
+          22.62046325930909
+        ]
       },
       "properties": {
-        "name": "Penglai Pier-2",
+        "name": "Penglai Pier-2 (駁二蓬萊)",
         "line": "KaohsiungCircular",
         "id": 51,
         "alternate_names": [
@@ -1166,10 +1322,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.27588298957103, 22.621713800934383]
+        "coordinates": [
+          120.27588298957103,
+          22.621713800934383
+        ]
       },
       "properties": {
-        "name": "Hamasen (LRT)",
+        "name": "Hamasen (哈瑪星)",
         "line": "KaohsiungCircular",
         "id": 52,
         "alternate_names": [
@@ -1188,10 +1347,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.27864410177702, 22.626543608769047]
+        "coordinates": [
+          120.27864410177702,
+          22.626543608769047
+        ]
       },
       "properties": {
-        "name": "Shoushan Park",
+        "name": "Shoushan Park (壽山公園)",
         "line": "KaohsiungCircular",
         "id": 53,
         "alternate_names": [
@@ -1210,10 +1372,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.2806716035109, 22.62958040784953]
+        "coordinates": [
+          120.2806716035109,
+          22.62958040784953
+        ]
       },
       "properties": {
-        "name": "Wenwu Temple",
+        "name": "Wenwu Temple (文武聖殿)",
         "line": "KaohsiungCircular",
         "id": 54,
         "alternate_names": [
@@ -1232,10 +1397,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.2826014633611, 22.63602136919244]
+        "coordinates": [
+          120.2826014633611,
+          22.63602136919244
+        ]
       },
       "properties": {
-        "name": "Gushan District Office",
+        "name": "Gushan District Office (鼓山區公所)",
         "line": "KaohsiungCircular",
         "id": 55,
         "alternate_names": [
@@ -1255,10 +1423,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28102948254495, 22.642042322041064]
+        "coordinates": [
+          120.28102948254495,
+          22.642042322041064
+        ]
       },
       "properties": {
-        "name": "Gushan",
+        "name": "Gushan (鼓山)",
         "line": "KaohsiungCircular",
         "id": 56,
         "alternate_names": [
@@ -1276,10 +1447,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28133558566667, 22.647081519307918]
+        "coordinates": [
+          120.28133558566667,
+          22.647081519307918
+        ]
       },
       "properties": {
-        "name": "Makadao",
+        "name": "Makadao (馬卡道)",
         "line": "KaohsiungCircular",
         "id": 57,
         "alternate_names": [
@@ -1298,10 +1472,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28171010668638, 22.652129081181844]
+        "coordinates": [
+          120.28171010668638,
+          22.652129081181844
+        ]
       },
       "properties": {
-        "name": "TRA Museum of Fine Arts",
+        "name": "TRA Museum of Fine Arts (臺鐵美術館)",
         "line": "KaohsiungCircular",
         "id": 58,
         "alternate_names": [
@@ -1320,10 +1497,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28294393909013, 22.65506518395446]
+        "coordinates": [
+          120.28294393909013,
+          22.65506518395446
+        ]
       },
       "properties": {
-        "name": "Neiwei Arts Center",
+        "name": "Neiwei Arts Center (內惟藝術中心)",
         "line": "KaohsiungCircular",
         "id": 59,
         "alternate_names": [
@@ -1341,10 +1521,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.28729762403161, 22.65508143489562]
+        "coordinates": [
+          120.28729762403161,
+          22.65508143489562
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Museum of Fine Arts",
+        "name": "Kaohsiung Museum of Fine Arts (美術館)",
         "line": "KaohsiungCircular",
         "id": 60,
         "alternate_names": [
@@ -1362,10 +1545,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29092866250913, 22.654853722104676]
+        "coordinates": [
+          120.29092866250913,
+          22.654853722104676
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Municipal United Hospital",
+        "name": "Kaohsiung Municipal United Hospital (聯合醫院)",
         "line": "KaohsiungCircular",
         "id": 61,
         "alternate_names": [
@@ -1384,10 +1570,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.29508466522789, 22.65448512345724]
+        "coordinates": [
+          120.29508466522789,
+          22.65448512345724
+        ]
       },
       "properties": {
-        "name": "Longhua Elementary School",
+        "name": "Longhua Elementary School (龍華國小)",
         "line": "KaohsiungCircular",
         "id": 62,
         "alternate_names": [
@@ -1405,10 +1594,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30280706717583, 22.656078269921867]
+        "coordinates": [
+          120.30280706717583,
+          22.656078269921867
+        ]
       },
       "properties": {
-        "name": "Heart of Love River",
+        "name": "Heart of Love River (愛河之心)",
         "line": "KaohsiungCircular",
         "id": 63,
         "alternate_names": [
@@ -1426,10 +1618,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.30871352927907, 22.656709174513892]
+        "coordinates": [
+          120.30871352927907,
+          22.656709174513892
+        ]
       },
       "properties": {
-        "name": "Sinshang Elementary School",
+        "name": "Sinshang Elementary School (新上國小)",
         "line": "KaohsiungCircular",
         "id": 64,
         "alternate_names": [
@@ -1447,10 +1642,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31537624659968, 22.655570546835722]
+        "coordinates": [
+          120.31537624659968,
+          22.655570546835722
+        ]
       },
       "properties": {
-        "name": "Dashun Minzu",
+        "name": "Dashun Minzu (大順民族)",
         "line": "KaohsiungCircular",
         "id": 65,
         "alternate_names": [
@@ -1468,10 +1666,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.31885744050513, 22.653545384945826]
+        "coordinates": [
+          120.31885744050513,
+          22.653545384945826
+        ]
       },
       "properties": {
-        "name": "Wanzihnei",
+        "name": "Wanzihnei (灣仔內)",
         "line": "KaohsiungCircular",
         "id": 66,
         "alternate_names": [
@@ -1491,10 +1692,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32402838363969, 22.649847995194634]
+        "coordinates": [
+          120.32402838363969,
+          22.649847995194634
+        ]
       },
       "properties": {
-        "name": "Kaohsiung Industrial High School",
+        "name": "Kaohsiung Industrial High School (高雄高工)",
         "line": "KaohsiungCircular",
         "id": 67,
         "alternate_names": [
@@ -1511,10 +1715,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32632369863437, 22.643825387965805]
+        "coordinates": [
+          120.32632369863437,
+          22.643825387965805
+        ]
       },
       "properties": {
-        "name": "Shu-Te Home-Economics & Commercial High School",
+        "name": "Shu-Te Home-Economics & Commercial High School (樹德家商)",
         "line": "KaohsiungCircular",
         "id": 68,
         "alternate_names": [
@@ -1532,10 +1739,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32712270498968, 22.63695678751916]
+        "coordinates": [
+          120.32712270498968,
+          22.63695678751916
+        ]
       },
       "properties": {
-        "name": "Science and Technology Museum",
+        "name": "Science and Technology Museum (科工館)",
         "line": "KaohsiungCircular",
         "id": 69,
         "alternate_names": [
@@ -1553,10 +1763,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3255539668995, 22.63280015340069]
+        "coordinates": [
+          120.3255539668995,
+          22.63280015340069
+        ]
       },
       "properties": {
-        "name": "St. Joseph Hospital",
+        "name": "St. Joseph Hospital (聖功醫院)",
         "line": "KaohsiungCircular",
         "id": 70,
         "alternate_names": [
@@ -1575,10 +1788,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32277978889925, 22.629433466804727]
+        "coordinates": [
+          120.32277978889925,
+          22.629433466804727
+        ]
       },
       "properties": {
-        "name": "Kaisyuan Park",
+        "name": "Kaisyuan Park (凱旋公園)",
         "line": "KaohsiungCircular",
         "id": 71,
         "alternate_names": [
@@ -1597,10 +1813,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32362630638012, 22.625250512657733]
+        "coordinates": [
+          120.32362630638012,
+          22.625250512657733
+        ]
       },
       "properties": {
-        "name": "Department of Health",
+        "name": "Department of Health (衛生局)",
         "line": "KaohsiungCircular",
         "id": 72,
         "alternate_names": [
@@ -1619,10 +1838,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32516591303083, 22.621274143946437]
+        "coordinates": [
+          120.32516591303083,
+          22.621274143946437
+        ]
       },
       "properties": {
-        "name": "Wucyuan Elementary School",
+        "name": "Wucyuan Elementary School (五權國小)",
         "line": "KaohsiungCircular",
         "id": 73,
         "alternate_names": [
@@ -1641,10 +1863,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32677052924399, 22.616992137039954]
+        "coordinates": [
+          120.32677052924399,
+          22.616992137039954
+        ]
       },
       "properties": {
-        "name": "Kaisyuan Wuchang",
+        "name": "Kaisyuan Wuchang (凱旋武昌)",
         "line": "KaohsiungCircular",
         "id": 74,
         "alternate_names": [
@@ -1663,10 +1888,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32717218779624, 22.612551393812463]
+        "coordinates": [
+          120.32717218779624,
+          22.612551393812463
+        ]
       },
       "properties": {
-        "name": "Kaisyuan Ersheng",
+        "name": "Kaisyuan Ersheng (凱旋二聖)",
         "line": "KaohsiungCircular",
         "id": 75,
         "alternate_names": [
@@ -1685,10 +1913,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.32601798151882, 22.608568094173883]
+        "coordinates": [
+          120.32601798151882,
+          22.608568094173883
+        ]
       },
       "properties": {
-        "name": "LRT Depot",
+        "name": "LRT Depot (輕軌機廠)",
         "line": "KaohsiungCircular",
         "id": 76,
         "alternate_names": [

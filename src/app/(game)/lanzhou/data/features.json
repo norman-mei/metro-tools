@@ -1,0 +1,652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6600567,
+          36.0873388
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Chenguanying (陈官营站)",
+        "alternate_names": [
+          "陈官营",
+          "陈官营站",
+          "Chenguanying",
+          "chen guan ying"
+        ],
+        "line": "lanzhou1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.674672,
+          36.0904595
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Olympic Sports Center (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "Olympic Sports Center",
+          "ao ti zhong xin"
+        ],
+        "line": "lanzhou1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6988974,
+          36.0991122
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Lanzhou City University (Gansu Science & Technology Museum) (兰州城市学院（省科技馆）站)",
+        "alternate_names": [
+          "兰州城市学院（省科技馆）",
+          "兰州城市学院（省科技馆）站",
+          "Lanzhou City University (Gansu Science & Technology Museum)",
+          "lan zhou cheng shi xue yuan"
+        ],
+        "line": "lanzhou1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.706994,
+          36.0946963
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Lanzhou Customs (兰州海关)",
+        "alternate_names": [
+          "兰州海关",
+          "Lanzhou Customs",
+          "lan zhou hai guan",
+          "Yingmentan"
+        ],
+        "line": "lanzhou1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.724763,
+          36.083139
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Matan (马滩)",
+        "alternate_names": [
+          "马滩",
+          "Matan",
+          "ma tan"
+        ],
+        "line": "lanzhou1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.740685,
+          36.0733499
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tumendun (土门墩)",
+        "alternate_names": [
+          "土门墩",
+          "Tumendun",
+          "tu men dun"
+        ],
+        "line": "lanzhou1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7499499,
+          36.0705343
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "North Square of Lanzhou West Railway Station (兰州西站北广场)",
+        "alternate_names": [
+          "兰州西站北广场",
+          "North Square of Lanzhou West Railway Station",
+          "lan zhou xi zhan bei guang chang",
+          "兰州西站",
+          "兰州西",
+          "Lanzhou West",
+          "Lanzhou West Railway Station"
+        ],
+        "line": "lanzhou1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.767222,
+          36.0687137
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Xizhanshizi (西站什字)",
+        "alternate_names": [
+          "西站什字",
+          "Xizhanshizi",
+          "xi zhan shi zi"
+        ],
+        "line": "lanzhou1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7788752,
+          36.0667017
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Qilihe (七里河)",
+        "alternate_names": [
+          "七里河",
+          "Qilihe",
+          "qi li he"
+        ],
+        "line": "lanzhou1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7922185,
+          36.0642293
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Xiaoxihu Park (小西湖站)",
+        "alternate_names": [
+          "小西湖",
+          "小西湖站",
+          "Xiaoxihu Park",
+          "xiao xi hu"
+        ],
+        "line": "lanzhou1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8030056,
+          36.061368
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Cultural Palace (文化宫)",
+        "alternate_names": [
+          "文化宫",
+          "Cultural Palace",
+          "wen hua gong"
+        ],
+        "line": "lanzhou1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8142589,
+          36.0599412
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Xiguan (西关)",
+        "alternate_names": [
+          "西关",
+          "Xiguan",
+          "xi guan"
+        ],
+        "line": "lanzhou1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8240409,
+          36.0590262
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Gansu Provincial Government (省政府)",
+        "alternate_names": [
+          "省政府",
+          "Gansu Provincial Government",
+          "sheng zheng fu"
+        ],
+        "line": "lanzhou1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8395179,
+          36.0535609
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Dongfanghong Square (东方红广场)",
+        "alternate_names": [
+          "东方红广场",
+          "Dongfanghong Square",
+          "dong fang hong guang chang"
+        ],
+        "line": "lanzhou1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8544558,
+          36.0504988
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Lanzhou University (兰州大学)",
+        "alternate_names": [
+          "兰州大学",
+          "Lanzhou University",
+          "lan zhou da xue"
+        ],
+        "line": "lanzhou1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8690966,
+          36.04699
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Wulipu (五里铺)",
+        "alternate_names": [
+          "五里铺",
+          "Wulipu",
+          "wu li pu"
+        ],
+        "line": "lanzhou1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8811081,
+          36.0421071
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Gansu Meteorological Bureau (省气象局)",
+        "alternate_names": [
+          "省气象局",
+          "Gansu Meteorological Bureau",
+          "sheng qi xiang ju"
+        ],
+        "line": "lanzhou1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8936549,
+          36.0395045
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Gongxingdun (拱星墩)",
+        "alternate_names": [
+          "拱星墩",
+          "Gongxingdun",
+          "gong xing dun"
+        ],
+        "line": "lanzhou1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9051784,
+          36.0386607
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Jiaojiawan (焦家湾)",
+        "alternate_names": [
+          "焦家湾",
+          "Jiaojiawan",
+          "jiao jia wan"
+        ],
+        "line": "lanzhou1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9156283,
+          36.0407831
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Donggang (东岗)",
+        "alternate_names": [
+          "东岗",
+          "Donggang",
+          "dong gang"
+        ],
+        "line": "lanzhou1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8821859,
+          36.0691526
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Yanbai Bridge (雁白大桥)",
+        "alternate_names": [
+          "雁白大桥",
+          "Yanbai Bridge",
+          "yan bai da qiao"
+        ],
+        "line": "lanzhou2",
+        "order": 0
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8781761,
+          36.0605975
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Junjiatan (均家滩)",
+        "alternate_names": [
+          "均家滩",
+          "Junjiatan",
+          "jun jia tan"
+        ],
+        "line": "lanzhou2",
+        "order": 1
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8748312,
+          36.0561986
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Zhangsutan (张苏滩)",
+        "alternate_names": [
+          "张苏滩",
+          "Zhangsutan",
+          "zhang su tan"
+        ],
+        "line": "lanzhou2",
+        "order": 2
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8690966,
+          36.04699
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Wulipu (五里铺)",
+        "alternate_names": [
+          "五里铺",
+          "Wulipu",
+          "wu li pu"
+        ],
+        "line": "lanzhou2",
+        "order": 3
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8667777,
+          36.0398338
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Tuanjie Xincun (团结新村)",
+        "alternate_names": [
+          "团结新村",
+          "Tuanjie Xincun",
+          "tuan jie xin cun"
+        ],
+        "line": "lanzhou2",
+        "order": 4
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8576064,
+          36.0347011
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Hongxingxiang (红星巷)",
+        "alternate_names": [
+          "红星巷",
+          "Hongxingxiang",
+          "hong xing xiang"
+        ],
+        "line": "lanzhou2",
+        "order": 5
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8509531,
+          36.0362436
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Lanzhou Railway Station (兰州火车站)",
+        "alternate_names": [
+          "兰州火车站",
+          "Lanzhou Railway Station",
+          "lan zhou huo che zhan"
+        ],
+        "line": "lanzhou2",
+        "order": 6
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8462708,
+          36.042635
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Youdian Dalou (邮电大楼)",
+        "alternate_names": [
+          "邮电大楼",
+          "Youdian Dalou",
+          "you dian da lou",
+          "Postal Building"
+        ],
+        "line": "lanzhou2",
+        "order": 7
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8395179,
+          36.0535609
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Dongfanghong Square (东方红广场)",
+        "alternate_names": [
+          "东方红广场",
+          "Dongfanghong Square",
+          "dong fang hong guang chang"
+        ],
+        "line": "lanzhou2",
+        "order": 8
+      },
+      "id": 29
+    }
+  ]
+}

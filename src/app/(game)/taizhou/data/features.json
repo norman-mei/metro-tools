@@ -1,0 +1,356 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3689816,
+          28.6558954
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Taizhou Huochezhan (台州火车站)",
+        "alternate_names": [
+          "台州火车站",
+          "臺州火車站",
+          "Taizhou Huochezhan",
+          "taizhou huo che zhan",
+          "Taizhou Railway Station"
+        ],
+        "line": "taizhous1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3983923,
+          28.6409565
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xueyuan Lu (学院路)",
+        "alternate_names": [
+          "学院路",
+          "學院路",
+          "Xueyuan Lu",
+          "xue yuan lu"
+        ],
+        "line": "taizhous1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.395164,
+          28.6241277
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Guobo Zhongxin (国博中心)",
+        "alternate_names": [
+          "国博中心",
+          "國博中心",
+          "Guobo Zhongxin",
+          "guo bo zhong xin",
+          "International Expo Center"
+        ],
+        "line": "taizhous1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3842471,
+          28.6134128
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Huifeng Lu (汇丰路)",
+        "alternate_names": [
+          "汇丰路",
+          "匯豐路",
+          "Huifeng Lu",
+          "hui feng lu"
+        ],
+        "line": "taizhous1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3642804,
+          28.6015005
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Jintai (锦泰)",
+        "alternate_names": [
+          "锦泰",
+          "錦泰",
+          "Jintai",
+          "jin tai"
+        ],
+        "line": "taizhous1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3328019,
+          28.5900471
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Enze Yiyuan (恩泽医院)",
+        "alternate_names": [
+          "恩泽医院",
+          "恩澤醫院",
+          "Enze Yiyuan",
+          "en ze yi yuan",
+          "Enze Hospital"
+        ],
+        "line": "taizhous1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3246803,
+          28.5721331
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Taizhou Qiche Nanzhan (台州汽车南站)",
+        "alternate_names": [
+          "台州汽车南站",
+          "臺州汽車南站",
+          "Taizhou Qiche Nanzhan",
+          "taizhou qi che nan zhan",
+          "Taizhou South Bus Station"
+        ],
+        "line": "taizhous1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3334072,
+          28.4993409
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Zeguo (泽国)",
+        "alternate_names": [
+          "泽国",
+          "澤國",
+          "Zeguo",
+          "ze guo"
+        ],
+        "line": "taizhous1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3223666,
+          28.481971
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Wenling Huochezhan (温岭火车站)",
+        "alternate_names": [
+          "温岭火车站",
+          "溫嶺火車站",
+          "Wenling Huochezhan",
+          "wenling huo che zhan",
+          "Wenling Railway Station"
+        ],
+        "line": "taizhous1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3280618,
+          28.443024
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Huichuanwang (汇川王)",
+        "alternate_names": [
+          "汇川王",
+          "匯川王",
+          "Huichuanwang",
+          "hui chuan wang"
+        ],
+        "line": "taizhous1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3392182,
+          28.4072372
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Wenling Di 1 Renmin Yiyuan (温岭第一人民医院)",
+        "alternate_names": [
+          "温岭第一人民医院",
+          "溫嶺第一人民醫院",
+          "Wenling Di 1 Renmin Yiyuan",
+          "wenling di yi ren min yi yuan",
+          "The First People's Hospital of Wenling"
+        ],
+        "line": "taizhous1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3554312,
+          28.3966252
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Jiulong Dadao (九龙大道)",
+        "alternate_names": [
+          "九龙大道",
+          "九龍大道",
+          "Jiulong Dadao",
+          "jiu long da dao",
+          "Jiulong Avenue"
+        ],
+        "line": "taizhous1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3720544,
+          28.3806113
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Wanchang Lu (万昌路)",
+        "alternate_names": [
+          "万昌路",
+          "萬昌路",
+          "Wanchang Lu",
+          "wan chang lu",
+          "Wanchang Road"
+        ],
+        "line": "taizhous1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3819207,
+          28.3669535
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nanping (南屏)",
+        "alternate_names": [
+          "南屏",
+          "Nanping",
+          "nan ping"
+        ],
+        "line": "taizhous1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4107208,
+          28.3179007
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Chengnan (城南)",
+        "alternate_names": [
+          "城南",
+          "Chengnan",
+          "cheng nan"
+        ],
+        "line": "taizhous1",
+        "order": 14
+      },
+      "id": 15
+    }
+  ]
+}

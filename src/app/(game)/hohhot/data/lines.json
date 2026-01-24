@@ -1,0 +1,18 @@
+{
+  "hohhot1": {
+    "name": "Line 1",
+    "color": "#E82311",
+    "backgroundColor": "#E82311",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "hohhot1.png"
+  },
+  "hohhot2": {
+    "name": "Line 2",
+    "color": "#005BAC",
+    "backgroundColor": "#005BAC",
+    "textColor": "#ffffff",
+    "order": 2,
+    "icon": "hohhot2.png"
+  }
+}

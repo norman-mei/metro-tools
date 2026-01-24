@@ -1,0 +1,380 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7559758,
+          39.0657144
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Pulgŭnbyŏl (붉은별)",
+        "alternate_names": [
+          "붉은별",
+          "Pulgunbyol",
+          "Pulgŭnbyŏl",
+          "Pulgŭnbyol",
+          "Pulgŭnbyeol",
+          "Bulgeunbyeol"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7529181,
+          39.0567756
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Jŏnu (전우)",
+        "alternate_names": [
+          "전우",
+          "Chŏnu",
+          "Chonu",
+          "Jonu",
+          "Jeonu"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 1,
+        "cluster_key": "pyongyang-jonu-jonsung-complex"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7539293,
+          39.0422779
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Kaesŏn (개선)",
+        "alternate_names": [
+          "개선",
+          "Kaeson",
+          "Gaeseon",
+          "Kaesŏn"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7563943,
+          39.0326236
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Moranbong (모란봉역)",
+        "alternate_names": [
+          "모란봉",
+          "모란봉역",
+          "Moranbong Station",
+          "Moranbongyeok",
+          "Tongil",
+          "Thŏngil",
+          "Thongil",
+          "통일"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7521349,
+          39.0222845
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Sŭngni (승리)",
+        "alternate_names": [
+          "승리",
+          "Sŭngri",
+          "Sungni",
+          "Sungri",
+          "Seungni",
+          "Seungri"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7449225,
+          39.0127045
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Ponghwa (봉화)",
+        "alternate_names": [
+          "봉화",
+          "Pongwha"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7324299,
+          39.0096241
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Yŏnggwang (영광)",
+        "alternate_names": [
+          "영광",
+          "Yonggwang",
+          "Yŏnggwang"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7177255,
+          39.0085391
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Puhŭng (부흥)",
+        "alternate_names": [
+          "부흥",
+          "Puhung",
+          "Puhŭng"
+        ],
+        "line": "pyongyang-chollima",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7002296,
+          39.0365957
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Kwangbok (광복)",
+        "alternate_names": [
+          "광복",
+          "Gwangbok"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 0
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7093876,
+          39.0332304
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Kŏn'guk (건국)",
+        "alternate_names": [
+          "건국",
+          "Kon'guk",
+          "Konguk",
+          "Kongguk",
+          "Geonguk"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 1
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7259103,
+          39.0289379
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hwanggŭmbŏl (황금벌)",
+        "alternate_names": [
+          "황금벌",
+          "Hwanggeumbeol",
+          "Hwanggumbeol",
+          "Hwanggŭmbŏl"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 2
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7332253,
+          39.0341841
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Kŏnsŏl (건설)",
+        "alternate_names": [
+          "건설",
+          "Konsol",
+          "Geonseol",
+          "Kŏnsŏl"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 3
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7394803,
+          39.0480024
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Hyŏksin (혁신)",
+        "alternate_names": [
+          "혁신",
+          "Hyoksin",
+          "Hyeoksin",
+          "Hyŏksin"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 4
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7548171,
+          39.0581044
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Jŏnsŭng (전승)",
+        "alternate_names": [
+          "전승",
+          "Jeonseung",
+          "Chonsung",
+          "Chŏnsŭng",
+          "Jŏnsŭng"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 5,
+        "cluster_key": "pyongyang-jonu-jonsung-complex"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7673001,
+          39.0626989
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Samhŭng (삼흥)",
+        "alternate_names": [
+          "삼흥",
+          "Samhung",
+          "Samheung",
+          "Samhŭng"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 6
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.816465,
+          39.0715994
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Ragwŏn (락원)",
+        "alternate_names": [
+          "락원",
+          "Ragwon",
+          "Rakwon",
+          "Ragwŏn"
+        ],
+        "line": "pyongyang-hyoksin",
+        "order": 7
+      },
+      "id": 16
+    }
+  ]
+}

@@ -1,0 +1,2135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9602426,
+          31.902471
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Forest Park (森林公园)",
+        "alternate_names": [
+          "森林公园",
+          "森林公園",
+          "Forest Park",
+          "sen lin gong yuan",
+          "senlingongyuan"
+        ],
+        "line": "changzhou1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.956584,
+          31.8897103
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xinlong (新龙)",
+        "alternate_names": [
+          "新龙",
+          "新龍",
+          "Xinlong",
+          "xin long",
+          "xinlong"
+        ],
+        "line": "changzhou1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9529528,
+          31.875908
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Tourism and Commerce Institute (旅游学校)",
+        "alternate_names": [
+          "旅游学校",
+          "旅遊學校",
+          "Tourism and Commerce Institute",
+          "lü you xue xiao",
+          "lüyouxuexiao"
+        ],
+        "line": "changzhou1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9496625,
+          31.8652275
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Xinqiao (新桥)",
+        "alternate_names": [
+          "新桥",
+          "新橋",
+          "Xinqiao",
+          "xin qiao",
+          "xinqiao"
+        ],
+        "line": "changzhou1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9511501,
+          31.8569999
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Changzhou North Railway Station (常州北站)",
+        "alternate_names": [
+          "常州北站",
+          "Changzhou North Railway Station",
+          "chang zhou bei zhan",
+          "changzhoubeizhan"
+        ],
+        "line": "changzhou1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9626709,
+          31.8562835
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Beijiao High School (北郊中学)",
+        "alternate_names": [
+          "北郊中学",
+          "北郊中學",
+          "Beijiao High School",
+          "bei jiao zhong xue",
+          "beijiaozhongxue"
+        ],
+        "line": "changzhou1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9724765,
+          31.8536908
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Foreign Language School (外国语学校)",
+        "alternate_names": [
+          "外国语学校",
+          "外國語學校",
+          "Foreign Language School",
+          "wai guo yu xue xiao",
+          "waiguoyuxuexiao"
+        ],
+        "line": "changzhou1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9758282,
+          31.841003
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Global Harbor (环球港)",
+        "alternate_names": [
+          "环球港",
+          "環球港",
+          "Global Harbor",
+          "huan qiu gang",
+          "huanqiugang"
+        ],
+        "line": "changzhou1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.982,
+          31.83
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Xinqu Park (新区公园)",
+        "alternate_names": [
+          "新区公园",
+          "新區公園",
+          "Xinqu Park",
+          "xin qu gong yuan",
+          "xinqugongyuan"
+        ],
+        "line": "changzhou1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9805442,
+          31.8217496
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Hehai (河海)",
+        "alternate_names": [
+          "河海",
+          "Hehai",
+          "he hai",
+          "hehai"
+        ],
+        "line": "changzhou1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9770502,
+          31.8132458
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Olympic Sports Center (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "奧體中心",
+          "Olympic Sports Center",
+          "ao ti zhong xin",
+          "aotizhongxin"
+        ],
+        "line": "changzhou1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9702818,
+          31.8048622
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Citizens' Square (市民广场)",
+        "alternate_names": [
+          "市民广场",
+          "市民廣場",
+          "Citizens' Square",
+          "Citizens Square",
+          "shi min guang chang",
+          "shiminguangchang"
+        ],
+        "line": "changzhou1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9716387,
+          31.7951017
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Cuizhu (翠竹)",
+        "alternate_names": [
+          "翠竹",
+          "Cuizhu",
+          "cui zhu",
+          "cuizhu"
+        ],
+        "line": "changzhou1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9693279,
+          31.7888008
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Changzhou Railway Station (常州火车站)",
+        "alternate_names": [
+          "常州火车站",
+          "常州火車站",
+          "Changzhou Railway Station",
+          "chang zhou huo che zhan",
+          "changzhouhuochezhan"
+        ],
+        "line": "changzhou1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9639616,
+          31.7847273
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Boai Lu (博爱路)",
+        "alternate_names": [
+          "博爱路",
+          "博愛路",
+          "Boai Lu",
+          "bo ai lu",
+          "boailu"
+        ],
+        "line": "changzhou1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9594784,
+          31.7769635
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Cultural Palace (文化宫)",
+        "alternate_names": [
+          "文化宫",
+          "文化宮",
+          "Cultural Palace",
+          "wen hua gong",
+          "wenhuagong"
+        ],
+        "line": "changzhou1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9570466,
+          31.7703306
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Tongjiqiao (同济桥)",
+        "alternate_names": [
+          "同济桥",
+          "同濟橋",
+          "Tongjiqiao",
+          "tong ji qiao",
+          "tongjiqiao"
+        ],
+        "line": "changzhou1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9555651,
+          31.7630483
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Qingliang Temple (清凉寺)",
+        "alternate_names": [
+          "清凉寺",
+          "清涼寺",
+          "Qingliang Temple",
+          "qing liang si",
+          "qingliangsi"
+        ],
+        "line": "changzhou1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9524162,
+          31.7518551
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Chashan (茶山)",
+        "alternate_names": [
+          "茶山",
+          "Chashan",
+          "cha shan",
+          "chashan"
+        ],
+        "line": "changzhou1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9443794,
+          31.736712
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Juhu Lu (聚湖路)",
+        "alternate_names": [
+          "聚湖路",
+          "Juhu Lu",
+          "ju hu lu",
+          "juhulu"
+        ],
+        "line": "changzhou1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9443067,
+          31.7243378
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Hutang (湖塘)",
+        "alternate_names": [
+          "湖塘",
+          "Hutang",
+          "hu tang",
+          "hutang"
+        ],
+        "line": "changzhou1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9440636,
+          31.7147065
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Xintiandi Park (新天地公园)",
+        "alternate_names": [
+          "新天地公园",
+          "新天地公園",
+          "Xintiandi Park",
+          "xin tian di gong yuan",
+          "xintiandigongyuan"
+        ],
+        "line": "changzhou1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9438315,
+          31.7081424
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Changhong Lu (长虹路)",
+        "alternate_names": [
+          "长虹路",
+          "長虹路",
+          "Changhong Lu",
+          "chang hong lu",
+          "changhonglu"
+        ],
+        "line": "changzhou1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9435377,
+          31.6990233
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Yanzheng Dadao (延政大道)",
+        "alternate_names": [
+          "延政大道",
+          "Yanzheng Dadao",
+          "yan zheng da dao",
+          "yanzhengdadao"
+        ],
+        "line": "changzhou1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9429689,
+          31.6907468
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Kejiaocheng Bei (科教城北)",
+        "alternate_names": [
+          "科教城北",
+          "Kejiaocheng Bei",
+          "ke jiao cheng bei",
+          "kejiaochengbei"
+        ],
+        "line": "changzhou1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9428591,
+          31.6765758
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Kejiaocheng Nan (科教城南)",
+        "alternate_names": [
+          "科教城南",
+          "Kejiaocheng Nan",
+          "ke jiao cheng nan",
+          "kejiaochengnan"
+        ],
+        "line": "changzhou1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.944,
+          31.6618
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Wujin Yanjiang Railway Station (武进沿江城际)",
+        "alternate_names": [
+          "武进沿江城际",
+          "武進沿江城際",
+          "Wujin Yanjiang Railway Station",
+          "wu jin yan jiang cheng ji",
+          "wujinyanjiangchengji"
+        ],
+        "line": "changzhou1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.946166,
+          31.6475818
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Yanghu Lu (阳湖路)",
+        "alternate_names": [
+          "阳湖路",
+          "陽湖路",
+          "Yanghu Lu",
+          "yang hu lu",
+          "yanghulu"
+        ],
+        "line": "changzhou1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9474077,
+          31.6341681
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Nanxiashu (南夏墅)",
+        "alternate_names": [
+          "南夏墅",
+          "Nanxiashu",
+          "nan xia shu",
+          "nanxiashu"
+        ],
+        "line": "changzhou1",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8943021,
+          31.8046345
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Qingfeng Park (青枫公园)",
+        "alternate_names": [
+          "青枫公园",
+          "青楓公園",
+          "Qingfeng Park",
+          "qing feng gong yuan",
+          "qingfenggongyuan"
+        ],
+        "line": "changzhou2",
+        "order": 0
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9035505,
+          31.800469
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Haitang Lu (海棠路)",
+        "alternate_names": [
+          "海棠路",
+          "Haitang Lu",
+          "hai tang lu",
+          "haitanglu"
+        ],
+        "line": "changzhou2",
+        "order": 1
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9133757,
+          31.7947739
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Wuxing (五星)",
+        "alternate_names": [
+          "五星",
+          "Wuxing",
+          "wu xing",
+          "wuxing"
+        ],
+        "line": "changzhou2",
+        "order": 2
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9242275,
+          31.7882804
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Qinye (勤业)",
+        "alternate_names": [
+          "勤业",
+          "勤業",
+          "Qinye",
+          "qin ye",
+          "qinye"
+        ],
+        "line": "changzhou2",
+        "order": 3
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9373933,
+          31.7822959
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Huaide (怀德)",
+        "alternate_names": [
+          "怀德",
+          "懷德",
+          "Huaide",
+          "huai de",
+          "huaide"
+        ],
+        "line": "changzhou2",
+        "order": 4
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9485773,
+          31.7818988
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Nandajie (南大街)",
+        "alternate_names": [
+          "南大街",
+          "Nandajie",
+          "nan da jie",
+          "nandajie"
+        ],
+        "line": "changzhou2",
+        "order": 5
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9594784,
+          31.7769635
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Cultural Palace (文化宫)",
+        "alternate_names": [
+          "文化宫",
+          "文化宮",
+          "Cultural Palace",
+          "wen hua gong",
+          "wenhuagong"
+        ],
+        "line": "changzhou2",
+        "order": 6
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.968529,
+          31.7722637
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Hongmei Park (红梅公园)",
+        "alternate_names": [
+          "红梅公园",
+          "紅梅公園",
+          "Hongmei Park",
+          "hong mei gong yuan",
+          "hongmeigongyuan"
+        ],
+        "line": "changzhou2",
+        "order": 7
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9808421,
+          31.7717216
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Wujiaochang (五角场)",
+        "alternate_names": [
+          "五角场",
+          "五角場",
+          "Wujiaochang",
+          "wu jiao chang",
+          "wujiaochang"
+        ],
+        "line": "changzhou2",
+        "order": 8
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9877143,
+          31.7794264
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Sanjiaochang (三角场)",
+        "alternate_names": [
+          "三角场",
+          "三角場",
+          "Sanjiaochang",
+          "san jiao chang",
+          "sanjiaochang"
+        ],
+        "line": "changzhou2",
+        "order": 9
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0001,
+          31.7715
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Ziyun (紫云)",
+        "alternate_names": [
+          "紫云",
+          "紫雲",
+          "Ziyun",
+          "zi yun",
+          "ziyun"
+        ],
+        "line": "changzhou2",
+        "order": 10
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0124079,
+          31.761672
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Qingyang Lu (青洋路)",
+        "alternate_names": [
+          "青洋路",
+          "Qingyang Lu",
+          "qing yang lu",
+          "qingyanglu"
+        ],
+        "line": "changzhou2",
+        "order": 11
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0227736,
+          31.7552821
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Dingyan (丁堰)",
+        "alternate_names": [
+          "丁堰",
+          "Dingyan",
+          "ding yan",
+          "dingyan"
+        ],
+        "line": "changzhou2",
+        "order": 12
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.045094,
+          31.757394
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Lucheng (潞城)",
+        "alternate_names": [
+          "潞城",
+          "Lucheng",
+          "lu cheng",
+          "lucheng"
+        ],
+        "line": "changzhou2",
+        "order": 13
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0593639,
+          31.7598772
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Wuyi Lu (五一路)",
+        "alternate_names": [
+          "五一路",
+          "Wuyi Lu",
+          "wu yi lu",
+          "wuyilu"
+        ],
+        "line": "changzhou2",
+        "order": 14
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.842855,
+          31.6909992
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Lanyuewan (揽月湾)",
+        "alternate_names": [
+          "揽月湾",
+          "攬月灣",
+          "Lanyuewan",
+          "lan yue wan",
+          "lanyuewan"
+        ],
+        "line": "changzhou5",
+        "order": 0
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8447164,
+          31.701121
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Xitaihu (西太湖)",
+        "alternate_names": [
+          "西太湖",
+          "Xitaihu",
+          "xi tai hu",
+          "xitaihu"
+        ],
+        "line": "changzhou5",
+        "order": 1
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8550021,
+          31.71106
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Daoxiang Road (稻香路)",
+        "alternate_names": [
+          "稻香路",
+          "Daoxiang Road",
+          "dao xiang lu",
+          "daoxianglu"
+        ],
+        "line": "changzhou5",
+        "order": 2
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8701557,
+          31.7091577
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Changzhou South Railway Station (常州南站)",
+        "alternate_names": [
+          "常州南站",
+          "Changzhou South Railway Station",
+          "chang zhou nan zhan",
+          "changzhounanzhan"
+        ],
+        "line": "changzhou5",
+        "order": 3
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8849608,
+          31.7141228
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Caoxi Road (漕溪路)",
+        "alternate_names": [
+          "漕溪路",
+          "Caoxi Road",
+          "cao xi lu",
+          "caoxilu"
+        ],
+        "line": "changzhou5",
+        "order": 4
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9438315,
+          31.7081424
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Changhong Road (长虹路)",
+        "alternate_names": [
+          "长虹路",
+          "長虹路",
+          "Changhong Road",
+          "chang hong lu",
+          "changhonglu"
+        ],
+        "line": "changzhou5",
+        "order": 5
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8946132,
+          31.7311481
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Niutang (牛塘)",
+        "alternate_names": [
+          "牛塘",
+          "Niutang",
+          "niu tang",
+          "niutang"
+        ],
+        "line": "changzhou5",
+        "order": 6
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8947614,
+          31.7386972
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Jiangsu Institute of Technology (江理工)",
+        "alternate_names": [
+          "江理工",
+          "Jiangsu Institute of Technology",
+          "jiang li gong",
+          "jiangligong"
+        ],
+        "line": "changzhou5",
+        "order": 7
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8942521,
+          31.7548369
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Huanglianggang (皇粮浜)",
+        "alternate_names": [
+          "皇粮浜",
+          "皇糧浜",
+          "Huanglianggang",
+          "huang liang bang",
+          "huangliangbang"
+        ],
+        "line": "changzhou5",
+        "order": 8
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8989439,
+          31.7622855
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Yonghong (永红)",
+        "alternate_names": [
+          "永红",
+          "永紅",
+          "Yonghong",
+          "yong hong",
+          "yonghong"
+        ],
+        "line": "changzhou5",
+        "order": 9
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9009784,
+          31.7695988
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Qingtan (清潭)",
+        "alternate_names": [
+          "清潭",
+          "Qingtan",
+          "qing tan",
+          "qingtan"
+        ],
+        "line": "changzhou5",
+        "order": 10
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9088869,
+          31.7766541
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Huayuan (花园)",
+        "alternate_names": [
+          "花园",
+          "花園",
+          "Huayuan",
+          "hua yuan",
+          "huayuan"
+        ],
+        "line": "changzhou5",
+        "order": 11
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9240629,
+          31.7793633
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Magong Bridge (马公桥)",
+        "alternate_names": [
+          "马公桥",
+          "馬公橋",
+          "Magong Bridge",
+          "ma gong qiao",
+          "magongqiao"
+        ],
+        "line": "changzhou5",
+        "order": 12
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9381,
+          31.7814
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Huaide (怀德)",
+        "alternate_names": [
+          "怀德",
+          "懷德",
+          "Huaide",
+          "huai de",
+          "huaide"
+        ],
+        "line": "changzhou5",
+        "order": 13
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9462329,
+          31.7873133
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Xiheng Street (西横街)",
+        "alternate_names": [
+          "西横街",
+          "西橫街",
+          "Xiheng Street",
+          "xi heng jie",
+          "xihengjie"
+        ],
+        "line": "changzhou5",
+        "order": 14
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9518189,
+          31.7967323
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Wanfu Bridge (万福桥)",
+        "alternate_names": [
+          "万福桥",
+          "萬福橋",
+          "Wanfu Bridge",
+          "wan fu qiao",
+          "wanfuqiao"
+        ],
+        "line": "changzhou5",
+        "order": 15
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9616028,
+          31.8003004
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Jinxiu (锦绣)",
+        "alternate_names": [
+          "锦绣",
+          "錦繡",
+          "Jinxiu",
+          "jin xiu",
+          "jinxiu"
+        ],
+        "line": "changzhou5",
+        "order": 16
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9716387,
+          31.7951017
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Cuizhu (翠竹)",
+        "alternate_names": [
+          "翠竹",
+          "Cuizhu",
+          "cui zhu",
+          "cuizhu"
+        ],
+        "line": "changzhou5",
+        "order": 17
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9817995,
+          31.7939934
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Beihuan (北环)",
+        "alternate_names": [
+          "北环",
+          "北環",
+          "Beihuan",
+          "bei huan",
+          "beihuan"
+        ],
+        "line": "changzhou5",
+        "order": 18
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9904969,
+          31.7971465
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Zhulin (竹林)",
+        "alternate_names": [
+          "竹林",
+          "Zhulin",
+          "zhu lin",
+          "zhulin"
+        ],
+        "line": "changzhou5",
+        "order": 19
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0008,
+          31.7993
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Dongjing 120 (东经120)",
+        "alternate_names": [
+          "东经120",
+          "東經120",
+          "Dongjing 120",
+          "dong jing 1 2 0",
+          "dongjing120"
+        ],
+        "line": "changzhou5",
+        "order": 20
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.016891,
+          31.7992981
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Hentang River East Road (横塘河东路)",
+        "alternate_names": [
+          "横塘河东路",
+          "橫塘河東路",
+          "Hentang River East Road",
+          "heng tang he dong lu",
+          "hengtanghedonglu"
+        ],
+        "line": "changzhou5",
+        "order": 21
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0296422,
+          31.7993649
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Qinlong (青龙)",
+        "alternate_names": [
+          "青龙",
+          "青龍",
+          "Qinlong",
+          "qing long",
+          "qinglong"
+        ],
+        "line": "changzhou5",
+        "order": 22
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0407013,
+          31.797816
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Daming North Road (大明北路)",
+        "alternate_names": [
+          "大明北路",
+          "Daming North Road",
+          "da ming bei lu",
+          "damingbeilu"
+        ],
+        "line": "changzhou5",
+        "order": 23
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0523041,
+          31.7931724
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Dongqing (东青)",
+        "alternate_names": [
+          "东青",
+          "東青",
+          "Dongqing",
+          "dong qing",
+          "dongqing"
+        ],
+        "line": "changzhou5",
+        "order": 24
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.944,
+          31.6618
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Wujin Yanjiang Railway Station (武进沿江城际)",
+        "alternate_names": [
+          "武进沿江城际",
+          "武進沿江城際",
+          "Wujin Yanjiang Railway Station",
+          "wu jin yan jiang cheng ji",
+          "wujinyanjiangchengji"
+        ],
+        "line": "changzhou6",
+        "order": 0
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9565,
+          31.6677
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Heping Road (和平路)",
+        "alternate_names": [
+          "和平路",
+          "Heping Road",
+          "he ping lu",
+          "hepinglu"
+        ],
+        "line": "changzhou6",
+        "order": 1
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9702,
+          31.6732
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Kejiaocheng Dong (科教城东)",
+        "alternate_names": [
+          "科教城东",
+          "科教城東",
+          "Kejiaocheng Dong",
+          "ke jiao cheng dong",
+          "kejiaochengdong"
+        ],
+        "line": "changzhou6",
+        "order": 2
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9717,
+          31.6845
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Tianrun Dadao (天润大道)",
+        "alternate_names": [
+          "天润大道",
+          "天潤大道",
+          "Tianrun Dadao",
+          "tian run da dao",
+          "tianrundadao"
+        ],
+        "line": "changzhou6",
+        "order": 3
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9713,
+          31.6999
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Yanzheng Road East (延政东路)",
+        "alternate_names": [
+          "延政东路",
+          "延政東路",
+          "Yanzheng Road East",
+          "yan zheng dong lu",
+          "yanzhengdonglu"
+        ],
+        "line": "changzhou6",
+        "order": 4
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9711,
+          31.7075
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Hutang Textile City (胡塘纺织城)",
+        "alternate_names": [
+          "胡塘纺织城",
+          "胡塘紡織城",
+          "Hutang Textile City",
+          "hu tang fang zhi cheng",
+          "hutangfangzhicheng"
+        ],
+        "line": "changzhou6",
+        "order": 5
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9743,
+          31.7195
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Ding'an Road (定安路)",
+        "alternate_names": [
+          "定安路",
+          "Ding'an Road",
+          "Dingan Road",
+          "ding an lu",
+          "dinganlu"
+        ],
+        "line": "changzhou6",
+        "order": 6
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9739,
+          31.7321
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Hebei (贺北)",
+        "alternate_names": [
+          "贺北",
+          "賀北",
+          "Hebei",
+          "he bei",
+          "hebei"
+        ],
+        "line": "changzhou6",
+        "order": 7
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9738,
+          31.7511
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Lihua (丽华)",
+        "alternate_names": [
+          "丽华",
+          "麗華",
+          "Lihua",
+          "li hua",
+          "lihua"
+        ],
+        "line": "changzhou6",
+        "order": 8
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9752,
+          31.7617
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Chaoyin (朝阴)",
+        "alternate_names": [
+          "朝阴",
+          "朝陰",
+          "Chaoyin",
+          "chao yin",
+          "chaoyin"
+        ],
+        "line": "changzhou6",
+        "order": 9
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9831,
+          31.7644
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Zhaofeng (兆丰)",
+        "alternate_names": [
+          "兆丰",
+          "兆豐",
+          "Zhaofeng",
+          "zhao feng",
+          "zhaofeng"
+        ],
+        "line": "changzhou6",
+        "order": 10
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0001,
+          31.7715
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Ziyun (紫云)",
+        "alternate_names": [
+          "紫云",
+          "紫雲",
+          "Ziyun",
+          "zi yun",
+          "ziyun"
+        ],
+        "line": "changzhou6",
+        "order": 11
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.003,
+          31.7852
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Zijing Park (紫荆公园)",
+        "alternate_names": [
+          "紫荆公园",
+          "紫荊公園",
+          "Zijing Park",
+          "zi jing gong yuan",
+          "zijinggongyuan"
+        ],
+        "line": "changzhou6",
+        "order": 12
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0008,
+          31.7993
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Dongjing 120 (东经120)",
+        "alternate_names": [
+          "东经120",
+          "東經120",
+          "Dongjing 120",
+          "dong jing 1 2 0",
+          "dongjing120"
+        ],
+        "line": "changzhou6",
+        "order": 13
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0011,
+          31.8078
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Beitanghe Road (北塘河路)",
+        "alternate_names": [
+          "北塘河路",
+          "Beitanghe Road",
+          "bei tang he lu",
+          "beitanghelu"
+        ],
+        "line": "changzhou6",
+        "order": 14
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0008,
+          31.8181
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Dinosaur Park (恐龙园)",
+        "alternate_names": [
+          "恐龙园",
+          "恐龍園",
+          "Dinosaur Park",
+          "kong long yuan",
+          "konglongyuan"
+        ],
+        "line": "changzhou6",
+        "order": 15
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9914,
+          31.8287
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Hanjiang Road (汉江路)",
+        "alternate_names": [
+          "汉江路",
+          "漢江路",
+          "Hanjiang Road",
+          "han jiang lu",
+          "hanjianglu"
+        ],
+        "line": "changzhou6",
+        "order": 16
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.982,
+          31.83
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Xinqu Park (新区公园)",
+        "alternate_names": [
+          "新区公园",
+          "新區公園",
+          "Xinqu Park",
+          "xin qu gong yuan",
+          "xinqugongyuan"
+        ],
+        "line": "changzhou6",
+        "order": 17
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9736,
+          31.8317
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Tongjiang Road (通江路)",
+        "alternate_names": [
+          "通江路",
+          "Tongjiang Road",
+          "tong jiang lu",
+          "tongjianglu"
+        ],
+        "line": "changzhou6",
+        "order": 18
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9612,
+          31.8354
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Taishan Road (泰山路)",
+        "alternate_names": [
+          "泰山路",
+          "Taishan Road",
+          "tai shan lu",
+          "taishanlu"
+        ],
+        "line": "changzhou6",
+        "order": 19
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9483,
+          31.8448
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Changjiang North Road (长江北路)",
+        "alternate_names": [
+          "长江北路",
+          "長江北路",
+          "Changjiang North Road",
+          "chang jiang bei lu",
+          "changjiangbeilu"
+        ],
+        "line": "changzhou6",
+        "order": 20
+      },
+      "id": 90
+    }
+  ]
+}

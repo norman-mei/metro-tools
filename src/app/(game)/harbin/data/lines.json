@@ -1,0 +1,26 @@
+{
+  "harbin1": {
+    "name": "Line 1",
+    "color": "#9F0002",
+    "backgroundColor": "#9F0002",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "harbin1.png"
+  },
+  "harbin2": {
+    "name": "Line 2",
+    "color": "#008200",
+    "backgroundColor": "#008200",
+    "textColor": "#ffffff",
+    "order": 2,
+    "icon": "harbin2.png"
+  },
+  "harbin3": {
+    "name": "Line 3",
+    "color": "#FD8609",
+    "backgroundColor": "#FD8609",
+    "textColor": "#000000",
+    "order": 3,
+    "icon": "harbin3.png"
+  }
+}

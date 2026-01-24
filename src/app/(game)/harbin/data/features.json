@@ -1,0 +1,1666 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7029173,
+          45.787419
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Harbin East Railway Station (哈尔滨东站)",
+        "alternate_names": [
+          "哈尔滨东站",
+          "Harbin East Railway Station"
+        ],
+        "line": "harbin1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6918757,
+          45.7860909
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Huashu Street (桦树街)",
+        "alternate_names": [
+          "桦树街",
+          "Huashu Street"
+        ],
+        "line": "harbin1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6811678,
+          45.7856727
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Jiaotongxueyuan (交通学院)",
+        "alternate_names": [
+          "交通学院",
+          "Jiaotongxueyuan"
+        ],
+        "line": "harbin1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.672,
+          45.7824
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Taipingqiao (太平桥)",
+        "alternate_names": [
+          "太平桥",
+          "Taipingqiao"
+        ],
+        "line": "harbin1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6619507,
+          45.773439
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Harbin Engineering University (工程大学)",
+        "alternate_names": [
+          "工程大学",
+          "Harbin Engineering University"
+        ],
+        "line": "harbin1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6501758,
+          45.7670557
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tobacco Manufacturer (烟厂)",
+        "alternate_names": [
+          "烟厂",
+          "Tobacco Manufacturer"
+        ],
+        "line": "harbin1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6444462,
+          45.7621206
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "The First Affiliated Hospital of Harbin Medical University (医大一院)",
+        "alternate_names": [
+          "医大一院",
+          "The First Affiliated Hospital of Harbin Medical University"
+        ],
+        "line": "harbin1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6377342,
+          45.7563803
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Museum of Heilongjiang Province (博物馆)",
+        "alternate_names": [
+          "博物馆",
+          "Museum of Heilongjiang Province"
+        ],
+        "line": "harbin1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6303594,
+          45.7500082
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Harbin Railway Co., Ltd (鐵路局)",
+        "alternate_names": [
+          "铁路局",
+          "鐵路局",
+          "Harbin Railway Co., Ltd",
+          "Harbin Railway CO., Ltd"
+        ],
+        "line": "harbin1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6218006,
+          45.7426306
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Harbin Institute of Technology (哈工大)",
+        "alternate_names": [
+          "哈工大",
+          "Harbin Institute of Technology"
+        ],
+        "line": "harbin1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6149408,
+          45.736739
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Xidaqiao (西大橋)",
+        "alternate_names": [
+          "西大桥",
+          "西大橋",
+          "Xidaqiao"
+        ],
+        "line": "harbin1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6092577,
+          45.7307165
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Hexing Road (和興路)",
+        "alternate_names": [
+          "和兴路",
+          "和興路",
+          "Hexing Road"
+        ],
+        "line": "harbin1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6043626,
+          45.7207379
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Xuefu Road (學府路)",
+        "alternate_names": [
+          "学府路",
+          "學府路",
+          "Xuefu Road"
+        ],
+        "line": "harbin1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6059686,
+          45.7129698
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Harbin University of Science and Technology (理工大學)",
+        "alternate_names": [
+          "理工大学",
+          "理工大學",
+          "Harbin University of Science and Technology"
+        ],
+        "line": "harbin1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6076854,
+          45.7050819
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Heilongjiang University (黑龍江大學)",
+        "alternate_names": [
+          "黑龙江大学",
+          "黑龍江大學",
+          "Heilongjiang University"
+        ],
+        "line": "harbin1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6097981,
+          45.6955916
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "The Second Affiliated Hospital of Harbin Medical University (醫大二院)",
+        "alternate_names": [
+          "医大二院",
+          "醫大二院",
+          "The Second Affiliated Hospital of Harbin Medical University"
+        ],
+        "line": "harbin1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6130206,
+          45.6806928
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Hada (哈达)",
+        "alternate_names": [
+          "哈达",
+          "Hada"
+        ],
+        "line": "harbin1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6159233,
+          45.6678196
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Harbin South Railway Station (哈尔滨南站)",
+        "alternate_names": [
+          "哈尔滨南站",
+          "Harbin South Railway Station"
+        ],
+        "line": "harbin1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6187878,
+          45.6543645
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Tongjiang Road (同江路)",
+        "alternate_names": [
+          "同江路",
+          "Tongjiang Road"
+        ],
+        "line": "harbin1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6274213,
+          45.6436291
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Wapenyao (瓦盆窑)",
+        "alternate_names": [
+          "瓦盆窑",
+          "Wapenyao"
+        ],
+        "line": "harbin1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6305495,
+          45.6305489
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Jingpo Road (镜泊路)",
+        "alternate_names": [
+          "镜泊路",
+          "Jingpo Road"
+        ],
+        "line": "harbin1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.641867,
+          45.6134208
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Bohai Road (渤海路)",
+        "alternate_names": [
+          "渤海路",
+          "Bohai Road"
+        ],
+        "line": "harbin1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6266745,
+          45.6038172
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Xinjiang Street (新疆大街)",
+        "alternate_names": [
+          "新疆大街",
+          "Xinjiang Street"
+        ],
+        "line": "harbin1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5375245,
+          45.8718244
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Jiangbei University Town (江北大學城)",
+        "alternate_names": [
+          "江北大学城",
+          "江北大學城",
+          "Jiangbei University Town"
+        ],
+        "line": "harbin2",
+        "order": 0
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5317122,
+          45.8504612
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Harbin North Railway Station (哈尔滨北站)",
+        "alternate_names": [
+          "哈尔滨北站",
+          "Harbin North Railway Station"
+        ],
+        "line": "harbin2",
+        "order": 1
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5345838,
+          45.83315
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Dagengjia (大耿家)",
+        "alternate_names": [
+          "大耿家",
+          "Dagengjia"
+        ],
+        "line": "harbin2",
+        "order": 2
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5434384,
+          45.8212169
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Longchuan Road (龙川路)",
+        "alternate_names": [
+          "龙川路",
+          "Longchuan Road"
+        ],
+        "line": "harbin2",
+        "order": 3
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5465636,
+          45.8049263
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Shimao Avenue (世茂大道)",
+        "alternate_names": [
+          "世贸大道",
+          "世茂大道",
+          "Shimao Avenue"
+        ],
+        "line": "harbin2",
+        "order": 4
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5619361,
+          45.7766019
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Ice and Snow World (冰雪大世界)",
+        "alternate_names": [
+          "冰雪大世界",
+          "Ice and Snow World"
+        ],
+        "line": "harbin2",
+        "order": 5
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5820809,
+          45.78259
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Sun Island (太陽島)",
+        "alternate_names": [
+          "太阳岛",
+          "太陽島",
+          "Sun Island"
+        ],
+        "line": "harbin2",
+        "order": 6
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5980977,
+          45.7714628
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "People's Square (人民廣場)",
+        "alternate_names": [
+          "人民广场",
+          "人民廣場",
+          "People's Square"
+        ],
+        "line": "harbin2",
+        "order": 7
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6106826,
+          45.7669453
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Zhongyang Street (中央大街)",
+        "alternate_names": [
+          "中央大街",
+          "Zhongyang Street"
+        ],
+        "line": "harbin2",
+        "order": 8
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6192513,
+          45.7638942
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Shangzhi Street (尚志大街)",
+        "alternate_names": [
+          "尚志大街",
+          "Shangzhi Street"
+        ],
+        "line": "harbin2",
+        "order": 9
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6280383,
+          45.76063
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Harbin Railway Station (哈爾濱站)",
+        "alternate_names": [
+          "哈尔滨站",
+          "哈爾濱站",
+          "Harbin Railway Station"
+        ],
+        "line": "harbin2",
+        "order": 10
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6377342,
+          45.7563803
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Museum of Heilongjiang Province (博物馆)",
+        "alternate_names": [
+          "博物馆",
+          "Museum of Heilongjiang Province"
+        ],
+        "line": "harbin2",
+        "order": 11
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6477244,
+          45.7482309
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Workers' Cultural Palace (工人文化宫)",
+        "alternate_names": [
+          "工人文化宫",
+          "Workers' Cultural Palace"
+        ],
+        "line": "harbin2",
+        "order": 12
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6570442,
+          45.740783
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "The People's Government of Heilongjiang Province (省政府)",
+        "alternate_names": [
+          "省政府",
+          "The People's Government of Heilongjiang Province"
+        ],
+        "line": "harbin2",
+        "order": 13
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6711834,
+          45.7347213
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Provincial Hospital (省医院)",
+        "alternate_names": [
+          "省医院",
+          "Provincial Hospital"
+        ],
+        "line": "harbin2",
+        "order": 14
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6867,
+          45.7346
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Zhujiang Road (珠江路)",
+        "alternate_names": [
+          "珠江路",
+          "Zhujiang Road"
+        ],
+        "line": "harbin2",
+        "order": 15
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6995116,
+          45.7328648
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Nanzhi Road (南直路)",
+        "alternate_names": [
+          "南直路",
+          "Nanzhi Road"
+        ],
+        "line": "harbin2",
+        "order": 16
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7179532,
+          45.7276694
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Northeast Agricultural University (东北农业大学)",
+        "alternate_names": [
+          "农业大学",
+          "东北农业大学",
+          "Northeast Agricultural University"
+        ],
+        "line": "harbin2",
+        "order": 17
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7366447,
+          45.7249003
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Meteorological Observatory (气象台)",
+        "alternate_names": [
+          "气象台",
+          "Meteorological Observatory"
+        ],
+        "line": "harbin2",
+        "order": 18
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5440043,
+          45.7366756
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Sports Park (体育公园)",
+        "alternate_names": [
+          "体育公园",
+          "Sports Park"
+        ],
+        "line": "harbin3",
+        "order": 0
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5394206,
+          45.7287069
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "No.5 Qunli Avenue (群力第五大道)",
+        "alternate_names": [
+          "群力第五大道",
+          "No.5 Qunli Avenue",
+          "Qunli 5th Avenue"
+        ],
+        "line": "harbin3",
+        "order": 1
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5456508,
+          45.7225751
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Qunli Hospital, the First Affiliated Hospital of Harbin Medical University (醫大一院群力院區)",
+        "alternate_names": [
+          "医大一院群力院区",
+          "醫大一院群力院區",
+          "Qunli Hospital, the First Affiliated Hospital of Harbin Medical University",
+          "Qunli Hospital"
+        ],
+        "line": "harbin3",
+        "order": 2
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.552177,
+          45.716894
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Gongnong Street (工农大街)",
+        "alternate_names": [
+          "工农大街",
+          "Gongnong Street"
+        ],
+        "line": "harbin3",
+        "order": 3
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5613823,
+          45.7099136
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Chengxiang Road (城乡路)",
+        "alternate_names": [
+          "城乡路",
+          "Chengxiang Road"
+        ],
+        "line": "harbin3",
+        "order": 4
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5744634,
+          45.7038298
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Harbin West Railway Station (哈爾濱西站)",
+        "alternate_names": [
+          "哈尔滨西站",
+          "哈爾濱西站",
+          "Harbin West Railway Station",
+          "Haxizhan"
+        ],
+        "line": "harbin3",
+        "order": 5
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5792996,
+          45.6993715
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Kaishengyuan Plaza (凯盛源广场)",
+        "alternate_names": [
+          "凯盛源广场",
+          "Kaishengyuan Plaza"
+        ],
+        "line": "harbin3",
+        "order": 6
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5906159,
+          45.6934895
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Haxi Street (哈西大街)",
+        "alternate_names": [
+          "哈西大街",
+          "Haxi Street"
+        ],
+        "line": "harbin3",
+        "order": 7
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6097981,
+          45.6955916
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "The Second Affiliated Hospital of Harbin Medical University (醫大二院)",
+        "alternate_names": [
+          "医大二院",
+          "醫大二院",
+          "The Second Affiliated Hospital of Harbin Medical University"
+        ],
+        "line": "harbin3",
+        "order": 8
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6284391,
+          45.6975435
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Zhengyi Road (征仪路)",
+        "alternate_names": [
+          "征仪路",
+          "Zhengyi Road"
+        ],
+        "line": "harbin3",
+        "order": 9
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6372431,
+          45.6985375
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Harbin Medical University Cancer Hospital (腫瘤醫院)",
+        "alternate_names": [
+          "肿瘤医院",
+          "腫瘤醫院",
+          "Harbin Medical University Cancer Hospital"
+        ],
+        "line": "harbin3",
+        "order": 10
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6582118,
+          45.7003857
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Xusheng Street (旭升街)",
+        "alternate_names": [
+          "旭升街",
+          "Xusheng Street"
+        ],
+        "line": "harbin3",
+        "order": 11
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.669866,
+          45.6988597
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Labor Park (劳动公园)",
+        "alternate_names": [
+          "劳动公园",
+          "Labor Park"
+        ],
+        "line": "harbin3",
+        "order": 12
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6802809,
+          45.7027191
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Jinxiang Street (进乡街)",
+        "alternate_names": [
+          "进乡街",
+          "Jinxiang Street"
+        ],
+        "line": "harbin3",
+        "order": 13
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6827827,
+          45.7104591
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Turbine Co., Ltd (汽轮机厂)",
+        "alternate_names": [
+          "汽轮机厂",
+          "Turbine Co., Ltd"
+        ],
+        "line": "harbin3",
+        "order": 14
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.684417,
+          45.7212795
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Youfang Street (油坊街)",
+        "alternate_names": [
+          "油坊街",
+          "Youfang Street"
+        ],
+        "line": "harbin3",
+        "order": 15
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6848235,
+          45.729022
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Gongbin Road (公滨路)",
+        "alternate_names": [
+          "公滨路",
+          "Gongbin Road"
+        ],
+        "line": "harbin3",
+        "order": 16
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6867,
+          45.7346
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Zhujiang Road (珠江路)",
+        "alternate_names": [
+          "珠江路",
+          "Zhujiang Road"
+        ],
+        "line": "harbin3",
+        "order": 17
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6885368,
+          45.7404894
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Xiangjiang Road (湘江路)",
+        "alternate_names": [
+          "湘江路",
+          "Xiangjiang Road"
+        ],
+        "line": "harbin3",
+        "order": 18
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6906809,
+          45.7487726
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Conference and Exhibition Center (会展中心)",
+        "alternate_names": [
+          "会展中心",
+          "Conference and Exhibition Center"
+        ],
+        "line": "harbin3",
+        "order": 19
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6886811,
+          45.7574423
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Haihe East Road (海河东路)",
+        "alternate_names": [
+          "海河东路",
+          "Haihe East Road"
+        ],
+        "line": "harbin3",
+        "order": 20
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6866664,
+          45.7653685
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Second Hospital of Harbin City (市第二医院)",
+        "alternate_names": [
+          "市第二医院",
+          "Second Hospital of Harbin City"
+        ],
+        "line": "harbin3",
+        "order": 21
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6846165,
+          45.773264
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Dayoufang Street (大有坊街)",
+        "alternate_names": [
+          "大有坊街",
+          "Dayoufang Street"
+        ],
+        "line": "harbin3",
+        "order": 22
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.672,
+          45.7824
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Taipingqiao (太平桥)",
+        "alternate_names": [
+          "太平桥",
+          "Taipingqiao"
+        ],
+        "line": "harbin3",
+        "order": 23
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6616193,
+          45.7868228
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Jingyu Park (靖宇公园)",
+        "alternate_names": [
+          "靖宇公园",
+          "Jingyu Park"
+        ],
+        "line": "harbin3",
+        "order": 24
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6450991,
+          45.7861222
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Harbin Mosque (清真寺)",
+        "alternate_names": [
+          "清真寺",
+          "Harbin Mosque"
+        ],
+        "line": "harbin3",
+        "order": 25
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6362998,
+          45.7824935
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Chinese-baroque Block (中华巴洛克街区)",
+        "alternate_names": [
+          "中华巴洛克街区",
+          "Chinese-baroque Block"
+        ],
+        "line": "harbin3",
+        "order": 26
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6285043,
+          45.7785931
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Beima Road (北马路)",
+        "alternate_names": [
+          "北马路",
+          "Beima Road"
+        ],
+        "line": "harbin3",
+        "order": 27
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6181463,
+          45.7773695
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Zhaolin Park · Harbin Children's Hospital (兆麟公园·市儿童医院)",
+        "alternate_names": [
+          "兆麟公园·市儿童医院",
+          "Zhaolin Park · Harbin Children's Hospital",
+          "Zhaolin Park"
+        ],
+        "line": "harbin3",
+        "order": 28
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.606354,
+          45.7752346
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Friendship Palace Hotel (友谊宫)",
+        "alternate_names": [
+          "友谊宫",
+          "Friendship Palace Hotel"
+        ],
+        "line": "harbin3",
+        "order": 29
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5980977,
+          45.7714628
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "People's Square (人民廣場)",
+        "alternate_names": [
+          "人民广场",
+          "人民廣場",
+          "People's Square"
+        ],
+        "line": "harbin3",
+        "order": 30
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5912623,
+          45.7639065
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Shanghai Street (上海街)",
+        "alternate_names": [
+          "上海街",
+          "Shanghai Street"
+        ],
+        "line": "harbin3",
+        "order": 31
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5894136,
+          45.7565571
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Highway Bridge (公路大桥)",
+        "alternate_names": [
+          "公路大桥",
+          "Highway Bridge"
+        ],
+        "line": "harbin3",
+        "order": 32
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5879837,
+          45.747028
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Hesong Street (河松街)",
+        "alternate_names": [
+          "河松街",
+          "Hesong Street"
+        ],
+        "line": "harbin3",
+        "order": 33
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5784292,
+          45.7412531
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Heshan Street (河山街)",
+        "alternate_names": [
+          "河山街",
+          "Heshan Street"
+        ],
+        "line": "harbin3",
+        "order": 34
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5620099,
+          45.7390205
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Lilac Park (丁香公园)",
+        "alternate_names": [
+          "丁香公园",
+          "Lilac Park"
+        ],
+        "line": "harbin3",
+        "order": 35
+      },
+      "id": 78
+    }
+  ]
+}
