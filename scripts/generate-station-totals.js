@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Regenerates src/lib/stationTotals.ts based on feature counts
- * for every city under src/app/(game)/* that has data/features.json.
+ * for every city under src/app/(game)/** that has data/features.json.
  */
 const fs = require('fs')
 const path = require('path')
@@ -9,25 +9,33 @@ const path = require('path')
 const gameDir = path.join(__dirname, '..', 'src', 'app', '(game)')
 const outFile = path.join(__dirname, '..', 'src', 'lib', 'stationTotals.ts')
 
-function getFeatureCount(cityDir) {
-  const featuresPath = path.join(gameDir, cityDir, 'data', 'features.json')
-  if (!fs.existsSync(featuresPath)) return null
-  try {
-    const raw = fs.readFileSync(featuresPath, 'utf-8')
-    const json = JSON.parse(raw)
-    if (json && Array.isArray(json.features)) return json.features.length
-  } catch (err) {
-    console.warn(`Skipping ${cityDir}: ${err.message}`)
+const totals = {}
+
+const walk = (dir) => {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const entryPath = path.join(dir, entry.name)
+    if (entry.isDirectory()) {
+      walk(entryPath)
+      continue
+    }
+    if (entry.isFile() && entry.name === 'features.json') {
+      const parent = path.basename(dir)
+      if (parent !== 'data') continue
+      const cityDir = path.basename(path.dirname(dir))
+      try {
+        const raw = fs.readFileSync(entryPath, 'utf-8')
+        const json = JSON.parse(raw)
+        if (json && Array.isArray(json.features)) {
+          totals[cityDir] = json.features.length
+        }
+      } catch (err) {
+        console.warn(`Skipping ${cityDir}: ${err.message}`)
+      }
+    }
   }
-  return null
 }
 
-const totals = {}
-for (const entry of fs.readdirSync(gameDir, { withFileTypes: true })) {
-  if (!entry.isDirectory()) continue
-  const count = getFeatureCount(entry.name)
-  if (count != null) totals[entry.name] = count
-}
+walk(gameDir)
 
 const sorted = Object.keys(totals).sort()
 

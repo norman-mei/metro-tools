@@ -40,6 +40,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import {
     CSSProperties,
     ChangeEvent,
@@ -672,6 +673,8 @@ export default function GamePage({
   routes?: RoutesFeatureCollection
 }) {
   const { CITY_NAME, MAP_CONFIG, LINES, MAP_FROM_DATA, METADATA } = useConfig()
+  const pathname = usePathname()
+  const cityPath = useMemo(() => pathname?.replace(/^\//, '') ?? null, [pathname])
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
   const { settings } = useSettings()
@@ -2999,6 +3002,7 @@ export default function GamePage({
       <CityStatsPanel
         cityDisplayName={cityDisplayName}
         slug={CITY_NAME}
+        cityPath={cityPath}
         open={cityStatsOpen}
         onClose={() => setCityStatsOpen(false)}
       />

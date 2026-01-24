@@ -1,0 +1,122 @@
+import { Metadata } from 'next'
+import { MapboxOptions } from 'mapbox-gl'
+import { Config, Line, LineGroup } from '@/lib/types'
+
+
+export const LINES: {
+  [name: string]: Line
+} = {
+  HamburgSBahnS1: {
+    name: 'S1',
+    color: '#23B24B',
+    backgroundColor: '#115925',
+    textColor: '#1A962B',
+    order: 0,
+  },
+  HamburgSBahnS2: {
+    name: 'S2',
+    color: '#B62750',
+    backgroundColor: '#5B1428',
+    textColor: '#B51143',
+    order: 1,
+  },
+  HamburgSBahnS3: {
+    name: 'S3',
+    color: '#652D91',
+    backgroundColor: '#321749',
+    textColor: '#622181',
+    order: 2,
+  },
+  HamburgSBahnS5: {
+    name: 'S5',
+    color: '#0089BB',
+    backgroundColor: '#00455E',
+    textColor: '#0089BB',
+    order: 3,
+  },
+  HamburgUBahnU1: {
+    name: 'U1',
+    color: '#0072BC',
+    backgroundColor: '#00395E',
+    textColor: '#006AB3',
+    order: 4,
+  },
+  HamburgUBahnU2: {
+    name: 'U2',
+    color: '#EE1D23',
+    backgroundColor: '#7C090D',
+    textColor: '#E2001A',
+    order: 5,
+  },
+  HamburgUBahnU3: {
+    name: 'U3',
+    color: '#FFDC01',
+    backgroundColor: '#806E00',
+    textColor: '#FFDD00',
+    order: 6,
+  },
+  HamburgUBahnU4: {
+    name: 'U4',
+    color: '#00AAAD',
+    backgroundColor: '#005557',
+    textColor: '#0098A1',
+    order: 7,
+  },
+}
+
+export const LINE_GROUPS: LineGroup[] = [
+  {
+    title: 'Lines',
+    items: [
+      {
+        type: 'lines',
+        lines: ['HamburgSBahnS1', 'HamburgSBahnS2', 'HamburgSBahnS3', 'HamburgSBahnS5', 'HamburgUBahnU1', 'HamburgUBahnU2', 'HamburgUBahnU3', 'HamburgUBahnU4'],
+      },
+    ],
+  },
+]
+
+export const METADATA: Metadata = {
+  icons: {
+    icon: '/api/city-icon/hamburg',
+    apple: '/api/city-icon/hamburg',
+  },
+  title: 'Hamburg Bahn Memory',
+  description: 'Wie viele S- und U-Bahn Stationen können Sie auswendig nennen?',
+  openGraph: {
+    title: 'Hamburg Bahn Memory',
+    description:
+      'Wie viele S- und U-Bahn-Stationen können Sie auswendig nennen? Spielen Sie das Hamburg Bahn Memory und finden Sie es heraus!',
+    type: 'website',
+    locale: 'de_DE',
+    url: 'https://metro-memory.com/europe/germany/hamburg',
+  },
+}
+
+export const MAP_CONFIG: MapboxOptions = {
+  container: 'map',
+  style: 'mapbox://styles/benjamintd/cls4h02hy019201qygvumc0nb', // generic
+  minZoom: 6,
+  fadeDuration: 50,
+  dragRotate: false,
+}
+
+
+export const CITY_NAME = 'hamburg'
+
+export const LOCALE = 'de'
+
+export const MAP_FROM_DATA = true
+
+const config: Config = {
+  GAUGE_COLORS: 'inverted',
+  MAP_FROM_DATA,
+  LOCALE,
+  CITY_NAME,
+  LINE_GROUPS,
+  MAP_CONFIG,
+  METADATA,
+  LINES,
+}
+
+export default config

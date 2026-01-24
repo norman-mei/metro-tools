@@ -8,6 +8,7 @@ import linesData from './data/lines.json'
 type PlaceholderConfigOptions = {
   citySlug: string
   cityTitle: string
+  cityPath?: string
   description?: string
   locale?: string
   mapBounds?: MapboxOptions['bounds']
@@ -46,6 +47,7 @@ const BASE_MAP_CONFIG: MapboxOptions = {
 const buildMetadata = ({
   citySlug,
   cityTitle,
+  cityPath,
   description = 'Placeholder data while the full network is loading.',
 }: PlaceholderConfigOptions): Metadata => ({
   title: `${cityTitle} Metro Memory`,
@@ -55,7 +57,7 @@ const buildMetadata = ({
     description,
     type: 'website',
     locale: 'en_US',
-    url: `https://metro-memory.com/${citySlug}`,
+    url: `https://metro-memory.com/${cityPath ?? citySlug}`,
   },
 })
 

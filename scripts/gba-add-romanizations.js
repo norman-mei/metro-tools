@@ -18,6 +18,8 @@ const featuresPath = path.join(
   'src',
   'app',
   '(game)',
+  'asia',
+  'china',
   'gba',
   'data',
   'features.json',

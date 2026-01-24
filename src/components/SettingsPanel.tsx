@@ -708,7 +708,14 @@ const getCityName = (slug: string) => {
     .join(' ')
 }
 
-const getSlugFromLink = (link: string) => link.replace(/^\//, '').split(/[?#]/)[0]
+const getSlugFromLink = (link: string) => {
+  if (!link.startsWith('/')) {
+    return null
+  }
+  const path = link.replace(/^\//, '').split(/[?#]/)[0]
+  const segments = path.split('/').filter(Boolean)
+  return segments.length ? segments[segments.length - 1] : null
+}
 
 const readLocalFoundCount = (slug: string) => {
   if (typeof window === 'undefined') {
@@ -795,6 +802,9 @@ const ResetProgressButton = ({
     if (typeof window !== 'undefined') {
       cities.forEach((city) => {
         const slug = getSlugFromLink(city.link)
+        if (!slug) {
+          return
+        }
         const found = readLocalFoundCount(slug)
         if (found > 0) {
           const existing = entries.get(slug)

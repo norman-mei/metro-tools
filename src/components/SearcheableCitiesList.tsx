@@ -277,11 +277,20 @@ const enrichCities = (cityList: ICity[]): ICity[] =>
     return keywords ? { ...city, keywords } : city
   })
 
-const getSlugFromLink = (link: string) => {
+const getPathFromLink = (link: string) => {
   if (!link.startsWith('/')) {
     return null
   }
   return link.replace(/^\//, '').split(/[?#]/)[0]
+}
+
+const getSlugFromLink = (link: string) => {
+  const path = getPathFromLink(link)
+  if (!path) {
+    return null
+  }
+  const segments = path.split('/').filter(Boolean)
+  return segments.length ? segments[segments.length - 1] : null
 }
 
 interface AchievementMeta {
@@ -378,6 +387,7 @@ const SearcheableCitiesList = ({
   })
   const [statsOpen, setStatsOpen] = useState(false)
   const [statsSlug, setStatsSlug] = useState<string | null>(null)
+  const [statsPath, setStatsPath] = useState<string | null>(null)
   const [activeSection, setActiveSection] = useState<string | null>(null)
   const [continentFocus, setContinentFocus] = useState<{ name: string; token: number } | null>(
     null,
@@ -745,8 +755,16 @@ const SearcheableCitiesList = ({
     }
     const slugs = visibleCityBreakdown.map(({ slug }) => slug)
     const slugToName = new Map(visibleCityBreakdown.map(({ slug, name }) => [slug, name]))
-    return { slugs, slugToName }
-  }, [visibleCityBreakdown])
+    const slugToPath = new Map<string, string>()
+    visibleCityBreakdown.forEach(({ slug }) => {
+      const city = cityMetaBySlug.get(slug)
+      const cityPath = city ? getPathFromLink(city.link) : null
+      if (cityPath) {
+        slugToPath.set(slug, cityPath)
+      }
+    })
+    return { slugs, slugToName, slugToPath }
+  }, [visibleCityBreakdown, cityMetaBySlug])
 
   const statsCityDisplayName =
     (statsSlug && statsNavigation?.slugToName.get(statsSlug)) ?? statsSlug ?? ''
@@ -764,7 +782,9 @@ const SearcheableCitiesList = ({
       return
     }
     const nextIndex = (currentIndex + direction + slugs.length) % slugs.length
-    setStatsSlug(slugs[nextIndex])
+    const nextSlug = slugs[nextIndex]
+    setStatsSlug(nextSlug)
+    setStatsPath(statsNavigation.slugToPath.get(nextSlug) ?? null)
   }
 
   const handlePrevStats = () => handleNavigateStats(-1)
@@ -1164,7 +1184,13 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
   }, [focusContinentOnMap])
 
   const openStatsPanelForCity = (slug: string) => {
+    const city = cityMetaBySlug.get(slug)
+    const cityPath = city ? getPathFromLink(city.link) : null
+    if (!cityPath) {
+      return
+    }
     setStatsSlug(slug)
+    setStatsPath(cityPath)
     setStatsOpen(true)
   }
   const getStatusClass = (percent: number) =>
@@ -1861,10 +1887,12 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       <CityStatsPanel
         cityDisplayName={statsCityDisplayName || 'City Statistics'}
         slug={statsSlug}
+        cityPath={statsPath}
         open={statsOpen}
         onClose={() => {
           setStatsOpen(false)
           setStatsSlug(null)
+          setStatsPath(null)
         }}
         onNavigatePrevious={
           statsNavigation && statsNavigation.slugs.length > 1 ? handlePrevStats : undefined

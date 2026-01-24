@@ -16,11 +16,20 @@ export type CityCardVariant = 'comfortable' | 'compact' | 'cover'  | 'list'
   | 'map'   // Added for 2D map view compatibility
 const UNAVAILABLE_CITY_SLUGS = new Set(['omaha'])
 
-const getSlugFromLink = (link: string) => {
+const getPathFromLink = (link: string) => {
   if (!link.startsWith('/')) {
     return null
   }
   return link.replace(/^\//, '').split(/[?#]/)[0]
+}
+
+const getSlugFromLink = (link: string) => {
+  const path = getPathFromLink(link)
+  if (!path) {
+    return null
+  }
+  const segments = path.split('/').filter(Boolean)
+  return segments.length ? segments[segments.length - 1] : null
 }
 
 const CityCard = ({
@@ -38,8 +47,10 @@ const CityCard = ({
   const [stationTotal, setStationTotal] = useState<number | null>(null)
   const [statsOpen, setStatsOpen] = useState<boolean>(false)
   const [statsSlug, setStatsSlug] = useState<string | null>(null)
+  const [statsPath, setStatsPath] = useState<string | null>(null)
   const [isHovered, setIsHovered] = useState(false)
   const slug = useMemo(() => getSlugFromLink(city.link), [city.link])
+  const cityPath = useMemo(() => getPathFromLink(city.link), [city.link])
   const { progressSummaries } = useAuth()
   const { t } = useTranslation()
 
@@ -129,14 +140,17 @@ const CityCard = ({
     }
     const slugs: string[] = []
     const slugToName = new Map<string, string>()
+    const slugToPath = new Map<string, string>()
     visibleCities.forEach((visibleCity) => {
       const citySlug = getSlugFromLink(visibleCity.link)
-      if (citySlug) {
+      const cityPath = getPathFromLink(visibleCity.link)
+      if (citySlug && cityPath) {
         slugs.push(citySlug)
         slugToName.set(citySlug, visibleCity.name)
+        slugToPath.set(citySlug, cityPath)
       }
     })
-    return { slugs, slugToName }
+    return { slugs, slugToName, slugToPath }
   }, [visibleCities])
 
   const navigationSlugs = statsNavigation?.slugs ?? null
@@ -157,8 +171,10 @@ const CityCard = ({
     const total = navigationSlugs.length
     const nextIndex = (idx + direction + total) % total
     const targetSlug = navigationSlugs[nextIndex]
+    const targetPath = statsNavigation?.slugToPath.get(targetSlug) ?? null
     if (targetSlug && targetSlug !== statsSlug) {
       setStatsSlug(targetSlug)
+      setStatsPath(targetPath)
     }
   }
 
@@ -223,7 +239,7 @@ const CityCard = ({
   )
 
   const renderStatsButton = () => {
-    if (!slug || isCityDisabled) {
+    if (!slug || !cityPath || isCityDisabled) {
       return null
     }
 
@@ -238,6 +254,7 @@ const CityCard = ({
             return
           }
           setStatsSlug(slug)
+          setStatsPath(cityPath)
           setStatsOpen(true)
         }}
         aria-label={t('openCityStats')}
@@ -460,10 +477,12 @@ const CityCard = ({
         <CityStatsPanel
           cityDisplayName={statsCityDisplayName}
           slug={statsSlug}
+          cityPath={statsPath}
           open={statsOpen}
           onClose={() => {
             setStatsOpen(false)
             setStatsSlug(null)
+            setStatsPath(null)
           }}
           onNavigatePrevious={hasCircularNavigation ? handlePrevStats : undefined}
           onNavigateNext={hasCircularNavigation ? handleNextStats : undefined}

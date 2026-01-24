@@ -1,181 +1,180 @@
-import adelaide from '@/app/(game)/adelaide/cover.jpg'
-import albuquerque from '@/app/(game)/albuquerque/opengraph-image.jpg'
-import algiers from '@/app/(game)/algiers/opengraph-image.jpg'
-import amtrak from '@/app/(game)/amtrak/opengraph-image.jpg'
-import atlanta from '@/app/(game)/atlanta/opengraph-image.jpg'
-import auckland from '@/app/(game)/auckland/opengraph-image.jpg'
-import austin from '@/app/(game)/austin/opengraph-image.jpg'
-import barcelona from '@/app/(game)/barcelona/opengraph-image.jpg'
-import beijing from '@/app/(game)/beijing/opengraph-image.jpg'
-import berlin from '@/app/(game)/berlin/opengraph-image.jpg'
-import blackpool from '@/app/(game)/blackpool/opengraph-image.jpg'
-import boston from '@/app/(game)/boston/opengraph-image.jpg'
-import budapest from '@/app/(game)/budapest/opengraph-image.jpg'
-import buffalo from '@/app/(game)/buffalo/opengraph-image.jpg'
-import calgary from '@/app/(game)/calgary/opengraph-image.jpg'
-import canberra from '@/app/(game)/canberra/opengraph-image.jpg'
-import charlotte from '@/app/(game)/charlotte/opengraph-image.jpg'
-import chicago from '@/app/(game)/chicago/opengraph-image.jpg'
-import cincinnati from '@/app/(game)/cincinnati/opengraph-image.jpg'
-import cleveland from '@/app/(game)/cleveland/opengraph-image.jpg'
-import dallas from '@/app/(game)/dallas/opengraph-image.jpg'
-import dc from '@/app/(game)/dc/opengraph-image.jpg'
-import denver from '@/app/(game)/denver/opengraph-image.jpg'
-import detroit from '@/app/(game)/detroit/opengraph-image.jpg'
-import dresden from '@/app/(game)/dresden/opengraph-image.jpg'
-import edinburgh from '@/app/(game)/edinburgh/opengraph-image.jpg'
-import edmonton from '@/app/(game)/edmonton/opengraph-image.jpg'
-import elpaso from '@/app/(game)/elpaso/opengraph-image.jpg'
-import floridaState from '@/app/(game)/florida-state/opengraph-image.jpg'
-import californiaState from '@/app/(game)/california-state/opengraph-image.jpg'
-import galveston from '@/app/(game)/galveston/opengraph-image.jpg'
-import gba from '@/app/(game)/gba/opengraph-image.jpg'
-import glasgow from '@/app/(game)/glasgow/opengraph-image.jpg'
-import goldcoast from '@/app/(game)/goldcoast/opengraph-image.jpg'
-import hamburg from '@/app/(game)/hamburg/opengraph-image.jpg'
-import hanoi from '@/app/(game)/hanoi/opengraph-image.jpg'
-import hochiminhcity from '@/app/(game)/hochiminhcity/opengraph-image.jpg'
-import honolulu from '@/app/(game)/honolulu/opengraph-image.jpg'
-import houston from '@/app/(game)/houston/opengraph-image.jpg'
-import istanbul from '@/app/(game)/istanbul/opengraph-image.jpg'
-import kaohsiung from '@/app/(game)/kaohsiung/opengraph-image.jpg'
-import karlsruhe from '@/app/(game)/karlsruhe/opengraph-image.jpg'
-import kc from '@/app/(game)/kc/opengraph-image.jpg'
-import london from '@/app/(game)/london/opengraph-image.jpg'
-import lr from '@/app/(game)/lr/opengraph-image.jpg'
-import lv from '@/app/(game)/lv/opengraph-image.jpg'
-import madrid from '@/app/(game)/madrid/opengraph-image.jpg'
-import manchester from '@/app/(game)/manchester/opengraph-image.jpg'
-import maracaibo from '@/app/(game)/maracaibo/opengraph-image.jpg'
-import melbourne from '@/app/(game)/melbourne/opengraph-image.jpg'
-import memphis from '@/app/(game)/memphis/opengraph-image.jpg'
-import mexicoCity from '@/app/(game)/mexico-city/opengraph-image.jpg'
-import milwaukee from '@/app/(game)/milwaukee/opengraph-image.jpg'
-import montreal from '@/app/(game)/montreal/opengraph-image.jpg'
-import morgantown from '@/app/(game)/morgantown/opengraph-image.jpg'
-import munich from '@/app/(game)/munich/opengraph-image.jpg'
-import nanning from '@/app/(game)/nanning/opengraph-image.jpg'
-import nashville from '@/app/(game)/nashville/opengraph-image.jpg'
-import newcastle from '@/app/(game)/newcastle/opengraph-image.jpg'
-import neworleans from '@/app/(game)/neworleans/opengraph-image.jpg'
-import norfolk from '@/app/(game)/norfolk/opengraph-image.jpg'
-import nottingham from '@/app/(game)/nottingham/opengraph-image.jpg'
-import ny from '@/app/(game)/ny/opengraph-image.jpg'
-import okc from '@/app/(game)/okc/opengraph-image.jpg'
-import sanJuan from '@/app/(game)/san-juan/opengraph-image.jpg'
-// import omaha from '@/app/(game)/omaha/opengraph-image.jpg'
-import ottawa from '@/app/(game)/ottawa/opengraph-image.jpg'
-import paris from '@/app/(game)/paris/opengraph-image.jpg'
-import perth from '@/app/(game)/perth/opengraph-image.jpg'
-import philly from '@/app/(game)/philly/opengraph-image.jpg'
-import phoenix from '@/app/(game)/phoenix/opengraph-image.jpg'
-import pittsburgh from '@/app/(game)/pittsburgh/opengraph-image.jpg'
-import portland from '@/app/(game)/portland/opengraph-image.jpg'
-import potsdam from '@/app/(game)/potsdam/opengraph-image.jpg'
-import seattle from '@/app/(game)/seattle/opengraph-image.jpg'
-import seoul from '@/app/(game)/seoul/opengraph-image.jpg'
-import shanghai from '@/app/(game)/shanghai/opengraph-image.jpg'
-import sheffield from '@/app/(game)/sheffield/opengraph-image.jpg'
-import singapore from '@/app/(game)/singapore/opengraph-image.jpg'
-import slc from '@/app/(game)/slc/opengraph-image.jpg'
-import stl from '@/app/(game)/stl/opengraph-image.jpg'
-import stockholm from '@/app/(game)/stockholm/opengraph-image.jpg'
-import sydney from '@/app/(game)/sydney/opengraph-image.jpg'
-import taichung from '@/app/(game)/taichung/opengraph-image.jpg'
-import taipei from '@/app/(game)/taipei/opengraph-image.jpg'
-import taw from '@/app/(game)/taw/opengraph-image.jpg'
-import thsr from '@/app/(game)/thsr/opengraph-image.jpg'
-import tokyo from '@/app/(game)/tokyo/opengraph-image.jpg'
-import torontoWaterloo from '@/app/(game)/toronto-waterloo/opengraph-image.jpg'
-import tucson from '@/app/(game)/tucson/opengraph-image.jpg'
-import twincities from '@/app/(game)/twincities/opengraph-image.jpg'
-import vancouver from '@/app/(game)/vancouver/opengraph-image.jpg'
-import viarail from '@/app/(game)/viarail/opengraph-image.jpg'
-import wellington from '@/app/(game)/wellington/opengraph-image.jpg'
-import vienna from '@/app/(game)/vienna/opengraph-image.jpg'
-import wm from '@/app/(game)/wm/opengraph-image.jpg'
-import yarra from '@/app/(game)/yarra/opengraph-image.jpg'
-import taizhou from '@/app/(game)/taizhou/opengraph-image.jpg'
-import urumqi from '@/app/(game)/urumqi/opengraph-image.jpg'
-import wenzhou from '@/app/(game)/wenzhou/opengraph-image.jpg'
-import changzhou from '@/app/(game)/changzhou/opengraph-image.jpg'
-import guiyang from '@/app/(game)/guiyang/opengraph-image.jpg'
-import harbin from '@/app/(game)/harbin/opengraph-image.jpg'
-import hohhot from '@/app/(game)/hohhot/opengraph-image.jpg'
-import jinhua from '@/app/(game)/jinhua/opengraph-image.jpg'
-import lanzhou from '@/app/(game)/lanzhou/opengraph-image.jpg'
-import luoyang from '@/app/(game)/luoyang/opengraph-image.jpg'
-import nantong from '@/app/(game)/nantong/opengraph-image.jpg'
-import shaoxing from '@/app/(game)/shaoxing/opengraph-image.jpg'
-import shijiazhuang from '@/app/(game)/shijiazhuang/opengraph-image.jpg'
-import taiyuan from '@/app/(game)/taiyuan/opengraph-image.jpg'
-import wuhu from '@/app/(game)/wuhu/opengraph-image.jpg'
-import xiamen from '@/app/(game)/xiamen/opengraph-image.jpg'
-import pyongyang from '@/app/(game)/pyongyang/opengraph-image.jpg'
-import nanchang from '@/app/(game)/nanchang/opengraph-image.jpg'
-import xuzhou from '@/app/(game)/xuzhou/opengraph-image.jpg'
-import shenyang from '@/app/(game)/shenyang/opengraph-image.jpg'
-import wuxi from '@/app/(game)/wuxi/opengraph-image.jpg'
-import changchun from '@/app/(game)/changchun/opengraph-image.jpg'
-import dalian from '@/app/(game)/dalian/opengraph-image.jpg'
-import fuzhou from '@/app/(game)/fuzhou/opengraph-image.jpg'
-import hefei from '@/app/(game)/hefei/opengraph-image.jpg'
-import jinan from '@/app/(game)/jinan/opengraph-image.jpg'
-import kunming from '@/app/(game)/kunming/opengraph-image.jpg'
-import changsha from '@/app/(game)/changsha/opengraph-image.jpg'
-import ningbo from '@/app/(game)/ningbo/opengraph-image.jpg'
-import qingdao from '@/app/(game)/qingdao/opengraph-image.jpg'
-import suzhou from '@/app/(game)/suzhou/opengraph-image.jpg'
-import chongqing from '@/app/(game)/chongqing/opengraph-image.jpg'
-import zhengzhou from '@/app/(game)/zhengzhou/opengraph-image.jpg'
-import wuhan from '@/app/(game)/wuhan/opengraph-image.jpg'
-import hangzhou from '@/app/(game)/hangzhou/opengraph-image.jpg'
-import nanjing from '@/app/(game)/nanjing/opengraph-image.jpg'
-import tianjin from '@/app/(game)/tianjin/opengraph-image.jpg'
-import xian from '@/app/(game)/xian/opengraph-image.jpg'
-import chengdu from '@/app/(game)/chengdu/opengraph-image.jpg'
-import fukuoka from '@/app/(game)/fukuoka/opengraph-image.jpg'
-import hiroshima from '@/app/(game)/hiroshima/opengraph-image.jpg'
-import nagoya from '@/app/(game)/nagoya/opengraph-image.jpg'
-import okayama from '@/app/(game)/okayama/opengraph-image.jpg'
-import osakaKobe from '@/app/(game)/osaka-kobe/opengraph-image.jpg'
-import kyoto from '@/app/(game)/kyoto/opengraph-image.jpg'
-import sapporo from '@/app/(game)/sapporo/opengraph-image.jpg'
-import sendai from '@/app/(game)/sendai/opengraph-image.jpg'
-import daegu from '@/app/(game)/daegu/opengraph-image.jpg'
-import daejeon from '@/app/(game)/daejeon/opengraph-image.jpg'
-import gimpo from '@/app/(game)/gimpo/opengraph-image.jpg'
-import gwangju from '@/app/(game)/gwangju/opengraph-image.jpg'
-import kualaLumpur from '@/app/(game)/kuala-lumpur/opengraph-image.jpg'
-import bangkok from '@/app/(game)/bangkok/opengraph-image.jpg'
-import busan from '@/app/(game)/busan/opengraph-image.jpg'
-import huaian from '@/app/(game)/huaian/opengraph-image.jpg'
-import huangshi from '@/app/(game)/huangshi/opengraph-image.jpg'
-import mengzhi from '@/app/(game)/mengzhi/opengraph-image.jpg'
-import jiaxing from '@/app/(game)/jiaxing/opengraph-image.jpg'
-import sanya from '@/app/(game)/sanya/opengraph-image.jpg'
-import tianshui from '@/app/(game)/tianshui/opengraph-image.jpg'
-import qiubei from '@/app/(game)/qiubei/opengraph-image.jpg'
-import nanping from '@/app/(game)/nanping/opengraph-image.jpg'
-import zhangjiakou from '@/app/(game)/zhangjiakou/opengraph-image.jpg'
-import baoshan from '@/app/(game)/baoshan/opengraph-image.jpg'
-import dujiangyan from '@/app/(game)/dujiangyan/opengraph-image.jpg'
-import haixi from '@/app/(game)/haixi/opengraph-image.jpg'
-import lijiang from '@/app/(game)/lijiang/opengraph-image.jpg'
-import zhangye from '@/app/(game)/zhangye/opengraph-image.jpg'
-import fenghuang from '@/app/(game)/fenghuang/opengraph-image.jpg'
-import xishui from '@/app/(game)/xishui/opengraph-image.jpg'
-import yinchuan from '@/app/(game)/yinchuan/opengraph-image.jpg'
-import liupanshui from '@/app/(game)/liupanshui/opengraph-image.jpg'
-import enshi from '@/app/(game)/enshi/opengraph-image.jpg'
-import guangan from '@/app/(game)/guangan/opengraph-image.jpg'
-import guilin from '@/app/(game)/guilin/opengraph-image.jpg'
-import jining from '@/app/(game)/jining/opengraph-image.jpg'
-import anyang from '@/app/(game)/anyang/opengraph-image.jpg'
-import qingyuan from '@/app/(game)/qingyuan/opengraph-image.jpg'
-import shantou from '@/app/(game)/shantou/opengraph-image.jpg'
-import liuzhou from '@/app/(game)/liuzhou/opengraph-image.jpg'
-import bengbu from '@/app/(game)/bengbu/opengraph-image.jpg'
+import adelaide from '@/app/(game)/oceania/australia/adelaide/cover.jpg'
+import albuquerque from '@/app/(game)/north-america/usa/albuquerque/opengraph-image.jpg'
+import algiers from '@/app/(game)/africa/algeria/algiers/opengraph-image.jpg'
+import amtrak from '@/app/(game)/north-america/usa/amtrak/opengraph-image.jpg'
+import atlanta from '@/app/(game)/north-america/usa/atlanta/opengraph-image.jpg'
+import auckland from '@/app/(game)/oceania/new-zealand/auckland/opengraph-image.jpg'
+import austin from '@/app/(game)/north-america/usa/austin/opengraph-image.jpg'
+import barcelona from '@/app/(game)/europe/spain/barcelona/opengraph-image.jpg'
+import beijing from '@/app/(game)/asia/china/beijing/opengraph-image.jpg'
+import berlin from '@/app/(game)/europe/germany/berlin/opengraph-image.jpg'
+import blackpool from '@/app/(game)/europe/uk/blackpool/opengraph-image.jpg'
+import boston from '@/app/(game)/north-america/usa/boston/opengraph-image.jpg'
+import budapest from '@/app/(game)/europe/hungary/budapest/opengraph-image.jpg'
+import buffalo from '@/app/(game)/north-america/usa/buffalo/opengraph-image.jpg'
+import calgary from '@/app/(game)/north-america/canada/calgary/opengraph-image.jpg'
+import canberra from '@/app/(game)/oceania/australia/canberra/opengraph-image.jpg'
+import charlotte from '@/app/(game)/north-america/usa/charlotte/opengraph-image.jpg'
+import chicago from '@/app/(game)/north-america/usa/chicago/opengraph-image.jpg'
+import cincinnati from '@/app/(game)/north-america/usa/cincinnati/opengraph-image.jpg'
+import cleveland from '@/app/(game)/north-america/usa/cleveland/opengraph-image.jpg'
+import dallas from '@/app/(game)/north-america/usa/dallas/opengraph-image.jpg'
+import dc from '@/app/(game)/north-america/usa/dc/opengraph-image.jpg'
+import denver from '@/app/(game)/north-america/usa/denver/opengraph-image.jpg'
+import detroit from '@/app/(game)/north-america/usa/detroit/opengraph-image.jpg'
+import dresden from '@/app/(game)/europe/germany/dresden/opengraph-image.jpg'
+import edinburgh from '@/app/(game)/europe/uk/edinburgh/opengraph-image.jpg'
+import edmonton from '@/app/(game)/north-america/canada/edmonton/opengraph-image.jpg'
+import elpaso from '@/app/(game)/north-america/usa/elpaso/opengraph-image.jpg'
+import floridaState from '@/app/(game)/north-america/usa/florida-state/opengraph-image.jpg'
+import californiaState from '@/app/(game)/north-america/usa/california-state/opengraph-image.jpg'
+import galveston from '@/app/(game)/north-america/usa/galveston/opengraph-image.jpg'
+import gba from '@/app/(game)/asia/china/gba/opengraph-image.jpg'
+import glasgow from '@/app/(game)/europe/uk/glasgow/opengraph-image.jpg'
+import goldcoast from '@/app/(game)/oceania/australia/goldcoast/opengraph-image.jpg'
+import hamburg from '@/app/(game)/europe/germany/hamburg/opengraph-image.jpg'
+import hanoi from '@/app/(game)/asia/vietnam/hanoi/opengraph-image.jpg'
+import hochiminhcity from '@/app/(game)/asia/vietnam/hochiminhcity/opengraph-image.jpg'
+import honolulu from '@/app/(game)/north-america/usa/honolulu/opengraph-image.jpg'
+import houston from '@/app/(game)/north-america/usa/houston/opengraph-image.jpg'
+import istanbul from '@/app/(game)/europe/turkey/istanbul/opengraph-image.jpg'
+import jakarta from '@/app/(game)/asia/indonesia/jakarta/opengraph-image.jpg'
+import kaohsiung from '@/app/(game)/asia/taiwan/kaohsiung/opengraph-image.jpg'
+import karlsruhe from '@/app/(game)/europe/germany/karlsruhe/opengraph-image.jpg'
+import kc from '@/app/(game)/north-america/usa/kc/opengraph-image.jpg'
+import london from '@/app/(game)/europe/uk/london/opengraph-image.jpg'
+import lr from '@/app/(game)/north-america/usa/lr/opengraph-image.jpg'
+import lv from '@/app/(game)/north-america/usa/lv/opengraph-image.jpg'
+import madrid from '@/app/(game)/europe/spain/madrid/opengraph-image.jpg'
+import manchester from '@/app/(game)/europe/uk/manchester/opengraph-image.jpg'
+import manila from '@/app/(game)/asia/philippines/manila/opengraph-image.jpg'
+import maracaibo from '@/app/(game)/south-america/venezuela/maracaibo/opengraph-image.jpg'
+import melbourne from '@/app/(game)/oceania/australia/melbourne/opengraph-image.jpg'
+import memphis from '@/app/(game)/north-america/usa/memphis/opengraph-image.jpg'
+import mexicoCity from '@/app/(game)/north-america/mexico/mexico-city/opengraph-image.jpg'
+import milwaukee from '@/app/(game)/north-america/usa/milwaukee/opengraph-image.jpg'
+import montreal from '@/app/(game)/north-america/canada/montreal/opengraph-image.jpg'
+import morgantown from '@/app/(game)/north-america/usa/morgantown/opengraph-image.jpg'
+import munich from '@/app/(game)/europe/germany/munich/opengraph-image.jpg'
+import nanning from '@/app/(game)/asia/china/nanning/opengraph-image.jpg'
+import nashville from '@/app/(game)/north-america/usa/nashville/opengraph-image.jpg'
+import newcastle from '@/app/(game)/oceania/australia/newcastle/opengraph-image.jpg'
+import neworleans from '@/app/(game)/north-america/usa/neworleans/opengraph-image.jpg'
+import norfolk from '@/app/(game)/north-america/usa/norfolk/opengraph-image.jpg'
+import nottingham from '@/app/(game)/europe/uk/nottingham/opengraph-image.jpg'
+import ny from '@/app/(game)/north-america/usa/ny/opengraph-image.jpg'
+import okc from '@/app/(game)/north-america/usa/okc/opengraph-image.jpg'
+import sanJuan from '@/app/(game)/north-america/usa/san-juan/opengraph-image.jpg'
+// import omaha from '@/app/(game)/north-america/usa/omaha/opengraph-image.jpg'
+import ottawa from '@/app/(game)/north-america/canada/ottawa/opengraph-image.jpg'
+import palembang from '@/app/(game)/asia/indonesia/palembang/opengraph-image.jpg'
+import paris from '@/app/(game)/europe/france/paris/opengraph-image.jpg'
+import perth from '@/app/(game)/oceania/australia/perth/opengraph-image.jpg'
+import philly from '@/app/(game)/north-america/usa/philly/opengraph-image.jpg'
+import phoenix from '@/app/(game)/north-america/usa/phoenix/opengraph-image.jpg'
+import pittsburgh from '@/app/(game)/north-america/usa/pittsburgh/opengraph-image.jpg'
+import portland from '@/app/(game)/north-america/usa/portland/opengraph-image.jpg'
+import potsdam from '@/app/(game)/europe/germany/potsdam/opengraph-image.jpg'
+import seattle from '@/app/(game)/north-america/usa/seattle/opengraph-image.jpg'
+import seoul from '@/app/(game)/asia/south-korea/seoul/opengraph-image.jpg'
+import shanghai from '@/app/(game)/asia/china/shanghai/opengraph-image.jpg'
+import sheffield from '@/app/(game)/europe/uk/sheffield/opengraph-image.jpg'
+import singapore from '@/app/(game)/asia/singapore/singapore/opengraph-image.jpg'
+import slc from '@/app/(game)/north-america/usa/slc/opengraph-image.jpg'
+import stl from '@/app/(game)/north-america/usa/stl/opengraph-image.jpg'
+import stockholm from '@/app/(game)/europe/sweden/stockholm/opengraph-image.jpg'
+import sydney from '@/app/(game)/oceania/australia/sydney/opengraph-image.jpg'
+import taichung from '@/app/(game)/asia/taiwan/taichung/opengraph-image.jpg'
+import taipei from '@/app/(game)/asia/taiwan/taipei/opengraph-image.jpg'
+import taw from '@/app/(game)/europe/uk/taw/opengraph-image.jpg'
+import thsr from '@/app/(game)/asia/taiwan/thsr/opengraph-image.jpg'
+import tokyo from '@/app/(game)/asia/japan/tokyo/opengraph-image.jpg'
+import torontoWaterloo from '@/app/(game)/north-america/canada/toronto-waterloo/opengraph-image.jpg'
+import tucson from '@/app/(game)/north-america/usa/tucson/opengraph-image.jpg'
+import twincities from '@/app/(game)/north-america/usa/twincities/opengraph-image.jpg'
+import vancouver from '@/app/(game)/north-america/canada/vancouver/opengraph-image.jpg'
+import viarail from '@/app/(game)/north-america/canada/viarail/opengraph-image.jpg'
+import wellington from '@/app/(game)/oceania/new-zealand/wellington/opengraph-image.jpg'
+import vienna from '@/app/(game)/europe/austria/vienna/opengraph-image.jpg'
+import wm from '@/app/(game)/europe/uk/wm/opengraph-image.jpg'
+import yarra from '@/app/(game)/oceania/australia/yarra/opengraph-image.jpg'
+import taizhou from '@/app/(game)/asia/china/taizhou/opengraph-image.jpg'
+import urumqi from '@/app/(game)/asia/china/urumqi/opengraph-image.jpg'
+import wenzhou from '@/app/(game)/asia/china/wenzhou/opengraph-image.jpg'
+import changzhou from '@/app/(game)/asia/china/changzhou/opengraph-image.jpg'
+import guiyang from '@/app/(game)/asia/china/guiyang/opengraph-image.jpg'
+import harbin from '@/app/(game)/asia/china/harbin/opengraph-image.jpg'
+import hohhot from '@/app/(game)/asia/china/hohhot/opengraph-image.jpg'
+import jinhua from '@/app/(game)/asia/china/jinhua/opengraph-image.jpg'
+import lanzhou from '@/app/(game)/asia/china/lanzhou/opengraph-image.jpg'
+import luoyang from '@/app/(game)/asia/china/luoyang/opengraph-image.jpg'
+import nantong from '@/app/(game)/asia/china/nantong/opengraph-image.jpg'
+import shaoxing from '@/app/(game)/asia/china/shaoxing/opengraph-image.jpg'
+import shijiazhuang from '@/app/(game)/asia/china/shijiazhuang/opengraph-image.jpg'
+import taiyuan from '@/app/(game)/asia/china/taiyuan/opengraph-image.jpg'
+import wuhu from '@/app/(game)/asia/china/wuhu/opengraph-image.jpg'
+import xiamen from '@/app/(game)/asia/china/xiamen/opengraph-image.jpg'
+import pyongyang from '@/app/(game)/asia/north-korea/pyongyang/opengraph-image.jpg'
+import nanchang from '@/app/(game)/asia/china/nanchang/opengraph-image.jpg'
+import xuzhou from '@/app/(game)/asia/china/xuzhou/opengraph-image.jpg'
+import shenyang from '@/app/(game)/asia/china/shenyang/opengraph-image.jpg'
+import wuxi from '@/app/(game)/asia/china/wuxi/opengraph-image.jpg'
+import changchun from '@/app/(game)/asia/china/changchun/opengraph-image.jpg'
+import dalian from '@/app/(game)/asia/china/dalian/opengraph-image.jpg'
+import fuzhou from '@/app/(game)/asia/china/fuzhou/opengraph-image.jpg'
+import hefei from '@/app/(game)/asia/china/hefei/opengraph-image.jpg'
+import jinan from '@/app/(game)/asia/china/jinan/opengraph-image.jpg'
+import kunming from '@/app/(game)/asia/china/kunming/opengraph-image.jpg'
+import changsha from '@/app/(game)/asia/china/changsha/opengraph-image.jpg'
+import ningbo from '@/app/(game)/asia/china/ningbo/opengraph-image.jpg'
+import qingdao from '@/app/(game)/asia/china/qingdao/opengraph-image.jpg'
+import suzhou from '@/app/(game)/asia/china/suzhou/opengraph-image.jpg'
+import chongqing from '@/app/(game)/asia/china/chongqing/opengraph-image.jpg'
+import zhengzhou from '@/app/(game)/asia/china/zhengzhou/opengraph-image.jpg'
+import wuhan from '@/app/(game)/asia/china/wuhan/opengraph-image.jpg'
+import hangzhou from '@/app/(game)/asia/china/hangzhou/opengraph-image.jpg'
+import nanjing from '@/app/(game)/asia/china/nanjing/opengraph-image.jpg'
+import tianjin from '@/app/(game)/asia/china/tianjin/opengraph-image.jpg'
+import xian from '@/app/(game)/asia/china/xian/opengraph-image.jpg'
+import chengdu from '@/app/(game)/asia/china/chengdu/opengraph-image.jpg'
+import fukuoka from '@/app/(game)/asia/japan/fukuoka/opengraph-image.jpg'
+import hiroshima from '@/app/(game)/asia/japan/hiroshima/opengraph-image.jpg'
+import nagoya from '@/app/(game)/asia/japan/nagoya/opengraph-image.jpg'
+import okayama from '@/app/(game)/asia/japan/okayama/opengraph-image.jpg'
+import osakaKobe from '@/app/(game)/asia/japan/osaka-kobe/opengraph-image.jpg'
+import kyoto from '@/app/(game)/asia/japan/kyoto/opengraph-image.jpg'
+import sapporo from '@/app/(game)/asia/japan/sapporo/opengraph-image.jpg'
+import sendai from '@/app/(game)/asia/japan/sendai/opengraph-image.jpg'
+import daegu from '@/app/(game)/asia/south-korea/daegu/opengraph-image.jpg'
+import daejeon from '@/app/(game)/asia/south-korea/daejeon/opengraph-image.jpg'
+import gwangju from '@/app/(game)/asia/south-korea/gwangju/opengraph-image.jpg'
+import kualaLumpur from '@/app/(game)/asia/malaysia/kuala-lumpur/opengraph-image.jpg'
+import bangkok from '@/app/(game)/asia/thailand/bangkok/opengraph-image.jpg'
+import busan from '@/app/(game)/asia/south-korea/busan/opengraph-image.jpg'
+import huaian from '@/app/(game)/asia/china/huaian/opengraph-image.jpg'
+import huangshi from '@/app/(game)/asia/china/huangshi/opengraph-image.jpg'
+import mengzhi from '@/app/(game)/asia/china/mengzhi/opengraph-image.jpg'
+import jiaxing from '@/app/(game)/asia/china/jiaxing/opengraph-image.jpg'
+import sanya from '@/app/(game)/asia/china/sanya/opengraph-image.jpg'
+import tianshui from '@/app/(game)/asia/china/tianshui/opengraph-image.jpg'
+import qiubei from '@/app/(game)/asia/china/qiubei/opengraph-image.jpg'
+import nanping from '@/app/(game)/asia/china/nanping/opengraph-image.jpg'
+import zhangjiakou from '@/app/(game)/asia/china/zhangjiakou/opengraph-image.jpg'
+import dujiangyan from '@/app/(game)/asia/china/dujiangyan/opengraph-image.jpg'
+import haixi from '@/app/(game)/asia/china/haixi/opengraph-image.jpg'
+import lijiang from '@/app/(game)/asia/china/lijiang/opengraph-image.jpg'
+import zhangye from '@/app/(game)/asia/china/zhangye/opengraph-image.jpg'
+import fenghuang from '@/app/(game)/asia/china/fenghuang/opengraph-image.jpg'
+import xishui from '@/app/(game)/asia/china/xishui/opengraph-image.jpg'
+import yinchuan from '@/app/(game)/asia/china/yinchuan/opengraph-image.jpg'
+import liupanshui from '@/app/(game)/asia/china/liupanshui/opengraph-image.jpg'
+import enshi from '@/app/(game)/asia/china/enshi/opengraph-image.jpg'
+import guangan from '@/app/(game)/asia/china/guangan/opengraph-image.jpg'
+import guilin from '@/app/(game)/asia/china/guilin/opengraph-image.jpg'
+import jining from '@/app/(game)/asia/china/jining/opengraph-image.jpg'
+import shantou from '@/app/(game)/asia/china/shantou/opengraph-image.jpg'
+import liuzhou from '@/app/(game)/asia/china/liuzhou/opengraph-image.jpg'
+import bengbu from '@/app/(game)/asia/china/bengbu/opengraph-image.jpg'
 
 import { StaticImageData } from 'next/image'
 
@@ -194,126 +193,126 @@ export const cities: ICity[] = [
   {
     name: 'Albuquerque, NM',
     image: albuquerque,
-    link: '/albuquerque',
+    link: '/north-america/usa/albuquerque',
     continent: 'North America',
   },
   {
     name: 'Amtrak, USA',
     image: amtrak,
-    link: '/amtrak',
+    link: '/north-america/usa/amtrak',
     continent: 'North America',
     hideInStats: true,
   },
   {
     name: 'Atlanta, GA',
     image: atlanta,
-    link: '/atlanta',
+    link: '/north-america/usa/atlanta',
     continent: 'North America',
   },
   {
     name: 'Austin, TX',
     image: austin,
-    link: '/austin',
+    link: '/north-america/usa/austin',
     continent: 'North America',
   },
   {
     name: 'California State, USA',
     image: californiaState,
-    link: '/california-state',
+    link: '/north-america/usa/california-state',
     continent: 'North America',
     keywords: ['San Francisco', 'Los Angeles', 'San Diego', 'Sacramento', 'BART', 'Muni', 'LA Metro', 'MTS'],
   },
   {
     name: 'Boston, MA',
     image: boston,
-    link: '/boston',
+    link: '/north-america/usa/boston',
     continent: 'North America',
   },
   {
     name: 'Buffalo, NY',
     image: buffalo,
-    link: '/buffalo',
+    link: '/north-america/usa/buffalo',
     continent: 'North America',
   },
   {
     name: 'Calgary, AB',
     image: calgary,
-    link: '/calgary',
+    link: '/north-america/canada/calgary',
     continent: 'North America',
   },
   {
     name: 'Charlotte, NC',
     image: charlotte,
-    link: '/charlotte',
+    link: '/north-america/usa/charlotte',
     continent: 'North America',
   },
   {
     name: 'Nashville, TN',
     image: nashville,
-    link: '/nashville',
+    link: '/north-america/usa/nashville',
     continent: 'North America',
   },
   {
     name: 'Chicago, IL—Kenosha, WI',
     image: chicago,
-    link: '/chicago',
+    link: '/north-america/usa/chicago',
     keywords: ['Chicago', 'Kenosha'],
     continent: 'North America',
   },
   {
     name: 'Cincinnati, OH',
     image: cincinnati,
-    link: '/cincinnati',
+    link: '/north-america/usa/cincinnati',
     continent: 'North America',
   },
   {
     name: 'Cleveland, OH',
     image: cleveland,
-    link: '/cleveland',
+    link: '/north-america/usa/cleveland',
     continent: 'North America',
   },
   {
     name: 'Dallas—Fort Worth, TX',
     image: dallas,
-    link: '/dallas',
+    link: '/north-america/usa/dallas',
     continent: 'North America',
     hideInStats: true,
   },
   {
     name: 'Denver, CO',
     image: denver,
-    link: '/denver',
+    link: '/north-america/usa/denver',
     continent: 'North America',
   },
   {
     name: 'Detroit, MI',
     image: detroit,
-    link: '/detroit',
+    link: '/north-america/usa/detroit',
     continent: 'North America',
   },
   {
     name: 'Edmonton, AB',
     image: edmonton,
-    link: '/edmonton',
+    link: '/north-america/canada/edmonton',
     continent: 'North America',
   },
   {
     name: 'El Paso, TX',
     image: elpaso,
-    link: '/elpaso',
+    link: '/north-america/usa/elpaso',
     continent: 'North America',
   },
   {
     name: 'Galveston, TX',
     image: galveston,
-    link: '/galveston',
+    link: '/north-america/usa/galveston',
     continent: 'North America',
   },
   // Africa
   {
     name: 'Algiers, DZ',
     image: algiers,
-    link: '/algiers',
+    link: '/africa/algeria/algiers',
     continent: 'Africa',
     keywords: ['Alger', 'Algérie'],
   },
@@ -321,334 +320,334 @@ export const cities: ICity[] = [
   {
     name: 'Maracaibo, VE',
     image: maracaibo,
-    link: '/maracaibo',
+    link: '/south-america/venezuela/maracaibo',
     continent: 'South America',
     keywords: ['Zulia', 'Venezuela', 'Lago de Maracaibo'],
   },
   {
     name: 'Honolulu, HI',
     image: honolulu,
-    link: '/honolulu',
+    link: '/north-america/usa/honolulu',
     continent: 'North America',
   },
   {
     name: 'Houston, TX',
     image: houston,
-    link: '/houston',
+    link: '/north-america/usa/houston',
     continent: 'North America',
   },
   {
     name: 'Kansas City, MO',
     image: kc,
-    link: '/kc',
+    link: '/north-america/usa/kc',
     continent: 'North America',
   },
   {
     name: 'Las Vegas, NV',
     image: lv,
-    link: '/lv',
+    link: '/north-america/usa/lv',
     continent: 'North America',
   },
   {
     name: 'Little Rock, AR',
     image: lr,
-    link: '/lr',
+    link: '/north-america/usa/lr',
     continent: 'North America',
   },
   {
     name: 'Memphis, TN',
     image: memphis,
-    link: '/memphis',
+    link: '/north-america/usa/memphis',
     continent: 'North America',
   },
   {
     name: 'Mexico City, MX',
     image: mexicoCity,
-    link: '/mexico-city',
+    link: '/north-america/mexico/mexico-city',
     continent: 'North America',
   },
   {
     name: 'Florida State, USA',
     image: floridaState,
-    link: '/florida-state',
+    link: '/north-america/usa/florida-state',
     keywords: ['Florida', 'Miami', 'Orlando', 'Tampa', 'Jacksonville'],
     continent: 'North America',
   },
   {
     name: 'San Juan, PR',
     image: sanJuan,
-    link: '/san-juan',
+    link: '/north-america/usa/san-juan',
     keywords: ['Puerto Rico', 'Tren Urbano'],
     continent: 'North America',
   },
   {
     name: 'Milwaukee, WI',
     image: milwaukee,
-    link: '/milwaukee',
+    link: '/north-america/usa/milwaukee',
     continent: 'North America',
   },
   {
     name: 'Minneapolis—St. Paul, MN',
     image: twincities,
-    link: '/twincities',
+    link: '/north-america/usa/twincities',
     continent: 'North America',
   },
   {
     name: 'Montréal, QC',
     image: montreal,
-    link: '/montreal',
+    link: '/north-america/canada/montreal',
     continent: 'North America',
   },
   {
     name: 'Morgantown, WV',
     image: morgantown,
-    link: '/morgantown',
+    link: '/north-america/usa/morgantown',
     continent: 'North America',
   },
   {
     name: 'New Orleans, LA',
     image: neworleans,
-    link: '/neworleans',
+    link: '/north-america/usa/neworleans',
     continent: 'North America',
   },
   {
     name: 'New York—New Jersey—Connecticut',
     image: ny,
-    link: '/ny',
+    link: '/north-america/usa/ny',
     keywords: ['New York City', 'NYC', 'Big Apple'],
     continent: 'North America',
   },
   {
     name: 'Norfolk, VA',
     image: norfolk,
-    link: '/norfolk',
+    link: '/north-america/usa/norfolk',
     continent: 'North America',
   },
   {
     name: 'Oklahoma City, OK',
     image: okc,
-    link: '/okc',
+    link: '/north-america/usa/okc',
     continent: 'North America',
   },
   // {
   //   name: 'Omaha, NE',
   //   image: omaha,
-  //   link: '/omaha',
+  //   link: '/north-america/usa/omaha',
   //   continent: 'North America',
   // },
   {
     name: 'Ottawa, ON',
     image: ottawa,
-    link: '/ottawa',
+    link: '/north-america/canada/ottawa',
     continent: 'North America',
   },
   {
     name: 'Philadelphia, PA',
     image: philly,
-    link: '/philly',
+    link: '/north-america/usa/philly',
     keywords: ['Philadelphia', 'Philly'],
     continent: 'North America',
   },
   {
     name: 'Phoenix–Tempe, AZ',
     image: phoenix,
-    link: '/phoenix',
+    link: '/north-america/usa/phoenix',
     continent: 'North America',
   },
   {
     name: 'Pittsburgh, PA',
     image: pittsburgh,
-    link: '/pittsburgh',
+    link: '/north-america/usa/pittsburgh',
     continent: 'North America',
   },
   {
     name: 'Portland, OR',
     image: portland,
-    link: '/portland',
+    link: '/north-america/usa/portland',
     continent: 'North America',
   },
   {
     name: 'Salt Lake City, UT',
     image: slc,
-    link: '/slc',
+    link: '/north-america/usa/slc',
     continent: 'North America',
   },
   {
     name: 'Seattle—Tacoma, WA',
     image: seattle,
-    link: '/seattle',
+    link: '/north-america/usa/seattle',
     continent: 'North America',
   },
   {
     name: 'St. Louis, MO',
     image: stl,
-    link: '/stl',
+    link: '/north-america/usa/stl',
     continent: 'North America',
   },
   {
     name: 'Toronto—Waterloo, ON',
     image: torontoWaterloo,
-    link: '/toronto-waterloo',
+    link: '/north-america/canada/toronto-waterloo',
     continent: 'North America',
   },
   {
     name: 'Tucson, AZ',
     image: tucson,
-    link: '/tucson',
+    link: '/north-america/usa/tucson',
     keywords: ['Sun Link', 'Tucson Streetcar'],
     continent: 'North America',
   },
   {
     name: 'Vancouver, BC',
     image: vancouver,
-    link: '/vancouver',
+    link: '/north-america/canada/vancouver',
     continent: 'North America',
   },
   {
     name: 'Via Rail, CAN',
     image: viarail,
-    link: '/viarail',
+    link: '/north-america/canada/viarail',
     continent: 'North America',
     hideInStats: true,
   },
   {
     name: 'Washington DC—Baltimore, DC/MD',
     image: dc,
-    link: '/dc',
+    link: '/north-america/usa/dc',
     continent: 'North America',
   },
   // Europe
   {
     name: 'Barcelona, ES',
     image: barcelona,
-    link: '/barcelona',
+    link: '/europe/spain/barcelona',
     continent: 'Europe',
   },
   {
     name: 'Berlin, DE',
     image: berlin,
-    link: '/berlin',
+    link: '/europe/germany/berlin',
     continent: 'Europe',
   },
   {
     name: 'Blackpool, UK',
     image: blackpool,
-    link: '/blackpool',
+    link: '/europe/uk/blackpool',
     continent: 'Europe',
   },
   {
     name: 'Budapest, HU',
     image: budapest,
-    link: '/budapest',
+    link: '/europe/hungary/budapest',
     continent: 'Europe',
   },
   {
     name: 'Dresden, DE',
     image: dresden,
-    link: '/dresden',
+    link: '/europe/germany/dresden',
     continent: 'Europe',
   },
   {
     name: 'Edinburgh, UK',
     image: edinburgh,
-    link: '/edinburgh',
+    link: '/europe/uk/edinburgh',
     continent: 'Europe',
   },
   {
     name: 'Glasgow, UK',
     image: glasgow,
-    link: '/glasgow',
+    link: '/europe/uk/glasgow',
     continent: 'Europe',
   },
   {
     name: 'Hamburg, DE',
     image: hamburg,
-    link: '/hamburg',
+    link: '/europe/germany/hamburg',
     continent: 'Europe',
   },
   {
     name: 'Istanbul, TR',
     image: istanbul,
-    link: '/istanbul',
+    link: '/europe/turkey/istanbul',
     continent: 'Europe',
   },
   {
     name: 'Karlsruhe, DE',
     image: karlsruhe,
-    link: '/karlsruhe',
+    link: '/europe/germany/karlsruhe',
     continent: 'Europe',
   },
   {
     name: 'London, UK',
     image: london,
-    link: '/london',
+    link: '/europe/uk/london',
     continent: 'Europe',
   },
   {
     name: 'Madrid, ES',
     image: madrid,
-    link: '/madrid',
+    link: '/europe/spain/madrid',
     continent: 'Europe',
   },
   {
     name: 'Manchester, UK',
     image: manchester,
-    link: '/manchester',
+    link: '/europe/uk/manchester',
     continent: 'Europe',
   },
   {
     name: 'Munich, DE',
     image: munich,
-    link: '/munich',
+    link: '/europe/germany/munich',
     continent: 'Europe',
     keywords: ['Muenchen', 'München'],
   },
   {
     name: 'Nottingham, UK',
     image: nottingham,
-    link: '/nottingham',
+    link: '/europe/uk/nottingham',
     continent: 'Europe',
   },
   {
     name: 'Paris, FR',
     image: paris,
-    link: '/paris',
+    link: '/europe/france/paris',
     continent: 'Europe',
   },
   {
     name: 'Potsdam, DE',
     image: potsdam,
-    link: '/potsdam',
+    link: '/europe/germany/potsdam',
     continent: 'Europe',
   },
   {
     name: 'Sheffield, UK',
     image: sheffield,
-    link: '/sheffield',
+    link: '/europe/uk/sheffield',
     continent: 'Europe',
   },
   {
     name: 'Stockholm, SE',
     image: stockholm,
-    link: '/stockholm',
+    link: '/europe/sweden/stockholm',
     continent: 'Europe',
   },
   {
     name: 'Tyne and Wear, UK',
     image: taw,
-    link: '/taw',
+    link: '/europe/uk/taw',
     continent: 'Europe',
   },
   {
     name: 'Vienna, AT',
     image: vienna,
-    link: '/vienna',
+    link: '/europe/austria/vienna',
     continent: 'Europe',
   },
   {
     name: 'West Midlands, UK',
     image: wm,
-    link: '/wm',
+    link: '/europe/uk/wm',
     continent: 'Europe',
     hideInStats: true,
   },
@@ -657,645 +656,638 @@ export const cities: ICity[] = [
   {
     name: 'Guangdong–Hong Kong–Macao Greater Bay Area (粤港澳大湾区), CN/HK/MO',
     image: gba,
-    link: '/gba',
+    link: '/asia/china/gba',
     continent: 'Asia',
     keywords: ['Hong Kong', 'Shenzhen', 'Dongguan', 'Guangzhou', 'Foshan', 'Macau', 'Macao', 'Canton', 'GBA', 'Greater Bay Area'],
   },
   {
     name: 'Beijing (北京), CN',
     image: beijing,
-    link: '/beijing',
+    link: '/asia/china/beijing',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Changzhou (常州), CN',
     image: changzhou,
-    link: '/changzhou',
+    link: '/asia/china/changzhou',
     continent: 'Asia',
   },
   {
     name: 'Guiyang (贵阳), CN',
     image: guiyang,
-    link: '/guiyang',
+    link: '/asia/china/guiyang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Pyongyang (평양), KP',
     image: pyongyang,
-    link: '/pyongyang',
+    link: '/asia/north-korea/pyongyang',
     continent: 'Asia',
   },
   {
     name: 'Harbin (哈尔滨), CN',
     image: harbin,
-    link: '/harbin',
+    link: '/asia/china/harbin',
     continent: 'Asia',
   },
   {
     name: 'Hohhot (呼和浩特), CN',
     image: hohhot,
-    link: '/hohhot',
+    link: '/asia/china/hohhot',
     continent: 'Asia',
   },
   {
     name: 'Jinhua (金华), CN',
     image: jinhua,
-    link: '/jinhua',
+    link: '/asia/china/jinhua',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Lanzhou (兰州), CN',
     image: lanzhou,
-    link: '/lanzhou',
+    link: '/asia/china/lanzhou',
     continent: 'Asia',
   },
   {
     name: 'Luoyang (洛阳), CN',
     image: luoyang,
-    link: '/luoyang',
+    link: '/asia/china/luoyang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Seoul (서울), KR',
     image: seoul,
-    link: '/seoul',
+    link: '/asia/south-korea/seoul',
     continent: 'Asia',
   },
   {
     name: 'Shanghai (上海), CN',
     image: shanghai,
-    link: '/shanghai',
+    link: '/asia/china/shanghai',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Nanning (南宁), CN',
     image: nanning,
-    link: '/nanning',
+    link: '/asia/china/nanning',
     continent: 'Asia',
   },
   {
     name: 'Nantong (南通), CN',
     image: nantong,
-    link: '/nantong',
+    link: '/asia/china/nantong',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Shaoxing (绍兴), CN',
     image: shaoxing,
-    link: '/shaoxing',
+    link: '/asia/china/shaoxing',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Shijiazhuang (石家庄), CN',
     image: shijiazhuang,
-    link: '/shijiazhuang',
+    link: '/asia/china/shijiazhuang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Taiyuan (太原), CN',
     image: taiyuan,
-    link: '/taiyuan',
+    link: '/asia/china/taiyuan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Taizhou (台州), CN',
     image: taizhou,
-    link: '/taizhou',
+    link: '/asia/china/taizhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Wenzhou (温州), CN',
     image: wenzhou,
-    link: '/wenzhou',
+    link: '/asia/china/wenzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Wuhu (芜湖), CN',
     image: wuhu,
-    link: '/wuhu',
+    link: '/asia/china/wuhu',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Xiamen (厦门), CN',
     image: xiamen,
-    link: '/xiamen',
+    link: '/asia/china/xiamen',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Nanchang (南昌), CN',
     image: nanchang,
-    link: '/nanchang',
+    link: '/asia/china/nanchang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Xuzhou (徐州), CN',
     image: xuzhou,
-    link: '/xuzhou',
+    link: '/asia/china/xuzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Shenyang (沈阳), CN',
     image: shenyang,
-    link: '/shenyang',
+    link: '/asia/china/shenyang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Wuxi (无锡), CN',
     image: wuxi,
-    link: '/wuxi',
+    link: '/asia/china/wuxi',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Changchun (长春), CN',
     image: changchun,
-    link: '/changchun',
+    link: '/asia/china/changchun',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Dalian (大连), CN',
     image: dalian,
-    link: '/dalian',
+    link: '/asia/china/dalian',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Fuzhou (福州), CN',
     image: fuzhou,
-    link: '/fuzhou',
+    link: '/asia/china/fuzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Hefei (合肥), CN',
     image: hefei,
-    link: '/hefei',
+    link: '/asia/china/hefei',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Jinan (济南), CN',
     image: jinan,
-    link: '/jinan',
+    link: '/asia/china/jinan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Kunming (昆明), CN',
     image: kunming,
-    link: '/kunming',
+    link: '/asia/china/kunming',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Changsha (长沙), CN',
     image: changsha,
-    link: '/changsha',
+    link: '/asia/china/changsha',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Ningbo (宁波), CN',
     image: ningbo,
-    link: '/ningbo',
+    link: '/asia/china/ningbo',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Qingdao (青岛), CN',
     image: qingdao,
-    link: '/qingdao',
+    link: '/asia/china/qingdao',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Suzhou (苏州), CN',
     image: suzhou,
-    link: '/suzhou',
+    link: '/asia/china/suzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Chongqing (重庆), CN',
     image: chongqing,
-    link: '/chongqing',
+    link: '/asia/china/chongqing',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Zhengzhou (郑州), CN',
     image: zhengzhou,
-    link: '/zhengzhou',
+    link: '/asia/china/zhengzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Wuhan (武汉), CN',
     image: wuhan,
-    link: '/wuhan',
+    link: '/asia/china/wuhan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Hangzhou (杭州), CN',
     image: hangzhou,
-    link: '/hangzhou',
+    link: '/asia/china/hangzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Nanjing (南京), CN',
     image: nanjing,
-    link: '/nanjing',
+    link: '/asia/china/nanjing',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Tianjin (天津), CN',
     image: tianjin,
-    link: '/tianjin',
+    link: '/asia/china/tianjin',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: "Xi'an (西安), CN",
     image: xian,
-    link: '/xian',
+    link: '/asia/china/xian',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Chengdu (成都), CN',
     image: chengdu,
-    link: '/chengdu',
+    link: '/asia/china/chengdu',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Fukuoka (福岡), JP',
     image: fukuoka,
-    link: '/fukuoka',
+    link: '/asia/japan/fukuoka',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Hiroshima (広島), JP',
     image: hiroshima,
-    link: '/hiroshima',
+    link: '/asia/japan/hiroshima',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Nagoya (名古屋), JP',
     image: nagoya,
-    link: '/nagoya',
+    link: '/asia/japan/nagoya',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Okayama (岡山), JP',
     image: okayama,
-    link: '/okayama',
+    link: '/asia/japan/okayama',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Osaka–Kobe (大阪・神戸), JP',
     image: osakaKobe,
-    link: '/osaka-kobe',
+    link: '/asia/japan/osaka-kobe',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Kyoto (京都), JP',
     image: kyoto,
-    link: '/kyoto',
+    link: '/asia/japan/kyoto',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Sapporo (札幌), JP',
     image: sapporo,
-    link: '/sapporo',
+    link: '/asia/japan/sapporo',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Sendai (仙台), JP',
     image: sendai,
-    link: '/sendai',
+    link: '/asia/japan/sendai',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Daegu (대구), KR',
     image: daegu,
-    link: '/daegu',
+    link: '/asia/south-korea/daegu',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Daejeon (대전), KR',
     image: daejeon,
-    link: '/daejeon',
+    link: '/asia/south-korea/daejeon',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Busan (부산), KR',
     image: busan,
-    link: '/busan',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Gimpo (김포), KR',
-    image: gimpo,
-    link: '/gimpo',
+    link: '/asia/south-korea/busan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Gwangju (광주), KR',
     image: gwangju,
-    link: '/gwangju',
+    link: '/asia/south-korea/gwangju',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Kuala Lumpur (吉隆坡), MY',
     image: kualaLumpur,
-    link: '/kuala-lumpur',
+    link: '/asia/malaysia/kuala-lumpur',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Bangkok (กรุงเทพฯ), TH',
     image: bangkok,
-    link: '/bangkok',
+    link: '/asia/thailand/bangkok',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Jakarta, ID',
+    image: jakarta,
+    link: '/asia/indonesia/jakarta',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Manila, PH',
+    image: manila,
+    link: '/asia/philippines/manila',
+    continent: 'Asia',
+    hideInStats: true,
+  },
+  {
+    name: 'Palembang, ID',
+    image: palembang,
+    link: '/asia/indonesia/palembang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: "Guang'an (广安), CN",
     image: guangan,
-    link: '/guangan',
+    link: '/asia/china/guangan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Huai\'an (淮安), CN',
     image: huaian,
-    link: '/huaian',
+    link: '/asia/china/huaian',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Huangshi (黄石), CN',
     image: huangshi,
-    link: '/huangshi',
+    link: '/asia/china/huangshi',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Mengzhi (蒙自), CN',
     image: mengzhi,
-    link: '/mengzhi',
+    link: '/asia/china/mengzhi',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Jiaxing (嘉兴), CN',
     image: jiaxing,
-    link: '/jiaxing',
+    link: '/asia/china/jiaxing',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Sanya (三亚), CN',
     image: sanya,
-    link: '/sanya',
+    link: '/asia/china/sanya',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Tianshui (天水), CN',
     image: tianshui,
-    link: '/tianshui',
+    link: '/asia/china/tianshui',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Qiubei (丘北), CN',
     image: qiubei,
-    link: '/qiubei',
+    link: '/asia/china/qiubei',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Nanping (南平), CN',
     image: nanping,
-    link: '/nanping',
+    link: '/asia/china/nanping',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Zhangjiakou (张家口), CN',
     image: zhangjiakou,
-    link: '/zhangjiakou',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Baoshan (保山), CN',
-    image: baoshan,
-    link: '/baoshan',
+    link: '/asia/china/zhangjiakou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Dujiangyan (都江堰), CN',
     image: dujiangyan,
-    link: '/dujiangyan',
+    link: '/asia/china/dujiangyan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Haixi (海西), CN',
     image: haixi,
-    link: '/haixi',
+    link: '/asia/china/haixi',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Lijiang (丽江), CN',
     image: lijiang,
-    link: '/lijiang',
+    link: '/asia/china/lijiang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Zhangye (张掖), CN',
     image: zhangye,
-    link: '/zhangye',
+    link: '/asia/china/zhangye',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Fenghuang (凤凰), CN',
     image: fenghuang,
-    link: '/fenghuang',
+    link: '/asia/china/fenghuang',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Xishui (浠水), CN',
     image: xishui,
-    link: '/xishui',
+    link: '/asia/china/xishui',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Yinchuan (银川), CN',
     image: yinchuan,
-    link: '/yinchuan',
+    link: '/asia/china/yinchuan',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Liupanshui (六盘水), CN',
     image: liupanshui,
-    link: '/liupanshui',
+    link: '/asia/china/liupanshui',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Enshi (恩施), CN',
     image: enshi,
-    link: '/enshi',
+    link: '/asia/china/enshi',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Guilin (桂林), CN',
     image: guilin,
-    link: '/guilin',
+    link: '/asia/china/guilin',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Jining (济宁), CN',
     image: jining,
-    link: '/jining',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Anyang (安阳), CN',
-    image: anyang,
-    link: '/anyang',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Qingyuan (清远), CN',
-    image: qingyuan,
-    link: '/qingyuan',
+    link: '/asia/china/jining',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Shantou (汕头), CN',
     image: shantou,
-    link: '/shantou',
+    link: '/asia/china/shantou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Liuzhou (柳州), CN',
     image: liuzhou,
-    link: '/liuzhou',
+    link: '/asia/china/liuzhou',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Bengbu (蚌埠), CN',
     image: bengbu,
-    link: '/bengbu',
+    link: '/asia/china/bengbu',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Ürümqi (乌鲁木齐), CN',
     image: urumqi,
-    link: '/urumqi',
+    link: '/asia/china/urumqi',
     continent: 'Asia',
   },
   {
     name: 'Singapore, SG',
     image: singapore,
-    link: '/singapore',
+    link: '/asia/singapore/singapore',
     continent: 'Asia',
   },
   {
     name: 'Tokyo (東京), JP',
     image: tokyo,
-    link: '/tokyo',
+    link: '/asia/japan/tokyo',
     continent: 'Asia',
   },
   {
     name: 'Taiwan High Speed Rail (THSR), TW',
     image: thsr,
-    link: '/thsr',
+    link: '/asia/taiwan/thsr',
     continent: 'Asia',
   },
   {
     name: 'Kaohsiung (高雄), TW',
     image: kaohsiung,
-    link: '/kaohsiung',
+    link: '/asia/taiwan/kaohsiung',
     continent: 'Asia',
   },
   {
     name: 'Taipei—New Taipei City—Taoyuan (臺北／新北／桃園), TW',
     image: taipei,
-    link: '/taipei',
+    link: '/asia/taiwan/taipei',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Taichung (臺中), TW',
     image: taichung,
-    link: '/taichung',
+    link: '/asia/taiwan/taichung',
     continent: 'Asia',
   },
   {
     name: 'Ho Chi Minh City (Thành phố Hồ Chí Minh), VN',
     image: hochiminhcity,
-    link: '/hochiminhcity',
+    link: '/asia/vietnam/hochiminhcity',
     continent: 'Asia',
     hideInStats: true,
   },
   {
     name: 'Hanoi (Hà Nội), VN',
     image: hanoi,
-    link: '/hanoi',
+    link: '/asia/vietnam/hanoi',
     continent: 'Asia',
     hideInStats: true,
   },
@@ -1304,67 +1296,67 @@ export const cities: ICity[] = [
   {
     name: 'Adelaide, SA',
     image: adelaide,
-    link: '/adelaide',
+    link: '/oceania/australia/adelaide',
     continent: 'Oceania',
     hideInStats: true,
   },
   {
     name: 'Auckland, AUK',
     image: auckland,
-    link: '/auckland',
+    link: '/oceania/new-zealand/auckland',
     continent: 'Oceania',
     hideInStats: true,
   },
   {
     name: 'Canberra, ACT',
     image: canberra,
-    link: '/canberra',
+    link: '/oceania/australia/canberra',
     continent: 'Oceania',
   },
   {
     name: 'Gold Coast, QLD',
     image: goldcoast,
-    link: '/goldcoast',
+    link: '/oceania/australia/goldcoast',
     continent: 'Oceania',
   },
   {
     name: 'Melbourne, VIC',
     image: melbourne,
-    link: '/melbourne',
+    link: '/oceania/australia/melbourne',
     continent: 'Oceania',
     hideInStats: true,
   },
   {
     name: 'Newcastle, NSW',
     image: newcastle,
-    link: '/newcastle',
+    link: '/oceania/australia/newcastle',
     continent: 'Oceania',
   },
   {
     name: 'Perth, WA',
     image: perth,
-    link: '/perth',
+    link: '/oceania/australia/perth',
     continent: 'Oceania',
     hideInStats: true,
   },
   {
     name: 'Sydney, NSW',
     image: sydney,
-    link: '/sydney',
+    link: '/oceania/australia/sydney',
     continent: 'Oceania',
     hideInStats: true,
   },
   {
     name: 'Wellington, WGN',
     image: wellington,
-    link: '/wellington',
+    link: '/oceania/new-zealand/wellington',
     continent: 'Oceania',
     hideInStats: true,
   },
   {
     name: 'Yarra, VIC',
     image: yarra,
-    link: '/yarra',
+    link: '/oceania/australia/yarra',
     continent: 'Oceania',
     hideInStats: true,
   },
@@ -1374,7 +1366,9 @@ export const getSlugFromLink = (link: string): string | null => {
   if (!link.startsWith('/')) {
     return null
   }
-  return link.replace(/^\//, '').split(/[?#]/)[0]
+  const path = link.replace(/^\//, '').split(/[?#]/)[0]
+  const segments = path.split('/').filter(Boolean)
+  return segments.length ? segments[segments.length - 1] : null
 }
 
 export const getCityBaseName = (slug: string): string | null => {

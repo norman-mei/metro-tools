@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs'
 import { NextResponse } from 'next/server'
 import path from 'path'
+import { resolveCityPath } from '@/lib/resolveCityPath'
 
 type RouteParams = {
   params: Promise<{ slug: string }>
@@ -9,7 +10,13 @@ type RouteParams = {
 export const GET = async (_req: Request, props: RouteParams) => {
   const params = await props.params;
   const { slug } = params
-  const basePath = path.join(process.cwd(), 'src/app/(game)', slug, 'data')
+  const cityPath = await resolveCityPath(slug)
+
+  if (!cityPath) {
+    return new Response('Not found', { status: 404 })
+  }
+
+  const basePath = path.join(process.cwd(), 'src/app/(game)', cityPath, 'data')
 
   try {
     const [featuresRaw, routesRaw] = await Promise.all([

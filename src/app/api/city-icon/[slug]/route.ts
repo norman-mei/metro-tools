@@ -2,6 +2,7 @@ import { createHash } from 'crypto'
 import { promises as fs } from 'fs'
 import { NextRequest, NextResponse } from 'next/server'
 import path from 'path'
+import { resolveCityPath } from '@/lib/resolveCityPath'
 
 const VALID_SLUG = /^[a-z0-9-]+$/
 const GAME_ROOT = path.join(process.cwd(), 'src', 'app', '(game)')
@@ -58,8 +59,14 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
 
-  const iconPath = path.join(GAME_ROOT, normalizedSlug, 'icon.ico')
-  const faviconPath = path.join(GAME_ROOT, normalizedSlug, 'favicon.ico')
+  const cityPath = await resolveCityPath(normalizedSlug)
+
+  if (!cityPath) {
+    return NextResponse.json({ error: 'Not found' }, { status: 404 })
+  }
+
+  const iconPath = path.join(GAME_ROOT, cityPath, 'icon.ico')
+  const faviconPath = path.join(GAME_ROOT, cityPath, 'favicon.ico')
   
   const iconBuffer =
     (await readIconFromDisk(iconPath)) ??

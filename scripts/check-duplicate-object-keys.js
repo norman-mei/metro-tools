@@ -9,7 +9,7 @@ const fg = require('fast-glob')
 const ts = require('typescript')
 
 const gameDir = path.join(__dirname, '..', 'src', 'app', '(game)')
-const configPaths = fg.sync('*/config.ts', { cwd: gameDir, absolute: true })
+const configPaths = fg.sync('**/config.ts', { cwd: gameDir, absolute: true })
 
 if (configPaths.length === 0) {
   console.error('No config files found under src/app/(game).')

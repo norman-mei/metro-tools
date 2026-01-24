@@ -3,16 +3,14 @@ import { zip, sortBy, filter } from 'lodash'
 import { promises as fs } from 'fs'
 import path from 'path'
 import { NextRequest } from 'next/server'
+import { getAllCitySlugs } from '@/lib/resolveCityPath'
 
 export const revalidate = 600 // 10 minutes
 
 export const generateStaticParams = async () => {
   try {
-    const gameDir = path.join(process.cwd(), 'src/app/(game)')
-    const entries = await fs.readdir(gameDir, { withFileTypes: true })
-    return entries
-      .filter((entry) => entry.isDirectory())
-      .map((entry) => ({ slug: entry.name }))
+    const slugs = await getAllCitySlugs()
+    return slugs.map((slug) => ({ slug }))
   } catch (error) {
     console.warn('Unable to generate static params for stats API:', error)
     return []

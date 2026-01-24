@@ -16,6 +16,7 @@ import { createPortal } from 'react-dom'
 type CityStatsPanelProps = {
   cityDisplayName: string
   slug: string | null
+  cityPath?: string | null
   open: boolean
   onClose: () => void
   onNavigatePrevious?: () => void
@@ -450,6 +451,7 @@ const computeStats = ({
 const CityStatsPanel = ({
   cityDisplayName,
   slug,
+  cityPath,
   open,
   onClose,
   onNavigatePrevious,
@@ -496,7 +498,8 @@ const CityStatsPanel = ({
   }, [open, onClose, onNavigateNext, onNavigatePrevious])
 
   useEffect(() => {
-    if (!open || !slug) {
+    const resolvedPath = cityPath?.replace(/^\//, '') ?? null
+    if (!open || !slug || !resolvedPath) {
       return
     }
     let cancelled = false
@@ -507,9 +510,9 @@ const CityStatsPanel = ({
       setStats(null)
       try {
         const [configModule, featuresModule] = await Promise.all([
-          import(`@/app/(game)/${slug}/config`) as Promise<{ default: Config }>,
+          import(`@/app/(game)/${resolvedPath}/config`) as Promise<{ default: Config }>,
           import(
-            `@/app/(game)/${slug}/data/features.json`
+            `@/app/(game)/${resolvedPath}/data/features.json`
           ) as Promise<{ default: DataFeatureCollection }>,
         ])
 
@@ -543,7 +546,7 @@ const CityStatsPanel = ({
     return () => {
       cancelled = true
     }
-  }, [open, slug])
+  }, [open, slug, cityPath])
 
   if (!open || !slug) {
     return null
