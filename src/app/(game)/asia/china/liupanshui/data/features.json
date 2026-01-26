@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7792,
+          26.4538
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Haipingyi Culture Village (海坪彝族文化小镇)",
+        "alternate_names": [
+          "海坪彝族文化小镇",
+          "海坪彝族文化小鎮",
+          "Haipingyi Culture Village",
+          "hai ping yi zu wen hua xiao zhen",
+          "haipingyizuwenhuaxiaozhen"
+        ],
+        "line": "liupanshui-monorail",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8127,
+          26.4536
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Yushe National Forest Park (玉舍国家级森林公园)",
+        "alternate_names": [
+          "玉舍国家级森林公园",
+          "玉舍國家級森林公園",
+          "Yushe National Forest Park",
+          "yu she guo jia ji sen lin gong yuan",
+          "yusheguojiajisenlingongyuan"
+        ],
+        "line": "liupanshui-monorail",
+        "order": 1
+      },
+      "id": 2
+    }
+  ]
+}

@@ -52,6 +52,8 @@ import maracaibo from '@/app/(game)/south-america/venezuela/maracaibo/opengraph-
 import melbourne from '@/app/(game)/oceania/australia/melbourne/opengraph-image.jpg'
 import memphis from '@/app/(game)/north-america/usa/memphis/opengraph-image.jpg'
 import mexicoCity from '@/app/(game)/north-america/mexico/mexico-city/opengraph-image.jpg'
+import guadalajara from '@/app/(game)/north-america/mexico/guadalajara/opengraph-image.jpg'
+import monterrey from '@/app/(game)/north-america/mexico/monterrey/opengraph-image.jpg'
 import milwaukee from '@/app/(game)/north-america/usa/milwaukee/opengraph-image.jpg'
 import montreal from '@/app/(game)/north-america/canada/montreal/opengraph-image.jpg'
 import morgantown from '@/app/(game)/north-america/usa/morgantown/opengraph-image.jpg'
@@ -161,7 +163,7 @@ import qiubei from '@/app/(game)/asia/china/qiubei/opengraph-image.jpg'
 import nanping from '@/app/(game)/asia/china/nanping/opengraph-image.jpg'
 import zhangjiakou from '@/app/(game)/asia/china/zhangjiakou/opengraph-image.jpg'
 import dujiangyan from '@/app/(game)/asia/china/dujiangyan/opengraph-image.jpg'
-import haixi from '@/app/(game)/asia/china/haixi/opengraph-image.jpg'
+import delingha from '@/app/(game)/asia/china/delingha/opengraph-image.jpg'
 import lijiang from '@/app/(game)/asia/china/lijiang/opengraph-image.jpg'
 import zhangye from '@/app/(game)/asia/china/zhangye/opengraph-image.jpg'
 import fenghuang from '@/app/(game)/asia/china/fenghuang/opengraph-image.jpg'
@@ -365,6 +367,20 @@ export const cities: ICity[] = [
     image: mexicoCity,
     link: '/north-america/mexico/mexico-city',
     continent: 'North America',
+  },
+  {
+    name: 'Guadalajara, MX',
+    image: guadalajara,
+    link: '/north-america/mexico/guadalajara',
+    continent: 'North America',
+    hideInStats: true,
+  },
+  {
+    name: 'Monterrey, MX',
+    image: monterrey,
+    link: '/north-america/mexico/monterrey',
+    continent: 'North America',
+    hideInStats: true,
   },
   {
     name: 'Florida State, USA',
@@ -703,7 +719,6 @@ export const cities: ICity[] = [
     image: jinhua,
     link: '/asia/china/jinhua',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Lanzhou (兰州), CN',
@@ -1144,9 +1159,9 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
-    name: 'Haixi (海西), CN',
-    image: haixi,
-    link: '/asia/china/haixi',
+    name: 'Delingha (德令哈), CN',
+    image: delingha,
+    link: '/asia/china/delingha',
     continent: 'Asia',
     hideInStats: true,
   },
@@ -1190,7 +1205,6 @@ export const cities: ICity[] = [
     image: liupanshui,
     link: '/asia/china/liupanshui',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Enshi (恩施), CN',

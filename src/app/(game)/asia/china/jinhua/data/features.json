@@ -1,0 +1,671 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6314439,
+          29.1108099
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Jinhua Railway Station (金华站)",
+        "alternate_names": [
+          "金华站",
+          "金華站",
+          "Jinhua Railway Station",
+          "Jinhua Railway Stn",
+          "Jinhua  station",
+          "jin hua zhan",
+          "jinhuazhan"
+        ],
+        "line": "jinhua-jyd",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6391628,
+          29.0909325
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "West Shuangxi Road (双溪西路)",
+        "alternate_names": [
+          "双溪西路",
+          "雙溪西路",
+          "West Shuangxi Road",
+          "shuang xi xi lu",
+          "shuangxixilu"
+        ],
+        "line": "jinhua-jyd",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6503397,
+          29.0847529
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "South Bayi Street (八一南街)",
+        "alternate_names": [
+          "八一南街",
+          "South Bayi Street",
+          "ba yi nan jie",
+          "bayinanjie"
+        ],
+        "line": "jinhua-jyd",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6709431,
+          29.091371
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Wanda Plaza (万达广场)",
+        "alternate_names": [
+          "万达广场",
+          "萬達廣場",
+          "Wanda Plaza",
+          "wan da guang chang",
+          "wandaguangchang"
+        ],
+        "line": "jinhua-jyd",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6987889,
+          29.1003846
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Dayanhe Street (大堰河街)",
+        "alternate_names": [
+          "大堰河街",
+          "Dayanhe Street",
+          "da yan he jie",
+          "dayanhejie"
+        ],
+        "line": "jinhua-jyd",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7165077,
+          29.1003743
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Railway Building (轨道大厦)",
+        "alternate_names": [
+          "轨道大厦",
+          "軌道大廈",
+          "Railway Building",
+          "gui dao da sha",
+          "guidaodasha"
+        ],
+        "line": "jinhua-jyd",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.732,
+          29.1179
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Jinhuanan Railway Station (金华南)",
+        "alternate_names": [
+          "金华南",
+          "金華南",
+          "Jinhuanan Railway Station",
+          "Jinhuanan Railway Stn",
+          "Jinhuanan  station",
+          "jin hua nan",
+          "jinhuanan"
+        ],
+        "line": "jinhua-jyd",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8016,
+          29.17
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Tangya (塘雅)",
+        "alternate_names": [
+          "塘雅",
+          "Tangya",
+          "tang ya",
+          "tangya"
+        ],
+        "line": "jinhua-jyd",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8486451,
+          29.185463079999998
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Comprehensive Bonded Zone (综保区)",
+        "alternate_names": [
+          "综保区",
+          "綜保區",
+          "Comprehensive Bonded Zone",
+          "zong bao qu",
+          "zongbaoqu"
+        ],
+        "line": "jinhua-jyd",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8692533,
+          29.1958129
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Xinqu (新区)",
+        "alternate_names": [
+          "新区",
+          "新區",
+          "Xinqu",
+          "xin qu",
+          "xinqu"
+        ],
+        "line": "jinhua-jyd",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.889191,
+          29.2015407
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Donghua Street (东华街)",
+        "alternate_names": [
+          "东华街",
+          "東華街",
+          "Donghua Street",
+          "dong hua jie",
+          "donghuajie"
+        ],
+        "line": "jinhua-jyd",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9682086,
+          29.2393983
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Yiting (义亭)",
+        "alternate_names": [
+          "义亭",
+          "義亭",
+          "Yiting",
+          "yi ting",
+          "yiting"
+        ],
+        "line": "jinhua-jyd",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0145561,
+          29.2720336
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Guantang (官塘)",
+        "alternate_names": [
+          "官塘",
+          "Guantang",
+          "guan tang",
+          "guantang"
+        ],
+        "line": "jinhua-jyd",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0323538,
+          29.2832874
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Choujiang (稠江)",
+        "alternate_names": [
+          "稠江",
+          "Choujiang",
+          "chou jiang",
+          "choujiang"
+        ],
+        "line": "jinhua-jyd",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0582035,
+          29.3081608
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Xiuhu (绣湖)",
+        "alternate_names": [
+          "绣湖",
+          "繡湖",
+          "Xiuhu",
+          "xiu hu",
+          "xiuhu"
+        ],
+        "line": "jinhua-jyd",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.083631,
+          29.3319395
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Qintang (秦塘)",
+        "alternate_names": [
+          "秦塘",
+          "Qintang",
+          "qin tang",
+          "qintang"
+        ],
+        "line": "jinhua-jyd",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0526717,
+          29.3537357
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Lingyun (凌云)",
+        "alternate_names": [
+          "凌云",
+          "凌雲",
+          "Lingyun",
+          "ling yun",
+          "lingyun"
+        ],
+        "line": "jinhua-jyd",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0651987,
+          29.3395866
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Chunhan (春晗)",
+        "alternate_names": [
+          "春晗",
+          "Chunhan",
+          "chun han",
+          "chunhan"
+        ],
+        "line": "jinhua-jyd",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0983387,
+          29.3337076
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "International Trade Center (国际商贸城)",
+        "alternate_names": [
+          "国际商贸城",
+          "國際商貿城",
+          "International Trade Center",
+          "guo ji shang mao cheng",
+          "guojishangmaocheng"
+        ],
+        "line": "jinhua-jyd",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1183556,
+          29.3327517
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "The Fourth Affiliated Hospital (浙医四院)",
+        "alternate_names": [
+          "浙医四院",
+          "浙醫四院",
+          "The Fourth Affiliated Hospital",
+          "zhe yi si yuan",
+          "zheyisiyuan"
+        ],
+        "line": "jinhua-jyd",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1183556,
+          29.3327517
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Zhejiang University School of Medicine (浙医四院)",
+        "alternate_names": [
+          "浙医四院",
+          "浙醫四院",
+          "Zhejiang University School of Medicine",
+          "zhe yi si yuan",
+          "zheyisiyuan"
+        ],
+        "line": "jinhua-jyd",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1418455,
+          29.3243136
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Jiangdong (江东)",
+        "alternate_names": [
+          "江东",
+          "江東",
+          "Jiangdong",
+          "jiang dong",
+          "jiangdong"
+        ],
+        "line": "jinhua-jyd",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1813049,
+          29.3000277
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Woodcarvings Center (木雕城)",
+        "alternate_names": [
+          "木雕城",
+          "Woodcarvings Center",
+          "mu diao cheng",
+          "mudiaocheng"
+        ],
+        "line": "jinhua-jyd",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209566,
+          29.2840158
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Geshan Road (歌山路)",
+        "alternate_names": [
+          "歌山路",
+          "Geshan Road",
+          "ge shan lu",
+          "geshanlu"
+        ],
+        "line": "jinhua-jyd",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2343732,
+          29.2801525
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Renmin Road (人民路)",
+        "alternate_names": [
+          "人民路",
+          "Renmin Road",
+          "ren min lu",
+          "renminlu"
+        ],
+        "line": "jinhua-jyd",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2550132,
+          29.2739486
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Conference & Exhibition Center (会展中心)",
+        "alternate_names": [
+          "会展中心",
+          "會展中心",
+          "Conference & Exhibition Center",
+          "hui zhan zhong xin",
+          "huizhanzhongxin"
+        ],
+        "line": "jinhua-jyd",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2754754,
+          29.2692716
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Sports Center (体育馆)",
+        "alternate_names": [
+          "体育馆",
+          "體育館",
+          "Sports Center",
+          "ti yu guan",
+          "tiyuguan"
+        ],
+        "line": "jinhua-jyd",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3023985,
+          29.1779297
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Ming & Qing Dynasty Palaces (明清宫)",
+        "alternate_names": [
+          "明清宫",
+          "明清宮",
+          "Ming & Qing Dynasty Palaces",
+          "ming qing gong",
+          "mingqinggong"
+        ],
+        "line": "jinhua-jyd",
+        "order": 27
+      },
+      "id": 28
+    }
+  ]
+}

@@ -21,6 +21,8 @@ const applyCommonAbbreviations = (str: string) =>
     .replace(/ boulevard/g, ' blvd')
     .replace(/\bpoint\b/g, ' pt')
     .replace(/\bfort\b/g, 'ft')
+    .replace(/ railway station/g, '')
+    .replace(/ rail station/g, '')
     .replace(/ and /g, ' ')
     .replace(/ & /g, ' ')
 
@@ -315,7 +317,7 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'nanping',
   'zhangjiakou',
   'dujiangyan',
-  'haixi',
+  'delingha',
   'lijiang',
   'zhangye',
   'fenghuang',
@@ -329,6 +331,8 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'shantou',
   'liuzhou',
   'bengbu',
+  'guadalajara',
+  'monterrey',
   'urumqi',
   'seoul',
   'shanghai',

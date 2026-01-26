@@ -2,9 +2,8 @@ import PlaceholderPage from '@/app/(game)/_placeholder/PlaceholderPage'
 import { buildPlaceholderConfig } from '@/app/(game)/_placeholder/config'
 
 const config = buildPlaceholderConfig({
-  citySlug: 'haixi',
-  cityPath: 'asia/china/haixi',
-  cityTitle: 'Haixi (海西)',
+  citySlug: 'guadalajara',
+  cityTitle: 'Guadalajara (MX)',
 })
 
 export const metadata = config.METADATA

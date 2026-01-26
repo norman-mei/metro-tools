@@ -1,0 +1,10 @@
+{
+  "jinhua-jyd": {
+    "name": "Jinyidong",
+    "color": "#FF0000",
+    "backgroundColor": "#FF0000",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "jinhuajyd.png"
+  }
+}

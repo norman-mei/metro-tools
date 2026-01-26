@@ -1,0 +1,10 @@
+{
+  "liupanshui-monorail": {
+    "name": "Liupanshui Tourism Monorail",
+    "color": "#47C5F7",
+    "backgroundColor": "#47C5F7",
+    "textColor": "#000000",
+    "order": 1,
+    "icon": "liupanshuimonorail.png"
+  }
+}
