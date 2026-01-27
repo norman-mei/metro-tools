@@ -477,9 +477,24 @@ const CityCard = ({
 
   const renderImage = () => (
     <div className={imageClass}>
-      <div className="absolute left-2 top-2 z-10 inline-flex items-center gap-1 rounded-full bg-white/85 px-2 py-1 text-xs font-semibold text-zinc-800 shadow-md ring-1 ring-white/70 backdrop-blur dark:bg-black/70 dark:text-zinc-100 dark:ring-black/60">
+      <div className="absolute left-2 top-2 z-10 inline-flex items-center gap-2 rounded-full bg-white/85 px-2 py-1 text-xs font-semibold text-zinc-800 shadow-md ring-1 ring-white/70 backdrop-blur dark:bg-black/70 dark:text-zinc-100 dark:ring-black/60">
         {(() => {
           const countrySlug = getCountryFromLink(city.link)
+          if (slug === 'gba') {
+            return (
+              <>
+                <span className="inline-flex items-center gap-1">
+                  🇨🇳 <span className="tabular-nums">CN</span>
+                </span>
+                <span className="inline-flex items-center gap-1">
+                  🇭🇰 <span className="tabular-nums">HK</span>
+                </span>
+                <span className="inline-flex items-center gap-1">
+                  🇲🇴 <span className="tabular-nums">MO</span>
+                </span>
+              </>
+            )
+          }
           return (
             <>
               {getFlagEmoji(countrySlug)}

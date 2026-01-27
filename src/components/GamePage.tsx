@@ -621,6 +621,7 @@ const generateAlternateNames = (name?: string): string[] => {
     { regex: /\bPlaza\b/g, replacement: 'Plz' },
     { regex: /\bPoint\b/g, replacement: 'Pt' },
     { regex: /\bRoute\b/g, replacement: 'Rte' },
+    { regex: /\bGymnasium\b/g, replacement: 'Gym' },
   ]
 
   for (const { regex, replacement } of replacementPatterns) {
@@ -2715,6 +2716,26 @@ export default function GamePage({
             <div className="max-w-lg rounded-lg bg-white/95 p-4 text-sm font-semibold text-red-700 shadow-lg dark:bg-zinc-900/95 dark:text-red-200 dark:shadow-black/40">
               {mapError}
             </div>
+          </div>
+        ) : null}
+        {!zenMode && map ? (
+          <div className="pointer-events-auto absolute bottom-10 left-3 z-30 flex flex-col gap-2">
+            <button
+              type="button"
+              onClick={() => map.zoomIn()}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-lg font-semibold text-zinc-700 shadow-lg ring-1 ring-white/60 backdrop-blur transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-900/80 dark:text-zinc-100 dark:ring-black/50"
+              aria-label="Zoom in"
+            >
+              +
+            </button>
+            <button
+              type="button"
+              onClick={() => map.zoomOut()}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-lg font-semibold text-zinc-700 shadow-lg ring-1 ring-white/60 backdrop-blur transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-900/80 dark:text-zinc-100 dark:ring-black/50"
+              aria-label="Zoom out"
+            >
+              −
+            </button>
           </div>
         ) : null}
         {!zenMode && (

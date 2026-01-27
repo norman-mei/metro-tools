@@ -2191,11 +2191,20 @@
           "羅湖",
           "羅湖站",
           "luo hu zhan",
-          "lo4 wu4 zaam6"
+          "lo4 wu4 zaam6",
+          "Shenzhen",
+          "Shenzhen Station",
+          "Guangshen",
+          "Guangshen Station",
+          "Guangshen Railway Station",
+          "深圳",
+          "深圳站",
+          "深圳火车站"
         ],
         "line": "EAL",
         "order": 17,
-        "original_city": "hk"
+        "original_city": "hk",
+        "cluster_key": "lowu-complex"
       },
       "id": 16
     },
@@ -62259,35 +62268,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1121,
-          22.5343
-        ]
-      },
-      "properties": {
-        "id": 91811,
-        "name": "Shenzhen (深圳)",
-        "long_name": "Shenzhen (深圳)",
-        "alternate_names": [
-          "Shenzhen North",
-          "Shenzhen North Station",
-          "深圳北",
-          "深圳北站",
-          "shen zhen bei zhan",
-          "sam1 zan3 bak1 zaam6",
-          "Shenzhen",
-          "深圳"
-        ],
-        "line": "prdir_guangshen",
-        "order": 8,
-        "original_city": "prdir"
-      },
-      "id": 91811
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           114.0003801,
           22.9871798
         ]
@@ -62997,6 +62977,143 @@
         "original_city": "qingyuan"
       },
       "id": 91852
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1121,
+          22.5343
+        ]
+      },
+      "properties": {
+        "id": 91811,
+        "name": "Shenzhen (深圳)",
+        "long_name": "Shenzhen (深圳)",
+        "alternate_names": [
+          "Shenzhen North",
+          "Shenzhen North Station",
+          "深圳北",
+          "深圳北站",
+          "shen zhen bei zhan",
+          "sam1 zan3 bak1 zaam6",
+          "Shenzhen",
+          "深圳"
+        ],
+        "line": "prdir_guangshen",
+        "order": 8,
+        "original_city": "prdir",
+        "cluster_key": "lowu-complex"
+      },
+      "id": 91811
     }
-  ]
+  ],
+  "properties": {
+    "totalStations": 1893,
+    "stationsPerLine": {
+      "AEL": 5,
+      "dongguanline1": 25,
+      "dongguanline2": 24,
+      "DRL": 2,
+      "EAL": 17,
+      "fs_line3": 38,
+      "gzapm": 9,
+      "gzline1": 16,
+      "gzline10": 18,
+      "gzline11": 31,
+      "gzline14": 32,
+      "gzline12": 25,
+      "gzline18": 28,
+      "gzline24": 18,
+      "gzline2": 24,
+      "gzline21": 20,
+      "gzline22": 18,
+      "gzline3": 29,
+      "gzline4": 24,
+      "gzline5": 30,
+      "gzline6": 32,
+      "gzline7": 28,
+      "gzline8": 40,
+      "gzline9": 11,
+      "gzt_thp2": 20,
+      "gzt_thz1": 10,
+      "HKAPMSKY": 2,
+      "HKAPMT1": 3,
+      "HKAPMT2": 2,
+      "HKNP360": 2,
+      "HKOCC": 2,
+      "HKOEX": 2,
+      "HKT": 82,
+      "HKTPT": 6,
+      "HNQ": 2,
+      "ISL": 17,
+      "KTL": 17,
+      "MTR505": 17,
+      "MTR507": 16,
+      "MTR610": 26,
+      "MTR614": 24,
+      "MTR614P": 13,
+      "MTR615": 26,
+      "MTR615P": 16,
+      "MTR705": 15,
+      "MTR706": 15,
+      "MTR751": 23,
+      "MTR751P": 9,
+      "MTR761P": 14,
+      "NOL": 5,
+      "SIL": 5,
+      "SPV": 2,
+      "TCL": 11,
+      "TKL": 8,
+      "TML": 30,
+      "TPA": 13,
+      "TWL": 16,
+      "XRL": 7,
+      "gzcw_cable": 2,
+      "gzsp_cable": 3,
+      "gzline13": 34,
+      "fs_guangfo": 25,
+      "fs_line2": 17,
+      "fs_tnh1": 15,
+      "gzt_thp1": 19,
+      "szline1": 30,
+      "szline2": 32,
+      "szline3": 38,
+      "szline4": 23,
+      "szline5": 37,
+      "szline6": 27,
+      "szline6b": 7,
+      "szline7": 29,
+      "szline8": 12,
+      "szline32": 5,
+      "szline9": 32,
+      "szline10": 24,
+      "szline11": 21,
+      "szline12": 39,
+      "szline13": 30,
+      "szline14": 18,
+      "szline15": 24,
+      "szline16": 32,
+      "szline17": 18,
+      "szline20": 16,
+      "szline25": 14,
+      "szline27": 20,
+      "szline29": 9,
+      "sztram1": 12,
+      "sztram2": 15,
+      "szbyd1": 11,
+      "szline22": 21,
+      "moeast": 7,
+      "prdir_guangzhu": 25,
+      "prdir_suishen": 28,
+      "prdir_zhuji": 11,
+      "prdir_guanghui": 25,
+      "prdir_guangzhao": 16,
+      "prdir_guangqing": 14,
+      "prdir_guangforing": 22,
+      "prdir_guangshen": 9,
+      "qymaglev": 3
+    }
+  }
 }
