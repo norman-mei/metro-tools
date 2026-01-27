@@ -7,13 +7,13 @@ import Fuse from 'fuse.js'
 import { useTheme } from 'next-themes'
 import { useSearchParams } from 'next/navigation'
 import {
-  Fragment,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ReactNode,
+    Fragment,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
+    type ReactNode,
 } from 'react'
 
 import AccountDashboard from '@/app/(website)/account/panel'
@@ -196,6 +196,9 @@ const formatCommitMessage = (message?: string | null) => {
   const firstLine = message.split('\n')[0]?.trim()
   return firstLine && firstLine.length > 0 ? firstLine : 'No commit message'
 }
+
+const getFavoritesStorageKey = (userId?: string | null) =>
+  `${FAVORITES_STORAGE_PREFIX}-${userId || 'anon'}`
 
 const REGION_KEYWORDS: Record<string, string[]> = {
   AL: ['Alabama', 'AL'],
@@ -386,6 +389,8 @@ const HIDDEN_CITY_SLUGS = new Set([
   'zhangye',
 ])
 
+const FAVORITES_STORAGE_PREFIX = 'favorites-v1'
+
 type GlobalStats = {
   totalStationsFound: number
   totalStations: number
@@ -433,7 +438,7 @@ const SearcheableCitiesList = ({
     status: 'idle',
     entries: [],
   })
-  const { progressSummaries, uiPreferences, updateUiPreferences } = useAuth()
+  const { user, progressSummaries, uiPreferences, updateUiPreferences } = useAuth()
   const [cityProgress, setCityProgress] = useState<Record<string, number>>({})
   const [globalStats, setGlobalStats] = useState<GlobalStats>({
     totalStationsFound: 0,
@@ -452,7 +457,65 @@ const SearcheableCitiesList = ({
   const [continentFocus, setContinentFocus] = useState<{ name: string; token: number } | null>(
     null,
   )
+  const [countryFocus, setCountryFocus] = useState<{ name: string; token: number } | null>(null)
+  const [favoriteSlugs, setFavoriteSlugs] = useState<Set<string>>(new Set())
+  const [favoriteToast, setFavoriteToast] = useState<{ message: string; ts: number } | null>(null)
   const viewPrefsHydratedRef = useRef(false)
+  const suppressActiveUntilRef = useRef<number>(0)
+
+  // Load favorites from localStorage (per user/anon)
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const key = getFavoritesStorageKey(user?.id)
+    try {
+      const raw = window.localStorage.getItem(key)
+      if (raw) {
+        const parsed = JSON.parse(raw)
+        if (Array.isArray(parsed)) {
+          setFavoriteSlugs(new Set(parsed.filter((slug) => typeof slug === 'string')))
+        }
+      } else {
+        setFavoriteSlugs(new Set())
+      }
+    } catch {
+      setFavoriteSlugs(new Set())
+    }
+  }, [user?.id])
+
+  const persistFavorites = useCallback(
+    (next: Set<string>) => {
+      if (typeof window === 'undefined') return
+      const key = getFavoritesStorageKey(user?.id)
+      window.localStorage.setItem(key, JSON.stringify(Array.from(next)))
+    },
+    [user?.id],
+  )
+
+  const toggleFavorite = useCallback(
+    (slug: string, next: boolean) => {
+      setFavoriteSlugs((prev) => {
+        const updated = new Set(prev)
+        if (next) {
+          updated.add(slug)
+        } else {
+          updated.delete(slug)
+        }
+        persistFavorites(updated)
+        return updated
+      })
+      setFavoriteToast({
+        message: next ? 'Added to favorites' : 'Removed from favorites',
+        ts: Date.now(),
+      })
+    },
+    [persistFavorites],
+  )
+
+  useEffect(() => {
+    if (!favoriteToast) return
+    const timeout = window.setTimeout(() => setFavoriteToast(null), 2400)
+    return () => window.clearTimeout(timeout)
+  }, [favoriteToast])
 
   const filteredCities = useMemo(
     () =>
@@ -467,6 +530,15 @@ const SearcheableCitiesList = ({
     (continent: string) => {
       if (cityViewMode === 'globe' || cityViewMode === 'map') {
         setContinentFocus({ name: continent, token: Date.now() })
+      }
+    },
+    [cityViewMode],
+  )
+
+  const focusCountryOnMap = useCallback(
+    (country: string) => {
+      if (cityViewMode === 'globe' || cityViewMode === 'map') {
+        setCountryFocus({ name: country, token: Date.now() })
       }
     },
     [cityViewMode],
@@ -956,12 +1028,34 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       .filter((group) => group.cities.length > 0)
   }, [groupedCities, results])
 
+  const navigationCities = useMemo(
+    () => visibleGroups.flatMap((group) => group.cities),
+    [visibleGroups],
+  )
+
+  const favoriteCities = useMemo(
+    () =>
+      navigationCities.filter((city) => {
+        const slug = getSlugFromLink(city.link)
+        return slug ? favoriteSlugs.has(slug) : false
+      }),
+    [navigationCities, favoriteSlugs],
+  )
+
+  const groupsWithFavorites = useMemo(
+    () =>
+      favoriteCities.length > 0
+        ? [{ continent: 'Favorites', cities: favoriteCities }, ...visibleGroups]
+        : visibleGroups,
+    [favoriteCities, visibleGroups],
+  )
+
   const continentNavItems = useMemo(() => {
     const cityStatsBySlug = new Map(
       globalStats.cityBreakdown.map(({ slug, found, total }) => [slug, { found, total }]),
     )
 
-    return visibleGroups.map((group) => {
+    return groupsWithFavorites.map((group) => {
       const totalProgress = group.cities.reduce((acc, city) => {
         const slug = getSlugFromLink(city.link)
         const progress = slug ? cityProgress[slug] ?? 0 : 0
@@ -1009,12 +1103,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
         countries,
       }
     })
-  }, [visibleGroups, cityProgress, globalStats.cityBreakdown])
-
-  const navigationCities = useMemo(
-    () => visibleGroups.flatMap((group) => group.cities),
-    [visibleGroups],
-  )
+  }, [groupsWithFavorites, cityProgress, globalStats.cityBreakdown])
 
   const unlockedSet = useMemo(() => new Set(unlockedData.keys()), [unlockedData])
   const allAchievementSlugs = useMemo(() => achievementCatalog.map((entry) => entry.slug), [achievementCatalog])
@@ -1233,7 +1322,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     }
   }, [searchParams])
 
-  const hasResults = visibleGroups.length > 0
+  const hasResults = groupsWithFavorites.length > 0
   const shouldShowContinentNav = activeTab === 'cities' && hasResults
 
   useEffect(() => {
@@ -1249,16 +1338,36 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             y: e.boundingClientRect.y,
           }))
 
+        if (Date.now() < suppressActiveUntilRef.current) {
+          return
+        }
+
         if (visibleParams.length > 0) {
-            const best = visibleParams.sort((a,b) => b.ratio - a.ratio)[0]
-            if (best) {
-                setActiveSection(best.id)
-            }
+          const best = visibleParams
+            .sort((a, b) => {
+              const distA = Math.abs(a.y)
+              const distB = Math.abs(b.y)
+              if (Math.abs(distA - distB) > 6) {
+                return distA - distB
+              }
+              if (Math.abs(b.ratio - a.ratio) > 0.05) {
+                return b.ratio - a.ratio
+              }
+              const aIsCountry = a.id.includes('-country-')
+              const bIsCountry = b.id.includes('-country-')
+              if (aIsCountry && !bIsCountry) return -1
+              if (!aIsCountry && bIsCountry) return 1
+              return 0
+            })[0]
+
+          if (best) {
+            setActiveSection(best.id)
+          }
         }
       },
       {
-        rootMargin: '-20% 0px -60% 0px',
-        threshold: [0, 0.1, 0.5],
+        rootMargin: '-10% 0px -50% 0px',
+        threshold: [0, 0.1, 0.5, 1.0],
       }
     )
 
@@ -1266,7 +1375,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     sections.forEach((section) => observer.observe(section))
 
     return () => observer.disconnect()
-  }, [shouldShowContinentNav, visibleGroups])
+  }, [shouldShowContinentNav, groupsWithFavorites])
 
   const ensureContinentExpanded = useCallback((continent: string) => {
     if (typeof document === 'undefined') {
@@ -1293,6 +1402,8 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
 
   const handleJumpToContinent = useCallback(
     (sectionId: string, continent?: string) => {
+      setActiveSection(sectionId)
+      suppressActiveUntilRef.current = Date.now() + 800
       const didExpand = continent ? ensureContinentExpanded(continent) : false
       const doScroll = () => {
         const target = document.getElementById(sectionId)
@@ -1310,6 +1421,27 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       }
     },
     [ensureContinentExpanded, focusContinentOnMap],
+  )
+
+  const handleJumpToCountry = useCallback(
+    (sectionId: string, continent: string, country: string) => {
+      setActiveSection(sectionId)
+      suppressActiveUntilRef.current = Date.now() + 800
+      const didExpand = ensureContinentExpanded(continent)
+      const doScroll = () => {
+        const target = document.getElementById(sectionId)
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      }
+      if (didExpand) {
+        window.setTimeout(doScroll, 80)
+      } else {
+        doScroll()
+      }
+      focusCountryOnMap(country)
+    },
+    [ensureContinentExpanded, focusCountryOnMap],
   )
 
   const toggleContinentCollapse = (continent: string) => {
@@ -1349,24 +1481,30 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     if (cityViewMode === 'list') {
       return (
         <div className="space-y-4">
-          {cityList.map((city) => (
-            <Transition
-              key={city.link}
-              as="div"
-              appear
-              enterFrom="opacity-0 translate-y-2"
-              enter="transition-all ease-out duration-200"
-              leaveFrom="opacity-100 translate-y-0"
-              leave="transition-all ease-in duration-200"
-              show
-            >
-              <CityCard
-                city={city}
-                variant={variant}
-                visibleCities={navigationCities.length > 0 ? navigationCities : cityList}
-              />
-            </Transition>
-          ))}
+          {cityList.map((city) => {
+            const slug = getSlugFromLink(city.link)
+            const isFavorite = slug ? favoriteSlugs.has(slug) : false
+            return (
+              <Transition
+                key={city.link}
+                as="div"
+                appear
+                enterFrom="opacity-0 translate-y-2"
+                enter="transition-all ease-out duration-200"
+                leaveFrom="opacity-100 translate-y-0"
+                leave="transition-all ease-in duration-200"
+                show
+              >
+                <CityCard
+                  city={city}
+                  variant={variant}
+                  visibleCities={navigationCities.length > 0 ? navigationCities : cityList}
+                  isFavorite={isFavorite}
+                  onToggleFavorite={toggleFavorite}
+                />
+              </Transition>
+            )
+          })}
         </div>
       )
     }
@@ -1380,24 +1518,30 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
 
     return (
       <div className={gridClasses}>
-        {cityList.map((city) => (
-          <Transition
-            key={city.link}
-            as="div"
-            appear
-            enterFrom="opacity-0 translate-y-4"
-            enter="transition-all ease-out duration-200"
-            leaveFrom="opacity-100 translate-y-0"
-            leave="transition-all ease-in duration-200"
-            show
-          >
-            <CityCard
-              city={city}
-              variant={variant}
-              visibleCities={navigationCities.length > 0 ? navigationCities : cityList}
-            />
-          </Transition>
-        ))}
+        {cityList.map((city) => {
+          const slug = getSlugFromLink(city.link)
+          const isFavorite = slug ? favoriteSlugs.has(slug) : false
+          return (
+            <Transition
+              key={city.link}
+              as="div"
+              appear
+              enterFrom="opacity-0 translate-y-4"
+              enter="transition-all ease-out duration-200"
+              leaveFrom="opacity-100 translate-y-0"
+              leave="transition-all ease-in duration-200"
+              show
+            >
+              <CityCard
+                city={city}
+                variant={variant}
+                visibleCities={navigationCities.length > 0 ? navigationCities : cityList}
+                isFavorite={isFavorite}
+                onToggleFavorite={toggleFavorite}
+              />
+            </Transition>
+          )
+        })}
       </div>
     )
   }
@@ -1530,25 +1674,29 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             <div className="flex-1 overflow-y-auto px-2 py-4">
               <div className="flex flex-col gap-1">
                 {continentNavItems.map(({ continent, cityCount, sectionId, averagePercent, countries }) => {
-                  const translatedContinent =
-                    CONTINENT_LABEL_KEYS[continent] !== undefined
-                      ? t(CONTINENT_LABEL_KEYS[continent])
-                      : continent
+              const translatedContinent =
+                continent === 'Favorites'
+                  ? t('favoriteCities') || 'Favorite Cities'
+                  : CONTINENT_LABEL_KEYS[continent] !== undefined
+                    ? t(CONTINENT_LABEL_KEYS[continent])
+                    : continent
                   const percentLabel = `${(averagePercent * 100).toFixed(0)}%`
                   const percentColor = getGradientColor(averagePercent)
-                  const isActive = sectionId === activeSection
+                  const isActive =
+                    sectionId === activeSection ||
+                    (activeSection !== null && activeSection.startsWith(`${sectionId}-country-`))
                   const isCollapsed = collapsedContinents[continent] ?? false
                   
                   return (
                     <div key={sectionId} className="space-y-1">
-                      <div
-                        className={classNames(
-                          "group w-full rounded-xl px-3 py-3 text-left transition",
-                          isActive 
-                              ? "bg-zinc-100 dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700" 
-                              : "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
-                        )}
-                      >
+                  <div
+                    className={classNames(
+                      "group w-full rounded-xl px-3 py-3 text-left transition",
+                      isActive
+                        ? "bg-blue-50 text-blue-900 ring-1 ring-blue-200 shadow-sm dark:bg-blue-900/30 dark:text-blue-50 dark:ring-blue-700/60"
+                        : "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
+                    )}
+                  >
                         <div className="flex items-start justify-between gap-2">
                           <button
                             type="button"
@@ -1564,7 +1712,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                               </span>
                               
                               {isActive ? (
-                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-[var(--accent-600)] dark:text-[var(--accent-400)]">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-[#2563eb] drop-shadow-[0_2px_6px_rgba(37,99,235,0.35)] dark:text-[#60a5fa]">
                                       <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
                                   </svg>
                               ) : (
@@ -1608,22 +1756,42 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                       {!isCollapsed && countries.length > 0 && (
                         <div className="ml-3 flex flex-col gap-1 border-l border-zinc-200 pl-3 dark:border-zinc-800">
                           {countries.map((country) => {
-                            const percent = `${(country.percent * 100).toFixed(0)}%`
-                            const color = getGradientColor(country.percent)
-                            return (
-                              <button
-                                key={country.sectionId}
-                                type="button"
-                                onClick={() => handleJumpToContinent(country.sectionId, continent)}
-                                className="flex items-center justify-between rounded-lg px-2 py-1 text-left text-xs font-medium text-zinc-600 transition hover:bg-zinc-50 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800/60 dark:hover:text-zinc-100"
-                              >
-                                <span className="truncate">{country.label}</span>
-                                <span className="tabular-nums" style={{ color }}>
-                                  {percent}
-                                </span>
-                              </button>
-                            )
-                          })}
+                        const percent = `${(country.percent * 100).toFixed(0)}%`
+                        const color = getGradientColor(country.percent)
+                        const isCountryActive = activeSection === country.sectionId
+                        return (
+                          <button
+                            key={country.sectionId}
+                            type="button"
+                            onClick={() => handleJumpToCountry(country.sectionId, continent, country.country)}
+                            className={classNames(
+                              "flex items-center justify-between rounded-lg px-2 py-1 text-left text-xs font-medium transition",
+                              isCountryActive
+                                ? "bg-blue-50 text-blue-900 ring-1 ring-blue-200 shadow-sm dark:bg-blue-900/30 dark:text-blue-50 dark:ring-blue-700/60"
+                                : "text-zinc-600 hover:bg-zinc-50 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800/60 dark:hover:text-zinc-100"
+                            )}
+                          >
+                            <span className="truncate">{country.label}</span>
+                            <span className="flex items-center gap-1 tabular-nums" style={{ color }}>
+                              {percent}
+                              {isCountryActive && (
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  fill="currentColor"
+                                  className="h-3.5 w-3.5 text-[#2563eb] drop-shadow-[0_2px_6px_rgba(37,99,235,0.35)] dark:text-[#60a5fa]"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                                    clipRule="evenodd"
+                                  />
+                                </svg>
+                              )}
+                            </span>
+                          </button>
+                        )
+                      })}
                         </div>
                       )}
                     </div>
@@ -1782,17 +1950,21 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                   satellite={isSatellite}
                   selectedContinent={continentFocus?.name}
                   continentFocusVersion={continentFocus?.token}
+                  selectedCountry={countryFocus?.name}
+                  countryFocusVersion={countryFocus?.token}
                 />
              </div>
           ) : hasResults ? (
             <div className="space-y-10">
-              {visibleGroups.map(({ continent, cities }, index) => {
+              {groupsWithFavorites.map(({ continent, cities }, index) => {
                 const cityCount = cities.length
                 const cityGrid = renderCountryGroups(continent, cities)
                 const translatedContinent =
-                  CONTINENT_LABEL_KEYS[continent] !== undefined
-                    ? t(CONTINENT_LABEL_KEYS[continent])
-                    : continent
+                  continent === 'Favorites'
+                    ? t('favoriteCities') || 'Favorite Cities'
+                    : CONTINENT_LABEL_KEYS[continent] !== undefined
+                      ? t(CONTINENT_LABEL_KEYS[continent])
+                      : continent
                 const cityCountLabel = t('cityCount', { count: cityCount })
 
                 const isCollapsible = COLLAPSIBLE_CONTINENTS.has(continent)
@@ -1840,7 +2012,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                         </div>
                       </section>
                     )}
-                    {index < visibleGroups.length - 1 && (
+                    {index < groupsWithFavorites.length - 1 && (
                       <footer>
                         <hr className="border-t border-zinc-200 dark:border-[#18181b]" />
                       </footer>
@@ -2125,6 +2297,39 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
         <PrivacyPanel />
   ) : null}
     </div>
+    <Transition
+      show={Boolean(favoriteToast)}
+      as={Fragment}
+      enter="transform transition ease-out duration-200"
+      enterFrom="translate-y-4 opacity-0 scale-95"
+      enterTo="translate-y-0 opacity-100 scale-100"
+      leave="transform transition ease-in duration-150"
+      leaveFrom="translate-y-0 opacity-100 scale-100"
+      leaveTo="translate-y-4 opacity-0 scale-95"
+    >
+      <div className="pointer-events-auto fixed bottom-6 left-1/2 z-[90] w-full max-w-sm -translate-x-1/2 px-4 sm:px-0">
+        <div className="flex items-start gap-3 rounded-2xl border border-amber-200 bg-white/95 p-4 text-left shadow-2xl backdrop-blur dark:border-amber-500/60 dark:bg-zinc-900/95">
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-200">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+              <path d="M12 4.75l2.09 4.24 4.68.68-3.39 3.3.8 4.66L12 15.9l-4.18 2.2.8-4.66-3.39-3.3 4.68-.68L12 4.75z" />
+            </svg>
+          </div>
+          <div className="flex-1">
+            <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              {favoriteToast?.message}
+            </p>
+          </div>
+          <button
+            type="button"
+            aria-label="Dismiss favorites notification"
+            onClick={() => setFavoriteToast(null)}
+            className="ml-2 inline-flex items-center justify-center rounded-full border border-transparent p-1 text-sm font-semibold text-zinc-500 transition hover:text-zinc-800 focus:outline-none focus:ring-2 focus:ring-amber-400 dark:text-zinc-300 dark:hover:text-white"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </Transition>
     {statsOpen && statsSlug && (
       <CityStatsPanel
         cityDisplayName={statsCityDisplayName || 'City Statistics'}

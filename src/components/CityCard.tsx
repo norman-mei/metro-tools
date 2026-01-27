@@ -32,16 +32,109 @@ const getSlugFromLink = (link: string) => {
   return segments.length ? segments[segments.length - 1] : null
 }
 
+const getCountryFromLink = (link: string) => {
+  const path = getPathFromLink(link)
+  if (!path) return null
+  const segments = path.split('/').filter(Boolean)
+  return segments.length >= 2 ? segments[1] : null
+}
+
+const COUNTRY_FLAGS: Record<string, string> = {
+  usa: '🇺🇸',
+  canada: '🇨🇦',
+  mexico: '🇲🇽',
+  'north-america': '🌎',
+  uk: '🇬🇧',
+  ireland: '🇮🇪',
+  france: '🇫🇷',
+  germany: '🇩🇪',
+  spain: '🇪🇸',
+  italy: '🇮🇹',
+  austria: '🇦🇹',
+  sweden: '🇸🇪',
+  hungary: '🇭🇺',
+  turkey: '🇹🇷',
+  australia: '🇦🇺',
+  'new-zealand': '🇳🇿',
+  china: '🇨🇳',
+  japan: '🇯🇵',
+  'south-korea': '🇰🇷',
+  'north-korea': '🇰🇵',
+  singapore: '🇸🇬',
+  taiwan: '🇹🇼',
+  malaysia: '🇲🇾',
+  indonesia: '🇮🇩',
+  vietnam: '🇻🇳',
+  thailand: '🇹🇭',
+  philippines: '🇵🇭',
+  'united-arab-emirates': '🇦🇪',
+  argentina: '🇦🇷',
+  venezuela: '🇻🇪',
+  brazil: '🇧🇷',
+  'south-africa': '🇿🇦',
+  algeria: '🇩🇿',
+}
+
+const getFlagEmoji = (countrySlug: string | null) => {
+  if (!countrySlug) return '🌍'
+  return COUNTRY_FLAGS[countrySlug] ?? '🌍'
+}
+
+const COUNTRY_ABBREV: Record<string, string> = {
+  usa: 'US',
+  canada: 'CA',
+  mexico: 'MX',
+  'north-america': 'NA',
+  uk: 'UK',
+  ireland: 'IE',
+  france: 'FR',
+  germany: 'DE',
+  spain: 'ES',
+  italy: 'IT',
+  austria: 'AT',
+  sweden: 'SE',
+  hungary: 'HU',
+  turkey: 'TR',
+  australia: 'AU',
+  'new-zealand': 'NZ',
+  china: 'CN',
+  japan: 'JP',
+  'south-korea': 'KR',
+  'north-korea': 'KP',
+  singapore: 'SG',
+  taiwan: 'TW',
+  malaysia: 'MY',
+  indonesia: 'ID',
+  vietnam: 'VN',
+  thailand: 'TH',
+  philippines: 'PH',
+  'united-arab-emirates': 'AE',
+  argentina: 'AR',
+  venezuela: 'VE',
+  brazil: 'BR',
+  'south-africa': 'ZA',
+  algeria: 'DZ',
+}
+
+const getCountryAbbrev = (countrySlug: string | null) => {
+  if (!countrySlug) return '??'
+  return COUNTRY_ABBREV[countrySlug] ?? countrySlug.slice(0, 2).toUpperCase()
+}
+
 const CityCard = ({
   city,
   className,
   variant = 'comfortable',
   visibleCities,
+  isFavorite = false,
+  onToggleFavorite,
 }: {
   city: ICity
   className?: string
   variant?: CityCardVariant
   visibleCities?: ICity[]
+  isFavorite?: boolean
+  onToggleFavorite?: (slug: string, next: boolean) => void
 }) => {
   const [progress, setProgress] = useState<number | null>(0)
   const [stationTotal, setStationTotal] = useState<number | null>(null)
@@ -384,6 +477,48 @@ const CityCard = ({
 
   const renderImage = () => (
     <div className={imageClass}>
+      <div className="absolute left-2 top-2 z-10 inline-flex items-center gap-1 rounded-full bg-white/85 px-2 py-1 text-xs font-semibold text-zinc-800 shadow-md ring-1 ring-white/70 backdrop-blur dark:bg-black/70 dark:text-zinc-100 dark:ring-black/60">
+        {(() => {
+          const countrySlug = getCountryFromLink(city.link)
+          return (
+            <>
+              {getFlagEmoji(countrySlug)}
+              <span className="tabular-nums">{getCountryAbbrev(countrySlug)}</span>
+            </>
+          )
+        })()}
+      </div>
+      <button
+        type="button"
+        onClick={(e) => {
+          e.preventDefault()
+          e.stopPropagation()
+          if (onToggleFavorite && slug) {
+            onToggleFavorite(slug, !isFavorite)
+          }
+        }}
+        aria-pressed={isFavorite}
+        aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+        className={classNames(
+          'absolute right-2 top-2 z-10 inline-flex items-center justify-center rounded-full p-2.5 text-sm font-semibold shadow-md ring-1 ring-white/60 backdrop-blur transition',
+          isFavorite
+            ? 'bg-amber-100 text-amber-600 ring-amber-200 hover:bg-amber-200'
+            : 'bg-white/90 text-amber-500 hover:bg-white dark:bg-black/70 dark:text-amber-300',
+        )}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={1.9}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="h-6 w-6"
+        >
+          <path d="M12 4.75l2.09 4.24 4.68.68-3.39 3.3.8 4.66L12 15.9l-4.18 2.2.8-4.66-3.39-3.3 4.68-.68L12 4.75z" />
+        </svg>
+      </button>
       <Image
         draggable={false}
         src={city.image}

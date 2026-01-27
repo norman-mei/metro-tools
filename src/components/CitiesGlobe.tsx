@@ -93,6 +93,8 @@ export default function CitiesGlobe({
   satellite = false,
   selectedContinent,
   continentFocusVersion,
+  selectedCountry,
+  countryFocusVersion,
 }: { 
   cities?: ICity[]
   cityProgress?: Record<string, number> 
@@ -100,6 +102,8 @@ export default function CitiesGlobe({
   satellite?: boolean
   selectedContinent?: string
   continentFocusVersion?: number
+  selectedCountry?: string
+  countryFocusVersion?: number
 }) {
   const mapContainerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<mapboxgl.Map | null>(null)
@@ -112,6 +116,12 @@ export default function CitiesGlobe({
 
   const handleClosePopup = useCallback(() => {
     setActivePopup(null)
+  }, [])
+
+  const getCountryFromLink = useCallback((link: string) => {
+    const path = link.replace(/^\//, '').split(/[?#]/)[0]
+    const segments = path.split('/').filter(Boolean)
+    return segments.length >= 2 ? segments[1] : null
   }, [])
 
   useEffect(() => {
@@ -406,6 +416,35 @@ export default function CitiesGlobe({
       })
     }
   }, [selectedContinent, continentFocusVersion, mapReady, projection, resolvedTheme, satellite])
+
+  // Focus on a specific country (based on city coordinates) when requested
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !mapReady || !selectedCountry) return
+
+    const countrySlug = selectedCountry.toLowerCase()
+    const points = cities
+      .map((city) => {
+        const slug = getSlugFromLink(city.link)
+        const country = getCountryFromLink(city.link)?.toLowerCase()
+        if (!slug || !country || country !== countrySlug) return null
+        const coords = CITY_COORDINATES[slug]
+        return coords ? coords : null
+      })
+      .filter((coords): coords is [number, number] => Array.isArray(coords))
+
+    if (points.length === 0) return
+
+    const bounds = new mapboxgl.LngLatBounds()
+    points.forEach((coord) => bounds.extend(coord as [number, number]))
+
+    map.fitBounds(bounds, {
+      padding: projection === 'globe' ? 140 : 120,
+      duration: 1200,
+      essential: true,
+      maxZoom: projection === 'globe' ? 5 : 6.5,
+    })
+  }, [selectedCountry, countryFocusVersion, mapReady, projection, cities, getCountryFromLink])
 
   // Auto-fly if only one city is visible (search result)
   useEffect(() => {
