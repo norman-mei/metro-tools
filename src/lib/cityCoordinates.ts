@@ -176,8 +176,6 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   guangan: [106.6332, 30.455],
   guilin: [110.29, 25.2736],
   jining: [116.5873, 35.4146],
-  shantou: [116.6817, 23.3535],
-  liuzhou: [109.4117, 24.3142],
   bengbu: [117.3893, 32.9155],
   urumqi: [87.6168, 43.8256],
 

@@ -172,6 +172,23 @@ const getContinentSectionId = (continent: string) => {
   return slug ? `continent-${slug}` : 'continent-unknown'
 }
 
+const getCountrySectionId = (continent: string, country: string) => {
+  const continentSlug = continent
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+  const countrySlug = country
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+  if (!continentSlug || !countrySlug) {
+    return `continent-${continentSlug || 'unknown'}-country-${countrySlug || 'unknown'}`
+  }
+  return `continent-${continentSlug}-country-${countrySlug}`
+}
+
 const formatCommitMessage = (message?: string | null) => {
   if (!message) {
     return 'No commit message'
@@ -293,6 +310,37 @@ const getSlugFromLink = (link: string) => {
   return segments.length ? segments[segments.length - 1] : null
 }
 
+const getCountryFromLink = (link: string) => {
+  const path = getPathFromLink(link)
+  if (!path) {
+    return null
+  }
+  const segments = path.split('/').filter(Boolean)
+  return segments.length >= 2 ? segments[1] : null
+}
+
+const COUNTRY_LABEL_OVERRIDES: Record<string, string> = {
+  usa: 'USA',
+  uk: 'UK',
+  uae: 'UAE',
+  'south-korea': 'South Korea',
+  'north-korea': 'North Korea',
+  'new-zealand': 'New Zealand',
+}
+
+const formatCountryLabel = (slug: string | null) => {
+  if (!slug) {
+    return 'Unknown'
+  }
+  if (COUNTRY_LABEL_OVERRIDES[slug]) {
+    return COUNTRY_LABEL_OVERRIDES[slug]
+  }
+  return slug
+    .split('-')
+    .map((chunk) => (chunk ? chunk[0].toUpperCase() + chunk.slice(1) : chunk))
+    .join(' ')
+}
+
 interface AchievementMeta {
   slug: string
   cityName: string
@@ -325,7 +373,18 @@ const getBarBackground = (percent: number) => {
   return `linear-gradient(90deg, ${midColor} 0%, ${midColor} 100%)`
 }
 
-const HIDDEN_CITY_SLUGS = new Set(['amtrak', 'viarail'])
+const HIDDEN_CITY_SLUGS = new Set([
+  'amtrak',
+  'viarail',
+  'bengbu',
+  'guangan',
+  'guilin',
+  'jining',
+  'xishui',
+  'yinchuan',
+  'zhangjiakou',
+  'zhangye',
+])
 
 type GlobalStats = {
   totalStationsFound: number
@@ -360,6 +419,7 @@ const SearcheableCitiesList = ({
   const [activeTab, setActiveTab] = useState<TabOption>('cities')
   const [search, setSearch] = useState('')
   const [continentNavOpen, setContinentNavOpen] = useState(true)
+  const [collapsedContinents, setCollapsedContinents] = useState<Record<string, boolean>>({})
   const [citySort, setCitySort] = useState<CitySortOption>('default')
   const [globalStatsSearch, setGlobalStatsSearch] = useState('')
   const [globalStatsSort, setGlobalStatsSort] = useState<CitySortOption>('default')
@@ -896,25 +956,60 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       .filter((group) => group.cities.length > 0)
   }, [groupedCities, results])
 
-  const continentNavItems = useMemo(
-    () =>
-      visibleGroups.map((group) => {
-        const totalProgress = group.cities.reduce((acc, city) => {
-          const slug = getSlugFromLink(city.link)
-          const progress = slug ? cityProgress[slug] ?? 0 : 0
-          return acc + progress
-        }, 0)
-        const averagePercent =
-          group.cities.length > 0 ? Math.max(0, Math.min(1, totalProgress / group.cities.length)) : 0
-        return {
-          continent: group.continent,
-          cityCount: group.cities.length,
-          sectionId: getContinentSectionId(group.continent),
-          averagePercent,
-        }
-      }),
-    [visibleGroups, cityProgress],
-  )
+  const continentNavItems = useMemo(() => {
+    const cityStatsBySlug = new Map(
+      globalStats.cityBreakdown.map(({ slug, found, total }) => [slug, { found, total }]),
+    )
+
+    return visibleGroups.map((group) => {
+      const totalProgress = group.cities.reduce((acc, city) => {
+        const slug = getSlugFromLink(city.link)
+        const progress = slug ? cityProgress[slug] ?? 0 : 0
+        return acc + progress
+      }, 0)
+      const averagePercent =
+        group.cities.length > 0 ? Math.max(0, Math.min(1, totalProgress / group.cities.length)) : 0
+
+      const countryMap = new Map<
+        string,
+        { found: number; total: number; cityCount: number }
+      >()
+      group.cities.forEach((city) => {
+        const country = getCountryFromLink(city.link) ?? 'unknown'
+        const slug = getSlugFromLink(city.link)
+        const stats = slug ? cityStatsBySlug.get(slug) : null
+        const found = stats ? Math.min(stats.found, stats.total) : 0
+        const total = stats ? stats.total : 0
+        const existing = countryMap.get(country) ?? { found: 0, total: 0, cityCount: 0 }
+        countryMap.set(country, {
+          found: existing.found + found,
+          total: existing.total + total,
+          cityCount: existing.cityCount + 1,
+        })
+      })
+
+      const countries = Array.from(countryMap.entries())
+        .map(([country, stats]) => {
+          const percent = stats.total > 0 ? stats.found / stats.total : 0
+          return {
+            country,
+            label: formatCountryLabel(country),
+            cityCount: stats.cityCount,
+            percent,
+            sectionId: getCountrySectionId(group.continent, country),
+          }
+        })
+        .sort((a, b) => a.label.localeCompare(b.label))
+
+      return {
+        continent: group.continent,
+        cityCount: group.cities.length,
+        sectionId: getContinentSectionId(group.continent),
+        averagePercent,
+        countries,
+      }
+    })
+  }, [visibleGroups, cityProgress, globalStats.cityBreakdown])
 
   const navigationCities = useMemo(
     () => visibleGroups.flatMap((group) => group.cities),
@@ -1173,15 +1268,56 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     return () => observer.disconnect()
   }, [shouldShowContinentNav, visibleGroups])
 
-  const handleJumpToContinent = useCallback((sectionId: string, continent?: string) => {
-    const target = document.getElementById(sectionId)
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  const ensureContinentExpanded = useCallback((continent: string) => {
+    if (typeof document === 'undefined') {
+      return false
     }
-    if (continent) {
-      focusContinentOnMap(continent)
+    const sectionId = getContinentSectionId(continent)
+    const contentId = `${sectionId}-content`
+    const section = document.getElementById(sectionId)
+    const content = document.getElementById(contentId)
+    if (!section || !content) {
+      return false
     }
-  }, [focusContinentOnMap])
+    const isCollapsed =
+      content.getAttribute('aria-hidden') === 'true' || content.classList.contains('hidden')
+    if (!isCollapsed) {
+      return false
+    }
+    const toggleButton = section.querySelector<HTMLButtonElement>(
+      `button[aria-controls="${contentId}"]`,
+    )
+    toggleButton?.click()
+    return true
+  }, [])
+
+  const handleJumpToContinent = useCallback(
+    (sectionId: string, continent?: string) => {
+      const didExpand = continent ? ensureContinentExpanded(continent) : false
+      const doScroll = () => {
+        const target = document.getElementById(sectionId)
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      }
+      if (didExpand) {
+        window.setTimeout(doScroll, 80)
+      } else {
+        doScroll()
+      }
+      if (continent) {
+        focusContinentOnMap(continent)
+      }
+    },
+    [ensureContinentExpanded, focusContinentOnMap],
+  )
+
+  const toggleContinentCollapse = (continent: string) => {
+    setCollapsedContinents((prev) => ({
+      ...prev,
+      [continent]: !prev[continent],
+    }))
+  }
 
   const openStatsPanelForCity = (slug: string) => {
     const city = cityMetaBySlug.get(slug)
@@ -1266,6 +1402,66 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     )
   }
 
+  const renderCountryGroups = (continent: string, cityList: ICity[]) => {
+    const cityStatsBySlug = new Map(
+      globalStats.cityBreakdown.map(({ slug, found, total }) => [slug, { found, total }]),
+    )
+    const countryMap = new Map<string, ICity[]>()
+    cityList.forEach((city) => {
+      const country = getCountryFromLink(city.link) ?? 'unknown'
+      const existing = countryMap.get(country)
+      if (existing) {
+        existing.push(city)
+      } else {
+        countryMap.set(country, [city])
+      }
+    })
+
+    const sortedEntries = Array.from(countryMap.entries()).sort(([a], [b]) =>
+      formatCountryLabel(a).localeCompare(formatCountryLabel(b)),
+    )
+
+    return (
+      <div className="space-y-8">
+        {sortedEntries.map(([country, list]) => {
+          let foundTotal = 0
+          let stationTotal = 0
+          list.forEach((city) => {
+            const slug = getSlugFromLink(city.link)
+            if (!slug) return
+            const stats = cityStatsBySlug.get(slug)
+            if (!stats) return
+            foundTotal += Math.min(stats.found, stats.total)
+            stationTotal += stats.total
+          })
+          const progressRatio = stationTotal > 0 ? foundTotal / stationTotal : 0
+          const headerColor = getGradientColor(progressRatio)
+          const progressLabel = `${(progressRatio * 100).toFixed(2)}%`
+          const cityCountLabel = t('cityCount', { count: list.length })
+          const countrySectionId = getCountrySectionId(continent, country)
+
+          return (
+            <section
+              key={country}
+              id={countrySectionId}
+              className="space-y-4 scroll-mt-28"
+            >
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <h4 className="text-lg font-semibold" style={{ color: headerColor }}>
+                  {formatCountryLabel(country)} · {cityCountLabel}{' '}
+                  <span className="text-sm font-semibold" style={{ color: headerColor }}>
+                    ({progressLabel})
+                  </span>
+                </h4>
+              </div>
+              {renderCityCollection(list)}
+            </section>
+          )
+        })}
+      </div>
+    )
+  }
+
   const renderGlobalBar = (
     label: string,
     percent: number,
@@ -1333,7 +1529,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             
             <div className="flex-1 overflow-y-auto px-2 py-4">
               <div className="flex flex-col gap-1">
-                {continentNavItems.map(({ continent, cityCount, sectionId, averagePercent }) => {
+                {continentNavItems.map(({ continent, cityCount, sectionId, averagePercent, countries }) => {
                   const translatedContinent =
                     CONTINENT_LABEL_KEYS[continent] !== undefined
                       ? t(CONTINENT_LABEL_KEYS[continent])
@@ -1341,50 +1537,96 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                   const percentLabel = `${(averagePercent * 100).toFixed(0)}%`
                   const percentColor = getGradientColor(averagePercent)
                   const isActive = sectionId === activeSection
+                  const isCollapsed = collapsedContinents[continent] ?? false
                   
                   return (
-                    <button
-                      key={sectionId}
-                      type="button"
-                      onClick={() => handleJumpToContinent(sectionId, continent)}
-                      className={classNames(
-                        "group w-full rounded-xl px-3 py-3 text-left transition",
-                        isActive 
-                            ? "bg-zinc-100 dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700" 
-                            : "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
-                      )}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className={classNames(
-                            "text-sm font-semibold transition",
-                            isActive ? "text-zinc-900 dark:text-zinc-100" : "text-zinc-700 group-hover:text-zinc-900 dark:text-zinc-300 dark:group-hover:text-zinc-100"
-                        )}>
-                            {translatedContinent}
-                        </span>
-                        
-                        {isActive ? (
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-[var(--accent-600)] dark:text-[var(--accent-400)]">
-                                <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
-                            </svg>
-                        ) : (
-                            <span 
-                                className="text-xs font-bold tabular-nums"
-                                style={{ color: percentColor }}
+                    <div key={sectionId} className="space-y-1">
+                      <div
+                        className={classNames(
+                          "group w-full rounded-xl px-3 py-3 text-left transition",
+                          isActive 
+                              ? "bg-zinc-100 dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700" 
+                              : "hover:bg-zinc-50 dark:hover:bg-zinc-800/50"
+                        )}
+                      >
+                        <div className="flex items-start justify-between gap-2">
+                          <button
+                            type="button"
+                            onClick={() => handleJumpToContinent(sectionId, continent)}
+                            className="flex-1 text-left"
+                          >
+                            <div className="flex items-center justify-between">
+                              <span className={classNames(
+                                  "text-sm font-semibold transition",
+                                  isActive ? "text-zinc-900 dark:text-zinc-100" : "text-zinc-700 group-hover:text-zinc-900 dark:text-zinc-300 dark:group-hover:text-zinc-100"
+                              )}>
+                                  {translatedContinent}
+                              </span>
+                              
+                              {isActive ? (
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-[var(--accent-600)] dark:text-[var(--accent-400)]">
+                                      <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
+                                  </svg>
+                              ) : (
+                                  <span 
+                                      className="text-xs font-bold tabular-nums"
+                                      style={{ color: percentColor }}
+                                  >
+                                      {percentLabel}
+                                  </span>
+                              )}
+                            </div>
+                            <div className="mt-1 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-500">
+                              <span>{cityCount} {cityCount === 1 ? 'city' : 'cities'}</span>
+                              {isActive && (
+                                  <span className="font-medium" style={{ color: percentColor }}>
+                                      {percentLabel}
+                                  </span>
+                              )}
+                            </div>
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => toggleContinentCollapse(continent)}
+                            className="mt-0.5 rounded-md p-1 text-zinc-500 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+                            aria-label={isCollapsed ? `Expand ${translatedContinent}` : `Collapse ${translatedContinent}`}
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="currentColor"
+                              className={classNames(
+                                "h-4 w-4 transition-transform",
+                                isCollapsed ? "rotate-0" : "rotate-90"
+                              )}
                             >
-                                {percentLabel}
-                            </span>
-                        )}
-
+                              <path fillRule="evenodd" d="M8.25 4.5l7.5 7.5-7.5 7.5" clipRule="evenodd" />
+                            </svg>
+                          </button>
+                        </div>
                       </div>
-                      <div className="mt-1 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-500">
-                        <span>{cityCount} {cityCount === 1 ? 'city' : 'cities'}</span>
-                        {isActive && (
-                            <span className="font-medium" style={{ color: percentColor }}>
-                                {percentLabel}
-                            </span>
-                        )}
-                      </div>
-                    </button>
+                      {!isCollapsed && countries.length > 0 && (
+                        <div className="ml-3 flex flex-col gap-1 border-l border-zinc-200 pl-3 dark:border-zinc-800">
+                          {countries.map((country) => {
+                            const percent = `${(country.percent * 100).toFixed(0)}%`
+                            const color = getGradientColor(country.percent)
+                            return (
+                              <button
+                                key={country.sectionId}
+                                type="button"
+                                onClick={() => handleJumpToContinent(country.sectionId, continent)}
+                                className="flex items-center justify-between rounded-lg px-2 py-1 text-left text-xs font-medium text-zinc-600 transition hover:bg-zinc-50 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800/60 dark:hover:text-zinc-100"
+                              >
+                                <span className="truncate">{country.label}</span>
+                                <span className="tabular-nums" style={{ color }}>
+                                  {percent}
+                                </span>
+                              </button>
+                            )
+                          })}
+                        </div>
+                      )}
+                    </div>
                   )
                 })}
               </div>
@@ -1546,7 +1788,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             <div className="space-y-10">
               {visibleGroups.map(({ continent, cities }, index) => {
                 const cityCount = cities.length
-                const cityGrid = renderCityCollection(cities)
+                const cityGrid = renderCountryGroups(continent, cities)
                 const translatedContinent =
                   CONTINENT_LABEL_KEYS[continent] !== undefined
                     ? t(CONTINENT_LABEL_KEYS[continent])

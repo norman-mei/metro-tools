@@ -328,8 +328,6 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'guangan',
   'guilin',
   'jining',
-  'shantou',
-  'liuzhou',
   'bengbu',
   'guadalajara',
   'monterrey',

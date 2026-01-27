@@ -1,0 +1,821 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3179442,
+          34.7026931
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Hongshan (红山)",
+        "alternate_names": [
+          "红山",
+          "紅山",
+          "Hongshan",
+          "hong shan",
+          "hongshan"
+        ],
+        "line": "luoyang1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3285427,
+          34.6825753
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Gushui (谷水)",
+        "alternate_names": [
+          "谷水",
+          "Gushui",
+          "gu shui",
+          "gushui"
+        ],
+        "line": "luoyang1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3485528,
+          34.678259
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Qinling Road (秦岭路)",
+        "alternate_names": [
+          "秦岭路",
+          "秦嶺路",
+          "Qinling Road",
+          "qin ling lu",
+          "qinlinglu"
+        ],
+        "line": "luoyang1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3612635,
+          34.6705015
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Wuhan Road (武汉路)",
+        "alternate_names": [
+          "武汉路",
+          "武漢路",
+          "Wuhan Road",
+          "wu han lu",
+          "wuhanlu"
+        ],
+        "line": "luoyang1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3699449,
+          34.6635278
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Chang'an Road (长安路)",
+        "alternate_names": [
+          "长安路",
+          "長安路",
+          "Chang'an Road",
+          "chang an lu",
+          "changanlu"
+        ],
+        "line": "luoyang1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3790917,
+          34.6609089
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Shanghai Market (上海市场)",
+        "alternate_names": [
+          "上海市场",
+          "上海市場",
+          "Shanghai Market",
+          "shang hai shi chang",
+          "shanghaishichang"
+        ],
+        "line": "luoyang1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3908808,
+          34.6575696
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Peony Square (牡丹广场)",
+        "alternate_names": [
+          "牡丹广场",
+          "牡丹廣場",
+          "Peony Square",
+          "mu dan guang chang",
+          "mudanguangchang"
+        ],
+        "line": "luoyang1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4048241,
+          34.6607092
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Qilihe (七里河)",
+        "alternate_names": [
+          "七里河",
+          "Qilihe",
+          "qi li he",
+          "qilihe"
+        ],
+        "line": "luoyang1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4204745,
+          34.6673425
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Wangcheng Park (王城公园)",
+        "alternate_names": [
+          "王城公园",
+          "王城公園",
+          "Wangcheng Park",
+          "wang cheng gong yuan",
+          "wangchenggongyuan"
+        ],
+        "line": "luoyang1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4301347,
+          34.6709556
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Jiefang Road (解放路)",
+        "alternate_names": [
+          "解放路",
+          "Jiefang Road",
+          "jie fang lu",
+          "jiefanglu"
+        ],
+        "line": "luoyang1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4376077,
+          34.6737604
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Zhouwangcheng Square (周王城广场)",
+        "alternate_names": [
+          "周王城广场",
+          "周王城廣場",
+          "Zhouwangcheng Square",
+          "zhou wang cheng guang chang",
+          "zhouwangchengguangchang"
+        ],
+        "line": "luoyang1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4516731,
+          34.6790262
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Yingtianmen (应天门)",
+        "alternate_names": [
+          "应天门",
+          "應天門",
+          "Yingtianmen",
+          "ying tian men",
+          "yingtianmen"
+        ],
+        "line": "luoyang1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4623171,
+          34.6831375
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Lijingmen (丽景门)",
+        "alternate_names": [
+          "丽景门",
+          "麗景門",
+          "Lijingmen",
+          "li jing men",
+          "lijingmen"
+        ],
+        "line": "luoyang1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4758021,
+          34.6852648
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Luoyigucheng (洛邑古城)",
+        "alternate_names": [
+          "洛邑古城",
+          "Luoyigucheng",
+          "luo yi gu cheng",
+          "luoyigucheng"
+        ],
+        "line": "luoyang1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4872261,
+          34.6866874
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Jiamaying (夹马营)",
+        "alternate_names": [
+          "夹马营",
+          "夾馬營",
+          "Jiamaying",
+          "jia ma ying",
+          "jiamaying"
+        ],
+        "line": "luoyang1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.49841,
+          34.6889712
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "South Qiming Road (启明南路)",
+        "alternate_names": [
+          "启明南路",
+          "啟明南路",
+          "South Qiming Road",
+          "qi ming nan lu",
+          "qimingnanlu"
+        ],
+        "line": "luoyang1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5115772,
+          34.6911051
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Tawan (塔湾)",
+        "alternate_names": [
+          "塔湾",
+          "塔灣",
+          "Tawan",
+          "ta wan",
+          "tawan"
+        ],
+        "line": "luoyang1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.526525,
+          34.6935354
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Shijiawan (史家湾)",
+        "alternate_names": [
+          "史家湾",
+          "史家灣",
+          "Shijiawan",
+          "shi jia wan",
+          "shijiawan"
+        ],
+        "line": "luoyang1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.546951,
+          34.6972573
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Yangwan (杨湾)",
+        "alternate_names": [
+          "杨湾",
+          "楊灣",
+          "Yangwan",
+          "yang wan",
+          "yangwan"
+        ],
+        "line": "luoyang1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4064072,
+          34.7080666
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Erqiao Road (二乔路)",
+        "alternate_names": [
+          "二乔路",
+          "二喬路",
+          "Erqiao Road",
+          "er qiao lu",
+          "erqiaolu"
+        ],
+        "line": "luoyang2",
+        "order": 0
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4155616,
+          34.7081332
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Mangling (邙岭)",
+        "alternate_names": [
+          "邙岭",
+          "邙嶺",
+          "Mangling",
+          "mang ling",
+          "mangling"
+        ],
+        "line": "luoyang2",
+        "order": 1
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4225735,
+          34.6964229
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Guohua Road (国花路)",
+        "alternate_names": [
+          "国花路",
+          "國花路",
+          "Guohua Road",
+          "guo hua lu",
+          "guohualu"
+        ],
+        "line": "luoyang2",
+        "order": 2
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.427732,
+          34.6863262
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Luoyang Railway Station (洛阳火车站)",
+        "alternate_names": [
+          "洛阳火车站",
+          "洛陽火車站",
+          "Luoyang Railway Station",
+          "luo yang huo che zhan",
+          "luoyanghuochezhan"
+        ],
+        "line": "luoyang2",
+        "order": 3
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4278247,
+          34.6786314
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Shachang Road (纱厂路)",
+        "alternate_names": [
+          "纱厂路",
+          "紗廠路",
+          "Shachang Road",
+          "sha chang lu",
+          "shachanglu"
+        ],
+        "line": "luoyang2",
+        "order": 4
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4301347,
+          34.6709556
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Jiefang Road (解放路)",
+        "alternate_names": [
+          "解放路",
+          "Jiefang Road",
+          "jie fang lu",
+          "jiefanglu"
+        ],
+        "line": "luoyang2",
+        "order": 5
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.434672,
+          34.6619117
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Mudan Bridge (牡丹桥)",
+        "alternate_names": [
+          "牡丹桥",
+          "牡丹橋",
+          "Mudan Bridge",
+          "mu dan qiao",
+          "mudanqiao"
+        ],
+        "line": "luoyang2",
+        "order": 6
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4394737,
+          34.6437157
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Wenbo Park (文博园)",
+        "alternate_names": [
+          "文博园",
+          "文博園",
+          "Wenbo Park",
+          "wen bo yuan",
+          "wenboyuan"
+        ],
+        "line": "luoyang2",
+        "order": 7
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4345803,
+          34.6370792
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Sui-Tang Botanical Garden (隋唐园)",
+        "alternate_names": [
+          "隋唐园",
+          "隋唐園",
+          "Sui-Tang Botanical Garden",
+          "sui tang yuan",
+          "suitangyuan"
+        ],
+        "line": "luoyang2",
+        "order": 8
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4314976,
+          34.6232646
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Sports Center (体育中心)",
+        "alternate_names": [
+          "体育中心",
+          "體育中心",
+          "Sports Center",
+          "ti yu zhong xin",
+          "tiyuzhongxin"
+        ],
+        "line": "luoyang2",
+        "order": 9
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4396208,
+          34.6183933
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Citizens' Home (市民之家)",
+        "alternate_names": [
+          "市民之家",
+          "Citizens' Home",
+          "shi min zhi jia",
+          "shiminzhijia"
+        ],
+        "line": "luoyang2",
+        "order": 10
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.446711,
+          34.6121353
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Kaiyuan Lake (开元湖)",
+        "alternate_names": [
+          "开元湖",
+          "開元湖",
+          "Kaiyuan Lake",
+          "kai yuan hu",
+          "kaiyuanhu"
+        ],
+        "line": "luoyang2",
+        "order": 11
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4477067,
+          34.6055718
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Xingluo Lake (兴洛湖)",
+        "alternate_names": [
+          "兴洛湖",
+          "興洛湖",
+          "Xingluo Lake",
+          "xing luo hu",
+          "xingluohu"
+        ],
+        "line": "luoyang2",
+        "order": 12
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4506034,
+          34.5953362
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Longmen High-Speed Railway Station (龙门高铁站)",
+        "alternate_names": [
+          "龙门高铁站",
+          "龍門高鐵站",
+          "Longmen High-Speed Railway Station",
+          "long men gao tie zhan",
+          "longmengaotiezhan"
+        ],
+        "line": "luoyang2",
+        "order": 13
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4685208,
+          34.6010525
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Balitang (八里堂)",
+        "alternate_names": [
+          "八里堂",
+          "Balitang",
+          "ba li tang",
+          "balitang"
+        ],
+        "line": "luoyang2",
+        "order": 14
+      },
+      "id": 34
+    }
+  ],
+  "properties": {
+    "totalStations": 34,
+    "stationsPerLine": {
+      "luoyang1": 19,
+      "luoyang2": 15
+    }
+  }
+}

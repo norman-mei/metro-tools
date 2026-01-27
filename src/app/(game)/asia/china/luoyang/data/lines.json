@@ -1,0 +1,18 @@
+{
+  "luoyang1": {
+    "name": "Line 1",
+    "color": "#c4608c",
+    "icon": "luoyang1.png",
+    "order": 1,
+    "backgroundColor": "#c4608c",
+    "textColor": "#ffffff"
+  },
+  "luoyang2": {
+    "name": "Line 2",
+    "color": "#6fba2c",
+    "icon": "luoyang2.png",
+    "order": 2,
+    "backgroundColor": "#6fba2c",
+    "textColor": "#ffffff"
+  }
+}

@@ -488,6 +488,28 @@ const generateAlternateNames = (name?: string): string[] => {
 
   const alternates = new Set<string>()
   const englishPortion = trimmed.replace(/\s*\(.*?\)\s*$/, '').trim()
+  const parentheticalMatch = trimmed.match(/\((.*?)\)/)
+  const parenthetical = parentheticalMatch?.[1]?.trim() ?? ''
+
+  const HIGH_SPEED_ENGLISH_PATTERNS = [
+    /\s+High[- ]Speed Railway Station$/i,
+    /\s+High[- ]Speed Rail(?:way)? Station$/i,
+    /\s+HSR Station$/i,
+  ]
+  const HIGH_SPEED_CHINESE_PATTERNS = [/高铁站$/, /高鐵站$/]
+
+  const addHighSpeedShortcuts = (value: string, patterns: RegExp[]) => {
+    const source = value.trim()
+    if (!source) return
+    patterns.forEach((pattern) => {
+      if (pattern.test(source)) {
+        const shortened = source.replace(pattern, '').trim()
+        if (shortened) {
+          alternates.add(shortened)
+        }
+      }
+    })
+  }
 
   const formatDirection = (direction: string) =>
     direction.charAt(0).toUpperCase() + direction.slice(1).toLowerCase()
@@ -515,6 +537,13 @@ const generateAlternateNames = (name?: string): string[] => {
       addCrossAlternate(first, second)
       addCrossAlternate(second, first)
     }
+  }
+
+  if (englishPortion) {
+    addHighSpeedShortcuts(englishPortion, HIGH_SPEED_ENGLISH_PATTERNS)
+  }
+  if (parenthetical) {
+    addHighSpeedShortcuts(parenthetical, HIGH_SPEED_CHINESE_PATTERNS)
   }
 
   if (englishPortion) {

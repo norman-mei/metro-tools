@@ -1,0 +1,2287 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.844989, 1.298669]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Dhoby Ghaut",
+        "line": "SingaporeMRTCircleLine",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.854751, 1.275171]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Marina Bay",
+        "line": "SingaporeMRTCircleLine",
+        "order": 0
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.861082, 1.292781]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Promenade",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 0
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.852679, 1.293143]
+      },
+      "properties": {
+        "id": 248,
+        "name": "City Hall",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 0
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.988565, 1.357338]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Changi Airport",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 0
+      },
+      "id": 302
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.902362, 1.405251]
+      },
+      "properties": {
+        "id": 408,
+        "name": "Punggol",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 0
+      },
+      "id": 408
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.854751, 1.275171]
+      },
+      "properties": {
+        "id": 424,
+        "name": "Marina Bay",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 0
+      },
+      "id": 424
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.862723, 1.27175]
+      },
+      "properties": {
+        "id": 450,
+        "name": "Marina South Pier",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 0
+      },
+      "id": 450
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.839769, 1.337591]
+      },
+      "properties": {
+        "id": 607,
+        "name": "Caldecott",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 0
+      },
+      "id": 607
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.74223, 1.333078]
+      },
+      "properties": {
+        "id": 449,
+        "name": "Jurong East",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 529
+      },
+      "id": 449
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.94933, 1.373012]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Pasir Ris",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 519
+      },
+      "id": 301
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.749535, 1.349098]
+      },
+      "properties": {
+        "id": 448,
+        "name": "Bukit Batok",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 494
+      },
+      "id": 448
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.945154, 1.35343]
+      },
+      "properties": {
+        "id": 300,
+        "name": "Tampines",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 487
+      },
+      "id": 300
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.953445, 1.343237]
+      },
+      "properties": {
+        "id": 299,
+        "name": "Simei",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 478
+      },
+      "id": 299
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.751742, 1.35889]
+      },
+      "properties": {
+        "id": 447,
+        "name": "Bukit Gombak",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 472
+      },
+      "id": 447
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.946558, 1.327139]
+      },
+      "properties": {
+        "id": 298,
+        "name": "Tanah Merah",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 440
+      },
+      "id": 298
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.744239, 1.385312]
+      },
+      "properties": {
+        "id": 446,
+        "name": "Choa Chu Kang",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 429
+      },
+      "id": 446
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.929994, 1.32394]
+      },
+      "properties": {
+        "id": 297,
+        "name": "Bedok",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 425
+      },
+      "id": 297
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.747336, 1.397478]
+      },
+      "properties": {
+        "id": 445,
+        "name": "Yew Tee",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 409
+      },
+      "id": 445
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.912792, 1.320918]
+      },
+      "properties": {
+        "id": 296,
+        "name": "Kembangan",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 403
+      },
+      "id": 296
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.903067, 1.31975]
+      },
+      "properties": {
+        "id": 295,
+        "name": "Eunos",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 389
+      },
+      "id": 295
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.892328, 1.317966]
+      },
+      "properties": {
+        "id": 294,
+        "name": "Paya Lebar",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 376
+      },
+      "id": 294
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.882903, 1.316363]
+      },
+      "properties": {
+        "id": 293,
+        "name": "Aljunied",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 368
+      },
+      "id": 293
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.761959, 1.425261]
+      },
+      "properties": {
+        "id": 444,
+        "name": "Kranji",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 359
+      },
+      "id": 444
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.871368, 1.311403]
+      },
+      "properties": {
+        "id": 292,
+        "name": "Kallang",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 355
+      },
+      "id": 292
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.86314, 1.307324]
+      },
+      "properties": {
+        "id": 291,
+        "name": "Lavender",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 340
+      },
+      "id": 291
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.856205, 1.300421]
+      },
+      "properties": {
+        "id": 290,
+        "name": "Bugis",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 338
+      },
+      "id": 290
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.774216, 1.432631]
+      },
+      "properties": {
+        "id": 443,
+        "name": "Marsiling",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 335
+      },
+      "id": 443
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.636631, 1.340115]
+      },
+      "properties": {
+        "id": 268,
+        "name": "Tuas Link",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 328
+      },
+      "id": 268
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.64009, 1.329433]
+      },
+      "properties": {
+        "id": 267,
+        "name": "Tuas West Road",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 315
+      },
+      "id": 267
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.649269, 1.320774]
+      },
+      "properties": {
+        "id": 266,
+        "name": "Tuas Crescent",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 309
+      },
+      "id": 266
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.787714, 1.437531]
+      },
+      "properties": {
+        "id": 442,
+        "name": "Woodlands",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 306
+      },
+      "id": 442
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.660496, 1.319347]
+      },
+      "properties": {
+        "id": 265,
+        "name": "Gul Circle",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 295
+      },
+      "id": 265
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.800933, 1.440694]
+      },
+      "properties": {
+        "id": 441,
+        "name": "Admiralty",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 289
+      },
+      "id": 441
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.678284, 1.327661]
+      },
+      "properties": {
+        "id": 264,
+        "name": "Joo Koon",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 279
+      },
+      "id": 264
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.962172, 1.33556]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Expo",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 277
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.961346, 1.341665]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Upper Changi",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 268
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.820042, 1.449149]
+      },
+      "properties": {
+        "id": 440,
+        "name": "Sembawang",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 263
+      },
+      "id": 440
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.954978, 1.35615]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Tampines East",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 251
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.697354, 1.337516]
+      },
+      "properties": {
+        "id": 263,
+        "name": "Pioneer",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 247
+      },
+      "id": 263
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.822481, 1.265319]
+      },
+      "properties": {
+        "id": 28,
+        "name": "HarbourFront",
+        "line": "SingaporeMRTCircleLine",
+        "order": 242
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.943045, 1.355224]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Tampines",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 240
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.705783, 1.338456]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Boon Lay",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 239
+      },
+      "id": 262
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.82953, 1.443386]
+      },
+      "properties": {
+        "id": 439,
+        "name": "Canberra",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 238
+      },
+      "id": 439
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.809864, 1.270628]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Telok Blangah",
+        "line": "SingaporeMRTCircleLine",
+        "order": 234
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.938507, 1.345518]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Tampines West",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 234
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.802781, 1.272318]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Labrador Park",
+        "line": "SingaporeMRTCircleLine",
+        "order": 229
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.720827, 1.344193]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Lakeside",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 229
+      },
+      "id": 261
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.791612, 1.27617]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Pasir Panjang",
+        "line": "SingaporeMRTCircleLine",
+        "order": 225
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.931889, 1.336483]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Bedok Reservoir",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 222
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.835106, 1.42938]
+      },
+      "properties": {
+        "id": 438,
+        "name": "Yishun",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 218
+      },
+      "id": 438
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.78177, 1.282653]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Haw Par Villa",
+        "line": "SingaporeMRTCircleLine",
+        "order": 217
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.917991, 1.334691]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Bedok North",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 212
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.732591, 1.342296]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Chinese Garden",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 207
+      },
+      "id": 260
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.784415, 1.293302]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Kent Ridge",
+        "line": "SingaporeMRTCircleLine",
+        "order": 205
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.908619, 1.334986]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Kaki Bukit ",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 205
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.833067, 1.417281]
+      },
+      "properties": {
+        "id": 437,
+        "name": "Khatib",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 202
+      },
+      "id": 437
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.787238, 1.299609]
+      },
+      "properties": {
+        "id": 22,
+        "name": "one-north",
+        "line": "SingaporeMRTCircleLine",
+        "order": 201
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.899291, 1.329983]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Ubi",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 196
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.790867, 1.307174]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Buona Vista",
+        "line": "SingaporeMRTCircleLine",
+        "order": 193
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.890309, 1.326558]
+      },
+      "properties": {
+        "id": 238,
+        "name": "MacPherson",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 192
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.742113, 1.333011]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Jurong East",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 192
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.795754, 1.312102]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Holland Village",
+        "line": "SingaporeMRTCircleLine",
+        "order": 189
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.882947, 1.326946]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Mattar",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 182
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.807789, 1.317623]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Farrer Road",
+        "line": "SingaporeMRTCircleLine",
+        "order": 179
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.871999, 1.321584]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Geylang Bahru",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 170
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.815725, 1.322585]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Botanic Gardens",
+        "alternate_names": ["Kebun Bunga"],
+        "line": "SingaporeMRTCircleLine",
+        "order": 168
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.863011, 1.313723]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Bendemeer",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 161
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.855226, 1.305128]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Jalan Besar",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 148
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.839699, 1.337652]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Caldecott",
+        "line": "SingaporeMRTCircleLine",
+        "order": 146
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.765156, 1.315067]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Clementi",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 145
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.850333, 1.298893]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Bencoolen",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 141
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.839286, 1.348604]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Marymount",
+        "line": "SingaporeMRTCircleLine",
+        "order": 139
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.844232, 1.292343]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Fort Canning",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 134
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.845008, 1.381821]
+      },
+      "properties": {
+        "id": 436,
+        "name": "Yio Chu Kang",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 132
+      },
+      "id": 436
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.848265, 1.351468]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Bishan",
+        "line": "SingaporeMRTCircleLine",
+        "order": 127
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.778598, 1.31137]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Dover",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 125
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.844004, 1.285021]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Chinatown",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 122
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.848749, 1.282131]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Telok Ayer",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 118
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.849646, 1.370113]
+      },
+      "properties": {
+        "id": 435,
+        "name": "Ang Mo Kio",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 116
+      },
+      "id": 435
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.863397, 1.351485]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Lorong Chuan",
+        "line": "SingaporeMRTCircleLine",
+        "order": 115
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.853306, 1.279128]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Downtown",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 112
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.790831, 1.307108]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Buona Vista",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 108
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.873756, 1.349788]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Serangoon",
+        "line": "SingaporeMRTCircleLine",
+        "order": 105
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.859639, 1.282592]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Bayfront",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 99
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.880476, 1.342493]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bartley",
+        "line": "SingaporeMRTCircleLine",
+        "order": 93
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.798261, 1.30239]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Commonwealth",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 92
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.762153, 1.378302]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Bukit Panjang",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 91
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.888187, 1.3357]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Tai Seng",
+        "line": "SingaporeMRTCircleLine",
+        "order": 85
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.764935, 1.369062]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Cashew",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 85
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.848316, 1.351444]
+      },
+      "properties": {
+        "id": 434,
+        "name": "Bishan",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 79
+      },
+      "id": 434
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.890197, 1.32654]
+      },
+      "properties": {
+        "id": 10,
+        "name": "MacPherson",
+        "line": "SingaporeMRTCircleLine",
+        "order": 78
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.806005, 1.294522]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Queenstown",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 77
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.767099, 1.362466]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Hillview",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 75
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.892256, 1.31804]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Paya Lebar",
+        "line": "SingaporeMRTCircleLine",
+        "order": 70
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.846825, 1.340599]
+      },
+      "properties": {
+        "id": 433,
+        "name": "Braddell",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 69
+      },
+      "id": 433
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.847646, 1.332373]
+      },
+      "properties": {
+        "id": 432,
+        "name": "Toa Payoh",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 63
+      },
+      "id": 432
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.822469, 1.265482]
+      },
+      "properties": {
+        "id": 423,
+        "name": "HarbourFront",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 61
+      },
+      "id": 423
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.816725, 1.289589]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Redhill",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 57
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.84355, 1.320033]
+      },
+      "properties": {
+        "id": 431,
+        "name": "Novena",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 56
+      },
+      "id": 431
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.776025, 1.34118]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Beauty World",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 54
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.838834, 1.312999]
+      },
+      "properties": {
+        "id": 430,
+        "name": "Newton",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 52
+      },
+      "id": 430
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.888336, 1.308318]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Dakota",
+        "line": "SingaporeMRTCircleLine",
+        "order": 51
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.840239, 1.280687]
+      },
+      "properties": {
+        "id": 422,
+        "name": "Outram Park",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 51
+      },
+      "id": 422
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.784119, 1.335796]
+      },
+      "properties": {
+        "id": 186,
+        "name": "King Albert Park",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 50
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.843997, 1.285025]
+      },
+      "properties": {
+        "id": 421,
+        "name": "Chinatown",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 49
+      },
+      "id": 421
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.84687, 1.288981]
+      },
+      "properties": {
+        "id": 420,
+        "name": "Clarke Quay",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 48
+      },
+      "id": 420
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.797587, 1.330572]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Sixth Avenue",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 47
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.844994, 1.298799]
+      },
+      "properties": {
+        "id": 419,
+        "name": "Dhoby Ghaut",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 44
+      },
+      "id": 419
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.832225, 1.303273]
+      },
+      "properties": {
+        "id": 429,
+        "name": "Orchard",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 44
+      },
+      "id": 429
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.882507, 1.306226]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Mountbatten",
+        "line": "SingaporeMRTCircleLine",
+        "order": 43
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.807116, 1.325958]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Tan Kah Kee",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 43
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.849298, 1.306572]
+      },
+      "properties": {
+        "id": 418,
+        "name": "Little India",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 42
+      },
+      "id": 418
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.815749, 1.322583]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Botanic Gardens",
+        "alternate_names": ["Kebun Bunga"],
+        "line": "SingaporeMRTDowntownLine",
+        "order": 39
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.854374, 1.312755]
+      },
+      "properties": {
+        "id": 417,
+        "name": "Farrer Park",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 39
+      },
+      "id": 417
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.875369, 1.302851]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Stadium",
+        "line": "SingaporeMRTCircleLine",
+        "order": 38
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.827643, 1.286053]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Tiong Bahru",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 38
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.861609, 1.319748]
+      },
+      "properties": {
+        "id": 416,
+        "name": "Boon Keng",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 36
+      },
+      "id": 416
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.825985, 1.320031]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Stevens",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 35
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.83851, 1.300336]
+      },
+      "properties": {
+        "id": 428,
+        "name": "Somerset",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 32
+      },
+      "id": 428
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.838861, 1.312954]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Newton",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 30
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.869099, 1.331252]
+      },
+      "properties": {
+        "id": 415,
+        "name": "Potong Pasir",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 30
+      },
+      "id": 415
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.840183, 1.28063]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Outram Park",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 29
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.845017, 1.298775]
+      },
+      "properties": {
+        "id": 427,
+        "name": "Dhoby Ghaut",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 29
+      },
+      "id": 427
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.863508, 1.299653]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nicoll Highway",
+        "line": "SingaporeMRTCircleLine",
+        "order": 28
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.849299, 1.306571]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Little India",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 27
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.870743, 1.339198]
+      },
+      "properties": {
+        "id": 414,
+        "name": "Woodleigh",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 26
+      },
+      "id": 414
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.852697, 1.30392]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Rochor",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 23
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.96227, 1.33562]
+      },
+      "properties": {
+        "id": 303,
+        "name": "Expo",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 22
+      },
+      "id": 303
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.852615, 1.293086]
+      },
+      "properties": {
+        "id": 426,
+        "name": "City Hall",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 22
+      },
+      "id": 426
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.861087, 1.29278]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Promenade",
+        "line": "SingaporeMRTCircleLine",
+        "order": 21
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.845886, 1.276557]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Tanjong Pagar",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 20
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.873763, 1.349814]
+      },
+      "properties": {
+        "id": 413,
+        "name": "Serangoon",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 19
+      },
+      "id": 413
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.868178, 1.279285]
+      },
+      "properties": {
+        "id": 627,
+        "name": "Gardens by the Bay",
+        "alternate_names": ["Taman di Pesisiran"],
+        "line": "CM_SingaporeMRT_tel",
+        "order": 18
+      },
+      "id": 627
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.884862, 1.359989]
+      },
+      "properties": {
+        "id": 412,
+        "name": "Kovan",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 16
+      },
+      "id": 412
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.854734, 1.275144]
+      },
+      "properties": {
+        "id": 626,
+        "name": "Marina Bay",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 16
+      },
+      "id": 626
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.850649, 1.277815]
+      },
+      "properties": {
+        "id": 625,
+        "name": "Shenton Way",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 15
+      },
+      "id": 625
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.856093, 1.300528]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Bugis",
+        "line": "SingaporeMRTDowntownLine",
+        "order": 14
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.785611, 1.448665]
+      },
+      "properties": {
+        "id": 615,
+        "name": "Woodlands North",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 14
+      },
+      "id": 615
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.787956, 1.437447]
+      },
+      "properties": {
+        "id": 614,
+        "name": "Woodlands",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 13
+      },
+      "id": 614
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.843975, 1.280659]
+      },
+      "properties": {
+        "id": 624,
+        "name": "Maxwell",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 13
+      },
+      "id": 624
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.851536, 1.284405]
+      },
+      "properties": {
+        "id": 425,
+        "name": "Raffles Place",
+        "line": "SingaporeMRTNorthsouthLine",
+        "order": 12
+      },
+      "id": 425
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.840249, 1.280497]
+      },
+      "properties": {
+        "id": 623,
+        "name": "Outram Park",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 12
+      },
+      "id": 623
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.855971, 1.293253]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Esplanade",
+        "line": "SingaporeMRTCircleLine",
+        "order": 11
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.892725, 1.371904]
+      },
+      "properties": {
+        "id": 411,
+        "name": "Hougang",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 11
+      },
+      "id": 411
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.79442, 1.427226]
+      },
+      "properties": {
+        "id": 613,
+        "name": "Woodlands South",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 11
+      },
+      "id": 613
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.851445, 1.28441]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Raffles Place",
+        "line": "SingaporeMRTEastwestLine",
+        "order": 10
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.859745, 1.282527]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Bayfront",
+        "line": "SingaporeMRTCircleLine",
+        "order": 9
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89305, 1.383057]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Buangkok",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 9
+      },
+      "id": 410
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.817783, 1.397654]
+      },
+      "properties": {
+        "id": 612,
+        "name": "Springleaf",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 9
+      },
+      "id": 612
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.83384, 1.287493]
+      },
+      "properties": {
+        "id": 622,
+        "name": "Havelock",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 9
+      },
+      "id": 622
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.850518, 1.296852]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Bras Basah",
+        "line": "SingaporeMRTCircleLine",
+        "order": 8
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.833675, 1.294732]
+      },
+      "properties": {
+        "id": 621,
+        "name": "Great World",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 8
+      },
+      "id": 621
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.836473, 1.384519]
+      },
+      "properties": {
+        "id": 611,
+        "name": "Lentor",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 7
+      },
+      "id": 611
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.831959, 1.303141]
+      },
+      "properties": {
+        "id": 620,
+        "name": "Orchard",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 7
+      },
+      "id": 620
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.836765, 1.372151]
+      },
+      "properties": {
+        "id": 610,
+        "name": "Mayflower",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 5
+      },
+      "id": 610
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.823884, 1.302266]
+      },
+      "properties": {
+        "id": 619,
+        "name": "Orchard Boulevard",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 5
+      },
+      "id": 619
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.895269, 1.39134]
+      },
+      "properties": {
+        "id": 409,
+        "name": "Sengkang",
+        "line": "SingaporeMRTNortheastLine",
+        "order": 4
+      },
+      "id": 409
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.83271, 1.36351]
+      },
+      "properties": {
+        "id": 609,
+        "name": "Bright Hill",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 3
+      },
+      "id": 609
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.819202, 1.306994]
+      },
+      "properties": {
+        "id": 618,
+        "name": "Napier",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 3
+      },
+      "id": 618
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.832989, 1.354454]
+      },
+      "properties": {
+        "id": 608,
+        "name": "Upper Thomson",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 1
+      },
+      "id": 608
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8257, 1.320315]
+      },
+      "properties": {
+        "id": 617,
+        "name": "Stevens",
+        "line": "CM_SingaporeMRT_tel",
+        "order": 1
+      },
+      "id": 617
+    }
+  ],
+  "properties": {
+    "totalStations": 162,
+    "stationsPerLine": {
+      "SingaporeMRTCircleLine": 30,
+      "SingaporeMRTDowntownLine": 34,
+      "SingaporeMRTEastwestLine": 35,
+      "SingaporeMRTNortheastLine": 16,
+      "SingaporeMRTNorthsouthLine": 27,
+      "CM_SingaporeMRT_tel": 20
+    }
+  }
+}

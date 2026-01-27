@@ -4,7 +4,7 @@ import { buildPlaceholderConfig } from '@/app/(game)/_placeholder/config'
 const config = buildPlaceholderConfig({
   citySlug: 'kuala-lumpur',
   cityPath: 'asia/malaysia/kuala-lumpur',
-  cityTitle: 'Kuala Lumpur (吉隆坡)',
+  cityTitle: 'Kuala Lumpur',
 })
 
 export const metadata = config.METADATA
