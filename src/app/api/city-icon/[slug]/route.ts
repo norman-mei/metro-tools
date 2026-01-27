@@ -2,14 +2,12 @@ import { createHash } from 'crypto'
 import { promises as fs } from 'fs'
 import { NextRequest, NextResponse } from 'next/server'
 import path from 'path'
-import { resolveCityPath } from '@/lib/resolveCityPath'
 
 const VALID_SLUG = /^[a-z0-9-]+$/
-const GAME_ROOT = path.join(process.cwd(), 'src', 'app', '(game)')
+const ICON_ROOT = path.join(process.cwd(), 'public', 'city-icons')
 const FALLBACK_CANDIDATES = [
-  path.join(process.cwd(), 'src', 'app', 'favicon.ico'),
+  path.join(ICON_ROOT, '_default.ico'),
   path.join(process.cwd(), 'public', 'favicon.ico'),
-  path.join(process.cwd(), 'public', 'images', 'favicon.ico'),
 ]
 
 let fallbackCache: Buffer | null = null
@@ -48,29 +46,19 @@ const CACHE_HEADERS = {
 }
 
 type RouteParams = {
-  params: Promise<{ slug: string }>
+  params: { slug: string }
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
-  const { slug } = await params
-  const normalizedSlug = slug?.toLowerCase()
+  const normalizedSlug = params?.slug?.toLowerCase()
 
   if (!normalizedSlug || !VALID_SLUG.test(normalizedSlug)) {
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
 
-  const cityPath = await resolveCityPath(normalizedSlug)
-
-  if (!cityPath) {
-    return NextResponse.json({ error: 'Not found' }, { status: 404 })
-  }
-
-  const iconPath = path.join(GAME_ROOT, cityPath, 'icon.ico')
-  const faviconPath = path.join(GAME_ROOT, cityPath, 'favicon.ico')
-  
+  const iconPath = path.join(ICON_ROOT, `${normalizedSlug}.ico`)
   const iconBuffer =
     (await readIconFromDisk(iconPath)) ??
-    (await readIconFromDisk(faviconPath)) ??
     (await getFallbackIcon())
 
   if (!iconBuffer || iconBuffer.length === 0) {

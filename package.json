@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev --turbo",
     "dev:turbo": "next dev --turbo",
-    "build": "next build",
+    "build": "node scripts/sync-city-icons.js && next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "check:duplicate-keys": "node scripts/check-duplicate-object-keys.js",
-    "generate:station-totals": "node scripts/generate-station-totals.js"
+    "generate:station-totals": "node scripts/generate-station-totals.js",
+    "sync:icons": "node scripts/sync-city-icons.js"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
