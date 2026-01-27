@@ -46,11 +46,12 @@ const CACHE_HEADERS = {
 }
 
 type RouteParams = {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
-  const normalizedSlug = params?.slug?.toLowerCase()
+  const { slug } = await params
+  const normalizedSlug = slug?.toLowerCase()
 
   if (!normalizedSlug || !VALID_SLUG.test(normalizedSlug)) {
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
