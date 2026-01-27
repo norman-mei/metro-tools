@@ -11,6 +11,8 @@
     "check:duplicate-keys": "node scripts/check-duplicate-object-keys.js",
     "generate:station-totals": "node scripts/generate-station-totals.js",
     "sync:icons": "node scripts/sync-city-icons.js"
+    ,
+    "sync:icons:watch": "node scripts/auto-sync-city-icons.js"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
