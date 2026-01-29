@@ -50,6 +50,10 @@ const buildMetadata = ({
   cityPath,
   description = 'Placeholder data while the full network is loading.',
 }: PlaceholderConfigOptions): Metadata => ({
+  icons: {
+    icon: `/api/city-icon/${citySlug}`,
+    apple: `/api/city-icon/${citySlug}`,
+  },
   title: `${cityTitle} Metro Memory`,
   description,
   openGraph: {
