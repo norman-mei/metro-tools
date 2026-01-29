@@ -1,0 +1,18 @@
+{
+  "nantong1": {
+    "name": "Line 1",
+    "color": "#FF0000",
+    "backgroundColor": "#FF0000",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "nantong1.png"
+  },
+  "nantong2": {
+    "name": "Line 2",
+    "color": "#619CD8",
+    "backgroundColor": "#619CD8",
+    "textColor": "#ffffff",
+    "order": 2,
+    "icon": "nantong2.png"
+  }
+}

@@ -134,7 +134,6 @@ export const CITY_PATH_MAP: Record<string, string> = {
   'seattle': 'north-america/usa/seattle',
   'sendai': 'asia/japan/sendai',
   'seoul': 'asia/south-korea/seoul',
-  'shaoxing': 'asia/china/shaoxing',
   'sheffield': 'europe/uk/sheffield',
   'shenyang': 'asia/china/shenyang',
   'shijiazhuang': 'asia/china/shijiazhuang',

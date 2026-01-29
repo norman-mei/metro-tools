@@ -82,6 +82,7 @@ const CITY_VIEW_OPTIONS: Array<{ value: CityCardVariant; label: string }> = [
 
 const CITY_VIEW_MODE_STORAGE_KEY = 'city-view-mode'
 const CITY_VIEW_SATELLITE_STORAGE_KEY = 'city-view-satellite'
+const CONTINENT_NAV_OPEN_STORAGE_KEY = 'continent-nav-open'
 
 const TAB_OPTIONS: Array<{ id: TabOption; label: string }> = [
   { id: 'cities', label: 'tabCities' },
@@ -162,6 +163,28 @@ const COLLAPSIBLE_CONTINENTS = new Set([
   'Asia',
   'Oceania',
 ])
+
+const CONTINENT_ORDER = [
+  'North America',
+  'South America',
+  'Europe',
+  'Asia',
+  'Australia',
+  'Africa',
+  'Oceania',
+  'Antarctica',
+]
+
+const CONTINENT_LABEL_KEYS: Record<string, string> = {
+  'North America': 'northAmerica',
+  'South America': 'southAmerica',
+  Europe: 'europe',
+  Asia: 'asia',
+  Australia: 'australia',
+  Africa: 'africa',
+  Oceania: 'oceania',
+  Antarctica: 'antarctica',
+}
 
 const getContinentSectionId = (continent: string) => {
   const slug = continent
@@ -350,8 +373,19 @@ interface AchievementMeta {
   title: string
   description: string
   continent: string
+  country: string
   order: number
   iconSrc?: string
+}
+
+type AchievementCountryGroup = {
+  country: string
+  entries: AchievementMeta[]
+}
+
+type AchievementContinentGroup = {
+  continent: string
+  countries: AchievementCountryGroup[]
 }
 
 type SearcheableCitiesListProps = {
@@ -461,6 +495,7 @@ const SearcheableCitiesList = ({
   const [favoriteSlugs, setFavoriteSlugs] = useState<Set<string>>(new Set())
   const [favoriteToast, setFavoriteToast] = useState<{ message: string; ts: number } | null>(null)
   const viewPrefsHydratedRef = useRef(false)
+  const navPrefsHydratedRef = useRef(false)
   const suppressActiveUntilRef = useRef<number>(0)
 
   // Load favorites from localStorage (per user/anon)
@@ -560,6 +595,7 @@ const SearcheableCitiesList = ({
           title: meta.title,
           description: meta.description,
           continent: city.continent,
+          country: getCountryFromLink(city.link) ?? 'unknown',
           order: index,
         }
       })
@@ -587,6 +623,7 @@ const SearcheableCitiesList = ({
       title: def.title,
       description: def.description,
       continent: 'Global',
+      country: 'global',
       order: Number.MAX_SAFE_INTEGER,
       iconSrc: '/favicon.ico',
     }
@@ -612,7 +649,7 @@ const SearcheableCitiesList = ({
   const achievementFuse = useMemo(
     () =>
       new Fuse(achievementCatalog, {
-        keys: ['cityName', 'title', 'description', 'slug', 'continent'],
+        keys: ['cityName', 'title', 'description', 'slug', 'continent', 'country'],
         minMatchCharLength: 1,
         threshold: 0.35,
         distance: 100,
@@ -767,6 +804,29 @@ const SearcheableCitiesList = ({
   )
 
   useEffect(() => {
+    let nextOpen: boolean | null = null
+
+    if (typeof uiPreferences.continentNavOpen === 'boolean') {
+      nextOpen = uiPreferences.continentNavOpen
+    } else if (!navPrefsHydratedRef.current && typeof window !== 'undefined') {
+      const stored = window.localStorage.getItem(CONTINENT_NAV_OPEN_STORAGE_KEY)
+      if (stored === '1' || stored === 'true') {
+        nextOpen = true
+      } else if (stored === '0' || stored === 'false') {
+        nextOpen = false
+      }
+    }
+
+    if (nextOpen !== null && nextOpen !== continentNavOpen) {
+      setContinentNavOpen(nextOpen)
+    }
+
+    if (!navPrefsHydratedRef.current) {
+      navPrefsHydratedRef.current = true
+    }
+  }, [continentNavOpen, uiPreferences.continentNavOpen])
+
+  useEffect(() => {
     let nextMode: CityCardVariant | null = null
     let nextSatellite: boolean | null = null
 
@@ -817,6 +877,17 @@ const SearcheableCitiesList = ({
     }
     updateUiPreferences({ cityViewMode })
   }, [cityViewMode, updateUiPreferences])
+
+  useEffect(() => {
+    if (!navPrefsHydratedRef.current) return
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(
+        CONTINENT_NAV_OPEN_STORAGE_KEY,
+        continentNavOpen ? '1' : '0',
+      )
+    }
+    updateUiPreferences({ continentNavOpen })
+  }, [continentNavOpen, updateUiPreferences])
 
   useEffect(() => {
     if (cityViewMode !== 'globe' && cityViewMode !== 'map') {
@@ -968,22 +1039,6 @@ const SearcheableCitiesList = ({
     }
   }, [enrichedCities, cityProgress, citySort])
 
-const continentOrder = useMemo(
-  () => ['North America', 'South America', 'Europe', 'Asia', 'Australia', 'Africa', 'Oceania', 'Antarctica'],
-  [],
-)
-
-const CONTINENT_LABEL_KEYS: Record<string, string> = {
-  'North America': 'northAmerica',
-  'South America': 'southAmerica',
-  Europe: 'europe',
-  Asia: 'asia',
-  Australia: 'australia',
-  Africa: 'africa',
-  Oceania: 'oceania',
-  Antarctica: 'antarctica',
-}
-
   const groupedCities = useMemo(() => {
     const continentMap = new Map<string, ICity[]>()
     sortedCities.forEach((city) => {
@@ -997,8 +1052,8 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       if (citySort === 'continent-asc') return entries.sort((a, b) => a[0].localeCompare(b[0]))
       if (citySort === 'continent-desc') return entries.sort((a, b) => b[0].localeCompare(a[0]))
       return entries.sort((a, b) => {
-        const aIndex = continentOrder.indexOf(a[0])
-        const bIndex = continentOrder.indexOf(b[0])
+        const aIndex = CONTINENT_ORDER.indexOf(a[0])
+        const bIndex = CONTINENT_ORDER.indexOf(b[0])
         if (aIndex === -1 && bIndex === -1) return a[0].localeCompare(b[0])
         if (aIndex === -1) return 1
         if (bIndex === -1) return -1
@@ -1006,7 +1061,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       })
     }
     return sortEntries().map(([continent, list]) => ({ continent, cities: list }))
-  }, [sortedCities, continentOrder, citySort])
+  }, [sortedCities, citySort])
 
   const fullCitiesSet = useMemo(() => new Set(enrichedCities.map((city) => city.link)), [enrichedCities])
 
@@ -1050,7 +1105,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     [favoriteCities, visibleGroups],
   )
 
-  const continentNavItems = useMemo(() => {
+  const cityNavItems = useMemo(() => {
     const cityStatsBySlug = new Map(
       globalStats.cityBreakdown.map(({ slug, found, total }) => [slug, { found, total }]),
     )
@@ -1121,6 +1176,94 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     const filtered = achievementCatalog.filter((entry) => achievementSearchSet.has(entry.slug))
     return sortAchievementEntries(filtered, achievementSort, unlockedSet)
   }, [achievementCatalog, achievementSearchSet, achievementSort, unlockedSet])
+
+  const achievementGroups = useMemo<AchievementContinentGroup[]>(() => {
+    const continentMap = new Map<string, AchievementMeta[]>()
+    visibleAchievements.forEach((entry) => {
+      const continent = entry.continent || 'Unknown'
+      if (!continentMap.has(continent)) {
+        continentMap.set(continent, [])
+      }
+      continentMap.get(continent)!.push(entry)
+    })
+
+    const entries = Array.from(continentMap.entries())
+    const sortedContinents =
+      achievementSort === 'continent-asc'
+        ? entries.sort((a, b) => a[0].localeCompare(b[0]))
+        : achievementSort === 'continent-desc'
+          ? entries.sort((a, b) => b[0].localeCompare(a[0]))
+          : entries.sort((a, b) => {
+              if (a[0] === 'Global') return -1
+              if (b[0] === 'Global') return 1
+              const aIndex = CONTINENT_ORDER.indexOf(a[0])
+              const bIndex = CONTINENT_ORDER.indexOf(b[0])
+              if (aIndex === -1 && bIndex === -1) return a[0].localeCompare(b[0])
+              if (aIndex === -1) return 1
+              if (bIndex === -1) return -1
+              return aIndex - bIndex
+            })
+
+    return sortedContinents.map(([continent, list]) => {
+      const countryMap = new Map<string, AchievementMeta[]>()
+      list.forEach((entry) => {
+        const country = entry.country || 'unknown'
+        const existing = countryMap.get(country)
+        if (existing) {
+          existing.push(entry)
+        } else {
+          countryMap.set(country, [entry])
+        }
+      })
+      const countries = Array.from(countryMap.entries())
+        .map(([country, entries]) => ({
+          country,
+          entries,
+        }))
+        .sort((a, b) => formatCountryLabel(a.country).localeCompare(formatCountryLabel(b.country)))
+      return {
+        continent,
+        countries,
+      }
+    })
+  }, [achievementSort, visibleAchievements])
+
+  const achievementNavItems = useMemo(() => {
+    return achievementGroups.map((group) => {
+      const total = group.countries.reduce((sum, country) => sum + country.entries.length, 0)
+      const unlocked = group.countries.reduce(
+        (sum, country) =>
+          sum + country.entries.filter((entry) => unlockedSet.has(entry.slug)).length,
+        0,
+      )
+      const averagePercent = total > 0 ? unlocked / total : 0
+
+      const countries = group.continent === 'Global'
+        ? []
+        : group.countries.map((country) => {
+        const countryTotal = country.entries.length
+        const countryUnlocked = country.entries.filter((entry) =>
+          unlockedSet.has(entry.slug),
+        ).length
+        const percent = countryTotal > 0 ? countryUnlocked / countryTotal : 0
+        return {
+          country: country.country,
+          label: formatCountryLabel(country.country),
+          cityCount: countryTotal,
+          percent,
+          sectionId: getCountrySectionId(group.continent, country.country),
+        }
+      })
+
+      return {
+        continent: group.continent,
+        cityCount: total,
+        sectionId: getContinentSectionId(group.continent),
+        averagePercent,
+        countries,
+      }
+    })
+  }, [achievementGroups, unlockedSet])
 
   const fetchUpdateLog = useCallback(
     async (signal?: AbortSignal) => {
@@ -1322,8 +1465,12 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     }
   }, [searchParams])
 
-  const hasResults = groupsWithFavorites.length > 0
-  const shouldShowContinentNav = activeTab === 'cities' && hasResults
+  const hasCityResults = groupsWithFavorites.length > 0
+  const hasAchievementResults = achievementGroups.length > 0
+  const shouldShowContinentNav =
+    (activeTab === 'cities' && hasCityResults) ||
+    (activeTab === 'achievements' && hasAchievementResults)
+  const activeNavItems = activeTab === 'achievements' ? achievementNavItems : cityNavItems
 
   useEffect(() => {
     if (!shouldShowContinentNav) return
@@ -1375,13 +1522,12 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     sections.forEach((section) => observer.observe(section))
 
     return () => observer.disconnect()
-  }, [shouldShowContinentNav, groupsWithFavorites])
+  }, [shouldShowContinentNav, activeNavItems, activeTab])
 
-  const ensureContinentExpanded = useCallback((continent: string) => {
+  const ensureSectionExpanded = useCallback((sectionId: string) => {
     if (typeof document === 'undefined') {
       return false
     }
-    const sectionId = getContinentSectionId(continent)
     const contentId = `${sectionId}-content`
     const section = document.getElementById(sectionId)
     const content = document.getElementById(contentId)
@@ -1404,7 +1550,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
     (sectionId: string, continent?: string) => {
       setActiveSection(sectionId)
       suppressActiveUntilRef.current = Date.now() + 800
-      const didExpand = continent ? ensureContinentExpanded(continent) : false
+      const didExpand = ensureSectionExpanded(sectionId)
       const doScroll = () => {
         const target = document.getElementById(sectionId)
         if (target) {
@@ -1420,14 +1566,16 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
         focusContinentOnMap(continent)
       }
     },
-    [ensureContinentExpanded, focusContinentOnMap],
+    [ensureSectionExpanded, focusContinentOnMap],
   )
 
   const handleJumpToCountry = useCallback(
     (sectionId: string, continent: string, country: string) => {
       setActiveSection(sectionId)
       suppressActiveUntilRef.current = Date.now() + 800
-      const didExpand = ensureContinentExpanded(continent)
+      const didExpand =
+        ensureSectionExpanded(getContinentSectionId(continent)) ||
+        ensureSectionExpanded(sectionId)
       const doScroll = () => {
         const target = document.getElementById(sectionId)
         if (target) {
@@ -1441,7 +1589,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       }
       focusCountryOnMap(country)
     },
-    [ensureContinentExpanded, focusCountryOnMap],
+    [ensureSectionExpanded, focusCountryOnMap],
   )
 
   const toggleContinentCollapse = (continent: string) => {
@@ -1585,21 +1733,24 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
           const countrySectionId = getCountrySectionId(continent, country)
 
           return (
-            <section
+            <CollapsibleSection
               key={country}
-              id={countrySectionId}
-              className="space-y-4 scroll-mt-28"
-            >
-              <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h4 className="text-lg font-semibold" style={{ color: headerColor }}>
+              sectionId={countrySectionId}
+              title={
+                <span style={{ color: headerColor }}>
                   {formatCountryLabel(country)} · {cityCountLabel}{' '}
                   <span className="text-sm font-semibold" style={{ color: headerColor }}>
                     ({progressLabel})
                   </span>
-                </h4>
-              </div>
+                </span>
+              }
+              titleAs="h4"
+              className="space-y-4"
+              headingClassName="text-lg font-semibold"
+              contentClassName="mt-4"
+            >
               {renderCityCollection(list)}
-            </section>
+            </CollapsibleSection>
           )
         })}
       </div>
@@ -1673,7 +1824,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
             
             <div className="flex-1 overflow-y-auto px-2 py-4">
               <div className="flex flex-col gap-1">
-                {continentNavItems.map(({ continent, cityCount, sectionId, averagePercent, countries }) => {
+                {activeNavItems.map(({ continent, cityCount, sectionId, averagePercent, countries }) => {
               const translatedContinent =
                 continent === 'Favorites'
                   ? t('favoriteCities') || 'Favorite Cities'
@@ -1954,7 +2105,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
                   countryFocusVersion={countryFocus?.token}
                 />
              </div>
-          ) : hasResults ? (
+          ) : hasCityResults ? (
             <div className="space-y-10">
               {groupsWithFavorites.map(({ continent, cities }, index) => {
                 const cityCount = cities.length
@@ -2024,7 +2175,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
           ) : (
             <EmptyState />
           )}
-          {hasResults && <SuggestCity />}
+          {hasCityResults && <SuggestCity />}
         </>
       ) : activeTab === 'globalStats' ? (
         <div className="space-y-6">
@@ -2247,6 +2398,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
       ) : activeTab === 'achievements' ? (
         <Achievements
           items={visibleAchievements}
+          groups={achievementGroups}
           unlockedData={unlockedData}
           searchValue={achievementSearch}
           onSearchChange={setAchievementSearch}
@@ -2355,6 +2507,7 @@ const CONTINENT_LABEL_KEYS: Record<string, string> = {
 
 const Achievements = ({
   items,
+  groups,
   unlockedData,
   searchValue,
   onSearchChange,
@@ -2365,6 +2518,7 @@ const Achievements = ({
   timezone,
 }: {
   items: AchievementMeta[]
+  groups: AchievementContinentGroup[]
   unlockedData: Map<string, number>
   searchValue: string
   onSearchChange: (value: string) => void
@@ -2389,6 +2543,65 @@ const Achievements = ({
     } catch {
       return ''
     }
+  }
+
+  const renderAchievementCard = (meta: AchievementMeta) => {
+    const isUnlocked = unlockedSet.has(meta.slug)
+    const unlockTimestamp = unlockedData.get(meta.slug) ?? 0
+    const unlockDateLabel = isUnlocked ? formatAchievementDate(unlockTimestamp) : ''
+
+    return (
+      <div
+        key={meta.slug}
+        className={classNames(
+          'flex flex-col gap-4 rounded-2xl border p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between',
+          isUnlocked
+            ? 'border-emerald-200 bg-white dark:border-emerald-600/60 dark:bg-zinc-900'
+            : 'border-zinc-200 bg-zinc-50 text-zinc-400 dark:border-[#18181b] dark:bg-zinc-900/40 dark:text-zinc-500',
+        )}
+      >
+        <div className="flex flex-1 items-stretch gap-4">
+          <AchievementIcon
+            slug={meta.slug}
+            cityName={meta.cityName}
+            className="h-full min-h-[4.5rem] w-20 p-1"
+            sizes="80px"
+            iconSrc={meta.iconSrc}
+          />
+          <div>
+            <h4
+              className={classNames(
+                'text-lg font-semibold',
+                isUnlocked ? 'text-zinc-800 dark:text-zinc-100' : '',
+              )}
+            >
+              {meta.title}
+            </h4>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">{meta.description}</p>
+            <p className="mt-1 text-xs uppercase tracking-wide text-zinc-400 dark:text-zinc-500">
+              {meta.cityName} • {meta.continent}
+            </p>
+          </div>
+        </div>
+        <span
+          className={classNames(
+            'text-sm font-semibold',
+            isUnlocked ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-500',
+          )}
+        >
+          {isUnlocked ? (
+            <div className="flex flex-col items-end">
+              <span>{t('achievementUnlocked')}</span>
+              {unlockDateLabel && (
+                <span className="text-xs font-normal opacity-80">{unlockDateLabel}</span>
+              )}
+            </div>
+          ) : (
+            t('achievementLocked')
+          )}
+        </span>
+      </div>
+    )
   }
 
   return (
@@ -2443,63 +2656,99 @@ const Achievements = ({
           {t('noAchievementsFound')}
         </div>
       ) : (
-        items.map((meta) => {
-          const isUnlocked = unlockedSet.has(meta.slug)
-          const unlockTimestamp = unlockedData.get(meta.slug) ?? 0
-          const unlockDateLabel = isUnlocked ? formatAchievementDate(unlockTimestamp) : ''
-          return (
-            <div
-              key={meta.slug}
-              className={classNames(
-                'flex flex-col gap-4 rounded-2xl border p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between',
-                isUnlocked
-                  ? 'border-emerald-200 bg-white dark:border-emerald-600/60 dark:bg-zinc-900'
-                  : 'border-zinc-200 bg-zinc-50 text-zinc-400 dark:border-[#18181b] dark:bg-zinc-900/40 dark:text-zinc-500',
-              )}
-            >
-              <div className="flex flex-1 items-stretch gap-4">
-                <AchievementIcon
-                  slug={meta.slug}
-                  cityName={meta.cityName}
-                  className="h-full min-h-[4.5rem] w-20 p-1"
-                  sizes="80px"
-                  iconSrc={meta.iconSrc}
-                />
-                <div>
-                  <h4
-                    className={classNames(
-                      'text-lg font-semibold',
-                      isUnlocked ? 'text-zinc-800 dark:text-zinc-100' : '',
-                    )}
-                  >
-                    {meta.title}
-                  </h4>
-                  <p className="text-sm text-zinc-600 dark:text-zinc-400">{meta.description}</p>
-                  <p className="mt-1 text-xs uppercase tracking-wide text-zinc-400 dark:text-zinc-500">
-                    {meta.cityName} • {meta.continent}
-                  </p>
-                </div>
-              </div>
-              <span
-                className={classNames(
-                  'text-sm font-semibold',
-                  isUnlocked ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-500',
-                )}
-              >
-                {isUnlocked ? (
-                    <div className="flex flex-col items-end">
-                       <span>{t('achievementUnlocked')}</span>
-                       {unlockDateLabel && (
-                           <span className="text-xs font-normal opacity-80">{unlockDateLabel}</span>
-                       )}
+        <div className="space-y-10">
+          {groups.map((group, index) => {
+            const total = group.countries.reduce((sum, country) => sum + country.entries.length, 0)
+            const unlocked = group.countries.reduce(
+              (sum, country) =>
+                sum + country.entries.filter((entry) => unlockedSet.has(entry.slug)).length,
+              0,
+            )
+            const progressRatio = total > 0 ? unlocked / total : 0
+            const headerColor = getGradientColor(progressRatio)
+            const progressLabel = `${(progressRatio * 100).toFixed(2)}%`
+            const translatedContinent =
+              CONTINENT_LABEL_KEYS[group.continent] !== undefined
+                ? t(CONTINENT_LABEL_KEYS[group.continent])
+                : group.continent
+            const cityCountLabel = t('cityCount', { count: total })
+            const sectionId = getContinentSectionId(group.continent)
+
+            return (
+              <Fragment key={group.continent}>
+                <CollapsibleSection
+                  sectionId={sectionId}
+                  title={
+                    <span style={{ color: headerColor }}>
+                      {translatedContinent}{' '}
+                      <span className="text-base font-normal" style={{ color: headerColor }}>
+                        · {cityCountLabel} ({progressLabel})
+                      </span>
+                    </span>
+                  }
+                  titleAs="h3"
+                  className="space-y-6"
+                  headingClassName="text-xl font-semibold text-zinc-800 dark:text-zinc-100"
+                  contentClassName="mt-4"
+                >
+                  {group.continent === 'Global' ? (
+                    <div className="space-y-4">
+                      {group.countries.flatMap((country) =>
+                        country.entries.map((meta) => renderAchievementCard(meta)),
+                      )}
                     </div>
-                ) : (
-                  t('achievementLocked')
+                  ) : (
+                    <div className="space-y-8">
+                      {group.countries.map((country) => {
+                        const countryUnlocked = country.entries.filter((entry) =>
+                          unlockedSet.has(entry.slug),
+                        ).length
+                        const countryTotal = country.entries.length
+                        const countryProgress = countryTotal > 0 ? countryUnlocked / countryTotal : 0
+                        const countryHeaderColor = getGradientColor(countryProgress)
+                        const countryProgressLabel = `${(countryProgress * 100).toFixed(2)}%`
+                        const countryLabel = formatCountryLabel(country.country)
+                        const countryCountLabel = t('cityCount', { count: countryTotal })
+                        const countrySectionId = getCountrySectionId(group.continent, country.country)
+
+                        return (
+                          <CollapsibleSection
+                            key={country.country}
+                            sectionId={countrySectionId}
+                            title={
+                              <span style={{ color: countryHeaderColor }}>
+                                {countryLabel} · {countryCountLabel}{' '}
+                                <span
+                                  className="text-sm font-semibold"
+                                  style={{ color: countryHeaderColor }}
+                                >
+                                  ({countryProgressLabel})
+                                </span>
+                              </span>
+                            }
+                            titleAs="h4"
+                            className="space-y-4"
+                            headingClassName="text-lg font-semibold"
+                            contentClassName="mt-4"
+                          >
+                            <div className="space-y-4">
+                              {country.entries.map((meta) => renderAchievementCard(meta))}
+                            </div>
+                          </CollapsibleSection>
+                        )
+                      })}
+                    </div>
+                  )}
+                </CollapsibleSection>
+                {index < groups.length - 1 && (
+                  <footer>
+                    <hr className="border-t border-zinc-200 dark:border-[#18181b]" />
+                  </footer>
                 )}
-              </span>
-            </div>
-          )
-        })
+              </Fragment>
+            )
+          })}
+        </div>
       )}
     </div>
   )

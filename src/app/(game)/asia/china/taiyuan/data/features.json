@@ -1,0 +1,1058 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4378636,
+          37.8470623
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Helongwan (河龙湾)",
+        "alternate_names": [
+          "河龙湾",
+          "Helongwan",
+          "河龍灣",
+          "he long wan"
+        ],
+        "line": "taiyuan1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4493271,
+          37.8525311
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Ximinglu (西铭路)",
+        "alternate_names": [
+          "西铭路",
+          "Ximinglu",
+          "西銘路",
+          "xi ming lu"
+        ],
+        "line": "taiyuan1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4664086,
+          37.8562946
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Xikezhan (西客)",
+        "alternate_names": [
+          "西客",
+          "Xikezhan",
+          "xi ke"
+        ],
+        "line": "taiyuan1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4791602,
+          37.8565223
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Jinyanglu (金阳路)",
+        "alternate_names": [
+          "金阳路",
+          "Jinyanglu",
+          "金陽路",
+          "jin yang lu"
+        ],
+        "line": "taiyuan1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4943539,
+          37.8567509
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Yanjiagou (Xiaojingyulu) (闫家沟（小井峪路）)",
+        "alternate_names": [
+          "闫家沟（小井峪路）",
+          "Yanjiagou (Xiaojingyulu)",
+          "閆家溝（小井峪路）",
+          "yan jia gou （ xiao jing yu lu ）"
+        ],
+        "line": "taiyuan1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5044798,
+          37.8568779
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Xiayuan (下元)",
+        "alternate_names": [
+          "下元",
+          "Xiayuan",
+          "xia yuan"
+        ],
+        "line": "taiyuan1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5213742,
+          37.8572655
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Taiyuanligongdaxue (太原理工大学)",
+        "alternate_names": [
+          "太原理工大学",
+          "Taiyuanligongdaxue",
+          "太原理工大學",
+          "tai yuan li gong da xue"
+        ],
+        "line": "taiyuan1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5389474,
+          37.8580699
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Taoyuanlu (桃园路)",
+        "alternate_names": [
+          "桃园路",
+          "Taoyuanlu",
+          "桃園路",
+          "tao yuan lu"
+        ],
+        "line": "taiyuan1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5534,
+          37.8587
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Da'nanmen (大南门)",
+        "alternate_names": [
+          "大南门",
+          "Da'nanmen",
+          "大南門",
+          "da nan men"
+        ],
+        "line": "taiyuan1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5602524,
+          37.8592632
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Liunan (柳南)",
+        "alternate_names": [
+          "柳南",
+          "Liunan",
+          "liu nan"
+        ],
+        "line": "taiyuan1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5676129,
+          37.8596957
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Wuyiguangchang (五一广场)",
+        "alternate_names": [
+          "五一广场",
+          "Wuyiguangchang",
+          "五一廣場",
+          "wu yi guang chang"
+        ],
+        "line": "taiyuan1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5758844,
+          37.8597578
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Taiyuanzhan Xiguangchang (太原西广场)",
+        "alternate_names": [
+          "太原西广场",
+          "Taiyuanzhan Xiguangchang",
+          "太原西廣場",
+          "tai yuan xi guang chang"
+        ],
+        "line": "taiyuan1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5836703,
+          37.8601186
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Taiyuanzhan Dongguangchang (太原东广场)",
+        "alternate_names": [
+          "太原东广场",
+          "Taiyuanzhan Dongguangchang",
+          "太原東廣場",
+          "tai yuan dong guang chang"
+        ],
+        "line": "taiyuan1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5922012,
+          37.8601205
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Haojiagou (郝家沟)",
+        "alternate_names": [
+          "郝家沟",
+          "Haojiagou",
+          "郝家溝",
+          "hao jia gou"
+        ],
+        "line": "taiyuan1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5983055,
+          37.8550228
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Chaoyangjie (朝阳街)",
+        "alternate_names": [
+          "朝阳街",
+          "Chaoyangjie",
+          "朝陽街",
+          "chao yang jie"
+        ],
+        "line": "taiyuan1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5982383,
+          37.8408819
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Shuangta (双塔)",
+        "alternate_names": [
+          "双塔",
+          "Shuangta",
+          "雙塔",
+          "shuang ta"
+        ],
+        "line": "taiyuan1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6001555,
+          37.8296688
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nanshifangjie (南十方街)",
+        "alternate_names": [
+          "南十方街",
+          "Nanshifangjie",
+          "nan shi fang jie"
+        ],
+        "line": "taiyuan1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6038381,
+          37.8176191
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Changfengdongjie (长风东街)",
+        "alternate_names": [
+          "长风东街",
+          "Changfengdongjie",
+          "長風東街",
+          "chang feng dong jie"
+        ],
+        "line": "taiyuan1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.603712,
+          37.8092914
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Xuefudongjie (学府东街)",
+        "alternate_names": [
+          "学府东街",
+          "Xuefudongjie",
+          "學府東街",
+          "xue fu dong jie"
+        ],
+        "line": "taiyuan1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6037805,
+          37.8010375
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Xutandongjie (许坦东街)",
+        "alternate_names": [
+          "许坦东街",
+          "Xutandongjie",
+          "許坦東街",
+          "xu tan dong jie"
+        ],
+        "line": "taiyuan1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6048147,
+          37.7913265
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Taiyuannanzhan (太原南)",
+        "alternate_names": [
+          "太原南",
+          "Taiyuannanzhan",
+          "tai yuan nan"
+        ],
+        "line": "taiyuan1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6138902,
+          37.7859294
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Beiying (北营)",
+        "alternate_names": [
+          "北营",
+          "Beiying",
+          "北營",
+          "bei ying"
+        ],
+        "line": "taiyuan1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.60546,
+          37.773654
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Huangling (黄陵)",
+        "alternate_names": [
+          "黄陵",
+          "Huangling",
+          "黃陵",
+          "huang ling"
+        ],
+        "line": "taiyuan1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6280779,
+          37.755757
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Taiyuan Airport Terminals 1 & 2 (武宿1号2号航楼)",
+        "alternate_names": [
+          "武宿1号2号航楼",
+          "Taiyuan Airport Terminals 1 & 2",
+          "武宿1號2號航樓",
+          "wu su 1 hao 2 hao hang lou",
+          "TYN",
+          "Taiyuan Wusu International Airport",
+          "Airport"
+        ],
+        "line": "taiyuan1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5566457,
+          37.9151979
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Jiancaoping (尖草坪)",
+        "alternate_names": [
+          "尖草坪",
+          "Jiancaoping",
+          "jian cao ping"
+        ],
+        "line": "taiyuan2",
+        "order": 0
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5569176,
+          37.9051843
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Jianhe (涧河)",
+        "alternate_names": [
+          "涧河",
+          "Jianhe",
+          "澗河",
+          "jian he"
+        ],
+        "line": "taiyuan2",
+        "order": 1
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5559252,
+          37.8968846
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Shenglijie (胜利街)",
+        "alternate_names": [
+          "胜利街",
+          "Shenglijie",
+          "勝利街",
+          "sheng li jie"
+        ],
+        "line": "taiyuan2",
+        "order": 2
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5557508,
+          37.8877637
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Dabeimen (大北门)",
+        "alternate_names": [
+          "大北门",
+          "Dabeimen",
+          "大北門",
+          "da bei men"
+        ],
+        "line": "taiyuan2",
+        "order": 3
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5555268,
+          37.8783679
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Jihuying (缉虎营)",
+        "alternate_names": [
+          "缉虎营",
+          "Jihuying",
+          "緝虎營",
+          "ji hu ying"
+        ],
+        "line": "taiyuan2",
+        "order": 4
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5538653,
+          37.8644197
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Kaihuasijie (开化寺街)",
+        "alternate_names": [
+          "开化寺街",
+          "Kaihuasijie",
+          "開化寺街",
+          "kai hua si jie"
+        ],
+        "line": "taiyuan2",
+        "order": 6
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5534,
+          37.8587
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Da'nanmen (大南门)",
+        "alternate_names": [
+          "大南门",
+          "Da'nanmen",
+          "大南門",
+          "da nan men"
+        ],
+        "line": "taiyuan2",
+        "order": 7
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5547551,
+          37.8452105
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Tiyuguan (体育馆)",
+        "alternate_names": [
+          "体育馆",
+          "Tiyuguan",
+          "體育館",
+          "ti yu guan"
+        ],
+        "line": "taiyuan2",
+        "order": 8
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5550625,
+          37.835955
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Nanneihuan (南内环)",
+        "alternate_names": [
+          "南内环",
+          "Nanneihuan",
+          "南內環",
+          "nan nei huan"
+        ],
+        "line": "taiyuan2",
+        "order": 9
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5552787,
+          37.8297049
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Wangcunnanjie (王村南街)",
+        "alternate_names": [
+          "王村南街",
+          "Wangcunnanjie",
+          "wang cun nan jie"
+        ],
+        "line": "taiyuan2",
+        "order": 10
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5555878,
+          37.8164755
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Changfengjie (长风街)",
+        "alternate_names": [
+          "长风街",
+          "Changfengjie",
+          "長風街",
+          "chang feng jie"
+        ],
+        "line": "taiyuan2",
+        "order": 11
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5555118,
+          37.8065657
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Xuefujie (学府街)",
+        "alternate_names": [
+          "学府街",
+          "Xuefujie",
+          "學府街",
+          "xue fu jie"
+        ],
+        "line": "taiyuan2",
+        "order": 12
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5555227,
+          37.7948463
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Nanzhonghuan (南中环)",
+        "alternate_names": [
+          "南中环",
+          "Nanzhonghuan",
+          "南中環",
+          "nan zhong huan"
+        ],
+        "line": "taiyuan2",
+        "order": 13
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5555301,
+          37.7875431
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Jinyangjie (晋阳街)",
+        "alternate_names": [
+          "晋阳街",
+          "Jinyangjie",
+          "晉陽街",
+          "jin yang jie"
+        ],
+        "line": "taiyuan2",
+        "order": 14
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5551693,
+          37.7809442
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Longxingjie (龙兴街)",
+        "alternate_names": [
+          "龙兴街",
+          "Longxingjie",
+          "龍興街",
+          "long xing jie"
+        ],
+        "line": "taiyuan2",
+        "order": 15
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.554884,
+          37.7727277
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Longchenggongyuan (龙城公园)",
+        "alternate_names": [
+          "龙城公园",
+          "Longchenggongyuan",
+          "龍城公園",
+          "long cheng gong yuan"
+        ],
+        "line": "taiyuan2",
+        "order": 16
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5559405,
+          37.7638099
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Jiajie (嘉节)",
+        "alternate_names": [
+          "嘉节",
+          "Jiajie",
+          "嘉節",
+          "jia jie"
+        ],
+        "line": "taiyuan2",
+        "order": 17
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5585985,
+          37.7519429
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Dianzixijie (电子西街)",
+        "alternate_names": [
+          "电子西街",
+          "Dianzixijie",
+          "電子西街",
+          "dian zi xi jie"
+        ],
+        "line": "taiyuan2",
+        "order": 18
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5611865,
+          37.7423539
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Kangningjie (康宁街)",
+        "alternate_names": [
+          "康宁街",
+          "Kangningjie",
+          "康寧街",
+          "kang ning jie"
+        ],
+        "line": "taiyuan2",
+        "order": 19
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5623056,
+          37.7298927
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Tongdajie (通达街)",
+        "alternate_names": [
+          "通达街",
+          "Tongdajie",
+          "通達街",
+          "tong da jie"
+        ],
+        "line": "taiyuan2",
+        "order": 20
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5618089,
+          37.7179209
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Huazhangxijie (化章西街)",
+        "alternate_names": [
+          "化章西街",
+          "Huazhangxijie",
+          "hua zhang xi jie"
+        ],
+        "line": "taiyuan2",
+        "order": 21
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.556475,
+          37.7070145
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Xiqiao (西桥)",
+        "alternate_names": [
+          "西桥",
+          "Xiqiao",
+          "西橋",
+          "xi qiao"
+        ],
+        "line": "taiyuan2",
+        "order": 22
+      },
+      "id": 46
+    }
+  ]
+}

@@ -99,7 +99,6 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   gba: [113.6, 22.9], // Greater Bay Area centroid (Guangdong)
   nanning: [108.3200, 22.8240],
   nantong: [120.8943, 31.9802],
-  shaoxing: [120.5861, 30.0364],
   shijiazhuang: [114.5149, 38.0428],
   taiyuan: [112.5489, 37.8706],
   seoul: [126.9780, 37.5665],

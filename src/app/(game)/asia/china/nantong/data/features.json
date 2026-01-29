@@ -1,0 +1,1025 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7538143,
+          32.107874
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Pingchao (平潮)",
+        "alternate_names": [
+          "平潮",
+          "Pingchao",
+          "ping chao"
+        ],
+        "line": "nantong1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7610809,
+          32.1036163
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nantongxi Railway Station (南通西站)",
+        "alternate_names": [
+          "南通西站",
+          "Nantongxi Railway Station",
+          "nan tong xi zhan"
+        ],
+        "line": "nantong1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.773385,
+          32.0923484
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Jichengcun (集成村)",
+        "alternate_names": [
+          "集成村",
+          "Jichengcun",
+          "ji cheng cun"
+        ],
+        "line": "nantong1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7891268,
+          32.0873923
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hekou (河口)",
+        "alternate_names": [
+          "河口",
+          "Hekou",
+          "he kou"
+        ],
+        "line": "nantong1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8138998,
+          32.0731439
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Tangzha Park (唐闸公园)",
+        "alternate_names": [
+          "唐闸公园",
+          "Tangzha Park",
+          "唐閘公園",
+          "tang zha gong yuan"
+        ],
+        "line": "nantong1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8257551,
+          32.0640101
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Puxian Lu (普贤路)",
+        "alternate_names": [
+          "普贤路",
+          "Puxian Lu",
+          "普賢路",
+          "pu xian lu"
+        ],
+        "line": "nantong1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8179311,
+          32.0451884
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Shilifang (十里坊)",
+        "alternate_names": [
+          "十里坊",
+          "Shilifang",
+          "shi li fang"
+        ],
+        "line": "nantong1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8114079,
+          32.0337508
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Chenggang Lu (城港路)",
+        "alternate_names": [
+          "城港路",
+          "Chenggang Lu",
+          "cheng gang lu"
+        ],
+        "line": "nantong1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8155547,
+          32.02594
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Shuguang (曙光)",
+        "alternate_names": [
+          "曙光",
+          "Shuguang",
+          "shu guang"
+        ],
+        "line": "nantong1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8315433,
+          32.0171482
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Cha'an Dian (茶庵殿)",
+        "alternate_names": [
+          "茶庵殿",
+          "Cha'an Dian",
+          "cha an dian"
+        ],
+        "line": "nantong1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8459621,
+          32.0179111
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hai'er Xiang (孩儿巷)",
+        "alternate_names": [
+          "孩儿巷",
+          "Hai'er Xiang",
+          "孩兒巷",
+          "hai er xiang"
+        ],
+        "line": "nantong1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8549131,
+          32.0182881
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Hepingqiao (和平桥)",
+        "alternate_names": [
+          "和平桥",
+          "Hepingqiao",
+          "和平橋",
+          "he ping qiao"
+        ],
+        "line": "nantong1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8645956,
+          32.0201076
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Youyiqiao (友谊桥)",
+        "alternate_names": [
+          "友谊桥",
+          "Youyiqiao",
+          "友誼橋",
+          "you yi qiao"
+        ],
+        "line": "nantong1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8778074,
+          32.0170983
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Xuetian (学田)",
+        "alternate_names": [
+          "学田",
+          "Xuetian",
+          "學田",
+          "xue tian"
+        ],
+        "line": "nantong1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8788374,
+          32.0082784
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Wenfeng (文峰)",
+        "alternate_names": [
+          "文峰",
+          "Wenfeng",
+          "文峯",
+          "wen feng"
+        ],
+        "line": "nantong1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8804172,
+          31.9994235
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Charity Museum (慈善博物馆)",
+        "alternate_names": [
+          "慈善博物馆",
+          "Charity Museum",
+          "慈善博物館",
+          "ci shan bo wu guan"
+        ],
+        "line": "nantong1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8821767,
+          31.9899037
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Government Affairs Center (政务中心)",
+        "alternate_names": [
+          "政务中心",
+          "Government Affairs Center",
+          "政務中心",
+          "zheng wu zhong xin"
+        ],
+        "line": "nantong1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8840758,
+          31.9812745
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Shiji Dadao (世纪大道)",
+        "alternate_names": [
+          "世纪大道",
+          "Shiji Dadao",
+          "世紀大道",
+          "shi ji da dao"
+        ],
+        "line": "nantong1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8905694,
+          31.9762521
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nantong Library (图书馆)",
+        "alternate_names": [
+          "图书馆",
+          "Nantong Library",
+          "圖書館",
+          "tu shu guan"
+        ],
+        "line": "nantong1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9023228,
+          31.9780256
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Nantong University (南通大学)",
+        "alternate_names": [
+          "南通大学",
+          "Nantong University",
+          "南通大學",
+          "nan tong da xue"
+        ],
+        "line": "nantong1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9161791,
+          31.9797047
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Panxiang Lu (盘香路)",
+        "alternate_names": [
+          "盘香路",
+          "Panxiang Lu",
+          "盤香路",
+          "pan xiang lu"
+        ],
+        "line": "nantong1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9290215,
+          31.9797935
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Chongzhou Dadao (崇州大道)",
+        "alternate_names": [
+          "崇州大道",
+          "Chongzhou Dadao",
+          "chong zhou da dao"
+        ],
+        "line": "nantong1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9401125,
+          31.9785149
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Jinghai Dadao (静海大道)",
+        "alternate_names": [
+          "静海大道",
+          "Jinghai Dadao",
+          "靜海大道",
+          "jing hai da dao"
+        ],
+        "line": "nantong1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9423548,
+          31.9672406
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Grand Theatre (大剧院)",
+        "alternate_names": [
+          "大剧院",
+          "Grand Theatre",
+          "大劇院",
+          "da ju yuan"
+        ],
+        "line": "nantong1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9432828,
+          31.9561972
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Zilang Lake (紫琅湖)",
+        "alternate_names": [
+          "紫琅湖",
+          "Zilang Lake",
+          "zi lang hu"
+        ],
+        "line": "nantong1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9546769,
+          31.9357884
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "NETDA Business District (能达商务区)",
+        "alternate_names": [
+          "能达商务区",
+          "NETDA Business District",
+          "能達商務區",
+          "neng da shang wu qu"
+        ],
+        "line": "nantong1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9546929,
+          31.924213
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Shipping College (航运学院)",
+        "alternate_names": [
+          "航运学院",
+          "Shipping College",
+          "航運學院",
+          "hang yun xue yuan"
+        ],
+        "line": "nantong1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9519491,
+          31.9125816
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Zhenxing Lu (振兴路)",
+        "alternate_names": [
+          "振兴路",
+          "Zhenxing Lu",
+          "振興路",
+          "zhen xing lu"
+        ],
+        "line": "nantong1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8479539,
+          32.0840967
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Xingfu (幸福)",
+        "alternate_names": [
+          "幸福",
+          "Xingfu",
+          "xing fu"
+        ],
+        "line": "nantong2",
+        "order": 0
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8545286,
+          32.0734601
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Nantong Railway Station (南通站)",
+        "alternate_names": [
+          "南通站",
+          "Nantong Railway Station",
+          "nan tong zhan"
+        ],
+        "line": "nantong2",
+        "order": 1
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8559327,
+          32.0620735
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Chang'an (长岸)",
+        "alternate_names": [
+          "长岸",
+          "Chang'an",
+          "長岸",
+          "chang an"
+        ],
+        "line": "nantong2",
+        "order": 2
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8559756,
+          32.0508573
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Bei Dajie (北大街)",
+        "alternate_names": [
+          "北大街",
+          "Bei Dajie",
+          "bei da jie"
+        ],
+        "line": "nantong2",
+        "order": 3
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8560231,
+          32.0443001
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Beicheng Bridge (北城大桥)",
+        "alternate_names": [
+          "北城大桥",
+          "Beicheng Bridge",
+          "北城大橋",
+          "bei cheng da qiao"
+        ],
+        "line": "nantong2",
+        "order": 4
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8516035,
+          32.0313633
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Zhongxiu Xilu (钟秀西路)",
+        "alternate_names": [
+          "钟秀西路",
+          "Zhongxiu Xilu",
+          "鍾秀西路",
+          "zhong xiu xi lu"
+        ],
+        "line": "nantong2",
+        "order": 5
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8549131,
+          32.0182881
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Hepingqiao (和平桥)",
+        "alternate_names": [
+          "和平桥",
+          "Hepingqiao",
+          "和平橋",
+          "he ping qiao"
+        ],
+        "line": "nantong2",
+        "order": 6
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8599675,
+          32.0077544
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Sports Park (体育公园)",
+        "alternate_names": [
+          "体育公园",
+          "Sports Park",
+          "體育公園",
+          "ti yu gong yuan"
+        ],
+        "line": "nantong2",
+        "order": 7
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8714903,
+          32.0056442
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Yijiaqiao (易家桥)",
+        "alternate_names": [
+          "易家桥",
+          "Yijiaqiao",
+          "易家橋",
+          "yi jia qiao"
+        ],
+        "line": "nantong2",
+        "order": 8
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8788374,
+          32.0082784
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Wenfeng (文峰)",
+        "alternate_names": [
+          "文峰",
+          "Wenfeng",
+          "文峯",
+          "wen feng"
+        ],
+        "line": "nantong2",
+        "order": 9
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8889269,
+          32.0080782
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Wuyi Lu (五一路)",
+        "alternate_names": [
+          "五一路",
+          "Wuyi Lu",
+          "wu yi lu"
+        ],
+        "line": "nantong2",
+        "order": 10
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9035454,
+          32.0054239
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Yuanlin Lu (园林路)",
+        "alternate_names": [
+          "园林路",
+          "Yuanlin Lu",
+          "園林路",
+          "yuan lin lu"
+        ],
+        "line": "nantong2",
+        "order": 11
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9142946,
+          32.0036793
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "East Coach Station (汽车东站)",
+        "alternate_names": [
+          "汽车东站",
+          "East Coach Station",
+          "汽車東站",
+          "qi che dong zhan"
+        ],
+        "line": "nantong2",
+        "order": 12
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9237355,
+          32.0023742
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Tongfu Beilu (通富北路)",
+        "alternate_names": [
+          "通富北路",
+          "Tongfu Beilu",
+          "tong fu bei lu"
+        ],
+        "line": "nantong2",
+        "order": 13
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9330645,
+          32.0011915
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Guanyinshan (观音山)",
+        "alternate_names": [
+          "观音山",
+          "Guanyinshan",
+          "觀音山",
+          "guan yin shan"
+        ],
+        "line": "nantong2",
+        "order": 14
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9497853,
+          32.0003294
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Nantongdong Railway Station (南通东站)",
+        "alternate_names": [
+          "南通东站",
+          "Nantongdong Railway Station",
+          "南通東站",
+          "nan tong dong zhan"
+        ],
+        "line": "nantong2",
+        "order": 15
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9720285,
+          32.0037341
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Xianfeng (先锋)",
+        "alternate_names": [
+          "先锋",
+          "Xianfeng",
+          "先鋒",
+          "xian feng"
+        ],
+        "line": "nantong2",
+        "order": 16
+      },
+      "id": 45
+    }
+  ]
+}

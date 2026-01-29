@@ -267,7 +267,6 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'pyongyang',
   'nanning',
   'nantong',
-  'shaoxing',
   'shijiazhuang',
   'taizhou',
   'taiyuan',

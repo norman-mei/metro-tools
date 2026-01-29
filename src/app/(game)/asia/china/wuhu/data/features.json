@@ -1,0 +1,819 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4070058,
+          31.4818087
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Baoshunlu (保顺路)",
+        "alternate_names": [
+          "保顺路",
+          "Baoshunlu",
+          "保順路",
+          "bao shun lu"
+        ],
+        "line": "wuhu1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3983868,
+          31.4727932
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Huashanlu (华山路)",
+        "alternate_names": [
+          "华山路",
+          "Huashanlu",
+          "華山路",
+          "hua shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3954745,
+          31.461953
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Taishanlu (泰山路)",
+        "alternate_names": [
+          "泰山路",
+          "Taishanlu",
+          "tai shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3883554,
+          31.4534534
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hengshanlu (衡山路)",
+        "alternate_names": [
+          "衡山路",
+          "Hengshanlu",
+          "heng shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3760236,
+          31.4418936
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Longshanlu (龙山路)",
+        "alternate_names": [
+          "龙山路",
+          "Longshanlu",
+          "龍山路",
+          "long shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3775514,
+          31.4335379
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Anshanlu (鞍山路)",
+        "alternate_names": [
+          "鞍山路",
+          "Anshanlu",
+          "an shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3755433,
+          31.4186304
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Gangwanlu (港湾路)",
+        "alternate_names": [
+          "港湾路",
+          "Gangwanlu",
+          "港灣路",
+          "gang wan lu"
+        ],
+        "line": "wuhu1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3697838,
+          31.4116689
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Yu'anlu (裕安路)",
+        "alternate_names": [
+          "裕安路",
+          "Yu'anlu",
+          "yu an lu"
+        ],
+        "line": "wuhu1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3684947,
+          31.4011448
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Wuyishanlu (武夷山路)",
+        "alternate_names": [
+          "武夷山路",
+          "Wuyishanlu",
+          "wu yi shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3675123,
+          31.3933128
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Gangyilu (港一路)",
+        "alternate_names": [
+          "港一路",
+          "Gangyilu",
+          "gang yi lu"
+        ],
+        "line": "wuhu1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3678364,
+          31.3803385
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Tianzhushanlu (天柱山路)",
+        "alternate_names": [
+          "天柱山路",
+          "Tianzhushanlu",
+          "tian zhu shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.368343,
+          31.3718429
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Tianmenshanlu (天门山路)",
+        "alternate_names": [
+          "天门山路",
+          "Tianmenshanlu",
+          "天門山路",
+          "tian men shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3688547,
+          31.3638086
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Chizhushanlu (赤铸山路)",
+        "alternate_names": [
+          "赤铸山路",
+          "Chizhushanlu",
+          "赤鑄山路",
+          "chi zhu shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3695304,
+          31.3530704
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Zheshanlu (赭山路)",
+        "alternate_names": [
+          "赭山路",
+          "Zheshanlu",
+          "zhe shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3673215,
+          31.3469839
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Zheshangongyuan (赭山公园)",
+        "alternate_names": [
+          "赭山公园",
+          "Zheshangongyuan",
+          "赭山公園",
+          "zhe shan gong yuan"
+        ],
+        "line": "wuhu1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.363493,
+          31.3412399
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Zhongshanbeilu (中山北路)",
+        "alternate_names": [
+          "中山北路",
+          "Zhongshanbeilu",
+          "zhong shan bei lu"
+        ],
+        "line": "wuhu1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3668131,
+          31.3343532
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Jiuziguangchang (鸠兹广场)",
+        "alternate_names": [
+          "鸠兹广场",
+          "Jiuziguangchang",
+          "鳩茲廣場",
+          "jiu zi guang chang"
+        ],
+        "line": "wuhu1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3752269,
+          31.3268437
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Huanchengbeilu (环城北路)",
+        "alternate_names": [
+          "环城北路",
+          "Huanchengbeilu",
+          "環城北路",
+          "huan cheng bei lu"
+        ],
+        "line": "wuhu1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3734866,
+          31.3133379
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "Aotizhongxin",
+          "奧體中心",
+          "ao ti zhong xin"
+        ],
+        "line": "wuhu1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3744501,
+          31.3035782
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Honghuashanlu (红花山路)",
+        "alternate_names": [
+          "红花山路",
+          "Honghuashanlu",
+          "紅花山路",
+          "hong hua shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3755126,
+          31.2959855
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Bolanzhongxin (博览中心)",
+        "alternate_names": [
+          "博览中心",
+          "Bolanzhongxin",
+          "博覽中心",
+          "bo lan zhong xin"
+        ],
+        "line": "wuhu1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3786465,
+          31.2851241
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Wenjindonglu (文津东路)",
+        "alternate_names": [
+          "文津东路",
+          "Wenjindonglu",
+          "文津東路",
+          "wen jin dong lu"
+        ],
+        "line": "wuhu1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3836214,
+          31.2670803
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Henglangshanlu (珩琅山路)",
+        "alternate_names": [
+          "珩琅山路",
+          "Henglangshanlu",
+          "heng lang shan lu"
+        ],
+        "line": "wuhu1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.373286,
+          31.2526541
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Wuhunan Railway Station (芜湖南站)",
+        "alternate_names": [
+          "芜湖南站",
+          "Wuhunan Railway Station",
+          "蕪湖南站",
+          "wu hu nan zhan"
+        ],
+        "line": "wuhu1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3669624,
+          31.2471604
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Baimashan (白马山)",
+        "alternate_names": [
+          "白马山",
+          "Baimashan",
+          "白馬山",
+          "bai ma shan"
+        ],
+        "line": "wuhu1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4909638,
+          31.3644942
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Wanchunhulu (万春湖路)",
+        "alternate_names": [
+          "万春湖路",
+          "Wanchunhulu",
+          "萬春湖路",
+          "wan chun hu lu"
+        ],
+        "line": "wuhu2",
+        "order": 0
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4758489,
+          31.3534986
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Mengxilu (梦溪路)",
+        "alternate_names": [
+          "梦溪路",
+          "Mengxilu",
+          "夢溪路",
+          "meng xi lu"
+        ],
+        "line": "wuhu2",
+        "order": 1
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4543563,
+          31.3580083
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Huizhoulu (徽州路)",
+        "alternate_names": [
+          "徽州路",
+          "Huizhoulu",
+          "hui zhou lu"
+        ],
+        "line": "wuhu2",
+        "order": 2
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4351453,
+          31.3567968
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Haiyanlu (海晏路)",
+        "alternate_names": [
+          "海晏路",
+          "Haiyanlu",
+          "hai yan lu"
+        ],
+        "line": "wuhu2",
+        "order": 3
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4253406,
+          31.3591704
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Zhengwuzhongxin (政务中心)",
+        "alternate_names": [
+          "政务中心",
+          "Zhengwuzhongxin",
+          "政務中心",
+          "zheng wu zhong xin"
+        ],
+        "line": "wuhu2",
+        "order": 4
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4167151,
+          31.3591895
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Yunconglu (云从路)",
+        "alternate_names": [
+          "云从路",
+          "Yunconglu",
+          "雲從路",
+          "yun cong lu"
+        ],
+        "line": "wuhu2",
+        "order": 5
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4046096,
+          31.3591257
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Shenshangongyuan (神山公园)",
+        "alternate_names": [
+          "神山公园",
+          "Shenshangongyuan",
+          "神山公園",
+          "shen shan gong yuan"
+        ],
+        "line": "wuhu2",
+        "order": 6
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3893811,
+          31.3502387
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Wuhu Railway Station (芜湖火车站)",
+        "alternate_names": [
+          "芜湖火车站",
+          "Wuhu Railway Station",
+          "蕪湖火車站",
+          "wu hu huo che zhan"
+        ],
+        "line": "wuhu2",
+        "order": 7
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.391453,
+          31.3399068
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Shenshankou (神山口)",
+        "alternate_names": [
+          "神山口",
+          "Shenshankou",
+          "shen shan kou"
+        ],
+        "line": "wuhu2",
+        "order": 8
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3787651,
+          31.3373642
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Wenhualu (文化路)",
+        "alternate_names": [
+          "文化路",
+          "Wenhualu",
+          "wen hua lu"
+        ],
+        "line": "wuhu2",
+        "order": 9
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3668131,
+          31.3343532
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Jiuziguangchang (鸠兹广场)",
+        "alternate_names": [
+          "鸠兹广场",
+          "Jiuziguangchang",
+          "鳩茲廣場",
+          "jiu zi guang chang"
+        ],
+        "line": "wuhu2",
+        "order": 10
+      },
+      "id": 36
+    }
+  ]
+}

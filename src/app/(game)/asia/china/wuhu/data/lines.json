@@ -1,0 +1,18 @@
+{
+  "wuhu1": {
+    "name": "Line 1",
+    "color": "#E72718",
+    "backgroundColor": "#E72718",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "wuhu1.png"
+  },
+  "wuhu2": {
+    "name": "Line 2",
+    "color": "#00A3E8",
+    "backgroundColor": "#00A3E8",
+    "textColor": "#ffffff",
+    "order": 2,
+    "icon": "wuhu2.png"
+  }
+}

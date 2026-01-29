@@ -272,10 +272,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "River Delta Rider",
     description: "You've linked Nantong's rails across the Yangtze gateway! 南通加油！",
   },
-  shaoxing: {
-    title: "Rice Wine Rider",
-    description: "You've cruised Shaoxing's canals and Keqiao lines like a local! 绍兴好样的！",
-  },
   shijiazhuang: {
     title: "Stone City Strategist",
     description: "You've mastered Shijiazhuang's grid in the heart of Hebei! 石家庄牛！",
@@ -471,6 +467,238 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   yarra: {
     title: "Yarra Valley Victor",
     description: "You've tram'd through Melbourne's inner city like royalty!",
+  },
+  bangkok: {
+    title: "Bangkok Beam",
+    description: "You've zipped through Bangkok's lines like a tuk-tuk on rails!",
+  },
+  busan: {
+    title: "Busan Breeze",
+    description: "You've surfed Busan's lines from beaches to downtown with ease!",
+  },
+  'california-state': {
+    title: "Golden State Glider",
+    description: "You've stitched together California's rails across a whole state-sized map.",
+  },
+  changchun: {
+    title: "Changchun Conductor",
+    description: "You've guided Changchun's network with steady northern-city smarts.",
+  },
+  changsha: {
+    title: "Changsha Charger",
+    description: "You've charged through Changsha's lines with spicy-spirited focus.",
+  },
+  chengdu: {
+    title: "Chengdu Chill Master",
+    description: "You've cruised Chengdu's lines at a panda-calm pace.",
+  },
+  chongqing: {
+    title: "Chongqing Cliff-Hopper",
+    description: "You've ridden Chongqing's hills and rivers like a true mountain-city rider.",
+  },
+  daegu: {
+    title: "Daegu Dash",
+    description: "You've dashed through Daegu's stations with cool-city confidence.",
+  },
+  daejeon: {
+    title: "Daejeon Dynamo",
+    description: "You've powered through Daejeon's lines with tech-town energy.",
+  },
+  dalian: {
+    title: "Dalian Dockside",
+    description: "You've navigated Dalian's routes like a seasoned harbor pilot.",
+  },
+  delingha: {
+    title: "Delingha Desert Star",
+    description: "You've mapped Delingha's routes across the high-plain horizon.",
+  },
+  dujiangyan: {
+    title: "Dujiangyan Flow Keeper",
+    description: "You've mastered Dujiangyan's lines with water-smart precision.",
+  },
+  enshi: {
+    title: "Enshi Explorer",
+    description: "You've explored Enshi's stations with canyon-level curiosity.",
+  },
+  fenghuang: {
+    title: "Fenghuang Phoenix",
+    description: "You've glided through Fenghuang's network like a rising phoenix.",
+  },
+  fukuoka: {
+    title: "Fukuoka Flyer",
+    description: "You've zipped across Fukuoka's lines with ramen-fueled speed.",
+  },
+  fuzhou: {
+    title: "Fuzhou Flyer",
+    description: "You've threaded Fuzhou's lines like a breeze off the Min River.",
+  },
+  gba: {
+    title: "Bay Area Bridge Builder",
+    description: "You've connected the Greater Bay Area like a mega-region mastermind.",
+  },
+  guadalajara: {
+    title: "Guadalajara Groover",
+    description: "You've mastered Guadalajara's lines with mariachi-level rhythm.",
+  },
+  gwangju: {
+    title: "Gwangju Glider",
+    description: "You've glided through Gwangju's stations with art-city flair.",
+  },
+  hangzhou: {
+    title: "West Lake Wayfinder",
+    description: "You've cruised Hangzhou's lines as smoothly as the West Lake breeze.",
+  },
+  hefei: {
+    title: "Hefei High-Tech",
+    description: "You've mapped Hefei's lines with science-city focus.",
+  },
+  hiroshima: {
+    title: "Hiroshima Harmony",
+    description: "You've ridden Hiroshima's lines with peace-city poise.",
+  },
+  huaian: {
+    title: "Huai'an Pathfinder",
+    description: "You've charted Huai'an's lines with canal-town calm.",
+  },
+  huangshi: {
+    title: "Huangshi Heavyweight",
+    description: "You've powered through Huangshi's network like a steel-city pro.",
+  },
+  jakarta: {
+    title: "Jakarta Jolt",
+    description: "You've navigated Jakarta's lines through the big-city buzz.",
+  },
+  jiaxing: {
+    title: "Jiaxing Junction",
+    description: "You've linked Jiaxing's stations with canal-side confidence.",
+  },
+  jinan: {
+    title: "Jinan Springstride",
+    description: "You've flowed through Jinan's lines like a city of springs.",
+  },
+  'kuala-lumpur': {
+    title: "KL Connector",
+    description: "You've hopped Kuala Lumpur's lines with skyline-bright swagger.",
+  },
+  kunming: {
+    title: "Kunming Cloud Rider",
+    description: "You've cruised Kunming's lines in eternal-spring style.",
+  },
+  kyoto: {
+    title: "Kyoto Calm",
+    description: "You've glided through Kyoto's stations with temple-quiet focus.",
+  },
+  lijiang: {
+    title: "Lijiang Lantern",
+    description: "You've traced Lijiang's lines with old-town charm.",
+  },
+  liupanshui: {
+    title: "Liupanshui Low-Carbon",
+    description: "You've mastered Liupanshui's lines with cool-air composure.",
+  },
+  manila: {
+    title: "Manila Mover",
+    description: "You've crossed Manila's rails with jeepney-level hustle.",
+  },
+  mengzhi: {
+    title: "Mengzhi Mapper",
+    description: "You've charted Mengzhi's stations like a borderland scout.",
+  },
+  'mexico-city': {
+    title: "CDMX Conductor",
+    description: "You've conquered Mexico City's lines with megacity rhythm.",
+  },
+  monterrey: {
+    title: "Monterrey Mountainer",
+    description: "You've climbed Monterrey's lines like a cerro-side champ.",
+  },
+  nagoya: {
+    title: "Nagoya Navigator",
+    description: "You've steered Nagoya's lines with shinkansen-smooth precision.",
+  },
+  nanchang: {
+    title: "Nanchang Navigator",
+    description: "You've flown through Nanchang's lines with hero-city grit.",
+  },
+  nanjing: {
+    title: "Nanjing Nightwatch",
+    description: "You've patrolled Nanjing's lines like a city-wall sentinel.",
+  },
+  nanping: {
+    title: "Nanping Pathfinder",
+    description: "You've threaded Nanping's lines through mountain-green calm.",
+  },
+  ningbo: {
+    title: "Ningbo Nautical",
+    description: "You've sailed Ningbo's lines like a port-city pro.",
+  },
+  okayama: {
+    title: "Okayama Orchardist",
+    description: "You've glided through Okayama's lines with peach-perfect timing.",
+  },
+  'osaka-kobe': {
+    title: "Osaka-Kobe Connector",
+    description: "You've linked Osaka and Kobe like a Kansai commuter legend.",
+  },
+  palembang: {
+    title: "Palembang Pioneer",
+    description: "You've crossed Palembang's lines with river-city rhythm.",
+  },
+  qingdao: {
+    title: "Qingdao Quayside",
+    description: "You've navigated Qingdao's lines like a seaside strategist.",
+  },
+  qiubei: {
+    title: "Qiubei Pathfinder",
+    description: "You've mapped Qiubei's lines with plateau-town persistence.",
+  },
+  sanya: {
+    title: "Sanya Sunrunner",
+    description: "You've cruised Sanya's lines with island-sun confidence.",
+  },
+  sapporo: {
+    title: "Sapporo Snowline",
+    description: "You've mastered Sapporo's lines even in snow-town mode.",
+  },
+  sendai: {
+    title: "Sendai Sentinel",
+    description: "You've guided Sendai's lines with city-of-trees focus.",
+  },
+  shenyang: {
+    title: "Shenyang Steelheart",
+    description: "You've powered through Shenyang's lines with northern grit.",
+  },
+  suzhou: {
+    title: "Suzhou Silkrunner",
+    description: "You've stitched Suzhou's lines with canal-silk finesse.",
+  },
+  tianjin: {
+    title: "Tianjin Trailblazer",
+    description: "You've navigated Tianjin's lines with port-city pace.",
+  },
+  tianshui: {
+    title: "Tianshui Trail",
+    description: "You've trekked Tianshui's lines with mountain-spring energy.",
+  },
+  wuhan: {
+    title: "Wuhan River Rider",
+    description: "You've crossed Wuhan's lines like a pro of two rivers.",
+  },
+  wuxi: {
+    title: "Wuxi Wave",
+    description: "You've flowed through Wuxi's lines with lake-city calm.",
+  },
+  xian: {
+    title: "Xi'an Timekeeper",
+    description: "You've guarded Xi'an's lines like a modern Terracotta sentinel.",
+  },
+  xuzhou: {
+    title: "Xuzhou Xpress",
+    description: "You've driven Xuzhou's lines with railway-hub precision.",
+  },
+  zhengzhou: {
+    title: "Zhengzhou Junction",
+    description: "You've mastered Zhengzhou's lines at China's heart-hub.",
   },
 }
 

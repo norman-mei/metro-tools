@@ -111,7 +111,6 @@ import jinhua from '@/app/(game)/asia/china/jinhua/opengraph-image.jpg'
 import lanzhou from '@/app/(game)/asia/china/lanzhou/opengraph-image.jpg'
 import luoyang from '@/app/(game)/asia/china/luoyang/opengraph-image.jpg'
 import nantong from '@/app/(game)/asia/china/nantong/opengraph-image.jpg'
-import shaoxing from '@/app/(game)/asia/china/shaoxing/opengraph-image.jpg'
 import shijiazhuang from '@/app/(game)/asia/china/shijiazhuang/opengraph-image.jpg'
 import taiyuan from '@/app/(game)/asia/china/taiyuan/opengraph-image.jpg'
 import wuhu from '@/app/(game)/asia/china/wuhu/opengraph-image.jpg'
@@ -758,13 +757,6 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
-    name: 'Shaoxing (绍兴), ZJ',
-    image: shaoxing,
-    link: '/asia/china/shaoxing',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
     name: 'Shijiazhuang (石家庄), HE',
     image: shijiazhuang,
     link: '/asia/china/shijiazhuang',
@@ -926,7 +918,7 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
-    name: 'Hangzhou (杭州), ZJ',
+    name: 'Shaoxing-Hanzhou (绍兴-杭州), ZJ',
     image: hangzhou,
     link: '/asia/china/hangzhou',
     continent: 'Asia',

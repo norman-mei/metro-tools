@@ -23,6 +23,7 @@ export type UiPreferences = {
   hourFormat?: '12h' | '24h'
   cityViewMode?: CityViewMode
   cityViewSatellite?: boolean
+  continentNavOpen?: boolean
 }
 
 export function normalizeCollapsedSections(
@@ -82,6 +83,10 @@ export function normalizeCityViewSatellite(value: unknown): boolean | undefined 
   return typeof value === 'boolean' ? value : undefined
 }
 
+export function normalizeContinentNavOpen(value: unknown): boolean | undefined {
+  return typeof value === 'boolean' ? value : undefined
+}
+
 export function normalizeUiPreferences(value: unknown): UiPreferences {
   if (!isRecord(value)) {
     return {}
@@ -95,6 +100,7 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
   const hourFormat = normalizeHourFormat(value.hourFormat)
   const cityViewMode = normalizeCityViewMode(value.cityViewMode)
   const cityViewSatellite = normalizeCityViewSatellite(value.cityViewSatellite)
+  const continentNavOpen = normalizeContinentNavOpen(value.continentNavOpen)
 
   return {
     ...(collapsedSections ? { collapsedSections } : {}),
@@ -103,6 +109,7 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
     ...(hourFormat ? { hourFormat } : {}),
     ...(cityViewMode ? { cityViewMode } : {}),
     ...(cityViewSatellite !== undefined ? { cityViewSatellite } : {}),
+    ...(continentNavOpen !== undefined ? { continentNavOpen } : {}),
   }
 }
 

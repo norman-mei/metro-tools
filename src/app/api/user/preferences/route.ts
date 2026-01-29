@@ -24,6 +24,13 @@ const preferencesSchema = z.object({
     .string()
     .refine(isSupportedLanguage, 'Unsupported language')
     .optional(),
+  timezone: z.string().min(1).optional(),
+  hourFormat: z.enum(['12h', '24h']).optional(),
+  cityViewMode: z
+    .enum(['globe', 'map', 'comfortable', 'compact', 'cover', 'list'])
+    .optional(),
+  cityViewSatellite: z.boolean().optional(),
+  continentNavOpen: z.boolean().optional(),
 })
 
 export async function PATCH(request: NextRequest) {
@@ -53,6 +60,15 @@ export async function PATCH(request: NextRequest) {
       : {}),
     ...(parsed.data.language
       ? { language: parsed.data.language }
+      : {}),
+    ...(parsed.data.timezone ? { timezone: parsed.data.timezone } : {}),
+    ...(parsed.data.hourFormat ? { hourFormat: parsed.data.hourFormat } : {}),
+    ...(parsed.data.cityViewMode ? { cityViewMode: parsed.data.cityViewMode } : {}),
+    ...(typeof parsed.data.cityViewSatellite === 'boolean'
+      ? { cityViewSatellite: parsed.data.cityViewSatellite }
+      : {}),
+    ...(typeof parsed.data.continentNavOpen === 'boolean'
+      ? { continentNavOpen: parsed.data.continentNavOpen }
       : {}),
   }
 
