@@ -1,0 +1,1811 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0648985,
+          24.6462816
+        ]
+      },
+      "properties": {
+        "name": "Yannei (岩内)",
+        "alternate_names": [
+          "Yannei",
+          "岩内"
+        ],
+        "line": "xiamen1",
+        "id": 0,
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0683222,
+          24.6400179
+        ]
+      },
+      "properties": {
+        "name": "Xiamen North Railway Station (厦门北站)",
+        "alternate_names": [
+          "Xiamen North Railway Station",
+          "厦门北站"
+        ],
+        "line": "xiamen1",
+        "id": 1,
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0612081,
+          24.6287136
+        ]
+      },
+      "properties": {
+        "name": "Tianshui Road (天水路)",
+        "alternate_names": [
+          "Tianshui Road",
+          "天水路"
+        ],
+        "line": "xiamen1",
+        "id": 2,
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0503018,
+          24.6227621
+        ]
+      },
+      "properties": {
+        "name": "Jimei Boulevard (集美大道)",
+        "alternate_names": [
+          "Jimei Boulevard",
+          "集美大道"
+        ],
+        "line": "xiamen1",
+        "id": 3,
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0428388,
+          24.6162186
+        ]
+      },
+      "properties": {
+        "name": "Jimei Software Park (集美软件园)",
+        "alternate_names": [
+          "Jimei Software Park",
+          "集美软件园"
+        ],
+        "line": "xiamen1",
+        "id": 4,
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0492491,
+          24.6059772
+        ]
+      },
+      "properties": {
+        "name": "Chengyi Plaza (诚毅广场)",
+        "alternate_names": [
+          "Chengyi Plaza",
+          "诚毅广场"
+        ],
+        "line": "xiamen1",
+        "id": 5,
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.05367242885467,
+          24.595516896961783
+        ]
+      },
+      "properties": {
+        "name": "Guanren (官任)",
+        "alternate_names": [
+          "Guanren",
+          "官任"
+        ],
+        "line": "xiamen1",
+        "id": 6,
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0520897,
+          24.5840358
+        ]
+      },
+      "properties": {
+        "name": "Xingjin Road (杏锦路)",
+        "alternate_names": [
+          "Xingjin Road",
+          "杏锦路"
+        ],
+        "line": "xiamen1",
+        "id": 7,
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0573836,
+          24.5788338
+        ]
+      },
+      "properties": {
+        "name": "Xinglin Village (杏林村)",
+        "alternate_names": [
+          "Xinglin Village",
+          "杏林村"
+        ],
+        "line": "xiamen1",
+        "id": 8,
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0624166,
+          24.5721983
+        ]
+      },
+      "properties": {
+        "name": "Horticulture Expo Garden (园博苑)",
+        "alternate_names": [
+          "Horticulture Expo Garden",
+          "园博苑"
+        ],
+        "line": "xiamen1",
+        "id": 9,
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0873516,
+          24.5665815
+        ]
+      },
+      "properties": {
+        "name": "Jimei School Village (集美学村)",
+        "alternate_names": [
+          "Jimei School Village",
+          "集美学村"
+        ],
+        "line": "xiamen1",
+        "id": 10,
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1117377,
+          24.540615
+        ]
+      },
+      "properties": {
+        "name": "Gaoqi (高崎)",
+        "alternate_names": [
+          "Gaoqi",
+          "高崎"
+        ],
+        "line": "xiamen1",
+        "id": 11,
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.111568,
+          24.5284972
+        ]
+      },
+      "properties": {
+        "name": "Dianqian (殿前)",
+        "alternate_names": [
+          "Dianqian",
+          "殿前"
+        ],
+        "line": "xiamen1",
+        "id": 12,
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.113614,
+          24.5152323
+        ]
+      },
+      "properties": {
+        "name": "Torch Hi-Tech Park (火炬园)",
+        "alternate_names": [
+          "Torch Hi-Tech Park",
+          "火炬园"
+        ],
+        "line": "xiamen1",
+        "id": 13,
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1179642,
+          24.5086922
+        ]
+      },
+      "properties": {
+        "name": "Tangbian (塘边)",
+        "alternate_names": [
+          "Tangbian",
+          "塘边"
+        ],
+        "line": "xiamen1",
+        "id": 14,
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1214887,
+          24.5015217
+        ]
+      },
+      "properties": {
+        "name": "Wushipu (乌石浦)",
+        "alternate_names": [
+          "Wushipu",
+          "乌石浦"
+        ],
+        "line": "xiamen1",
+        "id": 15,
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1235,
+          24.4922
+        ]
+      },
+      "properties": {
+        "name": "Lücuo (吕厝)",
+        "alternate_names": [
+          "Lücuo",
+          "吕厝"
+        ],
+        "line": "xiamen1",
+        "id": 16,
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1181727,
+          24.4865934
+        ]
+      },
+      "properties": {
+        "name": "Lianhua Intersection (莲花路口)",
+        "alternate_names": [
+          "Lianhua Intersection",
+          "莲花路口"
+        ],
+        "line": "xiamen1",
+        "id": 17,
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1127832,
+          24.4786379
+        ]
+      },
+      "properties": {
+        "name": "Lianban (莲坂)",
+        "alternate_names": [
+          "Lianban",
+          "莲坂"
+        ],
+        "line": "xiamen1",
+        "id": 18,
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1063815,
+          24.4770536
+        ]
+      },
+      "properties": {
+        "name": "Hubin East Road (湖滨东路)",
+        "alternate_names": [
+          "Hubin East Road",
+          "湖滨东路"
+        ],
+        "line": "xiamen1",
+        "id": 19,
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0985323,
+          24.4701207
+        ]
+      },
+      "properties": {
+        "name": "Wenzao (文灶)",
+        "alternate_names": [
+          "Wenzao",
+          "文灶"
+        ],
+        "line": "xiamen1",
+        "id": 20,
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0952713,
+          24.4637286
+        ]
+      },
+      "properties": {
+        "name": "Jiangjunci (将军祠)",
+        "alternate_names": [
+          "Jiangjunci",
+          "将军祠"
+        ],
+        "line": "xiamen1",
+        "id": 21,
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.085246,
+          24.4585969
+        ]
+      },
+      "properties": {
+        "name": "Zhongshan Park (中山公园)",
+        "alternate_names": [
+          "Zhongshan Park",
+          "中山公园"
+        ],
+        "line": "xiamen1",
+        "id": 22,
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0781412,
+          24.4534168
+        ]
+      },
+      "properties": {
+        "name": "Zhenhai Road (镇海路)",
+        "alternate_names": [
+          "Zhenhai Road",
+          "镇海路"
+        ],
+        "line": "xiamen1",
+        "id": 23,
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9322,
+          24.5817
+        ]
+      },
+      "properties": {
+        "name": "Tianzhushan (天竺山)",
+        "alternate_names": [
+          "Tianzhushan",
+          "天竺山"
+        ],
+        "line": "xiamen2",
+        "id": 24,
+        "order": 0
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9429,
+          24.5693
+        ]
+      },
+      "properties": {
+        "name": "Dongfu (东孚)",
+        "alternate_names": [
+          "Dongfu",
+          "东孚"
+        ],
+        "line": "xiamen2",
+        "id": 25,
+        "order": 1
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9568,
+          24.553
+        ]
+      },
+      "properties": {
+        "name": "Dongyao (东瑶)",
+        "alternate_names": [
+          "Dongyao",
+          "东瑶"
+        ],
+        "line": "xiamen2",
+        "id": 26,
+        "order": 2
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.969056,
+          24.5499794
+        ]
+      },
+      "properties": {
+        "name": "Dingmei (鼎美)",
+        "alternate_names": [
+          "Dingmei",
+          "鼎美"
+        ],
+        "line": "xiamen2",
+        "id": 27,
+        "order": 3
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9804,
+          24.5491
+        ]
+      },
+      "properties": {
+        "name": "Maluan Center (马銮中心)",
+        "alternate_names": [
+          "Maluan Center",
+          "马銮中心"
+        ],
+        "line": "xiamen2",
+        "id": 28,
+        "order": 4
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9905,
+          24.5399
+        ]
+      },
+      "properties": {
+        "name": "Xinyang Avenue (新阳大道)",
+        "alternate_names": [
+          "Xinyang Avenue",
+          "新阳大道"
+        ],
+        "line": "xiamen2",
+        "id": 29,
+        "order": 5
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0001,
+          24.5337
+        ]
+      },
+      "properties": {
+        "name": "Xin'an (新垵)",
+        "alternate_names": [
+          "Xin'an",
+          "新垵"
+        ],
+        "line": "xiamen2",
+        "id": 30,
+        "order": 6
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0096,
+          24.5289
+        ]
+      },
+      "properties": {
+        "name": "Wengjiao Road (翁角路)",
+        "alternate_names": [
+          "Wengjiao Road",
+          "翁角路"
+        ],
+        "line": "xiamen2",
+        "id": 31,
+        "order": 7
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.025,
+          24.4969
+        ]
+      },
+      "properties": {
+        "name": "Maqing Road (马青路)",
+        "alternate_names": [
+          "Maqing Road",
+          "马青路"
+        ],
+        "line": "xiamen2",
+        "id": 32,
+        "order": 8
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0282,
+          24.4902
+        ]
+      },
+      "properties": {
+        "name": "Haicang Administrative Center (海沧行政中心)",
+        "alternate_names": [
+          "Haicang Administrative Center",
+          "海沧行政中心"
+        ],
+        "line": "xiamen2",
+        "id": 33,
+        "order": 9
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0349,
+          24.4832
+        ]
+      },
+      "properties": {
+        "name": "Haicang Business Center (海沧商务中心)",
+        "alternate_names": [
+          "Haicang Business Center",
+          "海沧商务中心"
+        ],
+        "line": "xiamen2",
+        "id": 34,
+        "order": 10
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0449,
+          24.4869
+        ]
+      },
+      "properties": {
+        "name": "Haicang Bay Park (海沧湾公园)",
+        "alternate_names": [
+          "Haicang Bay Park",
+          "海沧湾公园"
+        ],
+        "line": "xiamen2",
+        "id": 35,
+        "order": 11
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.07222,
+          24.4877
+        ]
+      },
+      "properties": {
+        "name": "Cruise Center (邮轮中心)",
+        "alternate_names": [
+          "Cruise Center",
+          "邮轮中心"
+        ],
+        "line": "xiamen2",
+        "id": 36,
+        "order": 12
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0791,
+          24.4808
+        ]
+      },
+      "properties": {
+        "name": "Jianye Road (建业路)",
+        "alternate_names": [
+          "Jianye Road",
+          "建业路"
+        ],
+        "line": "xiamen2",
+        "id": 37,
+        "order": 13
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0899,
+          24.4833
+        ]
+      },
+      "properties": {
+        "name": "Hubin Middle Road (湖滨中路)",
+        "alternate_names": [
+          "Hubin Middle Road",
+          "湖滨中路"
+        ],
+        "line": "xiamen2",
+        "id": 38,
+        "order": 14
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1010296,
+          24.4862918
+        ]
+      },
+      "properties": {
+        "name": "Sports Center (体育中心)",
+        "alternate_names": [
+          "Sports Center",
+          "体育中心"
+        ],
+        "line": "xiamen2",
+        "id": 39,
+        "order": 15
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1079,
+          24.4881
+        ]
+      },
+      "properties": {
+        "name": "Yuxiu East Road (育秀东路)",
+        "alternate_names": [
+          "Yuxiu East Road",
+          "育秀东路"
+        ],
+        "line": "xiamen2",
+        "id": 40,
+        "order": 16
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1235,
+          24.4922
+        ]
+      },
+      "properties": {
+        "name": "Lücuo (吕厝)",
+        "alternate_names": [
+          "Lücuo",
+          "吕厝"
+        ],
+        "line": "xiamen2",
+        "id": 41,
+        "order": 17
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1334,
+          24.4949
+        ]
+      },
+      "properties": {
+        "name": "Jiangtou (江头)",
+        "alternate_names": [
+          "Jiangtou",
+          "江头"
+        ],
+        "line": "xiamen2",
+        "id": 42,
+        "order": 18
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1413,
+          24.4924
+        ]
+      },
+      "properties": {
+        "name": "Houpu (后埔)",
+        "alternate_names": [
+          "Houpu",
+          "后埔"
+        ],
+        "line": "xiamen2",
+        "id": 43,
+        "order": 19
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1484,
+          24.4899
+        ]
+      },
+      "properties": {
+        "name": "Caitang (蔡塘)",
+        "alternate_names": [
+          "Caitang",
+          "蔡塘"
+        ],
+        "line": "xiamen2",
+        "id": 44,
+        "order": 20
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1589,
+          24.4883
+        ]
+      },
+      "properties": {
+        "name": "Gudishi (古地石)",
+        "alternate_names": [
+          "Gudishi",
+          "古地石"
+        ],
+        "line": "xiamen2",
+        "id": 45,
+        "order": 21
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1693,
+          24.4871
+        ]
+      },
+      "properties": {
+        "name": "Lingdou (岭兜)",
+        "alternate_names": [
+          "Lingdou",
+          "岭兜"
+        ],
+        "line": "xiamen2",
+        "id": 46,
+        "order": 22
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.18,
+          24.4836
+        ]
+      },
+      "properties": {
+        "name": "Software Park Phase II (软件园二期)",
+        "alternate_names": [
+          "Software Park Phase II",
+          "软件园二期"
+        ],
+        "line": "xiamen2",
+        "id": 47,
+        "order": 23
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1878,
+          24.4882
+        ]
+      },
+      "properties": {
+        "name": "Hecuo (何厝)",
+        "alternate_names": [
+          "Hecuo",
+          "何厝"
+        ],
+        "line": "xiamen2",
+        "id": 48,
+        "order": 24
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1881,
+          24.4959
+        ]
+      },
+      "properties": {
+        "name": "Guanyinshan (观音山)",
+        "alternate_names": [
+          "Guanyinshan",
+          "观音山"
+        ],
+        "line": "xiamen2",
+        "id": 49,
+        "order": 25
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1882,
+          24.502
+        ]
+      },
+      "properties": {
+        "name": "Dongzhai (东宅)",
+        "alternate_names": [
+          "Dongzhai",
+          "东宅"
+        ],
+        "line": "xiamen2",
+        "id": 50,
+        "order": 26
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1892,
+          24.5082
+        ]
+      },
+      "properties": {
+        "name": "Cross-Strait Financial Center (两岸金融中心)",
+        "alternate_names": [
+          "Cross-Strait Financial Center",
+          "两岸金融中心"
+        ],
+        "line": "xiamen2",
+        "id": 51,
+        "order": 27
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1848,
+          24.5144
+        ]
+      },
+      "properties": {
+        "name": "Wutong (五通)",
+        "alternate_names": [
+          "Wutong",
+          "五通"
+        ],
+        "line": "xiamen2",
+        "id": 52,
+        "order": 28
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1779,
+          24.5198
+        ]
+      },
+      "properties": {
+        "name": "Wetland Park (湿地公园)",
+        "alternate_names": [
+          "Wetland Park",
+          "湿地公园"
+        ],
+        "line": "xiamen2",
+        "id": 53,
+        "order": 29
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1681,
+          24.5267
+        ]
+      },
+      "properties": {
+        "name": "Zhongzhai (钟宅)",
+        "alternate_names": [
+          "Zhongzhai",
+          "钟宅"
+        ],
+        "line": "xiamen2",
+        "id": 54,
+        "order": 30
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1624,
+          24.5349
+        ]
+      },
+      "properties": {
+        "name": "Wuyuanwan (五缘湾)",
+        "alternate_names": [
+          "Wuyuanwan",
+          "五缘湾"
+        ],
+        "line": "xiamen2",
+        "id": 55,
+        "order": 31
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0841053,
+          24.4397479
+        ]
+      },
+      "properties": {
+        "name": "Shapowei (沙坡尾)",
+        "alternate_names": [
+          "Shapowei",
+          "沙坡尾"
+        ],
+        "line": "xiamen3",
+        "id": 56,
+        "order": 0
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0873518,
+          24.4380385
+        ]
+      },
+      "properties": {
+        "name": "South Gate of Xiamen University (厦大南门)",
+        "alternate_names": [
+          "South Gate of Xiamen University",
+          "厦大南门"
+        ],
+        "line": "xiamen3",
+        "id": 57,
+        "order": 1
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0987281,
+          24.4346497
+        ]
+      },
+      "properties": {
+        "name": "Xiada Baicheng (厦大白城)",
+        "alternate_names": [
+          "Xiada Baicheng",
+          "厦大白城"
+        ],
+        "line": "xiamen3",
+        "id": 58,
+        "order": 2
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.116168,
+          24.4335673
+        ]
+      },
+      "properties": {
+        "name": "Zengcuo'an (曾厝垵)",
+        "alternate_names": [
+          "Zengcuo'an",
+          "曾厝垵"
+        ],
+        "line": "xiamen3",
+        "id": 59,
+        "order": 3
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.117019,
+          24.4402606
+        ]
+      },
+      "properties": {
+        "name": "Shangli Xincun (上李新村)",
+        "alternate_names": [
+          "Shangli Xincun",
+          "上李新村"
+        ],
+        "line": "xiamen3",
+        "id": 60,
+        "order": 4
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1093426,
+          24.4721259
+        ]
+      },
+      "properties": {
+        "name": "Xiamen Railway Station (厦门火车站)",
+        "alternate_names": [
+          "Xiamen Railway Station",
+          "厦门火车站"
+        ],
+        "line": "xiamen3",
+        "id": 61,
+        "order": 5
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1063815,
+          24.4770536
+        ]
+      },
+      "properties": {
+        "name": "Hubin East Rd (湖滨东路)",
+        "alternate_names": [
+          "Hubin East Rd",
+          "湖滨东路"
+        ],
+        "line": "xiamen3",
+        "id": 62,
+        "order": 6
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1010296,
+          24.4862918
+        ]
+      },
+      "properties": {
+        "name": "Sports Center (体育中心)",
+        "alternate_names": [
+          "Sports Center",
+          "体育中心"
+        ],
+        "line": "xiamen3",
+        "id": 63,
+        "order": 7
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0984906,
+          24.4915493
+        ]
+      },
+      "properties": {
+        "name": "HR Service Center (人才中心)",
+        "alternate_names": [
+          "HR Service Center",
+          "人才中心"
+        ],
+        "line": "xiamen3",
+        "id": 64,
+        "order": 8
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1005224,
+          24.5093783
+        ]
+      },
+      "properties": {
+        "name": "Huli Park (湖里公园)",
+        "alternate_names": [
+          "Huli Park",
+          "湖里公园"
+        ],
+        "line": "xiamen3",
+        "id": 65,
+        "order": 9
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.104629,
+          24.5141666
+        ]
+      },
+      "properties": {
+        "name": "Huarong Rd (华荣路)",
+        "alternate_names": [
+          "Huarong Rd",
+          "华荣路"
+        ],
+        "line": "xiamen3",
+        "id": 66,
+        "order": 10
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.113614,
+          24.5152323
+        ]
+      },
+      "properties": {
+        "name": "Torch Hi-Tech Park (火炬园)",
+        "alternate_names": [
+          "Torch Hi-Tech Park",
+          "火炬园"
+        ],
+        "line": "xiamen3",
+        "id": 67,
+        "order": 11
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1210644,
+          24.5168639
+        ]
+      },
+      "properties": {
+        "name": "Xiaodongshan (小东山)",
+        "alternate_names": [
+          "Xiaodongshan",
+          "小东山"
+        ],
+        "line": "xiamen3",
+        "id": 68,
+        "order": 12
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1335998,
+          24.5205407
+        ]
+      },
+      "properties": {
+        "name": "Andou (安兜)",
+        "alternate_names": [
+          "Andou",
+          "安兜"
+        ],
+        "line": "xiamen3",
+        "id": 69,
+        "order": 13
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1419651,
+          24.5220142
+        ]
+      },
+      "properties": {
+        "name": "Banshang (坂尚)",
+        "alternate_names": [
+          "Banshang",
+          "坂尚"
+        ],
+        "line": "xiamen3",
+        "id": 70,
+        "order": 14
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1513196,
+          24.5256072
+        ]
+      },
+      "properties": {
+        "name": "Huli Innovation Park (湖里创新园)",
+        "alternate_names": [
+          "Huli Innovation Park",
+          "湖里创新园"
+        ],
+        "line": "xiamen3",
+        "id": 71,
+        "order": 15
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2148984,
+          24.5680462
+        ]
+      },
+      "properties": {
+        "name": "Dongjie (东界)",
+        "alternate_names": [
+          "Dongjie",
+          "东界"
+        ],
+        "line": "xiamen3",
+        "id": 72,
+        "order": 18
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.22194254001181,
+          24.574356039993646
+        ]
+      },
+      "properties": {
+        "name": "Hongkeng (洪坑)",
+        "alternate_names": [
+          "Hongkeng",
+          "洪坑"
+        ],
+        "line": "xiamen3",
+        "id": 73,
+        "order": 19
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2271502,
+          24.5787975
+        ]
+      },
+      "properties": {
+        "name": "Linqian (林前)",
+        "alternate_names": [
+          "Linqian",
+          "林前"
+        ],
+        "line": "xiamen3",
+        "id": 74,
+        "order": 20
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2395791,
+          24.5813668
+        ]
+      },
+      "properties": {
+        "name": "Guluo (鼓锣)",
+        "alternate_names": [
+          "Guluo",
+          "鼓锣"
+        ],
+        "line": "xiamen3",
+        "id": 75,
+        "order": 21
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2496421,
+          24.5815895
+        ]
+      },
+      "properties": {
+        "name": "Xiang'an Public Park (翔安市民公园)",
+        "alternate_names": [
+          "Xiang'an Public Park",
+          "翔安市民公园"
+        ],
+        "line": "xiamen3",
+        "id": 76,
+        "order": 22
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2573339,
+          24.5830167
+        ]
+      },
+      "properties": {
+        "name": "Pubian (浦边)",
+        "alternate_names": [
+          "Pubian",
+          "浦边"
+        ],
+        "line": "xiamen3",
+        "id": 77,
+        "order": 23
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2671739,
+          24.5827005
+        ]
+      },
+      "properties": {
+        "name": "Houcun (后村)",
+        "alternate_names": [
+          "Houcun",
+          "后村"
+        ],
+        "line": "xiamen3",
+        "id": 78,
+        "order": 24
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2744696,
+          24.575541
+        ]
+      },
+      "properties": {
+        "name": "Caicuo (蔡厝)",
+        "alternate_names": [
+          "Caicuo",
+          "蔡厝"
+        ],
+        "line": "xiamen3",
+        "id": 79,
+        "order": 25
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2795639,
+          24.5715206
+        ]
+      },
+      "properties": {
+        "name": "Caicuo South (蔡厝南)",
+        "alternate_names": [
+          "Caicuo South",
+          "蔡厝南"
+        ],
+        "line": "xiamen3",
+        "id": 80,
+        "order": 26
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.296239,
+          24.5607149
+        ]
+      },
+      "properties": {
+        "name": "Yangtang (阳塘)",
+        "alternate_names": [
+          "Yangtang",
+          "阳塘"
+        ],
+        "line": "xiamen3",
+        "id": 81,
+        "order": 27
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.31114788315284,
+          24.54976935883596
+        ]
+      },
+      "properties": {
+        "name": "Shuanghu (双沪)",
+        "alternate_names": [
+          "Shuanghu",
+          "双沪"
+        ],
+        "line": "xiamen3",
+        "id": 82,
+        "order": 28
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3177492,
+          24.5438221
+        ]
+      },
+      "properties": {
+        "name": "Airport Service Area (空港服务区)",
+        "alternate_names": [
+          "Airport Service Area",
+          "空港服务区"
+        ],
+        "line": "xiamen3",
+        "id": 83,
+        "order": 29
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.35000416594318,
+          24.53962812274409
+        ]
+      },
+      "properties": {
+        "name": "Airport West (机场西)",
+        "alternate_names": [
+          "Airport West",
+          "机场西"
+        ],
+        "line": "xiamen3",
+        "id": 84,
+        "order": 30
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.35807490858906,
+          24.544292628884506
+        ]
+      },
+      "properties": {
+        "name": "Xiang'an Airport (翔安机场)",
+        "alternate_names": [
+          "Xiang'an Airport",
+          "翔安机场"
+        ],
+        "line": "xiamen3",
+        "id": 85,
+        "order": 31
+      },
+      "id": 85
+    }
+  ]
+}

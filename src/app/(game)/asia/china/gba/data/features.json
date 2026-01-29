@@ -2327,34 +2327,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2899451,
-          22.834765
-        ]
-      },
-      "properties": {
-        "id": 90485,
-        "name": "Shunde No.1 High School (顺德一中)",
-        "long_name": "顺德一中 Shunde No.1 High School",
-        "alternate_names": [
-          "Shunde No.1 High School",
-          "Shunde No.1 High School Station",
-          "顺德一中",
-          "顺德一中站",
-          "順德一中站",
-          "shun de yi zhong zhan",
-          "seon6 dak1 jat1 zung1 zaam6"
-        ],
-        "line": "fs_line3",
-        "order": 4,
-        "original_city": "gz"
-      },
-      "id": 90485
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           113.1260983,
           22.9946737
         ]
@@ -4617,7 +4589,8 @@
         ],
         "line": "gzline11",
         "order": 7,
-        "original_city": "gz"
+        "original_city": "gz",
+        "cluster_key": "baiyun_cableway_complex"
       },
       "id": 90274
     },
@@ -34919,7 +34892,8 @@
         ],
         "line": "gzcw_cable",
         "order": 0,
-        "original_city": "gz"
+        "original_city": "gz",
+        "cluster_key": "baiyun_cableway_complex"
       },
       "id": 91870
     },
@@ -58858,23 +58832,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2899451,
-          22.834765
+          113.2714,
+          22.8777
         ]
       },
       "properties": {
         "id": 91685,
-        "name": "Shunde (顺德一中)",
-        "long_name": "顺德一中 Shunde No.1 High School",
+        "name": "Shunde (顺德)",
+        "long_name": "顺德 Shunde",
         "alternate_names": [
-          "Shunde No.1 High School",
-          "Shunde No.1 High School Station",
-          "顺德一中",
-          "顺德一中站",
-          "順德一中站",
-          "shun de yi zhong zhan",
-          "seon6 dak1 jat1 zung1 zaam6",
-          "Shunde"
+          "Shunde",
+          "Shunde Station",
+          "顺德",
+          "顺德站",
+          "順德",
+          "順德站"
         ],
         "line": "prdir_guangzhu",
         "order": 3,
