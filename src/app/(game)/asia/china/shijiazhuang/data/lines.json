@@ -1,0 +1,26 @@
+{
+  "shijiazhuang1": {
+    "name": "Line 1",
+    "color": "#E53E30",
+    "backgroundColor": "#7D221A",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "shijiazhuang1.png"
+  },
+  "shijiazhuang2": {
+    "name": "Line 2",
+    "color": "#FEC30A",
+    "backgroundColor": "#8B6B05",
+    "textColor": "#000000",
+    "order": 1,
+    "icon": "shijiazhuang2.png"
+  },
+  "shijiazhuang3": {
+    "name": "Line 3",
+    "color": "#00A1E0",
+    "backgroundColor": "#00587B",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "shijiazhuang3.png"
+  }
+}
