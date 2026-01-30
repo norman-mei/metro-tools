@@ -13,6 +13,7 @@ import PrivacyPanel from '@/components/PrivacyPanel'
 import SettingsPanel from '@/components/SettingsPanel'
 import ThemeToggleButton from '@/components/ThemeToggleButton'
 import ZenModeToast from '@/components/ZenModeToast'
+import SpeedrunToast from '@/components/SpeedrunToast'
 import { useAuth } from '@/context/AuthContext'
 import { KeybindingAction, useSettings } from '@/context/SettingsContext'
 import useHideLabels from '@/hooks/useHideLabels'
@@ -86,6 +87,7 @@ type AchievementToastState = {
 
 const achievementToastStorageKey = (slug: string) => `achievement-toast-hidden-${slug}`
 const kofiWidgetStorageKey = (slug: string) => `kofi-widget-hidden-${slug}`
+const speedrunStartStorageKey = (city: string) => `${city}-speedrun-start`
 
 const deriveCityDisplayName = (title?: string, fallback?: string) => {
   if (!title) {
@@ -118,6 +120,14 @@ const extractMetadataTitle = (title: unknown): string | undefined => {
 }
 
 const EMPTY_TIMESTAMPS: Record<string, string> = {}
+
+const formatMs = (ms: number | null | undefined) => {
+  if (!Number.isFinite(ms ?? NaN)) return '—'
+  const totalSeconds = Math.max(0, Math.round((ms ?? 0) / 1000))
+  const minutes = Math.floor(totalSeconds / 60)
+  const seconds = totalSeconds % 60
+  return `${minutes}:${seconds.toString().padStart(2, '0')}`
+}
 const GLOBAL_SATELLITE_STORAGE_KEY = 'global-satellite-enabled'
 
 const MANUAL_ALTERNATE_NAMES: Record<string, string[]> = {
@@ -711,6 +721,30 @@ export default function GamePage({
   const mapContainerRef = useRef<HTMLDivElement | null>(null)
   
   const [zenMode, setZenMode] = useState(false)
+  const [speedrunMode, setSpeedrunMode] = useState(false)
+  const [speedrunAvailable, setSpeedrunAvailable] = useState(true)
+  const [bestSpeedrunMs, setBestSpeedrunMs] = useState<number | null>(null)
+  const [speedrunElapsedMs, setSpeedrunElapsedMs] = useState<number | null>(null)
+  const speedrunStartRef = useRef<number | null>(null)
+  const speedrunFinishedRef = useRef(false)
+  const speedrunTimerRef = useRef<number | null>(null)
+  const clearSpeedrunStartStorage = useCallback(() => {
+    if (typeof window === 'undefined') return
+    try {
+      window.localStorage.removeItem(speedrunStartStorageKey(CITY_NAME))
+    } catch {
+      // ignore
+    }
+  }, [CITY_NAME])
+  const [mistakes, setMistakes] = useState(0)
+  const savedMapViewRef = useRef<{ zoom: number; center: [number, number] } | null>(null)
+  const mapPersistTimeoutRef = useRef<number | null>(null)
+  const lastPersistTsRef = useRef<number>(0)
+  const comebackTriggeredRef = useRef(false)
+  const comebackArmedRef = useRef(false)
+  const earnedAchievementsRef = useRef<Set<string>>(new Set())
+  const lineMasterEarnedRef = useRef<Set<string>>(new Set())
+  const lastPlayDateRef = useRef<string | null>(null)
 
   const normalizeString = useNormalizeString()
   const { featureCollection, clusterGroups, clusterMembersById } = useMemo(() => {
@@ -1103,6 +1137,97 @@ export default function GamePage({
   const [mapError, setMapError] = useState<string | null>(null)
   const [highlightedLineId, setHighlightedLineId] = useState<string | null>(null)
 
+  // Speedrun preference hydration
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const key = `${CITY_NAME}-speedrun-enabled`
+    let initial = false
+    if (uiPreferences.speedrunByCity && typeof uiPreferences.speedrunByCity[CITY_NAME] === 'boolean') {
+      initial = uiPreferences.speedrunByCity[CITY_NAME] as boolean
+    } else {
+      const raw = window.localStorage.getItem(key)
+      if (raw === '1' || raw === 'true') {
+        initial = true
+      }
+    }
+    setSpeedrunMode(initial)
+  }, [CITY_NAME, uiPreferences.speedrunByCity])
+
+  // Best speedrun hydration
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      const raw = window.localStorage.getItem(`speedrun-best-${CITY_NAME}`)
+      if (raw && Number.isFinite(Number(raw))) {
+        setBestSpeedrunMs(Number(raw))
+      }
+    } catch {
+      // ignore
+    }
+  }, [CITY_NAME])
+
+  // Hydrate in-progress speedrun (start timestamp)
+  useEffect(() => {
+    if (!speedrunMode) return
+    if (typeof window === 'undefined') return
+    try {
+      const raw = window.localStorage.getItem(speedrunStartStorageKey(CITY_NAME))
+      if (!raw) return
+      const startedAt = Number(raw)
+      if (!Number.isFinite(startedAt)) return
+      const elapsed = Math.max(0, Date.now() - startedAt)
+      speedrunStartRef.current = performance.now() - elapsed
+      setSpeedrunElapsedMs(elapsed)
+      speedrunFinishedRef.current = false
+    } catch {
+      // ignore
+    }
+  }, [CITY_NAME, speedrunMode])
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(`${CITY_NAME}-speedrun-enabled`, speedrunMode ? '1' : '0')
+    }
+    updateUiPreferences({ speedrunByCity: { [CITY_NAME]: speedrunMode } })
+    if (!speedrunMode) {
+      speedrunStartRef.current = null
+      speedrunFinishedRef.current = false
+      if (speedrunTimerRef.current) {
+        window.clearInterval(speedrunTimerRef.current)
+        speedrunTimerRef.current = null
+      }
+      setSpeedrunElapsedMs(null)
+      clearSpeedrunStartStorage()
+      setMistakes(0)
+      comebackArmedRef.current = false
+      comebackTriggeredRef.current = false
+    }
+  }, [CITY_NAME, clearSpeedrunStartStorage, speedrunMode, updateUiPreferences])
+
+  // Hydrate saved map view (local only)
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      const raw = window.localStorage.getItem(`map-view-${CITY_NAME}`)
+      if (raw) {
+        const parsed = JSON.parse(raw)
+        if (
+          parsed &&
+          typeof parsed.zoom === 'number' &&
+          Array.isArray(parsed.center) &&
+          parsed.center.length === 2
+        ) {
+          savedMapViewRef.current = {
+            zoom: parsed.zoom,
+            center: [parsed.center[0], parsed.center[1]],
+          }
+        }
+      }
+    } catch {
+      // ignore
+    }
+  }, [CITY_NAME])
+
   useEffect(() => {
     if (highlightedLineId) {
         const timer = setTimeout(() => {
@@ -1222,6 +1347,9 @@ export default function GamePage({
     if (typeof window !== 'undefined') {
       try {
         window.localStorage.setItem(achievementToastStorageKey(slug), '1')
+        if (slug.startsWith('line-master') || slug.includes('line-master')) {
+          window.localStorage.setItem(achievementToastStorageKey('line-master'), '1')
+        }
       } catch {
         // ignore storage errors
       }
@@ -1535,6 +1663,17 @@ export default function GamePage({
       setMobileSidebarOpen(false)
       setHoveredId(null)
       setActiveFoundId(null)
+      setMistakes(0)
+      speedrunStartRef.current = null
+      speedrunFinishedRef.current = false
+      if (speedrunTimerRef.current) {
+        window.clearInterval(speedrunTimerRef.current)
+        speedrunTimerRef.current = null
+      }
+      setSpeedrunElapsedMs(null)
+      clearSpeedrunStartStorage()
+      comebackArmedRef.current = false
+      comebackTriggeredRef.current = false
       clearStoredProgress()
       void submitProgress([], {}, true)
       setTimeout(() => {
@@ -1555,6 +1694,7 @@ export default function GamePage({
     setHoveredId,
     setActiveFoundId,
     clearStoredProgress,
+    clearSpeedrunStartStorage,
     submitProgress,
     inputRef,
     CITY_NAME,
@@ -1823,6 +1963,46 @@ export default function GamePage({
 
   const totalUniqueStations = uniqueStationsMap.size
 
+  useEffect(() => {
+    const available = totalUniqueStations <= 1000
+    setSpeedrunAvailable(available)
+    if (!available) {
+      setSpeedrunMode(false)
+      clearSpeedrunStartStorage()
+    }
+  }, [clearSpeedrunStartStorage, totalUniqueStations])
+
+  // Live speedrun timer
+  useEffect(() => {
+    if (!speedrunMode) {
+      if (speedrunTimerRef.current) {
+        window.clearInterval(speedrunTimerRef.current)
+        speedrunTimerRef.current = null
+      }
+      setSpeedrunElapsedMs(null)
+      return
+    }
+
+    const tick = () => {
+      const start = speedrunStartRef.current
+      if (start !== null) {
+        setSpeedrunElapsedMs(performance.now() - start)
+      } else {
+        setSpeedrunElapsedMs(0)
+      }
+    }
+
+    tick()
+    speedrunTimerRef.current = window.setInterval(tick, 200)
+
+    return () => {
+      if (speedrunTimerRef.current) {
+        window.clearInterval(speedrunTimerRef.current)
+        speedrunTimerRef.current = null
+      }
+    }
+  }, [speedrunMode])
+
   const metadataTitle = useMemo(
     () => extractMetadataTitle(METADATA?.title),
     [METADATA?.title],
@@ -1831,6 +2011,152 @@ export default function GamePage({
   const cityDisplayName = useMemo(
     () => deriveCityDisplayName(metadataTitle, CITY_NAME),
     [metadataTitle, CITY_NAME],
+  )
+
+  const awardAchievement = useCallback(
+    (id: string, title: string, description: string) => {
+      if (earnedAchievementsRef.current.has(id)) return
+      earnedAchievementsRef.current.add(id)
+      if (id.startsWith(`${CITY_NAME}-line-master-`)) {
+        earnedAchievementsRef.current.add('line-master')
+      }
+      if (typeof window !== 'undefined') {
+        try {
+          window.localStorage.setItem(
+            'mm-achievements-earned',
+            JSON.stringify(Array.from(earnedAchievementsRef.current)),
+          )
+        } catch {
+          // ignore
+        }
+      }
+      if (!settings.achievementToastsEnabled) return
+
+      let hidden = false
+      const isLineMaster =
+        id.startsWith(`${CITY_NAME}-line-master-`) || id === 'line-master'
+      if (typeof window !== 'undefined') {
+        try {
+          const specificHidden =
+            window.localStorage.getItem(achievementToastStorageKey(id)) === '1'
+          const globalLineMasterHidden =
+            isLineMaster &&
+            window.localStorage.getItem(achievementToastStorageKey('line-master')) === '1'
+          hidden = specificHidden || globalLineMasterHidden
+        } catch {
+          hidden = false
+        }
+      }
+      if (hidden) return
+
+      setAchievementToast({
+        slug: id,
+        cityName: cityDisplayName,
+        title,
+        description,
+      })
+    },
+    [CITY_NAME, cityDisplayName, settings.achievementToastsEnabled],
+  )
+
+  useEffect(() => {
+    Object.entries(foundStationsPerLine).forEach(([line, count]) => {
+      const total = stationsPerLine[line]
+      if (!total || count < total) return
+      const key = `${CITY_NAME}-line-master-${line}`
+      if (lineMasterEarnedRef.current.has(key)) return
+      lineMasterEarnedRef.current.add(key)
+      const lineLabel =
+        (LINES && LINES[line]?.name) || line
+      awardAchievement(
+        key,
+        'Line Master',
+        `Completed every station on ${lineLabel} in ${cityDisplayName}.`,
+      )
+    })
+  }, [CITY_NAME, LINES, awardAchievement, cityDisplayName, foundStationsPerLine, stationsPerLine])
+
+  const registerPlayDay = useCallback(() => {
+    if (typeof window === 'undefined') return
+    const today = new Date()
+    const todayStr = today.toISOString().slice(0, 10)
+    const yesterday = new Date(today)
+    yesterday.setDate(today.getDate() - 1)
+    const yStr = yesterday.toISOString().slice(0, 10)
+
+    let playDays = new Set<string>()
+    try {
+      const raw = window.localStorage.getItem('mm-play-days')
+      if (raw) {
+        const parsed = JSON.parse(raw)
+        if (Array.isArray(parsed)) {
+          playDays = new Set(parsed.filter((v) => typeof v === 'string'))
+        }
+      }
+    } catch {
+      // ignore
+    }
+    playDays.add(todayStr)
+    window.localStorage.setItem('mm-play-days', JSON.stringify(Array.from(playDays)))
+
+    let streak = 1
+    if (lastPlayDateRef.current === todayStr) {
+      streak = Number(window.localStorage.getItem('mm-streak-count') || '1')
+    } else if (lastPlayDateRef.current === yStr) {
+      streak = Number(window.localStorage.getItem('mm-streak-count') || '1') + 1
+    } else {
+      streak = 1
+    }
+    lastPlayDateRef.current = todayStr
+    window.localStorage.setItem('mm-last-play-date', todayStr)
+    window.localStorage.setItem('mm-streak-count', String(streak))
+
+    const totalDays = playDays.size
+    if (totalDays >= 30)
+      awardAchievement('daily-ultimate', 'Ultimate Daily Grinder', 'Played on 30 different days.')
+    else if (totalDays >= 15)
+      awardAchievement('daily-ultra', 'Ultra Daily Grinder', 'Played on 15 different days.')
+    else if (totalDays >= 5)
+      awardAchievement('daily-super', 'Super Daily Grinder', 'Played on 5 different days.')
+    else if (totalDays >= 1)
+      awardAchievement('daily-normal', 'Daily Grinder', 'Played on 1 day.')
+
+    if (streak >= 90)
+      awardAchievement('streak-90', 'Streak Saver (90)', 'Maintained a 90-day streak.')
+    else if (streak >= 30)
+      awardAchievement('streak-30', 'Streak Saver (30)', 'Maintained a 30-day streak.')
+    else if (streak >= 7)
+      awardAchievement('streak-7', 'Streak Saver (7)', 'Maintained a 7-day streak.')
+  }, [awardAchievement])
+
+  const handleGuessResult = useCallback(
+    (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => {
+      if (result.type === 'wrong') {
+        setMistakes((m) => m + 1)
+      }
+      if (result.type === 'correct') {
+        if (speedrunMode && speedrunStartRef.current === null) {
+          speedrunStartRef.current = performance.now()
+          speedrunFinishedRef.current = false
+          setSpeedrunElapsedMs(0)
+          if (typeof window !== 'undefined') {
+            try {
+              window.localStorage.setItem(
+                speedrunStartStorageKey(CITY_NAME),
+                String(Date.now()),
+              )
+            } catch {
+              // ignore
+            }
+          }
+        }
+        registerPlayDay()
+      }
+      if (result.type === 'already') {
+        registerPlayDay()
+      }
+    },
+    [CITY_NAME, registerPlayDay, speedrunMode],
   )
 
   const foundStationKeys = useMemo(() => {
@@ -1848,6 +2174,12 @@ export default function GamePage({
       ? 0
       : foundStationKeys.size / totalUniqueStations
 
+  useEffect(() => {
+    if (foundProportion < 0.5) {
+      comebackArmedRef.current = true
+    }
+  }, [foundProportion])
+
   const completionProgressRef = useRef(foundProportion)
 
   useEffect(() => {
@@ -1857,6 +2189,87 @@ export default function GamePage({
       foundProportion >= ACHIEVEMENT_COMPLETION_THRESHOLD
 
     if (reachedCompletion) {
+      const isFlawless = mistakes === 0
+      const isAlmostFlawless = mistakes <= 2
+      if (isFlawless) {
+        awardAchievement('flawless', 'Flawless Route', 'Completed a city with zero mistakes.')
+      } else if (isAlmostFlawless) {
+        awardAchievement('almost-flawless', 'Almost Flawless', 'Completed a city with two or fewer mistakes.')
+      }
+      if (comebackArmedRef.current && !comebackTriggeredRef.current) {
+        awardAchievement('comeback-kid', 'Comeback Kid', 'Came back from under 50% to complete the city.')
+        comebackTriggeredRef.current = true
+      }
+
+      if (speedrunMode && speedrunAvailable && speedrunStartRef.current !== null && !speedrunFinishedRef.current) {
+        const elapsedMs = performance.now() - speedrunStartRef.current
+        speedrunFinishedRef.current = true
+        setSpeedrunElapsedMs(elapsedMs)
+        if (speedrunTimerRef.current) {
+          window.clearInterval(speedrunTimerRef.current)
+          speedrunTimerRef.current = null
+        }
+        clearSpeedrunStartStorage()
+
+        if (totalUniqueStations < 150 && elapsedMs <= 10 * 60 * 1000) {
+          awardAchievement('speedrunner-1', 'Speedrunner I', 'Complete a city (<150 stations) in under 10 minutes with Speedrun Mode.')
+        } else if (totalUniqueStations >= 150 && totalUniqueStations <= 500 && elapsedMs <= 30 * 60 * 1000) {
+          awardAchievement('speedrunner-2', 'Speedrunner II', 'Complete a city (150-500 stations) in under 30 minutes with Speedrun Mode.')
+        } else if (totalUniqueStations > 500 && totalUniqueStations <= 1000 && elapsedMs <= 75 * 60 * 1000) {
+          awardAchievement('speedrunner-3', 'Speedrunner III', 'Complete a city (~1000 stations) in under 75 minutes with Speedrun Mode.')
+        }
+
+        const prevBestRaw =
+          typeof window !== 'undefined' ? window.localStorage.getItem(`speedrun-best-${CITY_NAME}`) : null
+        const prevBest = prevBestRaw ? Number(prevBestRaw) : null
+        if (typeof window !== 'undefined') {
+          if (prevBest === null || elapsedMs < prevBest) {
+            window.localStorage.setItem(`speedrun-best-${CITY_NAME}`, String(elapsedMs))
+            setBestSpeedrunMs(elapsedMs)
+          }
+        }
+      }
+
+      // Explorer & Twin City tracking
+      if (typeof window !== 'undefined') {
+        const today = new Date().toISOString().slice(0, 10)
+        const continent = (cityPath?.split('/')?.[0] ?? 'Global')
+        let completions: { city: string; continent: string; date: string }[] = []
+        try {
+          const raw = window.localStorage.getItem('mm-completions')
+          if (raw) {
+            const parsed = JSON.parse(raw)
+            if (Array.isArray(parsed)) {
+              completions = parsed.filter(
+                (c) =>
+                  c &&
+                  typeof c.city === 'string' &&
+                  typeof c.continent === 'string' &&
+                  typeof c.date === 'string',
+              )
+            }
+          }
+        } catch {}
+        completions.push({ city: CITY_NAME, continent, date: today })
+        window.localStorage.setItem('mm-completions', JSON.stringify(completions))
+
+        const uniqueCities = new Set(completions.map((c) => c.city))
+        const completedToday = completions.filter((c) => c.date === today)
+        const hasOtherContinent = completedToday.some((c) => c.city !== CITY_NAME && c.continent !== continent)
+        if (hasOtherContinent) {
+          awardAchievement('twin-city', 'Twin City', 'Completed two cities from different continents on the same day.')
+        }
+        if (uniqueCities.size >= 50) {
+          awardAchievement('explorer-50', 'Ultimate Explorer', 'Completed 50 different cities.')
+        } else if (uniqueCities.size >= 25) {
+          awardAchievement('explorer-25', 'Seasoned Explorer', 'Completed 25 different cities.')
+        } else if (uniqueCities.size >= 10) {
+          awardAchievement('explorer-10', 'Explorer', 'Completed 10 different cities.')
+        } else if (uniqueCities.size >= 3) {
+          awardAchievement('explorer-3', 'Rookie Explorer', 'Completed 3 different cities.')
+        }
+      }
+
       const shouldSuppressGlobal = !settings.achievementToastsEnabled
       const shouldSuppressCity =
         typeof window !== 'undefined' &&
@@ -1977,8 +2390,11 @@ export default function GamePage({
         ...mapOptions,
         container: mapContainerRef.current,
       }
-      
-      if (initialBounds) {
+
+      if (savedMapViewRef.current) {
+        options.center = savedMapViewRef.current.center
+        options.zoom = savedMapViewRef.current.zoom
+      } else if (initialBounds) {
         const [minLng, minLat, maxLng, maxLat] = initialBounds
         options.bounds = [
           [minLng, minLat],
@@ -2018,6 +2434,7 @@ export default function GamePage({
     mapboxMap.on('error', handleMapError)
 
     let ensureRouteLayers: (() => void) | null = null
+    let persistMapView: (() => void) | null = null
 
       mapboxMap.on('load', () => {
       if (!mapboxMap || mapFailed) return
@@ -2453,6 +2870,34 @@ export default function GamePage({
           setHoveredId(null)
         })
       })
+
+      persistMapView = () => {
+        if (!mapboxMap) return
+        const center = mapboxMap.getCenter()
+        const zoom = mapboxMap.getZoom()
+        const view = { zoom, center: [center.lng, center.lat] as [number, number] }
+        savedMapViewRef.current = view
+        if (typeof window !== 'undefined') {
+          window.localStorage.setItem(`map-view-${CITY_NAME}`, JSON.stringify(view))
+        }
+        const now = Date.now()
+        if (now - lastPersistTsRef.current > 1000) {
+          lastPersistTsRef.current = now
+          updateUiPreferences({ mapViewByCity: { [CITY_NAME]: view } })
+        } else {
+          if (mapPersistTimeoutRef.current) {
+            window.clearTimeout(mapPersistTimeoutRef.current)
+          }
+          mapPersistTimeoutRef.current = window.setTimeout(() => {
+            updateUiPreferences({ mapViewByCity: { [CITY_NAME]: view } })
+            lastPersistTsRef.current = Date.now()
+            mapPersistTimeoutRef.current = null
+          }, 1000)
+        }
+      }
+
+      mapboxMap.on('moveend', persistMapView)
+      mapboxMap.on('zoomend', persistMapView)
     })
 
     return () => {
@@ -2463,10 +2908,18 @@ export default function GamePage({
         mapboxMap.off('styledata', ensureRouteLayers)
       }
       mapboxMap.off('error', handleMapError)
+      if (persistMapView) {
+        mapboxMap.off('moveend', persistMapView)
+        mapboxMap.off('zoomend', persistMapView)
+      }
+      if (mapPersistTimeoutRef.current) {
+        window.clearTimeout(mapPersistTimeoutRef.current)
+        mapPersistTimeoutRef.current = null
+      }
       mapboxMap.remove()
       setMap(null)
     }
-  }, [setMap, featureCollection, LINES, mapOptions, MAP_FROM_DATA, routes, resolvedTheme])
+  }, [setMap, featureCollection, LINES, mapOptions, MAP_FROM_DATA, routes, resolvedTheme, CITY_NAME, updateUiPreferences])
 
   useEffect(() => {
     if (!map) return
@@ -2709,6 +3162,7 @@ export default function GamePage({
   return (
     <div className="relative flex h-screen flex-row items-start justify-start bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
       <ZenModeToast zenMode={zenMode} toggleKey={settings.keybindings.TOGGLE_ZEN_MODE} />
+      <SpeedrunToast speedrunMode={speedrunMode} />
       <div className="relative flex-1 min-w-0 h-full">
         <div ref={mapContainerRef} className="absolute inset-0 h-full w-full" />
         {mapError ? (
@@ -2778,7 +3232,16 @@ export default function GamePage({
                 clusterGroups={clusterGroups}
                 autoFocus={!solutionsPromptOpen}
                 disabled={solutionsPromptOpen}
+                onGuessResult={handleGuessResult}
               />
+              {speedrunMode && (
+                <div className="flex items-center gap-2 rounded-full bg-amber-500/90 px-3 py-2 text-xs font-semibold text-white shadow-lg ring-1 ring-white/30 backdrop-blur dark:bg-amber-400/90 dark:text-zinc-950">
+                  <span>Speedrun</span>
+                  <span className="tabular-nums text-sm">
+                    {formatMs(speedrunElapsedMs ?? 0)}
+                  </span>
+                </div>
+              )}
               <MenuComponent
                 hideLabels={hideLabels}
                 setHideLabels={setHideLabels}
@@ -2791,6 +3254,10 @@ export default function GamePage({
                 onOpenSupport={() => setSupportModalOpen(true)}
                 zenMode={zenMode}
                 onToggleZen={handleToggleZen}
+                speedrunMode={speedrunMode}
+                speedrunDisabled={!speedrunAvailable}
+                onToggleSpeedrun={() => setSpeedrunMode((prev) => !prev)}
+                bestSpeedrunMs={bestSpeedrunMs}
                 showSatellite={showSatellite}
                 onToggleSatellite={handleToggleSatellite}
                 showMapNames={showMapNames}

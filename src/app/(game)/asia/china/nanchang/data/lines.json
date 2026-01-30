@@ -1,0 +1,34 @@
+{
+  "nanchang1": {
+    "name": "Line 1",
+    "color": "#E60039",
+    "backgroundColor": "#E60039",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "nanchang1.png"
+  },
+  "nanchang2": {
+    "name": "Line 2",
+    "color": "#FFDA01",
+    "backgroundColor": "#FFDA01",
+    "textColor": "#000000",
+    "order": 1,
+    "icon": "nanchang2.png"
+  },
+  "nanchang3": {
+    "name": "Line 3",
+    "color": "#0079C3",
+    "backgroundColor": "#0079C3",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "nanchang3.png"
+  },
+  "nanchang4": {
+    "name": "Line 4",
+    "color": "#00A560",
+    "backgroundColor": "#00A560",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "nanchang4.png"
+  }
+}

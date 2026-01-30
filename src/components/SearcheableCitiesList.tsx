@@ -83,6 +83,8 @@ const CITY_VIEW_OPTIONS: Array<{ value: CityCardVariant; label: string }> = [
 const CITY_VIEW_MODE_STORAGE_KEY = 'city-view-mode'
 const CITY_VIEW_SATELLITE_STORAGE_KEY = 'city-view-satellite'
 const CONTINENT_NAV_OPEN_STORAGE_KEY = 'continent-nav-open'
+const HOME_ACTIVE_TAB_STORAGE_KEY = 'home-active-tab'
+const HOME_SCROLL_STORAGE_PREFIX = 'home-scroll-'
 
 const TAB_OPTIONS: Array<{ id: TabOption; label: string }> = [
   { id: 'cities', label: 'tabCities' },
@@ -496,6 +498,7 @@ const SearcheableCitiesList = ({
   const [favoriteToast, setFavoriteToast] = useState<{ message: string; ts: number } | null>(null)
   const viewPrefsHydratedRef = useRef(false)
   const navPrefsHydratedRef = useRef(false)
+  const tabPrefsHydratedRef = useRef(false)
   const suppressActiveUntilRef = useRef<number>(0)
 
   // Load favorites from localStorage (per user/anon)
@@ -629,9 +632,205 @@ const SearcheableCitiesList = ({
     }
   }, [cityAchievementCatalog.length])
 
+  const extraAchievements: AchievementMeta[] = useMemo(
+    () => [
+      {
+        slug: 'speedrunner-1',
+        cityName: 'Global',
+        title: 'Speedrunner I',
+        description: 'Complete a city (<150 stations) in under 10 minutes with Speedrun Mode.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_001,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'speedrunner-2',
+        cityName: 'Global',
+        title: 'Speedrunner II',
+        description: 'Complete a city (150-500 stations) in under 30 minutes with Speedrun Mode.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_001,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'speedrunner-3',
+        cityName: 'Global',
+        title: 'Speedrunner III',
+        description: 'Complete a city (~1000 stations) in under 75 minutes with Speedrun Mode.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_001,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'flawless',
+        cityName: 'Global',
+        title: 'Flawless Route',
+        description: 'Complete any city with zero mistakes.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_002,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'almost-flawless',
+        cityName: 'Global',
+        title: 'Almost Flawless',
+        description: 'Complete any city with two or fewer mistakes.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_003,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'comeback-kid',
+        cityName: 'Global',
+        title: 'Comeback Kid',
+        description: 'Recover from under 50% to finish a city.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_004,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'line-master',
+        cityName: 'Global',
+        title: 'Line Master',
+        description: 'Complete every station on any single line.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_005,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'explorer-3',
+        cityName: 'Global',
+        title: 'Rookie Explorer',
+        description: 'Complete 3 different cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_010,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'explorer-10',
+        cityName: 'Global',
+        title: 'Explorer',
+        description: 'Complete 10 different cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_011,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'explorer-25',
+        cityName: 'Global',
+        title: 'Seasoned Explorer',
+        description: 'Complete 25 different cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_012,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'explorer-50',
+        cityName: 'Global',
+        title: 'Ultimate Explorer',
+        description: 'Complete 50 different cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_013,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'daily-normal',
+        cityName: 'Global',
+        title: 'Daily Grinder',
+        description: 'Play on 1 day.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_020,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'daily-super',
+        cityName: 'Global',
+        title: 'Super Daily Grinder',
+        description: 'Play on 5 different days.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_021,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'daily-ultra',
+        cityName: 'Global',
+        title: 'Ultra Daily Grinder',
+        description: 'Play on 15 different days.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_022,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'daily-ultimate',
+        cityName: 'Global',
+        title: 'Ultimate Daily Grinder',
+        description: 'Play on 30 different days.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_023,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'streak-7',
+        cityName: 'Global',
+        title: 'Streak Saver (7)',
+        description: 'Maintain a 7-day play streak.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_030,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'streak-30',
+        cityName: 'Global',
+        title: 'Streak Saver (30)',
+        description: 'Maintain a 30-day play streak.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_031,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'streak-90',
+        cityName: 'Global',
+        title: 'Streak Saver (90)',
+        description: 'Maintain a 90-day play streak.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_032,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'twin-city',
+        cityName: 'Global',
+        title: 'Twin City',
+        description: 'Complete two cities from different continents on the same day.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_040,
+        iconSrc: '/favicon.ico',
+      },
+    ],
+    [],
+  )
+
   const achievementCatalog = useMemo(
-    () => [masterAchievement, ...cityAchievementCatalog],
-    [cityAchievementCatalog, masterAchievement],
+    () => [masterAchievement, ...extraAchievements, ...cityAchievementCatalog],
+    [cityAchievementCatalog, extraAchievements, masterAchievement],
   )
 
   const fuse = useMemo(
@@ -803,6 +1002,12 @@ const SearcheableCitiesList = ({
     [],
   )
 
+  const isValidTab = useCallback(
+    (value: string | undefined | null): value is TabOption =>
+      !!value && TAB_OPTIONS.some((option) => option.id === value),
+    [],
+  )
+
   useEffect(() => {
     let nextOpen: boolean | null = null
 
@@ -825,6 +1030,27 @@ const SearcheableCitiesList = ({
       navPrefsHydratedRef.current = true
     }
   }, [continentNavOpen, uiPreferences.continentNavOpen])
+
+  useEffect(() => {
+    let nextTab: TabOption | null = null
+
+    if (isValidTab(uiPreferences.homeActiveTab)) {
+      nextTab = uiPreferences.homeActiveTab
+    } else if (!tabPrefsHydratedRef.current && typeof window !== 'undefined') {
+      const storedTab = window.localStorage.getItem(HOME_ACTIVE_TAB_STORAGE_KEY)
+      if (isValidTab(storedTab)) {
+        nextTab = storedTab
+      }
+    }
+
+    if (nextTab && nextTab !== activeTab) {
+      setActiveTab(nextTab)
+    }
+
+    if (!tabPrefsHydratedRef.current) {
+      tabPrefsHydratedRef.current = true
+    }
+  }, [activeTab, isValidTab, uiPreferences.homeActiveTab])
 
   useEffect(() => {
     let nextMode: CityCardVariant | null = null
@@ -888,6 +1114,62 @@ const SearcheableCitiesList = ({
     }
     updateUiPreferences({ continentNavOpen })
   }, [continentNavOpen, updateUiPreferences])
+
+  useEffect(() => {
+    if (!tabPrefsHydratedRef.current) return
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(HOME_ACTIVE_TAB_STORAGE_KEY, activeTab)
+    }
+    updateUiPreferences({ homeActiveTab: activeTab })
+  }, [activeTab, updateUiPreferences])
+
+  // Restore scroll position per tab (account > localStorage)
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const storedFromAccount = uiPreferences.homeScrollPositions?.[activeTab]
+    let target = typeof storedFromAccount === 'number' ? storedFromAccount : null
+    if (target === null) {
+      const raw = window.localStorage.getItem(`${HOME_SCROLL_STORAGE_PREFIX}${activeTab}`)
+      const parsed = raw ? parseFloat(raw) : NaN
+      if (Number.isFinite(parsed)) {
+        target = parsed
+      }
+    }
+    if (target !== null) {
+      window.requestAnimationFrame(() => {
+        window.scrollTo({ top: target!, behavior: 'auto' })
+      })
+    }
+  }, [activeTab, uiPreferences.homeScrollPositions])
+
+  // Persist scroll position per tab (localStorage + account)
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    let rafId: number | null = null
+    let timeoutId: number | null = null
+    let latestY = 0
+    const handleScroll = () => {
+      if (rafId !== null) {
+        cancelAnimationFrame(rafId)
+      }
+      rafId = window.requestAnimationFrame(() => {
+        latestY = Math.max(0, window.scrollY)
+        window.localStorage.setItem(`${HOME_SCROLL_STORAGE_PREFIX}${activeTab}`, latestY.toString())
+        if (timeoutId === null) {
+          timeoutId = window.setTimeout(() => {
+            updateUiPreferences({ homeScrollPositions: { [activeTab]: latestY } })
+            timeoutId = null
+          }, 800)
+        }
+      })
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => {
+      if (rafId !== null) cancelAnimationFrame(rafId)
+       if (timeoutId !== null) window.clearTimeout(timeoutId)
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [activeTab, updateUiPreferences])
 
   useEffect(() => {
     if (cityViewMode !== 'globe' && cityViewMode !== 'map') {
@@ -1392,6 +1674,8 @@ const SearcheableCitiesList = ({
     const computeAchievements = () => {
       if (typeof window === 'undefined') return
       const curUnlocked = new Map<string, number>()
+
+      // city completion achievements (existing behavior)
       cityAchievementCatalog.forEach((entry) => {
         const { slug } = entry
         const totalRaw = window.localStorage.getItem(`${slug}-station-total`)
@@ -1436,8 +1720,27 @@ const SearcheableCitiesList = ({
         // Master achievement gets latest time of all cities
         const times = Array.from(curUnlocked.values())
         const maxTime = times.length > 0 ? Math.max(...times) : 0
-        curUnlocked.set(masterAchievement.slug, maxTime)
+           curUnlocked.set(masterAchievement.slug, maxTime)
       }
+
+      // global achievements stored in mm-achievements-earned
+      try {
+        const raw = window.localStorage.getItem('mm-achievements-earned')
+        if (raw) {
+          const parsed = JSON.parse(raw)
+          if (Array.isArray(parsed)) {
+            const now = Date.now()
+            parsed.forEach((slug: unknown) => {
+              if (typeof slug === 'string') {
+                curUnlocked.set(slug, now)
+              }
+            })
+          }
+        }
+      } catch {
+        // ignore parse errors
+      }
+
       setUnlockedData(curUnlocked)
     }
 

@@ -6,7 +6,10 @@ import { SUPPORTED_LANGUAGES } from '@/lib/i18n'
 import { prisma } from '@/lib/prisma'
 import {
   mergeCollapsedSections,
+  mergeMapViewByCity,
   normalizeUiPreferences,
+  mergeHomeScrollPositions,
+  type HomeActiveTab,
 } from '@/lib/preferences'
 
 type LanguageCode = (typeof SUPPORTED_LANGUAGES)[number]['code']
@@ -31,6 +34,48 @@ const preferencesSchema = z.object({
     .optional(),
   cityViewSatellite: z.boolean().optional(),
   continentNavOpen: z.boolean().optional(),
+  homeActiveTab: z
+    .enum([
+      'cities',
+      'achievements',
+      'updateLog',
+      'credits',
+      'testimonials',
+      'press',
+      'settings',
+      'account',
+      'globalStats',
+      'privacy',
+      'support',
+    ])
+    .optional(),
+  homeScrollPositions: z
+    .record(
+      z.enum([
+        'cities',
+        'achievements',
+        'updateLog',
+        'credits',
+        'testimonials',
+        'press',
+        'settings',
+        'account',
+        'globalStats',
+        'privacy',
+        'support',
+      ]),
+      z.number().nonnegative(),
+    )
+    .optional(),
+  mapViewByCity: z
+    .record(
+      z.object({
+        zoom: z.number().finite(),
+        center: z.tuple([z.number().finite(), z.number().finite()]),
+      }),
+    )
+    .optional(),
+  speedrunByCity: z.record(z.boolean()).optional(),
 })
 
 export async function PATCH(request: NextRequest) {
@@ -69,6 +114,31 @@ export async function PATCH(request: NextRequest) {
       : {}),
     ...(typeof parsed.data.continentNavOpen === 'boolean'
       ? { continentNavOpen: parsed.data.continentNavOpen }
+      : {}),
+    ...(parsed.data.homeActiveTab ? { homeActiveTab: parsed.data.homeActiveTab as HomeActiveTab } : {}),
+    ...(parsed.data.homeScrollPositions
+      ? {
+          homeScrollPositions: mergeHomeScrollPositions(
+            existingPreferences.homeScrollPositions,
+            parsed.data.homeScrollPositions,
+          ),
+        }
+      : {}),
+    ...(parsed.data.mapViewByCity
+      ? {
+          mapViewByCity: mergeMapViewByCity(
+            existingPreferences.mapViewByCity,
+            parsed.data.mapViewByCity,
+          ),
+        }
+      : {}),
+    ...(parsed.data.speedrunByCity
+      ? {
+          speedrunByCity: {
+            ...(existingPreferences.speedrunByCity ?? {}),
+            ...parsed.data.speedrunByCity,
+          },
+        }
       : {}),
   }
 

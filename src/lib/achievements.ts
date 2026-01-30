@@ -516,10 +516,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Dujiangyan Flow Keeper",
     description: "You've mastered Dujiangyan's lines with water-smart precision.",
   },
-  enshi: {
-    title: "Enshi Explorer",
-    description: "You've explored Enshi's stations with canyon-level curiosity.",
-  },
   fenghuang: {
     title: "Fenghuang Phoenix",
     description: "You've glided through Fenghuang's network like a rising phoenix.",

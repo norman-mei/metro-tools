@@ -171,7 +171,6 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   xishui: [115.266, 30.454],
   yinchuan: [106.2309, 38.4872],
   liupanshui: [104.796, 26.4537],
-  enshi: [109.4882, 30.2729],
   guangan: [106.6332, 30.455],
   guilin: [110.29, 25.2736],
   jining: [116.5873, 35.4146],

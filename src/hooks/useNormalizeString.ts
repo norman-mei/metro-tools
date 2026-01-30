@@ -323,7 +323,6 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'xishui',
   'yinchuan',
   'liupanshui',
-  'enshi',
   'guangan',
   'guilin',
   'jining',

@@ -42,7 +42,6 @@ export const CITY_PATH_MAP: Record<string, string> = {
   'edinburgh': 'europe/uk/edinburgh',
   'edmonton': 'north-america/canada/edmonton',
   'elpaso': 'north-america/usa/elpaso',
-  'enshi': 'asia/china/enshi',
   'fenghuang': 'asia/china/fenghuang',
   'florida-state': 'north-america/usa/florida-state',
   'fukuoka': 'asia/japan/fukuoka',

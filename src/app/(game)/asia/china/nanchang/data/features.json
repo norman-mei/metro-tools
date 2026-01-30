@@ -1,0 +1,2576 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.91295,
+          28.8581962
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Changbei Airport (昌北机场)",
+        "alternate_names": [
+          "昌北机场",
+          "Changbei Airport",
+          "Nanchang Changbei International Airport",
+          "Airport",
+          "KHN"
+        ],
+        "line": "nanchang1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.877145,
+          28.809687
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Huixian Avenue (汇贤大道)",
+        "alternate_names": [
+          "汇贤大道",
+          "Huixian Avenue"
+        ],
+        "line": "nanchang1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8756213,
+          28.7962756
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Jianye Avenue (建业大道)",
+        "alternate_names": [
+          "建业大道",
+          "Jianye Avenue"
+        ],
+        "line": "nanchang1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8698295,
+          28.775391
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Dingzishan (定子山)",
+        "alternate_names": [
+          "定子山",
+          "Dingzishan"
+        ],
+        "line": "nanchang1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8566637,
+          28.7758313
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Guanshan (冠山)",
+        "alternate_names": [
+          "冠山",
+          "Guanshan"
+        ],
+        "line": "nanchang1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8464557,
+          28.7683383
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Nanchi (南齿)",
+        "alternate_names": [
+          "南齿",
+          "Nanchi"
+        ],
+        "line": "nanchang1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8505874,
+          28.7623539
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Fang Zhimin Avenue (方志敏大道)",
+        "alternate_names": [
+          "方志敏大道",
+          "Fang Zhimin Avenue"
+        ],
+        "line": "nanchang1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8540652,
+          28.7550827
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Jiaoqiao (蛟桥)",
+        "alternate_names": [
+          "蛟桥",
+          "Jiaoqiao"
+        ],
+        "line": "nanchang1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8561019,
+          28.7469844
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Shuanggang (双港)",
+        "alternate_names": [
+          "双港",
+          "Shuanggang"
+        ],
+        "line": "nanchang1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8530698,
+          28.7360218
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Kongmuhu Lake (孔目湖)",
+        "alternate_names": [
+          "孔目湖",
+          "Kongmuhu Lake"
+        ],
+        "line": "nanchang1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8747178,
+          28.7206546
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Changjiang Road (长江路)",
+        "alternate_names": [
+          "长江路",
+          "Changjiang Road"
+        ],
+        "line": "nanchang1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8716641,
+          28.7119509
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Zhujiang Road (珠江路)",
+        "alternate_names": [
+          "珠江路",
+          "Zhujiang Road"
+        ],
+        "line": "nanchang1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8609527,
+          28.7046688
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "South Lushan Avenue (庐山南大道)",
+        "alternate_names": [
+          "庐山南大道",
+          "South Lushan Avenue"
+        ],
+        "line": "nanchang1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8530053,
+          28.700874
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Lüyin Road (绿茵路)",
+        "alternate_names": [
+          "绿茵路",
+          "Lüyin Road"
+        ],
+        "line": "nanchang1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8440012,
+          28.6941569
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Weidong (卫东)",
+        "alternate_names": [
+          "卫东",
+          "Weidong"
+        ],
+        "line": "nanchang1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8479,
+          28.6872
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Metro Central (地铁大厦)",
+        "alternate_names": [
+          "地铁大厦",
+          "Metro Central"
+        ],
+        "line": "nanchang1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8547729,
+          28.6845217
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Qiushui Square (秋水广场)",
+        "alternate_names": [
+          "秋水广场",
+          "Qiushui Square"
+        ],
+        "line": "nanchang1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872898,
+          28.676714
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Tengwang Pavilion (滕王阁)",
+        "alternate_names": [
+          "滕王阁",
+          "Tengwang Pavilion"
+        ],
+        "line": "nanchang1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8809942,
+          28.6784413
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Wanshou Palace (万寿宫)",
+        "alternate_names": [
+          "万寿宫",
+          "Wanshou Palace"
+        ],
+        "line": "nanchang1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8867267,
+          28.6790384
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Bayi Memorial (八一馆)",
+        "alternate_names": [
+          "八一馆",
+          "Bayi Memorial"
+        ],
+        "line": "nanchang1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8985,
+          28.6781
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Bayi Square (八一广场)",
+        "alternate_names": [
+          "八一广场",
+          "Bayi Square"
+        ],
+        "line": "nanchang1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9083,
+          28.6773
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Dinggong Road North (丁公路北)",
+        "alternate_names": [
+          "丁公路北",
+          "Dinggong Road North"
+        ],
+        "line": "nanchang1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9191855,
+          28.6774288
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Shidanan Road (师大南路)",
+        "alternate_names": [
+          "师大南路",
+          "Shidanan Road"
+        ],
+        "line": "nanchang1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9279858,
+          28.6775181
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Pengjiaqiao (彭家桥)",
+        "alternate_names": [
+          "彭家桥",
+          "Pengjiaqiao"
+        ],
+        "line": "nanchang1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9359338,
+          28.6775783
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Xiejiacun (谢家村)",
+        "alternate_names": [
+          "谢家村",
+          "Xiejiacun"
+        ],
+        "line": "nanchang1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9441548,
+          28.6776365
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Qingshanhu Avenue (青山湖大道)",
+        "alternate_names": [
+          "青山湖大道",
+          "Qingshanhu Avenue"
+        ],
+        "line": "nanchang1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9556045,
+          28.67768
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Gaoxin Avenue (高新大道)",
+        "alternate_names": [
+          "高新大道",
+          "Gaoxin Avenue"
+        ],
+        "line": "nanchang1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.969255,
+          28.6780459
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Aixihu Lake West (艾溪湖西)",
+        "alternate_names": [
+          "艾溪湖西",
+          "Aixihu Lake West"
+        ],
+        "line": "nanchang1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9885212,
+          28.6778871
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Aixihu Lake East (艾溪湖东)",
+        "alternate_names": [
+          "艾溪湖东",
+          "Aixihu Lake East"
+        ],
+        "line": "nanchang1",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0059154,
+          28.6780554
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Taizidian (太子殿)",
+        "alternate_names": [
+          "太子殿",
+          "Taizidian"
+        ],
+        "line": "nanchang1",
+        "order": 29
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0195625,
+          28.6776612
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Olympic Stadium (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "Olympic Stadium"
+        ],
+        "line": "nanchang1",
+        "order": 30
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0333151,
+          28.6753897
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Yaohu Lake West (瑶湖西)",
+        "alternate_names": [
+          "瑶湖西",
+          "Yaohu Lake West"
+        ],
+        "line": "nanchang1",
+        "order": 31
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0564946,
+          28.6692738
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Yaohu Lake East (瑶湖东)",
+        "alternate_names": [
+          "瑶湖东",
+          "Yaohu Lake East"
+        ],
+        "line": "nanchang1",
+        "order": 32
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0728896,
+          28.6696433
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Maqiu (麻丘)",
+        "alternate_names": [
+          "麻丘",
+          "Maqiu"
+        ],
+        "line": "nanchang1",
+        "order": 33
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7843274,
+          28.5560661
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Nanlu (南路)",
+        "alternate_names": [
+          "南路",
+          "Nanlu"
+        ],
+        "line": "nanchang2",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.784322,
+          28.563878
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Nanchang High School (南昌中学)",
+        "alternate_names": [
+          "南昌中学",
+          "Nanchang High School"
+        ],
+        "line": "nanchang2",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7227346,
+          28.5841305
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Shengmi (生米)",
+        "alternate_names": [
+          "生米",
+          "Shengmi"
+        ],
+        "line": "nanchang2",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7884097,
+          28.5832452
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Jiulong Lake South (九龙湖南)",
+        "alternate_names": [
+          "九龙湖南",
+          "Jiulong Lake South"
+        ],
+        "line": "nanchang2",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7911415,
+          28.5966779
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Civic Center (市民中心)",
+        "alternate_names": [
+          "市民中心",
+          "Civic Center"
+        ],
+        "line": "nanchang2",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7940236,
+          28.602385
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Yingtan Street (鹰潭街)",
+        "alternate_names": [
+          "鹰潭街",
+          "Yingtan Street"
+        ],
+        "line": "nanchang2",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7904214,
+          28.6115639
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "International Expo Center (国博)",
+        "alternate_names": [
+          "国博",
+          "International Expo Center"
+        ],
+        "line": "nanchang2",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7858,
+          28.6222
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "South Square of West Railway Station (西站南广场)",
+        "alternate_names": [
+          "西站南广场",
+          "South Square of West Railway Station",
+          "Nanchangxi",
+          "Nanchang West",
+          "Nanchang West Railway Station"
+        ],
+        "line": "nanchang2",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7881925,
+          28.6266445
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Nanchang West Railway Station (南昌西站)",
+        "alternate_names": [
+          "南昌西站",
+          "Nanchang West Railway Station",
+          "Nanchangxi",
+          "Nanchang West",
+          "Nanchang West Railway Station"
+        ],
+        "line": "nanchang2",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.797776,
+          28.6266163
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Longgang (龙岗)",
+        "alternate_names": [
+          "龙岗",
+          "Longgang"
+        ],
+        "line": "nanchang2",
+        "order": 9
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8117341,
+          28.6256369
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "International Sports Center (国体中心)",
+        "alternate_names": [
+          "国体中心",
+          "International Sports Center"
+        ],
+        "line": "nanchang2",
+        "order": 10
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8173293,
+          28.6349079
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Wolongshan (卧龙山)",
+        "alternate_names": [
+          "卧龙山",
+          "Wolongshan"
+        ],
+        "line": "nanchang2",
+        "order": 11
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8251935,
+          28.6443524
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Lingbei (岭北)",
+        "alternate_names": [
+          "岭北",
+          "Lingbei"
+        ],
+        "line": "nanchang2",
+        "order": 12
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8299732,
+          28.6551799
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Qianhu Avenue (前湖大道)",
+        "alternate_names": [
+          "前湖大道",
+          "Qianhu Avenue"
+        ],
+        "line": "nanchang2",
+        "order": 13
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8342218,
+          28.6627821
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Xuefu Avenue East (学府大道东)",
+        "alternate_names": [
+          "学府大道东",
+          "Xuefu Avenue East"
+        ],
+        "line": "nanchang2",
+        "order": 14
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.841724,
+          28.6758975
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Cuiyuan Road (翠苑路)",
+        "alternate_names": [
+          "翠苑路",
+          "Cuiyuan Road"
+        ],
+        "line": "nanchang2",
+        "order": 15
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8479,
+          28.6872
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Metro Central (地铁大厦)",
+        "alternate_names": [
+          "地铁大厦",
+          "Metro Central"
+        ],
+        "line": "nanchang2",
+        "order": 16
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8524152,
+          28.6952357
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Yayuan Road (雅苑路)",
+        "alternate_names": [
+          "雅苑路",
+          "Yayuan Road"
+        ],
+        "line": "nanchang2",
+        "order": 17
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8620578,
+          28.695091
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Middle Honggu Avenue (红谷中大道)",
+        "alternate_names": [
+          "红谷中大道",
+          "Middle Honggu Avenue"
+        ],
+        "line": "nanchang2",
+        "order": 18
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8862277,
+          28.6913065
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Yangming Park (阳明公园)",
+        "alternate_names": [
+          "阳明公园",
+          "Yangming Park"
+        ],
+        "line": "nanchang2",
+        "order": 19
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8967,
+          28.6901
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Qingshan Road (青山路口)",
+        "alternate_names": [
+          "青山路口",
+          "Qingshan Road"
+        ],
+        "line": "nanchang2",
+        "order": 20
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8984017,
+          28.6843758
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Fuzhou Road (福州路)",
+        "alternate_names": [
+          "福州路",
+          "Fuzhou Road"
+        ],
+        "line": "nanchang2",
+        "order": 21
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8985,
+          28.6781
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Bayi Square (八一广场)",
+        "alternate_names": [
+          "八一广场",
+          "Bayi Square"
+        ],
+        "line": "nanchang2",
+        "order": 22
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9001559,
+          28.6705249
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Yongshu Road (永叔路)",
+        "alternate_names": [
+          "永叔路",
+          "Yongshu Road"
+        ],
+        "line": "nanchang2",
+        "order": 23
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9075,
+          28.6675
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Dinggong Road South (丁公路南)",
+        "alternate_names": [
+          "丁公路南",
+          "Dinggong Road South"
+        ],
+        "line": "nanchang2",
+        "order": 24
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9165603,
+          28.666623
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Nanchang Railway Station (南昌火车站)",
+        "alternate_names": [
+          "南昌火车站",
+          "Nanchang Railway Station"
+        ],
+        "line": "nanchang2",
+        "order": 25
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9233959,
+          28.6669066
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Shunwai (顺外)",
+        "alternate_names": [
+          "顺外",
+          "Shunwai"
+        ],
+        "line": "nanchang2",
+        "order": 26
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.934741,
+          28.6623131
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Xinjia'an (辛家庵)",
+        "alternate_names": [
+          "辛家庵",
+          "Xinjia'an"
+        ],
+        "line": "nanchang2",
+        "order": 27
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9378705,
+          28.6541554
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Lengshang (楞上)",
+        "alternate_names": [
+          "楞上",
+          "Lengshang"
+        ],
+        "line": "nanchang2",
+        "order": 28
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9447474,
+          28.6510669
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Beiluo (北罗)",
+        "alternate_names": [
+          "北罗",
+          "Beiluo"
+        ],
+        "line": "nanchang2",
+        "order": 29
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.952861,
+          28.6473931
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Lixiang (李巷)",
+        "alternate_names": [
+          "李巷",
+          "Lixiang"
+        ],
+        "line": "nanchang2",
+        "order": 30
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9681613,
+          28.6437464
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Shenqiao (沈桥)",
+        "alternate_names": [
+          "沈桥",
+          "Shenqiao"
+        ],
+        "line": "nanchang2",
+        "order": 31
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9756919,
+          28.6415698
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Guantian (观田)",
+        "alternate_names": [
+          "观田",
+          "Guantian"
+        ],
+        "line": "nanchang2",
+        "order": 32
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9849385,
+          28.6363346
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Luojiaji (罗家集)",
+        "alternate_names": [
+          "罗家集",
+          "Luojiaji"
+        ],
+        "line": "nanchang2",
+        "order": 33
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9922249,
+          28.6257378
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Fengxia (枫下)",
+        "alternate_names": [
+          "枫下",
+          "Fengxia"
+        ],
+        "line": "nanchang2",
+        "order": 34
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9999344,
+          28.6195418
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "International Exhibition Center (国展中心)",
+        "alternate_names": [
+          "国展中心",
+          "International Exhibition Center"
+        ],
+        "line": "nanchang2",
+        "order": 35
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0130707,
+          28.6176374
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Nanchang East Railway Station (南昌东站)",
+        "alternate_names": [
+          "南昌东站",
+          "Nanchang East Railway Station"
+        ],
+        "line": "nanchang2",
+        "order": 36
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9302235,
+          28.5242941
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Yinsanjiao North (银三角北)",
+        "alternate_names": [
+          "银三角北",
+          "Yinsanjiao North"
+        ],
+        "line": "nanchang3",
+        "order": 0
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.923129,
+          28.5321862
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Doumen (斗门)",
+        "alternate_names": [
+          "斗门",
+          "Doumen"
+        ],
+        "line": "nanchang3",
+        "order": 1
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9134436,
+          28.5479096
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Baigang (柏岗)",
+        "alternate_names": [
+          "柏岗",
+          "Baigang"
+        ],
+        "line": "nanchang3",
+        "order": 2
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9112012,
+          28.5598449
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Lishan (沥山)",
+        "alternate_names": [
+          "沥山",
+          "Lishan"
+        ],
+        "line": "nanchang3",
+        "order": 3
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9074931,
+          28.5797675
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Fuxing Avenue East (复兴大道东)",
+        "alternate_names": [
+          "复兴大道东",
+          "Fuxing Avenue East"
+        ],
+        "line": "nanchang3",
+        "order": 4
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9050429,
+          28.5931794
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Dengbu (邓埠)",
+        "alternate_names": [
+          "邓埠",
+          "Dengbu"
+        ],
+        "line": "nanchang3",
+        "order": 5
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9036106,
+          28.6052838
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Badashanren Memorial (八大山人)",
+        "alternate_names": [
+          "八大山人",
+          "Badashanren Memorial"
+        ],
+        "line": "nanchang3",
+        "order": 6
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9030124,
+          28.6186395
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Shiyao (施尧)",
+        "alternate_names": [
+          "施尧",
+          "Shiyao"
+        ],
+        "line": "nanchang3",
+        "order": 7
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9024517,
+          28.6281546
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Jiangling Motors (江铃)",
+        "alternate_names": [
+          "江铃",
+          "Jiangling Motors"
+        ],
+        "line": "nanchang3",
+        "order": 8
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.901674,
+          28.6426481
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Jingjiashan (京家山)",
+        "alternate_names": [
+          "京家山",
+          "Jingjiashan"
+        ],
+        "line": "nanchang3",
+        "order": 9
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9014058,
+          28.656691
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Shizi Street (十字街)",
+        "alternate_names": [
+          "十字街",
+          "Shizi Street"
+        ],
+        "line": "nanchang3",
+        "order": 10
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8972,
+          28.6614
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Shengjin Pagoda (绳金塔)",
+        "alternate_names": [
+          "绳金塔",
+          "Shengjin Pagoda"
+        ],
+        "line": "nanchang3",
+        "order": 11
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8893144,
+          28.6724687
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Liuyanjing (六眼井)",
+        "alternate_names": [
+          "六眼井",
+          "Liuyanjing"
+        ],
+        "line": "nanchang3",
+        "order": 12
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8867267,
+          28.6790384
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Bayi Memorial (八一馆)",
+        "alternate_names": [
+          "八一馆",
+          "Bayi Memorial"
+        ],
+        "line": "nanchang3",
+        "order": 13
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8899313,
+          28.6883559
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Dunzitang (墩子塘)",
+        "alternate_names": [
+          "墩子塘",
+          "Dunzitang"
+        ],
+        "line": "nanchang3",
+        "order": 14
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8967,
+          28.6901
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Qingshan Road (青山路口)",
+        "alternate_names": [
+          "青山路口",
+          "Qingshan Road"
+        ],
+        "line": "nanchang3",
+        "order": 15
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9074,
+          28.6976
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Shangshagou (上沙沟)",
+        "alternate_names": [
+          "上沙沟",
+          "Shangshagou"
+        ],
+        "line": "nanchang3",
+        "order": 16
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9183252,
+          28.6963403
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Qingshanhu Lake West (青山湖西)",
+        "alternate_names": [
+          "青山湖西",
+          "Qingshanhu Lake West"
+        ],
+        "line": "nanchang3",
+        "order": 17
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9369987,
+          28.6905
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Guowei Road (国威路)",
+        "alternate_names": [
+          "国威路",
+          "Guowei Road"
+        ],
+        "line": "nanchang3",
+        "order": 18
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9446821,
+          28.6915423
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Huoju Square (火炬广场)",
+        "alternate_names": [
+          "火炬广场",
+          "Huoju Square"
+        ],
+        "line": "nanchang3",
+        "order": 19
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9557201,
+          28.6935539
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Liangwan (梁万)",
+        "alternate_names": [
+          "梁万",
+          "Liangwan"
+        ],
+        "line": "nanchang3",
+        "order": 20
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9680345,
+          28.6957934
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Jingdong Avenue (京东大道)",
+        "alternate_names": [
+          "京东大道",
+          "Jingdong Avenue"
+        ],
+        "line": "nanchang3",
+        "order": 21
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7173124,
+          28.6340817
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Baimashan (白马山)",
+        "alternate_names": [
+          "白马山",
+          "Baimashan"
+        ],
+        "line": "nanchang4",
+        "order": 0
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7253081,
+          28.6239417
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Yufeng Street (裕丰街)",
+        "alternate_names": [
+          "裕丰街",
+          "Yufeng Street"
+        ],
+        "line": "nanchang4",
+        "order": 1
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.734728,
+          28.6231765
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Huangxi (璜溪)",
+        "alternate_names": [
+          "璜溪",
+          "Huangxi"
+        ],
+        "line": "nanchang4",
+        "order": 2
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7481819,
+          28.6265551
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Zhongbao (中堡)",
+        "alternate_names": [
+          "中堡",
+          "Zhongbao"
+        ],
+        "line": "nanchang4",
+        "order": 3
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7664531,
+          28.6287493
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Lizhuangshan (礼庄山)",
+        "alternate_names": [
+          "礼庄山",
+          "Lizhuangshan"
+        ],
+        "line": "nanchang4",
+        "order": 4
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7858,
+          28.6222
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "South Square of West Railway Station (西站南广场)",
+        "alternate_names": [
+          "西站南广场",
+          "South Square of West Railway Station"
+        ],
+        "line": "nanchang4",
+        "order": 5
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7946418,
+          28.6182899
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Huaiyushan Avenue (怀玉山大道)",
+        "alternate_names": [
+          "怀玉山大道",
+          "Huaiyushan Avenue"
+        ],
+        "line": "nanchang4",
+        "order": 6
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8046666,
+          28.6138739
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Anfeng (安丰)",
+        "alternate_names": [
+          "安丰",
+          "Anfeng"
+        ],
+        "line": "nanchang4",
+        "order": 7
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8344525,
+          28.6012099
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Dongxin (东新)",
+        "alternate_names": [
+          "东新",
+          "Dongxin"
+        ],
+        "line": "nanchang4",
+        "order": 8
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.845235,
+          28.6089031
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "New Hongcheng Market (新洪城大市场)",
+        "alternate_names": [
+          "新洪城大市场",
+          "New Hongcheng Market"
+        ],
+        "line": "nanchang4",
+        "order": 9
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8516937,
+          28.6258817
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Dingjiazhou (丁家洲)",
+        "alternate_names": [
+          "丁家洲",
+          "Dingjiazhou"
+        ],
+        "line": "nanchang4",
+        "order": 10
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8583403,
+          28.6357131
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Guanzhou (观洲)",
+        "alternate_names": [
+          "观洲",
+          "Guanzhou"
+        ],
+        "line": "nanchang4",
+        "order": 11
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8631361,
+          28.6427775
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Yuntian Road (云天路)",
+        "alternate_names": [
+          "云天路",
+          "Yuntian Road"
+        ],
+        "line": "nanchang4",
+        "order": 12
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8681008,
+          28.6516399
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Guanying Road (灌婴路)",
+        "alternate_names": [
+          "灌婴路",
+          "Guanying Road"
+        ],
+        "line": "nanchang4",
+        "order": 13
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872513,
+          28.6587246
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Nanchang Bridge East (南昌大桥东)",
+        "alternate_names": [
+          "南昌大桥东",
+          "Nanchang Bridge East"
+        ],
+        "line": "nanchang4",
+        "order": 14
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8848781,
+          28.6630975
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Taoyuan (桃苑)",
+        "alternate_names": [
+          "桃苑",
+          "Taoyuan"
+        ],
+        "line": "nanchang4",
+        "order": 15
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8972,
+          28.6614
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Shengjin Pagoda (绳金塔)",
+        "alternate_names": [
+          "绳金塔",
+          "Shengjin Pagoda"
+        ],
+        "line": "nanchang4",
+        "order": 16
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9038949,
+          28.6605792
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Tanzikou (坛子口)",
+        "alternate_names": [
+          "坛子口",
+          "Tanzikou"
+        ],
+        "line": "nanchang4",
+        "order": 17
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9075,
+          28.6675
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Dinggong Road South (丁公路南)",
+        "alternate_names": [
+          "丁公路南",
+          "Dinggong Road South"
+        ],
+        "line": "nanchang4",
+        "order": 18
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9083,
+          28.6773
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Dinggong Road North (丁公路北)",
+        "alternate_names": [
+          "丁公路北",
+          "Dinggong Road North"
+        ],
+        "line": "nanchang4",
+        "order": 19
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9074834,
+          28.6871563
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "People's Park (人民公园)",
+        "alternate_names": [
+          "人民公园",
+          "People's Park"
+        ],
+        "line": "nanchang4",
+        "order": 20
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9074,
+          28.6976
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Shangshagou (上沙沟)",
+        "alternate_names": [
+          "上沙沟",
+          "Shangshagou"
+        ],
+        "line": "nanchang4",
+        "order": 21
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9122386,
+          28.7057596
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Qifeng Road (起凤路)",
+        "alternate_names": [
+          "起凤路",
+          "Qifeng Road"
+        ],
+        "line": "nanchang4",
+        "order": 22
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9230999,
+          28.7129493
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Qili (七里)",
+        "alternate_names": [
+          "七里",
+          "Qili"
+        ],
+        "line": "nanchang4",
+        "order": 23
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9427011,
+          28.7215661
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Minyuan Road West (民园路西)",
+        "alternate_names": [
+          "民园路西",
+          "Minyuan Road West"
+        ],
+        "line": "nanchang4",
+        "order": 24
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9545752,
+          28.7199161
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Huoju (火炬)",
+        "alternate_names": [
+          "火炬",
+          "Huoju"
+        ],
+        "line": "nanchang4",
+        "order": 25
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9676403,
+          28.7186446
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Beili (北沥)",
+        "alternate_names": [
+          "北沥",
+          "Beili"
+        ],
+        "line": "nanchang4",
+        "order": 26
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9774733,
+          28.718607
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "High-tech Park (科技城)",
+        "alternate_names": [
+          "科技城",
+          "High-tech Park"
+        ],
+        "line": "nanchang4",
+        "order": 27
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9951538,
+          28.7131403
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Yuweizhou (鱼尾洲)",
+        "alternate_names": [
+          "鱼尾洲",
+          "Yuweizhou"
+        ],
+        "line": "nanchang4",
+        "order": 28
+      },
+      "id": 122
+    }
+  ]
+}
