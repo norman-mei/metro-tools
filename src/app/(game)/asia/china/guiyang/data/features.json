@@ -1,0 +1,2360 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5655226,
+          26.6571085
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Douguan (窦官)",
+        "alternate_names": [
+          "窦官",
+          "Douguan"
+        ],
+        "line": "guiyang1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5764765,
+          26.6588279
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xiamaixi (下麦西)",
+        "alternate_names": [
+          "下麦西",
+          "Xiamaixi"
+        ],
+        "line": "guiyang1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.586647,
+          26.652067
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Laowantang (老湾塘)",
+        "alternate_names": [
+          "老湾塘",
+          "Laowantang"
+        ],
+        "line": "guiyang1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6046259,
+          26.6497764
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Yueshanhu Park (阅山湖公园)",
+        "alternate_names": [
+          "阅山湖公园",
+          "Yueshanhu Park"
+        ],
+        "line": "guiyang1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.614,
+          26.6489
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "West Lincheng Road (林城西路)",
+        "alternate_names": [
+          "林城西路",
+          "West Lincheng Road"
+        ],
+        "line": "guiyang1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6279413,
+          26.6487713
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Guanshanhu Park (观山湖公园)",
+        "alternate_names": [
+          "观山湖公园",
+          "Guanshanhu Park"
+        ],
+        "line": "guiyang1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.644525,
+          26.6492813
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "International Eco-Conference Center (国际生态会议中心)",
+        "alternate_names": [
+          "国际生态会议中心",
+          "International Eco-Conference Center"
+        ],
+        "line": "guiyang1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.652045,
+          26.6427538
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Yangguan (阳关)",
+        "alternate_names": [
+          "阳关",
+          "Yangguan"
+        ],
+        "line": "guiyang1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6505114,
+          26.631325
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Xinzhai (新寨)",
+        "alternate_names": [
+          "新寨",
+          "Xinzhai"
+        ],
+        "line": "guiyang1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6582292,
+          26.6232864
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Bailuhu (白鹭湖)",
+        "alternate_names": [
+          "白鹭湖",
+          "Bailuhu"
+        ],
+        "line": "guiyang1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6724029,
+          26.6227917
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Guiyangbei Railway Station (贵阳北站)",
+        "alternate_names": [
+          "贵阳北站",
+          "Guiyangbei Railway Station"
+        ],
+        "line": "guiyang1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6985679,
+          26.6400284
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Yaguan (雅关)",
+        "alternate_names": [
+          "雅关",
+          "Yaguan"
+        ],
+        "line": "guiyang1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7005706,
+          26.6190436
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nanya Road (南垭路)",
+        "alternate_names": [
+          "南垭路",
+          "Nanya Road"
+        ],
+        "line": "guiyang1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6993003,
+          26.6007358
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Bageyan (八鸽岩)",
+        "alternate_names": [
+          "八鸽岩",
+          "Bageyan"
+        ],
+        "line": "guiyang1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7024,
+          26.5965
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Beijing Road (北京路)",
+        "alternate_names": [
+          "北京路",
+          "Beijing Road"
+        ],
+        "line": "guiyang1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7065,
+          26.5872
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Penshuichi (喷水池)",
+        "alternate_names": [
+          "喷水池",
+          "Penshuichi"
+        ],
+        "line": "guiyang1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7060605,
+          26.5809267
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "West Zhongshan Road (中山西路)",
+        "alternate_names": [
+          "中山西路",
+          "West Zhongshan Road"
+        ],
+        "line": "guiyang1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7040698,
+          26.573164
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Hebin Park (河滨公园)",
+        "alternate_names": [
+          "河滨公园",
+          "Hebin Park"
+        ],
+        "line": "guiyang1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6998,
+          26.561
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Guiyang Railway Station (贵阳火车站)",
+        "alternate_names": [
+          "贵阳火车站",
+          "Guiyang Railway Station"
+        ],
+        "line": "guiyang1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7009274,
+          26.5525155
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Shachong Road (沙冲路)",
+        "alternate_names": [
+          "沙冲路",
+          "Shachong Road"
+        ],
+        "line": "guiyang1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7089,
+          26.5412
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Wangchengpo (望城坡)",
+        "alternate_names": [
+          "望城坡",
+          "Wangchengpo"
+        ],
+        "line": "guiyang1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7071733,
+          26.5303045
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Zhujiang Road (珠江路)",
+        "alternate_names": [
+          "珠江路",
+          "Zhujiang Road"
+        ],
+        "line": "guiyang1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.707257,
+          26.5213505
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Changjiang Road (长江路)",
+        "alternate_names": [
+          "长江路",
+          "Changjiang Road"
+        ],
+        "line": "guiyang1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7055837,
+          26.5106688
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Qingshuijiang Road (清水江路)",
+        "alternate_names": [
+          "清水江路",
+          "Qingshuijiang Road"
+        ],
+        "line": "guiyang1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7059109,
+          26.5011534
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Xiaomeng Industrial Park (小孟工业园)",
+        "alternate_names": [
+          "小孟工业园",
+          "Xiaomeng Industrial Park"
+        ],
+        "line": "guiyang1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.621656,
+          26.6962315
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "North Baiyun Road (白云北路)",
+        "alternate_names": [
+          "白云北路",
+          "North Baiyun Road"
+        ],
+        "line": "guiyang2",
+        "order": 0
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6279361,
+          26.6869267
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Middle Baiyun Road (白云中路)",
+        "alternate_names": [
+          "白云中路",
+          "Middle Baiyun Road"
+        ],
+        "line": "guiyang2",
+        "order": 1
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6214793,
+          26.6816784
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Yunfeng Avenue (云峰大道)",
+        "alternate_names": [
+          "云峰大道",
+          "Yunfeng Avenue"
+        ],
+        "line": "guiyang2",
+        "order": 2
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6186931,
+          26.6730466
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Quanhu Park (泉湖公园)",
+        "alternate_names": [
+          "泉湖公园",
+          "Quanhu Park"
+        ],
+        "line": "guiyang2",
+        "order": 3
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.614113,
+          26.6650638
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Fenglin Road (枫林路)",
+        "alternate_names": [
+          "枫林路",
+          "Fenglin Road"
+        ],
+        "line": "guiyang2",
+        "order": 4
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6141251,
+          26.6550958
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Chengxin Road (诚信路)",
+        "alternate_names": [
+          "诚信路",
+          "Chengxin Road"
+        ],
+        "line": "guiyang2",
+        "order": 5
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.614,
+          26.6489
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "West Lincheng Road (林城西路)",
+        "alternate_names": [
+          "林城西路",
+          "West Lincheng Road"
+        ],
+        "line": "guiyang2",
+        "order": 6
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6135333,
+          26.6384652
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "West Guanshan Road (观山西路)",
+        "alternate_names": [
+          "观山西路",
+          "West Guanshan Road"
+        ],
+        "line": "guiyang2",
+        "order": 7
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6130998,
+          26.6270021
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Xingzhu Road (兴筑路)",
+        "alternate_names": [
+          "兴筑路",
+          "Xingzhu Road"
+        ],
+        "line": "guiyang2",
+        "order": 8
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6176951,
+          26.6155144
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Jinyang Hospital (金阳医院)",
+        "alternate_names": [
+          "金阳医院",
+          "Jinyang Hospital"
+        ],
+        "line": "guiyang2",
+        "order": 9
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6162485,
+          26.606332
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "South Jinyang Road (金阳南路)",
+        "alternate_names": [
+          "金阳南路",
+          "South Jinyang Road"
+        ],
+        "line": "guiyang2",
+        "order": 10
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6202948,
+          26.600467
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Chayuan (茶园)",
+        "alternate_names": [
+          "茶园",
+          "Chayuan"
+        ],
+        "line": "guiyang2",
+        "order": 11
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6330539,
+          26.5933673
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Baihua Avenue (百花大道)",
+        "alternate_names": [
+          "百花大道",
+          "Baihua Avenue"
+        ],
+        "line": "guiyang2",
+        "order": 12
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6499515,
+          26.5903752
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Mawangmiao (马王庙)",
+        "alternate_names": [
+          "马王庙",
+          "Mawangmiao"
+        ],
+        "line": "guiyang2",
+        "order": 13
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6566,
+          26.5962
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "West Beijing Road (北京西路)",
+        "alternate_names": [
+          "北京西路",
+          "West Beijing Road"
+        ],
+        "line": "guiyang2",
+        "order": 14
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6638256,
+          26.5875023
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Gaicha Road (改茶路)",
+        "alternate_names": [
+          "改茶路",
+          "Gaicha Road"
+        ],
+        "line": "guiyang2",
+        "order": 15
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6764306,
+          26.5843421
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Qianchun Road (黔春路)",
+        "alternate_names": [
+          "黔春路",
+          "Qianchun Road"
+        ],
+        "line": "guiyang2",
+        "order": 16
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6942,
+          26.5854
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "West Yan'an Road (延安西路)",
+        "alternate_names": [
+          "延安西路",
+          "West Yan'an Road"
+        ],
+        "line": "guiyang2",
+        "order": 17
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7015118,
+          26.5857118
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Zilin'an (紫林庵)",
+        "alternate_names": [
+          "紫林庵",
+          "Zilin'an"
+        ],
+        "line": "guiyang2",
+        "order": 18
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7065,
+          26.5872
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Penshuichi (喷水池)",
+        "alternate_names": [
+          "喷水池",
+          "Penshuichi"
+        ],
+        "line": "guiyang2",
+        "order": 19
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7194023,
+          26.5858943
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Yangming Ancestral Temple (阳明祠)",
+        "alternate_names": [
+          "阳明祠",
+          "Yangming Ancestral Temple"
+        ],
+        "line": "guiyang2",
+        "order": 20
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7209317,
+          26.5805537
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Provincial People's Hospital (省人民医院)",
+        "alternate_names": [
+          "省人民医院",
+          "Provincial People's Hospital"
+        ],
+        "line": "guiyang2",
+        "order": 21
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7252841,
+          26.5739745
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "South Baoshan Road (宝山南路)",
+        "alternate_names": [
+          "宝山南路",
+          "South Baoshan Road"
+        ],
+        "line": "guiyang2",
+        "order": 22
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7281477,
+          26.5653343
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Youzha Street (油榨街)",
+        "alternate_names": [
+          "油榨街",
+          "Youzha Street"
+        ],
+        "line": "guiyang2",
+        "order": 23
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.728107,
+          26.558681
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Guigang (贵钢)",
+        "alternate_names": [
+          "贵钢",
+          "Guigang"
+        ],
+        "line": "guiyang2",
+        "order": 24
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7355683,
+          26.552847
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "North Fuyuan Road (富源北路)",
+        "alternate_names": [
+          "富源北路",
+          "North Fuyuan Road"
+        ],
+        "line": "guiyang2",
+        "order": 25
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.766504,
+          26.5499891
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Forest Park (森林公园)",
+        "alternate_names": [
+          "森林公园",
+          "Forest Park"
+        ],
+        "line": "guiyang2",
+        "order": 26
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7765084,
+          26.5501975
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Jianlongdong (见龙洞)",
+        "alternate_names": [
+          "见龙洞",
+          "Jianlongdong"
+        ],
+        "line": "guiyang2",
+        "order": 27
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7949367,
+          26.5473887
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Longdongbao International Airport (龙洞堡机场)",
+        "alternate_names": [
+          "龙洞堡机场",
+          "Longdongbao International Airport",
+          "Guiyang Longdongbao International Airport",
+          "airport",
+          "KWE"
+        ],
+        "line": "guiyang2",
+        "order": 28
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7852788,
+          26.5383824
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Xiaobi (小碧)",
+        "alternate_names": [
+          "小碧",
+          "Xiaobi"
+        ],
+        "line": "guiyang2",
+        "order": 29
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7768084,
+          26.5338934
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Yunpan (云盘)",
+        "alternate_names": [
+          "云盘",
+          "Yunpan"
+        ],
+        "line": "guiyang2",
+        "order": 30
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7738911,
+          26.5223453
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Zhongxing Road (中兴路)",
+        "alternate_names": [
+          "中兴路",
+          "Zhongxing Road"
+        ],
+        "line": "guiyang2",
+        "order": 31
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6767636,
+          26.3830482
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Tongmuling (Party School of the CPC Guizhou Provincial Committee) (桐木岭（省委党校）)",
+        "alternate_names": [
+          "桐木岭（省委党校）",
+          "Tongmuling (Party School of the CPC Guizhou Provincial Committee)"
+        ],
+        "line": "guiyang3",
+        "order": 0
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6733371,
+          26.3957435
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Langfengguan (浪风关)",
+        "alternate_names": [
+          "浪风关",
+          "Langfengguan"
+        ],
+        "line": "guiyang3",
+        "order": 1
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6724239,
+          26.4056833
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Huaxinan Railway Station (花溪南站)",
+        "alternate_names": [
+          "花溪南站",
+          "Huaxinan Railway Station"
+        ],
+        "line": "guiyang3",
+        "order": 2
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6739203,
+          26.4121738
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Mingzhu Avenue (明珠大道)",
+        "alternate_names": [
+          "明珠大道",
+          "Mingzhu Avenue"
+        ],
+        "line": "guiyang3",
+        "order": 3
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6738104,
+          26.4250893
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Xueshi Road (学士路)",
+        "alternate_names": [
+          "学士路",
+          "Xueshi Road"
+        ],
+        "line": "guiyang3",
+        "order": 4
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6731412,
+          26.4421678
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Huaxi Park (花溪公园)",
+        "alternate_names": [
+          "花溪公园",
+          "Huaxi Park"
+        ],
+        "line": "guiyang3",
+        "order": 5
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6722179,
+          26.4530408
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Guizhou University (贵州大学)",
+        "alternate_names": [
+          "贵州大学",
+          "Guizhou University"
+        ],
+        "line": "guiyang3",
+        "order": 6
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6713032,
+          26.4636952
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Confucius Academy (孔学堂)",
+        "alternate_names": [
+          "孔学堂",
+          "Confucius Academy"
+        ],
+        "line": "guiyang3",
+        "order": 7
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6691198,
+          26.4812967
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Shilihetan (十里河滩)",
+        "alternate_names": [
+          "十里河滩",
+          "Shilihetan"
+        ],
+        "line": "guiyang3",
+        "order": 8
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6731,
+          26.5064
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Zhongcaosi (中曹司)",
+        "alternate_names": [
+          "中曹司",
+          "Zhongcaosi"
+        ],
+        "line": "guiyang3",
+        "order": 9
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6736689,
+          26.5231854
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Ganyintang (甘荫塘)",
+        "alternate_names": [
+          "甘荫塘",
+          "Ganyintang"
+        ],
+        "line": "guiyang3",
+        "order": 10
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6785773,
+          26.5341322
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Sifanghe (Guizhou Branch Hospital of Guangdong Provincial Hospital of Traditional Chinese Medicine) (四方河（省中医院）)",
+        "alternate_names": [
+          "四方河（省中医院）",
+          "Sifanghe (Guizhou Branch Hospital of Guangdong Provincial Hospital of Traditional Chinese Medicine)"
+        ],
+        "line": "guiyang3",
+        "order": 11
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682694,
+          26.5461845
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Zaojiaojing (皂角井)",
+        "alternate_names": [
+          "皂角井",
+          "Zaojiaojing"
+        ],
+        "line": "guiyang3",
+        "order": 12
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6787665,
+          26.5565565
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Taiciqiao (太慈桥)",
+        "alternate_names": [
+          "太慈桥",
+          "Taiciqiao"
+        ],
+        "line": "guiyang3",
+        "order": 13
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6707275,
+          26.5623505
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Wulichong (五里冲)",
+        "alternate_names": [
+          "五里冲",
+          "Wulichong"
+        ],
+        "line": "guiyang3",
+        "order": 14
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6813267,
+          26.5694226
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Huaguoyuan (花果园)",
+        "alternate_names": [
+          "花果园",
+          "Huaguoyuan"
+        ],
+        "line": "guiyang3",
+        "order": 15
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6858305,
+          26.5732413
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Songhua Road (松花路)",
+        "alternate_names": [
+          "松花路",
+          "Songhua Road"
+        ],
+        "line": "guiyang3",
+        "order": 16
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6942,
+          26.5854
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "West Yan'an Road (延安西路)",
+        "alternate_names": [
+          "延安西路",
+          "West Yan'an Road"
+        ],
+        "line": "guiyang3",
+        "order": 17
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6933759,
+          26.5905964
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Qianlingshan Park (黔灵山公园)",
+        "alternate_names": [
+          "黔灵山公园",
+          "Qianlingshan Park"
+        ],
+        "line": "guiyang3",
+        "order": 18
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7024,
+          26.5965
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Beijing Road (北京路)",
+        "alternate_names": [
+          "北京路",
+          "Beijing Road"
+        ],
+        "line": "guiyang3",
+        "order": 19
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7112853,
+          26.599612
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Guizhou Medical University (贵医)",
+        "alternate_names": [
+          "贵医",
+          "Guizhou Medical University"
+        ],
+        "line": "guiyang3",
+        "order": 20
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7221049,
+          26.6084247
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Dayingpo (大营坡)",
+        "alternate_names": [
+          "大营坡",
+          "Dayingpo"
+        ],
+        "line": "guiyang3",
+        "order": 21
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7296138,
+          26.6189812
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Chadian (茶店)",
+        "alternate_names": [
+          "茶店",
+          "Chadian"
+        ],
+        "line": "guiyang3",
+        "order": 22
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7435083,
+          26.6264958
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Shunhai (顺海)",
+        "alternate_names": [
+          "顺海",
+          "Shunhai"
+        ],
+        "line": "guiyang3",
+        "order": 23
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7654101,
+          26.6353571
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Xintian (新添)",
+        "alternate_names": [
+          "新添",
+          "Xintian"
+        ],
+        "line": "guiyang3",
+        "order": 24
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7733848,
+          26.639847
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Gaoxin Road (高新路)",
+        "alternate_names": [
+          "高新路",
+          "Gaoxin Road"
+        ],
+        "line": "guiyang3",
+        "order": 25
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7912403,
+          26.6391595
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Guizhou Education University (师范学院)",
+        "alternate_names": [
+          "师范学院",
+          "Guizhou Education University"
+        ],
+        "line": "guiyang3",
+        "order": 26
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8152025,
+          26.6409165
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Dongfeng (Guiqian International General Hospital) (东风（贵黔医院）)",
+        "alternate_names": [
+          "东风（贵黔医院）",
+          "Dongfeng (Guiqian International General Hospital)"
+        ],
+        "line": "guiyang3",
+        "order": 27
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8222097,
+          26.6585514
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Luowan (洛湾)",
+        "alternate_names": [
+          "洛湾",
+          "Luowan"
+        ],
+        "line": "guiyang3",
+        "order": 28
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4645169,
+          26.4747717
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Zaojiaoba (皂角坝)",
+        "alternate_names": [
+          "皂角坝",
+          "Zaojiaoba"
+        ],
+        "line": "guiyangs1",
+        "order": 0
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4805919,
+          26.4696054
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Gui'an (贵安)",
+        "alternate_names": [
+          "贵安",
+          "Gui'an"
+        ],
+        "line": "guiyangs1",
+        "order": 1
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4948746,
+          26.4638253
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Dakecheng (大科城)",
+        "alternate_names": [
+          "大科城",
+          "Dakecheng"
+        ],
+        "line": "guiyangs1",
+        "order": 2
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5033647,
+          26.4604487
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Shugu Avenue (数谷大道)",
+        "alternate_names": [
+          "数谷大道",
+          "Shugu Avenue"
+        ],
+        "line": "guiyangs1",
+        "order": 3
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.524305,
+          26.4582602
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Xingyuehu (星月湖)",
+        "alternate_names": [
+          "星月湖",
+          "Xingyuehu"
+        ],
+        "line": "guiyangs1",
+        "order": 4
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5422902,
+          26.4592897
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Dalongjing (大龙井)",
+        "alternate_names": [
+          "大龙井",
+          "Dalongjing"
+        ],
+        "line": "guiyangs1",
+        "order": 5
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5781,
+          26.4528
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Tianhetan (天河潭)",
+        "alternate_names": [
+          "天河潭",
+          "Tianhetan"
+        ],
+        "line": "guiyangs1",
+        "order": 6
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6247,
+          26.4823
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Shibanshao (石板哨)",
+        "alternate_names": [
+          "石板哨",
+          "Shibanshao"
+        ],
+        "line": "guiyangs1",
+        "order": 7
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6524655,
+          26.4907765
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Jinzhu (金竹)",
+        "alternate_names": [
+          "金竹",
+          "Jinzhu"
+        ],
+        "line": "guiyangs1",
+        "order": 8
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6731,
+          26.5064
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Zhongcaosi (中曹司)",
+        "alternate_names": [
+          "中曹司",
+          "Zhongcaosi"
+        ],
+        "line": "guiyangs1",
+        "order": 9
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.694777,
+          26.5149102
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Jinjiang Road (锦江路)",
+        "alternate_names": [
+          "锦江路",
+          "Jinjiang Road"
+        ],
+        "line": "guiyangs1",
+        "order": 10
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6982797,
+          26.5251518
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Xiaohe (小河)",
+        "alternate_names": [
+          "小河",
+          "Xiaohe"
+        ],
+        "line": "guiyangs1",
+        "order": 11
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7089,
+          26.5412
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Wangchengpo (望城坡)",
+        "alternate_names": [
+          "望城坡",
+          "Wangchengpo"
+        ],
+        "line": "guiyangs1",
+        "order": 12
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6460742,
+          26.6507185
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "International Eco-Conference Center (国际生态会议中心)",
+        "alternate_names": [
+          "国际生态会议中心",
+          "International Eco-Conference Center"
+        ],
+        "line": "guiyangt2",
+        "order": 0
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6463273,
+          26.6567393
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Jinzhu East Road (金朱东路)",
+        "alternate_names": [
+          "金朱东路",
+          "Jinzhu East Road"
+        ],
+        "line": "guiyangt2",
+        "order": 1
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6465297,
+          26.661685
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Donglinsi Road (东林寺路)",
+        "alternate_names": [
+          "东林寺路",
+          "Donglinsi Road"
+        ],
+        "line": "guiyangt2",
+        "order": 2
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6465328,
+          26.6663476
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Longling Road (龙岭路)",
+        "alternate_names": [
+          "龙岭路",
+          "Longling Road"
+        ],
+        "line": "guiyangt2",
+        "order": 3
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6484062,
+          26.6721078
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Baiyun South Road (白云南路)",
+        "alternate_names": [
+          "白云南路",
+          "Baiyun South Road"
+        ],
+        "line": "guiyangt2",
+        "order": 4
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6540492,
+          26.6785597
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Tianyuan Road (天元路)",
+        "alternate_names": [
+          "天元路",
+          "Tianyuan Road"
+        ],
+        "line": "guiyangt2",
+        "order": 5
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6578632,
+          26.683107
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Yanshanhong 3rd Road (艳山红三号路)",
+        "alternate_names": [
+          "艳山红三号路",
+          "Yanshanhong 3rd Road"
+        ],
+        "line": "guiyangt2",
+        "order": 6
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6589222,
+          26.6913055
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Jintang North Street (金塘北街)",
+        "alternate_names": [
+          "金塘北街",
+          "Jintang North Street"
+        ],
+        "line": "guiyangt2",
+        "order": 7
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6598992,
+          26.6981009
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Yunhuan East Road (云环东路)",
+        "alternate_names": [
+          "云环东路",
+          "Yunhuan East Road"
+        ],
+        "line": "guiyangt2",
+        "order": 8
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6647285,
+          26.7118669
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Liyang Avenue (黎阳大道)",
+        "alternate_names": [
+          "黎阳大道",
+          "Liyang Avenue"
+        ],
+        "line": "guiyangt2",
+        "order": 9
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6604344,
+          26.715856
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Gaona Road (高纳路)",
+        "alternate_names": [
+          "高纳路",
+          "Gaona Road"
+        ],
+        "line": "guiyangt2",
+        "order": 10
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6578862,
+          26.7227284
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Gaohai Road (高海路)",
+        "alternate_names": [
+          "高海路",
+          "Gaohai Road"
+        ],
+        "line": "guiyangt2",
+        "order": 11
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6577427,
+          26.7341557
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "26th Avenue (二十六大道)",
+        "alternate_names": [
+          "二十六大道",
+          "26th Avenue"
+        ],
+        "line": "guiyangt2",
+        "order": 12
+      },
+      "id": 112
+    }
+  ]
+}

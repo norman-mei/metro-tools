@@ -169,7 +169,6 @@ import fenghuang from '@/app/(game)/asia/china/fenghuang/opengraph-image.jpg'
 import xishui from '@/app/(game)/asia/china/xishui/opengraph-image.jpg'
 import yinchuan from '@/app/(game)/asia/china/yinchuan/opengraph-image.jpg'
 import liupanshui from '@/app/(game)/asia/china/liupanshui/opengraph-image.jpg'
-import enshi from '@/app/(game)/asia/china/enshi/opengraph-image.jpg'
 import guangan from '@/app/(game)/asia/china/guangan/opengraph-image.jpg'
 import guilin from '@/app/(game)/asia/china/guilin/opengraph-image.jpg'
 import jining from '@/app/(game)/asia/china/jining/opengraph-image.jpg'
@@ -918,7 +917,7 @@ export const cities: ICity[] = [
     hideInStats: true,
   },
   {
-    name: 'Shaoxing-Hanzhou (绍兴-杭州), ZJ',
+    name: 'Hanzhou-Shaoxing (杭州-绍兴), ZJ',
     image: hangzhou,
     link: '/asia/china/hangzhou',
     continent: 'Asia',
@@ -1196,14 +1195,7 @@ export const cities: ICity[] = [
     link: '/asia/china/liupanshui',
     continent: 'Asia',
   },
-  {
-    name: 'Enshi (恩施), HB',
-    image: enshi,
-    link: '/asia/china/enshi',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
+    {
     name: 'Guilin (桂林), GX',
     image: guilin,
     link: '/asia/china/guilin',

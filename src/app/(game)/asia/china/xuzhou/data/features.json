@@ -1,0 +1,1979 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0952015,
+          34.2426943
+        ]
+      },
+      "properties": {
+        "name": "Luwo (路窝)",
+        "alternate_names": [
+          "路窝",
+          "Luwo"
+        ],
+        "line": "xuzhou1",
+        "id": 0,
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1149198,
+          34.2500744
+        ]
+      },
+      "properties": {
+        "name": "Xingshanzi (杏山子)",
+        "alternate_names": [
+          "杏山子",
+          "Xingshanzi"
+        ],
+        "line": "xuzhou1",
+        "id": 1,
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1367802,
+          34.2566936
+        ]
+      },
+      "properties": {
+        "name": "Hanshan (韩山)",
+        "alternate_names": [
+          "韩山",
+          "Hanshan"
+        ],
+        "line": "xuzhou1",
+        "id": 2,
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1447708,
+          34.2600056
+        ]
+      },
+      "properties": {
+        "name": "Gongnonglu (工农路)",
+        "alternate_names": [
+          "工农路",
+          "Gongnonglu"
+        ],
+        "line": "xuzhou1",
+        "id": 3,
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1522998059258,
+          34.2629997289748
+        ]
+      },
+      "properties": {
+        "name": "Renminguangchang (人民广场)",
+        "alternate_names": [
+          "人民广场",
+          "Renminguangchang"
+        ],
+        "line": "xuzhou1",
+        "id": 4,
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1621299,
+          34.2647319
+        ]
+      },
+      "properties": {
+        "name": "Sudilu (苏堤路)",
+        "alternate_names": [
+          "苏堤路",
+          "Sudilu"
+        ],
+        "line": "xuzhou1",
+        "id": 5,
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1730539,
+          34.2650036
+        ]
+      },
+      "properties": {
+        "name": "The Affiliated Hospital of Xuzhou Medical University (徐医附院)",
+        "alternate_names": [
+          "徐医附院",
+          "The Affiliated Hospital of Xuzhou Medical University"
+        ],
+        "line": "xuzhou1",
+        "id": 6,
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18214496445117,
+          34.26505352310163
+        ]
+      },
+      "properties": {
+        "name": "Pengchengguangchang (彭城广场)",
+        "alternate_names": [
+          "彭城广场",
+          "Pengchengguangchang"
+        ],
+        "line": "xuzhou1",
+        "id": 7,
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1906857,
+          34.2667026
+        ]
+      },
+      "properties": {
+        "name": "Minzhubeilu (民主北路)",
+        "alternate_names": [
+          "民主北路",
+          "Minzhubeilu"
+        ],
+        "line": "xuzhou1",
+        "id": 8,
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.19833519468274,
+          34.2675688811575
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou Railway Station (徐州火车站)",
+        "alternate_names": [
+          "徐州火车站",
+          "Xuzhou Railway Station"
+        ],
+        "line": "xuzhou1",
+        "id": 9,
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2048492,
+          34.2677784
+        ]
+      },
+      "properties": {
+        "name": "Zifangshan (子房山)",
+        "alternate_names": [
+          "子房山",
+          "Zifangshan"
+        ],
+        "line": "xuzhou1",
+        "id": 10,
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2212833,
+          34.2638491
+        ]
+      },
+      "properties": {
+        "name": "Tongshanlu (铜山路)",
+        "alternate_names": [
+          "铜山路",
+          "Tongshanlu"
+        ],
+        "line": "xuzhou1",
+        "id": 11,
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.228534,
+          34.2534679
+        ]
+      },
+      "properties": {
+        "name": "Huangshanlong (黄山垅)",
+        "alternate_names": [
+          "黄山垅",
+          "Huangshanlong"
+        ],
+        "line": "xuzhou1",
+        "id": 12,
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2403407,
+          34.2532044
+        ]
+      },
+      "properties": {
+        "name": "Qingfenglu (庆丰路)",
+        "alternate_names": [
+          "庆丰路",
+          "Qingfenglu"
+        ],
+        "line": "xuzhou1",
+        "id": 13,
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2540119,
+          34.2542885
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou Medical University (医科大学)",
+        "alternate_names": [
+          "医科大学",
+          "Xuzhou Medical University"
+        ],
+        "line": "xuzhou1",
+        "id": 14,
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.26465846132803,
+          34.2558077475468
+        ]
+      },
+      "properties": {
+        "name": "Qiaojiahu (乔家湖)",
+        "alternate_names": [
+          "乔家湖",
+          "Qiaojiahu"
+        ],
+        "line": "xuzhou1",
+        "id": 15,
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2845588,
+          34.26374
+        ]
+      },
+      "properties": {
+        "name": "Jinlonghu (金龙湖)",
+        "alternate_names": [
+          "金龙湖",
+          "Jinlonghu"
+        ],
+        "line": "xuzhou1",
+        "id": 16,
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2994,
+          34.2676
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou East Railway Station (徐州东站)",
+        "alternate_names": [
+          "徐州东站",
+          "Xuzhou East Railway Station"
+        ],
+        "line": "xuzhou1",
+        "id": 17,
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1825978,
+          34.3329802
+        ]
+      },
+      "properties": {
+        "name": "Keyunbei (客运北站)",
+        "alternate_names": [
+          "客运北站",
+          "Keyunbei"
+        ],
+        "line": "xuzhou2",
+        "id": 18,
+        "order": 0
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1863215,
+          34.3201912
+        ]
+      },
+      "properties": {
+        "name": "Liwo (李沃)",
+        "alternate_names": [
+          "李沃",
+          "Liwo"
+        ],
+        "line": "xuzhou2",
+        "id": 19,
+        "order": 1
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1863595,
+          34.3057664
+        ]
+      },
+      "properties": {
+        "name": "Jiulishan (九里山)",
+        "alternate_names": [
+          "九里山",
+          "Jiulishan"
+        ],
+        "line": "xuzhou2",
+        "id": 20,
+        "order": 2
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1852988,
+          34.2967632
+        ]
+      },
+      "properties": {
+        "name": "Bentengdadao (奔腾大道)",
+        "alternate_names": [
+          "奔腾大道",
+          "Bentengdadao"
+        ],
+        "line": "xuzhou2",
+        "id": 21,
+        "order": 3
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1817951,
+          34.2862978
+        ]
+      },
+      "properties": {
+        "name": "Jiulonghu (九龙湖)",
+        "alternate_names": [
+          "九龙湖",
+          "Jiulonghu"
+        ],
+        "line": "xuzhou2",
+        "id": 22,
+        "order": 4
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1796753,
+          34.275721
+        ]
+      },
+      "properties": {
+        "name": "Qingyunqiao (庆云桥)",
+        "alternate_names": [
+          "庆云桥",
+          "Qingyunqiao"
+        ],
+        "line": "xuzhou2",
+        "id": 23,
+        "order": 5
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18214496445117,
+          34.26505352310163
+        ]
+      },
+      "properties": {
+        "name": "Pengchengguangchang (彭城广场)",
+        "alternate_names": [
+          "彭城广场",
+          "Pengchengguangchang"
+        ],
+        "line": "xuzhou2",
+        "id": 24,
+        "order": 6
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1855795,
+          34.2588622
+        ]
+      },
+      "properties": {
+        "name": "Hubushan (户部山)",
+        "alternate_names": [
+          "户部山",
+          "Hubushan"
+        ],
+        "line": "xuzhou2",
+        "id": 25,
+        "order": 7
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1873338,
+          34.2511944
+        ]
+      },
+      "properties": {
+        "name": "Jiangsu Normal University Yunlong Campus (师大云龙校区)",
+        "alternate_names": [
+          "师大云龙校区",
+          "Jiangsu Normal University Yunlong Campus"
+        ],
+        "line": "xuzhou2",
+        "id": 26,
+        "order": 8
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1879024,
+          34.2437137
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou Central Hospital (中心医院)",
+        "alternate_names": [
+          "中心医院",
+          "Xuzhou Central Hospital"
+        ],
+        "line": "xuzhou2",
+        "id": 27,
+        "order": 9
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.19469839800927,
+          34.23666961232795
+        ]
+      },
+      "properties": {
+        "name": "Huaita (淮塔)",
+        "alternate_names": [
+          "淮塔",
+          "Huaita"
+        ],
+        "line": "xuzhou2",
+        "id": 28,
+        "order": 10
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2010743,
+          34.2285571
+        ]
+      },
+      "properties": {
+        "name": "Kejicheng (科技城)",
+        "alternate_names": [
+          "科技城",
+          "Kejicheng"
+        ],
+        "line": "xuzhou2",
+        "id": 29,
+        "order": 11
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2108193,
+          34.2217552
+        ]
+      },
+      "properties": {
+        "name": "Qiligou (七里沟)",
+        "alternate_names": [
+          "七里沟",
+          "Qiligou"
+        ],
+        "line": "xuzhou2",
+        "id": 30,
+        "order": 12
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2206842,
+          34.2144767
+        ]
+      },
+      "properties": {
+        "name": "Baiguoyuan (百果园)",
+        "alternate_names": [
+          "百果园",
+          "Baiguoyuan"
+        ],
+        "line": "xuzhou2",
+        "id": 31,
+        "order": 13
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2376359,
+          34.2129039
+        ]
+      },
+      "properties": {
+        "name": "Tuolongshan (拖龙山)",
+        "alternate_names": [
+          "拖龙山",
+          "Tuolongshan"
+        ],
+        "line": "xuzhou2",
+        "id": 32,
+        "order": 14
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2591363,
+          34.2116212
+        ]
+      },
+      "properties": {
+        "name": "Dalonghu (大龙湖)",
+        "alternate_names": [
+          "大龙湖",
+          "Dalonghu"
+        ],
+        "line": "xuzhou2",
+        "id": 33,
+        "order": 15
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.27452893259678,
+          34.208771425719384
+        ]
+      },
+      "properties": {
+        "name": "Municipal Administrative Center (市行政中心)",
+        "alternate_names": [
+          "市行政中心",
+          "Municipal Administrative Center"
+        ],
+        "line": "xuzhou2",
+        "id": 34,
+        "order": 16
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2865965,
+          34.2088311
+        ]
+      },
+      "properties": {
+        "name": "Hanyuandadao (汉源大道)",
+        "alternate_names": [
+          "汉源大道",
+          "Hanyuandadao"
+        ],
+        "line": "xuzhou2",
+        "id": 35,
+        "order": 17
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2966133,
+          34.2082193
+        ]
+      },
+      "properties": {
+        "name": "Xinyuandadao (新元大道)",
+        "alternate_names": [
+          "新元大道",
+          "Xinyuandadao"
+        ],
+        "line": "xuzhou2",
+        "id": 36,
+        "order": 18
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3100608,
+          34.2084753
+        ]
+      },
+      "properties": {
+        "name": "Xinchengqudong (新城区东)",
+        "alternate_names": [
+          "新城区东",
+          "Xinchengqudong"
+        ],
+        "line": "xuzhou2",
+        "id": 37,
+        "order": 19
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2742382,
+          34.3011882
+        ]
+      },
+      "properties": {
+        "name": "Zhenxingdadao (振兴大道)",
+        "alternate_names": [
+          "振兴大道",
+          "Zhenxingdadao"
+        ],
+        "line": "xuzhou3",
+        "id": 38,
+        "order": 0
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2651321,
+          34.3012258
+        ]
+      },
+      "properties": {
+        "name": "Pantao (蟠桃)",
+        "alternate_names": [
+          "蟠桃",
+          "Pantao"
+        ],
+        "line": "xuzhou3",
+        "id": 39,
+        "order": 1
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.24246819229397,
+          34.30046312574695
+        ]
+      },
+      "properties": {
+        "name": "Jiangsu Xuzhou Higher Vocational School of Economics & Trading (经贸学校)",
+        "alternate_names": [
+          "经贸学校",
+          "Jiangsu Xuzhou Higher Vocational School of Economics & Trading"
+        ],
+        "line": "xuzhou3",
+        "id": 40,
+        "order": 2
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2337102,
+          34.2946172
+        ]
+      },
+      "properties": {
+        "name": "Jinshanqiao (金山桥)",
+        "alternate_names": [
+          "金山桥",
+          "Jinshanqiao"
+        ],
+        "line": "xuzhou3",
+        "id": 41,
+        "order": 3
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.223361,
+          34.2899599
+        ]
+      },
+      "properties": {
+        "name": "Yangzhuang (杨庄)",
+        "alternate_names": [
+          "杨庄",
+          "Yangzhuang"
+        ],
+        "line": "xuzhou3",
+        "id": 42,
+        "order": 4
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.210415,
+          34.2842937
+        ]
+      },
+      "properties": {
+        "name": "Xiadian (下淀)",
+        "alternate_names": [
+          "下淀",
+          "Xiadian"
+        ],
+        "line": "xuzhou3",
+        "id": 43,
+        "order": 5
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2061556,
+          34.2789104
+        ]
+      },
+      "properties": {
+        "name": "Baiyunshan (白云山)",
+        "alternate_names": [
+          "白云山",
+          "Baiyunshan"
+        ],
+        "line": "xuzhou3",
+        "id": 44,
+        "order": 6
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.19833519468274,
+          34.2675688811575
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou Railway Station (徐州火车站)",
+        "alternate_names": [
+          "徐州火车站",
+          "Xuzhou Railway Station"
+        ],
+        "line": "xuzhou3",
+        "id": 45,
+        "order": 7
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.199374,
+          34.2591511
+        ]
+      },
+      "properties": {
+        "name": "Tianqiao (天桥)",
+        "alternate_names": [
+          "天桥",
+          "Tianqiao"
+        ],
+        "line": "xuzhou3",
+        "id": 46,
+        "order": 8
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2001567,
+          34.2518861
+        ]
+      },
+      "properties": {
+        "name": "Hepingdaqiao (和平大桥)",
+        "alternate_names": [
+          "和平大桥",
+          "Hepingdaqiao"
+        ],
+        "line": "xuzhou3",
+        "id": 47,
+        "order": 9
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.19469839800927,
+          34.23666961232795
+        ]
+      },
+      "properties": {
+        "name": "Huaita (淮塔)",
+        "alternate_names": [
+          "淮塔",
+          "Huaita"
+        ],
+        "line": "xuzhou3",
+        "id": 48,
+        "order": 10
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1900463,
+          34.2267951
+        ]
+      },
+      "properties": {
+        "name": "CUMT Wenchang Campus (矿大文昌校区)",
+        "alternate_names": [
+          "矿大文昌校区",
+          "CUMT Wenchang Campus"
+        ],
+        "line": "xuzhou3",
+        "id": 49,
+        "order": 11
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18844034717377,
+          34.21524187287722
+        ]
+      },
+      "properties": {
+        "name": "Nansanhuanlu (南三环路)",
+        "alternate_names": [
+          "南三环路",
+          "Nansanhuanlu"
+        ],
+        "line": "xuzhou3",
+        "id": 50,
+        "order": 12
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1883484,
+          34.2040917
+        ]
+      },
+      "properties": {
+        "name": "Zhaishan (翟山)",
+        "alternate_names": [
+          "翟山",
+          "Zhaishan"
+        ],
+        "line": "xuzhou3",
+        "id": 51,
+        "order": 13
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1844539,
+          34.1954
+        ]
+      },
+      "properties": {
+        "name": "Jiangsu Normal University (师范大学)",
+        "alternate_names": [
+          "师范大学",
+          "Jiangsu Normal University"
+        ],
+        "line": "xuzhou3",
+        "id": 52,
+        "order": 14
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18166007778046,
+          34.18638501818121
+        ]
+      },
+      "properties": {
+        "name": "Yuquanhe (玉泉河)",
+        "alternate_names": [
+          "玉泉河",
+          "Yuquanhe"
+        ],
+        "line": "xuzhou3",
+        "id": 53,
+        "order": 15
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1689963,
+          34.1799709
+        ]
+      },
+      "properties": {
+        "name": "Wumingshan Park (无名山公园)",
+        "alternate_names": [
+          "无名山公园",
+          "Wumingshan Park"
+        ],
+        "line": "xuzhou3",
+        "id": 54,
+        "order": 16
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1660244,
+          34.1733095
+        ]
+      },
+      "properties": {
+        "name": "Pujianglu (浦江路)",
+        "alternate_names": [
+          "浦江路",
+          "Pujianglu"
+        ],
+        "line": "xuzhou3",
+        "id": 55,
+        "order": 17
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1572214,
+          34.1651605
+        ]
+      },
+      "properties": {
+        "name": "Jiaoshan (焦山)",
+        "alternate_names": [
+          "焦山",
+          "Jiaoshan"
+        ],
+        "line": "xuzhou3",
+        "id": 56,
+        "order": 18
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1561486,
+          34.1590353
+        ]
+      },
+      "properties": {
+        "name": "Qianjianglu (钱江路)",
+        "alternate_names": [
+          "钱江路",
+          "Qianjianglu"
+        ],
+        "line": "xuzhou3",
+        "id": 57,
+        "order": 19
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1546572,
+          34.1505317
+        ]
+      },
+      "properties": {
+        "name": "Gaoxinqu'nan (高新区南)",
+        "alternate_names": [
+          "高新区南",
+          "Gaoxinqu'nan"
+        ],
+        "line": "xuzhou3",
+        "id": 58,
+        "order": 20
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1461404,
+          34.1420223
+        ]
+      },
+      "properties": {
+        "name": "Yinshan (银山)",
+        "alternate_names": [
+          "银山",
+          "Yinshan"
+        ],
+        "line": "xuzhou3",
+        "id": 59,
+        "order": 21
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1209914,
+          34.1815172
+        ]
+      },
+      "properties": {
+        "name": "Qiaoshang Village (桥上村)",
+        "alternate_names": [
+          "桥上村",
+          "Qiaoshang Village"
+        ],
+        "line": "xuzhou4",
+        "id": 60,
+        "order": 0
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1269268,
+          34.1910763
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou First People's Hospital (徐州市第一人民医院)",
+        "alternate_names": [
+          "徐州市第一人民医院",
+          "Xuzhou First People's Hospital"
+        ],
+        "line": "xuzhou4",
+        "id": 61,
+        "order": 1
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1460898,
+          34.2148773
+        ]
+      },
+      "properties": {
+        "name": "China University of Mining and Technology - Nanhu Campus (矿大南湖校区)",
+        "alternate_names": [
+          "矿大南湖校区",
+          "China University of Mining and Technology - Nanhu Campus"
+        ],
+        "line": "xuzhou4",
+        "id": 62,
+        "order": 2
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1645419,
+          34.2180631
+        ]
+      },
+      "properties": {
+        "name": "Taishan Road (泰山路)",
+        "alternate_names": [
+          "泰山路",
+          "Taishan Road"
+        ],
+        "line": "xuzhou4",
+        "id": 63,
+        "order": 3
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1758507,
+          34.2151634
+        ]
+      },
+      "properties": {
+        "name": "Jiahe Road (嘉和路)",
+        "alternate_names": [
+          "嘉和路",
+          "Jiahe Road"
+        ],
+        "line": "xuzhou4",
+        "id": 64,
+        "order": 4
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18844034717377,
+          34.21524187287722
+        ]
+      },
+      "properties": {
+        "name": "Nansanhuan Road (南三环路)",
+        "alternate_names": [
+          "南三环路",
+          "Nansanhuan Road"
+        ],
+        "line": "xuzhou4",
+        "id": 65,
+        "order": 5
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2108193,
+          34.2217552
+        ]
+      },
+      "properties": {
+        "name": "Qiligou (七里沟)",
+        "alternate_names": [
+          "七里沟",
+          "Qiligou"
+        ],
+        "line": "xuzhou4",
+        "id": 66,
+        "order": 6
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2186064,
+          34.2243862
+        ]
+      },
+      "properties": {
+        "name": "Qiche South (汽车南)",
+        "alternate_names": [
+          "汽车南",
+          "Qiche South"
+        ],
+        "line": "xuzhou4",
+        "id": 67,
+        "order": 7
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2301111,
+          34.2286926
+        ]
+      },
+      "properties": {
+        "name": "Central Business District West (中央活力区西)",
+        "alternate_names": [
+          "中央活力区西",
+          "Central Business District West"
+        ],
+        "line": "xuzhou4",
+        "id": 68,
+        "order": 8
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2383549,
+          34.2286848
+        ]
+      },
+      "properties": {
+        "name": "Central Business District Center (中央活力区中心)",
+        "alternate_names": [
+          "中央活力区中心",
+          "Central Business District Center"
+        ],
+        "line": "xuzhou4",
+        "id": 69,
+        "order": 9
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2540015,
+          34.2287486
+        ]
+      },
+      "properties": {
+        "name": "Central Business District East (中央活力区东)",
+        "alternate_names": [
+          "中央活力区东",
+          "Central Business District East"
+        ],
+        "line": "xuzhou4",
+        "id": 70,
+        "order": 10
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2648037,
+          34.2458834
+        ]
+      },
+      "properties": {
+        "name": "Tushan Temple (土山寺)",
+        "alternate_names": [
+          "土山寺",
+          "Tushan Temple"
+        ],
+        "line": "xuzhou4",
+        "id": 71,
+        "order": 11
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.26465846132803,
+          34.2558077475468
+        ]
+      },
+      "properties": {
+        "name": "Qiaojiahu (乔家湖)",
+        "alternate_names": [
+          "乔家湖",
+          "Qiaojiahu"
+        ],
+        "line": "xuzhou4",
+        "id": 72,
+        "order": 12
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2645044,
+          34.2716117
+        ]
+      },
+      "properties": {
+        "name": "Xuhai Road (徐海路)",
+        "alternate_names": [
+          "徐海路",
+          "Xuhai Road"
+        ],
+        "line": "xuzhou4",
+        "id": 73,
+        "order": 13
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2651642,
+          34.2798036
+        ]
+      },
+      "properties": {
+        "name": "Xihe (西贺)",
+        "alternate_names": [
+          "西贺",
+          "Xihe"
+        ],
+        "line": "xuzhou4",
+        "id": 74,
+        "order": 14
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2650356,
+          34.2898429
+        ]
+      },
+      "properties": {
+        "name": "Changshan Road (杨山路)",
+        "alternate_names": [
+          "杨山路",
+          "Changshan Road"
+        ],
+        "line": "xuzhou4",
+        "id": 75,
+        "order": 15
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2502833,
+          34.2941795
+        ]
+      },
+      "properties": {
+        "name": "Jingguan Road (景观路)",
+        "alternate_names": [
+          "景观路",
+          "Jingguan Road"
+        ],
+        "line": "xuzhou4",
+        "id": 76,
+        "order": 16
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.24246819229397,
+          34.30046312574695
+        ]
+      },
+      "properties": {
+        "name": "Jiangsu Xuzhou Higher Vocational School Of Economics & Trading (经贸学校)",
+        "alternate_names": [
+          "经贸学校",
+          "Jiangsu Xuzhou Higher Vocational School Of Economics & Trading"
+        ],
+        "line": "xuzhou4",
+        "id": 77,
+        "order": 17
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3018395,
+          34.2695842
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou East Railway Station (徐州东站)",
+        "alternate_names": [
+          "徐州东站",
+          "Xuzhou East Railway Station"
+        ],
+        "line": "xuzhou6",
+        "id": 78,
+        "order": 0
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3073591,
+          34.2595177
+        ]
+      },
+      "properties": {
+        "name": "Dahu (大湖)",
+        "alternate_names": [
+          "大湖",
+          "Dahu"
+        ],
+        "line": "xuzhou6",
+        "id": 79,
+        "order": 1
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2996735,
+          34.240205
+        ]
+      },
+      "properties": {
+        "name": "Zhaowu (赵武)",
+        "alternate_names": [
+          "赵武",
+          "Zhaowu"
+        ],
+        "line": "xuzhou6",
+        "id": 80,
+        "order": 2
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2907311,
+          34.2298555
+        ]
+      },
+      "properties": {
+        "name": "Huaihai International Expo Center (博览中心)",
+        "alternate_names": [
+          "博览中心",
+          "Huaihai International Expo Center"
+        ],
+        "line": "xuzhou6",
+        "id": 81,
+        "order": 3
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2829825,
+          34.2286611
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou Olympic Soprts Center (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "Xuzhou Olympic Soprts Center"
+        ],
+        "line": "xuzhou6",
+        "id": 82,
+        "order": 4
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2747495,
+          34.2208497
+        ]
+      },
+      "properties": {
+        "name": "Yizhongnan (一中南)",
+        "alternate_names": [
+          "一中南",
+          "Yizhongnan"
+        ],
+        "line": "xuzhou6",
+        "id": 83,
+        "order": 5
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.27452893259678,
+          34.208771425719384
+        ]
+      },
+      "properties": {
+        "name": "Municipal Administrative Center (市行政中心)",
+        "alternate_names": [
+          "市行政中心",
+          "Municipal Administrative Center"
+        ],
+        "line": "xuzhou6",
+        "id": 84,
+        "order": 6
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2747661,
+          34.1912677
+        ]
+      },
+      "properties": {
+        "name": "Lishuilu (丽水路)",
+        "alternate_names": [
+          "丽水路",
+          "Lishuilu"
+        ],
+        "line": "xuzhou6",
+        "id": 85,
+        "order": 7
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2718654,
+          34.1798161
+        ]
+      },
+      "properties": {
+        "name": "Yingbindadao (迎宾大道)",
+        "alternate_names": [
+          "迎宾大道",
+          "Yingbindadao"
+        ],
+        "line": "xuzhou6",
+        "id": 86,
+        "order": 8
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2557058,
+          34.1791473
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou City Hosptial of TCM (市中医院)",
+        "alternate_names": [
+          "市中医院",
+          "Xuzhou City Hosptial of TCM"
+        ],
+        "line": "xuzhou6",
+        "id": 87,
+        "order": 9
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2433523,
+          34.1818055
+        ]
+      },
+      "properties": {
+        "name": "Tangfang (塘坊)",
+        "alternate_names": [
+          "塘坊",
+          "Tangfang"
+        ],
+        "line": "xuzhou6",
+        "id": 88,
+        "order": 10
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2335952,
+          34.1840279
+        ]
+      },
+      "properties": {
+        "name": "Jianceyuan (检测园)",
+        "alternate_names": [
+          "检测园",
+          "Jianceyuan"
+        ],
+        "line": "xuzhou6",
+        "id": 89,
+        "order": 11
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2075108,
+          34.1853865
+        ]
+      },
+      "properties": {
+        "name": "Yicheng (驿城)",
+        "alternate_names": [
+          "驿城",
+          "Yicheng"
+        ],
+        "line": "xuzhou6",
+        "id": 90,
+        "order": 12
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1978976,
+          34.1862164
+        ]
+      },
+      "properties": {
+        "name": "Gaojiaying (高家营)",
+        "alternate_names": [
+          "高家营",
+          "Gaojiaying"
+        ],
+        "line": "xuzhou6",
+        "id": 91,
+        "order": 13
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18166007778046,
+          34.18638501818121
+        ]
+      },
+      "properties": {
+        "name": "Yuquanhe (玉泉河)",
+        "alternate_names": [
+          "玉泉河",
+          "Yuquanhe"
+        ],
+        "line": "xuzhou6",
+        "id": 92,
+        "order": 14
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1705644,
+          34.1860496
+        ]
+      },
+      "properties": {
+        "name": "Xuzhou Tongshan Distirct Hospital of TCM (铜山中医院)",
+        "alternate_names": [
+          "铜山中医院",
+          "Xuzhou Tongshan Distirct Hospital of TCM"
+        ],
+        "line": "xuzhou6",
+        "id": 93,
+        "order": 15
+      },
+      "id": 93
+    }
+  ]
+}

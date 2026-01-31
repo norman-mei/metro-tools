@@ -151,12 +151,29 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     async (updates: Partial<UiPreferences>) => {
       if (!user) return
 
-      setUiPreferences((prev) =>
-        normalizeUiPreferences({
+      setUiPreferences((prev) => {
+        const merged = {
           ...prev,
           ...updates,
-        }),
-      )
+          ...(updates.homeScrollPositions
+            ? {
+                homeScrollPositions: {
+                  ...(prev.homeScrollPositions ?? {}),
+                  ...updates.homeScrollPositions,
+                },
+              }
+            : {}),
+          ...(updates.mapViewByCity
+            ? {
+                mapViewByCity: {
+                  ...(prev.mapViewByCity ?? {}),
+                  ...updates.mapViewByCity,
+                },
+              }
+            : {}),
+        }
+        return normalizeUiPreferences(merged)
+      })
 
       try {
         const response = await fetch('/api/user/preferences', {

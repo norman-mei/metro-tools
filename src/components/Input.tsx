@@ -23,6 +23,7 @@ const Input = ({
   clusterGroups,
   autoFocus = true,
   disabled = false,
+  onGuessResult,
 }: {
   fuse: Fuse<DataFeature>
   found: number[]
@@ -37,6 +38,7 @@ const Input = ({
   clusterGroups: Map<number, number[]>
   autoFocus?: boolean
   disabled?: boolean
+  onGuessResult?: (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => void
 }) => {
   const { t } = useTranslation()
   const normalizeString = useNormalizeString()
@@ -251,9 +253,11 @@ const Input = ({
           if (someAlreadyFound || hasCandidate) {
             setAlreadyFound(true)
             setTimeout(() => setAlreadyFound(false), 1200)
+            onGuessResult?.({ type: 'already' })
           } else {
             setWrong(true)
             setTimeout(() => setWrong(false), 500)
+            onGuessResult?.({ type: 'wrong' })
           }
           return
         }
@@ -309,10 +313,12 @@ const Input = ({
         setSearch('')
         lastSearchRef.current = ''
         pushEvent(finalMatches)
+        onGuessResult?.({ type: 'correct', addedIds: finalMatches })
       } catch (error) {
         console.error(error)
         setWrong(true)
         setTimeout(() => setWrong(false), 500)
+        onGuessResult?.({ type: 'wrong' })
       }
     },
     [

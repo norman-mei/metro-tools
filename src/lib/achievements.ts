@@ -204,10 +204,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Graceland Transit",
     description: "Thank you, thank you very much. You're the King of Memphis metro!",
   },
-  "mexico-city": {
-    title: "El Maestro del Metro",
-    description: "You've conquered one of the world's largest systems. Increible!",
-  },
   miami: {
     title: "Sunshine State of Mind",
     description: "You've navigated Florida's transit triangle like Crockett and Tubbs!",
@@ -515,10 +511,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   dujiangyan: {
     title: "Dujiangyan Flow Keeper",
     description: "You've mastered Dujiangyan's lines with water-smart precision.",
-  },
-  enshi: {
-    title: "Enshi Explorer",
-    description: "You've explored Enshi's stations with canyon-level curiosity.",
   },
   fenghuang: {
     title: "Fenghuang Phoenix",

@@ -1,0 +1,6162 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2231705,
+          41.7630826
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Shisanhaojie (十三号街)",
+        "alternate_names": [
+          "十三号街",
+          "十三號街",
+          "Shisanhaojie",
+          "shi san hao jie"
+        ],
+        "line": "shenyang1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2368927,
+          41.7630323
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Zhongyangdajie (中央大街)",
+        "alternate_names": [
+          "中央大街",
+          "Zhongyangdajie",
+          "zhong yang da jie"
+        ],
+        "line": "shenyang1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2536001,
+          41.7630021
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Qihaojie (七号街)",
+        "alternate_names": [
+          "七号街",
+          "七號街",
+          "Qihaojie",
+          "qi hao jie"
+        ],
+        "line": "shenyang1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2715225,
+          41.7637553
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sihaojie (四号街)",
+        "alternate_names": [
+          "四号街",
+          "四號街",
+          "Sihaojie",
+          "si hao jie"
+        ],
+        "line": "shenyang1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2877819,
+          41.7692469
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Zhangshi (张士)",
+        "alternate_names": [
+          "张士",
+          "張士",
+          "Zhangshi",
+          "zhang shi"
+        ],
+        "line": "shenyang1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2994476,
+          41.7786585
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Kaifadadao (开发大道)",
+        "alternate_names": [
+          "开发大道",
+          "開發大道",
+          "Kaifadadao",
+          "kai fa da dao"
+        ],
+        "line": "shenyang1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2998403,
+          41.7919584
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Yuhongguangchang (于洪广场)",
+        "alternate_names": [
+          "于洪广场",
+          "於洪廣場",
+          "Yuhongguangchang",
+          "yu hong guang chang"
+        ],
+        "line": "shenyang1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3036492,
+          41.7992557
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Yingbinlu (迎宾路)",
+        "alternate_names": [
+          "迎宾路",
+          "迎賓路",
+          "Yingbinlu",
+          "ying bin lu"
+        ],
+        "line": "shenyang1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3261164,
+          41.8026771
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Zhonggongjie (重工街)",
+        "alternate_names": [
+          "重工街",
+          "Zhonggongjie",
+          "zhong gong jie"
+        ],
+        "line": "shenyang1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3373573,
+          41.8013629
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Qigongjie (启工街)",
+        "alternate_names": [
+          "启工街",
+          "啓工街",
+          "Qigongjie",
+          "qi gong jie"
+        ],
+        "line": "shenyang1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3498907,
+          41.7980252
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Baogongjie (保工街)",
+        "alternate_names": [
+          "保工街",
+          "Baogongjie",
+          "bao gong jie"
+        ],
+        "line": "shenyang1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3646363,
+          41.7917107
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Tiexiguangchang (铁西广场)",
+        "alternate_names": [
+          "铁西广场",
+          "鐵西廣場",
+          "Tiexiguangchang",
+          "tie xi guang chang"
+        ],
+        "line": "shenyang1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3744057,
+          41.7941414
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Yunfengbeijie (云峰北街)",
+        "alternate_names": [
+          "云峰北街",
+          "雲峯北街",
+          "Yunfengbeijie",
+          "yun feng bei jie"
+        ],
+        "line": "shenyang1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3879307,
+          41.7924481
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Shenyang Railway Station (沈阳站)",
+        "alternate_names": [
+          "沈阳站",
+          "瀋陽站",
+          "Shenyang Railway Station",
+          "shen yang zhan"
+        ],
+        "line": "shenyang1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3992,
+          41.7876
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Taiyuanjie (太原街)",
+        "alternate_names": [
+          "太原街",
+          "Taiyuanjie",
+          "tai yuan jie"
+        ],
+        "line": "shenyang1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4138334,
+          41.7869997
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Nanshichang (南市场)",
+        "alternate_names": [
+          "南市场",
+          "南市場",
+          "Nanshichang",
+          "nan shi chang"
+        ],
+        "line": "shenyang1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4266,
+          41.7898
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Qingniandajie (青年大街)",
+        "alternate_names": [
+          "青年大街",
+          "Qingniandajie",
+          "qing nian da jie"
+        ],
+        "line": "shenyang1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4412152,
+          41.7946004
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Huaiyuanmen (怀远门)",
+        "alternate_names": [
+          "怀远门",
+          "懷遠門",
+          "Huaiyuanmen",
+          "huai yuan men"
+        ],
+        "line": "shenyang1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4543812,
+          41.7989685
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Zhongjie (中街)",
+        "alternate_names": [
+          "中街",
+          "Zhongjie",
+          "zhong jie"
+        ],
+        "line": "shenyang1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4652131,
+          41.8004317
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Dongzhongjie (东中街)",
+        "alternate_names": [
+          "东中街",
+          "東中街",
+          "Dongzhongjie",
+          "dong zhong jie"
+        ],
+        "line": "shenyang1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4825,
+          41.8065
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Pangjiangjie (滂江街)",
+        "alternate_names": [
+          "滂江街",
+          "Pangjiangjie",
+          "pang jiang jie"
+        ],
+        "line": "shenyang1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.498362,
+          41.8058617
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Limingguangchang (黎明广场)",
+        "alternate_names": [
+          "黎明广场",
+          "黎明廣場",
+          "Limingguangchang",
+          "li ming guang chang"
+        ],
+        "line": "shenyang1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5159281,
+          41.8042579
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Xinhuijie (新惠街)",
+        "alternate_names": [
+          "新惠街",
+          "Xinhuijie",
+          "xin hui jie"
+        ],
+        "line": "shenyang1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5257907,
+          41.8111068
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Xinningjie (新宁街)",
+        "alternate_names": [
+          "新宁街",
+          "新寧街",
+          "Xinningjie",
+          "xin ning jie"
+        ],
+        "line": "shenyang1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5393811,
+          41.8161266
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Dongdayingjie (东大营街)",
+        "alternate_names": [
+          "东大营街",
+          "東大營街",
+          "Dongdayingjie",
+          "dong da ying jie"
+        ],
+        "line": "shenyang1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5586648,
+          41.8194981
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Nongyedaxue (农业大学)",
+        "alternate_names": [
+          "农业大学",
+          "農業大學",
+          "Nongyedaxue",
+          "nong ye da xue"
+        ],
+        "line": "shenyang1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5737772,
+          41.8204231
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Qianling (前陵)",
+        "alternate_names": [
+          "前陵",
+          "Qianling",
+          "qian ling"
+        ],
+        "line": "shenyang1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.589713,
+          41.8274491
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Donglinggongyuan (东陵公园)",
+        "alternate_names": [
+          "东陵公园",
+          "東陵公園",
+          "Donglinggongyuan",
+          "dong ling gong yuan"
+        ],
+        "line": "shenyang1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6098507,
+          41.8434981
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Shuiquan (水泉)",
+        "alternate_names": [
+          "水泉",
+          "Shuiquan",
+          "shui quan"
+        ],
+        "line": "shenyang1",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6204874,
+          41.8527774
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Boguanbeidajie (伯官北大街)",
+        "alternate_names": [
+          "伯官北大街",
+          "Boguanbeidajie",
+          "bo guan bei da jie"
+        ],
+        "line": "shenyang1",
+        "order": 29
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6337445,
+          41.8516319
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Zhiwuyuan (植物园)",
+        "alternate_names": [
+          "植物园",
+          "植物園",
+          "Zhiwuyuan",
+          "zhi wu yuan"
+        ],
+        "line": "shenyang1",
+        "order": 30
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6531184,
+          41.852931
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Shuangma (双马)",
+        "alternate_names": [
+          "双马",
+          "雙馬",
+          "Shuangma",
+          "shuang ma"
+        ],
+        "line": "shenyang1",
+        "order": 31
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3994866,
+          41.9537559
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Putianlu (蒲田路)",
+        "alternate_names": [
+          "蒲田路",
+          "Putianlu",
+          "pu tian lu"
+        ],
+        "line": "shenyang2",
+        "order": 0
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4025309,
+          41.9442823
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Puhelu (蒲河路)",
+        "alternate_names": [
+          "蒲河路",
+          "Puhelu",
+          "pu he lu"
+        ],
+        "line": "shenyang2",
+        "order": 1
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3923895,
+          41.9340929
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Renjiehugongyuan (人杰湖公园)",
+        "alternate_names": [
+          "人杰湖公园",
+          "人傑湖公園",
+          "Renjiehugongyuan",
+          "ren jie hu gong yuan"
+        ],
+        "line": "shenyang2",
+        "order": 2
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3876876,
+          41.9273284
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Liaoningdaxue (辽宁大学)",
+        "alternate_names": [
+          "辽宁大学",
+          "遼寧大學",
+          "Liaoningdaxue",
+          "liao ning da xue"
+        ],
+        "line": "shenyang2",
+        "order": 3
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3972305,
+          41.9153397
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Hangkonghangtiandaxue (航空航天大学)",
+        "alternate_names": [
+          "航空航天大学",
+          "航空航天大學",
+          "Hangkonghangtiandaxue",
+          "hang kong hang tian da xue"
+        ],
+        "line": "shenyang2",
+        "order": 4
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4034174,
+          41.9043356
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Shifandaxue (师范大学)",
+        "alternate_names": [
+          "师范大学",
+          "師範大學",
+          "Shifandaxue",
+          "shi fan da xue"
+        ],
+        "line": "shenyang2",
+        "order": 5
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4093558,
+          41.8839625
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Yixueyuan (医学院)",
+        "alternate_names": [
+          "医学院",
+          "醫學院",
+          "Yixueyuan",
+          "yi xue yuan"
+        ],
+        "line": "shenyang2",
+        "order": 6
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4109785,
+          41.8656098
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Santaizi (三台子)",
+        "alternate_names": [
+          "三台子",
+          "三臺子",
+          "Santaizi",
+          "san tai zi"
+        ],
+        "line": "shenyang2",
+        "order": 7
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4120595,
+          41.8535
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Lingxi (陵西)",
+        "alternate_names": [
+          "陵西",
+          "Lingxi",
+          "ling xi"
+        ],
+        "line": "shenyang2",
+        "order": 8
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4126683,
+          41.8453452
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Xinleyizhi (新乐遗址)",
+        "alternate_names": [
+          "新乐遗址",
+          "新樂遺址",
+          "Xinleyizhi",
+          "xin le yi zhi"
+        ],
+        "line": "shenyang2",
+        "order": 9
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4177417,
+          41.836489
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Beilinggongyuan (北陵公园)",
+        "alternate_names": [
+          "北陵公园",
+          "北陵公園",
+          "Beilinggongyuan",
+          "bei ling gong yuan"
+        ],
+        "line": "shenyang2",
+        "order": 10
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4232,
+          41.8299
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Zhongyiyaodaxue (中医药大学)",
+        "alternate_names": [
+          "中医药大学",
+          "中醫藥大學",
+          "Zhongyiyaodaxue",
+          "zhong yi yao da xue"
+        ],
+        "line": "shenyang2",
+        "order": 11
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4229318,
+          41.8200232
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Qishanlu (岐山路)",
+        "alternate_names": [
+          "岐山路",
+          "Qishanlu",
+          "qi shan lu"
+        ],
+        "line": "shenyang2",
+        "order": 12
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4311124,
+          41.8144633
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Shenyang North Railway Station (沈阳北站)",
+        "alternate_names": [
+          "沈阳北站",
+          "瀋陽北站",
+          "Shenyang North Railway Station",
+          "shen yang bei zhan"
+        ],
+        "line": "shenyang2",
+        "order": 13
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4325234,
+          41.8095601
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Jinrongzhongxin (金融中心)",
+        "alternate_names": [
+          "金融中心",
+          "Jinrongzhongxin",
+          "jin rong zhong xin"
+        ],
+        "line": "shenyang2",
+        "order": 14
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4280722,
+          41.8025744
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Renminguangchang (人民广场)",
+        "alternate_names": [
+          "人民广场",
+          "人民廣場",
+          "Renminguangchang",
+          "ren min guang chang"
+        ],
+        "line": "shenyang2",
+        "order": 15
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4266,
+          41.7898
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Qingniandajie (青年大街)",
+        "alternate_names": [
+          "青年大街",
+          "Qingniandajie",
+          "qing nian da jie"
+        ],
+        "line": "shenyang2",
+        "order": 16
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4296842,
+          41.7824169
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Qingniangongyuan (青年公园)",
+        "alternate_names": [
+          "青年公园",
+          "青年公園",
+          "Qingniangongyuan",
+          "qing nian gong yuan"
+        ],
+        "line": "shenyang2",
+        "order": 17
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4293007,
+          41.7708814
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Gongyezhanlanguan (工业展览馆)",
+        "alternate_names": [
+          "工业展览馆",
+          "工業展覽館",
+          "Gongyezhanlanguan",
+          "gong ye zhan lan guan"
+        ],
+        "line": "shenyang2",
+        "order": 18
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4292873,
+          41.7575812
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Shitushuguan (市图书馆)",
+        "alternate_names": [
+          "市图书馆",
+          "市圖書館",
+          "Shitushuguan",
+          "shi tu shu guan"
+        ],
+        "line": "shenyang2",
+        "order": 19
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4343687,
+          41.750779
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Wulihe (五里河)",
+        "alternate_names": [
+          "五里河",
+          "Wulihe",
+          "wu li he"
+        ],
+        "line": "shenyang2",
+        "order": 20
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4474,
+          41.7406
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "奧體中心",
+          "Aotizhongxin",
+          "ao ti zhong xin"
+        ],
+        "line": "shenyang2",
+        "order": 21
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4505196,
+          41.7283072
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Yingpanjie (营盘街)",
+        "alternate_names": [
+          "营盘街",
+          "營盤街",
+          "Yingpanjie",
+          "ying pan jie"
+        ],
+        "line": "shenyang2",
+        "order": 22
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4558636,
+          41.7172416
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Shijidasha (世纪大厦)",
+        "alternate_names": [
+          "世纪大厦",
+          "世紀大廈",
+          "Shijidasha",
+          "shi ji da sha"
+        ],
+        "line": "shenyang2",
+        "order": 23
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4632145,
+          41.7051745
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Baitahelu (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahelu",
+          "bai ta he lu"
+        ],
+        "line": "shenyang2",
+        "order": 24
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4628268,
+          41.7059543
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Baitahelu (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahelu",
+          "bai ta he lu"
+        ],
+        "line": "shenyang2",
+        "order": 25
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607868,
+          41.7037089
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Baitahelu (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahelu",
+          "bai ta he lu"
+        ],
+        "line": "shenyang2",
+        "order": 26
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4600476,
+          41.706682
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Baitahelu (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahelu",
+          "bai ta he lu"
+        ],
+        "line": "shenyang2",
+        "order": 27
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4657448,
+          41.706982
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Baitahelu (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahelu",
+          "bai ta he lu"
+        ],
+        "line": "shenyang2",
+        "order": 28
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4755778,
+          41.7055283
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Quanyunlu (全运路)",
+        "alternate_names": [
+          "全运路",
+          "全運路",
+          "Quanyunlu",
+          "quan yun lu"
+        ],
+        "line": "shenyang2",
+        "order": 29
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1356414,
+          41.6655679
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Lida (李达)",
+        "alternate_names": [
+          "李达",
+          "李達",
+          "Lida",
+          "li da"
+        ],
+        "line": "shenyang3",
+        "order": 0
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1461793,
+          41.6794862
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Tiexiqichegongchang (铁西汽车工厂)",
+        "alternate_names": [
+          "铁西汽车工厂",
+          "鐵西汽車工廠",
+          "Tiexiqichegongchang",
+          "tie xi qi che gong chang"
+        ],
+        "line": "shenyang3",
+        "order": 1
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1663826,
+          41.6932044
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Mabei (马贝)",
+        "alternate_names": [
+          "马贝",
+          "馬貝",
+          "Mabei",
+          "ma bei"
+        ],
+        "line": "shenyang3",
+        "order": 2
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1846892,
+          41.6977959
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Zhongdedajie (中德大街)",
+        "alternate_names": [
+          "中德大街",
+          "Zhongdedajie",
+          "zhong de da jie"
+        ],
+        "line": "shenyang3",
+        "order": 3
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2126357,
+          41.709096
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Xiheyougu (细河悠谷)",
+        "alternate_names": [
+          "细河悠谷",
+          "細河悠谷",
+          "Xiheyougu",
+          "xi he you gu"
+        ],
+        "line": "shenyang3",
+        "order": 4
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2316032,
+          41.718312
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Zhaijia (翟家)",
+        "alternate_names": [
+          "翟家",
+          "Zhaijia",
+          "zhai jia"
+        ],
+        "line": "shenyang3",
+        "order": 5
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2567025,
+          41.7279202
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Gongyedaxue (工业大学)",
+        "alternate_names": [
+          "工业大学",
+          "工業大學",
+          "Gongyedaxue",
+          "gong ye da xue"
+        ],
+        "line": "shenyang3",
+        "order": 6
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2685465,
+          41.7361021
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Ningguan (宁官)",
+        "alternate_names": [
+          "宁官",
+          "寧官",
+          "Ningguan",
+          "ning guan"
+        ],
+        "line": "shenyang3",
+        "order": 7
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2776103,
+          41.7376994
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Yuliang (余良)",
+        "alternate_names": [
+          "余良",
+          "餘良",
+          "Yuliang",
+          "yu liang"
+        ],
+        "line": "shenyang3",
+        "order": 8
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.301195,
+          41.7440085
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Ganguan (甘官)",
+        "alternate_names": [
+          "甘官",
+          "Ganguan",
+          "gan guan"
+        ],
+        "line": "shenyang3",
+        "order": 9
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3174926,
+          41.7411716
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Qiandaohujie (千岛湖街)",
+        "alternate_names": [
+          "千岛湖街",
+          "千島湖街",
+          "Qiandaohujie",
+          "qian dao hu jie"
+        ],
+        "line": "shenyang3",
+        "order": 10
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.327504,
+          41.7462883
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Nanyanghujie (南阳湖街)",
+        "alternate_names": [
+          "南阳湖街",
+          "南陽湖街",
+          "Nanyanghujie",
+          "nan yang hu jie"
+        ],
+        "line": "shenyang3",
+        "order": 11
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang3",
+        "order": 12
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang3",
+        "order": 13
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang3",
+        "order": 14
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang3",
+        "order": 15
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3563185,
+          41.7557004
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Nanliguan (南李官)",
+        "alternate_names": [
+          "南李官",
+          "Nanliguan",
+          "nan li guan"
+        ],
+        "line": "shenyang3",
+        "order": 16
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4742329,
+          41.8803341
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Zhengxinlu (正新路)",
+        "alternate_names": [
+          "正新路",
+          "Zhengxinlu",
+          "zheng xin lu"
+        ],
+        "line": "shenyang4",
+        "order": 0
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4805522,
+          41.8686405
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Wenguanjie (文官街)",
+        "alternate_names": [
+          "文官街",
+          "Wenguanjie",
+          "wen guan jie"
+        ],
+        "line": "shenyang4",
+        "order": 1
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4851334,
+          41.8621027
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Wanghua (望花)",
+        "alternate_names": [
+          "望花",
+          "Wanghua",
+          "wang hua"
+        ],
+        "line": "shenyang4",
+        "order": 2
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4765449,
+          41.8458923
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Guanquanlu (观泉路)",
+        "alternate_names": [
+          "观泉路",
+          "觀泉路",
+          "Guanquanlu",
+          "guan quan lu"
+        ],
+        "line": "shenyang4",
+        "order": 3
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4718041,
+          41.8367434
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Beidaying (北大营)",
+        "alternate_names": [
+          "北大营",
+          "北大營",
+          "Beidaying",
+          "bei da ying"
+        ],
+        "line": "shenyang4",
+        "order": 4
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4684,
+          41.8267
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Hezuojie (合作街)",
+        "alternate_names": [
+          "合作街",
+          "Hezuojie",
+          "he zuo jie"
+        ],
+        "line": "shenyang4",
+        "order": 5
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4611343,
+          41.8197889
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Taochangjie (洮昌街)",
+        "alternate_names": [
+          "洮昌街",
+          "Taochangjie",
+          "tao chang jie"
+        ],
+        "line": "shenyang4",
+        "order": 6
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4509687,
+          41.8163577
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Shenyangdaxue (沈阳大学)",
+        "alternate_names": [
+          "沈阳大学",
+          "瀋陽大學",
+          "Shenyangdaxue",
+          "shen yang da xue"
+        ],
+        "line": "shenyang4",
+        "order": 7
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4311124,
+          41.8144633
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Shenyang North Railway Station (沈阳北站)",
+        "alternate_names": [
+          "沈阳北站",
+          "瀋陽北站",
+          "Shenyang North Railway Station",
+          "shen yang bei zhan"
+        ],
+        "line": "shenyang4",
+        "order": 8
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4142144,
+          41.808827
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Huangsilu (皇寺路)",
+        "alternate_names": [
+          "皇寺路",
+          "Huangsilu",
+          "huang si lu"
+        ],
+        "line": "shenyang4",
+        "order": 9
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4097754,
+          41.8015793
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Shifudalu (市府大路)",
+        "alternate_names": [
+          "市府大路",
+          "Shifudalu",
+          "shi fu da lu"
+        ],
+        "line": "shenyang4",
+        "order": 10
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3992,
+          41.7876
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Taiyuanjie (太原街)",
+        "alternate_names": [
+          "太原街",
+          "Taiyuanjie",
+          "tai yuan jie"
+        ],
+        "line": "shenyang4",
+        "order": 11
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3939745,
+          41.7808134
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Nanwumalu (南五马路)",
+        "alternate_names": [
+          "南五马路",
+          "南五馬路",
+          "Nanwumalu",
+          "nan wu ma lu"
+        ],
+        "line": "shenyang4",
+        "order": 12
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3856838,
+          41.7645684
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Shayang (砂阳)",
+        "alternate_names": [
+          "砂阳",
+          "砂陽",
+          "Shayang",
+          "sha yang"
+        ],
+        "line": "shenyang4",
+        "order": 13
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3929499,
+          41.7492077
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Nanjingqiao (南京桥)",
+        "alternate_names": [
+          "南京桥",
+          "南京橋",
+          "Nanjingqiao",
+          "nan jing qiao"
+        ],
+        "line": "shenyang4",
+        "order": 14
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3970778,
+          41.7388151
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Changbaidao (长白岛)",
+        "alternate_names": [
+          "长白岛",
+          "長白島",
+          "Changbaidao",
+          "chang bai dao"
+        ],
+        "line": "shenyang4",
+        "order": 15
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4032093,
+          41.7248316
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Changbainan (长白南)",
+        "alternate_names": [
+          "长白南",
+          "長白南",
+          "Changbainan",
+          "chang bai nan"
+        ],
+        "line": "shenyang4",
+        "order": 16
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3999397,
+          41.7079637
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Jincanglu (金仓路)",
+        "alternate_names": [
+          "金仓路",
+          "金倉路",
+          "Jincanglu",
+          "jin cang lu"
+        ],
+        "line": "shenyang4",
+        "order": 17
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3929204,
+          41.6957539
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Yunshanlu (云杉路)",
+        "alternate_names": [
+          "云杉路",
+          "雲杉路",
+          "Yunshanlu",
+          "yun shan lu"
+        ],
+        "line": "shenyang4",
+        "order": 18
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3967747,
+          41.6877584
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Hongchunlu (红椿路)",
+        "alternate_names": [
+          "红椿路",
+          "紅椿路",
+          "Hongchunlu",
+          "hong chun lu"
+        ],
+        "line": "shenyang4",
+        "order": 19
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4096225,
+          41.6791088
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Chengjianxueyuan (城建学院)",
+        "alternate_names": [
+          "城建学院",
+          "城建學院",
+          "Chengjianxueyuan",
+          "cheng jian xue yuan"
+        ],
+        "line": "shenyang4",
+        "order": 20
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4034029,
+          41.6658871
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Shenyangnanzhan (沈阳南站)",
+        "alternate_names": [
+          "沈阳南站",
+          "瀋陽南站",
+          "Shenyangnanzhan",
+          "shen yang nan zhan"
+        ],
+        "line": "shenyang4",
+        "order": 21
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4071879,
+          41.6529147
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Chuangxinlu (创新路)",
+        "alternate_names": [
+          "创新路",
+          "創新路",
+          "Chuangxinlu",
+          "chuang xin lu"
+        ],
+        "line": "shenyang4",
+        "order": 22
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3829894,
+          41.8402942
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Nujianggongyuan (怒江公园)",
+        "alternate_names": [
+          "怒江公园",
+          "怒江公園",
+          "Nujianggongyuan",
+          "nu jiang gong yuan"
+        ],
+        "line": "shenyang9",
+        "order": 0
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3846297,
+          41.828189
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Huaihejieshenyieryuan (淮河街沈医二院)",
+        "alternate_names": [
+          "淮河街沈医二院",
+          "淮河街沈醫二院",
+          "Huaihejieshenyieryuan",
+          "huai he jie shen yi er yuan"
+        ],
+        "line": "shenyang9",
+        "order": 1
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3806049,
+          41.8187388
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Huanggutunzhan (皇姑屯站)",
+        "alternate_names": [
+          "皇姑屯站",
+          "Huanggutunzhan",
+          "huang gu tun zhan"
+        ],
+        "line": "shenyang9",
+        "order": 2
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3777156,
+          41.8104963
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Zhongxingwenhuaguangchang (重型文化广场)",
+        "alternate_names": [
+          "重型文化广场",
+          "重型文化廣場",
+          "Zhongxingwenhuaguangchang",
+          "zhong xing wen hua guang chang"
+        ],
+        "line": "shenyang9",
+        "order": 3
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3730123,
+          41.8026917
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Beierlu (北二路)",
+        "alternate_names": [
+          "北二路",
+          "Beierlu",
+          "bei er lu"
+        ],
+        "line": "shenyang9",
+        "order": 4
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3646363,
+          41.7917107
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Tiexiguangchang (铁西广场)",
+        "alternate_names": [
+          "铁西广场",
+          "鐵西廣場",
+          "Tiexiguangchang",
+          "tie xi guang chang"
+        ],
+        "line": "shenyang9",
+        "order": 5
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3595876,
+          41.7848958
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Xinghuagongyuan (兴华公园)",
+        "alternate_names": [
+          "兴华公园",
+          "興華公園",
+          "Xinghuagongyuan",
+          "xing hua gong yuan"
+        ],
+        "line": "shenyang9",
+        "order": 6
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3560011,
+          41.7801481
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Shenliaolu (沈辽路)",
+        "alternate_names": [
+          "沈辽路",
+          "沈遼路",
+          "Shenliaolu",
+          "shen liao lu"
+        ],
+        "line": "shenyang9",
+        "order": 7
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3526928,
+          41.7698511
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Huaxiang (滑翔)",
+        "alternate_names": [
+          "滑翔",
+          "Huaxiang",
+          "hua xiang"
+        ],
+        "line": "shenyang9",
+        "order": 8
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3398322,
+          41.7587899
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Jilihujie (吉力湖街)",
+        "alternate_names": [
+          "吉力湖街",
+          "Jilihujie",
+          "ji li hu jie"
+        ],
+        "line": "shenyang9",
+        "order": 9
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang9",
+        "order": 10
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang9",
+        "order": 11
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang9",
+        "order": 12
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3406,
+          41.7496
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Datonghujie (大通湖街)",
+        "alternate_names": [
+          "大通湖街",
+          "Datonghujie",
+          "da tong hu jie"
+        ],
+        "line": "shenyang9",
+        "order": 13
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.354856,
+          41.7300351
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Caozhong (曹仲)",
+        "alternate_names": [
+          "曹仲",
+          "Caozhong",
+          "cao zhong"
+        ],
+        "line": "shenyang9",
+        "order": 14
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3622548,
+          41.7261112
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Hunhezhan (浑河站)",
+        "alternate_names": [
+          "浑河站",
+          "渾河站",
+          "Hunhezhan",
+          "hun he zhan"
+        ],
+        "line": "shenyang9",
+        "order": 15
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3925404,
+          41.7223712
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Shenglinanjie (胜利南街)",
+        "alternate_names": [
+          "胜利南街",
+          "勝利南街",
+          "Shenglinanjie",
+          "sheng li nan jie"
+        ],
+        "line": "shenyang9",
+        "order": 16
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4032093,
+          41.7248316
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Changbainan (长白南)",
+        "alternate_names": [
+          "长白南",
+          "長白南",
+          "Changbainan",
+          "chang bai nan"
+        ],
+        "line": "shenyang9",
+        "order": 17
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4152666,
+          41.7272725
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Yushutai (榆树台)",
+        "alternate_names": [
+          "榆树台",
+          "榆樹臺",
+          "Yushutai",
+          "yu shu tai"
+        ],
+        "line": "shenyang9",
+        "order": 18
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4236342,
+          41.7290982
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Jinyangdajie (金阳大街)",
+        "alternate_names": [
+          "金阳大街",
+          "金陽大街",
+          "Jinyangdajie",
+          "jin yang da jie"
+        ],
+        "line": "shenyang9",
+        "order": 19
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4351933,
+          41.7316959
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Caixiajie (彩霞街)",
+        "alternate_names": [
+          "彩霞街",
+          "Caixiajie",
+          "cai xia jie"
+        ],
+        "line": "shenyang9",
+        "order": 20
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4474,
+          41.7406
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "奧體中心",
+          "Aotizhongxin",
+          "ao ti zhong xin"
+        ],
+        "line": "shenyang9",
+        "order": 21
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.462011,
+          41.7412257
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Tianchengjie (天成街)",
+        "alternate_names": [
+          "天成街",
+          "Tianchengjie",
+          "tian cheng jie"
+        ],
+        "line": "shenyang9",
+        "order": 22
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4805672,
+          41.7391656
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Langrijie (朗日街)",
+        "alternate_names": [
+          "朗日街",
+          "Langrijie",
+          "lang ri jie"
+        ],
+        "line": "shenyang9",
+        "order": 23
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4957851,
+          41.7420885
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Changqingnanjie (长青南街)",
+        "alternate_names": [
+          "长青南街",
+          "長青南街",
+          "Changqingnanjie",
+          "chang qing nan jie"
+        ],
+        "line": "shenyang9",
+        "order": 24
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5100297,
+          41.7449571
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Jianzhudaxue (建筑大学)",
+        "alternate_names": [
+          "建筑大学",
+          "建築大學",
+          "Jianzhudaxue",
+          "jian zhu da xue"
+        ],
+        "line": "shenyang9",
+        "order": 25
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3419241,
+          41.8614794
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Dingxianghu (丁香湖)",
+        "alternate_names": [
+          "丁香湖",
+          "Dingxianghu",
+          "ding xiang hu"
+        ],
+        "line": "shenyang10",
+        "order": 0
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3500838,
+          41.8486929
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Yuanjiangjie (元江街)",
+        "alternate_names": [
+          "元江街",
+          "Yuanjiangjie",
+          "yuan jiang jie"
+        ],
+        "line": "shenyang10",
+        "order": 1
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3577648,
+          41.8333263
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Xianggongjie (向工街)",
+        "alternate_names": [
+          "向工街",
+          "Xianggongjie",
+          "xiang gong jie"
+        ],
+        "line": "shenyang10",
+        "order": 2
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3682791,
+          41.8272089
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Tawanjie (塔湾街)",
+        "alternate_names": [
+          "塔湾街",
+          "塔灣街",
+          "Tawanjie",
+          "ta wan jie"
+        ],
+        "line": "shenyang10",
+        "order": 3
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3846297,
+          41.828189
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Huaihejieshenyieryuan (淮河街沈医二院)",
+        "alternate_names": [
+          "淮河街沈医二院",
+          "淮河街沈醫二院",
+          "Huaihejieshenyieryuan",
+          "huai he jie shen yi er yuan"
+        ],
+        "line": "shenyang10",
+        "order": 4
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3949612,
+          41.8285057
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Bainiaogongyuan (百鸟公园)",
+        "alternate_names": [
+          "百鸟公园",
+          "百鳥公園",
+          "Bainiaogongyuan",
+          "bai niao gong yuan"
+        ],
+        "line": "shenyang10",
+        "order": 5
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4073852,
+          41.8291586
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Changjiangjie (长江街)",
+        "alternate_names": [
+          "长江街",
+          "長江街",
+          "Changjiangjie",
+          "chang jiang jie"
+        ],
+        "line": "shenyang10",
+        "order": 6
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4232,
+          41.8299
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Zhongyiyaodaxue (中医药大学)",
+        "alternate_names": [
+          "中医药大学",
+          "中醫藥大學",
+          "Zhongyiyaodaxue",
+          "zhong yi yao da xue"
+        ],
+        "line": "shenyang10",
+        "order": 7
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4383505,
+          41.8305974
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Lingdongjie (陵东街)",
+        "alternate_names": [
+          "陵东街",
+          "陵東街",
+          "Lingdongjie",
+          "ling dong jie"
+        ],
+        "line": "shenyang10",
+        "order": 8
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4493268,
+          41.8310672
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Beita (北塔)",
+        "alternate_names": [
+          "北塔",
+          "Beita",
+          "bei ta"
+        ],
+        "line": "shenyang10",
+        "order": 9
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4684,
+          41.8267
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Hezuojie (合作街)",
+        "alternate_names": [
+          "合作街",
+          "Hezuojie",
+          "he zuo jie"
+        ],
+        "line": "shenyang10",
+        "order": 10
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4757423,
+          41.8182394
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Dongbeidamalu (东北大马路)",
+        "alternate_names": [
+          "东北大马路",
+          "東北大馬路",
+          "Dongbeidamalu",
+          "dong bei da ma lu"
+        ],
+        "line": "shenyang10",
+        "order": 11
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4825,
+          41.8065
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Pangjiangjie (滂江街)",
+        "alternate_names": [
+          "滂江街",
+          "Pangjiangjie",
+          "pang jiang jie"
+        ],
+        "line": "shenyang10",
+        "order": 12
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4802009,
+          41.7969933
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Chang'anlu (长安路)",
+        "alternate_names": [
+          "长安路",
+          "長安路",
+          "Chang'anlu",
+          "chang an lu"
+        ],
+        "line": "shenyang10",
+        "order": 13
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4775871,
+          41.7881783
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Wanlian (万莲)",
+        "alternate_names": [
+          "万莲",
+          "萬蓮",
+          "Wanlian",
+          "wan lian"
+        ],
+        "line": "shenyang10",
+        "order": 14
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.472416,
+          41.7752804
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Quanyuan (泉园)",
+        "alternate_names": [
+          "泉园",
+          "泉園",
+          "Quanyuan",
+          "quan yuan"
+        ],
+        "line": "shenyang10",
+        "order": 15
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4819475,
+          41.7673576
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Jiangdongjie (江东街)",
+        "alternate_names": [
+          "江东街",
+          "江東街",
+          "Jiangdongjie",
+          "jiang dong jie"
+        ],
+        "line": "shenyang10",
+        "order": 16
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4903831,
+          41.7584042
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Changqingqiao (长青桥)",
+        "alternate_names": [
+          "长青桥",
+          "長青橋",
+          "Changqingqiao",
+          "chang qing qiao"
+        ],
+        "line": "shenyang10",
+        "order": 17
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4957851,
+          41.7420885
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Changqingnanjie (长青南街)",
+        "alternate_names": [
+          "长青南街",
+          "長青南街",
+          "Changqingnanjie",
+          "chang qing nan jie"
+        ],
+        "line": "shenyang10",
+        "order": 18
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4992901,
+          41.7312233
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Ligongdaxue (理工大学)",
+        "alternate_names": [
+          "理工大学",
+          "理工大學",
+          "Ligongdaxue",
+          "li gong da xue"
+        ],
+        "line": "shenyang10",
+        "order": 19
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5078728,
+          41.7180725
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Zhangshabu (张沙布)",
+        "alternate_names": [
+          "张沙布",
+          "張沙布",
+          "Zhangshabu",
+          "zhang sha bu"
+        ],
+        "line": "shenyang10",
+        "order": 20
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4534161,
+          41.7412934
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Xinglong Grand Outlet (兴隆大奥莱)",
+        "alternate_names": [
+          "兴隆大奥莱",
+          "興隆大奧萊",
+          "Xinglong Grand Outlet",
+          "xing long da ao lai"
+        ],
+        "line": "shenyangtram",
+        "order": 0
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4548309,
+          41.7353722
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Yifeng Plaza (亿丰广场)",
+        "alternate_names": [
+          "亿丰广场",
+          "億豐廣場",
+          "Yifeng Plaza",
+          "yi feng guang chang"
+        ],
+        "line": "shenyangtram",
+        "order": 2
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4562851,
+          41.7303696
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Yinka Road (银卡路)",
+        "alternate_names": [
+          "银卡路",
+          "銀卡路",
+          "Yinka Road",
+          "yin ka lu"
+        ],
+        "line": "shenyangtram",
+        "order": 3
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4563623,
+          41.7303811
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Yinka Road (银卡路)",
+        "alternate_names": [
+          "银卡路",
+          "銀卡路",
+          "Yinka Road",
+          "yin ka lu"
+        ],
+        "line": "shenyangtram",
+        "order": 4
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4591733,
+          41.7217449
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Huiquan Road (汇泉路)",
+        "alternate_names": [
+          "汇泉路",
+          "匯泉路",
+          "Huiquan Road",
+          "hui quan lu"
+        ],
+        "line": "shenyangtram",
+        "order": 5
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4588078,
+          41.7224322
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Huiquan Road (汇泉路)",
+        "alternate_names": [
+          "汇泉路",
+          "匯泉路",
+          "Huiquan Road",
+          "hui quan lu"
+        ],
+        "line": "shenyangtram",
+        "order": 6
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607392,
+          41.7192966
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Xinsong Robotics (新松机器人)",
+        "alternate_names": [
+          "新松机器人",
+          "新松機器人",
+          "Xinsong Robotics",
+          "xin song ji qi ren"
+        ],
+        "line": "shenyangtram",
+        "order": 7
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4632145,
+          41.7051745
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 8
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4628268,
+          41.7059543
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 9
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607868,
+          41.7037089
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 10
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4600476,
+          41.706682
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 11
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4657448,
+          41.706982
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 12
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4660354,
+          41.7015671
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Yuexing International City (月星国际城)",
+        "alternate_names": [
+          "月星国际城",
+          "月星國際城",
+          "Yuexing International City",
+          "yue xing guo ji cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 13
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.465302,
+          41.7022744
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Yuexing International City (月星国际城)",
+        "alternate_names": [
+          "月星国际城",
+          "月星國際城",
+          "Yuexing International City",
+          "yue xing guo ji cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 14
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4688261,
+          41.6984968
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Fire Department Headquarters (消防总队)",
+        "alternate_names": [
+          "消防总队",
+          "消防總隊",
+          "Fire Department Headquarters",
+          "xiao fang zong dui"
+        ],
+        "line": "shenyangtram",
+        "order": 15
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4680471,
+          41.6992448
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Fire Department Headquarters (消防总队)",
+        "alternate_names": [
+          "消防总队",
+          "消防總隊",
+          "Fire Department Headquarters",
+          "xiao fang zong dui"
+        ],
+        "line": "shenyangtram",
+        "order": 16
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4772611,
+          41.6881406
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "International Software Park (国际软件园)",
+        "alternate_names": [
+          "国际软件园",
+          "國際軟件園",
+          "International Software Park",
+          "guo ji ruan jian yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 17
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4766449,
+          41.6889104
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "International Software Park (国际软件园)",
+        "alternate_names": [
+          "国际软件园",
+          "國際軟件園",
+          "International Software Park",
+          "guo ji ruan jian yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 18
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4785272,
+          41.6851212
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Xinsong Smart Park (新松智慧园)",
+        "alternate_names": [
+          "新松智慧园",
+          "新松智慧園",
+          "Xinsong Smart Park",
+          "xin song zhi hui yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 19
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4787712,
+          41.6862757
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Xinsong Smart Park (新松智慧园)",
+        "alternate_names": [
+          "新松智慧园",
+          "新松智慧園",
+          "Xinsong Smart Park",
+          "xin song zhi hui yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 20
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4682555,
+          41.6815166
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Greentown National Games Village (绿城全运村)",
+        "alternate_names": [
+          "绿城全运村",
+          "綠城全運村",
+          "Greentown National Games Village",
+          "lü cheng quan yun cun"
+        ],
+        "line": "shenyangtram",
+        "order": 21
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4695267,
+          41.6816064
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Greentown National Games Village (绿城全运村)",
+        "alternate_names": [
+          "绿城全运村",
+          "綠城全運村",
+          "Greentown National Games Village",
+          "lü cheng quan yun cun"
+        ],
+        "line": "shenyangtram",
+        "order": 22
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4614121,
+          41.6815235
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Huamao Center (华茂中心)",
+        "alternate_names": [
+          "华茂中心",
+          "華茂中心",
+          "Huamao Center",
+          "hua mao zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 23
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4606552,
+          41.6823105
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Huamao Center (华茂中心)",
+        "alternate_names": [
+          "华茂中心",
+          "華茂中心",
+          "Huamao Center",
+          "hua mao zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 24
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4597528,
+          41.6815342
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Huamao Center (华茂中心)",
+        "alternate_names": [
+          "华茂中心",
+          "華茂中心",
+          "Huamao Center",
+          "hua mao zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 25
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4526662,
+          41.6815446
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Shenyang Innovation World (沈阳创新天地)",
+        "alternate_names": [
+          "沈阳创新天地",
+          "瀋陽創新天地",
+          "Shenyang Innovation World",
+          "shen yang chuang xin tian di"
+        ],
+        "line": "shenyangtram",
+        "order": 26
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4514986,
+          41.6815501
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Shenyang Innovation World (沈阳创新天地)",
+        "alternate_names": [
+          "沈阳创新天地",
+          "瀋陽創新天地",
+          "Shenyang Innovation World",
+          "shen yang chuang xin tian di"
+        ],
+        "line": "shenyangtram",
+        "order": 27
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4386553,
+          41.6815901
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Shangying Licheng (尚盈丽城)",
+        "alternate_names": [
+          "尚盈丽城",
+          "尚盈麗城",
+          "Shangying Licheng",
+          "shang ying li cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 28
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4400054,
+          41.6815926
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Shangying Licheng (尚盈丽城)",
+        "alternate_names": [
+          "尚盈丽城",
+          "尚盈麗城",
+          "Shangying Licheng",
+          "shang ying li cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 29
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4318443,
+          41.6816231
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Fucheng Mingdi (府城铭邸)",
+        "alternate_names": [
+          "府城铭邸",
+          "府城銘邸",
+          "Fucheng Mingdi",
+          "fu cheng ming di"
+        ],
+        "line": "shenyangtram",
+        "order": 30
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4330747,
+          41.6816307
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Fucheng Mingdi (府城铭邸)",
+        "alternate_names": [
+          "府城铭邸",
+          "府城銘邸",
+          "Fucheng Mingdi",
+          "fu cheng ming di"
+        ],
+        "line": "shenyangtram",
+        "order": 31
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4250313,
+          41.6816431
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "International School (国际学校)",
+        "alternate_names": [
+          "国际学校",
+          "國際學校",
+          "International School",
+          "guo ji xue xiao"
+        ],
+        "line": "shenyangtram",
+        "order": 32
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4237805,
+          41.6816887
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "International School (国际学校)",
+        "alternate_names": [
+          "国际学校",
+          "國際學校",
+          "International School",
+          "guo ji xue xiao"
+        ],
+        "line": "shenyangtram",
+        "order": 33
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4157645,
+          41.681382
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Guangming School (光明学校)",
+        "alternate_names": [
+          "光明学校",
+          "光明學校",
+          "Guangming School",
+          "guang ming xue xiao"
+        ],
+        "line": "shenyangtram",
+        "order": 34
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4168389,
+          41.6820607
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Guangming School (光明学校)",
+        "alternate_names": [
+          "光明学校",
+          "光明學校",
+          "Guangming School",
+          "guang ming xue xiao"
+        ],
+        "line": "shenyangtram",
+        "order": 35
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4153131,
+          41.6773331
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Heiniucaifu (黑牛财富)",
+        "alternate_names": [
+          "黑牛财富",
+          "黑牛財富",
+          "Heiniucaifu",
+          "hei niu cai fu"
+        ],
+        "line": "shenyangtram",
+        "order": 36
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4147801,
+          41.6722264
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Chengjianxueyuan (城建学院)",
+        "alternate_names": [
+          "城建学院",
+          "城建學院",
+          "School of Urban Construction",
+          "cheng jian xue yuan",
+          "Chengjianxueyuan"
+        ],
+        "line": "shenyangtram",
+        "order": 37
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4142433,
+          41.6681066
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Arts Center (艺术中心)",
+        "alternate_names": [
+          "艺术中心",
+          "藝術中心",
+          "Arts Center",
+          "yi shu zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 38
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4144079,
+          41.6689739
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Arts Center (艺术中心)",
+        "alternate_names": [
+          "艺术中心",
+          "藝術中心",
+          "Arts Center",
+          "yi shu zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 39
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4130002,
+          41.6568437
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Northeastern University (东北大学)",
+        "alternate_names": [
+          "东北大学",
+          "東北大學",
+          "Northeastern University",
+          "dong bei da xue"
+        ],
+        "line": "shenyangtram",
+        "order": 40
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4121445,
+          41.6562794
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Northeastern University (东北大学)",
+        "alternate_names": [
+          "东北大学",
+          "東北大學",
+          "Northeastern University",
+          "dong bei da xue"
+        ],
+        "line": "shenyangtram",
+        "order": 41
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4071879,
+          41.6529147
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Shangying Lijing (尚盈丽景)",
+        "alternate_names": [
+          "尚盈丽景",
+          "尚盈麗景",
+          "Shangying Lijing",
+          "shang ying li jing"
+        ],
+        "line": "shenyangtram",
+        "order": 42
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4071879,
+          41.6529147
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Shangying Lijing (尚盈丽景)",
+        "alternate_names": [
+          "尚盈丽景",
+          "尚盈麗景",
+          "Shangying Lijing",
+          "shang ying li jing"
+        ],
+        "line": "shenyangtram",
+        "order": 43
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3934716,
+          41.6571329
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Dianchegongsi (电车公司)",
+        "alternate_names": [
+          "电车公司",
+          "電車公司",
+          "Dianchegongsi",
+          "dian che gong si"
+        ],
+        "line": "shenyangtram",
+        "order": 44
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3948897,
+          41.656945
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Dianchegongsi (电车公司)",
+        "alternate_names": [
+          "电车公司",
+          "電車公司",
+          "Dianchegongsi",
+          "dian che gong si"
+        ],
+        "line": "shenyangtram",
+        "order": 45
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3796321,
+          41.6619515
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Convention and Exhibition East (会展东)",
+        "alternate_names": [
+          "会展东",
+          "會展東",
+          "Convention and Exhibition East",
+          "hui zhan dong"
+        ],
+        "line": "shenyangtram",
+        "order": 46
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3805924,
+          41.6615382
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Convention and Exhibition East (会展东)",
+        "alternate_names": [
+          "会展东",
+          "會展東",
+          "Convention and Exhibition East",
+          "hui zhan dong"
+        ],
+        "line": "shenyangtram",
+        "order": 47
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.369756,
+          41.6648699
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Convention and Exhibition Center (会展中心)",
+        "alternate_names": [
+          "会展中心",
+          "會展中心",
+          "Convention and Exhibition Center",
+          "hui zhan zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 48
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4326953,
+          41.6552118
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Neusoft Medical Park (东软医疗园)",
+        "alternate_names": [
+          "东软医疗园",
+          "東軟醫療園",
+          "Neusoft Medical Park",
+          "dong ruan yi liao yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 49
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.431643,
+          41.655267
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Neusoft Medical Park (东软医疗园)",
+        "alternate_names": [
+          "东软医疗园",
+          "東軟醫療園",
+          "Neusoft Medical Park",
+          "dong ruan yi liao yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 50
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4398807,
+          41.6549255
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Central Park (中央公园)",
+        "alternate_names": [
+          "中央公园",
+          "中央公園",
+          "Central Park",
+          "zhong yang gong yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 51
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4383416,
+          41.6550414
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Central Park (中央公园)",
+        "alternate_names": [
+          "中央公园",
+          "中央公園",
+          "Central Park",
+          "zhong yang gong yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 52
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4525615,
+          41.654445
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "University Science and Technology Park (大学科技城)",
+        "alternate_names": [
+          "大学科技城",
+          "大學科技城",
+          "University Science and Technology Park",
+          "da xue ke ji cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 53
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4512581,
+          41.6545643
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "University Science and Technology Park (大学科技城)",
+        "alternate_names": [
+          "大学科技城",
+          "大學科技城",
+          "University Science and Technology Park",
+          "da xue ke ji cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 54
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4604384,
+          41.6554301
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Jinlian Industrial Park (锦联产业园)",
+        "alternate_names": [
+          "锦联产业园",
+          "錦聯產業園",
+          "Jinlian Industrial Park",
+          "jin lian chan ye yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 55
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4596421,
+          41.654643
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Jinlian Industrial Park (锦联产业园)",
+        "alternate_names": [
+          "锦联产业园",
+          "錦聯產業園",
+          "Jinlian Industrial Park",
+          "jin lian chan ye yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 56
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4605783,
+          41.6643989
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Lumei College (鲁美学院)",
+        "alternate_names": [
+          "鲁美学院",
+          "魯美學院",
+          "Lumei College",
+          "lu mei xue yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 57
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4604894,
+          41.6635353
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Lumei College (鲁美学院)",
+        "alternate_names": [
+          "鲁美学院",
+          "魯美學院",
+          "Lumei College",
+          "lu mei xue yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 58
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4605886,
+          41.6725076
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Science Museum (科技馆)",
+        "alternate_names": [
+          "科技馆",
+          "科技館",
+          "Science Museum",
+          "ke ji guan"
+        ],
+        "line": "shenyangtram",
+        "order": 59
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4605788,
+          41.6714163
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Science Museum (科技馆)",
+        "alternate_names": [
+          "科技馆",
+          "科技館",
+          "Science Museum",
+          "ke ji guan"
+        ],
+        "line": "shenyangtram",
+        "order": 60
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.460659,
+          41.6766354
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Hehong Plaza (和鸿广场)",
+        "alternate_names": [
+          "和鸿广场",
+          "和鴻廣場",
+          "Hehong Plaza",
+          "he hong guang chang"
+        ],
+        "line": "shenyangtram",
+        "order": 61
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4605966,
+          41.6775374
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Hehong Plaza (和鸿广场)",
+        "alternate_names": [
+          "和鸿广场",
+          "和鴻廣場",
+          "Hehong Plaza",
+          "he hong guang chang"
+        ],
+        "line": "shenyangtram",
+        "order": 62
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4614121,
+          41.6815235
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Huamao Center (华茂中心)",
+        "alternate_names": [
+          "华茂中心",
+          "華茂中心",
+          "Huamao Center",
+          "hua mao zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 63
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4606552,
+          41.6823105
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Huamao Center (华茂中心)",
+        "alternate_names": [
+          "华茂中心",
+          "華茂中心",
+          "Huamao Center",
+          "hua mao zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 64
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4597528,
+          41.6815342
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Huamao Center (华茂中心)",
+        "alternate_names": [
+          "华茂中心",
+          "華茂中心",
+          "Huamao Center",
+          "hua mao zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 65
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607409,
+          41.692469
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Shouchuang Guanghe City (首创光和城)",
+        "alternate_names": [
+          "首创光和城",
+          "首創光和城",
+          "Shouchuang Guanghe City",
+          "shou chuang guang he cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 66
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607245,
+          41.6916144
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Shouchuang Guanghe City (首创光和城)",
+        "alternate_names": [
+          "首创光和城",
+          "首創光和城",
+          "Shouchuang Guanghe City",
+          "shou chuang guang he cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 67
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607759,
+          41.6978367
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Zhonghai Kangcheng (中海康城)",
+        "alternate_names": [
+          "中海康城",
+          "Zhonghai Kangcheng",
+          "zhong hai kang cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 68
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607661,
+          41.6970032
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Zhonghai Kangcheng (中海康城)",
+        "alternate_names": [
+          "中海康城",
+          "Zhonghai Kangcheng",
+          "zhong hai kang cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 69
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4632145,
+          41.7051745
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 70
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4628268,
+          41.7059543
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 71
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4607868,
+          41.7037089
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 72
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4600476,
+          41.706682
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 73
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4657448,
+          41.706982
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Baitahe Road (白塔河路)",
+        "alternate_names": [
+          "白塔河路",
+          "Baitahe Road",
+          "bai ta he lu"
+        ],
+        "line": "shenyangtram",
+        "order": 74
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4504249,
+          41.7420112
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Olympic Sports Center (奥体中心)",
+        "alternate_names": [
+          "奥体中心",
+          "奧體中心",
+          "Olympic Sports Center",
+          "ao ti zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 75
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4536054,
+          41.7429796
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Shenyang Customs (沈阳海关)",
+        "alternate_names": [
+          "沈阳海关",
+          "瀋陽海關",
+          "Shenyang Customs",
+          "shen yang hai guan"
+        ],
+        "line": "shenyangtram",
+        "order": 76
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4548432,
+          41.7430882
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Shenyang Customs (沈阳海关)",
+        "alternate_names": [
+          "沈阳海关",
+          "瀋陽海關",
+          "Shenyang Customs",
+          "shen yang hai guan"
+        ],
+        "line": "shenyangtram",
+        "order": 77
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4639579,
+          41.7430241
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Jinshui Huacheng (金水花城)",
+        "alternate_names": [
+          "金水花城",
+          "Jinshui Huacheng",
+          "jin shui hua cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 78
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4612479,
+          41.7430714
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Jinshui Huacheng (金水花城)",
+        "alternate_names": [
+          "金水花城",
+          "Jinshui Huacheng",
+          "jin shui hua cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 79
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4667318,
+          41.7364975
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Olympic Sports Center Swimming Pool (奥体游泳馆)",
+        "alternate_names": [
+          "奥体游泳馆",
+          "奧體游泳館",
+          "Olympic Sports Center Swimming Pool",
+          "ao ti you yong guan"
+        ],
+        "line": "shenyangtram",
+        "order": 80
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4664132,
+          41.7364961
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Olympic Sports Center Swimming Pool (奥体游泳馆)",
+        "alternate_names": [
+          "奥体游泳馆",
+          "奧體游泳館",
+          "Olympic Sports Center Swimming Pool",
+          "ao ti you yong guan"
+        ],
+        "line": "shenyangtram",
+        "order": 81
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4805672,
+          41.7391656
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Administrative Service Center (行政服务中心)",
+        "alternate_names": [
+          "行政服务中心",
+          "行政服務中心",
+          "Administrative Service Center",
+          "xing zheng fu wu zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 82
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4805672,
+          41.7391656
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Administrative Service Center (行政服务中心)",
+        "alternate_names": [
+          "行政服务中心",
+          "行政服務中心",
+          "Administrative Service Center",
+          "xing zheng fu wu zhong xin"
+        ],
+        "line": "shenyangtram",
+        "order": 83
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4805672,
+          41.7391656
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Hunnan Library (浑南图书馆)",
+        "alternate_names": [
+          "浑南图书馆",
+          "渾南圖書館",
+          "Hunnan Library",
+          "hun nan tu shu guan"
+        ],
+        "line": "shenyangtram",
+        "order": 84
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4805672,
+          41.7391656
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Hunnan Library (浑南图书馆)",
+        "alternate_names": [
+          "浑南图书馆",
+          "渾南圖書館",
+          "Hunnan Library",
+          "hun nan tu shu guan"
+        ],
+        "line": "shenyangtram",
+        "order": 85
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4888713,
+          41.740755
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Army General Hospital (陆军总院)",
+        "alternate_names": [
+          "陆军总院",
+          "陸軍總院",
+          "Army General Hospital",
+          "lu jun zong yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 86
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4901874,
+          41.7410542
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Army General Hospital (陆军总院)",
+        "alternate_names": [
+          "陆军总院",
+          "陸軍總院",
+          "Army General Hospital",
+          "lu jun zong yuan"
+        ],
+        "line": "shenyangtram",
+        "order": 87
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5012769,
+          41.7431216
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Wankexinlicheng (万科新里程)",
+        "alternate_names": [
+          "万科新里程",
+          "萬科新里程",
+          "Wankexinlicheng",
+          "wan ke xin li cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 88
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5024491,
+          41.7433977
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Wankexinlicheng (万科新里程)",
+        "alternate_names": [
+          "万科新里程",
+          "萬科新里程",
+          "Wankexinlicheng",
+          "wan ke xin li cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 89
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5064901,
+          41.7441052
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Jianzhudaxue (建筑大学)",
+        "alternate_names": [
+          "建筑大学",
+          "建築大學",
+          "University of Architecture",
+          "jian zhu da xue",
+          "Jianzhudaxue"
+        ],
+        "line": "shenyangtram",
+        "order": 90
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5076727,
+          41.7444109
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Jianzhudaxue (建筑大学)",
+        "alternate_names": [
+          "建筑大学",
+          "建築大學",
+          "University of Architecture",
+          "jian zhu da xue",
+          "Jianzhudaxue"
+        ],
+        "line": "shenyangtram",
+        "order": 91
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5100297,
+          41.7449571
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Jianzhudaxue (建筑大学)",
+        "alternate_names": [
+          "建筑大学",
+          "建築大學",
+          "University of Architecture",
+          "jian zhu da xue",
+          "Jianzhudaxue"
+        ],
+        "line": "shenyangtram",
+        "order": 92
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5187965,
+          41.7489976
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Jindibinhe International (金地滨河国际)",
+        "alternate_names": [
+          "金地滨河国际",
+          "金地濱河國際",
+          "Jindibinhe International",
+          "jin di bin he guo ji"
+        ],
+        "line": "shenyangtram",
+        "order": 93
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5196173,
+          41.7496934
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Jindibinhe International (金地滨河国际)",
+        "alternate_names": [
+          "金地滨河国际",
+          "金地濱河國際",
+          "Jindibinhe International",
+          "jin di bin he guo ji"
+        ],
+        "line": "shenyangtram",
+        "order": 94
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5243767,
+          41.7531478
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Comprehensive Bonded Zone (综合保税区)",
+        "alternate_names": [
+          "综合保税区",
+          "綜合保稅區",
+          "Comprehensive Bonded Zone",
+          "zong he bao shui qu"
+        ],
+        "line": "shenyangtram",
+        "order": 95
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5252734,
+          41.753876
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Comprehensive Bonded Zone (综合保税区)",
+        "alternate_names": [
+          "综合保税区",
+          "綜合保稅區",
+          "Comprehensive Bonded Zone",
+          "zong he bao shui qu"
+        ],
+        "line": "shenyangtram",
+        "order": 96
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5253176,
+          41.7539092
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Comprehensive Bonded Zone (综合保税区)",
+        "alternate_names": [
+          "综合保税区",
+          "綜合保稅區",
+          "Comprehensive Bonded Zone",
+          "zong he bao shui qu"
+        ],
+        "line": "shenyangtram",
+        "order": 97
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5375648,
+          41.7630314
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Wanke New City (万科新城)",
+        "alternate_names": [
+          "万科新城",
+          "萬科新城",
+          "Wanke New City",
+          "wan ke xin cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 98
+      },
+      "id": 260
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5388713,
+          41.7640798
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Wanke New City (万科新城)",
+        "alternate_names": [
+          "万科新城",
+          "萬科新城",
+          "Wanke New City",
+          "wan ke xin cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 99
+      },
+      "id": 261
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5593754,
+          41.7784179
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Wenxingangwan (温馨港湾)",
+        "alternate_names": [
+          "温馨港湾",
+          "溫馨港灣",
+          "Wenxingangwan",
+          "wen xin gang wan"
+        ],
+        "line": "shenyangtram",
+        "order": 100
+      },
+      "id": 262
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5602665,
+          41.7791123
+        ]
+      },
+      "properties": {
+        "id": 263,
+        "name": "Wenxingangwan (温馨港湾)",
+        "alternate_names": [
+          "温馨港湾",
+          "溫馨港灣",
+          "Wenxingangwan",
+          "wen xin gang wan"
+        ],
+        "line": "shenyangtram",
+        "order": 101
+      },
+      "id": 263
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5636301,
+          41.7813467
+        ]
+      },
+      "properties": {
+        "id": 264,
+        "name": "Jindiyijing (金地艺境)",
+        "alternate_names": [
+          "金地艺境",
+          "金地藝境",
+          "Jindiyijing",
+          "jin di yi jing"
+        ],
+        "line": "shenyangtram",
+        "order": 102
+      },
+      "id": 264
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5645537,
+          41.7820843
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "name": "Jindiyijing (金地艺境)",
+        "alternate_names": [
+          "金地艺境",
+          "金地藝境",
+          "Jindiyijing",
+          "jin di yi jing"
+        ],
+        "line": "shenyangtram",
+        "order": 103
+      },
+      "id": 265
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5825645,
+          41.7915455
+        ]
+      },
+      "properties": {
+        "id": 266,
+        "name": "Dongbeilengxiangang (东北冷鲜港)",
+        "alternate_names": [
+          "东北冷鲜港",
+          "東北冷鮮港",
+          "Dongbeilengxiangang",
+          "dong bei leng xian gang"
+        ],
+        "line": "shenyangtram",
+        "order": 104
+      },
+      "id": 266
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5836605,
+          41.7919933
+        ]
+      },
+      "properties": {
+        "id": 267,
+        "name": "Dongbeilengxiangang (东北冷鲜港)",
+        "alternate_names": [
+          "东北冷鲜港",
+          "東北冷鮮港",
+          "Dongbeilengxiangang",
+          "dong bei leng xian gang"
+        ],
+        "line": "shenyangtram",
+        "order": 105
+      },
+      "id": 267
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6092923,
+          41.7980828
+        ]
+      },
+      "properties": {
+        "id": 268,
+        "name": "Tianjie Wall Street (天洁华尔街)",
+        "alternate_names": [
+          "天洁华尔街",
+          "天潔華爾街",
+          "Tianjie Wall Street",
+          "tian jie hua er jie"
+        ],
+        "line": "shenyangtram",
+        "order": 106
+      },
+      "id": 268
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6107547,
+          41.7984745
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "name": "Tianjie Wall Street (天洁华尔街)",
+        "alternate_names": [
+          "天洁华尔街",
+          "天潔華爾街",
+          "Tianjie Wall Street",
+          "tian jie hua er jie"
+        ],
+        "line": "shenyangtram",
+        "order": 107
+      },
+      "id": 269
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6211248,
+          41.8006915
+        ]
+      },
+      "properties": {
+        "id": 270,
+        "name": "Wangjia Xincheng (汪家馨城)",
+        "alternate_names": [
+          "汪家馨城",
+          "Wangjia Xincheng",
+          "wang jia xin cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 108
+      },
+      "id": 270
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6224176,
+          41.8010335
+        ]
+      },
+      "properties": {
+        "id": 271,
+        "name": "Wangjia Xincheng (汪家馨城)",
+        "alternate_names": [
+          "汪家馨城",
+          "Wangjia Xincheng",
+          "wang jia xin cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 109
+      },
+      "id": 271
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6366048,
+          41.804073
+        ]
+      },
+      "properties": {
+        "id": 272,
+        "name": "Boguan (伯官)",
+        "alternate_names": [
+          "伯官",
+          "Boguan",
+          "bo guan"
+        ],
+        "line": "shenyangtram",
+        "order": 110
+      },
+      "id": 272
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.638144,
+          41.8044893
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "name": "Boguan (伯官)",
+        "alternate_names": [
+          "伯官",
+          "Boguan",
+          "bo guan"
+        ],
+        "line": "shenyangtram",
+        "order": 111
+      },
+      "id": 273
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6575609,
+          41.8086803
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "name": "Shangboguan (上伯官)",
+        "alternate_names": [
+          "上伯官",
+          "Shangboguan",
+          "shang bo guan"
+        ],
+        "line": "shenyangtram",
+        "order": 112
+      },
+      "id": 274
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6590848,
+          41.8090943
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "name": "Shangboguan (上伯官)",
+        "alternate_names": [
+          "上伯官",
+          "Shangboguan",
+          "shang bo guan"
+        ],
+        "line": "shenyangtram",
+        "order": 113
+      },
+      "id": 275
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6791964,
+          41.8134193
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "name": "Planning Exhibition Hall (规划馆)",
+        "alternate_names": [
+          "规划馆",
+          "規劃館",
+          "Planning Exhibition Hall",
+          "gui hua guan"
+        ],
+        "line": "shenyangtram",
+        "order": 114
+      },
+      "id": 276
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.679931,
+          41.8136463
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "name": "Planning Exhibition Hall (规划馆)",
+        "alternate_names": [
+          "规划馆",
+          "規劃館",
+          "Planning Exhibition Hall",
+          "gui hua guan"
+        ],
+        "line": "shenyangtram",
+        "order": 115
+      },
+      "id": 277
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6963396,
+          41.8177197
+        ]
+      },
+      "properties": {
+        "id": 278,
+        "name": "CICC Gongyuan Qicheng (中金公元启城)",
+        "alternate_names": [
+          "中金公元启城",
+          "中金公元啓城",
+          "CICC Gongyuan Qicheng",
+          "zhong jin gong yuan qi cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 116
+      },
+      "id": 278
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6952268,
+          41.8172381
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "name": "CICC Gongyuan Qicheng (中金公元启城)",
+        "alternate_names": [
+          "中金公元启城",
+          "中金公元啓城",
+          "CICC Gongyuan Qicheng",
+          "zhong jin gong yuan qi cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 117
+      },
+      "id": 279
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7079894,
+          41.8229461
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "name": "Huizhi City (汇置城)",
+        "alternate_names": [
+          "汇置城",
+          "匯置城",
+          "Huizhi City",
+          "hui zhi cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 118
+      },
+      "id": 280
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7084412,
+          41.8232345
+        ]
+      },
+      "properties": {
+        "id": 281,
+        "name": "Huizhi City (汇置城)",
+        "alternate_names": [
+          "汇置城",
+          "匯置城",
+          "Huizhi City",
+          "hui zhi cheng"
+        ],
+        "line": "shenyangtram",
+        "order": 119
+      },
+      "id": 281
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7220622,
+          41.8299631
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "name": "Lishizhai (李石寨)",
+        "alternate_names": [
+          "李石寨",
+          "Lishizhai",
+          "li shi zhai"
+        ],
+        "line": "shenyangtram",
+        "order": 120
+      },
+      "id": 282
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7220455,
+          41.8300235
+        ]
+      },
+      "properties": {
+        "id": 283,
+        "name": "Lishizhai (李石寨)",
+        "alternate_names": [
+          "李石寨",
+          "Lishizhai",
+          "li shi zhai"
+        ],
+        "line": "shenyangtram",
+        "order": 121
+      },
+      "id": 283
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.454,
+          41.717
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "name": "Shijidasha (世纪大厦)",
+        "alternate_names": [
+          "世纪大厦",
+          "Shijidasha",
+          "shi ji da sha"
+        ],
+        "line": "shenyangtram",
+        "order": 1
+      },
+      "id": 284
+    }
+  ]
+}

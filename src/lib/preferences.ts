@@ -16,6 +16,28 @@ export type CityViewMode =
   | 'cover'
   | 'list'
 
+export type HomeActiveTab =
+  | 'cities'
+  | 'achievements'
+  | 'updateLog'
+  | 'credits'
+  | 'testimonials'
+  | 'press'
+  | 'settings'
+  | 'account'
+  | 'globalStats'
+  | 'privacy'
+  | 'support'
+
+export type HomeScrollPositions = Partial<Record<HomeActiveTab, number>>
+
+export type MapView = {
+  zoom: number
+  center: [number, number]
+}
+
+export type MapViewByCity = Record<string, MapView>
+
 export type UiPreferences = {
   collapsedSections?: CollapsedSections
   language?: string
@@ -24,6 +46,10 @@ export type UiPreferences = {
   cityViewMode?: CityViewMode
   cityViewSatellite?: boolean
   continentNavOpen?: boolean
+  homeActiveTab?: HomeActiveTab
+  homeScrollPositions?: HomeScrollPositions
+  mapViewByCity?: MapViewByCity
+  speedrunByCity?: Record<string, boolean>
 }
 
 export function normalizeCollapsedSections(
@@ -87,6 +113,69 @@ export function normalizeContinentNavOpen(value: unknown): boolean | undefined {
   return typeof value === 'boolean' ? value : undefined
 }
 
+export function normalizeHomeActiveTab(value: unknown): HomeActiveTab | undefined {
+  const allowed: HomeActiveTab[] = [
+    'cities',
+    'achievements',
+    'updateLog',
+    'credits',
+    'testimonials',
+    'press',
+    'settings',
+    'account',
+    'globalStats',
+    'privacy',
+    'support',
+  ]
+  return allowed.includes(value as HomeActiveTab) ? (value as HomeActiveTab) : undefined
+}
+
+export function normalizeHomeScrollPositions(
+  value: unknown,
+): HomeScrollPositions | undefined {
+  if (!isRecord(value)) return undefined
+  const entries = Object.entries(value).reduce<HomeScrollPositions>((acc, [key, raw]) => {
+    const tab = normalizeHomeActiveTab(key)
+    if (!tab) return acc
+    const num = typeof raw === 'number' && Number.isFinite(raw) ? raw : undefined
+    if (typeof num === 'number') {
+      acc[tab] = num
+    }
+    return acc
+  }, {})
+  return Object.keys(entries).length > 0 ? entries : undefined
+}
+
+export function normalizeMapView(value: unknown): MapView | undefined {
+  if (!isRecord(value)) return undefined
+  const zoom =
+    typeof value.zoom === 'number' && Number.isFinite(value.zoom) ? value.zoom : undefined
+  const centerVal = value.center
+  if (
+    Array.isArray(centerVal) &&
+    centerVal.length === 2 &&
+    centerVal.every((n) => typeof n === 'number' && Number.isFinite(n))
+  ) {
+    const center: [number, number] = [centerVal[0] as number, centerVal[1] as number]
+    if (zoom !== undefined) {
+      return { zoom, center }
+    }
+  }
+  return undefined
+}
+
+export function normalizeMapViewByCity(value: unknown): MapViewByCity | undefined {
+  if (!isRecord(value)) return undefined
+  const entries = Object.entries(value).reduce<MapViewByCity>((acc, [key, raw]) => {
+    const mv = normalizeMapView(raw)
+    if (mv) {
+      acc[key] = mv
+    }
+    return acc
+  }, {})
+  return Object.keys(entries).length > 0 ? entries : undefined
+}
+
 export function normalizeUiPreferences(value: unknown): UiPreferences {
   if (!isRecord(value)) {
     return {}
@@ -101,6 +190,15 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
   const cityViewMode = normalizeCityViewMode(value.cityViewMode)
   const cityViewSatellite = normalizeCityViewSatellite(value.cityViewSatellite)
   const continentNavOpen = normalizeContinentNavOpen(value.continentNavOpen)
+  const homeActiveTab = normalizeHomeActiveTab(value.homeActiveTab)
+  const homeScrollPositions = normalizeHomeScrollPositions(value.homeScrollPositions)
+  const mapViewByCity = normalizeMapViewByCity(value.mapViewByCity)
+  const speedrunByCity = isRecord(value.speedrunByCity)
+    ? Object.entries(value.speedrunByCity).reduce<Record<string, boolean>>((acc, [k, v]) => {
+        if (typeof v === 'boolean') acc[k] = v
+        return acc
+      }, {})
+    : undefined
 
   return {
     ...(collapsedSections ? { collapsedSections } : {}),
@@ -110,6 +208,32 @@ export function normalizeUiPreferences(value: unknown): UiPreferences {
     ...(cityViewMode ? { cityViewMode } : {}),
     ...(cityViewSatellite !== undefined ? { cityViewSatellite } : {}),
     ...(continentNavOpen !== undefined ? { continentNavOpen } : {}),
+    ...(homeActiveTab ? { homeActiveTab } : {}),
+    ...(homeScrollPositions ? { homeScrollPositions } : {}),
+    ...(mapViewByCity ? { mapViewByCity } : {}),
+    ...(speedrunByCity ? { speedrunByCity } : {}),
+  }
+}
+
+export function mergeHomeScrollPositions(
+  current: HomeScrollPositions | undefined,
+  updates: HomeScrollPositions | undefined,
+): HomeScrollPositions | undefined {
+  if (!updates) return current
+  return {
+    ...(current ?? {}),
+    ...updates,
+  }
+}
+
+export function mergeMapViewByCity(
+  current: MapViewByCity | undefined,
+  updates: MapViewByCity | undefined,
+): MapViewByCity | undefined {
+  if (!updates) return current
+  return {
+    ...(current ?? {}),
+    ...updates,
   }
 }
 

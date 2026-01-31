@@ -1,0 +1,42 @@
+{
+  "guiyang1": {
+    "name": "Line 1",
+    "color": "#259B24",
+    "backgroundColor": "#259B24",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "guiyang1.png"
+  },
+  "guiyang2": {
+    "name": "Line 2",
+    "color": "#005BAC",
+    "backgroundColor": "#005BAC",
+    "textColor": "#000000",
+    "order": 1,
+    "icon": "guiyang2.png"
+  },
+  "guiyang3": {
+    "name": "Line 3",
+    "color": "#EE2737",
+    "backgroundColor": "#EE2737",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "guiyang3.png"
+  },
+  "guiyangs1": {
+    "name": "Line S1",
+    "color": "#982484",
+    "backgroundColor": "#982484",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "guiyangs1.png"
+  },
+  "guiyangt2": {
+    "name": "Line T2",
+    "color": "#D2D2D2",
+    "backgroundColor": "#D2D2D2",
+    "textColor": "#000000",
+    "order": 4,
+    "icon": "guiyangt2.png"
+  }
+}

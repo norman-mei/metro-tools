@@ -694,9 +694,18 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
   )
 }
 
-const CITY_NAME_LOOKUP = new Map(
-  cities.map((city) => [city.link.replace(/^\//, ''), city.name]),
-)
+const CITY_NAME_LOOKUP = new Map<string, string>()
+cities.forEach((city) => {
+  const full = city.link.replace(/^\//, '')
+  CITY_NAME_LOOKUP.set(full, city.name)
+  const lastSegment = full.split('/').pop()
+  if (lastSegment) {
+    // also index by slug (e.g., "lr", "ny") so reset dialogs show full names
+    if (!CITY_NAME_LOOKUP.has(lastSegment)) {
+      CITY_NAME_LOOKUP.set(lastSegment, city.name)
+    }
+  }
+})
 
 const getCityName = (slug: string) => {
   if (CITY_NAME_LOOKUP.has(slug)) {
