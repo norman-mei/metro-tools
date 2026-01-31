@@ -40,6 +40,7 @@ yarn-error.log*
 next-env.d.ts
 
 public/stats/*
+public/city-data/*
 
 # database artifacts
 prisma/*.db
