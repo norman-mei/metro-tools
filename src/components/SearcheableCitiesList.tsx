@@ -354,6 +354,7 @@ const COUNTRY_LABEL_OVERRIDES: Record<string, string> = {
   'south-korea': 'South Korea',
   'north-korea': 'North Korea',
   'new-zealand': 'New Zealand',
+  'secret-fun': 'Secret & Fun',
 }
 
 const formatCountryLabel = (slug: string | null) => {
@@ -658,7 +659,17 @@ const SearcheableCitiesList = ({
         slug: 'speedrunner-3',
         cityName: 'Global',
         title: 'Speedrunner III',
-        description: 'Complete a city (~1000 stations) in under 75 minutes with Speedrun Mode.',
+        description: 'Complete a city (≤1000 stations) in under 75 minutes with Speedrun Mode.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_001,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'speedrunner-4',
+        cityName: 'Global',
+        title: 'Speedrunner IV',
+        description: 'Complete a city (1000+ stations) in under 90 minutes with Speedrun Mode.',
         continent: 'Global',
         country: 'global',
         order: 10_001,
@@ -787,7 +798,7 @@ const SearcheableCitiesList = ({
       {
         slug: 'streak-7',
         cityName: 'Global',
-        title: 'Streak Saver (7)',
+        title: 'Streak Saver I',
         description: 'Maintain a 7-day play streak.',
         continent: 'Global',
         country: 'global',
@@ -797,7 +808,7 @@ const SearcheableCitiesList = ({
       {
         slug: 'streak-30',
         cityName: 'Global',
-        title: 'Streak Saver (30)',
+        title: 'Streak Saver II',
         description: 'Maintain a 30-day play streak.',
         continent: 'Global',
         country: 'global',
@@ -807,11 +818,21 @@ const SearcheableCitiesList = ({
       {
         slug: 'streak-90',
         cityName: 'Global',
-        title: 'Streak Saver (90)',
+        title: 'Streak Saver III',
         description: 'Maintain a 90-day play streak.',
         continent: 'Global',
         country: 'global',
         order: 10_032,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'streak-180',
+        cityName: 'Global',
+        title: 'Streak Saver IV',
+        description: 'Maintain a 180-day play streak.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_033,
         iconSrc: '/favicon.ico',
       },
       {
@@ -822,6 +843,186 @@ const SearcheableCitiesList = ({
         continent: 'Global',
         country: 'global',
         order: 10_040,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'station-collector',
+        cityName: 'Global',
+        title: 'Station Collector',
+        description: 'Find 1,000 stations across all cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_041,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'line-finisher',
+        cityName: 'Global',
+        title: 'Line Finisher',
+        description: 'Complete 5 different lines.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_042,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'big-city-tamer',
+        cityName: 'Global',
+        title: 'Big City Tamer',
+        description: 'Complete a city with 1,500+ stations.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_043,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'all-rounder',
+        cityName: 'Global',
+        title: 'All Rounder',
+        description: 'Complete cities on 3 different continents.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_044,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'globe-trotter',
+        cityName: 'Global',
+        title: 'Globe Trotter',
+        description: 'Complete cities on 6 different continents.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_045,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'marathoner',
+        cityName: 'Global',
+        title: 'Marathoner',
+        description: 'Find 10,000 stations across all cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_046,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'consistent-runner',
+        cityName: 'Global',
+        title: 'Consistent Runner',
+        description: 'Finish a speedrun without leaving the tab.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_047,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'typo-free',
+        cityName: 'Global',
+        title: 'Typo Free',
+        description: 'Complete a city without using backspace or delete.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_048,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'perfect-start',
+        cityName: 'Global',
+        title: 'Perfect Start',
+        description: 'Make 25 correct guesses in a row to start a city.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_049,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'never-repeat',
+        cityName: 'Global',
+        title: 'Never Repeat',
+        description: 'Complete a city without guessing an already-found station.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_050,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'weekend-warrior',
+        cityName: 'Global',
+        title: 'Weekend Warrior',
+        description: 'Play on 8 consecutive weekends.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_051,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'monthly-commuter',
+        cityName: 'Global',
+        title: 'Monthly Commuter',
+        description: 'Play in 3 different months.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_052,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'favorites-first',
+        cityName: 'Global',
+        title: 'Favorites First',
+        description: 'Complete 5 favorited cities.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_053,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'underdog',
+        cityName: 'Global',
+        title: 'Underdog',
+        description: 'Complete a city with fewer than 20 stations.',
+        continent: 'Global',
+        country: 'global',
+        order: 10_054,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'golden-ratio',
+        cityName: 'Global',
+        title: 'Golden Ratio',
+        description: '???',
+        continent: 'Global',
+        country: 'secret-fun',
+        order: 10_101,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'the-commuter',
+        cityName: 'Global',
+        title: 'The Commuter',
+        description: '???',
+        continent: 'Global',
+        country: 'secret-fun',
+        order: 10_102,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'the-archivist',
+        cityName: 'Global',
+        title: 'The Archivist',
+        description: '???',
+        continent: 'Global',
+        country: 'secret-fun',
+        order: 10_103,
+        iconSrc: '/favicon.ico',
+      },
+      {
+        slug: 'the-cartographer',
+        cityName: 'Global',
+        title: 'The Cartographer',
+        description: '???',
+        continent: 'Global',
+        country: 'secret-fun',
+        order: 10_104,
         iconSrc: '/favicon.ico',
       },
     ],
@@ -1895,6 +2096,21 @@ const SearcheableCitiesList = ({
     [ensureSectionExpanded, focusCountryOnMap],
   )
 
+  const awardGlobalAchievement = useCallback((slug: string) => {
+    if (typeof window === 'undefined') return
+    try {
+      const raw = window.localStorage.getItem('mm-achievements-earned')
+      const parsed = raw ? JSON.parse(raw) : []
+      const entries = Array.isArray(parsed) ? parsed.filter((id) => typeof id === 'string') : []
+      const set = new Set(entries)
+      if (set.has(slug)) return
+      set.add(slug)
+      window.localStorage.setItem('mm-achievements-earned', JSON.stringify(Array.from(set)))
+    } catch {
+      // ignore storage errors
+    }
+  }, [])
+
   const toggleContinentCollapse = (continent: string) => {
     setCollapsedContinents((prev) => ({
       ...prev,
@@ -1911,6 +2127,22 @@ const SearcheableCitiesList = ({
     setStatsSlug(slug)
     setStatsPath(cityPath)
     setStatsOpen(true)
+
+    if (typeof window !== 'undefined') {
+      try {
+        const raw = window.localStorage.getItem('mm-stats-opened')
+        const parsed = raw ? JSON.parse(raw) : []
+        const entries = Array.isArray(parsed) ? parsed.filter((id) => typeof id === 'string') : []
+        const set = new Set(entries)
+        set.add(slug)
+        window.localStorage.setItem('mm-stats-opened', JSON.stringify(Array.from(set)))
+        if (set.size >= 10) {
+          awardGlobalAchievement('the-archivist')
+        }
+      } catch {
+        // ignore
+      }
+    }
   }
   const getStatusClass = (percent: number) =>
     percent >= 1
@@ -2998,10 +3230,22 @@ const Achievements = ({
                   contentClassName="mt-4"
                 >
                   {group.continent === 'Global' ? (
-                    <div className="space-y-4">
-                      {group.countries.flatMap((country) =>
-                        country.entries.map((meta) => renderAchievementCard(meta)),
-                      )}
+                    <div className="space-y-8">
+                      {group.countries.map((country) => {
+                        const label = formatCountryLabel(country.country)
+                        return (
+                          <div key={country.country} className="space-y-4">
+                            {group.countries.length > 1 && (
+                              <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
+                                {label}
+                              </div>
+                            )}
+                            <div className="space-y-4">
+                              {country.entries.map((meta) => renderAchievementCard(meta))}
+                            </div>
+                          </div>
+                        )
+                      })}
                     </div>
                   ) : (
                     <div className="space-y-8">

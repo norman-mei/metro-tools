@@ -24,6 +24,7 @@ const Input = ({
   autoFocus = true,
   disabled = false,
   onGuessResult,
+  onInputEdit,
 }: {
   fuse: Fuse<DataFeature>
   found: number[]
@@ -39,6 +40,7 @@ const Input = ({
   autoFocus?: boolean
   disabled?: boolean
   onGuessResult?: (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => void
+  onInputEdit?: (action: 'backspace' | 'delete') => void
 }) => {
   const { t } = useTranslation()
   const normalizeString = useNormalizeString()
@@ -128,6 +130,10 @@ const Input = ({
     (e) => {
       if (disabled) {
         return
+      }
+
+      if ((e.key === 'Backspace' || e.key === 'Delete') && search.length > 0) {
+        onInputEdit?.(e.key === 'Backspace' ? 'backspace' : 'delete')
       }
 
       if (e.key === 'ArrowUp') {
@@ -340,6 +346,7 @@ const Input = ({
       pushEvent,
       stripOptionalPrefixes,
       pushHistory,
+      onInputEdit,
     ],
   )
 

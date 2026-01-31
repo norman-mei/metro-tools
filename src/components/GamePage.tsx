@@ -88,6 +88,9 @@ type AchievementToastState = {
 const achievementToastStorageKey = (slug: string) => `achievement-toast-hidden-${slug}`
 const kofiWidgetStorageKey = (slug: string) => `kofi-widget-hidden-${slug}`
 const speedrunStartStorageKey = (city: string) => `${city}-speedrun-start`
+const FAVORITES_STORAGE_PREFIX = 'favorites-v1'
+const getFavoritesStorageKey = (userId?: string | null) =>
+  `${FAVORITES_STORAGE_PREFIX}-${userId || 'anon'}`
 
 const deriveCityDisplayName = (title?: string, fallback?: string) => {
   if (!title) {
@@ -745,22 +748,33 @@ export default function GamePage({
   const earnedAchievementsRef = useRef<Set<string>>(new Set())
   const lineMasterEarnedRef = useRef<Set<string>>(new Set())
   const lastPlayDateRef = useRef<string | null>(null)
+  const achievementsHydratedRef = useRef(false)
+  const perfectStartEligibleRef = useRef(true)
+  const perfectStartCountRef = useRef(0)
+  const perfectStartInitializedRef = useRef(false)
+  const neverRepeatRef = useRef(true)
+  const typoFreeRef = useRef(true)
+  const speedrunIntegrityRef = useRef(true)
+  const recentCorrectTimesRef = useRef<number[]>([])
+  const lineMasterSyncRef = useRef(false)
 
   // Hydrate globally earned achievements so one-offs (e.g., comeback-kid) never re-award across cities
   useEffect(() => {
     if (typeof window === 'undefined') return
     try {
       const raw = window.localStorage.getItem('mm-achievements-earned')
-      if (!raw) return
-      const parsed = JSON.parse(raw)
-      if (Array.isArray(parsed)) {
-        earnedAchievementsRef.current = new Set(
-          parsed.filter((slug): slug is string => typeof slug === 'string'),
-        )
+      if (raw) {
+        const parsed = JSON.parse(raw)
+        if (Array.isArray(parsed)) {
+          earnedAchievementsRef.current = new Set(
+            parsed.filter((slug): slug is string => typeof slug === 'string'),
+          )
+        }
       }
     } catch {
       // ignore malformed storage
     }
+    achievementsHydratedRef.current = true
   }, [])
 
   const normalizeString = useNormalizeString()
@@ -1681,6 +1695,12 @@ export default function GamePage({
       setHoveredId(null)
       setActiveFoundId(null)
       setMistakes(0)
+      perfectStartEligibleRef.current = true
+      perfectStartCountRef.current = 0
+      neverRepeatRef.current = true
+      typoFreeRef.current = true
+      speedrunIntegrityRef.current = true
+      recentCorrectTimesRef.current = []
       speedrunStartRef.current = null
       speedrunFinishedRef.current = false
       if (speedrunTimerRef.current) {
@@ -1853,8 +1873,9 @@ export default function GamePage({
   const handleToggleMapNames = useCallback(() => {
     handleProtectedAction(() => {
       setShowMapNames((prev) => !prev)
+      registerMapNamesToggle()
     }, 'mapNames')
-  }, [handleProtectedAction])
+  }, [handleProtectedAction, registerMapNamesToggle])
 
   const handleSolutionsClose = useCallback(() => {
     setSolutionsPromptOpen(false)
@@ -2020,6 +2041,31 @@ export default function GamePage({
     }
   }, [speedrunMode])
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const handleBlur = () => {
+      if (speedrunStartRef.current !== null && !speedrunFinishedRef.current) {
+        speedrunIntegrityRef.current = false
+      }
+    }
+    const handleVisibility = () => {
+      if (
+        document.visibilityState === 'hidden' &&
+        speedrunStartRef.current !== null &&
+        !speedrunFinishedRef.current
+      ) {
+        speedrunIntegrityRef.current = false
+      }
+    }
+    window.addEventListener('blur', handleBlur)
+    document.addEventListener('visibilitychange', handleVisibility)
+    return () => {
+      window.removeEventListener('blur', handleBlur)
+      document.removeEventListener('visibilitychange', handleVisibility)
+    }
+  }, [])
+
+
   const metadataTitle = useMemo(
     () => extractMetadataTitle(METADATA?.title),
     [METADATA?.title],
@@ -2076,6 +2122,65 @@ export default function GamePage({
     [CITY_NAME, cityDisplayName, settings.achievementToastsEnabled],
   )
 
+  const recordLineMaster = useCallback(
+    (key: string) => {
+      if (typeof window === 'undefined') return
+      try {
+        const raw = window.localStorage.getItem('mm-line-master-keys')
+        const parsed = raw ? JSON.parse(raw) : []
+        const entries = Array.isArray(parsed) ? parsed.filter((id) => typeof id === 'string') : []
+        const set = new Set(entries)
+        const initialSize = set.size
+        set.add(key)
+        if (set.size !== initialSize) {
+          window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(set)))
+        }
+        if (set.size >= 5) {
+          awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
+        }
+      } catch {
+        // ignore storage errors
+      }
+    },
+    [awardAchievement],
+  )
+
+  const registerMapNamesToggle = useCallback(() => {
+    if (typeof window === 'undefined') return
+    try {
+      const raw = window.localStorage.getItem('mm-map-names-toggles')
+      const current = Number(raw)
+      const next = Number.isFinite(current) ? current + 1 : 1
+      window.localStorage.setItem('mm-map-names-toggles', String(next))
+      if (next >= 20) {
+        awardAchievement('the-cartographer', 'The Cartographer', '???')
+      }
+    } catch {
+      // ignore
+    }
+  }, [awardAchievement])
+
+  useEffect(() => {
+    if (!achievementsHydratedRef.current || lineMasterSyncRef.current) return
+    if (typeof window === 'undefined') return
+    lineMasterSyncRef.current = true
+    try {
+      const raw = window.localStorage.getItem('mm-line-master-keys')
+      const parsed = raw ? JSON.parse(raw) : []
+      const stored = Array.isArray(parsed) ? parsed.filter((id) => typeof id === 'string') : []
+      const earnedLineMasters = Array.from(earnedAchievementsRef.current).filter((slug) =>
+        slug.includes('-line-master-'),
+      )
+      const merged = new Set([...stored, ...earnedLineMasters])
+      window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(merged)))
+      if (merged.size >= 5) {
+        awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
+      }
+    } catch {
+      // ignore
+    }
+  }, [awardAchievement])
+
   useEffect(() => {
     Object.entries(foundStationsPerLine).forEach(([line, count]) => {
       const total = stationsPerLine[line]
@@ -2090,8 +2195,17 @@ export default function GamePage({
         'Line Master',
         `Completed every station on ${lineLabel} in ${cityDisplayName}.`,
       )
+      recordLineMaster(key)
     })
-  }, [CITY_NAME, LINES, awardAchievement, cityDisplayName, foundStationsPerLine, stationsPerLine])
+  }, [
+    CITY_NAME,
+    LINES,
+    awardAchievement,
+    cityDisplayName,
+    foundStationsPerLine,
+    stationsPerLine,
+    recordLineMaster,
+  ])
 
   const registerPlayDay = useCallback(() => {
     if (typeof window === 'undefined') return
@@ -2138,23 +2252,69 @@ export default function GamePage({
     else if (totalDays >= 1)
       awardAchievement('daily-normal', 'Daily Grinder', 'Played on 1 day.')
 
-    if (streak >= 90)
-      awardAchievement('streak-90', 'Streak Saver (90)', 'Maintained a 90-day streak.')
+    if (streak >= 180)
+      awardAchievement('streak-180', 'Streak Saver IV', 'Maintained a 180-day streak.')
+    else if (streak >= 90)
+      awardAchievement('streak-90', 'Streak Saver III', 'Maintained a 90-day streak.')
     else if (streak >= 30)
-      awardAchievement('streak-30', 'Streak Saver (30)', 'Maintained a 30-day streak.')
+      awardAchievement('streak-30', 'Streak Saver II', 'Maintained a 30-day streak.')
     else if (streak >= 7)
-      awardAchievement('streak-7', 'Streak Saver (7)', 'Maintained a 7-day streak.')
+      awardAchievement('streak-7', 'Streak Saver I', 'Maintained a 7-day streak.')
+
+    const monthKey = today.toISOString().slice(0, 7)
+    try {
+      const rawMonths = window.localStorage.getItem('mm-play-months')
+      const parsedMonths = rawMonths ? JSON.parse(rawMonths) : []
+      const entries = Array.isArray(parsedMonths)
+        ? parsedMonths.filter((value) => typeof value === 'string')
+        : []
+      const monthSet = new Set(entries)
+      monthSet.add(monthKey)
+      window.localStorage.setItem('mm-play-months', JSON.stringify(Array.from(monthSet)))
+      if (monthSet.size >= 3) {
+        awardAchievement('monthly-commuter', 'Monthly Commuter', 'Play in 3 different months.')
+      }
+    } catch {
+      // ignore
+    }
+
+    const dayOfWeek = today.getDay()
+    const isWeekend = dayOfWeek === 0 || dayOfWeek === 6
+    if (isWeekend) {
+      const weekStart = new Date(today)
+      const offset = (dayOfWeek + 6) % 7
+      weekStart.setDate(weekStart.getDate() - offset)
+      weekStart.setHours(0, 0, 0, 0)
+      const weekKey = weekStart.toISOString().slice(0, 10)
+      const lastWeekendKey = window.localStorage.getItem('mm-weekend-last')
+      let weekendStreak = Number(window.localStorage.getItem('mm-weekend-streak') || '0')
+      if (lastWeekendKey !== weekKey) {
+        const prevWeek = new Date(weekStart)
+        prevWeek.setDate(prevWeek.getDate() - 7)
+        const prevKey = prevWeek.toISOString().slice(0, 10)
+        weekendStreak = lastWeekendKey === prevKey ? weekendStreak + 1 : 1
+        window.localStorage.setItem('mm-weekend-last', weekKey)
+        window.localStorage.setItem('mm-weekend-streak', String(weekendStreak))
+      }
+      if (weekendStreak >= 8) {
+        awardAchievement('weekend-warrior', 'Weekend Warrior', 'Play on 8 consecutive weekends.')
+      }
+    }
   }, [awardAchievement])
 
   const handleGuessResult = useCallback(
     (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => {
       if (result.type === 'wrong') {
         setMistakes((m) => m + 1)
+        if (perfectStartEligibleRef.current) {
+          perfectStartEligibleRef.current = false
+        }
       }
       if (result.type === 'correct') {
         if (speedrunMode && speedrunStartRef.current === null) {
           speedrunStartRef.current = performance.now()
           speedrunFinishedRef.current = false
+          speedrunIntegrityRef.current = true
           setSpeedrunElapsedMs(0)
           if (typeof window !== 'undefined') {
             try {
@@ -2168,13 +2328,50 @@ export default function GamePage({
           }
         }
         registerPlayDay()
+        if (perfectStartEligibleRef.current) {
+          perfectStartCountRef.current += 1
+          if (perfectStartCountRef.current >= 25) {
+            awardAchievement(
+              'perfect-start',
+              'Perfect Start',
+              'Make 25 correct guesses in a row to start a city.',
+            )
+            perfectStartEligibleRef.current = false
+          }
+        }
+        if (result.addedIds && result.addedIds.length > 0) {
+          const now = Date.now()
+          const uniqueKeys = new Set<string>()
+          result.addedIds.forEach((id) => {
+            const feature = idMap.get(id)
+            if (feature) {
+              uniqueKeys.add(getStationKey(feature))
+            }
+          })
+          if (uniqueKeys.size > 0) {
+            const updated = recentCorrectTimesRef.current.filter((ts) => now - ts <= 7 * 60 * 1000)
+            uniqueKeys.forEach(() => updated.push(now))
+            recentCorrectTimesRef.current = updated
+            if (recentCorrectTimesRef.current.length >= 7) {
+              awardAchievement('the-commuter', 'The Commuter', '???')
+            }
+          }
+        }
       }
       if (result.type === 'already') {
+        neverRepeatRef.current = false
+        if (perfectStartEligibleRef.current) {
+          perfectStartEligibleRef.current = false
+        }
         registerPlayDay()
       }
     },
-    [CITY_NAME, registerPlayDay, speedrunMode],
+    [CITY_NAME, awardAchievement, idMap, registerPlayDay, speedrunMode],
   )
+
+  const handleInputEdit = useCallback(() => {
+    typoFreeRef.current = false
+  }, [])
 
   const foundStationKeys = useMemo(() => {
     const keys = new Set<string>()
@@ -2186,16 +2383,60 @@ export default function GamePage({
     return keys
   }, [found, idMap])
 
+  useEffect(() => {
+    if (perfectStartInitializedRef.current) return
+    if (foundStationKeys.size > 0) {
+      perfectStartEligibleRef.current = false
+    }
+    perfectStartInitializedRef.current = true
+  }, [foundStationKeys.size])
+
   const foundProportion =
     totalUniqueStations === 0
       ? 0
       : foundStationKeys.size / totalUniqueStations
 
   useEffect(() => {
+    if (typeof window === 'undefined') return
+    const cityKey = `mm-city-unique-stations-${CITY_NAME}`
+    const prevRaw = window.localStorage.getItem(cityKey)
+    const prev = Number(prevRaw)
+    const previousCount = Number.isFinite(prev) && prev >= 0 ? prev : 0
+    const currentCount = foundStationKeys.size
+    if (currentCount === previousCount) {
+      return
+    }
+    const globalRaw = window.localStorage.getItem('mm-global-unique-stations')
+    const globalPrev = Number(globalRaw)
+    const globalCount = Number.isFinite(globalPrev) && globalPrev >= 0 ? globalPrev : 0
+    const nextGlobal = Math.max(0, globalCount + (currentCount - previousCount))
+    try {
+      window.localStorage.setItem(cityKey, String(currentCount))
+      window.localStorage.setItem('mm-global-unique-stations', String(nextGlobal))
+    } catch {
+      // ignore
+    }
+    if (nextGlobal >= 1000) {
+      awardAchievement('station-collector', 'Station Collector', 'Find 1,000 stations across all cities.')
+    }
+    if (nextGlobal >= 10000) {
+      awardAchievement('marathoner', 'Marathoner', 'Find 10,000 stations across all cities.')
+    }
+  }, [CITY_NAME, awardAchievement, foundStationKeys.size])
+
+  useEffect(() => {
     if (foundProportion < 0.5) {
       comebackArmedRef.current = true
     }
   }, [foundProportion])
+
+  useEffect(() => {
+    if (totalUniqueStations === 0) return
+    const ratio = foundStationKeys.size / totalUniqueStations
+    if (Math.abs(ratio - 0.618) <= 0.003) {
+      awardAchievement('golden-ratio', 'Golden Ratio', '???')
+    }
+  }, [awardAchievement, foundStationKeys.size, totalUniqueStations])
 
   const completionProgressRef = useRef(foundProportion)
 
@@ -2217,6 +2458,18 @@ export default function GamePage({
         awardAchievement('comeback-kid', 'Comeback Kid', 'Came back from under 50% to complete the city.')
         comebackTriggeredRef.current = true
       }
+      if (typoFreeRef.current) {
+        awardAchievement('typo-free', 'Typo Free', 'Complete a city without using backspace or delete.')
+      }
+      if (neverRepeatRef.current) {
+        awardAchievement('never-repeat', 'Never Repeat', 'Complete a city without guessing an already-found station.')
+      }
+      if (totalUniqueStations >= 1500) {
+        awardAchievement('big-city-tamer', 'Big City Tamer', 'Complete a city with 1,500+ stations.')
+      }
+      if (totalUniqueStations > 0 && totalUniqueStations < 20) {
+        awardAchievement('underdog', 'Underdog', 'Complete a city with fewer than 20 stations.')
+      }
 
       if (speedrunMode && speedrunAvailable && speedrunStartRef.current !== null && !speedrunFinishedRef.current) {
         const elapsedMs = performance.now() - speedrunStartRef.current
@@ -2233,7 +2486,16 @@ export default function GamePage({
         } else if (totalUniqueStations >= 150 && totalUniqueStations <= 500 && elapsedMs <= 30 * 60 * 1000) {
           awardAchievement('speedrunner-2', 'Speedrunner II', 'Complete a city (150-500 stations) in under 30 minutes with Speedrun Mode.')
         } else if (totalUniqueStations > 500 && totalUniqueStations <= 1000 && elapsedMs <= 75 * 60 * 1000) {
-          awardAchievement('speedrunner-3', 'Speedrunner III', 'Complete a city (~1000 stations) in under 75 minutes with Speedrun Mode.')
+          awardAchievement('speedrunner-3', 'Speedrunner III', 'Complete a city (≤1000 stations) in under 75 minutes with Speedrun Mode.')
+        } else if (totalUniqueStations > 1000 && elapsedMs <= 90 * 60 * 1000) {
+          awardAchievement('speedrunner-4', 'Speedrunner IV', 'Complete a city (1000+ stations) in under 90 minutes with Speedrun Mode.')
+        }
+        if (speedrunIntegrityRef.current) {
+          awardAchievement(
+            'consistent-runner',
+            'Consistent Runner',
+            'Finish a speedrun without leaving the tab.',
+          )
         }
 
         const prevBestRaw =
@@ -2271,10 +2533,17 @@ export default function GamePage({
         window.localStorage.setItem('mm-completions', JSON.stringify(completions))
 
         const uniqueCities = new Set(completions.map((c) => c.city))
+        const uniqueContinents = new Set(completions.map((c) => c.continent))
         const completedToday = completions.filter((c) => c.date === today)
         const hasOtherContinent = completedToday.some((c) => c.city !== CITY_NAME && c.continent !== continent)
         if (hasOtherContinent) {
           awardAchievement('twin-city', 'Twin City', 'Completed two cities from different continents on the same day.')
+        }
+        if (uniqueContinents.size >= 6) {
+          awardAchievement('globe-trotter', 'Globe Trotter', 'Complete cities on 6 different continents.')
+        }
+        if (uniqueContinents.size >= 3) {
+          awardAchievement('all-rounder', 'All Rounder', 'Complete cities on 3 different continents.')
         }
         if (uniqueCities.size >= 50) {
           awardAchievement('explorer-50', 'Ultimate Explorer', 'Completed 50 different cities.')
@@ -2284,6 +2553,33 @@ export default function GamePage({
           awardAchievement('explorer-10', 'Explorer', 'Completed 10 different cities.')
         } else if (uniqueCities.size >= 3) {
           awardAchievement('explorer-3', 'Rookie Explorer', 'Completed 3 different cities.')
+        }
+
+        const favoritesKey = getFavoritesStorageKey(user?.id)
+        try {
+          const rawFavorites = window.localStorage.getItem(favoritesKey)
+          const parsedFavorites = rawFavorites ? JSON.parse(rawFavorites) : []
+          const favorites = Array.isArray(parsedFavorites)
+            ? parsedFavorites.filter((slug) => typeof slug === 'string')
+            : []
+          if (favorites.includes(CITY_NAME)) {
+            const rawCompleted = window.localStorage.getItem('mm-favorites-completed')
+            const parsedCompleted = rawCompleted ? JSON.parse(rawCompleted) : []
+            const completed = Array.isArray(parsedCompleted)
+              ? parsedCompleted.filter((slug) => typeof slug === 'string')
+              : []
+            const completedSet = new Set(completed)
+            completedSet.add(CITY_NAME)
+            window.localStorage.setItem(
+              'mm-favorites-completed',
+              JSON.stringify(Array.from(completedSet)),
+            )
+            if (completedSet.size >= 5) {
+              awardAchievement('favorites-first', 'Favorites First', 'Complete 5 favorited cities.')
+            }
+          }
+        } catch {
+          // ignore
         }
       }
 
@@ -3250,6 +3546,7 @@ export default function GamePage({
                 autoFocus={!solutionsPromptOpen}
                 disabled={solutionsPromptOpen}
                 onGuessResult={handleGuessResult}
+                onInputEdit={handleInputEdit}
               />
               {speedrunMode && (
                 <div className="flex items-center gap-2 rounded-full bg-amber-500/90 px-3 py-2 text-xs font-semibold text-white shadow-lg ring-1 ring-white/30 backdrop-blur dark:bg-amber-400/90 dark:text-zinc-950">
