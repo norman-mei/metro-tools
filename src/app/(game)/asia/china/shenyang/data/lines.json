@@ -47,12 +47,28 @@
     "order": 6,
     "icon": "shenyang10.png"
   },
-  "shenyangtram": {
-    "name": "Modern Tram",
-    "color": "#BBBBBB",
-    "backgroundColor": "#BBBBBB",
+  "shenyangtram1": {
+    "name": "Tram Line 1",
+    "color": "#a2a9b1",
+    "backgroundColor": "#a2a9b1",
     "textColor": "#000000",
     "order": 7,
-    "icon": "shenyangtram.png"
+    "icon": "shenyangtram1.png"
+  },
+  "shenyangtram3": {
+    "name": "Tram Line 3",
+    "color": "#a2a9b1",
+    "backgroundColor": "#a2a9b1",
+    "textColor": "#000000",
+    "order": 8,
+    "icon": "shenyangtram3.png"
+  },
+  "shenyangtram5": {
+    "name": "Tram Line 5",
+    "color": "#a2a9b1",
+    "backgroundColor": "#a2a9b1",
+    "textColor": "#000000",
+    "order": 9,
+    "icon": "shenyangtram5.png"
   }
 }
