@@ -1,0 +1,58 @@
+{
+  "shenyang1": {
+    "name": "Line 1",
+    "color": "#E5001C",
+    "backgroundColor": "#E5001C",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "shenyang1.png"
+  },
+  "shenyang2": {
+    "name": "Line 2",
+    "color": "#F08439",
+    "backgroundColor": "#F08439",
+    "textColor": "#000000",
+    "order": 2,
+    "icon": "shenyang2.png"
+  },
+  "shenyang3": {
+    "name": "Line 3",
+    "color": "#FF007F",
+    "backgroundColor": "#FF007F",
+    "textColor": "#ffffff",
+    "order": 3,
+    "icon": "shenyang3.png"
+  },
+  "shenyang4": {
+    "name": "Line 4",
+    "color": "#4B0082",
+    "backgroundColor": "#4B0082",
+    "textColor": "#ffffff",
+    "order": 4,
+    "icon": "shenyang4.png"
+  },
+  "shenyang9": {
+    "name": "Line 9",
+    "color": "#0095D2",
+    "backgroundColor": "#0095D2",
+    "textColor": "#ffffff",
+    "order": 5,
+    "icon": "shenyang9.png"
+  },
+  "shenyang10": {
+    "name": "Line 10",
+    "color": "#8CBB48",
+    "backgroundColor": "#8CBB48",
+    "textColor": "#000000",
+    "order": 6,
+    "icon": "shenyang10.png"
+  },
+  "shenyangtram": {
+    "name": "Modern Tram",
+    "color": "#BBBBBB",
+    "backgroundColor": "#BBBBBB",
+    "textColor": "#000000",
+    "order": 7,
+    "icon": "shenyangtram.png"
+  }
+}

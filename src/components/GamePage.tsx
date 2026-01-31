@@ -746,6 +746,23 @@ export default function GamePage({
   const lineMasterEarnedRef = useRef<Set<string>>(new Set())
   const lastPlayDateRef = useRef<string | null>(null)
 
+  // Hydrate globally earned achievements so one-offs (e.g., comeback-kid) never re-award across cities
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      const raw = window.localStorage.getItem('mm-achievements-earned')
+      if (!raw) return
+      const parsed = JSON.parse(raw)
+      if (Array.isArray(parsed)) {
+        earnedAchievementsRef.current = new Set(
+          parsed.filter((slug): slug is string => typeof slug === 'string'),
+        )
+      }
+    } catch {
+      // ignore malformed storage
+    }
+  }, [])
+
   const normalizeString = useNormalizeString()
   const { featureCollection, clusterGroups, clusterMembersById } = useMemo(() => {
     const featuresWithAlternates = fc.features.map((feature) => {
