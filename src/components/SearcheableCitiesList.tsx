@@ -2001,7 +2001,9 @@ const SearcheableCitiesList = ({
         </div>
 
         {activeTab === 'cities' && (
-           <div className="flex flex-col gap-2 transition-all lg:flex-row lg:items-center lg:justify-between">
+           <>
+             <div className="h-px w-full bg-zinc-200/80 dark:bg-zinc-800/80" />
+             <div className="flex flex-col gap-2 transition-all lg:flex-row lg:items-center lg:justify-between">
             <div className="relative w-full">
               <input
                 value={search}
@@ -2087,6 +2089,7 @@ const SearcheableCitiesList = ({
               )}
             </div>
           </div>
+           </>
         )}
         </div>
 

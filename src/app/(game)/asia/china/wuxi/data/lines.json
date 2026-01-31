@@ -1,0 +1,42 @@
+{
+  "wuxi1": {
+    "name": "Line 1",
+    "color": "#ee3e41",
+    "icon": "wuxi1.png",
+    "order": 1,
+    "backgroundColor": "#ee3e41",
+    "textColor": "#ffffff"
+  },
+  "wuxi2": {
+    "name": "Line 2",
+    "color": "#05aa44",
+    "icon": "wuxi2.png",
+    "order": 2,
+    "backgroundColor": "#05aa44",
+    "textColor": "#ffffff"
+  },
+  "wuxi3": {
+    "name": "Line 3",
+    "color": "#00bfff",
+    "icon": "wuxi3.png",
+    "order": 3,
+    "backgroundColor": "#00bfff",
+    "textColor": "#ffffff"
+  },
+  "wuxi4": {
+    "name": "Line 4",
+    "color": "#800080",
+    "icon": "wuxi4.png",
+    "order": 4,
+    "backgroundColor": "#800080",
+    "textColor": "#ffffff"
+  },
+  "wuxis1": {
+    "name": "Line S1",
+    "color": "#ee3e41",
+    "icon": "wuxis1.png",
+    "order": 5,
+    "backgroundColor": "#ee3e41",
+    "textColor": "#ffffff"
+  }
+}

@@ -32,7 +32,7 @@ export default function Home() {
     <>
       <BackToTopButton />
       <Container className="mt-9 bg-white dark:bg-black">
-        <div className="max-w-2xl">
+        <div className="w-full max-w-4xl lg:max-w-5xl">
           <div className="flex items-center gap-4">
             <AvatarContainer className="h-24 w-24">
               <Avatar large className="h-24 w-24" />

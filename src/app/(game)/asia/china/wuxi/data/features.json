@@ -1,0 +1,2227 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3103351,
+          31.6775031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 1,
+        "name": "Yanqiao (堰桥)",
+        "alternate_names": [
+          "Yanqiao",
+          "堰桥",
+          "堰橋",
+          "yan qiao"
+        ],
+        "line": "wuxi1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3102816,
+          31.6641663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xibei Canal (锡北运河)",
+        "alternate_names": [
+          "Xibei Canal",
+          "锡北运河",
+          "錫北運河",
+          "xi bei yun he"
+        ],
+        "line": "wuxi1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2990637,
+          31.647712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 3,
+        "name": "Xizhang (西漳)",
+        "alternate_names": [
+          "Xizhang",
+          "西漳",
+          "xi zhang"
+        ],
+        "line": "wuxi1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2997713,
+          31.6397057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 4,
+        "name": "Tianyi (天一)",
+        "alternate_names": [
+          "Tianyi",
+          "天一",
+          "tian yi"
+        ],
+        "line": "wuxi1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.29999557333456,
+          31.62751499635218
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 5,
+        "name": "Liutan (刘潭)",
+        "alternate_names": [
+          "Liutan",
+          "刘潭",
+          "劉潭",
+          "liu tan"
+        ],
+        "line": "wuxi1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3003278,
+          31.6120098
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 6,
+        "name": "Zhuangqian (庄前)",
+        "alternate_names": [
+          "Zhuangqian",
+          "庄前",
+          "莊前",
+          "zhuang qian"
+        ],
+        "line": "wuxi1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2991161,
+          31.6034424
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 7,
+        "name": "Minfeng (民丰)",
+        "alternate_names": [
+          "Minfeng",
+          "民丰",
+          "民豐",
+          "min feng"
+        ],
+        "line": "wuxi1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.30170124446724,
+          31.591054454801448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 8,
+        "name": "Wuxi Railway Station (无锡火车站)",
+        "alternate_names": [
+          "Wuxi Railway Station",
+          "无锡火车站",
+          "無錫火車站",
+          "wu xi huo che zhan"
+        ],
+        "line": "wuxi1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2949212,
+          31.5839931
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 9,
+        "name": "Shenglimen (胜利门)",
+        "alternate_names": [
+          "Shenglimen",
+          "胜利门",
+          "勝利門",
+          "sheng li men"
+        ],
+        "line": "wuxi1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2950518757533,
+          31.577630276459697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 10,
+        "name": "Sanyang Plaza (三阳广场)",
+        "alternate_names": [
+          "Sanyang Plaza",
+          "三阳广场",
+          "三陽廣場",
+          "san yang guang chang"
+        ],
+        "line": "wuxi1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3019707,
+          31.5688247
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 11,
+        "name": "Nanchan Temple (南禅寺)",
+        "alternate_names": [
+          "Nanchan Temple",
+          "南禅寺",
+          "南禪寺",
+          "nan chan si"
+        ],
+        "line": "wuxi1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3005102,
+          31.5639123
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 12,
+        "name": "Tanduqiao (谈渡桥)",
+        "alternate_names": [
+          "Tanduqiao",
+          "谈渡桥",
+          "談渡橋",
+          "tan du qiao"
+        ],
+        "line": "wuxi1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3005813,
+          31.5567931
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 13,
+        "name": "Taihu Square (太湖广场)",
+        "alternate_names": [
+          "Taihu Square",
+          "太湖广场",
+          "太湖廣場",
+          "tai hu guang chang"
+        ],
+        "line": "wuxi1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3068067,
+          31.551031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 14,
+        "name": "Qingmingqiao (清名桥)",
+        "alternate_names": [
+          "Qingmingqiao",
+          "清名桥",
+          "清名橋",
+          "qing ming qiao"
+        ],
+        "line": "wuxi1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3144785,
+          31.5437261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 15,
+        "name": "People's Hospital (人民医院)",
+        "alternate_names": [
+          "People's Hospital",
+          "人民医院",
+          "人民醫院",
+          "ren min yi yuan"
+        ],
+        "line": "wuxi1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3236714,
+          31.5353265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 16,
+        "name": "Huaqingdaqiao (华清大桥)",
+        "alternate_names": [
+          "Huaqingdaqiao",
+          "华清大桥",
+          "華清大橋",
+          "hua qing da qiao"
+        ],
+        "line": "wuxi1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3195707,
+          31.5228611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 17,
+        "name": "Yangming (扬名)",
+        "alternate_names": [
+          "Yangming",
+          "扬名",
+          "揚名",
+          "yang ming"
+        ],
+        "line": "wuxi1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3194781,
+          31.5117222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 18,
+        "name": "Nanhujiayuan (南湖家园)",
+        "alternate_names": [
+          "Nanhujiayuan",
+          "南湖家园",
+          "南湖家園",
+          "nan hu jia yuan"
+        ],
+        "line": "wuxi1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3212243,
+          31.5024916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 19,
+        "name": "Tangtieqiao (塘铁桥)",
+        "alternate_names": [
+          "Tangtieqiao",
+          "塘铁桥",
+          "塘鐵橋",
+          "tang tie qiao"
+        ],
+        "line": "wuxi1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3152594,
+          31.4951924
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 20,
+        "name": "Jinkui Park (金匮公园)",
+        "alternate_names": [
+          "Jinkui Park",
+          "金匮公园",
+          "金匱公園",
+          "jin kui gong yuan"
+        ],
+        "line": "wuxi1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.30217267970586,
+          31.493437980530086
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 21,
+        "name": "Civic Center (市民中心)",
+        "alternate_names": [
+          "Civic Center",
+          "市民中心",
+          "shi min zhong xin"
+        ],
+        "line": "wuxi1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2864484,
+          31.4918586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 22,
+        "name": "Cultural Palace (文化宫)",
+        "alternate_names": [
+          "Cultural Palace",
+          "文化宫",
+          "文化宮",
+          "wen hua gong"
+        ],
+        "line": "wuxi1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2740727,
+          31.4856764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 23,
+        "name": "Jiangnan University (江南大学)",
+        "alternate_names": [
+          "Jiangnan University",
+          "江南大学",
+          "江南大學",
+          "jiang nan da xue"
+        ],
+        "line": "wuxi1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2725019,
+          31.4748761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 24,
+        "name": "Changguangxi (长广溪)",
+        "alternate_names": [
+          "Changguangxi",
+          "长广溪",
+          "長廣溪",
+          "chang guang xi"
+        ],
+        "line": "wuxi1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2747101,
+          31.4627943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 25,
+        "name": "Xuelang (雪浪)",
+        "alternate_names": [
+          "Xuelang",
+          "雪浪",
+          "xue lang"
+        ],
+        "line": "wuxi1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2700572,
+          31.4496931
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 26,
+        "name": "Gedaiqiao (葛埭桥)",
+        "alternate_names": [
+          "Gedaiqiao",
+          "葛埭桥",
+          "葛埭橋",
+          "ge dai qiao"
+        ],
+        "line": "wuxi1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2671,
+          31.4387
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Nanfangquan (南方泉)",
+        "alternate_names": [
+          "Nanfangquan",
+          "南方泉",
+          "nan fang quan"
+        ],
+        "line": "wuxi1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2147395,
+          31.5528921
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 28,
+        "name": "Meiyuan Kaiyuan Temple (梅园开原寺)",
+        "alternate_names": [
+          "Meiyuan Kaiyuan Temple",
+          "梅园开原寺",
+          "梅園開原寺",
+          "mei yuan kai yuan si"
+        ],
+        "line": "wuxi2",
+        "order": 0
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2320247,
+          31.5585936
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 29,
+        "name": "Rongxiang (荣巷)",
+        "alternate_names": [
+          "Rongxiang",
+          "荣巷",
+          "榮巷",
+          "rong xiang"
+        ],
+        "line": "wuxi2",
+        "order": 1
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2452336,
+          31.5611522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 30,
+        "name": "Xiaotaoyuan (小桃源)",
+        "alternate_names": [
+          "Xiaotaoyuan",
+          "小桃源",
+          "xiao tao yuan"
+        ],
+        "line": "wuxi2",
+        "order": 2
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.25813493313686,
+          31.564277790259055
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 31,
+        "name": "Heliekou (河埒口)",
+        "alternate_names": [
+          "Heliekou",
+          "河埒口",
+          "Helikou",
+          "he lie kou"
+        ],
+        "line": "wuxi2",
+        "order": 3
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.271183,
+          31.5667758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 32,
+        "name": "Dawangji (大王基)",
+        "alternate_names": [
+          "Dawangji",
+          "大王基",
+          "da wang ji"
+        ],
+        "line": "wuxi2",
+        "order": 4
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2816537,
+          31.5691817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 33,
+        "name": "Liangxidaqiao (梁溪大桥)",
+        "alternate_names": [
+          "Liangxidaqiao",
+          "梁溪大桥",
+          "Liangxi Bridge",
+          "梁溪大橋",
+          "liang xi da qiao"
+        ],
+        "line": "wuxi2",
+        "order": 5
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2861485,
+          31.5757031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 34,
+        "name": "Wu'ai Plaza (五爱广场)",
+        "alternate_names": [
+          "Wu'ai Plaza",
+          "五爱广场",
+          "五愛廣場",
+          "wu ai guang chang"
+        ],
+        "line": "wuxi2",
+        "order": 6
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2950518757533,
+          31.577630276459697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 35,
+        "name": "Sanyang Plaza (三阳广场)",
+        "alternate_names": [
+          "Sanyang Plaza",
+          "三阳广场",
+          "三陽廣場",
+          "san yang guang chang"
+        ],
+        "line": "wuxi2",
+        "order": 7
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.303691,
+          31.5803467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 36,
+        "name": "Donglin Plaza (东林广场)",
+        "alternate_names": [
+          "Donglin Plaza",
+          "东林广场",
+          "東林廣場",
+          "dong lin guang chang"
+        ],
+        "line": "wuxi2",
+        "order": 8
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3159959,
+          31.5842234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 37,
+        "name": "Shangmadun (上马墩)",
+        "alternate_names": [
+          "Shangmadun",
+          "上马墩",
+          "上馬墩",
+          "shang ma dun"
+        ],
+        "line": "wuxi2",
+        "order": 9
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.32547485120078,
+          31.585206206423553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 38,
+        "name": "Jinghai (靖海)",
+        "alternate_names": [
+          "Jinghai",
+          "靖海",
+          "jing hai"
+        ],
+        "line": "wuxi2",
+        "order": 10
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3372549,
+          31.5883446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 39,
+        "name": "Guangyi (广益)",
+        "alternate_names": [
+          "Guangyi",
+          "广益",
+          "廣益",
+          "guang yi"
+        ],
+        "line": "wuxi2",
+        "order": 11
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3462531,
+          31.58779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 40,
+        "name": "Baizhuang (柏庄)",
+        "alternate_names": [
+          "Baizhuang",
+          "柏庄",
+          "柏莊",
+          "bai zhuang"
+        ],
+        "line": "wuxi2",
+        "order": 12
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3589238,
+          31.5839082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 41,
+        "name": "Dongting (东亭)",
+        "alternate_names": [
+          "Dongting",
+          "东亭",
+          "東亭",
+          "dong ting"
+        ],
+        "line": "wuxi2",
+        "order": 13
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3742546,
+          31.5799413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 42,
+        "name": "Zhuangqiao (庄桥)",
+        "alternate_names": [
+          "Zhuangqiao",
+          "庄桥",
+          "莊橋",
+          "zhuang qiao"
+        ],
+        "line": "wuxi2",
+        "order": 14
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.390346,
+          31.5813803
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 43,
+        "name": "Yunlin (云林)",
+        "alternate_names": [
+          "Yunlin",
+          "云林",
+          "雲林",
+          "yun lin"
+        ],
+        "line": "wuxi2",
+        "order": 15
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.4040237,
+          31.5822097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 44,
+        "name": "Jiulihe Park (九里河公园)",
+        "alternate_names": [
+          "Jiulihe Park",
+          "九里河公园",
+          "九里河公園",
+          "jiu li he gong yuan"
+        ],
+        "line": "wuxi2",
+        "order": 16
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.4266553,
+          31.5828911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 45,
+        "name": "Zhaqiao (查桥)",
+        "alternate_names": [
+          "Zhaqiao",
+          "查桥",
+          "查橋",
+          "cha qiao"
+        ],
+        "line": "wuxi2",
+        "order": 17
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.4445854,
+          31.5886144
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 46,
+        "name": "Yingyuehu Park (映月湖公园)",
+        "alternate_names": [
+          "Yingyuehu Park",
+          "映月湖公园",
+          "映月湖公園",
+          "ying yue hu gong yuan"
+        ],
+        "line": "wuxi2",
+        "order": 18
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.4500963,
+          31.5937263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 47,
+        "name": "Yingbin Square (迎宾广场)",
+        "alternate_names": [
+          "Yingbin Square",
+          "迎宾广场",
+          "迎賓廣場",
+          "ying bin guang chang"
+        ],
+        "line": "wuxi2",
+        "order": 19
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.4554867,
+          31.5988147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 48,
+        "name": "Wuxi East Railway Station (无锡东站)",
+        "alternate_names": [
+          "Wuxi East Railway Station",
+          "无锡东站",
+          "Wuxidong Railway Station",
+          "無錫東站",
+          "wu xi dong zhan"
+        ],
+        "line": "wuxi2",
+        "order": 20
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2112922,
+          31.5987124
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 49,
+        "name": "Sumiao (苏庙)",
+        "alternate_names": [
+          "Sumiao",
+          "苏庙",
+          "蘇廟",
+          "su miao"
+        ],
+        "line": "wuxi3",
+        "order": 0
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2256042,
+          31.5984223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 50,
+        "name": "Qianqiao (钱桥)",
+        "alternate_names": [
+          "Qianqiao",
+          "钱桥",
+          "錢橋",
+          "qian qiao"
+        ],
+        "line": "wuxi3",
+        "order": 1
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2393024,
+          31.6024175
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 51,
+        "name": "Longshanshao (龙山梢)",
+        "alternate_names": [
+          "Longshanshao",
+          "龙山梢",
+          "龍山梢",
+          "long shan shao"
+        ],
+        "line": "wuxi3",
+        "order": 2
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2546437,
+          31.5993096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 52,
+        "name": "Shimen Road (石门路)",
+        "alternate_names": [
+          "Shimen Road",
+          "石门路",
+          "石門路",
+          "shi men lu"
+        ],
+        "line": "wuxi3",
+        "order": 3
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.26680760978194,
+          31.593619123656794
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 53,
+        "name": "Sheng'an (盛岸)",
+        "alternate_names": [
+          "Sheng'an",
+          "盛岸",
+          "sheng an"
+        ],
+        "line": "wuxi3",
+        "order": 4
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2812706,
+          31.5957516
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 54,
+        "name": "Wuqiao (吴桥)",
+        "alternate_names": [
+          "Wuqiao",
+          "吴桥",
+          "吳橋",
+          "wu qiao"
+        ],
+        "line": "wuxi3",
+        "order": 5
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2925022,
+          31.5928499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 55,
+        "name": "Beizhakou (北栅口)",
+        "alternate_names": [
+          "Beizhakou",
+          "北栅口",
+          "北柵口",
+          "bei shan kou"
+        ],
+        "line": "wuxi3",
+        "order": 6
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.30170124446724,
+          31.591054454801448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 56,
+        "name": "Wuxi Railway Station (无锡火车站)",
+        "alternate_names": [
+          "Wuxi Railway Station",
+          "无锡火车站",
+          "無錫火車站",
+          "wu xi huo che zhan"
+        ],
+        "line": "wuxi3",
+        "order": 7
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3153829,
+          31.5907234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 57,
+        "name": "Guangrui (广瑞)",
+        "alternate_names": [
+          "Guangrui",
+          "广瑞",
+          "廣瑞",
+          "guang rui"
+        ],
+        "line": "wuxi3",
+        "order": 8
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.32547485120078,
+          31.585206206423553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 58,
+        "name": "Jinghai (靖海)",
+        "alternate_names": [
+          "Jinghai",
+          "靖海",
+          "jing hai"
+        ],
+        "line": "wuxi3",
+        "order": 9
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3280119,
+          31.5755279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 59,
+        "name": "Dongfeng (东风)",
+        "alternate_names": [
+          "Dongfeng",
+          "东风",
+          "東風",
+          "dong feng"
+        ],
+        "line": "wuxi3",
+        "order": 10
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3326337,
+          31.5681037
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 60,
+        "name": "Xufeng (叙丰)",
+        "alternate_names": [
+          "Xufeng",
+          "叙丰",
+          "敘豐",
+          "xu feng"
+        ],
+        "line": "wuxi3",
+        "order": 11
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3392514,
+          31.560999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 61,
+        "name": "Taihu Huayuan (太湖花园)",
+        "alternate_names": [
+          "Taihu Huayuan",
+          "太湖花园",
+          "太湖花園",
+          "tai hu hua yuan"
+        ],
+        "line": "wuxi3",
+        "order": 12
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3480229,
+          31.551263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 62,
+        "name": "Xinguang Road (新光路)",
+        "alternate_names": [
+          "Xinguang Road",
+          "新光路",
+          "xin guang lu"
+        ],
+        "line": "wuxi3",
+        "order": 13
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3538701,
+          31.5431998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 63,
+        "name": "Wangzhuang Road (旺庄路)",
+        "alternate_names": [
+          "Wangzhuang Road",
+          "旺庄路",
+          "旺莊路",
+          "wang zhuang lu"
+        ],
+        "line": "wuxi3",
+        "order": 14
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.36524,
+          31.5314872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 64,
+        "name": "Huangshan Road (黄山路)",
+        "alternate_names": [
+          "Huangshan Road",
+          "黄山路",
+          "黃山路",
+          "huang shan lu"
+        ],
+        "line": "wuxi3",
+        "order": 15
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.371633,
+          31.5252046
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 65,
+        "name": "East Gaolang Road (高浪东路)",
+        "alternate_names": [
+          "East Gaolang Road",
+          "高浪东路",
+          "高浪東路",
+          "gao lang dong lu"
+        ],
+        "line": "wuxi3",
+        "order": 16
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.381183,
+          31.5155692
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 66,
+        "name": "Zhoujingxiang (周泾巷)",
+        "alternate_names": [
+          "Zhoujingxiang",
+          "周泾巷",
+          "周涇巷",
+          "zhou jing xiang"
+        ],
+        "line": "wuxi3",
+        "order": 17
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.387615,
+          31.5010211
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 68,
+        "name": "Wuxi New District Station (无锡新区站)",
+        "alternate_names": [
+          "Wuxi New District Station",
+          "无锡新区站",
+          "Wuxi New Distric Station",
+          "無錫新區站",
+          "wu xi xin qu zhan"
+        ],
+        "line": "wuxi3",
+        "order": 18
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3984182,
+          31.4990663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 70,
+        "name": "South Changjiang Road (长江南路)",
+        "alternate_names": [
+          "South Changjiang Road",
+          "长江南路",
+          "長江南路",
+          "chang jiang nan lu"
+        ],
+        "line": "wuxi3",
+        "order": 19
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.426672,
+          31.503961
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 71,
+        "name": "Sunan Shuofang International Airport (硕放机场)",
+        "alternate_names": [
+          "Sunan Shuofang International Airport",
+          "硕放机场",
+          "碩放機場",
+          "shuo fang ji chang",
+          "Airport",
+          "WUX"
+        ],
+        "line": "wuxi3",
+        "order": 20
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.29999557333456,
+          31.62751499635218
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 72,
+        "name": "Liutan (刘潭)",
+        "alternate_names": [
+          "Liutan",
+          "刘潭",
+          "劉潭",
+          "liu tan"
+        ],
+        "line": "wuxi4",
+        "order": 0
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2861566,
+          31.6200829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 73,
+        "name": "Guangshi Road (广石路)",
+        "alternate_names": [
+          "Guangshi Road",
+          "广石路",
+          "廣石路",
+          "guang shi lu"
+        ],
+        "line": "wuxi4",
+        "order": 1
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.27537,
+          31.6012358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 74,
+        "name": "Huangxiang (黄巷)",
+        "alternate_names": [
+          "Huangxiang",
+          "黄巷",
+          "黃巷",
+          "huang xiang"
+        ],
+        "line": "wuxi4",
+        "order": 2
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.26680760978194,
+          31.593619123656794
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 75,
+        "name": "Sheng'an (盛岸)",
+        "alternate_names": [
+          "Sheng'an",
+          "盛岸",
+          "sheng an"
+        ],
+        "line": "wuxi4",
+        "order": 3
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2730693,
+          31.5833907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 76,
+        "name": "Huishan Ancient Town (惠山古镇)",
+        "alternate_names": [
+          "Huishan Ancient Town",
+          "惠山古镇",
+          "惠山古鎮",
+          "hui shan gu zhen"
+        ],
+        "line": "wuxi4",
+        "order": 4
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.265216,
+          31.5706706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 77,
+        "name": "Qingshanwan Rongjun Hospital (青山湾荣院)",
+        "alternate_names": [
+          "Qingshanwan Rongjun Hospital",
+          "青山湾荣院",
+          "青山灣榮院",
+          "qing shan wan rong yuan"
+        ],
+        "line": "wuxi4",
+        "order": 5
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.25813493313686,
+          31.564277790259055
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 78,
+        "name": "Heliekou (河埒口)",
+        "alternate_names": [
+          "Heliekou",
+          "河埒口",
+          "Helikou",
+          "he lie kou"
+        ],
+        "line": "wuxi4",
+        "order": 6
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2576097,
+          31.5507136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 79,
+        "name": "Xiyuanlong (西园弄)",
+        "alternate_names": [
+          "Xiyuanlong",
+          "西园弄",
+          "Xiyuannong",
+          "西園弄",
+          "xi yuan nong"
+        ],
+        "line": "wuxi4",
+        "order": 7
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2583221,
+          31.5428262
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 80,
+        "name": "Wuxi Sports Center (体育中心)",
+        "alternate_names": [
+          "Wuxi Sports Center",
+          "体育中心",
+          "Sports Center",
+          "體育中心",
+          "ti yu zhong xin"
+        ],
+        "line": "wuxi4",
+        "order": 8
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.258902,
+          31.5340983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 81,
+        "name": "Xiajiabian (夏家边)",
+        "alternate_names": [
+          "Xiajiabian",
+          "夏家边",
+          "夏家邊",
+          "xia jia bian"
+        ],
+        "line": "wuxi4",
+        "order": 9
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2615064,
+          31.5240048
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 82,
+        "name": "Lihudaqiao (蠡湖大桥)",
+        "alternate_names": [
+          "Lihudaqiao",
+          "蠡湖大桥",
+          "蠡湖大橋",
+          "li hu da qiao"
+        ],
+        "line": "wuxi4",
+        "order": 10
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2768144,
+          31.5136862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 83,
+        "name": "Wuxi Grand Theater (大剧院)",
+        "alternate_names": [
+          "Wuxi Grand Theater",
+          "大剧院",
+          "大劇院",
+          "da ju yuan"
+        ],
+        "line": "wuxi4",
+        "order": 11
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2825868,
+          31.5077244
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 84,
+        "name": "Wuhu Avenue (五湖大道)",
+        "alternate_names": [
+          "Wuhu Avenue",
+          "五湖大道",
+          "wu hu da dao"
+        ],
+        "line": "wuxi4",
+        "order": 12
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.296795,
+          31.506203
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 85,
+        "name": "Zhouxinyuan (周新苑)",
+        "alternate_names": [
+          "Zhouxinyuan",
+          "周新苑",
+          "zhou xin yuan"
+        ],
+        "line": "wuxi4",
+        "order": 13
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.30217267970586,
+          31.493437980530086
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 86,
+        "name": "Civic Center (市民中心)",
+        "alternate_names": [
+          "Civic Center",
+          "市民中心",
+          "shi min zhong xin"
+        ],
+        "line": "wuxi4",
+        "order": 14
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3038362,
+          31.4852177
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 87,
+        "name": "Wudu Road (吴都路)",
+        "alternate_names": [
+          "Wudu Road",
+          "吴都路",
+          "吳都路",
+          "wu dou lu"
+        ],
+        "line": "wuxi4",
+        "order": 15
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3108335,
+          31.4760509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 88,
+        "name": "Fengrun Road (丰润道)",
+        "alternate_names": [
+          "Fengrun Road",
+          "丰润道",
+          "豐潤道",
+          "feng run dao"
+        ],
+        "line": "wuxi4",
+        "order": 16
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3210878,
+          31.4788797
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 89,
+        "name": "Wuxi Taihu International Expo Center (博览中心)",
+        "alternate_names": [
+          "Wuxi Taihu International Expo Center",
+          "博览中心",
+          "博覽中心",
+          "bo lan zhong xin"
+        ],
+        "line": "wuxi4",
+        "order": 17
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.253734,
+          31.9252018
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 90,
+        "name": "Jiangyin Bund (江阴外滩)",
+        "alternate_names": [
+          "Jiangyin Bund",
+          "江阴外滩",
+          "江陰外灘",
+          "jiang yin wai tan"
+        ],
+        "line": "wuxis1",
+        "order": 0
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2666006,
+          31.9089455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 91,
+        "name": "Zhongshan Park (中山公园)",
+        "alternate_names": [
+          "Zhongshan Park",
+          "中山公园",
+          "中山公園",
+          "zhong shan gong yuan"
+        ],
+        "line": "wuxis1",
+        "order": 1
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2671664,
+          31.8932703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 92,
+        "name": "Nanmen (南门)",
+        "alternate_names": [
+          "Nanmen",
+          "南门",
+          "南門",
+          "nan men"
+        ],
+        "line": "wuxis1",
+        "order": 2
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.267637,
+          31.8780164
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 93,
+        "name": "Jiangyin TCM Hospital (江阴中医院)",
+        "alternate_names": [
+          "Jiangyin TCM Hospital",
+          "江阴中医院",
+          "江陰中醫院",
+          "jiang yin zhong yi yuan"
+        ],
+        "line": "wuxis1",
+        "order": 3
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.274425,
+          31.8641474
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 94,
+        "name": "Jiangyin Railway Station (江阴高铁站)",
+        "alternate_names": [
+          "Jiangyin Railway Station",
+          "江阴高铁站",
+          "江陰高鐵站",
+          "jiang yin gao tie zhan"
+        ],
+        "line": "wuxis1",
+        "order": 4
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2626224,
+          31.8437829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 95,
+        "name": "Nanzha (南闸)",
+        "alternate_names": [
+          "Nanzha",
+          "南闸",
+          "南閘",
+          "nan zha"
+        ],
+        "line": "wuxis1",
+        "order": 5
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2676354,
+          31.8184654
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 96,
+        "name": "Qiaoqi (峭岐)",
+        "alternate_names": [
+          "Qiaoqi",
+          "峭岐",
+          "qiao qi"
+        ],
+        "line": "wuxis1",
+        "order": 6
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.2897358,
+          31.7726788
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 97,
+        "name": "Qingyang (青阳)",
+        "alternate_names": [
+          "Qingyang",
+          "青阳",
+          "青陽",
+          "qing yang"
+        ],
+        "line": "wuxis1",
+        "order": 7
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3067085,
+          31.7101455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 98,
+        "name": "Mazhen (马镇)",
+        "alternate_names": [
+          "Mazhen",
+          "马镇",
+          "馬鎮",
+          "ma zhen"
+        ],
+        "line": "wuxis1",
+        "order": 8
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.3103351,
+          31.6775031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 99,
+        "name": "Yanqiao (堰桥)",
+        "alternate_names": [
+          "Yanqiao",
+          "堰桥",
+          "堰橋",
+          "yan qiao"
+        ],
+        "line": "wuxis1",
+        "order": 9
+      },
+      "id": 99
+    }
+  ]
+}
