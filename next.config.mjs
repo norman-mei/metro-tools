@@ -9,6 +9,7 @@ const nextConfig = {
   outputFileTracingIncludes: {
     '/api/city-icon/[slug]': ['./public/city-icons/**/*.ico'],
   },
+  output: 'standalone',
 }
 
 
