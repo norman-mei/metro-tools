@@ -69,13 +69,14 @@ const preferencesSchema = z.object({
     .optional(),
   mapViewByCity: z
     .record(
+      z.string(),
       z.object({
         zoom: z.number().finite(),
         center: z.tuple([z.number().finite(), z.number().finite()]),
       }),
     )
     .optional(),
-  speedrunByCity: z.record(z.boolean()).optional(),
+  speedrunByCity: z.record(z.string(), z.boolean()).optional(),
 })
 
 export async function PATCH(request: NextRequest) {

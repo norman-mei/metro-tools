@@ -204,10 +204,6 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Graceland Transit",
     description: "Thank you, thank you very much. You're the King of Memphis metro!",
   },
-  "mexico-city": {
-    title: "El Maestro del Metro",
-    description: "You've conquered one of the world's largest systems. Increible!",
-  },
   miami: {
     title: "Sunshine State of Mind",
     description: "You've navigated Florida's transit triangle like Crockett and Tubbs!",
