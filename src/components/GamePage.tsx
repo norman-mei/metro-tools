@@ -1870,13 +1870,6 @@ export default function GamePage({
     setZenMode((prev) => !prev)
   }, [])
 
-  const handleToggleMapNames = useCallback(() => {
-    handleProtectedAction(() => {
-      setShowMapNames((prev) => !prev)
-      registerMapNamesToggle()
-    }, 'mapNames')
-  }, [handleProtectedAction, registerMapNamesToggle])
-
   const handleSolutionsClose = useCallback(() => {
     setSolutionsPromptOpen(false)
     setSolutionsPassword('')
@@ -2159,6 +2152,13 @@ export default function GamePage({
       // ignore
     }
   }, [awardAchievement])
+
+  const handleToggleMapNames = useCallback(() => {
+    handleProtectedAction(() => {
+      setShowMapNames((prev) => !prev)
+      registerMapNamesToggle()
+    }, 'mapNames')
+  }, [handleProtectedAction, registerMapNamesToggle])
 
   useEffect(() => {
     if (!achievementsHydratedRef.current || lineMasterSyncRef.current) return

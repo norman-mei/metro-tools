@@ -10,9 +10,6 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import CityCard from './CityCard'
 
-// Mapbox Token
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || ''
-
 const CONTINENT_BOUNDS: Record<string, mapboxgl.LngLatBoundsLike> = {
   'North America': [
     [-169, 5],

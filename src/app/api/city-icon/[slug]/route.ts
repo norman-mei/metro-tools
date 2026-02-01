@@ -1,38 +1,39 @@
 import { createHash } from 'crypto'
-import { promises as fs } from 'fs'
+import { promises as fs, statSync } from 'fs'
 import { NextRequest, NextResponse } from 'next/server'
 import path from 'path'
 import { CITY_PATH_MAP } from '@/lib/cityPathMap'
 
 const VALID_SLUG = /^[a-z0-9-]+$/
 
-const ROOT_CANDIDATES = [process.cwd(), path.join(process.cwd(), '..')]
+const ICON_ROOT_CANDIDATES = [
+  path.join(process.cwd(), 'public', 'city-icons'),
+  path.join(process.cwd(), '..', 'public', 'city-icons'),
+]
 
-const resolveFirstExisting = (segmentSets: string[][], fallback: string[]) => {
-  for (const root of ROOT_CANDIDATES) {
-    for (const segments of segmentSets) {
-      const candidate = path.join(root, ...segments)
-      try {
-        const stats = require('fs').statSync(candidate)
-        if (stats.isDirectory() || stats.isFile()) {
-          return candidate
-        }
-      } catch {
-        // keep looking
+const GAME_ICON_ROOT_CANDIDATES = [
+  path.join(process.cwd(), 'src', 'app', '(game)'),
+  path.join(process.cwd(), 'app', '(game)'),
+  path.join(process.cwd(), '..', 'src', 'app', '(game)'),
+  path.join(process.cwd(), '..', 'app', '(game)'),
+]
+
+const pickExistingPath = (candidates: string[]) => {
+  for (const candidate of candidates) {
+    try {
+      const stats = statSync(candidate)
+      if (stats.isDirectory() || stats.isFile()) {
+        return candidate
       }
+    } catch {
+      // keep looking
     }
   }
-  return path.join(ROOT_CANDIDATES[0], ...fallback)
+  return candidates[0]
 }
 
-const ICON_ROOT = resolveFirstExisting([['public', 'city-icons']], ['public', 'city-icons'])
-const GAME_ICON_ROOT = resolveFirstExisting(
-  [
-    ['src', 'app', '(game)'],
-    ['app', '(game)'],
-  ],
-  ['app', '(game)'],
-)
+const ICON_ROOT = pickExistingPath(ICON_ROOT_CANDIDATES)
+const GAME_ICON_ROOT = pickExistingPath(GAME_ICON_ROOT_CANDIDATES)
 const FALLBACK_CANDIDATES = [
   path.join(ICON_ROOT, '_default.ico'),
   path.join(process.cwd(), 'public', 'favicon.ico'),

@@ -7,7 +7,7 @@ const nextConfig = {
   staticPageGenerationTimeout: 30,
   // Ensure city icons are bundled for the API route when output tracing is enabled
   outputFileTracingIncludes: {
-    '/api/city-icon/[slug]': ['./public/city-icons/**/*.ico'],
+    '/api/city-icon/[slug]': ['./public/city-icons/*.ico'],
   },
   output: 'standalone',
 }
