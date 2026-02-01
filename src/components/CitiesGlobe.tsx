@@ -110,6 +110,7 @@ export default function CitiesGlobe({
     city: ICity
   } | null>(null)
   const [mapReady, setMapReady] = useState(false)
+  const [mapError, setMapError] = useState<string | null>(null)
 
   const handleClosePopup = useCallback(() => {
     setActivePopup(null)
@@ -123,6 +124,13 @@ export default function CitiesGlobe({
 
   useEffect(() => {
     if (!mapContainerRef.current) return
+    const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN
+    if (!token) {
+      setMapError('Map cannot load because NEXT_PUBLIC_MAPBOX_TOKEN is missing.')
+      return
+    }
+    mapboxgl.accessToken = token
+    setMapError(null)
 
     const isDark = resolvedTheme === 'dark'
     const style = satellite
@@ -465,7 +473,13 @@ export default function CitiesGlobe({
 
   return (
     <div className="relative h-[80vh] w-full overflow-hidden rounded-2xl bg-zinc-900 shadow-xl">
-      <div ref={mapContainerRef} className="absolute inset-0 h-full w-full" />
+      {mapError ? (
+        <div className="flex h-full w-full items-center justify-center px-4 text-center text-sm text-white">
+          {mapError}
+        </div>
+      ) : (
+        <div ref={mapContainerRef} className="absolute inset-0 h-full w-full" />
+      )}
       
       {activePopup && mapRef.current && (
         <Popup
