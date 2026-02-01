@@ -2,20 +2,12 @@ import { createHash } from 'crypto'
 import { promises as fs, statSync } from 'fs'
 import { NextRequest, NextResponse } from 'next/server'
 import path from 'path'
-import { CITY_PATH_MAP } from '@/lib/cityPathMap'
 
 const VALID_SLUG = /^[a-z0-9-]+$/
 
 const ICON_ROOT_CANDIDATES = [
   path.join(process.cwd(), 'public', 'city-icons'),
   path.join(process.cwd(), '..', 'public', 'city-icons'),
-]
-
-const GAME_ICON_ROOT_CANDIDATES = [
-  path.join(process.cwd(), 'src', 'app', '(game)'),
-  path.join(process.cwd(), 'app', '(game)'),
-  path.join(process.cwd(), '..', 'src', 'app', '(game)'),
-  path.join(process.cwd(), '..', 'app', '(game)'),
 ]
 
 const pickExistingPath = (candidates: string[]) => {
@@ -33,7 +25,6 @@ const pickExistingPath = (candidates: string[]) => {
 }
 
 const ICON_ROOT = pickExistingPath(ICON_ROOT_CANDIDATES)
-const GAME_ICON_ROOT = pickExistingPath(GAME_ICON_ROOT_CANDIDATES)
 const FALLBACK_CANDIDATES = [
   path.join(ICON_ROOT, '_default.ico'),
   path.join(process.cwd(), 'public', 'favicon.ico'),
@@ -47,13 +38,6 @@ async function readIconFromDisk(filePath: string) {
   } catch {
     return null
   }
-}
-
-async function readIconFromCityFolder(slug: string) {
-  const cityPath = CITY_PATH_MAP[slug]
-  if (!cityPath) return null
-  const iconPath = path.join(GAME_ICON_ROOT, cityPath, 'icon.ico')
-  return readIconFromDisk(iconPath)
 }
 
 async function getFallbackIcon() {
@@ -96,7 +80,6 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
   const iconPath = path.join(ICON_ROOT, `${normalizedSlug}.ico`)
   const iconBuffer =
     (await readIconFromDisk(iconPath)) ??
-    (await readIconFromCityFolder(normalizedSlug)) ??
     (await getFallbackIcon())
 
   if (!iconBuffer || iconBuffer.length === 0) {
