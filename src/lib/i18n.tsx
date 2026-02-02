@@ -140,7 +140,7 @@ opensANewTab:
     achievementToastsDesc: 'Display toast notifications when you complete a city.',
     resetSavedProgressTitle: 'Reset saved progress',
     resetSavedProgressDesc:
-      'Hold the button for 5 seconds to erase the selected cities. Only cities where you have progress appear below. This cannot be undone.',
+      'Hold the button for 5 seconds to erase the selected cities and achievements. Only cities where you have progress appear below. This cannot be undone.',
     resetNoProgress: "You haven't recorded any progress yet.",
     resetChooseCities: 'Choose cities to reset:',
     resetFoundLabel: ({ count }: { count: number }): string => `${count} found`,

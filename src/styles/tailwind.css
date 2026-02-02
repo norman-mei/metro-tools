@@ -15,5 +15,17 @@
     --accent-700: #0369a1;
     --accent-600-rgb: 2, 132, 199;
     --accent-ring: rgba(14, 165, 233, 0.4);
+    --ui-font-size: 16px;
+    --ui-font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  html {
+    font-size: var(--ui-font-size);
+  }
+
+  body {
+    font-family: var(--ui-font);
   }
 }

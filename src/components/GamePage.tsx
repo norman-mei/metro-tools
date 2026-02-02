@@ -41,7 +41,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import {
     CSSProperties,
     ChangeEvent,
@@ -717,6 +717,7 @@ export default function GamePage({
 }) {
   const { CITY_NAME, MAP_CONFIG, LINES, MAP_FROM_DATA, METADATA } = useConfig()
   const pathname = usePathname()
+  const router = useRouter()
   const cityPath = useMemo(() => pathname?.replace(/^\//, '') ?? null, [pathname])
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
@@ -1994,6 +1995,62 @@ export default function GamePage({
 
   const totalUniqueStations = uniqueStationsMap.size
 
+  const metadataTitle = useMemo(
+    () => extractMetadataTitle(METADATA?.title),
+    [METADATA?.title],
+  )
+
+  const cityDisplayName = useMemo(
+    () => deriveCityDisplayName(metadataTitle, CITY_NAME),
+    [metadataTitle, CITY_NAME],
+  )
+
+  const awardAchievement = useCallback(
+    (id: string, title: string, description: string) => {
+      if (earnedAchievementsRef.current.has(id)) return
+      earnedAchievementsRef.current.add(id)
+      if (id.startsWith(`${CITY_NAME}-line-master-`)) {
+        earnedAchievementsRef.current.add('line-master')
+      }
+      if (typeof window !== 'undefined') {
+        try {
+          window.localStorage.setItem(
+            'mm-achievements-earned',
+            JSON.stringify(Array.from(earnedAchievementsRef.current)),
+          )
+        } catch {
+          // ignore
+        }
+      }
+      if (!settings.achievementToastsEnabled) return
+
+      let hidden = false
+      const isLineMaster =
+        id.startsWith(`${CITY_NAME}-line-master-`) || id === 'line-master'
+      if (typeof window !== 'undefined') {
+        try {
+          const specificHidden =
+            window.localStorage.getItem(achievementToastStorageKey(id)) === '1'
+          const globalLineMasterHidden =
+            isLineMaster &&
+            window.localStorage.getItem(achievementToastStorageKey('line-master')) === '1'
+          hidden = specificHidden || globalLineMasterHidden
+        } catch {
+          hidden = false
+        }
+      }
+      if (hidden) return
+
+      setAchievementToast({
+        slug: id,
+        cityName: cityDisplayName,
+        title,
+        description,
+      })
+    },
+    [CITY_NAME, cityDisplayName, settings.achievementToastsEnabled],
+  )
+
   useEffect(() => {
     const available = totalUniqueStations <= 1000
     setSpeedrunAvailable(available)
@@ -2059,61 +2116,6 @@ export default function GamePage({
   }, [])
 
 
-  const metadataTitle = useMemo(
-    () => extractMetadataTitle(METADATA?.title),
-    [METADATA?.title],
-  )
-
-  const cityDisplayName = useMemo(
-    () => deriveCityDisplayName(metadataTitle, CITY_NAME),
-    [metadataTitle, CITY_NAME],
-  )
-
-  const awardAchievement = useCallback(
-    (id: string, title: string, description: string) => {
-      if (earnedAchievementsRef.current.has(id)) return
-      earnedAchievementsRef.current.add(id)
-      if (id.startsWith(`${CITY_NAME}-line-master-`)) {
-        earnedAchievementsRef.current.add('line-master')
-      }
-      if (typeof window !== 'undefined') {
-        try {
-          window.localStorage.setItem(
-            'mm-achievements-earned',
-            JSON.stringify(Array.from(earnedAchievementsRef.current)),
-          )
-        } catch {
-          // ignore
-        }
-      }
-      if (!settings.achievementToastsEnabled) return
-
-      let hidden = false
-      const isLineMaster =
-        id.startsWith(`${CITY_NAME}-line-master-`) || id === 'line-master'
-      if (typeof window !== 'undefined') {
-        try {
-          const specificHidden =
-            window.localStorage.getItem(achievementToastStorageKey(id)) === '1'
-          const globalLineMasterHidden =
-            isLineMaster &&
-            window.localStorage.getItem(achievementToastStorageKey('line-master')) === '1'
-          hidden = specificHidden || globalLineMasterHidden
-        } catch {
-          hidden = false
-        }
-      }
-      if (hidden) return
-
-      setAchievementToast({
-        slug: id,
-        cityName: cityDisplayName,
-        title,
-        description,
-      })
-    },
-    [CITY_NAME, cityDisplayName, settings.achievementToastsEnabled],
-  )
 
   const recordLineMaster = useCallback(
     (key: string) => {
@@ -3305,19 +3307,59 @@ export default function GamePage({
         } else if (action === 'TOGGLE_ZEN_MODE') {
             event.preventDefault()
             setZenMode(prev => !prev)
+        } else if (action === 'TOGGLE_SPEEDRUN') {
+            event.preventDefault()
+            if (speedrunAvailable) {
+              setSpeedrunMode(prev => !prev)
+            }
         } else if (action === 'TOGGLE_SIDEBAR') {
             event.preventDefault()
             setSidebarOpen(prev => !prev)
         } else if (action === 'TOGGLE_SOLUTIONS') {
             event.preventDefault()
             handleRevealSolutions()
+        } else if (action === 'TOGGLE_LABELS') {
+            event.preventDefault()
+            setHideLabels(prev => !prev)
+        } else if (action === 'TOGGLE_MAP_NAMES') {
+            event.preventDefault()
+            handleToggleMapNames()
+        } else if (action === 'TOGGLE_SATELLITE') {
+            event.preventDefault()
+            handleToggleSatellite()
+        } else if (action === 'OPEN_CITY_STATS') {
+            event.preventDefault()
+            setCityStatsOpen(true)
+        } else if (action === 'OPEN_ACHIEVEMENTS') {
+            event.preventDefault()
+            router.push('/?tab=achievements')
+        } else if (action === 'OPEN_ACCOUNT') {
+            event.preventDefault()
+            openAccountModal()
+        } else if (action === 'OPEN_SETTINGS') {
+            event.preventDefault()
+            openSettingsModal()
         }
       }
     }
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [settings.keybindings, activeFoundId, sidebarOpen, handleRevealSolutions])
+  }, [
+    settings.keybindings,
+    activeFoundId,
+    sidebarOpen,
+    handleRevealSolutions,
+    handleToggleMapNames,
+    handleToggleSatellite,
+    openAccountModal,
+    openSettingsModal,
+    router,
+    setHideLabels,
+    setCityStatsOpen,
+    setSpeedrunMode,
+    speedrunAvailable,
+  ])
 
 
   useEffect(() => {
@@ -3547,6 +3589,7 @@ export default function GamePage({
                 disabled={solutionsPromptOpen}
                 onGuessResult={handleGuessResult}
                 onInputEdit={handleInputEdit}
+                autoSubmitOnMatch={settings.autoSubmitOnMatch}
               />
               {speedrunMode && (
                 <div className="flex items-center gap-2 rounded-full bg-amber-500/90 px-3 py-2 text-xs font-semibold text-white shadow-lg ring-1 ring-white/30 backdrop-blur dark:bg-amber-400/90 dark:text-zinc-950">
@@ -3876,6 +3919,7 @@ export default function GamePage({
           cityName={achievementToast.cityName}
           title={achievementToast.title}
           description={achievementToast.description}
+          durationMs={Math.max(3000, (settings.achievementToastDurationSec || 15) * 1000)}
           onClose={handleAchievementToastClose}
           onDontShowAgain={() => handleAchievementToastNever(achievementToast.slug)}
         />

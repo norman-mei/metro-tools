@@ -25,6 +25,7 @@ const Input = ({
   disabled = false,
   onGuessResult,
   onInputEdit,
+  autoSubmitOnMatch = false,
 }: {
   fuse: Fuse<DataFeature>
   found: number[]
@@ -39,6 +40,7 @@ const Input = ({
   clusterGroups: Map<number, number[]>
   autoFocus?: boolean
   disabled?: boolean
+  autoSubmitOnMatch?: boolean
   onGuessResult?: (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => void
   onInputEdit?: (action: 'backspace' | 'delete') => void
 }) => {
@@ -126,68 +128,16 @@ const Input = ({
     [CITY_NAME],
   )
 
-  const onKeyDown: KeyboardEventHandler<HTMLInputElement> = useCallback(
-    (e) => {
-      if (disabled) {
-        return
-      }
-
-      if ((e.key === 'Backspace' || e.key === 'Delete') && search.length > 0) {
-        onInputEdit?.(e.key === 'Backspace' ? 'backspace' : 'delete')
-      }
-
-      if (e.key === 'ArrowUp') {
-        if (history.length === 0) {
-          return
-        }
-
-        e.preventDefault()
-        setHistoryIndex((prev) => {
-          const nextIndex =
-            prev === null ? history.length - 1 : Math.max(prev - 1, 0)
-          const nextValue = history[nextIndex]
-          setSearch(nextValue)
-          lastSearchRef.current = nextValue
-          return nextIndex
-        })
-        return
-      }
-
-      if (e.key === 'ArrowDown') {
-        if (history.length === 0) {
-          return
-        }
-
-        e.preventDefault()
-        setHistoryIndex((prev) => {
-          if (prev === null) {
-            return null
-          }
-
-          if (prev === history.length - 1) {
-            setSearch('')
-            lastSearchRef.current = ''
-            return null
-          }
-
-          const nextIndex = Math.min(prev + 1, history.length - 1)
-          const nextValue = history[nextIndex]
-          setSearch(nextValue)
-          lastSearchRef.current = nextValue
-          return nextIndex
-        })
-        return
-      }
-
-      if (e.key !== 'Enter') return
-      if (!search) return
-
-      e.preventDefault()
+  const submitGuess = useCallback(
+    (value: string, mode: 'manual' | 'auto') => {
+      if (disabled) return
+      if (!value.trim()) return
 
       try {
         const sanitizedSearch = stripOptionalPrefixes(
-          normalizeString(search),
+          normalizeString(value),
         )
+        if (!sanitizedSearch) return
         const isNonLatinSearch = /[\u3100-\u312f\u31a0-\u31bf\u3400-\u4dbf\u4e00-\u9fff]/.test(
           sanitizedSearch,
         )
@@ -256,6 +206,9 @@ const Input = ({
         })
 
         if (finalMatches.length === 0) {
+          if (mode === 'auto') {
+            return
+          }
           if (someAlreadyFound || hasCandidate) {
             setAlreadyFound(true)
             setTimeout(() => setAlreadyFound(false), 1200)
@@ -315,12 +268,15 @@ const Input = ({
           return next
         })
         setIsNewPlayer(false)
-        pushHistory(search)
+        pushHistory(value)
         setSearch('')
         lastSearchRef.current = ''
         pushEvent(finalMatches)
         onGuessResult?.({ type: 'correct', addedIds: finalMatches })
       } catch (error) {
+        if (mode === 'auto') {
+          return
+        }
         console.error(error)
         setWrong(true)
         setTimeout(() => setWrong(false), 500)
@@ -329,15 +285,12 @@ const Input = ({
     },
     [
       disabled,
-      search,
-      setSearch,
       fuse,
       found,
       setFound,
       setFoundTimestamps,
       setWrong,
       setIsNewPlayer,
-      history,
       map,
       idMap,
       clusterGroups,
@@ -346,8 +299,70 @@ const Input = ({
       pushEvent,
       stripOptionalPrefixes,
       pushHistory,
-      onInputEdit,
+      onGuessResult,
     ],
+  )
+
+  const onKeyDown: KeyboardEventHandler<HTMLInputElement> = useCallback(
+    (e) => {
+      if (disabled) {
+        return
+      }
+
+      if ((e.key === 'Backspace' || e.key === 'Delete') && search.length > 0) {
+        onInputEdit?.(e.key === 'Backspace' ? 'backspace' : 'delete')
+      }
+
+      if (e.key === 'ArrowUp') {
+        if (history.length === 0) {
+          return
+        }
+
+        e.preventDefault()
+        setHistoryIndex((prev) => {
+          const nextIndex =
+            prev === null ? history.length - 1 : Math.max(prev - 1, 0)
+          const nextValue = history[nextIndex]
+          setSearch(nextValue)
+          lastSearchRef.current = nextValue
+          return nextIndex
+        })
+        return
+      }
+
+      if (e.key === 'ArrowDown') {
+        if (history.length === 0) {
+          return
+        }
+
+        e.preventDefault()
+        setHistoryIndex((prev) => {
+          if (prev === null) {
+            return null
+          }
+
+          if (prev === history.length - 1) {
+            setSearch('')
+            lastSearchRef.current = ''
+            return null
+          }
+
+          const nextIndex = Math.min(prev + 1, history.length - 1)
+          const nextValue = history[nextIndex]
+          setSearch(nextValue)
+          lastSearchRef.current = nextValue
+          return nextIndex
+        })
+        return
+      }
+
+      if (e.key !== 'Enter') return
+      if (!search) return
+
+      e.preventDefault()
+      submitGuess(search, 'manual')
+    },
+    [disabled, history, onInputEdit, search, submitGuess],
   )
 
   return (
@@ -371,6 +386,9 @@ const Input = ({
           setHistoryIndex(null)
           setSearch(value)
           lastSearchRef.current = value
+          if (autoSubmitOnMatch && value.trim().length > 0) {
+            submitGuess(value, 'auto')
+          }
         }}
         id="input"
         type="text"

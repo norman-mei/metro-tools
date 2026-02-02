@@ -1,7 +1,11 @@
 'use client'
 
 import { useAuth } from '@/context/AuthContext'
-import { useSettings } from '@/context/SettingsContext'
+import {
+  FONT_FAMILY_OPTIONS,
+  FONT_SIZE_OPTIONS,
+  useSettings,
+} from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
 import {
     ACCENT_COLOR_OPTIONS,
@@ -9,6 +13,7 @@ import {
     type AccentColorOption,
 } from '@/lib/accentColors'
 import { cities } from '@/lib/citiesConfig'
+import { GLOBAL_ACHIEVEMENT_SLUGS } from '@/lib/globalAchievements'
 import { SUPPORTED_LANGUAGES } from '@/lib/i18n'
 import {
     readSolutionsAccess,
@@ -73,13 +78,32 @@ const CURATED_TIMEZONES: string[] = [
 
 const LOCAL_PROGRESS_EVENT = 'local-progress-refresh'
 
+const unlockAllAchievements = () => {
+  if (typeof window === 'undefined') return
+  try {
+    const raw = window.localStorage.getItem('mm-achievements-earned')
+    const parsed = raw ? JSON.parse(raw) : []
+    const entries = Array.isArray(parsed) ? parsed.filter((id) => typeof id === 'string') : []
+    const set = new Set(entries)
+    GLOBAL_ACHIEVEMENT_SLUGS.forEach((slug) => set.add(slug))
+    window.localStorage.setItem('mm-achievements-earned', JSON.stringify(Array.from(set)))
+    window.dispatchEvent(new Event('storage'))
+  } catch {
+    // ignore
+  }
+}
+
 const SettingsPanel = ({ className, showHeading = true, disableScroll = false }: SettingsPanelProps) => {
   const {
     settings,
     setConfettiEnabled,
     setAchievementToastsEnabled,
+    setAchievementToastDurationSec,
     setStopConfettiAfterCompletion,
+    setAutoSubmitOnMatch,
     setAccentColor,
+    setFontSize,
+    setFontFamily,
     setLanguage,
     setTimezone,
     setHourFormat,
@@ -168,6 +192,36 @@ const SettingsPanel = ({ className, showHeading = true, disableScroll = false }:
           description={t('achievementToastsDesc')}
           checked={settings.achievementToastsEnabled}
           onChange={setAchievementToastsEnabled}
+        />
+        <div className="flex items-center justify-between gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-[#18181b] dark:bg-zinc-900/40">
+          <div>
+            <p className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
+              Achievement toast duration
+            </p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              How long achievement toasts stay on screen (in seconds).
+            </p>
+          </div>
+          <div className="flex items-center gap-2">
+            <input
+              type="number"
+              min={3}
+              max={120}
+              step={1}
+              value={settings.achievementToastDurationSec}
+              onChange={(event) =>
+                setAchievementToastDurationSec(Number(event.target.value || 0))
+              }
+              className="w-20 rounded-xl border border-zinc-300 bg-white px-3 py-2 text-sm font-semibold text-zinc-900 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100"
+            />
+            <span className="text-sm text-zinc-500 dark:text-zinc-400">sec</span>
+          </div>
+        </div>
+        <SettingToggle
+          label="Auto submit on match"
+          description="Automatically submit when your input exactly matches a station."
+          checked={settings.autoSubmitOnMatch}
+          onChange={setAutoSubmitOnMatch}
         />
       </div>
       <div className="space-y-3">
@@ -315,7 +369,58 @@ const SettingsPanel = ({ className, showHeading = true, disableScroll = false }:
           })}
         </div>
       </div>
+      <div className="space-y-3">
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          Font size
+        </p>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+          {FONT_SIZE_OPTIONS.map((option) => (
+            <button
+              key={option.id}
+              type="button"
+              onClick={() => setFontSize(option.id)}
+              className={classNames(
+                'w-full rounded-full px-4 py-2 text-center text-sm font-semibold transition',
+                settings.fontSize === option.id
+                  ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
+                  : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+              )}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="space-y-3">
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          Font type
+        </p>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {FONT_FAMILY_OPTIONS.map((option) => (
+            <button
+              key={option.id}
+              type="button"
+              onClick={() => setFontFamily(option.id)}
+              className={classNames(
+                'flex items-center gap-3 rounded-2xl border px-3 py-2 text-left transition focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)]',
+                settings.fontFamily === option.id
+                  ? 'border-[var(--accent-600)] bg-[color:var(--accent-50)] shadow-inner dark:border-[var(--accent-500)] dark:bg-[rgb(var(--accent-600-rgb)_/_0.25)]'
+                  : 'border-zinc-200 bg-white hover:border-zinc-300 dark:border-[#18181b] dark:bg-zinc-900 dark:hover:border-zinc-700',
+              )}
+            >
+              <span
+                className="text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+                style={{ fontFamily: option.stack }}
+              >
+                {option.label}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
       <SolutionsAccessPanel onSettingsChange={notifySettingsSaved} />
+      <AchievementsUnlockPanel />
+      <DataTransferPanel />
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
           Keybindings
@@ -338,6 +443,12 @@ const SettingsPanel = ({ className, showHeading = true, disableScroll = false }:
                 value={settings.keybindings.TOGGLE_ZEN_MODE}
                 onChange={(val) => setKeybinding('TOGGLE_ZEN_MODE', val)}
             />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Speedrun"
+                value={settings.keybindings.TOGGLE_SPEEDRUN}
+                onChange={(val) => setKeybinding('TOGGLE_SPEEDRUN', val)}
+            />
              <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
             <KeybindingRecorder
                 label="Toggle Sidebar"
@@ -349,6 +460,48 @@ const SettingsPanel = ({ className, showHeading = true, disableScroll = false }:
                 label="Toggle Solutions"
                 value={settings.keybindings.TOGGLE_SOLUTIONS}
                 onChange={(val) => setKeybinding('TOGGLE_SOLUTIONS', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Station Labels"
+                value={settings.keybindings.TOGGLE_LABELS}
+                onChange={(val) => setKeybinding('TOGGLE_LABELS', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Map Names"
+                value={settings.keybindings.TOGGLE_MAP_NAMES}
+                onChange={(val) => setKeybinding('TOGGLE_MAP_NAMES', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Toggle Satellite"
+                value={settings.keybindings.TOGGLE_SATELLITE}
+                onChange={(val) => setKeybinding('TOGGLE_SATELLITE', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Open City Stats"
+                value={settings.keybindings.OPEN_CITY_STATS}
+                onChange={(val) => setKeybinding('OPEN_CITY_STATS', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Open Achievements"
+                value={settings.keybindings.OPEN_ACHIEVEMENTS}
+                onChange={(val) => setKeybinding('OPEN_ACHIEVEMENTS', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Open Account"
+                value={settings.keybindings.OPEN_ACCOUNT}
+                onChange={(val) => setKeybinding('OPEN_ACCOUNT', val)}
+            />
+            <div className="h-px bg-zinc-200 dark:bg-zinc-800" />
+            <KeybindingRecorder
+                label="Open Settings"
+                value={settings.keybindings.OPEN_SETTINGS}
+                onChange={(val) => setKeybinding('OPEN_SETTINGS', val)}
             />
         </div>
       </div>
@@ -548,7 +701,14 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
         }
       }
     },
-    [applySolutionsProgress, onSettingsChange, passwordInput, solutionsCities, solutionsInitialized, solutionsMode],
+    [
+      applySolutionsProgress,
+      onSettingsChange,
+      passwordInput,
+      solutionsCities,
+      solutionsInitialized,
+      solutionsMode,
+    ],
   )
 
   const handleModeChange = useCallback((mode: 'all' | 'custom') => {
@@ -694,6 +854,211 @@ const SolutionsAccessPanel = ({ onSettingsChange }: { onSettingsChange?: () => v
   )
 }
 
+const AchievementsUnlockPanel = () => {
+  const [passwordInput, setPasswordInput] = useState('')
+  const [passwordError, setPasswordError] = useState<string | null>(null)
+  const [successMessage, setSuccessMessage] = useState<string | null>(null)
+
+  const handleUnlockSubmit = useCallback(
+    async (event: React.FormEvent<HTMLFormElement>) => {
+      event.preventDefault()
+      const password = passwordInput.trim()
+      if (!password) {
+        return
+      }
+      setPasswordError(null)
+      setSuccessMessage(null)
+      try {
+        const response = await fetch('/api/solutions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password }),
+        })
+        const payload = await response.json().catch(() => ({}))
+        if (!response.ok || !payload?.success) {
+          setPasswordError('Incorrect passphrase. Try again.')
+          return
+        }
+        unlockAllAchievements()
+        setSuccessMessage('All achievements unlocked.')
+        setPasswordInput('')
+      } catch (error) {
+        setPasswordError('Unable to verify passphrase. Please try again.')
+        if (process.env.NODE_ENV !== 'production') {
+          console.error(error)
+        }
+      }
+    },
+    [passwordInput],
+  )
+
+  return (
+    <div className="space-y-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-[#18181b] dark:bg-zinc-900/40">
+      <div>
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          Unlock all achievements
+        </p>
+        <p className="text-sm text-zinc-600 dark:text-zinc-300">
+          Enter the solutions passphrase to unlock every achievement.
+        </p>
+      </div>
+      <form className="space-y-2" onSubmit={handleUnlockSubmit}>
+        <label className="text-xs font-semibold uppercase text-zinc-500 dark:text-zinc-400">
+          Passphrase
+        </label>
+        <div className="flex gap-2">
+          <input
+            type="password"
+            value={passwordInput}
+            onChange={(event) => setPasswordInput(event.target.value)}
+            className="flex-1 rounded-xl border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100"
+            placeholder="Passphrase"
+          />
+          <button
+            type="submit"
+            className="rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-400 disabled:opacity-60"
+            disabled={!passwordInput.trim()}
+          >
+            Unlock
+          </button>
+        </div>
+        {passwordError && (
+          <p className="text-xs text-red-600 dark:text-red-300">{passwordError}</p>
+        )}
+        {successMessage && (
+          <p className="text-xs text-emerald-600 dark:text-emerald-300">{successMessage}</p>
+        )}
+      </form>
+    </div>
+  )
+}
+
+const DataTransferPanel = () => {
+  const [status, setStatus] = useState<string | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  const fileInputRef = useRef<HTMLInputElement | null>(null)
+
+  const collectLocalStorage = useCallback(() => {
+    const data: Record<string, string> = {}
+    if (typeof window === 'undefined') return data
+    for (let i = 0; i < window.localStorage.length; i += 1) {
+      const key = window.localStorage.key(i)
+      if (!key) continue
+      const value = window.localStorage.getItem(key)
+      if (value !== null) {
+        data[key] = value
+      }
+    }
+    return data
+  }, [])
+
+  const handleExport = useCallback(() => {
+    if (typeof window === 'undefined') return
+    setStatus(null)
+    setError(null)
+    const payload = {
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      data: collectLocalStorage(),
+    }
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {
+      type: 'application/json',
+    })
+    const url = URL.createObjectURL(blob)
+    const anchor = document.createElement('a')
+    const dateStamp = new Date().toISOString().slice(0, 10)
+    anchor.href = url
+    anchor.download = `metro-memory-export-${dateStamp}.json`
+    anchor.click()
+    URL.revokeObjectURL(url)
+    setStatus('Exported data successfully.')
+  }, [collectLocalStorage])
+
+  const handleImportFile = useCallback(async (file: File) => {
+    setStatus(null)
+    setError(null)
+    try {
+      const text = await file.text()
+      const parsed = JSON.parse(text)
+      const rawData =
+        parsed && typeof parsed === 'object' && !Array.isArray(parsed) && 'data' in parsed
+          ? (parsed as { data?: Record<string, unknown> }).data
+          : parsed
+      if (!rawData || typeof rawData !== 'object' || Array.isArray(rawData)) {
+        setError('Invalid file format.')
+        return
+      }
+      const entries = rawData as Record<string, unknown>
+      if (typeof window !== 'undefined') {
+        Object.entries(entries).forEach(([key, value]) => {
+          if (value === null || value === undefined) {
+            window.localStorage.removeItem(key)
+            return
+          }
+          if (typeof value === 'string') {
+            window.localStorage.setItem(key, value)
+          } else {
+            window.localStorage.setItem(key, JSON.stringify(value))
+          }
+        })
+        window.dispatchEvent(new Event('storage'))
+        window.dispatchEvent(new Event(LOCAL_PROGRESS_EVENT))
+      }
+      setStatus('Import complete. Refresh if anything looks stale.')
+    } catch (err) {
+      setError('Unable to import file.')
+    }
+  }, [])
+
+  const handleImportClick = useCallback(() => {
+    fileInputRef.current?.click()
+  }, [])
+
+  return (
+    <div className="space-y-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-[#18181b] dark:bg-zinc-900/40">
+      <div>
+        <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          Import & Export
+        </p>
+        <p className="text-sm text-zinc-600 dark:text-zinc-400">
+          Backup or restore settings, progress, achievements, and preferences (localStorage).
+        </p>
+      </div>
+      <div className="flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={handleExport}
+          className="rounded-full bg-[var(--accent-600)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--accent-500)]"
+        >
+          Export data
+        </button>
+        <button
+          type="button"
+          onClick={handleImportClick}
+          className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 dark:border-[#18181b] dark:text-zinc-100 dark:hover:bg-zinc-800"
+        >
+          Import data
+        </button>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="application/json"
+          className="hidden"
+          onChange={(event) => {
+            const file = event.target.files?.[0]
+            if (file) {
+              void handleImportFile(file)
+            }
+            event.target.value = ''
+          }}
+        />
+      </div>
+      {status && <p className="text-xs text-emerald-600 dark:text-emerald-300">{status}</p>}
+      {error && <p className="text-xs text-red-600 dark:text-red-300">{error}</p>}
+    </div>
+  )
+}
+
 const CITY_NAME_LOOKUP = new Map<string, string>()
 cities.forEach((city) => {
   const full = city.link.replace(/^\//, '')
@@ -776,6 +1141,50 @@ const clearLocalProgressStorage = (slugs?: string[]) => {
   }
   keysToRemove.forEach((key) => window.localStorage.removeItem(key))
   return keysToRemove.length
+}
+
+const ACHIEVEMENT_STORAGE_KEYS = [
+  'mm-achievements-earned',
+  'mm-completions',
+  'mm-play-days',
+  'mm-streak-count',
+  'mm-last-play-date',
+  'mm-play-months',
+  'mm-weekend-streak',
+  'mm-weekend-last',
+  'mm-line-master-keys',
+  'mm-map-names-toggles',
+  'mm-global-unique-stations',
+  'mm-favorites-completed',
+  'mm-stats-opened',
+]
+
+const ACHIEVEMENT_STORAGE_PREFIXES = [
+  'mm-city-unique-stations-',
+  'speedrun-best-',
+  'speedrun-start-',
+]
+
+const clearAchievementStorage = () => {
+  if (typeof window === 'undefined') {
+    return 0
+  }
+  let removed = 0
+  ACHIEVEMENT_STORAGE_KEYS.forEach((key) => {
+    if (window.localStorage.getItem(key) !== null) {
+      window.localStorage.removeItem(key)
+      removed += 1
+    }
+  })
+  for (let i = 0; i < window.localStorage.length; i += 1) {
+    const key = window.localStorage.key(i)
+    if (!key) continue
+    if (ACHIEVEMENT_STORAGE_PREFIXES.some((prefix) => key.startsWith(prefix))) {
+      window.localStorage.removeItem(key)
+      removed += 1
+    }
+  }
+  return removed
 }
 
 const ResetProgressButton = ({
@@ -922,6 +1331,7 @@ const ResetProgressButton = ({
       const clearedKeys = clearLocalProgressStorage(
         targets.length > 0 ? targets : undefined,
       )
+      clearAchievementStorage()
       if (isAuthenticated) {
         const response = await fetch('/api/progress/reset', {
           method: 'POST',

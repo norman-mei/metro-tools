@@ -31,6 +31,7 @@ import { useSettings } from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity, getMasterAchievementDefinition } from '@/lib/achievements'
 import { ICity, cities } from '@/lib/citiesConfig'
+import { GLOBAL_ACHIEVEMENTS } from '@/lib/globalAchievements'
 import { STATION_TOTALS } from '@/lib/stationTotals'
 
 
@@ -354,6 +355,7 @@ const COUNTRY_LABEL_OVERRIDES: Record<string, string> = {
   'south-korea': 'South Korea',
   'north-korea': 'North Korea',
   'new-zealand': 'New Zealand',
+  global: 'Main',
   'secret-fun': 'Secret & Fun',
 }
 
@@ -634,398 +636,17 @@ const SearcheableCitiesList = ({
   }, [cityAchievementCatalog.length])
 
   const extraAchievements: AchievementMeta[] = useMemo(
-    () => [
-      {
-        slug: 'speedrunner-1',
+    () =>
+      GLOBAL_ACHIEVEMENTS.map((entry) => ({
+        slug: entry.slug,
         cityName: 'Global',
-        title: 'Speedrunner I',
-        description: 'Complete a city (<150 stations) in under 10 minutes with Speedrun Mode.',
+        title: entry.title,
+        description: entry.description,
         continent: 'Global',
-        country: 'global',
-        order: 10_001,
+        country: entry.country ?? 'global',
+        order: entry.order,
         iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'speedrunner-2',
-        cityName: 'Global',
-        title: 'Speedrunner II',
-        description: 'Complete a city (150-500 stations) in under 30 minutes with Speedrun Mode.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_001,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'speedrunner-3',
-        cityName: 'Global',
-        title: 'Speedrunner III',
-        description: 'Complete a city (≤1000 stations) in under 75 minutes with Speedrun Mode.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_001,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'speedrunner-4',
-        cityName: 'Global',
-        title: 'Speedrunner IV',
-        description: 'Complete a city (1000+ stations) in under 90 minutes with Speedrun Mode.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_001,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'flawless',
-        cityName: 'Global',
-        title: 'Flawless Route',
-        description: 'Complete any city with zero mistakes.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_002,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'almost-flawless',
-        cityName: 'Global',
-        title: 'Almost Flawless',
-        description: 'Complete any city with two or fewer mistakes.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_003,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'comeback-kid',
-        cityName: 'Global',
-        title: 'Comeback Kid',
-        description: 'Recover from under 50% to finish a city.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_004,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'line-master',
-        cityName: 'Global',
-        title: 'Line Master',
-        description: 'Complete every station on any single line.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_005,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'explorer-3',
-        cityName: 'Global',
-        title: 'Rookie Explorer',
-        description: 'Complete 3 different cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_010,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'explorer-10',
-        cityName: 'Global',
-        title: 'Explorer',
-        description: 'Complete 10 different cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_011,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'explorer-25',
-        cityName: 'Global',
-        title: 'Seasoned Explorer',
-        description: 'Complete 25 different cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_012,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'explorer-50',
-        cityName: 'Global',
-        title: 'Ultimate Explorer',
-        description: 'Complete 50 different cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_013,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'daily-normal',
-        cityName: 'Global',
-        title: 'Daily Grinder',
-        description: 'Play on 1 day.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_020,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'daily-super',
-        cityName: 'Global',
-        title: 'Super Daily Grinder',
-        description: 'Play on 5 different days.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_021,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'daily-ultra',
-        cityName: 'Global',
-        title: 'Ultra Daily Grinder',
-        description: 'Play on 15 different days.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_022,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'daily-ultimate',
-        cityName: 'Global',
-        title: 'Ultimate Daily Grinder',
-        description: 'Play on 30 different days.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_023,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'streak-7',
-        cityName: 'Global',
-        title: 'Streak Saver I',
-        description: 'Maintain a 7-day play streak.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_030,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'streak-30',
-        cityName: 'Global',
-        title: 'Streak Saver II',
-        description: 'Maintain a 30-day play streak.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_031,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'streak-90',
-        cityName: 'Global',
-        title: 'Streak Saver III',
-        description: 'Maintain a 90-day play streak.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_032,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'streak-180',
-        cityName: 'Global',
-        title: 'Streak Saver IV',
-        description: 'Maintain a 180-day play streak.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_033,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'twin-city',
-        cityName: 'Global',
-        title: 'Twin City',
-        description: 'Complete two cities from different continents on the same day.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_040,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'station-collector',
-        cityName: 'Global',
-        title: 'Station Collector',
-        description: 'Find 1,000 stations across all cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_041,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'line-finisher',
-        cityName: 'Global',
-        title: 'Line Finisher',
-        description: 'Complete 5 different lines.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_042,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'big-city-tamer',
-        cityName: 'Global',
-        title: 'Big City Tamer',
-        description: 'Complete a city with 1,500+ stations.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_043,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'all-rounder',
-        cityName: 'Global',
-        title: 'All Rounder',
-        description: 'Complete cities on 3 different continents.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_044,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'globe-trotter',
-        cityName: 'Global',
-        title: 'Globe Trotter',
-        description: 'Complete cities on 6 different continents.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_045,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'marathoner',
-        cityName: 'Global',
-        title: 'Marathoner',
-        description: 'Find 10,000 stations across all cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_046,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'consistent-runner',
-        cityName: 'Global',
-        title: 'Consistent Runner',
-        description: 'Finish a speedrun without leaving the tab.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_047,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'typo-free',
-        cityName: 'Global',
-        title: 'Typo Free',
-        description: 'Complete a city without using backspace or delete.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_048,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'perfect-start',
-        cityName: 'Global',
-        title: 'Perfect Start',
-        description: 'Make 25 correct guesses in a row to start a city.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_049,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'never-repeat',
-        cityName: 'Global',
-        title: 'Never Repeat',
-        description: 'Complete a city without guessing an already-found station.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_050,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'weekend-warrior',
-        cityName: 'Global',
-        title: 'Weekend Warrior',
-        description: 'Play on 8 consecutive weekends.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_051,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'monthly-commuter',
-        cityName: 'Global',
-        title: 'Monthly Commuter',
-        description: 'Play in 3 different months.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_052,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'favorites-first',
-        cityName: 'Global',
-        title: 'Favorites First',
-        description: 'Complete 5 favorited cities.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_053,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'underdog',
-        cityName: 'Global',
-        title: 'Underdog',
-        description: 'Complete a city with fewer than 20 stations.',
-        continent: 'Global',
-        country: 'global',
-        order: 10_054,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'golden-ratio',
-        cityName: 'Global',
-        title: 'Golden Ratio',
-        description: '???',
-        continent: 'Global',
-        country: 'secret-fun',
-        order: 10_101,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'the-commuter',
-        cityName: 'Global',
-        title: 'The Commuter',
-        description: '???',
-        continent: 'Global',
-        country: 'secret-fun',
-        order: 10_102,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'the-archivist',
-        cityName: 'Global',
-        title: 'The Archivist',
-        description: '???',
-        continent: 'Global',
-        country: 'secret-fun',
-        order: 10_103,
-        iconSrc: '/favicon.ico',
-      },
-      {
-        slug: 'the-cartographer',
-        cityName: 'Global',
-        title: 'The Cartographer',
-        description: '???',
-        continent: 'Global',
-        country: 'secret-fun',
-        order: 10_104,
-        iconSrc: '/favicon.ico',
-      },
-    ],
+      })),
     [],
   )
 
@@ -1721,9 +1342,7 @@ const SearcheableCitiesList = ({
       )
       const averagePercent = total > 0 ? unlocked / total : 0
 
-      const countries = group.continent === 'Global'
-        ? []
-        : group.countries.map((country) => {
+      const countries = group.countries.map((country) => {
         const countryTotal = country.entries.length
         const countryUnlocked = country.entries.filter((entry) =>
           unlockedSet.has(entry.slug),
@@ -2623,8 +2242,51 @@ const SearcheableCitiesList = ({
                 </button>
               )}
             </div>
-          </div>
+            </div>
            </>
+        )}
+        {activeTab === 'achievements' && (
+          <>
+            <div className="h-px w-full bg-zinc-200/80 dark:bg-zinc-800/80" />
+            <div className="flex flex-col gap-2 transition-all lg:flex-row lg:items-center lg:justify-between">
+              <div className="relative w-full">
+                <input
+                  value={achievementSearch}
+                  onChange={(event) => setAchievementSearch(event.target.value)}
+                  type="text"
+                  placeholder={t('searchAchievements')}
+                  className="block w-full rounded-full border-0 px-4 py-2.5 pl-10 text-base text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] sm:px-10 sm:py-4 sm:leading-6 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
+                />
+                <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400 dark:text-zinc-400 sm:left-auto sm:right-0 sm:pl-0 sm:pr-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" className="sm:h-8 sm:w-8">
+                    <path
+                      fill="currentColor"
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-row sm:items-center lg:w-auto">
+                <div className="w-full sm:w-56">
+                  <label className="sr-only" htmlFor="achievement-sort">
+                    {t('sortAchievements')}
+                  </label>
+                  <select
+                    id="achievement-sort"
+                    value={achievementSort}
+                    onChange={(event) => setAchievementSort(event.target.value as AchievementSortOption)}
+                    className="w-full rounded-full border-0 bg-white px-4 py-2.5 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:py-3 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+                  >
+                    {ACHIEVEMENT_SORT_OPTIONS.map((option) => (
+                      <option key={option.value} value={option.value}>
+                        {t(option.label)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            </div>
+          </>
         )}
         </div>
 
@@ -2938,10 +2600,6 @@ const SearcheableCitiesList = ({
           items={visibleAchievements}
           groups={achievementGroups}
           unlockedData={unlockedData}
-          searchValue={achievementSearch}
-          onSearchChange={setAchievementSearch}
-          sortOption={achievementSort}
-          onSortChange={setAchievementSort}
           totalCount={achievementCatalog.length}
           totalUnlocked={unlockedData.size}
           timezone={settings.timezone}
@@ -3047,10 +2705,6 @@ const Achievements = ({
   items,
   groups,
   unlockedData,
-  searchValue,
-  onSearchChange,
-  sortOption,
-  onSortChange,
   totalCount,
   totalUnlocked,
   timezone,
@@ -3058,10 +2712,6 @@ const Achievements = ({
   items: AchievementMeta[]
   groups: AchievementContinentGroup[]
   unlockedData: Map<string, number>
-  searchValue: string
-  onSearchChange: (value: string) => void
-  sortOption: AchievementSortOption
-  onSortChange: (value: AchievementSortOption) => void
   totalCount: number
   totalUnlocked: number
   timezone?: string
@@ -3144,42 +2794,6 @@ const Achievements = ({
 
   return (
     <div className="space-y-4">
-      <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-        <div className="relative w-full md:max-w-sm">
-          <input
-            value={searchValue}
-            onChange={(event) => onSearchChange(event.target.value)}
-            type="text"
-            placeholder={t('searchAchievements')}
-            className="block w-full rounded-full border-0 px-10 py-3 text-base text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
-          />
-          <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 dark:text-zinc-400">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
-              />
-            </svg>
-          </div>
-        </div>
-        <div className="w-full md:w-64">
-                <label className="sr-only" htmlFor="achievement-sort">
-                  {t('sortAchievements')}
-                </label>
-          <select
-            id="achievement-sort"
-            value={sortOption}
-            onChange={(event) => onSortChange(event.target.value as AchievementSortOption)}
-            className="w-full rounded-full border-0 bg-white px-4 py-3 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
-          >
-            {ACHIEVEMENT_SORT_OPTIONS.map((option) => (
-              <option key={option.value} value={option.value}>
-                {t(option.label)}
-              </option>
-            ))}
-          </select>
-        </div>
-      </div>
       <div className="flex flex-col gap-1 text-sm font-semibold md:flex-row md:items-center md:gap-6">
         <span className="text-emerald-600">
           {t('unlockedAchievements', { unlocked: totalUnlocked, total: totalCount })}
@@ -3229,66 +2843,46 @@ const Achievements = ({
                   headingClassName="text-xl font-semibold text-zinc-800 dark:text-zinc-100"
                   contentClassName="mt-4"
                 >
-                  {group.continent === 'Global' ? (
-                    <div className="space-y-8">
-                      {group.countries.map((country) => {
-                        const label = formatCountryLabel(country.country)
-                        return (
-                          <div key={country.country} className="space-y-4">
-                            {group.countries.length > 1 && (
-                              <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
-                                {label}
-                              </div>
-                            )}
-                            <div className="space-y-4">
-                              {country.entries.map((meta) => renderAchievementCard(meta))}
-                            </div>
-                          </div>
-                        )
-                      })}
-                    </div>
-                  ) : (
-                    <div className="space-y-8">
-                      {group.countries.map((country) => {
-                        const countryUnlocked = country.entries.filter((entry) =>
-                          unlockedSet.has(entry.slug),
-                        ).length
-                        const countryTotal = country.entries.length
-                        const countryProgress = countryTotal > 0 ? countryUnlocked / countryTotal : 0
-                        const countryHeaderColor = getGradientColor(countryProgress)
-                        const countryProgressLabel = `${(countryProgress * 100).toFixed(2)}%`
-                        const countryLabel = formatCountryLabel(country.country)
-                        const countryCountLabel = t('cityCount', { count: countryTotal })
-                        const countrySectionId = getCountrySectionId(group.continent, country.country)
+                  <div className="space-y-8">
+                    {group.countries.map((country) => {
+                      const countryUnlocked = country.entries.filter((entry) =>
+                        unlockedSet.has(entry.slug),
+                      ).length
+                      const countryTotal = country.entries.length
+                      const countryProgress = countryTotal > 0 ? countryUnlocked / countryTotal : 0
+                      const countryHeaderColor = getGradientColor(countryProgress)
+                      const countryProgressLabel = `${(countryProgress * 100).toFixed(2)}%`
+                      const countryLabel = formatCountryLabel(country.country)
+                      const countryCountLabel = t('cityCount', { count: countryTotal })
+                      const countrySectionId = getCountrySectionId(group.continent, country.country)
 
-                        return (
-                          <CollapsibleSection
-                            key={country.country}
-                            sectionId={countrySectionId}
-                            title={
-                              <span style={{ color: countryHeaderColor }}>
-                                {countryLabel} · {countryCountLabel}{' '}
-                                <span
-                                  className="text-sm font-semibold"
-                                  style={{ color: countryHeaderColor }}
-                                >
-                                  ({countryProgressLabel})
-                                </span>
+                      return (
+                        <CollapsibleSection
+                          key={country.country}
+                          sectionId={countrySectionId}
+                          title={
+                            <span style={{ color: countryHeaderColor }}>
+                              {countryLabel} · {countryCountLabel}{' '}
+                              <span
+                                className="text-sm font-semibold"
+                                style={{ color: countryHeaderColor }}
+                              >
+                                ({countryProgressLabel})
                               </span>
-                            }
-                            titleAs="h4"
-                            className="space-y-4"
-                            headingClassName="text-lg font-semibold"
-                            contentClassName="mt-4"
-                          >
-                            <div className="space-y-4">
-                              {country.entries.map((meta) => renderAchievementCard(meta))}
-                            </div>
-                          </CollapsibleSection>
-                        )
-                      })}
-                    </div>
-                  )}
+                            </span>
+                          }
+                          titleAs="h4"
+                          className="space-y-4"
+                          headingClassName="text-lg font-semibold"
+                          contentClassName="mt-4"
+                        >
+                          <div className="space-y-4">
+                            {country.entries.map((meta) => renderAchievementCard(meta))}
+                          </div>
+                        </CollapsibleSection>
+                      )
+                    })}
+                  </div>
                 </CollapsibleSection>
                 {index < groups.length - 1 && (
                   <footer>

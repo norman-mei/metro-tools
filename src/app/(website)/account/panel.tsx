@@ -7,6 +7,7 @@ import {
   useCallback,
   useEffect,
   useMemo,
+  useRef,
   useState,
 } from 'react'
 import Image from 'next/image'
@@ -31,6 +32,8 @@ type LoginFormState = {
   password: string
   rememberMe: boolean
 }
+
+const DELETE_HOLD_DURATION_MS = 10_000
 
 const citySlugMap = new Map(
   cities
@@ -102,6 +105,14 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
   const [syncedOpen, setSyncedOpen] = useState<boolean>(syncedOpenStored)
   const [syncedSearch, setSyncedSearch] = useState('')
   const [syncedSort, setSyncedSort] = useState<'name-asc' | 'name-desc' | 'progress-desc' | 'progress-asc'>('name-asc')
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false)
+  const [deleteStep, setDeleteStep] = useState<0 | 1>(0)
+  const [deleteStatus, setDeleteStatus] = useState<'idle' | 'deleting' | 'success' | 'error'>('idle')
+  const [deleteMessage, setDeleteMessage] = useState<string | null>(null)
+  const [deleteHoldProgress, setDeleteHoldProgress] = useState(0)
+  const deleteHoldStartRef = useRef<number | null>(null)
+  const deleteHoldTimeoutRef = useRef<number | null>(null)
+  const deleteHoldRafRef = useRef<number | null>(null)
 
   useEffect(() => {
     setSyncedOpen(syncedOpenStored)
@@ -283,6 +294,106 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
     logoutLocally()
     await refresh()
   }, [logoutLocally, refresh])
+
+  const clearDeleteHoldTracking = useCallback(() => {
+    if (deleteHoldTimeoutRef.current) {
+      window.clearTimeout(deleteHoldTimeoutRef.current)
+      deleteHoldTimeoutRef.current = null
+    }
+    if (deleteHoldRafRef.current) {
+      window.cancelAnimationFrame(deleteHoldRafRef.current)
+      deleteHoldRafRef.current = null
+    }
+    deleteHoldStartRef.current = null
+  }, [])
+
+  useEffect(
+    () => () => {
+      clearDeleteHoldTracking()
+    },
+    [clearDeleteHoldTracking],
+  )
+
+  const openDeleteDialog = useCallback(() => {
+    setDeleteDialogOpen(true)
+    setDeleteStep(0)
+    setDeleteStatus('idle')
+    setDeleteMessage(null)
+    setDeleteHoldProgress(0)
+    clearDeleteHoldTracking()
+  }, [clearDeleteHoldTracking])
+
+  const closeDeleteDialog = useCallback(() => {
+    if (deleteStatus === 'deleting') return
+    setDeleteDialogOpen(false)
+    setDeleteStep(0)
+    setDeleteStatus('idle')
+    setDeleteMessage(null)
+    setDeleteHoldProgress(0)
+    clearDeleteHoldTracking()
+  }, [clearDeleteHoldTracking, deleteStatus])
+
+  const runDeleteAccount = useCallback(async () => {
+    setDeleteStatus('deleting')
+    setDeleteMessage(null)
+    try {
+      const response = await fetch('/api/auth/delete', { method: 'POST' })
+      if (response.status === 401) {
+        setDeleteStatus('error')
+        setDeleteMessage('Please sign in again to delete your account.')
+        logoutLocally()
+        return
+      }
+      if (!response.ok) {
+        throw new Error('Failed to delete account')
+      }
+      setDeleteStatus('success')
+      setDeleteMessage('Account deleted.')
+      logoutLocally()
+      setTimeout(() => {
+        setDeleteDialogOpen(false)
+      }, 1200)
+    } catch (error) {
+      setDeleteStatus('error')
+      setDeleteMessage('Unable to delete account. Try again.')
+      if (process.env.NODE_ENV !== 'production') {
+        console.error(error)
+      }
+    } finally {
+      setDeleteHoldProgress(0)
+      clearDeleteHoldTracking()
+    }
+  }, [clearDeleteHoldTracking, logoutLocally])
+
+  const completeDeleteHold = useCallback(() => {
+    clearDeleteHoldTracking()
+    setDeleteHoldProgress(1)
+    void runDeleteAccount()
+  }, [clearDeleteHoldTracking, runDeleteAccount])
+
+  const startDeleteHold = useCallback(() => {
+    if (deleteStatus === 'deleting') return
+    setDeleteMessage(null)
+    deleteHoldStartRef.current = performance.now()
+    deleteHoldTimeoutRef.current = window.setTimeout(
+      completeDeleteHold,
+      DELETE_HOLD_DURATION_MS,
+    )
+    const tick = () => {
+      if (deleteHoldStartRef.current === null) return
+      const elapsed = performance.now() - deleteHoldStartRef.current
+      setDeleteHoldProgress(Math.min(elapsed / DELETE_HOLD_DURATION_MS, 1))
+      if (elapsed < DELETE_HOLD_DURATION_MS && deleteHoldTimeoutRef.current !== null) {
+        deleteHoldRafRef.current = window.requestAnimationFrame(tick)
+      }
+    }
+    deleteHoldRafRef.current = window.requestAnimationFrame(tick)
+  }, [completeDeleteHold, deleteStatus])
+
+  const cancelDeleteHold = useCallback(() => {
+    clearDeleteHoldTracking()
+    setDeleteHoldProgress(0)
+  }, [clearDeleteHoldTracking])
 
   const handleEmailFieldChange =
     (field: keyof typeof emailForm) => (event: ChangeEvent<HTMLInputElement>) => {
@@ -664,6 +775,23 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
               </button>
             </form>
           </div>
+          <div className="mt-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm dark:border-red-900/60 dark:bg-red-950/40">
+            <div>
+              <p className="text-base font-semibold text-red-900 dark:text-red-200">
+                Delete account
+              </p>
+              <p className="text-red-700 dark:text-red-300">
+                Delete your account and synced progress permanently.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={openDeleteDialog}
+              className="mt-3 inline-flex items-center justify-center rounded-full border border-red-500 bg-red-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-red-500/40"
+            >
+              Delete account
+            </button>
+          </div>
         </section>
       ) : (
         <div className="grid gap-8 lg:grid-cols-[1.35fr,1fr]">
@@ -841,6 +969,113 @@ export default function AccountDashboard({ showHeading = true }: { showHeading?:
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
           {t('accountCheckingStatus')}
         </p>
+      )}
+      {deleteDialogOpen && (
+        <div className="fixed inset-0 z-[90] flex items-center justify-center bg-black/50 p-4">
+          <div className="w-full max-w-lg rounded-2xl bg-white p-6 shadow-xl dark:bg-zinc-900">
+            <div className="flex items-start gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600 dark:bg-red-900/40 dark:text-red-300">
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  className="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M12 9v4" />
+                  <path d="M12 17h.01" />
+                  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                  Delete account
+                </h3>
+                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                  This permanently deletes your account and all synced progress. This cannot be undone.
+                </p>
+              </div>
+            </div>
+            {deleteStep === 0 ? (
+              <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:justify-end">
+                <button
+                  type="button"
+                  onClick={closeDeleteDialog}
+                  className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setDeleteStep(1)}
+                  className="rounded-full bg-red-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-500"
+                >
+                  I understand
+                </button>
+              </div>
+            ) : (
+              <div className="mt-6 space-y-3">
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">
+                  Hold the button for 10 seconds to confirm deletion.
+                </p>
+                <button
+                  type="button"
+                  className="relative w-full rounded-full border border-red-500 bg-red-600 px-4 py-2 text-sm font-semibold text-white transition focus:outline-none focus:ring-2 focus:ring-red-500/40 disabled:cursor-not-allowed disabled:opacity-70"
+                  onPointerDown={startDeleteHold}
+                  onPointerUp={cancelDeleteHold}
+                  onPointerLeave={cancelDeleteHold}
+                  onPointerCancel={cancelDeleteHold}
+                  onKeyDown={(event) => {
+                    if (event.code === 'Space' || event.code === 'Enter') {
+                      event.preventDefault()
+                      startDeleteHold()
+                    }
+                  }}
+                  onKeyUp={(event) => {
+                    if (event.code === 'Space' || event.code === 'Enter') {
+                      event.preventDefault()
+                      cancelDeleteHold()
+                    }
+                  }}
+                  disabled={deleteStatus === 'deleting'}
+                >
+                  {deleteStatus === 'deleting'
+                    ? 'Deleting...'
+                    : 'Hold to delete account'}
+                </button>
+                <div className="h-1 w-full rounded-full bg-red-200 dark:bg-red-900/40">
+                  <div
+                    className="h-full rounded-full bg-red-600 transition-[width] dark:bg-red-400"
+                    style={{ width: `${Math.min(deleteHoldProgress, 1) * 100}%` }}
+                  />
+                </div>
+                <div className="flex flex-col gap-2 sm:flex-row sm:justify-end">
+                  <button
+                    type="button"
+                    onClick={closeDeleteDialog}
+                    className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            )}
+            {deleteMessage && (
+              <p
+                className={`mt-4 text-sm font-semibold ${
+                  deleteStatus === 'success'
+                    ? 'text-emerald-600 dark:text-emerald-400'
+                    : 'text-red-600 dark:text-red-300'
+                }`}
+              >
+                {deleteMessage}
+              </p>
+            )}
+          </div>
+        </div>
       )}
     </div>
   )

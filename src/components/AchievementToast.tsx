@@ -11,6 +11,7 @@ type AchievementToastProps = {
   cityName: string
   title: string
   description: string
+  durationMs?: number
   onClose: () => void
   onDontShowAgain: () => void
 }
@@ -21,6 +22,7 @@ const AchievementToast = ({
   cityName,
   title,
   description,
+  durationMs = 15000,
   onClose,
   onDontShowAgain,
 }: AchievementToastProps) => {
@@ -28,9 +30,9 @@ const AchievementToast = ({
 
   useEffect(() => {
     if (!open) return
-    const timeout = window.setTimeout(onClose, 15_000)
+    const timeout = window.setTimeout(onClose, durationMs)
     return () => window.clearTimeout(timeout)
-  }, [open, onClose])
+  }, [open, onClose, durationMs])
 
   return (
     <Transition
