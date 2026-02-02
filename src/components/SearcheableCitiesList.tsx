@@ -122,6 +122,20 @@ type TabOption =
   | 'privacy'
   | 'support'
 
+const TAB_EMOJIS: Record<TabOption, string> = {
+  cities: '🏙️',
+  achievements: '🏆',
+  updateLog: '🕒',
+  account: '👤',
+  globalStats: '📊',
+  settings: '⚙️',
+  credits: '✨',
+  privacy: '🔒',
+  testimonials: '💬',
+  press: '📰',
+  support: '🤝',
+}
+
 type UpdateLogStatus = 'idle' | 'loading' | 'success' | 'error'
 
 type UpdateLogEntry = {
@@ -398,6 +412,37 @@ type SearcheableCitiesListProps = {
   pressContent?: ReactNode
 }
 
+type AchievementMetrics = {
+  playDays: number
+  streak: number
+  playMonths: number
+  weekendStreak: number
+  globalStations: number
+  lineMasterKeys: number
+  mapNamesToggles: number
+  favoritesCompleted: number
+  uniqueCities: number
+  uniqueContinents: number
+}
+
+const DEFAULT_ACHIEVEMENT_METRICS: AchievementMetrics = {
+  playDays: 0,
+  streak: 0,
+  playMonths: 0,
+  weekendStreak: 0,
+  globalStations: 0,
+  lineMasterKeys: 0,
+  mapNamesToggles: 0,
+  favoritesCompleted: 0,
+  uniqueCities: 0,
+  uniqueContinents: 0,
+}
+
+type AchievementProgressData = {
+  current: number
+  target: number
+}
+
 const clamp01 = (value: number) => Math.max(0, Math.min(1, value))
 
 const mixChannel = (start: number, end: number, t: number) =>
@@ -472,6 +517,9 @@ const SearcheableCitiesList = ({
   const [achievementSearch, setAchievementSearch] = useState('')
   const [achievementSort, setAchievementSort] = useState<AchievementSortOption>('default')
   const [unlockedData, setUnlockedData] = useState<Map<string, number>>(new Map())
+  const [achievementMetrics, setAchievementMetrics] = useState<AchievementMetrics>(
+    DEFAULT_ACHIEVEMENT_METRICS,
+  )
   const { settings } = useSettings()
   const [updateLogState, setUpdateLogState] = useState<UpdateLogState>({
     status: 'idle',
@@ -639,7 +687,7 @@ const SearcheableCitiesList = ({
     () =>
       GLOBAL_ACHIEVEMENTS.map((entry) => ({
         slug: entry.slug,
-        cityName: 'Global',
+        cityName: entry.country === 'secret-fun' ? 'Secret & Fun' : 'Main',
         title: entry.title,
         description: entry.description,
         continent: 'Global',
@@ -1266,6 +1314,10 @@ const SearcheableCitiesList = ({
 
   const unlockedSet = useMemo(() => new Set(unlockedData.keys()), [unlockedData])
   const allAchievementSlugs = useMemo(() => achievementCatalog.map((entry) => entry.slug), [achievementCatalog])
+  const cityStatsMap = useMemo(
+    () => new Map(globalStats.cityBreakdown.map((entry) => [entry.slug, entry])),
+    [globalStats.cityBreakdown],
+  )
 
   const achievementSearchSet = useMemo(() => {
     const normalized = achievementSearch.trim()
@@ -1494,6 +1546,15 @@ const SearcheableCitiesList = ({
     const computeAchievements = () => {
       if (typeof window === 'undefined') return
       const curUnlocked = new Map<string, number>()
+      const readStringArray = (key: string) => {
+        try {
+          const raw = window.localStorage.getItem(key)
+          const parsed = raw ? JSON.parse(raw) : []
+          return Array.isArray(parsed) ? parsed.filter((value) => typeof value === 'string') : []
+        } catch {
+          return []
+        }
+      }
 
       // city completion achievements (existing behavior)
       cityAchievementCatalog.forEach((entry) => {
@@ -1562,6 +1623,53 @@ const SearcheableCitiesList = ({
       }
 
       setUnlockedData(curUnlocked)
+
+      const playDays = readStringArray('mm-play-days').length
+      const playMonths = readStringArray('mm-play-months').length
+      const lineMasterKeys = readStringArray('mm-line-master-keys').length
+      const favoritesCompleted = readStringArray('mm-favorites-completed').length
+
+      let uniqueCities = 0
+      let uniqueContinents = 0
+      try {
+        const raw = window.localStorage.getItem('mm-completions')
+        const parsed = raw ? JSON.parse(raw) : []
+        if (Array.isArray(parsed)) {
+          const citySet = new Set<string>()
+          const continentSet = new Set<string>()
+          parsed.forEach((entry) => {
+            if (entry && typeof entry.city === 'string') {
+              citySet.add(entry.city)
+            }
+            if (entry && typeof entry.continent === 'string') {
+              continentSet.add(entry.continent)
+            }
+          })
+          uniqueCities = citySet.size
+          uniqueContinents = continentSet.size
+        }
+      } catch {
+        uniqueCities = 0
+        uniqueContinents = 0
+      }
+
+      const streak = Number(window.localStorage.getItem('mm-streak-count') || '0')
+      const weekendStreak = Number(window.localStorage.getItem('mm-weekend-streak') || '0')
+      const globalStations = Number(window.localStorage.getItem('mm-global-unique-stations') || '0')
+      const mapNamesToggles = Number(window.localStorage.getItem('mm-map-names-toggles') || '0')
+
+      setAchievementMetrics({
+        playDays,
+        streak,
+        playMonths,
+        weekendStreak,
+        globalStations,
+        lineMasterKeys,
+        mapNamesToggles,
+        favoritesCompleted,
+        uniqueCities,
+        uniqueContinents,
+      })
     }
 
     computeAchievements()
@@ -1572,6 +1680,58 @@ const SearcheableCitiesList = ({
       window.removeEventListener('focus', computeAchievements)
     }
   }, [cityAchievementCatalog, masterAchievement.slug])
+
+  const achievementProgress = useMemo(() => {
+    const progressMap = new Map<string, AchievementProgressData>()
+
+    cityAchievementCatalog.forEach((entry) => {
+      const stats = cityStatsMap.get(entry.slug)
+      if (!stats || stats.total <= 0) return
+      progressMap.set(entry.slug, { current: stats.found, target: stats.total })
+    })
+
+    if (cityAchievementCatalog.length > 0) {
+      progressMap.set(masterAchievement.slug, {
+        current: globalStats.completedCities,
+        target: cityAchievementCatalog.length,
+      })
+    }
+
+    const addThreshold = (slug: string, current: number, target: number) => {
+      if (target <= 0 || !Number.isFinite(current)) return
+      progressMap.set(slug, { current, target })
+    }
+
+    addThreshold('daily-normal', achievementMetrics.playDays, 1)
+    addThreshold('daily-super', achievementMetrics.playDays, 5)
+    addThreshold('daily-ultra', achievementMetrics.playDays, 15)
+    addThreshold('daily-ultimate', achievementMetrics.playDays, 30)
+    addThreshold('streak-7', achievementMetrics.streak, 7)
+    addThreshold('streak-30', achievementMetrics.streak, 30)
+    addThreshold('streak-90', achievementMetrics.streak, 90)
+    addThreshold('streak-180', achievementMetrics.streak, 180)
+    addThreshold('monthly-commuter', achievementMetrics.playMonths, 3)
+    addThreshold('weekend-warrior', achievementMetrics.weekendStreak, 8)
+    addThreshold('station-collector', achievementMetrics.globalStations, 1000)
+    addThreshold('marathoner', achievementMetrics.globalStations, 10000)
+    addThreshold('line-finisher', achievementMetrics.lineMasterKeys, 5)
+    addThreshold('explorer-3', achievementMetrics.uniqueCities, 3)
+    addThreshold('explorer-10', achievementMetrics.uniqueCities, 10)
+    addThreshold('explorer-25', achievementMetrics.uniqueCities, 25)
+    addThreshold('explorer-50', achievementMetrics.uniqueCities, 50)
+    addThreshold('all-rounder', achievementMetrics.uniqueContinents, 3)
+    addThreshold('globe-trotter', achievementMetrics.uniqueContinents, 6)
+    addThreshold('favorites-first', achievementMetrics.favoritesCompleted, 5)
+    addThreshold('the-cartographer', achievementMetrics.mapNamesToggles, 20)
+
+    return progressMap
+  }, [
+    achievementMetrics,
+    cityAchievementCatalog,
+    cityStatsMap,
+    globalStats.completedCities,
+    masterAchievement.slug,
+  ])
 
   useEffect(() => {
     if (!searchParams) return
@@ -1985,6 +2145,7 @@ const SearcheableCitiesList = ({
                   : CONTINENT_LABEL_KEYS[continent] !== undefined
                     ? t(CONTINENT_LABEL_KEYS[continent])
                     : continent
+                  const countNoun = activeTab === 'achievements' ? 'achievement' : 'city'
                   const percentLabel = `${(averagePercent * 100).toFixed(0)}%`
                   const percentColor = getGradientColor(averagePercent)
                   const isActive =
@@ -2030,7 +2191,7 @@ const SearcheableCitiesList = ({
                               )}
                             </div>
                             <div className="mt-1 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-500">
-                              <span>{cityCount} {cityCount === 1 ? 'city' : 'cities'}</span>
+                              <span>{cityCount} {cityCount === 1 ? countNoun : `${countNoun}s`}</span>
                               {isActive && (
                                   <span className="font-medium" style={{ color: percentColor }}>
                                       {percentLabel}
@@ -2140,14 +2301,27 @@ const SearcheableCitiesList = ({
                   onClick={() => {
                     setActiveTab(id)
                   }}
+                  aria-label={labelText}
                   className={classNames(
-                    'mr-2 shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold transition sm:mr-0',
+                    'group mr-2 inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold transition sm:mr-0',
                     activeTab === id
                       ? 'bg-[var(--accent-600)] text-white dark:bg-[var(--accent-500)]'
                       : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
                   )}
                 >
-                  {labelText}
+                  <span className="text-base leading-none" aria-hidden>
+                    {TAB_EMOJIS[id] ?? '•'}
+                  </span>
+                  <span className="sr-only">{labelText}</span>
+                  <span
+                    className={classNames(
+                      'max-w-0 overflow-hidden whitespace-nowrap text-sm opacity-0 transition-all duration-200',
+                      'group-hover:max-w-xs group-hover:opacity-100 group-hover:translate-x-0',
+                      'group-focus-visible:max-w-xs group-focus-visible:opacity-100 group-focus-visible:translate-x-0',
+                    )}
+                  >
+                    {labelText}
+                  </span>
                 </button>
               )
             })}
@@ -2600,6 +2774,7 @@ const SearcheableCitiesList = ({
           items={visibleAchievements}
           groups={achievementGroups}
           unlockedData={unlockedData}
+          progressMap={achievementProgress}
           totalCount={achievementCatalog.length}
           totalUnlocked={unlockedData.size}
           timezone={settings.timezone}
@@ -2705,6 +2880,7 @@ const Achievements = ({
   items,
   groups,
   unlockedData,
+  progressMap,
   totalCount,
   totalUnlocked,
   timezone,
@@ -2712,6 +2888,7 @@ const Achievements = ({
   items: AchievementMeta[]
   groups: AchievementContinentGroup[]
   unlockedData: Map<string, number>
+  progressMap: Map<string, AchievementProgressData>
   totalCount: number
   totalUnlocked: number
   timezone?: string
@@ -2719,6 +2896,8 @@ const Achievements = ({
   const { t } = useTranslation()
   const unlockedSet = useMemo(() => new Set(unlockedData.keys()), [unlockedData])
   const hasResults = items.length > 0
+  const totalProgress = totalCount > 0 ? totalUnlocked / totalCount : 0
+  const totalProgressColor = getGradientColor(totalProgress)
 
   const formatAchievementDate = (timestamp: number) => {
     if (!timestamp) return ''
@@ -2737,6 +2916,24 @@ const Achievements = ({
     const isUnlocked = unlockedSet.has(meta.slug)
     const unlockTimestamp = unlockedData.get(meta.slug) ?? 0
     const unlockDateLabel = isUnlocked ? formatAchievementDate(unlockTimestamp) : ''
+    const progressMeta = progressMap.get(meta.slug)
+    const hasProgress = Boolean(progressMeta)
+    const currentRaw = progressMeta?.current ?? 0
+    const targetRaw = progressMeta?.target ?? 0
+    const safeTarget = targetRaw > 0 ? targetRaw : 0
+    const displayCurrent = isUnlocked && safeTarget > 0 ? safeTarget : currentRaw
+    const ratio = safeTarget > 0 ? clamp01(displayCurrent / safeTarget) : 0
+    const progressRatio = hasProgress ? ratio : null
+    const showProgress = typeof progressRatio === 'number'
+    const progressColor = showProgress ? getGradientColor(progressRatio) : ''
+    const progressTrack = showProgress
+      ? getGradientColor(progressRatio).replace('hsl(', 'hsla(').replace(')', ', 0.18)')
+      : ''
+    const percentLabel = showProgress ? `${Math.round(progressRatio * 100)}%` : ''
+    const numericLabel =
+      showProgress && safeTarget > 0
+        ? `${Math.min(displayCurrent, safeTarget)} / ${safeTarget}`
+        : ''
 
     return (
       <div
@@ -2766,6 +2963,25 @@ const Achievements = ({
               {meta.title}
             </h4>
             <p className="text-sm text-zinc-600 dark:text-zinc-400">{meta.description}</p>
+            {showProgress && (
+              <div className="mt-3">
+                <div
+                  className="h-2 w-full rounded-full"
+                  style={{ background: progressTrack }}
+                >
+                  <div
+                    className="h-2 rounded-full transition-all"
+                    style={{
+                      width: `${(clamp01(progressRatio) * 100).toFixed(2)}%`,
+                      background: progressColor,
+                    }}
+                  />
+                </div>
+                <div className="mt-1 text-xs font-semibold" style={{ color: progressColor }}>
+                  {numericLabel} · {percentLabel}
+                </div>
+              </div>
+            )}
             <p className="mt-1 text-xs uppercase tracking-wide text-zinc-400 dark:text-zinc-500">
               {meta.cityName} • {meta.continent}
             </p>
@@ -2792,15 +3008,29 @@ const Achievements = ({
     )
   }
 
+  const formatAchievementCount = (count: number) =>
+    `${count} ${count === 1 ? 'achievement' : 'achievements'}`
+
   return (
     <div className="space-y-4">
-      <div className="flex flex-col gap-1 text-sm font-semibold md:flex-row md:items-center md:gap-6">
+      <div className="space-y-2">
+        <div className="h-2 w-full rounded-full bg-zinc-200 dark:bg-zinc-800">
+          <div
+            className="h-2 rounded-full transition-all"
+            style={{
+              width: `${(clamp01(totalProgress) * 100).toFixed(2)}%`,
+              background: totalProgressColor,
+            }}
+          />
+        </div>
+        <div className="flex flex-col gap-1 text-sm font-semibold md:flex-row md:items-center md:gap-6">
         <span className="text-emerald-600">
           {t('unlockedAchievements', { unlocked: totalUnlocked, total: totalCount })}
         </span>
         <span className="text-red-500">
           {t('lockedAchievements', { locked: Math.max(totalCount - totalUnlocked, 0) })}
         </span>
+        </div>
       </div>
 
       {!hasResults ? (
@@ -2823,7 +3053,7 @@ const Achievements = ({
               CONTINENT_LABEL_KEYS[group.continent] !== undefined
                 ? t(CONTINENT_LABEL_KEYS[group.continent])
                 : group.continent
-            const cityCountLabel = t('cityCount', { count: total })
+            const cityCountLabel = formatAchievementCount(total)
             const sectionId = getContinentSectionId(group.continent)
 
             return (
@@ -2853,7 +3083,7 @@ const Achievements = ({
                       const countryHeaderColor = getGradientColor(countryProgress)
                       const countryProgressLabel = `${(countryProgress * 100).toFixed(2)}%`
                       const countryLabel = formatCountryLabel(country.country)
-                      const countryCountLabel = t('cityCount', { count: countryTotal })
+                        const countryCountLabel = formatAchievementCount(countryTotal)
                       const countrySectionId = getCountrySectionId(group.continent, country.country)
 
                       return (

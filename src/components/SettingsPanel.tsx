@@ -396,7 +396,9 @@ const SettingsPanel = ({ className, showHeading = true, disableScroll = false }:
           Font type
         </p>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {FONT_FAMILY_OPTIONS.map((option) => (
+          {[...FONT_FAMILY_OPTIONS]
+            .sort((a, b) => a.label.localeCompare(b.label))
+            .map((option) => (
             <button
               key={option.id}
               type="button"
