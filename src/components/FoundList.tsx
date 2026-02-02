@@ -71,9 +71,9 @@ const getDisplayName = (feature: DataFeature) => {
     }
 
   const candidates = [
+    display_name,
     name,
     long_name,
-    display_name,
     short_name,
     propertyId,
     feature.id,
@@ -211,17 +211,25 @@ const FoundList = ({
           return found.indexOf(a) - found.indexOf(b)
         })
 
-      case 'name':
+      case 'name': {
         return sortBy(ids, (id) => {
           const feature = idMap.get(id)
-          return feature?.properties.name?.toLowerCase() ?? ''
+          const name =
+            (feature?.properties as any)?.display_name ??
+            feature?.properties.name
+          return name ? String(name).toLowerCase() : ''
         })
+      }
 
-      case 'name-desc':
+      case 'name-desc': {
         return sortBy(ids, (id) => {
           const feature = idMap.get(id)
-          return feature?.properties.name?.toLowerCase() ?? ''
+          const name =
+            (feature?.properties as any)?.display_name ??
+            feature?.properties.name
+          return name ? String(name).toLowerCase() : ''
         }).reverse()
+      }
 
       case 'line':
         return sortBy(
@@ -264,10 +272,11 @@ const FoundList = ({
       const feature = idMap.get(id)
       if (!feature) return false
 
-      const name = feature.properties.name?.toLowerCase() ?? ''
-      if (name.includes(normalizedFilter)) {
-        return true
-      }
+      const name =
+        feature.properties.display_name?.toLowerCase() ??
+        feature.properties.name?.toLowerCase() ??
+        ''
+      if (name.includes(normalizedFilter)) return true
 
       const alternates = (
         feature.properties as typeof feature.properties & {

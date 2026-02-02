@@ -1,0 +1,82 @@
+{
+  "Line1": {
+    "name": "Line 1",
+    "color": "#00944B",
+    "backgroundColor": "#00944B",
+    "textColor": "#ffffff",
+    "icon": "dalian1.png",
+    "order": 1
+  },
+  "Line2": {
+    "name": "Line 2",
+    "color": "#009AD8",
+    "backgroundColor": "#009AD8",
+    "textColor": "#ffffff",
+    "icon": "dalian2.png",
+    "order": 2
+  },
+  "Line3": {
+    "name": "Line 3",
+    "color": "#DE0079",
+    "backgroundColor": "#DE0079",
+    "textColor": "#ffffff",
+    "icon": "dalian3.png",
+    "order": 3
+  },
+  "Line4": {
+    "name": "Line 4",
+    "color": "#684E50",
+    "backgroundColor": "#684E50",
+    "textColor": "#ffffff",
+    "icon": "dalian4.png",
+    "order": 4
+  },
+  "Line5": {
+    "name": "Line 5",
+    "color": "#FF0000",
+    "backgroundColor": "#FF0000",
+    "textColor": "#ffffff",
+    "icon": "dalian5.png",
+    "order": 5
+  },
+  "Line12": {
+    "name": "Line 12",
+    "color": "#4D4498",
+    "backgroundColor": "#4D4498",
+    "textColor": "#ffffff",
+    "icon": "dalian12.png",
+    "order": 12
+  },
+  "Line13": {
+    "name": "Line 13",
+    "color": "#FFE400",
+    "backgroundColor": "#FFE400",
+    "textColor": "#ffffff",
+    "icon": "dalian13.png",
+    "order": 13
+  },
+  "Tram201": {
+    "name": "Tram Route 201",
+    "color": "#BBBBBB",
+    "backgroundColor": "#BBBBBB",
+    "textColor": "#ffffff",
+    "icon": "dalian201.png",
+    "order": 201
+  },
+  "Tram202": {
+    "name": "Tram Route 202",
+    "color": "#BBBBBB",
+    "backgroundColor": "#BBBBBB",
+    "textColor": "#ffffff",
+    "icon": "dalian202.png",
+    "order": 202
+  },
+  "HaidaCableway": {
+    "name": "Haida Cableway",
+    "color": "#008080",
+    "backgroundColor": "#008080",
+    "textColor": "#ffffff",
+    "icon": "haidacableway.png",
+    "order": 301
+  }
+}
