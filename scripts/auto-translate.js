@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable no-console */
 /**
  * Auto-translates UI strings into all supported languages using Google Translate.
  * - Scans TS/TSX for JSX text + selected attributes + string literals in JSX expressions.
