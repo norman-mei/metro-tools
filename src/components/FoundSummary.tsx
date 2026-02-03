@@ -39,6 +39,7 @@ const FoundSummary = ({
   minimizable = false,
   defaultMinimized = false,
   highlightedLineId,
+  iconBasePath,
 }: {
   className?: string
   foundStationsPerLine: Record<string, number>
@@ -49,6 +50,7 @@ const FoundSummary = ({
   minimizable?: boolean
   defaultMinimized?: boolean
   highlightedLineId?: string | null
+  iconBasePath?: string | null
 }) => {
   const { t } = useTranslation()
   const { LINES } = useConfig()
@@ -136,6 +138,7 @@ const FoundSummary = ({
           foundStationsPerLine={foundStationsPerLine}
           stationsPerLine={stationsPerLine}
           highlightedLineId={highlightedLineId}
+          iconBasePath={iconBasePath}
         />
       </div>
       {minimizable && (

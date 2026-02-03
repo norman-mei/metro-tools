@@ -5,7 +5,8 @@
     "backgroundColor": "#980F24",
     "textColor": "#FFFFFF",
     "order": 0,
-    "progressOutlineColor": "#E21936"
+    "progressOutlineColor": "#E21936",
+    "icon": "north-america/usa/pittsburgh/RD.svg"
   },
   "SV": {
     "name": "Silver Line",
@@ -13,7 +14,8 @@
     "backgroundColor": "#4F4F4F",
     "textColor": "#FFFFFF",
     "order": 1,
-    "progressOutlineColor": "#A1A2A1"
+    "progressOutlineColor": "#A1A2A1",
+    "icon": "north-america/usa/pittsburgh/SV.svg"
   },
   "BL": {
     "name": "Blue Line",
@@ -21,7 +23,8 @@
     "backgroundColor": "#00426C",
     "textColor": "#FFFFFF",
     "order": 2,
-    "progressOutlineColor": "#0076BF"
+    "progressOutlineColor": "#0076BF",
+    "icon": "north-america/usa/pittsburgh/BL.svg"
   },
   "pittsburghAPM": {
     "name": "Pittsburgh Airport Tram",
@@ -30,6 +33,6 @@
     "progressOutlineColor": "#D4687C",
     "textColor": "#FFFFFF",
     "order": 3,
-    "icon": "pittsburghAPM.png"
+    "icon": "north-america/usa/pittsburgh/pittsburghAPM.png"
   }
 }

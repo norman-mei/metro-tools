@@ -4,62 +4,71 @@
     "color": "#feda04",
     "backgroundColor": "#806E01",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "europe/hungary/budapest/BudapestMetro1.svg"
   },
   "BudapestMetro2": {
     "name": "M2",
     "color": "#ca161c",
     "backgroundColor": "#650B0E",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/hungary/budapest/BudapestMetro2.svg"
   },
   "BudapestMetro3": {
     "name": "M3",
     "color": "#025694",
     "backgroundColor": "#012B4A",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/hungary/budapest/BudapestMetro3.svg"
   },
   "BudapestMetro4": {
     "name": "M4",
     "color": "#44aa44",
     "backgroundColor": "#225522",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/hungary/budapest/BudapestMetro4.svg"
   },
   "BudapestHEV5": {
     "name": "H5",
     "color": "#8A226C",
     "backgroundColor": "#451136",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/hungary/budapest/BudapestHEV5.svg"
   },
   "BudapestHEV6": {
     "name": "H6",
     "color": "#815319",
     "backgroundColor": "#41290C",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/hungary/budapest/BudapestHEV6.svg"
   },
   "BudapestHEV7": {
     "name": "H7",
     "color": "#F29315",
     "backgroundColor": "#7D4A07",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/hungary/budapest/BudapestHEV7.svg"
   },
   "BudapestHEV8": {
     "name": "H8",
     "color": "#EC766F",
     "backgroundColor": "#991C14",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/hungary/budapest/BudapestHEV8.svg"
   },
   "BudapestHEV9": {
     "name": "H9",
     "color": "#EC766F",
     "backgroundColor": "#991C14",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "europe/hungary/budapest/BudapestHEV9.svg"
   }
 }

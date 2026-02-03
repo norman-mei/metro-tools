@@ -5,7 +5,7 @@
     "backgroundColor": "#0080BC",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "lanzhou1.png"
+    "icon": "asia/china/lanzhou/lanzhou1.png"
   },
   "lanzhou2": {
     "name": "Line 2",
@@ -13,6 +13,6 @@
     "backgroundColor": "#FF0000",
     "textColor": "#ffffff",
     "order": 2,
-    "icon": "lanzhou2.png"
+    "icon": "asia/china/lanzhou/lanzhou2.png"
   }
 }

@@ -4,27 +4,31 @@
     "color": "#ED1C24",
     "backgroundColor": "#6B0D10",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/cleveland/Red_Line.svg"
   },
   "Blue_Line": {
     "name": "Blue Line",
     "color": "#009AD9",
     "backgroundColor": "#004562",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/cleveland/Blue_Line.svg"
   },
   "Green_Line": {
     "name": "Green Line",
     "color": "#50B848",
     "backgroundColor": "#245320",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/cleveland/Green_Line.svg"
   },
   "Waterfront_Line": {
     "name": "Waterfront Line",
     "color": "#27AA90",
     "backgroundColor": "#124C41",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "north-america/usa/cleveland/Waterfront_Line.svg"
   }
 }

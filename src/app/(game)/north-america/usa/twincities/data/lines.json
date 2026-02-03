@@ -4,7 +4,8 @@
     "color": "#0069AA",
     "backgroundColor": "#0069AA",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/twincities/MAXBlue.svg"
   },
   "MAXGreen": {
     "name": "METRO Green Line",
@@ -19,7 +20,7 @@
     "backgroundColor": "#EF4D2E",
     "textColor": "#FFFFFF",
     "order": 2,
-    "icon": "HubTram.png"
+    "icon": "north-america/usa/twincities/HubTram.png"
   },
   "ConcourseCMover": {
     "name": "'C' Concourse People Mover",
@@ -27,6 +28,6 @@
     "backgroundColor": "#FFF700",
     "textColor": "#000000",
     "order": 3,
-    "icon": "ConcourseCMover.png"
+    "icon": "north-america/usa/twincities/ConcourseCMover.png"
   }
 }

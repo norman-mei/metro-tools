@@ -5,7 +5,7 @@
     "backgroundColor": "#41B4E8",
     "textColor": "#000000",
     "order": 0,
-    "icon": "100.png"
+    "icon": "north-america/usa/cincinnati/100.png"
   },
   "CincinnatiAPM": {
     "name": "Cincinnati Airport People Mover",
@@ -13,6 +13,6 @@
     "backgroundColor": "#00326C",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "CincinnatiAPM.png"
+    "icon": "north-america/usa/cincinnati/CincinnatiAPM.png"
   }
 }

@@ -4,174 +4,199 @@
     "color": "#ed1c24",
     "backgroundColor": "#7B0A0E",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/germany/karlsruhe/Karlsruhe1.svg"
   },
   "Karlsruhe17": {
     "name": "17",
     "color": "#660000",
     "backgroundColor": "#330000",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/germany/karlsruhe/Karlsruhe17.svg"
   },
   "Karlsruhe18": {
     "name": "18",
     "color": "#197248",
     "backgroundColor": "#0C3924",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/germany/karlsruhe/Karlsruhe18.svg"
   },
   "Karlsruhe2": {
     "name": "2",
     "color": "#0071bc",
     "backgroundColor": "#00385E",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/germany/karlsruhe/Karlsruhe2.svg"
   },
   "Karlsruhe3": {
     "name": "3",
     "color": "#947139",
     "backgroundColor": "#4A381C",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/germany/karlsruhe/Karlsruhe3.svg"
   },
   "Karlsruhe4": {
     "name": "4",
     "color": "#ffcb04",
     "backgroundColor": "#826700",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/germany/karlsruhe/Karlsruhe4.svg"
   },
   "Karlsruhe5": {
     "name": "5",
     "color": "#00c0f3",
     "backgroundColor": "#006079",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/germany/karlsruhe/Karlsruhe5.svg"
   },
   "Karlsruhe8": {
     "name": "8",
     "color": "#f7931d",
     "backgroundColor": "#854A05",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "europe/germany/karlsruhe/Karlsruhe8.svg"
   },
   "KarlsruheS1": {
     "name": "S1",
     "color": "#00A76D",
     "backgroundColor": "#005337",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "europe/germany/karlsruhe/KarlsruheS1.svg"
   },
   "KarlsruheS11": {
     "name": "S11",
     "color": "#00A76D",
     "backgroundColor": "#005337",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "europe/germany/karlsruhe/KarlsruheS11.svg"
   },
   "KarlsruheS12": {
     "name": "S12",
     "color": "#00A76D",
     "backgroundColor": "#005337",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "europe/germany/karlsruhe/KarlsruheS12.svg"
   },
   "KarlsruheS2": {
     "name": "S2",
     "color": "#A065AB",
     "backgroundColor": "#523058",
     "textColor": "#FFFFFF",
-    "order": 12
+    "order": 12,
+    "icon": "europe/germany/karlsruhe/KarlsruheS2.svg"
   },
   "KarlsruheS31": {
     "name": "S31",
     "color": "#00A99D",
     "backgroundColor": "#00544F",
     "textColor": "#FFFFFF",
-    "order": 13
+    "order": 13,
+    "icon": "europe/germany/karlsruhe/KarlsruheS31.svg"
   },
   "KarlsruheS32": {
     "name": "S32",
     "color": "#00A99D",
     "backgroundColor": "#00544F",
     "textColor": "#FFFFFF",
-    "order": 14
+    "order": 14,
+    "icon": "europe/germany/karlsruhe/KarlsruheS32.svg"
   },
   "KarlsruheS4": {
     "name": "S4",
     "color": "#9E184D",
     "backgroundColor": "#4F0C26",
     "textColor": "#FFFFFF",
-    "order": 15
+    "order": 15,
+    "icon": "europe/germany/karlsruhe/KarlsruheS4.svg"
   },
   "KarlsruheS41": {
     "name": "S41",
     "color": "#bed730",
     "backgroundColor": "#616E15",
     "textColor": "#FFFFFF",
-    "order": 16
+    "order": 16,
+    "icon": "europe/germany/karlsruhe/KarlsruheS41.svg"
   },
   "KarlsruheS42": {
     "name": "S42",
     "color": "#0090ad",
     "backgroundColor": "#004857",
     "textColor": "#FFFFFF",
-    "order": 17
+    "order": 17,
+    "icon": "europe/germany/karlsruhe/KarlsruheS42.svg"
   },
   "KarlsruheS5": {
     "name": "S5",
     "color": "#F69897",
     "backgroundColor": "#B71210",
     "textColor": "#FFFFFF",
-    "order": 18
+    "order": 18,
+    "icon": "europe/germany/karlsruhe/KarlsruheS5.svg"
   },
   "KarlsruheS51": {
     "name": "S51",
     "color": "#F69897",
     "backgroundColor": "#B71210",
     "textColor": "#FFFFFF",
-    "order": 19
+    "order": 19,
+    "icon": "europe/germany/karlsruhe/KarlsruheS51.svg"
   },
   "KarlsruheS52": {
     "name": "S52",
     "color": "#F69897",
     "backgroundColor": "#B71210",
     "textColor": "#FFFFFF",
-    "order": 20
+    "order": 20,
+    "icon": "europe/germany/karlsruhe/KarlsruheS52.svg"
   },
   "KarlsruheS6": {
     "name": "S6",
     "color": "#301747",
     "backgroundColor": "#180C24",
     "textColor": "#FFFFFF",
-    "order": 21
+    "order": 21,
+    "icon": "europe/germany/karlsruhe/KarlsruheS6.svg"
   },
   "KarlsruheS7": {
     "name": "S7",
     "color": "#fff200",
     "backgroundColor": "#807900",
     "textColor": "#FFFFFF",
-    "order": 22
+    "order": 22,
+    "icon": "europe/germany/karlsruhe/KarlsruheS7.svg"
   },
   "KarlsruheS71": {
     "name": "S71",
     "color": "#fff200",
     "backgroundColor": "#807900",
     "textColor": "#FFFFFF",
-    "order": 23
+    "order": 23,
+    "icon": "europe/germany/karlsruhe/KarlsruheS71.svg"
   },
   "KarlsruheS8": {
     "name": "S8",
     "color": "#6e692a",
     "backgroundColor": "#373415",
     "textColor": "#FFFFFF",
-    "order": 24
+    "order": 24,
+    "icon": "europe/germany/karlsruhe/KarlsruheS8.svg"
   },
   "KarlsruheS81": {
     "name": "S81",
     "color": "#6e692a",
     "backgroundColor": "#373415",
     "textColor": "#FFFFFF",
-    "order": 25
+    "order": 25,
+    "icon": "europe/germany/karlsruhe/KarlsruheS81.svg"
   }
 }

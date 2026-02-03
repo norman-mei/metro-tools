@@ -5,7 +5,7 @@
     "backgroundColor": "#1B5EAB",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "taiyuan1.png"
+    "icon": "asia/china/taiyuan/taiyuan1.png"
   },
   "taiyuan2": {
     "name": "Line 2",
@@ -13,6 +13,6 @@
     "backgroundColor": "#DA2B30",
     "textColor": "#ffffff",
     "order": 2,
-    "icon": "taiyuan2.png"
+    "icon": "asia/china/taiyuan/taiyuan2.png"
   }
 }

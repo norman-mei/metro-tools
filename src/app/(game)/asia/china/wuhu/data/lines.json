@@ -5,7 +5,7 @@
     "backgroundColor": "#E72718",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "wuhu1.png"
+    "icon": "asia/china/wuhu/wuhu1.png"
   },
   "wuhu2": {
     "name": "Line 2",
@@ -13,6 +13,6 @@
     "backgroundColor": "#00A3E8",
     "textColor": "#ffffff",
     "order": 2,
-    "icon": "wuhu2.png"
+    "icon": "asia/china/wuhu/wuhu2.png"
   }
 }

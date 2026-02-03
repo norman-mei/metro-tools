@@ -8732,7 +8732,8 @@
         ],
         "line": "gzline22",
         "order": 13,
-        "original_city": "gz"
+        "original_city": "gz",
+        "cluster_key": "baiyun_airport_complex"
       },
       "id": 90569
     },
@@ -9580,7 +9581,8 @@
         ],
         "line": "gzline3",
         "order": 28,
-        "original_city": "gz"
+        "original_city": "gz",
+        "cluster_key": "baiyun_airport_complex"
       },
       "id": 90095
     },

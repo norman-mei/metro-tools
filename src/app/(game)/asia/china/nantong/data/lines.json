@@ -5,7 +5,7 @@
     "backgroundColor": "#FF0000",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "nantong1.png"
+    "icon": "asia/china/nantong/nantong1.png"
   },
   "nantong2": {
     "name": "Line 2",
@@ -13,6 +13,6 @@
     "backgroundColor": "#619CD8",
     "textColor": "#ffffff",
     "order": 2,
-    "icon": "nantong2.png"
+    "icon": "asia/china/nantong/nantong2.png"
   }
 }

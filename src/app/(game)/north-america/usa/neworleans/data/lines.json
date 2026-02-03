@@ -5,7 +5,7 @@
     "backgroundColor": "#006737",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "RTA12.png"
+    "icon": "north-america/usa/neworleans/RTA12.png"
   },
   "RTA46": {
     "name": "Rampart-Loyola",
@@ -13,7 +13,7 @@
     "backgroundColor": "#B94BBC",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "RTA46.png"
+    "icon": "north-america/usa/neworleans/RTA46.png"
   },
   "RTA47": {
     "name": "Canal / Cemeteries",
@@ -21,7 +21,7 @@
     "backgroundColor": "#FFCB05",
     "textColor": "#000000",
     "order": 2,
-    "icon": "RTA47.png"
+    "icon": "north-america/usa/neworleans/RTA47.png"
   },
   "RTA48": {
     "name": "Canal / City Park",
@@ -29,7 +29,7 @@
     "backgroundColor": "#C72127",
     "textColor": "#FFFFFF",
     "order": 3,
-    "icon": "RTA48.png"
+    "icon": "north-america/usa/neworleans/RTA48.png"
   },
   "RTA49": {
     "name": "Riverfront",
@@ -37,6 +37,6 @@
     "backgroundColor": "#0700FD",
     "textColor": "#FFFFFF",
     "order": 4,
-    "icon": "RTA49.png"
+    "icon": "north-america/usa/neworleans/RTA49.png"
   }
 }

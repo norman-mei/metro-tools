@@ -7,7 +7,7 @@
     "statsColor": "#0072CE",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "OKCSDL.png"
+    "icon": "north-america/usa/okc/OKCSDL.png"
   },
   "OKCSBL": {
     "name": "Bricktown Loop (BL)",
@@ -17,6 +17,6 @@
     "statsColor": "#CD0166",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "OKCSBL.png"
+    "icon": "north-america/usa/okc/OKCSBL.png"
   }
 }

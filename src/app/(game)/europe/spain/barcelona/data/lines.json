@@ -4,91 +4,104 @@
     "color": "#004C38",
     "backgroundColor": "#00261C",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "europe/spain/barcelona/TMBMetroFm.svg"
   },
   "TMBMetroL1": {
     "name": "L1",
     "color": "#DC2C33",
     "backgroundColor": "#711317",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/spain/barcelona/TMBMetroL1.svg"
   },
   "TMBMetroL2": {
     "name": "L2",
     "color": "#99378D",
     "backgroundColor": "#4D1B47",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/spain/barcelona/TMBMetroL2.svg"
   },
   "TMBMetroL3": {
     "name": "L3",
     "color": "#31AA47",
     "backgroundColor": "#185523",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/spain/barcelona/TMBMetroL3.svg"
   },
   "TMBMetroL4": {
     "name": "L4",
     "color": "#FCBF00",
     "backgroundColor": "#7E6000",
     "textColor": "#000000",
-    "order": 4
+    "order": 4,
+    "icon": "europe/spain/barcelona/TMBMetroL4.svg"
   },
   "TMBMetroL5": {
     "name": "L5",
     "color": "#0175BC",
     "backgroundColor": "#003B5E",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/spain/barcelona/TMBMetroL5.svg"
   },
   "TMBMetroL9": {
     "name": "L9S",
     "color": "#F18C12",
     "backgroundColor": "#7A4607",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/spain/barcelona/TMBMetroL9.svg"
   },
   "TMBMetroL10": {
     "name": "L10S",
     "color": "#009EE1",
     "backgroundColor": "#004F71",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "europe/spain/barcelona/TMBMetroL10.svg"
   },
   "TMBMetroL11": {
     "name": "L11",
     "color": "#B4D05E",
     "backgroundColor": "#617522",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "europe/spain/barcelona/TMBMetroL11.svg"
   },
   "FGCL6": {
     "name": "L6",
     "color": "#7883BE",
     "backgroundColor": "#323B69",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "europe/spain/barcelona/FGCL6.svg"
   },
   "FGCL7": {
     "name": "L7",
     "color": "#B1660E",
     "backgroundColor": "#593307",
     "textColor": "#FFFFFF",
-    "order": 12
+    "order": 12,
+    "icon": "europe/spain/barcelona/FGCL7.svg"
   },
   "FGCL8": {
     "name": "L8",
     "color": "#E376AC",
     "backgroundColor": "#8F1D56",
     "textColor": "#FFFFFF",
-    "order": 13
+    "order": 13,
+    "icon": "europe/spain/barcelona/FGCL8.svg"
   },
   "FGCL12": {
     "name": "L12",
     "color": "#B2AED4",
     "backgroundColor": "#49437E",
     "textColor": "#FFFFFF",
-    "order": 14
+    "order": 14,
+    "icon": "europe/spain/barcelona/FGCL12.svg"
   },
   "BarcelonaFunicularFv": {
     "name": "FV",
@@ -116,41 +129,47 @@
     "color": "#00826E",
     "backgroundColor": "#004137",
     "textColor": "#FFFFFF",
-    "order": 18
+    "order": 18,
+    "icon": "europe/spain/barcelona/TramCatT1.svg"
   },
   "TramCatT2": {
     "name": "T2",
     "color": "#00826E",
     "backgroundColor": "#004137",
     "textColor": "#FFFFFF",
-    "order": 19
+    "order": 19,
+    "icon": "europe/spain/barcelona/TramCatT2.svg"
   },
   "TramCatT3": {
     "name": "T3",
     "color": "#00826E",
     "backgroundColor": "#004137",
     "textColor": "#FFFFFF",
-    "order": 20
+    "order": 20,
+    "icon": "europe/spain/barcelona/TramCatT3.svg"
   },
   "TramCatT4": {
     "name": "T4",
     "color": "#00826E",
     "backgroundColor": "#004137",
     "textColor": "#FFFFFF",
-    "order": 21
+    "order": 21,
+    "icon": "europe/spain/barcelona/TramCatT4.svg"
   },
   "TramCatT5": {
     "name": "T5",
     "color": "#00826E",
     "backgroundColor": "#004137",
     "textColor": "#FFFFFF",
-    "order": 22
+    "order": 22,
+    "icon": "europe/spain/barcelona/TramCatT5.svg"
   },
   "TramCatT6": {
     "name": "T6",
     "color": "#00826E",
     "backgroundColor": "#004137",
     "textColor": "#FFFFFF",
-    "order": 23
+    "order": 23,
+    "icon": "europe/spain/barcelona/TramCatT6.svg"
   }
 }

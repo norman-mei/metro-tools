@@ -4,97 +4,111 @@
     "color": "#F62E36",
     "backgroundColor": "#8C060B",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "asia/japan/tokyo/TokyoMetroM.svg"
   },
   "TokyoMetroMb": {
     "name": "丸ノ内線支線 Marunouchi Branch Line",
     "color": "#F62E36",
     "backgroundColor": "#8C060B",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "asia/japan/tokyo/TokyoMetroMb.svg"
   },
   "TokyoMetroF": {
     "name": "副都心線 Fukutoshin Line",
     "color": "#9C5E31",
     "backgroundColor": "#4E2F18",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "asia/japan/tokyo/TokyoMetroF.svg"
   },
   "TokyoMetroC": {
     "name": "千代田線 Chiyoda Line",
     "color": "#00BB85",
     "backgroundColor": "#005E43",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "asia/japan/tokyo/TokyoMetroC.svg"
   },
   "TokyoMetroZ": {
     "name": "半蔵門線 Hanzomon Line",
     "color": "#8F76D6",
     "backgroundColor": "#3E2680",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "asia/japan/tokyo/TokyoMetroZ.svg"
   },
   "TokyoMetroN": {
     "name": "南北線 Namboku Line",
     "color": "#00AC9B",
     "backgroundColor": "#00564E",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "asia/japan/tokyo/TokyoMetroN.svg"
   },
   "TokyoMetroH": {
     "name": "日比谷線 Hibiya Line",
     "color": "#B5B5AC",
     "backgroundColor": "#5D5D53",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "asia/japan/tokyo/TokyoMetroH.svg"
   },
   "TokyoMetroY": {
     "name": "有楽町線 Yurakucho Line",
     "color": "#C1A470",
     "backgroundColor": "#6A552E",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "asia/japan/tokyo/TokyoMetroY.svg"
   },
   "TokyoMetroT": {
     "name": "東西線 Tozai Line",
     "color": "#009BBF",
     "backgroundColor": "#004E60",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "asia/japan/tokyo/TokyoMetroT.svg"
   },
   "TokyoMetroG": {
     "name": "銀座線 Ginza Line",
     "color": "#FF9500",
     "backgroundColor": "#804B00",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "asia/japan/tokyo/TokyoMetroG.svg"
   },
   "ToeiSubwayI": {
     "name": "三田線 Mita Line",
     "color": "#0067B0",
     "backgroundColor": "#003458",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "asia/japan/tokyo/ToeiSubwayI.svg"
   },
   "ToeiSubwayE": {
     "name": "大江戸線 Oedo Line",
     "color": "#CF3366",
     "backgroundColor": "#681933",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "asia/japan/tokyo/ToeiSubwayE.svg"
   },
   "ToeiSubwayS": {
     "name": "新宿線 Shinjuku Line",
     "color": "#9FB01C",
     "backgroundColor": "#50580E",
     "textColor": "#FFFFFF",
-    "order": 12
+    "order": 12,
+    "icon": "asia/japan/tokyo/ToeiSubwayS.svg"
   },
   "ToeiSubwayA": {
     "name": "浅草線 Asakusa Line",
     "color": "#FF535F",
     "backgroundColor": "#A9000C",
     "textColor": "#FFFFFF",
-    "order": 13
+    "order": 13,
+    "icon": "asia/japan/tokyo/ToeiSubwayA.svg"
   }
 }

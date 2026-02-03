@@ -4,21 +4,24 @@
     "color": "#238dcd",
     "backgroundColor": "#238dcd",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/phoenix/ValleyMetroA.svg"
   },
   "ValleyMetroB": {
     "name": "B Line",
     "color": "#F68C1E",
     "backgroundColor": "#F68C1E",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/phoenix/ValleyMetroB.svg"
   },
   "ValleyMetroS": {
     "name": "S Line Streetcar",
     "color": "#AACE4F",
     "backgroundColor": "#AACE4F",
     "textColor": "#323640",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/phoenix/ValleyMetroS.svg"
   },
   "PHXSKY": {
     "name": "PHX SkyTrain",
@@ -26,6 +29,6 @@
     "backgroundColor": "#FFE600",
     "textColor": "#000000",
     "order": 3,
-    "icon": "PHXSKY.png"
+    "icon": "north-america/usa/phoenix/PHXSKY.png"
   }
 }

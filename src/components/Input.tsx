@@ -9,7 +9,7 @@ import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
 import Fuse from 'fuse.js'
 import { Feature, Point } from 'geojson'
-import { KeyboardEventHandler, useCallback, useRef, useState } from 'react'
+import { KeyboardEventHandler, useCallback, useEffect, useRef, useState } from 'react'
 
 const Input = ({
   fuse,
@@ -51,10 +51,40 @@ const Input = ({
   const [history, setHistory] = useState<string[]>([])
   const [historyIndex, setHistoryIndex] = useState<number | null>(null)
   const [wrong, setWrong] = useState<boolean>(false)
+  const wrongTimeoutRef = useRef<number | null>(null)
   const [success, setSuccess] = useState<boolean>(false)
+  const successTimeoutRef = useRef<number | null>(null)
   const [alreadyFound, setAlreadyFound] = useState<boolean>(false)
   const pushEvent = usePushEvent()
   const lastSearchRef = useRef<string>('')
+  useEffect(() => {
+    return () => {
+      if (wrongTimeoutRef.current) {
+        window.clearTimeout(wrongTimeoutRef.current)
+        wrongTimeoutRef.current = null
+      }
+      if (successTimeoutRef.current) {
+        window.clearTimeout(successTimeoutRef.current)
+        successTimeoutRef.current = null
+      }
+    }
+  }, [])
+
+  const triggerWrong = useCallback(() => {
+    setWrong(true)
+    if (wrongTimeoutRef.current) {
+      window.clearTimeout(wrongTimeoutRef.current)
+    }
+    wrongTimeoutRef.current = window.setTimeout(() => setWrong(false), 1000)
+  }, [])
+
+  const triggerSuccess = useCallback(() => {
+    setSuccess(true)
+    if (successTimeoutRef.current) {
+      window.clearTimeout(successTimeoutRef.current)
+    }
+    successTimeoutRef.current = window.setTimeout(() => setSuccess(false), 1000)
+  }, [])
 
   const pushHistory = useCallback((value: string) => {
     const trimmed = value.trim()
@@ -214,15 +244,13 @@ const Input = ({
             setTimeout(() => setAlreadyFound(false), 1200)
             onGuessResult?.({ type: 'already' })
           } else {
-            setWrong(true)
-            setTimeout(() => setWrong(false), 500)
+            triggerWrong()
             onGuessResult?.({ type: 'wrong' })
           }
           return
         }
 
-        setSuccess(true)
-        setTimeout(() => setSuccess(false), 250)
+        triggerSuccess()
         if (map && (map as any).style) {
           const hoveredSource = map.getSource('hovered') as
             | mapboxgl.GeoJSONSource
@@ -278,8 +306,7 @@ const Input = ({
           return
         }
         console.error(error)
-        setWrong(true)
-        setTimeout(() => setWrong(false), 500)
+        triggerWrong()
         onGuessResult?.({ type: 'wrong' })
       }
     },
@@ -370,11 +397,19 @@ const Input = ({
       <input
         className={classNames(
           {
-            'animate animate-shake': wrong,
-            'shadow-md !shadow-yellow-500': success,
+            'animate-shake': wrong,
+            'shadow-md !shadow-emerald-400': success,
+            'border-emerald-300 bg-emerald-50/80 text-emerald-900 ring-2 ring-emerald-300/70 shadow-emerald-500/30':
+              success,
+            'dark:border-emerald-500/70 dark:bg-emerald-950/40 dark:text-emerald-100 dark:ring-emerald-500/40':
+              success,
+            'border-red-300 bg-red-50/80 text-red-900 ring-2 ring-red-300/70 shadow-red-500/30': wrong,
+            'dark:border-red-500/70 dark:bg-red-950/40 dark:text-red-100 dark:ring-red-500/40':
+              wrong,
           },
           'relative z-40 w-full rounded-full border border-zinc-200 bg-white px-4 py-2 text-lg font-bold text-zinc-900 caret-current shadow-lg outline-none ring-zinc-800 transition-shadow duration-300 focus:ring-2 placeholder:text-zinc-500 disabled:cursor-not-allowed disabled:bg-zinc-100 disabled:text-zinc-400 dark:border-[#18181b] dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-400 dark:disabled:bg-zinc-800 dark:disabled:text-zinc-500',
         )}
+        style={wrong ? { animation: 'shake 0.5s ease-in-out', animationIterationCount: 2 } : undefined}
         ref={inputRef}
         placeholder={t('inputPlaceholder')}
         value={search}

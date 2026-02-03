@@ -2,6 +2,7 @@ export type GlobalAchievementDefinition = {
   slug: string
   title: string
   description: string
+  secretDescription?: string
   order: number
   country?: 'global' | 'secret-fun'
 }
@@ -221,6 +222,7 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     slug: 'golden-ratio',
     title: 'Golden Ratio',
     description: '???',
+    secretDescription: 'Reach 61.8% completion in any city.',
     order: 10_101,
     country: 'secret-fun',
   },
@@ -228,6 +230,7 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     slug: 'the-commuter',
     title: 'The Commuter',
     description: '???',
+    secretDescription: 'Make 7 correct guesses within 7 minutes.',
     order: 10_102,
     country: 'secret-fun',
   },
@@ -235,6 +238,7 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     slug: 'the-archivist',
     title: 'The Archivist',
     description: '???',
+    secretDescription: 'Open city stats for 10 different cities.',
     order: 10_103,
     country: 'secret-fun',
   },
@@ -242,6 +246,7 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     slug: 'the-cartographer',
     title: 'The Cartographer',
     description: '???',
+    secretDescription: 'Toggle map names 20 times.',
     order: 10_104,
     country: 'secret-fun',
   },

@@ -4,20 +4,23 @@
     "color": "#C8102E",
     "backgroundColor": "#C8102E",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "asia/taiwan/kaohsiung/KaohsiungRed.svg"
   },
   "KaohsiungOrange": {
     "name": "Orange",
     "color": "#F7941D",
     "backgroundColor": "#F7941D",
     "textColor": "#1F1F1F",
-    "order": 1
+    "order": 1,
+    "icon": "asia/taiwan/kaohsiung/KaohsiungOrange.svg"
   },
   "KaohsiungCircular": {
     "name": "Circular",
     "color": "#8BC53F",
     "backgroundColor": "#8BC53F",
     "textColor": "#1F1F1F",
-    "order": 2
+    "order": 2,
+    "icon": "asia/taiwan/kaohsiung/KaohsiungCircular.svg"
   }
 }

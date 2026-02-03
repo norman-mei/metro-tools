@@ -5,7 +5,7 @@
     "backgroundColor": "#0168B3",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "501.png"
+    "icon": "north-america/usa/charlotte/501.png"
   },
   "510": {
     "name": "CityLYNX Gold Line",
@@ -13,6 +13,6 @@
     "backgroundColor": "#F2C804",
     "textColor": "#000000",
     "order": 1,
-    "icon": "510.png"
+    "icon": "north-america/usa/charlotte/510.png"
   }
 }

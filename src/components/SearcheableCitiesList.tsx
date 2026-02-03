@@ -392,6 +392,7 @@ interface AchievementMeta {
   cityName: string
   title: string
   description: string
+  secretDescription?: string
   continent: string
   country: string
   order: number
@@ -711,6 +712,7 @@ const SearcheableCitiesList = ({
         cityName: entry.country === 'secret-fun' ? 'Secret & Fun' : 'Main',
         title: entry.title,
         description: entry.description,
+        secretDescription: entry.secretDescription,
         continent: 'Global',
         country: entry.country ?? 'global',
         order: entry.order,
@@ -1961,10 +1963,10 @@ const SearcheableCitiesList = ({
 
   const handlePlayRandomCity = useCallback(() => {
     const eligible = enrichedCities
+      .filter((city) => !city.disabled)
       .map((city) => {
         const slug = getSlugFromLink(city.link)
         if (!slug) return null
-        if (city.disabled) return null
         const progress = cityProgress[slug] ?? 0
         return progress < 1 ? city : null
       })
@@ -3092,6 +3094,14 @@ const Achievements = ({
         ? `${Math.min(displayCurrent, safeTarget)} / ${safeTarget}`
         : ''
 
+    const isSecret = meta.country === 'secret-fun'
+    const description =
+      isSecret && !isUnlocked
+        ? '???'
+        : meta.secretDescription
+          ? meta.secretDescription
+          : meta.description
+
     return (
       <div
         key={meta.slug}
@@ -3119,7 +3129,7 @@ const Achievements = ({
             >
               {meta.title}
             </h4>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">{meta.description}</p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">{description}</p>
             {showProgress && (
               <div className="mt-3">
                 <div

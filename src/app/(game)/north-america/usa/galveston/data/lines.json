@@ -4,6 +4,7 @@
     "color": "#D11241",
     "backgroundColor": "#D11241",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/galveston/MAXRed.svg"
   }
 }

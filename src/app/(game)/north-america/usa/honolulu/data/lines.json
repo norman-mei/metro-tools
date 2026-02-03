@@ -4,6 +4,7 @@
     "color": "#00AD83",
     "backgroundColor": "#00AD83",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/honolulu/SKY.svg"
   }
 }

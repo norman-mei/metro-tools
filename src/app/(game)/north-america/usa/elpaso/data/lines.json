@@ -6,7 +6,7 @@
     "progressOutlineColor": "#9CCF00",
     "textColor": "#0F3014",
     "order": 0,
-    "icon": "Elpasouptownloop.png"
+    "icon": "north-america/usa/elpaso/Elpasouptownloop.png"
   },
   "Elpasodowntownloop": {
     "name": "Downtown Loop",
@@ -15,6 +15,6 @@
     "progressOutlineColor": "#F02128",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "Elpasodowntownloop.png"
+    "icon": "north-america/usa/elpaso/Elpasodowntownloop.png"
   }
 }

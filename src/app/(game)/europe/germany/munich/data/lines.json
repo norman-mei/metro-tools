@@ -4,112 +4,128 @@
     "color": "#52822f",
     "backgroundColor": "#294118",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU1.svg"
   },
   "MunichUBahn_UbahnU2": {
     "name": "U2",
     "color": "#c20831",
     "backgroundColor": "#610418",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU2.svg"
   },
   "MunichUBahn_UbahnU3": {
     "name": "U3",
     "color": "#ed6725",
     "backgroundColor": "#7F310A",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU3.svg"
   },
   "MunichUBahn_UbahnU4": {
     "name": "U4",
     "color": "#03a984",
     "backgroundColor": "#015442",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU4.svg"
   },
   "MunichUBahn_UbahnU5": {
     "name": "U5",
     "color": "#bc7a02",
     "backgroundColor": "#5E3D01",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU5.svg"
   },
   "MunichUBahn_UbahnU6": {
     "name": "U6",
     "color": "#0165ad",
     "backgroundColor": "#003357",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU6.svg"
   },
   "MunichUBahn_UbahnU7": {
     "name": "U7",
     "color": "#8a4530",
     "backgroundColor": "#452318",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU7.svg"
   },
   "MunichUBahn_UbahnU8": {
     "name": "U8",
     "color": "#d7372b",
     "backgroundColor": "#6D1B14",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/germany/munich/MunichUBahn_UbahnU8.svg"
   },
   "MunichSBahn_DbRegioAgBayernS1": {
     "name": "S1",
     "color": "#6EBEE7",
     "backgroundColor": "#186992",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS1.svg"
   },
   "MunichSBahn_DbRegioAgBayernS2": {
     "name": "S2",
     "color": "#81BE4F",
     "backgroundColor": "#406224",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS2.svg"
   },
   "MunichSBahn_DbRegioAgBayernS20": {
     "name": "S20",
     "color": "#D35A71",
     "backgroundColor": "#772030",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS20.svg"
   },
   "MunichSBahn_DbRegioAgBayernS3": {
     "name": "S3",
     "color": "#6A157A",
     "backgroundColor": "#350B3D",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS3.svg"
   },
   "MunichSBahn_DbRegioAgBayernS4": {
     "name": "S4",
     "color": "#CD2229",
     "backgroundColor": "#661114",
     "textColor": "#FFFFFF",
-    "order": 12
+    "order": 12,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS4.svg"
   },
   "MunichSBahn_DbRegioAgBayernS6": {
     "name": "S6",
     "color": "#4D8955",
     "backgroundColor": "#26452B",
     "textColor": "#FFFFFF",
-    "order": 13
+    "order": 13,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS6.svg"
   },
   "MunichSBahn_DbRegioAgBayernS7": {
     "name": "S7",
     "color": "#823B36",
     "backgroundColor": "#411E1B",
     "textColor": "#FFFFFF",
-    "order": 14
+    "order": 14,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS7.svg"
   },
   "MunichSBahn_DbRegioAgBayernS8": {
     "name": "S8",
     "color": "#201C1C",
     "backgroundColor": "#100E0E",
     "textColor": "#FFFFFF",
-    "order": 15
+    "order": 15,
+    "icon": "europe/germany/munich/MunichSBahn_DbRegioAgBayernS8.svg"
   },
   "AugsburgTram_Strassenbahn1": {
     "name": "1",

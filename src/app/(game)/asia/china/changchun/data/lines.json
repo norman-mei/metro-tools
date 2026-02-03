@@ -2,7 +2,7 @@
   "changchun1": {
     "name": "Line 1",
     "color": "#ee3e41",
-    "icon": "changchun1.png",
+    "icon": "asia/china/changchun/changchun1.png",
     "order": 1,
     "backgroundColor": "#ee3e41",
     "textColor": "#ffffff"
@@ -10,7 +10,7 @@
   "changchun2": {
     "name": "Line 2",
     "color": "#3b6a96",
-    "icon": "changchun2.png",
+    "icon": "asia/china/changchun/changchun2.png",
     "order": 2,
     "backgroundColor": "#3b6a96",
     "textColor": "#ffffff"
@@ -18,7 +18,7 @@
   "changchun3": {
     "name": "Line 3",
     "color": "#009943",
-    "icon": "changchun3.png",
+    "icon": "asia/china/changchun/changchun3.png",
     "order": 3,
     "backgroundColor": "#009943",
     "textColor": "#ffffff"
@@ -26,7 +26,7 @@
   "changchun4": {
     "name": "Line 4",
     "color": "#7d4697",
-    "icon": "changchun4.png",
+    "icon": "asia/china/changchun/changchun4.png",
     "order": 4,
     "backgroundColor": "#7d4697",
     "textColor": "#ffffff"
@@ -34,7 +34,7 @@
   "changchun6": {
     "name": "Line 6",
     "color": "#e88f99",
-    "icon": "changchun6.png",
+    "icon": "asia/china/changchun/changchun6.png",
     "order": 5,
     "backgroundColor": "#e88f99",
     "textColor": "#ffffff"
@@ -42,7 +42,7 @@
   "changchun8": {
     "name": "Line 8",
     "color": "#25b7bc",
-    "icon": "changchun8.png",
+    "icon": "asia/china/changchun/changchun8.png",
     "order": 6,
     "backgroundColor": "#25b7bc",
     "textColor": "#ffffff"
@@ -50,7 +50,7 @@
   "changchun54": {
     "name": "Tram Line 54",
     "color": "#a2a9b1",
-    "icon": "changchun54.png",
+    "icon": "asia/china/changchun/changchun54.png",
     "order": 7,
     "backgroundColor": "#a2a9b1",
     "textColor": "#ffffff"
@@ -58,7 +58,7 @@
   "changchun55": {
     "name": "Tram Line 55",
     "color": "#a2a9b1",
-    "icon": "changchun55.png",
+    "icon": "asia/china/changchun/changchun55.png",
     "order": 8,
     "backgroundColor": "#a2a9b1",
     "textColor": "#ffffff"

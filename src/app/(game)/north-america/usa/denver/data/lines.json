@@ -5,7 +5,8 @@
     "backgroundColor": "#116C8D",
     "progressOutlineColor": "#8CD5F1",
     "textColor": "#111827",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/denver/Denver_RTD_A.svg"
   },
   "Denver_RTD_B": {
     "name": "B Line",
@@ -13,7 +14,8 @@
     "backgroundColor": "#254F22",
     "progressOutlineColor": "#60B75A",
     "textColor": "#111827",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/denver/Denver_RTD_B.svg"
   },
   "Denver_RTD_G": {
     "name": "G Line",
@@ -21,7 +23,8 @@
     "backgroundColor": "#845C06",
     "progressOutlineColor": "#F7C355",
     "textColor": "#111827",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/denver/Denver_RTD_G.svg"
   },
   "Denver_RTD_N": {
     "name": "N Line",
@@ -29,7 +32,8 @@
     "backgroundColor": "#48214D",
     "progressOutlineColor": "#AA51B5",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "north-america/usa/denver/Denver_RTD_N.svg"
   },
   "Denver_RTD_D": {
     "name": "D Line",
@@ -37,7 +41,8 @@
     "backgroundColor": "#003C20",
     "progressOutlineColor": "#00914D",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "north-america/usa/denver/Denver_RTD_D.svg"
   },
   "Denver_RTD_E": {
     "name": "E Line",
@@ -45,7 +50,8 @@
     "backgroundColor": "#34143B",
     "progressOutlineColor": "#7D308C",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "north-america/usa/denver/Denver_RTD_E.svg"
   },
   "Denver_RTD_H": {
     "name": "H Line",
@@ -53,7 +59,8 @@
     "backgroundColor": "#002E53",
     "progressOutlineColor": "#0070C8",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "north-america/usa/denver/Denver_RTD_H.svg"
   },
   "Denver_RTD_L": {
     "name": "L Line",
@@ -61,7 +68,8 @@
     "backgroundColor": "#806700",
     "progressOutlineColor": "#FFD834",
     "textColor": "#111827",
-    "order": 7
+    "order": 7,
+    "icon": "north-america/usa/denver/Denver_RTD_L.svg"
   },
   "Denver_RTD_R": {
     "name": "R Line",
@@ -69,7 +77,8 @@
     "backgroundColor": "#606B16",
     "progressOutlineColor": "#CCDD5A",
     "textColor": "#111827",
-    "order": 8
+    "order": 8,
+    "icon": "north-america/usa/denver/Denver_RTD_R.svg"
   },
   "Denver_RTD_W": {
     "name": "W Line",
@@ -77,7 +86,8 @@
     "backgroundColor": "#00495A",
     "progressOutlineColor": "#00AFD7",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "north-america/usa/denver/Denver_RTD_W.svg"
   },
   "DenverAGTS": {
     "name": "Denver International Airport AGTS",
@@ -86,6 +96,6 @@
     "progressOutlineColor": "#0070CA",
     "textColor": "#FFFFFF",
     "order": 10,
-    "icon": "DenverAGTS.png"
+    "icon": "north-america/usa/denver/DenverAGTS.png"
   }
 }

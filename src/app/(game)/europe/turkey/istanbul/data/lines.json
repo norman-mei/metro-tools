@@ -4,111 +4,127 @@
     "color": "#ED3833",
     "backgroundColor": "#840F0C",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m1.svg"
   },
   "CM_Istanbulmetro_m2": {
     "name": "M2",
     "color": "#459A46",
     "backgroundColor": "#234D23",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m2.svg"
   },
   "CM_Istanbulmetro_m3": {
     "name": "M3",
     "color": "#40A9E2",
     "backgroundColor": "#13587E",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m3.svg"
   },
   "CM_Istanbulmetro_m4": {
     "name": "M4",
     "color": "#E93E76",
     "backgroundColor": "#840F36",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m4.svg"
   },
   "CM_Istanbulmetro_m5": {
     "name": "M5",
     "color": "#683064",
     "backgroundColor": "#341832",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m5.svg"
   },
   "CM_Istanbulmetro_m6": {
     "name": "M6",
     "color": "#CAA977",
     "backgroundColor": "#73572D",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m6.svg"
   },
   "CM_Istanbulmetro_m7": {
     "name": "M7",
     "color": "#F29ABA",
     "backgroundColor": "#AF174E",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m7.svg"
   },
   "CM_Istanbulmetro_m8": {
     "name": "M8",
     "color": "#1d3580",
     "backgroundColor": "#0E1A40",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m8.svg"
   },
   "CM_Istanbulmetro_m9": {
     "name": "M9",
     "color": "#F0E64B",
     "backgroundColor": "#91890C",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m9.svg"
   },
   "CM_Istanbulmetro_m10": {
     "name": "M10",
     "color": "#4EAB3C",
     "backgroundColor": "#27561E",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m10.svg"
   },
   "CM_Istanbulmetro_m11": {
     "name": "M11",
     "color": "#ac5390",
     "backgroundColor": "#562948",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "europe/turkey/istanbul/CM_Istanbulmetro_m11.svg"
   },
   "CM_CagdasTramvay_t1": {
     "name": "T1",
     "color": "#003F7F",
     "backgroundColor": "#002040",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "europe/turkey/istanbul/CM_CagdasTramvay_t1.svg"
   },
   "CM_NostaljikTramvay_t2": {
     "name": "T2",
     "color": "#8DAFA6",
     "backgroundColor": "#415D56",
     "textColor": "#FFFFFF",
-    "order": 13
+    "order": 13,
+    "icon": "europe/turkey/istanbul/CM_NostaljikTramvay_t2.svg"
   },
   "CM_NostaljikTramvay_t3": {
     "name": "T3",
     "color": "#976939",
     "backgroundColor": "#4C351C",
     "textColor": "#FFFFFF",
-    "order": 14
+    "order": 14,
+    "icon": "europe/turkey/istanbul/CM_NostaljikTramvay_t3.svg"
   },
   "CM_CagdasTramvay_t4": {
     "name": "T4",
     "color": "#7c72b3",
     "backgroundColor": "#3A335F",
     "textColor": "#FFFFFF",
-    "order": 15
+    "order": 15,
+    "icon": "europe/turkey/istanbul/CM_CagdasTramvay_t4.svg"
   },
   "CM_CagdasTramvay_t5": {
     "name": "T5",
     "color": "#7c72b3",
     "backgroundColor": "#3A335F",
     "textColor": "#FFFFFF",
-    "order": 16
+    "order": 16,
+    "icon": "europe/turkey/istanbul/CM_CagdasTramvay_t5.svg"
   }
 }

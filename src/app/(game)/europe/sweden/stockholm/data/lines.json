@@ -4,49 +4,56 @@
     "color": "#0066B7",
     "backgroundColor": "#00335C",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "europe/sweden/stockholm/Tunnelbana10.svg"
   },
   "Tunnelbana11": {
     "name": "T11",
     "color": "#0066B7",
     "backgroundColor": "#00335C",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/sweden/stockholm/Tunnelbana11.svg"
   },
   "Tunnelbana13": {
     "name": "T13",
     "color": "#D90011",
     "backgroundColor": "#6D0008",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/sweden/stockholm/Tunnelbana13.svg"
   },
   "Tunnelbana14": {
     "name": "T14",
     "color": "#D90011",
     "backgroundColor": "#6D0008",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/sweden/stockholm/Tunnelbana14.svg"
   },
   "Tunnelbana17": {
     "name": "T17",
     "color": "#44A326",
     "backgroundColor": "#225213",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/sweden/stockholm/Tunnelbana17.svg"
   },
   "Tunnelbana18": {
     "name": "T18",
     "color": "#44A326",
     "backgroundColor": "#225213",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/sweden/stockholm/Tunnelbana18.svg"
   },
   "Tunnelbana19": {
     "name": "T19",
     "color": "#44A326",
     "backgroundColor": "#225213",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/sweden/stockholm/Tunnelbana19.svg"
   },
   "Lokalbana30": {
     "name": "30",

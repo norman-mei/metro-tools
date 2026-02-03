@@ -4,21 +4,24 @@
     "color": "#ec0000",
     "backgroundColor": "#ec0000",
     "textColor": "#ffffff",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/houston/Houston_METRORail_Red_Line_icon.svg"
   },
   "Houston_METRORail_Green_Line_icon": {
     "name": "Green Line",
     "color": "#75871d",
     "backgroundColor": "#75871d",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/houston/Houston_METRORail_Green_Line_icon.svg"
   },
   "Houston_METRORail_Purple_Line_icon": {
     "name": "Purple Line",
     "color": "#6b3a5d",
     "backgroundColor": "#6b3a5d",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/houston/Houston_METRORail_Purple_Line_icon.svg"
   },
   "houstonSUB": {
     "name": "Subway",
@@ -26,7 +29,7 @@
     "backgroundColor": "#FFE600",
     "textColor": "#000000",
     "order": 3,
-    "icon": "houstonSUB.png"
+    "icon": "north-america/usa/houston/houstonSUB.png"
   },
   "houstonSKY": {
     "name": "Skyway",
@@ -34,6 +37,6 @@
     "backgroundColor": "#3355FF",
     "textColor": "#ffffff",
     "order": 4,
-    "icon": "houstonSKY.png"
+    "icon": "north-america/usa/houston/houstonSKY.png"
   }
 }

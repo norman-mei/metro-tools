@@ -742,6 +742,7 @@ export default function GamePage({
   }, [CITY_NAME])
   const [mistakes, setMistakes] = useState(0)
   const savedMapViewRef = useRef<{ zoom: number; center: [number, number] } | null>(null)
+  const initialMapViewRef = useRef<{ zoom: number; center: [number, number] } | null>(null)
   const mapPersistTimeoutRef = useRef<number | null>(null)
   const lastPersistTsRef = useRef<number>(0)
   const comebackTriggeredRef = useRef(false)
@@ -2148,7 +2149,7 @@ export default function GamePage({
       const next = Number.isFinite(current) ? current + 1 : 1
       window.localStorage.setItem('mm-map-names-toggles', String(next))
       if (next >= 20) {
-        awardAchievement('the-cartographer', 'The Cartographer', '???')
+        awardAchievement('the-cartographer', 'The Cartographer', 'Toggle map names 20 times.')
       }
     } catch {
       // ignore
@@ -2355,7 +2356,7 @@ export default function GamePage({
             uniqueKeys.forEach(() => updated.push(now))
             recentCorrectTimesRef.current = updated
             if (recentCorrectTimesRef.current.length >= 7) {
-              awardAchievement('the-commuter', 'The Commuter', '???')
+              awardAchievement('the-commuter', 'The Commuter', 'Make 7 correct guesses within 7 minutes.')
             }
           }
         }
@@ -2436,7 +2437,7 @@ export default function GamePage({
     if (totalUniqueStations === 0) return
     const ratio = foundStationKeys.size / totalUniqueStations
     if (Math.abs(ratio - 0.618) <= 0.003) {
-      awardAchievement('golden-ratio', 'Golden Ratio', '???')
+      awardAchievement('golden-ratio', 'Golden Ratio', 'Reach 61.8% completion in any city.')
     }
   }, [awardAchievement, foundStationKeys.size, totalUniqueStations])
 
@@ -3166,6 +3167,13 @@ export default function GamePage({
       mapboxMap.once('idle', () => {
         const mbMap = mapboxMap
         if (!mbMap) return
+        if (!initialMapViewRef.current) {
+          const center = mbMap.getCenter()
+          initialMapViewRef.current = {
+            zoom: mbMap.getZoom(),
+            center: [center.lng, center.lat],
+          }
+        }
         setMap((map) => (map === null ? mbMap : map))
         mbMap.on('mousemove', ['stations-circles'], (e) => {
           if (e.features && e.features.length > 0) {
@@ -3531,6 +3539,26 @@ export default function GamePage({
           <div className="pointer-events-auto absolute bottom-10 left-3 z-30 flex flex-col gap-2">
             <button
               type="button"
+              onClick={() => {
+                const view = initialMapViewRef.current
+                if (!map || !view) {
+                  return
+                }
+                map.flyTo({
+                  center: view.center,
+                  zoom: view.zoom,
+                  speed: 1.2,
+                  essential: true,
+                })
+              }}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-lg font-semibold text-zinc-700 shadow-lg ring-1 ring-white/60 backdrop-blur transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-900/80 dark:text-zinc-100 dark:ring-black/50"
+              aria-label="Reset zoom"
+              title="Reset zoom"
+            >
+              ⟲
+            </button>
+            <button
+              type="button"
               onClick={() => map.zoomIn()}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-lg font-semibold text-zinc-700 shadow-lg ring-1 ring-white/60 backdrop-blur transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:bg-zinc-900/80 dark:text-zinc-100 dark:ring-black/50"
               aria-label="Zoom in"
@@ -3560,6 +3588,7 @@ export default function GamePage({
                 minimizable
                 defaultMinimized
                 highlightedLineId={highlightedLineId}
+                iconBasePath={cityPath}
               />
             <div className="flex items-center gap-2 lg:gap-3">
               <button
@@ -3679,6 +3708,7 @@ export default function GamePage({
               minimizable
               defaultMinimized
               highlightedLineId={highlightedLineId}
+              iconBasePath={cityPath}
             />
             <hr className="my-4 w-full border-b border-zinc-100 dark:border-[#18181b]" />
             <FoundList
@@ -3692,6 +3722,7 @@ export default function GamePage({
               onStationFocus={setActiveFoundId}
               activeStationId={activeFoundId}
               disabled={solutionsPromptOpen}
+              iconBasePath={cityPath}
             />
           </div>
         ) : null}
@@ -3743,6 +3774,7 @@ export default function GamePage({
                 cityCompletionConfettiSeen={cityCompletionConfettiSeen}
                 onCityCompletionConfettiSeen={markCityCompletionConfettiSeen}
                 highlightedLineId={highlightedLineId}
+                iconBasePath={cityPath}
               />
             </div>
 
@@ -3758,6 +3790,7 @@ export default function GamePage({
                 onStationFocus={setActiveFoundId}
                 activeStationId={activeFoundId}
                 disabled={solutionsPromptOpen}
+                iconBasePath={cityPath}
               />
             </div>
           </div>

@@ -37,11 +37,13 @@ const ProgressBars = ({
   stationsPerLine,
   minimized = false,
   highlightedLineId,
+  iconBasePath,
 }: {
   foundStationsPerLine: Record<string, number>
   stationsPerLine: Record<string, number>
   minimized?: boolean
   highlightedLineId?: string | null
+  iconBasePath?: string | null
 }) => {
   const { LINES, GAUGE_COLORS, LINE_GROUPS } = useConfig()
   const gaugeMode = GAUGE_COLORS ?? 'inverted'
@@ -162,7 +164,17 @@ const ProgressBars = ({
           </div>
           <Image
             alt={line}
-            src={meta.icon ? `/images/${meta.icon}` : `/images/${line}.svg`}
+            src={
+              meta.icon
+                ? meta.icon.includes('/')
+                  ? `/images/${meta.icon}`
+                  : iconBasePath
+                    ? `/images/${iconBasePath}/${meta.icon}`
+                    : `/images/${meta.icon}`
+                : iconBasePath
+                  ? `/images/${iconBasePath}/${line}.svg`
+                  : `/images/${line}.svg`
+            }
             width={64}
             height={64}
             className="z-20 h-6 w-6 flex-shrink-0 rounded-full object-cover"

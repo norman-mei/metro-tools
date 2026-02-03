@@ -4,7 +4,7 @@
     "color": "#FFCC00",
     "backgroundColor": "#FFCC00",
     "textColor": "#000000",
-    "icon": "sheffieldyellow.png",
+    "icon": "europe/uk/sheffield/sheffieldyellow.png",
     "order": 0
   },
   "Blue": {
@@ -12,7 +12,7 @@
     "color": "#007AC8",
     "backgroundColor": "#007AC8",
     "textColor": "#FFFFFF",
-    "icon": "sheffieldblue.png",
+    "icon": "europe/uk/sheffield/sheffieldblue.png",
     "order": 1
   },
   "Purple": {
@@ -20,7 +20,7 @@
     "color": "#7A3E8C",
     "backgroundColor": "#7A3E8C",
     "textColor": "#FFFFFF",
-    "icon": "sheffieldpurple.png",
+    "icon": "europe/uk/sheffield/sheffieldpurple.png",
     "order": 2
   },
   "TramTrain": {
@@ -28,7 +28,7 @@
     "color": "#E86A10",
     "backgroundColor": "#E86A10",
     "textColor": "#FFFFFF",
-    "icon": "sheffieldtt.png",
+    "icon": "europe/uk/sheffield/sheffieldtt.png",
     "order": 3
   }
 }

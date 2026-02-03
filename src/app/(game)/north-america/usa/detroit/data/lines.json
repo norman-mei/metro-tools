@@ -5,14 +5,15 @@
     "backgroundColor": "#EF4D2E",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "QL.png"
+    "icon": "north-america/usa/detroit/QL.png"
   },
   "DPM": {
     "name": "Detroit People Mover",
     "color": "#932290",
     "backgroundColor": "#541353",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/detroit/DPM.svg"
   },
   "EXT": {
     "name": "ExpressTram",
@@ -21,6 +22,6 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#EB3C0E",
     "order": 2,
-    "icon": "EXT.png"
+    "icon": "north-america/usa/detroit/EXT.png"
   }
 }

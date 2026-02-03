@@ -6,7 +6,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#ffe800",
     "order": 0,
-    "icon": "Yellow_Line_(BART).svg"
+    "icon": "north-america/usa/california-state/Yellow_Line_(BART).svg"
   },
   "BARTOrange": {
     "name": "Orange",
@@ -15,7 +15,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#faa61a",
     "order": 1,
-    "icon": "Orange_Line_(BART).svg"
+    "icon": "north-america/usa/california-state/Orange_Line_(BART).svg"
   },
   "BARTBlue": {
     "name": "Blue",
@@ -24,7 +24,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#00aeef",
     "order": 2,
-    "icon": "Blue_Line_(BART).svg"
+    "icon": "north-america/usa/california-state/Blue_Line_(BART).svg"
   },
   "BARTGreen": {
     "name": "Green",
@@ -33,7 +33,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#4db848",
     "order": 3,
-    "icon": "Green_Line_(BART).svg"
+    "icon": "north-america/usa/california-state/Green_Line_(BART).svg"
   },
   "BARTRed": {
     "name": "Red",
@@ -42,7 +42,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#ed1c24",
     "order": 4,
-    "icon": "Red_Line_(BART).svg"
+    "icon": "north-america/usa/california-state/Red_Line_(BART).svg"
   },
   "BARTOAC": {
     "name": "Oakland Airport Connector",
@@ -51,7 +51,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#b0bdc6",
     "order": 5,
-    "icon": "Oakland_Airport_Connector.svg"
+    "icon": "north-america/usa/california-state/Oakland_Airport_Connector.svg"
   },
   "CaltrainLocal": {
     "name": "Local",
@@ -60,7 +60,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
     "order": 6,
-    "icon": "CaltrainLocal.png"
+    "icon": "north-america/usa/california-state/CaltrainLocal.png"
   },
   "CaltrainLimited": {
     "name": "Limited",
@@ -69,7 +69,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
     "order": 7,
-    "icon": "CaltrainLimited.png"
+    "icon": "north-america/usa/california-state/CaltrainLimited.png"
   },
   "CaltrainExpress": {
     "name": "Express",
@@ -78,7 +78,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
     "order": 8,
-    "icon": "CaltrainExpress.png"
+    "icon": "north-america/usa/california-state/CaltrainExpress.png"
   },
   "CaltrainSouth": {
     "name": "South County Connector",
@@ -87,7 +87,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e41838",
     "order": 9,
-    "icon": "CaltrainSouth.png"
+    "icon": "north-america/usa/california-state/CaltrainSouth.png"
   },
   "SMART": {
     "name": "SMART",
@@ -95,7 +95,8 @@
     "backgroundColor": "#0A3B1D",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#0f5a2d",
-    "order": 10
+    "order": 10,
+    "icon": "north-america/usa/california-state/SMART.svg"
   },
   "MuniJ": {
     "name": "Church",
@@ -104,7 +105,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#e18813",
     "order": 11,
-    "icon": "J_Church_logo.svg"
+    "icon": "north-america/usa/california-state/J_Church_logo.svg"
   },
   "ACE": {
     "name": "Altamont Corridor Express",
@@ -112,7 +113,8 @@
     "backgroundColor": "#664269",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#9c67a0",
-    "order": 11
+    "order": 11,
+    "icon": "north-america/usa/california-state/ACE.svg"
   },
   "MuniK": {
     "name": "Ingleside",
@@ -121,7 +123,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#549dbf",
     "order": 12,
-    "icon": "K_Ingleside_logo.svg"
+    "icon": "north-america/usa/california-state/K_Ingleside_logo.svg"
   },
   "MuniL": {
     "name": "Taraval",
@@ -130,7 +132,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#932290",
     "order": 13,
-    "icon": "L_Taraval_logo.svg"
+    "icon": "north-america/usa/california-state/L_Taraval_logo.svg"
   },
   "MuniM": {
     "name": "Ocean View",
@@ -139,7 +141,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#008851",
     "order": 14,
-    "icon": "M_Ocean_View_logo.svg"
+    "icon": "north-america/usa/california-state/M_Ocean_View_logo.svg"
   },
   "MuniN": {
     "name": "Judah",
@@ -148,7 +150,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#004988",
     "order": 15,
-    "icon": "N_Judah_logo.svg"
+    "icon": "north-america/usa/california-state/N_Judah_logo.svg"
   },
   "MuniT": {
     "name": "Third Street",
@@ -157,7 +159,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#d40843",
     "order": 17,
-    "icon": "T_Third_Street_logo.svg"
+    "icon": "north-america/usa/california-state/T_Third_Street_logo.svg"
   },
   "MuniS": {
     "name": "Shuttle",
@@ -166,7 +168,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#ffcc00",
     "order": 16,
-    "icon": "S_Shuttle_logo.svg"
+    "icon": "north-america/usa/california-state/S_Shuttle_logo.svg"
   },
   "MuniE": {
     "name": "Embarcadero",
@@ -175,7 +177,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#666666",
     "order": 9,
-    "icon": "E_Embarcadero_logo.svg"
+    "icon": "north-america/usa/california-state/E_Embarcadero_logo.svg"
   },
   "MuniF": {
     "name": "Market & Wharves",
@@ -184,7 +186,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#f0e68c",
     "order": 10,
-    "icon": "F_Market_&_Wharves_logo.svg"
+    "icon": "north-america/usa/california-state/F_Market_&_Wharves_logo.svg"
   },
   "MuniC": {
     "name": "California Cable Car",
@@ -193,7 +195,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#913108",
     "order": 19,
-    "icon": "MuniC.png"
+    "icon": "north-america/usa/california-state/MuniC.png"
   },
   "MuniPH": {
     "name": "Powell-Hyde Cable Car",
@@ -202,7 +204,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#913108",
     "order": 20,
-    "icon": "MuniPH.png"
+    "icon": "north-america/usa/california-state/MuniPH.png"
   },
   "MuniPM": {
     "name": "Powell-Mason Cable Car",
@@ -211,7 +213,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#913108",
     "order": 21,
-    "icon": "MuniPM.png"
+    "icon": "north-america/usa/california-state/MuniPM.png"
   },
   "VTABlue": {
     "name": "Blue",
@@ -220,7 +222,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#3bb4e6",
     "order": 30,
-    "icon": "VTA-Blue-icon.svg"
+    "icon": "north-america/usa/california-state/VTA-Blue-icon.svg"
   },
   "VTAGreen": {
     "name": "Green",
@@ -229,7 +231,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#a0cf65",
     "order": 31,
-    "icon": "VTA-Green-icon.svg"
+    "icon": "north-america/usa/california-state/VTA-Green-icon.svg"
   },
   "VTAOrange": {
     "name": "Orange",
@@ -238,7 +240,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#f79729",
     "order": 32,
-    "icon": "VTA-Orange-icon.svg"
+    "icon": "north-america/usa/california-state/VTA-Orange-icon.svg"
   },
   "SacRTGold": {
     "name": "Gold",
@@ -247,7 +249,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#FEB627",
     "order": 40,
-    "icon": "SacRTGold.png"
+    "icon": "north-america/usa/california-state/SacRTGold.png"
   },
   "SacRTBlue": {
     "name": "Blue",
@@ -256,7 +258,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#243386",
     "order": 41,
-    "icon": "SacRTBlue.png"
+    "icon": "north-america/usa/california-state/SacRTBlue.png"
   },
   "SacRTGreen": {
     "name": "Green",
@@ -265,7 +267,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#02A14E",
     "order": 42,
-    "icon": "SacRTGreen.png"
+    "icon": "north-america/usa/california-state/SacRTGreen.png"
   },
   "SFOBlue": {
     "name": "Blue",
@@ -274,7 +276,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#43B0DC",
     "order": 60,
-    "icon": "SFOBlue.png"
+    "icon": "north-america/usa/california-state/SFOBlue.png"
   },
   "SFORed": {
     "name": "Red",
@@ -283,7 +285,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#C42524",
     "order": 61,
-    "icon": "SFORed.png"
+    "icon": "north-america/usa/california-state/SFORed.png"
   },
   "CAHSR": {
     "name": "CAHSR",
@@ -292,7 +294,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#233C81",
     "order": 70,
-    "icon": "CAHSR.png"
+    "icon": "north-america/usa/california-state/CAHSR.png"
   },
   "LACMTA_A": {
     "name": "A Line",
@@ -301,7 +303,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#0072bc",
     "order": 0,
-    "icon": "LACMTA_Circle_A_Line.svg"
+    "icon": "north-america/usa/california-state/LACMTA_Circle_A_Line.svg"
   },
   "LACMTA_B": {
     "name": "B Line",
@@ -310,7 +312,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#e3131b",
     "order": 1,
-    "icon": "LACMTA_Circle_B_Line.svg"
+    "icon": "north-america/usa/california-state/LACMTA_Circle_B_Line.svg"
   },
   "LACMTA_C": {
     "name": "C Line",
@@ -319,7 +321,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#58a738",
     "order": 2,
-    "icon": "LACMTA_Circle_C_Line.svg"
+    "icon": "north-america/usa/california-state/LACMTA_Circle_C_Line.svg"
   },
   "LACMTA_D": {
     "name": "D Line",
@@ -328,7 +330,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#a05da5",
     "order": 3,
-    "icon": "LACMTA_Circle_D_Line.svg"
+    "icon": "north-america/usa/california-state/LACMTA_Circle_D_Line.svg"
   },
   "LACMTA_E": {
     "name": "E Line",
@@ -337,7 +339,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#f7b618",
     "order": 4,
-    "icon": "LACMTA_Circle_E_Line.svg"
+    "icon": "north-america/usa/california-state/LACMTA_Circle_E_Line.svg"
   },
   "LACMTA_K": {
     "name": "K Line",
@@ -346,7 +348,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#e96bb0",
     "order": 5,
-    "icon": "LACMTA_Circle_K_Line.svg"
+    "icon": "north-america/usa/california-state/LACMTA_Circle_K_Line.svg"
   },
   "OCStreetcar": {
     "name": "OC Streetcar",
@@ -355,7 +357,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#FF9447",
     "order": 6,
-    "icon": "OCStreetcar.png"
+    "icon": "north-america/usa/california-state/OCStreetcar.png"
   },
   "MetrolinkAV": {
     "name": "Antelope Valley Line",
@@ -364,7 +366,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#1E9E04",
     "order": 10,
-    "icon": "MetrolinkAV.png"
+    "icon": "north-america/usa/california-state/MetrolinkAV.png"
   },
   "MetrolinkVC": {
     "name": "Ventura County Line",
@@ -373,7 +375,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#F6A705",
     "order": 11,
-    "icon": "MetrolinkVC.png"
+    "icon": "north-america/usa/california-state/MetrolinkVC.png"
   },
   "MetrolinkSB": {
     "name": "San Bernardino Line",
@@ -382,7 +384,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#A52639",
     "order": 12,
-    "icon": "MetrolinkSB.png"
+    "icon": "north-america/usa/california-state/MetrolinkSB.png"
   },
   "MetrolinkRIV": {
     "name": "Riverside Line",
@@ -391,7 +393,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#682E85",
     "order": 13,
-    "icon": "MetrolinkRIV.png"
+    "icon": "north-america/usa/california-state/MetrolinkRIV.png"
   },
   "MetrolinkOC": {
     "name": "Orange County Line",
@@ -400,7 +402,7 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#FE7501",
     "order": 14,
-    "icon": "MetrolinkOC.png"
+    "icon": "north-america/usa/california-state/MetrolinkOC.png"
   },
   "Metrolink91PV": {
     "name": "91/Perris Valley Line",
@@ -409,16 +411,16 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#0272CF",
     "order": 15,
-    "icon": "Metrolink91PV.png"
+    "icon": "north-america/usa/california-state/Metrolink91PV.png"
   },
   "MetrolinkIEOC": {
-    "name": "Inland Empire\u2013Orange County Line",
+    "name": "Inland Empire–Orange County Line",
     "color": "#C0295C",
     "backgroundColor": "#421D5E",
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#C0295C",
     "order": 16,
-    "icon": "MetrolinkIEOC.png"
+    "icon": "north-america/usa/california-state/MetrolinkIEOC.png"
   },
   "Arrow": {
     "name": "Arrow",
@@ -427,7 +429,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#C3E35A",
     "order": 17,
-    "icon": "Arrow.png"
+    "icon": "north-america/usa/california-state/Arrow.png"
   },
   "LAXAPM": {
     "name": "LAX Automated People Mover",
@@ -436,62 +438,70 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#08A4CF",
     "order": 18,
-    "icon": "LAXAPM.png"
+    "icon": "north-america/usa/california-state/LAXAPM.png"
   },
   "MTSBlue": {
     "name": "Blue",
     "color": "#005CB9",
     "backgroundColor": "#005CB9",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/california-state/MTSBlue.svg"
   },
   "MTSOrange": {
     "name": "Orange",
     "color": "#F6821E",
     "backgroundColor": "#F6821E",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/california-state/MTSOrange.svg"
   },
   "MTSGreen": {
     "name": "Green",
     "color": "#04AA4F",
     "backgroundColor": "#04AA4F",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/california-state/MTSGreen.svg"
   },
   "MTSSilver": {
     "name": "Silver",
     "color": "#949599",
     "backgroundColor": "#949599",
     "textColor": "#000000",
-    "order": 3
+    "order": 3,
+    "icon": "north-america/usa/california-state/MTSSilver.svg"
   },
   "MTSSpecialEvents": {
     "name": "Special Events",
     "color": "#F63319",
     "backgroundColor": "#F63319",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "north-america/usa/california-state/MTSSpecialEvents.svg"
   },
   "MTSCopper": {
     "name": "Copper",
     "color": "#B06433",
     "backgroundColor": "#B06433",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "north-america/usa/california-state/MTSCopper.svg"
   },
   "COASTER": {
     "name": "COASTER",
     "color": "#0098A1",
     "backgroundColor": "#0098A1",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "north-america/usa/california-state/COASTER.svg"
   },
   "SPRINTER": {
     "name": "SPRINTER",
     "color": "#73818B",
     "backgroundColor": "#73818B",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "north-america/usa/california-state/SPRINTER.svg"
   }
 }

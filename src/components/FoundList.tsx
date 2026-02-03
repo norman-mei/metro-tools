@@ -114,6 +114,7 @@ const FoundList = ({
   onStationFocus,
   activeStationId,
   disabled = false,
+  iconBasePath,
 }: {
   found: number[]
   idMap: Map<number, DataFeature>
@@ -125,6 +126,7 @@ const FoundList = ({
   onStationFocus?: (id: number) => void
   activeStationId: number | null
   disabled?: boolean
+  iconBasePath?: string | null
 }) => {
   const { LINES, LINE_GROUPS = [] } = useConfig()
   const { t } = useTranslation()
@@ -664,7 +666,15 @@ const GroupedLine = memo(
             >
               {lineIds.map((lineId) => {
                 const icon = LINES[lineId]?.icon
-                const iconSrc = icon ? `/images/${icon}` : `/images/${lineId}.svg`
+                const iconSrc = icon
+                  ? icon.includes('/')
+                    ? `/images/${icon}`
+                    : iconBasePath
+                      ? `/images/${iconBasePath}/${icon}`
+                      : `/images/${icon}`
+                  : iconBasePath
+                    ? `/images/${iconBasePath}/${lineId}.svg`
+                    : `/images/${lineId}.svg`
                 return (
                   <Image
                     key={lineId}

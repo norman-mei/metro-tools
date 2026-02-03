@@ -4,104 +4,119 @@
     "color": "#009CE1",
     "backgroundColor": "#004E71",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "europe/spain/madrid/MadridMetroL1.svg"
   },
   "MadridMetroL2": {
     "name": "2",
     "color": "#E20A16",
     "backgroundColor": "#71050B",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/spain/madrid/MadridMetroL2.svg"
   },
   "MadridMetroL3": {
     "name": "3",
     "color": "#FFBC00",
     "backgroundColor": "#805E00",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/spain/madrid/MadridMetroL3.svg"
   },
   "MadridMetroL4": {
     "name": "4",
     "color": "#BE5316",
     "backgroundColor": "#5F290B",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/spain/madrid/MadridMetroL4.svg"
   },
   "MadridMetroL5": {
     "name": "5",
     "color": "#6EAB23",
     "backgroundColor": "#375612",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/spain/madrid/MadridMetroL5.svg"
   },
   "MadridMetroL6": {
     "name": "6",
     "color": "#716F6E",
     "backgroundColor": "#393837",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/spain/madrid/MadridMetroL6.svg"
   },
   "MadridMetroL7": {
     "name": "7",
     "color": "#F45C23",
     "backgroundColor": "#852907",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/spain/madrid/MadridMetroL7.svg"
   },
   "MadridMetroL8": {
     "name": "8",
     "color": "#EA5F95",
     "backgroundColor": "#911344",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/spain/madrid/MadridMetroL8.svg"
   },
   "MadridMetroL9": {
     "name": "9",
     "color": "#7A1364",
     "backgroundColor": "#3D0A32",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "europe/spain/madrid/MadridMetroL9.svg"
   },
   "MadridMetroL10": {
     "name": "10",
     "color": "#004186",
     "backgroundColor": "#002143",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "europe/spain/madrid/MadridMetroL10.svg"
   },
   "MadridMetroL11": {
     "name": "11",
     "color": "#00693C",
     "backgroundColor": "#00351E",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "europe/spain/madrid/MadridMetroL11.svg"
   },
   "MadridMetroL12": {
     "name": "12",
     "color": "#AA9507",
     "backgroundColor": "#554B04",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "europe/spain/madrid/MadridMetroL12.svg"
   },
   "MetroLigeroMl1": {
     "name": "ML1",
     "color": "#0C61A0",
     "backgroundColor": "#063150",
     "textColor": "#FFFFFF",
-    "order": 12
+    "order": 12,
+    "icon": "europe/spain/madrid/MetroLigeroMl1.svg"
   },
   "MetroLigeroMl2": {
     "name": "ML2",
     "color": "#7A1364",
     "backgroundColor": "#3D0A32",
     "textColor": "#FFFFFF",
-    "order": 13
+    "order": 13,
+    "icon": "europe/spain/madrid/MetroLigeroMl2.svg"
   },
   "MetroLigeroMl3": {
     "name": "ML3",
     "color": "#E20A16",
     "backgroundColor": "#71050B",
     "textColor": "#FFFFFF",
-    "order": 14
+    "order": 14,
+    "icon": "europe/spain/madrid/MetroLigeroMl3.svg"
   }
 }

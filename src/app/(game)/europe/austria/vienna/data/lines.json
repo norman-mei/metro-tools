@@ -4,35 +4,40 @@
     "color": "#E20512",
     "backgroundColor": "#710309",
     "textColor": "#FFFFFF",
-    "order": 1000
+    "order": 1000,
+    "icon": "europe/austria/vienna/ViennaUBahnU1.svg"
   },
   "ViennaUBahnU2": {
     "name": "U2",
     "color": "#A762A3",
     "backgroundColor": "#553053",
     "textColor": "#FFFFFF",
-    "order": 1000
+    "order": 1000,
+    "icon": "europe/austria/vienna/ViennaUBahnU2.svg"
   },
   "ViennaUBahnU3": {
     "name": "U3",
     "color": "#EE7D00",
     "backgroundColor": "#773E00",
     "textColor": "#FFFFFF",
-    "order": 1000
+    "order": 1000,
+    "icon": "europe/austria/vienna/ViennaUBahnU3.svg"
   },
   "ViennaUBahnU4": {
     "name": "U4",
     "color": "#009540",
     "backgroundColor": "#004B20",
     "textColor": "#FFFFFF",
-    "order": 1000
+    "order": 1000,
+    "icon": "europe/austria/vienna/ViennaUBahnU4.svg"
   },
   "ViennaUBahnU6": {
     "name": "U6",
     "color": "#9D6930",
     "backgroundColor": "#4F3418",
     "textColor": "#FFFFFF",
-    "order": 1000
+    "order": 1000,
+    "icon": "europe/austria/vienna/ViennaUBahnU6.svg"
   },
   "ViennaStrassenbahn38": {
     "name": "38",

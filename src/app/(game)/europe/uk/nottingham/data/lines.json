@@ -4,7 +4,7 @@
     "color": "#33AA4C",
     "backgroundColor": "#33AA4C",
     "textColor": "#FFFFFF",
-    "icon": "nottinghamline1.png",
+    "icon": "europe/uk/nottingham/nottinghamline1.png",
     "order": 0
   },
   "Line2": {
@@ -12,7 +12,7 @@
     "color": "#512986",
     "backgroundColor": "#512986",
     "textColor": "#FFFFFF",
-    "icon": "nottinghamline2.png",
+    "icon": "europe/uk/nottingham/nottinghamline2.png",
     "order": 1
   }
 }

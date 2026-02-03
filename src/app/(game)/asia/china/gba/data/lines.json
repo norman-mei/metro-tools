@@ -6,7 +6,7 @@
     "backgroundColor": "#2D647F",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "EAL.png"
+    "icon": "asia/china/gba/EAL.png"
   },
   "TCL": {
     "name": "Tung Chung",
@@ -15,7 +15,7 @@
     "backgroundColor": "#875122",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "TCL.png"
+    "icon": "asia/china/gba/TCL.png"
   },
   "TML": {
     "name": "Tuen Ma",
@@ -24,7 +24,7 @@
     "backgroundColor": "#501A09",
     "textColor": "#FFFFFF",
     "order": 2,
-    "icon": "TML.png"
+    "icon": "asia/china/gba/TML.png"
   },
   "NOL": {
     "name": "Northern Link",
@@ -33,7 +33,7 @@
     "backgroundColor": "#7A013E",
     "textColor": "#FFFFFF",
     "order": 3,
-    "icon": "NOL.png"
+    "icon": "asia/china/gba/NOL.png"
   },
   "KTL": {
     "name": "Kwun Tong",
@@ -42,7 +42,7 @@
     "backgroundColor": "#005E2A",
     "textColor": "#FFFFFF",
     "order": 4,
-    "icon": "KTL.png"
+    "icon": "asia/china/gba/KTL.png"
   },
   "TWL": {
     "name": "Tsuen Wan",
@@ -51,7 +51,7 @@
     "backgroundColor": "#820F13",
     "textColor": "#FFFFFF",
     "order": 5,
-    "icon": "TWL.png"
+    "icon": "asia/china/gba/TWL.png"
   },
   "ISL": {
     "name": "Island",
@@ -60,7 +60,7 @@
     "backgroundColor": "#00446C",
     "textColor": "#FFFFFF",
     "order": 6,
-    "icon": "ISL.png"
+    "icon": "asia/china/gba/ISL.png"
   },
   "TKL": {
     "name": "Tseung Kwan O",
@@ -69,7 +69,7 @@
     "backgroundColor": "#442856",
     "textColor": "#FFFFFF",
     "order": 7,
-    "icon": "TKL.png"
+    "icon": "asia/china/gba/TKL.png"
   },
   "SIL": {
     "name": "South Island",
@@ -78,7 +78,7 @@
     "backgroundColor": "#666B16",
     "textColor": "#000000",
     "order": 8,
-    "icon": "SIL.png"
+    "icon": "asia/china/gba/SIL.png"
   },
   "AEL": {
     "name": "Airport Express",
@@ -87,7 +87,7 @@
     "backgroundColor": "#004A4B",
     "textColor": "#FFFFFF",
     "order": 9,
-    "icon": "AEL.png"
+    "icon": "asia/china/gba/AEL.png"
   },
   "DRL": {
     "name": "Disneyland Resort",
@@ -96,7 +96,7 @@
     "backgroundColor": "#843F5E",
     "textColor": "#FFFFFF",
     "order": 10,
-    "icon": "DRL.png"
+    "icon": "asia/china/gba/DRL.png"
   },
   "XRL": {
     "name": "Express Rail Link",
@@ -105,7 +105,7 @@
     "backgroundColor": "#666059",
     "textColor": "#FFFFFF",
     "order": 11,
-    "icon": "XRL.png"
+    "icon": "asia/china/gba/XRL.png"
   },
   "HKNP360": {
     "name": "Ngong Ping 360",
@@ -114,7 +114,7 @@
     "backgroundColor": "#7C6F3F",
     "textColor": "#1D1D1B",
     "order": 12,
-    "icon": "HKNP360.png"
+    "icon": "asia/china/gba/HKNP360.png"
   },
   "HKAPMT1": {
     "name": "T1 Line",
@@ -123,7 +123,7 @@
     "backgroundColor": "#026F70",
     "textColor": "#FFFFFF",
     "order": 13,
-    "icon": "HKAPMT1.png"
+    "icon": "asia/china/gba/HKAPMT1.png"
   },
   "HKAPMT2": {
     "name": "T2 Line",
@@ -132,7 +132,7 @@
     "backgroundColor": "#2F7331",
     "textColor": "#0F2611",
     "order": 14,
-    "icon": "HKAPMT2.png"
+    "icon": "asia/china/gba/HKAPMT2.png"
   },
   "HKAPMSKY": {
     "name": "SkyPier Line",
@@ -141,115 +141,115 @@
     "backgroundColor": "#752640",
     "textColor": "#FFFFFF",
     "order": 15,
-    "icon": "HKAPMSKY.png"
+    "icon": "asia/china/gba/HKAPMSKY.png"
   },
   "MTR505": {
-    "name": "Sam Shing \u2014 Siu Hong",
+    "name": "Sam Shing — Siu Hong",
     "color": "#EE1C05",
     "progressOutlineColor": "#EE1C05",
     "backgroundColor": "#7A0D02",
     "textColor": "#FFFFFF",
     "order": 16,
-    "icon": "MTR505.png"
+    "icon": "asia/china/gba/MTR505.png"
   },
   "MTR507": {
-    "name": "Tuen Mun Ferry Pier \u2014 Tin King",
+    "name": "Tuen Mun Ferry Pier — Tin King",
     "color": "#00A844",
     "progressOutlineColor": "#00A844",
     "backgroundColor": "#005726",
     "textColor": "#FFFFFF",
     "order": 17,
-    "icon": "MTR507.png"
+    "icon": "asia/china/gba/MTR507.png"
   },
   "MTR610": {
-    "name": "Tuen Mun Ferry Pier \u2014 Yuen Long",
+    "name": "Tuen Mun Ferry Pier — Yuen Long",
     "color": "#B14242",
     "progressOutlineColor": "#B14242",
     "backgroundColor": "#5A2020",
     "textColor": "#FFFFFF",
     "order": 18,
-    "icon": "MTR610.png"
+    "icon": "asia/china/gba/MTR610.png"
   },
   "MTR614": {
-    "name": "Tuen Mun Ferry Pier \u2014 Yuen Long",
+    "name": "Tuen Mun Ferry Pier — Yuen Long",
     "color": "#34D0FA",
     "progressOutlineColor": "#34D0FA",
     "backgroundColor": "#1B6A80",
     "textColor": "#FFFFFF",
     "order": 19,
-    "icon": "MTR614.png"
+    "icon": "asia/china/gba/MTR614.png"
   },
   "MTR614P": {
-    "name": "Tuen Mun Ferry Pier \u2014 Siu Hong",
+    "name": "Tuen Mun Ferry Pier — Siu Hong",
     "color": "#FF8CA1",
     "progressOutlineColor": "#FF8CA1",
     "backgroundColor": "#9B4254",
     "textColor": "#FFFFFF",
     "order": 20,
-    "icon": "MTR614P.png"
+    "icon": "asia/china/gba/MTR614P.png"
   },
   "MTR615": {
-    "name": "Tuen Mun Ferry Pier \u2014 Yuen Long",
+    "name": "Tuen Mun Ferry Pier — Yuen Long",
     "color": "#FFF35C",
     "progressOutlineColor": "#FFF35C",
     "backgroundColor": "#7B702C",
     "textColor": "#1D1D1B",
     "order": 21,
-    "icon": "MTR615.png"
+    "icon": "asia/china/gba/MTR615.png"
   },
   "MTR615P": {
-    "name": "Tuen Mun Ferry Pier \u2014 Siu Hong",
+    "name": "Tuen Mun Ferry Pier — Siu Hong",
     "color": "#00577C",
     "progressOutlineColor": "#00577C",
     "backgroundColor": "#002C40",
     "textColor": "#FFFFFF",
     "order": 22,
-    "icon": "MTR615P.png"
+    "icon": "asia/china/gba/MTR615P.png"
   },
   "MTR705": {
-    "name": "Tin Shui Wai \u2014 Counterclockwise",
+    "name": "Tin Shui Wai — Counterclockwise",
     "color": "#6FC44A",
     "progressOutlineColor": "#6FC44A",
     "backgroundColor": "#355E23",
     "textColor": "#FFFFFF",
     "order": 23,
-    "icon": "MTR705.png"
+    "icon": "asia/china/gba/MTR705.png"
   },
   "MTR706": {
-    "name": "Tin Shui Wai \u2014 Clockwise",
+    "name": "Tin Shui Wai — Clockwise",
     "color": "#AA72B6",
     "progressOutlineColor": "#AA72B6",
     "backgroundColor": "#55375B",
     "textColor": "#FFFFFF",
     "order": 24,
-    "icon": "MTR706.png"
+    "icon": "asia/china/gba/MTR706.png"
   },
   "MTR751": {
-    "name": "Yau Oi \u2014 Tin Yat",
+    "name": "Yau Oi — Tin Yat",
     "color": "#FF9951",
     "progressOutlineColor": "#FF9951",
     "backgroundColor": "#A24D21",
     "textColor": "#1D1D1B",
     "order": 25,
-    "icon": "MTR751.png"
+    "icon": "asia/china/gba/MTR751.png"
   },
   "MTR751P": {
-    "name": "Tin Shui Wai \u2014 Tin Yat",
+    "name": "Tin Shui Wai — Tin Yat",
     "color": "#C89F0F",
     "progressOutlineColor": "#C89F0F",
     "backgroundColor": "#7A3618",
     "textColor": "#FFFFFF",
     "order": 26,
-    "icon": "MTR751P.png"
+    "icon": "asia/china/gba/MTR751P.png"
   },
   "MTR761P": {
-    "name": "Yuen Long \u2014 Tin Yat",
+    "name": "Yuen Long — Tin Yat",
     "color": "#4C138F",
     "progressOutlineColor": "#4C138F",
     "backgroundColor": "#250748",
     "textColor": "#FFFFFF",
     "order": 27,
-    "icon": "MTR761P.png"
+    "icon": "asia/china/gba/MTR761P.png"
   },
   "HKTPT": {
     "name": "Peak Tram",
@@ -258,7 +258,7 @@
     "backgroundColor": "#001E21",
     "textColor": "#FFFFFF",
     "order": 28,
-    "icon": "HKTPT.png"
+    "icon": "asia/china/gba/HKTPT.png"
   },
   "HKOEX": {
     "name": "Ocean Express",
@@ -267,7 +267,7 @@
     "backgroundColor": "#004163",
     "textColor": "#FFFFFF",
     "order": 29,
-    "icon": "HKOEX.png"
+    "icon": "asia/china/gba/HKOEX.png"
   },
   "HKOCC": {
     "name": "Ocean Park Gondola",
@@ -276,7 +276,7 @@
     "backgroundColor": "#6B000B",
     "textColor": "#FFFFFF",
     "order": 30,
-    "icon": "HKOCC.png"
+    "icon": "asia/china/gba/HKOCC.png"
   },
   "HKT": {
     "name": "Hong Kong Tramways",
@@ -285,7 +285,7 @@
     "backgroundColor": "#00301A",
     "textColor": "#FFFFFF",
     "order": 31,
-    "icon": "HKT.png"
+    "icon": "asia/china/gba/HKT.png"
   },
   "TPA": {
     "name": "Taipa",
@@ -294,7 +294,7 @@
     "backgroundColor": "#96C93C",
     "textColor": "#000000",
     "order": 0,
-    "icon": "TPA.png"
+    "icon": "asia/china/gba/TPA.png"
   },
   "HNQ": {
     "name": "Hengqin",
@@ -303,7 +303,7 @@
     "backgroundColor": "#B82A3C",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "HNQ.png"
+    "icon": "asia/china/gba/HNQ.png"
   },
   "SPV": {
     "name": "Seac Pai Van",
@@ -312,7 +312,7 @@
     "backgroundColor": "#8966C3",
     "textColor": "#000000",
     "order": 2,
-    "icon": "SPV.png"
+    "icon": "asia/china/gba/SPV.png"
   },
   "dongguanline2": {
     "name": "Line 2",
@@ -321,7 +321,7 @@
     "progressOutlineColor": "#ED1C24",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "dongguanline2.png"
+    "icon": "asia/china/gba/dongguanline2.png"
   },
   "dongguanline1": {
     "name": "Line 1",
@@ -330,7 +330,7 @@
     "progressOutlineColor": "#034EA2",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "dongguanline1.png"
+    "icon": "asia/china/gba/dongguanline1.png"
   },
   "gzline1": {
     "name": "Line 1",
@@ -339,7 +339,7 @@
     "backgroundColor": "#F3D03E",
     "textColor": "#000000",
     "order": 32,
-    "icon": "gzline1.png"
+    "icon": "asia/china/gba/gzline1.png"
   },
   "gzline2": {
     "name": "Line 2",
@@ -348,7 +348,7 @@
     "backgroundColor": "#00629B",
     "textColor": "#FFFFFF",
     "order": 33,
-    "icon": "gzline2.png"
+    "icon": "asia/china/gba/gzline2.png"
   },
   "gzline3": {
     "name": "Line 3",
@@ -357,7 +357,7 @@
     "backgroundColor": "#ECA154",
     "textColor": "#000000",
     "order": 34,
-    "icon": "gzline3.png"
+    "icon": "asia/china/gba/gzline3.png"
   },
   "gzline4": {
     "name": "Line 4",
@@ -366,7 +366,7 @@
     "backgroundColor": "#00843D",
     "textColor": "#FFFFFF",
     "order": 35,
-    "icon": "gzline4.png"
+    "icon": "asia/china/gba/gzline4.png"
   },
   "gzline5": {
     "name": "Line 5",
@@ -375,7 +375,7 @@
     "backgroundColor": "#C5003E",
     "textColor": "#FFFFFF",
     "order": 36,
-    "icon": "gzline5.png"
+    "icon": "asia/china/gba/gzline5.png"
   },
   "gzline6": {
     "name": "Line 6",
@@ -384,7 +384,7 @@
     "backgroundColor": "#80225F",
     "textColor": "#FFFFFF",
     "order": 37,
-    "icon": "gzline6.png"
+    "icon": "asia/china/gba/gzline6.png"
   },
   "gzline7": {
     "name": "Line 7",
@@ -393,7 +393,7 @@
     "backgroundColor": "#97D700",
     "textColor": "#000000",
     "order": 38,
-    "icon": "gzline7.png"
+    "icon": "asia/china/gba/gzline7.png"
   },
   "gzline8": {
     "name": "Line 8",
@@ -402,7 +402,7 @@
     "backgroundColor": "#008C95",
     "textColor": "#FFFFFF",
     "order": 39,
-    "icon": "gzline8.png"
+    "icon": "asia/china/gba/gzline8.png"
   },
   "gzline9": {
     "name": "Line 9",
@@ -411,7 +411,7 @@
     "backgroundColor": "#71CC98",
     "textColor": "#000000",
     "order": 40,
-    "icon": "gzline9.png"
+    "icon": "asia/china/gba/gzline9.png"
   },
   "gzline10": {
     "name": "Line 10",
@@ -420,7 +420,7 @@
     "backgroundColor": "#7389B2",
     "textColor": "#FFFFFF",
     "order": 41,
-    "icon": "gzline10.png"
+    "icon": "asia/china/gba/gzline10.png"
   },
   "gzline11": {
     "name": "Line 11",
@@ -429,7 +429,7 @@
     "backgroundColor": "#FFB40C",
     "textColor": "#000000",
     "order": 42,
-    "icon": "gzline11.png"
+    "icon": "asia/china/gba/gzline11.png"
   },
   "gzline12": {
     "name": "Line 12",
@@ -438,7 +438,7 @@
     "backgroundColor": "#505D12",
     "textColor": "#FFFFFF",
     "order": 43,
-    "icon": "gzline12.png"
+    "icon": "asia/china/gba/gzline12.png"
   },
   "gzline13": {
     "name": "Line 13",
@@ -447,7 +447,7 @@
     "backgroundColor": "#8E8C13",
     "textColor": "#FFFFFF",
     "order": 44,
-    "icon": "gzline13.png"
+    "icon": "asia/china/gba/gzline13.png"
   },
   "gzline14": {
     "name": "Line 14",
@@ -456,7 +456,7 @@
     "backgroundColor": "#81312F",
     "textColor": "#FFFFFF",
     "order": 45,
-    "icon": "gzline14.png"
+    "icon": "asia/china/gba/gzline14.png"
   },
   "gzline18": {
     "name": "Line 18",
@@ -465,7 +465,7 @@
     "backgroundColor": "#0047BA",
     "textColor": "#ffffff",
     "order": 46,
-    "icon": "gzline18.png"
+    "icon": "asia/china/gba/gzline18.png"
   },
   "gzline21": {
     "name": "Line 21",
@@ -474,7 +474,7 @@
     "backgroundColor": "#201747",
     "textColor": "#ffffff",
     "order": 47,
-    "icon": "gzline21.png"
+    "icon": "asia/china/gba/gzline21.png"
   },
   "gzline22": {
     "name": "Line 22",
@@ -483,7 +483,7 @@
     "backgroundColor": "#CD5228",
     "textColor": "#ffffff",
     "order": 48,
-    "icon": "gzline22.png"
+    "icon": "asia/china/gba/gzline22.png"
   },
   "gzapm": {
     "name": "Zhujiang New Town Automated People Mover System",
@@ -492,7 +492,7 @@
     "backgroundColor": "#00B5E2",
     "textColor": "#FFFFFF",
     "order": 49,
-    "icon": "gzapm.png"
+    "icon": "asia/china/gba/gzapm.png"
   },
   "gzt_thp1": {
     "name": "Huangpu Tram Line 1",
@@ -501,7 +501,7 @@
     "backgroundColor": "#BD0000",
     "textColor": "#FFFFFF",
     "order": 50,
-    "icon": "gzt_thp1.png"
+    "icon": "asia/china/gba/gzt_thp1.png"
   },
   "gzt_thp2": {
     "name": "Huangpu Tram Line 2",
@@ -510,7 +510,7 @@
     "backgroundColor": "#E4007F",
     "textColor": "#FFFFFF",
     "order": 51,
-    "icon": "gzt_thp2.png"
+    "icon": "asia/china/gba/gzt_thp2.png"
   },
   "gzt_thz1": {
     "name": "Haizhu Tram Line 1",
@@ -519,7 +519,7 @@
     "backgroundColor": "#43B02A",
     "textColor": "#FFFFFF",
     "order": 52,
-    "icon": "gzt_thz1.png"
+    "icon": "asia/china/gba/gzt_thz1.png"
   },
   "fs_guangfo": {
     "name": "Guangfo",
@@ -528,7 +528,7 @@
     "backgroundColor": "#C4D600",
     "textColor": "#000000",
     "order": 53,
-    "icon": "fs_guangfo.png"
+    "icon": "asia/china/gba/fs_guangfo.png"
   },
   "fs_line2": {
     "name": "Line 2",
@@ -537,7 +537,7 @@
     "backgroundColor": "#F5333F",
     "textColor": "#FFFFFF",
     "order": 54,
-    "icon": "fs_line2.png"
+    "icon": "asia/china/gba/fs_line2.png"
   },
   "fs_line3": {
     "name": "Line 3",
@@ -546,7 +546,7 @@
     "backgroundColor": "#002F87",
     "textColor": "#FFFFFF",
     "order": 55,
-    "icon": "fs_line3.png"
+    "icon": "asia/china/gba/fs_line3.png"
   },
   "fs_tnh1": {
     "name": "Nanhai Tram Line 1",
@@ -555,7 +555,7 @@
     "backgroundColor": "#78C7EB",
     "textColor": "#000000",
     "order": 56,
-    "icon": "fs_tnh1.png"
+    "icon": "asia/china/gba/fs_tnh1.png"
   },
   "gzline24": {
     "name": "Line 24",
@@ -564,7 +564,7 @@
     "backgroundColor": "#20ACAC",
     "textColor": "#ffffff",
     "order": 63,
-    "icon": "gzline24.png"
+    "icon": "asia/china/gba/gzline24.png"
   },
   "szline1": {
     "name": "Line 1",
@@ -573,7 +573,7 @@
     "backgroundColor": "#00AB39",
     "textColor": "#FFFFFF",
     "order": 100,
-    "icon": "szline1.png"
+    "icon": "asia/china/gba/szline1.png"
   },
   "szline2": {
     "name": "Line 2",
@@ -582,7 +582,7 @@
     "backgroundColor": "#DB6D1C",
     "textColor": "#FFFFFF",
     "order": 101,
-    "icon": "szline2.png"
+    "icon": "asia/china/gba/szline2.png"
   },
   "szline3": {
     "name": "Line 3",
@@ -591,7 +591,7 @@
     "backgroundColor": "#00A2E1",
     "textColor": "#FFFFFF",
     "order": 102,
-    "icon": "szline3.png"
+    "icon": "asia/china/gba/szline3.png"
   },
   "szline4": {
     "name": "Line 4",
@@ -600,7 +600,7 @@
     "backgroundColor": "#DC241F",
     "textColor": "#FFFFFF",
     "order": 103,
-    "icon": "szline4.png"
+    "icon": "asia/china/gba/szline4.png"
   },
   "szline5": {
     "name": "Line 5",
@@ -609,7 +609,7 @@
     "backgroundColor": "#9950B2",
     "textColor": "#FFFFFF",
     "order": 104,
-    "icon": "szline5.png"
+    "icon": "asia/china/gba/szline5.png"
   },
   "szline6": {
     "name": "Line 6",
@@ -618,7 +618,7 @@
     "backgroundColor": "#3ABCA8",
     "textColor": "#FFFFFF",
     "order": 105,
-    "icon": "szline6.png"
+    "icon": "asia/china/gba/szline6.png"
   },
   "szline6b": {
     "name": "Line 6B",
@@ -627,7 +627,7 @@
     "backgroundColor": "#037776",
     "textColor": "#FFFFFF",
     "order": 106,
-    "icon": "szline6b.png"
+    "icon": "asia/china/gba/szline6b.png"
   },
   "szline7": {
     "name": "Line 7",
@@ -636,7 +636,7 @@
     "backgroundColor": "#0035AD",
     "textColor": "#FFFFFF",
     "order": 107,
-    "icon": "szline7.png"
+    "icon": "asia/china/gba/szline7.png"
   },
   "szline8": {
     "name": "Line 8",
@@ -645,7 +645,7 @@
     "backgroundColor": "#DB6D1C",
     "textColor": "#FFFFFF",
     "order": 108,
-    "icon": "szline8.png"
+    "icon": "asia/china/gba/szline8.png"
   },
   "szline9": {
     "name": "Line 9",
@@ -654,7 +654,7 @@
     "backgroundColor": "#846E74",
     "textColor": "#FFFFFF",
     "order": 109,
-    "icon": "szline9.png"
+    "icon": "asia/china/gba/szline9.png"
   },
   "szline10": {
     "name": "Line 10",
@@ -663,7 +663,7 @@
     "backgroundColor": "#F8779E",
     "textColor": "#FFFFFF",
     "order": 110,
-    "icon": "szline10.png"
+    "icon": "asia/china/gba/szline10.png"
   },
   "szline11": {
     "name": "Line 11",
@@ -672,7 +672,7 @@
     "backgroundColor": "#6A1D44",
     "textColor": "#FFFFFF",
     "order": 111,
-    "icon": "szline11.png"
+    "icon": "asia/china/gba/szline11.png"
   },
   "szline12": {
     "name": "Line 12",
@@ -681,7 +681,7 @@
     "backgroundColor": "#A192B2",
     "textColor": "#FFFFFF",
     "order": 112,
-    "icon": "szline12.png"
+    "icon": "asia/china/gba/szline12.png"
   },
   "szline13": {
     "name": "Line 13",
@@ -690,7 +690,7 @@
     "backgroundColor": "#DE7C00",
     "textColor": "#FFFFFF",
     "order": 113,
-    "icon": "szline13.png"
+    "icon": "asia/china/gba/szline13.png"
   },
   "szline14": {
     "name": "Line 14",
@@ -699,7 +699,7 @@
     "backgroundColor": "#F2C75C",
     "textColor": "#FFFFFF",
     "order": 114,
-    "icon": "szline14.png"
+    "icon": "asia/china/gba/szline14.png"
   },
   "szline15": {
     "name": "Line 15",
@@ -708,7 +708,7 @@
     "backgroundColor": "#77BA00",
     "textColor": "#FFFFFF",
     "order": 115,
-    "icon": "szline15.png"
+    "icon": "asia/china/gba/szline15.png"
   },
   "szline16": {
     "name": "Line 16",
@@ -717,7 +717,7 @@
     "backgroundColor": "#1E22AA",
     "textColor": "#FFFFFF",
     "order": 116,
-    "icon": "szline16.png"
+    "icon": "asia/china/gba/szline16.png"
   },
   "szline17": {
     "name": "Line 17",
@@ -726,7 +726,7 @@
     "backgroundColor": "#D3C0CD",
     "textColor": "#FFFFFF",
     "order": 117,
-    "icon": "szline17.png"
+    "icon": "asia/china/gba/szline17.png"
   },
   "szline20": {
     "name": "Line 20",
@@ -735,7 +735,7 @@
     "backgroundColor": "#88DBDF",
     "textColor": "#FFFFFF",
     "order": 118,
-    "icon": "szline20.png"
+    "icon": "asia/china/gba/szline20.png"
   },
   "szline25": {
     "name": "Line 25",
@@ -744,7 +744,7 @@
     "backgroundColor": "#FEAD77",
     "textColor": "#FFFFFF",
     "order": 119,
-    "icon": "szline25.png"
+    "icon": "asia/china/gba/szline25.png"
   },
   "szline27": {
     "name": "Line 27",
@@ -753,7 +753,7 @@
     "backgroundColor": "#3C8065",
     "textColor": "#FFFFFF",
     "order": 120,
-    "icon": "szline27.png"
+    "icon": "asia/china/gba/szline27.png"
   },
   "szline29": {
     "name": "Line 29",
@@ -762,7 +762,7 @@
     "backgroundColor": "#9F2F47",
     "textColor": "#FFFFFF",
     "order": 121,
-    "icon": "szline29.png"
+    "icon": "asia/china/gba/szline29.png"
   },
   "szline32": {
     "name": "Line 32",
@@ -771,7 +771,7 @@
     "backgroundColor": "#BA5801",
     "textColor": "#FFFFFF",
     "order": 122,
-    "icon": "szline32.png"
+    "icon": "asia/china/gba/szline32.png"
   },
   "sztram1": {
     "name": "Line 1",
@@ -780,7 +780,7 @@
     "backgroundColor": "#95C943",
     "textColor": "#FFFFFF",
     "order": 123,
-    "icon": "sztram1.png"
+    "icon": "asia/china/gba/sztram1.png"
   },
   "sztram2": {
     "name": "Line 2",
@@ -789,7 +789,7 @@
     "backgroundColor": "#02481E",
     "textColor": "#FFFFFF",
     "order": 124,
-    "icon": "sztram2.png"
+    "icon": "asia/china/gba/sztram2.png"
   },
   "szbyd1": {
     "name": "Pingshan SkyShuttle Line 1",
@@ -798,7 +798,7 @@
     "backgroundColor": "#2374C7",
     "textColor": "#FFFFFF",
     "order": 125,
-    "icon": "szbyd1.png"
+    "icon": "asia/china/gba/szbyd1.png"
   },
   "szline22": {
     "name": "Line 22",
@@ -807,7 +807,7 @@
     "backgroundColor": "#FBE122",
     "textColor": "#FFFFFF",
     "order": 126,
-    "icon": "szline22.png"
+    "icon": "asia/china/gba/szline22.png"
   },
   "prdir_guangzhu": {
     "name": "Guangzhu",
@@ -816,7 +816,7 @@
     "backgroundColor": "#113858",
     "textColor": "#FFFFFF",
     "order": 128,
-    "icon": "prdir_guangzhu.png"
+    "icon": "asia/china/gba/prdir_guangzhu.png"
   },
   "prdir_suishen": {
     "name": "Suishen",
@@ -825,7 +825,7 @@
     "backgroundColor": "#113858",
     "textColor": "#FFFFFF",
     "order": 129,
-    "icon": "prdir_suishen.png"
+    "icon": "asia/china/gba/prdir_suishen.png"
   },
   "prdir_zhuji": {
     "name": "Zhuji",
@@ -834,7 +834,7 @@
     "backgroundColor": "#089444",
     "textColor": "#FFFFFF",
     "order": 130,
-    "icon": "prdir_zhuji.png"
+    "icon": "asia/china/gba/prdir_zhuji.png"
   },
   "prdir_guanghui": {
     "name": "Guanghui",
@@ -843,7 +843,7 @@
     "backgroundColor": "#2A59A7",
     "textColor": "#FFFFFF",
     "order": 131,
-    "icon": "prdir_guanghui.png"
+    "icon": "asia/china/gba/prdir_guanghui.png"
   },
   "prdir_guangzhao": {
     "name": "Guangzhao",
@@ -852,7 +852,7 @@
     "backgroundColor": "#2A59A7",
     "textColor": "#FFFFFF",
     "order": 132,
-    "icon": "prdir_guangzhao.png"
+    "icon": "asia/china/gba/prdir_guangzhao.png"
   },
   "prdir_guangqing": {
     "name": "Guangqing",
@@ -861,7 +861,7 @@
     "backgroundColor": "#2A59A7",
     "textColor": "#FFFFFF",
     "order": 133,
-    "icon": "prdir_guangqing.png"
+    "icon": "asia/china/gba/prdir_guangqing.png"
   },
   "prdir_guangforing": {
     "name": "Guangfo Ring",
@@ -870,7 +870,7 @@
     "backgroundColor": "#2A59A7",
     "textColor": "#FFFFFF",
     "order": 134,
-    "icon": "prdir_guangforing.png"
+    "icon": "asia/china/gba/prdir_guangforing.png"
   },
   "prdir_guangshen": {
     "name": "Guangshen",
@@ -878,7 +878,8 @@
     "progressOutlineColor": "#0000FF",
     "backgroundColor": "#0000FF",
     "textColor": "#FFFFFF",
-    "order": 137
+    "order": 137,
+    "icon": "asia/china/gba/prdir_guangshen.svg"
   },
   "moeast": {
     "name": "East",
@@ -887,7 +888,7 @@
     "backgroundColor": "#B38600",
     "textColor": "#000000",
     "order": 127,
-    "icon": "moeast.png"
+    "icon": "asia/china/gba/moeast.png"
   },
   "qymaglev": {
     "name": "Qingyuan Maglev Tourist Line",
@@ -896,7 +897,7 @@
     "backgroundColor": "#F2A700",
     "textColor": "#000000",
     "order": 134,
-    "icon": "qymaglev.png"
+    "icon": "asia/china/gba/qymaglev.png"
   },
   "gzsp_cable": {
     "name": "Safari Park Cable Car",
@@ -905,7 +906,7 @@
     "backgroundColor": "#cf34eb",
     "textColor": "#000000",
     "order": 135,
-    "icon": "GZSP.png"
+    "icon": "asia/china/gba/GZSP.png"
   },
   "gzcw_cable": {
     "name": "Baiyun Mountain Cableway",
@@ -914,6 +915,6 @@
     "backgroundColor": "#3489eb",
     "textColor": "#FFFFFF",
     "order": 136,
-    "icon": "GZCW.png"
+    "icon": "asia/china/gba/GZCW.png"
   }
 }

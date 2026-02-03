@@ -4,6 +4,7 @@
     "color": "#2880CC",
     "backgroundColor": "#2880CC",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/kc/KCStreetcar.svg"
   }
 }

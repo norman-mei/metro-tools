@@ -5,15 +5,17 @@
   "scripts": {
     "dev": "next dev --turbo",
     "dev:turbo": "next dev --turbo",
-    "build": "node scripts/sync-city-icons.js && node scripts/export-city-data.js && next build",
+    "build": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js && node scripts/export-city-data.js && next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "check:duplicate-keys": "node scripts/check-duplicate-object-keys.js",
     "generate:station-totals": "node scripts/generate-station-totals.js",
-    "sync:icons": "node scripts/sync-city-icons.js",
+    "sync:icons": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js",
+    "sync:images": "node scripts/sync-city-image-folders.js",
     "generate:city-data": "node scripts/export-city-data.js"
     ,
-    "sync:icons:watch": "node scripts/auto-sync-city-icons.js"
+    "sync:icons:watch": "node scripts/auto-sync-city-icons.js",
+    "sync:images:watch": "node scripts/auto-sync-city-image-folders.js"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {

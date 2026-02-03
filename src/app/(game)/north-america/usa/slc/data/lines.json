@@ -5,7 +5,8 @@
     "backgroundColor": "#78000C",
     "progressOutlineColor": "#CE112D",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/slc/UTARed.svg"
   },
   "UTAGreen": {
     "name": "TRAX Green Line",
@@ -13,7 +14,8 @@
     "backgroundColor": "#2F7A25",
     "progressOutlineColor": "#6AC14C",
     "textColor": "#0F3014",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/slc/UTAGreen.svg"
   },
   "UTABlue": {
     "name": "TRAX Blue Line",
@@ -21,7 +23,8 @@
     "backgroundColor": "#022C5A",
     "progressOutlineColor": "#004B98",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/slc/UTABlue.svg"
   },
   "UTASLine": {
     "name": "S Line Streetcar",
@@ -29,7 +32,8 @@
     "backgroundColor": "#022E3E",
     "progressOutlineColor": "#044565",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "north-america/usa/slc/UTASLine.svg"
   },
   "UTAFR": {
     "name": "FrontRunner",
@@ -38,6 +42,6 @@
     "progressOutlineColor": "#C02ABA",
     "textColor": "#FFFFFF",
     "order": 4,
-    "icon": "UTAFR.png"
+    "icon": "north-america/usa/slc/UTAFR.png"
   }
 }

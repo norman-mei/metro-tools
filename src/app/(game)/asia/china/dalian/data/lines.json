@@ -4,7 +4,7 @@
     "color": "#00944B",
     "backgroundColor": "#00944B",
     "textColor": "#ffffff",
-    "icon": "dalian1.png",
+    "icon": "asia/china/dalian/dalian1.png",
     "order": 1
   },
   "Line2": {
@@ -12,7 +12,7 @@
     "color": "#009AD8",
     "backgroundColor": "#009AD8",
     "textColor": "#ffffff",
-    "icon": "dalian2.png",
+    "icon": "asia/china/dalian/dalian2.png",
     "order": 2
   },
   "Line3": {
@@ -20,7 +20,7 @@
     "color": "#DE0079",
     "backgroundColor": "#DE0079",
     "textColor": "#ffffff",
-    "icon": "dalian3.png",
+    "icon": "asia/china/dalian/dalian3.png",
     "order": 3
   },
   "Line4": {
@@ -28,7 +28,7 @@
     "color": "#684E50",
     "backgroundColor": "#684E50",
     "textColor": "#ffffff",
-    "icon": "dalian4.png",
+    "icon": "asia/china/dalian/dalian4.png",
     "order": 4
   },
   "Line5": {
@@ -36,7 +36,7 @@
     "color": "#FF0000",
     "backgroundColor": "#FF0000",
     "textColor": "#ffffff",
-    "icon": "dalian5.png",
+    "icon": "asia/china/dalian/dalian5.png",
     "order": 5
   },
   "Line12": {
@@ -44,7 +44,7 @@
     "color": "#4D4498",
     "backgroundColor": "#4D4498",
     "textColor": "#ffffff",
-    "icon": "dalian12.png",
+    "icon": "asia/china/dalian/dalian12.png",
     "order": 12
   },
   "Line13": {
@@ -52,7 +52,7 @@
     "color": "#FFE400",
     "backgroundColor": "#FFE400",
     "textColor": "#ffffff",
-    "icon": "dalian13.png",
+    "icon": "asia/china/dalian/dalian13.png",
     "order": 13
   },
   "Tram201": {
@@ -60,7 +60,7 @@
     "color": "#BBBBBB",
     "backgroundColor": "#BBBBBB",
     "textColor": "#ffffff",
-    "icon": "dalian201.png",
+    "icon": "asia/china/dalian/dalian201.png",
     "order": 201
   },
   "Tram202": {
@@ -68,7 +68,7 @@
     "color": "#BBBBBB",
     "backgroundColor": "#BBBBBB",
     "textColor": "#ffffff",
-    "icon": "dalian202.png",
+    "icon": "asia/china/dalian/dalian202.png",
     "order": 202
   },
   "HaidaCableway": {
@@ -76,7 +76,7 @@
     "color": "#008080",
     "backgroundColor": "#008080",
     "textColor": "#ffffff",
-    "icon": "haidacableway.png",
+    "icon": "asia/china/dalian/haidacableway.png",
     "order": 301
   }
 }

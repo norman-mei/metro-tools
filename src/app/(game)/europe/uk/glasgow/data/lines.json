@@ -5,7 +5,7 @@
     "backgroundColor": "#2f2f30",
     "textColor": "#ffffff",
     "order": 0,
-    "icon": "glasgowIC.png"
+    "icon": "europe/uk/glasgow/glasgowIC.png"
   },
   "glasgowOC": {
     "name": "Outer Circle",
@@ -13,6 +13,6 @@
     "backgroundColor": "#9b3c00",
     "textColor": "#000000",
     "order": 1,
-    "icon": "glasgowOC.png"
+    "icon": "europe/uk/glasgow/glasgowOC.png"
   }
 }

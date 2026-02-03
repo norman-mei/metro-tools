@@ -4,6 +4,7 @@
     "color": "#6B4B9A",
     "backgroundColor": "#6B4B9A",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/nashville/WGS.svg"
   }
 }

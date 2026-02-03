@@ -6,7 +6,7 @@
     "progressOutlineColor": "#007AC1",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "littlerockblue.png"
+    "icon": "north-america/usa/lr/littlerockblue.png"
   },
   "littlerockgreen": {
     "name": "Metro Streetcar Green Line",
@@ -15,6 +15,6 @@
     "progressOutlineColor": "#9ACE00",
     "textColor": "#1A2B00",
     "order": 1,
-    "icon": "littlerockgreen.png"
+    "icon": "north-america/usa/lr/littlerockgreen.png"
   }
 }

@@ -5,7 +5,7 @@
     "backgroundColor": "#F14F5A",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "DARTRed.svg"
+    "icon": "north-america/usa/dallas/DARTRed.svg"
   },
   "DARTBlue": {
     "name": "Blue",
@@ -13,7 +13,7 @@
     "backgroundColor": "#3F8ACA",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "DARTBlue.svg"
+    "icon": "north-america/usa/dallas/DARTBlue.svg"
   },
   "DARTGreen": {
     "name": "Green",
@@ -21,7 +21,7 @@
     "backgroundColor": "#216631",
     "textColor": "#FFFFFF",
     "order": 2,
-    "icon": "DARTGreen.svg"
+    "icon": "north-america/usa/dallas/DARTGreen.svg"
   },
   "DARTOrange": {
     "name": "Orange",
@@ -29,7 +29,7 @@
     "backgroundColor": "#F57F12",
     "textColor": "#FFFFFF",
     "order": 3,
-    "icon": "DARTOrange.svg"
+    "icon": "north-america/usa/dallas/DARTOrange.svg"
   },
   "DARTSilver": {
     "name": "Silver",
@@ -37,7 +37,7 @@
     "backgroundColor": "#8299B1",
     "textColor": "#FFFFFF",
     "order": 4,
-    "icon": "DARTSilver.svg"
+    "icon": "north-america/usa/dallas/DARTSilver.svg"
   },
   "DallasStreetcar": {
     "name": "Dallas Streetcar",
@@ -45,7 +45,7 @@
     "backgroundColor": "#31ACE5",
     "textColor": "#000000",
     "order": 5,
-    "icon": "DallasStreetcar.png"
+    "icon": "north-america/usa/dallas/DallasStreetcar.png"
   },
   "MLineTrolley": {
     "name": "M-Line Trolley",
@@ -53,7 +53,7 @@
     "backgroundColor": "#7C2B3A",
     "textColor": "#FFFFFF",
     "order": 6,
-    "icon": "MLineTrolley.svg"
+    "icon": "north-america/usa/dallas/MLineTrolley.svg"
   },
   "TRE": {
     "name": "Trinity Railway Express",
@@ -61,7 +61,7 @@
     "backgroundColor": "#002579",
     "textColor": "#FFFFFF",
     "order": 7,
-    "icon": "TRE.png"
+    "icon": "north-america/usa/dallas/TRE.png"
   },
   "TEXRail": {
     "name": "TEXRail",
@@ -69,7 +69,7 @@
     "backgroundColor": "#E91C2C",
     "textColor": "#FFFFFF",
     "order": 8,
-    "icon": "TEXRail.png"
+    "icon": "north-america/usa/dallas/TEXRail.png"
   },
   "ATrain": {
     "name": "A-train",
@@ -77,7 +77,7 @@
     "backgroundColor": "#FFCF02",
     "textColor": "#000000",
     "order": 9,
-    "icon": "A-train.png"
+    "icon": "north-america/usa/dallas/A-train.png"
   },
   "Skylink": {
     "name": "Skylink",
@@ -85,6 +85,6 @@
     "backgroundColor": "#F16824",
     "textColor": "#FFFFFF",
     "order": 10,
-    "icon": "DFWSkylink.png"
+    "icon": "north-america/usa/dallas/DFWSkylink.png"
   }
 }

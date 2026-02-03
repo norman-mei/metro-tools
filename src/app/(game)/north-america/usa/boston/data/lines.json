@@ -4,56 +4,64 @@
     "color": "#007CC3",
     "backgroundColor": "#003E62",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/boston/MBTATMetroBlueLine.svg"
   },
   "MBTATMetroGreenBLine": {
     "name": "Green B",
     "color": "#009b67",
     "backgroundColor": "#004E34",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/boston/MBTATMetroGreenBLine.svg"
   },
   "MBTATGreenCLine": {
     "name": "Green C",
     "color": "#009b67",
     "backgroundColor": "#004E34",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/boston/MBTATGreenCLine.svg"
   },
   "MBTATGreenDLine": {
     "name": "Green D",
     "color": "#009b67",
     "backgroundColor": "#004E34",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "north-america/usa/boston/MBTATGreenDLine.svg"
   },
   "MBTATGreenELine": {
     "name": "Green E",
     "color": "#009b67",
     "backgroundColor": "#004E34",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "north-america/usa/boston/MBTATGreenELine.svg"
   },
   "MBTATMetroOrangeLine": {
     "name": "Orange",
     "color": "#E87424",
     "backgroundColor": "#79390D",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "north-america/usa/boston/MBTATMetroOrangeLine.svg"
   },
   "MBTATMetroRedLine": {
     "name": "Red",
     "color": "#EF3E42",
     "backgroundColor": "#8B0C0E",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "north-america/usa/boston/MBTATMetroRedLine.svg"
   },
   "MBTATMetroRedMLine": {
     "name": "Mattapan",
     "color": "#EF3E42",
     "backgroundColor": "#8B0C0E",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "north-america/usa/boston/MBTATMetroRedMLine.svg"
   },
   "Fa": {
     "name": "Fairmount",
@@ -61,7 +69,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 8,
-    "icon": "Fa.png"
+    "icon": "north-america/usa/boston/Fa.png"
   },
   "Fb": {
     "name": "Fitchburg",
@@ -69,7 +77,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 9,
-    "icon": "Fb.png"
+    "icon": "north-america/usa/boston/Fb.png"
   },
   "Fr": {
     "name": "Franklin/Foxboro",
@@ -77,7 +85,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 10,
-    "icon": "Fr.png"
+    "icon": "north-america/usa/boston/Fr.png"
   },
   "H": {
     "name": "Haverhill",
@@ -85,7 +93,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 11,
-    "icon": "H.png"
+    "icon": "north-america/usa/boston/H.png"
   },
   "L": {
     "name": "Lowell",
@@ -93,7 +101,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 12,
-    "icon": "L.png"
+    "icon": "north-america/usa/boston/L.png"
   },
   "Ne": {
     "name": "Needham",
@@ -101,7 +109,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 13,
-    "icon": "Ne.png"
+    "icon": "north-america/usa/boston/Ne.png"
   },
   "Nr": {
     "name": "Newburyport/Rockport",
@@ -109,7 +117,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 14,
-    "icon": "Nr.png"
+    "icon": "north-america/usa/boston/Nr.png"
   },
   "P": {
     "name": "Providence/Stoughton",
@@ -117,7 +125,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 18,
-    "icon": "P.png"
+    "icon": "north-america/usa/boston/P.png"
   },
   "W": {
     "name": "Framingham/Worcester",
@@ -125,7 +133,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 19,
-    "icon": "W.png"
+    "icon": "north-america/usa/boston/W.png"
   },
   "CapeFlyer": {
     "name": "CapeFLYER",
@@ -133,7 +141,7 @@
     "backgroundColor": "#0074AD",
     "textColor": "#FFFFFF",
     "order": 20,
-    "icon": "CapeFlyer.png"
+    "icon": "north-america/usa/boston/CapeFlyer.png"
   },
   "GB": {
     "name": "Greenbush",
@@ -141,7 +149,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 15,
-    "icon": "GB.png"
+    "icon": "north-america/usa/boston/GB.png"
   },
   "KT": {
     "name": "Kingston",
@@ -149,7 +157,7 @@
     "backgroundColor": "#7B388C",
     "textColor": "#FFFFFF",
     "order": 16,
-    "icon": "KT.png"
+    "icon": "north-america/usa/boston/KT.png"
   },
   "MBTA_CR": {
     "name": "Commuter Rail",

@@ -5,7 +5,7 @@
     "backgroundColor": "#E82311",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "hohhot1.png"
+    "icon": "asia/china/hohhot/hohhot1.png"
   },
   "hohhot2": {
     "name": "Line 2",
@@ -13,6 +13,6 @@
     "backgroundColor": "#005BAC",
     "textColor": "#ffffff",
     "order": 2,
-    "icon": "hohhot2.png"
+    "icon": "asia/china/hohhot/hohhot2.png"
   }
 }

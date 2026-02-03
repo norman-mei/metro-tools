@@ -4,7 +4,8 @@
     "color": "#0B3B8D",
     "backgroundColor": "#0B3B8D",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/lv/LVM.svg"
   },
   "LVGreen": {
     "name": "Green",
@@ -12,7 +13,7 @@
     "backgroundColor": "#004d00",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "LVGreen.png"
+    "icon": "north-america/usa/lv/LVGreen.png"
   },
   "LVBlue": {
     "name": "Blue",
@@ -20,7 +21,7 @@
     "backgroundColor": "#001a5c",
     "textColor": "#FFFFFF",
     "order": 2,
-    "icon": "LVBlue.png"
+    "icon": "north-america/usa/lv/LVBlue.png"
   },
   "LVRed": {
     "name": "Red",
@@ -28,6 +29,6 @@
     "backgroundColor": "#7a1817",
     "textColor": "#FFFFFF",
     "order": 3,
-    "icon": "LVRed.png"
+    "icon": "north-america/usa/lv/LVRed.png"
   }
 }

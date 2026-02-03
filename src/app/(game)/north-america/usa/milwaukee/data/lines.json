@@ -6,7 +6,7 @@
     "progressOutlineColor": "#F3C53F",
     "textColor": "#1F1F1F",
     "order": 0,
-    "icon": "TheHopL_v2.png"
+    "icon": "north-america/usa/milwaukee/TheHopL_v2.png"
   },
   "TheHopM": {
     "name": "Burn Commons - Intermodal Station",
@@ -15,6 +15,6 @@
     "progressOutlineColor": "#4C74AC",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "TheHopM_v2.png"
+    "icon": "north-america/usa/milwaukee/TheHopM_v2.png"
   }
 }

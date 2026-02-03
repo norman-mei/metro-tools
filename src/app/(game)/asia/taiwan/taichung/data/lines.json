@@ -4,6 +4,7 @@
     "color": "#85B23B",
     "backgroundColor": "#85B23B",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "asia/taiwan/taichung/TaichungGreen.svg"
   }
 }

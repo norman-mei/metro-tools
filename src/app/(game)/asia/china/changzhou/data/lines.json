@@ -2,7 +2,7 @@
   "changzhou1": {
     "name": "Line 1",
     "color": "#CD5C5C",
-    "icon": "changzhou1.png",
+    "icon": "asia/china/changzhou/changzhou1.png",
     "order": 1,
     "backgroundColor": "#CD5C5C",
     "textColor": "#ffffff"
@@ -10,7 +10,7 @@
   "changzhou2": {
     "name": "Line 2",
     "color": "#529FC9",
-    "icon": "changzhou2.png",
+    "icon": "asia/china/changzhou/changzhou2.png",
     "order": 2,
     "backgroundColor": "#529FC9",
     "textColor": "#ffffff"
@@ -18,7 +18,7 @@
   "changzhou5": {
     "name": "Line 5",
     "color": "#29A332",
-    "icon": "changzhou5.png",
+    "icon": "asia/china/changzhou/changzhou5.png",
     "order": 5,
     "backgroundColor": "#29A332",
     "textColor": "#ffffff"
@@ -26,7 +26,7 @@
   "changzhou6": {
     "name": "Line 6",
     "color": "#F7941D",
-    "icon": "changzhou6.png",
+    "icon": "asia/china/changzhou/changzhou6.png",
     "order": 6,
     "backgroundColor": "#F7941D",
     "textColor": "#ffffff"

@@ -4,35 +4,40 @@
     "color": "#0083C9",
     "backgroundColor": "#004265",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/canada/montreal/STMMetroBleue.svg"
   },
   "STMMetroJaune": {
     "name": "Jaune",
     "color": "#FCD100",
     "backgroundColor": "#7E6900",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/canada/montreal/STMMetroJaune.svg"
   },
   "STMMetroOrange": {
     "name": "Orange",
     "color": "#EF8122",
     "backgroundColor": "#7F4009",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/canada/montreal/STMMetroOrange.svg"
   },
   "STMMetroVerte": {
     "name": "Verte",
     "color": "#008E4F",
     "backgroundColor": "#004727",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "north-america/canada/montreal/STMMetroVerte.svg"
   },
   "AMTRailExo1": {
     "name": "exo1",
     "color": "#F16179",
     "backgroundColor": "#9B0E25",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "north-america/canada/montreal/AMTRailExo1.svg"
   },
   "AMTRailExo2": {
     "name": "exo2",
@@ -40,27 +45,31 @@
     "progressOutlineColor": "#FFDF7E",
     "backgroundColor": "#8A6A1F",
     "textColor": "#000000",
-    "order": 5
+    "order": 5,
+    "icon": "north-america/canada/montreal/AMTRailExo2.svg"
   },
   "AMTRailExo3": {
     "name": "exo3",
     "color": "#999AC6",
     "backgroundColor": "#3F4071",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "north-america/canada/montreal/AMTRailExo3.svg"
   },
   "AMTRailExo4": {
     "name": "exo4",
     "color": "#5AB6B2",
     "backgroundColor": "#2A5E5C",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "north-america/canada/montreal/AMTRailExo4.svg"
   },
   "AMTRailExo5": {
     "name": "exo5",
     "color": "#CA5898",
     "backgroundColor": "#6E234D",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "north-america/canada/montreal/AMTRailExo5.svg"
   }
 }

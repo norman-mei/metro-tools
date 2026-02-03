@@ -5,7 +5,7 @@
     "backgroundColor": "#7D221A",
     "textColor": "#FFFFFF",
     "order": 0,
-    "icon": "shijiazhuang1.png"
+    "icon": "asia/china/shijiazhuang/shijiazhuang1.png"
   },
   "shijiazhuang2": {
     "name": "Line 2",
@@ -13,7 +13,7 @@
     "backgroundColor": "#8B6B05",
     "textColor": "#000000",
     "order": 1,
-    "icon": "shijiazhuang2.png"
+    "icon": "asia/china/shijiazhuang/shijiazhuang2.png"
   },
   "shijiazhuang3": {
     "name": "Line 3",
@@ -21,6 +21,6 @@
     "backgroundColor": "#00587B",
     "textColor": "#FFFFFF",
     "order": 2,
-    "icon": "shijiazhuang3.png"
+    "icon": "asia/china/shijiazhuang/shijiazhuang3.png"
   }
 }

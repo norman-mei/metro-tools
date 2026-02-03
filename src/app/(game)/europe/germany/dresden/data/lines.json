@@ -4,83 +4,95 @@
     "color": "#E4002C",
     "backgroundColor": "#720016",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/germany/dresden/DresdenTram1.svg"
   },
   "DresdenTram10": {
     "name": "10",
     "color": "#F9B000",
     "backgroundColor": "#7D5800",
     "textColor": "#FFFFFF",
-    "order": 9
+    "order": 9,
+    "icon": "europe/germany/dresden/DresdenTram10.svg"
   },
   "DresdenTram11": {
     "name": "11",
     "color": "#C2DDAF",
     "backgroundColor": "#5C8B3B",
     "textColor": "#FFFFFF",
-    "order": 10
+    "order": 10,
+    "icon": "europe/germany/dresden/DresdenTram11.svg"
   },
   "DresdenTram12": {
     "name": "12",
     "color": "#006B42",
     "backgroundColor": "#003621",
     "textColor": "#FFFFFF",
-    "order": 11
+    "order": 11,
+    "icon": "europe/germany/dresden/DresdenTram12.svg"
   },
   "DresdenTram13": {
     "name": "13",
     "color": "#FDC300",
     "backgroundColor": "#7F6200",
     "textColor": "#FFFFFF",
-    "order": 12
+    "order": 12,
+    "icon": "europe/germany/dresden/DresdenTram13.svg"
   },
   "DresdenTram2": {
     "name": "2",
     "color": "#EB5B2D",
     "backgroundColor": "#80280C",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/germany/dresden/DresdenTram2.svg"
   },
   "DresdenTram3": {
     "name": "3",
     "color": "#E5005A",
     "backgroundColor": "#73002D",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/germany/dresden/DresdenTram3.svg"
   },
   "DresdenTram4": {
     "name": "4",
     "color": "#C9061A",
     "backgroundColor": "#65030D",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/germany/dresden/DresdenTram4.svg"
   },
   "DresdenTram6": {
     "name": "6",
     "color": "#FFDD00",
     "backgroundColor": "#806E00",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/germany/dresden/DresdenTram6.svg"
   },
   "DresdenTram7": {
     "name": "7",
     "color": "#9E0234",
     "backgroundColor": "#4F011A",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/germany/dresden/DresdenTram7.svg"
   },
   "DresdenTram8": {
     "name": "8",
     "color": "#229133",
     "backgroundColor": "#114919",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/germany/dresden/DresdenTram8.svg"
   },
   "DresdenTram9": {
     "name": "9",
     "color": "#93C355",
     "backgroundColor": "#4A6725",
     "textColor": "#FFFFFF",
-    "order": 8
+    "order": 8,
+    "icon": "europe/germany/dresden/DresdenTram9.svg"
   }
 }

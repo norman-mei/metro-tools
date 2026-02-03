@@ -4,7 +4,7 @@
     "color": "#00843D",
     "backgroundColor": "#00843D",
     "textColor": "#FFFFFF",
-    "icon": "MAXGreen.svg",
+    "icon": "europe/uk/taw/MAXGreen.svg",
     "order": 0
   },
   "Orange": {
@@ -12,7 +12,7 @@
     "color": "#F6A600",
     "backgroundColor": "#F6A600",
     "textColor": "#000000",
-    "icon": "MAXOrange.svg",
+    "icon": "europe/uk/taw/MAXOrange.svg",
     "order": 1
   }
 }

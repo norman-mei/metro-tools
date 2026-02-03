@@ -721,8 +721,14 @@ const CityStatsPanel = ({
                                 alt={line.lineId}
                                 src={
                                   line.icon
-                                    ? `/images/${line.icon}`
-                                    : `/images/${line.lineId}.svg`
+                                    ? line.icon.includes('/')
+                                      ? `/images/${line.icon}`
+                                      : cityPath
+                                        ? `/images/${cityPath.replace(/^\//, '')}/${line.icon}`
+                                        : `/images/${line.icon}`
+                                    : cityPath
+                                      ? `/images/${cityPath.replace(/^\//, '')}/${line.lineId}.svg`
+                                      : `/images/${line.lineId}.svg`
                                 }
                                 width={48}
                                 height={48}

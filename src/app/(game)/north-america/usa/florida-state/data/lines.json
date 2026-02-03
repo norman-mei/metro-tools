@@ -6,7 +6,7 @@
     "progressOutlineColor": "#90C05C",
     "textColor": "#1F1F1F",
     "order": 0,
-    "icon": "floridaGR.png"
+    "icon": "north-america/usa/florida-state/floridaGR.png"
   },
   "floridaOR": {
     "name": "Orange",
@@ -15,7 +15,7 @@
     "progressOutlineColor": "#FE4D1A",
     "textColor": "#FFFFFF",
     "order": 1,
-    "icon": "floridaOR.png"
+    "icon": "north-america/usa/florida-state/floridaOR.png"
   },
   "floridaOM": {
     "name": "Omni Loop",
@@ -24,7 +24,7 @@
     "progressOutlineColor": "#0A57AE",
     "textColor": "#FFFFFF",
     "order": 2,
-    "icon": "floridaOM.png"
+    "icon": "north-america/usa/florida-state/floridaOM.png"
   },
   "floridaBR": {
     "name": "Brickell Loop",
@@ -33,7 +33,7 @@
     "progressOutlineColor": "#FFB638",
     "textColor": "#1F1F1F",
     "order": 3,
-    "icon": "floridaBR.png"
+    "icon": "north-america/usa/florida-state/floridaBR.png"
   },
   "floridaIN": {
     "name": "Inner Loop",
@@ -42,7 +42,7 @@
     "progressOutlineColor": "#3AC2EE",
     "textColor": "#1F1F1F",
     "order": 4,
-    "icon": "floridaIN.png"
+    "icon": "north-america/usa/florida-state/floridaIN.png"
   },
   "brightline": {
     "name": "Brightline",
@@ -50,7 +50,8 @@
     "backgroundColor": "#B38200",
     "progressOutlineColor": "#FADB19",
     "textColor": "#1F1F1F",
-    "order": 5
+    "order": 5,
+    "icon": "north-america/usa/florida-state/brightline.svg"
   },
   "Tri-Rail": {
     "name": "Tri-Rail",
@@ -58,7 +59,8 @@
     "backgroundColor": "#030B1E",
     "progressOutlineColor": "#E15F3A",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "north-america/usa/florida-state/Tri-Rail.svg"
   },
   "floridaSUN": {
     "name": "SunRail",
@@ -67,7 +69,7 @@
     "progressOutlineColor": "#D78A31",
     "textColor": "#1F1F1F",
     "order": 7,
-    "icon": "floridaSUN.png"
+    "icon": "north-america/usa/florida-state/floridaSUN.png"
   },
   "DisneyDRR": {
     "name": "Disneyland Railroad",
@@ -76,7 +78,7 @@
     "progressOutlineColor": "#B0142B",
     "textColor": "#FFFFFF",
     "order": 8,
-    "icon": "DisneyDRR.png"
+    "icon": "north-america/usa/florida-state/DisneyDRR.png"
   },
   "DisneyMKR": {
     "name": "Magic Kingdom Resort",
@@ -85,7 +87,7 @@
     "progressOutlineColor": "#FF0000",
     "textColor": "#1F1F1F",
     "order": 9,
-    "icon": "DisneyMKR.png"
+    "icon": "north-america/usa/florida-state/DisneyMKR.png"
   },
   "DisneyMKX": {
     "name": "Magic Kingdom Express",
@@ -94,7 +96,7 @@
     "progressOutlineColor": "#0000FF",
     "textColor": "#1F1F1F",
     "order": 10,
-    "icon": "DisneyMKX.png"
+    "icon": "north-america/usa/florida-state/DisneyMKX.png"
   },
   "DisneyEPC": {
     "name": "EPCOT",
@@ -103,7 +105,7 @@
     "progressOutlineColor": "#FFC0CB",
     "textColor": "#1F1F1F",
     "order": 11,
-    "icon": "DisneyEPC.png"
+    "icon": "north-america/usa/florida-state/DisneyEPC.png"
   },
   "DisneySKYEPC": {
     "name": "Riviera Resort and EPCOT",
@@ -112,7 +114,7 @@
     "progressOutlineColor": "#008000",
     "textColor": "#1F1F1F",
     "order": 12,
-    "icon": "DisneySKYEPC.png"
+    "icon": "north-america/usa/florida-state/DisneySKYEPC.png"
   },
   "DisneySKYHS": {
     "name": "Hollywood Studios",
@@ -121,7 +123,7 @@
     "progressOutlineColor": "#0000FF",
     "textColor": "#1F1F1F",
     "order": 13,
-    "icon": "DisneySKYHS.png"
+    "icon": "north-america/usa/florida-state/DisneySKYHS.png"
   },
   "DisneySKYPOP": {
     "name": "Pop Century/Art of Animation",
@@ -130,7 +132,7 @@
     "progressOutlineColor": "#FF0202",
     "textColor": "#1F1F1F",
     "order": 14,
-    "icon": "DisneySKYPOP.png"
+    "icon": "north-america/usa/florida-state/DisneySKYPOP.png"
   },
   "floridaTECO": {
     "name": "TECO Line Streetcar",
@@ -139,7 +141,7 @@
     "progressOutlineColor": "#D39F19",
     "textColor": "#1F1F1F",
     "order": 15,
-    "icon": "floridaTECO.png"
+    "icon": "north-america/usa/florida-state/floridaTECO.png"
   },
   "floridaSKYTRAIN": {
     "name": "MIA Skytrain",
@@ -148,7 +150,7 @@
     "progressOutlineColor": "#FF0000",
     "textColor": "#FFFFFF",
     "order": 16,
-    "icon": "floridaSKYTRAIN.png"
+    "icon": "north-america/usa/florida-state/floridaSKYTRAIN.png"
   },
   "floridaMET": {
     "name": "MIA e Train",
@@ -157,7 +159,7 @@
     "progressOutlineColor": "#0000FF",
     "textColor": "#FFFFFF",
     "order": 17,
-    "icon": "floridaMET.png"
+    "icon": "north-america/usa/florida-state/floridaMET.png"
   },
   "floridaMIA": {
     "name": "MIA Mover",
@@ -166,7 +168,7 @@
     "progressOutlineColor": "#008000",
     "textColor": "#FFFFFF",
     "order": 18,
-    "icon": "floridaMIA.png"
+    "icon": "north-america/usa/florida-state/floridaMIA.png"
   },
   "floridaASA": {
     "name": "Airside A APM",
@@ -175,7 +177,7 @@
     "progressOutlineColor": "#FF0000",
     "textColor": "#FFFFFF",
     "order": 19,
-    "icon": "floridaASA.png"
+    "icon": "north-america/usa/florida-state/floridaASA.png"
   },
   "floridaASC": {
     "name": "Airside C APM",
@@ -184,7 +186,7 @@
     "progressOutlineColor": "#0000FF",
     "textColor": "#FFFFFF",
     "order": 20,
-    "icon": "floridaASC.png"
+    "icon": "north-america/usa/florida-state/floridaASC.png"
   },
   "floridaASE": {
     "name": "Airside E APM",
@@ -193,7 +195,7 @@
     "progressOutlineColor": "#FFF000",
     "textColor": "#1F1F1F",
     "order": 21,
-    "icon": "floridaASE.png"
+    "icon": "north-america/usa/florida-state/floridaASE.png"
   },
   "floridaASF": {
     "name": "Airside F APM",
@@ -202,7 +204,7 @@
     "progressOutlineColor": "#007F00",
     "textColor": "#FFFFFF",
     "order": 22,
-    "icon": "floridaASF.png"
+    "icon": "north-america/usa/florida-state/floridaASF.png"
   },
   "floridaSKYCONNECT": {
     "name": "SkyConnect",
@@ -211,7 +213,7 @@
     "progressOutlineColor": "#FFA500",
     "textColor": "#FFFFFF",
     "order": 23,
-    "icon": "floridaSKYCONNECT.png"
+    "icon": "north-america/usa/florida-state/floridaSKYCONNECT.png"
   },
   "floridaAS1": {
     "name": "Airside 1 APM",
@@ -220,7 +222,7 @@
     "progressOutlineColor": "#FF0000",
     "textColor": "#FFFFFF",
     "order": 24,
-    "icon": "floridaAS1.png"
+    "icon": "north-america/usa/florida-state/floridaAS1.png"
   },
   "floridaAS2": {
     "name": "Airside 2 APM",
@@ -229,7 +231,7 @@
     "progressOutlineColor": "#0000FF",
     "textColor": "#FFFFFF",
     "order": 25,
-    "icon": "floridaAS2.png"
+    "icon": "north-america/usa/florida-state/floridaAS2.png"
   },
   "floridaAS3": {
     "name": "Airside 3 APM",
@@ -238,7 +240,7 @@
     "progressOutlineColor": "#008000",
     "textColor": "#FFFFFF",
     "order": 26,
-    "icon": "floridaAS3.png"
+    "icon": "north-america/usa/florida-state/floridaAS3.png"
   },
   "floridaAS4": {
     "name": "Airside 4 APM",
@@ -247,7 +249,7 @@
     "progressOutlineColor": "#FFFF00",
     "textColor": "#FFFFFF",
     "order": 27,
-    "icon": "floridaAS4.png"
+    "icon": "north-america/usa/florida-state/floridaAS4.png"
   },
   "floridaTL": {
     "name": "Terminal Link",
@@ -256,7 +258,7 @@
     "progressOutlineColor": "#FFA501",
     "textColor": "#1F1F1F",
     "order": 28,
-    "icon": "floridaTL.png"
+    "icon": "north-america/usa/florida-state/floridaTL.png"
   },
   "NB": {
     "name": "Northbank",
@@ -265,7 +267,7 @@
     "progressOutlineColor": "#004990",
     "textColor": "#FFFFFF",
     "order": 29,
-    "icon": "NB.png"
+    "icon": "north-america/usa/florida-state/NB.png"
   },
   "SB": {
     "name": "Southbank",
@@ -274,6 +276,6 @@
     "progressOutlineColor": "#00B8F1",
     "textColor": "#FFFFFF",
     "order": 30,
-    "icon": "SB.png"
+    "icon": "north-america/usa/florida-state/SB.png"
   }
 }

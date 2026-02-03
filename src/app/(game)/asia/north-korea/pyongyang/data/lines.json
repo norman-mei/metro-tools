@@ -5,7 +5,7 @@
     "backgroundColor": "#FF0000",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "nkchol.png"
+    "icon": "asia/north-korea/pyongyang/nkchol.png"
   },
   "pyongyang-hyoksin": {
     "name": "Hyoksin",
@@ -13,6 +13,6 @@
     "backgroundColor": "#008008",
     "textColor": "#ffffff",
     "order": 2,
-    "icon": "nkhyok.png"
+    "icon": "asia/north-korea/pyongyang/nkhyok.png"
   }
 }

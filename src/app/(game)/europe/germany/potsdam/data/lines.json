@@ -4,48 +4,55 @@
     "color": "#ff2e17",
     "backgroundColor": "#8B0E00",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "europe/germany/potsdam/PotsdamTram91.svg"
   },
   "PotsdamTram92": {
     "name": "92",
     "color": "#024890",
     "backgroundColor": "#012448",
     "textColor": "#FFFFFF",
-    "order": 2
+    "order": 2,
+    "icon": "europe/germany/potsdam/PotsdamTram92.svg"
   },
   "PotsdamTram93": {
     "name": "93",
     "color": "#ff7322",
     "backgroundColor": "#913500",
     "textColor": "#FFFFFF",
-    "order": 3
+    "order": 3,
+    "icon": "europe/germany/potsdam/PotsdamTram93.svg"
   },
   "PotsdamTram94": {
     "name": "94",
     "color": "#89969e",
     "backgroundColor": "#434B51",
     "textColor": "#FFFFFF",
-    "order": 4
+    "order": 4,
+    "icon": "europe/germany/potsdam/PotsdamTram94.svg"
   },
   "PotsdamTram96": {
     "name": "96",
     "color": "#00b098",
     "backgroundColor": "#00584C",
     "textColor": "#FFFFFF",
-    "order": 5
+    "order": 5,
+    "icon": "europe/germany/potsdam/PotsdamTram96.svg"
   },
   "PotsdamTram98": {
     "name": "98",
     "color": "#009edd",
     "backgroundColor": "#004F6F",
     "textColor": "#FFFFFF",
-    "order": 6
+    "order": 6,
+    "icon": "europe/germany/potsdam/PotsdamTram98.svg"
   },
   "PotsdamTram99": {
     "name": "99",
     "color": "#5fbf49",
     "backgroundColor": "#2E6222",
     "textColor": "#FFFFFF",
-    "order": 7
+    "order": 7,
+    "icon": "europe/germany/potsdam/PotsdamTram99.svg"
   }
 }

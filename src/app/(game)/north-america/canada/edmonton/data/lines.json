@@ -7,7 +7,7 @@
     "progressOutlineColor": "#4895D0",
     "statsColor": "#4895D0",
     "order": 0,
-    "icon": "ETSCapital.png"
+    "icon": "north-america/canada/edmonton/ETSCapital.png"
   },
   "ETSMetro": {
     "name": "Metro Line",
@@ -17,7 +17,7 @@
     "progressOutlineColor": "#DB1D32",
     "statsColor": "#DB1D32",
     "order": 1,
-    "icon": "ETSMetro.png"
+    "icon": "north-america/canada/edmonton/ETSMetro.png"
   },
   "ETSValley": {
     "name": "Valley Line",
@@ -27,6 +27,6 @@
     "progressOutlineColor": "#2A6A3B",
     "statsColor": "#2A6A3B",
     "order": 2,
-    "icon": "ETSValley.png"
+    "icon": "north-america/canada/edmonton/ETSValley.png"
   }
 }

@@ -5,7 +5,8 @@
     "backgroundColor": "#00436E",
     "progressOutlineColor": "#4FB6FF",
     "textColor": "#FFFFFF",
-    "order": 0
+    "order": 0,
+    "icon": "north-america/usa/portland/MAXBlue.svg"
   },
   "MAXRed": {
     "name": "MAX Red Line",
@@ -13,7 +14,8 @@
     "backgroundColor": "#8B0C2C",
     "progressOutlineColor": "#FF628E",
     "textColor": "#FFFFFF",
-    "order": 1
+    "order": 1,
+    "icon": "north-america/usa/portland/MAXRed.svg"
   },
   "MAXYellow": {
     "name": "MAX Yellow Line",
@@ -21,7 +23,8 @@
     "backgroundColor": "#A68000",
     "progressOutlineColor": "#786A00",
     "textColor": "#1F1F1F",
-    "order": 2
+    "order": 2,
+    "icon": "north-america/usa/portland/MAXYellow.svg"
   },
   "MAXGreen": {
     "name": "MAX Green Line",
@@ -46,7 +49,7 @@
     "progressOutlineColor": "#FF7CC9",
     "textColor": "#FFFFFF",
     "order": 5,
-    "icon": "PortlandA.png"
+    "icon": "north-america/usa/portland/PortlandA.png"
   },
   "PortlandB": {
     "name": "Portland Streetcar B Loop",
@@ -55,7 +58,7 @@
     "progressOutlineColor": "#4DD1F5",
     "textColor": "#FFFFFF",
     "order": 6,
-    "icon": "PortlandB.png"
+    "icon": "north-america/usa/portland/PortlandB.png"
   },
   "PortlandNS": {
     "name": "Portland Streetcar North/South Line",
@@ -64,7 +67,7 @@
     "progressOutlineColor": "#DFFAA3",
     "textColor": "#1F1F1F",
     "order": 7,
-    "icon": "PortlandNS.png"
+    "icon": "north-america/usa/portland/PortlandNS.png"
   },
   "PortlandWES": {
     "name": "WES Commuter Rail",
@@ -73,6 +76,6 @@
     "progressOutlineColor": "#A5A7AA",
     "textColor": "#FFFFFF",
     "order": 8,
-    "icon": "PortlandWES.png"
+    "icon": "north-america/usa/portland/PortlandWES.png"
   }
 }

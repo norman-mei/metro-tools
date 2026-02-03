@@ -4,55 +4,63 @@
     "color": "#23B24B",
     "backgroundColor": "#115925",
     "textColor": "#1A962B",
-    "order": 0
+    "order": 0,
+    "icon": "europe/germany/hamburg/HamburgSBahnS1.svg"
   },
   "HamburgSBahnS2": {
     "name": "S2",
     "color": "#B62750",
     "backgroundColor": "#5B1428",
     "textColor": "#B51143",
-    "order": 1
+    "order": 1,
+    "icon": "europe/germany/hamburg/HamburgSBahnS2.svg"
   },
   "HamburgSBahnS3": {
     "name": "S3",
     "color": "#652D91",
     "backgroundColor": "#321749",
     "textColor": "#622181",
-    "order": 2
+    "order": 2,
+    "icon": "europe/germany/hamburg/HamburgSBahnS3.svg"
   },
   "HamburgSBahnS5": {
     "name": "S5",
     "color": "#0089BB",
     "backgroundColor": "#00455E",
     "textColor": "#0089BB",
-    "order": 3
+    "order": 3,
+    "icon": "europe/germany/hamburg/HamburgSBahnS5.svg"
   },
   "HamburgUBahnU1": {
     "name": "U1",
     "color": "#0072BC",
     "backgroundColor": "#00395E",
     "textColor": "#006AB3",
-    "order": 4
+    "order": 4,
+    "icon": "europe/germany/hamburg/HamburgUBahnU1.svg"
   },
   "HamburgUBahnU2": {
     "name": "U2",
     "color": "#EE1D23",
     "backgroundColor": "#7C090D",
     "textColor": "#E2001A",
-    "order": 5
+    "order": 5,
+    "icon": "europe/germany/hamburg/HamburgUBahnU2.svg"
   },
   "HamburgUBahnU3": {
     "name": "U3",
     "color": "#FFDC01",
     "backgroundColor": "#806E00",
     "textColor": "#FFDD00",
-    "order": 6
+    "order": 6,
+    "icon": "europe/germany/hamburg/HamburgUBahnU3.svg"
   },
   "HamburgUBahnU4": {
     "name": "U4",
     "color": "#00AAAD",
     "backgroundColor": "#005557",
     "textColor": "#0098A1",
-    "order": 7
+    "order": 7,
+    "icon": "europe/germany/hamburg/HamburgUBahnU4.svg"
   }
 }

@@ -5,7 +5,7 @@
     "backgroundColor": "#1D47A1",
     "textColor": "#ffffff",
     "order": 1,
-    "icon": "urumqi1.png"
+    "icon": "asia/china/urumqi/urumqi1.png"
   },
   "urumqi2": {
     "name": "Line 2",
@@ -13,7 +13,7 @@
     "backgroundColor": "#29BD4B",
     "textColor": "#000000",
     "order": 2,
-    "icon": "urumqi2.png"
+    "icon": "asia/china/urumqi/urumqi2.png"
   },
   "urumqi4": {
     "name": "Line 4",
@@ -21,6 +21,6 @@
     "backgroundColor": "#B4851A",
     "textColor": "#ffffff",
     "order": 4,
-    "icon": "urumqi4.png"
+    "icon": "asia/china/urumqi/urumqi4.png"
   }
 }
