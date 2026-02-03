@@ -128,6 +128,7 @@ const CityCard = ({
   visibleCities,
   isFavorite = false,
   onToggleFavorite,
+  isRecommended = false,
 }: {
   city: ICity
   className?: string
@@ -135,6 +136,7 @@ const CityCard = ({
   visibleCities?: ICity[]
   isFavorite?: boolean
   onToggleFavorite?: (slug: string, next: boolean) => void
+  isRecommended?: boolean
 }) => {
   const [progress, setProgress] = useState<number | null>(0)
   const [stationTotal, setStationTotal] = useState<number | null>(null)
@@ -295,7 +297,9 @@ const CityCard = ({
     {
       'hover:border-[var(--accent-300)] hover:bg-[var(--accent-50)] hover:shadow-lg dark:hover:border-[var(--accent-400)] dark:hover:bg-[rgba(var(--accent-600-rgb),0.1)]':
         !isCityDisabled,
-      'cursor-not-allowed opacity-80': isCityDisabled,
+      'cursor-not-allowed': isCityDisabled,
+      'ring-2 ring-yellow-400/80 shadow-[0_0_18px_rgba(250,204,21,0.55)]':
+        isRecommended && !isCityDisabled,
     },
   )
 
@@ -321,7 +325,6 @@ const CityCard = ({
       'h-28 w-40 flex-shrink-0 rounded-none': variant === 'list',
     },
     className,
-    { grayscale: displayAsDisabled },
   )
 
   const statsButtonClasses = classNames(
@@ -410,7 +413,7 @@ const CityCard = ({
       return (
         <p className={headingClasses} style={headingStyle}>
           {headingContent}
-          {city.disabled && !showComingSoon && ' (soon)'}
+          {city.disabled && !showComingSoon && ' (coming soon)'}
         </p>
       )
     }
@@ -419,7 +422,7 @@ const CityCard = ({
       return (
         <p className={headingClasses} style={headingStyle}>
           {headingContent}
-          {city.disabled && !showComingSoon && ' (soon)'}
+          {city.disabled && !showComingSoon && ' (coming soon)'}
         </p>
       )
     }
@@ -435,7 +438,7 @@ const CityCard = ({
       >
         <>
           {headingContent}
-          {city.disabled && !showComingSoon && ' (soon)'}
+          {city.disabled && !showComingSoon && ' (coming soon)'}
         </>
       </OverflowMarquee>
     )

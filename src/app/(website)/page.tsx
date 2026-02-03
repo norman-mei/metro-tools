@@ -43,7 +43,8 @@ export default function Home() {
           </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             {t('heroSubtitle')}
-            <br />
+          </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             {t('heroDesc1')}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
@@ -53,14 +54,13 @@ export default function Home() {
             {t('heroDesc3')}
             <br />
             <br />
-            {t('footerFork')}{' '}
             <a
-              href="https://github.com/norman-mei/metro-memory"
+              href="https://github.com/benjamintd/metro-memory.com"
               target="_blank"
               rel="noreferrer"
               className="font-medium text-zinc-800 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-500 dark:text-zinc-200 dark:decoration-zinc-500 dark:hover:decoration-zinc-300"
             >
-              (https://github.com/norman-mei/metro-memory)
+              {t('footerFork')}
             </a>
             .
           </p>

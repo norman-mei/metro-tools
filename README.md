@@ -1,5 +1,5 @@
 # Metro Memory 🚇
-Modified fork of original Metro Memory game by Benjamin TD (https://github.com/benjamintd/metro-memory.com)
+[Modified fork of original Metro Memory game by Benjamin TD](https://github.com/benjamintd/metro-memory.com)
 
 Metro Memory is an interactive, map-based memory challenge built with Next.js and Mapbox GL. This fork expands on Benjamin TD's original idea with a far larger catalog of networks, achievements, account sync, richer UI polish, and deep personalization.
 

@@ -6,7 +6,7 @@ import { CITY_COORDINATES } from '@/lib/cityCoordinates'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useTheme } from 'next-themes'
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import CityCard from './CityCard'
 
@@ -88,6 +88,8 @@ export default function CitiesGlobe({
   cityProgress = {},
   projection = 'globe',
   satellite = false,
+  recommendedSlugs = [],
+  userLocation = null,
   selectedContinent,
   continentFocusVersion,
   selectedCountry,
@@ -97,6 +99,8 @@ export default function CitiesGlobe({
   cityProgress?: Record<string, number> 
   projection?: 'globe' | 'mercator'
   satellite?: boolean
+  recommendedSlugs?: string[]
+  userLocation?: [number, number] | null
   selectedContinent?: string
   continentFocusVersion?: number
   selectedCountry?: string
@@ -105,6 +109,8 @@ export default function CitiesGlobe({
   const mapContainerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<mapboxgl.Map | null>(null)
   const { resolvedTheme } = useTheme()
+  const recommendedSet = useMemo(() => new Set(recommendedSlugs), [recommendedSlugs])
+  const lastUserLocationRef = useRef<string | null>(null)
   const [activePopup, setActivePopup] = useState<{
     lngLat: [number, number]
     city: ICity
@@ -153,7 +159,7 @@ export default function CitiesGlobe({
     })
 
     // Add interactions immediately (they persist across style changes)
-    map.on('mouseenter', 'city-points', () => {
+    map.on('mousemove', 'city-points', () => {
       map.getCanvas().style.cursor = 'pointer'
     })
 
@@ -237,6 +243,8 @@ export default function CitiesGlobe({
                   const coords = CITY_COORDINATES[slug]
                   if (!coords) return null
                   const progress = cityProgress[slug] || 0
+                  const isDisabled = Boolean(city.disabled)
+                  const isRecommended = recommendedSet.has(slug) && !isDisabled
                   
                   return {
                     type: 'Feature',
@@ -247,7 +255,9 @@ export default function CitiesGlobe({
                     properties: {
                       name: city.name,
                       slug,
-                      color: getProgressColor(progress * 100),
+                      color: isDisabled ? '#9ca3af' : getProgressColor(progress * 100),
+                      recommended: isRecommended,
+                      disabled: isDisabled,
                     },
                   }
                 })
@@ -265,10 +275,52 @@ export default function CitiesGlobe({
                 paint: {
                   'circle-radius': 6,
                   'circle-color': ['get', 'color'],
-                  'circle-stroke-color': isDark ? '#000' : '#fff',
-                  'circle-stroke-width': 2,
+                  'circle-stroke-color': [
+                    'case',
+                    ['boolean', ['get', 'disabled'], false],
+                    '#64748b',
+                    ['boolean', ['get', 'recommended'], false],
+                    '#facc15',
+                    isDark ? '#000' : '#fff',
+                  ],
+                  'circle-stroke-width': [
+                    'case',
+                    ['boolean', ['get', 'recommended'], false],
+                    3,
+                    ['boolean', ['get', 'disabled'], false],
+                    1,
+                    2,
+                  ],
+                  'circle-opacity': [
+                    'case',
+                    ['boolean', ['get', 'disabled'], false],
+                    0.6,
+                    1,
+                  ],
                 },
               })
+
+              if (!map.getLayer('city-recommendation-glow')) {
+                map.addLayer(
+                  {
+                    id: 'city-recommendation-glow',
+                    type: 'circle',
+                    source: 'cities',
+                    filter: [
+                      'all',
+                      ['==', ['get', 'recommended'], true],
+                      ['!=', ['get', 'disabled'], true],
+                    ],
+                    paint: {
+                      'circle-radius': 14,
+                      'circle-color': '#facc15',
+                      'circle-blur': 0.6,
+                      'circle-opacity': 0.65,
+                    },
+                  },
+                  'city-points',
+                )
+              }
            }
         } else {
           // @ts-ignore
@@ -281,6 +333,8 @@ export default function CitiesGlobe({
                 const coords = CITY_COORDINATES[slug]
                 if (!coords) return null
                 const progress = cityProgress[slug] || 0
+                const isDisabled = Boolean(city.disabled)
+                const isRecommended = recommendedSet.has(slug) && !isDisabled
                 return {
                   type: 'Feature',
                   geometry: {
@@ -290,7 +344,9 @@ export default function CitiesGlobe({
                   properties: {
                     name: city.name,
                     slug,
-                    color: getProgressColor(progress * 100),
+                    color: isDisabled ? '#9ca3af' : getProgressColor(progress * 100),
+                    recommended: isRecommended,
+                    disabled: isDisabled,
                   },
                 }
               })
@@ -315,7 +371,7 @@ export default function CitiesGlobe({
     return () => {
         map.off('style.load', safeUpdate)
     }
-  }, [cities, resolvedTheme, cityProgress, projection, mapReady])
+  }, [cities, resolvedTheme, cityProgress, projection, mapReady, recommendedSet])
   
   // Handle projection changes dynamically if map instance exists
   useEffect(() => {
@@ -346,6 +402,103 @@ export default function CitiesGlobe({
      // The 'style.load' event handler in the other useEffect will trigger updateSource
      // to re-add our layers.
   }, [resolvedTheme, satellite])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !mapReady) return
+
+    const ensureLocationLayer = () => {
+      if (!userLocation) {
+        if (map.getLayer('user-location')) {
+          map.removeLayer('user-location')
+        }
+        if (map.getLayer('user-location-glow')) {
+          map.removeLayer('user-location-glow')
+        }
+        if (map.getSource('user-location')) {
+          map.removeSource('user-location')
+        }
+        return
+      }
+
+      const data = {
+        type: 'FeatureCollection' as const,
+        features: [
+          {
+            type: 'Feature' as const,
+            geometry: {
+              type: 'Point' as const,
+              coordinates: userLocation,
+            },
+            properties: {},
+          },
+        ],
+      }
+
+      if (!map.getSource('user-location')) {
+        map.addSource('user-location', {
+          type: 'geojson',
+          data,
+        })
+      } else {
+        const source = map.getSource('user-location') as mapboxgl.GeoJSONSource
+        source.setData(data)
+      }
+
+      if (!map.getLayer('user-location-glow')) {
+        map.addLayer({
+          id: 'user-location-glow',
+          type: 'circle',
+          source: 'user-location',
+          paint: {
+            'circle-radius': 16,
+            'circle-color': '#3b82f6',
+            'circle-opacity': 0.35,
+            'circle-blur': 0.8,
+          },
+        })
+      }
+
+      if (!map.getLayer('user-location')) {
+        map.addLayer({
+          id: 'user-location',
+          type: 'circle',
+          source: 'user-location',
+          paint: {
+            'circle-radius': 6,
+            'circle-color': '#3b82f6',
+            'circle-stroke-color': '#ffffff',
+            'circle-stroke-width': 2,
+          },
+        })
+      }
+    }
+
+    if (map.isStyleLoaded()) {
+      ensureLocationLayer()
+    } else {
+      map.once('style.load', ensureLocationLayer)
+    }
+
+    map.on('style.load', ensureLocationLayer)
+    return () => {
+      map.off('style.load', ensureLocationLayer)
+    }
+  }, [mapReady, userLocation])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !mapReady || !userLocation) return
+    const key = userLocation.join(',')
+    if (lastUserLocationRef.current === key) return
+    lastUserLocationRef.current = key
+    map.flyTo({
+      center: userLocation,
+      zoom: projection === 'globe' ? 3.5 : 5.5,
+      speed: 1.2,
+      essential: true,
+    })
+  }, [mapReady, projection, userLocation])
 
   useEffect(() => {
     const map = mapRef.current
@@ -500,7 +653,12 @@ export default function CitiesGlobe({
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                </svg>
             </button>
-            <CityCard city={activePopup.city} variant="globe" visibleCities={cities} />
+            <CityCard
+              city={activePopup.city}
+              variant="globe"
+              visibleCities={cities}
+              isRecommended={recommendedSet.has(getSlugFromLink(activePopup.city.link) ?? '')}
+            />
           </div>
         </Popup>
       )}

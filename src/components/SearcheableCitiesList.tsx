@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import clsx from 'clsx'
 import Fuse from 'fuse.js'
 import { useTheme } from 'next-themes'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import {
     Fragment,
     useCallback,
@@ -31,6 +31,7 @@ import { useSettings } from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity, getMasterAchievementDefinition } from '@/lib/achievements'
 import { ICity, cities } from '@/lib/citiesConfig'
+import { CITY_COORDINATES } from '@/lib/cityCoordinates'
 import { GLOBAL_ACHIEVEMENTS } from '@/lib/globalAchievements'
 import { STATION_TOTALS } from '@/lib/stationTotals'
 
@@ -448,6 +449,19 @@ const clamp01 = (value: number) => Math.max(0, Math.min(1, value))
 const mixChannel = (start: number, end: number, t: number) =>
   Math.round(start + (end - start) * clamp01(t))
 
+const toRadians = (value: number) => (value * Math.PI) / 180
+
+const haversineKm = (lat1: number, lon1: number, lat2: number, lon2: number) => {
+  const dLat = toRadians(lat2 - lat1)
+  const dLon = toRadians(lon2 - lon1)
+  const rLat1 = toRadians(lat1)
+  const rLat2 = toRadians(lat2)
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(rLat1) * Math.cos(rLat2) * Math.sin(dLon / 2) ** 2
+  return 6371 * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)))
+}
+
 const getGradientColor = (percent: number) => {
   const t = clamp01(percent)
   const hue = 120 * t // 0 = red, 120 = green
@@ -520,6 +534,9 @@ const SearcheableCitiesList = ({
   const [achievementMetrics, setAchievementMetrics] = useState<AchievementMetrics>(
     DEFAULT_ACHIEVEMENT_METRICS,
   )
+  const [recommendedSlugs, setRecommendedSlugs] = useState<string[]>([])
+  const [isLocating, setIsLocating] = useState(false)
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
   const { settings } = useSettings()
   const [updateLogState, setUpdateLogState] = useState<UpdateLogState>({
     status: 'idle',
@@ -636,8 +653,11 @@ const SearcheableCitiesList = ({
 
 
   const enrichedCities = useMemo(() => enrichCities(filteredCities), [filteredCities])
+  const recommendedSet = useMemo(() => new Set(recommendedSlugs), [recommendedSlugs])
+  const isMapView = cityViewMode === 'globe' || cityViewMode === 'map'
   const cityAchievementCatalog = useMemo(() => {
     return enrichedCities
+      .filter((city) => !city.disabled)
       .map((city, index) => {
         const slug = getSlugFromLink(city.link)
         if (!slug) return null
@@ -667,6 +687,7 @@ const SearcheableCitiesList = ({
   }, [enrichedCities])
   const { resolvedTheme } = useTheme()
   const isDark = resolvedTheme === 'dark'
+  const router = useRouter()
 
   const masterAchievement = useMemo<AchievementMeta>(() => {
     const totalCities = cityAchievementCatalog.length
@@ -1897,6 +1918,70 @@ const SearcheableCitiesList = ({
     }))
   }
 
+  const handleGetLocation = useCallback(() => {
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+      setFavoriteToast({
+        message: 'Location is not available in this browser.',
+        ts: Date.now(),
+      })
+      return
+    }
+    setIsLocating(true)
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords
+        setUserLocation([longitude, latitude])
+        const candidates = enrichedCities
+          .filter((city) => !city.disabled)
+          .map((city) => {
+            const slug = getSlugFromLink(city.link)
+            if (!slug) return null
+            const coords = CITY_COORDINATES[slug]
+            if (!coords) return null
+            const distanceKm = haversineKm(latitude, longitude, coords[1], coords[0])
+            return { slug, distanceKm }
+          })
+          .filter((entry): entry is { slug: string; distanceKm: number } => Boolean(entry))
+          .sort((a, b) => a.distanceKm - b.distanceKm)
+          .slice(0, 5)
+        setRecommendedSlugs(candidates.map((entry) => entry.slug))
+        setIsLocating(false)
+      },
+      () => {
+        setFavoriteToast({
+          message: 'Unable to fetch your location.',
+          ts: Date.now(),
+        })
+        setUserLocation(null)
+        setIsLocating(false)
+      },
+      { enableHighAccuracy: false, timeout: 10000 },
+    )
+  }, [enrichedCities])
+
+  const handlePlayRandomCity = useCallback(() => {
+    const eligible = enrichedCities
+      .map((city) => {
+        const slug = getSlugFromLink(city.link)
+        if (!slug) return null
+        if (city.disabled) return null
+        const progress = cityProgress[slug] ?? 0
+        return progress < 1 ? city : null
+      })
+      .filter((city): city is ICity => Boolean(city))
+
+    if (eligible.length === 0) {
+      setFavoriteToast({
+        message: 'You already completed every city!',
+        ts: Date.now(),
+      })
+      return
+    }
+
+    const pick = eligible[Math.floor(Math.random() * eligible.length)]
+    router.push(pick.link)
+  }, [cityProgress, enrichedCities, router])
+
   const openStatsPanelForCity = (slug: string) => {
     const city = cityMetaBySlug.get(slug)
     const cityPath = city ? getPathFromLink(city.link) : null
@@ -1946,6 +2031,7 @@ const SearcheableCitiesList = ({
           {cityList.map((city) => {
             const slug = getSlugFromLink(city.link)
             const isFavorite = slug ? favoriteSlugs.has(slug) : false
+            const isRecommended = slug ? recommendedSet.has(slug) : false
             return (
               <Transition
                 key={city.link}
@@ -1963,6 +2049,7 @@ const SearcheableCitiesList = ({
                   visibleCities={navigationCities.length > 0 ? navigationCities : cityList}
                   isFavorite={isFavorite}
                   onToggleFavorite={toggleFavorite}
+                  isRecommended={isRecommended}
                 />
               </Transition>
             )
@@ -1983,6 +2070,7 @@ const SearcheableCitiesList = ({
         {cityList.map((city) => {
           const slug = getSlugFromLink(city.link)
           const isFavorite = slug ? favoriteSlugs.has(slug) : false
+          const isRecommended = slug ? recommendedSet.has(slug) : false
           return (
             <Transition
               key={city.link}
@@ -2000,6 +2088,7 @@ const SearcheableCitiesList = ({
                 visibleCities={navigationCities.length > 0 ? navigationCities : cityList}
                 isFavorite={isFavorite}
                 onToggleFavorite={toggleFavorite}
+                isRecommended={isRecommended}
               />
             </Transition>
           )
@@ -2349,8 +2438,9 @@ const SearcheableCitiesList = ({
                 </svg>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-row sm:items-center lg:w-auto">
-              <div className="w-full sm:w-48">
+            <div className="flex flex-wrap items-center gap-2 lg:flex-nowrap lg:w-auto">
+              {!isMapView && (
+                <div className="w-full sm:w-44 lg:w-40">
                 <label className="sr-only" htmlFor="city-sort">
                   Sort cities
                 </label>
@@ -2359,7 +2449,9 @@ const SearcheableCitiesList = ({
                       id="city-sort"
                       value={citySort}
                       onChange={(event) => setCitySort(event.target.value as CitySortOption)}
-                      className="w-full appearance-none rounded-full border-0 bg-white px-4 py-2.5 pr-8 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:appearance-auto sm:py-3 sm:pr-10 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+                      className={classNames(
+                        "w-full appearance-none rounded-full border-0 bg-white px-4 py-2.5 pr-8 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:appearance-auto sm:py-3 sm:pr-10 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]",
+                      )}
                     >
                       {CITY_SORT_OPTIONS.map((option) => (
                         <option key={option.value} value={option.value}>
@@ -2374,7 +2466,8 @@ const SearcheableCitiesList = ({
                     </div>
                 </div>
               </div>
-              <div className="w-full sm:w-48">
+              )}
+              <div className="w-full sm:w-44 lg:w-40">
                 <label className="sr-only" htmlFor="city-view">
                   View
                 </label>
@@ -2398,23 +2491,79 @@ const SearcheableCitiesList = ({
                     </div>
                 </div>
               </div>
+              <button
+                type="button"
+                onClick={handleGetLocation}
+                disabled={isLocating}
+                className={clsx(
+                  "group flex items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)] whitespace-nowrap",
+                  isLocating
+                    ? "border-yellow-300 bg-yellow-100 text-yellow-800 opacity-70 dark:border-yellow-600 dark:bg-yellow-500/20 dark:text-yellow-100"
+                    : "border-yellow-300 bg-yellow-100 text-yellow-800 hover:bg-yellow-200 dark:border-yellow-600 dark:bg-yellow-500/20 dark:text-yellow-100 dark:hover:bg-yellow-500/30"
+                )}
+              >
+                <span className="text-lg leading-none" aria-hidden>
+                  📍
+                </span>
+                <span className="sr-only">{isLocating ? 'Locating...' : 'Get location'}</span>
+                <span
+                  className={classNames(
+                    'max-w-0 overflow-hidden whitespace-nowrap text-sm opacity-0 transition-all duration-200',
+                    'group-hover:max-w-xs group-hover:opacity-100 group-hover:translate-x-0',
+                    'group-focus-visible:max-w-xs group-focus-visible:opacity-100 group-focus-visible:translate-x-0',
+                  )}
+                >
+                  {isLocating ? 'Locating...' : 'Get location'}
+                </span>
+              </button>
               
               {(cityViewMode === 'globe' || cityViewMode === 'map') && (
                 <button
                     onClick={() => setIsSatellite(!isSatellite)}
                     className={clsx(
-                        "col-span-2 sm:col-span-1 flex items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)]",
+                        "group col-span-2 sm:col-span-1 flex items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)]",
                         isSatellite 
                             ? "border-[var(--accent-600)] bg-[var(--accent-600)] text-white hover:bg-[var(--accent-700)] dark:border-[var(--accent-500)] dark:bg-[var(--accent-500)] dark:text-zinc-900 dark:hover:bg-[var(--accent-400)]"
                             : "border-gray-300 bg-white text-gray-700 hover:bg-gray-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
                     )}
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-5 w-5">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-                    </svg>
-                    {t('satelliteView')}
+                    <span className="text-lg leading-none" aria-hidden>
+                      🛰️
+                    </span>
+                    <span className="sr-only">{t('satelliteView')}</span>
+                    <span
+                      className={classNames(
+                        'max-w-0 overflow-hidden whitespace-nowrap text-sm opacity-0 transition-all duration-200',
+                        'group-hover:max-w-xs group-hover:opacity-100 group-hover:translate-x-0',
+                        'group-focus-visible:max-w-xs group-focus-visible:opacity-100 group-focus-visible:translate-x-0',
+                      )}
+                    >
+                      {t('satelliteView')}
+                    </span>
                 </button>
               )}
+              <button
+                type="button"
+                onClick={handlePlayRandomCity}
+                className={clsx(
+                  "group flex items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--accent-600)] dark:focus:ring-[var(--accent-400)]",
+                  "border-gray-300 bg-white text-gray-700 hover:bg-gray-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
+                )}
+              >
+                <span className="text-lg leading-none" aria-hidden>
+                  🎲
+                </span>
+                <span className="sr-only">Play Random City</span>
+                <span
+                  className={classNames(
+                    'max-w-0 overflow-hidden whitespace-nowrap text-sm opacity-0 transition-all duration-200',
+                    'group-hover:max-w-xs group-hover:opacity-100 group-hover:translate-x-0',
+                    'group-focus-visible:max-w-xs group-focus-visible:opacity-100 group-focus-visible:translate-x-0',
+                  )}
+                >
+                  Play Random City
+                </span>
+              </button>
             </div>
             </div>
            </>
@@ -2473,6 +2622,8 @@ const SearcheableCitiesList = ({
                   cityProgress={cityProgress}
                   projection={cityViewMode === 'map' ? 'mercator' : 'globe'} 
                   satellite={isSatellite}
+                  recommendedSlugs={recommendedSlugs}
+                  userLocation={userLocation}
                   selectedContinent={continentFocus?.name}
                   continentFocusVersion={continentFocus?.token}
                   selectedCountry={countryFocus?.name}

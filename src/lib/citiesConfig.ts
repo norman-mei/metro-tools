@@ -186,7 +186,7 @@ export interface ICity {
   keywords?: string[]
 }
 
-export const cities: ICity[] = [
+const rawCities: ICity[] = [
   // North America
   {
     name: 'Albuquerque, NM',
@@ -313,6 +313,7 @@ export const cities: ICity[] = [
     link: '/africa/algeria/algiers',
     continent: 'Africa',
     keywords: ['Alger', 'Algérie'],
+    disabled: true,
   },
   // South America
   {
@@ -662,6 +663,7 @@ export const cities: ICity[] = [
     link: '/europe/uk/wm',
     continent: 'Europe',
     hideInStats: true,
+    disabled: true,
   },
 
   // Asia
@@ -1344,11 +1346,103 @@ export const cities: ICity[] = [
   },
 ]
 
-export const getSlugFromLink = (link: string): string | null => {
+const getPathFromLink = (link: string): string | null => {
   if (!link.startsWith('/')) {
     return null
   }
-  const path = link.replace(/^\//, '').split(/[?#]/)[0]
+  return link.replace(/^\//, '').split(/[?#]/)[0]
+}
+
+const PLACEHOLDER_CITY_PATHS = new Set([
+  'asia/china/beijing',
+  'asia/china/bengbu',
+  'asia/china/changsha',
+  'asia/china/chengdu',
+  'asia/china/chongqing',
+  'asia/china/delingha',
+  'asia/china/dujiangyan',
+  'asia/china/fenghuang',
+  'asia/china/fuzhou',
+  'asia/china/guangan',
+  'asia/china/guilin',
+  'asia/china/hangzhou',
+  'asia/china/hefei',
+  'asia/china/huaian',
+  'asia/china/huangshi',
+  'asia/china/jiaxing',
+  'asia/china/jinan',
+  'asia/china/jining',
+  'asia/china/kunming',
+  'asia/china/lijiang',
+  'asia/china/mengzhi',
+  'asia/china/nanjing',
+  'asia/china/nanping',
+  'asia/china/ningbo',
+  'asia/china/qingdao',
+  'asia/china/qiubei',
+  'asia/china/sanya',
+  'asia/china/suzhou',
+  'asia/china/tianjin',
+  'asia/china/tianshui',
+  'asia/china/wuhan',
+  'asia/china/xian',
+  'asia/china/xishui',
+  'asia/china/yinchuan',
+  'asia/china/zhangjiakou',
+  'asia/china/zhangye',
+  'asia/china/zhengzhou',
+  'asia/indonesia/jakarta',
+  'asia/indonesia/palembang',
+  'asia/japan/fukuoka',
+  'asia/japan/hiroshima',
+  'asia/japan/kyoto',
+  'asia/japan/nagoya',
+  'asia/japan/okayama',
+  'asia/japan/osaka-kobe',
+  'asia/japan/sapporo',
+  'asia/japan/sendai',
+  'asia/malaysia/kuala-lumpur',
+  'asia/philippines/manila',
+  'asia/south-korea/busan',
+  'asia/south-korea/daegu',
+  'asia/south-korea/daejeon',
+  'asia/south-korea/gwangju',
+  'asia/taiwan/taipei',
+  'asia/thailand/bangkok',
+  'asia/vietnam/hanoi',
+  'asia/vietnam/hochiminhcity',
+  'north-america/canada/toronto',
+  'north-america/canada/viarail',
+  'north-america/mexico/guadalajara',
+  'north-america/mexico/monterrey',
+  'north-america/usa/amtrak',
+  'oceania/australia/adelaide',
+  'oceania/australia/melbourne',
+  'oceania/australia/perth',
+  'oceania/australia/sydney',
+  'oceania/australia/yarra',
+  'oceania/new-zealand/auckland',
+  'oceania/new-zealand/wellington',
+])
+
+const applyPlaceholderFlags = (city: ICity): ICity => {
+  const path = getPathFromLink(city.link)
+  if (!path) {
+    return city
+  }
+  if (PLACEHOLDER_CITY_PATHS.has(path)) {
+    return { ...city, disabled: true }
+  }
+  return city
+}
+
+export const cities: ICity[] = rawCities.map(applyPlaceholderFlags)
+
+export const getSlugFromLink = (link: string): string | null => {
+  const path = getPathFromLink(link)
+  if (!path) {
+    return null
+  }
   const segments = path.split('/').filter(Boolean)
   return segments.length ? segments[segments.length - 1] : null
 }
