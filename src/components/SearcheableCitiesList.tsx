@@ -2235,6 +2235,12 @@ const SearcheableCitiesList = ({
                     ? t(CONTINENT_LABEL_KEYS[continent])
                     : continent
                   const countNoun = activeTab === 'achievements' ? 'achievement' : 'city'
+                  const countLabel =
+                    cityCount === 1
+                      ? countNoun
+                      : countNoun === 'city'
+                        ? 'cities'
+                        : `${countNoun}s`
                   const percentLabel = `${(averagePercent * 100).toFixed(0)}%`
                   const percentColor = getGradientColor(averagePercent)
                   const isActive =
@@ -2280,7 +2286,7 @@ const SearcheableCitiesList = ({
                               )}
                             </div>
                             <div className="mt-1 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-500">
-                              <span>{cityCount} {cityCount === 1 ? countNoun : `${countNoun}s`}</span>
+                              <span>{cityCount} {countLabel}</span>
                               {isActive && (
                                   <span className="font-medium" style={{ color: percentColor }}>
                                       {percentLabel}
