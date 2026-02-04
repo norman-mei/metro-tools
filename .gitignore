@@ -41,6 +41,7 @@ next-env.d.ts
 
 public/stats/*
 public/city-data/*
+public/city-cards/*
 
 # database artifacts
 prisma/*.db

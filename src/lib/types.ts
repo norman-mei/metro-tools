@@ -1,5 +1,5 @@
 import { FeatureCollection, LineString, MultiLineString, Point } from 'geojson'
-import { MapboxOptions } from 'mapbox-gl'
+import type { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
 export type SortOptionType = 'order' | 'name' | 'name-desc' | 'line'

@@ -1,0 +1,38 @@
+{
+  "Namboku": {
+    "name": "南北線 Namboku Line",
+    "color": "#00947f",
+    "backgroundColor": "#004A3F",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#00947f",
+    "order": 0,
+    "icon": "asia/japan/sapporo/namboku.png"
+  },
+  "Tozai": {
+    "name": "東西線 Tōzai Line",
+    "color": "#ff9100",
+    "backgroundColor": "#804900",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#ff9100",
+    "order": 1,
+    "icon": "asia/japan/sapporo/tozai.png"
+  },
+  "Toho": {
+    "name": "東豊線 Tōhō Line",
+    "color": "#0077dd",
+    "backgroundColor": "#003B6F",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#0077dd",
+    "order": 2,
+    "icon": "asia/japan/sapporo/toho.png"
+  },
+  "Streetcar": {
+    "name": "札幌市電 Streetcar",
+    "color": "#e21813",
+    "backgroundColor": "#710C0A",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#e21813",
+    "order": 3,
+    "icon": "asia/japan/sapporo/sapporosc.png"
+  }
+}

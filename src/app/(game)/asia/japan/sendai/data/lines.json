@@ -1,0 +1,20 @@
+{
+  "Namboku": {
+    "name": "南北線 Namboku Line",
+    "color": "#2e8b57",
+    "backgroundColor": "#17452C",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#2e8b57",
+    "order": 0,
+    "icon": "asia/japan/sendai/namboku.png"
+  },
+  "Tozai": {
+    "name": "東西線 Tōzai Line",
+    "color": "#00bfff",
+    "backgroundColor": "#006080",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#00bfff",
+    "order": 1,
+    "icon": "asia/japan/sendai/tozai.png"
+  }
+}

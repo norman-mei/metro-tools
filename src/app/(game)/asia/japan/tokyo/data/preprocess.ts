@@ -19,6 +19,44 @@ const Bun = {
   },
 }
 
+const hasJapanese = (value: string) =>
+  /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u.test(value)
+
+const hasLatin = (value: string) => /[\p{Script=Latin}]/u.test(value)
+
+const buildDisplayName = (rawName: string) => {
+  const cleaned = rawName.trim()
+  if (!cleaned) return cleaned
+
+  const parenMatch = cleaned.match(/^(.+?)\s*\((.+)\)$/)
+  if (parenMatch) {
+    const partA = parenMatch[1].trim()
+    const partB = parenMatch[2].trim()
+    if (hasLatin(partA) && hasJapanese(partB)) {
+      return `${partA} (${partB})`
+    }
+    if (hasLatin(partB) && hasJapanese(partA)) {
+      return `${partB} (${partA})`
+    }
+  }
+
+  const japaneseMatches = cleaned.match(
+    /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]+/gu,
+  )
+  const latinMatches = cleaned.match(
+    /[\p{Script=Latin}][\p{Script=Latin}\p{Number}'’.\\- ]*/gu,
+  )
+
+  const japanese = japaneseMatches?.[0]?.trim()
+  const latin = latinMatches?.[0]?.trim()
+
+  if (latin && japanese) {
+    return `${latin} (${japanese})`
+  }
+
+  return cleaned
+}
+
 const main = async () => {
   // --- STATIONS ---
   // @todo parametrize
@@ -66,6 +104,7 @@ const main = async () => {
               const id = ++index
 
               const name = stops[code].name
+              const displayName = buildDisplayName(name)
 
               const components = extractJapanese(name).flatMap((str) => {
                 // Regular expression to match text outside and inside the angle brackets
@@ -93,7 +132,8 @@ const main = async () => {
                 },
                 properties: {
                   id,
-                  name: stops[code].name,
+                  name: displayName,
+                  display_name: displayName,
                   alternate_names: uniq(
                     components
                       .map((str) => str.trim())

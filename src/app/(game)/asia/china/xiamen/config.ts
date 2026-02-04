@@ -1,5 +1,5 @@
 import { Config, Line, LineGroup } from '@/lib/types'
-import { MapboxOptions } from 'mapbox-gl'
+import type { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
 export const LINES: Record<string, Line> = {

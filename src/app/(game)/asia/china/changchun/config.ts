@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { MapboxOptions } from 'mapbox-gl'
+import type { MapboxOptions } from 'mapbox-gl'
 import { Config, Line, LineGroup } from '@/lib/types'
 
 import linesData from './data/lines.json'

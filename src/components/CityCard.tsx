@@ -541,6 +541,8 @@ const CityCard = ({
         draggable={false}
         src={city.image}
         alt=""
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className={classNames('absolute inset-0 h-full w-full object-cover', {
           'rounded-none': variant === 'list',
         })}

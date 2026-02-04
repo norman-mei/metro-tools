@@ -1,5 +1,5 @@
 import { Config, Line } from '@/lib/types'
-import { MapboxOptions } from 'mapbox-gl'
+import type { MapboxOptions } from 'mapbox-gl'
 import { Metadata } from 'next'
 
 export const LINES: {

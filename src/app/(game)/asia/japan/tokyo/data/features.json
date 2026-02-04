@@ -5,14 +5,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.682893, 35.697012]
+        "coordinates": [
+          139.682893,
+          35.697012
+        ]
       },
       "properties": {
         "id": 1,
-        "name": "中野坂上 Nakano-sakaue",
-        "alternate_names": ["中野坂上", "nakano sakaue"],
+        "name": "Nakano-sakaue (中野坂上)",
+        "alternate_names": [
+          "中野坂上",
+          "nakano sakaue"
+        ],
         "line": "TokyoMetroM",
-        "order": 0
+        "order": 0,
+        "display_name": "Nakano-sakaue (中野坂上)"
       },
       "id": 1
     },
@@ -20,14 +27,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.682205, 35.697085]
+        "coordinates": [
+          139.682205,
+          35.697085
+        ]
       },
       "properties": {
         "id": 46,
-        "name": "中野坂上 Nakano-sakaue",
-        "alternate_names": ["中野坂上", "nakano sakaue"],
+        "name": "Nakano-sakaue (中野坂上)",
+        "alternate_names": [
+          "中野坂上",
+          "nakano sakaue"
+        ],
         "line": "TokyoMetroMb",
-        "order": 0
+        "order": 0,
+        "display_name": "Nakano-sakaue (中野坂上)"
       },
       "id": 46
     },
@@ -35,14 +49,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.70253, 35.65911]
+        "coordinates": [
+          139.70253,
+          35.65911
+        ]
       },
       "properties": {
         "id": 50,
-        "name": "渋谷 Shibuya",
-        "alternate_names": ["渋谷", "shibuya"],
+        "name": "Shibuya (渋谷)",
+        "alternate_names": [
+          "渋谷",
+          "shibuya"
+        ],
         "line": "TokyoMetroF",
-        "order": 0
+        "order": 0,
+        "display_name": "Shibuya (渋谷)"
       },
       "id": 50
     },
@@ -50,14 +71,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.832146, 35.776889]
+        "coordinates": [
+          139.832146,
+          35.776889
+        ]
       },
       "properties": {
         "id": 66,
-        "name": "北綾瀬 Kita-ayase",
-        "alternate_names": ["北綾瀬", "kita ayase"],
+        "name": "Kita-ayase (北綾瀬)",
+        "alternate_names": [
+          "北綾瀬",
+          "kita ayase"
+        ],
         "line": "TokyoMetroC",
-        "order": 0
+        "order": 0,
+        "display_name": "Kita-ayase (北綾瀬)"
       },
       "id": 66
     },
@@ -65,14 +93,22 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.813807, 35.708478]
+        "coordinates": [
+          139.813807,
+          35.708478
+        ]
       },
       "properties": {
         "id": 86,
-        "name": "押上〈スカイツリー前〉 Oshiage",
-        "alternate_names": ["押上", "スカイツリー前", "oshiage"],
+        "name": "Oshiage (押上)",
+        "alternate_names": [
+          "押上",
+          "スカイツリー前",
+          "oshiage"
+        ],
         "line": "TokyoMetroZ",
-        "order": 0
+        "order": 0,
+        "display_name": "Oshiage (押上)"
       },
       "id": 86
     },
@@ -80,14 +116,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.722138, 35.783442]
+        "coordinates": [
+          139.722138,
+          35.783442
+        ]
       },
       "properties": {
         "id": 100,
-        "name": "赤羽岩淵 Akabane-iwabuchi",
-        "alternate_names": ["赤羽岩淵", "akabane iwabuchi"],
+        "name": "Akabane-iwabuchi (赤羽岩淵)",
+        "alternate_names": [
+          "赤羽岩淵",
+          "akabane iwabuchi"
+        ],
         "line": "TokyoMetroN",
-        "order": 0
+        "order": 0,
+        "display_name": "Akabane-iwabuchi (赤羽岩淵)"
       },
       "id": 100
     },
@@ -95,14 +138,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.80547, 35.74925]
+        "coordinates": [
+          139.80547,
+          35.74925
+        ]
       },
       "properties": {
         "id": 119,
-        "name": "北千住 Kita-senju",
-        "alternate_names": ["北千住", "kita senju"],
+        "name": "Kita-senju (北千住)",
+        "alternate_names": [
+          "北千住",
+          "kita senju"
+        ],
         "line": "TokyoMetroH",
-        "order": 0
+        "order": 0,
+        "display_name": "Kita-senju (北千住)"
       },
       "id": 119
     },
@@ -110,14 +160,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.82658, 35.64597]
+        "coordinates": [
+          139.82658,
+          35.64597
+        ]
       },
       "properties": {
         "id": 141,
-        "name": "新木場 Shin-kiba",
-        "alternate_names": ["新木場", "shin kiba"],
+        "name": "Shin-kiba (新木場)",
+        "alternate_names": [
+          "新木場",
+          "shin kiba"
+        ],
         "line": "TokyoMetroY",
-        "order": 0
+        "order": 0,
+        "display_name": "Shin-kiba (新木場)"
       },
       "id": 141
     },
@@ -125,14 +182,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.665602, 35.70581]
+        "coordinates": [
+          139.665602,
+          35.70581
+        ]
       },
       "properties": {
         "id": 165,
-        "name": "中野 Nakano",
-        "alternate_names": ["中野", "nakano"],
+        "name": "Nakano (中野)",
+        "alternate_names": [
+          "中野",
+          "nakano"
+        ],
         "line": "TokyoMetroT",
-        "order": 0
+        "order": 0,
+        "display_name": "Nakano (中野)"
       },
       "id": 165
     },
@@ -140,14 +204,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.797035, 35.709565]
+        "coordinates": [
+          139.797035,
+          35.709565
+        ]
       },
       "properties": {
         "id": 188,
-        "name": "浅草 Asakusa",
-        "alternate_names": ["浅草", "asakusa"],
+        "name": "Asakusa (浅草)",
+        "alternate_names": [
+          "浅草",
+          "asakusa"
+        ],
         "line": "TokyoMetroG",
-        "order": 0
+        "order": 0,
+        "display_name": "Asakusa (浅草)"
       },
       "id": 188
     },
@@ -155,14 +226,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.715626, 35.633853]
+        "coordinates": [
+          139.715626,
+          35.633853
+        ]
       },
       "properties": {
         "id": 207,
-        "name": "目黒 Meguro",
-        "alternate_names": ["目黒", "meguro"],
+        "name": "Meguro (目黒)",
+        "alternate_names": [
+          "目黒",
+          "meguro"
+        ],
         "line": "ToeiSubwayI",
-        "order": 0
+        "order": 0,
+        "display_name": "Meguro (目黒)"
       },
       "id": 207
     },
@@ -170,14 +248,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.629412, 35.758485]
+        "coordinates": [
+          139.629412,
+          35.758485
+        ]
       },
       "properties": {
         "id": 234,
-        "name": "光が丘 Hikarigaoka",
-        "alternate_names": ["光が丘", "hikarigaoka"],
+        "name": "Hikarigaoka (光が丘)",
+        "alternate_names": [
+          "光が丘",
+          "hikarigaoka"
+        ],
         "line": "ToeiSubwayE",
-        "order": 0
+        "order": 0,
+        "display_name": "Hikarigaoka (光が丘)"
       },
       "id": 234
     },
@@ -185,14 +270,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.926603, 35.722765]
+        "coordinates": [
+          139.926603,
+          35.722765
+        ]
       },
       "properties": {
         "id": 273,
-        "name": "本八幡 Motoyawata",
-        "alternate_names": ["本八幡", "motoyawata"],
+        "name": "Motoyawata (本八幡)",
+        "alternate_names": [
+          "本八幡",
+          "motoyawata"
+        ],
         "line": "ToeiSubwayS",
-        "order": 0
+        "order": 0,
+        "display_name": "Motoyawata (本八幡)"
       },
       "id": 273
     },
@@ -200,14 +292,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.706258, 35.587265]
+        "coordinates": [
+          139.706258,
+          35.587265
+        ]
       },
       "properties": {
         "id": 294,
-        "name": "西馬込 Nishi-magome",
-        "alternate_names": ["西馬込", "nishi magome"],
+        "name": "Nishi-magome (西馬込)",
+        "alternate_names": [
+          "西馬込",
+          "nishi magome"
+        ],
         "line": "ToeiSubwayA",
-        "order": 0
+        "order": 0,
+        "display_name": "Nishi-magome (西馬込)"
       },
       "id": 294
     },
@@ -215,14 +314,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.699226, 35.693381]
+        "coordinates": [
+          139.699226,
+          35.693381
+        ]
       },
       "properties": {
         "id": 271,
-        "name": "新宿西口 Shinjuku-nishiguchi",
-        "alternate_names": ["新宿西口", "shinjuku nishiguchi"],
+        "name": "Shinjuku-nishiguchi (新宿西口)",
+        "alternate_names": [
+          "新宿西口",
+          "shinjuku nishiguchi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 395
+        "order": 395,
+        "display_name": "Shinjuku-nishiguchi (新宿西口)"
       },
       "id": 271
     },
@@ -230,14 +336,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.707421, 35.697897]
+        "coordinates": [
+          139.707421,
+          35.697897
+        ]
       },
       "properties": {
         "id": 270,
-        "name": "東新宿 Higashi-shinjuku",
-        "alternate_names": ["東新宿", "higashi shinjuku"],
+        "name": "Higashi-shinjuku (東新宿)",
+        "alternate_names": [
+          "東新宿",
+          "higashi shinjuku"
+        ],
         "line": "ToeiSubwayE",
-        "order": 380
+        "order": 380,
+        "display_name": "Higashi-shinjuku (東新宿)"
       },
       "id": 270
     },
@@ -245,14 +358,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.718087, 35.699092]
+        "coordinates": [
+          139.718087,
+          35.699092
+        ]
       },
       "properties": {
         "id": 269,
-        "name": "若松河田 Wakamatsu-kawada",
-        "alternate_names": ["若松河田", "wakamatsu kawada"],
+        "name": "Wakamatsu-kawada (若松河田)",
+        "alternate_names": [
+          "若松河田",
+          "wakamatsu kawada"
+        ],
         "line": "ToeiSubwayE",
-        "order": 369
+        "order": 369,
+        "display_name": "Wakamatsu-kawada (若松河田)"
       },
       "id": 269
     },
@@ -260,14 +380,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.725032, 35.699446]
+        "coordinates": [
+          139.725032,
+          35.699446
+        ]
       },
       "properties": {
         "id": 268,
-        "name": "牛込柳町 Ushigome-yanagicho",
-        "alternate_names": ["牛込柳町", "ushigome yanagicho"],
+        "name": "Ushigome-yanagicho (牛込柳町)",
+        "alternate_names": [
+          "牛込柳町",
+          "ushigome yanagicho"
+        ],
         "line": "ToeiSubwayE",
-        "order": 361
+        "order": 361,
+        "display_name": "Ushigome-yanagicho (牛込柳町)"
       },
       "id": 268
     },
@@ -275,14 +402,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736019, 35.700816]
+        "coordinates": [
+          139.736019,
+          35.700816
+        ]
       },
       "properties": {
         "id": 267,
-        "name": "牛込神楽坂 Ushigome-kagurazaka",
-        "alternate_names": ["牛込神楽坂", "ushigome kagurazaka"],
+        "name": "Ushigome-kagurazaka (牛込神楽坂)",
+        "alternate_names": [
+          "牛込神楽坂",
+          "ushigome kagurazaka"
+        ],
         "line": "ToeiSubwayE",
-        "order": 348
+        "order": 348,
+        "display_name": "Ushigome-kagurazaka (牛込神楽坂)"
       },
       "id": 267
     },
@@ -290,14 +424,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.745319, 35.70282]
+        "coordinates": [
+          139.745319,
+          35.70282
+        ]
       },
       "properties": {
         "id": 266,
-        "name": "飯田橋 Iidabashi",
-        "alternate_names": ["飯田橋", "iidabashi"],
+        "name": "Iidabashi (飯田橋)",
+        "alternate_names": [
+          "飯田橋",
+          "iidabashi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 333
+        "order": 333,
+        "display_name": "Iidabashi (飯田橋)"
       },
       "id": 266
     },
@@ -305,14 +446,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.752485, 35.708437]
+        "coordinates": [
+          139.752485,
+          35.708437
+        ]
       },
       "properties": {
         "id": 265,
-        "name": "春日 Kasuga",
-        "alternate_names": ["春日", "kasuga"],
+        "name": "Kasuga (春日)",
+        "alternate_names": [
+          "春日",
+          "kasuga"
+        ],
         "line": "ToeiSubwayE",
-        "order": 321
+        "order": 321,
+        "display_name": "Kasuga (春日)"
       },
       "id": 265
     },
@@ -320,14 +468,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.760533, 35.707427]
+        "coordinates": [
+          139.760533,
+          35.707427
+        ]
       },
       "properties": {
         "id": 264,
-        "name": "本郷三丁目 Hongo-sanchome",
-        "alternate_names": ["本郷三丁目", "hongo sanchome"],
+        "name": "Hongo-sanchome (本郷三丁目)",
+        "alternate_names": [
+          "本郷三丁目",
+          "hongo sanchome"
+        ],
         "line": "ToeiSubwayE",
-        "order": 310
+        "order": 310,
+        "display_name": "Hongo-sanchome (本郷三丁目)"
       },
       "id": 264
     },
@@ -335,14 +490,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.773343, 35.707893]
+        "coordinates": [
+          139.773343,
+          35.707893
+        ]
       },
       "properties": {
         "id": 263,
-        "name": "上野御徒町 Ueno-okachimachi",
-        "alternate_names": ["上野御徒町", "ueno okachimachi"],
+        "name": "Ueno-okachimachi (上野御徒町)",
+        "alternate_names": [
+          "上野御徒町",
+          "ueno okachimachi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 299
+        "order": 299,
+        "display_name": "Ueno-okachimachi (上野御徒町)"
       },
       "id": 263
     },
@@ -350,14 +512,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.782155, 35.706944]
+        "coordinates": [
+          139.782155,
+          35.706944
+        ]
       },
       "properties": {
         "id": 262,
-        "name": "新御徒町 Shin-Okachimachi",
-        "alternate_names": ["新御徒町", "shin okachimachi"],
+        "name": "Shin-Okachimachi (新御徒町)",
+        "alternate_names": [
+          "新御徒町",
+          "shin okachimachi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 295
+        "order": 295,
+        "display_name": "Shin-Okachimachi (新御徒町)"
       },
       "id": 262
     },
@@ -365,14 +534,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.792224, 35.705549]
+        "coordinates": [
+          139.792224,
+          35.705549
+        ]
       },
       "properties": {
         "id": 261,
-        "name": "蔵前 Kuramae",
-        "alternate_names": ["蔵前", "kuramae"],
+        "name": "Kuramae (蔵前)",
+        "alternate_names": [
+          "蔵前",
+          "kuramae"
+        ],
         "line": "ToeiSubwayE",
-        "order": 290
+        "order": 290,
+        "display_name": "Kuramae (蔵前)"
       },
       "id": 261
     },
@@ -380,14 +556,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.797545, 35.696812]
+        "coordinates": [
+          139.797545,
+          35.696812
+        ]
       },
       "properties": {
         "id": 260,
-        "name": "両国 Ryogoku",
-        "alternate_names": ["両国", "ryogoku"],
+        "name": "Ryogoku (両国)",
+        "alternate_names": [
+          "両国",
+          "ryogoku"
+        ],
         "line": "ToeiSubwayE",
-        "order": 282
+        "order": 282,
+        "display_name": "Ryogoku (両国)"
       },
       "id": 260
     },
@@ -395,14 +578,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.798403, 35.687932]
+        "coordinates": [
+          139.798403,
+          35.687932
+        ]
       },
       "properties": {
         "id": 259,
-        "name": "森下 Morishita",
-        "alternate_names": ["森下", "morishita"],
+        "name": "Morishita (森下)",
+        "alternate_names": [
+          "森下",
+          "morishita"
+        ],
         "line": "ToeiSubwayE",
-        "order": 279
+        "order": 279,
+        "display_name": "Morishita (森下)"
       },
       "id": 259
     },
@@ -410,14 +600,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.798853, 35.682363]
+        "coordinates": [
+          139.798853,
+          35.682363
+        ]
       },
       "properties": {
         "id": 258,
-        "name": "清澄白河 Kiyosumi-shirakawa",
-        "alternate_names": ["清澄白河", "kiyosumi shirakawa"],
+        "name": "Kiyosumi-shirakawa (清澄白河)",
+        "alternate_names": [
+          "清澄白河",
+          "kiyosumi shirakawa"
+        ],
         "line": "ToeiSubwayE",
-        "order": 276
+        "order": 276,
+        "display_name": "Kiyosumi-shirakawa (清澄白河)"
       },
       "id": 258
     },
@@ -425,14 +622,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.71563, 35.633213]
+        "coordinates": [
+          139.71563,
+          35.633213
+        ]
       },
       "properties": {
         "id": 118,
-        "name": "目黒 Meguro",
-        "alternate_names": ["目黒", "meguro"],
+        "name": "Meguro (目黒)",
+        "alternate_names": [
+          "目黒",
+          "meguro"
+        ],
         "line": "TokyoMetroN",
-        "order": 266
+        "order": 266,
+        "display_name": "Meguro (目黒)"
       },
       "id": 118
     },
@@ -440,14 +644,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.795216, 35.672732]
+        "coordinates": [
+          139.795216,
+          35.672732
+        ]
       },
       "properties": {
         "id": 257,
-        "name": "門前仲町 Monzen-nakacho",
-        "alternate_names": ["門前仲町", "monzen nakacho"],
+        "name": "Monzen-nakacho (門前仲町)",
+        "alternate_names": [
+          "門前仲町",
+          "monzen nakacho"
+        ],
         "line": "ToeiSubwayE",
-        "order": 261
+        "order": 261,
+        "display_name": "Monzen-nakacho (門前仲町)"
       },
       "id": 257
     },
@@ -455,14 +666,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.783993, 35.663684]
+        "coordinates": [
+          139.783993,
+          35.663684
+        ]
       },
       "properties": {
         "id": 256,
-        "name": "月島 Tsukishima",
-        "alternate_names": ["月島", "tsukishima"],
+        "name": "Tsukishima (月島)",
+        "alternate_names": [
+          "月島",
+          "tsukishima"
+        ],
         "line": "ToeiSubwayE",
-        "order": 254
+        "order": 254,
+        "display_name": "Tsukishima (月島)"
       },
       "id": 256
     },
@@ -470,14 +688,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.725856, 35.637775]
+        "coordinates": [
+          139.725856,
+          35.637775
+        ]
       },
       "properties": {
         "id": 117,
-        "name": "白金台 Shirokanedai",
-        "alternate_names": ["白金台", "shirokanedai"],
+        "name": "Shirokanedai (白金台)",
+        "alternate_names": [
+          "白金台",
+          "shirokanedai"
+        ],
         "line": "TokyoMetroN",
-        "order": 251
+        "order": 251,
+        "display_name": "Shirokanedai (白金台)"
       },
       "id": 117
     },
@@ -485,14 +710,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.777225, 35.658854]
+        "coordinates": [
+          139.777225,
+          35.658854
+        ]
       },
       "properties": {
         "id": 255,
-        "name": "勝どき Kachidoki",
-        "alternate_names": ["勝どき", "kachidoki"],
+        "name": "Kachidoki (勝どき)",
+        "alternate_names": [
+          "勝どき",
+          "kachidoki"
+        ],
         "line": "ToeiSubwayE",
-        "order": 251
+        "order": 251,
+        "display_name": "Kachidoki (勝どき)"
       },
       "id": 255
     },
@@ -500,14 +732,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.734271, 35.64315]
+        "coordinates": [
+          139.734271,
+          35.64315
+        ]
       },
       "properties": {
         "id": 116,
-        "name": "白金高輪 Shirokane-takanawa",
-        "alternate_names": ["白金高輪", "shirokane takanawa"],
+        "name": "Shirokane-takanawa (白金高輪)",
+        "alternate_names": [
+          "白金高輪",
+          "shirokane takanawa"
+        ],
         "line": "TokyoMetroN",
-        "order": 240
+        "order": 240,
+        "display_name": "Shirokane-takanawa (白金高輪)"
       },
       "id": 116
     },
@@ -515,14 +754,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.766906, 35.664901]
+        "coordinates": [
+          139.766906,
+          35.664901
+        ]
       },
       "properties": {
         "id": 254,
-        "name": "築地市場 Tsukijishijo",
-        "alternate_names": ["築地市場", "tsukijishijo"],
+        "name": "Tsukijishijo (築地市場)",
+        "alternate_names": [
+          "築地市場",
+          "tsukijishijo"
+        ],
         "line": "ToeiSubwayE",
-        "order": 239
+        "order": 239,
+        "display_name": "Tsukijishijo (築地市場)"
       },
       "id": 254
     },
@@ -530,14 +776,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.711691, 35.730149]
+        "coordinates": [
+          139.711691,
+          35.730149
+        ]
       },
       "properties": {
         "id": 20,
-        "name": "池袋 Ikebukuro",
-        "alternate_names": ["池袋", "ikebukuro"],
+        "name": "Ikebukuro (池袋)",
+        "alternate_names": [
+          "池袋",
+          "ikebukuro"
+        ],
         "line": "TokyoMetroM",
-        "order": 237
+        "order": 237,
+        "display_name": "Ikebukuro (池袋)"
       },
       "id": 20
     },
@@ -545,14 +798,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.760318, 35.663132]
+        "coordinates": [
+          139.760318,
+          35.663132
+        ]
       },
       "properties": {
         "id": 253,
-        "name": "汐留 Shiodome",
-        "alternate_names": ["汐留", "shiodome"],
+        "name": "Shiodome (汐留)",
+        "alternate_names": [
+          "汐留",
+          "shiodome"
+        ],
         "line": "ToeiSubwayE",
-        "order": 230
+        "order": 230,
+        "display_name": "Shiodome (汐留)"
       },
       "id": 253
     },
@@ -560,14 +820,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736998, 35.654814]
+        "coordinates": [
+          139.736998,
+          35.654814
+        ]
       },
       "properties": {
         "id": 115,
-        "name": "麻布十番 Azabu-juban",
-        "alternate_names": ["麻布十番", "azabu juban"],
+        "name": "Azabu-juban (麻布十番)",
+        "alternate_names": [
+          "麻布十番",
+          "azabu juban"
+        ],
         "line": "TokyoMetroN",
-        "order": 229
+        "order": 229,
+        "display_name": "Azabu-juban (麻布十番)"
       },
       "id": 115
     },
@@ -575,14 +842,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.729382, 35.726156]
+        "coordinates": [
+          139.729382,
+          35.726156
+        ]
       },
       "properties": {
         "id": 19,
-        "name": "新大塚 Shin-otsuka",
-        "alternate_names": ["新大塚", "shin otsuka"],
+        "name": "Shin-otsuka (新大塚)",
+        "alternate_names": [
+          "新大塚",
+          "shin otsuka"
+        ],
         "line": "TokyoMetroM",
-        "order": 222
+        "order": 222,
+        "display_name": "Shin-otsuka (新大塚)"
       },
       "id": 19
     },
@@ -590,14 +864,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.679859, 35.66905]
+        "coordinates": [
+          139.679859,
+          35.66905
+        ]
       },
       "properties": {
         "id": 85,
-        "name": "代々木上原 Yoyogi-uehara",
-        "alternate_names": ["代々木上原", "yoyogi uehara"],
+        "name": "Yoyogi-uehara (代々木上原)",
+        "alternate_names": [
+          "代々木上原",
+          "yoyogi uehara"
+        ],
         "line": "TokyoMetroC",
-        "order": 222
+        "order": 222,
+        "display_name": "Yoyogi-uehara (代々木上原)"
       },
       "id": 85
     },
@@ -605,14 +886,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.755689, 35.656622]
+        "coordinates": [
+          139.755689,
+          35.656622
+        ]
       },
       "properties": {
         "id": 252,
-        "name": "大門 Daimon",
-        "alternate_names": ["大門", "daimon"],
+        "name": "Daimon (大門)",
+        "alternate_names": [
+          "大門",
+          "daimon"
+        ],
         "line": "ToeiSubwayE",
-        "order": 220
+        "order": 220,
+        "display_name": "Daimon (大門)"
       },
       "id": 252
     },
@@ -620,14 +908,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.689803, 35.669159]
+        "coordinates": [
+          139.689803,
+          35.669159
+        ]
       },
       "properties": {
         "id": 84,
-        "name": "代々木公園 Yoyogi-koen",
-        "alternate_names": ["代々木公園", "yoyogi koen"],
+        "name": "Yoyogi-koen (代々木公園)",
+        "alternate_names": [
+          "代々木公園",
+          "yoyogi koen"
+        ],
         "line": "TokyoMetroC",
-        "order": 214
+        "order": 214,
+        "display_name": "Yoyogi-koen (代々木公園)"
       },
       "id": 84
     },
@@ -635,14 +930,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.738827, 35.665084]
+        "coordinates": [
+          139.738827,
+          35.665084
+        ]
       },
       "properties": {
         "id": 114,
-        "name": "六本木一丁目 Roppongi-itchome",
-        "alternate_names": ["六本木一丁目", "roppongi itchome"],
+        "name": "Roppongi-itchome (六本木一丁目)",
+        "alternate_names": [
+          "六本木一丁目",
+          "roppongi itchome"
+        ],
         "line": "TokyoMetroN",
-        "order": 213
+        "order": 213,
+        "display_name": "Roppongi-itchome (六本木一丁目)"
       },
       "id": 114
     },
@@ -650,14 +952,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.645905, 35.791965]
+        "coordinates": [
+          139.645905,
+          35.791965
+        ]
       },
       "properties": {
         "id": 233,
-        "name": "西高島平 Nishi-takashimadaira",
-        "alternate_names": ["西高島平", "nishi takashimadaira"],
+        "name": "Nishi-takashimadaira (西高島平)",
+        "alternate_names": [
+          "西高島平",
+          "nishi takashimadaira"
+        ],
         "line": "ToeiSubwayI",
-        "order": 212
+        "order": 212,
+        "display_name": "Nishi-takashimadaira (西高島平)"
       },
       "id": 233
     },
@@ -665,14 +974,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.654067, 35.790345]
+        "coordinates": [
+          139.654067,
+          35.790345
+        ]
       },
       "properties": {
         "id": 232,
-        "name": "新高島平 Shin-takashimadaira",
-        "alternate_names": ["新高島平", "shin takashimadaira"],
+        "name": "Shin-takashimadaira (新高島平)",
+        "alternate_names": [
+          "新高島平",
+          "shin takashimadaira"
+        ],
         "line": "ToeiSubwayI",
-        "order": 209
+        "order": 209,
+        "display_name": "Shin-takashimadaira (新高島平)"
       },
       "id": 232
     },
@@ -680,14 +996,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736924, 35.71722]
+        "coordinates": [
+          139.736924,
+          35.71722
+        ]
       },
       "properties": {
         "id": 18,
-        "name": "茗荷谷 Myogadani",
-        "alternate_names": ["茗荷谷", "myogadani"],
+        "name": "Myogadani (茗荷谷)",
+        "alternate_names": [
+          "茗荷谷",
+          "myogadani"
+        ],
         "line": "TokyoMetroM",
-        "order": 206
+        "order": 206,
+        "display_name": "Myogadani (茗荷谷)"
       },
       "id": 18
     },
@@ -695,14 +1018,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.661382, 35.788982]
+        "coordinates": [
+          139.661382,
+          35.788982
+        ]
       },
       "properties": {
         "id": 231,
-        "name": "高島平 Takashimadaira",
-        "alternate_names": ["高島平", "takashimadaira"],
+        "name": "Takashimadaira (高島平)",
+        "alternate_names": [
+          "高島平",
+          "takashimadaira"
+        ],
         "line": "ToeiSubwayI",
-        "order": 205
+        "order": 205,
+        "display_name": "Takashimadaira (高島平)"
       },
       "id": 231
     },
@@ -710,14 +1040,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.703965, 35.669154]
+        "coordinates": [
+          139.703965,
+          35.669154
+        ]
       },
       "properties": {
         "id": 83,
-        "name": "明治神宮前〈原宿〉 Meiji-jingumae<Harajuku>",
-        "alternate_names": ["明治神宮前", "原宿", "meiji jingumae", "harajuku"],
+        "name": "Meiji-jingumae (明治神宮前)",
+        "alternate_names": [
+          "明治神宮前",
+          "原宿",
+          "meiji jingumae",
+          "harajuku"
+        ],
         "line": "TokyoMetroC",
-        "order": 203
+        "order": 203,
+        "display_name": "Meiji-jingumae (明治神宮前)"
       },
       "id": 83
     },
@@ -725,14 +1064,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.741429, 35.673089]
+        "coordinates": [
+          139.741429,
+          35.673089
+        ]
       },
       "properties": {
         "id": 113,
-        "name": "溜池山王 Tameike-sanno",
-        "alternate_names": ["溜池山王", "tameike sanno"],
+        "name": "Tameike-sanno (溜池山王)",
+        "alternate_names": [
+          "溜池山王",
+          "tameike sanno"
+        ],
         "line": "TokyoMetroN",
-        "order": 202
+        "order": 202,
+        "display_name": "Tameike-sanno (溜池山王)"
       },
       "id": 113
     },
@@ -740,14 +1086,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.743986, 35.654953]
+        "coordinates": [
+          139.743986,
+          35.654953
+        ]
       },
       "properties": {
         "id": 251,
-        "name": "赤羽橋 Akabanebashi",
-        "alternate_names": ["赤羽橋", "akabanebashi"],
+        "name": "Akabanebashi (赤羽橋)",
+        "alternate_names": [
+          "赤羽橋",
+          "akabanebashi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 201
+        "order": 201,
+        "display_name": "Akabanebashi (赤羽橋)"
       },
       "id": 251
     },
@@ -755,14 +1108,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.612864, 35.788348]
+        "coordinates": [
+          139.612864,
+          35.788348
+        ]
       },
       "properties": {
         "id": 164,
-        "name": "和光市 Wakoshi",
-        "alternate_names": ["和光市", "wakoshi"],
+        "name": "Wakoshi (和光市)",
+        "alternate_names": [
+          "和光市",
+          "wakoshi"
+        ],
         "line": "TokyoMetroY",
-        "order": 200
+        "order": 200,
+        "display_name": "Wakoshi (和光市)"
       },
       "id": 164
     },
@@ -770,14 +1130,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.672871, 35.7871]
+        "coordinates": [
+          139.672871,
+          35.7871
+        ]
       },
       "properties": {
         "id": 230,
-        "name": "西台 Nishidai",
-        "alternate_names": ["西台", "nishidai"],
+        "name": "Nishidai (西台)",
+        "alternate_names": [
+          "西台",
+          "nishidai"
+        ],
         "line": "ToeiSubwayI",
-        "order": 200
+        "order": 200,
+        "display_name": "Nishidai (西台)"
       },
       "id": 230
     },
@@ -785,14 +1152,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.711392, 35.665718]
+        "coordinates": [
+          139.711392,
+          35.665718
+        ]
       },
       "properties": {
         "id": 82,
-        "name": "表参道 Omote-sando",
-        "alternate_names": ["表参道", "omote sando"],
+        "name": "Omote-sando (表参道)",
+        "alternate_names": [
+          "表参道",
+          "omote sando"
+        ],
         "line": "TokyoMetroC",
-        "order": 199
+        "order": 199,
+        "display_name": "Omote-sando (表参道)"
       },
       "id": 82
     },
@@ -800,14 +1174,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736323, 35.656424]
+        "coordinates": [
+          139.736323,
+          35.656424
+        ]
       },
       "properties": {
         "id": 250,
-        "name": "麻布十番 Azabu-juban",
-        "alternate_names": ["麻布十番", "azabu juban"],
+        "name": "Azabu-juban (麻布十番)",
+        "alternate_names": [
+          "麻布十番",
+          "azabu juban"
+        ],
         "line": "ToeiSubwayE",
-        "order": 194
+        "order": 194,
+        "display_name": "Azabu-juban (麻布十番)"
       },
       "id": 250
     },
@@ -815,14 +1196,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.739282, 35.67833]
+        "coordinates": [
+          139.739282,
+          35.67833
+        ]
       },
       "properties": {
         "id": 112,
-        "name": "永田町 Nagatacho",
-        "alternate_names": ["永田町", "nagatacho"],
+        "name": "Nagatacho (永田町)",
+        "alternate_names": [
+          "永田町",
+          "nagatacho"
+        ],
         "line": "TokyoMetroN",
-        "order": 193
+        "order": 193,
+        "display_name": "Nagatacho (永田町)"
       },
       "id": 112
     },
@@ -830,14 +1218,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.679261, 35.784211]
+        "coordinates": [
+          139.679261,
+          35.784211
+        ]
       },
       "properties": {
         "id": 229,
-        "name": "蓮根 Hasune",
-        "alternate_names": ["蓮根", "hasune"],
+        "name": "Hasune (蓮根)",
+        "alternate_names": [
+          "蓮根",
+          "hasune"
+        ],
         "line": "ToeiSubwayI",
-        "order": 191
+        "order": 191,
+        "display_name": "Hasune (蓮根)"
       },
       "id": 229
     },
@@ -845,14 +1240,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.750861, 35.707307]
+        "coordinates": [
+          139.750861,
+          35.707307
+        ]
       },
       "properties": {
         "id": 17,
-        "name": "後楽園 Korakuen",
-        "alternate_names": ["後楽園", "korakuen"],
+        "name": "Korakuen (後楽園)",
+        "alternate_names": [
+          "後楽園",
+          "korakuen"
+        ],
         "line": "TokyoMetroM",
-        "order": 183
+        "order": 183,
+        "display_name": "Korakuen (後楽園)"
       },
       "id": 17
     },
@@ -860,14 +1262,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.631132, 35.776703]
+        "coordinates": [
+          139.631132,
+          35.776703
+        ]
       },
       "properties": {
         "id": 163,
-        "name": "地下鉄成増 Chikatetsu-narimasu",
-        "alternate_names": ["地下鉄成増", "chikatetsu narimasu"],
+        "name": "Chikatetsu-narimasu (地下鉄成増)",
+        "alternate_names": [
+          "地下鉄成増",
+          "chikatetsu narimasu"
+        ],
         "line": "TokyoMetroY",
-        "order": 183
+        "order": 183,
+        "display_name": "Chikatetsu-narimasu (地下鉄成増)"
       },
       "id": 163
     },
@@ -875,14 +1284,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.726251, 35.666577]
+        "coordinates": [
+          139.726251,
+          35.666577
+        ]
       },
       "properties": {
         "id": 81,
-        "name": "乃木坂 Nogizaka",
-        "alternate_names": ["乃木坂", "nogizaka"],
+        "name": "Nogizaka (乃木坂)",
+        "alternate_names": [
+          "乃木坂",
+          "nogizaka"
+        ],
         "line": "TokyoMetroC",
-        "order": 180
+        "order": 180,
+        "display_name": "Nogizaka (乃木坂)"
       },
       "id": 81
     },
@@ -890,14 +1306,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.685764, 35.777434]
+        "coordinates": [
+          139.685764,
+          35.777434
+        ]
       },
       "properties": {
         "id": 228,
-        "name": "志村三丁目 Shimura-sanchome",
-        "alternate_names": ["志村三丁目", "shimura sanchome"],
+        "name": "Shimura-sanchome (志村三丁目)",
+        "alternate_names": [
+          "志村三丁目",
+          "shimura sanchome"
+        ],
         "line": "ToeiSubwayI",
-        "order": 177
+        "order": 177,
+        "display_name": "Shimura-sanchome (志村三丁目)"
       },
       "id": 228
     },
@@ -905,14 +1328,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.731362, 35.664112]
+        "coordinates": [
+          139.731362,
+          35.664112
+        ]
       },
       "properties": {
         "id": 249,
-        "name": "六本木 Roppongi",
-        "alternate_names": ["六本木", "roppongi"],
+        "name": "Roppongi (六本木)",
+        "alternate_names": [
+          "六本木",
+          "roppongi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 177
+        "order": 177,
+        "display_name": "Roppongi (六本木)"
       },
       "id": 249
     },
@@ -920,14 +1350,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.729596, 35.686103]
+        "coordinates": [
+          139.729596,
+          35.686103
+        ]
       },
       "properties": {
         "id": 111,
-        "name": "四ツ谷 Yotsuya",
-        "alternate_names": ["四ツ谷", "yotsuya"],
+        "name": "Yotsuya (四ツ谷)",
+        "alternate_names": [
+          "四ツ谷",
+          "yotsuya"
+        ],
         "line": "TokyoMetroN",
-        "order": 172
+        "order": 172,
+        "display_name": "Yotsuya (四ツ谷)"
       },
       "id": 111
     },
@@ -935,14 +1372,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.644004, 35.769953]
+        "coordinates": [
+          139.644004,
+          35.769953
+        ]
       },
       "properties": {
         "id": 162,
-        "name": "地下鉄赤塚 Chikatetsu-akatsuka",
-        "alternate_names": ["地下鉄赤塚", "chikatetsu akatsuka"],
+        "name": "Chikatetsu-akatsuka (地下鉄赤塚)",
+        "alternate_names": [
+          "地下鉄赤塚",
+          "chikatetsu akatsuka"
+        ],
         "line": "TokyoMetroY",
-        "order": 170
+        "order": 170,
+        "display_name": "Chikatetsu-akatsuka (地下鉄赤塚)"
       },
       "id": 162
     },
@@ -950,14 +1394,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.760018, 35.706627]
+        "coordinates": [
+          139.760018,
+          35.706627
+        ]
       },
       "properties": {
         "id": 16,
-        "name": "本郷三丁目 Hongo-sanchome",
-        "alternate_names": ["本郷三丁目", "hongo sanchome"],
+        "name": "Hongo-sanchome (本郷三丁目)",
+        "alternate_names": [
+          "本郷三丁目",
+          "hongo sanchome"
+        ],
         "line": "TokyoMetroM",
-        "order": 169
+        "order": 169,
+        "display_name": "Hongo-sanchome (本郷三丁目)"
       },
       "id": 16
     },
@@ -965,14 +1416,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736379, 35.672226]
+        "coordinates": [
+          139.736379,
+          35.672226
+        ]
       },
       "properties": {
         "id": 80,
-        "name": "赤坂 Akasaka",
-        "alternate_names": ["赤坂", "akasaka"],
+        "name": "Akasaka (赤坂)",
+        "alternate_names": [
+          "赤坂",
+          "akasaka"
+        ],
         "line": "TokyoMetroC",
-        "order": 165
+        "order": 165,
+        "display_name": "Akasaka (赤坂)"
       },
       "id": 80
     },
@@ -980,14 +1438,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.695211, 35.776159]
+        "coordinates": [
+          139.695211,
+          35.776159
+        ]
       },
       "properties": {
         "id": 227,
-        "name": "志村坂上 Shimura-sakaue",
-        "alternate_names": ["志村坂上", "shimura sakaue"],
+        "name": "Shimura-sakaue (志村坂上)",
+        "alternate_names": [
+          "志村坂上",
+          "shimura sakaue"
+        ],
         "line": "ToeiSubwayI",
-        "order": 165
+        "order": 165,
+        "display_name": "Shimura-sakaue (志村坂上)"
       },
       "id": 227
     },
@@ -995,14 +1460,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.6988, 35.64414]
+        "coordinates": [
+          139.6988,
+          35.64414
+        ]
       },
       "properties": {
         "id": 140,
-        "name": "中目黒 Naka-meguro",
-        "alternate_names": ["中目黒", "naka meguro"],
+        "name": "Naka-meguro (中目黒)",
+        "alternate_names": [
+          "中目黒",
+          "naka meguro"
+        ],
         "line": "TokyoMetroH",
-        "order": 164
+        "order": 164,
+        "display_name": "Naka-meguro (中目黒)"
       },
       "id": 140
     },
@@ -1010,14 +1482,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736347, 35.692875]
+        "coordinates": [
+          139.736347,
+          35.692875
+        ]
       },
       "properties": {
         "id": 110,
-        "name": "市ケ谷 Ichigaya",
-        "alternate_names": ["市ケ谷", "ichigaya"],
+        "name": "Ichigaya (市ケ谷)",
+        "alternate_names": [
+          "市ケ谷",
+          "ichigaya"
+        ],
         "line": "TokyoMetroN",
-        "order": 161
+        "order": 161,
+        "display_name": "Ichigaya (市ケ谷)"
       },
       "id": 110
     },
@@ -1025,14 +1504,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.723964, 35.67308]
+        "coordinates": [
+          139.723964,
+          35.67308
+        ]
       },
       "properties": {
         "id": 248,
-        "name": "青山一丁目 Aoyama-itchome",
-        "alternate_names": ["青山一丁目", "aoyama itchome"],
+        "name": "Aoyama-itchome (青山一丁目)",
+        "alternate_names": [
+          "青山一丁目",
+          "aoyama itchome"
+        ],
         "line": "ToeiSubwayE",
-        "order": 160
+        "order": 160,
+        "display_name": "Aoyama-itchome (青山一丁目)"
       },
       "id": 248
     },
@@ -1040,14 +1526,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.743171, 35.673704]
+        "coordinates": [
+          139.743171,
+          35.673704
+        ]
       },
       "properties": {
         "id": 79,
-        "name": "国会議事堂前 Kokkai-gijidomae",
-        "alternate_names": ["国会議事堂前", "kokkai gijidomae"],
+        "name": "Kokkai-gijidomae (国会議事堂前)",
+        "alternate_names": [
+          "国会議事堂前",
+          "kokkai gijidomae"
+        ],
         "line": "TokyoMetroC",
-        "order": 158
+        "order": 158,
+        "display_name": "Kokkai-gijidomae (国会議事堂前)"
       },
       "id": 79
     },
@@ -1055,14 +1548,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.702644, 35.768569]
+        "coordinates": [
+          139.702644,
+          35.768569
+        ]
       },
       "properties": {
         "id": 226,
-        "name": "本蓮沼 Motohasunuma",
-        "alternate_names": ["本蓮沼", "motohasunuma"],
+        "name": "Motohasunuma (本蓮沼)",
+        "alternate_names": [
+          "本蓮沼",
+          "motohasunuma"
+        ],
         "line": "ToeiSubwayI",
-        "order": 158
+        "order": 158,
+        "display_name": "Motohasunuma (本蓮沼)"
       },
       "id": 226
     },
@@ -1070,14 +1570,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.95861, 35.7074]
+        "coordinates": [
+          139.95861,
+          35.7074
+        ]
       },
       "properties": {
         "id": 187,
-        "name": "西船橋 Nishi-funabashi",
-        "alternate_names": ["西船橋", "nishi funabashi"],
+        "name": "Nishi-funabashi (西船橋)",
+        "alternate_names": [
+          "西船橋",
+          "nishi funabashi"
+        ],
         "line": "TokyoMetroT",
-        "order": 157
+        "order": 157,
+        "display_name": "Nishi-funabashi (西船橋)"
       },
       "id": 187
     },
@@ -1085,14 +1592,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.698964, 35.688557]
+        "coordinates": [
+          139.698964,
+          35.688557
+        ]
       },
       "properties": {
         "id": 293,
-        "name": "新宿 Shinjuku",
-        "alternate_names": ["新宿", "shinjuku"],
+        "name": "Shinjuku (新宿)",
+        "alternate_names": [
+          "新宿",
+          "shinjuku"
+        ],
         "line": "ToeiSubwayS",
-        "order": 157
+        "order": 157,
+        "display_name": "Shinjuku (新宿)"
       },
       "id": 293
     },
@@ -1100,14 +1614,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.654361, 35.757619]
+        "coordinates": [
+          139.654361,
+          35.757619
+        ]
       },
       "properties": {
         "id": 161,
-        "name": "平和台 Heiwadai",
-        "alternate_names": ["平和台", "heiwadai"],
+        "name": "Heiwadai (平和台)",
+        "alternate_names": [
+          "平和台",
+          "heiwadai"
+        ],
         "line": "TokyoMetroY",
-        "order": 156
+        "order": 156,
+        "display_name": "Heiwadai (平和台)"
       },
       "id": 161
     },
@@ -1115,14 +1636,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.764412, 35.700446]
+        "coordinates": [
+          139.764412,
+          35.700446
+        ]
       },
       "properties": {
         "id": 15,
-        "name": "御茶ノ水 Ochanomizu",
-        "alternate_names": ["御茶ノ水", "ochanomizu"],
+        "name": "Ochanomizu (御茶ノ水)",
+        "alternate_names": [
+          "御茶ノ水",
+          "ochanomizu"
+        ],
         "line": "TokyoMetroM",
-        "order": 155
+        "order": 155,
+        "display_name": "Ochanomizu (御茶ノ水)"
       },
       "id": 15
     },
@@ -1130,14 +1658,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.701957, 35.659476]
+        "coordinates": [
+          139.701957,
+          35.659476
+        ]
       },
       "properties": {
         "id": 99,
-        "name": "渋谷 Shibuya",
-        "alternate_names": ["渋谷", "shibuya"],
+        "name": "Shibuya (渋谷)",
+        "alternate_names": [
+          "渋谷",
+          "shibuya"
+        ],
         "line": "TokyoMetroZ",
-        "order": 154
+        "order": 154,
+        "display_name": "Shibuya (渋谷)"
       },
       "id": 99
     },
@@ -1145,14 +1680,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.705776, 35.761367]
+        "coordinates": [
+          139.705776,
+          35.761367
+        ]
       },
       "properties": {
         "id": 225,
-        "name": "板橋本町 Itabashihoncho",
-        "alternate_names": ["板橋本町", "itabashihoncho"],
+        "name": "Itabashihoncho (板橋本町)",
+        "alternate_names": [
+          "板橋本町",
+          "itabashihoncho"
+        ],
         "line": "ToeiSubwayI",
-        "order": 153
+        "order": 153,
+        "display_name": "Itabashihoncho (板橋本町)"
       },
       "id": 225
     },
@@ -1160,14 +1702,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.706914, 35.690826]
+        "coordinates": [
+          139.706914,
+          35.690826
+        ]
       },
       "properties": {
         "id": 292,
-        "name": "新宿三丁目 Shinjuku-sanchome",
-        "alternate_names": ["新宿三丁目", "shinjuku sanchome"],
+        "name": "Shinjuku-sanchome (新宿三丁目)",
+        "alternate_names": [
+          "新宿三丁目",
+          "shinjuku sanchome"
+        ],
         "line": "ToeiSubwayS",
-        "order": 151
+        "order": 151,
+        "display_name": "Shinjuku-sanchome (新宿三丁目)"
       },
       "id": 292
     },
@@ -1175,14 +1724,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.708723, 35.647029]
+        "coordinates": [
+          139.708723,
+          35.647029
+        ]
       },
       "properties": {
         "id": 139,
-        "name": "恵比寿 Ebisu",
-        "alternate_names": ["恵比寿", "ebisu"],
+        "name": "Ebisu (恵比寿)",
+        "alternate_names": [
+          "恵比寿",
+          "ebisu"
+        ],
         "line": "TokyoMetroH",
-        "order": 150
+        "order": 150,
+        "display_name": "Ebisu (恵比寿)"
       },
       "id": 139
     },
@@ -1190,14 +1746,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.66548, 35.74963]
+        "coordinates": [
+          139.66548,
+          35.74963
+        ]
       },
       "properties": {
         "id": 160,
-        "name": "氷川台 Hikawadai",
-        "alternate_names": ["氷川台", "hikawadai"],
+        "name": "Hikawadai (氷川台)",
+        "alternate_names": [
+          "氷川台",
+          "hikawadai"
+        ],
         "line": "TokyoMetroY",
-        "order": 150
+        "order": 150,
+        "display_name": "Hikawadai (氷川台)"
       },
       "id": 160
     },
@@ -1205,14 +1768,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.743766, 35.701507]
+        "coordinates": [
+          139.743766,
+          35.701507
+        ]
       },
       "properties": {
         "id": 109,
-        "name": "飯田橋 Iidabashi",
-        "alternate_names": ["飯田橋", "iidabashi"],
+        "name": "Iidabashi (飯田橋)",
+        "alternate_names": [
+          "飯田橋",
+          "iidabashi"
+        ],
         "line": "TokyoMetroN",
-        "order": 148
+        "order": 148,
+        "display_name": "Iidabashi (飯田橋)"
       },
       "id": 109
     },
@@ -1220,14 +1790,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.710233, 35.751463]
+        "coordinates": [
+          139.710233,
+          35.751463
+        ]
       },
       "properties": {
         "id": 224,
-        "name": "板橋区役所前 Itabashi-kuyakushomae",
-        "alternate_names": ["板橋区役所前", "itabashi kuyakushomae"],
+        "name": "Itabashi-kuyakushomae (板橋区役所前)",
+        "alternate_names": [
+          "板橋区役所前",
+          "itabashi kuyakushomae"
+        ],
         "line": "ToeiSubwayI",
-        "order": 148
+        "order": 148,
+        "display_name": "Itabashi-kuyakushomae (板橋区役所前)"
       },
       "id": 224
     },
@@ -1235,14 +1812,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751747, 35.672522]
+        "coordinates": [
+          139.751747,
+          35.672522
+        ]
       },
       "properties": {
         "id": 78,
-        "name": "霞ケ関 Kasumigaseki",
-        "alternate_names": ["霞ケ関", "kasumigaseki"],
+        "name": "Kasumigaseki (霞ケ関)",
+        "alternate_names": [
+          "霞ケ関",
+          "kasumigaseki"
+        ],
         "line": "TokyoMetroC",
-        "order": 147
+        "order": 147,
+        "display_name": "Kasumigaseki (霞ケ関)"
       },
       "id": 78
     },
@@ -1250,14 +1834,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.70204, 35.658851]
+        "coordinates": [
+          139.70204,
+          35.658851
+        ]
       },
       "properties": {
         "id": 206,
-        "name": "渋谷 Shibuya",
-        "alternate_names": ["渋谷", "shibuya"],
+        "name": "Shibuya (渋谷)",
+        "alternate_names": [
+          "渋谷",
+          "shibuya"
+        ],
         "line": "TokyoMetroG",
-        "order": 147
+        "order": 147,
+        "display_name": "Shibuya (渋谷)"
       },
       "id": 206
     },
@@ -1265,14 +1856,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.714653, 35.679865]
+        "coordinates": [
+          139.714653,
+          35.679865
+        ]
       },
       "properties": {
         "id": 247,
-        "name": "国立競技場 Kokuritsu-kyogijo",
-        "alternate_names": ["国立競技場", "kokuritsu kyogijo"],
+        "name": "Kokuritsu-kyogijo (国立競技場)",
+        "alternate_names": [
+          "国立競技場",
+          "kokuritsu kyogijo"
+        ],
         "line": "ToeiSubwayE",
-        "order": 147
+        "order": 147,
+        "display_name": "Kokuritsu-kyogijo (国立競技場)"
       },
       "id": 247
     },
@@ -1280,14 +1878,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.767473, 35.69487]
+        "coordinates": [
+          139.767473,
+          35.69487
+        ]
       },
       "properties": {
         "id": 14,
-        "name": "淡路町 Awajicho",
-        "alternate_names": ["淡路町", "awajicho"],
+        "name": "Awajicho (淡路町)",
+        "alternate_names": [
+          "淡路町",
+          "awajicho"
+        ],
         "line": "TokyoMetroM",
-        "order": 146
+        "order": 146,
+        "display_name": "Awajicho (淡路町)"
       },
       "id": 14
     },
@@ -1295,14 +1900,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.67952, 35.74336]
+        "coordinates": [
+          139.67952,
+          35.74336
+        ]
       },
       "properties": {
         "id": 159,
-        "name": "小竹向原 Kotake-mukaihara",
-        "alternate_names": ["小竹向原", "kotake mukaihara"],
+        "name": "Kotake-mukaihara (小竹向原)",
+        "alternate_names": [
+          "小竹向原",
+          "kotake mukaihara"
+        ],
         "line": "TokyoMetroY",
-        "order": 145
+        "order": 145,
+        "display_name": "Kotake-mukaihara (小竹向原)"
       },
       "id": 159
     },
@@ -1310,14 +1922,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.712461, 35.665097]
+        "coordinates": [
+          139.712461,
+          35.665097
+        ]
       },
       "properties": {
         "id": 98,
-        "name": "表参道 Omote-sando",
-        "alternate_names": ["表参道", "omote sando"],
+        "name": "Omote-sando (表参道)",
+        "alternate_names": [
+          "表参道",
+          "omote sando"
+        ],
         "line": "TokyoMetroZ",
-        "order": 143
+        "order": 143,
+        "display_name": "Omote-sando (表参道)"
       },
       "id": 98
     },
@@ -1325,14 +1944,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.941879, 35.703319]
+        "coordinates": [
+          139.941879,
+          35.703319
+        ]
       },
       "properties": {
         "id": 186,
-        "name": "原木中山 Baraki-nakayama",
-        "alternate_names": ["原木中山", "baraki nakayama"],
+        "name": "Baraki-nakayama (原木中山)",
+        "alternate_names": [
+          "原木中山",
+          "baraki nakayama"
+        ],
         "line": "TokyoMetroT",
-        "order": 142
+        "order": 142,
+        "display_name": "Baraki-nakayama (原木中山)"
       },
       "id": 186
     },
@@ -1340,14 +1966,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.719827, 35.748901]
+        "coordinates": [
+          139.719827,
+          35.748901
+        ]
       },
       "properties": {
         "id": 223,
-        "name": "新板橋 Shin-itabashi",
-        "alternate_names": ["新板橋", "shin itabashi"],
+        "name": "Shin-itabashi (新板橋)",
+        "alternate_names": [
+          "新板橋",
+          "shin itabashi"
+        ],
         "line": "ToeiSubwayI",
-        "order": 142
+        "order": 142,
+        "display_name": "Shin-itabashi (新板橋)"
       },
       "id": 223
     },
@@ -1355,14 +1988,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.766201, 35.686875]
+        "coordinates": [
+          139.766201,
+          35.686875
+        ]
       },
       "properties": {
         "id": 13,
-        "name": "大手町 Otemachi",
-        "alternate_names": ["大手町", "otemachi"],
+        "name": "Otemachi (大手町)",
+        "alternate_names": [
+          "大手町",
+          "otemachi"
+        ],
         "line": "TokyoMetroM",
-        "order": 140
+        "order": 140,
+        "display_name": "Otemachi (大手町)"
       },
       "id": 13
     },
@@ -1370,14 +2010,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.68942, 35.73821]
+        "coordinates": [
+          139.68942,
+          35.73821
+        ]
       },
       "properties": {
         "id": 158,
-        "name": "千川 Senkawa",
-        "alternate_names": ["千川", "senkawa"],
+        "name": "Senkawa (千川)",
+        "alternate_names": [
+          "千川",
+          "senkawa"
+        ],
         "line": "TokyoMetroY",
-        "order": 140
+        "order": 140,
+        "display_name": "Senkawa (千川)"
       },
       "id": 158
     },
@@ -1385,14 +2032,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.758536, 35.674112]
+        "coordinates": [
+          139.758536,
+          35.674112
+        ]
       },
       "properties": {
         "id": 77,
-        "name": "日比谷 Hibiya",
-        "alternate_names": ["日比谷", "hibiya"],
+        "name": "Hibiya (日比谷)",
+        "alternate_names": [
+          "日比谷",
+          "hibiya"
+        ],
         "line": "TokyoMetroC",
-        "order": 139
+        "order": 139,
+        "display_name": "Hibiya (日比谷)"
       },
       "id": 77
     },
@@ -1400,14 +2054,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.712476, 35.66504]
+        "coordinates": [
+          139.712476,
+          35.66504
+        ]
       },
       "properties": {
         "id": 205,
-        "name": "表参道 Omote-sando",
-        "alternate_names": ["表参道", "omote sando"],
+        "name": "Omote-sando (表参道)",
+        "alternate_names": [
+          "表参道",
+          "omote sando"
+        ],
         "line": "TokyoMetroG",
-        "order": 137
+        "order": 137,
+        "display_name": "Omote-sando (表参道)"
       },
       "id": 205
     },
@@ -1415,14 +2076,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.728859, 35.743667]
+        "coordinates": [
+          139.728859,
+          35.743667
+        ]
       },
       "properties": {
         "id": 222,
-        "name": "西巣鴨 Nishi-sugamo",
-        "alternate_names": ["西巣鴨", "nishi sugamo"],
+        "name": "Nishi-sugamo (西巣鴨)",
+        "alternate_names": [
+          "西巣鴨",
+          "nishi sugamo"
+        ],
         "line": "ToeiSubwayI",
-        "order": 135
+        "order": 135,
+        "display_name": "Nishi-sugamo (西巣鴨)"
       },
       "id": 222
     },
@@ -1430,14 +2098,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.722318, 35.692334]
+        "coordinates": [
+          139.722318,
+          35.692334
+        ]
       },
       "properties": {
         "id": 291,
-        "name": "曙橋 Akebonobashi",
-        "alternate_names": ["曙橋", "akebonobashi"],
+        "name": "Akebonobashi (曙橋)",
+        "alternate_names": [
+          "曙橋",
+          "akebonobashi"
+        ],
         "line": "ToeiSubwayS",
-        "order": 135
+        "order": 135,
+        "display_name": "Akebonobashi (曙橋)"
       },
       "id": 291
     },
@@ -1445,14 +2120,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.764783, 35.681938]
+        "coordinates": [
+          139.764783,
+          35.681938
+        ]
       },
       "properties": {
         "id": 12,
-        "name": "東京 Tokyo",
-        "alternate_names": ["東京", "tokyo"],
+        "name": "Tokyo (東京)",
+        "alternate_names": [
+          "東京",
+          "tokyo"
+        ],
         "line": "TokyoMetroM",
-        "order": 134
+        "order": 134,
+        "display_name": "Tokyo (東京)"
       },
       "id": 12
     },
@@ -1460,14 +2142,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.761612, 35.680541]
+        "coordinates": [
+          139.761612,
+          35.680541
+        ]
       },
       "properties": {
         "id": 76,
-        "name": "二重橋前〈丸の内〉 Nijubashimae<Marunouchi>",
-        "alternate_names": ["二重橋前", "丸の内", "nijubashimae", "marunouchi"],
+        "name": "Nijubashimae (二重橋前)",
+        "alternate_names": [
+          "二重橋前",
+          "丸の内",
+          "nijubashimae",
+          "marunouchi"
+        ],
         "line": "TokyoMetroC",
-        "order": 132
+        "order": 132,
+        "display_name": "Nijubashimae (二重橋前)"
       },
       "id": 76
     },
@@ -1475,14 +2166,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.724216, 35.672831]
+        "coordinates": [
+          139.724216,
+          35.672831
+        ]
       },
       "properties": {
         "id": 97,
-        "name": "青山一丁目 Aoyama-itchome",
-        "alternate_names": ["青山一丁目", "aoyama itchome"],
+        "name": "Aoyama-itchome (青山一丁目)",
+        "alternate_names": [
+          "青山一丁目",
+          "aoyama itchome"
+        ],
         "line": "TokyoMetroZ",
-        "order": 132
+        "order": 132,
+        "display_name": "Aoyama-itchome (青山一丁目)"
       },
       "id": 97
     },
@@ -1490,14 +2188,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.698514, 35.733286]
+        "coordinates": [
+          139.698514,
+          35.733286
+        ]
       },
       "properties": {
         "id": 157,
-        "name": "要町 Kanamecho",
-        "alternate_names": ["要町", "kanamecho"],
+        "name": "Kanamecho (要町)",
+        "alternate_names": [
+          "要町",
+          "kanamecho"
+        ],
         "line": "TokyoMetroY",
-        "order": 132
+        "order": 132,
+        "display_name": "Kanamecho (要町)"
       },
       "id": 157
     },
@@ -1505,14 +2210,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.612845, 35.788318]
+        "coordinates": [
+          139.612845,
+          35.788318
+        ]
       },
       "properties": {
         "id": 65,
-        "name": "和光市 Wakoshi",
-        "alternate_names": ["和光市", "wakoshi"],
+        "name": "Wakoshi (和光市)",
+        "alternate_names": [
+          "和光市",
+          "wakoshi"
+        ],
         "line": "TokyoMetroF",
-        "order": 131
+        "order": 131,
+        "display_name": "Wakoshi (和光市)"
       },
       "id": 65
     },
@@ -1520,14 +2232,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.92421, 35.69107]
+        "coordinates": [
+          139.92421,
+          35.69107
+        ]
       },
       "properties": {
         "id": 185,
-        "name": "妙典 Myoden",
-        "alternate_names": ["妙典", "myoden"],
+        "name": "Myoden (妙典)",
+        "alternate_names": [
+          "妙典",
+          "myoden"
+        ],
         "line": "TokyoMetroT",
-        "order": 131
+        "order": 131,
+        "display_name": "Myoden (妙典)"
       },
       "id": 185
     },
@@ -1535,14 +2254,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.722234, 35.651499]
+        "coordinates": [
+          139.722234,
+          35.651499
+        ]
       },
       "properties": {
         "id": 138,
-        "name": "広尾 Hiro-o",
-        "alternate_names": ["広尾", "hiro o"],
+        "name": "Hiro-o (広尾)",
+        "alternate_names": [
+          "広尾",
+          "hiro o"
+        ],
         "line": "TokyoMetroH",
-        "order": 130
+        "order": 130,
+        "display_name": "Hiro-o (広尾)"
       },
       "id": 138
     },
@@ -1550,14 +2276,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.75185, 35.708392]
+        "coordinates": [
+          139.75185,
+          35.708392
+        ]
       },
       "properties": {
         "id": 108,
-        "name": "後楽園 Korakuen",
-        "alternate_names": ["後楽園", "korakuen"],
+        "name": "Korakuen (後楽園)",
+        "alternate_names": [
+          "後楽園",
+          "korakuen"
+        ],
         "line": "TokyoMetroN",
-        "order": 129
+        "order": 129,
+        "display_name": "Korakuen (後楽園)"
       },
       "id": 108
     },
@@ -1565,14 +2298,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.914175, 35.682628]
+        "coordinates": [
+          139.914175,
+          35.682628
+        ]
       },
       "properties": {
         "id": 184,
-        "name": "行徳 Gyotoku",
-        "alternate_names": ["行徳", "gyotoku"],
+        "name": "Gyotoku (行徳)",
+        "alternate_names": [
+          "行徳",
+          "gyotoku"
+        ],
         "line": "TokyoMetroT",
-        "order": 129
+        "order": 129,
+        "display_name": "Gyotoku (行徳)"
       },
       "id": 184
     },
@@ -1580,14 +2320,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.717804, 35.670412]
+        "coordinates": [
+          139.717804,
+          35.670412
+        ]
       },
       "properties": {
         "id": 204,
-        "name": "外苑前 Gaiemmae",
-        "alternate_names": ["外苑前", "gaiemmae"],
+        "name": "Gaiemmae (外苑前)",
+        "alternate_names": [
+          "外苑前",
+          "gaiemmae"
+        ],
         "line": "TokyoMetroG",
-        "order": 129
+        "order": 129,
+        "display_name": "Gaiemmae (外苑前)"
       },
       "id": 204
     },
@@ -1595,14 +2342,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.738297, 35.733906]
+        "coordinates": [
+          139.738297,
+          35.733906
+        ]
       },
       "properties": {
         "id": 221,
-        "name": "巣鴨 Sugamo",
-        "alternate_names": ["巣鴨", "sugamo"],
+        "name": "Sugamo (巣鴨)",
+        "alternate_names": [
+          "巣鴨",
+          "sugamo"
+        ],
         "line": "ToeiSubwayI",
-        "order": 129
+        "order": 129,
+        "display_name": "Sugamo (巣鴨)"
       },
       "id": 221
     },
@@ -1610,14 +2364,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.763144, 35.68528]
+        "coordinates": [
+          139.763144,
+          35.68528
+        ]
       },
       "properties": {
         "id": 75,
-        "name": "大手町 Otemachi",
-        "alternate_names": ["大手町", "otemachi"],
+        "name": "Otemachi (大手町)",
+        "alternate_names": [
+          "大手町",
+          "otemachi"
+        ],
         "line": "TokyoMetroC",
-        "order": 128
+        "order": 128,
+        "display_name": "Otemachi (大手町)"
       },
       "id": 75
     },
@@ -1625,14 +2386,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.902256, 35.672745]
+        "coordinates": [
+          139.902256,
+          35.672745
+        ]
       },
       "properties": {
         "id": 183,
-        "name": "南行徳 Minami-gyotoku",
-        "alternate_names": ["南行徳", "minami gyotoku"],
+        "name": "Minami-gyotoku (南行徳)",
+        "alternate_names": [
+          "南行徳",
+          "minami gyotoku"
+        ],
         "line": "TokyoMetroT",
-        "order": 127
+        "order": 127,
+        "display_name": "Minami-gyotoku (南行徳)"
       },
       "id": 183
     },
@@ -1640,14 +2408,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.724156, 35.672765]
+        "coordinates": [
+          139.724156,
+          35.672765
+        ]
       },
       "properties": {
         "id": 203,
-        "name": "青山一丁目 Aoyama-itchome",
-        "alternate_names": ["青山一丁目", "aoyama itchome"],
+        "name": "Aoyama-itchome (青山一丁目)",
+        "alternate_names": [
+          "青山一丁目",
+          "aoyama itchome"
+        ],
         "line": "TokyoMetroG",
-        "order": 125
+        "order": 125,
+        "display_name": "Aoyama-itchome (青山一丁目)"
       },
       "id": 203
     },
@@ -1655,14 +2430,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.701689, 35.683518]
+        "coordinates": [
+          139.701689,
+          35.683518
+        ]
       },
       "properties": {
         "id": 246,
-        "name": "代々木 Yoyogi",
-        "alternate_names": ["代々木", "yoyogi"],
+        "name": "Yoyogi (代々木)",
+        "alternate_names": [
+          "代々木",
+          "yoyogi"
+        ],
         "line": "ToeiSubwayE",
-        "order": 125
+        "order": 125,
+        "display_name": "Yoyogi (代々木)"
       },
       "id": 246
     },
@@ -1670,14 +2452,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.893211, 35.665936]
+        "coordinates": [
+          139.893211,
+          35.665936
+        ]
       },
       "properties": {
         "id": 182,
-        "name": "浦安 Urayasu",
-        "alternate_names": ["浦安", "urayasu"],
+        "name": "Urayasu (浦安)",
+        "alternate_names": [
+          "浦安",
+          "urayasu"
+        ],
         "line": "TokyoMetroT",
-        "order": 124
+        "order": 124,
+        "display_name": "Urayasu (浦安)"
       },
       "id": 182
     },
@@ -1685,14 +2474,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.710879, 35.729166]
+        "coordinates": [
+          139.710879,
+          35.729166
+        ]
       },
       "properties": {
         "id": 156,
-        "name": "池袋 Ikebukuro",
-        "alternate_names": ["池袋", "ikebukuro"],
+        "name": "Ikebukuro (池袋)",
+        "alternate_names": [
+          "池袋",
+          "ikebukuro"
+        ],
         "line": "TokyoMetroY",
-        "order": 122
+        "order": 122,
+        "display_name": "Ikebukuro (池袋)"
       },
       "id": 156
     },
@@ -1700,14 +2496,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.745152, 35.727943]
+        "coordinates": [
+          139.745152,
+          35.727943
+        ]
       },
       "properties": {
         "id": 220,
-        "name": "千石 Sengoku",
-        "alternate_names": ["千石", "sengoku"],
+        "name": "Sengoku (千石)",
+        "alternate_names": [
+          "千石",
+          "sengoku"
+        ],
         "line": "ToeiSubwayI",
-        "order": 122
+        "order": 122,
+        "display_name": "Sengoku (千石)"
       },
       "id": 220
     },
@@ -1715,14 +2518,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.813175, 35.710625]
+        "coordinates": [
+          139.813175,
+          35.710625
+        ]
       },
       "properties": {
         "id": 313,
-        "name": "押上(スカイツリー前) Oshiage<SKYTREE>",
-        "alternate_names": ["押上", "スカイツリー前", "oshiage", "skytree"],
+        "name": "Oshiage (押上)",
+        "alternate_names": [
+          "押上",
+          "スカイツリー前",
+          "oshiage",
+          "skytree"
+        ],
         "line": "ToeiSubwayA",
-        "order": 121
+        "order": 121,
+        "display_name": "Oshiage (押上)"
       },
       "id": 313
     },
@@ -1730,14 +2542,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.73886, 35.67844]
+        "coordinates": [
+          139.73886,
+          35.67844
+        ]
       },
       "properties": {
         "id": 96,
-        "name": "永田町 Nagatacho",
-        "alternate_names": ["永田町", "nagatacho"],
+        "name": "Nagatacho (永田町)",
+        "alternate_names": [
+          "永田町",
+          "nagatacho"
+        ],
         "line": "TokyoMetroZ",
-        "order": 120
+        "order": 120,
+        "display_name": "Nagatacho (永田町)"
       },
       "id": 96
     },
@@ -1745,14 +2564,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.699042, 35.688543]
+        "coordinates": [
+          139.699042,
+          35.688543
+        ]
       },
       "properties": {
         "id": 245,
-        "name": "新宿 Shinjuku",
-        "alternate_names": ["新宿", "shinjuku"],
+        "name": "Shinjuku (新宿)",
+        "alternate_names": [
+          "新宿",
+          "shinjuku"
+        ],
         "line": "ToeiSubwayE",
-        "order": 118
+        "order": 118,
+        "display_name": "Shinjuku (新宿)"
       },
       "id": 245
     },
@@ -1760,14 +2586,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.737614, 35.691471]
+        "coordinates": [
+          139.737614,
+          35.691471
+        ]
       },
       "properties": {
         "id": 290,
-        "name": "市ヶ谷 Ichigaya",
-        "alternate_names": ["市ヶ谷", "ichigaya"],
+        "name": "Ichigaya (市ヶ谷)",
+        "alternate_names": [
+          "市ヶ谷",
+          "ichigaya"
+        ],
         "line": "ToeiSubwayS",
-        "order": 117
+        "order": 117,
+        "display_name": "Ichigaya (市ヶ谷)"
       },
       "id": 290
     },
@@ -1775,14 +2608,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.631141, 35.776703]
+        "coordinates": [
+          139.631141,
+          35.776703
+        ]
       },
       "properties": {
         "id": 64,
-        "name": "地下鉄成増 Chikatetsu-narimasu",
-        "alternate_names": ["地下鉄成増", "chikatetsu narimasu"],
+        "name": "Chikatetsu-narimasu (地下鉄成増)",
+        "alternate_names": [
+          "地下鉄成増",
+          "chikatetsu narimasu"
+        ],
         "line": "TokyoMetroF",
-        "order": 116
+        "order": 116,
+        "display_name": "Chikatetsu-narimasu (地下鉄成増)"
       },
       "id": 64
     },
@@ -1790,14 +2630,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.763903, 35.673113]
+        "coordinates": [
+          139.763903,
+          35.673113
+        ]
       },
       "properties": {
         "id": 11,
-        "name": "銀座 Ginza",
-        "alternate_names": ["銀座", "ginza"],
+        "name": "Ginza (銀座)",
+        "alternate_names": [
+          "銀座",
+          "ginza"
+        ],
         "line": "TokyoMetroM",
-        "order": 115
+        "order": 115,
+        "display_name": "Ginza (銀座)"
       },
       "id": 11
     },
@@ -1805,14 +2652,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.804395, 35.708588]
+        "coordinates": [
+          139.804395,
+          35.708588
+        ]
       },
       "properties": {
         "id": 312,
-        "name": "本所吾妻橋 Honjo-azumabashi",
-        "alternate_names": ["本所吾妻橋", "honjo azumabashi"],
+        "name": "Honjo-azumabashi (本所吾妻橋)",
+        "alternate_names": [
+          "本所吾妻橋",
+          "honjo azumabashi"
+        ],
         "line": "ToeiSubwayA",
-        "order": 115
+        "order": 115,
+        "display_name": "Honjo-azumabashi (本所吾妻橋)"
       },
       "id": 312
     },
@@ -1820,14 +2674,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.765452, 35.696924]
+        "coordinates": [
+          139.765452,
+          35.696924
+        ]
       },
       "properties": {
         "id": 74,
-        "name": "新御茶ノ水 Shin-ochanomizu",
-        "alternate_names": ["新御茶ノ水", "shin ochanomizu"],
+        "name": "Shin-ochanomizu (新御茶ノ水)",
+        "alternate_names": [
+          "新御茶ノ水",
+          "shin ochanomizu"
+        ],
         "line": "TokyoMetroC",
-        "order": 114
+        "order": 114,
+        "display_name": "Shin-ochanomizu (新御茶ノ水)"
       },
       "id": 74
     },
@@ -1835,14 +2696,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.731211, 35.66276]
+        "coordinates": [
+          139.731211,
+          35.66276
+        ]
       },
       "properties": {
         "id": 137,
-        "name": "六本木 Roppongi",
-        "alternate_names": ["六本木", "roppongi"],
+        "name": "Roppongi (六本木)",
+        "alternate_names": [
+          "六本木",
+          "roppongi"
+        ],
         "line": "TokyoMetroH",
-        "order": 114
+        "order": 114,
+        "display_name": "Roppongi (六本木)"
       },
       "id": 137
     },
@@ -1850,14 +2718,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.87253, 35.66365]
+        "coordinates": [
+          139.87253,
+          35.66365
+        ]
       },
       "properties": {
         "id": 181,
-        "name": "葛西 Kasai",
-        "alternate_names": ["葛西", "kasai"],
+        "name": "Kasai (葛西)",
+        "alternate_names": [
+          "葛西",
+          "kasai"
+        ],
         "line": "TokyoMetroT",
-        "order": 114
+        "order": 114,
+        "display_name": "Kasai (葛西)"
       },
       "id": 181
     },
@@ -1865,14 +2740,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.718928, 35.726014]
+        "coordinates": [
+          139.718928,
+          35.726014
+        ]
       },
       "properties": {
         "id": 155,
-        "name": "東池袋 Higashi-ikebukuro",
-        "alternate_names": ["東池袋", "higashi ikebukuro"],
+        "name": "Higashi-ikebukuro (東池袋)",
+        "alternate_names": [
+          "東池袋",
+          "higashi ikebukuro"
+        ],
         "line": "TokyoMetroY",
-        "order": 112
+        "order": 112,
+        "display_name": "Higashi-ikebukuro (東池袋)"
       },
       "id": 155
     },
@@ -1880,14 +2762,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.859602, 35.664578]
+        "coordinates": [
+          139.859602,
+          35.664578
+        ]
       },
       "properties": {
         "id": 180,
-        "name": "西葛西 Nishi-kasai",
-        "alternate_names": ["西葛西", "nishi kasai"],
+        "name": "Nishi-kasai (西葛西)",
+        "alternate_names": [
+          "西葛西",
+          "nishi kasai"
+        ],
         "line": "TokyoMetroT",
-        "order": 112
+        "order": 112,
+        "display_name": "Nishi-kasai (西葛西)"
       },
       "id": 180
     },
@@ -1895,14 +2784,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.752469, 35.721611]
+        "coordinates": [
+          139.752469,
+          35.721611
+        ]
       },
       "properties": {
         "id": 219,
-        "name": "白山 Hakusan",
-        "alternate_names": ["白山", "hakusan"],
+        "name": "Hakusan (白山)",
+        "alternate_names": [
+          "白山",
+          "hakusan"
+        ],
         "line": "ToeiSubwayI",
-        "order": 111
+        "order": 111,
+        "display_name": "Hakusan (白山)"
       },
       "id": 219
     },
@@ -1910,14 +2806,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.757918, 35.718025]
+        "coordinates": [
+          139.757918,
+          35.718025
+        ]
       },
       "properties": {
         "id": 107,
-        "name": "東大前 Todaimae",
-        "alternate_names": ["東大前", "todaimae"],
+        "name": "Todaimae (東大前)",
+        "alternate_names": [
+          "東大前",
+          "todaimae"
+        ],
         "line": "TokyoMetroN",
-        "order": 109
+        "order": 109,
+        "display_name": "Todaimae (東大前)"
       },
       "id": 107
     },
@@ -1925,14 +2828,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.737269, 35.676821]
+        "coordinates": [
+          139.737269,
+          35.676821
+        ]
       },
       "properties": {
         "id": 202,
-        "name": "赤坂見附 Akasaka-mitsuke",
-        "alternate_names": ["赤坂見附", "akasaka mitsuke"],
+        "name": "Akasaka-mitsuke (赤坂見附)",
+        "alternate_names": [
+          "赤坂見附",
+          "akasaka mitsuke"
+        ],
         "line": "TokyoMetroG",
-        "order": 109
+        "order": 109,
+        "display_name": "Akasaka-mitsuke (赤坂見附)"
       },
       "id": 202
     },
@@ -1940,14 +2850,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751755, 35.695463]
+        "coordinates": [
+          139.751755,
+          35.695463
+        ]
       },
       "properties": {
         "id": 289,
-        "name": "九段下 Kudanshita",
-        "alternate_names": ["九段下", "kudanshita"],
+        "name": "Kudanshita (九段下)",
+        "alternate_names": [
+          "九段下",
+          "kudanshita"
+        ],
         "line": "ToeiSubwayS",
-        "order": 109
+        "order": 109,
+        "display_name": "Kudanshita (九段下)"
       },
       "id": 289
     },
@@ -1955,14 +2872,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.692705, 35.690495]
+        "coordinates": [
+          139.692705,
+          35.690495
+        ]
       },
       "properties": {
         "id": 244,
-        "name": "都庁前 Tochomae",
-        "alternate_names": ["都庁前", "tochomae"],
+        "name": "Tochomae (都庁前)",
+        "alternate_names": [
+          "都庁前",
+          "tochomae"
+        ],
         "line": "ToeiSubwayE",
-        "order": 107
+        "order": 107,
+        "display_name": "Tochomae (都庁前)"
       },
       "id": 244
     },
@@ -1970,14 +2894,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.757985, 35.695892]
+        "coordinates": [
+          139.757985,
+          35.695892
+        ]
       },
       "properties": {
         "id": 288,
-        "name": "神保町 Jimbocho",
-        "alternate_names": ["神保町", "jimbocho"],
+        "name": "Jimbocho (神保町)",
+        "alternate_names": [
+          "神保町",
+          "jimbocho"
+        ],
         "line": "ToeiSubwayS",
-        "order": 106
+        "order": 106,
+        "display_name": "Jimbocho (神保町)"
       },
       "id": 288
     },
@@ -1985,14 +2916,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.643972, 35.769947]
+        "coordinates": [
+          139.643972,
+          35.769947
+        ]
       },
       "properties": {
         "id": 63,
-        "name": "地下鉄赤塚 Chikatetsu-akatsuka",
-        "alternate_names": ["地下鉄赤塚", "chikatetsu akatsuka"],
+        "name": "Chikatetsu-akatsuka (地下鉄赤塚)",
+        "alternate_names": [
+          "地下鉄赤塚",
+          "chikatetsu akatsuka"
+        ],
         "line": "TokyoMetroF",
-        "order": 105
+        "order": 105,
+        "display_name": "Chikatetsu-akatsuka (地下鉄赤塚)"
       },
       "id": 63
     },
@@ -2000,14 +2938,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.831706, 35.668439]
+        "coordinates": [
+          139.831706,
+          35.668439
+        ]
       },
       "properties": {
         "id": 179,
-        "name": "南砂町 Minami-sunamachi",
-        "alternate_names": ["南砂町", "minami sunamachi"],
+        "name": "Minami-sunamachi (南砂町)",
+        "alternate_names": [
+          "南砂町",
+          "minami sunamachi"
+        ],
         "line": "TokyoMetroT",
-        "order": 105
+        "order": 105,
+        "display_name": "Minami-sunamachi (南砂町)"
       },
       "id": 179
     },
@@ -2015,14 +2960,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.796398, 35.709032]
+        "coordinates": [
+          139.796398,
+          35.709032
+        ]
       },
       "properties": {
         "id": 311,
-        "name": "浅草 Asakusa",
-        "alternate_names": ["浅草", "asakusa"],
+        "name": "Asakusa (浅草)",
+        "alternate_names": [
+          "浅草",
+          "asakusa"
+        ],
         "line": "ToeiSubwayA",
-        "order": 105
+        "order": 105,
+        "display_name": "Asakusa (浅草)"
       },
       "id": 311
     },
@@ -2030,14 +2982,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.727384, 35.719129]
+        "coordinates": [
+          139.727384,
+          35.719129
+        ]
       },
       "properties": {
         "id": 154,
-        "name": "護国寺 Gokokuji",
-        "alternate_names": ["護国寺", "gokokuji"],
+        "name": "Gokokuji (護国寺)",
+        "alternate_names": [
+          "護国寺",
+          "gokokuji"
+        ],
         "line": "TokyoMetroY",
-        "order": 104
+        "order": 104,
+        "display_name": "Gokokuji (護国寺)"
       },
       "id": 154
     },
@@ -2045,14 +3004,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.753487, 35.709571]
+        "coordinates": [
+          139.753487,
+          35.709571
+        ]
       },
       "properties": {
         "id": 218,
-        "name": "春日 Kasuga",
-        "alternate_names": ["春日", "kasuga"],
+        "name": "Kasuga (春日)",
+        "alternate_names": [
+          "春日",
+          "kasuga"
+        ],
         "line": "ToeiSubwayI",
-        "order": 103
+        "order": 103,
+        "display_name": "Kasuga (春日)"
       },
       "id": 218
     },
@@ -2060,14 +3026,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.741617, 35.685387]
+        "coordinates": [
+          139.741617,
+          35.685387
+        ]
       },
       "properties": {
         "id": 95,
-        "name": "半蔵門 Hanzomon",
-        "alternate_names": ["半蔵門", "hanzomon"],
+        "name": "Hanzomon (半蔵門)",
+        "alternate_names": [
+          "半蔵門",
+          "hanzomon"
+        ],
         "line": "TokyoMetroZ",
-        "order": 102
+        "order": 102,
+        "display_name": "Hanzomon (半蔵門)"
       },
       "id": 95
     },
@@ -2075,14 +3048,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.752665, 35.674211]
+        "coordinates": [
+          139.752665,
+          35.674211
+        ]
       },
       "properties": {
         "id": 10,
-        "name": "霞ケ関 Kasumigaseki",
-        "alternate_names": ["霞ケ関", "kasumigaseki"],
+        "name": "Kasumigaseki (霞ケ関)",
+        "alternate_names": [
+          "霞ケ関",
+          "kasumigaseki"
+        ],
         "line": "TokyoMetroM",
-        "order": 101
+        "order": 101,
+        "display_name": "Kasumigaseki (霞ケ関)"
       },
       "id": 10
     },
@@ -2090,14 +3070,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.769973, 35.706805]
+        "coordinates": [
+          139.769973,
+          35.706805
+        ]
       },
       "properties": {
         "id": 73,
-        "name": "湯島 Yushima",
-        "alternate_names": ["湯島", "yushima"],
+        "name": "Yushima (湯島)",
+        "alternate_names": [
+          "湯島",
+          "yushima"
+        ],
         "line": "TokyoMetroC",
-        "order": 100
+        "order": 100,
+        "display_name": "Yushima (湯島)"
       },
       "id": 73
     },
@@ -2105,14 +3092,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.753805, 35.724364]
+        "coordinates": [
+          139.753805,
+          35.724364
+        ]
       },
       "properties": {
         "id": 106,
-        "name": "本駒込 Hon-komagome",
-        "alternate_names": ["本駒込", "hon komagome"],
+        "name": "Hon-komagome (本駒込)",
+        "alternate_names": [
+          "本駒込",
+          "hon komagome"
+        ],
         "line": "TokyoMetroN",
-        "order": 99
+        "order": 99,
+        "display_name": "Hon-komagome (本駒込)"
       },
       "id": 106
     },
@@ -2120,14 +3114,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.741978, 35.67151]
+        "coordinates": [
+          139.741978,
+          35.67151
+        ]
       },
       "properties": {
         "id": 201,
-        "name": "溜池山王 Tameike-sanno",
-        "alternate_names": ["溜池山王", "tameike sanno"],
+        "name": "Tameike-sanno (溜池山王)",
+        "alternate_names": [
+          "溜池山王",
+          "tameike sanno"
+        ],
         "line": "TokyoMetroG",
-        "order": 99
+        "order": 99,
+        "display_name": "Tameike-sanno (溜池山王)"
       },
       "id": 201
     },
@@ -2135,14 +3136,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.755322, 35.703495]
+        "coordinates": [
+          139.755322,
+          35.703495
+        ]
       },
       "properties": {
         "id": 217,
-        "name": "水道橋 Suidobashi",
-        "alternate_names": ["水道橋", "suidobashi"],
+        "name": "Suidobashi (水道橋)",
+        "alternate_names": [
+          "水道橋",
+          "suidobashi"
+        ],
         "line": "ToeiSubwayI",
-        "order": 99
+        "order": 99,
+        "display_name": "Suidobashi (水道橋)"
       },
       "id": 217
     },
@@ -2150,14 +3158,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.684608, 35.689794]
+        "coordinates": [
+          139.684608,
+          35.689794
+        ]
       },
       "properties": {
         "id": 243,
-        "name": "西新宿五丁目 Nishi-shinjuku-gochome",
-        "alternate_names": ["西新宿五丁目", "nishi shinjuku gochome"],
+        "name": "Nishi-shinjuku-gochome (西新宿五丁目)",
+        "alternate_names": [
+          "西新宿五丁目",
+          "nishi shinjuku gochome"
+        ],
         "line": "ToeiSubwayE",
-        "order": 99
+        "order": 99,
+        "display_name": "Nishi-shinjuku-gochome (西新宿五丁目)"
       },
       "id": 243
     },
@@ -2165,14 +3180,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.790821, 35.703157]
+        "coordinates": [
+          139.790821,
+          35.703157
+        ]
       },
       "properties": {
         "id": 310,
-        "name": "蔵前 Kuramae",
-        "alternate_names": ["蔵前", "kuramae"],
+        "name": "Kuramae (蔵前)",
+        "alternate_names": [
+          "蔵前",
+          "kuramae"
+        ],
         "line": "ToeiSubwayA",
-        "order": 98
+        "order": 98,
+        "display_name": "Kuramae (蔵前)"
       },
       "id": 310
     },
@@ -2180,14 +3202,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.74471, 35.662634]
+        "coordinates": [
+          139.74471,
+          35.662634
+        ]
       },
       "properties": {
         "id": 136,
-        "name": "神谷町 Kamiyacho",
-        "alternate_names": ["神谷町", "kamiyacho"],
+        "name": "Kamiyacho (神谷町)",
+        "alternate_names": [
+          "神谷町",
+          "kamiyacho"
+        ],
         "line": "TokyoMetroH",
-        "order": 97
+        "order": 97,
+        "display_name": "Kamiyacho (神谷町)"
       },
       "id": 136
     },
@@ -2195,14 +3224,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.734165, 35.709357]
+        "coordinates": [
+          139.734165,
+          35.709357
+        ]
       },
       "properties": {
         "id": 153,
-        "name": "江戸川橋 Edogawabashi",
-        "alternate_names": ["江戸川橋", "edogawabashi"],
+        "name": "Edogawabashi (江戸川橋)",
+        "alternate_names": [
+          "江戸川橋",
+          "edogawabashi"
+        ],
         "line": "TokyoMetroY",
-        "order": 97
+        "order": 97,
+        "display_name": "Edogawabashi (江戸川橋)"
       },
       "id": 153
     },
@@ -2210,14 +3246,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.817676, 35.66963]
+        "coordinates": [
+          139.817676,
+          35.66963
+        ]
       },
       "properties": {
         "id": 178,
-        "name": "東陽町 Toyocho",
-        "alternate_names": ["東陽町", "toyocho"],
+        "name": "Toyocho (東陽町)",
+        "alternate_names": [
+          "東陽町",
+          "toyocho"
+        ],
         "line": "TokyoMetroT",
-        "order": 97
+        "order": 97,
+        "display_name": "Toyocho (東陽町)"
       },
       "id": 178
     },
@@ -2225,14 +3268,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.807098, 35.669427]
+        "coordinates": [
+          139.807098,
+          35.669427
+        ]
       },
       "properties": {
         "id": 177,
-        "name": "木場 Kiba",
-        "alternate_names": ["木場", "kiba"],
+        "name": "Kiba (木場)",
+        "alternate_names": [
+          "木場",
+          "kiba"
+        ],
         "line": "TokyoMetroT",
-        "order": 93
+        "order": 93,
+        "display_name": "Kiba (木場)"
       },
       "id": 177
     },
@@ -2240,14 +3290,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.786383, 35.697474]
+        "coordinates": [
+          139.786383,
+          35.697474
+        ]
       },
       "properties": {
         "id": 309,
-        "name": "浅草橋 Asakusabashi",
-        "alternate_names": ["浅草橋", "asakusabashi"],
+        "name": "Asakusabashi (浅草橋)",
+        "alternate_names": [
+          "浅草橋",
+          "asakusabashi"
+        ],
         "line": "ToeiSubwayA",
-        "order": 93
+        "order": 93,
+        "display_name": "Asakusabashi (浅草橋)"
       },
       "id": 309
     },
@@ -2255,14 +3312,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.654274, 35.757525]
+        "coordinates": [
+          139.654274,
+          35.757525
+        ]
       },
       "properties": {
         "id": 62,
-        "name": "平和台 Heiwadai",
-        "alternate_names": ["平和台", "heiwadai"],
+        "name": "Heiwadai (平和台)",
+        "alternate_names": [
+          "平和台",
+          "heiwadai"
+        ],
         "line": "TokyoMetroF",
-        "order": 92
+        "order": 92,
+        "display_name": "Heiwadai (平和台)"
       },
       "id": 62
     },
@@ -2270,14 +3334,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.747741, 35.667308]
+        "coordinates": [
+          139.747741,
+          35.667308
+        ]
       },
       "properties": {
         "id": 135,
-        "name": "虎ノ門ヒルズ Toranomon-hills",
-        "alternate_names": ["虎ノ門ヒルズ", "toranomon hills"],
+        "name": "Toranomon-hills (虎ノ門ヒルズ)",
+        "alternate_names": [
+          "虎ノ門ヒルズ",
+          "toranomon hills"
+        ],
         "line": "TokyoMetroH",
-        "order": 92
+        "order": 92,
+        "display_name": "Toranomon-hills (虎ノ門ヒルズ)"
       },
       "id": 135
     },
@@ -2285,14 +3356,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.766513, 35.694971]
+        "coordinates": [
+          139.766513,
+          35.694971
+        ]
       },
       "properties": {
         "id": 287,
-        "name": "小川町 Ogawamachi (ToeiSubway)",
-        "alternate_names": ["小川町", "ogawamachi"],
+        "name": "ToeiSubway (小川町 Ogawamachi)",
+        "alternate_names": [
+          "小川町",
+          "ogawamachi"
+        ],
         "line": "ToeiSubwayS",
-        "order": 92
+        "order": 92,
+        "display_name": "ToeiSubway (小川町 Ogawamachi)"
       },
       "id": 287
     },
@@ -2300,14 +3378,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.745807, 35.674767]
+        "coordinates": [
+          139.745807,
+          35.674767
+        ]
       },
       "properties": {
         "id": 9,
-        "name": "国会議事堂前 Kokkai-gijidomae",
-        "alternate_names": ["国会議事堂前", "kokkai gijidomae"],
+        "name": "Kokkai-gijidomae (国会議事堂前)",
+        "alternate_names": [
+          "国会議事堂前",
+          "kokkai gijidomae"
+        ],
         "line": "TokyoMetroM",
-        "order": 91
+        "order": 91,
+        "display_name": "Kokkai-gijidomae (国会議事堂前)"
       },
       "id": 9
     },
@@ -2315,14 +3400,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751138, 35.695393]
+        "coordinates": [
+          139.751138,
+          35.695393
+        ]
       },
       "properties": {
         "id": 94,
-        "name": "九段下 Kudanshita",
-        "alternate_names": ["九段下", "kudanshita"],
+        "name": "Kudanshita (九段下)",
+        "alternate_names": [
+          "九段下",
+          "kudanshita"
+        ],
         "line": "TokyoMetroZ",
-        "order": 90
+        "order": 90,
+        "display_name": "Kudanshita (九段下)"
       },
       "id": 94
     },
@@ -2330,14 +3422,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.784878, 35.692124]
+        "coordinates": [
+          139.784878,
+          35.692124
+        ]
       },
       "properties": {
         "id": 308,
-        "name": "東日本橋 Higashi-nihombashi",
-        "alternate_names": ["東日本橋", "higashi nihombashi"],
+        "name": "Higashi-nihombashi (東日本橋)",
+        "alternate_names": [
+          "東日本橋",
+          "higashi nihombashi"
+        ],
         "line": "ToeiSubwayA",
-        "order": 90
+        "order": 90,
+        "display_name": "Higashi-nihombashi (東日本橋)"
       },
       "id": 308
     },
@@ -2345,14 +3444,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751121, 35.673852]
+        "coordinates": [
+          139.751121,
+          35.673852
+        ]
       },
       "properties": {
         "id": 134,
-        "name": "霞ケ関 Kasumigaseki",
-        "alternate_names": ["霞ケ関", "kasumigaseki"],
+        "name": "Kasumigaseki (霞ケ関)",
+        "alternate_names": [
+          "霞ケ関",
+          "kasumigaseki"
+        ],
         "line": "TokyoMetroH",
-        "order": 88
+        "order": 88,
+        "display_name": "Kasumigaseki (霞ケ関)"
       },
       "id": 134
     },
@@ -2360,14 +3466,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.750117, 35.670154]
+        "coordinates": [
+          139.750117,
+          35.670154
+        ]
       },
       "properties": {
         "id": 200,
-        "name": "虎ノ門 Toranomon",
-        "alternate_names": ["虎ノ門", "toranomon"],
+        "name": "Toranomon (虎ノ門)",
+        "alternate_names": [
+          "虎ノ門",
+          "toranomon"
+        ],
         "line": "TokyoMetroG",
-        "order": 88
+        "order": 88,
+        "display_name": "Toranomon (虎ノ門)"
       },
       "id": 200
     },
@@ -2375,14 +3488,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.75842, 35.695358]
+        "coordinates": [
+          139.75842,
+          35.695358
+        ]
       },
       "properties": {
         "id": 216,
-        "name": "神保町 Jimbocho",
-        "alternate_names": ["神保町", "jimbocho"],
+        "name": "Jimbocho (神保町)",
+        "alternate_names": [
+          "神保町",
+          "jimbocho"
+        ],
         "line": "ToeiSubwayI",
-        "order": 88
+        "order": 88,
+        "display_name": "Jimbocho (神保町)"
       },
       "id": 216
     },
@@ -2390,14 +3510,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.796103, 35.671898]
+        "coordinates": [
+          139.796103,
+          35.671898
+        ]
       },
       "properties": {
         "id": 176,
-        "name": "門前仲町 Monzen-nakacho",
-        "alternate_names": ["門前仲町", "monzen nakacho"],
+        "name": "Monzen-nakacho (門前仲町)",
+        "alternate_names": [
+          "門前仲町",
+          "monzen nakacho"
+        ],
         "line": "TokyoMetroT",
-        "order": 87
+        "order": 87,
+        "display_name": "Monzen-nakacho (門前仲町)"
       },
       "id": 176
     },
@@ -2405,14 +3532,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.665478, 35.749632]
+        "coordinates": [
+          139.665478,
+          35.749632
+        ]
       },
       "properties": {
         "id": 61,
-        "name": "氷川台 Hikawadai",
-        "alternate_names": ["氷川台", "hikawadai"],
+        "name": "Hikawadai (氷川台)",
+        "alternate_names": [
+          "氷川台",
+          "hikawadai"
+        ],
         "line": "TokyoMetroF",
-        "order": 86
+        "order": 86,
+        "display_name": "Hikawadai (氷川台)"
       },
       "id": 61
     },
@@ -2420,14 +3554,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.757566, 35.695889]
+        "coordinates": [
+          139.757566,
+          35.695889
+        ]
       },
       "properties": {
         "id": 93,
-        "name": "神保町 Jimbocho",
-        "alternate_names": ["神保町", "jimbocho"],
+        "name": "Jimbocho (神保町)",
+        "alternate_names": [
+          "神保町",
+          "jimbocho"
+        ],
         "line": "TokyoMetroZ",
-        "order": 86
+        "order": 86,
+        "display_name": "Jimbocho (神保町)"
       },
       "id": 93
     },
@@ -2435,14 +3576,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.683064, 35.697879]
+        "coordinates": [
+          139.683064,
+          35.697879
+        ]
       },
       "properties": {
         "id": 242,
-        "name": "中野坂上 Nakano-sakaue",
-        "alternate_names": ["中野坂上", "nakano sakaue"],
+        "name": "Nakano-sakaue (中野坂上)",
+        "alternate_names": [
+          "中野坂上",
+          "nakano sakaue"
+        ],
         "line": "ToeiSubwayE",
-        "order": 86
+        "order": 86,
+        "display_name": "Nakano-sakaue (中野坂上)"
       },
       "id": 242
     },
@@ -2450,14 +3598,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77511, 35.695531]
+        "coordinates": [
+          139.77511,
+          35.695531
+        ]
       },
       "properties": {
         "id": 286,
-        "name": "岩本町 Iwamotocho",
-        "alternate_names": ["岩本町", "iwamotocho"],
+        "name": "Iwamotocho (岩本町)",
+        "alternate_names": [
+          "岩本町",
+          "iwamotocho"
+        ],
         "line": "ToeiSubwayS",
-        "order": 86
+        "order": 86,
+        "display_name": "Iwamotocho (岩本町)"
       },
       "id": 286
     },
@@ -2465,14 +3620,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.765744, 35.71736]
+        "coordinates": [
+          139.765744,
+          35.71736
+        ]
       },
       "properties": {
         "id": 72,
-        "name": "根津 Nezu",
-        "alternate_names": ["根津", "nezu"],
+        "name": "Nezu (根津)",
+        "alternate_names": [
+          "根津",
+          "nezu"
+        ],
         "line": "TokyoMetroC",
-        "order": 85
+        "order": 85,
+        "display_name": "Nezu (根津)"
       },
       "id": 72
     },
@@ -2480,14 +3642,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.74318, 35.70122]
+        "coordinates": [
+          139.74318,
+          35.70122
+        ]
       },
       "properties": {
         "id": 152,
-        "name": "飯田橋 Iidabashi",
-        "alternate_names": ["飯田橋", "iidabashi"],
+        "name": "Iidabashi (飯田橋)",
+        "alternate_names": [
+          "飯田橋",
+          "iidabashi"
+        ],
         "line": "TokyoMetroY",
-        "order": 84
+        "order": 84,
+        "display_name": "Iidabashi (飯田橋)"
       },
       "id": 152
     },
@@ -2495,14 +3664,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.758514, 35.667386]
+        "coordinates": [
+          139.758514,
+          35.667386
+        ]
       },
       "properties": {
         "id": 199,
-        "name": "新橋 Shimbashi",
-        "alternate_names": ["新橋", "shimbashi"],
+        "name": "Shimbashi (新橋)",
+        "alternate_names": [
+          "新橋",
+          "shimbashi"
+        ],
         "line": "TokyoMetroG",
-        "order": 84
+        "order": 84,
+        "display_name": "Shimbashi (新橋)"
       },
       "id": 199
     },
@@ -2510,14 +3686,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.67952, 35.74336]
+        "coordinates": [
+          139.67952,
+          35.74336
+        ]
       },
       "properties": {
         "id": 60,
-        "name": "小竹向原 Kotake-mukaihara",
-        "alternate_names": ["小竹向原", "kotake mukaihara"],
+        "name": "Kotake-mukaihara (小竹向原)",
+        "alternate_names": [
+          "小竹向原",
+          "kotake mukaihara"
+        ],
         "line": "TokyoMetroF",
-        "order": 81
+        "order": 81,
+        "display_name": "Kotake-mukaihara (小竹向原)"
       },
       "id": 60
     },
@@ -2525,14 +3708,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.782229, 35.686371]
+        "coordinates": [
+          139.782229,
+          35.686371
+        ]
       },
       "properties": {
         "id": 307,
-        "name": "人形町 Ningyocho",
-        "alternate_names": ["人形町", "ningyocho"],
+        "name": "Ningyocho (人形町)",
+        "alternate_names": [
+          "人形町",
+          "ningyocho"
+        ],
         "line": "ToeiSubwayA",
-        "order": 81
+        "order": 81,
+        "display_name": "Ningyocho (人形町)"
       },
       "id": 307
     },
@@ -2540,14 +3730,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.746835, 35.735897]
+        "coordinates": [
+          139.746835,
+          35.735897
+        ]
       },
       "properties": {
         "id": 105,
-        "name": "駒込 Komagome",
-        "alternate_names": ["駒込", "komagome"],
+        "name": "Komagome (駒込)",
+        "alternate_names": [
+          "駒込",
+          "komagome"
+        ],
         "line": "TokyoMetroN",
-        "order": 79
+        "order": 79,
+        "display_name": "Komagome (駒込)"
       },
       "id": 105
     },
@@ -2555,14 +3752,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.736835, 35.692585]
+        "coordinates": [
+          139.736835,
+          35.692585
+        ]
       },
       "properties": {
         "id": 151,
-        "name": "市ケ谷 Ichigaya",
-        "alternate_names": ["市ケ谷", "ichigaya"],
+        "name": "Ichigaya (市ケ谷)",
+        "alternate_names": [
+          "市ケ谷",
+          "ichigaya"
+        ],
         "line": "TokyoMetroY",
-        "order": 79
+        "order": 79,
+        "display_name": "Ichigaya (市ケ谷)"
       },
       "id": 151
     },
@@ -2570,14 +3774,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.689442, 35.738212]
+        "coordinates": [
+          139.689442,
+          35.738212
+        ]
       },
       "properties": {
         "id": 59,
-        "name": "千川 Senkawa",
-        "alternate_names": ["千川", "senkawa"],
+        "name": "Senkawa (千川)",
+        "alternate_names": [
+          "千川",
+          "senkawa"
+        ],
         "line": "TokyoMetroF",
-        "order": 78
+        "order": 78,
+        "display_name": "Senkawa (千川)"
       },
       "id": 59
     },
@@ -2585,14 +3796,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.779275, 35.680355]
+        "coordinates": [
+          139.779275,
+          35.680355
+        ]
       },
       "properties": {
         "id": 175,
-        "name": "茅場町 Kayabacho",
-        "alternate_names": ["茅場町", "kayabacho"],
+        "name": "Kayabacho (茅場町)",
+        "alternate_names": [
+          "茅場町",
+          "kayabacho"
+        ],
         "line": "TokyoMetroT",
-        "order": 78
+        "order": 78,
+        "display_name": "Kayabacho (茅場町)"
       },
       "id": 175
     },
@@ -2600,14 +3818,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.782985, 35.691915]
+        "coordinates": [
+          139.782985,
+          35.691915
+        ]
       },
       "properties": {
         "id": 285,
-        "name": "馬喰横山 Bakuro-yokoyama",
-        "alternate_names": ["馬喰横山", "bakuro yokoyama"],
+        "name": "Bakuro-yokoyama (馬喰横山)",
+        "alternate_names": [
+          "馬喰横山",
+          "bakuro yokoyama"
+        ],
         "line": "ToeiSubwayS",
-        "order": 78
+        "order": 78,
+        "display_name": "Bakuro-yokoyama (馬喰横山)"
       },
       "id": 285
     },
@@ -2615,14 +3840,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.760603, 35.674275]
+        "coordinates": [
+          139.760603,
+          35.674275
+        ]
       },
       "properties": {
         "id": 133,
-        "name": "日比谷 Hibiya",
-        "alternate_names": ["日比谷", "hibiya"],
+        "name": "Hibiya (日比谷)",
+        "alternate_names": [
+          "日比谷",
+          "hibiya"
+        ],
         "line": "TokyoMetroH",
-        "order": 77
+        "order": 77,
+        "display_name": "Hibiya (日比谷)"
       },
       "id": 133
     },
@@ -2630,14 +3862,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.774155, 35.68245]
+        "coordinates": [
+          139.774155,
+          35.68245
+        ]
       },
       "properties": {
         "id": 174,
-        "name": "日本橋 Nihombashi",
-        "alternate_names": ["日本橋", "nihombashi"],
+        "name": "Nihombashi (日本橋)",
+        "alternate_names": [
+          "日本橋",
+          "nihombashi"
+        ],
         "line": "TokyoMetroT",
-        "order": 76
+        "order": 76,
+        "display_name": "Nihombashi (日本橋)"
       },
       "id": 174
     },
@@ -2645,14 +3884,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.775791, 35.681762]
+        "coordinates": [
+          139.775791,
+          35.681762
+        ]
       },
       "properties": {
         "id": 306,
-        "name": "日本橋 Nihombashi",
-        "alternate_names": ["日本橋", "nihombashi"],
+        "name": "Nihombashi (日本橋)",
+        "alternate_names": [
+          "日本橋",
+          "nihombashi"
+        ],
         "line": "ToeiSubwayA",
-        "order": 76
+        "order": 76,
+        "display_name": "Nihombashi (日本橋)"
       },
       "id": 306
     },
@@ -2660,14 +3906,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.7373, 35.67683]
+        "coordinates": [
+          139.7373,
+          35.67683
+        ]
       },
       "properties": {
         "id": 8,
-        "name": "赤坂見附 Akasaka-mitsuke",
-        "alternate_names": ["赤坂見附", "akasaka mitsuke"],
+        "name": "Akasaka-mitsuke (赤坂見附)",
+        "alternate_names": [
+          "赤坂見附",
+          "akasaka mitsuke"
+        ],
         "line": "TokyoMetroM",
-        "order": 75
+        "order": 75,
+        "display_name": "Akasaka-mitsuke (赤坂見附)"
       },
       "id": 8
     },
@@ -2675,14 +3928,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.763337, 35.725739]
+        "coordinates": [
+          139.763337,
+          35.725739
+        ]
       },
       "properties": {
         "id": 71,
-        "name": "千駄木 Sendagi",
-        "alternate_names": ["千駄木", "sendagi"],
+        "name": "Sendagi (千駄木)",
+        "alternate_names": [
+          "千駄木",
+          "sendagi"
+        ],
         "line": "TokyoMetroC",
-        "order": 75
+        "order": 75,
+        "display_name": "Sendagi (千駄木)"
       },
       "id": 71
     },
@@ -2690,14 +3950,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.766927, 35.685927]
+        "coordinates": [
+          139.766927,
+          35.685927
+        ]
       },
       "properties": {
         "id": 173,
-        "name": "大手町 Otemachi",
-        "alternate_names": ["大手町", "otemachi"],
+        "name": "Otemachi (大手町)",
+        "alternate_names": [
+          "大手町",
+          "otemachi"
+        ],
         "line": "TokyoMetroT",
-        "order": 75
+        "order": 75,
+        "display_name": "Otemachi (大手町)"
       },
       "id": 173
     },
@@ -2705,14 +3972,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.771986, 35.675598]
+        "coordinates": [
+          139.771986,
+          35.675598
+        ]
       },
       "properties": {
         "id": 305,
-        "name": "宝町 Takaracho",
-        "alternate_names": ["宝町", "takaracho"],
+        "name": "Takaracho (宝町)",
+        "alternate_names": [
+          "宝町",
+          "takaracho"
+        ],
         "line": "ToeiSubwayA",
-        "order": 75
+        "order": 75,
+        "display_name": "Takaracho (宝町)"
       },
       "id": 305
     },
@@ -2720,14 +3994,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.757637, 35.690395]
+        "coordinates": [
+          139.757637,
+          35.690395
+        ]
       },
       "properties": {
         "id": 172,
-        "name": "竹橋 Takebashi",
-        "alternate_names": ["竹橋", "takebashi"],
+        "name": "Takebashi (竹橋)",
+        "alternate_names": [
+          "竹橋",
+          "takebashi"
+        ],
         "line": "TokyoMetroT",
-        "order": 74
+        "order": 74,
+        "display_name": "Takebashi (竹橋)"
       },
       "id": 172
     },
@@ -2735,14 +4016,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.698493, 35.733266]
+        "coordinates": [
+          139.698493,
+          35.733266
+        ]
       },
       "properties": {
         "id": 58,
-        "name": "要町 Kanamecho",
-        "alternate_names": ["要町", "kanamecho"],
+        "name": "Kanamecho (要町)",
+        "alternate_names": [
+          "要町",
+          "kanamecho"
+        ],
         "line": "TokyoMetroF",
-        "order": 73
+        "order": 73,
+        "display_name": "Kanamecho (要町)"
       },
       "id": 58
     },
@@ -2750,14 +4038,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.765348, 35.671513]
+        "coordinates": [
+          139.765348,
+          35.671513
+        ]
       },
       "properties": {
         "id": 198,
-        "name": "銀座 Ginza",
-        "alternate_names": ["銀座", "ginza"],
+        "name": "Ginza (銀座)",
+        "alternate_names": [
+          "銀座",
+          "ginza"
+        ],
         "line": "TokyoMetroG",
-        "order": 73
+        "order": 73,
+        "display_name": "Ginza (銀座)"
       },
       "id": 198
     },
@@ -2765,14 +4060,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.683282, 35.70711]
+        "coordinates": [
+          139.683282,
+          35.70711
+        ]
       },
       "properties": {
         "id": 241,
-        "name": "東中野 Higashi-Nakano",
-        "alternate_names": ["東中野", "higashi nakano"],
+        "name": "Higashi-Nakano (東中野)",
+        "alternate_names": [
+          "東中野",
+          "higashi nakano"
+        ],
         "line": "ToeiSubwayE",
-        "order": 73
+        "order": 73,
+        "display_name": "Higashi-Nakano (東中野)"
       },
       "id": 241
     },
@@ -2780,14 +4082,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.787712, 35.688577]
+        "coordinates": [
+          139.787712,
+          35.688577
+        ]
       },
       "properties": {
         "id": 284,
-        "name": "浜町 Hamacho",
-        "alternate_names": ["浜町", "hamacho"],
+        "name": "Hamacho (浜町)",
+        "alternate_names": [
+          "浜町",
+          "hamacho"
+        ],
         "line": "ToeiSubwayS",
-        "order": 73
+        "order": 73,
+        "display_name": "Hamacho (浜町)"
       },
       "id": 284
     },
@@ -2795,14 +4104,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.764039, 35.672002]
+        "coordinates": [
+          139.764039,
+          35.672002
+        ]
       },
       "properties": {
         "id": 132,
-        "name": "銀座 Ginza",
-        "alternate_names": ["銀座", "ginza"],
+        "name": "Ginza (銀座)",
+        "alternate_names": [
+          "銀座",
+          "ginza"
+        ],
         "line": "TokyoMetroH",
-        "order": 72
+        "order": 72,
+        "display_name": "Ginza (銀座)"
       },
       "id": 132
     },
@@ -2810,14 +4126,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.764894, 35.686699]
+        "coordinates": [
+          139.764894,
+          35.686699
+        ]
       },
       "properties": {
         "id": 92,
-        "name": "大手町 Otemachi",
-        "alternate_names": ["大手町", "otemachi"],
+        "name": "Otemachi (大手町)",
+        "alternate_names": [
+          "大手町",
+          "otemachi"
+        ],
         "line": "TokyoMetroZ",
-        "order": 71
+        "order": 71,
+        "display_name": "Otemachi (大手町)"
       },
       "id": 92
     },
@@ -2825,14 +4148,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.737343, 35.684783]
+        "coordinates": [
+          139.737343,
+          35.684783
+        ]
       },
       "properties": {
         "id": 150,
-        "name": "麴町 Kojimachi",
-        "alternate_names": ["麴町", "kojimachi"],
+        "name": "Kojimachi (麴町)",
+        "alternate_names": [
+          "麴町",
+          "kojimachi"
+        ],
         "line": "TokyoMetroY",
-        "order": 71
+        "order": 71,
+        "display_name": "Kojimachi (麴町)"
       },
       "id": 150
     },
@@ -2840,14 +4170,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.767329, 35.669928]
+        "coordinates": [
+          139.767329,
+          35.669928
+        ]
       },
       "properties": {
         "id": 304,
-        "name": "東銀座 Higashi-ginza",
-        "alternate_names": ["東銀座", "higashi ginza"],
+        "name": "Higashi-ginza (東銀座)",
+        "alternate_names": [
+          "東銀座",
+          "higashi ginza"
+        ],
         "line": "ToeiSubwayA",
-        "order": 71
+        "order": 71,
+        "display_name": "Higashi-ginza (東銀座)"
       },
       "id": 304
     },
@@ -2855,14 +4192,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.686443, 35.713889]
+        "coordinates": [
+          139.686443,
+          35.713889
+        ]
       },
       "properties": {
         "id": 240,
-        "name": "中井 Nakai",
-        "alternate_names": ["中井", "nakai"],
+        "name": "Nakai (中井)",
+        "alternate_names": [
+          "中井",
+          "nakai"
+        ],
         "line": "ToeiSubwayE",
-        "order": 70
+        "order": 70,
+        "display_name": "Nakai (中井)"
       },
       "id": 240
     },
@@ -2870,14 +4214,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.763002, 35.684052]
+        "coordinates": [
+          139.763002,
+          35.684052
+        ]
       },
       "properties": {
         "id": 215,
-        "name": "大手町 Otemachi",
-        "alternate_names": ["大手町", "otemachi"],
+        "name": "Otemachi (大手町)",
+        "alternate_names": [
+          "大手町",
+          "otemachi"
+        ],
         "line": "ToeiSubwayI",
-        "order": 68
+        "order": 68,
+        "display_name": "Otemachi (大手町)"
       },
       "id": 215
     },
@@ -2885,14 +4236,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.767616, 35.669071]
+        "coordinates": [
+          139.767616,
+          35.669071
+        ]
       },
       "properties": {
         "id": 131,
-        "name": "東銀座 Higashi-ginza",
-        "alternate_names": ["東銀座", "higashi ginza"],
+        "name": "Higashi-ginza (東銀座)",
+        "alternate_names": [
+          "東銀座",
+          "higashi ginza"
+        ],
         "line": "TokyoMetroH",
-        "order": 67
+        "order": 67,
+        "display_name": "Higashi-ginza (東銀座)"
       },
       "id": 131
     },
@@ -2900,14 +4258,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77258, 35.6681]
+        "coordinates": [
+          139.77258,
+          35.6681
+        ]
       },
       "properties": {
         "id": 130,
-        "name": "築地 Tsukiji",
-        "alternate_names": ["築地", "tsukiji"],
+        "name": "Tsukiji (築地)",
+        "alternate_names": [
+          "築地",
+          "tsukiji"
+        ],
         "line": "TokyoMetroH",
-        "order": 66
+        "order": 66,
+        "display_name": "Tsukiji (築地)"
       },
       "id": 130
     },
@@ -2915,14 +4280,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.770065, 35.676722]
+        "coordinates": [
+          139.770065,
+          35.676722
+        ]
       },
       "properties": {
         "id": 197,
-        "name": "京橋 Kyobashi",
-        "alternate_names": ["京橋", "kyobashi"],
+        "name": "Kyobashi (京橋)",
+        "alternate_names": [
+          "京橋",
+          "kyobashi"
+        ],
         "line": "TokyoMetroG",
-        "order": 66
+        "order": 66,
+        "display_name": "Kyobashi (京橋)"
       },
       "id": 197
     },
@@ -2930,14 +4302,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.796625, 35.68792]
+        "coordinates": [
+          139.796625,
+          35.68792
+        ]
       },
       "properties": {
         "id": 283,
-        "name": "森下 Morishita",
-        "alternate_names": ["森下", "morishita"],
+        "name": "Morishita (森下)",
+        "alternate_names": [
+          "森下",
+          "morishita"
+        ],
         "line": "ToeiSubwayS",
-        "order": 66
+        "order": 66,
+        "display_name": "Morishita (森下)"
       },
       "id": 283
     },
@@ -2945,14 +4324,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751152, 35.696023]
+        "coordinates": [
+          139.751152,
+          35.696023
+        ]
       },
       "properties": {
         "id": 171,
-        "name": "九段下 Kudanshita",
-        "alternate_names": ["九段下", "kudanshita"],
+        "name": "Kudanshita (九段下)",
+        "alternate_names": [
+          "九段下",
+          "kudanshita"
+        ],
         "line": "TokyoMetroT",
-        "order": 65
+        "order": 65,
+        "display_name": "Kudanshita (九段下)"
       },
       "id": 171
     },
@@ -2960,14 +4346,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.760471, 35.67654]
+        "coordinates": [
+          139.760471,
+          35.67654
+        ]
       },
       "properties": {
         "id": 214,
-        "name": "日比谷 Hibiya",
-        "alternate_names": ["日比谷", "hibiya"],
+        "name": "Hibiya (日比谷)",
+        "alternate_names": [
+          "日比谷",
+          "hibiya"
+        ],
         "line": "ToeiSubwayI",
-        "order": 65
+        "order": 65,
+        "display_name": "Hibiya (日比谷)"
       },
       "id": 214
     },
@@ -2975,14 +4368,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.711117, 35.730285]
+        "coordinates": [
+          139.711117,
+          35.730285
+        ]
       },
       "properties": {
         "id": 57,
-        "name": "池袋 Ikebukuro",
-        "alternate_names": ["池袋", "ikebukuro"],
+        "name": "Ikebukuro (池袋)",
+        "alternate_names": [
+          "池袋",
+          "ikebukuro"
+        ],
         "line": "TokyoMetroF",
-        "order": 64
+        "order": 64,
+        "display_name": "Ikebukuro (池袋)"
       },
       "id": 57
     },
@@ -2990,14 +4390,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.766863, 35.732392]
+        "coordinates": [
+          139.766863,
+          35.732392
+        ]
       },
       "properties": {
         "id": 70,
-        "name": "西日暮里 Nishi-nippori",
-        "alternate_names": ["西日暮里", "nishi nippori"],
+        "name": "Nishi-nippori (西日暮里)",
+        "alternate_names": [
+          "西日暮里",
+          "nishi nippori"
+        ],
         "line": "TokyoMetroC",
-        "order": 64
+        "order": 64,
+        "display_name": "Nishi-nippori (西日暮里)"
       },
       "id": 70
     },
@@ -3005,14 +4412,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.773113, 35.684917]
+        "coordinates": [
+          139.773113,
+          35.684917
+        ]
       },
       "properties": {
         "id": 91,
-        "name": "三越前 Mitsukoshimae",
-        "alternate_names": ["三越前", "mitsukoshimae"],
+        "name": "Mitsukoshimae (三越前)",
+        "alternate_names": [
+          "三越前",
+          "mitsukoshimae"
+        ],
         "line": "TokyoMetroZ",
-        "order": 64
+        "order": 64,
+        "display_name": "Mitsukoshimae (三越前)"
       },
       "id": 91
     },
@@ -3020,14 +4434,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.746346, 35.701298]
+        "coordinates": [
+          139.746346,
+          35.701298
+        ]
       },
       "properties": {
         "id": 170,
-        "name": "飯田橋 Iidabashi",
-        "alternate_names": ["飯田橋", "iidabashi"],
+        "name": "Iidabashi (飯田橋)",
+        "alternate_names": [
+          "飯田橋",
+          "iidabashi"
+        ],
         "line": "TokyoMetroT",
-        "order": 64
+        "order": 64,
+        "display_name": "Iidabashi (飯田橋)"
       },
       "id": 170
     },
@@ -3035,14 +4456,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.806108, 35.688348]
+        "coordinates": [
+          139.806108,
+          35.688348
+        ]
       },
       "properties": {
         "id": 282,
-        "name": "菊川 Kikukawa",
-        "alternate_names": ["菊川", "kikukawa"],
+        "name": "Kikukawa (菊川)",
+        "alternate_names": [
+          "菊川",
+          "kikukawa"
+        ],
         "line": "ToeiSubwayS",
-        "order": 64
+        "order": 64,
+        "display_name": "Kikukawa (菊川)"
       },
       "id": 282
     },
@@ -3050,14 +4478,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.773302, 35.681892]
+        "coordinates": [
+          139.773302,
+          35.681892
+        ]
       },
       "properties": {
         "id": 196,
-        "name": "日本橋 Nihombashi",
-        "alternate_names": ["日本橋", "nihombashi"],
+        "name": "Nihombashi (日本橋)",
+        "alternate_names": [
+          "日本橋",
+          "nihombashi"
+        ],
         "line": "TokyoMetroG",
-        "order": 62
+        "order": 62,
+        "display_name": "Nihombashi (日本橋)"
       },
       "id": 196
     },
@@ -3065,14 +4500,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.74173, 35.677807]
+        "coordinates": [
+          139.74173,
+          35.677807
+        ]
       },
       "properties": {
         "id": 149,
-        "name": "永田町 Nagatacho",
-        "alternate_names": ["永田町", "nagatacho"],
+        "name": "Nagatacho (永田町)",
+        "alternate_names": [
+          "永田町",
+          "nagatacho"
+        ],
         "line": "TokyoMetroY",
-        "order": 61
+        "order": 61,
+        "display_name": "Nagatacho (永田町)"
       },
       "id": 149
     },
@@ -3080,14 +4522,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.759352, 35.665378]
+        "coordinates": [
+          139.759352,
+          35.665378
+        ]
       },
       "properties": {
         "id": 303,
-        "name": "新橋 Shimbashi",
-        "alternate_names": ["新橋", "shimbashi"],
+        "name": "Shimbashi (新橋)",
+        "alternate_names": [
+          "新橋",
+          "shimbashi"
+        ],
         "line": "ToeiSubwayA",
-        "order": 61
+        "order": 61,
+        "display_name": "Shimbashi (新橋)"
       },
       "id": 303
     },
@@ -3095,14 +4544,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.815758, 35.688954]
+        "coordinates": [
+          139.815758,
+          35.688954
+        ]
       },
       "properties": {
         "id": 281,
-        "name": "住吉 Sumiyoshi",
-        "alternate_names": ["住吉", "sumiyoshi"],
+        "name": "Sumiyoshi (住吉)",
+        "alternate_names": [
+          "住吉",
+          "sumiyoshi"
+        ],
         "line": "ToeiSubwayS",
-        "order": 60
+        "order": 60,
+        "display_name": "Sumiyoshi (住吉)"
       },
       "id": 281
     },
@@ -3110,14 +4566,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.777253, 35.675402]
+        "coordinates": [
+          139.777253,
+          35.675402
+        ]
       },
       "properties": {
         "id": 129,
-        "name": "八丁堀 Hatchobori",
-        "alternate_names": ["八丁堀", "hatchobori"],
+        "name": "Hatchobori (八丁堀)",
+        "alternate_names": [
+          "八丁堀",
+          "hatchobori"
+        ],
         "line": "TokyoMetroH",
-        "order": 58
+        "order": 58,
+        "display_name": "Hatchobori (八丁堀)"
       },
       "id": 129
     },
@@ -3125,14 +4588,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.779597, 35.679087]
+        "coordinates": [
+          139.779597,
+          35.679087
+        ]
       },
       "properties": {
         "id": 128,
-        "name": "茅場町 Kayabacho",
-        "alternate_names": ["茅場町", "kayabacho"],
+        "name": "Kayabacho (茅場町)",
+        "alternate_names": [
+          "茅場町",
+          "kayabacho"
+        ],
         "line": "TokyoMetroH",
-        "order": 57
+        "order": 57,
+        "display_name": "Kayabacho (茅場町)"
       },
       "id": 128
     },
@@ -3140,14 +4610,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.826234, 35.689322]
+        "coordinates": [
+          139.826234,
+          35.689322
+        ]
       },
       "properties": {
         "id": 280,
-        "name": "西大島 Nishi-ojima",
-        "alternate_names": ["西大島", "nishi ojima"],
+        "name": "Nishi-ojima (西大島)",
+        "alternate_names": [
+          "西大島",
+          "nishi ojima"
+        ],
         "line": "ToeiSubwayS",
-        "order": 57
+        "order": 57,
+        "display_name": "Nishi-ojima (西大島)"
       },
       "id": 280
     },
@@ -3155,14 +4632,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.7555, 35.669281]
+        "coordinates": [
+          139.7555,
+          35.669281
+        ]
       },
       "properties": {
         "id": 213,
-        "name": "内幸町 Uchisaiwaicho",
-        "alternate_names": ["内幸町", "uchisaiwaicho"],
+        "name": "Uchisaiwaicho (内幸町)",
+        "alternate_names": [
+          "内幸町",
+          "uchisaiwaicho"
+        ],
         "line": "ToeiSubwayI",
-        "order": 56
+        "order": 56,
+        "display_name": "Uchisaiwaicho (内幸町)"
       },
       "id": 213
     },
@@ -3170,14 +4654,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.683511, 35.723485]
+        "coordinates": [
+          139.683511,
+          35.723485
+        ]
       },
       "properties": {
         "id": 239,
-        "name": "落合南長崎 Ochiai-minami-nagasaki",
-        "alternate_names": ["落合南長崎", "ochiai minami nagasaki"],
+        "name": "Ochiai-minami-nagasaki (落合南長崎)",
+        "alternate_names": [
+          "落合南長崎",
+          "ochiai minami nagasaki"
+        ],
         "line": "ToeiSubwayE",
-        "order": 56
+        "order": 56,
+        "display_name": "Ochiai-minami-nagasaki (落合南長崎)"
       },
       "id": 239
     },
@@ -3185,14 +4676,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.75464, 35.656873]
+        "coordinates": [
+          139.75464,
+          35.656873
+        ]
       },
       "properties": {
         "id": 302,
-        "name": "大門 Daimon",
-        "alternate_names": ["大門", "daimon"],
+        "name": "Daimon (大門)",
+        "alternate_names": [
+          "大門",
+          "daimon"
+        ],
         "line": "ToeiSubwayA",
-        "order": 56
+        "order": 56,
+        "display_name": "Daimon (大門)"
       },
       "id": 302
     },
@@ -3200,14 +4698,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.742276, 35.745955]
+        "coordinates": [
+          139.742276,
+          35.745955
+        ]
       },
       "properties": {
         "id": 104,
-        "name": "西ケ原 Nishigahara",
-        "alternate_names": ["西ケ原", "nishigahara"],
+        "name": "Nishigahara (西ケ原)",
+        "alternate_names": [
+          "西ケ原",
+          "nishigahara"
+        ],
         "line": "TokyoMetroN",
-        "order": 55
+        "order": 55,
+        "display_name": "Nishigahara (西ケ原)"
       },
       "id": 104
     },
@@ -3215,14 +4720,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.734506, 35.703817]
+        "coordinates": [
+          139.734506,
+          35.703817
+        ]
       },
       "properties": {
         "id": 169,
-        "name": "神楽坂 Kagurazaka",
-        "alternate_names": ["神楽坂", "kagurazaka"],
+        "name": "Kagurazaka (神楽坂)",
+        "alternate_names": [
+          "神楽坂",
+          "kagurazaka"
+        ],
         "line": "TokyoMetroT",
-        "order": 54
+        "order": 54,
+        "display_name": "Kagurazaka (神楽坂)"
       },
       "id": 169
     },
@@ -3230,14 +4742,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.773588, 35.687175]
+        "coordinates": [
+          139.773588,
+          35.687175
+        ]
       },
       "properties": {
         "id": 195,
-        "name": "三越前 Mitsukoshimae",
-        "alternate_names": ["三越前", "mitsukoshimae"],
+        "name": "Mitsukoshimae (三越前)",
+        "alternate_names": [
+          "三越前",
+          "mitsukoshimae"
+        ],
         "line": "TokyoMetroG",
-        "order": 54
+        "order": 54,
+        "display_name": "Mitsukoshimae (三越前)"
       },
       "id": 195
     },
@@ -3245,14 +4764,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.729979, 35.684195]
+        "coordinates": [
+          139.729979,
+          35.684195
+        ]
       },
       "properties": {
         "id": 7,
-        "name": "四ツ谷 Yotsuya",
-        "alternate_names": ["四ツ谷", "yotsuya"],
+        "name": "Yotsuya (四ツ谷)",
+        "alternate_names": [
+          "四ツ谷",
+          "yotsuya"
+        ],
         "line": "TokyoMetroM",
-        "order": 53
+        "order": 53,
+        "display_name": "Yotsuya (四ツ谷)"
       },
       "id": 7
     },
@@ -3260,14 +4786,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.780061, 35.742062]
+        "coordinates": [
+          139.780061,
+          35.742062
+        ]
       },
       "properties": {
         "id": 69,
-        "name": "町屋 Machiya",
-        "alternate_names": ["町屋", "machiya"],
+        "name": "Machiya (町屋)",
+        "alternate_names": [
+          "町屋",
+          "machiya"
+        ],
         "line": "TokyoMetroC",
-        "order": 53
+        "order": 53,
+        "display_name": "Machiya (町屋)"
       },
       "id": 69
     },
@@ -3275,14 +4808,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751512, 35.660727]
+        "coordinates": [
+          139.751512,
+          35.660727
+        ]
       },
       "properties": {
         "id": 212,
-        "name": "御成門 Onarimon",
-        "alternate_names": ["御成門", "onarimon"],
+        "name": "Onarimon (御成門)",
+        "alternate_names": [
+          "御成門",
+          "onarimon"
+        ],
         "line": "ToeiSubwayI",
-        "order": 52
+        "order": 52,
+        "display_name": "Onarimon (御成門)"
       },
       "id": 212
     },
@@ -3290,14 +4830,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.714713, 35.720201]
+        "coordinates": [
+          139.714713,
+          35.720201
+        ]
       },
       "properties": {
         "id": 56,
-        "name": "雑司が谷 Zoshigaya",
-        "alternate_names": ["雑司が谷", "zoshigaya"],
+        "name": "Zoshigaya (雑司が谷)",
+        "alternate_names": [
+          "雑司が谷",
+          "zoshigaya"
+        ],
         "line": "TokyoMetroF",
-        "order": 51
+        "order": 51,
+        "display_name": "Zoshigaya (雑司が谷)"
       },
       "id": 56
     },
@@ -3305,14 +4852,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.751903, 35.677366]
+        "coordinates": [
+          139.751903,
+          35.677366
+        ]
       },
       "properties": {
         "id": 148,
-        "name": "桜田門 Sakuradamon",
-        "alternate_names": ["桜田門", "sakuradamon"],
+        "name": "Sakuradamon (桜田門)",
+        "alternate_names": [
+          "桜田門",
+          "sakuradamon"
+        ],
         "line": "TokyoMetroY",
-        "order": 51
+        "order": 51,
+        "display_name": "Sakuradamon (桜田門)"
       },
       "id": 148
     },
@@ -3320,14 +4874,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.83471, 35.689718]
+        "coordinates": [
+          139.83471,
+          35.689718
+        ]
       },
       "properties": {
         "id": 279,
-        "name": "大島 Ojima",
-        "alternate_names": ["大島", "ojima"],
+        "name": "Ojima (大島)",
+        "alternate_names": [
+          "大島",
+          "ojima"
+        ],
         "line": "ToeiSubwayS",
-        "order": 51
+        "order": 51,
+        "display_name": "Ojima (大島)"
       },
       "id": 279
     },
@@ -3335,14 +4896,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.770887, 35.693714]
+        "coordinates": [
+          139.770887,
+          35.693714
+        ]
       },
       "properties": {
         "id": 194,
-        "name": "神田 Kanda",
-        "alternate_names": ["神田", "kanda"],
+        "name": "Kanda (神田)",
+        "alternate_names": [
+          "神田",
+          "kanda"
+        ],
         "line": "TokyoMetroG",
-        "order": 49
+        "order": 49,
+        "display_name": "Kanda (神田)"
       },
       "id": 194
     },
@@ -3350,14 +4918,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.75003, 35.654171]
+        "coordinates": [
+          139.75003,
+          35.654171
+        ]
       },
       "properties": {
         "id": 211,
-        "name": "芝公園 Shibakoen",
-        "alternate_names": ["芝公園", "shibakoen"],
+        "name": "Shibakoen (芝公園)",
+        "alternate_names": [
+          "芝公園",
+          "shibakoen"
+        ],
         "line": "ToeiSubwayI",
-        "order": 47
+        "order": 47,
+        "display_name": "Shibakoen (芝公園)"
       },
       "id": 211
     },
@@ -3365,14 +4940,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.785217, 35.683027]
+        "coordinates": [
+          139.785217,
+          35.683027
+        ]
       },
       "properties": {
         "id": 90,
-        "name": "水天宮前 Suitengumae",
-        "alternate_names": ["水天宮前", "suitengumae"],
+        "name": "Suitengumae (水天宮前)",
+        "alternate_names": [
+          "水天宮前",
+          "suitengumae"
+        ],
         "line": "TokyoMetroZ",
-        "order": 46
+        "order": 46,
+        "display_name": "Suitengumae (水天宮前)"
       },
       "id": 90
     },
@@ -3380,14 +4962,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.762263, 35.675904]
+        "coordinates": [
+          139.762263,
+          35.675904
+        ]
       },
       "properties": {
         "id": 147,
-        "name": "有楽町 Yurakucho",
-        "alternate_names": ["有楽町", "yurakucho"],
+        "name": "Yurakucho (有楽町)",
+        "alternate_names": [
+          "有楽町",
+          "yurakucho"
+        ],
         "line": "TokyoMetroY",
-        "order": 46
+        "order": 46,
+        "display_name": "Yurakucho (有楽町)"
       },
       "id": 147
     },
@@ -3395,14 +4984,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.72219, 35.70568]
+        "coordinates": [
+          139.72219,
+          35.70568
+        ]
       },
       "properties": {
         "id": 168,
-        "name": "早稲田 Waseda",
-        "alternate_names": ["早稲田", "waseda"],
+        "name": "Waseda (早稲田)",
+        "alternate_names": [
+          "早稲田",
+          "waseda"
+        ],
         "line": "TokyoMetroT",
-        "order": 46
+        "order": 46,
+        "display_name": "Waseda (早稲田)"
       },
       "id": 168
     },
@@ -3410,14 +5006,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.670485, 35.732556]
+        "coordinates": [
+          139.670485,
+          35.732556
+        ]
       },
       "properties": {
         "id": 238,
-        "name": "新江古田 Shin-egota",
-        "alternate_names": ["新江古田", "shin egota"],
+        "name": "Shin-egota (新江古田)",
+        "alternate_names": [
+          "新江古田",
+          "shin egota"
+        ],
         "line": "ToeiSubwayE",
-        "order": 45
+        "order": 45,
+        "display_name": "Shin-egota (新江古田)"
       },
       "id": 238
     },
@@ -3425,14 +5028,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.782348, 35.686264]
+        "coordinates": [
+          139.782348,
+          35.686264
+        ]
       },
       "properties": {
         "id": 127,
-        "name": "人形町 Ningyocho",
-        "alternate_names": ["人形町", "ningyocho"],
+        "name": "Ningyocho (人形町)",
+        "alternate_names": [
+          "人形町",
+          "ningyocho"
+        ],
         "line": "TokyoMetroH",
-        "order": 44
+        "order": 44,
+        "display_name": "Ningyocho (人形町)"
       },
       "id": 127
     },
@@ -3440,14 +5050,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.766796, 35.67453]
+        "coordinates": [
+          139.766796,
+          35.67453
+        ]
       },
       "properties": {
         "id": 146,
-        "name": "銀座一丁目 Ginza-itchome",
-        "alternate_names": ["銀座一丁目", "ginza itchome"],
+        "name": "Ginza-itchome (銀座一丁目)",
+        "alternate_names": [
+          "銀座一丁目",
+          "ginza itchome"
+        ],
         "line": "TokyoMetroY",
-        "order": 44
+        "order": 44,
+        "display_name": "Ginza-itchome (銀座一丁目)"
       },
       "id": 146
     },
@@ -3455,14 +5072,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.749167, 35.648635]
+        "coordinates": [
+          139.749167,
+          35.648635
+        ]
       },
       "properties": {
         "id": 210,
-        "name": "三田 Mita",
-        "alternate_names": ["三田", "mita"],
+        "name": "Mita (三田)",
+        "alternate_names": [
+          "三田",
+          "mita"
+        ],
         "line": "ToeiSubwayI",
-        "order": 44
+        "order": 44,
+        "display_name": "Mita (三田)"
       },
       "id": 210
     },
@@ -3470,14 +5094,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.70901, 35.707816]
+        "coordinates": [
+          139.70901,
+          35.707816
+        ]
       },
       "properties": {
         "id": 55,
-        "name": "西早稲田 Nishi-waseda",
-        "alternate_names": ["西早稲田", "nishi waseda"],
+        "name": "Nishi-waseda (西早稲田)",
+        "alternate_names": [
+          "西早稲田",
+          "nishi waseda"
+        ],
         "line": "TokyoMetroF",
-        "order": 43
+        "order": 43,
+        "display_name": "Nishi-waseda (西早稲田)"
       },
       "id": 55
     },
@@ -3485,14 +5116,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77876, 35.690424]
+        "coordinates": [
+          139.77876,
+          35.690424
+        ]
       },
       "properties": {
         "id": 126,
-        "name": "小伝馬町 Kodemmacho",
-        "alternate_names": ["小伝馬町", "kodemmacho"],
+        "name": "Kodemmacho (小伝馬町)",
+        "alternate_names": [
+          "小伝馬町",
+          "kodemmacho"
+        ],
         "line": "TokyoMetroH",
-        "order": 43
+        "order": 43,
+        "display_name": "Kodemmacho (小伝馬町)"
       },
       "id": 126
     },
@@ -3500,14 +5138,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.707805, 35.699834]
+        "coordinates": [
+          139.707805,
+          35.699834
+        ]
       },
       "properties": {
         "id": 54,
-        "name": "東新宿 Higashi-shinjuku",
-        "alternate_names": ["東新宿", "higashi shinjuku"],
+        "name": "Higashi-shinjuku (東新宿)",
+        "alternate_names": [
+          "東新宿",
+          "higashi shinjuku"
+        ],
         "line": "TokyoMetroF",
-        "order": 41
+        "order": 41,
+        "display_name": "Higashi-shinjuku (東新宿)"
       },
       "id": 54
     },
@@ -3515,14 +5160,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.771728, 35.702782]
+        "coordinates": [
+          139.771728,
+          35.702782
+        ]
       },
       "properties": {
         "id": 193,
-        "name": "末広町 Suehirocho",
-        "alternate_names": ["末広町", "suehirocho"],
+        "name": "Suehirocho (末広町)",
+        "alternate_names": [
+          "末広町",
+          "suehirocho"
+        ],
         "line": "TokyoMetroG",
-        "order": 41
+        "order": 41,
+        "display_name": "Suehirocho (末広町)"
       },
       "id": 193
     },
@@ -3530,14 +5182,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.746895, 35.646724]
+        "coordinates": [
+          139.746895,
+          35.646724
+        ]
       },
       "properties": {
         "id": 301,
-        "name": "三田 Mita",
-        "alternate_names": ["三田", "mita"],
+        "name": "Mita (三田)",
+        "alternate_names": [
+          "三田",
+          "mita"
+        ],
         "line": "ToeiSubwayA",
-        "order": 41
+        "order": 41,
+        "display_name": "Mita (三田)"
       },
       "id": 301
     },
@@ -3545,14 +5204,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.847242, 35.689934]
+        "coordinates": [
+          139.847242,
+          35.689934
+        ]
       },
       "properties": {
         "id": 278,
-        "name": "東大島 Higashi-ojima",
-        "alternate_names": ["東大島", "higashi ojima"],
+        "name": "Higashi-ojima (東大島)",
+        "alternate_names": [
+          "東大島",
+          "higashi ojima"
+        ],
         "line": "ToeiSubwayS",
-        "order": 40
+        "order": 40,
+        "display_name": "Higashi-ojima (東大島)"
       },
       "id": 278
     },
@@ -3560,14 +5226,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.773615, 35.670555]
+        "coordinates": [
+          139.773615,
+          35.670555
+        ]
       },
       "properties": {
         "id": 145,
-        "name": "新富町 Shintomicho",
-        "alternate_names": ["新富町", "shintomicho"],
+        "name": "Shintomicho (新富町)",
+        "alternate_names": [
+          "新富町",
+          "shintomicho"
+        ],
         "line": "TokyoMetroY",
-        "order": 39
+        "order": 39,
+        "display_name": "Shintomicho (新富町)"
       },
       "id": 145
     },
@@ -3575,14 +5248,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.719323, 35.687847]
+        "coordinates": [
+          139.719323,
+          35.687847
+        ]
       },
       "properties": {
         "id": 6,
-        "name": "四谷三丁目 Yotsuya-sanchome",
-        "alternate_names": ["四谷三丁目", "yotsuya sanchome"],
+        "name": "Yotsuya-sanchome (四谷三丁目)",
+        "alternate_names": [
+          "四谷三丁目",
+          "yotsuya sanchome"
+        ],
         "line": "TokyoMetroM",
-        "order": 38
+        "order": 38,
+        "display_name": "Yotsuya-sanchome (四谷三丁目)"
       },
       "id": 6
     },
@@ -3590,14 +5270,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.737327, 35.754461]
+        "coordinates": [
+          139.737327,
+          35.754461
+        ]
       },
       "properties": {
         "id": 103,
-        "name": "王子 Oji",
-        "alternate_names": ["王子", "oji"],
+        "name": "Oji (王子)",
+        "alternate_names": [
+          "王子",
+          "oji"
+        ],
         "line": "TokyoMetroN",
-        "order": 38
+        "order": 38,
+        "display_name": "Oji (王子)"
       },
       "id": 103
     },
@@ -3605,14 +5292,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.775505, 35.697964]
+        "coordinates": [
+          139.775505,
+          35.697964
+        ]
       },
       "properties": {
         "id": 125,
-        "name": "秋葉原 Akihabara",
-        "alternate_names": ["秋葉原", "akihabara"],
+        "name": "Akihabara (秋葉原)",
+        "alternate_names": [
+          "秋葉原",
+          "akihabara"
+        ],
         "line": "TokyoMetroH",
-        "order": 36
+        "order": 36,
+        "display_name": "Akihabara (秋葉原)"
       },
       "id": 125
     },
@@ -3620,14 +5314,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.704614, 35.690658]
+        "coordinates": [
+          139.704614,
+          35.690658
+        ]
       },
       "properties": {
         "id": 53,
-        "name": "新宿三丁目 Shinjuku-sanchome",
-        "alternate_names": ["新宿三丁目", "shinjuku sanchome"],
+        "name": "Shinjuku-sanchome (新宿三丁目)",
+        "alternate_names": [
+          "新宿三丁目",
+          "shinjuku sanchome"
+        ],
         "line": "TokyoMetroF",
-        "order": 35
+        "order": 35,
+        "display_name": "Shinjuku-sanchome (新宿三丁目)"
       },
       "id": 53
     },
@@ -3635,14 +5336,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.80457, 35.749165]
+        "coordinates": [
+          139.80457,
+          35.749165
+        ]
       },
       "properties": {
         "id": 68,
-        "name": "北千住 Kita-senju",
-        "alternate_names": ["北千住", "kita senju"],
+        "name": "Kita-senju (北千住)",
+        "alternate_names": [
+          "北千住",
+          "kita senju"
+        ],
         "line": "TokyoMetroC",
-        "order": 35
+        "order": 35,
+        "display_name": "Kita-senju (北千住)"
       },
       "id": 68
     },
@@ -3650,14 +5358,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77302, 35.707763]
+        "coordinates": [
+          139.77302,
+          35.707763
+        ]
       },
       "properties": {
         "id": 192,
-        "name": "上野広小路 Ueno-hirokoji",
-        "alternate_names": ["上野広小路", "ueno hirokoji"],
+        "name": "Ueno-hirokoji (上野広小路)",
+        "alternate_names": [
+          "上野広小路",
+          "ueno hirokoji"
+        ],
         "line": "TokyoMetroG",
-        "order": 34
+        "order": 34,
+        "display_name": "Ueno-hirokoji (上野広小路)"
       },
       "id": 192
     },
@@ -3665,14 +5380,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.654791, 35.737314]
+        "coordinates": [
+          139.654791,
+          35.737314
+        ]
       },
       "properties": {
         "id": 237,
-        "name": "練馬 Nerima",
-        "alternate_names": ["練馬", "nerima"],
+        "name": "Nerima (練馬)",
+        "alternate_names": [
+          "練馬",
+          "nerima"
+        ],
         "line": "ToeiSubwayE",
-        "order": 34
+        "order": 34,
+        "display_name": "Nerima (練馬)"
       },
       "id": 237
     },
@@ -3680,14 +5402,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.740031, 35.638699]
+        "coordinates": [
+          139.740031,
+          35.638699
+        ]
       },
       "properties": {
         "id": 300,
-        "name": "泉岳寺 Sengakuji",
-        "alternate_names": ["泉岳寺", "sengakuji"],
+        "name": "Sengakuji (泉岳寺)",
+        "alternate_names": [
+          "泉岳寺",
+          "sengakuji"
+        ],
         "line": "ToeiSubwayA",
-        "order": 34
+        "order": 34,
+        "display_name": "Sengakuji (泉岳寺)"
       },
       "id": 300
     },
@@ -3695,14 +5424,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.710917, 35.68853]
+        "coordinates": [
+          139.710917,
+          35.68853
+        ]
       },
       "properties": {
         "id": 5,
-        "name": "新宿御苑前 Shinjuku-gyoemmae",
-        "alternate_names": ["新宿御苑前", "shinjuku gyoemmae"],
+        "name": "Shinjuku-gyoemmae (新宿御苑前)",
+        "alternate_names": [
+          "新宿御苑前",
+          "shinjuku gyoemmae"
+        ],
         "line": "TokyoMetroM",
-        "order": 32
+        "order": 32,
+        "display_name": "Shinjuku-gyoemmae (新宿御苑前)"
       },
       "id": 5
     },
@@ -3710,14 +5446,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.863956, 35.683745]
+        "coordinates": [
+          139.863956,
+          35.683745
+        ]
       },
       "properties": {
         "id": 277,
-        "name": "船堀 Funabori",
-        "alternate_names": ["船堀", "funabori"],
+        "name": "Funabori (船堀)",
+        "alternate_names": [
+          "船堀",
+          "funabori"
+        ],
         "line": "ToeiSubwayS",
-        "order": 32
+        "order": 32,
+        "display_name": "Funabori (船堀)"
       },
       "id": 277
     },
@@ -3725,14 +5468,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77626, 35.70665]
+        "coordinates": [
+          139.77626,
+          35.70665
+        ]
       },
       "properties": {
         "id": 124,
-        "name": "仲御徒町 Naka-okachimachi",
-        "alternate_names": ["仲御徒町", "naka okachimachi"],
+        "name": "Naka-okachimachi (仲御徒町)",
+        "alternate_names": [
+          "仲御徒町",
+          "naka okachimachi"
+        ],
         "line": "TokyoMetroH",
-        "order": 31
+        "order": 31,
+        "display_name": "Naka-okachimachi (仲御徒町)"
       },
       "id": 124
     },
@@ -3740,14 +5490,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.705081, 35.713323]
+        "coordinates": [
+          139.705081,
+          35.713323
+        ]
       },
       "properties": {
         "id": 167,
-        "name": "高田馬場 Takadanobaba",
-        "alternate_names": ["高田馬場", "takadanobaba"],
+        "name": "Takadanobaba (高田馬場)",
+        "alternate_names": [
+          "高田馬場",
+          "takadanobaba"
+        ],
         "line": "TokyoMetroT",
-        "order": 31
+        "order": 31,
+        "display_name": "Takadanobaba (高田馬場)"
       },
       "id": 167
     },
@@ -3755,14 +5512,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.65792, 35.683558]
+        "coordinates": [
+          139.65792,
+          35.683558
+        ]
       },
       "properties": {
         "id": 49,
-        "name": "方南町 Honancho",
-        "alternate_names": ["方南町", "honancho"],
+        "name": "Honancho (方南町)",
+        "alternate_names": [
+          "方南町",
+          "honancho"
+        ],
         "line": "TokyoMetroMb",
-        "order": 30
+        "order": 30,
+        "display_name": "Honancho (方南町)"
       },
       "id": 49
     },
@@ -3770,14 +5534,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77721, 35.711476]
+        "coordinates": [
+          139.77721,
+          35.711476
+        ]
       },
       "properties": {
         "id": 123,
-        "name": "上野 Ueno",
-        "alternate_names": ["上野", "ueno"],
+        "name": "Ueno (上野)",
+        "alternate_names": [
+          "上野",
+          "ueno"
+        ],
         "line": "TokyoMetroH",
-        "order": 27
+        "order": 27,
+        "display_name": "Ueno (上野)"
       },
       "id": 123
     },
@@ -3785,14 +5556,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.882615, 35.68584]
+        "coordinates": [
+          139.882615,
+          35.68584
+        ]
       },
       "properties": {
         "id": 276,
-        "name": "一之江 Ichinoe",
-        "alternate_names": ["一之江", "ichinoe"],
+        "name": "Ichinoe (一之江)",
+        "alternate_names": [
+          "一之江",
+          "ichinoe"
+        ],
         "line": "ToeiSubwayS",
-        "order": 27
+        "order": 27,
+        "display_name": "Ichinoe (一之江)"
       },
       "id": 276
     },
@@ -3800,14 +5578,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.704206, 35.691173]
+        "coordinates": [
+          139.704206,
+          35.691173
+        ]
       },
       "properties": {
         "id": 4,
-        "name": "新宿三丁目 Shinjuku-sanchome",
-        "alternate_names": ["新宿三丁目", "shinjuku sanchome"],
+        "name": "Shinjuku-sanchome (新宿三丁目)",
+        "alternate_names": [
+          "新宿三丁目",
+          "shinjuku sanchome"
+        ],
         "line": "TokyoMetroM",
-        "order": 26
+        "order": 26,
+        "display_name": "Shinjuku-sanchome (新宿三丁目)"
       },
       "id": 4
     },
@@ -3815,14 +5600,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.784426, 35.664726]
+        "coordinates": [
+          139.784426,
+          35.664726
+        ]
       },
       "properties": {
         "id": 144,
-        "name": "月島 Tsukishima",
-        "alternate_names": ["月島", "tsukishima"],
+        "name": "Tsukishima (月島)",
+        "alternate_names": [
+          "月島",
+          "tsukishima"
+        ],
         "line": "TokyoMetroY",
-        "order": 26
+        "order": 26,
+        "display_name": "Tsukishima (月島)"
       },
       "id": 144
     },
@@ -3830,14 +5622,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.799845, 35.682077]
+        "coordinates": [
+          139.799845,
+          35.682077
+        ]
       },
       "properties": {
         "id": 89,
-        "name": "清澄白河 Kiyosumi-shirakawa",
-        "alternate_names": ["清澄白河", "kiyosumi shirakawa"],
+        "name": "Kiyosumi-shirakawa (清澄白河)",
+        "alternate_names": [
+          "清澄白河",
+          "kiyosumi shirakawa"
+        ],
         "line": "TokyoMetroZ",
-        "order": 25
+        "order": 25,
+        "display_name": "Kiyosumi-shirakawa (清澄白河)"
       },
       "id": 89
     },
@@ -3845,14 +5644,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.734479, 35.64323]
+        "coordinates": [
+          139.734479,
+          35.64323
+        ]
       },
       "properties": {
         "id": 209,
-        "name": "白金高輪 Shirokane-takanawa",
-        "alternate_names": ["白金高輪", "shirokane takanawa"],
+        "name": "Shirokane-takanawa (白金高輪)",
+        "alternate_names": [
+          "白金高輪",
+          "shirokane takanawa"
+        ],
         "line": "ToeiSubwayI",
-        "order": 25
+        "order": 25,
+        "display_name": "Shirokane-takanawa (白金高輪)"
       },
       "id": 209
     },
@@ -3860,14 +5666,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.730391, 35.631745]
+        "coordinates": [
+          139.730391,
+          35.631745
+        ]
       },
       "properties": {
         "id": 299,
-        "name": "高輪台 Takanawadai",
-        "alternate_names": ["高輪台", "takanawadai"],
+        "name": "Takanawadai (高輪台)",
+        "alternate_names": [
+          "高輪台",
+          "takanawadai"
+        ],
         "line": "ToeiSubwayA",
-        "order": 25
+        "order": 25,
+        "display_name": "Takanawadai (高輪台)"
       },
       "id": 299
     },
@@ -3875,14 +5688,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.62011, 35.70434]
+        "coordinates": [
+          139.62011,
+          35.70434
+        ]
       },
       "properties": {
         "id": 45,
-        "name": "荻窪 Ogikubo",
-        "alternate_names": ["荻窪", "ogikubo"],
+        "name": "Ogikubo (荻窪)",
+        "alternate_names": [
+          "荻窪",
+          "ogikubo"
+        ],
         "line": "TokyoMetroM",
-        "order": 24
+        "order": 24,
+        "display_name": "Ogikubo (荻窪)"
       },
       "id": 45
     },
@@ -3890,14 +5710,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.77567, 35.71169]
+        "coordinates": [
+          139.77567,
+          35.71169
+        ]
       },
       "properties": {
         "id": 191,
-        "name": "上野 Ueno",
-        "alternate_names": ["上野", "ueno"],
+        "name": "Ueno (上野)",
+        "alternate_names": [
+          "上野",
+          "ueno"
+        ],
         "line": "TokyoMetroG",
-        "order": 24
+        "order": 24,
+        "display_name": "Ueno (上野)"
       },
       "id": 191
     },
@@ -3905,14 +5732,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.64923, 35.741708]
+        "coordinates": [
+          139.64923,
+          35.741708
+        ]
       },
       "properties": {
         "id": 236,
-        "name": "豊島園 Toshimaen",
-        "alternate_names": ["豊島園", "toshimaen"],
+        "name": "Toshimaen (豊島園)",
+        "alternate_names": [
+          "豊島園",
+          "toshimaen"
+        ],
         "line": "ToeiSubwayE",
-        "order": 24
+        "order": 24,
+        "display_name": "Toshimaen (豊島園)"
       },
       "id": 236
     },
@@ -3920,14 +5754,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.635575, 35.699455]
+        "coordinates": [
+          139.635575,
+          35.699455
+        ]
       },
       "properties": {
         "id": 44,
-        "name": "南阿佐ケ谷 Minami-asagaya",
-        "alternate_names": ["南阿佐ケ谷", "minami asagaya"],
+        "name": "Minami-asagaya (南阿佐ケ谷)",
+        "alternate_names": [
+          "南阿佐ケ谷",
+          "minami asagaya"
+        ],
         "line": "TokyoMetroM",
-        "order": 23
+        "order": 23,
+        "display_name": "Minami-asagaya (南阿佐ケ谷)"
       },
       "id": 44
     },
@@ -3935,14 +5776,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.735711, 35.765306]
+        "coordinates": [
+          139.735711,
+          35.765306
+        ]
       },
       "properties": {
         "id": 102,
-        "name": "王子神谷 Oji-kamiya",
-        "alternate_names": ["王子神谷", "oji kamiya"],
+        "name": "Oji-kamiya (王子神谷)",
+        "alternate_names": [
+          "王子神谷",
+          "oji kamiya"
+        ],
         "line": "TokyoMetroN",
-        "order": 23
+        "order": 23,
+        "display_name": "Oji-kamiya (王子神谷)"
       },
       "id": 102
     },
@@ -3950,14 +5798,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.70057, 35.692163]
+        "coordinates": [
+          139.70057,
+          35.692163
+        ]
       },
       "properties": {
         "id": 3,
-        "name": "新宿 Shinjuku",
-        "alternate_names": ["新宿", "shinjuku"],
+        "name": "Shinjuku (新宿)",
+        "alternate_names": [
+          "新宿",
+          "shinjuku"
+        ],
         "line": "TokyoMetroM",
-        "order": 22
+        "order": 22,
+        "display_name": "Shinjuku (新宿)"
       },
       "id": 3
     },
@@ -3965,14 +5820,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.64851, 35.69786]
+        "coordinates": [
+          139.64851,
+          35.69786
+        ]
       },
       "properties": {
         "id": 43,
-        "name": "新高円寺 Shin-koenji",
-        "alternate_names": ["新高円寺", "shin koenji"],
+        "name": "Shin-koenji (新高円寺)",
+        "alternate_names": [
+          "新高円寺",
+          "shin koenji"
+        ],
         "line": "TokyoMetroM",
-        "order": 22
+        "order": 22,
+        "display_name": "Shin-koenji (新高円寺)"
       },
       "id": 43
     },
@@ -3980,14 +5842,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.658295, 35.697965]
+        "coordinates": [
+          139.658295,
+          35.697965
+        ]
       },
       "properties": {
         "id": 42,
-        "name": "東高円寺 Higashi-koenji",
-        "alternate_names": ["東高円寺", "higashi koenji"],
+        "name": "Higashi-koenji (東高円寺)",
+        "alternate_names": [
+          "東高円寺",
+          "higashi koenji"
+        ],
         "line": "TokyoMetroM",
-        "order": 21
+        "order": 21,
+        "display_name": "Higashi-koenji (東高円寺)"
       },
       "id": 42
     },
@@ -3995,14 +5864,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.705386, 35.678462]
+        "coordinates": [
+          139.705386,
+          35.678462
+        ]
       },
       "properties": {
         "id": 52,
-        "name": "北参道 Kita-sando",
-        "alternate_names": ["北参道", "kita sando"],
+        "name": "Kita-sando (北参道)",
+        "alternate_names": [
+          "北参道",
+          "kita sando"
+        ],
         "line": "TokyoMetroF",
-        "order": 21
+        "order": 21,
+        "display_name": "Kita-sando (北参道)"
       },
       "id": 52
     },
@@ -4010,14 +5886,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.784432, 35.720582]
+        "coordinates": [
+          139.784432,
+          35.720582
+        ]
       },
       "properties": {
         "id": 122,
-        "name": "入谷 Iriya",
-        "alternate_names": ["入谷", "iriya"],
+        "name": "Iriya (入谷)",
+        "alternate_names": [
+          "入谷",
+          "iriya"
+        ],
         "line": "TokyoMetroH",
-        "order": 21
+        "order": 21,
+        "display_name": "Iriya (入谷)"
       },
       "id": 122
     },
@@ -4025,14 +5908,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.66951, 35.697475]
+        "coordinates": [
+          139.66951,
+          35.697475
+        ]
       },
       "properties": {
         "id": 41,
-        "name": "新中野 Shin-nakano",
-        "alternate_names": ["新中野", "shin nakano"],
+        "name": "Shin-nakano (新中野)",
+        "alternate_names": [
+          "新中野",
+          "shin nakano"
+        ],
         "line": "TokyoMetroM",
-        "order": 20
+        "order": 20,
+        "display_name": "Shin-nakano (新中野)"
       },
       "id": 41
     },
@@ -4040,14 +5930,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.72395, 35.626893]
+        "coordinates": [
+          139.72395,
+          35.626893
+        ]
       },
       "properties": {
         "id": 298,
-        "name": "五反田 Gotanda",
-        "alternate_names": ["五反田", "gotanda"],
+        "name": "Gotanda (五反田)",
+        "alternate_names": [
+          "五反田",
+          "gotanda"
+        ],
         "line": "ToeiSubwayA",
-        "order": 20
+        "order": 20,
+        "display_name": "Gotanda (五反田)"
       },
       "id": 298
     },
@@ -4055,14 +5952,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.824908, 35.762187]
+        "coordinates": [
+          139.824908,
+          35.762187
+        ]
       },
       "properties": {
         "id": 67,
-        "name": "綾瀬 Ayase",
-        "alternate_names": ["綾瀬", "ayase"],
+        "name": "Ayase (綾瀬)",
+        "alternate_names": [
+          "綾瀬",
+          "ayase"
+        ],
         "line": "TokyoMetroC",
-        "order": 19
+        "order": 19,
+        "display_name": "Ayase (綾瀬)"
       },
       "id": 67
     },
@@ -4070,14 +5974,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.791106, 35.729324]
+        "coordinates": [
+          139.791106,
+          35.729324
+        ]
       },
       "properties": {
         "id": 121,
-        "name": "三ノ輪 Minowa",
-        "alternate_names": ["三ノ輪", "minowa"],
+        "name": "Minowa (三ノ輪)",
+        "alternate_names": [
+          "三ノ輪",
+          "minowa"
+        ],
         "line": "TokyoMetroH",
-        "order": 18
+        "order": 18,
+        "display_name": "Minowa (三ノ輪)"
       },
       "id": 121
     },
@@ -4085,14 +5996,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.795992, 35.655155]
+        "coordinates": [
+          139.795992,
+          35.655155
+        ]
       },
       "properties": {
         "id": 143,
-        "name": "豊洲 Toyosu",
-        "alternate_names": ["豊洲", "toyosu"],
+        "name": "Toyosu (豊洲)",
+        "alternate_names": [
+          "豊洲",
+          "toyosu"
+        ],
         "line": "TokyoMetroY",
-        "order": 18
+        "order": 18,
+        "display_name": "Toyosu (豊洲)"
       },
       "id": 143
     },
@@ -4100,14 +6018,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.668154, 35.690829]
+        "coordinates": [
+          139.668154,
+          35.690829
+        ]
       },
       "properties": {
         "id": 48,
-        "name": "中野富士見町 Nakano-fujimicho",
-        "alternate_names": ["中野富士見町", "nakano fujimicho"],
+        "name": "Nakano-fujimicho (中野富士見町)",
+        "alternate_names": [
+          "中野富士見町",
+          "nakano fujimicho"
+        ],
         "line": "TokyoMetroMb",
-        "order": 17
+        "order": 17,
+        "display_name": "Nakano-fujimicho (中野富士見町)"
       },
       "id": 48
     },
@@ -4115,14 +6040,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.897875, 35.693427]
+        "coordinates": [
+          139.897875,
+          35.693427
+        ]
       },
       "properties": {
         "id": 275,
-        "name": "瑞江 Mizue",
-        "alternate_names": ["瑞江", "mizue"],
+        "name": "Mizue (瑞江)",
+        "alternate_names": [
+          "瑞江",
+          "mizue"
+        ],
         "line": "ToeiSubwayS",
-        "order": 17
+        "order": 17,
+        "display_name": "Mizue (瑞江)"
       },
       "id": 275
     },
@@ -4130,14 +6062,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.782213, 35.711401]
+        "coordinates": [
+          139.782213,
+          35.711401
+        ]
       },
       "properties": {
         "id": 190,
-        "name": "稲荷町 Inaricho",
-        "alternate_names": ["稲荷町", "inaricho"],
+        "name": "Inaricho (稲荷町)",
+        "alternate_names": [
+          "稲荷町",
+          "inaricho"
+        ],
         "line": "TokyoMetroG",
-        "order": 14
+        "order": 14,
+        "display_name": "Inaricho (稲荷町)"
       },
       "id": 190
     },
@@ -4145,14 +6084,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.726032, 35.637814]
+        "coordinates": [
+          139.726032,
+          35.637814
+        ]
       },
       "properties": {
         "id": 208,
-        "name": "白金台 Shirokanedai",
-        "alternate_names": ["白金台", "shirokanedai"],
+        "name": "Shirokanedai (白金台)",
+        "alternate_names": [
+          "白金台",
+          "shirokanedai"
+        ],
         "line": "ToeiSubwayI",
-        "order": 14
+        "order": 14,
+        "display_name": "Shirokanedai (白金台)"
       },
       "id": 208
     },
@@ -4160,14 +6106,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.673977, 35.691704]
+        "coordinates": [
+          139.673977,
+          35.691704
+        ]
       },
       "properties": {
         "id": 47,
-        "name": "中野新橋 Nakano-Shimbashi",
-        "alternate_names": ["中野新橋", "nakano shimbashi"],
+        "name": "Nakano-Shimbashi (中野新橋)",
+        "alternate_names": [
+          "中野新橋",
+          "nakano shimbashi"
+        ],
         "line": "TokyoMetroMb",
-        "order": 13
+        "order": 13,
+        "display_name": "Nakano-Shimbashi (中野新橋)"
       },
       "id": 47
     },
@@ -4175,14 +6128,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.716335, 35.614416]
+        "coordinates": [
+          139.716335,
+          35.614416
+        ]
       },
       "properties": {
         "id": 297,
-        "name": "戸越 Togoshi",
-        "alternate_names": ["戸越", "togoshi"],
+        "name": "Togoshi (戸越)",
+        "alternate_names": [
+          "戸越",
+          "togoshi"
+        ],
         "line": "ToeiSubwayA",
-        "order": 13
+        "order": 13,
+        "display_name": "Togoshi (戸越)"
       },
       "id": 297
     },
@@ -4190,14 +6150,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.815767, 35.688709]
+        "coordinates": [
+          139.815767,
+          35.688709
+        ]
       },
       "properties": {
         "id": 88,
-        "name": "住吉 Sumiyoshi",
-        "alternate_names": ["住吉", "sumiyoshi"],
+        "name": "Sumiyoshi (住吉)",
+        "alternate_names": [
+          "住吉",
+          "sumiyoshi"
+        ],
         "line": "TokyoMetroZ",
-        "order": 12
+        "order": 12,
+        "display_name": "Sumiyoshi (住吉)"
       },
       "id": 88
     },
@@ -4205,14 +6172,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.685947, 35.710686]
+        "coordinates": [
+          139.685947,
+          35.710686
+        ]
       },
       "properties": {
         "id": 166,
-        "name": "落合 Ochiai",
-        "alternate_names": ["落合", "ochiai"],
+        "name": "Ochiai (落合)",
+        "alternate_names": [
+          "落合",
+          "ochiai"
+        ],
         "line": "TokyoMetroT",
-        "order": 12
+        "order": 12,
+        "display_name": "Ochiai (落合)"
       },
       "id": 166
     },
@@ -4220,14 +6194,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.7325, 35.778025]
+        "coordinates": [
+          139.7325,
+          35.778025
+        ]
       },
       "properties": {
         "id": 101,
-        "name": "志茂 Shimo",
-        "alternate_names": ["志茂", "shimo"],
+        "name": "Shimo (志茂)",
+        "alternate_names": [
+          "志茂",
+          "shimo"
+        ],
         "line": "TokyoMetroN",
-        "order": 11
+        "order": 11,
+        "display_name": "Shimo (志茂)"
       },
       "id": 101
     },
@@ -4235,14 +6216,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.640295, 35.7514]
+        "coordinates": [
+          139.640295,
+          35.7514
+        ]
       },
       "properties": {
         "id": 235,
-        "name": "練馬春日町 Nerima-kasugacho",
-        "alternate_names": ["練馬春日町", "nerima kasugacho"],
+        "name": "Nerima-kasugacho (練馬春日町)",
+        "alternate_names": [
+          "練馬春日町",
+          "nerima kasugacho"
+        ],
         "line": "ToeiSubwayE",
-        "order": 10
+        "order": 10,
+        "display_name": "Nerima-kasugacho (練馬春日町)"
       },
       "id": 235
     },
@@ -4250,14 +6238,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.713655, 35.605273]
+        "coordinates": [
+          139.713655,
+          35.605273
+        ]
       },
       "properties": {
         "id": 296,
-        "name": "中延 Nakanobu",
-        "alternate_names": ["中延", "nakanobu"],
+        "name": "Nakanobu (中延)",
+        "alternate_names": [
+          "中延",
+          "nakanobu"
+        ],
         "line": "ToeiSubwayA",
-        "order": 10
+        "order": 10,
+        "display_name": "Nakanobu (中延)"
       },
       "id": 296
     },
@@ -4265,14 +6260,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.798738, 35.732332]
+        "coordinates": [
+          139.798738,
+          35.732332
+        ]
       },
       "properties": {
         "id": 120,
-        "name": "南千住 Minami-senju",
-        "alternate_names": ["南千住", "minami senju"],
+        "name": "Minami-senju (南千住)",
+        "alternate_names": [
+          "南千住",
+          "minami senju"
+        ],
         "line": "TokyoMetroH",
-        "order": 9
+        "order": 9,
+        "display_name": "Minami-senju (南千住)"
       },
       "id": 120
     },
@@ -4280,14 +6282,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.790299, 35.709894]
+        "coordinates": [
+          139.790299,
+          35.709894
+        ]
       },
       "properties": {
         "id": 189,
-        "name": "田原町 Tawaramachi",
-        "alternate_names": ["田原町", "tawaramachi"],
+        "name": "Tawaramachi (田原町)",
+        "alternate_names": [
+          "田原町",
+          "tawaramachi"
+        ],
         "line": "TokyoMetroG",
-        "order": 9
+        "order": 9,
+        "display_name": "Tawaramachi (田原町)"
       },
       "id": 189
     },
@@ -4295,14 +6304,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.903824, 35.706002]
+        "coordinates": [
+          139.903824,
+          35.706002
+        ]
       },
       "properties": {
         "id": 274,
-        "name": "篠崎 Shinozaki",
-        "alternate_names": ["篠崎", "shinozaki"],
+        "name": "Shinozaki (篠崎)",
+        "alternate_names": [
+          "篠崎",
+          "shinozaki"
+        ],
         "line": "ToeiSubwayS",
-        "order": 9
+        "order": 9,
+        "display_name": "Shinozaki (篠崎)"
       },
       "id": 274
     },
@@ -4310,14 +6326,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.70525, 35.6682]
+        "coordinates": [
+          139.70525,
+          35.6682
+        ]
       },
       "properties": {
         "id": 51,
-        "name": "明治神宮前〈原宿〉 Meiji-jingumae<Harajuku>",
-        "alternate_names": ["明治神宮前", "原宿", "meiji jingumae", "harajuku"],
+        "name": "Meiji-jingumae (明治神宮前)",
+        "alternate_names": [
+          "明治神宮前",
+          "原宿",
+          "meiji jingumae",
+          "harajuku"
+        ],
         "line": "TokyoMetroF",
-        "order": 8
+        "order": 8,
+        "display_name": "Meiji-jingumae (明治神宮前)"
       },
       "id": 51
     },
@@ -4325,14 +6350,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.810342, 35.645787]
+        "coordinates": [
+          139.810342,
+          35.645787
+        ]
       },
       "properties": {
         "id": 142,
-        "name": "辰巳 Tatsumi",
-        "alternate_names": ["辰巳", "tatsumi"],
+        "name": "Tatsumi (辰巳)",
+        "alternate_names": [
+          "辰巳",
+          "tatsumi"
+        ],
         "line": "TokyoMetroY",
-        "order": 8
+        "order": 8,
+        "display_name": "Tatsumi (辰巳)"
       },
       "id": 142
     },
@@ -4340,14 +6372,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.692546, 35.694487]
+        "coordinates": [
+          139.692546,
+          35.694487
+        ]
       },
       "properties": {
         "id": 2,
-        "name": "西新宿 Nishi-shinjuku",
-        "alternate_names": ["西新宿", "nishi shinjuku"],
+        "name": "Nishi-shinjuku (西新宿)",
+        "alternate_names": [
+          "西新宿",
+          "nishi shinjuku"
+        ],
         "line": "TokyoMetroM",
-        "order": 7
+        "order": 7,
+        "display_name": "Nishi-shinjuku (西新宿)"
       },
       "id": 2
     },
@@ -4355,14 +6394,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.814993, 35.697443]
+        "coordinates": [
+          139.814993,
+          35.697443
+        ]
       },
       "properties": {
         "id": 87,
-        "name": "錦糸町 Kinshicho",
-        "alternate_names": ["錦糸町", "kinshicho"],
+        "name": "Kinshicho (錦糸町)",
+        "alternate_names": [
+          "錦糸町",
+          "kinshicho"
+        ],
         "line": "TokyoMetroZ",
-        "order": 7
+        "order": 7,
+        "display_name": "Kinshicho (錦糸町)"
       },
       "id": 87
     },
@@ -4370,14 +6416,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.711918, 35.596769]
+        "coordinates": [
+          139.711918,
+          35.596769
+        ]
       },
       "properties": {
         "id": 295,
-        "name": "馬込 Magome",
-        "alternate_names": ["馬込", "magome"],
+        "name": "Magome (馬込)",
+        "alternate_names": [
+          "馬込",
+          "magome"
+        ],
         "line": "ToeiSubwayA",
-        "order": 7
+        "order": 7,
+        "display_name": "Magome (馬込)"
       },
       "id": 295
     }
