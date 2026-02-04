@@ -17,25 +17,21 @@ import config from './config'
 import data from './data/features.json'
 import routesData from './data/routes.json'
 
-const lightRailGeojson = JSON.parse(
-  fs.readFileSync(
-    path.join(
-      process.cwd(),
-      'src/app/(game)/north-america/usa/ny/data/NJTransit_Light_Rail.geojson',
-    ),
-    'utf8',
-  ),
-) as FeatureCollection
+const readGeojsonIfExists = (relativePath: string): FeatureCollection => {
+  const fullPath = path.join(process.cwd(), relativePath)
+  if (!fs.existsSync(fullPath)) {
+    return { type: 'FeatureCollection', features: [] }
+  }
+  return JSON.parse(fs.readFileSync(fullPath, 'utf8')) as FeatureCollection
+}
 
-const pascackValleyGeojson = JSON.parse(
-  fs.readFileSync(
-    path.join(
-      process.cwd(),
-      'src/app/(game)/north-america/usa/ny/data/pascackvalley.geojson',
-    ),
-    'utf8',
-  ),
-) as FeatureCollection
+const lightRailGeojson = readGeojsonIfExists(
+  'src/app/(game)/north-america/usa/ny/data/NJTransit_Light_Rail.geojson',
+)
+
+const pascackValleyGeojson = readGeojsonIfExists(
+  'src/app/(game)/north-america/usa/ny/data/pascackvalley.geojson',
+)
 
 const LINE_GEOMETRY_OVERRIDES: Record<string, string> = {
   NewYorkSubway7: 'NewYorkSubway7X',
