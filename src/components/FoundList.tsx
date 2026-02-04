@@ -454,6 +454,7 @@ const FoundList = ({
               onStationFocus={onStationFocus}
               activeStationId={activeStationId}
               disabled={disabled}
+              iconBasePath={iconBasePath}
             />
           ))
         ) : (
@@ -478,6 +479,7 @@ const GroupedLine = memo(
     onStationFocus,
     activeStationId,
     disabled,
+    iconBasePath,
   }: {
     features: DataFeature[]
     zoomToFeature: (id: number) => void
@@ -487,6 +489,7 @@ const GroupedLine = memo(
     onStationFocus?: (id: number) => void
     activeStationId: number | null
     disabled?: boolean
+    iconBasePath?: string | null
   } ) => {
     const { LINES, CITY_NAME, LINE_GROUPS = [] } = useConfig()
     const { resolvedTheme } = useTheme()
