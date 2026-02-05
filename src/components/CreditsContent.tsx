@@ -8,7 +8,7 @@ import useTranslation from '@/hooks/useTranslation'
 const socialLinks = [
   {
     label: 'GitHub',
-    href: 'https://github.com/norman-mei',
+    href: 'https://github.com/norman-mei/metro-memory',
     Icon: GitHubIcon,
   },
 ]

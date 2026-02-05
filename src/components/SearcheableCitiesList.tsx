@@ -3371,7 +3371,9 @@ const EmptyState = () => (
   <div className="w-full rounded bg-[var(--accent-700)] px-12 py-6 text-white">
     <h3 className="mb-2 text-lg font-medium">No results!</h3>
     <p>
-      Want to play in your city? Shoot me a message on 𝕏 <a href="https://x.com/_benjamintd">@_benjamintd</a>
+      <a href="https://github.com/norman-mei/metro-memory" className="underline">
+        Want to play in your city? Open a pull request on Github.
+      </a>
     </p>
   </div>
 )
@@ -3387,7 +3389,7 @@ const SuggestCity = () => (
     Want the game in your city?{' '}
     <a
       className="font-medium text-[var(--accent-600)] underline decoration-[var(--accent-300)] underline-offset-4 transition hover:decoration-[var(--accent-400)] dark:text-[var(--accent-300)] dark:decoration-[var(--accent-400)] dark:hover:decoration-[var(--accent-300)]"
-      href="https://github.com/norman-mei/metro-memory/pulls"
+      href="https://github.com/norman-mei/metro-memory"
       target="_blank"
       rel="noreferrer"
     >
