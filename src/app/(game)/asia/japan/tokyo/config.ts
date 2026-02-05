@@ -108,11 +108,31 @@ export const LINES: {
 
 export const LINE_GROUPS: LineGroup[] = [
   {
-    title: 'Lines',
+    title: 'Tokyo Metro',
     items: [
       {
         type: 'lines',
-        lines: ['TokyoMetroM', 'TokyoMetroMb', 'TokyoMetroF', 'TokyoMetroC', 'TokyoMetroZ', 'TokyoMetroN', 'TokyoMetroH', 'TokyoMetroY', 'TokyoMetroT', 'TokyoMetroG', 'ToeiSubwayI', 'ToeiSubwayE', 'ToeiSubwayS', 'ToeiSubwayA'],
+        lines: [
+          'TokyoMetroM',
+          'TokyoMetroMb',
+          'TokyoMetroF',
+          'TokyoMetroC',
+          'TokyoMetroZ',
+          'TokyoMetroN',
+          'TokyoMetroH',
+          'TokyoMetroY',
+          'TokyoMetroT',
+          'TokyoMetroG',
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Toei Subway',
+    items: [
+      {
+        type: 'lines',
+        lines: ['ToeiSubwayI', 'ToeiSubwayE', 'ToeiSubwayS', 'ToeiSubwayA'],
       },
     ],
   },

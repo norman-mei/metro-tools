@@ -1,0 +1,65 @@
+{
+  "Karasuma": {
+    "name": "烏丸線 Karasuma Line",
+    "color": "#38b371",
+    "backgroundColor": "#1C5A39",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#38b371",
+    "order": 0,
+    "icon": "asia/japan/kyoto/karasuma.png"
+  },
+  "Tozai": {
+    "name": "東西線 Tōzai Line",
+    "color": "#ff4200",
+    "backgroundColor": "#802100",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#ff4200",
+    "order": 1,
+    "icon": "asia/japan/kyoto/tozai.png"
+  },
+  "Arashiyama": {
+    "name": "嵐山本線 Arashiyama Line",
+    "color": "#a23534",
+    "backgroundColor": "#511B1A",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#a23534",
+    "order": 2,
+    "icon": "asia/japan/kyoto/arashiyama.png"
+  },
+  "Kitano": {
+    "name": "北野線 Kitano Line",
+    "color": "#436783",
+    "backgroundColor": "#223341",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#436783",
+    "order": 3,
+    "icon": "asia/japan/kyoto/kitano.png"
+  },
+  "Eizan Cable": {
+    "name": "鋼索線 Eizan Cable",
+    "color": "#008080",
+    "backgroundColor": "#004040",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#008080",
+    "order": 4,
+    "icon": "asia/japan/kyoto/cable.png"
+  },
+  "Eizan Ropeway": {
+    "name": "Eizan Ropeway",
+    "color": "#CD3ACE",
+    "backgroundColor": "#691A6A",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#CD3ACE",
+    "order": 5,
+    "icon": "asia/japan/kyoto/ropeway.png"
+  },
+  "Hieizan Railway": {
+    "name": "比叡山鉄道 Hieizan Railway",
+    "color": "#550000",
+    "backgroundColor": "#2A0000",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#550000",
+    "order": 6,
+    "icon": "asia/japan/kyoto/hieizan.png"
+  }
+}

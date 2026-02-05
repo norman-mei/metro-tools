@@ -111,6 +111,7 @@ export default function CitiesGlobe({
   const { resolvedTheme } = useTheme()
   const recommendedSet = useMemo(() => new Set(recommendedSlugs), [recommendedSlugs])
   const lastUserLocationRef = useRef<string | null>(null)
+  const userMarkerRef = useRef<mapboxgl.Marker | null>(null)
   const [activePopup, setActivePopup] = useState<{
     lngLat: [number, number]
     city: ICity
@@ -407,82 +408,35 @@ export default function CitiesGlobe({
     const map = mapRef.current
     if (!map || !mapReady) return
 
-    const ensureLocationLayer = () => {
-      if (!userLocation) {
-        if (map.getLayer('user-location')) {
-          map.removeLayer('user-location')
-        }
-        if (map.getLayer('user-location-glow')) {
-          map.removeLayer('user-location-glow')
-        }
-        if (map.getSource('user-location')) {
-          map.removeSource('user-location')
-        }
-        return
+    if (!userLocation) {
+      if (userMarkerRef.current) {
+        userMarkerRef.current.remove()
+        userMarkerRef.current = null
       }
-
-      const data = {
-        type: 'FeatureCollection' as const,
-        features: [
-          {
-            type: 'Feature' as const,
-            geometry: {
-              type: 'Point' as const,
-              coordinates: userLocation,
-            },
-            properties: {},
-          },
-        ],
-      }
-
-      if (!map.getSource('user-location')) {
-        map.addSource('user-location', {
-          type: 'geojson',
-          data,
-        })
-      } else {
-        const source = map.getSource('user-location') as mapboxgl.GeoJSONSource
-        source.setData(data)
-      }
-
-      if (!map.getLayer('user-location-glow')) {
-        map.addLayer({
-          id: 'user-location-glow',
-          type: 'circle',
-          source: 'user-location',
-          paint: {
-            'circle-radius': 16,
-            'circle-color': '#3b82f6',
-            'circle-opacity': 0.35,
-            'circle-blur': 0.8,
-          },
-        })
-      }
-
-      if (!map.getLayer('user-location')) {
-        map.addLayer({
-          id: 'user-location',
-          type: 'circle',
-          source: 'user-location',
-          paint: {
-            'circle-radius': 6,
-            'circle-color': '#3b82f6',
-            'circle-stroke-color': '#ffffff',
-            'circle-stroke-width': 2,
-          },
-        })
-      }
+      return
     }
 
-    if (map.isStyleLoaded()) {
-      ensureLocationLayer()
+    const createMarkerElement = () => {
+      const el = document.createElement('div')
+      el.style.width = '12px'
+      el.style.height = '12px'
+      el.style.borderRadius = '999px'
+      el.style.background = '#3b82f6'
+      el.style.border = '2px solid #ffffff'
+      el.style.boxShadow = '0 0 0 8px rgba(59, 130, 246, 0.35)'
+      el.style.pointerEvents = 'none'
+      return el
+    }
+
+    if (!userMarkerRef.current) {
+      userMarkerRef.current = new mapboxgl.Marker({
+        element: createMarkerElement(),
+        anchor: 'center',
+      })
+        .setLngLat(userLocation)
+        .addTo(map)
     } else {
-      map.once('style.load', ensureLocationLayer)
-    }
-
-    map.on('style.load', ensureLocationLayer)
-    return () => {
-      map.off('style.load', ensureLocationLayer)
+      userMarkerRef.current.setLngLat(userLocation)
     }
   }, [mapReady, userLocation])
 

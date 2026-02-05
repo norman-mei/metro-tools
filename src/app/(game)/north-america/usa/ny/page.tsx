@@ -11,6 +11,7 @@ import type {
 } from 'geojson'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 import path from 'path'
 import 'react-circular-progressbar/dist/styles.css'
 import config from './config'
@@ -57,12 +58,6 @@ const SIR_EXPRESS_BASE_MAP: Record<string, string> = {
   NewYorkSubwaySIExpress: 'NewYorkSubwaySI',
 }
 const PASCACK_LINE = 'NJTPascackValley'
-const OVERRIDE_LINES = new Set([
-  ...LIGHT_RAIL_LINES,
-  ...Object.keys(SIR_EXPRESS_BASE_MAP),
-  ...Object.keys(LINE_GEOMETRY_OVERRIDES),
-  PASCACK_LINE,
-])
 
 const font = Inter({
   subsets: ['latin'],
@@ -112,72 +107,74 @@ filteredRoutes.features.forEach((feature) => {
   }
 })
 
-const lightRailOverrides: RoutesFeatureCollection['features'] =
-  lightRailGeojson.features.flatMap((feature) => {
-    const getLatExtents = (geom: Geometry) => {
-      if (geom.type !== 'LineString' && geom.type !== 'MultiLineString') {
-        return { minLat: 0, maxLat: 0 }
+const hasLightRailOverrides = lightRailGeojson.features.length > 0
+const lightRailOverrides: RoutesFeatureCollection['features'] = hasLightRailOverrides
+  ? lightRailGeojson.features.flatMap((feature) => {
+      const getLatExtents = (geom: Geometry) => {
+        if (geom.type !== 'LineString' && geom.type !== 'MultiLineString') {
+          return { minLat: 0, maxLat: 0 }
+        }
+
+        const coords =
+          geom.type === 'MultiLineString'
+            ? geom.coordinates.flat()
+            : geom.coordinates
+        const lats = coords.map(([, lat]) => lat)
+        return {
+          minLat: Math.min(...lats),
+          maxLat: Math.max(...lats),
+        }
       }
 
-      const coords =
-        geom.type === 'MultiLineString'
-          ? geom.coordinates.flat()
-          : geom.coordinates
-      const lats = coords.map(([, lat]) => lat)
-      return {
-        minLat: Math.min(...lats),
-        maxLat: Math.max(...lats),
+      const chooseNewarkLineCodes = () => {
+        const { maxLat } = getLatExtents(feature.geometry)
+        return maxLat > 40.76 ? ['NJTLRNewark'] : ['NJTLRNewarkBroad']
       }
-    }
 
-    const chooseNewarkLineCodes = () => {
-      const { maxLat } = getLatExtents(feature.geometry)
-      return maxLat > 40.76 ? ['NJTLRNewark'] : ['NJTLRNewarkBroad']
-    }
-
-    const chooseHBLRLineCodes = () => {
-      const { minLat } = getLatExtents(feature.geometry)
-      if (minLat < 40.7) {
-        return ['NJTLR8thStHoboken', 'NJTLRBayonneFlyer']
+      const chooseHBLRLineCodes = () => {
+        const { minLat } = getLatExtents(feature.geometry)
+        if (minLat < 40.7) {
+          return ['NJTLR8thStHoboken', 'NJTLRBayonneFlyer']
+        }
+        if (minLat < 40.73) {
+          return ['NJTLRWestSideTonnelle']
+        }
+        return ['NJTLRHobokenTonnelle']
       }
-      if (minLat < 40.73) {
-        return ['NJTLRWestSideTonnelle']
+
+      const featureLineCode = (feature.properties as { LINE_CODE?: string })?.LINE_CODE
+      const lineCodes =
+        featureLineCode === 'Newark Light Rail'
+          ? chooseNewarkLineCodes()
+          : featureLineCode === 'HB'
+            ? chooseHBLRLineCodes()
+          : featureLineCode ? LIGHT_RAIL_LINE_MAP[featureLineCode] : undefined
+
+      if (!lineCodes?.length) {
+        return []
       }
-      return ['NJTLRHobokenTonnelle']
-    }
 
-    const featureLineCode = (feature.properties as { LINE_CODE?: string })?.LINE_CODE
-    const lineCodes =
-      featureLineCode === 'Newark Light Rail'
-        ? chooseNewarkLineCodes()
-        : featureLineCode === 'HB'
-          ? chooseHBLRLineCodes()
-        : featureLineCode ? LIGHT_RAIL_LINE_MAP[featureLineCode] : undefined
+      return lineCodes.map((lineId) => {
+        const baseProps = baseRoutePropsByLine.get(lineId) || {}
+        const lineMeta = config.LINES[lineId]
 
-    if (!lineCodes?.length) {
-      return []
-    }
-
-    return lineCodes.map((lineId) => {
-      const baseProps = baseRoutePropsByLine.get(lineId) || {}
-      const lineMeta = config.LINES[lineId]
-
-      return {
-        type: 'Feature',
-        geometry: feature.geometry as LineString | MultiLineString,
-        properties: {
-          ...baseProps,
-          line: lineId,
-          color: (baseProps as { color?: string }).color ?? lineMeta?.color ?? '#1d2835',
-          name: (baseProps as { name?: string }).name ?? lineMeta?.name ?? lineId,
-          order:
-            (baseProps as { order?: number }).order ??
-            lineMeta?.order ??
-            0,
-        },
-      }
+        return {
+          type: 'Feature',
+          geometry: feature.geometry as LineString | MultiLineString,
+          properties: {
+            ...baseProps,
+            line: lineId,
+            color: (baseProps as { color?: string }).color ?? lineMeta?.color ?? '#1d2835',
+            name: (baseProps as { name?: string }).name ?? lineMeta?.name ?? lineId,
+            order:
+              (baseProps as { order?: number }).order ??
+              lineMeta?.order ??
+              0,
+          },
+        }
+      })
     })
-  })
+  : []
 
 const sirExpressOverrides: RoutesFeatureCollection['features'] =
   Object.entries(SIR_EXPRESS_BASE_MAP).flatMap(([expressLine, baseLine]) => {
@@ -240,30 +237,39 @@ const geometryOverrides: RoutesFeatureCollection['features'] = Object.entries(
   ]
 })
 
-const pascackOverrides: RoutesFeatureCollection['features'] =
-  pascackValleyGeojson.features.map((feature) => {
-    const baseProps = baseRoutePropsByLine.get(PASCACK_LINE) || {}
-    const lineMeta = config.LINES[PASCACK_LINE]
+const hasPascackOverride = pascackValleyGeojson.features.length > 0
+const pascackOverrides: RoutesFeatureCollection['features'] = hasPascackOverride
+  ? pascackValleyGeojson.features.map((feature) => {
+      const baseProps = baseRoutePropsByLine.get(PASCACK_LINE) || {}
+      const lineMeta = config.LINES[PASCACK_LINE]
 
-    return {
-      type: 'Feature',
-      geometry: feature.geometry as LineString | MultiLineString,
-      properties: {
-        ...baseProps,
-        line: PASCACK_LINE,
-        color:
-          (baseProps as { color?: string }).color ??
-          lineMeta?.color ??
-          '#1d2835',
-        name:
-          (baseProps as { name?: string }).name ??
-          lineMeta?.name ??
-          PASCACK_LINE,
-        order:
-          (baseProps as { order?: number }).order ?? lineMeta?.order ?? 0,
-      },
-    }
-  })
+      return {
+        type: 'Feature',
+        geometry: feature.geometry as LineString | MultiLineString,
+        properties: {
+          ...baseProps,
+          line: PASCACK_LINE,
+          color:
+            (baseProps as { color?: string }).color ??
+            lineMeta?.color ??
+            '#1d2835',
+          name:
+            (baseProps as { name?: string }).name ??
+            lineMeta?.name ??
+            PASCACK_LINE,
+          order:
+            (baseProps as { order?: number }).order ?? lineMeta?.order ?? 0,
+        },
+      }
+    })
+  : []
+
+const OVERRIDE_LINES = new Set([
+  ...(hasLightRailOverrides ? Array.from(LIGHT_RAIL_LINES) : []),
+  ...Object.keys(SIR_EXPRESS_BASE_MAP),
+  ...Object.keys(LINE_GEOMETRY_OVERRIDES),
+  ...(hasPascackOverride ? [PASCACK_LINE] : []),
+])
 
 const routes = {
   ...filteredRoutes,
@@ -284,6 +290,12 @@ export default function NY() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>
+        <div className="px-4 pt-4 text-sm text-slate-600">
+          Looking for commuter rail?{' '}
+          <Link className="font-semibold text-slate-900 underline" href="/north-america/usa/ny/regional-rail">
+            Go to Regional Rail
+          </Link>
+        </div>
         <GamePage fc={fc} routes={routes} />
       </Main>
     </Provider>

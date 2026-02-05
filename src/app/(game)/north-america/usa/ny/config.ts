@@ -11,11 +11,13 @@ export const METADATA: Metadata = {
     icon: '/api/city-icon/ny',
     apple: '/api/city-icon/ny',
   },
-  title: 'New York City Subway Memory Game',
-  description: 'How many of the NY subway stations can you name from memory?',
+  title: 'New York Metro Rapid Transit Memory',
+  description:
+    'How many New York metro rapid transit stations can you name from memory?',
   openGraph: {
-    title: 'New York City Subway Memory Game',
-    description: 'How many of the NY subway stations can you name from memory?',
+    title: 'New York Metro Rapid Transit Memory',
+    description:
+      'How many New York metro rapid transit stations can you name from memory?',
     type: 'website',
     locale: 'en_US',
     url: 'https://metro-memory.com/north-america/usa/ny',
@@ -106,67 +108,6 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [{ type: 'separator' }],
   },
   {
-    title: 'Long Island Rail Road (LIRR)',
-    items: [
-      {
-        type: 'lines',
-        title: 'Electric',
-        lines: [
-          'LIRRBabylon',
-          'LIRRBelmont',
-          'LIRRAtlantic',
-          'LIRRFarRockaway',
-          'LIRRHempstead',
-          'LIRRLongBeach',
-          'LIRRPortWashington',
-          'LIRRRonkonkoma',
-          'LIRRWestHempstead',
-        ],
-      },
-      {
-        type: 'lines',
-        title: 'Diesel',
-        lines: [
-          'LIRRGreenport',
-          'LIRRMontauk',
-          'LIRROysterBay',
-          'LIRRPortJefferson',
-        ],
-      },
-    ],
-  },
-  {
-    items: [{ type: 'separator' }],
-  },
-  {
-    title: 'Metro-North Railroad (MNR)',
-    items: [
-      {
-        type: 'lines',
-        title: 'East of Hudson – Hudson & Harlem',
-        lines: ['MNRRHudson', 'MNRRHarlem'],
-      },
-      {
-        type: 'lines',
-        title: 'East of Hudson – New Haven',
-        lines: [
-          'MNRRNewHaven',
-          'MNRRNewCanaan',
-          'MNRRDanbury',
-          'MNRRWaterbury',
-        ],
-      },
-      {
-        type: 'lines',
-        title: 'West of Hudson',
-        lines: ['NJTPascackValley', 'NJTPortJervis'],
-      },
-    ],
-  },
-  {
-    items: [{ type: 'separator' }],
-  },
-  {
     title: 'Roosevelt Island Operating Corporation (RIOC)',
     items: [
       {
@@ -211,40 +152,6 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [{ type: 'separator' }],
   },
   {
-    title: 'New Jersey Transit Rail (NJTR)',
-    items: [
-      {
-        type: 'lines',
-        title: 'Newark Division',
-        lines: [
-          'NJTNorthEastCorridor',
-          'NJTPrinceton',
-          'NJTNorthJerseyCoast',
-          'NJTRaritanValley',
-          'NJTAtlanticCity',
-        ],
-      },
-      {
-        type: 'lines',
-        title: 'Hoboken Division',
-        lines: [
-          'NJTMainLine',
-          'NJTBergenCounty',
-          'NJTPascackValley',
-          'NJTPortJervis',
-          'NJTMeadowlands',
-          'NJTMontclairBoonton',
-          'NJTMorrisEssex',
-          'NJTGladstone',
-          'NJTLackawannaCutOff',
-        ],
-      },
-    ],
-  },
-  {
-    items: [{ type: 'separator' }],
-  },
-  {
     title: 'New Jersey Transit Light Rail (NJTLR)',
     items: [
       {
@@ -271,18 +178,6 @@ export const LINE_GROUPS: LineGroup[] = [
         type: 'lines',
         title: 'Glassboro Camden Line',
         lines: ['NJTLRGlassboroCamden'],
-      },
-    ],
-  },
-  {
-    items: [{ type: 'separator' }],
-  },
-  {
-    title: 'CTrail',
-    items: [
-      {
-        type: 'lines',
-        lines: ['CTRailShoreLineEast', 'CTRailHartfordLine'],
       },
     ],
   },

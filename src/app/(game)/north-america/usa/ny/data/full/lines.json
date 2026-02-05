@@ -1,0 +1,666 @@
+{
+  "NewYorkSubway1": {
+    "name": "1",
+    "color": "#EE352E",
+    "backgroundColor": "#830F0B",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "north-america/usa/ny/NewYorkSubway1.svg"
+  },
+  "NewYorkSubway2": {
+    "name": "2",
+    "color": "#EE352E",
+    "backgroundColor": "#830F0B",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "north-america/usa/ny/NewYorkSubway2.svg"
+  },
+  "NewYorkSubway3": {
+    "name": "3",
+    "color": "#EE352E",
+    "backgroundColor": "#830F0B",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "north-america/usa/ny/NewYorkSubway3.svg"
+  },
+  "NewYorkSubway4": {
+    "name": "4",
+    "color": "#00933C",
+    "backgroundColor": "#004A1E",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "north-america/usa/ny/NewYorkSubway4.svg"
+  },
+  "NewYorkSubway5": {
+    "name": "5",
+    "color": "#00933C",
+    "backgroundColor": "#004A1E",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "north-america/usa/ny/NewYorkSubway5.svg"
+  },
+  "NewYorkSubway6": {
+    "name": "6",
+    "color": "#00A65C",
+    "backgroundColor": "#00532E",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "north-america/usa/ny/NewYorkSubway6.svg"
+  },
+  "NewYorkSubway6X": {
+    "name": "<6>",
+    "color": "#00A65C",
+    "backgroundColor": "#00532E",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "north-america/usa/ny/NewYorkSubway6X.svg"
+  },
+  "NewYorkSubway7": {
+    "name": "7",
+    "color": "#B933AD",
+    "backgroundColor": "#5C1A56",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "north-america/usa/ny/NewYorkSubway7.svg"
+  },
+  "NewYorkSubway7X": {
+    "name": "<7>",
+    "color": "#B933AD",
+    "backgroundColor": "#5C1A56",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "north-america/usa/ny/NewYorkSubway7X.svg"
+  },
+  "NewYorkSubwayA": {
+    "name": "A",
+    "color": "#2850AD",
+    "backgroundColor": "#142857",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "north-america/usa/ny/NewYorkSubwayA.svg"
+  },
+  "NewYorkSubwayC": {
+    "name": "C",
+    "color": "#2850AD",
+    "backgroundColor": "#142857",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "north-america/usa/ny/NewYorkSubwayC.svg"
+  },
+  "NewYorkSubwayE": {
+    "name": "E",
+    "color": "#2850AD",
+    "backgroundColor": "#142857",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "north-america/usa/ny/NewYorkSubwayE.svg"
+  },
+  "NewYorkSubwayB": {
+    "name": "B",
+    "color": "#FF6319",
+    "backgroundColor": "#8C2D00",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "north-america/usa/ny/NewYorkSubwayB.svg"
+  },
+  "NewYorkSubwayD": {
+    "name": "D",
+    "color": "#FF6319",
+    "backgroundColor": "#8C2D00",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "north-america/usa/ny/NewYorkSubwayD.svg"
+  },
+  "NewYorkSubwayF": {
+    "name": "F",
+    "color": "#FF6319",
+    "backgroundColor": "#8C2D00",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "north-america/usa/ny/NewYorkSubwayF.svg"
+  },
+  "NewYorkSubwayFX": {
+    "name": "<F>",
+    "color": "#FF6319",
+    "backgroundColor": "#8C2D00",
+    "textColor": "#FFFFFF",
+    "order": 15,
+    "icon": "north-america/usa/ny/NewYorkSubwayFX.svg"
+  },
+  "NewYorkSubwayM": {
+    "name": "M",
+    "color": "#FF6319",
+    "backgroundColor": "#8C2D00",
+    "textColor": "#FFFFFF",
+    "order": 19,
+    "icon": "north-america/usa/ny/NewYorkSubwayM.svg"
+  },
+  "NewYorkSubwayG": {
+    "name": "G",
+    "color": "#6CBE45",
+    "backgroundColor": "#366022",
+    "textColor": "#FFFFFF",
+    "order": 16,
+    "icon": "north-america/usa/ny/NewYorkSubwayG.svg"
+  },
+  "NewYorkSubwayJ": {
+    "name": "J",
+    "color": "#996633",
+    "backgroundColor": "#4D3319",
+    "textColor": "#FFFFFF",
+    "order": 17,
+    "icon": "north-america/usa/ny/NewYorkSubwayJ.svg"
+  },
+  "NewYorkSubwayZ": {
+    "name": "Z",
+    "color": "#996633",
+    "backgroundColor": "#4D3319",
+    "textColor": "#FFFFFF",
+    "order": 24,
+    "icon": "north-america/usa/ny/NewYorkSubwayZ.svg"
+  },
+  "NewYorkSubwayL": {
+    "name": "L",
+    "color": "#A7A9AC",
+    "backgroundColor": "#525457",
+    "textColor": "#FFFFFF",
+    "order": 18,
+    "icon": "north-america/usa/ny/NewYorkSubwayL.svg"
+  },
+  "NewYorkSubwayN": {
+    "name": "N",
+    "color": "#FCCC0A",
+    "backgroundColor": "#816802",
+    "textColor": "#FFFFFF",
+    "order": 20,
+    "icon": "north-america/usa/ny/NewYorkSubwayN.svg"
+  },
+  "NewYorkSubwayQ": {
+    "name": "Q",
+    "color": "#FCCC0A",
+    "backgroundColor": "#816802",
+    "textColor": "#FFFFFF",
+    "order": 21,
+    "icon": "north-america/usa/ny/NewYorkSubwayQ.svg"
+  },
+  "NewYorkSubwayT": {
+    "name": "T",
+    "color": "#00AFD1",
+    "backgroundColor": "#00728A",
+    "textColor": "#FFFFFF",
+    "order": 29,
+    "icon": "north-america/usa/ny/NewYorkSubwayT.svg"
+  },
+  "NewYorkSubwayR": {
+    "name": "R",
+    "color": "#FCCC0A",
+    "backgroundColor": "#816802",
+    "textColor": "#FFFFFF",
+    "order": 22,
+    "icon": "north-america/usa/ny/NewYorkSubwayR.svg"
+  },
+  "NewYorkSubwayW": {
+    "name": "W",
+    "color": "#FCCC0A",
+    "backgroundColor": "#816802",
+    "textColor": "#FFFFFF",
+    "order": 23,
+    "icon": "north-america/usa/ny/NewYorkSubwayW.svg"
+  },
+  "NewYorkSubwaySI": {
+    "name": "SIR Local",
+    "color": "#006BB6",
+    "backgroundColor": "#00355B",
+    "textColor": "#FFFFFF",
+    "order": 25,
+    "icon": "north-america/usa/ny/NewYorkSubwaySI.svg"
+  },
+  "NewYorkSubwaySIExpress": {
+    "name": "SIR Express",
+    "color": "#D9241B",
+    "backgroundColor": "#77130E",
+    "textColor": "#FFFFFF",
+    "order": 26,
+    "icon": "north-america/usa/ny/NewYorkSubwaySIExpress.svg"
+  },
+  "NewYorkSubwayGS": {
+    "name": "42 St Shuttle",
+    "color": "#6D6E71",
+    "backgroundColor": "#373739",
+    "textColor": "#FFFFFF",
+    "order": 28,
+    "icon": "north-america/usa/ny/NewYorkSubwayGS.svg"
+  },
+  "NewYorkSubwayFS": {
+    "name": "Franklin Av Shuttle",
+    "color": "#6D6E71",
+    "backgroundColor": "#373739",
+    "textColor": "#FFFFFF",
+    "order": 27,
+    "icon": "north-america/usa/ny/NewYorkSubwayFS.svg"
+  },
+  "NewYorkSubwayPATHHob33": {
+    "name": "HOB-33",
+    "color": "#0082C6",
+    "backgroundColor": "#0442A0",
+    "textColor": "#000000",
+    "order": 30,
+    "icon": "north-america/usa/ny/NewYorkSubwayPATHHob33.png"
+  },
+  "NewYorkSubwayPATHHobwtc": {
+    "name": "HOB-WTC",
+    "color": "#65c100",
+    "backgroundColor": "#336100",
+    "textColor": "#000000",
+    "order": 31,
+    "icon": "north-america/usa/ny/NewYorkSubwayPATHHobwtc.png"
+  },
+  "NewYorkSubwayPATHJsq33": {
+    "name": "JSQ-33",
+    "color": "#ff9900",
+    "backgroundColor": "#804D00",
+    "textColor": "#000000",
+    "order": 32,
+    "icon": "north-america/usa/ny/NewYorkSubwayPATHJsq33.png"
+  },
+  "NewYorkSubwayPATHNwkwtc": {
+    "name": "NWK-WTC",
+    "color": "#d93a30",
+    "backgroundColor": "#701A15",
+    "textColor": "#ffffff",
+    "order": 34,
+    "icon": "north-america/usa/ny/NewYorkSubwayPATHNwkwtc.png"
+  },
+  "LIRRBabylon": {
+    "name": "LIRR Babylon",
+    "color": "#36943F",
+    "backgroundColor": "#1D5122",
+    "textColor": "#FFFFFF",
+    "order": 35,
+    "icon": "north-america/usa/ny/LIRRBabylon.png"
+  },
+  "LIRRBelmont": {
+    "name": "Belmont Park",
+    "color": "#60269E",
+    "backgroundColor": "#341456",
+    "textColor": "#FFFFFF",
+    "order": 36,
+    "icon": "north-america/usa/ny/LIRRBelmont.png"
+  },
+  "LIRRAtlantic": {
+    "name": "LIRR Atlantic",
+    "color": "#999999",
+    "backgroundColor": "#999999",
+    "textColor": "#FFFFFF",
+    "order": 37.5,
+    "icon": "north-america/usa/ny/LIRRAtlantic.png"
+  },
+  "LIRRFarRockaway": {
+    "name": "LIRR Far Rockaway",
+    "color": "#8C5F47",
+    "backgroundColor": "#4D3427",
+    "textColor": "#FFFFFF",
+    "order": 38,
+    "icon": "north-america/usa/ny/LIRRFarRockaway.png"
+  },
+  "LIRRGreenport": {
+    "name": "LIRR Greenport",
+    "color": "#A626AA",
+    "backgroundColor": "#5B145D",
+    "textColor": "#FFFFFF",
+    "order": 39,
+    "icon": "north-america/usa/ny/LIRRGreenport.png"
+  },
+  "LIRRHempstead": {
+    "name": "LIRR Hempstead",
+    "color": "#D18C36",
+    "backgroundColor": "#724D1D",
+    "textColor": "#FFFFFF",
+    "order": 40,
+    "icon": "north-america/usa/ny/LIRRHempstead.png"
+  },
+  "LIRRLongBeach": {
+    "name": "LIRR Long Beach",
+    "color": "#FF6E49",
+    "backgroundColor": "#8C3C28",
+    "textColor": "#FFFFFF",
+    "order": 41,
+    "icon": "north-america/usa/ny/LIRRLongBeach.png"
+  },
+  "LIRRMontauk": {
+    "name": "LIRR Montauk",
+    "color": "#00B2A9",
+    "backgroundColor": "#00615C",
+    "textColor": "#FFFFFF",
+    "order": 42,
+    "icon": "north-america/usa/ny/LIRRMontauk.png"
+  },
+  "LIRROysterBay": {
+    "name": "LIRR Oyster Bay",
+    "color": "#36B64B",
+    "backgroundColor": "#1D6429",
+    "textColor": "#FFFFFF",
+    "order": 43,
+    "icon": "north-america/usa/ny/LIRROysterBay.png"
+  },
+  "LIRRPortJefferson": {
+    "name": "LIRR Port Jefferson",
+    "color": "#0060AC",
+    "backgroundColor": "#00345E",
+    "textColor": "#FFFFFF",
+    "order": 44,
+    "icon": "north-america/usa/ny/LIRRPortJefferson.png"
+  },
+  "LIRRPortWashington": {
+    "name": "LIRR Port Washington",
+    "color": "#FC2D3A",
+    "backgroundColor": "#8A181F",
+    "textColor": "#FFFFFF",
+    "order": 45,
+    "icon": "north-america/usa/ny/LIRRPortWashington.png"
+  },
+  "LIRRRonkonkoma": {
+    "name": "LIRR Ronkonkoma",
+    "color": "#A626AA",
+    "backgroundColor": "#5B145D",
+    "textColor": "#FFFFFF",
+    "order": 46,
+    "icon": "north-america/usa/ny/LIRRRonkonkoma.png"
+  },
+  "LIRRWestHempstead": {
+    "name": "LIRR West Hempstead",
+    "color": "#299BD6",
+    "backgroundColor": "#165575",
+    "textColor": "#FFFFFF",
+    "order": 47,
+    "icon": "north-america/usa/ny/LIRRWestHempstead.png"
+  },
+  "MNRRHarlem": {
+    "name": "MNRR Harlem",
+    "color": "#0039A6",
+    "backgroundColor": "#001F5B",
+    "textColor": "#FFFFFF",
+    "order": 49,
+    "icon": "north-america/usa/ny/MNRRHarlem.png"
+  },
+  "MNRRHudson": {
+    "name": "MNRR Hudson",
+    "color": "#009B3A",
+    "backgroundColor": "#00551F",
+    "textColor": "#FFFFFF",
+    "order": 50,
+    "icon": "north-america/usa/ny/MNRRHudson.png"
+  },
+  "MNRRNewHaven": {
+    "name": "MNRR New Haven",
+    "color": "#EE0034",
+    "backgroundColor": "#82001C",
+    "textColor": "#FFFFFF",
+    "order": 51,
+    "icon": "north-america/usa/ny/MNRRNewHaven.png"
+  },
+  "MNRRNewCanaan": {
+    "name": "MNRR New Canaan",
+    "color": "#EE0034",
+    "backgroundColor": "#82001C",
+    "textColor": "#FFFFFF",
+    "order": 53,
+    "icon": "north-america/usa/ny/MNRRNewCanaan.png"
+  },
+  "MNRRDanbury": {
+    "name": "MNRR Danbury",
+    "color": "#EE0034",
+    "backgroundColor": "#82001C",
+    "textColor": "#FFFFFF",
+    "order": 54,
+    "icon": "north-america/usa/ny/MNRRDanbury.png"
+  },
+  "MNRRWaterbury": {
+    "name": "MNRR Waterbury",
+    "color": "#EE0034",
+    "backgroundColor": "#82001C",
+    "textColor": "#FFFFFF",
+    "order": 55,
+    "icon": "north-america/usa/ny/MNRRWaterbury.png"
+  },
+  "NJTAtlanticCity": {
+    "name": "NJT Atlantic City",
+    "color": "#005DAA",
+    "backgroundColor": "#00335D",
+    "textColor": "#FFFFFF",
+    "order": 57,
+    "icon": "north-america/usa/ny/NJTAtlanticCity.svg"
+  },
+  "NJTBergenCounty": {
+    "name": "NJT Bergen County",
+    "color": "#B9C9DF",
+    "backgroundColor": "#656E7A",
+    "textColor": "#000000",
+    "order": 58,
+    "icon": "north-america/usa/ny/NJTBergenCounty.svg"
+  },
+  "NJTGladstone": {
+    "name": "Gladstone",
+    "color": "#A2D5AE",
+    "backgroundColor": "#59755F",
+    "textColor": "#000000",
+    "order": 59,
+    "icon": "north-america/usa/ny/NJTGladstone.svg"
+  },
+  "NJTMontclairBoonton": {
+    "name": "NJT Montclair-Boonton",
+    "color": "#E56959",
+    "backgroundColor": "#7D3930",
+    "textColor": "#FFFFFF",
+    "order": 60,
+    "icon": "north-america/usa/ny/NJTMontclairBoonton.svg"
+  },
+  "NJTMorrisEssex": {
+    "name": "NJT Morris & Essex",
+    "color": "#00A94F",
+    "backgroundColor": "#005C2B",
+    "textColor": "#FFFFFF",
+    "order": 61,
+    "icon": "north-america/usa/ny/NJTMorrisEssex.svg"
+  },
+  "NJTMainLine": {
+    "name": "NJT Main Line",
+    "color": "#FFCF01",
+    "backgroundColor": "#8C7100",
+    "textColor": "#000000",
+    "order": 62,
+    "icon": "north-america/usa/ny/NJTMainLine.svg"
+  },
+  "NJTNorthJerseyCoast": {
+    "name": "NJT North Jersey Coast",
+    "color": "#00A4E4",
+    "backgroundColor": "#005A7D",
+    "textColor": "#FFFFFF",
+    "order": 63,
+    "icon": "north-america/usa/ny/NJTNorthJerseyCoast.svg"
+  },
+  "NJTNorthEastCorridor": {
+    "name": "NJT Northeast Corridor",
+    "color": "#EF3E42",
+    "backgroundColor": "#832224",
+    "textColor": "#FFFFFF",
+    "order": 64,
+    "icon": "north-america/usa/ny/NJTNorthEastCorridor.svg"
+  },
+  "NJTPrinceton": {
+    "name": "NJT Princeton Shuttle",
+    "color": "#EF3E42",
+    "backgroundColor": "#832224",
+    "textColor": "#FFFFFF",
+    "order": 65,
+    "icon": "north-america/usa/ny/NJTPrinceton.svg"
+  },
+  "NJTPascackValley": {
+    "name": "NJT Pascack Valley",
+    "color": "#8E258D",
+    "backgroundColor": "#4E144D",
+    "textColor": "#FFFFFF",
+    "order": 66,
+    "icon": "north-america/usa/ny/NJTPascackValley.svg"
+  },
+  "NJTRaritanValley": {
+    "name": "NJT Raritan Valley",
+    "color": "#F8A431",
+    "backgroundColor": "#885A1A",
+    "textColor": "#FFFFFF",
+    "order": 67,
+    "icon": "north-america/usa/ny/NJTRaritanValley.svg"
+  },
+  "NJTMeadowlands": {
+    "name": "NJT Meadowlands",
+    "color": "#B7A673",
+    "backgroundColor": "#645B3F",
+    "textColor": "#000000",
+    "order": 68,
+    "icon": "north-america/usa/ny/NJTMeadowlands.svg"
+  },
+  "NJTPortJervis": {
+    "name": "NJT Port Jervis",
+    "color": "#FF7900",
+    "backgroundColor": "#8C4200",
+    "textColor": "#FFFFFF",
+    "order": 69,
+    "icon": "north-america/usa/ny/NJTPortJervis.svg"
+  },
+  "NJTLR8thStHoboken": {
+    "name": "NJT HBLR 8th St - Hoboken",
+    "color": "#009EDA",
+    "backgroundColor": "#005677",
+    "textColor": "#FFFFFF",
+    "order": 70,
+    "icon": "north-america/usa/ny/NJTLR8thStHoboken.svg"
+  },
+  "NJTLRWestSideTonnelle": {
+    "name": "NJT HBLR West Side - Tonnelle",
+    "color": "#FFDD00",
+    "backgroundColor": "#8C7900",
+    "textColor": "#FFFFFF",
+    "order": 71,
+    "icon": "north-america/usa/ny/NJTLRWestSideTonnelle.svg"
+  },
+  "NJTLRHobokenTonnelle": {
+    "name": "NJT HBLR Hoboken - Tonnelle",
+    "color": "#008C4E",
+    "backgroundColor": "#004D2A",
+    "textColor": "#FFFFFF",
+    "order": 72,
+    "icon": "north-america/usa/ny/NJTLRHobokenTonnelle.svg"
+  },
+  "NJTLRBayonneFlyer": {
+    "name": "NJT Bayonne Flyer",
+    "color": "#009EDA",
+    "backgroundColor": "#005677",
+    "textColor": "#FFFFFF",
+    "order": 73,
+    "icon": "north-america/usa/ny/NJTLRBayonneFlyer.svg"
+  },
+  "NJTLRNewark": {
+    "name": "Newark City Subway",
+    "color": "#00A7E5",
+    "backgroundColor": "#005B7D",
+    "textColor": "#FFFFFF",
+    "order": 74,
+    "icon": "north-america/usa/ny/NJTLRNewark.svg"
+  },
+  "NJTLRNewarkBroad": {
+    "name": "Broad St Extension",
+    "color": "#FECE05",
+    "backgroundColor": "#8B7102",
+    "textColor": "#FFFFFF",
+    "order": 75,
+    "icon": "north-america/usa/ny/NJTLRNewarkBroad.svg"
+  },
+  "NJTLRRiverLine": {
+    "name": "NJT River Line",
+    "color": "#181B72",
+    "backgroundColor": "#0D0E3E",
+    "textColor": "#FFFFFF",
+    "order": 76,
+    "icon": "north-america/usa/ny/NJTLRRiverLine.svg"
+  },
+  "NJTLRGlassboroCamden": {
+    "name": "Glassboro Camden Line",
+    "color": "#A2BD55",
+    "backgroundColor": "#A2BD55",
+    "textColor": "#006194",
+    "order": 77,
+    "icon": "north-america/usa/ny/NJTLRGlassboroCamden.svg"
+  },
+  "AirTrainEWR": {
+    "name": "EWR Airtrain",
+    "color": "#CB074E",
+    "backgroundColor": "#6F032A",
+    "textColor": "#FFFFFF",
+    "order": 78,
+    "icon": "north-america/usa/ny/AirTrainEWR.svg"
+  },
+  "AirTrainJFKHowardBeach": {
+    "name": "AirTrain JFK – Howard Beach",
+    "color": "#009E58",
+    "backgroundColor": "#005630",
+    "textColor": "#FFFFFF",
+    "order": 79,
+    "icon": "north-america/usa/ny/AirTrainJFKHowardBeach.svg"
+  },
+  "AirTrainJFKJamaica": {
+    "name": "AirTrain JFK – Jamaica",
+    "color": "#EF3941",
+    "backgroundColor": "#831F23",
+    "textColor": "#FFFFFF",
+    "order": 80,
+    "icon": "north-america/usa/ny/AirTrainJFKJamaica.svg"
+  },
+  "AirTrainJFKAllTerminals": {
+    "name": "AirTrain JFK – All Terminals Loop",
+    "color": "#FDB827",
+    "backgroundColor": "#8B6515",
+    "textColor": "#000000",
+    "order": 81,
+    "icon": "north-america/usa/ny/AirTrainJFKAllTerminals.svg"
+  },
+  "IBX": {
+    "name": "IBX",
+    "color": "#FF69B4",
+    "backgroundColor": "#B3477B",
+    "textColor": "#FFFFFF",
+    "order": 82,
+    "icon": "north-america/usa/ny/IBX.svg"
+  },
+  "CTRailShoreLineEast": {
+    "name": "CTrail Shore Line East",
+    "color": "#EF3E42",
+    "backgroundColor": "#832224",
+    "textColor": "#000000",
+    "order": 83,
+    "icon": "north-america/usa/ny/CTRailShoreLineEast.svg"
+  },
+  "CTRailHartfordLine": {
+    "name": "CTrail Hartford Line",
+    "color": "#EF3E42",
+    "backgroundColor": "#832224",
+    "textColor": "#000000",
+    "order": 84,
+    "icon": "north-america/usa/ny/CTRailHartfordLine.svg"
+  },
+  "RIOCRooseveltIslandTram": {
+    "name": "Roosevelt Island Tram",
+    "color": "#FF0000",
+    "backgroundColor": "#800000",
+    "textColor": "#000000",
+    "order": 85,
+    "icon": "north-america/usa/ny/RIOCRooseveltIslandTram.svg"
+  },
+  "NJTLackawannaCutOff": {
+    "name": "NJT Lackawanna Cut-Off",
+    "color": "#F48AA4",
+    "backgroundColor": "#8C4A5E",
+    "textColor": "#000000",
+    "order": 70,
+    "icon": "north-america/usa/ny/NJTLackawannaCutOff.svg"
+  }
+}

@@ -664,7 +664,7 @@ const rawCities: CityBase[] = [
     name: 'Fukuoka (福岡), FKO',
     link: '/asia/japan/fukuoka',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
   },
   {
     name: 'Hiroshima (広島), HRS',
@@ -682,7 +682,7 @@ const rawCities: CityBase[] = [
     name: 'Okayama (岡山), OKY',
     link: '/asia/japan/okayama',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
   },
   {
     name: 'Osaka–Kobe (大阪・神戸), OSK-HYG',
@@ -694,7 +694,7 @@ const rawCities: CityBase[] = [
     name: 'Kyoto (京都), KYT',
     link: '/asia/japan/kyoto',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
   },
   {
     name: 'Sapporo (札幌), HKD',
@@ -705,6 +705,7 @@ const rawCities: CityBase[] = [
     name: 'Sendai (仙台), MYG',
     link: '/asia/japan/sendai',
     continent: 'Asia',
+    disabled: false,
   },
   {
     name: 'Daegu (대구), DG',
@@ -1041,13 +1042,9 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/china/zhengzhou',
   'asia/indonesia/jakarta',
   'asia/indonesia/palembang',
-  'asia/japan/fukuoka',
   'asia/japan/hiroshima',
-  'asia/japan/kyoto',
   'asia/japan/nagoya',
-  'asia/japan/okayama',
   'asia/japan/osaka-kobe',
-  'asia/japan/sendai',
   'asia/malaysia/kuala-lumpur',
   'asia/philippines/manila',
   'asia/south-korea/busan',

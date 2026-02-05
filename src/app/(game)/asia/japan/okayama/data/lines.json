@@ -1,0 +1,20 @@
+{
+  "Higashiyama": {
+    "name": "東山本線 Higashiyama Line",
+    "color": "#000aff",
+    "backgroundColor": "#000580",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#000aff",
+    "order": 0,
+    "icon": "asia/japan/okayama/higashiyama.png"
+  },
+  "Seikibashi": {
+    "name": "清輝橋線 Seikibashi Line",
+    "color": "#008001",
+    "backgroundColor": "#004001",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#008001",
+    "order": 1,
+    "icon": "asia/japan/okayama/seikibashi.png"
+  }
+}

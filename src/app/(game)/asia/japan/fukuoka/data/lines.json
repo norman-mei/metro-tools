@@ -1,0 +1,29 @@
+{
+  "Kuko": {
+    "name": "空港線 Kūkō Line",
+    "color": "#ee5511",
+    "backgroundColor": "#772A08",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#ee5511",
+    "order": 0,
+    "icon": "asia/japan/fukuoka/kuko.png"
+  },
+  "Hakozaki": {
+    "name": "箱崎線 Hakozaki Line",
+    "color": "#0077cc",
+    "backgroundColor": "#003C66",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#0077cc",
+    "order": 1,
+    "icon": "asia/japan/fukuoka/hakozaki.png"
+  },
+  "Nanakuma": {
+    "name": "七隈線 Nanakuma Line",
+    "color": "#01936b",
+    "backgroundColor": "#004A36",
+    "textColor": "#FFFFFF",
+    "progressOutlineColor": "#01936b",
+    "order": 2,
+    "icon": "asia/japan/fukuoka/nanakuma.png"
+  }
+}
