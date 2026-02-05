@@ -1,0 +1,3492 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.323895,
+          26.1452814
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Xiangfeng",
+        "display_name": "Xiangfeng (象峰)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Xiangfeng",
+          "象峰",
+          "象峯",
+          "xiàng fēng"
+        ],
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3165164,
+          26.1372637
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Xiushan",
+        "display_name": "Xiushan (秀山)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Xiushan",
+          "秀山",
+          "xiù shān"
+        ],
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3134542,
+          26.1293531
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Luohanshan",
+        "display_name": "Luohanshan (罗汉山)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Luohanshan",
+          "罗汉山",
+          "羅漢山",
+          "luó hàn shān"
+        ],
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3134033,
+          26.1158714
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Fuzhou Railway Station",
+        "display_name": "Fuzhou Railway Station (福州火车站)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Fuzhou Railway Station",
+          "福州火车站",
+          "福州火車站",
+          "fú zhōu huǒ chē zhàn"
+        ],
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3128293,
+          26.1124078
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Fuzhou Railway Station",
+        "display_name": "Fuzhou Railway Station (福州火车站)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Fuzhou Railway Station",
+          "福州火车站",
+          "福州火車站",
+          "fú zhōu huǒ chē zhàn"
+        ],
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3085636,
+          26.1070535
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Doumen",
+        "display_name": "Doumen (斗门)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Doumen",
+          "斗门",
+          "斗門",
+          "dòu mén"
+        ],
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3022138,
+          26.1055509
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Shudou",
+        "display_name": "Shudou (树兜)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Shudou",
+          "树兜",
+          "樹兜",
+          "shù dōu"
+        ],
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2922437,
+          26.0993766
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Pingshan",
+        "display_name": "Pingshan (屏山)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Pingshan",
+          "屏山",
+          "píng shān"
+        ],
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2945129,
+          26.0890606
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Dongjiekou",
+        "display_name": "Dongjiekou (东街口)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Dongjiekou",
+          "东街口",
+          "東街口",
+          "dōng jiē kǒu"
+        ],
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.29731464716805,
+          26.079338823119777
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nanmendou",
+        "display_name": "Nanmendou (南门兜)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Nanmendou",
+          "南门兜",
+          "南門兜",
+          "nán mén dōu"
+        ],
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2972792,
+          26.0793696
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Nanmendou",
+        "display_name": "Nanmendou (南门兜)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Nanmendou",
+          "南门兜",
+          "南門兜",
+          "nán mén dōu"
+        ],
+        "order": 8
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2996105,
+          26.0721655
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Chating",
+        "display_name": "Chating (茶亭)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Chating",
+          "茶亭",
+          "chá tíng"
+        ],
+        "order": 9
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3048539,
+          26.0604836
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Dadao",
+        "display_name": "Dadao (达道)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Dadao",
+          "达道",
+          "達道",
+          "dá dào"
+        ],
+        "order": 10
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2680161,
+          26.0370679
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Dadao",
+        "display_name": "Dadao (达道)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Dadao",
+          "达道",
+          "達道",
+          "dá dào"
+        ],
+        "order": 10
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3158265,
+          26.0466967
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Shangteng",
+        "display_name": "Shangteng (上藤)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Shangteng",
+          "上藤",
+          "shàng téng"
+        ],
+        "order": 11
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3206163,
+          26.0391236
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Sanchajie",
+        "display_name": "Sanchajie (三叉街)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Sanchajie",
+          "三叉街",
+          "sān chā jiē"
+        ],
+        "order": 12
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3177853,
+          26.0386034
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Sanchajie",
+        "display_name": "Sanchajie (三叉街)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Sanchajie",
+          "三叉街",
+          "sān chā jiē"
+        ],
+        "order": 12
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3305726,
+          26.028811
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Baihuting",
+        "display_name": "Baihuting (白湖亭)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Baihuting",
+          "白湖亭",
+          "bái hú tíng"
+        ],
+        "order": 13
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3305057,
+          26.0287601
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Baihuting",
+        "display_name": "Baihuting (白湖亭)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Baihuting",
+          "白湖亭",
+          "bái hú tíng"
+        ],
+        "order": 13
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3387761,
+          26.0198693
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Huluzhen",
+        "display_name": "Huluzhen (葫芦阵)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Huluzhen",
+          "葫芦阵",
+          "葫蘆陣",
+          "hú lu zhèn"
+        ],
+        "order": 14
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.343713,
+          26.0134248
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Huangshan",
+        "display_name": "Huangshan (黄山)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Huangshan",
+          "黄山",
+          "黃山",
+          "huáng shān"
+        ],
+        "order": 15
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3491589,
+          26.0043753
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Paixia",
+        "display_name": "Paixia (排下)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Paixia",
+          "排下",
+          "pái xià"
+        ],
+        "order": 16
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.35522557822725,
+          25.999165109481712
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Chengmen",
+        "display_name": "Chengmen (城门)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Chengmen",
+          "城门",
+          "城門",
+          "chéng mén"
+        ],
+        "order": 17
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3552464,
+          25.9991484
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Chengmen",
+        "display_name": "Chengmen (城门)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Chengmen",
+          "城门",
+          "城門",
+          "chéng mén"
+        ],
+        "order": 17
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3635661,
+          25.9937681
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Sanjiaocheng",
+        "display_name": "Sanjiaocheng (三角埕)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Sanjiaocheng",
+          "三角埕",
+          "sān jiǎo chéng"
+        ],
+        "order": 18
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3750119,
+          25.987308
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Lulei",
+        "display_name": "Lulei (胪雷)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Lulei",
+          "胪雷",
+          "臚雷",
+          "lú léi"
+        ],
+        "order": 19
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.38711948678097,
+          25.989219283724772
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Fuzhou South Railway Station",
+        "display_name": "Fuzhou South Railway Station (福州火车南站)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Fuzhou South Railway Station",
+          "福州火车南站",
+          "福州火車南站",
+          "fú zhōu huǒ chē nán zhàn"
+        ],
+        "order": 20
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3971444,
+          25.9951585
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Anping",
+        "display_name": "Anping (安平)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Anping",
+          "安平",
+          "ān píng"
+        ],
+        "order": 21
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4101237,
+          25.9971624
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Liangcuo",
+        "display_name": "Liangcuo (梁厝)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Liangcuo",
+          "梁厝",
+          "liáng cuò"
+        ],
+        "order": 22
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4156178,
+          25.9874602
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Xiayang",
+        "display_name": "Xiayang (下洋)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Xiayang",
+          "下洋",
+          "xià yáng"
+        ],
+        "order": 23
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.421716,
+          25.9815779
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Sanjiangkou",
+        "display_name": "Sanjiangkou (三江口)",
+        "line": "fuzhou1",
+        "alternate_names": [
+          "Sanjiangkou",
+          "三江口",
+          "sān jiāng kǒu"
+        ],
+        "order": 24
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1545688,
+          26.1017623
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Suyang",
+        "display_name": "Suyang (苏洋)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Suyang",
+          "苏洋",
+          "蘇洋",
+          "sū yáng"
+        ],
+        "order": 0
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1685137,
+          26.089197
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Shadi",
+        "display_name": "Shadi (沙堤)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Shadi",
+          "沙堤",
+          "shā dī"
+        ],
+        "order": 1
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1812872,
+          26.0793918
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Shangjie",
+        "display_name": "Shangjie (上街)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Shangjie",
+          "上街",
+          "shàng jiē"
+        ],
+        "order": 2
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1950212,
+          26.0704542
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Jinyu",
+        "display_name": "Jinyu (金屿)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Jinyu",
+          "金屿",
+          "金嶼",
+          "jīn yǔ"
+        ],
+        "order": 3
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.19855041621624,
+          26.061561118918917
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Fuzhou University",
+        "display_name": "Fuzhou University (福州大学)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Fuzhou University",
+          "福州大学",
+          "福州大學",
+          "fú zhōu dà xué"
+        ],
+        "order": 4
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.202569,
+          26.0443445
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Dongyu / Fujian Normal University",
+        "display_name": "Dongyu / Fujian Normal University (董屿·福建师大)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Dongyu / Fujian Normal University",
+          "董屿·福建师大",
+          "董嶼·福建師大",
+          "dǒng yǔ · fú jiàn shī dà",
+          "Dongyu",
+          "Fujian Normal University"
+        ],
+        "order": 5
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2139299,
+          26.0452753
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Houting",
+        "display_name": "Houting (厚庭)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Houting",
+          "厚庭",
+          "hòu tíng"
+        ],
+        "order": 6
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2376519,
+          26.0499944
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Juyuanzhou",
+        "display_name": "Juyuanzhou (桔园洲)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Juyuanzhou",
+          "桔园洲",
+          "桔園洲",
+          "jú yuán zhōu"
+        ],
+        "order": 7
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2452218,
+          26.0505198
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Hongwan",
+        "display_name": "Hongwan (洪湾)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Hongwan",
+          "洪湾",
+          "洪灣",
+          "hóng wān"
+        ],
+        "order": 8
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.25756749357761,
+          26.050492157326016
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Jinshan",
+        "display_name": "Jinshan (金山)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Jinshan",
+          "金山",
+          "jīn shān"
+        ],
+        "order": 9
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2575131,
+          26.0504913
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Jinshan",
+        "display_name": "Jinshan (金山)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Jinshan",
+          "金山",
+          "jīn shān"
+        ],
+        "order": 9
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2659794,
+          26.0513715
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Jinxiang",
+        "display_name": "Jinxiang (金祥)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Jinxiang",
+          "金祥",
+          "jīn xiáng"
+        ],
+        "order": 10
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2813003,
+          26.0638813
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Xiangban",
+        "display_name": "Xiangban (祥坂)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Xiangban",
+          "祥坂",
+          "xiáng bǎn"
+        ],
+        "order": 11
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.28884124350554,
+          26.065808657214987
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Ninghua",
+        "display_name": "Ninghua (宁化)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Ninghua",
+          "宁化",
+          "寧化",
+          "níng huà"
+        ],
+        "order": 12
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.288838,
+          26.0660534
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Ninghua",
+        "display_name": "Ninghua (宁化)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Ninghua",
+          "宁化",
+          "寧化",
+          "níng huà"
+        ],
+        "order": 12
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2920372,
+          26.0746035
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Xiyang",
+        "display_name": "Xiyang (西洋)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Xiyang",
+          "西洋",
+          "xī yáng"
+        ],
+        "order": 13
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.29731464716805,
+          26.079338823119777
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Nanmendou",
+        "display_name": "Nanmendou (南门兜)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Nanmendou",
+          "南门兜",
+          "南門兜",
+          "nán mén dōu"
+        ],
+        "order": 14
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2972792,
+          26.0793696
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Nanmendou",
+        "display_name": "Nanmendou (南门兜)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Nanmendou",
+          "南门兜",
+          "南門兜",
+          "nán mén dōu"
+        ],
+        "order": 14
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3088861,
+          26.0797042
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Shuibu",
+        "display_name": "Shuibu (水部)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Shuibu",
+          "水部",
+          "shuǐ bù"
+        ],
+        "order": 15,
+        "cluster_key": "fuzhou-shuibu-mindu-complex"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3229527,
+          26.0793183
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Ziyang",
+        "display_name": "Ziyang (紫阳)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Ziyang",
+          "紫阳",
+          "紫陽",
+          "zǐ yáng"
+        ],
+        "order": 16
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.33535070697677,
+          26.077269841860467
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Wuliting",
+        "display_name": "Wuliting (五里亭)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Wuliting",
+          "五里亭",
+          "wǔ lǐ tíng"
+        ],
+        "order": 17
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3456051,
+          26.0756299
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Qianyu",
+        "display_name": "Qianyu (前屿)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Qianyu",
+          "前屿",
+          "前嶼",
+          "qián yǔ"
+        ],
+        "order": 18
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3592,
+          26.0688
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Shangyang",
+        "display_name": "Shangyang (上洋)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Shangyang",
+          "上洋",
+          "shàng yáng"
+        ],
+        "order": 19
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3701,
+          26.0562
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Gushan",
+        "display_name": "Gushan (鼓山)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Gushan",
+          "鼓山",
+          "gǔ shān"
+        ],
+        "order": 20,
+        "cluster_key": "fuzhou-gushan-complex"
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3674,
+          26.0476
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Yangli",
+        "display_name": "Yangli (洋里)",
+        "line": "fuzhou2",
+        "alternate_names": [
+          "Yangli",
+          "洋里",
+          "洋裏",
+          "yáng lǐ"
+        ],
+        "order": 21
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2330531,
+          26.0599539
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Banzhou",
+        "display_name": "Banzhou (半洲)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Banzhou",
+          "半洲",
+          "bàn zhōu"
+        ],
+        "order": 0
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2334148,
+          26.0678091
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Jianxin",
+        "display_name": "Jianxin (建新)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Jianxin",
+          "建新",
+          "jiàn xīn"
+        ],
+        "order": 1
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.24507900841502,
+          26.077038537905366
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Hongtang",
+        "display_name": "Hongtang (洪塘)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Hongtang",
+          "洪塘",
+          "hóng táng"
+        ],
+        "order": 2
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2573435,
+          26.0794741
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Jinniushan",
+        "display_name": "Jinniushan (金牛山)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Jinniushan",
+          "金牛山",
+          "jīn niú shān"
+        ],
+        "order": 3
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2677931,
+          26.0814237
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Fenghuangchi",
+        "display_name": "Fenghuangchi (凤凰池)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Fenghuangchi",
+          "凤凰池",
+          "鳳凰池",
+          "fèng huáng chí"
+        ],
+        "order": 4
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2788002,
+          26.0854634
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Luzhuang",
+        "display_name": "Luzhuang (陆庄)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Luzhuang",
+          "陆庄",
+          "陸莊",
+          "lù zhuāng"
+        ],
+        "order": 5
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.285364,
+          26.0878161
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Ximen",
+        "display_name": "Ximen (西门)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Ximen",
+          "西门",
+          "西門",
+          "xī mén"
+        ],
+        "order": 6
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2945129,
+          26.0890606
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Dongjiekou",
+        "display_name": "Dongjiekou (东街口)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Dongjiekou",
+          "东街口",
+          "東街口",
+          "dōng jiē kǒu"
+        ],
+        "order": 7
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3025513,
+          26.08988
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Provincial Hospital",
+        "display_name": "Provincial Hospital (省立医院)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Provincial Hospital",
+          "省立医院",
+          "省立醫院",
+          "shěng lì yī yuàn"
+        ],
+        "order": 8
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3093444,
+          26.0905427
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Dongmen",
+        "display_name": "Dongmen (东门)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Dongmen",
+          "东门",
+          "東門",
+          "dōng mén"
+        ],
+        "order": 9
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3118473,
+          26.0899167
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Dongmen",
+        "display_name": "Dongmen (东门)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Dongmen",
+          "东门",
+          "東門",
+          "dōng mén"
+        ],
+        "order": 9
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3214128,
+          26.0939746
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Sanjiaochi",
+        "display_name": "Sanjiaochi (三角池)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Sanjiaochi",
+          "三角池",
+          "sān jiǎo chí"
+        ],
+        "order": 10
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3330371,
+          26.0961144
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Zhuyu",
+        "display_name": "Zhuyu (竹屿)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Zhuyu",
+          "竹屿",
+          "竹嶼",
+          "zhú yǔ"
+        ],
+        "order": 11
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3473878,
+          26.0929003
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Hengyu",
+        "display_name": "Hengyu (横屿)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Hengyu",
+          "横屿",
+          "橫嶼",
+          "héng yǔ"
+        ],
+        "order": 12
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2244259,
+          26.1145537
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Houyu",
+        "display_name": "Houyu (后屿)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Houyu",
+          "后屿",
+          "後嶼",
+          "hòu yǔ"
+        ],
+        "order": 13
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3475558,
+          26.0842357
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Houyu",
+        "display_name": "Houyu (后屿)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Houyu",
+          "后屿",
+          "後嶼",
+          "hòu yǔ"
+        ],
+        "order": 13
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3456051,
+          26.0756299
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Qianyu",
+        "display_name": "Qianyu (前屿)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Qianyu",
+          "前屿",
+          "前嶼",
+          "qián yǔ"
+        ],
+        "order": 14
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3418369,
+          26.0676193
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Guangminggang",
+        "display_name": "Guangminggang (光明港)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Guangminggang",
+          "光明港",
+          "guāng míng gǎng"
+        ],
+        "order": 15
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3398029,
+          26.0575778
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Aofengzhou",
+        "display_name": "Aofengzhou (鳌峰洲)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Aofengzhou",
+          "鳌峰洲",
+          "鰲峯洲",
+          "áo fēng zhōu"
+        ],
+        "order": 16
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.344854,
+          26.0435945
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Huahai Park",
+        "display_name": "Huahai Park (花海公园)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Huahai Park",
+          "花海公园",
+          "花海公園",
+          "huā hǎi gōng yuán"
+        ],
+        "order": 17
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3546265,
+          26.03289
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Exhibition Center",
+        "display_name": "Exhibition Center (会展中心)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Exhibition Center",
+          "会展中心",
+          "會展中心",
+          "huì zhǎn zhōng xīn"
+        ],
+        "order": 18
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.360214,
+          26.018205
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Linpu",
+        "display_name": "Linpu (林浦)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Linpu",
+          "林浦",
+          "lín pǔ"
+        ],
+        "order": 19
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.35522557822725,
+          25.999165109481712
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Chengmen",
+        "display_name": "Chengmen (城门)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Chengmen",
+          "城门",
+          "城門",
+          "chéng mén"
+        ],
+        "order": 20
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3552464,
+          25.9991484
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Chengmen",
+        "display_name": "Chengmen (城门)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Chengmen",
+          "城门",
+          "城門",
+          "chéng mén"
+        ],
+        "order": 20
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3445573,
+          25.993371
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Luozhou Hot Spring",
+        "display_name": "Luozhou Hot Spring (螺洲温泉)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Luozhou Hot Spring",
+          "螺洲温泉",
+          "螺洲溫泉",
+          "luó zhōu wēn quán"
+        ],
+        "order": 21
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3309,
+          25.9904
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Difengjiang",
+        "display_name": "Difengjiang (帝封江)",
+        "line": "fuzhou4",
+        "alternate_names": [
+          "Difengjiang",
+          "帝封江",
+          "dì fēng jiāng"
+        ],
+        "order": 22
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2244259,
+          26.1145537
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Jingxi Houyu",
+        "display_name": "Jingxi Houyu (荆溪厚屿)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Jingxi Houyu",
+          "荆溪厚屿",
+          "荊溪厚嶼",
+          "jīng xī hòu yǔ"
+        ],
+        "order": 0
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2422506,
+          26.0879265
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Agriculture and Forestry University",
+        "display_name": "Agriculture and Forestry University (农林大学)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Agriculture and Forestry University",
+          "农林大学",
+          "農林大學",
+          "nóng lín dà xué"
+        ],
+        "order": 1
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.24507900841502,
+          26.077038537905366
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Hongtang",
+        "display_name": "Hongtang (洪塘)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Hongtang",
+          "洪塘",
+          "hóng táng"
+        ],
+        "order": 2
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2471762,
+          26.0693216
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Zhenban",
+        "display_name": "Zhenban (阵坂)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Zhenban",
+          "阵坂",
+          "陣坂",
+          "zhèn bǎn"
+        ],
+        "order": 3
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2470995,
+          26.0693201
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Zhenban",
+        "display_name": "Zhenban (阵坂)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Zhenban",
+          "阵坂",
+          "陣坂",
+          "zhèn bǎn"
+        ],
+        "order": 3
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2538412,
+          26.0585538
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Marong",
+        "display_name": "Marong (马榕)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Marong",
+          "马榕",
+          "馬榕",
+          "mǎ róng"
+        ],
+        "order": 4
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2537906,
+          26.0585316
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Marong",
+        "display_name": "Marong (马榕)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Marong",
+          "马榕",
+          "馬榕",
+          "mǎ róng"
+        ],
+        "order": 4
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.25756749357761,
+          26.050492157326016
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Jinshan",
+        "display_name": "Jinshan (金山)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Jinshan",
+          "金山",
+          "jīn shān"
+        ],
+        "order": 5
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2575131,
+          26.0504913
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Jinshan",
+        "display_name": "Jinshan (金山)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Jinshan",
+          "金山",
+          "jīn shān"
+        ],
+        "order": 5
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2622452,
+          26.041876
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Fenggangli",
+        "display_name": "Fenggangli (凤冈里)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Fenggangli",
+          "凤冈里",
+          "鳳岡裏",
+          "fèng gāng lǐ"
+        ],
+        "order": 6
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2622177,
+          26.0418345
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Fenggangli",
+        "display_name": "Fenggangli (凤冈里)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Fenggangli",
+          "凤冈里",
+          "鳳岡裏",
+          "fèng gāng lǐ"
+        ],
+        "order": 6
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2680161,
+          26.0370679
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Pushang Dadao",
+        "display_name": "Pushang Dadao (浦上大道)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Pushang Dadao",
+          "浦上大道",
+          "pǔ shàng dà dào"
+        ],
+        "order": 7
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.271767,
+          26.0280273
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Xiajing",
+        "display_name": "Xiajing (霞镜)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Xiajing",
+          "霞镜",
+          "霞鏡",
+          "xiá jìng"
+        ],
+        "order": 8
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2717434,
+          26.0280267
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Xiajing",
+        "display_name": "Xiajing (霞镜)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Xiajing",
+          "霞镜",
+          "霞鏡",
+          "xiá jìng"
+        ],
+        "order": 8
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2726248,
+          26.0165333
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Dongling",
+        "display_name": "Dongling (东岭)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Dongling",
+          "东岭",
+          "東嶺",
+          "dōng lǐng"
+        ],
+        "order": 9
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2725526,
+          26.0165148
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Dongling",
+        "display_name": "Dongling (东岭)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Dongling",
+          "东岭",
+          "東嶺",
+          "dōng lǐng"
+        ],
+        "order": 9
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2769193,
+          26.0089575
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Taiyu",
+        "display_name": "Taiyu (台屿)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Taiyu",
+          "台屿",
+          "臺嶼",
+          "tái yǔ"
+        ],
+        "order": 10
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2768801,
+          26.0088971
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Taiyu",
+        "display_name": "Taiyu (台屿)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Taiyu",
+          "台屿",
+          "臺嶼",
+          "tái yǔ"
+        ],
+        "order": 10
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2885033,
+          26.0024415
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Panyu",
+        "display_name": "Panyu (盘屿)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Panyu",
+          "盘屿",
+          "盤嶼",
+          "pán yǔ"
+        ],
+        "order": 11
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3061426,
+          26.0003125
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Wushan",
+        "display_name": "Wushan (吴山)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Wushan",
+          "吴山",
+          "吳山",
+          "wú shān"
+        ],
+        "order": 12
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3157923,
+          25.9968006
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Gaishan Zhulan",
+        "display_name": "Gaishan Zhulan (盖山竹榄)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Gaishan Zhulan",
+          "盖山竹榄",
+          "蓋山竹欖",
+          "gài shān zhú lǎn"
+        ],
+        "order": 13
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3227062,
+          25.9899172
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Yixu",
+        "display_name": "Yixu (义序)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Yixu",
+          "义序",
+          "義序",
+          "yì xù"
+        ],
+        "order": 14
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3309,
+          25.9904
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Difengjiang",
+        "display_name": "Difengjiang (帝封江)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Difengjiang",
+          "帝封江",
+          "dì fēng jiāng"
+        ],
+        "order": 15
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3466012,
+          25.9891962
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Ancient Luozhou Town",
+        "display_name": "Ancient Luozhou Town (螺洲古镇)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Ancient Luozhou Town",
+          "螺洲古镇",
+          "螺洲古鎮",
+          "luó zhōu gǔ zhèn"
+        ],
+        "order": 16
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3577471,
+          25.987386
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Qianjin",
+        "display_name": "Qianjin (前锦)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Qianjin",
+          "前锦",
+          "前錦",
+          "qián jǐn"
+        ],
+        "order": 17
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3674205,
+          25.9873751
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Longjiang",
+        "display_name": "Longjiang (龙江)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Longjiang",
+          "龙江",
+          "龍江",
+          "lóng jiāng"
+        ],
+        "order": 18
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.38711948678097,
+          25.989219283724772
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Fuzhou South Railway Station",
+        "display_name": "Fuzhou South Railway Station (福州火车南站)",
+        "line": "fuzhou5",
+        "alternate_names": [
+          "Fuzhou South Railway Station",
+          "福州火车南站",
+          "福州火車南站",
+          "fú zhōu huǒ chē nán zhàn"
+        ],
+        "order": 19
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3529273,
+          26.0237944
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Pandun",
+        "display_name": "Pandun (潘墩)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Pandun",
+          "潘墩",
+          "pān dūn"
+        ],
+        "order": 0
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.360214,
+          26.018205
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Linpu",
+        "display_name": "Linpu (林浦)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Linpu",
+          "林浦",
+          "lín pǔ"
+        ],
+        "order": 1
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3838238,
+          26.0091845
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Zhanglan",
+        "display_name": "Zhanglan (樟岚)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Zhanglan",
+          "樟岚",
+          "樟嵐",
+          "zhāng lán"
+        ],
+        "order": 2
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4101237,
+          25.9971624
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Liangcuo",
+        "display_name": "Liangcuo (梁厝)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Liangcuo",
+          "梁厝",
+          "liáng cuò"
+        ],
+        "order": 3
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4156178,
+          25.9874602
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Xiayang",
+        "display_name": "Xiayang (下洋)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Xiayang",
+          "下洋",
+          "xià yáng"
+        ],
+        "order": 4
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.469562,
+          25.9596486
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Yingqian",
+        "display_name": "Yingqian (营前)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Yingqian",
+          "营前",
+          "營前",
+          "yíng qián"
+        ],
+        "order": 5
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4856465,
+          25.9543656
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Hangcheng",
+        "display_name": "Hangcheng (航城)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Hangcheng",
+          "航城",
+          "háng chéng"
+        ],
+        "order": 6
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4979559,
+          25.9612011
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Zhenghe",
+        "display_name": "Zhenghe (郑和)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Zhenghe",
+          "郑和",
+          "鄭和",
+          "zhèng hé"
+        ],
+        "order": 7
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.511081,
+          25.9613208
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Shiyang",
+        "display_name": "Shiyang (十洋)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Shiyang",
+          "十洋",
+          "shí yáng"
+        ],
+        "order": 8
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5247205,
+          25.9539466
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Wuhang",
+        "display_name": "Wuhang (吴航)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Wuhang",
+          "吴航",
+          "吳航",
+          "wú háng"
+        ],
+        "order": 9
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5351223,
+          25.9422786
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Heshang",
+        "display_name": "Heshang (鹤上)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Heshang",
+          "鹤上",
+          "鶴上",
+          "hè shàng"
+        ],
+        "order": 10
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5420231,
+          25.9339633
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Shajing",
+        "display_name": "Shajing (沙京)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Shajing",
+          "沙京",
+          "shā jīng"
+        ],
+        "order": 11
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5780874,
+          25.9155265
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Xiawu",
+        "display_name": "Xiawu (下吴)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Xiawu",
+          "下吴",
+          "下吳",
+          "xià wú"
+        ],
+        "order": 12
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5990359,
+          25.9026647
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Wanshou",
+        "display_name": "Wanshou (万寿)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Wanshou",
+          "万寿",
+          "萬壽",
+          "wàn shòu"
+        ],
+        "order": 13
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5659365,
+          25.9227958
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Lianhua",
+        "display_name": "Lianhua (莲花)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Lianhua",
+          "莲花",
+          "蓮花",
+          "lián huā"
+        ],
+        "order": 14
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5894145,
+          25.9085821
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Hujing",
+        "display_name": "Hujing (壶井)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Hujing",
+          "壶井",
+          "壺井",
+          "hú jǐng"
+        ],
+        "order": 15
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6061969,
+          25.8982756
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Wansha / Fuzhou No.3 High School Binhai Campus",
+        "display_name": "Wansha / Fuzhou No.3 High School Binhai Campus (万沙·滨海三中)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Wansha / Fuzhou No.3 High School Binhai Campus",
+          "万沙·滨海三中",
+          "萬沙·濱海三中",
+          "wàn shā · bīn hǎi sān zhōng",
+          "Wansha",
+          "Fuzhou No.3 High School Binhai Campus"
+        ],
+        "order": 16
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6052438,
+          25.8872642
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Binhai CBD",
+        "display_name": "Binhai CBD (滨海中央商务区)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Binhai CBD",
+          "滨海中央商务区",
+          "濱海中央商務區",
+          "bīn hǎi zhōng yāng shāng wù qū"
+        ],
+        "order": 17
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6028466,
+          25.8821228
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Shawei",
+        "display_name": "Shawei (沙尾)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Shawei",
+          "沙尾",
+          "shā wěi"
+        ],
+        "order": 18
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6001244,
+          25.8743953
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Jinbin Road",
+        "display_name": "Jinbin Road (金滨路)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Jinbin Road",
+          "金滨路",
+          "金濱路",
+          "jīn bīn lù"
+        ],
+        "order": 19
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5984573,
+          25.8684045
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Shibakongzha",
+        "display_name": "Shibakongzha (十八孔闸)",
+        "line": "fuzhou6",
+        "alternate_names": [
+          "Shibakongzha",
+          "十八孔闸",
+          "十八孔閘",
+          "shí bā kǒng zhá"
+        ],
+        "order": 20
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3128293,
+          26.1124078
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Fuzhou Railway Station",
+        "display_name": "Fuzhou Railway Station (福州火车站)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Fuzhou Railway Station",
+          "福州火车站",
+          "福州火車站",
+          "fú zhōu huǒ chē zhàn"
+        ],
+        "order": 0
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3118473,
+          26.0899167
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Dongmen",
+        "display_name": "Dongmen (东门)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Dongmen",
+          "东门",
+          "東門",
+          "dōng mén"
+        ],
+        "order": 1
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3145328,
+          26.0783475
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Mindu",
+        "display_name": "Mindu (闽都)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Mindu",
+          "闽都",
+          "閩都",
+          "mǐn dōu"
+        ],
+        "order": 2,
+        "cluster_key": "fuzhou-shuibu-mindu-complex"
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3150143,
+          26.06701
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Nangongyuan",
+        "display_name": "Nangongyuan (南公园)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Nangongyuan",
+          "南公园",
+          "南公園",
+          "nán gōng yuán"
+        ],
+        "order": 3
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3177853,
+          26.0386034
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Sanchajie",
+        "display_name": "Sanchajie (三叉街)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Sanchajie",
+          "三叉街",
+          "sān chā jiē"
+        ],
+        "order": 4
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3309,
+          25.9904
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Difengjiang",
+        "display_name": "Difengjiang (帝封江)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Difengjiang",
+          "帝封江",
+          "dì fēng jiāng"
+        ],
+        "order": 5
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3816102,
+          25.9333336
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Xiangqian",
+        "display_name": "Xiangqian (祥谦)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Xiangqian",
+          "祥谦",
+          "祥謙",
+          "xiáng qiān"
+        ],
+        "order": 6
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4806387,
+          25.9268629
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Shouzhan",
+        "display_name": "Shouzhan (首占)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Shouzhan",
+          "首占",
+          "首佔",
+          "shǒu zhàn"
+        ],
+        "order": 7
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5933296,
+          25.8947864
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Dashuju",
+        "display_name": "Dashuju (大数据)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Dashuju",
+          "大数据",
+          "大數據",
+          "dà shù jù"
+        ],
+        "order": 8
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6052438,
+          25.8872642
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Binhai CBD",
+        "display_name": "Binhai CBD (滨海中央商务区)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Binhai CBD",
+          "滨海中央商务区",
+          "濱海中央商務區",
+          "bīn hǎi zhōng yāng shāng wù qū"
+        ],
+        "order": 9
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3242,
+          26.012
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Gaishan",
+        "display_name": "Gaishan (盖山)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Gaishan",
+          "盖山",
+          "蓋山",
+          "gài shān"
+        ],
+        "order": 10
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6702443,
+          25.9311243
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Airport",
+        "display_name": "Airport (机场)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Airport",
+          "机场",
+          "機場",
+          "jī chǎng",
+          "Fuzhou Changle International Airport",
+          "FOC"
+        ],
+        "order": 11
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5525,
+          25.9174
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Lianhuashan",
+        "display_name": "Lianhuashan (莲花山)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Lianhuashan",
+          "莲花山",
+          "蓮花山",
+          "lián huā shān"
+        ],
+        "order": 12
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5648,
+          25.9107
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Binhaixi",
+        "display_name": "Binhaixi (滨海西)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Binhaixi",
+          "滨海西",
+          "濱海西",
+          "bīn hǎi xī"
+        ],
+        "order": 13
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6906685,
+          25.9771254
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Wenling",
+        "display_name": "Wenling (文岭)",
+        "line": "fuzhouf1",
+        "alternate_names": [
+          "Wenling",
+          "文岭",
+          "文嶺",
+          "wén lǐng"
+        ],
+        "order": 14
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3724049,
+          26.0564847
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Xiayuan",
+        "display_name": "Xiayuan (下院)",
+        "line": "gushan",
+        "alternate_names": [
+          "Xiayuan",
+          "下院",
+          "xià yuàn"
+        ],
+        "order": 0,
+        "cluster_key": "fuzhou-gushan-complex"
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3838338,
+          26.055359
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Eighteen Scenic Spots",
+        "display_name": "Eighteen Scenic Spots (十八景)",
+        "line": "gushan",
+        "alternate_names": [
+          "Eighteen Scenic Spots",
+          "十八景",
+          "shí bā jǐng"
+        ],
+        "order": 1
+      },
+      "id": 146
+    }
+  ]
+}

@@ -568,7 +568,6 @@ const rawCities: CityBase[] = [
     name: 'Fuzhou (福州), FJ',
     link: '/asia/china/fuzhou',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Hefei (合肥), AH',
@@ -1011,7 +1010,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/china/delingha',
   'asia/china/dujiangyan',
   'asia/china/fenghuang',
-  'asia/china/fuzhou',
   'asia/china/guangan',
   'asia/china/guilin',
   'asia/china/hangzhou',

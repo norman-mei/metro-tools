@@ -1,0 +1,58 @@
+{
+  "fuzhou1": {
+    "name": "Line 1",
+    "color": "#BB1E10",
+    "backgroundColor": "#BB1E10",
+    "textColor": "#ffffff",
+    "icon": "fuzhou1.png",
+    "order": 1
+  },
+  "fuzhou2": {
+    "name": "Line 2",
+    "color": "#325928",
+    "backgroundColor": "#325928",
+    "textColor": "#ffffff",
+    "icon": "fuzhou2.png",
+    "order": 2
+  },
+  "fuzhou4": {
+    "name": "Line 4",
+    "color": "#FF7F41",
+    "backgroundColor": "#FF7F41",
+    "textColor": "#ffffff",
+    "icon": "fuzhou4.png",
+    "order": 4
+  },
+  "fuzhou5": {
+    "name": "Line 5",
+    "color": "#893B67",
+    "backgroundColor": "#893B67",
+    "textColor": "#ffffff",
+    "icon": "fuzhou5.png",
+    "order": 5
+  },
+  "fuzhou6": {
+    "name": "Line 6",
+    "color": "#005EB8",
+    "backgroundColor": "#005EB8",
+    "textColor": "#ffffff",
+    "icon": "fuzhou6.png",
+    "order": 6
+  },
+  "fuzhouf1": {
+    "name": "Binhai Express",
+    "color": "#00ADBB",
+    "backgroundColor": "#00ADBB",
+    "textColor": "#ffffff",
+    "icon": "fuzhouf1.png",
+    "order": 7
+  },
+  "gushan": {
+    "name": "Gushan Tourist Cableway",
+    "color": "#008080",
+    "backgroundColor": "#008080",
+    "textColor": "#ffffff",
+    "icon": "gushan.png",
+    "order": 301
+  }
+}
