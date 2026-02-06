@@ -1,0 +1,552 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8272765,
+          21.0283804
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Cat Linh",
+        "line": "Hanoi2A",
+        "order": 0,
+        "alternate_names": [
+          "Cat Linh",
+          "Cát Linh"
+        ]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8253499,
+          21.020154
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "La Thanh",
+        "line": "Hanoi2A",
+        "order": 1,
+        "alternate_names": [
+          "La Thanh",
+          "La Thành"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8194727,
+          21.0145568
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Thai Ha",
+        "line": "Hanoi2A",
+        "order": 2,
+        "alternate_names": [
+          "Thai Ha",
+          "Thái Hà"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.816087,
+          21.0063974
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Lang",
+        "line": "Hanoi2A",
+        "order": 3,
+        "alternate_names": [
+          "Lang",
+          "Láng"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8122488,
+          20.9976814
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Thuong Dinh",
+        "line": "Hanoi2A",
+        "order": 4,
+        "alternate_names": [
+          "Thuong Dinh",
+          "Thượng Đình"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8044206,
+          20.9922989
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Vanh Dai 3",
+        "line": "Hanoi2A",
+        "order": 5,
+        "alternate_names": [
+          "Vanh Dai 3",
+          "Vành Đai 3",
+          "Ring Road 3"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7930553,
+          20.9842848
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Phung Khoang",
+        "line": "Hanoi2A",
+        "order": 6,
+        "alternate_names": [
+          "Phung Khoang",
+          "Phùng Khoang"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7847989,
+          20.9777315
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Van Quan",
+        "line": "Hanoi2A",
+        "order": 7,
+        "alternate_names": [
+          "Van Quan",
+          "Văn Quán"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7749565,
+          20.9702189
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Ha Dong",
+        "line": "Hanoi2A",
+        "order": 8,
+        "alternate_names": [
+          "Ha Dong",
+          "Hà Đông"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7668089,
+          20.9638323
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "La Khe",
+        "line": "Hanoi2A",
+        "order": 9,
+        "alternate_names": [
+          "La Khe",
+          "La Khê"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7561966,
+          20.9556405
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Van Khe",
+        "line": "Hanoi2A",
+        "order": 10,
+        "alternate_names": [
+          "Van Khe",
+          "Văn Khê"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7484253,
+          20.9497797
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Yen Nghia",
+        "line": "Hanoi2A",
+        "order": 11,
+        "alternate_names": [
+          "Yen Nghia",
+          "Yên Nghĩa"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7352194,
+          21.0525714
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nhon",
+        "line": "Hanoi3",
+        "order": 0,
+        "alternate_names": [
+          "Nhon",
+          "Nhổn"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.735244,
+          21.0526112
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nhon",
+        "line": "Hanoi3",
+        "order": 0,
+        "alternate_names": [
+          "Nhon",
+          "Nhổn"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7352317,
+          21.0525913
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nhon",
+        "line": "Hanoi3",
+        "order": 0,
+        "alternate_names": [
+          "Nhon",
+          "Nhổn"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7448067,
+          21.0479764
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Minh Khai",
+        "line": "Hanoi3",
+        "order": 1,
+        "alternate_names": [
+          "Minh Khai"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7552704,
+          21.0439219
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Phu Dien",
+        "line": "Hanoi3",
+        "order": 2,
+        "alternate_names": [
+          "Phu Dien",
+          "Phú Diễn"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7626912,
+          21.0412207
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Cau Dien",
+        "line": "Hanoi3",
+        "order": 3,
+        "alternate_names": [
+          "Cau Dien",
+          "Cầu Diễn"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7729903,
+          21.0380465
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Le Duc Tho",
+        "line": "Hanoi3",
+        "order": 4,
+        "alternate_names": [
+          "Le Duc Tho",
+          "Lê Đức Thọ"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782693,
+          21.0366627
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "National University",
+        "line": "Hanoi3",
+        "order": 5,
+        "alternate_names": [
+          "National University",
+          "Đại học Quốc Gia"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943718,
+          21.0349218
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Chua Ha",
+        "line": "Hanoi3",
+        "order": 6,
+        "alternate_names": [
+          "Chua Ha",
+          "Chùa Hà"
+        ]
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8033629,
+          21.0292159
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Cau Giay",
+        "line": "Hanoi3",
+        "order": 7,
+        "alternate_names": [
+          "Cau Giay",
+          "Cầu Giấy"
+        ]
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8141,
+          21.0305
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Kim Ma",
+        "line": "Hanoi3",
+        "order": 8,
+        "alternate_names": [
+          "Kim Ma",
+          "Kim Mã"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8293,
+          21.0292
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Cat Linh",
+        "line": "Hanoi3",
+        "order": 9,
+        "alternate_names": [
+          "Cat Linh",
+          "Cát Linh"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8367,
+          21.0267
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Van Mieu",
+        "line": "Hanoi3",
+        "order": 10,
+        "alternate_names": [
+          "Van Mieu",
+          "Văn Miếu"
+        ]
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8406959,
+          21.0242596
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Ha Noi",
+        "line": "Hanoi3",
+        "order": 11,
+        "alternate_names": [
+          "Ha Noi",
+          "Hà Nội",
+          "Hanoi"
+        ]
+      },
+      "id": 25
+    }
+  ]
+}
