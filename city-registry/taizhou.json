@@ -1,0 +1,28 @@
+{
+  "city": "taizhou",
+  "continent": "asia",
+  "bbox": [
+    28.3096079,
+    121.3196903,
+    28.6724717,
+    121.4119396
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

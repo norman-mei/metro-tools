@@ -1,0 +1,35 @@
+{
+  "city": "maracaibo",
+  "continent": "south america",
+  "bbox": [
+    10.616133571583731,
+    -71.66828036230388,
+    10.639186369677802,
+    -71.62144145822889
+  ],
+  "localLanguages": [
+    "es"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Line1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

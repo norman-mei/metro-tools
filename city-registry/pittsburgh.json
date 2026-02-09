@@ -1,0 +1,53 @@
+{
+  "city": "pittsburgh",
+  "continent": "north america",
+  "bbox": [
+    40.28672077325884,
+    -80.25543823551436,
+    40.49596175668668,
+    -79.99478599513229
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "RD",
+      "name": "Red Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "SV",
+      "name": "Silver Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "BL",
+      "name": "Blue Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "pittsburghAPM",
+      "name": "Pittsburgh Airport Tram",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

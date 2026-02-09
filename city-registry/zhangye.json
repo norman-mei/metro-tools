@@ -1,0 +1,28 @@
+{
+  "city": "zhangye",
+  "continent": "asia",
+  "bbox": [
+    38.4259,
+    99.9498,
+    39.4259,
+    100.9498
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

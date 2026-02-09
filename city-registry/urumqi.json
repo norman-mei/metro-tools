@@ -1,0 +1,47 @@
+{
+  "city": "urumqi",
+  "continent": "asia",
+  "bbox": [
+    43.7589686,
+    87.4395204,
+    43.9214087,
+    87.6396609
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "urumqi1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "urumqi2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "urumqi4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 4
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

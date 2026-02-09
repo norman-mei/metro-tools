@@ -1,0 +1,53 @@
+{
+  "city": "sheffield",
+  "continent": "europe",
+  "bbox": [
+    53.328570482778886,
+    -1.5101605302804206,
+    53.4429568484816,
+    -1.3433177336855098
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Yellow",
+      "name": "Yellow",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Blue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Purple",
+      "name": "Purple",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "TramTrain",
+      "name": "Tram Train",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

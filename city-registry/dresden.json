@@ -1,0 +1,101 @@
+{
+  "city": "dresden",
+  "continent": "europe",
+  "bbox": [
+    50.9990168,
+    13.564975545454546,
+    51.16006244545454,
+    13.855074227272727
+  ],
+  "localLanguages": [
+    "de"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "DresdenTram1",
+      "name": "1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "DresdenTram10",
+      "name": "10",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "DresdenTram11",
+      "name": "11",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "DresdenTram12",
+      "name": "12",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "DresdenTram13",
+      "name": "13",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "DresdenTram2",
+      "name": "2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "DresdenTram3",
+      "name": "3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "DresdenTram4",
+      "name": "4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "DresdenTram6",
+      "name": "6",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "DresdenTram7",
+      "name": "7",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "DresdenTram8",
+      "name": "8",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "DresdenTram9",
+      "name": "9",
+      "keywords": [],
+      "order": 8
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

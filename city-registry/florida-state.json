@@ -1,0 +1,215 @@
+{
+  "city": "florida-state",
+  "continent": "north america",
+  "bbox": [
+    25.68322565358954,
+    -82.53885337851153,
+    30.333193019369787,
+    -80.05226640477639
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "floridaGR",
+      "name": "Green",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "floridaOR",
+      "name": "Orange",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "floridaOM",
+      "name": "Omni Loop",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "floridaBR",
+      "name": "Brickell Loop",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "floridaIN",
+      "name": "Inner Loop",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "brightline",
+      "name": "Brightline",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Tri-Rail",
+      "name": "Tri-Rail",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "floridaSUN",
+      "name": "SunRail",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "DisneyDRR",
+      "name": "Disneyland Railroad",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "DisneyMKR",
+      "name": "Magic Kingdom Resort",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "DisneyMKX",
+      "name": "Magic Kingdom Express",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "DisneyEPC",
+      "name": "EPCOT",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "DisneySKYEPC",
+      "name": "Riviera Resort and EPCOT",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "DisneySKYHS",
+      "name": "Hollywood Studios",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "DisneySKYPOP",
+      "name": "Pop Century/Art of Animation",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "floridaTECO",
+      "name": "TECO Line Streetcar",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "floridaSKYTRAIN",
+      "name": "MIA Skytrain",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "floridaMET",
+      "name": "MIA e Train",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "floridaMIA",
+      "name": "MIA Mover",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "floridaASA",
+      "name": "Airside A APM",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "floridaASC",
+      "name": "Airside C APM",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "floridaASE",
+      "name": "Airside E APM",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "floridaASF",
+      "name": "Airside F APM",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "floridaSKYCONNECT",
+      "name": "SkyConnect",
+      "keywords": [],
+      "order": 23
+    },
+    {
+      "id": "floridaAS1",
+      "name": "Airside 1 APM",
+      "keywords": [],
+      "order": 24
+    },
+    {
+      "id": "floridaAS2",
+      "name": "Airside 2 APM",
+      "keywords": [],
+      "order": 25
+    },
+    {
+      "id": "floridaAS3",
+      "name": "Airside 3 APM",
+      "keywords": [],
+      "order": 26
+    },
+    {
+      "id": "floridaAS4",
+      "name": "Airside 4 APM",
+      "keywords": [],
+      "order": 27
+    },
+    {
+      "id": "floridaTL",
+      "name": "Terminal Link",
+      "keywords": [],
+      "order": 28
+    },
+    {
+      "id": "NB",
+      "name": "Northbank",
+      "keywords": [],
+      "order": 29
+    },
+    {
+      "id": "SB",
+      "name": "Southbank",
+      "keywords": [],
+      "order": 30
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,28 @@
+{
+  "city": "hiroshima",
+  "continent": "asia",
+  "bbox": [
+    33.8853,
+    131.9553,
+    34.8853,
+    132.9553
+  ],
+  "localLanguages": [
+    "ja"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

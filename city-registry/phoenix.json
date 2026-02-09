@@ -1,0 +1,53 @@
+{
+  "city": "phoenix",
+  "continent": "north america",
+  "bbox": [
+    33.3779368,
+    -112.1199655,
+    33.575182,
+    -111.7885636
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "ValleyMetroA",
+      "name": "A Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "ValleyMetroB",
+      "name": "B Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "ValleyMetroS",
+      "name": "S Line Streetcar",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "PHXSKY",
+      "name": "PHX SkyTrain",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

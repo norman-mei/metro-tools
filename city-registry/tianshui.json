@@ -1,0 +1,28 @@
+{
+  "city": "tianshui",
+  "continent": "asia",
+  "bbox": [
+    34.0809,
+    105.2249,
+    35.0809,
+    106.2249
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

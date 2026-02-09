@@ -1,0 +1,41 @@
+{
+  "city": "charlotte",
+  "continent": "north america",
+  "bbox": [
+    35.1058422866378,
+    -80.8839021493663,
+    35.3150573420683,
+    -80.7321254114811
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "501",
+      "name": "LYNX Blue Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "510",
+      "name": "CityLYNX Gold Line",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

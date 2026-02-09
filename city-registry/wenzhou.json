@@ -1,0 +1,28 @@
+{
+  "city": "wenzhou",
+  "continent": "asia",
+  "bbox": [
+    27.7534307,
+    120.5646229,
+    28.1372781,
+    121.005496
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

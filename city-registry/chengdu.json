@@ -1,0 +1,28 @@
+{
+  "city": "chengdu",
+  "continent": "asia",
+  "bbox": [
+    30.0728,
+    103.5665,
+    31.0728,
+    104.5665
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

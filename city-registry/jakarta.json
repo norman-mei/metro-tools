@@ -1,0 +1,28 @@
+{
+  "city": "jakarta",
+  "continent": "asia",
+  "bbox": [
+    -6.7088,
+    106.3456,
+    -5.7088,
+    107.3456
+  ],
+  "localLanguages": [
+    "id"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,28 @@
+{
+  "city": "tianjin",
+  "continent": "asia",
+  "bbox": [
+    38.6333,
+    116.7,
+    39.6333,
+    117.7
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

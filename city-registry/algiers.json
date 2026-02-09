@@ -1,0 +1,36 @@
+{
+  "city": "algiers",
+  "continent": "africa",
+  "bbox": [
+    0,
+    -0.05,
+    0.08,
+    0.05
+  ],
+  "localLanguages": [
+    "ar",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "PL0",
+      "name": "Placeholder Line",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

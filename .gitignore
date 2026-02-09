@@ -46,3 +46,6 @@ public/city-cards/*
 # database artifacts
 prisma/*.db
 prisma/*.sqlite
+
+# metro sync cache
+/tmp/metro-sync

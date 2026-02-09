@@ -1,0 +1,28 @@
+{
+  "city": "jining",
+  "continent": "asia",
+  "bbox": [
+    34.9146,
+    116.0873,
+    35.9146,
+    117.0873
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

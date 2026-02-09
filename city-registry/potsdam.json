@@ -1,0 +1,71 @@
+{
+  "city": "potsdam",
+  "continent": "europe",
+  "bbox": [
+    52.3582521,
+    13.0105243,
+    52.4324904,
+    13.141990300000002
+  ],
+  "localLanguages": [
+    "de"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "PotsdamTram91",
+      "name": "91",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "PotsdamTram92",
+      "name": "92",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "PotsdamTram93",
+      "name": "93",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "PotsdamTram94",
+      "name": "94",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "PotsdamTram96",
+      "name": "96",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "PotsdamTram98",
+      "name": "98",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "PotsdamTram99",
+      "name": "99",
+      "keywords": [],
+      "order": 7
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

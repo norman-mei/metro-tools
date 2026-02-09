@@ -1,0 +1,28 @@
+{
+  "city": "guilin",
+  "continent": "asia",
+  "bbox": [
+    24.7736,
+    109.79,
+    25.7736,
+    110.79
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

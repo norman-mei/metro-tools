@@ -1,0 +1,28 @@
+{
+  "city": "bangkok",
+  "continent": "asia",
+  "bbox": [
+    13.2563,
+    100.0018,
+    14.2563,
+    101.0018
+  ],
+  "localLanguages": [
+    "th"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

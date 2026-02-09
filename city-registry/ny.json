@@ -1,0 +1,317 @@
+{
+  "city": "ny",
+  "continent": "north america",
+  "bbox": [
+    39.3630360961291,
+    -75.67135320914736,
+    42.1056773,
+    -71.95290134199996
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "NewYorkSubway1",
+      "name": "1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "NewYorkSubway2",
+      "name": "2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "NewYorkSubway3",
+      "name": "3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "NewYorkSubway4",
+      "name": "4",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "NewYorkSubway5",
+      "name": "5",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "NewYorkSubway6",
+      "name": "6",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "NewYorkSubway6X",
+      "name": "<6>",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "NewYorkSubway7",
+      "name": "7",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "NewYorkSubway7X",
+      "name": "<7>",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "NewYorkSubwayA",
+      "name": "A",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "NewYorkSubwayC",
+      "name": "C",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "NewYorkSubwayE",
+      "name": "E",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "NewYorkSubwayB",
+      "name": "B",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "NewYorkSubwayD",
+      "name": "D",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "NewYorkSubwayF",
+      "name": "F",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "NewYorkSubwayFX",
+      "name": "<F>",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "NewYorkSubwayM",
+      "name": "M",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "NewYorkSubwayG",
+      "name": "G",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "NewYorkSubwayJ",
+      "name": "J",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "NewYorkSubwayZ",
+      "name": "Z",
+      "keywords": [],
+      "order": 24
+    },
+    {
+      "id": "NewYorkSubwayL",
+      "name": "L",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "NewYorkSubwayN",
+      "name": "N",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "NewYorkSubwayQ",
+      "name": "Q",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "NewYorkSubwayT",
+      "name": "T",
+      "keywords": [],
+      "order": 29
+    },
+    {
+      "id": "NewYorkSubwayR",
+      "name": "R",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "NewYorkSubwayW",
+      "name": "W",
+      "keywords": [],
+      "order": 23
+    },
+    {
+      "id": "NewYorkSubwaySI",
+      "name": "SIR Local",
+      "keywords": [],
+      "order": 25
+    },
+    {
+      "id": "NewYorkSubwaySIExpress",
+      "name": "SIR Express",
+      "keywords": [],
+      "order": 26
+    },
+    {
+      "id": "NewYorkSubwayGS",
+      "name": "42 St Shuttle",
+      "keywords": [],
+      "order": 28
+    },
+    {
+      "id": "NewYorkSubwayFS",
+      "name": "Franklin Av Shuttle",
+      "keywords": [],
+      "order": 27
+    },
+    {
+      "id": "NewYorkSubwayPATHHob33",
+      "name": "HOB-33",
+      "keywords": [],
+      "order": 30
+    },
+    {
+      "id": "NewYorkSubwayPATHHobwtc",
+      "name": "HOB-WTC",
+      "keywords": [],
+      "order": 31
+    },
+    {
+      "id": "NewYorkSubwayPATHJsq33",
+      "name": "JSQ-33",
+      "keywords": [],
+      "order": 32
+    },
+    {
+      "id": "NewYorkSubwayPATHNwkwtc",
+      "name": "NWK-WTC",
+      "keywords": [],
+      "order": 34
+    },
+    {
+      "id": "NJTLR8thStHoboken",
+      "name": "NJT HBLR 8th St - Hoboken",
+      "keywords": [],
+      "order": 70
+    },
+    {
+      "id": "NJTLRWestSideTonnelle",
+      "name": "NJT HBLR West Side - Tonnelle",
+      "keywords": [],
+      "order": 71
+    },
+    {
+      "id": "NJTLRHobokenTonnelle",
+      "name": "NJT HBLR Hoboken - Tonnelle",
+      "keywords": [],
+      "order": 72
+    },
+    {
+      "id": "NJTLRBayonneFlyer",
+      "name": "NJT Bayonne Flyer",
+      "keywords": [],
+      "order": 73
+    },
+    {
+      "id": "NJTLRNewark",
+      "name": "Newark City Subway",
+      "keywords": [],
+      "order": 74
+    },
+    {
+      "id": "NJTLRNewarkBroad",
+      "name": "Broad St Extension",
+      "keywords": [],
+      "order": 75
+    },
+    {
+      "id": "NJTLRRiverLine",
+      "name": "NJT River Line",
+      "keywords": [],
+      "order": 76
+    },
+    {
+      "id": "NJTLRGlassboroCamden",
+      "name": "Glassboro Camden Line",
+      "keywords": [],
+      "order": 77
+    },
+    {
+      "id": "AirTrainEWR",
+      "name": "EWR Airtrain",
+      "keywords": [],
+      "order": 78
+    },
+    {
+      "id": "AirTrainJFKHowardBeach",
+      "name": "AirTrain JFK – Howard Beach",
+      "keywords": [],
+      "order": 79
+    },
+    {
+      "id": "AirTrainJFKJamaica",
+      "name": "AirTrain JFK – Jamaica",
+      "keywords": [],
+      "order": 80
+    },
+    {
+      "id": "AirTrainJFKAllTerminals",
+      "name": "AirTrain JFK – All Terminals Loop",
+      "keywords": [],
+      "order": 81
+    },
+    {
+      "id": "IBX",
+      "name": "IBX",
+      "keywords": [],
+      "order": 82
+    },
+    {
+      "id": "RIOCRooseveltIslandTram",
+      "name": "Roosevelt Island Tram",
+      "keywords": [],
+      "order": 85
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

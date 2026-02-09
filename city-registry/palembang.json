@@ -1,0 +1,28 @@
+{
+  "city": "palembang",
+  "continent": "asia",
+  "bbox": [
+    -3.4761,
+    104.2566,
+    -2.4761,
+    105.2566
+  ],
+  "localLanguages": [
+    "id"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

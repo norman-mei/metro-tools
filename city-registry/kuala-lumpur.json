@@ -1,0 +1,28 @@
+{
+  "city": "kuala-lumpur",
+  "continent": "asia",
+  "bbox": [
+    2.639,
+    101.1869,
+    3.639,
+    102.1869
+  ],
+  "localLanguages": [
+    "ms"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

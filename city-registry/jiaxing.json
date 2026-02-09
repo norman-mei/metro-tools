@@ -1,0 +1,28 @@
+{
+  "city": "jiaxing",
+  "continent": "asia",
+  "bbox": [
+    30.246,
+    120.2555,
+    31.246,
+    121.2555
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

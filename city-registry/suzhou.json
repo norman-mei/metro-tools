@@ -1,0 +1,28 @@
+{
+  "city": "suzhou",
+  "continent": "asia",
+  "bbox": [
+    30.7989,
+    120.0853,
+    31.7989,
+    121.0853
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

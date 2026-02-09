@@ -1,0 +1,83 @@
+{
+  "city": "portland",
+  "continent": "north america",
+  "bbox": [
+    45.311156,
+    -122.991034,
+    45.6054447,
+    -122.4184931
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MAXBlue",
+      "name": "MAX Blue Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MAXRed",
+      "name": "MAX Red Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MAXYellow",
+      "name": "MAX Yellow Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "MAXGreen",
+      "name": "MAX Green Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "MAXOrange",
+      "name": "MAX Orange Line",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "PortlandA",
+      "name": "Portland Streetcar A Loop",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "PortlandB",
+      "name": "Portland Streetcar B Loop",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "PortlandNS",
+      "name": "Portland Streetcar North/South Line",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "PortlandWES",
+      "name": "WES Commuter Rail",
+      "keywords": [],
+      "order": 8
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

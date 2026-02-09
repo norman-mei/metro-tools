@@ -1,0 +1,28 @@
+{
+  "city": "wuhan",
+  "continent": "asia",
+  "bbox": [
+    30.0928,
+    113.8055,
+    31.0928,
+    114.8055
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

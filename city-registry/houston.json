@@ -1,0 +1,59 @@
+{
+  "city": "houston",
+  "continent": "north america",
+  "bbox": [
+    29.673289736432793,
+    -95.4056102604674,
+    29.987465421976722,
+    -95.30257879656325
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Houston_METRORail_Red_Line_icon",
+      "name": "Red Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Houston_METRORail_Green_Line_icon",
+      "name": "Green Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Houston_METRORail_Purple_Line_icon",
+      "name": "Purple Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "houstonSUB",
+      "name": "Subway",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "houstonSKY",
+      "name": "Skyway",
+      "keywords": [],
+      "order": 4
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

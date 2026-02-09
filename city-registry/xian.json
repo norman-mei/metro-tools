@@ -1,0 +1,28 @@
+{
+  "city": "xian",
+  "continent": "asia",
+  "bbox": [
+    33.8416,
+    108.4398,
+    34.8416,
+    109.4398
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

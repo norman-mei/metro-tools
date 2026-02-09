@@ -1,0 +1,28 @@
+{
+  "city": "london",
+  "continent": "europe",
+  "bbox": [
+    51.379089,
+    -0.972181,
+    51.70501,
+    0.330148
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

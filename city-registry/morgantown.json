@@ -1,0 +1,35 @@
+{
+  "city": "morgantown",
+  "continent": "north america",
+  "bbox": [
+    39.62982039634056,
+    -79.9758433450488,
+    39.65483586181284,
+    -79.95613131267292
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "PRT",
+      "name": "Morgantown PRT",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

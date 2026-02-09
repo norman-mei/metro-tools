@@ -1,0 +1,28 @@
+{
+  "city": "kunming",
+  "continent": "asia",
+  "bbox": [
+    24.551,
+    102.333,
+    25.551,
+    103.333
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

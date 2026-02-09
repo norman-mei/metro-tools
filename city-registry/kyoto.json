@@ -1,0 +1,71 @@
+{
+  "city": "kyoto",
+  "continent": "asia",
+  "bbox": [
+    34.9329593,
+    135.6778322,
+    35.0696375,
+    135.8638291
+  ],
+  "localLanguages": [
+    "ja"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Karasuma",
+      "name": "烏丸線 Karasuma Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Tozai",
+      "name": "東西線 Tōzai Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Arashiyama",
+      "name": "嵐山本線 Arashiyama Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Kitano",
+      "name": "北野線 Kitano Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "Eizan Cable",
+      "name": "鋼索線 Eizan Cable",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "Eizan Ropeway",
+      "name": "Eizan Ropeway",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Hieizan Railway",
+      "name": "比叡山鉄道 Hieizan Railway",
+      "keywords": [],
+      "order": 6
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

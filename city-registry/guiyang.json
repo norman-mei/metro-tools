@@ -1,0 +1,59 @@
+{
+  "city": "guiyang",
+  "continent": "asia",
+  "bbox": [
+    26.3789921,
+    106.4555437,
+    26.7352796,
+    106.8265213
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "guiyang1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "guiyang2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "guiyang3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "guiyangs1",
+      "name": "Line S1",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "guiyangt2",
+      "name": "Line T2",
+      "keywords": [],
+      "order": 4
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

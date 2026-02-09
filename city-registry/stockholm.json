@@ -1,0 +1,149 @@
+{
+  "city": "stockholm",
+  "continent": "europe",
+  "bbox": [
+    59.235453,
+    17.814916,
+    59.413848,
+    18.135025
+  ],
+  "localLanguages": [
+    "sv"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Tunnelbana10",
+      "name": "T10",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Tunnelbana11",
+      "name": "T11",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Tunnelbana13",
+      "name": "T13",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Tunnelbana14",
+      "name": "T14",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "Tunnelbana17",
+      "name": "T17",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "Tunnelbana18",
+      "name": "T18",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Tunnelbana19",
+      "name": "T19",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "Lokalbana30",
+      "name": "30",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "Lokalbana31",
+      "name": "31",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "LokalbanaL12",
+      "name": "L12",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "LokalbanaL21",
+      "name": "L21",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "LokalbanaL27",
+      "name": "L27",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "LokalbanaL28",
+      "name": "L28",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "LokalbanaL29",
+      "name": "L29",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "Pendeltag40",
+      "name": "40",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "Pendeltag41",
+      "name": "41",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "Pendeltag42X",
+      "name": "42X",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "Pendeltag43",
+      "name": "43",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "Pendeltag43X",
+      "name": "43X",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "Pendeltag48",
+      "name": "48",
+      "keywords": [],
+      "order": 19
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

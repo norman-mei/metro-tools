@@ -1,0 +1,28 @@
+{
+  "city": "beijing",
+  "continent": "asia",
+  "bbox": [
+    39.4042,
+    115.9074,
+    40.4042,
+    116.9074
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

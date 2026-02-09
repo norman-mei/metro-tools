@@ -1,0 +1,53 @@
+{
+  "city": "cleveland",
+  "continent": "north america",
+  "bbox": [
+    41.4095241436716,
+    -81.83819907063956,
+    41.53085124320542,
+    -81.51740910292652
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Red_Line",
+      "name": "Red Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Blue_Line",
+      "name": "Blue Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Green_Line",
+      "name": "Green Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Waterfront_Line",
+      "name": "Waterfront Line",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

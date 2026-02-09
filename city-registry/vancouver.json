@@ -1,0 +1,60 @@
+{
+  "city": "vancouver",
+  "continent": "north america",
+  "bbox": [
+    49.1060399,
+    -123.1794981,
+    49.309536,
+    -122.304897
+  ],
+  "localLanguages": [
+    "en",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "VancouverSkytrainCanadaLine",
+      "name": "Canada Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "VancouverSkytrainExpoLine",
+      "name": "Expo Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "VancouverSkytrainMillenniumLine",
+      "name": "Millennium Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "VancouverSeabusSeabus",
+      "name": "Seabus",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "VancouverWestCoastExpressWce",
+      "name": "West Coast Express",
+      "keywords": [],
+      "order": 4
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

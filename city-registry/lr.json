@@ -1,0 +1,41 @@
+{
+  "city": "lr",
+  "continent": "north america",
+  "bbox": [
+    34.74442789324823,
+    -92.2740416879829,
+    34.760093593327426,
+    -92.25881273919059
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "littlerockblue",
+      "name": "Metro Streetcar Blue Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "littlerockgreen",
+      "name": "Metro Streetcar Green Line",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

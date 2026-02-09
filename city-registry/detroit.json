@@ -1,0 +1,47 @@
+{
+  "city": "detroit",
+  "continent": "north america",
+  "bbox": [
+    42.20290517155995,
+    -83.3618252407449,
+    42.37186724836204,
+    -83.03953636732531
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "QL",
+      "name": "QLine",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "DPM",
+      "name": "Detroit People Mover",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "EXT",
+      "name": "ExpressTram",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

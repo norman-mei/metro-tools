@@ -1,0 +1,77 @@
+{
+  "city": "manchester",
+  "continent": "europe",
+  "bbox": [
+    53.36544920761489,
+    -2.347678677053285,
+    53.61739661649225,
+    -2.089554840994256
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Green",
+      "name": "Altrincham – Bury",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Purple",
+      "name": "Altrincham – Piccadilly",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Cyan",
+      "name": "Eccles – Ashton-under-Lyne",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Orange",
+      "name": "MediaCityUK – Etihad Campus",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "Blue",
+      "name": "Manchester Airport – Victoria",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "Pink",
+      "name": "East Didsbury – Rochdale Town Centre",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Grey",
+      "name": "East Didsbury – Shaw and Crompton",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "Red",
+      "name": "Trafford Centre – Deansgate-Castlefield",
+      "keywords": [],
+      "order": 7
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

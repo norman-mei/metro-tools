@@ -1,0 +1,41 @@
+{
+  "city": "taw",
+  "continent": "europe",
+  "bbox": [
+    54.902349441123725,
+    -1.7111468104386827,
+    55.042280157432074,
+    -1.3827341062918699
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Green",
+      "name": "Airport – South Hylton",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Orange",
+      "name": "St James – South Shields",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,185 @@
+{
+  "city": "chicago",
+  "continent": "north america",
+  "bbox": [
+    41.418594987067905,
+    -88.61773203665342,
+    42.58777174480642,
+    -86.29321817830625
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "CTAMetroBlueLine",
+      "name": "Blue Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "CTAMetroBrownLine",
+      "name": "Brown Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "CTAMetroGreenLine",
+      "name": "Green Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "CTAMetroOrangeLine",
+      "name": "Orange Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "CTAMetroPinkLine",
+      "name": "Pink Line",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "CTAMetroPurpleLine",
+      "name": "Purple Line",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "CTAMetroRedLine",
+      "name": "Red Line",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "CTAMetroYellowLine",
+      "name": "Yellow Line",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "Metra_BNSF",
+      "name": "BNSF",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "Metra_HC",
+      "name": "Heritage Corridor",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "Metra_ME",
+      "name": "Metra Electric (University Park)",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "Metra_ME_BI",
+      "name": "Metra Electric (Blue Island Branch)",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "Metra_ME_SC",
+      "name": "Metra Electric (South Chicago Branch)",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "Metra_MDW",
+      "name": "Milwaukee District West",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "Metra_MDN",
+      "name": "Milwaukee District North",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "Metra_NCS",
+      "name": "North Central Service",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "Metra_RI",
+      "name": "Rock Island District",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "Metra_RI_Bev",
+      "name": "Rock Island (Beverly Branch)",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "Metra_SWS",
+      "name": "SouthWest Service",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "Metra_UPN",
+      "name": "Union Pacific North",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "Metra_UPNW",
+      "name": "Union Pacific Northwest",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "Metra_UPW",
+      "name": "Union Pacific West",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "NICTD_SSL",
+      "name": "South Shore Line (SSL)",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "NICTD_MCL",
+      "name": "Monon Corridor Line (MCL)",
+      "keywords": [],
+      "order": 23
+    },
+    {
+      "id": "ChicagoATS",
+      "name": "Airport Transit System (ATS)",
+      "keywords": [],
+      "order": 24
+    },
+    {
+      "id": "kenoshaStreetcar",
+      "name": "Kenosha Streetcar",
+      "keywords": [],
+      "order": 25
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

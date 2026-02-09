@@ -1,0 +1,101 @@
+{
+  "city": "mexico-city",
+  "continent": "north america",
+  "bbox": [
+    19.28602,
+    -99.215983,
+    19.534455,
+    -98.960924
+  ],
+  "localLanguages": [
+    "es"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "DFMetro1",
+      "name": "Rosa",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "DFMetro2",
+      "name": "Azul",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "DFMetro3",
+      "name": "Verde",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "DFMetro4",
+      "name": "Azul",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "DFMetro5",
+      "name": "Amarilla",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "DFMetro6",
+      "name": "Roja",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "DFMetro7",
+      "name": "Naranja",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "DFMetro8",
+      "name": "Verde",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "DFMetro9",
+      "name": "Café",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "DFMetro12",
+      "name": "12",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "DFMetroA",
+      "name": "Morada",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "DFMetroB",
+      "name": "Bicolor",
+      "keywords": [],
+      "order": 11
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

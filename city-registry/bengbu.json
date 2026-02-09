@@ -1,0 +1,28 @@
+{
+  "city": "bengbu",
+  "continent": "asia",
+  "bbox": [
+    32.4155,
+    116.8893,
+    33.4155,
+    117.8893
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

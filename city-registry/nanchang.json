@@ -1,0 +1,53 @@
+{
+  "city": "nanchang",
+  "continent": "asia",
+  "bbox": [
+    28.522093,
+    115.716041,
+    28.8596232,
+    116.0775256
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "nanchang1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "nanchang2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "nanchang3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "nanchang4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,28 @@
+{
+  "city": "changsha",
+  "continent": "asia",
+  "bbox": [
+    27.7282,
+    112.4388,
+    28.7282,
+    113.4388
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

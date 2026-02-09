@@ -1,0 +1,47 @@
+{
+  "city": "shijiazhuang",
+  "continent": "asia",
+  "bbox": [
+    37.9674481,
+    114.4011736,
+    38.1621861,
+    114.6712594
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "shijiazhuang1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "shijiazhuang2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "shijiazhuang3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

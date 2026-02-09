@@ -1,0 +1,28 @@
+{
+  "city": "amtrak",
+  "continent": "north america",
+  "bbox": [
+    36.8283,
+    -101.5795,
+    42.8283,
+    -95.5795
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

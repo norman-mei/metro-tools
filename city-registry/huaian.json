@@ -1,0 +1,28 @@
+{
+  "city": "huaian",
+  "continent": "asia",
+  "bbox": [
+    33.1104,
+    118.5153,
+    34.1104,
+    119.5153
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

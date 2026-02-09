@@ -1,0 +1,161 @@
+{
+  "city": "munich",
+  "continent": "europe",
+  "bbox": [
+    47.88446,
+    11.037454,
+    48.413511,
+    11.969311
+  ],
+  "localLanguages": [
+    "de"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MunichUBahn_UbahnU1",
+      "name": "U1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MunichUBahn_UbahnU2",
+      "name": "U2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MunichUBahn_UbahnU3",
+      "name": "U3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "MunichUBahn_UbahnU4",
+      "name": "U4",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "MunichUBahn_UbahnU5",
+      "name": "U5",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "MunichUBahn_UbahnU6",
+      "name": "U6",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "MunichUBahn_UbahnU7",
+      "name": "U7",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "MunichUBahn_UbahnU8",
+      "name": "U8",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS1",
+      "name": "S1",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS2",
+      "name": "S2",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS20",
+      "name": "S20",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS3",
+      "name": "S3",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS4",
+      "name": "S4",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS6",
+      "name": "S6",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS7",
+      "name": "S7",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "MunichSBahn_DbRegioAgBayernS8",
+      "name": "S8",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "AugsburgTram_Strassenbahn1",
+      "name": "1",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "AugsburgTram_Strassenbahn2",
+      "name": "2",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "AugsburgTram_Strassenbahn3",
+      "name": "3",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "AugsburgTram_Strassenbahn4",
+      "name": "4",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "AugsburgTram_Strassenbahn6",
+      "name": "6",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "AugsburgTram_Strassenbahn8",
+      "name": "8",
+      "keywords": [],
+      "order": 21
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

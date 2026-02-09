@@ -1,0 +1,28 @@
+{
+  "city": "yinchuan",
+  "continent": "asia",
+  "bbox": [
+    37.9872,
+    105.7309,
+    38.9872,
+    106.7309
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

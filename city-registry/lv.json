@@ -1,0 +1,53 @@
+{
+  "city": "lv",
+  "continent": "north america",
+  "bbox": [
+    36.08119118918761,
+    -115.1686448131338,
+    36.14346959392559,
+    -115.13697481961586
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "LVM",
+      "name": "Las Vegas Monorail",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "LVGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "LVBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "LVRed",
+      "name": "Red",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

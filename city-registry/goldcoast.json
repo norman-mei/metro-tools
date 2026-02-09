@@ -1,0 +1,35 @@
+{
+  "city": "goldcoast",
+  "continent": "oceania",
+  "bbox": [
+    -28.0910671,
+    153.3389675,
+    -27.9256191,
+    153.4537537
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Glink",
+      "name": "G:link",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,113 @@
+{
+  "city": "tokyo",
+  "continent": "asia",
+  "bbox": [
+    35.587265,
+    139.612845,
+    35.791965,
+    139.95861
+  ],
+  "localLanguages": [
+    "ja"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TokyoMetroM",
+      "name": "丸ノ内線 Marunouchi Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "TokyoMetroMb",
+      "name": "丸ノ内線支線 Marunouchi Branch Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "TokyoMetroF",
+      "name": "副都心線 Fukutoshin Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "TokyoMetroC",
+      "name": "千代田線 Chiyoda Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "TokyoMetroZ",
+      "name": "半蔵門線 Hanzomon Line",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "TokyoMetroN",
+      "name": "南北線 Namboku Line",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "TokyoMetroH",
+      "name": "日比谷線 Hibiya Line",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "TokyoMetroY",
+      "name": "有楽町線 Yurakucho Line",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "TokyoMetroT",
+      "name": "東西線 Tozai Line",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "TokyoMetroG",
+      "name": "銀座線 Ginza Line",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "ToeiSubwayI",
+      "name": "三田線 Mita Line",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "ToeiSubwayE",
+      "name": "大江戸線 Oedo Line",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "ToeiSubwayS",
+      "name": "新宿線 Shinjuku Line",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "ToeiSubwayA",
+      "name": "浅草線 Asakusa Line",
+      "keywords": [],
+      "order": 13
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,28 @@
+{
+  "city": "daejeon",
+  "continent": "asia",
+  "bbox": [
+    35.8504,
+    126.8845,
+    36.8504,
+    127.8845
+  ],
+  "localLanguages": [
+    "ko"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

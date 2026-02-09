@@ -1,0 +1,28 @@
+{
+  "city": "sanya",
+  "continent": "asia",
+  "bbox": [
+    17.7528,
+    109.0121,
+    18.7528,
+    110.0121
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

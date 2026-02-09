@@ -1,0 +1,28 @@
+{
+  "city": "fenghuang",
+  "continent": "asia",
+  "bbox": [
+    27.4483,
+    109.0996,
+    28.4483,
+    110.0996
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

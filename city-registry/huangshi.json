@@ -1,0 +1,28 @@
+{
+  "city": "huangshi",
+  "continent": "asia",
+  "bbox": [
+    29.6995,
+    114.5389,
+    30.6995,
+    115.5389
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

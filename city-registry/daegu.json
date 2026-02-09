@@ -1,0 +1,28 @@
+{
+  "city": "daegu",
+  "continent": "asia",
+  "bbox": [
+    35.3714,
+    128.1014,
+    36.3714,
+    129.1014
+  ],
+  "localLanguages": [
+    "ko"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

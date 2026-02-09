@@ -1,0 +1,95 @@
+{
+  "city": "seattle",
+  "continent": "north america",
+  "bbox": [
+    47.15218780083131,
+    -122.5007995642418,
+    47.9799319922735,
+    -122.1075021
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "SoundTransit1",
+      "name": "1 Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "SoundTransit2",
+      "name": "2 Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "SoundTransitT",
+      "name": "T Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "SoundTransitN",
+      "name": "N Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "SoundTransitS",
+      "name": "S Line",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "SeattleStreetcarSLU",
+      "name": "South Lake Union",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "SeattleStreetcarFirstHill",
+      "name": "First Hill",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "SeattleCenterMonorail",
+      "name": "Seattle Center Monorail",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "MAXGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "MAXBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "MAXYellow",
+      "name": "Yellow",
+      "keywords": [],
+      "order": 10
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

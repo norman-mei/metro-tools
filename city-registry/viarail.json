@@ -1,0 +1,29 @@
+{
+  "city": "viarail",
+  "continent": "north america",
+  "bbox": [
+    53.1304,
+    -109.3468,
+    59.1304,
+    -103.3468
+  ],
+  "localLanguages": [
+    "en",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

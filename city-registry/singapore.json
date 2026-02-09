@@ -1,0 +1,95 @@
+{
+  "city": "singapore",
+  "continent": "asia",
+  "bbox": [
+    1.265289,
+    103.635186,
+    1.449579,
+    103.988565
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "SingaporeMRTCircleLine",
+      "name": "CC",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "SingaporeMRTDowntownLine",
+      "name": "DT",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "SingaporeMRTEastwestLine",
+      "name": "EW",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "SingaporeMRTNortheastLine",
+      "name": "NE",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "SingaporeMRTNorthsouthLine",
+      "name": "NS",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "CM_SingaporeMRT_tel",
+      "name": "TE",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "SingaporeLRTBukitPanjangLine",
+      "name": "BPLRT",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "SingaporeLRTPunggolLineEastLoop",
+      "name": "PGLRT (East)",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "SingaporeLRTPunggolLineWestLoop",
+      "name": "PGLRT (West)",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "SingaporeLRTSengkangLineEastLoop",
+      "name": "SKLRT (East)",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "SingaporeLRTSengkangLineWestLoop",
+      "name": "SKLRT (West)",
+      "keywords": [],
+      "order": 10
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

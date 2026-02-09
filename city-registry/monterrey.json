@@ -1,0 +1,28 @@
+{
+  "city": "monterrey",
+  "continent": "north america",
+  "bbox": [
+    25.1866,
+    -100.8161,
+    26.1866,
+    -99.8161
+  ],
+  "localLanguages": [
+    "es"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

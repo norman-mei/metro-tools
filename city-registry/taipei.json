@@ -1,0 +1,28 @@
+{
+  "city": "taipei",
+  "continent": "asia",
+  "bbox": [
+    24.533,
+    121.0654,
+    25.533,
+    122.0654
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

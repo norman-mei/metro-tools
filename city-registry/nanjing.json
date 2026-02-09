@@ -1,0 +1,28 @@
+{
+  "city": "nanjing",
+  "continent": "asia",
+  "bbox": [
+    31.560299999999998,
+    118.2969,
+    32.5603,
+    119.2969
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

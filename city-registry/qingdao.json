@@ -1,0 +1,28 @@
+{
+  "city": "qingdao",
+  "continent": "asia",
+  "bbox": [
+    35.5671,
+    119.8826,
+    36.5671,
+    120.8826
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

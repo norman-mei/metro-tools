@@ -1,0 +1,77 @@
+{
+  "city": "changchun",
+  "continent": "asia",
+  "bbox": [
+    43.749932,
+    125.1610619,
+    44.0092201,
+    125.550358
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "changchun1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "changchun2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "changchun3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "changchun4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "changchun6",
+      "name": "Line 6",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "changchun8",
+      "name": "Line 8",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "changchun54",
+      "name": "Tram Line 54",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "changchun55",
+      "name": "Tram Line 55",
+      "keywords": [],
+      "order": 8
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

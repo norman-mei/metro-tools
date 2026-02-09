@@ -1,0 +1,95 @@
+{
+  "city": "dallas",
+  "continent": "north america",
+  "bbox": [
+    32.6526872120431,
+    -97.33874007873743,
+    33.21417451390487,
+    -96.56071221012063
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "DARTRed",
+      "name": "Red",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "DARTBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "DARTGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "DARTOrange",
+      "name": "Orange",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "DARTSilver",
+      "name": "Silver",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "DallasStreetcar",
+      "name": "Dallas Streetcar",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "MLineTrolley",
+      "name": "M-Line Trolley",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "TRE",
+      "name": "Trinity Railway Express",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "TEXRail",
+      "name": "TEXRail",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "ATrain",
+      "name": "A-train",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "Skylink",
+      "name": "Skylink",
+      "keywords": [],
+      "order": 10
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,28 @@
+{
+  "city": "jinan",
+  "continent": "asia",
+  "bbox": [
+    36.1512,
+    116.6201,
+    37.1512,
+    117.6201
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

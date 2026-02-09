@@ -1,0 +1,59 @@
+{
+  "city": "slc",
+  "continent": "north america",
+  "bbox": [
+    40.22535710139957,
+    -112.04485978514909,
+    41.22608596994701,
+    -111.65975383282475
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "UTARed",
+      "name": "TRAX Red Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "UTAGreen",
+      "name": "TRAX Green Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "UTABlue",
+      "name": "TRAX Blue Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "UTASLine",
+      "name": "S Line Streetcar",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "UTAFR",
+      "name": "FrontRunner",
+      "keywords": [],
+      "order": 4
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}
