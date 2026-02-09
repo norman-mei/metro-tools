@@ -689,7 +689,7 @@ const writeCityData = (
   fs.writeFileSync(publicDataPath, JSON.stringify(publicJson, null, 0))
 }
 
-const findCityDir = (rootDir: string, city: string) => {
+const findCityDir = (rootDir: string, city: string): string | null => {
   const segments = fs.readdirSync(rootDir)
   for (const segment of segments) {
     const base = path.join(rootDir, segment)
