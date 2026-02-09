@@ -4,6 +4,7 @@ import AdRails from '@/components/ads/AdRails'
 import ServiceWorkerRegister from '@/components/ServiceWorkerRegister'
 import { AuthProvider } from '@/context/AuthContext'
 import { SettingsProvider } from '@/context/SettingsContext'
+import { ADSENSE_SCRIPT_SRC } from '@/lib/adsense'
 import '@/styles/tailwind.css'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -30,7 +31,7 @@ export default function RootLayout({
         <script
           id="adsense-script"
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3699451541563331"
+          src={ADSENSE_SCRIPT_SRC}
           crossOrigin="anonymous"
         />
       </head>

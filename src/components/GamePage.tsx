@@ -3950,6 +3950,19 @@ export default function GamePage({
               </button>
             </div>
             <div className="p-4">
+              <div className="mb-4 rounded-xl border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-900 dark:border-emerald-700/60 dark:bg-emerald-900/20 dark:text-emerald-100">
+                <p className="font-semibold">
+                  Donate at least $1 to remove ads permanently.
+                </p>
+                <p className="mt-1">
+                  This only works for logged-in accounts and must use the same email as your Metro Memory account.
+                </p>
+                <p className="mt-1 font-medium">
+                  {user
+                    ? `Logged in as ${user.email}`
+                    : 'You are not logged in right now. Log in first if you want ad-free to be applied to your account.'}
+                </p>
+              </div>
               <KoFiWidget open onClose={() => setSupportModalOpen(false)} onNever={handleKofiNever} />
             </div>
           </div>
