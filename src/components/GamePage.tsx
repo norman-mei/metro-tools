@@ -2,6 +2,7 @@
 
 import AccountDashboard from '@/app/(website)/account/panel'
 import AchievementToast from '@/components/AchievementToast'
+import AdSlot from '@/components/ads/AdSlot'
 import CityStatsPanel from '@/components/CityStatsPanel'
 import FoundList from '@/components/FoundList'
 import FoundSummary from '@/components/FoundSummary'
@@ -18,6 +19,7 @@ import { useAuth } from '@/context/AuthContext'
 import { KeybindingAction, useSettings } from '@/context/SettingsContext'
 import useHideLabels from '@/hooks/useHideLabels'
 import useNormalizeString from '@/hooks/useNormalizeString'
+import { useShouldShowAds } from '@/hooks/useShouldShowAds'
 import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity } from '@/lib/achievements'
 import { useConfig } from '@/lib/configContext'
@@ -77,6 +79,7 @@ const CONNECTOR_CONFIG = [
 ]
 
 const ACHIEVEMENT_COMPLETION_THRESHOLD = 0.9999
+const INLINE_AD_SLOT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INLINE
 
 type AchievementToastState = {
   slug: string
@@ -722,6 +725,7 @@ export default function GamePage({
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
   const { settings } = useSettings()
+  const { showAds } = useShouldShowAds()
   const mapContainerRef = useRef<HTMLDivElement | null>(null)
   
   const [zenMode, setZenMode] = useState(false)
@@ -3660,6 +3664,17 @@ export default function GamePage({
               )}
               <ThemeToggleButton />
             </div>
+            {showAds && INLINE_AD_SLOT ? (
+              <div className="pointer-events-auto">
+                <AdSlot
+                  slot={INLINE_AD_SLOT}
+                  format="horizontal"
+                  style={{ height: 100 }}
+                  className="w-full"
+                  layoutKey={`inline-${CITY_NAME}`}
+                />
+              </div>
+            ) : null}
           </div>
         </div>
       )}

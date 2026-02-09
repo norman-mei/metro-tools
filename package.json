@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node scripts/sync-city-card-images.js && next dev --turbo",
     "dev:turbo": "node scripts/sync-city-card-images.js && next dev --turbo",
-    "build": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js && node scripts/sync-city-card-images.js && node scripts/export-city-data.js && next build",
+    "build": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js && node scripts/sync-city-card-images.js && node scripts/export-city-data.js && node scripts/generate-offline-manifest.js && next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "check:duplicate-keys": "node scripts/check-duplicate-object-keys.js",

@@ -18,12 +18,6 @@ export default function NY() {
   return (
     <Provider value={config}>
       <Main className={`${font.className} min-h-screen`}>
-        <div className="px-4 pt-4 text-sm text-slate-600">
-          Looking for commuter rail?{' '}
-          <Link className="font-semibold text-slate-900 underline" href="/north-america/usa/ny/regional-rail">
-            Go to Regional Rail
-          </Link>
-        </div>
         <NYGameClient />
       </Main>
     </Provider>

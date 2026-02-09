@@ -18,6 +18,7 @@ model User {
   pendingEmail     String?
   passwordHash     String
   emailVerifiedAt  DateTime?
+  adFree           Boolean              @default(false)
   createdAt        DateTime             @default(now())
   updatedAt        DateTime             @updatedAt
   uiPreferences    Json?
