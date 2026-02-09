@@ -54,6 +54,22 @@ type Report = {
   errors: string[]
 }
 
+type StationFeature = {
+  type: 'Feature'
+  geometry: {
+    type: 'Point'
+    coordinates: any
+  }
+  properties: {
+    name: string
+    line: string
+    order: number
+    id?: number | string
+    alternate_names?: string[]
+  }
+  id?: number | string
+}
+
 const ROOT = process.cwd()
 const REGISTRY_DIR = path.join(ROOT, 'city-registry')
 const REPORTS_DIR = path.join(ROOT, 'reports')
@@ -465,7 +481,7 @@ const extractStations = (
       const manualKey = `${lineId}|${canonical}`
       const manualOverride = manualCoords[manualKey]
 
-      const baseFeature = {
+      const baseFeature: StationFeature = {
         type: 'Feature',
         geometry: manualOverride
           ? { type: 'Point', coordinates: manualOverride[0] }
