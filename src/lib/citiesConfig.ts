@@ -925,13 +925,11 @@ const rawCities: CityBase[] = [
     name: 'Ho Chi Minh City (Thành phố Hồ Chí Minh), HCM',
     link: '/asia/vietnam/hochiminhcity',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Hanoi (Hà Nội), HAN',
     link: '/asia/vietnam/hanoi',
     continent: 'Asia',
-    hideInStats: true,
   },
 
   // Oceania
@@ -1051,8 +1049,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/south-korea/gwangju',
   'asia/taiwan/taipei',
   'asia/thailand/bangkok',
-  'asia/vietnam/hanoi',
-  'asia/vietnam/hochiminhcity',
   'north-america/canada/toronto',
   'north-america/canada/viarail',
   'north-america/mexico/guadalajara',

@@ -1,0 +1,10 @@
+{
+  "HCMC1": {
+    "name": "Line 1",
+    "color": "#0079B8",
+    "backgroundColor": "#0079B8",
+    "textColor": "#FFFFFF",
+    "icon": "asia/vietnam/hochiminhcity/hcmc1.png",
+    "order": 0
+  }
+}

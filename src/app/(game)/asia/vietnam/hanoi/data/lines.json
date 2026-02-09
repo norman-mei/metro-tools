@@ -1,0 +1,18 @@
+{
+  "Hanoi2A": {
+    "name": "Line 2A",
+    "color": "#00C100",
+    "backgroundColor": "#00C100",
+    "textColor": "#FFFFFF",
+    "icon": "asia/vietnam/hanoi/Hanoi2A.png",
+    "order": 0
+  },
+  "Hanoi3": {
+    "name": "Line 3",
+    "color": "#A8B836",
+    "backgroundColor": "#A8B836",
+    "textColor": "#000000",
+    "icon": "asia/vietnam/hanoi/Hanoi3.png",
+    "order": 1
+  }
+}

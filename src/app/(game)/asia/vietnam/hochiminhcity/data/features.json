@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.6977087471459,
+          10.771013412010731
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 0,
+        "name": "Ben Thanh",
+        "line": "HCMC1",
+        "order": 0,
+        "alternate_names": [
+          "Ben Thanh",
+          "Bến Thành"
+        ]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.70182084307044,
+          10.775278881579936
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 1,
+        "name": "Opera House",
+        "line": "HCMC1",
+        "order": 1,
+        "alternate_names": [
+          "Opera House",
+          "Nhà Hát Thành Phố"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.70817502809683,
+          10.78182381021108
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 2,
+        "name": "Ba Son",
+        "line": "HCMC1",
+        "order": 2,
+        "alternate_names": [
+          "Ba Son"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7155056,
+          10.7960548
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Van Thanh Park",
+        "line": "HCMC1",
+        "order": 3,
+        "alternate_names": [
+          "Van Thanh Park",
+          "Công viên Văn Thánh"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7232392,
+          10.7985879
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Tan Cang",
+        "line": "HCMC1",
+        "order": 4,
+        "alternate_names": [
+          "Tan Cang",
+          "Tân Cảng"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7336512,
+          10.8004871
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Thao Dien",
+        "line": "HCMC1",
+        "order": 5,
+        "alternate_names": [
+          "Thao Dien",
+          "Thảo Điền"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7422498,
+          10.8021337
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "An Phu",
+        "line": "HCMC1",
+        "order": 6,
+        "alternate_names": [
+          "An Phu",
+          "An Phú"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.755277,
+          10.8085535
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Rach Chiec",
+        "line": "HCMC1",
+        "order": 7,
+        "alternate_names": [
+          "Rach Chiec",
+          "Rạch Chiếc"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.758185,
+          10.821435
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Phuoc Long",
+        "line": "HCMC1",
+        "order": 8,
+        "alternate_names": [
+          "Phuoc Long",
+          "Phước Long"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7638944,
+          10.832652
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Binh Thai",
+        "line": "HCMC1",
+        "order": 9,
+        "alternate_names": [
+          "Binh Thai",
+          "Bình Thái"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7716521,
+          10.8464061
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Thu Duc",
+        "line": "HCMC1",
+        "order": 10,
+        "alternate_names": [
+          "Thu Duc",
+          "Thủ Đức"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7888364,
+          10.8589894
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "High Tech Park",
+        "line": "HCMC1",
+        "order": 11,
+        "alternate_names": [
+          "High Tech Park",
+          "Khu Công Nghệ Cao Đại Học Quốc Gia",
+          "Khu Công Nghệ Cao"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8012008,
+          10.8662985
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "National University",
+        "line": "HCMC1",
+        "order": 12,
+        "alternate_names": [
+          "National University",
+          "Đại Học Quốc Gia",
+          "Đại học Quốc gia"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8140929,
+          10.8795447
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Suoi Tien Terminal",
+        "line": "HCMC1",
+        "order": 13,
+        "alternate_names": [
+          "Suoi Tien Terminal",
+          "Bến Xe Suối Tiên",
+          "Bến xe Suối Tiên"
+        ]
+      },
+      "id": 13
+    }
+  ]
+}
