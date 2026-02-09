@@ -46,6 +46,7 @@ export async function POST(request: Request) {
     user: {
       id: user.id,
       email: user.email,
+      adFree: user.adFree ?? false,
     },
   })
 }

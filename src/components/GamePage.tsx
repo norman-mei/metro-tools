@@ -2,6 +2,7 @@
 
 import AccountDashboard from '@/app/(website)/account/panel'
 import AchievementToast from '@/components/AchievementToast'
+import AdSlot from '@/components/ads/AdSlot'
 import CityStatsPanel from '@/components/CityStatsPanel'
 import FoundList from '@/components/FoundList'
 import FoundSummary from '@/components/FoundSummary'
@@ -18,6 +19,7 @@ import { useAuth } from '@/context/AuthContext'
 import { KeybindingAction, useSettings } from '@/context/SettingsContext'
 import useHideLabels from '@/hooks/useHideLabels'
 import useNormalizeString from '@/hooks/useNormalizeString'
+import { useShouldShowAds } from '@/hooks/useShouldShowAds'
 import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity } from '@/lib/achievements'
 import { useConfig } from '@/lib/configContext'
@@ -77,6 +79,7 @@ const CONNECTOR_CONFIG = [
 ]
 
 const ACHIEVEMENT_COMPLETION_THRESHOLD = 0.9999
+const INLINE_AD_SLOT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INLINE
 
 type AchievementToastState = {
   slug: string
@@ -722,6 +725,7 @@ export default function GamePage({
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
   const { settings } = useSettings()
+  const { showAds } = useShouldShowAds()
   const mapContainerRef = useRef<HTMLDivElement | null>(null)
   
   const [zenMode, setZenMode] = useState(false)
@@ -3660,6 +3664,17 @@ export default function GamePage({
               )}
               <ThemeToggleButton />
             </div>
+            {showAds && INLINE_AD_SLOT ? (
+              <div className="pointer-events-auto">
+                <AdSlot
+                  slot={INLINE_AD_SLOT}
+                  format="horizontal"
+                  style={{ height: 100 }}
+                  className="w-full"
+                  layoutKey={`inline-${CITY_NAME}`}
+                />
+              </div>
+            ) : null}
           </div>
         </div>
       )}
@@ -3935,6 +3950,19 @@ export default function GamePage({
               </button>
             </div>
             <div className="p-4">
+              <div className="mb-4 rounded-xl border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-900 dark:border-emerald-700/60 dark:bg-emerald-900/20 dark:text-emerald-100">
+                <p className="font-semibold">
+                  Donate at least $1 to remove ads permanently.
+                </p>
+                <p className="mt-1">
+                  This only works for logged-in accounts and must use the same email as your Metro Memory account.
+                </p>
+                <p className="mt-1 font-medium">
+                  {user
+                    ? `Logged in as ${user.email}`
+                    : 'You are not logged in right now. Log in first if you want ad-free to be applied to your account.'}
+                </p>
+              </div>
               <KoFiWidget open onClose={() => setSupportModalOpen(false)} onNever={handleKofiNever} />
             </div>
           </div>

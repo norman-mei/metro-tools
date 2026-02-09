@@ -20,6 +20,7 @@ import {
 type AuthUser = {
   id: string
   email: string
+  adFree?: boolean
 }
 
 type ProgressSummaries = Record<string, number>
