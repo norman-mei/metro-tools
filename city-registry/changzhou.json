@@ -1,0 +1,53 @@
+{
+  "city": "changzhou",
+  "continent": "asia",
+  "bbox": [
+    31.6315673,
+    119.8424186,
+    31.9046566,
+    120.0637345
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "changzhou1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "changzhou2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "changzhou5",
+      "name": "Line 5",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "changzhou6",
+      "name": "Line 6",
+      "keywords": [],
+      "order": 6
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

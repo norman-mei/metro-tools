@@ -1,0 +1,28 @@
+{
+  "city": "busan",
+  "continent": "asia",
+  "bbox": [
+    34.6796,
+    128.5756,
+    35.6796,
+    129.5756
+  ],
+  "localLanguages": [
+    "ko"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

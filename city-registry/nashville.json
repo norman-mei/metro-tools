@@ -1,0 +1,35 @@
+{
+  "city": "nashville",
+  "continent": "north america",
+  "bbox": [
+    36.15552560625623,
+    -86.77372293544795,
+    36.2406220233086,
+    -86.29632537629779
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "WGS",
+      "name": "WeGo Star",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

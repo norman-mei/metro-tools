@@ -1,0 +1,41 @@
+{
+  "city": "hohhot",
+  "continent": "asia",
+  "bbox": [
+    40.7521144,
+    111.5650166,
+    40.8688574,
+    111.8178465
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "hohhot1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "hohhot2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

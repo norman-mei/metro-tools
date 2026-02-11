@@ -1,0 +1,77 @@
+{
+  "city": "hamburg",
+  "continent": "europe",
+  "bbox": [
+    53.456624,
+    9.477929,
+    53.707523,
+    10.314604
+  ],
+  "localLanguages": [
+    "de"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "HamburgSBahnS1",
+      "name": "S1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "HamburgSBahnS2",
+      "name": "S2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "HamburgSBahnS3",
+      "name": "S3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "HamburgSBahnS5",
+      "name": "S5",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "HamburgUBahnU1",
+      "name": "U1",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "HamburgUBahnU2",
+      "name": "U2",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "HamburgUBahnU3",
+      "name": "U3",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "HamburgUBahnU4",
+      "name": "U4",
+      "keywords": [],
+      "order": 7
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

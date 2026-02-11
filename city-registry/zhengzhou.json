@@ -1,0 +1,28 @@
+{
+  "city": "zhengzhou",
+  "continent": "asia",
+  "bbox": [
+    34.2466,
+    113.1253,
+    35.2466,
+    114.1253
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

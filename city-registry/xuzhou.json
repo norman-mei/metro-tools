@@ -1,0 +1,28 @@
+{
+  "city": "xuzhou",
+  "continent": "asia",
+  "bbox": [
+    34.1413524,
+    117.0938131,
+    34.3343999,
+    117.3142226
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

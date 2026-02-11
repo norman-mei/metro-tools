@@ -1,0 +1,641 @@
+{
+  "city": "gba",
+  "continent": "asia",
+  "bbox": [
+    22.0135188,
+    112.4443499,
+    23.7450738,
+    114.5172712
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "EAL",
+      "name": "East Rail",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "TCL",
+      "name": "Tung Chung",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "TML",
+      "name": "Tuen Ma",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "NOL",
+      "name": "Northern Link",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "KTL",
+      "name": "Kwun Tong",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "TWL",
+      "name": "Tsuen Wan",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "ISL",
+      "name": "Island",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "TKL",
+      "name": "Tseung Kwan O",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "SIL",
+      "name": "South Island",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "AEL",
+      "name": "Airport Express",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "DRL",
+      "name": "Disneyland Resort",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "XRL",
+      "name": "Express Rail Link",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "HKNP360",
+      "name": "Ngong Ping 360",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "HKAPMT1",
+      "name": "T1 Line",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "HKAPMT2",
+      "name": "T2 Line",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "HKAPMSKY",
+      "name": "SkyPier Line",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "MTR505",
+      "name": "Sam Shing — Siu Hong",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "MTR507",
+      "name": "Tuen Mun Ferry Pier — Tin King",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "MTR610",
+      "name": "Tuen Mun Ferry Pier — Yuen Long",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "MTR614",
+      "name": "Tuen Mun Ferry Pier — Yuen Long",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "MTR614P",
+      "name": "Tuen Mun Ferry Pier — Siu Hong",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "MTR615",
+      "name": "Tuen Mun Ferry Pier — Yuen Long",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "MTR615P",
+      "name": "Tuen Mun Ferry Pier — Siu Hong",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "MTR705",
+      "name": "Tin Shui Wai — Counterclockwise",
+      "keywords": [],
+      "order": 23
+    },
+    {
+      "id": "MTR706",
+      "name": "Tin Shui Wai — Clockwise",
+      "keywords": [],
+      "order": 24
+    },
+    {
+      "id": "MTR751",
+      "name": "Yau Oi — Tin Yat",
+      "keywords": [],
+      "order": 25
+    },
+    {
+      "id": "MTR751P",
+      "name": "Tin Shui Wai — Tin Yat",
+      "keywords": [],
+      "order": 26
+    },
+    {
+      "id": "MTR761P",
+      "name": "Yuen Long — Tin Yat",
+      "keywords": [],
+      "order": 27
+    },
+    {
+      "id": "HKTPT",
+      "name": "Peak Tram",
+      "keywords": [],
+      "order": 28
+    },
+    {
+      "id": "HKOEX",
+      "name": "Ocean Express",
+      "keywords": [],
+      "order": 29
+    },
+    {
+      "id": "HKOCC",
+      "name": "Ocean Park Gondola",
+      "keywords": [],
+      "order": 30
+    },
+    {
+      "id": "HKT",
+      "name": "Hong Kong Tramways",
+      "keywords": [],
+      "order": 31
+    },
+    {
+      "id": "TPA",
+      "name": "Taipa",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "HNQ",
+      "name": "Hengqin",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "SPV",
+      "name": "Seac Pai Van",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "dongguanline2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "dongguanline1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "gzline1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 32
+    },
+    {
+      "id": "gzline2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 33
+    },
+    {
+      "id": "gzline3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 34
+    },
+    {
+      "id": "gzline4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 35
+    },
+    {
+      "id": "gzline5",
+      "name": "Line 5",
+      "keywords": [],
+      "order": 36
+    },
+    {
+      "id": "gzline6",
+      "name": "Line 6",
+      "keywords": [],
+      "order": 37
+    },
+    {
+      "id": "gzline7",
+      "name": "Line 7",
+      "keywords": [],
+      "order": 38
+    },
+    {
+      "id": "gzline8",
+      "name": "Line 8",
+      "keywords": [],
+      "order": 39
+    },
+    {
+      "id": "gzline9",
+      "name": "Line 9",
+      "keywords": [],
+      "order": 40
+    },
+    {
+      "id": "gzline10",
+      "name": "Line 10",
+      "keywords": [],
+      "order": 41
+    },
+    {
+      "id": "gzline11",
+      "name": "Line 11",
+      "keywords": [],
+      "order": 42
+    },
+    {
+      "id": "gzline12",
+      "name": "Line 12",
+      "keywords": [],
+      "order": 43
+    },
+    {
+      "id": "gzline13",
+      "name": "Line 13",
+      "keywords": [],
+      "order": 44
+    },
+    {
+      "id": "gzline14",
+      "name": "Line 14",
+      "keywords": [],
+      "order": 45
+    },
+    {
+      "id": "gzline18",
+      "name": "Line 18",
+      "keywords": [],
+      "order": 46
+    },
+    {
+      "id": "gzline21",
+      "name": "Line 21",
+      "keywords": [],
+      "order": 47
+    },
+    {
+      "id": "gzline22",
+      "name": "Line 22",
+      "keywords": [],
+      "order": 48
+    },
+    {
+      "id": "gzapm",
+      "name": "Zhujiang New Town Automated People Mover System",
+      "keywords": [],
+      "order": 49
+    },
+    {
+      "id": "gzt_thp1",
+      "name": "Huangpu Tram Line 1",
+      "keywords": [],
+      "order": 50
+    },
+    {
+      "id": "gzt_thp2",
+      "name": "Huangpu Tram Line 2",
+      "keywords": [],
+      "order": 51
+    },
+    {
+      "id": "gzt_thz1",
+      "name": "Haizhu Tram Line 1",
+      "keywords": [],
+      "order": 52
+    },
+    {
+      "id": "fs_guangfo",
+      "name": "Guangfo",
+      "keywords": [],
+      "order": 53
+    },
+    {
+      "id": "fs_line2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 54
+    },
+    {
+      "id": "fs_line3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 55
+    },
+    {
+      "id": "fs_tnh1",
+      "name": "Nanhai Tram Line 1",
+      "keywords": [],
+      "order": 56
+    },
+    {
+      "id": "gzline24",
+      "name": "Line 24",
+      "keywords": [],
+      "order": 63
+    },
+    {
+      "id": "szline1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 100
+    },
+    {
+      "id": "szline2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 101
+    },
+    {
+      "id": "szline3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 102
+    },
+    {
+      "id": "szline4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 103
+    },
+    {
+      "id": "szline5",
+      "name": "Line 5",
+      "keywords": [],
+      "order": 104
+    },
+    {
+      "id": "szline6",
+      "name": "Line 6",
+      "keywords": [],
+      "order": 105
+    },
+    {
+      "id": "szline6b",
+      "name": "Line 6B",
+      "keywords": [],
+      "order": 106
+    },
+    {
+      "id": "szline7",
+      "name": "Line 7",
+      "keywords": [],
+      "order": 107
+    },
+    {
+      "id": "szline8",
+      "name": "Line 8",
+      "keywords": [],
+      "order": 108
+    },
+    {
+      "id": "szline9",
+      "name": "Line 9",
+      "keywords": [],
+      "order": 109
+    },
+    {
+      "id": "szline10",
+      "name": "Line 10",
+      "keywords": [],
+      "order": 110
+    },
+    {
+      "id": "szline11",
+      "name": "Line 11",
+      "keywords": [],
+      "order": 111
+    },
+    {
+      "id": "szline12",
+      "name": "Line 12",
+      "keywords": [],
+      "order": 112
+    },
+    {
+      "id": "szline13",
+      "name": "Line 13",
+      "keywords": [],
+      "order": 113
+    },
+    {
+      "id": "szline14",
+      "name": "Line 14",
+      "keywords": [],
+      "order": 114
+    },
+    {
+      "id": "szline15",
+      "name": "Line 15",
+      "keywords": [],
+      "order": 115
+    },
+    {
+      "id": "szline16",
+      "name": "Line 16",
+      "keywords": [],
+      "order": 116
+    },
+    {
+      "id": "szline17",
+      "name": "Line 17",
+      "keywords": [],
+      "order": 117
+    },
+    {
+      "id": "szline20",
+      "name": "Line 20",
+      "keywords": [],
+      "order": 118
+    },
+    {
+      "id": "szline25",
+      "name": "Line 25",
+      "keywords": [],
+      "order": 119
+    },
+    {
+      "id": "szline27",
+      "name": "Line 27",
+      "keywords": [],
+      "order": 120
+    },
+    {
+      "id": "szline29",
+      "name": "Line 29",
+      "keywords": [],
+      "order": 121
+    },
+    {
+      "id": "szline32",
+      "name": "Line 32",
+      "keywords": [],
+      "order": 122
+    },
+    {
+      "id": "sztram1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 123
+    },
+    {
+      "id": "sztram2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 124
+    },
+    {
+      "id": "szbyd1",
+      "name": "Pingshan SkyShuttle Line 1",
+      "keywords": [],
+      "order": 125
+    },
+    {
+      "id": "szline22",
+      "name": "Line 22",
+      "keywords": [],
+      "order": 126
+    },
+    {
+      "id": "prdir_guangzhu",
+      "name": "Guangzhu",
+      "keywords": [],
+      "order": 128
+    },
+    {
+      "id": "prdir_suishen",
+      "name": "Suishen",
+      "keywords": [],
+      "order": 129
+    },
+    {
+      "id": "prdir_zhuji",
+      "name": "Zhuji",
+      "keywords": [],
+      "order": 130
+    },
+    {
+      "id": "prdir_guanghui",
+      "name": "Guanghui",
+      "keywords": [],
+      "order": 131
+    },
+    {
+      "id": "prdir_guangzhao",
+      "name": "Guangzhao",
+      "keywords": [],
+      "order": 132
+    },
+    {
+      "id": "prdir_guangqing",
+      "name": "Guangqing",
+      "keywords": [],
+      "order": 133
+    },
+    {
+      "id": "prdir_guangforing",
+      "name": "Guangfo Ring",
+      "keywords": [],
+      "order": 134
+    },
+    {
+      "id": "prdir_guangshen",
+      "name": "Guangshen",
+      "keywords": [],
+      "order": 137
+    },
+    {
+      "id": "moeast",
+      "name": "East",
+      "keywords": [],
+      "order": 127
+    },
+    {
+      "id": "qymaglev",
+      "name": "Qingyuan Maglev Tourist Line",
+      "keywords": [],
+      "order": 134
+    },
+    {
+      "id": "gzsp_cable",
+      "name": "Safari Park Cable Car",
+      "keywords": [],
+      "order": 135
+    },
+    {
+      "id": "gzcw_cable",
+      "name": "Baiyun Mountain Cableway",
+      "keywords": [],
+      "order": 136
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

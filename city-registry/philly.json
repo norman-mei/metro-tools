@@ -1,0 +1,28 @@
+{
+  "city": "philly",
+  "continent": "north america",
+  "bbox": [
+    39.67012178901001,
+    -75.76381085105066,
+    40.3062935568625,
+    -74.75319770570754
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,41 @@
+{
+  "city": "nottingham",
+  "continent": "europe",
+  "bbox": [
+    52.896684500816505,
+    -1.2623657618241002,
+    53.03832091178992,
+    -1.1454444733617675
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Line1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Line2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

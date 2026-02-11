@@ -1,0 +1,28 @@
+{
+  "city": "nanning",
+  "continent": "asia",
+  "bbox": [
+    22.7198988,
+    108.1726501,
+    22.8926531,
+    108.4615954
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

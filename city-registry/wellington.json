@@ -1,0 +1,28 @@
+{
+  "city": "wellington",
+  "continent": "oceania",
+  "bbox": [
+    -41.7865,
+    174.2762,
+    -40.7865,
+    175.2762
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

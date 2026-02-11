@@ -1,0 +1,35 @@
+{
+  "city": "austin",
+  "continent": "north america",
+  "bbox": [
+    30.259112,
+    -97.855939,
+    30.586938,
+    -97.700048
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "RD",
+      "name": "Red Line",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

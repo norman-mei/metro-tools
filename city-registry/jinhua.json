@@ -1,0 +1,35 @@
+{
+  "city": "jinhua",
+  "continent": "asia",
+  "bbox": [
+    29.0837083,
+    119.6311767,
+    29.3851816,
+    120.3024748
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "jinhua-jyd",
+      "name": "Jinyidong",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

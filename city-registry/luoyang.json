@@ -1,0 +1,41 @@
+{
+  "city": "luoyang",
+  "continent": "asia",
+  "bbox": [
+    34.5952151,
+    112.3165566,
+    34.708237,
+    112.5503455
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "luoyang1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "luoyang2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,47 @@
+{
+  "city": "kaohsiung",
+  "continent": "asia",
+  "bbox": [
+    22.5624925,
+    120.2734156,
+    22.7935524,
+    120.3910967
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "KaohsiungRed",
+      "name": "Red",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "KaohsiungOrange",
+      "name": "Orange",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "KaohsiungCircular",
+      "name": "Circular",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

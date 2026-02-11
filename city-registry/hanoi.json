@@ -1,0 +1,44 @@
+{
+  "city": "hanoi",
+  "continent": "asia",
+  "bbox": [20.95, 105.73, 21.08, 105.91],
+  "localLanguages": ["vi"],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Hanoi2A",
+      "name": "Line 2A",
+      "keywords": [
+        "Hanoi Metro Line 2A (Cat Linh - Ha Dong Section)"
+      ]
+    },
+    {
+      "id": "Hanoi3",
+      "name": "Line 3",
+      "keywords": [
+        "Hanoi Metro Line 3 (Nhon - Hanoi Station Section)",
+        "塘鐵都市3河內"
+      ]
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {
+    "Kim Ma": ["Kim Mã"],
+    "Van Mieu": ["Văn Miếu"]
+  },
+  "manualCoords": {
+    "Hanoi3|Kim Ma": [[105.8141, 21.0305]],
+    "Hanoi3|Cat Linh": [[105.8293, 21.0292]],
+    "Hanoi3|Van Mieu": [[105.8367, 21.0267]]
+  }
+}

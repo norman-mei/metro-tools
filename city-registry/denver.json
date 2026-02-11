@@ -1,0 +1,95 @@
+{
+  "city": "denver",
+  "continent": "north america",
+  "bbox": [
+    39.5199749,
+    -105.201809,
+    39.9233402,
+    -104.67369296359355
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Denver_RTD_A",
+      "name": "A Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Denver_RTD_B",
+      "name": "B Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Denver_RTD_G",
+      "name": "G Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Denver_RTD_N",
+      "name": "N Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "Denver_RTD_D",
+      "name": "D Line",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "Denver_RTD_E",
+      "name": "E Line",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Denver_RTD_H",
+      "name": "H Line",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "Denver_RTD_L",
+      "name": "L Line",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "Denver_RTD_R",
+      "name": "R Line",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "Denver_RTD_W",
+      "name": "W Line",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "DenverAGTS",
+      "name": "Denver International Airport AGTS",
+      "keywords": [],
+      "order": 10
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

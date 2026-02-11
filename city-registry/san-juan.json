@@ -1,0 +1,35 @@
+{
+  "city": "san-juan",
+  "continent": "north america",
+  "bbox": [
+    18.3902173,
+    -66.1540862,
+    18.4379598,
+    -66.0516157
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TU",
+      "name": "Tren Urbano",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

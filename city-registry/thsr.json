@@ -1,0 +1,35 @@
+{
+  "city": "thsr",
+  "continent": "asia",
+  "bbox": [
+    22.687464315667636,
+    120.2862594876787,
+    25.05310067691531,
+    121.60691794579802
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "THSR",
+      "name": "Taiwan High Speed Rail (THSR)",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

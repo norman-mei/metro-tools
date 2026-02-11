@@ -1,0 +1,43 @@
+name: Metro Sync (Americas + Oceania)
+
+on:
+  schedule:
+    - cron: '0 9 1 */6 *'
+  workflow_dispatch:
+
+jobs:
+  metro-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run metro sync
+        env:
+          METRO_SYNC_SCOPE: americas-oceania
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+        run: node scripts/run-ts.js scripts/metro-sync/run.ts
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: metro sync (americas + oceania)'
+          title: 'Metro sync (Americas + Oceania)'
+          body: 'Automated metro sync. Please review the report in `reports/`.'
+          branch: 'automation/metro-sync-americas-oceania'
+          delete-branch: true
+          labels: 'automation'

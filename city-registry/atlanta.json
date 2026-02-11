@@ -1,0 +1,71 @@
+{
+  "city": "atlanta",
+  "continent": "north america",
+  "bbox": [
+    33.63740439491028,
+    -84.47595456611197,
+    33.9494535883298,
+    -84.2264366018968
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MARTARD",
+      "name": "Red",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MARTABL",
+      "name": "Blue",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "MARTAGD",
+      "name": "Gold",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MARTAGR",
+      "name": "Green",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "MARTASC",
+      "name": "Atlanta Streetcar",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "atlantaTPT",
+      "name": "The Plane Train",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "atlantaSKY",
+      "name": "ATL SkyTrain",
+      "keywords": [],
+      "order": 6
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

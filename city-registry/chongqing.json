@@ -1,0 +1,28 @@
+{
+  "city": "chongqing",
+  "continent": "asia",
+  "bbox": [
+    29.063,
+    106.0516,
+    30.063,
+    107.0516
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

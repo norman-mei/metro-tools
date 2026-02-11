@@ -1,0 +1,46 @@
+{
+  "city": "hochiminhcity",
+  "continent": "asia",
+  "bbox": [10.72, 106.58, 10.99, 106.87],
+  "localLanguages": ["vi"],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "HCMC1",
+      "name": "Line 1",
+      "keywords": [
+        "HCMC Metro Line 1 (Ben Thanh - Suoi Tien Section)",
+        "Đường sắt đô thị số 1 Thành phố Hồ Chí Minh (Phân đoạn Bến Thành - Suối Tiên)",
+        "Tuyến metro số 1 Bến Thành - Suối Tiên"
+      ]
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {
+    "Ben Thanh": ["Bến Thành"],
+    "Opera House": ["Nhà Hát Thành Phố"],
+    "Ba Son": ["Ba Son"],
+    "Van Thanh Park": ["Công viên Văn Thánh"],
+    "Tan Cang": ["Tân Cảng"],
+    "Thao Dien": ["Thảo Điền"],
+    "An Phu": ["An Phú"],
+    "Rach Chiec": ["Rạch Chiếc"],
+    "Phuoc Long": ["Phước Long"],
+    "Binh Thai": ["Bình Thái"],
+    "Thu Duc": ["Thủ Đức"],
+    "High Tech Park": ["Khu Công Nghệ Cao Đại Học Quốc Gia"],
+    "National University": ["Đại Học Quốc Gia"],
+    "Suoi Tien Terminal": ["Bến Xe Suối Tiên"]
+  },
+  "manualCoords": {}
+}

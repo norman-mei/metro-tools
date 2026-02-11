@@ -1,0 +1,53 @@
+{
+  "city": "twincities",
+  "continent": "north america",
+  "bbox": [
+    44.8518719821616,
+    -93.44444011245236,
+    44.984050485549375,
+    -93.08627843856812
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MAXBlue",
+      "name": "METRO Blue Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MAXGreen",
+      "name": "METRO Green Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "HubTram",
+      "name": "Hub Tram",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "ConcourseCMover",
+      "name": "'C' Concourse People Mover",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

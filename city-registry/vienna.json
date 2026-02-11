@@ -1,0 +1,71 @@
+{
+  "city": "vienna",
+  "continent": "europe",
+  "bbox": [
+    48.130135,
+    16.260781,
+    48.277228,
+    16.510755
+  ],
+  "localLanguages": [
+    "de"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "ViennaUBahnU1",
+      "name": "U1",
+      "keywords": [],
+      "order": 1000
+    },
+    {
+      "id": "ViennaUBahnU2",
+      "name": "U2",
+      "keywords": [],
+      "order": 1000
+    },
+    {
+      "id": "ViennaUBahnU3",
+      "name": "U3",
+      "keywords": [],
+      "order": 1000
+    },
+    {
+      "id": "ViennaUBahnU4",
+      "name": "U4",
+      "keywords": [],
+      "order": 1000
+    },
+    {
+      "id": "ViennaUBahnU6",
+      "name": "U6",
+      "keywords": [],
+      "order": 1000
+    },
+    {
+      "id": "ViennaStrassenbahn38",
+      "name": "38",
+      "keywords": [],
+      "order": 1000
+    },
+    {
+      "id": "ViennaStrassenbahn44",
+      "name": "44",
+      "keywords": [],
+      "order": 1000
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

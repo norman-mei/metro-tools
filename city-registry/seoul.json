@@ -1,0 +1,167 @@
+{
+  "city": "seoul",
+  "continent": "asia",
+  "bbox": [
+    36.769628,
+    126.441442,
+    37.948611,
+    127.723849
+  ],
+  "localLanguages": [
+    "ko"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "SeoulSubway1Hoseon",
+      "name": "1호선",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "SeoulSubway2Hoseon",
+      "name": "2호선",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "SeoulSubway3Hoseon",
+      "name": "3호선",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "SeoulSubway4Hoseon",
+      "name": "4호선",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "SeoulSubway5Hoseon",
+      "name": "5호선",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "SeoulSubway6Hoseon",
+      "name": "6호선",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "SeoulSubway7Hoseon",
+      "name": "7호선",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "SeoulSubway8Hoseon",
+      "name": "8호선",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "SeoulSubway9Hoseon",
+      "name": "9호선",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "SeoulMTRGyeonggangseon",
+      "name": "경강선",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "SeoulMTRGyeongyijungangseon",
+      "name": "경의중앙선",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "SeoulMTRGyeongcunseon",
+      "name": "경춘선",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "SeoulAirportRailroadGonghangceoldo",
+      "name": "공항철도",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "SeoulMTRSuinbundangseon",
+      "name": "수인분당선",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "SeoulMTRSinbundangseon",
+      "name": "신분당선",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "SeoulIncheonMetroInceon1Hoseon",
+      "name": "인천1호선",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "CM_SeoulIncheonMetro2_inceon2hoseon",
+      "name": "인천2호선",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "CM_SeoulLightRailTransit_gimpogoldeurain",
+      "name": "김포골드라인",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "SeoulLightRailTransitSeohaeseon",
+      "name": "서해선",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "SeoulLightRailTransitSinrimseon",
+      "name": "신림선",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "SeoulLightRailTransitEverline",
+      "name": "에버라인",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "SeoulLightRailTransitUisinseolgyeongjeonceol",
+      "name": "우이신설경전철",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "SeoulLightRailTransitUijeongbu",
+      "name": "의정부경전철",
+      "keywords": [],
+      "order": 22
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

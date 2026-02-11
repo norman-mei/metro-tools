@@ -1,0 +1,198 @@
+{
+  "city": "toronto-waterloo",
+  "continent": "north america",
+  "bbox": [
+    43.2686308,
+    -80.6023484,
+    44.3733799,
+    -79.1021918
+  ],
+  "localLanguages": [
+    "en",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TTC1",
+      "name": "Line 1 (Yonge-University)",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "TTC2",
+      "name": "Line 2 (Bloor-Danforth)",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "TTC3",
+      "name": "Line 3 (Ontario)",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "TTC4",
+      "name": "Line 4 (Sheppard)",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "TTC5",
+      "name": "Line 5 (Eglinton)",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "TTC6",
+      "name": "Line 6 (Finch West)",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "TTC501",
+      "name": "501",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "TTC503",
+      "name": "503",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "TTC504",
+      "name": "504",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "TTC505",
+      "name": "505",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "TTC506",
+      "name": "506",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "TTC507",
+      "name": "507",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "TTC508",
+      "name": "508",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "TTC509",
+      "name": "509",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "TTC510",
+      "name": "510",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "TTC511",
+      "name": "511",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "TTC512",
+      "name": "512",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "UPExpress",
+      "name": "Union Pearson Express",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "GOLW",
+      "name": "Lakeshore West",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "GOLE",
+      "name": "Lakeshore East",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "GOMI",
+      "name": "Milton",
+      "keywords": [],
+      "order": 23
+    },
+    {
+      "id": "GOKI",
+      "name": "Kitchener",
+      "keywords": [],
+      "order": 24
+    },
+    {
+      "id": "GOBR",
+      "name": "Barrie",
+      "keywords": [],
+      "order": 25
+    },
+    {
+      "id": "GORH",
+      "name": "Richmond Hill",
+      "keywords": [],
+      "order": 26
+    },
+    {
+      "id": "GOST",
+      "name": "Stouffville",
+      "keywords": [],
+      "order": 27
+    },
+    {
+      "id": "Hazel",
+      "name": "Hazel McCallion Line",
+      "keywords": [],
+      "order": 28
+    },
+    {
+      "id": "TerminalLink",
+      "name": "Terminal Link",
+      "keywords": [],
+      "order": 29
+    },
+    {
+      "id": "ION",
+      "name": "301 ION Light Rail",
+      "keywords": [],
+      "order": 30
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

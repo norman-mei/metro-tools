@@ -1,0 +1,161 @@
+{
+  "city": "barcelona",
+  "continent": "europe",
+  "bbox": [
+    41.287551,
+    2.035333,
+    41.462413,
+    2.244097
+  ],
+  "localLanguages": [
+    "es"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TMBMetroFm",
+      "name": "FM",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "TMBMetroL1",
+      "name": "L1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "TMBMetroL2",
+      "name": "L2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "TMBMetroL3",
+      "name": "L3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "TMBMetroL4",
+      "name": "L4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "TMBMetroL5",
+      "name": "L5",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "TMBMetroL9",
+      "name": "L9S",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "TMBMetroL10",
+      "name": "L10S",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "TMBMetroL11",
+      "name": "L11",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "FGCL6",
+      "name": "L6",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "FGCL7",
+      "name": "L7",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "FGCL8",
+      "name": "L8",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "FGCL12",
+      "name": "L12",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "BarcelonaFunicularFv",
+      "name": "FV",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "BarcelonaFunicularMm",
+      "name": "MM",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "BarcelonaFunicularL1",
+      "name": "L1",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "TramCatT1",
+      "name": "T1",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "TramCatT2",
+      "name": "T2",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "TramCatT3",
+      "name": "T3",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "TramCatT4",
+      "name": "T4",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "TramCatT5",
+      "name": "T5",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "TramCatT6",
+      "name": "T6",
+      "keywords": [],
+      "order": 23
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

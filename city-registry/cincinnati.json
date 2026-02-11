@@ -1,0 +1,41 @@
+{
+  "city": "cincinnati",
+  "continent": "north america",
+  "bbox": [
+    39.05102309788239,
+    -84.65618705263387,
+    39.1179022,
+    -84.5089093
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "100",
+      "name": "Connector",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "CincinnatiAPM",
+      "name": "Cincinnati Airport People Mover",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

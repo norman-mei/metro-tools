@@ -1,0 +1,83 @@
+{
+  "city": "shenyang",
+  "continent": "asia",
+  "bbox": [
+    41.6494768,
+    123.1197855,
+    41.9593561,
+    123.7230596
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "shenyang1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "shenyang2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "shenyang3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "shenyang4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "shenyang9",
+      "name": "Line 9",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "shenyang10",
+      "name": "Line 10",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "shenyangtram1",
+      "name": "Tram Line 1",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "shenyangtram3",
+      "name": "Tram Line 3",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "shenyangtram5",
+      "name": "Tram Line 5",
+      "keywords": [],
+      "order": 9
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,35 @@
+{
+  "city": "kc",
+  "continent": "north america",
+  "bbox": [
+    39.0353172,
+    -94.5868813,
+    39.1173104,
+    -94.5717316
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "KCStreetcar",
+      "name": "KC Streetcar",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

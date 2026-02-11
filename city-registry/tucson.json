@@ -1,0 +1,35 @@
+{
+  "city": "tucson",
+  "continent": "north america",
+  "bbox": [
+    32.2171065,
+    -110.9852775,
+    32.2373233,
+    -110.9458497
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "tucsonSunLink",
+      "name": "Sun Link (Tucson Streetcar)",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

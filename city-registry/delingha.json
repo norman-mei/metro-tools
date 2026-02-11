@@ -1,0 +1,28 @@
+{
+  "city": "delingha",
+  "continent": "asia",
+  "bbox": [
+    36.8694,
+    96.861,
+    37.8694,
+    97.861
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

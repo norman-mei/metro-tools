@@ -1,0 +1,48 @@
+{
+  "city": "edmonton",
+  "continent": "north america",
+  "bbox": [
+    53.45739843071799,
+    -113.5285279144923,
+    53.60178182618833,
+    -113.411443518552
+  ],
+  "localLanguages": [
+    "en",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "ETSCapital",
+      "name": "Capital Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "ETSMetro",
+      "name": "Metro Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "ETSValley",
+      "name": "Valley Line",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

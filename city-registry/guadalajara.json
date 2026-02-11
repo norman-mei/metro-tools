@@ -1,0 +1,28 @@
+{
+  "city": "guadalajara",
+  "continent": "north america",
+  "bbox": [
+    20.1597,
+    -103.8496,
+    21.1597,
+    -102.8496
+  ],
+  "localLanguages": [
+    "es"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

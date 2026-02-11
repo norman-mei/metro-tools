@@ -1,0 +1,28 @@
+{
+  "city": "zhangjiakou",
+  "continent": "asia",
+  "bbox": [
+    40.268,
+    114.384,
+    41.268,
+    115.384
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

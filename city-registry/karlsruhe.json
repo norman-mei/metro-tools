@@ -1,0 +1,179 @@
+{
+  "city": "karlsruhe",
+  "continent": "europe",
+  "bbox": [
+    48.442815474999996,
+    8.065263025,
+    49.352306875000004,
+    9.527279850000001
+  ],
+  "localLanguages": [
+    "de"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Karlsruhe1",
+      "name": "1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Karlsruhe17",
+      "name": "17",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Karlsruhe18",
+      "name": "18",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "Karlsruhe2",
+      "name": "2",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "Karlsruhe3",
+      "name": "3",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Karlsruhe4",
+      "name": "4",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "Karlsruhe5",
+      "name": "5",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "Karlsruhe8",
+      "name": "8",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "KarlsruheS1",
+      "name": "S1",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "KarlsruheS11",
+      "name": "S11",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "KarlsruheS12",
+      "name": "S12",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "KarlsruheS2",
+      "name": "S2",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "KarlsruheS31",
+      "name": "S31",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "KarlsruheS32",
+      "name": "S32",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "KarlsruheS4",
+      "name": "S4",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "KarlsruheS41",
+      "name": "S41",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "KarlsruheS42",
+      "name": "S42",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "KarlsruheS5",
+      "name": "S5",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "KarlsruheS51",
+      "name": "S51",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "KarlsruheS52",
+      "name": "S52",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "KarlsruheS6",
+      "name": "S6",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "KarlsruheS7",
+      "name": "S7",
+      "keywords": [],
+      "order": 22
+    },
+    {
+      "id": "KarlsruheS71",
+      "name": "S71",
+      "keywords": [],
+      "order": 23
+    },
+    {
+      "id": "KarlsruheS8",
+      "name": "S8",
+      "keywords": [],
+      "order": 24
+    },
+    {
+      "id": "KarlsruheS81",
+      "name": "S81",
+      "keywords": [],
+      "order": 25
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

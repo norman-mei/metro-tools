@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable no-console */
 
 const { spawn } = require('child_process')
 const fs = require('fs')
@@ -8,71 +9,39 @@ const WATCH_ROOTS = [
   path.join(process.cwd(), 'src', 'app', '(game)'),
   path.join(process.cwd(), 'public', 'images'),
 ]
-const DEBOUNCE_MS = 300
+const DEBOUNCE_MS = 500
 let timer = null
 let running = false
-let runningRegistry = false
-let pending = false
 const watchedDirs = new Set()
 
 function log(msg) {
-  console.log(`[auto-sync-image-folders] ${msg}`)
+  console.log(`[auto-generate-registries] ${msg}`)
 }
 
-function runRegistryGeneration() {
-  if (runningRegistry) {
-    log('registry generation already running, skipping trigger')
-    return
-  }
-  runningRegistry = true
-  const proc = spawn(
-    'node',
-    ['scripts/run-ts.js', 'scripts/metro-sync/generate-registries.ts'],
-    {
-      stdio: 'inherit',
-      env: process.env,
-    },
-  )
-  proc.on('exit', (code) => {
-    runningRegistry = false
-    if (code === 0) {
-      log('registry generation complete')
-    } else {
-      log(`registry generation exited with code ${code}`)
-    }
-    if (pending) {
-      pending = false
-      runAll()
-    }
-  })
-}
-
-function runAll() {
-  if (running || runningRegistry) {
-    pending = true
-    log('sync already running, queued another run')
+function runSync() {
+  if (running) {
+    log('generator already running, skipping trigger')
     return
   }
   running = true
-  const proc = spawn('node', ['scripts/sync-city-image-folders.js'], {
+  const proc = spawn('node', ['scripts/run-ts.js', 'scripts/metro-sync/generate-registries.ts'], {
     stdio: 'inherit',
     env: process.env,
   })
   proc.on('exit', (code) => {
     running = false
     if (code === 0) {
-      log('image folder sync complete')
+      log('registry generation complete')
     } else {
-      log(`image folder sync exited with code ${code}`)
+      log(`registry generation exited with code ${code}`)
     }
-    runRegistryGeneration()
   })
 }
 
 function queueSync(reason) {
-  log(`change detected (${reason}), scheduling sync...`)
+  log(`change detected (${reason}), scheduling registry generation...`)
   clearTimeout(timer)
-  timer = setTimeout(runAll, DEBOUNCE_MS)
+  timer = setTimeout(runSync, DEBOUNCE_MS)
 }
 
 function watchDir(dir) {
@@ -111,4 +80,5 @@ WATCH_ROOTS.forEach((root) => {
   log(`watching ${root} for changes...`)
   watchDir(root)
 })
-runAll()
+
+runSync()

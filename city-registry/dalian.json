@@ -1,0 +1,89 @@
+{
+  "city": "dalian",
+  "continent": "asia",
+  "bbox": [
+    38.7982587,
+    121.1390615,
+    39.4468746,
+    122.0018169
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Line1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Line2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Line3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "Line4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "Line5",
+      "name": "Line 5",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "Line12",
+      "name": "Line 12",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "Line13",
+      "name": "Line 13",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "Tram201",
+      "name": "Tram Route 201",
+      "keywords": [],
+      "order": 201
+    },
+    {
+      "id": "Tram202",
+      "name": "Tram Route 202",
+      "keywords": [],
+      "order": 202
+    },
+    {
+      "id": "HaidaCableway",
+      "name": "Haida Cableway",
+      "keywords": [],
+      "order": 301
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

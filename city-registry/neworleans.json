@@ -1,0 +1,59 @@
+{
+  "city": "neworleans",
+  "continent": "north america",
+  "bbox": [
+    29.926108145791773,
+    -90.1340578443786,
+    29.983847488386246,
+    -90.05717295243936
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "RTA12",
+      "name": "St. Charles",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "RTA46",
+      "name": "Rampart-Loyola",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "RTA47",
+      "name": "Canal / Cemeteries",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "RTA48",
+      "name": "Canal / City Park",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "RTA49",
+      "name": "Riverfront",
+      "keywords": [],
+      "order": 4
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

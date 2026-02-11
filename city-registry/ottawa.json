@@ -1,0 +1,54 @@
+{
+  "city": "ottawa",
+  "continent": "north america",
+  "bbox": [
+    45.27754187639863,
+    -75.83833661939343,
+    45.495889724799895,
+    -75.48062367879199
+  ],
+  "localLanguages": [
+    "en",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "OTrainLine1",
+      "name": "Line 1 – Confederation Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "OTrainLine2",
+      "name": "Line 2 – Trillium Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "OTrainLine3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "OTrainLine4",
+      "name": "Line 4 – Airport Link",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

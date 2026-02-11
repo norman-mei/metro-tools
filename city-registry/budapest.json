@@ -1,0 +1,83 @@
+{
+  "city": "budapest",
+  "continent": "europe",
+  "bbox": [
+    47.175450975,
+    18.940061975,
+    47.6610471,
+    19.358009225
+  ],
+  "localLanguages": [
+    "hu"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "BudapestMetro1",
+      "name": "M1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "BudapestMetro2",
+      "name": "M2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "BudapestMetro3",
+      "name": "M3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "BudapestMetro4",
+      "name": "M4",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "BudapestHEV5",
+      "name": "H5",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "BudapestHEV6",
+      "name": "H6",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "BudapestHEV7",
+      "name": "H7",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "BudapestHEV8",
+      "name": "H8",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "BudapestHEV9",
+      "name": "H9",
+      "keywords": [],
+      "order": 8
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

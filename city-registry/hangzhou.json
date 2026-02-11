@@ -1,0 +1,28 @@
+{
+  "city": "hangzhou",
+  "continent": "asia",
+  "bbox": [
+    29.7741,
+    119.6551,
+    30.7741,
+    120.6551
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

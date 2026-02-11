@@ -1,0 +1,371 @@
+{
+  "city": "california-state",
+  "continent": "north america",
+  "bbox": [
+    32.54408952249234,
+    -123.0120644,
+    38.9612829,
+    -116.9756645291548
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "BARTYellow",
+      "name": "Yellow",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "BARTOrange",
+      "name": "Orange",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "BARTBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "BARTGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "BARTRed",
+      "name": "Red",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "BARTOAC",
+      "name": "Oakland Airport Connector",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "CaltrainLocal",
+      "name": "Local",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "CaltrainLimited",
+      "name": "Limited",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "CaltrainExpress",
+      "name": "Express",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "CaltrainSouth",
+      "name": "South County Connector",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "SMART",
+      "name": "SMART",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "MuniJ",
+      "name": "Church",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "ACE",
+      "name": "Altamont Corridor Express",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "MuniK",
+      "name": "Ingleside",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "MuniL",
+      "name": "Taraval",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "MuniM",
+      "name": "Ocean View",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "MuniN",
+      "name": "Judah",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "MuniT",
+      "name": "Third Street",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "MuniS",
+      "name": "Shuttle",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "MuniE",
+      "name": "Embarcadero",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "MuniF",
+      "name": "Market & Wharves",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "MuniC",
+      "name": "California Cable Car",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "MuniPH",
+      "name": "Powell-Hyde Cable Car",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "MuniPM",
+      "name": "Powell-Mason Cable Car",
+      "keywords": [],
+      "order": 21
+    },
+    {
+      "id": "VTABlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 30
+    },
+    {
+      "id": "VTAGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 31
+    },
+    {
+      "id": "VTAOrange",
+      "name": "Orange",
+      "keywords": [],
+      "order": 32
+    },
+    {
+      "id": "SacRTGold",
+      "name": "Gold",
+      "keywords": [],
+      "order": 40
+    },
+    {
+      "id": "SacRTBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 41
+    },
+    {
+      "id": "SacRTGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 42
+    },
+    {
+      "id": "SFOBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 60
+    },
+    {
+      "id": "SFORed",
+      "name": "Red",
+      "keywords": [],
+      "order": 61
+    },
+    {
+      "id": "CAHSR",
+      "name": "CAHSR",
+      "keywords": [],
+      "order": 70
+    },
+    {
+      "id": "LACMTA_A",
+      "name": "A Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "LACMTA_B",
+      "name": "B Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "LACMTA_C",
+      "name": "C Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "LACMTA_D",
+      "name": "D Line",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "LACMTA_E",
+      "name": "E Line",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "LACMTA_K",
+      "name": "K Line",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "OCStreetcar",
+      "name": "OC Streetcar",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "MetrolinkAV",
+      "name": "Antelope Valley Line",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "MetrolinkVC",
+      "name": "Ventura County Line",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "MetrolinkSB",
+      "name": "San Bernardino Line",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "MetrolinkRIV",
+      "name": "Riverside Line",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "MetrolinkOC",
+      "name": "Orange County Line",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "Metrolink91PV",
+      "name": "91/Perris Valley Line",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "MetrolinkIEOC",
+      "name": "Inland Empire–Orange County Line",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "Arrow",
+      "name": "Arrow",
+      "keywords": [],
+      "order": 17
+    },
+    {
+      "id": "LAXAPM",
+      "name": "LAX Automated People Mover",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "MTSBlue",
+      "name": "Blue",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MTSOrange",
+      "name": "Orange",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MTSGreen",
+      "name": "Green",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "MTSSilver",
+      "name": "Silver",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "MTSSpecialEvents",
+      "name": "Special Events",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "MTSCopper",
+      "name": "Copper",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "COASTER",
+      "name": "COASTER",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "SPRINTER",
+      "name": "SPRINTER",
+      "keywords": [],
+      "order": 7
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

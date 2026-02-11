@@ -1,0 +1,59 @@
+{
+  "city": "wuxi",
+  "continent": "asia",
+  "bbox": [
+    31.4386805,
+    120.2086446,
+    31.9276194,
+    120.4640454
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "wuxi1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "wuxi2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "wuxi3",
+      "name": "Line 3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "wuxi4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "wuxis1",
+      "name": "Line S1",
+      "keywords": [],
+      "order": 5
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

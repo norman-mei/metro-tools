@@ -1,0 +1,28 @@
+{
+  "city": "dc",
+  "continent": "north america",
+  "bbox": [
+    38.21896401194312,
+    -77.96111110624754,
+    39.55853765827944,
+    -76.07191618791683
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

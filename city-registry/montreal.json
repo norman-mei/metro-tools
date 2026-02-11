@@ -1,0 +1,84 @@
+{
+  "city": "montreal",
+  "continent": "north america",
+  "bbox": [
+    45.360618,
+    -74.140898,
+    45.773174,
+    -73.178496
+  ],
+  "localLanguages": [
+    "en",
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "STMMetroBleue",
+      "name": "Bleue",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "STMMetroJaune",
+      "name": "Jaune",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "STMMetroOrange",
+      "name": "Orange",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "STMMetroVerte",
+      "name": "Verte",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "AMTRailExo1",
+      "name": "exo1",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "AMTRailExo2",
+      "name": "exo2",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "AMTRailExo3",
+      "name": "exo3",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "AMTRailExo4",
+      "name": "exo4",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "AMTRailExo5",
+      "name": "exo5",
+      "keywords": [],
+      "order": 8
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

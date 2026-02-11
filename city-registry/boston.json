@@ -1,0 +1,155 @@
+{
+  "city": "boston",
+  "continent": "north america",
+  "bbox": [
+    41.580341,
+    -71.848764,
+    42.799592,
+    -70.25694983786123
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MBTATMetroBlueLine",
+      "name": "Blue",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MBTATMetroGreenBLine",
+      "name": "Green B",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MBTATGreenCLine",
+      "name": "Green C",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "MBTATGreenDLine",
+      "name": "Green D",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "MBTATGreenELine",
+      "name": "Green E",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "MBTATMetroOrangeLine",
+      "name": "Orange",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "MBTATMetroRedLine",
+      "name": "Red",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "MBTATMetroRedMLine",
+      "name": "Mattapan",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "Fa",
+      "name": "Fairmount",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "Fb",
+      "name": "Fitchburg",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "Fr",
+      "name": "Franklin/Foxboro",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "H",
+      "name": "Haverhill",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "L",
+      "name": "Lowell",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "Ne",
+      "name": "Needham",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "Nr",
+      "name": "Newburyport/Rockport",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "P",
+      "name": "Providence/Stoughton",
+      "keywords": [],
+      "order": 18
+    },
+    {
+      "id": "W",
+      "name": "Framingham/Worcester",
+      "keywords": [],
+      "order": 19
+    },
+    {
+      "id": "CapeFlyer",
+      "name": "CapeFLYER",
+      "keywords": [],
+      "order": 20
+    },
+    {
+      "id": "GB",
+      "name": "Greenbush",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "KT",
+      "name": "Kingston",
+      "keywords": [],
+      "order": 16
+    },
+    {
+      "id": "MBTA_CR",
+      "name": "Commuter Rail",
+      "keywords": [],
+      "order": 99
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

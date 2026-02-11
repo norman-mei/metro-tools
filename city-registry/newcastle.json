@@ -1,0 +1,35 @@
+{
+  "city": "newcastle",
+  "continent": "oceania",
+  "bbox": [
+    -32.9276082,
+    151.7587528,
+    -32.9240341,
+    151.7868013
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "NewcastleLR",
+      "name": "Newcastle Light Rail",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,28 @@
+{
+  "city": "adelaide",
+  "continent": "oceania",
+  "bbox": [
+    -35.4285,
+    138.1007,
+    -34.4285,
+    139.1007
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

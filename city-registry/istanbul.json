@@ -1,0 +1,125 @@
+{
+  "city": "istanbul",
+  "continent": "europe",
+  "bbox": [
+    40.875352,
+    28.712792,
+    41.256565,
+    29.31173
+  ],
+  "localLanguages": [
+    "tr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "CM_Istanbulmetro_m1",
+      "name": "M1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "CM_Istanbulmetro_m2",
+      "name": "M2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "CM_Istanbulmetro_m3",
+      "name": "M3",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "CM_Istanbulmetro_m4",
+      "name": "M4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "CM_Istanbulmetro_m5",
+      "name": "M5",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "CM_Istanbulmetro_m6",
+      "name": "M6",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "CM_Istanbulmetro_m7",
+      "name": "M7",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "CM_Istanbulmetro_m8",
+      "name": "M8",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "CM_Istanbulmetro_m9",
+      "name": "M9",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "CM_Istanbulmetro_m10",
+      "name": "M10",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "CM_Istanbulmetro_m11",
+      "name": "M11",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "CM_CagdasTramvay_t1",
+      "name": "T1",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "CM_NostaljikTramvay_t2",
+      "name": "T2",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "CM_NostaljikTramvay_t3",
+      "name": "T3",
+      "keywords": [],
+      "order": 14
+    },
+    {
+      "id": "CM_CagdasTramvay_t4",
+      "name": "T4",
+      "keywords": [],
+      "order": 15
+    },
+    {
+      "id": "CM_CagdasTramvay_t5",
+      "name": "T5",
+      "keywords": [],
+      "order": 16
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

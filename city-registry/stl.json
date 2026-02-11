@@ -1,0 +1,47 @@
+{
+  "city": "stl",
+  "continent": "north america",
+  "bbox": [
+    38.50867341936819,
+    -90.36466977984159,
+    38.74133257318247,
+    -89.81248612096228
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Red_Line_(BART)",
+      "name": "Red Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Blue_Line_(BART)",
+      "name": "Blue Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "LoopTrolley",
+      "name": "Loop Trolley",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,119 @@
+{
+  "city": "madrid",
+  "continent": "europe",
+  "bbox": [
+    40.281634,
+    -3.903977,
+    40.559837,
+    -3.447473
+  ],
+  "localLanguages": [
+    "es"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MadridMetroL1",
+      "name": "1",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MadridMetroL2",
+      "name": "2",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MadridMetroL3",
+      "name": "3",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "MadridMetroL4",
+      "name": "4",
+      "keywords": [],
+      "order": 3
+    },
+    {
+      "id": "MadridMetroL5",
+      "name": "5",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "MadridMetroL6",
+      "name": "6",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "MadridMetroL7",
+      "name": "7",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "MadridMetroL8",
+      "name": "8",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "MadridMetroL9",
+      "name": "9",
+      "keywords": [],
+      "order": 8
+    },
+    {
+      "id": "MadridMetroL10",
+      "name": "10",
+      "keywords": [],
+      "order": 9
+    },
+    {
+      "id": "MadridMetroL11",
+      "name": "11",
+      "keywords": [],
+      "order": 10
+    },
+    {
+      "id": "MadridMetroL12",
+      "name": "12",
+      "keywords": [],
+      "order": 11
+    },
+    {
+      "id": "MetroLigeroMl1",
+      "name": "ML1",
+      "keywords": [],
+      "order": 12
+    },
+    {
+      "id": "MetroLigeroMl2",
+      "name": "ML2",
+      "keywords": [],
+      "order": 13
+    },
+    {
+      "id": "MetroLigeroMl3",
+      "name": "ML3",
+      "keywords": [],
+      "order": 14
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

@@ -1,0 +1,47 @@
+{
+  "city": "memphis",
+  "continent": "north america",
+  "bbox": [
+    35.13198853388526,
+    -90.06262611386202,
+    35.15815392626316,
+    -90.01749781798597
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MAXRed",
+      "name": "Main Street",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "MAXGreen",
+      "name": "Riverfront Loop",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "MAXYellow",
+      "name": "Madison Avenue",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

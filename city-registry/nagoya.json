@@ -1,0 +1,28 @@
+{
+  "city": "nagoya",
+  "continent": "asia",
+  "bbox": [
+    34.6815,
+    136.4066,
+    35.6815,
+    137.4066
+  ],
+  "localLanguages": [
+    "ja"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

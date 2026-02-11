@@ -1,0 +1,41 @@
+{
+  "city": "elpaso",
+  "continent": "north america",
+  "bbox": [
+    31.7523325,
+    -106.5045987,
+    31.7781676,
+    -106.4832811
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Elpasouptownloop",
+      "name": "Uptown Loop",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Elpasodowntownloop",
+      "name": "Downtown Loop",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

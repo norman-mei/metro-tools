@@ -1,0 +1,41 @@
+{
+  "city": "milwaukee",
+  "continent": "north america",
+  "bbox": [
+    43.0346404,
+    -87.9161578,
+    43.0481959,
+    -87.8962162
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TheHopL",
+      "name": "Lakefront",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "TheHopM",
+      "name": "Burn Commons - Intermodal Station",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

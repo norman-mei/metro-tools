@@ -1,0 +1,71 @@
+{
+  "city": "fuzhou",
+  "continent": "asia",
+  "bbox": [
+    25.8669626,
+    119.1546395,
+    26.1453045,
+    119.6912452
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "fuzhou1",
+      "name": "Line 1",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "fuzhou2",
+      "name": "Line 2",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "fuzhou4",
+      "name": "Line 4",
+      "keywords": [],
+      "order": 4
+    },
+    {
+      "id": "fuzhou5",
+      "name": "Line 5",
+      "keywords": [],
+      "order": 5
+    },
+    {
+      "id": "fuzhou6",
+      "name": "Line 6",
+      "keywords": [],
+      "order": 6
+    },
+    {
+      "id": "fuzhouf1",
+      "name": "Binhai Express",
+      "keywords": [],
+      "order": 7
+    },
+    {
+      "id": "gushan",
+      "name": "Gushan Tourist Cableway",
+      "keywords": [],
+      "order": 301
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

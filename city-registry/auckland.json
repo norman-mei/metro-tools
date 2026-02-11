@@ -1,0 +1,28 @@
+{
+  "city": "auckland",
+  "continent": "oceania",
+  "bbox": [
+    -37.3485,
+    174.2633,
+    -36.3485,
+    175.2633
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

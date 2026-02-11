@@ -1,0 +1,28 @@
+{
+  "city": "hefei",
+  "continent": "asia",
+  "bbox": [
+    31.3206,
+    116.7272,
+    32.3206,
+    117.7272
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

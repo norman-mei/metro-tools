@@ -1,0 +1,35 @@
+{
+  "city": "liupanshui",
+  "continent": "asia",
+  "bbox": [
+    26.4529008,
+    104.7789966,
+    26.4621383,
+    104.8131169
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "liupanshui-monorail",
+      "name": "Liupanshui Tourism Monorail",
+      "keywords": [],
+      "order": 1
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

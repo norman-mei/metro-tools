@@ -1,0 +1,28 @@
+{
+  "city": "mengzhi",
+  "continent": "asia",
+  "bbox": [
+    22.8962,
+    102.8648,
+    23.8962,
+    103.8648
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

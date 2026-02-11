@@ -1,0 +1,28 @@
+{
+  "city": "perth",
+  "continent": "oceania",
+  "bbox": [
+    -32.450500000000005,
+    115.3605,
+    -31.4505,
+    116.3605
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

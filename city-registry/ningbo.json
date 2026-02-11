@@ -1,0 +1,28 @@
+{
+  "city": "ningbo",
+  "continent": "asia",
+  "bbox": [
+    29.3746,
+    121.0503,
+    30.3746,
+    122.0503
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

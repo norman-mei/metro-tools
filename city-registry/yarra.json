@@ -1,0 +1,28 @@
+{
+  "city": "yarra",
+  "continent": "oceania",
+  "bbox": [
+    -38.3136,
+    144.4631,
+    -37.3136,
+    145.4631
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

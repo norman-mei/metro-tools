@@ -1,0 +1,28 @@
+{
+  "city": "sydney",
+  "continent": "oceania",
+  "bbox": [
+    -34.3688,
+    150.7093,
+    -33.3688,
+    151.7093
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

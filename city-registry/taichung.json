@@ -1,0 +1,35 @@
+{
+  "city": "taichung",
+  "continent": "asia",
+  "bbox": [
+    24.1086714,
+    120.6138445,
+    24.1875323,
+    120.7106674
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TaichungGreen",
+      "name": "Green Line",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

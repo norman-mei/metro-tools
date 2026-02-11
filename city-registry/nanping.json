@@ -1,0 +1,28 @@
+{
+  "city": "nanping",
+  "continent": "asia",
+  "bbox": [
+    26.147,
+    117.6789,
+    27.147,
+    118.6789
+  ],
+  "localLanguages": [
+    "zh"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

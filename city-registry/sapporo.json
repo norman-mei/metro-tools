@@ -1,0 +1,53 @@
+{
+  "city": "sapporo",
+  "continent": "asia",
+  "bbox": [
+    42.9871845,
+    141.2768834,
+    43.1136584,
+    141.4742812
+  ],
+  "localLanguages": [
+    "ja"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "Namboku",
+      "name": "南北線 Namboku Line",
+      "keywords": [],
+      "order": 0
+    },
+    {
+      "id": "Tozai",
+      "name": "東西線 Tōzai Line",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "Toho",
+      "name": "東豊線 Tōhō Line",
+      "keywords": [],
+      "order": 2
+    },
+    {
+      "id": "Streetcar",
+      "name": "札幌市電 Streetcar",
+      "keywords": [],
+      "order": 3
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

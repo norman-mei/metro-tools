@@ -1,0 +1,35 @@
+{
+  "city": "canberra",
+  "continent": "oceania",
+  "bbox": [
+    -35.27791478617855,
+    149.12929704743559,
+    -35.18554529230796,
+    149.15093899557735
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "CanberraR1",
+      "name": "R1",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

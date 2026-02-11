@@ -1,0 +1,35 @@
+{
+  "city": "honolulu",
+  "continent": "north america",
+  "bbox": [
+    21.292508289607014,
+    -158.0522124511238,
+    21.39699165764983,
+    -157.8434980799221
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "SKY",
+      "name": "Skyline",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

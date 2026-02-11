@@ -1,0 +1,41 @@
+{
+  "city": "pyongyang",
+  "continent": "asia",
+  "bbox": [
+    39.0074686,
+    125.700204,
+    39.0716449,
+    125.8164764
+  ],
+  "localLanguages": [
+    "ko"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "pyongyang-chollima",
+      "name": "Chollima",
+      "keywords": [],
+      "order": 1
+    },
+    {
+      "id": "pyongyang-hyoksin",
+      "name": "Hyoksin",
+      "keywords": [],
+      "order": 2
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

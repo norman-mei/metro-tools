@@ -1,0 +1,28 @@
+{
+  "city": "paris",
+  "continent": "europe",
+  "bbox": [
+    48.76881073327119,
+    2.228536981491631,
+    48.945867271208414,
+    2.464280070543357
+  ],
+  "localLanguages": [
+    "fr"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

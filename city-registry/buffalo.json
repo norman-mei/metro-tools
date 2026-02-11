@@ -1,0 +1,35 @@
+{
+  "city": "buffalo",
+  "continent": "north america",
+  "bbox": [
+    42.873292,
+    -78.8779483,
+    42.9546753,
+    -78.8199968
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "MR",
+      "name": "Metro Rail",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}

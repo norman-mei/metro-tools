@@ -1,0 +1,35 @@
+{
+  "city": "norfolk",
+  "continent": "north america",
+  "bbox": [
+    36.84104245009407,
+    -76.3039609262666,
+    36.85902715022272,
+    -76.18971376537117
+  ],
+  "localLanguages": [
+    "en"
+  ],
+  "modes": [
+    "subway",
+    "light_rail",
+    "tram",
+    "rail",
+    "funicular",
+    "monorail",
+    "cable_car",
+    "gondola",
+    "chair_lift"
+  ],
+  "lines": [
+    {
+      "id": "TT",
+      "name": "The Tide",
+      "keywords": [],
+      "order": 0
+    }
+  ],
+  "stationAliases": {},
+  "stationLocalNames": {},
+  "manualCoords": {}
+}
