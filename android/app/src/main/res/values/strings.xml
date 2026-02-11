@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MetroMemory</string>
+    <string name="title_activity_main">MetroMemory</string>
+    <string name="package_name">com.metromemory.app</string>
+    <string name="custom_url_scheme">com.metromemory.app</string>
+</resources>
