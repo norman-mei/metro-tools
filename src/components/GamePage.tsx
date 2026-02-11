@@ -12,9 +12,9 @@ import KoFiWidget from '@/components/KoFiWidget'
 import MenuComponent from '@/components/Menu'
 import PrivacyPanel from '@/components/PrivacyPanel'
 import SettingsPanel from '@/components/SettingsPanel'
+import SpeedrunToast from '@/components/SpeedrunToast'
 import ThemeToggleButton from '@/components/ThemeToggleButton'
 import ZenModeToast from '@/components/ZenModeToast'
-import SpeedrunToast from '@/components/SpeedrunToast'
 import { useAuth } from '@/context/AuthContext'
 import { KeybindingAction, useSettings } from '@/context/SettingsContext'
 import useHideLabels from '@/hooks/useHideLabels'
@@ -25,15 +25,15 @@ import { getAchievementForCity } from '@/lib/achievements'
 import { useConfig } from '@/lib/configContext'
 import { getKeystrokeFromEvent } from '@/lib/keyboardUtils'
 import {
-    clearAutoRevealSuppressionForCity,
-    shouldAutoRevealSolutions,
-    suppressAutoRevealForCity,
+  clearAutoRevealSuppressionForCity,
+  shouldAutoRevealSolutions,
+  suppressAutoRevealForCity,
 } from '@/lib/solutionsAccess'
 import { getStationKey } from '@/lib/stationUtils'
 import {
-    DataFeature,
-    DataFeatureCollection,
-    RoutesFeatureCollection,
+  DataFeature,
+  DataFeatureCollection,
+  RoutesFeatureCollection,
 } from '@/lib/types'
 import { useLocalStorageValue } from '@react-hookz/web'
 import { coordEach } from '@turf/meta'
@@ -45,15 +45,15 @@ import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import {
-    CSSProperties,
-    ChangeEvent,
-    ComponentPropsWithoutRef,
-    FormEvent,
-    useCallback,
-    useEffect,
-    useMemo,
-    useRef,
-    useState,
+  CSSProperties,
+  ChangeEvent,
+  ComponentPropsWithoutRef,
+  FormEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
 } from 'react'
 import 'react-circular-progressbar/dist/styles.css'
 
@@ -709,6 +709,12 @@ const buildLineImageConfetti = (
   })
 
   return images.length > 0 ? images : null
+}
+
+
+const shouldAutoFocus = () => {
+  if (typeof window === 'undefined') return false
+  return window.matchMedia('(hover: hover) and (pointer: fine)').matches
 }
 
 export default function GamePage({
@@ -1719,9 +1725,11 @@ export default function GamePage({
       comebackTriggeredRef.current = false
       clearStoredProgress()
       void submitProgress([], {}, true)
-      setTimeout(() => {
-        inputRef.current?.focus()
-      }, 0)
+      if (shouldAutoFocus()) {
+        setTimeout(() => {
+          inputRef.current?.focus()
+        }, 0)
+      }
     }
   }, [
     t,
@@ -1855,9 +1863,11 @@ export default function GamePage({
     handleProtectedAction(() => {
         clearAutoRevealSuppressionForCity(CITY_NAME)
         revealAllStations()
-        setTimeout(() => {
-          inputRef.current?.focus()
-        }, 0)
+        if (shouldAutoFocus()) {
+          setTimeout(() => {
+            inputRef.current?.focus()
+          }, 0)
+        }
     }, 'solutions')
   }, [
     CITY_NAME,
@@ -1880,9 +1890,11 @@ export default function GamePage({
     setSolutionsPromptOpen(false)
     setSolutionsPassword('')
     setSolutionsError(false)
-    setTimeout(() => {
-      inputRef.current?.focus()
-    }, 0)
+    if (shouldAutoFocus()) {
+      setTimeout(() => {
+        inputRef.current?.focus()
+      }, 0)
+    }
   }, [setSolutionsPromptOpen, setSolutionsPassword, setSolutionsError])
 
   const handleSolutionsPasswordChange = useCallback(
@@ -1924,9 +1936,11 @@ export default function GamePage({
         setSolutionsPromptOpen(false)
         setSolutionsPassword('')
         setSolutionsError(false)
-        setTimeout(() => {
-          inputRef.current?.focus()
-        }, 0)
+        if (shouldAutoFocus()) {
+          setTimeout(() => {
+            inputRef.current?.focus()
+          }, 0)
+        }
       } catch (error) {
         setSolutionsError(true)
         if (process.env.NODE_ENV !== 'production') {
@@ -3283,6 +3297,7 @@ export default function GamePage({
   }, [map, showMapNames])
 
   useEffect(() => {
+
     const handleKeyDown = (event: KeyboardEvent) => {
       // Ignore if user is typing in an input
       const activeTag = document.activeElement?.tagName.toLowerCase()
@@ -3306,7 +3321,9 @@ export default function GamePage({
         
         if (action === 'FOCUS_INPUT') {
             event.preventDefault()
-            inputRef.current?.focus()
+            if (shouldAutoFocus()) {
+                inputRef.current?.focus()
+            }
         } else if (action === 'CLEAR_INPUT') {
             event.preventDefault()
             if (activeFoundId) {
@@ -3580,7 +3597,7 @@ export default function GamePage({
           </div>
         ) : null}
         {!zenMode && (
-          <div className="pointer-events-none absolute inset-x-0 top-3 px-3 transition-all lg:top-6 lg:px-6">
+          <div className="pointer-events-none absolute inset-x-0 top-[calc(0.75rem+env(safe-area-inset-top))] px-3 transition-all lg:top-6 lg:px-6">
             <div className="pointer-events-auto mx-auto flex w-full max-w-3xl flex-col gap-2 lg:gap-3">
               <FoundSummary
                 className="rounded-lg bg-white/95 p-3 shadow-md backdrop-blur-sm dark:bg-zinc-900/95 dark:text-zinc-100 dark:shadow-black/40 lg:hidden"
@@ -3605,25 +3622,35 @@ export default function GamePage({
                   <span className="text-sm font-bold">{foundStationKeys.size}</span>
                 </span>
                 <span className="text-sm font-semibold">
-                  {mobileSidebarOpen ? '<' : '>'}
+                  {mobileSidebarOpen ? (
+                    'CLOSE'
+                  ) : (
+                    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="12" y1="16" x2="12" y2="12" />
+                      <line x1="12" y1="8" x2="12.01" y2="8" />
+                    </svg>
+                  )}
                 </span>
               </button>
-              <Input
-                fuse={fuse}
-                found={found}
-                setFound={setFound}
-                setFoundTimestamps={setFoundTimestamps}
-                setIsNewPlayer={setIsNewPlayer}
-                inputRef={inputRef}
-                map={map}
-                idMap={idMap}
-                clusterGroups={clusterGroups}
-                autoFocus={!solutionsPromptOpen}
-                disabled={solutionsPromptOpen}
-                onGuessResult={handleGuessResult}
-                onInputEdit={handleInputEdit}
-                autoSubmitOnMatch={settings.autoSubmitOnMatch}
-              />
+              {!mobileSidebarOpen && (
+                <Input
+                  fuse={fuse}
+                  found={found}
+                  setFound={setFound}
+                  setFoundTimestamps={setFoundTimestamps}
+                  setIsNewPlayer={setIsNewPlayer}
+                  inputRef={inputRef}
+                  map={map}
+                  idMap={idMap}
+                  clusterGroups={clusterGroups}
+                  autoFocus={!solutionsPromptOpen}
+                  disabled={solutionsPromptOpen}
+                  onGuessResult={handleGuessResult}
+                  onInputEdit={handleInputEdit}
+                  autoSubmitOnMatch={settings.autoSubmitOnMatch}
+                />
+              )}
               {speedrunMode && (
                 <div className="flex items-center gap-2 rounded-full bg-amber-500/90 px-3 py-2 text-xs font-semibold text-white shadow-lg ring-1 ring-white/30 backdrop-blur dark:bg-amber-400/90 dark:text-zinc-950">
                   <span>Speedrun</span>
@@ -3756,7 +3783,7 @@ export default function GamePage({
           >
             <div className="relative flex-none px-6 pt-5 pb-2">
               <div className="flex items-center justify-between">
-                <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-100">
+                <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-100 sr-only">
                   {t('stationsFound')}
                 </h2>
                 <button

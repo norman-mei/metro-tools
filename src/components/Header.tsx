@@ -6,7 +6,6 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Fragment, useEffect, useRef } from 'react'
 
-import { Avatar, AvatarContainer } from '@/components/Avatar'
 import { Container } from '@/components/Container'
 import ThemeToggleButton from '@/components/ThemeToggleButton'
 
@@ -244,7 +243,7 @@ export function Header() {
       >
         <div
           ref={headerRef}
-          className="top-0 z-10 h-16 pt-6"
+          className="top-0 z-10 pt-[calc(1.5rem+env(safe-area-inset-top))]"
           style={{
             // @ts-ignore
             position: 'var(--header-position)',

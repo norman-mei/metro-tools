@@ -1,14 +1,14 @@
-import SettingsSaveToast from '@/components/SettingsSaveToast'
-import ThemeProviderClient from '@/components/ThemeProviderClient'
 import AdRails from '@/components/ads/AdRails'
 import ServiceWorkerRegister from '@/components/ServiceWorkerRegister'
+import SettingsSaveToast from '@/components/SettingsSaveToast'
+import ThemeProviderClient from '@/components/ThemeProviderClient'
 import { AuthProvider } from '@/context/AuthContext'
 import { SettingsProvider } from '@/context/SettingsContext'
 import { ADSENSE_SCRIPT_SRC } from '@/lib/adsense'
 import '@/styles/tailwind.css'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://metro-memory.com'),
@@ -18,6 +18,14 @@ export const metadata: Metadata = {
     apple: '/icon.ico',
   },
   manifest: '/manifest.webmanifest',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({
@@ -36,6 +44,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-zinc-50 text-zinc-900 antialiased dark:bg-black dark:text-zinc-100">
+        <div className="fixed top-0 left-0 right-0 z-50 h-[env(safe-area-inset-top)] bg-black" />
         <ThemeProviderClient>
           <SettingsProvider>
             <AuthProvider>
