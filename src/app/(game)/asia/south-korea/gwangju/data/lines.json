@@ -1,0 +1,18 @@
+{
+  "Gwangju1": {
+    "name": "Line 1",
+    "color": "#009088",
+    "backgroundColor": "#009088",
+    "textColor": "#FFFFFF",
+    "icon": "asia/south-korea/gwangju/gwangju1.png",
+    "order": 0
+  },
+  "Gwangju2": {
+    "name": "Line 2",
+    "color": "#0471C3",
+    "backgroundColor": "#0471C3",
+    "textColor": "#FFFFFF",
+    "icon": "asia/south-korea/gwangju/gwangju2.png",
+    "order": 1
+  }
+}

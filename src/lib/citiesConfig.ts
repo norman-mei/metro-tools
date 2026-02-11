@@ -1,3 +1,5 @@
+import { AVAILABLE_CITY_SLUGS } from './availableCityData'
+
 export interface ICity {
   name: string
   image: string
@@ -9,6 +11,16 @@ export interface ICity {
 }
 
 type CityBase = Omit<ICity, 'image'>
+
+const isExplicitlyEnabled = (city: CityBase | ICity): boolean =>
+  city.disabled === false || city.hideInStats === false
+
+const normalizeAvailability = <T extends CityBase | ICity>(city: T): T => {
+  if (isExplicitlyEnabled(city)) {
+    return { ...city, disabled: false, hideInStats: false }
+  }
+  return city
+}
 
 const rawCities: CityBase[] = [
   // North America
@@ -664,6 +676,7 @@ const rawCities: CityBase[] = [
     link: '/asia/japan/fukuoka',
     continent: 'Asia',
     disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Hiroshima (広島), HRS',
@@ -682,6 +695,7 @@ const rawCities: CityBase[] = [
     link: '/asia/japan/okayama',
     continent: 'Asia',
     disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Osaka–Kobe (大阪・神戸), OSK-HYG',
@@ -694,6 +708,7 @@ const rawCities: CityBase[] = [
     link: '/asia/japan/kyoto',
     continent: 'Asia',
     disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Sapporo (札幌), HKD',
@@ -705,6 +720,7 @@ const rawCities: CityBase[] = [
     link: '/asia/japan/sendai',
     continent: 'Asia',
     disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Daegu (대구), DG',
@@ -728,7 +744,8 @@ const rawCities: CityBase[] = [
     name: 'Gwangju (광주), GJ',
     link: '/asia/south-korea/gwangju',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Kuala Lumpur, MY',
@@ -1046,7 +1063,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/south-korea/busan',
   'asia/south-korea/daegu',
   'asia/south-korea/daejeon',
-  'asia/south-korea/gwangju',
   'asia/taiwan/taipei',
   'asia/thailand/bangkok',
   'north-america/canada/toronto',
@@ -1073,12 +1089,12 @@ const getCityImagePath = (link: string): string => {
   return slug ? `/city-cards/${slug}.jpg` : '/city-cards/_default.jpg'
 }
 
-const applyPlaceholderFlags = (city: ICity): ICity => {
+const applyPlaceholderFlags = (city: CityBase): CityBase => {
   const path = getPathFromLink(city.link)
   if (!path) {
     return city
   }
-  if (PLACEHOLDER_CITY_PATHS.has(path)) {
+  if (PLACEHOLDER_CITY_PATHS.has(path) && !isExplicitlyEnabled(city)) {
     return { ...city, disabled: true }
   }
   return city
@@ -1086,7 +1102,18 @@ const applyPlaceholderFlags = (city: ICity): ICity => {
 
 const withImages = (city: CityBase): ICity => ({ ...city, image: getCityImagePath(city.link) })
 
-export const cities: ICity[] = rawCities.map(withImages).map(applyPlaceholderFlags)
+export const cities: ICity[] = rawCities
+  .map(normalizeAvailability)
+  .map(applyPlaceholderFlags)
+  .map(withImages)
+
+const getCityAvailabilitySlug = (city: Pick<ICity, 'link'>): string | null =>
+  getSlugFromLink(city.link)
+
+const isCityAvailable = (city: Pick<ICity, 'link'>): boolean => {
+  const slug = getCityAvailabilitySlug(city)
+  return slug ? AVAILABLE_CITY_SLUGS.has(slug) : false
+}
 
 export const getSlugFromLink = (link: string): string | null => {
   const path = getPathFromLink(link)
@@ -1096,6 +1123,14 @@ export const getSlugFromLink = (link: string): string | null => {
   const segments = path.split('/').filter(Boolean)
   return segments.length ? segments[segments.length - 1] : null
 }
+
+export const isCityExplicitlyEnabled = (
+  city: Pick<ICity, 'disabled' | 'hideInStats' | 'link'>,
+): boolean => city.disabled === false || city.hideInStats === false || isCityAvailable(city)
+
+export const isCityDisabled = (
+  city: Pick<ICity, 'disabled' | 'hideInStats' | 'link'>,
+): boolean => city.disabled === true && !isCityExplicitlyEnabled(city)
 
 export const getCityBaseName = (slug: string): string | null => {
   const city = cities.find((entry) => getSlugFromLink(entry.link) === slug)

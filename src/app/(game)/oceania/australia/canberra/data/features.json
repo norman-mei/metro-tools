@@ -5,7 +5,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.13549580912922, -35.18554529230796]
+        "coordinates": [
+          149.1354427,
+          -35.1856325
+        ]
       },
       "properties": {
         "name": "Gungahlin Place",
@@ -18,7 +21,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.1433357715715, -35.186911023008655]
+        "coordinates": [
+          149.1434088,
+          -35.1869882
+        ]
       },
       "properties": {
         "name": "Manning Clark North",
@@ -31,7 +37,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.15093899557735, -35.19342316043314]
+        "coordinates": [
+          149.1509706,
+          -35.1934334
+        ]
       },
       "properties": {
         "name": "Mapleton Avenue",
@@ -44,7 +53,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.14939698548739, -35.200278758256665]
+        "coordinates": [
+          149.1493346,
+          -35.2003817
+        ]
       },
       "properties": {
         "name": "Nullarbor Avenue",
@@ -57,7 +69,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.14735112121232, -35.20903284493643]
+        "coordinates": [
+          149.14735,
+          -35.20905
+        ]
       },
       "properties": {
         "name": "Well Station Drive",
@@ -70,7 +85,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.1446359488766, -35.22157749535059]
+        "coordinates": [
+          149.1446953,
+          -35.221625
+        ]
       },
       "properties": {
         "name": "Sandford Street",
@@ -83,7 +101,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.1442611410945, -35.22847364094086]
+        "coordinates": [
+          149.14422,
+          -35.2284994
+        ]
       },
       "properties": {
         "name": "EPIC and Racecourse",
@@ -96,7 +117,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.14387069280735, -35.23574492713031]
+        "coordinates": [
+          149.1439087,
+          -35.2358185
+        ]
       },
       "properties": {
         "name": "Phillip Avenue",
@@ -109,7 +133,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.13453738757568, -35.244407243833436]
+        "coordinates": [
+          149.1345618,
+          -35.2444676
+        ]
       },
       "properties": {
         "name": "Swinden Street",
@@ -122,7 +149,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.13367944772205, -35.25054587944304]
+        "coordinates": [
+          149.133739,
+          -35.250558
+        ]
       },
       "properties": {
         "name": "Dickson Interchange",
@@ -135,7 +165,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.13216527325153, -35.26009436219464]
+        "coordinates": [
+          149.1321796,
+          -35.2601577
+        ]
       },
       "properties": {
         "name": "Macarthur Avenue",
@@ -148,7 +181,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.13124227478085, -35.26586989145618]
+        "coordinates": [
+          149.1312575,
+          -35.2658957
+        ]
       },
       "properties": {
         "name": "Ipima Street",
@@ -161,7 +197,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.13017625032674, -35.272593426776695]
+        "coordinates": [
+          149.1301785,
+          -35.2726165
+        ]
       },
       "properties": {
         "name": "Elouera Street",
@@ -174,7 +213,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.12929704743559, -35.27791478617855]
+        "coordinates": [
+          149.1293252,
+          -35.2779327
+        ]
       },
       "properties": {
         "name": "Alinga Street",

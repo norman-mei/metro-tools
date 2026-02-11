@@ -31,6 +31,34 @@ const isValidCityPath = (parts) => {
   return true
 }
 
+const collectCityDirs = async () => {
+  const cityDirs = []
+  const continents = await fs.readdir(GAME_ROOT, { withFileTypes: true })
+  for (const continent of continents) {
+    if (!continent.isDirectory()) continue
+    if (continent.name.startsWith('_') || continent.name.startsWith('(') || continent.name.startsWith('[')) {
+      continue
+    }
+    const continentPath = path.join(GAME_ROOT, continent.name)
+    const countries = await fs.readdir(continentPath, { withFileTypes: true })
+    for (const country of countries) {
+      if (!country.isDirectory()) continue
+      if (country.name.startsWith('_') || country.name.startsWith('(') || country.name.startsWith('[')) {
+        continue
+      }
+      const countryPath = path.join(continentPath, country.name)
+      const cities = await fs.readdir(countryPath, { withFileTypes: true })
+      for (const city of cities) {
+        if (!city.isDirectory()) continue
+        const parts = [continent.name, country.name, city.name]
+        if (!isValidCityPath(parts)) continue
+        cityDirs.push(path.join(...parts))
+      }
+    }
+  }
+  return cityDirs
+}
+
 const run = async () => {
   const configFiles = await findFiles(GAME_ROOT, 'config.ts')
   const linesFiles = await findFiles(GAME_ROOT, 'lines.json')
@@ -45,6 +73,8 @@ const run = async () => {
     const [continent, country, city] = parts
     cityPaths.add(path.join(continent, country, city))
   }
+  const discoveredDirs = await collectCityDirs()
+  discoveredDirs.forEach((cityPath) => cityPaths.add(cityPath))
 
   let created = 0
   for (const cityPath of cityPaths) {

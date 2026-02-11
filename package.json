@@ -13,6 +13,7 @@
     "sync:icons": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js",
     "sync:images": "node scripts/sync-city-image-folders.js",
     "generate:city-data": "node scripts/export-city-data.js",
+    "generate:available-city-data": "node scripts/generate-available-city-data.js",
     "sync:icons:watch": "node scripts/auto-sync-city-icons.js",
     "sync:images:watch": "node scripts/auto-sync-city-image-folders.js",
     "sync:registries:watch": "node scripts/auto-generate-registries.js"

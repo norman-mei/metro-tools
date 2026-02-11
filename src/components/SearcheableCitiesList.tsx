@@ -30,7 +30,7 @@ import { useAuth } from '@/context/AuthContext'
 import { useSettings } from '@/context/SettingsContext'
 import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity, getMasterAchievementDefinition } from '@/lib/achievements'
-import { ICity, cities } from '@/lib/citiesConfig'
+import { ICity, cities, isCityDisabled as isCityDisabledFlag } from '@/lib/citiesConfig'
 import { CITY_COORDINATES } from '@/lib/cityCoordinates'
 import { GLOBAL_ACHIEVEMENTS } from '@/lib/globalAchievements'
 import { STATION_TOTALS } from '@/lib/stationTotals'
@@ -658,7 +658,7 @@ const SearcheableCitiesList = ({
   const isMapView = cityViewMode === 'globe' || cityViewMode === 'map'
   const cityAchievementCatalog = useMemo(() => {
     return enrichedCities
-      .filter((city) => !city.disabled)
+      .filter((city) => !isCityDisabledFlag(city))
       .map((city, index) => {
         const slug = getSlugFromLink(city.link)
         if (!slug) return null
@@ -1934,7 +1934,7 @@ const SearcheableCitiesList = ({
         const { latitude, longitude } = position.coords
         setUserLocation([longitude, latitude])
         const candidates = enrichedCities
-          .filter((city) => !city.disabled)
+          .filter((city) => !isCityDisabledFlag(city))
           .map((city) => {
             const slug = getSlugFromLink(city.link)
             if (!slug) return null
@@ -1963,7 +1963,7 @@ const SearcheableCitiesList = ({
 
   const handlePlayRandomCity = useCallback(() => {
     const eligible = enrichedCities
-      .filter((city) => !city.disabled)
+      .filter((city) => !isCityDisabledFlag(city))
       .map((city) => {
         const slug = getSlugFromLink(city.link)
         if (!slug) return null

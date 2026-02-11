@@ -3,6 +3,7 @@ import OverflowMarquee from '@/components/OverflowMarquee'
 import { useAuth } from '@/context/AuthContext'
 import useTranslation from '@/hooks/useTranslation'
 import { ICity } from '@/lib/citiesConfig'
+import { isCityDisabled as isCityDisabledFlag } from '@/lib/citiesConfig'
 import { STATION_TOTALS } from '@/lib/stationTotals'
 import classNames from 'classnames'
 import clsx from 'clsx'
@@ -226,8 +227,9 @@ const CityCard = ({
 
   const isUnavailableCity = slug ? UNAVAILABLE_CITY_SLUGS.has(slug) : false
   const showComingSoon = isUnavailableCity && isHovered
-  const isCityDisabled = city.disabled || isUnavailableCity
-  const displayAsDisabled = city.disabled || showComingSoon
+  const cityDisabled = isCityDisabledFlag(city)
+  const isCityDisabled = cityDisabled || isUnavailableCity
+  const displayAsDisabled = cityDisabled || showComingSoon
 
   const statsNavigation = useMemo(() => {
     if (!visibleCities) {
@@ -413,7 +415,7 @@ const CityCard = ({
       return (
         <p className={headingClasses} style={headingStyle}>
           {headingContent}
-          {city.disabled && !showComingSoon && ' (coming soon)'}
+          {cityDisabled && !showComingSoon && ' (coming soon)'}
         </p>
       )
     }
@@ -422,7 +424,7 @@ const CityCard = ({
       return (
         <p className={headingClasses} style={headingStyle}>
           {headingContent}
-          {city.disabled && !showComingSoon && ' (coming soon)'}
+          {cityDisabled && !showComingSoon && ' (coming soon)'}
         </p>
       )
     }
@@ -438,7 +440,7 @@ const CityCard = ({
       >
         <>
           {headingContent}
-          {city.disabled && !showComingSoon && ' (coming soon)'}
+          {cityDisabled && !showComingSoon && ' (coming soon)'}
         </>
       </OverflowMarquee>
     )
@@ -624,7 +626,7 @@ const CityCard = ({
         className={cardWrapperClasses}
         onMouseEnter={() => handleHover(true)}
         onMouseLeave={() => handleHover(false)}
-        aria-disabled={city.disabled}
+        aria-disabled={cityDisabled}
       >
         {content}
       </Link>

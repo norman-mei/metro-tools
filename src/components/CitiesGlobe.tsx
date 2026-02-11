@@ -1,7 +1,7 @@
 
 'use client'
 
-import { ICity, cities as defaultCities, getSlugFromLink } from '@/lib/citiesConfig'
+import { ICity, cities as defaultCities, getSlugFromLink, isCityDisabled as isCityDisabledFlag } from '@/lib/citiesConfig'
 import { CITY_COORDINATES } from '@/lib/cityCoordinates'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
@@ -244,7 +244,7 @@ export default function CitiesGlobe({
                   const coords = CITY_COORDINATES[slug]
                   if (!coords) return null
                   const progress = cityProgress[slug] || 0
-                  const isDisabled = Boolean(city.disabled)
+                  const isDisabled = isCityDisabledFlag(city)
                   const isRecommended = recommendedSet.has(slug) && !isDisabled
                   
                   return {
@@ -334,7 +334,7 @@ export default function CitiesGlobe({
                 const coords = CITY_COORDINATES[slug]
                 if (!coords) return null
                 const progress = cityProgress[slug] || 0
-                const isDisabled = Boolean(city.disabled)
+                const isDisabled = isCityDisabledFlag(city)
                 const isRecommended = recommendedSet.has(slug) && !isDisabled
                 return {
                   type: 'Feature',

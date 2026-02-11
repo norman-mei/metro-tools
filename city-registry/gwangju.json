@@ -21,7 +21,22 @@
     "gondola",
     "chair_lift"
   ],
-  "lines": [],
+  "lines": [
+    {
+      "id": "Gwangju1",
+      "name": "Line 1",
+      "keywords": [
+        "광주 도시철도 1호선"
+      ]
+    },
+    {
+      "id": "Gwangju2",
+      "name": "Line 2",
+      "keywords": [
+        "광주 도시철도 2호선"
+      ]
+    }
+  ],
   "stationAliases": {},
   "stationLocalNames": {},
   "manualCoords": {}
