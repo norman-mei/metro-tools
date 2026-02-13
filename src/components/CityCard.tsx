@@ -15,7 +15,7 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 export type CityCardVariant = 'comfortable' | 'compact' | 'cover'  | 'list'
   | 'globe' // Added for globe view compatibility
   | 'map'   // Added for 2D map view compatibility
-const UNAVAILABLE_CITY_SLUGS = new Set(['omaha'])
+const UNAVAILABLE_CITY_SLUGS = new Set<string>()
 
 const getPathFromLink = (link: string) => {
   if (!link.startsWith('/')) {

@@ -1,0 +1,18 @@
+{
+  "daejeon1": {
+    "name": "Line 1",
+    "color": "#007448",
+    "backgroundColor": "#007448",
+    "textColor": "#FFFFFF",
+    "icon": "asia/south-korea/daejeon/daejeon1.png",
+    "order": 0
+  },
+  "daejeon2": {
+    "name": "Line 2",
+    "color": "#40E0D0",
+    "backgroundColor": "#40E0D0",
+    "textColor": "#000000",
+    "icon": "asia/south-korea/daejeon/daejeon2.png",
+    "order": 1
+  }
+}

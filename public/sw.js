@@ -1,4 +1,4 @@
-const CACHE_NAME = 'metro-memory-v1'
+const CACHE_NAME = 'metro-memory-v2'
 const OFFLINE_MANIFEST_URL = '/offline-manifest.json'
 const CORE_ASSETS = [
   '/',

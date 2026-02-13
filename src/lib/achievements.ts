@@ -692,6 +692,42 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Zhengzhou Junction",
     description: "You've mastered Zhengzhou's lines at China's heart-hub.",
   },
+  bengbu: {
+    title: "Bengbu Bridge Runner",
+    description: "You've crossed Bengbu's lines like a Huai River connector.",
+  },
+  guangan: {
+    title: "Guangan Guide",
+    description: "You've mapped Guangan's lines with hometown-hero confidence.",
+  },
+  guilin: {
+    title: "Guilin Karst Cruiser",
+    description: "You've glided through Guilin's lines like a Li River boat.",
+  },
+  jining: {
+    title: "Jining Junction Keeper",
+    description: "You've tracked Jining's lines with canal-city precision.",
+  },
+  toronto: {
+    title: "Toronto Trackmaster",
+    description: "You've conquered Toronto's network from subway to streetcar.",
+  },
+  xishui: {
+    title: "Xishui Pathfinder",
+    description: "You've charted Xishui's routes with mountain-town focus.",
+  },
+  yinchuan: {
+    title: "Yinchuan Oasis Rider",
+    description: "You've mastered Yinchuan's lines across the river-plain oasis.",
+  },
+  zhangjiakou: {
+    title: "Zhangjiakou Trailblazer",
+    description: "You've ridden Zhangjiakou's lines with winter-city grit.",
+  },
+  zhangye: {
+    title: "Zhangye Silkline",
+    description: "You've mapped Zhangye's routes with Hexi Corridor poise.",
+  },
 }
 
 export const getAchievementForCity = (

@@ -1,0 +1,3295 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9660188,
+          35.0481953
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Dadaepo Beach (다대포해수욕장)",
+        "alternate_names": [
+          "다대포해수욕장",
+          "多大浦海水浴場",
+          "Dadaepo Beach"
+        ],
+        "line": "busan1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9713277,
+          35.0577578
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Dadaepo Harbor (다대포항)",
+        "alternate_names": [
+          "다대포항",
+          "多大浦港",
+          "Dadaepo Harbor"
+        ],
+        "line": "busan1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.979733,
+          35.0652983
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Natgae (낫개)",
+        "alternate_names": [
+          "낫개",
+          "Natgae"
+        ],
+        "line": "busan1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9768092,
+          35.0745502
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sinjangnim (신장림)",
+        "alternate_names": [
+          "신장림",
+          "新長林",
+          "Sinjangnim"
+        ],
+        "line": "busan1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.977383,
+          35.0818645
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Jangnim (장림)",
+        "alternate_names": [
+          "장림",
+          "長林",
+          "Jangnim"
+        ],
+        "line": "busan1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9732678,
+          35.0897702
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Dongmae (동매)",
+        "alternate_names": [
+          "동매",
+          "Dongmae"
+        ],
+        "line": "busan1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9606813,
+          35.0952151
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Sinpyeong (신평)",
+        "alternate_names": [
+          "신평",
+          "新平",
+          "Sinpyeong"
+        ],
+        "line": "busan1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9667606,
+          35.1062348
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Hadan (하단)",
+        "alternate_names": [
+          "하단",
+          "下端",
+          "Hadan"
+        ],
+        "line": "busan1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9738261,
+          35.1034754
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Dangni (당리)",
+        "alternate_names": [
+          "당리",
+          "堂里",
+          "Dangni"
+        ],
+        "line": "busan1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.983094,
+          35.09984
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Saha (사하)",
+        "alternate_names": [
+          "사하",
+          "沙下",
+          "Saha"
+        ],
+        "line": "busan1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.992862,
+          35.0999307
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Goejeong (괴정)",
+        "alternate_names": [
+          "괴정",
+          "槐亭",
+          "Goejeong"
+        ],
+        "line": "busan1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9999412,
+          35.1031541
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Daeti (대티)",
+        "alternate_names": [
+          "대티",
+          "大峙",
+          "Daeti"
+        ],
+        "line": "busan1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0120406,
+          35.1108608
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Seodaesin (서대신)",
+        "alternate_names": [
+          "서대신",
+          "西大新",
+          "Seodaesin"
+        ],
+        "line": "busan1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0177611,
+          35.1103454
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Dongdaesin (동대신)",
+        "alternate_names": [
+          "동대신",
+          "東大新",
+          "Dongdaesin"
+        ],
+        "line": "busan1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0198441,
+          35.1007637
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Toseong (토성)",
+        "alternate_names": [
+          "토성",
+          "土城",
+          "Toseong"
+        ],
+        "line": "busan1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0267678,
+          35.0973457
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Jagalchi (자갈치)",
+        "alternate_names": [
+          "자갈치",
+          "Jagalchi"
+        ],
+        "line": "busan1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0349473,
+          35.0979243
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nampo (남포)",
+        "alternate_names": [
+          "남포",
+          "南浦",
+          "Nampo"
+        ],
+        "line": "busan1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0363271,
+          35.1038431
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Jungang (중앙)",
+        "alternate_names": [
+          "중앙",
+          "中央",
+          "Jungang"
+        ],
+        "line": "busan1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0399028,
+          35.1157262
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Busan Station (부산역)",
+        "alternate_names": [
+          "부산역",
+          "釜山驛",
+          "Busan Station"
+        ],
+        "line": "busan1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0429702,
+          35.1212017
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Choryang (초량)",
+        "alternate_names": [
+          "초량",
+          "草梁",
+          "Choryang"
+        ],
+        "line": "busan1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0492214,
+          35.1290282
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Busanjin (부산진)",
+        "alternate_names": [
+          "부산진",
+          "釜山鎮",
+          "Busanjin"
+        ],
+        "line": "busan1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0543505,
+          35.1343358
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Jwacheon (좌천)",
+        "alternate_names": [
+          "좌천",
+          "佐川",
+          "Jwacheon"
+        ],
+        "line": "busan1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.059365,
+          35.140947
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Beomil (범일)",
+        "alternate_names": [
+          "범일",
+          "凡一",
+          "Beomil"
+        ],
+        "line": "busan1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0592024,
+          35.1474005
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Beomnaegol (범내골)",
+        "alternate_names": [
+          "범내골",
+          "Beomnaegol"
+        ],
+        "line": "busan1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0592588,
+          35.15771083933476
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Seomyeon (서면)",
+        "alternate_names": [
+          "서면",
+          "西面",
+          "Seomyeon"
+        ],
+        "line": "busan1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0629411,
+          35.1626001
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Bujeon (부전)",
+        "alternate_names": [
+          "부전",
+          "釜田",
+          "Bujeon"
+        ],
+        "line": "busan1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0713,
+          35.1731584
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Yangjeong (양정)",
+        "alternate_names": [
+          "양정",
+          "楊亭",
+          "Yangjeong"
+        ],
+        "line": "busan1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.076521,
+          35.1797508
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "City Hall (시청)",
+        "alternate_names": [
+          "시청",
+          "市廳",
+          "City Hall"
+        ],
+        "line": "busan1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0814197246704,
+          35.18603113351423
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Yeonsan (연산)",
+        "alternate_names": [
+          "연산",
+          "蓮山",
+          "Yeonsan"
+        ],
+        "line": "busan1",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0800325,
+          35.1952181
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Busan National University of Education (교대)",
+        "alternate_names": [
+          "교대",
+          "敎育大",
+          "Busan National University of Education",
+          "부산교육대학교"
+        ],
+        "line": "busan1",
+        "order": 29
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.07848371024136,
+          35.20420674626423
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Dongnae (동래)",
+        "alternate_names": [
+          "동래",
+          "東萊",
+          "Dongnae"
+        ],
+        "line": "busan1",
+        "order": 30
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0797207,
+          35.2126465
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Myeongnyun (명륜)",
+        "alternate_names": [
+          "명륜",
+          "明倫",
+          "Myeongnyun"
+        ],
+        "line": "busan1",
+        "order": 31
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0864268,
+          35.2202436
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Oncheonjang (온천장)",
+        "alternate_names": [
+          "온천장",
+          "溫泉場",
+          "Oncheonjang"
+        ],
+        "line": "busan1",
+        "order": 32
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0893608,
+          35.2296377
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Pusan National University (부산대)",
+        "alternate_names": [
+          "부산대",
+          "釜山大",
+          "Pusan National University"
+        ],
+        "line": "busan1",
+        "order": 33
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0880983,
+          35.2382122
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Jangjeon (장전)",
+        "alternate_names": [
+          "장전",
+          "長箭",
+          "Jangjeon",
+          "장전(부산가톨릭대학교)"
+        ],
+        "line": "busan1",
+        "order": 34
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.091268,
+          35.2472273
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Guseo (구서)",
+        "alternate_names": [
+          "구서",
+          "久瑞",
+          "Guseo"
+        ],
+        "line": "busan1",
+        "order": 35
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0913933,
+          35.25703
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Dusil (두실)",
+        "alternate_names": [
+          "두실",
+          "斗室",
+          "Dusil"
+        ],
+        "line": "busan1",
+        "order": 36
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0925658,
+          35.2654258
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Namsan (남산)",
+        "alternate_names": [
+          "남산",
+          "南山",
+          "Namsan"
+        ],
+        "line": "busan1",
+        "order": 37
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.092668,
+          35.273102
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Beomeosa (범어사)",
+        "alternate_names": [
+          "범어사",
+          "梵魚寺",
+          "Beomeosa"
+        ],
+        "line": "busan1",
+        "order": 38
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0951147,
+          35.2839721
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Nopo (노포)",
+        "alternate_names": [
+          "노포",
+          "老圃",
+          "Nopo"
+        ],
+        "line": "busan1",
+        "order": 39
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.175858,
+          35.1694748
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Jangsan (장산)",
+        "alternate_names": [
+          "장산",
+          "萇山",
+          "Jangsan"
+        ],
+        "line": "busan2",
+        "order": 0
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1678074,
+          35.1666759
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Jung-dong (중동)",
+        "alternate_names": [
+          "중동",
+          "中洞",
+          "Jung-dong"
+        ],
+        "line": "busan2",
+        "order": 1
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1587469,
+          35.1637531
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Haeundae (해운대)",
+        "alternate_names": [
+          "해운대",
+          "海雲臺",
+          "Haeundae"
+        ],
+        "line": "busan2",
+        "order": 2
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1480904,
+          35.161277
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Dongbaek (동백)",
+        "alternate_names": [
+          "동백",
+          "冬栢",
+          "Dongbaek"
+        ],
+        "line": "busan2",
+        "order": 3
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1387511,
+          35.1688889
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "BEXCO (벡스코)",
+        "alternate_names": [
+          "벡스코",
+          "BEXCO",
+          "Busan Museum of Modern Art"
+        ],
+        "line": "busan2",
+        "order": 4
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1312167,
+          35.1685922
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Centum City (센텀시티)",
+        "alternate_names": [
+          "센텀시티",
+          "Centum City"
+        ],
+        "line": "busan2",
+        "order": 5
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.121719,
+          35.167395
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Millak (민락)",
+        "alternate_names": [
+          "민락",
+          "民樂",
+          "Millak"
+        ],
+        "line": "busan2",
+        "order": 6
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.11467274208522,
+          35.165420434838715
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Suyeong (수영)",
+        "alternate_names": [
+          "수영",
+          "水營",
+          "Suyeong"
+        ],
+        "line": "busan2",
+        "order": 7
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.11317,
+          35.157916
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Gwangan (광안)",
+        "alternate_names": [
+          "광안",
+          "廣安",
+          "Gwangan"
+        ],
+        "line": "busan2",
+        "order": 8
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.11097,
+          35.149756
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Geumnyeonsan (금련산)",
+        "alternate_names": [
+          "금련산",
+          "金蓮山",
+          "Geumnyeonsan"
+        ],
+        "line": "busan2",
+        "order": 9
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1078416,
+          35.1421344
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Namcheon (남천)",
+        "alternate_names": [
+          "남천",
+          "南川",
+          "Namcheon",
+          "남천(KBS수영구청)"
+        ],
+        "line": "busan2",
+        "order": 10
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.100531,
+          35.137558
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Kyungsung University · Pukyong National University (경성대·부경대)",
+        "alternate_names": [
+          "경성대·부경대",
+          "慶星大·釜慶大",
+          "Kyungsung University · Pukyong National University",
+          "경성대·부경대(동명대학교)"
+        ],
+        "line": "busan2",
+        "order": 11
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.092172,
+          35.135148
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Daeyeon (대연)",
+        "alternate_names": [
+          "대연",
+          "大淵",
+          "Daeyeon",
+          "대연(고려병원)"
+        ],
+        "line": "busan2",
+        "order": 12
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.084783,
+          35.134758
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Motgol (못골)",
+        "alternate_names": [
+          "못골",
+          "池谷",
+          "Motgol",
+          "못골(남구청)"
+        ],
+        "line": "busan2",
+        "order": 13
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.074224,
+          35.135668
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Jigegol (지게골)",
+        "alternate_names": [
+          "지게골",
+          "支架谷",
+          "Jigegol"
+        ],
+        "line": "busan2",
+        "order": 14
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0673312,
+          35.1391392
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Munhyeon (문현)",
+        "alternate_names": [
+          "문현",
+          "門峴",
+          "Munhyeon"
+        ],
+        "line": "busan2",
+        "order": 15
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0667134,
+          35.1457278
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Busan International Finance Center·Busan Bank (국제금융센터·부산은행)",
+        "alternate_names": [
+          "국제금융센터·부산은행",
+          "國際金融센터·釜山銀行",
+          "Busan International Finance Center·Busan Bank"
+        ],
+        "line": "busan2",
+        "order": 16
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0653641,
+          35.1528193
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Jeonpo (전포)",
+        "alternate_names": [
+          "전포",
+          "田浦",
+          "Jeonpo"
+        ],
+        "line": "busan2",
+        "order": 17
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0592588,
+          35.15771083933476
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Seomyeon (서면)",
+        "alternate_names": [
+          "서면",
+          "西面",
+          "Seomyeon"
+        ],
+        "line": "busan2",
+        "order": 18
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0505061,
+          35.157439
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Buam (부암)",
+        "alternate_names": [
+          "부암",
+          "釜岩",
+          "Buam"
+        ],
+        "line": "busan2",
+        "order": 19
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0426874,
+          35.1558284
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Gaya (가야)",
+        "alternate_names": [
+          "가야",
+          "伽倻",
+          "Gaya"
+        ],
+        "line": "busan2",
+        "order": 20
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0321386,
+          35.1539803
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Dong-eui University (동의대)",
+        "alternate_names": [
+          "동의대",
+          "東義大",
+          "Dong-eui Univ.",
+          "Dong-eui University"
+        ],
+        "line": "busan2",
+        "order": 21
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0204602,
+          35.1532536
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Gaegeum (개금)",
+        "alternate_names": [
+          "개금",
+          "開琴",
+          "Gaegeum"
+        ],
+        "line": "busan2",
+        "order": 22
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0124257,
+          35.1512851
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Naengjeong (냉정)",
+        "alternate_names": [
+          "냉정",
+          "冷亭",
+          "Naengjeong"
+        ],
+        "line": "busan2",
+        "order": 23
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.00315,
+          35.150504
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Jurye (주례)",
+        "alternate_names": [
+          "주례",
+          "周礼",
+          "Jurye"
+        ],
+        "line": "busan2",
+        "order": 24
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9908801,
+          35.1557054
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Gamjeon (감전)",
+        "alternate_names": [
+          "감전",
+          "甘田",
+          "Gamjeon"
+        ],
+        "line": "busan2",
+        "order": 25
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9846430994177,
+          35.16226392821398
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Sasang (사상)",
+        "alternate_names": [
+          "사상",
+          "沙上",
+          "Sasang"
+        ],
+        "line": "busan2",
+        "order": 26
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9839737,
+          35.1738665
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Deokpo (덕포)",
+        "alternate_names": [
+          "덕포",
+          "德浦",
+          "Deokpo"
+        ],
+        "line": "busan2",
+        "order": 27
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.985621,
+          35.180361
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Modeok (모덕)",
+        "alternate_names": [
+          "모덕",
+          "毛德",
+          "Modeok"
+        ],
+        "line": "busan2",
+        "order": 28
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9884422,
+          35.1892988
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Mora (모라)",
+        "alternate_names": [
+          "모라",
+          "毛羅",
+          "Mora"
+        ],
+        "line": "busan2",
+        "order": 29
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9949483,
+          35.1968242
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Gunam (구남)",
+        "alternate_names": [
+          "구남",
+          "亀南",
+          "Gunam",
+          "龜南"
+        ],
+        "line": "busan2",
+        "order": 30
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9995184,
+          35.2027962
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Gumyeong (구명)",
+        "alternate_names": [
+          "구명",
+          "亀明",
+          "Gumyeong",
+          "龜明"
+        ],
+        "line": "busan2",
+        "order": 31
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.00528810556972,
+          35.21008740189766
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Deokcheon (덕천)",
+        "alternate_names": [
+          "덕천",
+          "德川",
+          "Deokcheon"
+        ],
+        "line": "busan2",
+        "order": 32
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0091715,
+          35.2233039
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Sujeong (수정)",
+        "alternate_names": [
+          "수정",
+          "水亭",
+          "Sujeong"
+        ],
+        "line": "busan2",
+        "order": 33
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0138007,
+          35.2352534
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Hwamyeong (화명)",
+        "alternate_names": [
+          "화명",
+          "華明",
+          "Hwamyeong"
+        ],
+        "line": "busan2",
+        "order": 34
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0128975,
+          35.2464762
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Yulli (율리)",
+        "alternate_names": [
+          "율리",
+          "栗里",
+          "Yulli"
+        ],
+        "line": "busan2",
+        "order": 35
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0124334,
+          35.2586149
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Dongwon (동원)",
+        "alternate_names": [
+          "동원",
+          "東院",
+          "Dongwon"
+        ],
+        "line": "busan2",
+        "order": 36
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0168673,
+          35.2673839
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Geumgok (금곡)",
+        "alternate_names": [
+          "금곡",
+          "金谷",
+          "Geumgok"
+        ],
+        "line": "busan2",
+        "order": 37
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0174394,
+          35.2811219
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Hopo (호포)",
+        "alternate_names": [
+          "호포",
+          "湖浦",
+          "Hopo"
+        ],
+        "line": "busan2",
+        "order": 38
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0102327,
+          35.3083224
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Jeungsan (증산)",
+        "alternate_names": [
+          "증산",
+          "甑山",
+          "Jeungsan"
+        ],
+        "line": "busan2",
+        "order": 39
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0139405,
+          35.3169214
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Pusan National University Yangsan Campus (부산대양산캠퍼스)",
+        "alternate_names": [
+          "부산대양산캠퍼스",
+          "釜山大梁山캠퍼스",
+          "Pusan National University Yangsan Campus"
+        ],
+        "line": "busan2",
+        "order": 40
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0193639,
+          35.325404
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Namyangsan (남양산)",
+        "alternate_names": [
+          "남양산",
+          "南梁山",
+          "Namyangsan"
+        ],
+        "line": "busan2",
+        "order": 41
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.026402,
+          35.3387432
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Yangsan (양산)",
+        "alternate_names": [
+          "양산",
+          "梁山",
+          "Yangsan"
+        ],
+        "line": "busan2",
+        "order": 42
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.11467274208522,
+          35.165420434838715
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Suyeong (수영)",
+        "alternate_names": [
+          "수영",
+          "水營",
+          "Suyeong"
+        ],
+        "line": "busan3",
+        "order": 0
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1075228,
+          35.1717526
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Mangmi (망미)",
+        "alternate_names": [
+          "망미",
+          "望美",
+          "Mangmi"
+        ],
+        "line": "busan3",
+        "order": 1
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.095751,
+          35.173473
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Baesan (배산)",
+        "alternate_names": [
+          "배산",
+          "盃山",
+          "Baesan"
+        ],
+        "line": "busan3",
+        "order": 2
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0858394,
+          35.1766404
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Mulmangol (물만골)",
+        "alternate_names": [
+          "물만골",
+          "Mulmangol"
+        ],
+        "line": "busan3",
+        "order": 3
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0814197246704,
+          35.18603113351423
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Yeonsan (연산)",
+        "alternate_names": [
+          "연산",
+          "蓮山",
+          "Yeonsan"
+        ],
+        "line": "busan3",
+        "order": 4
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0675707,
+          35.1908882
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Sports Complex (종합운동장)",
+        "alternate_names": [
+          "종합운동장",
+          "綜合運動場",
+          "Sports Complex"
+        ],
+        "line": "busan3",
+        "order": 6
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0650666,
+          35.1990904
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Sajik (사직)",
+        "alternate_names": [
+          "사직",
+          "社稷",
+          "Sajik"
+        ],
+        "line": "busan3",
+        "order": 7
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0687474,
+          35.206533
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Minam (미남)",
+        "alternate_names": [
+          "미남",
+          "美南",
+          "Minam"
+        ],
+        "line": "busan3",
+        "order": 8
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0364611,
+          35.2129876
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Mandeok (만덕)",
+        "alternate_names": [
+          "만덕",
+          "萬德",
+          "Mandeok"
+        ],
+        "line": "busan3",
+        "order": 9
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.023926,
+          35.2133254
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Namsanjeong (남산정)",
+        "alternate_names": [
+          "남산정",
+          "南山亭",
+          "Namsanjeong"
+        ],
+        "line": "busan3",
+        "order": 10
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0127544,
+          35.2119767
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Sukdeung (숙등)",
+        "alternate_names": [
+          "숙등",
+          "淑嶝",
+          "Sukdeung"
+        ],
+        "line": "busan3",
+        "order": 11
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.00528810556972,
+          35.21008740189766
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Deokcheon (덕천)",
+        "alternate_names": [
+          "덕천",
+          "德川",
+          "Deokcheon"
+        ],
+        "line": "busan3",
+        "order": 12
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.996352,
+          35.2066938
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Gupo (구포)",
+        "alternate_names": [
+          "구포",
+          "龜浦",
+          "Gupo"
+        ],
+        "line": "busan3",
+        "order": 13
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9819597,
+          35.2112369
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Gangseo-gu Office (강서구청)",
+        "alternate_names": [
+          "강서구청",
+          "江西區廳",
+          "Gangseo-gu Office",
+          "강서구청역"
+        ],
+        "line": "busan3",
+        "order": 14
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9819461,
+          35.2112145
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Gangseo-gu Office (강서구청)",
+        "alternate_names": [
+          "강서구청",
+          "江西區廳",
+          "Gangseo-gu Office",
+          "강서구청역"
+        ],
+        "line": "busan3",
+        "order": 15
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9693787,
+          35.2124864
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Sports Park (체육공원)",
+        "alternate_names": [
+          "체육공원",
+          "體育公園",
+          "Sports Park",
+          "체육공원역"
+        ],
+        "line": "busan3",
+        "order": 16
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9610874,
+          35.2133357
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Daejeo (대저)",
+        "alternate_names": [
+          "대저",
+          "大猪",
+          "Daejeo",
+          "大渚"
+        ],
+        "line": "busan3",
+        "order": 17
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9604713,
+          35.2130537
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Daejeo (대저)",
+        "alternate_names": [
+          "대저",
+          "大猪",
+          "Daejeo",
+          "大渚"
+        ],
+        "line": "busan3",
+        "order": 18
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0687474,
+          35.206533
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Minam (미남)",
+        "alternate_names": [
+          "미남",
+          "美南",
+          "Minam"
+        ],
+        "line": "busan4",
+        "order": 0
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.07848371024136,
+          35.20420674626423
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Dongnae (동래)",
+        "alternate_names": [
+          "동래",
+          "東萊",
+          "Dongnae"
+        ],
+        "line": "busan4",
+        "order": 1
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0839158,
+          35.201804
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Suan (수안)",
+        "alternate_names": [
+          "수안",
+          "壽安",
+          "Suan"
+        ],
+        "line": "busan4",
+        "order": 2
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0908195,
+          35.2001469
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Nangmin (낙민)",
+        "alternate_names": [
+          "낙민",
+          "樂民",
+          "Nangmin"
+        ],
+        "line": "busan4",
+        "order": 3
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0976523,
+          35.1997162
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Chungnyeolsa (충렬사)",
+        "alternate_names": [
+          "충렬사",
+          "忠烈祠",
+          "Chungnyeolsa"
+        ],
+        "line": "busan4",
+        "order": 4
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.101767,
+          35.2053695
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Myeongjang (명장)",
+        "alternate_names": [
+          "명장",
+          "鳴藏",
+          "Myeongjang"
+        ],
+        "line": "busan4",
+        "order": 5
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1075101,
+          35.2130525
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Seo-dong (서동)",
+        "alternate_names": [
+          "서동",
+          "書洞",
+          "Seo-dong"
+        ],
+        "line": "busan4",
+        "order": 6
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1153136,
+          35.2157562
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Geumsa (금사)",
+        "alternate_names": [
+          "금사",
+          "錦絲",
+          "Geumsa"
+        ],
+        "line": "busan4",
+        "order": 7
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1239643,
+          35.2177516
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Banyeo Agricultural Market (반여농산물시장)",
+        "alternate_names": [
+          "반여농산물시장",
+          "盤如農産物市場",
+          "Banyeo Agricultural Market"
+        ],
+        "line": "busan4",
+        "order": 8
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1368476,
+          35.2181187
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Seokdae (석대)",
+        "alternate_names": [
+          "석대",
+          "石坮",
+          "Seokdae"
+        ],
+        "line": "busan4",
+        "order": 9
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1461159,
+          35.2256219
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Youngsan University (영산대)",
+        "alternate_names": [
+          "영산대",
+          "靈山大",
+          "Youngsan University"
+        ],
+        "line": "busan4",
+        "order": 10
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1538725,
+          35.2324696
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Witbansong (윗반송)",
+        "alternate_names": [
+          "윗반송",
+          "윗盤松",
+          "Witbansong"
+        ],
+        "line": "busan4",
+        "order": 11
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1605,
+          35.2360933
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Gochon (고촌)",
+        "alternate_names": [
+          "고촌",
+          "古村",
+          "Gochon"
+        ],
+        "line": "busan4",
+        "order": 12
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1717248,
+          35.2374174
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Anpyeong (안평)",
+        "alternate_names": [
+          "안평",
+          "安平",
+          "Anpyeong"
+        ],
+        "line": "busan4",
+        "order": 13
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9846430994177,
+          35.16226392821398
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Sasang (사상)",
+        "alternate_names": [
+          "사상",
+          "沙上",
+          "Sasang"
+        ],
+        "line": "busanlrt",
+        "order": 0
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.977588,
+          35.1632816
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Gwaebeop Renecite (괘법르네시떼)",
+        "alternate_names": [
+          "괘법르네시떼",
+          "掛法르네시떼",
+          "Gwaebeop Renecite"
+        ],
+        "line": "busanlrt",
+        "order": 1
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.95486114,
+          35.16640441999999
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Seobusan Yutongjigu (서부산유통지구)",
+        "alternate_names": [
+          "서부산유통지구",
+          "西釜山流通地區",
+          "Seobusan Yutongjigu"
+        ],
+        "line": "busanlrt",
+        "order": 2
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.954937,
+          35.1663907
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Seobusan Yutongjigu (서부산유통지구)",
+        "alternate_names": [
+          "서부산유통지구",
+          "西釜山流通地區",
+          "Seobusan Yutongjigu"
+        ],
+        "line": "busanlrt",
+        "order": 3
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.94858794545453,
+          35.17185463636363
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Gimhae International Airport (공항)",
+        "alternate_names": [
+          "공항",
+          "空港",
+          "Gimhae International Airport",
+          "Airport",
+          "PUS"
+        ],
+        "line": "busanlrt",
+        "order": 4
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9485983,
+          35.1718676
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Gimhae International Airport (공항)",
+        "alternate_names": [
+          "공항",
+          "空港",
+          "Gimhae International Airport",
+          "Airport",
+          "PUS"
+        ],
+        "line": "busanlrt",
+        "order": 5
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9540604,
+          35.1819535
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Deokdu (덕두)",
+        "alternate_names": [
+          "덕두",
+          "德斗",
+          "Deokdu"
+        ],
+        "line": "busanlrt",
+        "order": 6
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9634997,
+          35.1961591
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Deunggu (등구)",
+        "alternate_names": [
+          "등구",
+          "登龜",
+          "Deunggu"
+        ],
+        "line": "busanlrt",
+        "order": 7
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9604713,
+          35.2130537
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Daejeo (대저)",
+        "alternate_names": [
+          "대저",
+          "大渚",
+          "Daejeo"
+        ],
+        "line": "busanlrt",
+        "order": 9
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9506383,
+          35.2140223
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Pyeonggang (평강)",
+        "alternate_names": [
+          "평강",
+          "平江",
+          "Pyeonggang"
+        ],
+        "line": "busanlrt",
+        "order": 10
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9383852,
+          35.2177753
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Daesa (대사)",
+        "alternate_names": [
+          "대사",
+          "大沙",
+          "Daesa"
+        ],
+        "line": "busanlrt",
+        "order": 11
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9278476,
+          35.2221749
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Buram (불암)",
+        "alternate_names": [
+          "불암",
+          "佛岩",
+          "Buram"
+        ],
+        "line": "busanlrt",
+        "order": 12
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9237872,
+          35.2275145
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Jinae (지내)",
+        "alternate_names": [
+          "지내",
+          "池內",
+          "Jinae"
+        ],
+        "line": "busanlrt",
+        "order": 13
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9155466,
+          35.2289971
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Gimhae College (김해대학)",
+        "alternate_names": [
+          "김해대학",
+          "金海大學",
+          "Gimhae College"
+        ],
+        "line": "busanlrt",
+        "order": 14
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9017745,
+          35.2280744
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Inje University (인제대)",
+        "alternate_names": [
+          "인제대",
+          "仁濟大",
+          "Inje University"
+        ],
+        "line": "busanlrt",
+        "order": 15
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8903754,
+          35.2270823
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Gimhae City Hall (김해시청)",
+        "alternate_names": [
+          "김해시청",
+          "金海市廳",
+          "Gimhae City Hall"
+        ],
+        "line": "busanlrt",
+        "order": 16
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8838834,
+          35.2264639
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Buwon (부원)",
+        "alternate_names": [
+          "부원",
+          "府院",
+          "Buwon"
+        ],
+        "line": "busanlrt",
+        "order": 17
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8742798,
+          35.227204
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Bonghwang (봉황)",
+        "alternate_names": [
+          "봉황",
+          "鳳凰",
+          "Bonghwang"
+        ],
+        "line": "busanlrt",
+        "order": 18
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8720995,
+          35.2328426
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Royal Tomb of King Suro (수로왕릉)",
+        "alternate_names": [
+          "수로왕릉",
+          "首露王陵",
+          "Royal Tomb of King Suro"
+        ],
+        "line": "busanlrt",
+        "order": 19
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8718193,
+          35.2400038
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Gimhae National Museum (박물관)",
+        "alternate_names": [
+          "박물관",
+          "博物館",
+          "Gimhae National Museum"
+        ],
+        "line": "busanlrt",
+        "order": 20
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.86923352,
+          35.24974806
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Yeonji Park (연지공원)",
+        "alternate_names": [
+          "연지공원",
+          "蓮池公園",
+          "Yeonji Park"
+        ],
+        "line": "busanlrt",
+        "order": 21
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8692143,
+          35.2496698
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Yeonji Park (연지공원)",
+        "alternate_names": [
+          "연지공원",
+          "蓮池公園",
+          "Yeonji Park"
+        ],
+        "line": "busanlrt",
+        "order": 22
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8672492,
+          35.2593885
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Presbyterian University (장신대)",
+        "alternate_names": [
+          "장신대",
+          "長神大",
+          "Presbyterian University"
+        ],
+        "line": "busanlrt",
+        "order": 23
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8649491,
+          35.2668299
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Kaya University (가야대)",
+        "alternate_names": [
+          "가야대",
+          "加耶大",
+          "Kaya University"
+        ],
+        "line": "busanlrt",
+        "order": 24
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1729,
+          35.1581
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Mipo (미포)",
+        "alternate_names": [
+          "미포",
+          "尾浦",
+          "Mipo"
+        ],
+        "line": "busansky",
+        "order": 0
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1774,
+          35.1556
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Dalmaji Tunnel (달맞이터널)",
+        "alternate_names": [
+          "달맞이터널",
+          "迎月隧道",
+          "Dalmaji Tunnel"
+        ],
+        "line": "busansky",
+        "order": 1
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.181,
+          35.1553
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Haewol Skywalk (해월전망대)",
+        "alternate_names": [
+          "해월전망대",
+          "海月展望臺",
+          "Haewol Skywalk"
+        ],
+        "line": "busansky",
+        "order": 2
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1914,
+          35.1613
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Cheongsapo (청사포)",
+        "alternate_names": [
+          "청사포",
+          "靑沙浦",
+          "Cheongsapo"
+        ],
+        "line": "busansky",
+        "order": 3
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1959548092912,
+          35.16415971470295
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Daritdol Skywalk (다릿돌전망대)",
+        "alternate_names": [
+          "다릿돌전망대",
+          "青沙浦橋石展望臺",
+          "Daritdol Skywalk"
+        ],
+        "line": "busansky",
+        "order": 4
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.19655000690545,
+          35.16901024513288
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Gudeokpo (구덕포)",
+        "alternate_names": [
+          "구덕포",
+          "九德浦",
+          "Gudeokpo"
+        ],
+        "line": "busansky",
+        "order": 5
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.19972886116335,
+          35.18038806409389
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Songjeong (송정)",
+        "alternate_names": [
+          "송정",
+          "松亭",
+          "Songjeong"
+        ],
+        "line": "busansky",
+        "order": 6
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.02353518922325,
+          35.07629703969302
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Songdo Bay (송도베이)",
+        "alternate_names": [
+          "송도베이",
+          "松島베이",
+          "Songdo Bay"
+        ],
+        "line": "busancable",
+        "order": 0
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0204072089154,
+          35.061388078819306
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Songdo Sky Park (송도스카이파크)",
+        "alternate_names": [
+          "송도스카이파크",
+          "松島스카이파크",
+          "Songdo Sky Park"
+        ],
+        "line": "busancable",
+        "order": 1
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.074,
+          35.1885
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Geoje (거제)",
+        "alternate_names": [
+          "거제",
+          "巨堤",
+          "Geoje"
+        ],
+        "line": "busan3",
+        "order": 5
+      },
+      "id": 151
+    }
+  ]
+}

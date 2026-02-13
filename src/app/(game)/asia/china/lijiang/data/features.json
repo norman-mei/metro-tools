@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2310891,
+          26.9414135
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Visitor Center (游客中心)",
+        "alternate_names": [
+          "游客中心",
+          "遊客中心",
+          "Visitor Center",
+          "you ke zhong xin",
+          "youkezhongxin"
+        ],
+        "line": "lijiang1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2339446,
+          26.9572949
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Baisha Ancient Town (白沙古镇)",
+        "alternate_names": [
+          "白沙古镇",
+          "白沙古鎮",
+          "Baisha Ancient Town",
+          "bai sha gu zhen",
+          "baishaguzhen"
+        ],
+        "line": "lijiang1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2406312,
+          26.9942647
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Yushui Village (玉水寨)",
+        "alternate_names": [
+          "玉水寨",
+          "玉水寨",
+          "Yushui Village",
+          "yu shui zhai",
+          "yushuizhai"
+        ],
+        "line": "lijiang1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2583692,
+          27.0106098
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Dongba Valley (东巴谷)",
+        "alternate_names": [
+          "东巴谷",
+          "東巴谷",
+          "Dongba Valley",
+          "dong ba gu",
+          "dongbagu"
+        ],
+        "line": "lijiang1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2584499,
+          27.1005015
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Jade Dragon Snow Mountain (玉龙雪山)",
+        "alternate_names": [
+          "玉龙雪山",
+          "玉龍雪山",
+          "Jade Dragon Snow Mountain",
+          "yu long xue shan",
+          "yulongxueshan"
+        ],
+        "line": "lijiang1",
+        "order": 4
+      },
+      "id": 5
+    }
+  ]
+}

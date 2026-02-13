@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7059579,
+          -2.8941648
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Bandara SMB II",
+        "alternate_names": [
+          "Bandara Sultan Mahmud Badaruddin II",
+          "Bandara SMB II",
+          "SMB II 공항",
+          "空港",
+          "Airport",
+          "Sultan Mahmud Badaruddin II International Airport Station",
+          "SMB II International Airport Station",
+          "PLM"
+        ],
+        "line": "palembanglrt",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7117314,
+          -2.9196331
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Asrama Haji",
+        "alternate_names": [
+          "Asrama Haji",
+          "아스라마 하지",
+          "阿斯拉瑪哈吉"
+        ],
+        "line": "palembanglrt",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7239798,
+          -2.9405184
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Puntikayu",
+        "alternate_names": [
+          "Punti Kayu",
+          "Puntikayu",
+          "蓬蒂卡尤",
+          "푼티카유"
+        ],
+        "line": "palembanglrt",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7324365,
+          -2.9477133
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "RSUD",
+        "alternate_names": [
+          "RSUD",
+          "알에스유디",
+          "地方綜合病院"
+        ],
+        "line": "palembanglrt",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7357908,
+          -2.9562902
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Garuda Dempo",
+        "alternate_names": [
+          "Garuda Dempo",
+          "가루다 뎀포",
+          "迦樓羅登波"
+        ],
+        "line": "palembanglrt",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7357848,
+          -2.9644486
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Demang",
+        "alternate_names": [
+          "Demang",
+          "드망",
+          "德芒"
+        ],
+        "line": "palembanglrt",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7449425,
+          -2.9771091
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Bumi Sriwijaya",
+        "alternate_names": [
+          "Bumi Sriwijaya",
+          "부미 스리위자야",
+          "布米室利佛逝"
+        ],
+        "line": "palembanglrt",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7489537,
+          -2.9785113
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Dishub",
+        "alternate_names": [
+          "Dishub",
+          "디숩",
+          "交通局"
+        ],
+        "line": "palembanglrt",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7561025,
+          -2.9807372
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Cinde",
+        "alternate_names": [
+          "Cinde",
+          "친데",
+          "辛德"
+        ],
+        "line": "palembanglrt",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7619665,
+          -2.9890153
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Ampera",
+        "alternate_names": [
+          "Ampera",
+          "암페라",
+          "安佩拉"
+        ],
+        "line": "palembanglrt",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7724733,
+          -3.0050779
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Polresta",
+        "alternate_names": [
+          "Polresta",
+          "폴레스타",
+          "警察署"
+        ],
+        "line": "palembanglrt",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7845939,
+          -3.0231474
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Jakabaring",
+        "alternate_names": [
+          "Jakabaring",
+          "자카바링",
+          "查卡巴林"
+        ],
+        "line": "palembanglrt",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7902142,
+          -3.0315373
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "DJKA",
+        "alternate_names": [
+          "DJKA",
+          "디제이카",
+          "鐵道總局",
+          "Directorate General of Railways",
+          "Direktorat Jenderal Perkeretaapian"
+        ],
+        "line": "palembanglrt",
+        "order": 12
+      },
+      "id": 13
+    }
+  ]
+}

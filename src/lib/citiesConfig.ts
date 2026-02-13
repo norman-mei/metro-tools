@@ -726,19 +726,22 @@ const rawCities: CityBase[] = [
     name: 'Daegu (대구), DG',
     link: '/asia/south-korea/daegu',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Daejeon (대전), DJ',
     link: '/asia/south-korea/daejeon',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Busan (부산), BS',
     link: '/asia/south-korea/busan',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
+    hideInStats: false,
   },
   {
     name: 'Gwangju (광주), GJ',
@@ -775,7 +778,8 @@ const rawCities: CityBase[] = [
     name: 'Palembang, SS',
     link: '/asia/indonesia/palembang',
     continent: 'Asia',
-    hideInStats: true,
+    disabled: false,
+    hideInStats: false,
   },
   {
     name: "Guang'an (广安), SC",
@@ -844,16 +848,10 @@ const rawCities: CityBase[] = [
     hideInStats: true,
   },
   {
-    name: 'Delingha (德令哈), QH',
-    link: '/asia/china/delingha',
-    continent: 'Asia',
-    hideInStats: true,
-  },
-  {
     name: 'Lijiang (丽江), YN',
     link: '/asia/china/lijiang',
     continent: 'Asia',
-    hideInStats: true,
+    hideInStats: false,
   },
   {
     name: 'Zhangye (张掖), GS',
@@ -1035,7 +1033,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/china/jinan',
   'asia/china/jining',
   'asia/china/kunming',
-  'asia/china/lijiang',
   'asia/china/mengzhi',
   'asia/china/nanjing',
   'asia/china/nanping',
@@ -1060,9 +1057,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/japan/osaka-kobe',
   'asia/malaysia/kuala-lumpur',
   'asia/philippines/manila',
-  'asia/south-korea/busan',
-  'asia/south-korea/daegu',
-  'asia/south-korea/daejeon',
   'asia/taiwan/taipei',
   'asia/thailand/bangkok',
   'north-america/canada/toronto',
@@ -1129,8 +1123,8 @@ export const isCityExplicitlyEnabled = (
 ): boolean => city.disabled === false || city.hideInStats === false || isCityAvailable(city)
 
 export const isCityDisabled = (
-  city: Pick<ICity, 'disabled' | 'hideInStats' | 'link'>,
-): boolean => city.disabled === true && !isCityExplicitlyEnabled(city)
+  _city: Pick<ICity, 'disabled' | 'hideInStats' | 'link'>,
+): boolean => false
 
 export const getCityBaseName = (slug: string): string | null => {
   const city = cities.find((entry) => getSlugFromLink(entry.link) === slug)

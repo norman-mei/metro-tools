@@ -1,0 +1,10 @@
+{
+  "lijiang1": {
+    "name": "Line 1",
+    "color": "#0163B4",
+    "backgroundColor": "#0163B4",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "asia/china/lijiang/lijiang1.png"
+  }
+}

@@ -1,0 +1,2051 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.489321,
+          35.7987045
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Seolhwa-Myeonggok (설화명곡)",
+        "alternate_names": [
+          "설화명곡",
+          "舌化椧谷",
+          "Seolhwa-Myeonggok"
+        ],
+        "line": "daegu1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5003815,
+          35.804295
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Hwawon (화원)",
+        "alternate_names": [
+          "화원",
+          "花園",
+          "Hwawon"
+        ],
+        "line": "daegu1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5124592,
+          35.8094261
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Daegok (대곡)",
+        "alternate_names": [
+          "대곡",
+          "大谷",
+          "Daegok"
+        ],
+        "line": "daegu1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5226852,
+          35.8138155
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Jincheon (진천)",
+        "alternate_names": [
+          "진천",
+          "辰泉",
+          "Jincheon"
+        ],
+        "line": "daegu1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5304193,
+          35.8161591
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Wolbae (월배)",
+        "alternate_names": [
+          "월배",
+          "月背",
+          "Wolbae"
+        ],
+        "line": "daegu1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5378401,
+          35.8189545
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Sangin (상인)",
+        "alternate_names": [
+          "상인",
+          "上仁",
+          "Sangin"
+        ],
+        "line": "daegu1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5458273,
+          35.8240268
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Wolchon (월촌)",
+        "alternate_names": [
+          "월촌",
+          "月村",
+          "Wolchon"
+        ],
+        "line": "daegu1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5519226,
+          35.8312772
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Songhyeon (송현)",
+        "alternate_names": [
+          "송현",
+          "松峴",
+          "Songhyeon"
+        ],
+        "line": "daegu1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5571033,
+          35.8369461
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Seobu Bus Terminal (서부정류장)",
+        "alternate_names": [
+          "서부정류장",
+          "西部停留場",
+          "Seobu Bus Terminal"
+        ],
+        "line": "daegu1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5650212,
+          35.8392684
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Daemyeong (대명)",
+        "alternate_names": [
+          "대명",
+          "大明",
+          "Daemyeong"
+        ],
+        "line": "daegu1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5738215,
+          35.839202
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Anjirang (안지랑)",
+        "alternate_names": [
+          "안지랑",
+          "안지랑",
+          "Anjirang"
+        ],
+        "line": "daegu1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5812968,
+          35.8408415
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Hyeonchungno (현충로)",
+        "alternate_names": [
+          "현충로",
+          "顯忠路",
+          "Hyeonchungno"
+        ],
+        "line": "daegu1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5886249,
+          35.8444141
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Yeungnam Univ. Hospital (영대병원)",
+        "alternate_names": [
+          "영대병원",
+          "嶺大病院",
+          "Yeungnam Univ. Hospital"
+        ],
+        "line": "daegu1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5905477,
+          35.8504047
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nat'l Univ. of Education (교대)",
+        "alternate_names": [
+          "교대",
+          "敎大",
+          "Nat'l Univ. of Education"
+        ],
+        "line": "daegu1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5907489,
+          35.856957
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Myeongdeok (명덕)",
+        "alternate_names": [
+          "명덕",
+          "明德",
+          "Myeongdeok"
+        ],
+        "line": "daegu1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5934097,
+          35.8655108
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Banwoldang (반월당)",
+        "alternate_names": [
+          "반월당",
+          "半月堂",
+          "Banwoldang"
+        ],
+        "line": "daegu1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5940373,
+          35.8707448
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Jungangno (중앙로)",
+        "alternate_names": [
+          "중앙로",
+          "中央路",
+          "Jungangno"
+        ],
+        "line": "daegu1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5971184,
+          35.8762821
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Daegu Station (대구)",
+        "alternate_names": [
+          "대구",
+          "大邱",
+          "Daegu Station"
+        ],
+        "line": "daegu1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6050739,
+          35.8760968
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Chilseong Market (칠성시장)",
+        "alternate_names": [
+          "칠성시장",
+          "七星市場",
+          "Chilseong Market"
+        ],
+        "line": "daegu1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6275244,
+          35.8774323
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Dongdaegu Station (동대구)",
+        "alternate_names": [
+          "동대구",
+          "東大邱",
+          "Dongdaegu Station"
+        ],
+        "line": "daegu1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.632217,
+          35.8844064
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Dong-gu Office (동구청)",
+        "alternate_names": [
+          "동구청",
+          "東區廳",
+          "Dong-gu Office"
+        ],
+        "line": "daegu1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6399036,
+          35.88721
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ayanggyo (아양교)",
+        "alternate_names": [
+          "아양교",
+          "峨洋橋",
+          "Ayanggyo"
+        ],
+        "line": "daegu1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6503918,
+          35.8860154
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Dongchon (동촌)",
+        "alternate_names": [
+          "동촌",
+          "東村",
+          "Dongchon"
+        ],
+        "line": "daegu1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6588824,
+          35.8835794
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Haean (해안)",
+        "alternate_names": [
+          "해안",
+          "解安",
+          "Haean"
+        ],
+        "line": "daegu1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6696622,
+          35.8798143
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Bangchon (방촌)",
+        "alternate_names": [
+          "방촌",
+          "芳村",
+          "Bangchon"
+        ],
+        "line": "daegu1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6814129,
+          35.8762827
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Yonggye (용계)",
+        "alternate_names": [
+          "용계",
+          "龍溪",
+          "Yonggye"
+        ],
+        "line": "daegu1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6928177,
+          35.8697037
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Yulha (율하)",
+        "alternate_names": [
+          "율하",
+          "栗下",
+          "Yulha"
+        ],
+        "line": "daegu1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7016433,
+          35.8667387
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Singi (신기)",
+        "alternate_names": [
+          "신기",
+          "新基",
+          "Singi"
+        ],
+        "line": "daegu1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7136155,
+          35.8659564
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Banyawol (반야월)",
+        "alternate_names": [
+          "반야월",
+          "半夜月",
+          "Banyawol"
+        ],
+        "line": "daegu1",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7239045,
+          35.8678822
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Gaksan (각산)",
+        "alternate_names": [
+          "각산",
+          "角山",
+          "Gaksan"
+        ],
+        "line": "daegu1",
+        "order": 29
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7336758,
+          35.8711882
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Ansim (안심)",
+        "alternate_names": [
+          "안심",
+          "安心",
+          "Ansim"
+        ],
+        "line": "daegu1",
+        "order": 30
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7510326,
+          35.8716372
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Daegu Haany University Hospital (대구한의대병원)",
+        "alternate_names": [
+          "대구한의대병원",
+          "大邱韓醫大病院",
+          "Daegu Haany University Hospital"
+        ],
+        "line": "daegu1",
+        "order": 31
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8031208,
+          35.9001905
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Buho (부호)",
+        "alternate_names": [
+          "부호",
+          "釜湖",
+          "Buho"
+        ],
+        "line": "daegu1",
+        "order": 32
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8175706,
+          35.9094256
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Hayang (하양)",
+        "alternate_names": [
+          "하양",
+          "河陽",
+          "Hayang"
+        ],
+        "line": "daegu1",
+        "order": 33
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4371254,
+          35.8643392
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Munyang (문양)",
+        "alternate_names": [
+          "문양",
+          "汶陽",
+          "Munyang"
+        ],
+        "line": "daegu2",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4579165,
+          35.8653304
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Dasa (다사)",
+        "alternate_names": [
+          "다사",
+          "多斯",
+          "Dasa"
+        ],
+        "line": "daegu2",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4656627,
+          35.8572858
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Daesil (대실)",
+        "alternate_names": [
+          "대실",
+          "大實",
+          "Daesil"
+        ],
+        "line": "daegu2",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4781471,
+          35.8531179
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Gangchang (강창)",
+        "alternate_names": [
+          "강창",
+          "江倉",
+          "Gangchang"
+        ],
+        "line": "daegu2",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4919792,
+          35.8515265
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Keimyung Univ. (계명대)",
+        "alternate_names": [
+          "계명대",
+          "啓明大",
+          "Keimyung Univ."
+        ],
+        "line": "daegu2",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5072035,
+          35.8517178
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Seongseo Industrial Complex (성서산업단지)",
+        "alternate_names": [
+          "성서산업단지",
+          "城西産業團地",
+          "Seongseo Industrial Complex"
+        ],
+        "line": "daegu2",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5157885,
+          35.8506107
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Igok (이곡)",
+        "alternate_names": [
+          "이곡",
+          "梨谷",
+          "Igok"
+        ],
+        "line": "daegu2",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5288811,
+          35.8490698
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Yongsan (용산)",
+        "alternate_names": [
+          "용산",
+          "龍山",
+          "Yongsan"
+        ],
+        "line": "daegu2",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5382098,
+          35.8504732
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Jukjeon (죽전)",
+        "alternate_names": [
+          "죽전",
+          "竹田",
+          "Jukjeon"
+        ],
+        "line": "daegu2",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5482654,
+          35.8543657
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Gamsam (감삼)",
+        "alternate_names": [
+          "감삼",
+          "甘三",
+          "Gamsam"
+        ],
+        "line": "daegu2",
+        "order": 9
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5556817,
+          35.8572136
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Duryu (두류)",
+        "alternate_names": [
+          "두류",
+          "頭流",
+          "Duryu"
+        ],
+        "line": "daegu2",
+        "order": 10
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5646295,
+          35.8601308
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Naedang (내당)",
+        "alternate_names": [
+          "내당",
+          "內唐",
+          "Naedang"
+        ],
+        "line": "daegu2",
+        "order": 11
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5736579,
+          35.8624524
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Bangogae (반고개)",
+        "alternate_names": [
+          "반고개",
+          "반고개",
+          "Bangogae"
+        ],
+        "line": "daegu2",
+        "order": 12
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.58233413411006,
+          35.864850924486355
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Cheongnaeondeok (청라언덕)",
+        "alternate_names": [
+          "청라언덕",
+          "靑蘿언덕",
+          "Cheongnaeondeok"
+        ],
+        "line": "daegu2",
+        "order": 13
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5934097,
+          35.8655108
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Banwoldang (반월당)",
+        "alternate_names": [
+          "반월당",
+          "半月堂",
+          "Banwoldang"
+        ],
+        "line": "daegu2",
+        "order": 14
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6030696,
+          35.8630882
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Kyungpook National University Hospital (경대병원)",
+        "alternate_names": [
+          "경대병원",
+          "慶大病院",
+          "Kyungpook National University Hospital"
+        ],
+        "line": "daegu2",
+        "order": 15
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.614127,
+          35.8597743
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Daegu Bank (대구은행)",
+        "alternate_names": [
+          "대구은행",
+          "大邱銀行",
+          "Daegu Bank"
+        ],
+        "line": "daegu2",
+        "order": 16
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6265162,
+          35.8590526
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Beomeo (범어)",
+        "alternate_names": [
+          "범어",
+          "泛漁",
+          "Beomeo"
+        ],
+        "line": "daegu2",
+        "order": 17
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6357939,
+          35.8588505
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Suseong-gu Office (수성구청)",
+        "alternate_names": [
+          "수성구청",
+          "壽城區廳",
+          "Suseong-gu Office"
+        ],
+        "line": "daegu2",
+        "order": 18
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6451253,
+          35.8588896
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Manchon (만촌)",
+        "alternate_names": [
+          "만촌",
+          "晩村",
+          "Manchon"
+        ],
+        "line": "daegu2",
+        "order": 19
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6542234,
+          35.8546766
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Damti (담티)",
+        "alternate_names": [
+          "담티",
+          "담티",
+          "Damti"
+        ],
+        "line": "daegu2",
+        "order": 20
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6720627,
+          35.8464217
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Yeonho (연호)",
+        "alternate_names": [
+          "연호",
+          "蓮湖",
+          "Yeonho"
+        ],
+        "line": "daegu2",
+        "order": 21
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6802649,
+          35.8426299
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Suseong Alpha City (수성알파시티)",
+        "alternate_names": [
+          "수성알파시티",
+          "壽城알파시티",
+          "Suseong Alpha City"
+        ],
+        "line": "daegu2",
+        "order": 22
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6933541,
+          35.842956
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Gosan (고산)",
+        "alternate_names": [
+          "고산",
+          "孤山",
+          "Gosan"
+        ],
+        "line": "daegu2",
+        "order": 23
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7049788,
+          35.8408448
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Sinmae (신매)",
+        "alternate_names": [
+          "신매",
+          "新梅",
+          "Sinmae"
+        ],
+        "line": "daegu2",
+        "order": 24
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7160751,
+          35.8368591
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Sawol (사월)",
+        "alternate_names": [
+          "사월",
+          "沙月",
+          "Sawol"
+        ],
+        "line": "daegu2",
+        "order": 25
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7283355,
+          35.8340736
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Jeongpyeong (정평)",
+        "alternate_names": [
+          "정평",
+          "正坪",
+          "Jeongpyeong"
+        ],
+        "line": "daegu2",
+        "order": 26
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7410331,
+          35.8341215
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Imdang (임당)",
+        "alternate_names": [
+          "임당",
+          "臨堂",
+          "Imdang"
+        ],
+        "line": "daegu2",
+        "order": 27
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7535295,
+          35.8365895
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Yeungnam University (영남대)",
+        "alternate_names": [
+          "영남대",
+          "嶺南大",
+          "Yeungnam University"
+        ],
+        "line": "daegu2",
+        "order": 28
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.559879,
+          35.9583838
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Chilgok Kyungpook Nat'l Univ. Medical Center (칠곡경대병원)",
+        "alternate_names": [
+          "칠곡경대병원",
+          "漆谷慶大病院",
+          "Chilgok Kyungpook Nat'l Univ. Medical Center"
+        ],
+        "line": "daegu3",
+        "order": 0
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5591764,
+          35.9515422
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Hakjeong (학정)",
+        "alternate_names": [
+          "학정",
+          "鶴亭",
+          "Hakjeong"
+        ],
+        "line": "daegu3",
+        "order": 1
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5583357,
+          35.9440326
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Palgeo (팔거)",
+        "alternate_names": [
+          "팔거",
+          "八居",
+          "Palgeo"
+        ],
+        "line": "daegu3",
+        "order": 2
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5566571,
+          35.9376827
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Dongcheon (동천)",
+        "alternate_names": [
+          "동천",
+          "東川",
+          "Dongcheon"
+        ],
+        "line": "daegu3",
+        "order": 3
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5544922,
+          35.9314193
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Chilgok-Unam (칠곡운암)",
+        "alternate_names": [
+          "칠곡운암",
+          "漆谷雲岩",
+          "Chilgok-Unam"
+        ],
+        "line": "daegu3",
+        "order": 4
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5503144,
+          35.9256982
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Guam (구암)",
+        "alternate_names": [
+          "구암",
+          "鳩岩",
+          "Guam"
+        ],
+        "line": "daegu3",
+        "order": 5
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.547392,
+          35.9196722
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Taejeon (태전)",
+        "alternate_names": [
+          "태전",
+          "太田",
+          "Taejeon"
+        ],
+        "line": "daegu3",
+        "order": 6
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5434558,
+          35.9126737
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Maecheon (매천)",
+        "alternate_names": [
+          "매천",
+          "梅川",
+          "Maecheon"
+        ],
+        "line": "daegu3",
+        "order": 7
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5456935,
+          35.904335
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Maecheon Market (매천시장)",
+        "alternate_names": [
+          "매천시장",
+          "梅川市場",
+          "Maecheon Market"
+        ],
+        "line": "daegu3",
+        "order": 8
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5466972,
+          35.897872
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Paldal (팔달)",
+        "alternate_names": [
+          "팔달",
+          "八達",
+          "Paldal"
+        ],
+        "line": "daegu3",
+        "order": 9
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5536252,
+          35.8919819
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Gongdan (공단)",
+        "alternate_names": [
+          "공단",
+          "工團",
+          "Gongdan"
+        ],
+        "line": "daegu3",
+        "order": 10
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5610405,
+          35.8898546
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Manpyeong (만평)",
+        "alternate_names": [
+          "만평",
+          "萬坪",
+          "Manpyeong"
+        ],
+        "line": "daegu3",
+        "order": 11
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5678637,
+          35.8888555
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Paldal Market (팔달시장)",
+        "alternate_names": [
+          "팔달시장",
+          "八達市場",
+          "Paldal Market"
+        ],
+        "line": "daegu3",
+        "order": 12
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5743335,
+          35.8878528
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Wondae (원대)",
+        "alternate_names": [
+          "원대",
+          "院岱",
+          "Wondae"
+        ],
+        "line": "daegu3",
+        "order": 13
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.581437,
+          35.883813
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Buk-gu Office (북구청)",
+        "alternate_names": [
+          "북구청",
+          "北區廳",
+          "Buk-gu Office"
+        ],
+        "line": "daegu3",
+        "order": 14
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.582094,
+          35.8756768
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Dalseong Park (달성공원)",
+        "alternate_names": [
+          "달성공원",
+          "達城公園",
+          "Dalseong Park"
+        ],
+        "line": "daegu3",
+        "order": 15
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5822427,
+          35.8696738
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Seomun Market (서문시장)",
+        "alternate_names": [
+          "서문시장",
+          "西門市場",
+          "Seomun Market"
+        ],
+        "line": "daegu3",
+        "order": 16
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.58233413411006,
+          35.864850924486355
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Cheongna Hill (청라언덕)",
+        "alternate_names": [
+          "청라언덕",
+          "靑蘿언덕",
+          "Cheongna Hill"
+        ],
+        "line": "daegu3",
+        "order": 17
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5834129,
+          35.8566947
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Namsan (남산)",
+        "alternate_names": [
+          "남산",
+          "南山",
+          "Namsan"
+        ],
+        "line": "daegu3",
+        "order": 18
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5907489,
+          35.856957
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Myeongdeok (명덕)",
+        "alternate_names": [
+          "명덕",
+          "明德",
+          "Myeongdeok"
+        ],
+        "line": "daegu3",
+        "order": 19
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5995958,
+          35.8554038
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Geondeulbawi (건들바위)",
+        "alternate_names": [
+          "건들바위",
+          "건들바위",
+          "Geondeulbawi"
+        ],
+        "line": "daegu3",
+        "order": 20
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6063332,
+          35.8549894
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Daebonggyo (대봉교)",
+        "alternate_names": [
+          "대봉교",
+          "大鳳橋",
+          "Daebonggyo"
+        ],
+        "line": "daegu3",
+        "order": 21
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.615922,
+          35.8543443
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Suseong Market (수성시장)",
+        "alternate_names": [
+          "수성시장",
+          "壽城市場",
+          "Suseong Market"
+        ],
+        "line": "daegu3",
+        "order": 22
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.625173,
+          35.852363
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Suseong-gu Stadium (수성구민운동장)",
+        "alternate_names": [
+          "수성구민운동장",
+          "壽城區民運動場",
+          "Suseong-gu Stadium"
+        ],
+        "line": "daegu3",
+        "order": 23
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6244164,
+          35.8451281
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Children's World (어린이회관)",
+        "alternate_names": [
+          "어린이회관",
+          "어린이會館",
+          "Children's World"
+        ],
+        "line": "daegu3",
+        "order": 24
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.623898,
+          35.8390942
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Hwanggeum (황금)",
+        "alternate_names": [
+          "황금",
+          "黃金",
+          "Hwanggeum"
+        ],
+        "line": "daegu3",
+        "order": 25
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6231953,
+          35.8313319
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Suseongmot (수성못)",
+        "alternate_names": [
+          "수성못",
+          "壽城못",
+          "Suseongmot"
+        ],
+        "line": "daegu3",
+        "order": 26
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6319028,
+          35.8251867
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Jisan (지산)",
+        "alternate_names": [
+          "지산",
+          "池山",
+          "Jisan"
+        ],
+        "line": "daegu3",
+        "order": 27
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6401269,
+          35.8208664
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Beommul (범물)",
+        "alternate_names": [
+          "범물",
+          "凡勿",
+          "Beommul"
+        ],
+        "line": "daegu3",
+        "order": 28
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.646413,
+          35.818232
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Yongji (용지)",
+        "alternate_names": [
+          "용지",
+          "龍池",
+          "Yongji"
+        ],
+        "line": "daegu3",
+        "order": 29
+      },
+      "id": 93
+    }
+  ]
+}

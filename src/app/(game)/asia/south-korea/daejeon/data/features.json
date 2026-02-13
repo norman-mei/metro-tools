@@ -1,0 +1,2399 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4584967,
+          36.3169413
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Panam (판암)",
+        "alternate_names": [
+          "판암",
+          "板岩",
+          "Panam"
+        ],
+        "line": "daejeon1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4489649,
+          36.3195844
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Sinheung (신흥)",
+        "alternate_names": [
+          "신흥",
+          "新興",
+          "Sinheung"
+        ],
+        "line": "daejeon1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.44288105083197,
+          36.32944176652028
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Dae-dong (대동)",
+        "alternate_names": [
+          "대동",
+          "大洞",
+          "Dae-dong"
+        ],
+        "line": "daejeon1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.433365,
+          36.3313521
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Daejeon Station (대전역)",
+        "alternate_names": [
+          "대전역",
+          "大田驛",
+          "Daejeon Station"
+        ],
+        "line": "daejeon1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4259177,
+          36.3285894
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Jungangno (중앙로)",
+        "alternate_names": [
+          "중앙로",
+          "中央路",
+          "Jungangno"
+        ],
+        "line": "daejeon1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4195775,
+          36.3247793
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Jung-gu Office (중구청)",
+        "alternate_names": [
+          "중구청",
+          "中區廳",
+          "Jung-gu Office"
+        ],
+        "line": "daejeon1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4125138,
+          36.3223851
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Seodaejeon Negeori (서대전네거리)",
+        "alternate_names": [
+          "서대전네거리",
+          "西大田네거리",
+          "Seodaejeon Negeori"
+        ],
+        "line": "daejeon1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4050618,
+          36.3283959
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Oryong (오룡)",
+        "alternate_names": [
+          "오룡",
+          "五龍",
+          "Oryong"
+        ],
+        "line": "daejeon1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3932583,
+          36.3382037
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Yongmun (용문)",
+        "alternate_names": [
+          "용문",
+          "龍汶",
+          "Yongmun"
+        ],
+        "line": "daejeon1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3846726,
+          36.3459484
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Tanbang (탄방)",
+        "alternate_names": [
+          "탄방",
+          "炭坊",
+          "Tanbang"
+        ],
+        "line": "daejeon1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3865931,
+          36.3514445
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "City Hall (시청)",
+        "alternate_names": [
+          "시청",
+          "市廳",
+          "City Hall"
+        ],
+        "line": "daejeon1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3816164,
+          36.3576058
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Government Complex, Daejeon (정부청사)",
+        "alternate_names": [
+          "정부청사",
+          "政府廳舍",
+          "Government Complex, Daejeon"
+        ],
+        "line": "daejeon1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3727932,
+          36.3576605
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Galma (갈마)",
+        "alternate_names": [
+          "갈마",
+          "葛馬",
+          "Galma"
+        ],
+        "line": "daejeon1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3645813,
+          36.3583201
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Wolpyeong (월평)",
+        "alternate_names": [
+          "월평",
+          "月坪",
+          "Wolpyeong"
+        ],
+        "line": "daejeon1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3545556,
+          36.3545464
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Gapcheon (갑천)",
+        "alternate_names": [
+          "갑천",
+          "甲川",
+          "Gapcheon"
+        ],
+        "line": "daejeon1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3415528355646,
+          36.35374676296997
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Yuseong Spa (유성온천)",
+        "alternate_names": [
+          "유성온천",
+          "儒城溫泉",
+          "Yuseong Spa"
+        ],
+        "line": "daejeon1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3307266,
+          36.3566303
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Guam (구암)",
+        "alternate_names": [
+          "구암",
+          "九岩",
+          "Guam"
+        ],
+        "line": "daejeon1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3214881,
+          36.3594103
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "National Cemetery (현충원)",
+        "alternate_names": [
+          "현충원",
+          "顯忠院",
+          "National Cemetery"
+        ],
+        "line": "daejeon1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3179022,
+          36.366828
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "World Cup Stadium (월드컵경기장)",
+        "alternate_names": [
+          "월드컵경기장",
+          "월드컵競技場",
+          "World Cup Stadium"
+        ],
+        "line": "daejeon1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3179073,
+          36.3741117
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Noeun (노은)",
+        "alternate_names": [
+          "노은",
+          "老隱",
+          "Noeun"
+        ],
+        "line": "daejeon1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3195384,
+          36.384111
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Jijok (지족)",
+        "alternate_names": [
+          "지족",
+          "智足",
+          "Jijok"
+        ],
+        "line": "daejeon1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.314817,
+          36.3919413
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Banseok (반석)",
+        "alternate_names": [
+          "반석",
+          "盤石",
+          "Banseok"
+        ],
+        "line": "daejeon1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4055577,
+          36.3204446
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Seodaejeon (서대전)",
+        "alternate_names": [
+          "서대전",
+          "西大田",
+          "Seodaejeon"
+        ],
+        "line": "daejeon2",
+        "order": 0
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4055451,
+          36.3204716
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Seodaejeon (서대전)",
+        "alternate_names": [
+          "서대전",
+          "西大田",
+          "Seodaejeon"
+        ],
+        "line": "daejeon2",
+        "order": 1
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4110023,
+          36.3220307
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Seodaejeon Negeori (서대전네거리)",
+        "alternate_names": [
+          "서대전네거리",
+          "西大田네거리",
+          "Seodaejeon Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 2
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4110192,
+          36.3220026
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Seodaejeon Negeori (서대전네거리)",
+        "alternate_names": [
+          "서대전네거리",
+          "西大田네거리",
+          "Seodaejeon Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 3
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4161388,
+          36.3194975
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Daesa (대사)",
+        "alternate_names": [
+          "대사",
+          "大興",
+          "Daesa"
+        ],
+        "line": "daejeon2",
+        "order": 4
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4161721,
+          36.3195158
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Daesa (대사)",
+        "alternate_names": [
+          "대사",
+          "大興",
+          "Daesa"
+        ],
+        "line": "daejeon2",
+        "order": 5
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4282624,
+          36.318041
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Bomunsan Park (보문산공원)",
+        "alternate_names": [
+          "보문산공원",
+          "寶文山公園",
+          "Bomunsan Park"
+        ],
+        "line": "daejeon2",
+        "order": 6
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4282478,
+          36.3180647
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Bomunsan Park (보문산공원)",
+        "alternate_names": [
+          "보문산공원",
+          "寶文山公園",
+          "Bomunsan Park"
+        ],
+        "line": "daejeon2",
+        "order": 7
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4373138,
+          36.3228053
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Indong (인동)",
+        "alternate_names": [
+          "인동",
+          "仁洞",
+          "Indong"
+        ],
+        "line": "daejeon2",
+        "order": 8
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4372435,
+          36.3227865
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Indong (인동)",
+        "alternate_names": [
+          "인동",
+          "仁洞",
+          "Indong"
+        ],
+        "line": "daejeon2",
+        "order": 9
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4334229,
+          36.3298423
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Daejeon (Subway) (대전 (도시철도))",
+        "alternate_names": [
+          "대전 (도시철도)",
+          "大田 (都市鐵道)",
+          "Daejeon (Subway)"
+        ],
+        "line": "daejeon2",
+        "order": 10
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4333616,
+          36.3298124
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Daejeon (Subway) (대전 (도시철도))",
+        "alternate_names": [
+          "대전 (도시철도)",
+          "大田 (都市鐵道)",
+          "Daejeon (Subway)"
+        ],
+        "line": "daejeon2",
+        "order": 11
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4384606,
+          36.3310864
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Daejeon (대전)",
+        "alternate_names": [
+          "대전",
+          "大田",
+          "Daejeon"
+        ],
+        "line": "daejeon2",
+        "order": 12
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4384932,
+          36.3310936
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Daejeon (대전)",
+        "alternate_names": [
+          "대전",
+          "大田",
+          "Daejeon"
+        ],
+        "line": "daejeon2",
+        "order": 13
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4439472,
+          36.3308884
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Daedong (대동)",
+        "alternate_names": [
+          "대동",
+          "大洞",
+          "Daedong"
+        ],
+        "line": "daejeon2",
+        "order": 14
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4439786,
+          36.3308785
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Daedong (대동)",
+        "alternate_names": [
+          "대동",
+          "大洞",
+          "Daedong"
+        ],
+        "line": "daejeon2",
+        "order": 15
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4475605,
+          36.33682
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Jayang (자양)",
+        "alternate_names": [
+          "자양",
+          "紫陽",
+          "Jayang"
+        ],
+        "line": "daejeon2",
+        "order": 16
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4474977,
+          36.3368412
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Jayang (자양)",
+        "alternate_names": [
+          "자양",
+          "紫陽",
+          "Jayang"
+        ],
+        "line": "daejeon2",
+        "order": 17
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4449177,
+          36.3467271
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Gayang (가양)",
+        "alternate_names": [
+          "가양",
+          "佳陽",
+          "Gayang"
+        ],
+        "line": "daejeon2",
+        "order": 18
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4448887,
+          36.3467171
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Gayang (가양)",
+        "alternate_names": [
+          "가양",
+          "佳陽",
+          "Gayang"
+        ],
+        "line": "daejeon2",
+        "order": 19
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4388308,
+          36.3538169
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Daejeon Terminal Complex (대전복합터미널)",
+        "alternate_names": [
+          "대전복합터미널",
+          "大田複合터미널",
+          "Daejeon Terminal Complex"
+        ],
+        "line": "daejeon2",
+        "order": 20
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4388019,
+          36.3538038
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Daejeon Terminal Complex (대전복합터미널)",
+        "alternate_names": [
+          "대전복합터미널",
+          "大田複合터미널",
+          "Daejeon Terminal Complex"
+        ],
+        "line": "daejeon2",
+        "order": 21
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4336826282769,
+          36.358116276924235
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Yongjeon (용전)",
+        "alternate_names": [
+          "용전",
+          "龍田",
+          "Yongjeon"
+        ],
+        "line": "daejeon2",
+        "order": 22
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4265266,
+          36.3589556
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Jungni (중리)",
+        "alternate_names": [
+          "중리",
+          "中里",
+          "Jungni"
+        ],
+        "line": "daejeon2",
+        "order": 23
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4265296,
+          36.3589372
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Jungni (중리)",
+        "alternate_names": [
+          "중리",
+          "中里",
+          "Jungni"
+        ],
+        "line": "daejeon2",
+        "order": 24
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4199866,
+          36.3587774
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Ojeong (오정)",
+        "alternate_names": [
+          "오정",
+          "梧井",
+          "Ojeong"
+        ],
+        "line": "daejeon2",
+        "order": 25
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4199866,
+          36.3587464
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Ojeong (오정)",
+        "alternate_names": [
+          "오정",
+          "梧井",
+          "Ojeong"
+        ],
+        "line": "daejeon2",
+        "order": 26
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4078326,
+          36.3575674
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Ojeong Agro-Fishery Market (오정농수산물시장)",
+        "alternate_names": [
+          "오정농수산물시장",
+          "梧井農水産物市場",
+          "Ojeong Agro-Fishery Market"
+        ],
+        "line": "daejeon2",
+        "order": 27
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4078439,
+          36.3575391
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ojeong Agro-Fishery Market (오정농수산물시장)",
+        "alternate_names": [
+          "오정농수산물시장",
+          "梧井農水産物市場",
+          "Ojeong Agro-Fishery Market"
+        ],
+        "line": "daejeon2",
+        "order": 28
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.396957,
+          36.3576818
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Dunsan (둔산)",
+        "alternate_names": [
+          "둔산",
+          "屯山",
+          "Dunsan"
+        ],
+        "line": "daejeon2",
+        "order": 29
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3969553,
+          36.3576492
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Dunsan (둔산)",
+        "alternate_names": [
+          "둔산",
+          "屯山",
+          "Dunsan"
+        ],
+        "line": "daejeon2",
+        "order": 30
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3884831,
+          36.3576794
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Sammeori Negeori (샘머리네거리)",
+        "alternate_names": [
+          "샘머리네거리",
+          "Sammeori Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 31
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3884872,
+          36.3576558
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Sammeori Negeori (샘머리네거리)",
+        "alternate_names": [
+          "샘머리네거리",
+          "Sammeori Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 32
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3814431,
+          36.3575182
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Government Complex Daejeon (정부청사)",
+        "alternate_names": [
+          "정부청사",
+          "政府廳舍",
+          "Government Complex Daejeon"
+        ],
+        "line": "daejeon2",
+        "order": 33
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3814448,
+          36.357489
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Government Complex Daejeon (정부청사)",
+        "alternate_names": [
+          "정부청사",
+          "政府廳舍",
+          "Government Complex Daejeon"
+        ],
+        "line": "daejeon2",
+        "order": 34
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3794942,
+          36.3618278
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Dunsan Prehistoric Site (둔산선사유적지)",
+        "alternate_names": [
+          "둔산선사유적지",
+          "屯山先史遺蹟地",
+          "Dunsan Prehistoric Site"
+        ],
+        "line": "daejeon2",
+        "order": 35
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3794628,
+          36.3618242
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Dunsan Prehistoric Site (둔산선사유적지)",
+        "alternate_names": [
+          "둔산선사유적지",
+          "屯山先史遺蹟地",
+          "Dunsan Prehistoric Site"
+        ],
+        "line": "daejeon2",
+        "order": 36
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3795696,
+          36.3685091
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Mannyeon (만년)",
+        "alternate_names": [
+          "만년",
+          "萬年",
+          "Mannyeon"
+        ],
+        "line": "daejeon2",
+        "order": 37
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3795312,
+          36.368508
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Mannyeon (만년)",
+        "alternate_names": [
+          "만년",
+          "萬年",
+          "Mannyeon"
+        ],
+        "line": "daejeon2",
+        "order": 38
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3788088,
+          36.3746581
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Expo Science Park (엑스포과학공원)",
+        "alternate_names": [
+          "엑스포과학공원",
+          "엑스포科學公園",
+          "Expo Science Park"
+        ],
+        "line": "daejeon2",
+        "order": 39
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3788265,
+          36.3746321
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Expo Science Park (엑스포과학공원)",
+        "alternate_names": [
+          "엑스포과학공원",
+          "엑스포科學公園",
+          "Expo Science Park"
+        ],
+        "line": "daejeon2",
+        "order": 40
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3643043,
+          36.3656593
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "KAIST (카이스트)",
+        "alternate_names": [
+          "카이스트",
+          "韓國科學技術院",
+          "KAIST"
+        ],
+        "line": "daejeon2",
+        "order": 41
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3643368,
+          36.3656151
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "KAIST (카이스트)",
+        "alternate_names": [
+          "카이스트",
+          "韓國科學技術院",
+          "KAIST"
+        ],
+        "line": "daejeon2",
+        "order": 42
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3527614,
+          36.3603344
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Yuseonggu District Office (유성구청)",
+        "alternate_names": [
+          "유성구청",
+          "儒城區廳",
+          "Yuseonggu District Office"
+        ],
+        "line": "daejeon2",
+        "order": 43
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3527602,
+          36.3603062
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Yuseonggu District Office (유성구청)",
+        "alternate_names": [
+          "유성구청",
+          "儒城區廳",
+          "Yuseonggu District Office"
+        ],
+        "line": "daejeon2",
+        "order": 44
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3441817,
+          36.3609259
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Chungnam National University (충남대)",
+        "alternate_names": [
+          "충남대",
+          "忠南大",
+          "Chungnam National University"
+        ],
+        "line": "daejeon2",
+        "order": 45
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3442183,
+          36.3609163
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Chungnam National University (충남대)",
+        "alternate_names": [
+          "충남대",
+          "忠南大",
+          "Chungnam National University"
+        ],
+        "line": "daejeon2",
+        "order": 46
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3409344,
+          36.3523397
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Yuseong Spa (유성온천)",
+        "alternate_names": [
+          "유성온천",
+          "儒城溫泉",
+          "Yuseong Spa"
+        ],
+        "line": "daejeon2",
+        "order": 47
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.340971,
+          36.3523321
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Yuseong Spa (유성온천)",
+        "alternate_names": [
+          "유성온천",
+          "儒城溫泉",
+          "Yuseong Spa"
+        ],
+        "line": "daejeon2",
+        "order": 48
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3402618,
+          36.3462748
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Sangdae (상대)",
+        "alternate_names": [
+          "상대",
+          "上垈",
+          "Sangdae"
+        ],
+        "line": "daejeon2",
+        "order": 49
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3402976,
+          36.3462706
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Sangdae (상대)",
+        "alternate_names": [
+          "상대",
+          "上垈",
+          "Sangdae"
+        ],
+        "line": "daejeon2",
+        "order": 50
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.338429,
+          36.3415713
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Wongol (원골)",
+        "alternate_names": [
+          "원골",
+          "원골",
+          "Wongol"
+        ],
+        "line": "daejeon2",
+        "order": 51
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3384683,
+          36.3415551
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Wongol (원골)",
+        "alternate_names": [
+          "원골",
+          "원골",
+          "Wongol"
+        ],
+        "line": "daejeon2",
+        "order": 52
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3334082,
+          36.3351922
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Wonang Negeori (대전시립박물관)",
+        "alternate_names": [
+          "대전시립박물관",
+          "大田市立博物館",
+          "Wonang Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 53
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3334508,
+          36.3351777
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Wonang Negeori (대전시립박물관)",
+        "alternate_names": [
+          "대전시립박물관",
+          "大田市立博物館",
+          "Wonang Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 54
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3328217,
+          36.3297003
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Mokwon University (목원대)",
+        "alternate_names": [
+          "목원대",
+          "牧園大",
+          "Mokwon University"
+        ],
+        "line": "daejeon2",
+        "order": 55
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3328555,
+          36.3297001
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Mokwon University (목원대)",
+        "alternate_names": [
+          "목원대",
+          "牧園大",
+          "Mokwon University"
+        ],
+        "line": "daejeon2",
+        "order": 56
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.332794,
+          36.3222465
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Yonggye (용계)",
+        "alternate_names": [
+          "용계",
+          "龍溪",
+          "Yonggye"
+        ],
+        "line": "daejeon2",
+        "order": 57
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.332838,
+          36.3222413
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Yonggye (용계)",
+        "alternate_names": [
+          "용계",
+          "龍溪",
+          "Yonggye"
+        ],
+        "line": "daejeon2",
+        "order": 58
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3347193,
+          36.3157264
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Daejeong (대정)",
+        "alternate_names": [
+          "대정",
+          "大井",
+          "Daejeong"
+        ],
+        "line": "daejeon2",
+        "order": 59
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3347569,
+          36.315734
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Daejeong (대정)",
+        "alternate_names": [
+          "대정",
+          "大井",
+          "Daejeong"
+        ],
+        "line": "daejeon2",
+        "order": 60
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3348683,
+          36.3083115
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Wonang Negeori (원앙네거리)",
+        "alternate_names": [
+          "원앙네거리",
+          "鴛鴦네거리",
+          "Wonang Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 61
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3349086,
+          36.308312
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Wonang Negeori (원앙네거리)",
+        "alternate_names": [
+          "원앙네거리",
+          "鴛鴦네거리",
+          "Wonang Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 62
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3357986,
+          36.3012603
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Gwanjeo Negeori (관저네거리)",
+        "alternate_names": [
+          "관저네거리",
+          "關雎네거리",
+          "Gwanjeo Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 63
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3357991,
+          36.3012876
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Gwanjeo Negeori (관저네거리)",
+        "alternate_names": [
+          "관저네거리",
+          "關雎네거리",
+          "Gwanjeo Negeori"
+        ],
+        "line": "daejeon2",
+        "order": 64
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3427068,
+          36.3028582
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Gwanjeo (관저)",
+        "alternate_names": [
+          "관저",
+          "關雎",
+          "Gwanjeo"
+        ],
+        "line": "daejeon2",
+        "order": 65
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3426966,
+          36.3028827
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Gwanjeo (관저)",
+        "alternate_names": [
+          "관저",
+          "關雎",
+          "Gwanjeo"
+        ],
+        "line": "daejeon2",
+        "order": 66
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3510251,
+          36.304557
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Gasuwon (가수원)",
+        "alternate_names": [
+          "가수원",
+          "佳水院",
+          "Gasuwon"
+        ],
+        "line": "daejeon2",
+        "order": 67
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3510149,
+          36.304584
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Gasuwon (가수원)",
+        "alternate_names": [
+          "가수원",
+          "佳水院",
+          "Gasuwon"
+        ],
+        "line": "daejeon2",
+        "order": 68
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3649223,
+          36.3078039
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Jeongnim (정림)",
+        "alternate_names": [
+          "정림",
+          "正林",
+          "Jeongnim"
+        ],
+        "line": "daejeon2",
+        "order": 69
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3649053,
+          36.30783
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Jeongnim (정림)",
+        "alternate_names": [
+          "정림",
+          "正林",
+          "Jeongnim"
+        ],
+        "line": "daejeon2",
+        "order": 70
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3751683,
+          36.310868
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Doma (도마)",
+        "alternate_names": [
+          "도마",
+          "桃馬",
+          "Doma"
+        ],
+        "line": "daejeon2",
+        "order": 71
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3820797,
+          36.3139795
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Doma (도마큰시장)",
+        "alternate_names": [
+          "도마큰시장",
+          "桃馬市場",
+          "Doma"
+        ],
+        "line": "daejeon2",
+        "order": 72
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3820638,
+          36.3139979
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Doma (도마큰시장)",
+        "alternate_names": [
+          "도마큰시장",
+          "桃馬市場",
+          "Doma"
+        ],
+        "line": "daejeon2",
+        "order": 73
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3898757,
+          36.3164436
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Budnae (버드내)",
+        "alternate_names": [
+          "버드내",
+          "Budnae"
+        ],
+        "line": "daejeon2",
+        "order": 74
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.38987,
+          36.3164677
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Budnae (버드내)",
+        "alternate_names": [
+          "버드내",
+          "Budnae"
+        ],
+        "line": "daejeon2",
+        "order": 75
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3954999,
+          36.3179017
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Yucheon (유천)",
+        "alternate_names": [
+          "유천",
+          "柳川",
+          "Yucheon"
+        ],
+        "line": "daejeon2",
+        "order": 76
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3954882,
+          36.3179283
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Yucheon (유천)",
+        "alternate_names": [
+          "유천",
+          "柳川",
+          "Yucheon"
+        ],
+        "line": "daejeon2",
+        "order": 77
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4282245,
+          36.3732959
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Beopdong (법동)",
+        "alternate_names": [
+          "법동",
+          "法洞",
+          "Beopdong"
+        ],
+        "line": "daejeon2",
+        "order": 78
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4281885,
+          36.3732887
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Beopdong (법동)",
+        "alternate_names": [
+          "법동",
+          "法洞",
+          "Beopdong"
+        ],
+        "line": "daejeon2",
+        "order": 79
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4303318,
+          36.3660447
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Daejeon Institute of Gender Equality and Family (동부여성가족원)",
+        "alternate_names": [
+          "동부여성가족원",
+          "東部女性家族院",
+          "Daejeon Institute of Gender Equality and Family"
+        ],
+        "line": "daejeon2",
+        "order": 80
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4302914,
+          36.3660372
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Daejeon Institute of Gender Equality and Family (동부여성가족원)",
+        "alternate_names": [
+          "동부여성가족원",
+          "東部女性家族院",
+          "Daejeon Institute of Gender Equality and Family"
+        ],
+        "line": "daejeon2",
+        "order": 81
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4271308,
+          36.3773519
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Eumnae (읍내)",
+        "alternate_names": [
+          "읍내",
+          "邑內",
+          "Eumnae"
+        ],
+        "line": "daejeon2",
+        "order": 82
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4271016,
+          36.3773421
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Eumnae (읍내)",
+        "alternate_names": [
+          "읍내",
+          "邑內",
+          "Eumnae"
+        ],
+        "line": "daejeon2",
+        "order": 83
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4208875,
+          36.390648
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Yeonchuk (연축)",
+        "alternate_names": [
+          "연축",
+          "連丑",
+          "Yeonchuk"
+        ],
+        "line": "daejeon2",
+        "order": 84
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4208483,
+          36.3906422
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Yeonchuk (연축)",
+        "alternate_names": [
+          "연축",
+          "連丑",
+          "Yeonchuk"
+        ],
+        "line": "daejeon2",
+        "order": 85
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3239726,
+          36.2990931
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Jinjam (진잠)",
+        "alternate_names": [
+          "진잠",
+          "鎭岑",
+          "Jinjam"
+        ],
+        "line": "daejeon2",
+        "order": 86
+      },
+      "id": 107
+    }
+  ]
+}

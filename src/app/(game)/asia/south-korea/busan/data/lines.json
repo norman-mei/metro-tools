@@ -1,0 +1,58 @@
+{
+  "busan1": {
+    "name": "Line 1",
+    "color": "#F06A00",
+    "backgroundColor": "#F06A00",
+    "textColor": "#ffffff",
+    "order": 1,
+    "icon": "asia/south-korea/busan/busan1.png"
+  },
+  "busan2": {
+    "name": "Line 2",
+    "color": "#81BF48",
+    "backgroundColor": "#81BF48",
+    "textColor": "#000000",
+    "order": 2,
+    "icon": "asia/south-korea/busan/busan2.png"
+  },
+  "busan3": {
+    "name": "Line 3",
+    "color": "#BB8C00",
+    "backgroundColor": "#BB8C00",
+    "textColor": "#000000",
+    "order": 3,
+    "icon": "asia/south-korea/busan/busan3.png"
+  },
+  "busan4": {
+    "name": "Line 4",
+    "color": "#217DCB",
+    "backgroundColor": "#217DCB",
+    "textColor": "#ffffff",
+    "order": 4,
+    "icon": "asia/south-korea/busan/busan4.png"
+  },
+  "busanlrt": {
+    "name": "Busan-Gimhae Light Rail Transit",
+    "color": "#8451A0",
+    "backgroundColor": "#8451A0",
+    "textColor": "#ffffff",
+    "order": 5,
+    "icon": "asia/south-korea/busan/busanlrt.png"
+  },
+  "busansky": {
+    "name": "Haeundae Sky Capsule",
+    "color": "#5AA2F0",
+    "backgroundColor": "#5AA2F0",
+    "textColor": "#000000",
+    "order": 6,
+    "icon": "asia/south-korea/busan/busansky.png"
+  },
+  "busancable": {
+    "name": "Songdo Marine Cable Car",
+    "color": "#0054AD",
+    "backgroundColor": "#0054AD",
+    "textColor": "#ffffff",
+    "order": 7,
+    "icon": "asia/south-korea/busan/busancable.png"
+  }
+}

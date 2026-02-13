@@ -1,0 +1,10 @@
+{
+  "palembanglrt": {
+    "name": "Palembang LRT",
+    "color": "#2E528A",
+    "backgroundColor": "#2E528A",
+    "textColor": "#FFFFFF",
+    "icon": "asia/indonesia/palembang/palembanglrt.png",
+    "order": 0
+  }
+}

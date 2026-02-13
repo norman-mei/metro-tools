@@ -1,0 +1,6944 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-02-12T05:10:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/701418842",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7895278,
+            -3.030534
+          ],
+          [
+            104.7882816,
+            -3.0286801
+          ],
+          [
+            104.7850803,
+            -3.023908
+          ]
+        ]
+      },
+      "id": "way/701418842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/701418843",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "name:en": "LRT Palembang",
+        "name:id": "LRT Palembang",
+        "name:ms": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7602879,
+            -2.9869394
+          ],
+          [
+            104.7599876,
+            -2.9864976
+          ],
+          [
+            104.7595989,
+            -2.9859007
+          ],
+          [
+            104.7591426,
+            -2.9851931
+          ],
+          [
+            104.7587777,
+            -2.9846678
+          ],
+          [
+            104.7580671,
+            -2.9835993
+          ],
+          [
+            104.7573105,
+            -2.9824768
+          ],
+          [
+            104.7567716,
+            -2.9816896
+          ]
+        ]
+      },
+      "id": "way/701418843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/776893430",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7426147,
+            -2.9756354
+          ],
+          [
+            104.7418445,
+            -2.9750961
+          ],
+          [
+            104.7416863,
+            -2.9749823
+          ],
+          [
+            104.7415884,
+            -2.9749019
+          ],
+          [
+            104.741174,
+            -2.9745122
+          ],
+          [
+            104.740828,
+            -2.9741573
+          ],
+          [
+            104.7401842,
+            -2.9734153
+          ],
+          [
+            104.7400314,
+            -2.9732372
+          ],
+          [
+            104.7398892,
+            -2.9730577
+          ],
+          [
+            104.7397511,
+            -2.9728635
+          ],
+          [
+            104.7393084,
+            -2.9721894
+          ],
+          [
+            104.7390228,
+            -2.9717546
+          ],
+          [
+            104.7388136,
+            -2.9714612
+          ],
+          [
+            104.7387412,
+            -2.9713688
+          ],
+          [
+            104.7386527,
+            -2.9712952
+          ],
+          [
+            104.7385508,
+            -2.9712229
+          ],
+          [
+            104.7384569,
+            -2.971172
+          ],
+          [
+            104.7383335,
+            -2.9711211
+          ]
+        ]
+      },
+      "id": "way/776893430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/776893439",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.748428,
+            -2.9788461
+          ],
+          [
+            104.7474128,
+            -2.9794341
+          ],
+          [
+            104.7473028,
+            -2.979481
+          ],
+          [
+            104.7471969,
+            -2.9795118
+          ],
+          [
+            104.7470963,
+            -2.9795278
+          ],
+          [
+            104.7469796,
+            -2.9795292
+          ],
+          [
+            104.7468723,
+            -2.9795158
+          ],
+          [
+            104.7467664,
+            -2.979485
+          ],
+          [
+            104.7466725,
+            -2.9794408
+          ],
+          [
+            104.746576,
+            -2.9793765
+          ],
+          [
+            104.7464928,
+            -2.9792961
+          ],
+          [
+            104.7464284,
+            -2.9792198
+          ],
+          [
+            104.7463721,
+            -2.9791354
+          ],
+          [
+            104.7463332,
+            -2.9790403
+          ],
+          [
+            104.7462943,
+            -2.9789091
+          ],
+          [
+            104.746246,
+            -2.9786747
+          ],
+          [
+            104.7461522,
+            -2.9782341
+          ],
+          [
+            104.7461146,
+            -2.9780774
+          ],
+          [
+            104.7460744,
+            -2.9779515
+          ],
+          [
+            104.7460274,
+            -2.9778644
+          ],
+          [
+            104.7459677,
+            -2.977776
+          ],
+          [
+            104.7458893,
+            -2.9776957
+          ],
+          [
+            104.7457847,
+            -2.9776133
+          ],
+          [
+            104.7456703,
+            -2.9775422
+          ]
+        ]
+      },
+      "id": "way/776893439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/776893444",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7219594,
+            -2.9394195
+          ],
+          [
+            104.7214492,
+            -2.938999
+          ],
+          [
+            104.7209406,
+            -2.9385731
+          ],
+          [
+            104.7206812,
+            -2.9383484
+          ],
+          [
+            104.7204672,
+            -2.9381705
+          ],
+          [
+            104.7203727,
+            -2.9380717
+          ],
+          [
+            104.7202932,
+            -2.9379884
+          ],
+          [
+            104.7201435,
+            -2.937796
+          ],
+          [
+            104.719698,
+            -2.9371342
+          ],
+          [
+            104.7194903,
+            -2.9367931
+          ],
+          [
+            104.7193577,
+            -2.9365695
+          ],
+          [
+            104.7190153,
+            -2.9359041
+          ],
+          [
+            104.718872,
+            -2.9355869
+          ],
+          [
+            104.7187174,
+            -2.9352192
+          ]
+        ]
+      },
+      "id": "way/776893444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836650936",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7151944,
+            -2.8994943
+          ],
+          [
+            104.7149327,
+            -2.8993863
+          ],
+          [
+            104.7147029,
+            -2.8992736
+          ],
+          [
+            104.7145108,
+            -2.8991611
+          ],
+          [
+            104.7143104,
+            -2.8990232
+          ],
+          [
+            104.7141422,
+            -2.8988896
+          ],
+          [
+            104.7139717,
+            -2.8987299
+          ],
+          [
+            104.7138499,
+            -2.8985885
+          ],
+          [
+            104.7137217,
+            -2.8984297
+          ],
+          [
+            104.7134303,
+            -2.8980583
+          ],
+          [
+            104.7132732,
+            -2.8978757
+          ],
+          [
+            104.7130916,
+            -2.8976984
+          ],
+          [
+            104.7129317,
+            -2.8975589
+          ],
+          [
+            104.7127592,
+            -2.8974288
+          ],
+          [
+            104.7125611,
+            -2.8973013
+          ],
+          [
+            104.7123254,
+            -2.8971755
+          ],
+          [
+            104.7120475,
+            -2.8970503
+          ],
+          [
+            104.7102716,
+            -2.8963054
+          ],
+          [
+            104.7085392,
+            -2.8955705
+          ]
+        ]
+      },
+      "id": "way/836650936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836650937",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7484098,
+            -2.978815
+          ],
+          [
+            104.7473966,
+            -2.9794018
+          ],
+          [
+            104.7472906,
+            -2.9794469
+          ],
+          [
+            104.7471889,
+            -2.9794765
+          ],
+          [
+            104.7470932,
+            -2.9794918
+          ],
+          [
+            104.7469817,
+            -2.9794931
+          ],
+          [
+            104.7468797,
+            -2.9794803
+          ],
+          [
+            104.7467792,
+            -2.9794511
+          ],
+          [
+            104.7466903,
+            -2.9794093
+          ],
+          [
+            104.7465987,
+            -2.9793483
+          ],
+          [
+            104.7465192,
+            -2.9792715
+          ],
+          [
+            104.7464574,
+            -2.9791981
+          ],
+          [
+            104.7464042,
+            -2.9791184
+          ],
+          [
+            104.7463673,
+            -2.9790284
+          ],
+          [
+            104.7463294,
+            -2.9789003
+          ],
+          [
+            104.7462814,
+            -2.9786673
+          ],
+          [
+            104.7461874,
+            -2.9782261
+          ],
+          [
+            104.7461494,
+            -2.9780677
+          ],
+          [
+            104.7461078,
+            -2.9779373
+          ],
+          [
+            104.7460585,
+            -2.977846
+          ],
+          [
+            104.745998,
+            -2.9777532
+          ]
+        ]
+      },
+      "id": "way/836650937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/903546372",
+        "bridge": "yes",
+        "covered": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7246042,
+            -2.9408336
+          ],
+          [
+            104.7240034,
+            -2.9405114
+          ],
+          [
+            104.7233613,
+            -2.9401631
+          ]
+        ]
+      },
+      "id": "way/903546372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/903546373",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.72838,
+            -2.9428725
+          ],
+          [
+            104.7272137,
+            -2.9422366
+          ],
+          [
+            104.7260313,
+            -2.9416216
+          ],
+          [
+            104.725403,
+            -2.9412705
+          ]
+        ]
+      },
+      "id": "way/903546373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884686",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7942662,
+            -3.0373125
+          ],
+          [
+            104.7936635,
+            -3.0364302
+          ],
+          [
+            104.7935575,
+            -3.0362909
+          ],
+          [
+            104.7933295,
+            -3.036023
+          ],
+          [
+            104.7929715,
+            -3.0356374
+          ],
+          [
+            104.7929017,
+            -3.0355463
+          ],
+          [
+            104.7911556,
+            -3.032908
+          ],
+          [
+            104.7910447,
+            -3.0327431
+          ]
+        ]
+      },
+      "id": "way/1065884686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884691",
+        "bridge": "yes",
+        "covered": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7245888,
+            -2.9408655
+          ],
+          [
+            104.7239912,
+            -2.9405391
+          ],
+          [
+            104.723346,
+            -2.940191
+          ]
+        ]
+      },
+      "id": "way/1065884691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884692",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7082135,
+            -2.8954716
+          ],
+          [
+            104.7083764,
+            -2.8955211
+          ],
+          [
+            104.7085392,
+            -2.8955705
+          ]
+        ]
+      },
+      "id": "way/1065884692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884693",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7082276,
+            -2.8954384
+          ],
+          [
+            104.7083764,
+            -2.8955211
+          ],
+          [
+            104.7085251,
+            -2.8956038
+          ]
+        ]
+      },
+      "id": "way/1065884693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884694",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "15",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7226689,
+            -2.9083935
+          ],
+          [
+            104.7230621,
+            -2.908309
+          ]
+        ]
+      },
+      "id": "way/1065884694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884695",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "15",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7238094,
+            -2.9080766
+          ],
+          [
+            104.7242,
+            -2.9079171
+          ]
+        ]
+      },
+      "id": "way/1065884695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884696",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7119218,
+            -2.9180701
+          ],
+          [
+            104.7119121,
+            -2.9183863
+          ]
+        ]
+      },
+      "id": "way/1065884696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884697",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.711416,
+            -2.9220085
+          ],
+          [
+            104.7115058,
+            -2.9216143
+          ]
+        ]
+      },
+      "id": "way/1065884697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884698",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7233613,
+            -2.9401631
+          ],
+          [
+            104.7229054,
+            -2.9399508
+          ]
+        ]
+      },
+      "id": "way/1065884698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884699",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7250134,
+            -2.9410543
+          ],
+          [
+            104.7253857,
+            -2.9412986
+          ]
+        ]
+      },
+      "id": "way/1065884699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884700",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7363503,
+            -2.9633005
+          ],
+          [
+            104.736219,
+            -2.9636298
+          ]
+        ]
+      },
+      "id": "way/1065884700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884701",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7353941,
+            -2.9652765
+          ],
+          [
+            104.7351766,
+            -2.9656326
+          ]
+        ]
+      },
+      "id": "way/1065884701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884702",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7554271,
+            -2.9797686
+          ],
+          [
+            104.7556186,
+            -2.9799897
+          ]
+        ]
+      },
+      "id": "way/1065884702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884703",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7566071,
+            -2.9814494
+          ],
+          [
+            104.7567435,
+            -2.9817126
+          ]
+        ]
+      },
+      "id": "way/1065884703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884704",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7895278,
+            -3.030534
+          ],
+          [
+            104.7896133,
+            -3.0306286
+          ],
+          [
+            104.7896972,
+            -3.0307224
+          ]
+        ]
+      },
+      "id": "way/1065884704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884705",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7895587,
+            -3.0305158
+          ],
+          [
+            104.7896133,
+            -3.0306286
+          ],
+          [
+            104.7896684,
+            -3.0307433
+          ]
+        ]
+      },
+      "id": "way/1065884705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065884706",
+        "bridge": "yes",
+        "electrified": "rail",
+        "gauge": "1067",
+        "layer": "2",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "service": "crossover",
+        "tracks": "1",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7908281,
+            -3.03248
+          ],
+          [
+            104.7910447,
+            -3.0327431
+          ]
+        ]
+      },
+      "id": "way/1065884706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651771",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7085251,
+            -2.8956038
+          ],
+          [
+            104.7082135,
+            -2.8954716
+          ],
+          [
+            104.7080567,
+            -2.8954051
+          ],
+          [
+            104.7079293,
+            -2.8953448
+          ],
+          [
+            104.7077993,
+            -2.8952591
+          ],
+          [
+            104.7069637,
+            -2.894643
+          ],
+          [
+            104.7068524,
+            -2.8945747
+          ],
+          [
+            104.7067291,
+            -2.8945197
+          ],
+          [
+            104.7059495,
+            -2.8941821
+          ],
+          [
+            104.705223,
+            -2.8938675
+          ]
+        ]
+      },
+      "id": "way/1312651771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651772",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7120331,
+            -2.8970833
+          ],
+          [
+            104.7102575,
+            -2.8963386
+          ],
+          [
+            104.7085251,
+            -2.8956038
+          ]
+        ]
+      },
+      "id": "way/1312651772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651773",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7151807,
+            -2.8995277
+          ],
+          [
+            104.7149178,
+            -2.8994192
+          ],
+          [
+            104.7146858,
+            -2.8993054
+          ],
+          [
+            104.7144914,
+            -2.8991915
+          ],
+          [
+            104.7142889,
+            -2.8990522
+          ],
+          [
+            104.7141185,
+            -2.898917
+          ],
+          [
+            104.7139455,
+            -2.8987549
+          ],
+          [
+            104.7138222,
+            -2.8986116
+          ],
+          [
+            104.7136934,
+            -2.8984522
+          ],
+          [
+            104.7134024,
+            -2.8980812
+          ],
+          [
+            104.7132468,
+            -2.8979004
+          ],
+          [
+            104.7130671,
+            -2.8977249
+          ],
+          [
+            104.7129089,
+            -2.897587
+          ],
+          [
+            104.7127385,
+            -2.8974584
+          ],
+          [
+            104.7125427,
+            -2.8973325
+          ],
+          [
+            104.7123094,
+            -2.8972079
+          ],
+          [
+            104.7120331,
+            -2.8970833
+          ]
+        ]
+      },
+      "id": "way/1312651773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651774",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7243378,
+            -2.9031789
+          ],
+          [
+            104.7227848,
+            -2.9025842
+          ],
+          [
+            104.7208804,
+            -2.9018288
+          ],
+          [
+            104.7168399,
+            -2.9002164
+          ],
+          [
+            104.7159546,
+            -2.8998504
+          ],
+          [
+            104.7151807,
+            -2.8995277
+          ]
+        ]
+      },
+      "id": "way/1312651774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651775",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.727087,
+            -2.9039664
+          ],
+          [
+            104.7250255,
+            -2.9033823
+          ]
+        ]
+      },
+      "id": "way/1312651775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651776",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "15",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7276114,
+            -2.9048545
+          ],
+          [
+            104.7276235,
+            -2.9047125
+          ],
+          [
+            104.7276248,
+            -2.9045772
+          ],
+          [
+            104.7276007,
+            -2.9044674
+          ],
+          [
+            104.7275685,
+            -2.9043696
+          ],
+          [
+            104.7275054,
+            -2.9042625
+          ],
+          [
+            104.7274196,
+            -2.904154
+          ],
+          [
+            104.7273351,
+            -2.9040816
+          ],
+          [
+            104.7272158,
+            -2.9040106
+          ],
+          [
+            104.727087,
+            -2.9039664
+          ]
+        ]
+      },
+      "id": "way/1312651776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651777",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7258505,
+            -2.907272
+          ],
+          [
+            104.7260289,
+            -2.9071609
+          ],
+          [
+            104.7262233,
+            -2.9070229
+          ],
+          [
+            104.7263816,
+            -2.906893
+          ],
+          [
+            104.7265278,
+            -2.9067617
+          ],
+          [
+            104.7266927,
+            -2.9065836
+          ],
+          [
+            104.726847,
+            -2.9064081
+          ],
+          [
+            104.7269945,
+            -2.9062153
+          ],
+          [
+            104.7271527,
+            -2.9059688
+          ],
+          [
+            104.7273016,
+            -2.905713
+          ],
+          [
+            104.7274411,
+            -2.9054518
+          ],
+          [
+            104.7275001,
+            -2.9053259
+          ],
+          [
+            104.7275537,
+            -2.9051625
+          ],
+          [
+            104.7275926,
+            -2.9050018
+          ],
+          [
+            104.7276114,
+            -2.9048545
+          ]
+        ]
+      },
+      "id": "way/1312651777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651778",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7242,
+            -2.9079171
+          ],
+          [
+            104.7248943,
+            -2.9077006
+          ],
+          [
+            104.7251357,
+            -2.9076163
+          ],
+          [
+            104.7253865,
+            -2.9075078
+          ],
+          [
+            104.7256064,
+            -2.9074033
+          ],
+          [
+            104.7258505,
+            -2.907272
+          ]
+        ]
+      },
+      "id": "way/1312651778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651779",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7166631,
+            -2.9100184
+          ],
+          [
+            104.7171185,
+            -2.9098965
+          ],
+          [
+            104.7175719,
+            -2.9097807
+          ],
+          [
+            104.7204177,
+            -2.9090708
+          ],
+          [
+            104.720875,
+            -2.9089449
+          ],
+          [
+            104.7215416,
+            -2.908744
+          ],
+          [
+            104.7226689,
+            -2.9083935
+          ],
+          [
+            104.7237986,
+            -2.9080422
+          ],
+          [
+            104.7242,
+            -2.9079171
+          ]
+        ]
+      },
+      "id": "way/1312651779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651780",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7147233,
+            -2.910847
+          ],
+          [
+            104.7155298,
+            -2.9104454
+          ],
+          [
+            104.7157654,
+            -2.9103325
+          ],
+          [
+            104.7159532,
+            -2.9102468
+          ],
+          [
+            104.7161114,
+            -2.9101838
+          ],
+          [
+            104.716334,
+            -2.9101115
+          ],
+          [
+            104.7166631,
+            -2.9100184
+          ]
+        ]
+      },
+      "id": "way/1312651780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651781",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7134842,
+            -2.9117469
+          ],
+          [
+            104.713684,
+            -2.9115527
+          ],
+          [
+            104.7138409,
+            -2.9114107
+          ],
+          [
+            104.7140099,
+            -2.9112781
+          ],
+          [
+            104.7141869,
+            -2.9111549
+          ],
+          [
+            104.7143559,
+            -2.911041
+          ],
+          [
+            104.7145248,
+            -2.9109464
+          ],
+          [
+            104.7147233,
+            -2.910847
+          ]
+        ]
+      },
+      "id": "way/1312651781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651782",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "35",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7124377,
+            -2.9137547
+          ],
+          [
+            104.712532,
+            -2.9133769
+          ],
+          [
+            104.7126219,
+            -2.9131144
+          ],
+          [
+            104.7127104,
+            -2.91288
+          ],
+          [
+            104.7128163,
+            -2.9126577
+          ],
+          [
+            104.712941,
+            -2.912434
+          ],
+          [
+            104.7130685,
+            -2.9122344
+          ],
+          [
+            104.7131959,
+            -2.912063
+          ],
+          [
+            104.713334,
+            -2.9118982
+          ],
+          [
+            104.7134842,
+            -2.9117469
+          ]
+        ]
+      },
+      "id": "way/1312651782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651783",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7122375,
+            -2.9151829
+          ],
+          [
+            104.7122866,
+            -2.914727
+          ],
+          [
+            104.7123295,
+            -2.9143654
+          ],
+          [
+            104.7123831,
+            -2.9140439
+          ],
+          [
+            104.7124377,
+            -2.9137547
+          ]
+        ]
+      },
+      "id": "way/1312651783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651784",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7115999,
+            -2.9205693
+          ],
+          [
+            104.7117132,
+            -2.9196337
+          ],
+          [
+            104.7118092,
+            -2.9188415
+          ],
+          [
+            104.7119218,
+            -2.9180701
+          ],
+          [
+            104.7121069,
+            -2.9165485
+          ],
+          [
+            104.7122375,
+            -2.9151829
+          ]
+        ]
+      },
+      "id": "way/1312651784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651785",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7113208,
+            -2.9228674
+          ],
+          [
+            104.7113691,
+            -2.9223853
+          ],
+          [
+            104.711416,
+            -2.9220085
+          ],
+          [
+            104.7115999,
+            -2.9205693
+          ]
+        ]
+      },
+      "id": "way/1312651785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651786",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7119692,
+            -2.9239529
+          ],
+          [
+            104.7116002,
+            -2.9236
+          ],
+          [
+            104.711533,
+            -2.923539
+          ],
+          [
+            104.7114589,
+            -2.923455
+          ],
+          [
+            104.7114096,
+            -2.9233718
+          ],
+          [
+            104.7113662,
+            -2.923279
+          ],
+          [
+            104.7113402,
+            -2.9231907
+          ],
+          [
+            104.7113213,
+            -2.923102
+          ],
+          [
+            104.7113187,
+            -2.9230026
+          ],
+          [
+            104.7113208,
+            -2.9228674
+          ]
+        ]
+      },
+      "id": "way/1312651786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651787",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7167312,
+            -2.9299492
+          ],
+          [
+            104.7162172,
+            -2.9290096
+          ],
+          [
+            104.715823,
+            -2.9283236
+          ],
+          [
+            104.7154421,
+            -2.9276981
+          ],
+          [
+            104.7152683,
+            -2.9274249
+          ],
+          [
+            104.7151204,
+            -2.9272007
+          ],
+          [
+            104.7149789,
+            -2.9270146
+          ],
+          [
+            104.7147933,
+            -2.9267968
+          ],
+          [
+            104.7145859,
+            -2.9265702
+          ],
+          [
+            104.7143682,
+            -2.9263534
+          ],
+          [
+            104.7140508,
+            -2.9260387
+          ],
+          [
+            104.7127351,
+            -2.9247347
+          ],
+          [
+            104.7123295,
+            -2.9243204
+          ]
+        ]
+      },
+      "id": "way/1312651787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651789",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7174382,
+            -2.9317296
+          ],
+          [
+            104.7171088,
+            -2.9307631
+          ],
+          [
+            104.7170053,
+            -2.9305024
+          ]
+        ]
+      },
+      "id": "way/1312651789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651790",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "60",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7187174,
+            -2.9352192
+          ],
+          [
+            104.7183827,
+            -2.9343596
+          ],
+          [
+            104.718181,
+            -2.9338084
+          ],
+          [
+            104.7177844,
+            -2.9327036
+          ],
+          [
+            104.7174382,
+            -2.9317296
+          ]
+        ]
+      },
+      "id": "way/1312651790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651791",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7229054,
+            -2.9399508
+          ],
+          [
+            104.7221834,
+            -2.9395582
+          ],
+          [
+            104.7220809,
+            -2.9395007
+          ],
+          [
+            104.7219594,
+            -2.9394195
+          ]
+        ]
+      },
+      "id": "way/1312651791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651792",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.723346,
+            -2.940191
+          ],
+          [
+            104.7229054,
+            -2.9399508
+          ]
+        ]
+      },
+      "id": "way/1312651792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651793",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7253857,
+            -2.9412986
+          ],
+          [
+            104.7245888,
+            -2.9408655
+          ]
+        ]
+      },
+      "id": "way/1312651793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651794",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7283731,
+            -2.9428992
+          ],
+          [
+            104.7272058,
+            -2.9422681
+          ],
+          [
+            104.7260141,
+            -2.9416534
+          ],
+          [
+            104.7253857,
+            -2.9412986
+          ]
+        ]
+      },
+      "id": "way/1312651794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651795",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7303419,
+            -2.9444798
+          ],
+          [
+            104.7299166,
+            -2.9440856
+          ],
+          [
+            104.7295194,
+            -2.9437366
+          ],
+          [
+            104.7292598,
+            -2.9435146
+          ],
+          [
+            104.7290261,
+            -2.9433386
+          ],
+          [
+            104.7286817,
+            -2.9431005
+          ],
+          [
+            104.7283731,
+            -2.9428992
+          ]
+        ]
+      },
+      "id": "way/1312651795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651796",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7327726,
+            -2.9485831
+          ],
+          [
+            104.7326859,
+            -2.9483588
+          ],
+          [
+            104.7324201,
+            -2.947714
+          ],
+          [
+            104.7321589,
+            -2.9470937
+          ],
+          [
+            104.7320023,
+            -2.9467738
+          ],
+          [
+            104.7318118,
+            -2.946451
+          ],
+          [
+            104.7315038,
+            -2.9459526
+          ],
+          [
+            104.7313004,
+            -2.9456646
+          ],
+          [
+            104.7309302,
+            -2.945172
+          ],
+          [
+            104.7305885,
+            -2.9447709
+          ],
+          [
+            104.7303856,
+            -2.9445414
+          ],
+          [
+            104.7303419,
+            -2.9444798
+          ]
+        ]
+      },
+      "id": "way/1312651796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651797",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7361413,
+            -2.957202
+          ],
+          [
+            104.7360477,
+            -2.9569667
+          ],
+          [
+            104.7357813,
+            -2.9562963
+          ],
+          [
+            104.7355262,
+            -2.9556203
+          ],
+          [
+            104.7353114,
+            -2.9550696
+          ],
+          [
+            104.7349241,
+            -2.954064
+          ],
+          [
+            104.7345025,
+            -2.9530386
+          ],
+          [
+            104.734056,
+            -2.9518987
+          ],
+          [
+            104.7335617,
+            -2.9506251
+          ],
+          [
+            104.732915,
+            -2.9489668
+          ],
+          [
+            104.7327726,
+            -2.9485831
+          ]
+        ]
+      },
+      "id": "way/1312651797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651798",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7367326,
+            -2.9588049
+          ],
+          [
+            104.7364269,
+            -2.9579697
+          ],
+          [
+            104.7362791,
+            -2.9575638
+          ],
+          [
+            104.7361413,
+            -2.957202
+          ]
+        ]
+      },
+      "id": "way/1312651798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651799",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.737568,
+            -2.9600558
+          ],
+          [
+            104.7369208,
+            -2.9591292
+          ],
+          [
+            104.7368598,
+            -2.9590445
+          ],
+          [
+            104.7368005,
+            -2.958965
+          ],
+          [
+            104.7367326,
+            -2.9588049
+          ]
+        ]
+      },
+      "id": "way/1312651799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651800",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7343746,
+            -2.9672317
+          ],
+          [
+            104.7351766,
+            -2.9656326
+          ],
+          [
+            104.7357693,
+            -2.9644416
+          ],
+          [
+            104.7360751,
+            -2.9638272
+          ],
+          [
+            104.7363503,
+            -2.9633005
+          ],
+          [
+            104.7365257,
+            -2.9629647
+          ],
+          [
+            104.7373583,
+            -2.9615006
+          ]
+        ]
+      },
+      "id": "way/1312651800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651801",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7342713,
+            -2.9696371
+          ],
+          [
+            104.7340044,
+            -2.9695514
+          ],
+          [
+            104.7338931,
+            -2.9695072
+          ],
+          [
+            104.7338033,
+            -2.969459
+          ],
+          [
+            104.7337027,
+            -2.9693947
+          ],
+          [
+            104.7336464,
+            -2.9693385
+          ],
+          [
+            104.7335793,
+            -2.9692635
+          ],
+          [
+            104.7335257,
+            -2.9691737
+          ],
+          [
+            104.7334841,
+            -2.9690867
+          ],
+          [
+            104.7334546,
+            -2.9689876
+          ],
+          [
+            104.7334371,
+            -2.9688657
+          ],
+          [
+            104.7334358,
+            -2.9687599
+          ],
+          [
+            104.7334506,
+            -2.9686527
+          ],
+          [
+            104.7334854,
+            -2.9685322
+          ],
+          [
+            104.7335565,
+            -2.9683969
+          ],
+          [
+            104.7336557,
+            -2.9682523
+          ],
+          [
+            104.7342432,
+            -2.9674701
+          ],
+          [
+            104.7343048,
+            -2.9673764
+          ],
+          [
+            104.7343746,
+            -2.9672317
+          ]
+        ]
+      },
+      "id": "way/1312651801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651802",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7357744,
+            -2.9701717
+          ],
+          [
+            104.7351873,
+            -2.9699478
+          ],
+          [
+            104.7349258,
+            -2.9698527
+          ],
+          [
+            104.7345382,
+            -2.9697228
+          ],
+          [
+            104.7342713,
+            -2.9696371
+          ]
+        ]
+      },
+      "id": "way/1312651802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651803",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7383335,
+            -2.9711211
+          ],
+          [
+            104.7367966,
+            -2.9705666
+          ],
+          [
+            104.7357744,
+            -2.9701717
+          ]
+        ]
+      },
+      "id": "way/1312651803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651804",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "35",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7456703,
+            -2.9775422
+          ],
+          [
+            104.7455031,
+            -2.9774506
+          ],
+          [
+            104.7449353,
+            -2.9771263
+          ],
+          [
+            104.7443658,
+            -2.976801
+          ],
+          [
+            104.7442102,
+            -2.9766966
+          ]
+        ]
+      },
+      "id": "way/1312651804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651805",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7442102,
+            -2.9766966
+          ],
+          [
+            104.7438924,
+            -2.9764756
+          ],
+          [
+            104.7437288,
+            -2.9763644
+          ],
+          [
+            104.7429402,
+            -2.9758595
+          ],
+          [
+            104.7426147,
+            -2.9756354
+          ]
+        ]
+      },
+      "id": "way/1312651805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651806",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7497497,
+            -2.9780672
+          ],
+          [
+            104.7495282,
+            -2.9781996
+          ],
+          [
+            104.7489652,
+            -2.9785304
+          ],
+          [
+            104.748428,
+            -2.9788461
+          ]
+        ]
+      },
+      "id": "way/1312651806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651807",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7508548,
+            -2.9777314
+          ],
+          [
+            104.7502103,
+            -2.9778845
+          ],
+          [
+            104.7500494,
+            -2.9779314
+          ],
+          [
+            104.7499354,
+            -2.9779729
+          ],
+          [
+            104.7498391,
+            -2.9780166
+          ],
+          [
+            104.7497497,
+            -2.9780672
+          ]
+        ]
+      },
+      "id": "way/1312651807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651808",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7529504,
+            -2.9772514
+          ],
+          [
+            104.7523977,
+            -2.9773609
+          ],
+          [
+            104.7508548,
+            -2.9777314
+          ]
+        ]
+      },
+      "id": "way/1312651808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651809",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7545074,
+            -2.9781992
+          ],
+          [
+            104.7543651,
+            -2.9777573
+          ],
+          [
+            104.7543181,
+            -2.9776153
+          ],
+          [
+            104.7542699,
+            -2.9775015
+          ],
+          [
+            104.7542122,
+            -2.9774144
+          ],
+          [
+            104.7541545,
+            -2.9773341
+          ],
+          [
+            104.7540633,
+            -2.9772604
+          ],
+          [
+            104.7539574,
+            -2.9772001
+          ],
+          [
+            104.7538474,
+            -2.9771546
+          ],
+          [
+            104.7537334,
+            -2.9771332
+          ],
+          [
+            104.7536154,
+            -2.9771292
+          ],
+          [
+            104.7534585,
+            -2.9771479
+          ],
+          [
+            104.7529504,
+            -2.9772514
+          ]
+        ]
+      },
+      "id": "way/1312651809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651810",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7550497,
+            -2.979191
+          ],
+          [
+            104.7548532,
+            -2.9788836
+          ],
+          [
+            104.7547862,
+            -2.9787792
+          ],
+          [
+            104.7547325,
+            -2.9786948
+          ],
+          [
+            104.7546682,
+            -2.9785903
+          ],
+          [
+            104.7546118,
+            -2.9784751
+          ],
+          [
+            104.7545488,
+            -2.9783278
+          ],
+          [
+            104.7545074,
+            -2.9781992
+          ]
+        ]
+      },
+      "id": "way/1312651810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651811",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7567435,
+            -2.9817126
+          ],
+          [
+            104.7564599,
+            -2.9812984
+          ],
+          [
+            104.7560855,
+            -2.9807456
+          ],
+          [
+            104.7557116,
+            -2.9801935
+          ],
+          [
+            104.7554271,
+            -2.9797686
+          ],
+          [
+            104.7552462,
+            -2.9794984
+          ],
+          [
+            104.7550497,
+            -2.979191
+          ]
+        ]
+      },
+      "id": "way/1312651811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651812",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "name:en": "LRT Palembang",
+        "name:id": "LRT Palembang",
+        "name:ms": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7602579,
+            -2.9869595
+          ],
+          [
+            104.7599575,
+            -2.9865176
+          ],
+          [
+            104.7595686,
+            -2.9859202
+          ],
+          [
+            104.7591126,
+            -2.9852131
+          ],
+          [
+            104.7587478,
+            -2.9846881
+          ],
+          [
+            104.758037,
+            -2.9836194
+          ],
+          [
+            104.7572806,
+            -2.982497
+          ],
+          [
+            104.7568903,
+            -2.9819277
+          ],
+          [
+            104.7567435,
+            -2.9817126
+          ]
+        ]
+      },
+      "id": "way/1312651812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651813",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7611538,
+            -2.9879381
+          ],
+          [
+            104.760903,
+            -2.9877189
+          ],
+          [
+            104.7607487,
+            -2.9875702
+          ],
+          [
+            104.7606307,
+            -2.9874577
+          ],
+          [
+            104.7605073,
+            -2.9873265
+          ],
+          [
+            104.7603893,
+            -2.9871577
+          ],
+          [
+            104.7602579,
+            -2.9869595
+          ]
+        ]
+      },
+      "id": "way/1312651813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651814",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7623366,
+            -2.989618
+          ],
+          [
+            104.7619485,
+            -2.9890249
+          ],
+          [
+            104.7615172,
+            -2.9883658
+          ],
+          [
+            104.7614206,
+            -2.9882198
+          ],
+          [
+            104.7613348,
+            -2.9881073
+          ],
+          [
+            104.7612302,
+            -2.9880055
+          ],
+          [
+            104.7611538,
+            -2.9879381
+          ]
+        ]
+      },
+      "id": "way/1312651814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651815",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "name:en": "LRT Palembang",
+        "name:id": "LRT Palembang",
+        "name:ms": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7644207,
+            -2.9927747
+          ],
+          [
+            104.7631234,
+            -2.9908411
+          ],
+          [
+            104.7628087,
+            -2.9903238
+          ],
+          [
+            104.7623366,
+            -2.989618
+          ]
+        ]
+      },
+      "id": "way/1312651815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651816",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "60",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7667269,
+            -2.9963103
+          ],
+          [
+            104.7661534,
+            -2.9954773
+          ],
+          [
+            104.7644207,
+            -2.9927747
+          ]
+        ]
+      },
+      "id": "way/1312651816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651817",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7700072,
+            -3.0010779
+          ],
+          [
+            104.7692943,
+            -3.0000389
+          ],
+          [
+            104.7667269,
+            -2.9963103
+          ]
+        ]
+      },
+      "id": "way/1312651817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651818",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7706009,
+            -3.0020705
+          ],
+          [
+            104.7704503,
+            -3.0018094
+          ],
+          [
+            104.7702759,
+            -3.001496
+          ],
+          [
+            104.7701177,
+            -3.0012415
+          ],
+          [
+            104.7700072,
+            -3.0010779
+          ]
+        ]
+      },
+      "id": "way/1312651818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651819",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7719242,
+            -3.0042871
+          ],
+          [
+            104.7717619,
+            -3.0040433
+          ],
+          [
+            104.7714508,
+            -3.0035665
+          ],
+          [
+            104.7712523,
+            -3.0032397
+          ],
+          [
+            104.7707453,
+            -3.0023317
+          ],
+          [
+            104.7706009,
+            -3.0020705
+          ]
+        ]
+      },
+      "id": "way/1312651819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651820",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7743449,
+            -3.0079057
+          ],
+          [
+            104.7737414,
+            -3.0069977
+          ],
+          [
+            104.7728289,
+            -3.0056375
+          ],
+          [
+            104.7724587,
+            -3.0050856
+          ],
+          [
+            104.7720864,
+            -3.0045308
+          ],
+          [
+            104.7719242,
+            -3.0042871
+          ]
+        ]
+      },
+      "id": "way/1312651820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651821",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "85",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7792292,
+            -3.0151859
+          ],
+          [
+            104.7777593,
+            -3.0129788
+          ],
+          [
+            104.7751254,
+            -3.0090468
+          ],
+          [
+            104.7743449,
+            -3.0079057
+          ]
+        ]
+      },
+      "id": "way/1312651821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651822",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.782472,
+            -3.0200232
+          ],
+          [
+            104.7807741,
+            -3.0174867
+          ],
+          [
+            104.7792292,
+            -3.0151859
+          ]
+        ]
+      },
+      "id": "way/1312651822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651823",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7850803,
+            -3.023908
+          ],
+          [
+            104.7849557,
+            -3.0237222
+          ],
+          [
+            104.7845769,
+            -3.0231562
+          ],
+          [
+            104.7841993,
+            -3.0225919
+          ],
+          [
+            104.7841322,
+            -3.0224714
+          ],
+          [
+            104.7841001,
+            -3.022391
+          ],
+          [
+            104.7840652,
+            -3.0222758
+          ],
+          [
+            104.7840384,
+            -3.0221044
+          ],
+          [
+            104.7839311,
+            -3.0213491
+          ],
+          [
+            104.7838882,
+            -3.021175
+          ],
+          [
+            104.7838265,
+            -3.0210411
+          ],
+          [
+            104.7837353,
+            -3.0209259
+          ],
+          [
+            104.7836307,
+            -3.0208295
+          ],
+          [
+            104.78351,
+            -3.0207571
+          ],
+          [
+            104.7826865,
+            -3.0202616
+          ],
+          [
+            104.7825873,
+            -3.0201732
+          ],
+          [
+            104.7825149,
+            -3.0200875
+          ],
+          [
+            104.782472,
+            -3.0200232
+          ]
+        ]
+      },
+      "id": "way/1312651823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651824",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.790988,
+            -3.0327152
+          ],
+          [
+            104.7908281,
+            -3.03248
+          ],
+          [
+            104.7905709,
+            -3.0321018
+          ],
+          [
+            104.790199,
+            -3.0315471
+          ],
+          [
+            104.7900284,
+            -3.0312927
+          ],
+          [
+            104.7898266,
+            -3.0309916
+          ],
+          [
+            104.7896684,
+            -3.0307433
+          ],
+          [
+            104.7895278,
+            -3.030534
+          ]
+        ]
+      },
+      "id": "way/1312651824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651825",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7497318,
+            -2.9780374
+          ],
+          [
+            104.7495111,
+            -2.9781678
+          ],
+          [
+            104.7489425,
+            -2.9785019
+          ],
+          [
+            104.7484098,
+            -2.978815
+          ]
+        ]
+      },
+      "id": "way/1312651825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312651826",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.754539,
+            -2.9781873
+          ],
+          [
+            104.7543994,
+            -2.9777461
+          ],
+          [
+            104.754352,
+            -2.9776026
+          ],
+          [
+            104.7543018,
+            -2.9774844
+          ],
+          [
+            104.754242,
+            -2.977394
+          ],
+          [
+            104.754181,
+            -2.9773091
+          ],
+          [
+            104.7540838,
+            -2.9772305
+          ],
+          [
+            104.7539733,
+            -2.9771677
+          ],
+          [
+            104.7538578,
+            -2.9771198
+          ],
+          [
+            104.7537374,
+            -2.9770972
+          ],
+          [
+            104.7536139,
+            -2.977093
+          ],
+          [
+            104.7534528,
+            -2.9771123
+          ],
+          [
+            104.7529378,
+            -2.9772159
+          ]
+        ]
+      },
+      "id": "way/1312651826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663087",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7910447,
+            -3.0327431
+          ],
+          [
+            104.7906008,
+            -3.0320816
+          ],
+          [
+            104.7902294,
+            -3.0315276
+          ],
+          [
+            104.7898566,
+            -3.0309715
+          ],
+          [
+            104.7896972,
+            -3.0307224
+          ],
+          [
+            104.7895587,
+            -3.0305158
+          ]
+        ]
+      },
+      "id": "way/1312663087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663088",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7895587,
+            -3.0305158
+          ],
+          [
+            104.7883116,
+            -3.02866
+          ],
+          [
+            104.7851097,
+            -3.0238873
+          ]
+        ]
+      },
+      "id": "way/1312663088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663089",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7851097,
+            -3.0238873
+          ],
+          [
+            104.7849857,
+            -3.0237022
+          ],
+          [
+            104.7846081,
+            -3.0231378
+          ],
+          [
+            104.7842302,
+            -3.0225731
+          ],
+          [
+            104.7841649,
+            -3.0224559
+          ],
+          [
+            104.7841342,
+            -3.0223791
+          ],
+          [
+            104.7841005,
+            -3.0222678
+          ],
+          [
+            104.7840741,
+            -3.0220991
+          ],
+          [
+            104.7839666,
+            -3.0213422
+          ],
+          [
+            104.7839224,
+            -3.021163
+          ],
+          [
+            104.7838575,
+            -3.0210221
+          ],
+          [
+            104.7837619,
+            -3.0209013
+          ],
+          [
+            104.7836524,
+            -3.0208004
+          ],
+          [
+            104.7835286,
+            -3.0207262
+          ],
+          [
+            104.7827081,
+            -3.0202325
+          ],
+          [
+            104.7826132,
+            -3.020148
+          ],
+          [
+            104.7825438,
+            -3.0200658
+          ],
+          [
+            104.782502,
+            -3.0200032
+          ]
+        ]
+      },
+      "id": "way/1312663089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663090",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.782502,
+            -3.0200032
+          ],
+          [
+            104.7808041,
+            -3.0174666
+          ],
+          [
+            104.7792592,
+            -3.0151659
+          ]
+        ]
+      },
+      "id": "way/1312663090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663091",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "85",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7792592,
+            -3.0151659
+          ],
+          [
+            104.7777894,
+            -3.0129588
+          ],
+          [
+            104.7751553,
+            -3.0090266
+          ],
+          [
+            104.7743748,
+            -3.0078856
+          ]
+        ]
+      },
+      "id": "way/1312663091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663092",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7743748,
+            -3.0078856
+          ],
+          [
+            104.7737714,
+            -3.0069777
+          ],
+          [
+            104.7724922,
+            -3.0050709
+          ],
+          [
+            104.7721165,
+            -3.0045108
+          ],
+          [
+            104.7719543,
+            -3.0042672
+          ]
+        ]
+      },
+      "id": "way/1312663092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663093",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7719543,
+            -3.0042672
+          ],
+          [
+            104.7717921,
+            -3.0040235
+          ],
+          [
+            104.7714813,
+            -3.0035473
+          ],
+          [
+            104.7712835,
+            -3.0032216
+          ],
+          [
+            104.7707726,
+            -3.0023148
+          ],
+          [
+            104.7706286,
+            -3.0020565
+          ]
+        ]
+      },
+      "id": "way/1312663093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663094",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7706286,
+            -3.0020565
+          ],
+          [
+            104.7704818,
+            -3.0017918
+          ],
+          [
+            104.7703071,
+            -3.0014777
+          ],
+          [
+            104.770148,
+            -3.0012218
+          ],
+          [
+            104.7700361,
+            -3.0010584
+          ]
+        ]
+      },
+      "id": "way/1312663094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663095",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7700361,
+            -3.0010584
+          ],
+          [
+            104.7693241,
+            -3.0000185
+          ],
+          [
+            104.766755,
+            -2.9962873
+          ]
+        ]
+      },
+      "id": "way/1312663095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663096",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.766755,
+            -2.9962873
+          ],
+          [
+            104.7661835,
+            -2.9954574
+          ],
+          [
+            104.764451,
+            -2.9927551
+          ]
+        ]
+      },
+      "id": "way/1312663096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663097",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "name:en": "LRT Palembang",
+        "name:id": "LRT Palembang",
+        "name:ms": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.764451,
+            -2.9927551
+          ],
+          [
+            104.763154,
+            -2.990822
+          ],
+          [
+            104.7628388,
+            -2.9903039
+          ],
+          [
+            104.7623668,
+            -2.9895981
+          ]
+        ]
+      },
+      "id": "way/1312663097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663098",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7623668,
+            -2.9895981
+          ],
+          [
+            104.7619798,
+            -2.9890068
+          ],
+          [
+            104.7615474,
+            -2.988346
+          ],
+          [
+            104.7614501,
+            -2.9881989
+          ],
+          [
+            104.7613619,
+            -2.9880833
+          ],
+          [
+            104.7612547,
+            -2.987979
+          ],
+          [
+            104.7611756,
+            -2.9879103
+          ]
+        ]
+      },
+      "id": "way/1312663098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663099",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7611756,
+            -2.9879103
+          ],
+          [
+            104.7609274,
+            -2.9876924
+          ],
+          [
+            104.7607738,
+            -2.9875442
+          ],
+          [
+            104.7606564,
+            -2.9874323
+          ],
+          [
+            104.7605355,
+            -2.9873037
+          ],
+          [
+            104.7604192,
+            -2.9871375
+          ],
+          [
+            104.7602879,
+            -2.9869394
+          ]
+        ]
+      },
+      "id": "way/1312663099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663100",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7567716,
+            -2.9816896
+          ],
+          [
+            104.7566071,
+            -2.9814494
+          ],
+          [
+            104.7564898,
+            -2.9812781
+          ],
+          [
+            104.7561163,
+            -2.9807267
+          ],
+          [
+            104.7557415,
+            -2.9801733
+          ],
+          [
+            104.7556186,
+            -2.9799897
+          ],
+          [
+            104.7552764,
+            -2.9794786
+          ],
+          [
+            104.7550801,
+            -2.9791714
+          ]
+        ]
+      },
+      "id": "way/1312663100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663101",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7550801,
+            -2.9791714
+          ],
+          [
+            104.7548837,
+            -2.9788642
+          ],
+          [
+            104.7548166,
+            -2.9787598
+          ],
+          [
+            104.7547632,
+            -2.9786757
+          ],
+          [
+            104.7546999,
+            -2.9785729
+          ],
+          [
+            104.7546447,
+            -2.9784601
+          ],
+          [
+            104.7545827,
+            -2.9783152
+          ],
+          [
+            104.754539,
+            -2.9781873
+          ]
+        ]
+      },
+      "id": "way/1312663101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663102",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7529378,
+            -2.9772159
+          ],
+          [
+            104.7523898,
+            -2.9773256
+          ],
+          [
+            104.7508461,
+            -2.977698
+          ]
+        ]
+      },
+      "id": "way/1312663102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663103",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7508461,
+            -2.977698
+          ],
+          [
+            104.7502012,
+            -2.9778496
+          ],
+          [
+            104.7500382,
+            -2.9778971
+          ],
+          [
+            104.7499214,
+            -2.9779396
+          ],
+          [
+            104.7498058,
+            -2.9779946
+          ],
+          [
+            104.7497318,
+            -2.9780374
+          ]
+        ]
+      },
+      "id": "way/1312663103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663104",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.745998,
+            -2.9777532
+          ],
+          [
+            104.745913,
+            -2.9776683
+          ],
+          [
+            104.7458026,
+            -2.9775826
+          ],
+          [
+            104.7456873,
+            -2.9775137
+          ]
+        ]
+      },
+      "id": "way/1312663104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663105",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "35",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7456873,
+            -2.9775137
+          ],
+          [
+            104.7455211,
+            -2.9774193
+          ],
+          [
+            104.7449555,
+            -2.9770963
+          ],
+          [
+            104.7443849,
+            -2.9767704
+          ],
+          [
+            104.7442306,
+            -2.9766668
+          ]
+        ]
+      },
+      "id": "way/1312663105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663106",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7442306,
+            -2.9766668
+          ],
+          [
+            104.7439129,
+            -2.9764459
+          ],
+          [
+            104.7437487,
+            -2.9763343
+          ],
+          [
+            104.7429603,
+            -2.9758295
+          ],
+          [
+            104.7426349,
+            -2.9756066
+          ]
+        ]
+      },
+      "id": "way/1312663106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663107",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7426349,
+            -2.9756066
+          ],
+          [
+            104.7418654,
+            -2.9750667
+          ],
+          [
+            104.7417083,
+            -2.9749537
+          ],
+          [
+            104.7416123,
+            -2.9748748
+          ],
+          [
+            104.7411993,
+            -2.9744864
+          ],
+          [
+            104.7408546,
+            -2.9741328
+          ],
+          [
+            104.7402116,
+            -2.9733917
+          ],
+          [
+            104.7400593,
+            -2.9732142
+          ],
+          [
+            104.7399181,
+            -2.973036
+          ],
+          [
+            104.7397809,
+            -2.9728432
+          ],
+          [
+            104.7390527,
+            -2.9717342
+          ],
+          [
+            104.7388426,
+            -2.9714397
+          ],
+          [
+            104.7387673,
+            -2.9713436
+          ],
+          [
+            104.7386776,
+            -2.9712624
+          ],
+          [
+            104.7385699,
+            -2.9711922
+          ],
+          [
+            104.7384725,
+            -2.9711393
+          ],
+          [
+            104.7383466,
+            -2.9710874
+          ]
+        ]
+      },
+      "id": "way/1312663107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663108",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "50",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7383466,
+            -2.9710874
+          ],
+          [
+            104.7368092,
+            -2.9705328
+          ],
+          [
+            104.7352,
+            -2.9699141
+          ],
+          [
+            104.7349377,
+            -2.9698187
+          ],
+          [
+            104.7345495,
+            -2.9696886
+          ],
+          [
+            104.7342831,
+            -2.969603
+          ]
+        ]
+      },
+      "id": "way/1312663108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663109",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7342831,
+            -2.969603
+          ],
+          [
+            104.7340167,
+            -2.9695174
+          ],
+          [
+            104.7339084,
+            -2.9694744
+          ],
+          [
+            104.7338216,
+            -2.9694279
+          ],
+          [
+            104.7337255,
+            -2.9693664
+          ],
+          [
+            104.7336726,
+            -2.9693137
+          ],
+          [
+            104.7336086,
+            -2.969242
+          ],
+          [
+            104.7335575,
+            -2.9691567
+          ],
+          [
+            104.7335179,
+            -2.9690737
+          ],
+          [
+            104.73349,
+            -2.9689798
+          ],
+          [
+            104.7334732,
+            -2.9688629
+          ],
+          [
+            104.733472,
+            -2.9687621
+          ],
+          [
+            104.733486,
+            -2.9686602
+          ],
+          [
+            104.7335191,
+            -2.9685457
+          ],
+          [
+            104.7335875,
+            -2.9684156
+          ],
+          [
+            104.7336851,
+            -2.9682733
+          ],
+          [
+            104.7342727,
+            -2.9674909
+          ],
+          [
+            104.7343363,
+            -2.9673942
+          ],
+          [
+            104.734407,
+            -2.9672476
+          ]
+        ]
+      },
+      "id": "way/1312663109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663110",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.734407,
+            -2.9672476
+          ],
+          [
+            104.7352089,
+            -2.9656487
+          ],
+          [
+            104.7353941,
+            -2.9652765
+          ],
+          [
+            104.7358018,
+            -2.9644575
+          ],
+          [
+            104.7361073,
+            -2.9638436
+          ],
+          [
+            104.736219,
+            -2.9636298
+          ],
+          [
+            104.7365574,
+            -2.9629819
+          ],
+          [
+            104.7373908,
+            -2.9615164
+          ]
+        ]
+      },
+      "id": "way/1312663110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663111",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7375972,
+            -2.9600318
+          ],
+          [
+            104.7369476,
+            -2.9591149
+          ],
+          [
+            104.7368917,
+            -2.9590395
+          ],
+          [
+            104.7368305,
+            -2.9589382
+          ],
+          [
+            104.7367596,
+            -2.9587873
+          ]
+        ]
+      },
+      "id": "way/1312663111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663112",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7367596,
+            -2.9587873
+          ],
+          [
+            104.736449,
+            -2.9579424
+          ],
+          [
+            104.7363021,
+            -2.9575491
+          ],
+          [
+            104.7361621,
+            -2.9571976
+          ]
+        ]
+      },
+      "id": "way/1312663112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663113",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7373583,
+            -2.9615006
+          ],
+          [
+            104.7375798,
+            -2.9611111
+          ],
+          [
+            104.7376335,
+            -2.9610066
+          ],
+          [
+            104.7376737,
+            -2.9608914
+          ],
+          [
+            104.7376978,
+            -2.9607575
+          ],
+          [
+            104.7377257,
+            -2.960626
+          ],
+          [
+            104.7377277,
+            -2.9605047
+          ],
+          [
+            104.7377061,
+            -2.9603563
+          ],
+          [
+            104.7376752,
+            -2.9602575
+          ],
+          [
+            104.7376199,
+            -2.9601504
+          ],
+          [
+            104.737568,
+            -2.9600558
+          ]
+        ]
+      },
+      "id": "way/1312663113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663114",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7373908,
+            -2.9615164
+          ],
+          [
+            104.7376116,
+            -2.9611282
+          ],
+          [
+            104.7376667,
+            -2.9610209
+          ],
+          [
+            104.7377087,
+            -2.9609006
+          ],
+          [
+            104.7377338,
+            -2.9607615
+          ],
+          [
+            104.7377639,
+            -2.9606125
+          ],
+          [
+            104.7377644,
+            -2.9605049
+          ],
+          [
+            104.7377455,
+            -2.9603493
+          ],
+          [
+            104.7377065,
+            -2.9602538
+          ],
+          [
+            104.7376547,
+            -2.9601387
+          ],
+          [
+            104.7375972,
+            -2.9600318
+          ]
+        ]
+      },
+      "id": "way/1312663114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663115",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7361621,
+            -2.9571976
+          ],
+          [
+            104.7360708,
+            -2.9569599
+          ],
+          [
+            104.7358067,
+            -2.9562892
+          ],
+          [
+            104.7355494,
+            -2.955602
+          ],
+          [
+            104.7353414,
+            -2.9550516
+          ],
+          [
+            104.7349387,
+            -2.9540433
+          ],
+          [
+            104.7345326,
+            -2.9530255
+          ],
+          [
+            104.7340839,
+            -2.9518846
+          ],
+          [
+            104.7335956,
+            -2.9506268
+          ],
+          [
+            104.732948,
+            -2.9489616
+          ],
+          [
+            104.7327964,
+            -2.9485742
+          ]
+        ]
+      },
+      "id": "way/1312663115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663116",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7327964,
+            -2.9485742
+          ],
+          [
+            104.7327066,
+            -2.9483453
+          ],
+          [
+            104.7324495,
+            -2.9477025
+          ],
+          [
+            104.7321829,
+            -2.9470872
+          ],
+          [
+            104.7320287,
+            -2.9467612
+          ],
+          [
+            104.731832,
+            -2.9464284
+          ],
+          [
+            104.7315331,
+            -2.9459375
+          ],
+          [
+            104.7313287,
+            -2.9456414
+          ],
+          [
+            104.7309617,
+            -2.9451572
+          ],
+          [
+            104.7306093,
+            -2.9447429
+          ],
+          [
+            104.7304153,
+            -2.9445234
+          ],
+          [
+            104.730189,
+            -2.9442968
+          ]
+        ]
+      },
+      "id": "way/1312663116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663117",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.730189,
+            -2.9442968
+          ],
+          [
+            104.7299369,
+            -2.9440648
+          ],
+          [
+            104.7295473,
+            -2.9437059
+          ],
+          [
+            104.7292776,
+            -2.9434828
+          ],
+          [
+            104.7290443,
+            -2.9433034
+          ],
+          [
+            104.728701,
+            -2.9430751
+          ],
+          [
+            104.72838,
+            -2.9428725
+          ]
+        ]
+      },
+      "id": "way/1312663117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663118",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.725403,
+            -2.9412705
+          ],
+          [
+            104.7250134,
+            -2.9410543
+          ],
+          [
+            104.7246042,
+            -2.9408336
+          ]
+        ]
+      },
+      "id": "way/1312663118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663119",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7229179,
+            -2.9399181
+          ],
+          [
+            104.7221984,
+            -2.9395317
+          ],
+          [
+            104.7220969,
+            -2.9394772
+          ],
+          [
+            104.7219821,
+            -2.9393916
+          ]
+        ]
+      },
+      "id": "way/1312663119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663120",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7233613,
+            -2.9401631
+          ],
+          [
+            104.7229179,
+            -2.9399181
+          ]
+        ]
+      },
+      "id": "way/1312663120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663121",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7219821,
+            -2.9393916
+          ],
+          [
+            104.7214633,
+            -2.9389718
+          ],
+          [
+            104.7209562,
+            -2.9385426
+          ],
+          [
+            104.7207102,
+            -2.9383254
+          ],
+          [
+            104.7204941,
+            -2.9381396
+          ],
+          [
+            104.7203957,
+            -2.9380437
+          ],
+          [
+            104.7203215,
+            -2.9379592
+          ],
+          [
+            104.7201739,
+            -2.9377768
+          ],
+          [
+            104.7197287,
+            -2.9371129
+          ],
+          [
+            104.7195169,
+            -2.9367748
+          ],
+          [
+            104.7193887,
+            -2.9365604
+          ],
+          [
+            104.7190481,
+            -2.9358854
+          ],
+          [
+            104.7189056,
+            -2.9355732
+          ],
+          [
+            104.7187477,
+            -2.9352094
+          ]
+        ]
+      },
+      "id": "way/1312663121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663122",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7187477,
+            -2.9352094
+          ],
+          [
+            104.7184099,
+            -2.9343423
+          ],
+          [
+            104.7182029,
+            -2.9337944
+          ],
+          [
+            104.7178196,
+            -2.932693
+          ],
+          [
+            104.7174638,
+            -2.9317209
+          ]
+        ]
+      },
+      "id": "way/1312663122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663123",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7174638,
+            -2.9317209
+          ],
+          [
+            104.7171369,
+            -2.9307639
+          ],
+          [
+            104.7170392,
+            -2.9304989
+          ]
+        ]
+      },
+      "id": "way/1312663123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663124",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7167687,
+            -2.9299316
+          ],
+          [
+            104.7162474,
+            -2.9289981
+          ],
+          [
+            104.7158464,
+            -2.9283023
+          ]
+        ]
+      },
+      "id": "way/1312663124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663125",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7170053,
+            -2.9305024
+          ],
+          [
+            104.7169355,
+            -2.9303487
+          ],
+          [
+            104.716839,
+            -2.9301495
+          ],
+          [
+            104.7167312,
+            -2.9299492
+          ]
+        ]
+      },
+      "id": "way/1312663125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663126",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7170392,
+            -2.9304989
+          ],
+          [
+            104.7169673,
+            -2.9303402
+          ],
+          [
+            104.7168701,
+            -2.9301296
+          ],
+          [
+            104.7167687,
+            -2.9299316
+          ]
+        ]
+      },
+      "id": "way/1312663126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663127",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7158464,
+            -2.9283023
+          ],
+          [
+            104.7154748,
+            -2.9276705
+          ],
+          [
+            104.7153001,
+            -2.927399
+          ],
+          [
+            104.7151551,
+            -2.927182
+          ],
+          [
+            104.715007,
+            -2.9269889
+          ],
+          [
+            104.7148236,
+            -2.9267692
+          ],
+          [
+            104.7146173,
+            -2.9265445
+          ],
+          [
+            104.7143883,
+            -2.9263302
+          ],
+          [
+            104.7140632,
+            -2.9260124
+          ],
+          [
+            104.7127465,
+            -2.9247019
+          ],
+          [
+            104.7119938,
+            -2.9239437
+          ]
+        ]
+      },
+      "id": "way/1312663127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663128",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7123295,
+            -2.9243204
+          ],
+          [
+            104.7119692,
+            -2.9239529
+          ]
+        ]
+      },
+      "id": "way/1312663128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663129",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "25",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7119938,
+            -2.9239437
+          ],
+          [
+            104.7116451,
+            -2.9235957
+          ],
+          [
+            104.7115555,
+            -2.9235131
+          ],
+          [
+            104.7114853,
+            -2.9234353
+          ],
+          [
+            104.711437,
+            -2.9233401
+          ],
+          [
+            104.7114015,
+            -2.923264
+          ],
+          [
+            104.7113783,
+            -2.9231855
+          ],
+          [
+            104.7113623,
+            -2.9231121
+          ],
+          [
+            104.7113618,
+            -2.923007
+          ],
+          [
+            104.7113588,
+            -2.9228688
+          ]
+        ]
+      },
+      "id": "way/1312663129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663130",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7113588,
+            -2.9228688
+          ],
+          [
+            104.7114071,
+            -2.9223942
+          ],
+          [
+            104.7114561,
+            -2.922012
+          ],
+          [
+            104.7115058,
+            -2.9216143
+          ],
+          [
+            104.7116358,
+            -2.9205737
+          ],
+          [
+            104.7117493,
+            -2.9196364
+          ],
+          [
+            104.711845,
+            -2.9188462
+          ],
+          [
+            104.7119121,
+            -2.9183863
+          ],
+          [
+            104.7119576,
+            -2.9180748
+          ],
+          [
+            104.7121428,
+            -2.9165525
+          ],
+          [
+            104.7122777,
+            -2.9151846
+          ]
+        ]
+      },
+      "id": "way/1312663130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663131",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "55",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7122777,
+            -2.9151846
+          ],
+          [
+            104.7123225,
+            -2.9147309
+          ],
+          [
+            104.7123653,
+            -2.9143705
+          ],
+          [
+            104.7124187,
+            -2.9140503
+          ],
+          [
+            104.7124729,
+            -2.9137627
+          ]
+        ]
+      },
+      "id": "way/1312663131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663132",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7124729,
+            -2.9137627
+          ],
+          [
+            104.7125667,
+            -2.9133871
+          ],
+          [
+            104.7126559,
+            -2.9131266
+          ],
+          [
+            104.7127436,
+            -2.9128941
+          ],
+          [
+            104.7128484,
+            -2.9126742
+          ],
+          [
+            104.7129721,
+            -2.9124525
+          ],
+          [
+            104.7130982,
+            -2.9122549
+          ],
+          [
+            104.7132242,
+            -2.9120853
+          ],
+          [
+            104.7133607,
+            -2.9119226
+          ],
+          [
+            104.7135096,
+            -2.9117725
+          ],
+          [
+            104.7137088,
+            -2.911579
+          ],
+          [
+            104.7138642,
+            -2.9114383
+          ],
+          [
+            104.7140314,
+            -2.9113071
+          ],
+          [
+            104.7142074,
+            -2.9111846
+          ],
+          [
+            104.7143744,
+            -2.9110721
+          ],
+          [
+            104.7145398,
+            -2.9109763
+          ],
+          [
+            104.7147373,
+            -2.9108756
+          ]
+        ]
+      },
+      "id": "way/1312663132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663133",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "45",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7147373,
+            -2.9108756
+          ],
+          [
+            104.7155496,
+            -2.9104756
+          ],
+          [
+            104.715781,
+            -2.9103651
+          ],
+          [
+            104.7159674,
+            -2.91028
+          ],
+          [
+            104.7161237,
+            -2.9102178
+          ],
+          [
+            104.7163446,
+            -2.910146
+          ],
+          [
+            104.7166718,
+            -2.9100547
+          ]
+        ]
+      },
+      "id": "way/1312663133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663134",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7166718,
+            -2.9100547
+          ],
+          [
+            104.7171262,
+            -2.9099332
+          ],
+          [
+            104.7175807,
+            -2.9098157
+          ],
+          [
+            104.7204269,
+            -2.9091057
+          ],
+          [
+            104.720885,
+            -2.9089796
+          ],
+          [
+            104.7215521,
+            -2.9087785
+          ],
+          [
+            104.7230621,
+            -2.908309
+          ],
+          [
+            104.7238094,
+            -2.9080766
+          ],
+          [
+            104.724208,
+            -2.9079524
+          ]
+        ]
+      },
+      "id": "way/1312663134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663135",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "40",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.724208,
+            -2.9079524
+          ],
+          [
+            104.7249057,
+            -2.9077349
+          ],
+          [
+            104.7251489,
+            -2.9076499
+          ],
+          [
+            104.7254014,
+            -2.9075406
+          ],
+          [
+            104.7256228,
+            -2.9074355
+          ],
+          [
+            104.7258687,
+            -2.9073033
+          ]
+        ]
+      },
+      "id": "way/1312663135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663136",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "20",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7258687,
+            -2.9073033
+          ],
+          [
+            104.7260489,
+            -2.9071909
+          ],
+          [
+            104.7262453,
+            -2.9070516
+          ],
+          [
+            104.7264052,
+            -2.9069204
+          ],
+          [
+            104.7265532,
+            -2.9067875
+          ],
+          [
+            104.7267196,
+            -2.9066077
+          ],
+          [
+            104.7268749,
+            -2.906431
+          ],
+          [
+            104.7270241,
+            -2.906236
+          ],
+          [
+            104.7271836,
+            -2.9059876
+          ],
+          [
+            104.7273332,
+            -2.9057306
+          ],
+          [
+            104.7274734,
+            -2.905468
+          ],
+          [
+            104.7275337,
+            -2.9053392
+          ],
+          [
+            104.7275885,
+            -2.9051724
+          ],
+          [
+            104.7276282,
+            -2.9050083
+          ],
+          [
+            104.7276473,
+            -2.9048583
+          ]
+        ]
+      },
+      "id": "way/1312663136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663137",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "15",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7276473,
+            -2.9048583
+          ],
+          [
+            104.7276596,
+            -2.9047142
+          ],
+          [
+            104.727661,
+            -2.9045735
+          ],
+          [
+            104.7276356,
+            -2.9044579
+          ],
+          [
+            104.7276016,
+            -2.9043547
+          ],
+          [
+            104.7275353,
+            -2.904242
+          ],
+          [
+            104.7274458,
+            -2.9041288
+          ],
+          [
+            104.7273563,
+            -2.9040522
+          ],
+          [
+            104.727231,
+            -2.9039777
+          ],
+          [
+            104.7270978,
+            -2.903932
+          ]
+        ]
+      },
+      "id": "way/1312663137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663138",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7250255,
+            -2.9033823
+          ],
+          [
+            104.7246382,
+            -2.9032726
+          ],
+          [
+            104.7244692,
+            -2.9032244
+          ],
+          [
+            104.7243378,
+            -2.9031789
+          ]
+        ]
+      },
+      "id": "way/1312663138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663139",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "30",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7270978,
+            -2.903932
+          ],
+          [
+            104.7246481,
+            -2.9032379
+          ],
+          [
+            104.7244801,
+            -2.90319
+          ],
+          [
+            104.7243501,
+            -2.903145
+          ]
+        ]
+      },
+      "id": "way/1312663139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663140",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "70",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7243501,
+            -2.903145
+          ],
+          [
+            104.7227979,
+            -2.9025506
+          ],
+          [
+            104.7208938,
+            -2.9017953
+          ],
+          [
+            104.7168608,
+            -2.9001769
+          ],
+          [
+            104.7159702,
+            -2.8998211
+          ],
+          [
+            104.7151944,
+            -2.8994943
+          ]
+        ]
+      },
+      "id": "way/1312663140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312663141",
+        "bridge": "yes",
+        "electrified": "rail",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "name": "LRT Palembang",
+        "railway": "light_rail",
+        "voltage": "750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7085392,
+            -2.8955705
+          ],
+          [
+            104.7082276,
+            -2.8954384
+          ],
+          [
+            104.7080715,
+            -2.8953722
+          ],
+          [
+            104.7079471,
+            -2.8953133
+          ],
+          [
+            104.7078199,
+            -2.8952295
+          ],
+          [
+            104.706984,
+            -2.894613
+          ],
+          [
+            104.7068693,
+            -2.8945427
+          ],
+          [
+            104.7067436,
+            -2.8944867
+          ],
+          [
+            104.7059637,
+            -2.8941487
+          ],
+          [
+            104.7052382,
+            -2.8938342
+          ]
+        ]
+      },
+      "id": "way/1312663141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721315",
+        "light_rail": "yes",
+        "name": "DJKA",
+        "network": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q25255022",
+        "wikipedia": "id:Stasiun LRT DJKA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7902142,
+          -3.0315373
+        ]
+      },
+      "id": "node/5984721315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721316",
+        "light_rail": "yes",
+        "name": "Jakabaring",
+        "name:en": "Jakabaring",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q56026916",
+        "wikipedia": "id:Stasiun LRT Jakabaring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7845939,
+          -3.0231474
+        ]
+      },
+      "id": "node/5984721316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721317",
+        "light_rail": "yes",
+        "name": "Polresta",
+        "network": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q13092432",
+        "wikipedia": "id:Stasiun LRT Polresta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7724733,
+          -3.0050779
+        ]
+      },
+      "id": "node/5984721317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721318",
+        "light_rail": "yes",
+        "name": "Ampera",
+        "network": "LRT Palembang",
+        "operator": "Kereta Api Indonesia",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q56036892",
+        "wikipedia": "id:Stasiun LRT Ampera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7619665,
+          -2.9890153
+        ]
+      },
+      "id": "node/5984721318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721319",
+        "light_rail": "yes",
+        "name": "Cinde",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q56087027",
+        "wikipedia": "id:Stasiun LRT Cinde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7561025,
+          -2.9807372
+        ]
+      },
+      "id": "node/5984721319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721320",
+        "light_rail": "yes",
+        "name": "Dishub",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5514098",
+        "wikipedia": "id:Stasiun LRT Dishub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7489537,
+          -2.9785113
+        ]
+      },
+      "id": "node/5984721320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721321",
+        "light_rail": "yes",
+        "name": "Bumi Sriwijaya",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q56064853",
+        "wikipedia": "id:Stasiun LRT Bumi Sriwijaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7449425,
+          -2.9771091
+        ]
+      },
+      "id": "node/5984721321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721322",
+        "light_rail": "yes",
+        "name": "Demang",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q13092337",
+        "wikipedia": "id:Stasiun LRT Demang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7357848,
+          -2.9644486
+        ]
+      },
+      "id": "node/5984721322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721323",
+        "light_rail": "yes",
+        "name": "Garuda Dempo",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q13092451",
+        "wikipedia": "id:Stasiun LRT Garuda Dempo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7357908,
+          -2.9562902
+        ]
+      },
+      "id": "node/5984721323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721324",
+        "light_rail": "yes",
+        "name": "RSUD",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q31727000",
+        "wikipedia": "id:Stasiun LRT RSUD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7324365,
+          -2.9477133
+        ]
+      },
+      "id": "node/5984721324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721325",
+        "light_rail": "yes",
+        "name": "Punti Kayu",
+        "network": "LRT Palembang",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q31727011",
+        "wikipedia": "id:Stasiun LRT Punti Kayu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7239798,
+          -2.9405184
+        ]
+      },
+      "id": "node/5984721325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721326",
+        "light_rail": "yes",
+        "name": "Asrama Haji",
+        "network": "LRT Palembang",
+        "operator": "PT Kereta Api Indonesia (Persero)",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ASH",
+        "station": "light_rail",
+        "train": "yes",
+        "wikidata": "Q31727016",
+        "wikipedia": "id:Stasiun LRT Asrama Haji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7117314,
+          -2.9196331
+        ]
+      },
+      "id": "node/5984721326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984721327",
+        "light_rail": "yes",
+        "name": "Bandara Sultan Mahmud Badaruddin II",
+        "network": "LRT Palembang",
+        "official_name": "Stasiun LRT Bandara Sultan Mahmud Badaruddin II",
+        "official_name:en": "Sultan Mahmud Badaruddin II International Airport LRT station",
+        "operator": "PT Kereta Api Indonesia (Persero)",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BDR",
+        "short_name": "SMB II",
+        "station": "light_rail",
+        "train": "yes",
+        "wikidata": "Q56045733",
+        "wikipedia": "id:Stasiun LRT Bandara Sultan Mahmud Badaruddin II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7059579,
+          -2.8941648
+        ]
+      },
+      "id": "node/5984721327"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "daegu1": {
+    "name": "Line 1",
+    "color": "#DA3D5C",
+    "backgroundColor": "#DA3D5C",
+    "textColor": "#FFFFFF",
+    "icon": "asia/south-korea/daegu/daegu1.png",
+    "order": 0
+  },
+  "daegu2": {
+    "name": "Line 2",
+    "color": "#00AA80",
+    "backgroundColor": "#00AA80",
+    "textColor": "#FFFFFF",
+    "icon": "asia/south-korea/daegu/daegu2.png",
+    "order": 1
+  },
+  "daegu3": {
+    "name": "Line 3",
+    "color": "#FFB100",
+    "backgroundColor": "#FFB100",
+    "textColor": "#000000",
+    "icon": "asia/south-korea/daegu/daegu3.png",
+    "order": 2
+  }
+}
