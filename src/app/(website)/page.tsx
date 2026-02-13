@@ -33,31 +33,31 @@ const builtInTools: ToolCard[] = [
     name: 'Rail Map Toolkit',
     description:
       'Built-in toolkit module sourced from tools/railmapgen.github.io-main.',
-    href: '/railmap-toolkit',
+    href: '/rmg-main',
     actionLabel: 'Open Tool',
   },
   {
     name: 'RMP',
     description: 'Built-in module sourced from tools/rmp-main.',
-    href: '/rmp',
+    href: '/rmp-main',
     actionLabel: 'Open Tool',
   },
   {
     name: 'RMA',
     description: 'Built-in module sourced from tools/rma-main.',
-    href: '/rma',
+    href: '/rma-main',
     actionLabel: 'Open Tool',
   },
   {
     name: 'RMG Palette',
     description: 'Built-in module sourced from tools/rmg-palette-main.',
-    href: '/rmg-palette',
+    href: '/rmg-palette-main',
     actionLabel: 'Open Tool',
   },
   {
     name: 'RSG',
     description: 'Built-in module sourced from tools/rsg-main.',
-    href: '/rsg',
+    href: '/rsg-main',
     actionLabel: 'Open Tool',
   },
 ]
@@ -109,12 +109,6 @@ export default function MetroToolsLandingPage() {
           <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
             Built-in Tools
           </h2>
-          <Link
-            href="/tools"
-            className="inline-flex items-center rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
-          >
-            View Tool Paths
-          </Link>
         </div>
         <ToolGrid tools={builtInTools} />
       </section>

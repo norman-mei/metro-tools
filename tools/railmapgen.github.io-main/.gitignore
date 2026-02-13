@@ -10,6 +10,8 @@ coverage/
 
 # production
 /build
+/out
+/.next
 
 # misc
 .DS_Store
@@ -18,6 +20,7 @@ coverage/
 .env.test.local
 .env.production.local
 *.icloud
+*.tsbuildinfo
 
 npm-debug.log*
 yarn-debug.log*

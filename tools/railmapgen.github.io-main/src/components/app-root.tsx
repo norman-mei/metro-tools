@@ -17,6 +17,8 @@ import { ActionIcon } from '@mantine/core';
 import Notifications from './notifications/notifications';
 import clsx from 'clsx';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/rmg-main';
+
 export default function AppRoot() {
     const { t } = useTranslation();
     const dispatch = useRootDispatch();
@@ -37,7 +39,7 @@ export default function AppRoot() {
     };
 
     return (
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <BrowserRouter basename={basePath || undefined}>
             <RMWindow className={clsx(classes.root, isShowMenu && 'show-menu')}>
                 <ActionIcon
                     className={classes.burger}

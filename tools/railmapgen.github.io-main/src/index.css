@@ -2,6 +2,7 @@
 @import '@railmapgen/mantine-components/styles.css';
 
 :root {
+    --menu-width: 420px;
     background-color: #FFFFFF;
 }
 

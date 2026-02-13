@@ -243,10 +243,12 @@ export function Header() {
       >
         <div
           ref={headerRef}
-          className="top-0 z-10 pt-[calc(1.5rem+env(safe-area-inset-top))]"
+          className="top-0 z-10 h-16 pt-6"
+          suppressHydrationWarning
           style={{
             // @ts-ignore
             position: 'var(--header-position)',
+            paddingTop: 'calc(1.5rem + env(safe-area-inset-top))',
           }}
         >
           <Container

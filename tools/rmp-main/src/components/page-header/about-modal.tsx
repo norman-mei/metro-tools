@@ -22,6 +22,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
     const { isOpen, onClose } = props;
     const { t } = useTranslation();
     const appVersion = rmgRuntime.getAppVersion();
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/rmp-main';
 
     return (
         <Modal isOpen={isOpen} onClose={onClose} size="xl" scrollBehavior="inside">
@@ -32,7 +33,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
 
                 <ModalBody paddingBottom={10}>
                     <Flex direction="row">
-                        <Image boxSize="128px" src="/logo192.png" />
+                        <Image boxSize="128px" src={basePath + '/logo192.png'} />
                         <Flex direction="column" width="100%" alignItems="center" justifyContent="center">
                             <Text fontSize="xl" as="b">
                                 {t('header.about.rmp')}
@@ -158,7 +159,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
                             onClick={() => window.open('https://github.com/railmapgen/rmp/issues', '_blank')}
                             cursor="pointer"
                         >
-                            <Avatar src="images/github-mark.svg" size="lg" my={2} ml={-1} mr={2} />
+                            <Avatar src={basePath + '/images/github-mark.svg'} size="lg" my={2} ml={-1} mr={2} />
                             <TagLabel display="block" width="100%">
                                 <Text fontSize="lg" fontWeight="bold" mb={1}>
                                     {t('header.about.github')}
@@ -177,7 +178,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
                             }
                             cursor="pointer"
                         >
-                            <Avatar src="images/slack-mark.svg" size="lg" my={2} ml={-1} mr={2} />
+                            <Avatar src={basePath + '/images/slack-mark.svg'} size="lg" my={2} ml={-1} mr={2} />
                             <TagLabel display="block" width="100%">
                                 <Text fontSize="lg" fontWeight="bold" mb={1}>
                                     {t('header.about.slack')}

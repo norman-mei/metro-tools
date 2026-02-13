@@ -122,7 +122,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </head>
-      <body className="bg-zinc-50 text-zinc-900 antialiased dark:bg-black dark:text-zinc-100">
+      <body className="bg-zinc-50 text-zinc-900 antialiased overflow-y-auto dark:bg-black dark:text-zinc-100">
         <div className="fixed top-0 left-0 right-0 z-50 h-[env(safe-area-inset-top)] bg-black" />
         <ThemeProviderClient>
           <SettingsProvider>

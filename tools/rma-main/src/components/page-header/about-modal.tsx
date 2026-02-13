@@ -22,7 +22,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
     const { isOpen, onClose } = props;
     const { t } = useTranslation();
     const appVersion = rmgRuntime.getAppVersion();
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/rma-main';
 
     return (
         <Modal isOpen={isOpen} onClose={onClose} size="xl" scrollBehavior="inside">
@@ -83,7 +83,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
                             onClick={() => window.open('https://github.com/railmapgen/rma/issues', '_blank')}
                             cursor="pointer"
                         >
-                            <Avatar src="images/github-mark.svg" size="lg" my={2} ml={-1} mr={2} />
+                            <Avatar src={basePath + '/images/github-mark.svg'} size="lg" my={2} ml={-1} mr={2} />
                             <TagLabel display="block" width="100%">
                                 <Text fontSize="lg" fontWeight="bold" mb={1}>
                                     {t('header.about.github')}
@@ -102,7 +102,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
                             }
                             cursor="pointer"
                         >
-                            <Avatar src="images/slack-mark.svg" size="lg" my={2} ml={-1} mr={2} />
+                            <Avatar src={basePath + '/images/slack-mark.svg'} size="lg" my={2} ml={-1} mr={2} />
                             <TagLabel display="block" width="100%">
                                 <Text fontSize="lg" fontWeight="bold" mb={1}>
                                     {t('header.about.slack')}
@@ -126,7 +126,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
                             onClick={() => window.open('https://afdian.com/a/rail-map-toolkit', '_blank')}
                             cursor="pointer"
                         >
-                            <Avatar src="images/afdian.png" size="lg" my={2} ml={-1} mr={2} />
+                            <Avatar src={basePath + '/images/afdian.png'} size="lg" my={2} ml={-1} mr={2} />
                             <TagLabel display="block" width="100%" pb={1}>
                                 <Text fontSize="lg" fontWeight="bold" mb={1}>
                                     {t('header.donation.afdian')}
@@ -140,7 +140,7 @@ const AboutModal = (props: { isOpen: boolean; onClose: () => void }) => {
                             onClick={() => window.open('https://opencollective.com/rail-map-toolkit', '_blank')}
                             cursor="pointer"
                         >
-                            <Avatar src="images/opencollective-icon.webp" size="lg" my={2} ml={-1} mr={2} />
+                            <Avatar src={basePath + '/images/opencollective-icon.webp'} size="lg" my={2} ml={-1} mr={2} />
                             <TagLabel display="block" width="100%" pb={1}>
                                 <Text fontSize="lg" fontWeight="bold" mb={1}>
                                     {t('header.donation.openCollective')}

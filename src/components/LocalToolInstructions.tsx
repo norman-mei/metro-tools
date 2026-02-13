@@ -1,5 +1,4 @@
 import { Container } from '@/components/Container'
-import Link from 'next/link'
 
 type LocalToolInstructionsProps = {
   title: string
@@ -55,12 +54,6 @@ ${devCommand}`
           >
             Open Tool
           </a>
-          <Link
-            href="/tools"
-            className="inline-flex items-center rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
-          >
-            Back to Built-in Tool Index
-          </Link>
         </div>
       </details>
     </Container>

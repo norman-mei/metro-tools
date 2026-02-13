@@ -5,6 +5,8 @@ import { Group, Image, Stack, Text, Title } from '@mantine/core';
 import { useRootDispatch } from '../../redux';
 import { openApp } from '../../redux/app/app-slice';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/rmg-main';
+
 export default function Welcome() {
     const { t } = useTranslation();
     const dispatch = useRootDispatch();
@@ -13,7 +15,7 @@ export default function Welcome() {
         <Stack className={classes.welcome}>
             <Group className={classes.icons} grow>
                 <Image
-                    src={import.meta.env.BASE_URL + 'logo512.png'}
+                    src={`${basePath}/logo512.png`}
                     title={t('Open') + ' ' + t('Rail Map Generator')}
                     onClick={() => dispatch(openApp({ appId: 'rmg' }))}
                 />

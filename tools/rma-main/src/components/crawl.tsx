@@ -44,7 +44,11 @@ const Crawl = () => {
 
     React.useEffect(() => {
         const fetchLocalFile = async () => {
-            const response = await fetch('fonts/wenquanyi_12pt.pcf');
+            const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? '/rma-main').replace(/\/$/, '');
+            const response = await fetch(basePath + '/fonts/wenquanyi_12pt.pcf');
+            if (!response.ok) {
+                throw new Error('Failed to load font file (' + response.status + ' ' + response.statusText + ')');
+            }
             const arrayBuffer = await response.arrayBuffer();
             fontDataRef.current = arrayBuffer;
 
@@ -55,7 +59,7 @@ const Crawl = () => {
             reconcileBitmaps();
         };
 
-        fetchLocalFile();
+        fetchLocalFile().catch(err => logger.error('Failed to initialize crawl font', err));
     }, []);
 
     const remainingColumns = columns - realColumns && 0;

@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <Providers>
-      <div className="flex h-full w-full antialiased">
+      <div className="flex min-h-screen w-full antialiased">
         <Layout>{children}</Layout>
       </div>
     </Providers>

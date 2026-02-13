@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2015",
         "lib": [
             "dom",
             "dom.iterable",
@@ -18,17 +18,29 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
-        "jsx": "react-jsx",
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            },
+            {
+                "name": "typescript-plugin-css-modules"
+            }
+        ],
         "noFallthroughCasesInSwitch": true,
-        "types": ["vitest/globals", "node"],
-        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+        "types": [
+            "vitest/globals",
+            "node"
+        ]
     },
     "include": [
-        "src"
+        "next-env.d.ts",
+        "app/**/*",
+        "src/**/*",
+        ".next/types/**/*.ts"
     ],
-    "references": [
-        {
-            "path": "./tsconfig.node.json"
-        }
+    "exclude": [
+        "node_modules"
     ]
 }

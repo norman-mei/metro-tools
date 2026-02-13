@@ -1,6 +1,10 @@
-const overrideCanonicalLink = () => {
-    const link = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')!;
-    link.setAttribute('href', window.location.origin);
-};
+export const overrideCanonicalLink = () => {
+    if (typeof document === 'undefined') {
+        return;
+    }
 
-overrideCanonicalLink();
+    const link = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+    if (link) {
+        link.setAttribute('href', window.location.origin);
+    }
+};

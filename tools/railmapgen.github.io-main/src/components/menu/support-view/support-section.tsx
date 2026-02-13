@@ -46,7 +46,7 @@ export default function SupportSection() {
                 </Button>
                 <Button
                     variant="default"
-                    leftSection={<Image className={classes.bilibili} src="images/bilibili.svg" />}
+                    leftSection={<Image className={classes.bilibili} src="/rmg-main/images/bilibili.svg" />}
                     rightSection={<MdOpenInNew />}
                     onClick={() => {
                         window.open('https://space.bilibili.com/10124055', '_blank');

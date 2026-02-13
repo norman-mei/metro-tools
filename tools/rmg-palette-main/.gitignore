@@ -11,6 +11,8 @@ coverage/
 # production
 build/
 dist/
+out/
+.next/
 public/resources/history.json
 *.compressed.json
 
@@ -21,6 +23,7 @@ public/resources/history.json
 .env.test.local
 .env.production.local
 *.icloud
+*.tsbuildinfo
 
 npm-debug.log*
 yarn-debug.log*
