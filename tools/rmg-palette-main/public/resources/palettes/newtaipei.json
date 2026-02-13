@@ -1,0 +1,82 @@
+[
+    {
+        "id": "lb",
+        "colour": "#79bce8",
+        "fg": "#fff",
+        "name": {
+            "en": "Sanying Line",
+            "zh-Hans": "三莺线",
+            "zh-Hant": "三鶯線"
+        }
+    },
+    {
+        "id": "v",
+        "colour": "#e5554f",
+        "fg": "#fff",
+        "name": {
+            "en": "Danhai LRT/Bali LRT (V)",
+            "zh-Hans": "淡海轻轨/八里轻轨",
+            "zh-Hant": "淡海輕軌/八里輕軌"
+        }
+    },
+    {
+        "id": "k",
+        "colour": "#c3b091",
+        "fg": "#fff",
+        "name": {
+            "en": "Ankeng LRT",
+            "zh-Hans": "安坑轻轨",
+            "zh-Hant": "安坑輕軌"
+        }
+    },
+    {
+        "id": "s",
+        "colour": "#cc7722",
+        "fg": "#fff",
+        "name": {
+            "en": "Shenkeng LRT",
+            "zh-Hans": "深坑轻轨",
+            "zh-Hant": "深坑輕軌"
+        }
+    },
+    {
+        "id": "f",
+        "colour": "#e5007f",
+        "fg": "#fff",
+        "name": {
+            "en": "Wugu-Taishan-Banqiao LRT",
+            "zh-Hans": "五股泰山板桥轻轨",
+            "zh-Hant": "五股泰山板橋輕軌"
+        }
+    },
+    {
+        "id": "p",
+        "colour": "#f6c2d8",
+        "fg": "#fff",
+        "name": {
+            "en": "Linkou LRT/Zhonghe-Guangfu Line",
+            "zh-Hans": "林口轻轨/中和光复线",
+            "zh-Hant": "林口輕軌/中和光復線"
+        }
+    },
+    {
+        "id": "y",
+        "colour": "#ffd500",
+        "fg": "#000",
+        "name": {
+            "en": "Circular Line",
+            "zh-Hans": "环状线",
+            "zh-Hant": "環狀線"
+        }
+    },
+    {
+        "id": "sb",
+        "colour": "#25aae1",
+        "fg": "#fff",
+        "name": {
+            "en": "Xizhi-Donghu MRT/Keelung MRT",
+            "zh-Hans": "汐东捷运/基隆捷运",
+            "zh-Hant": "汐東捷運/基隆捷運"
+        }
+    }
+]

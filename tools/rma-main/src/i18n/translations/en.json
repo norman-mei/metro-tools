@@ -1,0 +1,131 @@
+{
+    "header": {
+        "about": {
+            "title": "About",
+            "rma": "Rail Map Announcer",
+            "railmapgen": "A Rail Map Toolkit project",
+            "desc": "",
+            "contributors": "Contributors",
+            "content1": "reflexion,allegretto,you",
+            "content2": "2024/02/21 in Shanghai",
+            "contactUs": "Contact Us",
+            "github": "Project repository",
+            "githubContent": "Face any problems? Search or raise an issue here!",
+            "slack": "Slack group",
+            "slackContent": "Chat in these Slack channels!"
+        },
+        "donation": {
+            "title": "Donation",
+            "openCollective": "Open Collective",
+            "viaUSD": "Donate in USD via Paypal or Visa card.",
+            "afdian": "爱发电",
+            "viaCNY": "Donate in CNY via Alipay or Wechat Pay."
+        },
+        "open": {
+            "config": "Import project",
+            "RMG": "Import raw RMG JSON",
+            "projectRMG": "Import from RMG project",
+            "invalidType": "Invalid file type! Only files exported from RMA are accepted.",
+            "unknownError": "Unknown error occurred while parsing the uploaded file! Please try again."
+        },
+        "download": {
+            "config": "Export project",
+            "image": "Export image",
+            "audio": "Export audio",
+            "format": "Format",
+            "png": "PNG",
+            "svg": "SVG",
+            "scale": "Scale",
+            "disabledScaleOptions": "Some scale options are disabled due to your browser's canvas limitation.",
+            "disabledScaleOptionsWorkarounds": "Possible workarounds include generating the image from svg using this cli tool: ",
+            "shareInfo1": "I will attach ",
+            "shareInfo2": " and its link when I share this image.",
+            "termsAndConditions": "Terms and Conditions",
+            "termsAndConditionsInfo": "I agree to ",
+            "period": ".",
+            "confirm": "Download"
+        },
+        "settings": {
+            "title": "Settings",
+            "crawl": {
+                "title": "Crawl Settings",
+                "scale": "Scale"
+            },
+            "previewAudio": {
+                "title": "Preferred Preview Voice",
+                "notModified": "Use style preference",
+                "shmetro-zh": "Shanghai Metro (Mandarin)",
+                "shmetro-en": "Shanghai Metro (English)"
+            }
+        },
+        "audioTask": {
+            "title": "Audio Task",
+            "desc": "We are committed to generating the most natural station announcements. To achieve this, we conducted deep training based on a large number of samples. Experience the highest quality announcements powered by the latest large-scale machine learning models!",
+            "note1": "Please note that currently only Shanghai-style station announcements are available.",
+            "note2": "Due to computational limitations, please be patient after submitting your request - we aim to process all requests within 7 days.",
+            "note3": "Please download and save your creations promptly, as we only guarantee data storage for 30 days.",
+            "note4": "For best English announcements, use clear station names in 'station name pinyin'. Chinese characters are optional.",
+            "exampleZH": "本次列车终点站 上海宝山站。下一站 工口足球场。开左边门。可换乘三号线。",
+            "exampleEN": "The terminal of this train is 莘庄 University. Next station is 五角场 Railway Station. Doors will open on the right.",
+            "audioNotSupported": "Your browser does not support audio playback. Chrome or Firefox is recommended.",
+            "loginFirst": "Please log in first to generate audio with AI.",
+            "topUp": "Top up",
+            "table": {
+                "id": "ID",
+                "status": "Status",
+                "createdAt": "Created At",
+                "updatedAt": "Updated At",
+                "points": "Points",
+                "actions": "Actions"
+            },
+            "report1": "If you encounter any issues with the generated announcements, ",
+            "report2": "please create a GitHub issue. ",
+            "report3": "We will fully return your points after confirmation.",
+            "freeInternet1": "We believe in a free and open internet. You may also ",
+            "freeInternet2": "download raw text",
+            "freeInternet3": " and use in your preferred audio provider :)",
+            "redeem": {
+                "title": "Redeem your points",
+                "desc": "You can redeem your points to generate audio. CDKey could be purchased in the following sites:",
+                "input": "Enter your CDKey here:",
+                "redeem": "Redeem"
+            },
+            "new": {
+                "title": "New Task",
+                "content1": "This will create a new task from the current project.",
+                "content2": "The estimated points consumed will be ",
+                "content3": "The actual points used is subject to the server.",
+                "content4": "You may cancel the task before processing to get a full points return.",
+                "create": "Create a new task"
+            }
+        }
+    },
+
+    "stationVariants": {
+        "title": "Station Variants",
+        "baseVariant": "Base Variant"
+    },
+
+    "welcome": {
+        "title": "Welcome to the Rail Map Announcer",
+        "desc": "Here, you can create and generate customized line displays and announcements!",
+        "steps": "🚇 Complete in just 3 steps",
+        "step1": "Import your work from the Rail Map Generator (top-right)",
+        "step2": "Adjust details like door opening direction",
+        "step3": "Click 'Play' (top-right) to preview announcements",
+        "start": "We've prepared a sample project—close this window and start exploring! :)"
+    },
+
+    "import": {
+        "title": "Import RMG Project",
+        "goodToGo": "All set! Import this RMG work now.",
+        "routes": "Select the route you want to import",
+        "services": "Select the service you want to import",
+        "service": {
+            "local": "Local",
+            "express": "Express",
+            "direct": "Direct"
+        },
+        "import": "Import"
+    }
+}

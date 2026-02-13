@@ -1,0 +1,312 @@
+[
+    {
+        "id": "syd1",
+        "colour": "#f99d1c",
+        "fg": "#fff",
+        "name": {
+            "en": "T1 - North Shore & Western Line",
+            "zh-Hans": "T1 - 北海滩与西部线",
+            "zh-Hant": "T1 - 北岸及西線"
+        }
+    },
+    {
+        "id": "syd2",
+        "colour": "#0098cd",
+        "fg": "#fff",
+        "name": {
+            "en": "T2 - Leppington and Inner West Line",
+            "zh-Hans": "T2 - 莱平顿和内西线",
+            "zh-Hant": "T2 - 萊平頓和內西線"
+        }
+    },
+    {
+        "id": "syd3",
+        "colour": "#f37021",
+        "fg": "#fff",
+        "name": {
+            "en": "T3 - Liverpool and Inner West Line",
+            "zh-Hans": "T3 - 利物浦和内西线",
+            "zh-Hant": "T3 - 利物浦和內西線"
+        }
+    },
+    {
+        "id": "syd4",
+        "colour": "#005aa3",
+        "fg": "#fff",
+        "name": {
+            "en": "T4 - Eastern Suburbs & Illawarra Line",
+            "zh-Hans": "T4 - 东郊与伊拉瓦拉线",
+            "zh-Hant": "T4 - 東郊和伊拉瓦拉線"
+        }
+    },
+    {
+        "id": "syd5",
+        "colour": "#c4258f",
+        "fg": "#fff",
+        "name": {
+            "en": "T5 - Cumberland Line",
+            "zh-Hans": "T5 - 坎伯兰线",
+            "zh-Hant": "T5 - 坎伯蘭線"
+        }
+    },
+    {
+        "id": "syd6",
+        "colour": "#7d3f21",
+        "fg": "#fff",
+        "name": {
+            "en": "T6 - Lidcombe and Bankstown Line",
+            "zh-Hans": "T6 - 利德科姆和班克斯敦线",
+            "zh-Hant": "T6 - 利德科姆和班克斯敦線"
+        }
+    },
+    {
+        "id": "syd7",
+        "colour": "#6f818e",
+        "fg": "#fff",
+        "name": {
+            "en": "T7 - Olympic Park Line",
+            "zh-Hans": "T7 - 奥林匹克公园线",
+            "zh-Hant": "T7 - 奧林匹克公園線"
+        }
+    },
+    {
+        "id": "syd8",
+        "colour": "#00954c",
+        "fg": "#fff",
+        "name": {
+            "en": "T8 - Airport & South Line",
+            "zh-Hans": "T8 - 机场与南部线",
+            "zh-Hant": "T8 - 機場南線"
+        }
+    },
+    {
+        "id": "syd9",
+        "colour": "#d11f2f",
+        "fg": "#fff",
+        "name": {
+            "en": "T9 - Northern Line",
+            "zh-Hans": "T9 - 北部线",
+            "zh-Hant": "T9 - 北部線"
+        }
+    },
+    {
+        "id": "sym1",
+        "colour": "#168388",
+        "fg": "#fff",
+        "name": {
+            "en": "M1 - Metro North West and Bankstown Line",
+            "zh-Hans": "M1 - 地铁西北线和班克斯敦线",
+            "zh-Hant": "M1 - 地鐵西北線和班克斯敦線"
+        }
+    },
+    {
+        "id": "bmt",
+        "colour": "#f99d1c",
+        "fg": "#fff",
+        "name": {
+            "en": "Blue Mountains Line",
+            "zh-Hans": "蓝山线",
+            "zh-Hant": "藍山線"
+        }
+    },
+    {
+        "id": "ccn",
+        "colour": "#d11f2f",
+        "fg": "#fff",
+        "name": {
+            "en": "Central Coast & Newcastle Line",
+            "zh-Hans": "中央海岸和纽卡斯尔线",
+            "zh-Hant": "中央海岸和紐卡斯爾線"
+        }
+    },
+    {
+        "id": "hun",
+        "colour": "#833134",
+        "fg": "#fff",
+        "name": {
+            "en": "Hunter Line",
+            "zh-Hans": "亨特线",
+            "zh-Hant": "亨特線"
+        }
+    },
+    {
+        "id": "sco",
+        "colour": "#005aa3",
+        "fg": "#fff",
+        "name": {
+            "en": "South Coast Line",
+            "zh-Hans": "南部海岸线",
+            "zh-Hant": "南海岸線"
+        }
+    },
+    {
+        "id": "shl",
+        "colour": "#00954c",
+        "fg": "#fff",
+        "name": {
+            "en": "Southern Highlands Line",
+            "zh-Hans": "南部高地线",
+            "zh-Hant": "南部高地線"
+        }
+    },
+    {
+        "id": "syf1",
+        "colour": "#00774b",
+        "fg": "#fff",
+        "name": {
+            "en": "F1 - Manly",
+            "zh-Hans": "F1 - 曼利轮渡",
+            "zh-Hant": "F1 - 曼利渡輪"
+        }
+    },
+    {
+        "id": "syf2",
+        "colour": "#144734",
+        "fg": "#fff",
+        "name": {
+            "en": "F2 - Taronga Zoo",
+            "zh-Hans": "F2 - 塔隆加动物园轮渡",
+            "zh-Hant": "F2 - 塔隆加動物園渡輪"
+        }
+    },
+    {
+        "id": "syf3",
+        "colour": "#648c3c",
+        "fg": "#fff",
+        "name": {
+            "en": "F3 - Parramatta River",
+            "zh-Hans": "F3 - 帕拉玛塔河轮渡",
+            "zh-Hant": "F3 - 帕拉瑪塔河渡輪"
+        }
+    },
+    {
+        "id": "syf4",
+        "colour": "#bfd730",
+        "fg": "#fff",
+        "name": {
+            "en": "F4 - Pyrmont Bay",
+            "zh-Hans": "F4 - 派尔蒙特湾轮渡",
+            "zh-Hant": "F4 - 派爾蒙特灣渡輪"
+        }
+    },
+    {
+        "id": "syf5",
+        "colour": "#286142",
+        "fg": "#fff",
+        "name": {
+            "en": "F5 - Neutral Bay",
+            "zh-Hans": "F5 - 纽图尔湾轮渡",
+            "zh-Hant": "F5 - 紐圖爾灣渡輪"
+        }
+    },
+    {
+        "id": "syf6",
+        "colour": "#00ab51",
+        "fg": "#fff",
+        "name": {
+            "en": "F6 - Mosman Bay",
+            "zh-Hans": "F6 - 莫斯曼湾轮渡",
+            "zh-Hant": "F6 - 莫斯曼灣渡輪"
+        }
+    },
+    {
+        "id": "syf7",
+        "colour": "#00b189",
+        "fg": "#fff",
+        "name": {
+            "en": "F7 - Double Bay",
+            "zh-Hans": "F7 - 双湾轮渡",
+            "zh-Hant": "F7 - 雙灣渡輪"
+        }
+    },
+    {
+        "id": "syf8",
+        "colour": "#55622b",
+        "fg": "#fff",
+        "name": {
+            "en": "F8 - Cockatoo Island",
+            "zh-Hans": "F8 - 凤头鹦鹉岛轮渡",
+            "zh-Hant": "F8 - 鳳頭鸚鵡島渡輪"
+        }
+    },
+    {
+        "id": "syf9",
+        "colour": "#65b32e",
+        "fg": "#fff",
+        "name": {
+            "en": "F9 - Watsons Bay",
+            "zh-Hans": "F9 - 沃特森斯湾轮渡",
+            "zh-Hant": "F9 - 沃特森斯灣渡輪"
+        }
+    },
+    {
+        "id": "syf10",
+        "colour": "#5AB031",
+        "fg": "#fff",
+        "name": {
+            "en": "F10 - Blackwattle Bay",
+            "zh-Hans": "F10 - 布莱克瓦特尔湾",
+            "zh-Hant": "F10 - 布萊克瓦特爾灣"
+        }
+    },
+    {
+        "id": "syff",
+        "colour": "#5ab031",
+        "fg": "#fff",
+        "name": {
+            "en": "Private Ferry and Fast Ferry Services",
+            "zh-Hans": "私营和快速轮渡服务",
+            "zh-Hant": "私營與快速渡輪服務"
+        }
+    },
+    {
+        "id": "syl1",
+        "colour": "#be1622",
+        "fg": "#fff",
+        "name": {
+            "en": "L1 - Dulwich Hill Line",
+            "zh-Hans": "L1 - 道尔维奇山轻轨",
+            "zh-Hant": "L1 - 道爾維奇山輕軌"
+        }
+    },
+    {
+        "id": "syl2",
+        "colour": "#dd1e25",
+        "fg": "#fff",
+        "name": {
+            "en": "L2 - Randwick Line",
+            "zh-Hans": "L2 - 兰德维克轻轨",
+            "zh-Hant": "L2 - 蘭德維克輕軌"
+        }
+    },
+    {
+        "id": "syl3",
+        "colour": "#781140",
+        "fg": "#fff",
+        "name": {
+            "en": "L3 - Kingsford Line",
+            "zh-Hans": "L3 - 金斯福德轻轨",
+            "zh-Hant": "L3 - 金斯福德輕軌"
+        }
+    },
+    {
+        "id": "syl4",
+        "colour": "#CD0D4D",
+        "fg": "#fff",
+        "name": {
+            "en": "L4 - Westmead and Carlingford Line",
+            "zh-Hans": "L4 - 韦斯特米德和卡林福德线",
+            "zh-Hant": "L4 - 韋斯特米德和卡林福德線"
+        }
+    },
+    {
+        "id": "sylx",
+        "colour": "#ee343f",
+        "fg": "#fff",
+        "name": {
+            "en": "LX - Special Event Service",
+            "zh-Hans": "LX - 特殊活动期间轻轨服务",
+            "zh-Hant": "LX - 特殊活動期間輕軌服務"
+        }
+    }
+]

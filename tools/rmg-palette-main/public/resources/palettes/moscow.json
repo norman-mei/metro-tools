@@ -1,0 +1,255 @@
+[
+    {
+        "id": "mos1",
+        "colour": "#d41317",
+        "fg": "#fff",
+        "name": {
+            "en": "Sokolnicheskaya",
+            "zh-Hans": "索科利尼基线",
+            "zh-Hant": "索科利尼基線",
+            "ru": "Сокольническая"
+        }
+    },
+    {
+        "id": "mos2",
+        "colour": "#4baf51",
+        "fg": "#fff",
+        "name": {
+            "en": "Zamoskvoretskaya",
+            "zh-Hans": "莫斯科河畔线",
+            "zh-Hant": "莫斯科河畔線",
+            "ru": "Замоскворецкая"
+        }
+    },
+    {
+        "id": "mos3",
+        "colour": "#0072ba",
+        "fg": "#fff",
+        "name": {
+            "en": "Arbatsko-Pokrovskaya",
+            "zh-Hans": "阿尔巴特-波克罗夫线",
+            "zh-Hant": "阿爾巴特-㡦幪線",
+            "ru": "Арбатско-Покровская"
+        }
+    },
+    {
+        "id": "mos4",
+        "colour": "#1ebcef",
+        "fg": "#fff",
+        "name": {
+            "en": "Filyovskaya",
+            "zh-Hans": "菲利线",
+            "zh-Hant": "菲利線",
+            "ru": "Филёвская"
+        }
+    },
+    {
+        "id": "mos5",
+        "colour": "#905134",
+        "fg": "#fff",
+        "name": {
+            "en": "Koltsevaya",
+            "zh-Hans": "环线",
+            "zh-Hant": "環線",
+            "ru": "Кольцевая"
+        }
+    },
+    {
+        "id": "mos6",
+        "colour": "#ef7d00",
+        "fg": "#fff",
+        "name": {
+            "en": "Kaluzhsko-Rizhskaya",
+            "zh-Hans": "卡卢加-里加线",
+            "zh-Hant": "卡盧加-裏加線",
+            "ru": "Калужско-Рижская"
+        }
+    },
+    {
+        "id": "mos7",
+        "colour": "#933f8f",
+        "fg": "#fff",
+        "name": {
+            "en": " Tagansko-Krasnopresnenskaya l",
+            "zh-Hans": "塔甘卡-红普列斯尼亚线",
+            "zh-Hant": "塔甘卡-紅普列斯尼亞線",
+            "ru": "Таганско-Краснопресненская"
+        }
+    },
+    {
+        "id": "mos8",
+        "colour": "#ffdd00",
+        "fg": "#000",
+        "name": {
+            "en": "Kalininsko-Solntsevskaya",
+            "zh-Hans": "加里宁-太阳线",
+            "zh-Hant": "加里寧-太陽線",
+            "ru": "Калининско-Солнцевская "
+        }
+    },
+    {
+        "id": "mos9",
+        "colour": "#adabac",
+        "fg": "#fff",
+        "name": {
+            "en": "Serpukhovsko-Timiryazevskaya ",
+            "zh-Hans": "谢尔普霍夫-季米里亚泽夫线",
+            "zh-Hant": "謝爾普霍夫-季米里亞澤夫線",
+            "ru": "Серпуховско-Тимирязевская"
+        }
+    },
+    {
+        "id": "mos10",
+        "colour": "#b4cc04",
+        "fg": "#fff",
+        "name": {
+            "en": "Lyublinsko-Dmitrovskaya ",
+            "zh-Hans": "柳布林诺-德米特罗夫线",
+            "zh-Hant": "柳布林諾-德米特羅夫線",
+            "ru": "Люблинско-Дмитровская"
+        }
+    },
+    {
+        "id": "mos11",
+        "colour": "#88cdcf",
+        "fg": "#fff",
+        "name": {
+            "en": "Bolshaya Koltsevaya ",
+            "zh-Hans": "大环线",
+            "zh-Hant": "大環線",
+            "ru": "Большая кольцевая линия"
+        }
+    },
+    {
+        "id": "mos12",
+        "colour": "#bac8e8",
+        "fg": "#fff",
+        "name": {
+            "en": "Butovskaya ",
+            "zh-Hans": "布托沃线",
+            "zh-Hant": "布托沃線",
+            "ru": "Бутовская"
+        }
+    },
+    {
+        "id": "mos13",
+        "colour": "#0273ba",
+        "fg": "#fff",
+        "name": {
+            "en": "Moscow Monorail",
+            "zh-Hans": "莫斯科单轨",
+            "zh-Hant": "莫斯科單軌 ",
+            "ru": "Московский монорельс"
+        }
+    },
+    {
+        "id": "mos14",
+        "colour": "#d5191d",
+        "fg": "#fff",
+        "name": {
+            "en": "Moscow Central Circle",
+            "zh-Hans": "莫斯科中央环线",
+            "zh-Hant": "莫斯科中央環線",
+            "ru": "Московское Центральное Кольцо"
+        }
+    },
+    {
+        "id": "mos15",
+        "colour": "#ed7cae",
+        "fg": "#fff",
+        "name": {
+            "en": "Nekrasovskaya ",
+            "zh-Hans": "内克拉索夫卡线",
+            "zh-Hant": "內克拉索夫卡線",
+            "ru": "Некрасовская"
+        }
+    },
+    {
+        "id": "mos16",
+        "colour": "#02795f",
+        "fg": "#fff",
+        "name": {
+            "en": "Troitskaya ",
+            "zh-Hans": "特罗伊茨克线",
+            "zh-Hant": "特羅伊茨克線",
+            "ru": "Троицкая "
+        }
+    },
+    {
+        "id": "mos17",
+        "colour": "#27303f",
+        "fg": "#fff",
+        "name": {
+            "en": "Rublyovo-Arkhangelskaya ",
+            "zh-Hans": "鲁比廖夫-阿尔汉格尔斯克线",
+            "zh-Hant": "魯比廖夫-阿爾漢格爾斯克線",
+            "ru": "Рублёво-Архангельская "
+        }
+    },
+    {
+        "id": "mos18",
+        "colour": "#ac1753",
+        "fg": "#fff",
+        "name": {
+            "en": "Biryulyovskaya ",
+            "zh-Hans": "比留廖夫线",
+            "zh-Hant": "比留廖夫線",
+            "ru": "Бирюлёвская"
+        }
+    },
+    {
+        "id": "mosd1",
+        "colour": "#f7a600",
+        "fg": "#fff",
+        "name": {
+            "en": "D1",
+            "zh-Hans": "D1 白俄罗斯-萨维奥洛沃直径线",
+            "zh-Hant": "D1 白俄羅斯-薩維奧洛沃直徑綫",
+            "ru": "Белорусско-Савёловский диаметр"
+        }
+    },
+    {
+        "id": "mosd2",
+        "colour": "#e94282",
+        "fg": "#fff",
+        "name": {
+            "en": "D2",
+            "zh-Hans": "D2 库尔斯克-里加直径线",
+            "zh-Hant": "D2 庫爾斯克-里加直徑綫",
+            "ru": "Курско-Рижский диаметр"
+        }
+    },
+    {
+        "id": "mosd3",
+        "colour": "#e95c0e",
+        "fg": "#fff",
+        "name": {
+            "en": "D3",
+            "zh-Hans": "D3 列宁格勒-喀山直径线",
+            "zh-Hant": "D3 列寧格勒-喀山直徑綫",
+            "ru": "Ленинградско-Казанский диаметр"
+        }
+    },
+    {
+        "id": "mosd4",
+        "colour": "#4db488",
+        "fg": "#fff",
+        "name": {
+            "en": "D4",
+            "zh-Hans": "D4 基辅-高尔基直径线",
+            "zh-Hant": "D4 基輔-高爾基直徑綫",
+            "ru": "Киевско-Горьковский диаметр"
+        }
+    },
+    {
+        "id": "mosd5",
+        "colour": "#77b729",
+        "fg": "#fff",
+        "name": {
+            "en": "D5",
+            "zh-Hans": "D5 雅罗斯拉夫-帕维列茨基直径线",
+            "zh-Hant": "D5 雅羅斯拉夫-帕維列茨基直徑線",
+            "ru": "Ярославско-Павелецкий диаметр"
+        }
+    }
+]

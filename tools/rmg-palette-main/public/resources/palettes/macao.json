@@ -1,0 +1,46 @@
+[
+    {
+        "id": "taipa",
+        "colour": "#A4D65E",
+        "fg": "#fff",
+        "name": {
+            "en": "Taipa Line",
+            "pt": "Linha da Taipa",
+            "zh-Hans": "氹仔线",
+            "zh-Hant": "氹仔線"
+        }
+    },
+    {
+        "id": "seacpaivan",
+        "colour": "#9900ff",
+        "fg": "#fff",
+        "name": {
+            "pt": "Linha Seac Pai Van",
+            "zh-Hans": "石排湾线",
+            "zh-Hant": "石排灣線",
+            "en": "Seac Pai Van Line"
+        }
+    },
+    {
+        "id": "hengqin",
+        "colour": "#d30000",
+        "fg": "#fff",
+        "name": {
+            "pt": "Linha de Hengqin",
+            "zh-Hans": "横琴线",
+            "zh-Hant": "橫琴線",
+            "en": "Hengqin Line"
+        }
+    },
+    {
+        "id": "leste",
+        "colour": "#5d2de1",
+        "fg": "#fff",
+        "name": {
+            "pt": "Linha Leste",
+            "zh-Hans": "东线",
+            "zh-Hant": "東線",
+            "en": "East Line"
+        }
+    }
+]

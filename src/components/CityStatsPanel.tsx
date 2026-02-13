@@ -558,14 +558,14 @@ const CityStatsPanel = ({
 
   const cityIconSrc = `/api/city-icon/${encodeURIComponent(slug)}`
   const quickNavLinks = [
-    { label: 'Account tab', href: '/?tab=account' },
-    { label: 'Privacy tab', href: '/?tab=privacy' },
-    { label: 'Cities tab', href: '/?tab=cities' },
-    { label: 'Achievements tab', href: '/?tab=achievements' },
-    { label: 'Update Log tab', href: '/?tab=updateLog' },
-    { label: 'Global Stats tab', href: '/?tab=globalStats' },
-    { label: 'Settings tab', href: '/?tab=settings' },
-    { label: 'Main page', href: '/' },
+    { label: 'Account tab', href: '/metro-memory?tab=account' },
+    { label: 'Privacy tab', href: '/metro-memory?tab=privacy' },
+    { label: 'Cities tab', href: '/metro-memory?tab=cities' },
+    { label: 'Achievements tab', href: '/metro-memory?tab=achievements' },
+    { label: 'Update Log tab', href: '/metro-memory?tab=updateLog' },
+    { label: 'Global Stats tab', href: '/metro-memory?tab=globalStats' },
+    { label: 'Settings tab', href: '/metro-memory?tab=settings' },
+    { label: 'Main page', href: '/metro-memory' },
   ]
 
   const handleInnerClick = (event: ReactMouseEvent<HTMLDivElement>) => {

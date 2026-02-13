@@ -1,11 +1,11 @@
 {
-  "name": "tailwindui-template",
+  "name": "metro-tools",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "node scripts/sync-city-card-images.js && next dev --turbo -H 0.0.0.0",
     "dev:turbo": "node scripts/sync-city-card-images.js && next dev --turbo",
-    "build": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js && node scripts/sync-city-card-images.js && node scripts/export-city-data.js && node scripts/generate-offline-manifest.js && prisma generate && next build",
+    "build": "node scripts/sync-city-image-folders.js && node scripts/sync-city-icons.js && node scripts/sync-city-card-images.js && node scripts/export-city-data.js && node scripts/generate-offline-manifest.js && prisma generate && next typegen && next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "check:duplicate-keys": "node scripts/check-duplicate-object-keys.js",

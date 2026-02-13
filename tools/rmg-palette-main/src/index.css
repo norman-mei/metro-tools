@@ -1,0 +1,51 @@
+@import '@mantine/core/styles.css';
+@import '@railmapgen/mantine-components/styles.css';
+
+:root {
+    background-color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: #242424;
+        color: white;
+    }
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
+
+@media (display-mode: standalone) {
+    html {
+        height: 100vh;
+    }
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    width: -webkit-fill-available;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+div#root {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flag-emoji {
+    font-family: 'Apple Color Emoji', 'Noto Color Emoji', -apple-system, sans-serif;
+    margin-right: 0.5rem;
+}

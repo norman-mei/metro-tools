@@ -1,0 +1,354 @@
+[
+    {
+        "id": "s1",
+        "colour": "#0052a4",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 1",
+            "ko": "1호선",
+            "zh-Hans": "1号线",
+            "zh-Hant": "1號線"
+        }
+    },
+    {
+        "id": "s2",
+        "colour": "#00a84d",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 2",
+            "ko": "2호선",
+            "zh-Hans": "2号线",
+            "zh-Hant": "2號線"
+        }
+    },
+    {
+        "id": "s3",
+        "colour": "#ef7c1c",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 3",
+            "ko": "3호선",
+            "zh-Hans": "3号线",
+            "zh-Hant": "3號線"
+        }
+    },
+    {
+        "id": "s4",
+        "colour": "#00a4e3",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 4",
+            "ko": "4호선",
+            "zh-Hans": "4号线",
+            "zh-Hant": "4號線"
+        }
+    },
+    {
+        "id": "s5",
+        "colour": "#996cac",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 5",
+            "ko": "5호선",
+            "zh-Hans": "5号线",
+            "zh-Hant": "5號線"
+        }
+    },
+    {
+        "id": "s6",
+        "colour": "#cd7c2f",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 6",
+            "ko": "6호선",
+            "zh-Hans": "6号线",
+            "zh-Hant": "6號線"
+        }
+    },
+    {
+        "id": "s7",
+        "colour": "#747f00",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 7",
+            "ko": "7호선",
+            "zh-Hans": "7号线",
+            "zh-Hant": "7號線"
+        }
+    },
+    {
+        "id": "s8",
+        "colour": "#e6186c",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 8",
+            "ko": "8호선",
+            "zh-Hans": "8号线",
+            "zh-Hant": "8號線"
+        }
+    },
+    {
+        "id": "s9",
+        "colour": "#bdb092",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 9",
+            "ko": "9호선",
+            "zh-Hans": "9号线",
+            "zh-Hant": "9號線"
+        }
+    },
+    {
+        "id": "i1",
+        "colour": "#759cce",
+        "fg": "#fff",
+        "name": {
+            "en": "Incheon Metro Line 1",
+            "ko": "인천1호선",
+            "zh-Hans": "仁川1号线",
+            "zh-Hant": "仁川1號線"
+        }
+    },
+    {
+        "id": "i2",
+        "colour": "#f5a251",
+        "fg": "#fff",
+        "name": {
+            "en": "Incheon Metro Line 2",
+            "ko": "인천2호선",
+            "zh-Hans": "仁川2号线",
+            "zh-Hant": "仁川2號線"
+        }
+    },
+    {
+        "id": "gg",
+        "colour": "#0054a6",
+        "fg": "#fff",
+        "name": {
+            "en": "Gyeonggang Line",
+            "ko": "경강선",
+            "zh-Hans": "京江线",
+            "zh-Hant": "京江線"
+        }
+    },
+    {
+        "id": "gj",
+        "colour": "#77c4a3",
+        "fg": "#fff",
+        "name": {
+            "en": "Gyeongui-Jungang Line",
+            "ko": "경의·중앙선",
+            "zh-Hans": "京义·中央线",
+            "zh-Hant": "京義·中央線"
+        }
+    },
+    {
+        "id": "gc",
+        "colour": "#178c72",
+        "fg": "#fff",
+        "name": {
+            "en": "Gyeongchun Line",
+            "ko": "경춘선",
+            "zh-Hans": "京春线",
+            "zh-Hant": "京春線"
+        }
+    },
+    {
+        "id": "a",
+        "colour": "#0090d2",
+        "fg": "#fff",
+        "name": {
+            "en": "Airport Railroad Express",
+            "ko": "인천국제공항철도",
+            "zh-Hans": "仁川国际机场铁道",
+            "zh-Hant": "仁川國際空港鐵道"
+        }
+    },
+    {
+        "id": "s",
+        "colour": "#8fc31f",
+        "fg": "#fff",
+        "name": {
+            "en": "Seohae Line",
+            "ko": "서해선",
+            "zh-Hans": "西海线",
+            "zh-Hant": "西海線"
+        }
+    },
+    {
+        "id": "sb",
+        "colour": "#fabe00",
+        "fg": "#000",
+        "name": {
+            "en": "Suin–Bundang Line",
+            "ko": "수인·분당선",
+            "zh-Hans": "水仁·盆唐线",
+            "zh-Hant": "水仁·盆唐線"
+        }
+    },
+    {
+        "id": "d",
+        "colour": "#d4003b",
+        "fg": "#fff",
+        "name": {
+            "en": "Shinbundang Line",
+            "ko": "신분당선",
+            "zh-Hans": "新盆唐线",
+            "zh-Hant": "新盆唐線"
+        }
+    },
+    {
+        "id": "sa",
+        "colour": "#F04938",
+        "fg": "#fff",
+        "name": {
+            "en": "Sinansan Line",
+            "ko": "신안산선",
+            "zh-Hans": "新安山线",
+            "zh-Hant": "新安山線"
+        }
+    },
+    {
+        "id": "di",
+        "colour": "#4D8A7D",
+        "fg": "#fff",
+        "name": {
+            "en": "Dongtan-Indeogwon Line",
+            "ko": "동탄인덕원선",
+            "zh-Hans": "东滩仁德院线",
+            "zh-Hant": "東灘仁德院線"
+        }
+    },
+    {
+        "id": "sil",
+        "colour": "#6789ca",
+        "fg": "#fff",
+        "name": {
+            "en": "Sillim Line",
+            "ko": "신림선",
+            "zh-Hans": "新林线",
+            "zh-Hant": "新林線"
+        }
+    },
+    {
+        "id": "ui",
+        "colour": "#b7c450",
+        "fg": "#fff",
+        "name": {
+            "en": "Ui-Sinseol Line",
+            "ko": "우이신설선",
+            "zh-Hans": "牛耳新设线",
+            "zh-Hant": "牛耳新設線"
+        }
+    },
+    {
+        "id": "gim",
+        "colour": "#ad8605",
+        "fg": "#fff",
+        "name": {
+            "en": "Gimpo Goldline",
+            "ko": "김포골드라인",
+            "zh-Hans": "金浦都市铁道",
+            "zh-Hant": "金浦都市鐵道"
+        }
+    },
+    {
+        "id": "n",
+        "colour": "#941e34",
+        "fg": "#fff",
+        "name": {
+            "en": "Dongbuk Line",
+            "ko": "동북선",
+            "zh-Hans": "东北线",
+            "zh-Hant": "東北線"
+        }
+    },
+    {
+        "id": "w",
+        "colour": "#787878",
+        "fg": "#fff",
+        "name": {
+            "en": "Wirye Line",
+            "ko": "위례선",
+            "zh-Hans": "尉礼线",
+            "zh-Hant": "慰禮線"
+        }
+    },
+    {
+        "id": "y",
+        "colour": "#56ab2d",
+        "fg": "#fff",
+        "name": {
+            "en": "Yongin Everline",
+            "ko": "용인경전철 ",
+            "zh-Hans": "龙仁轻电铁",
+            "zh-Hant": "龍仁輕電鐵"
+        }
+    },
+    {
+        "id": "u",
+        "colour": "#fd8100",
+        "fg": "#fff",
+        "name": {
+            "en": "U Line",
+            "ko": "의정부경전철",
+            "zh-Hans": "议政府轻电铁",
+            "zh-Hant": "議政府輕電鐵"
+        }
+    },
+    {
+        "id": "gtxa",
+        "colour": "#9a6292",
+        "fg": "#fff",
+        "name": {
+            "en": "GTX Line A",
+            "zh-Hans": "GTX-A",
+            "zh-Hant": "首都圈廣域急行鐵道A路線",
+            "ko": "수도권광역급행철도A노선"
+        }
+    },
+    {
+        "id": "gtxb",
+        "colour": "#234699",
+        "fg": "#fff",
+        "name": {
+            "en": "GTX Line B",
+            "zh-Hans": "GTX-B",
+            "zh-Hant": "首都圈廣域急行鐵道B路線",
+            "ko": "수도권광역급행철도B노선"
+        }
+    },
+    {
+        "id": "gtxc",
+        "colour": "#306e5b",
+        "fg": "#fff",
+        "name": {
+            "en": "GTX Line C",
+            "zh-Hans": "GTX-C",
+            "zh-Hant": "首都圈廣域急行鐵道C路線",
+            "ko": "수도권광역급행철도C노선"
+        }
+    },
+    {
+        "id": "gtxd",
+        "colour": "#cb2182",
+        "fg": "#fff",
+        "name": {
+            "en": "GTX Line D",
+            "zh-Hans": "GTX-D",
+            "zh-Hant": "首都圈廣域急行鐵道D路線",
+            "ko": "수도권광역급행철도D노선"
+        }
+    },
+    {
+        "id": "im",
+        "colour": "#ffcd12",
+        "fg": "#000",
+        "name": {
+            "en": "Incheon Airport Maglev",
+            "ko": "인천공항자기부상철도",
+            "zh-Hans": "仁川机场磁悬浮线",
+            "zh-Hant": "仁川空港磁氣浮上鐵道"
+        }
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "CookiesModal": {
+        "header": "Cookies on this website",
+        "text1": "At RMG we use cookies to help ensure that our website and services are able to function properly. These cookies are necessary and so are set automatically.",
+        "text2": "We would also like to use some cookies to:",
+        "item1": "improve our website based on how you use it",
+        "text3": "These cookies are optional. If you'd like to accept all optional cookies, select 'Accept all cookies'. If you'd like to reject them, select 'Reject'.",
+        "accept": "Accept all cookies",
+        "reject": "Reject"
+    },
+
+    "FontsSection": {
+        "text1": "The fonts below used in your projects were loaded from our server instead of your device.",
+        "text2": "This may cause unnecessary network traffic and slowness especially if your connection is unstable.",
+        "text3": "You can download and install these open source and free fonts to get a better experience.",
+        "safari": "This is not applicable to Safari users. ☹️"
+    },
+
+    "LocalStorageModal": {
+        "text1": "You're going to delete ",
+        "text2": " from local storage. This item is created and used by ",
+        "text3": ". Deleting it may cause unrecoverable data loss or unexpected behaviour to the applications.",
+        "text4": "Please close this modal unless you're certain to do so or are supervised by our developers."
+    },
+
+    "RMP_CLOUD": "Rail Map Painter・Proceed Signal",
+    "RMP_EXPORT": "Rail Map Painter・Stop and Proceed",
+
+    "happyChineseNewYear": "Happy Chinese New Year 2026! Most features from Proceed Signal subscription are free for all users during the festival period (15th Feb to 23rd Feb).",
+    "happyChineseNewYearClickHere": "Click here for details."
+}

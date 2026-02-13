@@ -1,0 +1,90 @@
+[
+    {
+        "id": "bu1",
+        "colour": "#f06a00",
+        "fg": "#000",
+        "name": {
+            "en": "Line 1",
+            "ko": "1호선",
+            "zh-Hans": "1号线",
+            "zh-Hant": "1號缐"
+        }
+    },
+    {
+        "id": "bu2",
+        "colour": "#81bf48",
+        "fg": "#000",
+        "name": {
+            "en": "Line 2",
+            "ko": "2호선",
+            "zh-Hans": "2号线",
+            "zh-Hant": "2號缐"
+        }
+    },
+    {
+        "id": "bu3",
+        "colour": "#bb8c00",
+        "fg": "#000",
+        "name": {
+            "en": "Line 3",
+            "ko": "3호선",
+            "zh-Hans": "3号线",
+            "zh-Hant": "3號缐"
+        }
+    },
+    {
+        "id": "bu4",
+        "colour": "#217dcb",
+        "fg": "#000",
+        "name": {
+            "en": "Line 4",
+            "ko": "4호선",
+            "zh-Hans": "4号线",
+            "zh-Hant": "4號缐"
+        }
+    },
+    {
+        "id": "bu5",
+        "colour": "#F14C53",
+        "fg": "#000",
+        "name": {
+            "en": "Line 5",
+            "ko": "5호선",
+            "zh-Hans": "5号线",
+            "zh-Hant": "5號缐"
+        }
+    },
+    {
+        "id": "bugl",
+        "colour": "#875cac",
+        "fg": "#fff",
+        "name": {
+            "en": "Busan-Gimhae LRT",
+            "ko": "부산김해경전철",
+            "zh-Hans": "釜山金海轻电铁",
+            "zh-Hant": "釜山金海輕電鐵"
+        }
+    },
+    {
+        "id": "budh",
+        "colour": "#0054a6",
+        "fg": "#fff",
+        "name": {
+            "en": "Donghae Line",
+            "ko": "동해선",
+            "zh-Hans": "东海线",
+            "zh-Hant": "東海線"
+        }
+    },
+    {
+        "id": "ym",
+        "colour": "#59C3B8",
+        "fg": "#fff",
+        "name": {
+            "en": "Yangsan Metro",
+            "zh-Hans": "梁山都市铁道",
+            "zh-Hant": "梁山都市鐵道",
+            "ko": "양산도시철도"
+        }
+    }
+]

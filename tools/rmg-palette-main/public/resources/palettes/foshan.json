@@ -1,0 +1,102 @@
+[
+    {
+        "id": "fs1",
+        "colour": "#bbd501",
+        "fg": "#000",
+        "name": {
+            "en": "Guangfo Line",
+            "zh-Hans": "广佛线",
+            "zh-Hant": "廣佛線"
+        }
+    },
+    {
+        "id": "fs2",
+        "colour": "#f6112e",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 2",
+            "zh-Hans": "2号线",
+            "zh-Hant": "2號線"
+        }
+    },
+    {
+        "id": "fs3",
+        "colour": "#002da0",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 3",
+            "zh-Hans": "3号线",
+            "zh-Hant": "3號線"
+        }
+    },
+    {
+        "id": "fs4",
+        "colour": "#923A7F",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 4",
+            "zh-Hans": "4号线",
+            "zh-Hant": "4號線"
+        }
+    },
+    {
+        "id": "fs6",
+        "colour": "#FFB81D",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 6",
+            "zh-Hans": "6号线",
+            "zh-Hant": "6號線"
+        }
+    },
+    {
+        "id": "fs9",
+        "colour": "#A25EB5",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 9",
+            "zh-Hans": "9号线",
+            "zh-Hant": "9號線"
+        }
+    },
+    {
+        "id": "fs11",
+        "colour": "#2a3976",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 11",
+            "zh-Hans": "11号线",
+            "zh-Hant": "11號線"
+        }
+    },
+    {
+        "id": "fs13",
+        "colour": "#32B7EA",
+        "fg": "#fff",
+        "name": {
+            "en": "Line 13",
+            "zh-Hans": "13号线",
+            "zh-Hant": "13號線"
+        }
+    },
+    {
+        "id": "tnh1",
+        "colour": "#60b5e5",
+        "fg": "#fff",
+        "name": {
+            "en": "Nanhai Tram Line 1",
+            "zh-Hans": "南海有轨1号线",
+            "zh-Hant": "南海有軌1號線"
+        }
+    },
+    {
+        "id": "tgm1",
+        "colour": "#4CA585",
+        "fg": "#fff",
+        "name": {
+            "en": "Gaoming Tram Line 1",
+            "zh-Hans": "高明有轨1号线",
+            "zh-Hant": "高明有軌1號線"
+        }
+    }
+]

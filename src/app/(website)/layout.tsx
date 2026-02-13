@@ -6,9 +6,9 @@ import { Layout } from '@/components/Layout'
 export const metadata: Metadata = {
   title: {
     template: '%s',
-    default: 'Metro Memory',
+    default: 'Metro Tools',
   },
-  description: 'Metro Memory - test your knowledge of your city',
+  description: 'Metro Tools landing page and metro project workspace.',
 }
 
 export default function RootLayout({

@@ -234,7 +234,7 @@ export default function MenuComponent({
                         : 'text-gray-700 dark:text-zinc-100',
                       'block w-full px-4 py-2 text-left text-sm transition',
                     )}
-                    href="/?tab=settings"
+                    href="/metro-memory?tab=settings"
                   >
                     {t('settings')}
                   </Link>
@@ -326,7 +326,7 @@ export default function MenuComponent({
                         : 'text-gray-700 dark:text-zinc-100',
                       'block w-full px-4 py-2 text-left text-sm transition',
                     )}
-                    href="/?tab=account"
+                    href="/metro-memory?tab=account"
                   >
                     {t('account')}
                   </Link>
@@ -356,7 +356,7 @@ export default function MenuComponent({
                         : 'text-gray-700 dark:text-zinc-100',
                       'block w-full px-4 py-2 text-left text-sm transition',
                     )}
-                    href="/?tab=privacy"
+                    href="/metro-memory?tab=privacy"
                   >
                     {t('privacy')}
                   </Link>
@@ -372,7 +372,7 @@ export default function MenuComponent({
                       : 'text-gray-700 dark:text-zinc-100',
                     'block w-full px-4 py-2 text-left text-sm transition',
                   )}
-                  href="/"
+                  href="/metro-memory"
                 >
                   {t('goToMain')}
                 </Link>

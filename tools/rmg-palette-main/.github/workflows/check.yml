@@ -1,0 +1,27 @@
+name: Resources and Code Check
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Resources check
+        run: |
+          npm install
+          npm run test
+          npm run build
+        working-directory: ./package
+
+      - name: Code check
+        run: |
+          npm install
+          npm run lint
+          npm run test

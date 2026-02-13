@@ -3361,7 +3361,7 @@ export default function GamePage({
             setCityStatsOpen(true)
         } else if (action === 'OPEN_ACHIEVEMENTS') {
             event.preventDefault()
-            router.push('/?tab=achievements')
+            router.push('/metro-memory?tab=achievements')
         } else if (action === 'OPEN_ACCOUNT') {
             event.preventDefault()
             openAccountModal()
@@ -3872,7 +3872,7 @@ export default function GamePage({
             <SettingsPanel className="mt-4" showHeading={false} />
             <div className="mt-6 flex flex-wrap justify-end gap-3">
               <Link
-                href="/?tab=settings"
+                href="/metro-memory?tab=settings"
                 className="inline-flex items-center justify-center rounded-full border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-[#18181b] dark:text-zinc-100 dark:hover:bg-zinc-800"
               >
                 Open main page settings

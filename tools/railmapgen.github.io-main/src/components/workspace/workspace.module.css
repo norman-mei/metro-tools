@@ -1,0 +1,55 @@
+.workspace {
+    flex: 1;
+    min-width: 0;
+    transform: translateZ(0);
+    overflow: hidden;
+}
+
+.app-container {
+    height: 100%;
+    display: none;
+    overflow: hidden;
+
+    &.show {
+        display: flex;
+    }
+
+    &.pb-safe-area-inset {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
+
+.app-container iframe {
+    border: none;
+    flex: 1;
+}
+
+.welcome {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    h1, p {
+        text-align: center;
+    }
+
+    p {
+        font-size: var(--mantine-font-size-lg);
+    }
+}
+
+.welcome .icons {
+    margin-bottom: var(--mantine-spacing-xs);
+
+    img {
+        width: 120px;
+        padding: var(--mantine-spacing-xs);
+        background: white;
+        border: 1px solid var(--mantine-color-default-border);
+        border-radius: 12px;
+        box-shadow: var(--mantine-shadow-sm);
+        cursor: pointer;
+    }
+}

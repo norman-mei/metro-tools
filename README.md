@@ -1,7 +1,9 @@
-# Metro Memory 🚇
-[Modified fork of original Metro Memory game by Benjamin TD](https://github.com/benjamintd/metro-memory.com)
+# Metro Tools 🚇
+[Metro Memory is a modified fork of the original game by Benjamin TD](https://github.com/benjamintd/metro-memory.com)
 
-Metro Memory is an interactive, map-based memory challenge built with Next.js and Mapbox GL. This fork expands on Benjamin TD's original idea with a far larger catalog of networks, achievements, account sync, richer UI polish, and deep personalization.
+Metro Tools is a unified workspace that now includes Metro Memory plus additional transit projects (RMA, RMP, RMG Palette, RSG, railmapgen.github.io, Stripmap, and TransitGuesser).
+
+The root landing page is `/`, and Metro Memory now lives at `/metro-memory`.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -66,7 +68,7 @@ This repository keeps the spirit of the original project while adding:
 ### Installation
 ```bash
 git clone <repo-url>
-cd metro-memory
+cd metro-tools
 npm install
 ```
 
@@ -122,7 +124,7 @@ npx prisma migrate dev --name init
 ```bash
 npm run dev   # uses Turbopack by default (experimental)
 ```
-By default the site is available at `http://localhost:3000`. The marketing homepage lives at `/`, and individual games at routes like `/ny`, `/london`, and `/tokyo`.
+By default the site is available at `http://localhost:3000`. The Metro Tools landing page lives at `/`, Metro Memory lives at `/metro-memory`, and individual game routes remain available under their city paths.
 
 ### Useful scripts
 - `npm run build` — Compile a production build

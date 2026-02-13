@@ -1,0 +1,129 @@
+{
+    "header": {
+        "about": {
+            "title": "について",
+            "rma": "地下鉄路線図放送機",
+            "railmapgen": "地下鉄路線図工具一式プロジェクト",
+            "desc": "",
+            "contributors": "貢献者",
+            "content1": "reflexion,allegretto,you",
+            "content2": "2024/02/21 上海にて",
+            "contactUs": "お問い合わせ",
+            "github": "プロジェクトリポジトリ",
+            "githubContent": "問題が発生しましたか？ここで検索またはイシューを提起してください！",
+            "slack": "Slackグループ",
+            "slackContent": "これらのSlackチャンネルでチャットしてください！"
+        },
+        "donation": {
+            "title": "寄付",
+            "openCollective": "Open Collective",
+            "viaUSD": "PaypalまたはVisaカードでUSDで寄付してください。",
+            "afdian": "爱发电",
+            "viaCNY": "AlipayまたはWechat PayでCNYで寄付してください。"
+        },
+        "open": {
+            "config": "プロジェクトをインポート",
+            "RMG": "生のRMG JSONをインポート",
+            "projectRMG": "RMGプロジェクトからインポート",
+            "invalidType": "無効なファイルタイプです！RMAからエクスポートされたファイルのみが受け入れられます。",
+            "unknownError": "アップロードされたファイルの解析中に不明なエラーが発生しました！もう一度お試しください。"
+        },
+        "download": {
+            "config": "プロジェクトをエクスポート",
+            "image": "画像をエクスポート",
+            "audio": "音声をエクスポート",
+            "format": "フォーマット",
+            "png": "PNG",
+            "svg": "SVG",
+            "scale": "スケール",
+            "disabledScaleOptions": "ブラウザのキャンバス制限により、一部のスケールオプションは無効です。",
+            "disabledScaleOptionsWorkarounds": "可能な回避策としては、このCLIツールを使用してSVGから画像を生成することがあります: ",
+            "shareInfo1": "この画像を共有する際に ",
+            "shareInfo2": " とそのリンクを添付します。",
+            "termsAndConditions": "利用規約",
+            "termsAndConditionsInfo": "私は以下に同意します ",
+            "period": "。",
+            "confirm": "ダウンロード"
+        },
+        "settings": {
+            "title": "設定",
+            "crawl": {
+                "title": "ドットマトリクス文字",
+                "scale": "スケール"
+            },
+            "previewAudio": {
+                "title": "優先プレビュー音声",
+                "notModified": "風格設定を使用",
+                "shmetro-zh": "上海地下鉄（普通話）",
+                "shmetro-en": "上海地下鉄（英語）"
+            }
+        },
+        "audioTask": {
+            "title": "音声タスク",
+            "desc": "私たちは最も自然な駅案内放送の生成に取り組んでいます。このため、我々は大量のサンプルに基づいて深層学習を行いました。最新の機械学習モデルが提供する高品質な放送をお楽しみください！",
+            "note1": "現在提供しているのは上海スタイルの駅案内放送のみとなります。",
+            "note2": "計算リソースに制限があるため、タスク送信後はお待ちください。7日以内に処理を完了するよう最善を尽くします。",
+            "note3": "作成された作品はお早めにダウンロードして保存してください。データの保存期間は30日間のみとさせていただきます。",
+            "note4": "より良い英語放送のため、'station name pinyin'には分かりやすい駅名を入力してください。中国語表記は任意です。",
+            "audioNotSupported": "お使いのブラウザでは音声再生がサポートされていません。ChromeまたはFirefoxの使用を推奨します。",
+            "loginFirst": "最初にログインして、AIで音声を生成してください。",
+            "topUp": "チャージ",
+            "table": {
+                "id": "ID",
+                "status": "ステータス",
+                "createdAt": "作成日",
+                "updatedAt": "更新日",
+                "points": "ポイント",
+                "actions": "操作"
+            },
+            "report1": "生成された放送に問題が発生した場合は、",
+            "report2": "GitHubのイシューを作成してください。",
+            "report3": "確認後にポイントを全額返金いたします。",
+            "freeInternet1": "私たちは自由でオープンなインターネットを信じています。また、",
+            "freeInternet2": "生のテキストをダウンロード",
+            "freeInternet3": "して、お気に入りの音声プロバイダーで使用することもできます :)",
+            "redeem": {
+                "title": "ポイント交換",
+                "desc": "ポイントを音声生成サービスと交換できます。CDKeyは以下のサイトで購入可能です：",
+                "input": "CDKeyをこちらに入力：",
+                "redeem": "交換"
+            },
+            "new": {
+                "title": "新しいタスク",
+                "content1": "これにより、現在のプロジェクトから新しいタスクが作成されます。",
+                "content2": "推定されるポイント消費量は ",
+                "content3": "実際に使用されるポイントはサーバーに依存します。",
+                "content4": "処理前にタスクをキャンセルすると、全額のポイントが返金されます。",
+                "create": "新しいタスクを作成"
+            }
+        }
+    },
+
+    "stationVariants": {
+        "title": "駅バリアント",
+        "baseVariant": "基本バリアント"
+    },
+
+    "welcome": {
+        "title": "地下鉄路線図放送機へようこそ",
+        "desc": "ここでは、オリジナルの地下鉄路線表示とアナウンスを作成できます！",
+        "steps": "🚇 3ステップで簡単作成",
+        "step1": "右上の「地下鉄路線図ジェネレータ」から作品をインポート",
+        "step2": "ドア開閉方向などの詳細を調整",
+        "step3": "右上の「再生」でアナウンスを試聴",
+        "start": "サンプル作品を用意しました。この画面を閉じてお試しください！ :)"
+    },
+
+    "import": {
+        "title": "RMG作品をインポート",
+        "goodToGo": "準備完了！このRMG作品をインポートします。",
+        "routes": "インポートする路線を選択",
+        "services": "インポートする列車種別を選択",
+        "service": {
+            "local": "普通列車",
+            "express": "快速列車",
+            "direct": "直通列車"
+        },
+        "import": "インポート"
+    }
+}

@@ -1,0 +1,778 @@
+[
+    {
+        "id": "AE",
+        "name": {
+            "en": "United Arab Emirates",
+            "zh-Hans": "阿拉伯联合酋长国",
+            "zh-Hant": "阿拉伯聯合酋長國",
+            "ar": "الإمارات العربية المتحدة"
+        },
+        "languages": [
+            "ar"
+        ]
+    },
+    {
+        "id": "AR",
+        "name": {
+            "es": "Argentina",
+            "zh-Hans": "阿根廷",
+            "zh-Hant": "阿根廷",
+            "en": "Argentina"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "AT",
+        "name": {
+            "en": "Austria",
+            "de": "Österreich",
+            "zh-Hans": "奥地利",
+            "zh-Hant": "奧地利"
+        },
+        "languages": [
+            "de"
+        ]
+    },
+    {
+        "id": "AU",
+        "name": {
+            "en": "Australia",
+            "ko": "호주",
+            "zh-Hans": "澳大利亚",
+            "zh-Hant": "澳大利亞"
+        },
+        "languages": [
+            "en"
+        ]
+    },
+    {
+        "id": "AZ",
+        "name": {
+            "en": "Azerbaijan",
+            "az": "Azərbaycan",
+            "zh-Hans": "阿塞拜疆",
+            "zh-Hant": "阿塞拜疆"
+        },
+        "languages": [
+            "az"
+        ]
+    },
+    {
+        "id": "BE",
+        "name": {
+            "de": "Belgien",
+            "en": "Belgium",
+            "fr": "Belgique",
+            "nl": "België",
+            "zh-Hans": "比利时",
+            "zh-Hant": "比利時"
+        },
+        "languages": [
+            "nl",
+            "fr",
+            "de"
+        ]
+    },
+    {
+        "id": "BO",
+        "name": {
+            "en": "Bolivia",
+            "zh-Hans": "玻利维亚",
+            "zh-Hant": "玻利維亞",
+            "es": "Bolivia"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "BR",
+        "name": {
+            "en": "Brazil",
+            "pt": "Brasil",
+            "zh-Hans": "巴西",
+            "zh-Hant": "巴西"
+        },
+        "languages": [
+            "pt"
+        ]
+    },
+    {
+        "id": "CA",
+        "name": {
+            "en": "Canada",
+            "fr": "Canada",
+            "zh-Hans": "加拿大",
+            "zh-Hant": "加拿大"
+        },
+        "languages": [
+            "en",
+            "fr"
+        ]
+    },
+    {
+        "id": "CH",
+        "name": {
+            "de": "Schweiz",
+            "en": "Switzerland",
+            "fr": "Suisse",
+            "it": "Svizzera",
+            "rm": "Svizra",
+            "zh-Hans": "瑞士",
+            "zh-Hant": "瑞士"
+        },
+        "languages": [
+            "de",
+            "fr",
+            "it",
+            "rm"
+        ]
+    },
+    {
+        "id": "CL",
+        "name": {
+            "en": "Chile",
+            "es": "Chile",
+            "zh-Hans": "智利",
+            "zh-Hant": "智利"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "CN",
+        "name": {
+            "en": "China mainland",
+            "zh-Hans": "中国大陆",
+            "zh-Hant": "中國大陸"
+        },
+        "languages": [
+            "zh-Hans"
+        ]
+    },
+    {
+        "id": "DE",
+        "name": {
+            "en": "Germany",
+            "de": "Deutsche",
+            "zh-Hans": "德国",
+            "zh-Hant": "德國"
+        },
+        "languages": [
+            "de"
+        ]
+    },
+    {
+        "id": "DK",
+        "name": {
+            "en": "Denmark",
+            "da": "Danmark",
+            "zh-Hans": "丹麦",
+            "zh-Hant": "丹麥"
+        },
+        "languages": [
+            "da"
+        ]
+    },
+    {
+        "id": "DZ",
+        "name": {
+            "en": "Algeria",
+            "ar": "الجزائر",
+            "fr": "Algérie"
+        },
+        "languages": [
+            "ar",
+            "fr",
+            "en"
+        ]
+    },
+    {
+        "id": "EG",
+        "name": {
+            "en": "Egypt",
+            "ar": "مِصر",
+            "zh-Hans": "埃及",
+            "zh-Hant": "埃及"
+        },
+        "languages": [
+            "ar"
+        ]
+    },
+    {
+        "id": "ES",
+        "name": {
+            "en": "Spain",
+            "es": "España",
+            "zh-Hans": "西班牙",
+            "zh-Hant": "西班牙"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "FI",
+        "name": {
+            "en": "Finland",
+            "fi": "Suomi",
+            "sv": "Finland",
+            "zh-Hans": "芬兰",
+            "zh-Hant": "芬蘭"
+        },
+        "languages": [
+            "fi",
+            "sv"
+        ]
+    },
+    {
+        "id": "FR",
+        "name": {
+            "en": "France",
+            "fr": "France",
+            "zh-Hans": "法国",
+            "zh-Hant": "法國"
+        },
+        "languages": [
+            "fr"
+        ]
+    },
+    {
+        "id": "GB",
+        "name": {
+            "en": "Northern Ireland",
+            "zh-Hans": "北爱尔兰",
+            "zh-Hant": "北愛爾蘭",
+            "ga": "Tuaisceart Éireann"
+        },
+        "languages": [
+            "en",
+            "ga"
+        ]
+    },
+    {
+        "id": "GBENG",
+        "name": {
+            "en": "England",
+            "zh-Hans": "英格兰",
+            "zh-Hant": "英格蘭"
+        },
+        "languages": [
+            "en"
+        ]
+    },
+    {
+        "id": "GBSCT",
+        "name": {
+            "en": "Scotland",
+            "gd": "Alba",
+            "zh-Hans": "苏格兰",
+            "zh-Hant": "蘇格蘭"
+        },
+        "languages": [
+            "en",
+            "gd"
+        ]
+    },
+    {
+        "id": "GR",
+        "name": {
+            "en": "Greece",
+            "el": "Ελλάδα",
+            "zh-Hans": "希腊",
+            "zh-Hant": "希臘"
+        },
+        "languages": [
+            "el"
+        ]
+    },
+    {
+        "id": "HK",
+        "name": {
+            "en": "Hong Kong",
+            "zh-Hans": "香港",
+            "zh-Hant": "香港"
+        },
+        "languages": [
+            "zh-Hant",
+            "en"
+        ]
+    },
+    {
+        "id": "HR",
+        "name": {
+            "en": "Croatia",
+            "hr": "Hrvatska",
+            "zh-Hans": "克罗地亚",
+            "zh-Hant": "克羅埃西亞"
+        },
+        "languages": [
+            "hr"
+        ]
+    },
+    {
+        "id": "HU",
+        "name": {
+            "en": "Hungary",
+            "hu": "Magyarország",
+            "zh-Hans": "匈牙利",
+            "zh-Hant": "匈牙利"
+        },
+        "languages": [
+            "hu"
+        ]
+    },
+    {
+        "id": "ID",
+        "name": {
+            "en": "Indonesia",
+            "id": "Indonesia",
+            "zh-Hans": "印度尼西亚",
+            "zh-Hant": "印度尼西亞"
+        },
+        "languages": [
+            "id"
+        ]
+    },
+    {
+        "id": "IE",
+        "name": {
+            "en": "Ireland",
+            "ga": "Éire",
+            "zh-Hans": "爱尔兰",
+            "zh-Hant": "愛爾蘭"
+        },
+        "languages": [
+            "ga",
+            "en"
+        ]
+    },
+    {
+        "id": "IL",
+        "name": {
+            "en": "Israel",
+            "he": "ישראל",
+            "zh-Hans": "以色列",
+            "zh-Hant": "以色列"
+        },
+        "languages": [
+            "he"
+        ]
+    },
+    {
+        "id": "IN",
+        "name": {
+            "en": "India",
+            "hi": "भारत",
+            "zh-Hans": "印度",
+            "zh-Hant": "印度"
+        },
+        "languages": [
+            "hi",
+            "en"
+        ]
+    },
+    {
+        "id": "IR",
+        "name": {
+            "en": "Iran",
+            "fa": "ایران",
+            "zh-Hans": "伊朗",
+            "zh-Hant": "伊朗"
+        },
+        "languages": [
+            "fa"
+        ]
+    },
+    {
+        "id": "IT",
+        "name": {
+            "en": "Italy",
+            "it": "Italia",
+            "zh-Hans": "意大利",
+            "zh-Hant": "意大利"
+        },
+        "languages": [
+            "it"
+        ]
+    },
+    {
+        "id": "JP",
+        "name": {
+            "en": "Japan",
+            "ja": "日本",
+            "zh-Hans": "日本",
+            "zh-Hant": "日本"
+        },
+        "languages": [
+            "ja"
+        ]
+    },
+    {
+        "id": "KP",
+        "name": {
+            "en": "North Korea",
+            "zh-Hans": "朝鲜",
+            "zh-Hant": "北韓",
+            "ko": "조선민주주의인민공화국"
+        },
+        "languages": [
+            "ko"
+        ]
+    },
+    {
+        "id": "KR",
+        "name": {
+            "en": "South Korea",
+            "ko": "대한민국",
+            "zh-Hans": "韩国",
+            "zh-Hant": "南韓"
+        },
+        "languages": [
+            "ko"
+        ]
+    },
+    {
+        "id": "KZ",
+        "name": {
+            "en": "Kazakhstan",
+            "zh-Hans": "哈萨克斯坦",
+            "zh-Hant": "哈薩克",
+            "kk": "Қазақстан"
+        },
+        "languages": [
+            "kk"
+        ]
+    },
+    {
+        "id": "MO",
+        "name": {
+            "en": "Macao",
+            "pt": "Macau",
+            "zh-Hans": "澳门",
+            "zh-Hant": "澳門"
+        },
+        "languages": [
+            "zh-Hant",
+            "pt"
+        ]
+    },
+    {
+        "id": "MX",
+        "name": {
+            "en": "Mexico",
+            "es": "México",
+            "zh-Hans": "墨西哥",
+            "zh-Hant": "墨西哥"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "MY",
+        "name": {
+            "en": "Malaysia",
+            "ms": "Malaysia",
+            "zh-Hans": "马来西亚",
+            "zh-Hant": "馬來西亞"
+        },
+        "languages": [
+            "ms"
+        ]
+    },
+    {
+        "id": "NL",
+        "name": {
+            "en": "Netherlands",
+            "ko": "네덜란드",
+            "zh-Hans": "荷兰",
+            "zh-Hant": "荷蘭"
+        },
+        "languages": [
+            "nl"
+        ]
+    },
+    {
+        "id": "NO",
+        "name": {
+            "en": "Norway",
+            "no": "Norge",
+            "zh-Hans": "挪威",
+            "zh-Hant": "挪威"
+        },
+        "languages": [
+            "no"
+        ]
+    },
+    {
+        "id": "NZ",
+        "name": {
+            "en": "New Zealand",
+            "mi": "Aotearoa",
+            "zh-Hans": "新西兰",
+            "zh-Hant": "紐西蘭"
+        },
+        "languages": [
+            "en",
+            "mi"
+        ]
+    },
+    {
+        "id": "PA",
+        "name": {
+            "en": "Panama",
+            "zh-Hans": "巴拿马",
+            "zh-Hant": "巴拿馬",
+            "es": "Panamá"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "PE",
+        "name": {
+            "en": "Peru",
+            "es": "Perú",
+            "zh-Hans": "秘鲁",
+            "zh-Hant": "秘魯"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "PH",
+        "name": {
+            "en": "Philippines",
+            "fil": "Pilipinas",
+            "zh-Hans": "菲律宾",
+            "zh-Hant": "菲律賓"
+        },
+        "languages": [
+            "fil",
+            "en"
+        ]
+    },
+    {
+        "id": "PK",
+        "name": {
+            "en": "Pakistan",
+            "ur": "پاکستان",
+            "zh-Hans": "巴基斯坦",
+            "zh-Hant": "巴基斯坦"
+        },
+        "languages": [
+            "ur"
+        ]
+    },
+    {
+        "id": "PL",
+        "name": {
+            "en": "Poland",
+            "pl": "Polska",
+            "zh-Hans": "波兰",
+            "zh-Hant": "波蘭"
+        },
+        "languages": [
+            "pl"
+        ]
+    },
+    {
+        "id": "PT",
+        "name": {
+            "en": "Portugal",
+            "pt": "Portugal",
+            "zh-Hans": "葡萄牙",
+            "zh-Hant": "葡萄牙"
+        },
+        "languages": [
+            "pt"
+        ]
+    },
+    {
+        "id": "QA",
+        "name": {
+            "en": "Qatar",
+            "zh-Hans": "卡塔尔",
+            "zh-Hant": "卡達",
+            "ar": "قطر"
+        },
+        "languages": [
+            "ar"
+        ]
+    },
+    {
+        "id": "RO",
+        "name": {
+            "en": "Romania",
+            "ro": "România",
+            "zh-Hans": "罗马尼亚",
+            "zh-Hant": "羅馬尼亞"
+        },
+        "languages": [
+            "ro"
+        ]
+    },
+    {
+        "id": "RU",
+        "name": {
+            "en": "Russia",
+            "ru": "Россия",
+            "zh-Hans": "俄罗斯",
+            "zh-Hant": "俄羅斯"
+        },
+        "languages": [
+            "ru"
+        ]
+    },
+    {
+        "id": "SA",
+        "name": {
+            "en": "Saudi Arabia",
+            "ar": "المملكة العربية السعودية",
+            "zh-Hans": "沙特阿拉伯",
+            "zh-Hant": "沙地阿拉伯"
+        },
+        "languages": [
+            "ar"
+        ]
+    },
+    {
+        "id": "SE",
+        "name": {
+            "en": "Sweden",
+            "sv": "Sverige",
+            "zh-Hans": "瑞典",
+            "zh-Hant": "瑞典"
+        },
+        "languages": [
+            "sv"
+        ]
+    },
+    {
+        "id": "SG",
+        "name": {
+            "en": "Singapore",
+            "ms": "Singapura",
+            "ta": "சிங்கப்பூர்",
+            "zh-Hans": "新加坡",
+            "zh-Hant": "新加坡"
+        },
+        "languages": [
+            "en",
+            "ms",
+            "zh-Hans",
+            "ta"
+        ]
+    },
+    {
+        "id": "TH",
+        "name": {
+            "en": "Thailand",
+            "th": "ราชอาณาจักรไทย",
+            "zh-Hans": "泰国",
+            "zh-Hant": "泰國"
+        },
+        "languages": [
+            "th"
+        ]
+    },
+    {
+        "id": "TR",
+        "name": {
+            "en": "Turkey",
+            "tr": "Türkiye",
+            "zh-Hans": "土耳其",
+            "zh-Hant": "土耳其"
+        },
+        "languages": [
+            "tr"
+        ]
+    },
+    {
+        "id": "TW",
+        "name": {
+            "en": "Taiwan",
+            "zh-Hans": "台湾",
+            "zh-Hant": "台灣"
+        },
+        "languages": [
+            "zh-Hant"
+        ]
+    },
+    {
+        "id": "UA",
+        "name": {
+            "en": "Ukraine",
+            "uk": "Україна",
+            "zh-Hans": "乌克兰",
+            "zh-Hant": "烏克蘭"
+        },
+        "languages": [
+            "uk"
+        ]
+    },
+    {
+        "id": "UN",
+        "name": {
+            "en": "Customise",
+            "zh-Hans": "自定义",
+            "zh-Hant": "自訂"
+        },
+        "languages": [
+            "en"
+        ]
+    },
+    {
+        "id": "US",
+        "name": {
+            "en": "United States",
+            "zh-Hans": "美国",
+            "zh-Hant": "美國"
+        },
+        "languages": [
+            "en"
+        ]
+    },
+    {
+        "id": "UZ",
+        "name": {
+            "en": "Uzbekistan",
+            "uz": "O'zbekiston",
+            "zh-Hans": "乌兹别克斯坦",
+            "zh-Hant": "烏茲別克"
+        },
+        "languages": [
+            "uz"
+        ]
+    },
+    {
+        "id": "VE",
+        "name": {
+            "en": "Venezuela",
+            "es": "Venezuela",
+            "zh-Hans": "委内瑞拉",
+            "zh-Hant": "委內瑞拉"
+        },
+        "languages": [
+            "es"
+        ]
+    },
+    {
+        "id": "VN",
+        "name": {
+            "en": "Vietnam",
+            "vi": "Việt Nam",
+            "zh-Hans": "越南",
+            "zh-Hant": "越南"
+        },
+        "languages": [
+            "vi"
+        ]
+    }
+]

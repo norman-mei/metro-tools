@@ -1,0 +1,129 @@
+{
+    "header": {
+        "about": {
+            "title": "關於",
+            "rma": "地鐵線路圖放送機",
+            "railmapgen": "地鐵線路圖工具組專案",
+            "desc": "",
+            "contributors": "貢獻者",
+            "content1": "reflexion,allegretto,you",
+            "content2": "2024/02/21 於上海",
+            "contactUs": "聯絡我們",
+            "github": "項目倉庫",
+            "githubContent": "遇到任何問題？在這裡搜索或提出問題！",
+            "slack": "Slack 群組",
+            "slackContent": "在這些 Slack 頻道中聊天！"
+        },
+        "donation": {
+            "title": "捐贈",
+            "openCollective": "Open Collective",
+            "viaUSD": "通過 Paypal 或 Visa 卡以美元捐贈。",
+            "afdian": "愛發電",
+            "viaCNY": "通過支付寶或微信支付以人民幣捐贈。"
+        },
+        "open": {
+            "config": "導入項目",
+            "RMG": "導入原始RMG JSON",
+            "projectRMG": "從 RMG 項目導入",
+            "invalidType": "無效的文件類型！只接受從RMA匯出的檔案。",
+            "unknownError": "解析上傳文件時發生未知錯誤！請重試。"
+        },
+        "download": {
+            "config": "導出項目",
+            "image": "導出圖片",
+            "audio": "導出音頻",
+            "format": "格式",
+            "png": "PNG",
+            "svg": "SVG",
+            "scale": "比例",
+            "disabledScaleOptions": "由於瀏覽器的畫布限制，某些比例選項已被禁用。",
+            "disabledScaleOptionsWorkarounds": "可能的解決方法包括使用此命令行工具從 svg 生成圖片：",
+            "shareInfo1": "我將在分享此圖片時附加 ",
+            "shareInfo2": " 及其鏈接。",
+            "termsAndConditions": "條款與條件",
+            "termsAndConditionsInfo": "我同意 ",
+            "period": "。",
+            "confirm": "下載"
+        },
+        "settings": {
+            "title": "設置",
+            "crawl": {
+                "title": "走字螢幕",
+                "scale": "縮放比例"
+            },
+            "previewAudio": {
+                "title": "首選預覽語音",
+                "notModified": "使用風格偏好",
+                "shmetro-zh": "上海地鐵（普通話）",
+                "shmetro-en": "上海地鐵（英語）"
+            }
+        },
+        "audioTask": {
+            "title": "音頻任務",
+            "desc": "我們致力於生成最自然的報站廣播。為此，我們基於大量樣本進行了深度訓練。歡迎體驗由最新機器學習大模型提供的高品質廣播！",
+            "note1": "請注意目前僅提供上海風格的報站廣播。",
+            "note2": "由於算力限制，提交任務後請耐心等待，我們將盡力在7天內處理完畢。",
+            "note3": "請及時下載保存您的作品，我們僅承諾保存30天內的數據。",
+            "note4": "為確保最佳英文廣播，請在'station name pinyin'中使用清楚的站名。中文字符為可選。",
+            "audioNotSupported": "您的瀏覽器不支援音頻播放。推薦使用Chrome或Firefox瀏覽器。",
+            "loginFirst": "請先登入以使用大模型生成音頻。",
+            "topUp": "充值",
+            "table": {
+                "id": "ID",
+                "status": "狀態",
+                "createdAt": "創建時間",
+                "updatedAt": "更新時間",
+                "points": "點數",
+                "actions": "操作"
+            },
+            "report1": "生成的廣播有問題？",
+            "report2": "建立一個 GitHub 議題。",
+            "report3": "我們將在確認後全額返還點數。",
+            "freeInternet1": "我們相信自由開放的互聯網。您也可以 ",
+            "freeInternet2": "下載原始文本",
+            "freeInternet3": " 並在您喜歡的音頻提供商中使用 :)",
+            "redeem": {
+                "title": "點數兌換",
+                "desc": "您可以使用點數兌換音頻生成服務。CDKey可在以下平台購買：",
+                "input": "在此輸入您的CDKey：",
+                "redeem": "兌換"
+            },
+            "new": {
+                "title": "新任務",
+                "content1": "這將從當前項目創建一個新任務。",
+                "content2": "預計消耗的點數為 ",
+                "content3": "實際使用的點數以服務器為準。",
+                "content4": "您可以在處理前取消任務以獲得全額的點數回饋。",
+                "create": "創建新任務"
+            }
+        }
+    },
+
+    "stationVariants": {
+        "title": "車站變體",
+        "baseVariant": "基礎變體"
+    },
+
+    "welcome": {
+        "title": "歡迎來到地鐵路綫圖放送機",
+        "desc": "在這裡，您可以製作專屬的地鐵路綫走馬燈與報站廣播！",
+        "steps": "🚇 簡單三步驟完成",
+        "step1": "從右上角匯入「地鐵路綫圖產生器」的作品",
+        "step2": "調整開門方向等細節",
+        "step3": "點擊右上角「播放」預覽報站音",
+        "start": "我們已準備好示例作品，關閉此視窗即可開始體驗！ :)"
+    },
+
+    "import": {
+        "title": "匯入RMG作品",
+        "goodToGo": "準備完成！立即匯入此RMG作品。",
+        "routes": "選擇要匯入的路線",
+        "services": "選擇要匯入的班次類型",
+        "service": {
+            "local": "普通車",
+            "express": "快速車",
+            "direct": "直達車"
+        },
+        "import": "匯入"
+    }
+}

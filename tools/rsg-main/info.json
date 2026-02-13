@@ -1,0 +1,6 @@
+{
+    "component": "rsg",
+    "version": "9.9.9",
+    "environment": "DEV",
+    "instance": "localhost"
+}

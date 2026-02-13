@@ -21,7 +21,7 @@ export default function CreditsContent({ showBackLink = true }: { showBackLink?:
       <header className="space-y-4">
         {showBackLink && (
           <Link
-            href="/"
+            href="/metro-memory"
             className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent-600)] underline decoration-[var(--accent-100)] underline-offset-4 transition hover:text-[var(--accent-700)] hover:decoration-[var(--accent-400)] dark:text-[var(--accent-300)] dark:decoration-[var(--accent-400)] dark:hover:text-[var(--accent-200)]"
           >
             <span aria-hidden="true">←</span> {t('backToMain')}

@@ -1,0 +1,852 @@
+{
+  "version": 1,
+  "style": "shmetro",
+  "baseVariants": {
+    "arr": {
+      "shmetro-wuu": {
+        "terminal": "莘庄",
+        "terminalPinyin": "莘庄",
+        "doorDirection": "left"
+      },
+      "shmetro-zh": {
+        "terminal": "莘庄",
+        "terminalPinyin": "莘庄",
+        "doorDirection": "left"
+      },
+      "shmetro-en": {
+        "terminal": "Xinzhuang",
+        "terminalPinyin": "Xinzhuang",
+        "doorDirection": "left"
+      }
+    },
+    "dep": {
+      "shmetro-wuu": {
+        "terminal": "莘庄",
+        "terminalPinyin": "莘庄",
+        "nextDoorDirection": "left",
+        "lineName": "1号线",
+        "lineNamePinyin": "1号线",
+        "noteLastTrain": true,
+        "loop": "none",
+        "loopTerminal": false,
+        "service": "local"
+      },
+      "shmetro-zh": {
+        "terminal": "莘庄",
+        "terminalPinyin": "莘庄",
+        "nextDoorDirection": "left",
+        "lineName": "1号线",
+        "lineNamePinyin": "1号线",
+        "noteLastTrain": true,
+        "loop": "none",
+        "loopTerminal": false,
+        "service": "local"
+      },
+      "shmetro-en": {
+        "terminal": "Xinzhuang",
+        "terminalPinyin": "Xinzhuang",
+        "nextDoorDirection": "left",
+        "lineName": "Line 1",
+        "lineNamePinyin": "Line 1",
+        "service": "local"
+      }
+    },
+    "mdw": {
+      "shmetro-wuu": {
+        "caution": false
+      },
+      "shmetro-zh": {
+        "caution": false
+      },
+      "shmetro-en": {}
+    }
+  },
+  "stations": {
+    "sd6y": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "汉中路",
+          "nextPinyin": "汉中路",
+          "int": [
+            [
+              "12号线",
+              "13号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "汉中路",
+          "nextPinyin": "汉中路",
+          "int": [
+            [
+              "12号线",
+              "13号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Hanzhong Road",
+          "nextPinyin": "汉中 Road",
+          "int": [
+            [
+              "Line 12",
+              "Line 13"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "qnbj": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "汉中路",
+          "namePinyin": "汉中路"
+        },
+        "shmetro-zh": {
+          "name": "汉中路",
+          "namePinyin": "汉中路"
+        },
+        "shmetro-en": {
+          "name": "Hanzhong Road",
+          "namePinyin": "汉中 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "新闸路",
+          "nextPinyin": "新闸路",
+          "int": []
+        },
+        "shmetro-zh": {
+          "next": "新闸路",
+          "nextPinyin": "新闸路",
+          "int": []
+        },
+        "shmetro-en": {
+          "next": "XinZha Road",
+          "nextPinyin": "新闸 Road",
+          "int": [],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "7x7k": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "新闸路",
+          "namePinyin": "新闸路"
+        },
+        "shmetro-zh": {
+          "name": "新闸路",
+          "namePinyin": "新闸路"
+        },
+        "shmetro-en": {
+          "name": "XinZha Road",
+          "namePinyin": "新闸 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "人民广场",
+          "nextPinyin": "人民广场",
+          "int": [
+            [
+              "2号线",
+              "8号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "人民广场",
+          "nextPinyin": "人民广场",
+          "int": [
+            [
+              "2号线",
+              "8号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "People's Square",
+          "nextPinyin": "People's Square",
+          "int": [
+            [
+              "Line 2",
+              "Line 8"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "kaxg": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "人民广场",
+          "namePinyin": "人民广场"
+        },
+        "shmetro-zh": {
+          "name": "人民广场",
+          "namePinyin": "人民广场"
+        },
+        "shmetro-en": {
+          "name": "People's Square",
+          "namePinyin": "People's Square"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "一大会址·黄陂南路",
+          "nextPinyin": "一大会址·黄陂南路",
+          "int": [
+            [
+              "14号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "一大会址·黄陂南路",
+          "nextPinyin": "一大会址·黄陂南路",
+          "int": [
+            [
+              "14号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Site of the First CPC National Congress · South Huangpi Road",
+          "nextPinyin": "Site of the First CPC National Congress · South 黄陂 Road",
+          "int": [
+            [
+              "Line 14"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "wbtv": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "一大会址·黄陂南路",
+          "namePinyin": "一大会址·黄陂南路"
+        },
+        "shmetro-zh": {
+          "name": "一大会址·黄陂南路",
+          "namePinyin": "一大会址·黄陂南路"
+        },
+        "shmetro-en": {
+          "name": "Site of the First CPC National Congress · South Huangpi Road",
+          "namePinyin": "Site of the First CPC National Congress · South 黄陂 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "陕西南路",
+          "nextPinyin": "陕西南路",
+          "int": [
+            [
+              "10号线",
+              "12号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "陕西南路",
+          "nextPinyin": "陕西南路",
+          "int": [
+            [
+              "10号线",
+              "12号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "South Shaanxi Road",
+          "nextPinyin": "South 陕西 Road",
+          "int": [
+            [
+              "Line 10",
+              "Line 12"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "jjh7": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "陕西南路",
+          "namePinyin": "陕西南路"
+        },
+        "shmetro-zh": {
+          "name": "陕西南路",
+          "namePinyin": "陕西南路"
+        },
+        "shmetro-en": {
+          "name": "South Shaanxi Road",
+          "namePinyin": "South 陕西 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "常熟路",
+          "nextPinyin": "常熟路",
+          "int": [
+            [
+              "7号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "常熟路",
+          "nextPinyin": "常熟路",
+          "int": [
+            [
+              "7号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Changshu Road",
+          "nextPinyin": "常熟 Road",
+          "int": [
+            [
+              "Line 7"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "h3vs": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "常熟路",
+          "namePinyin": "常熟路"
+        },
+        "shmetro-zh": {
+          "name": "常熟路",
+          "namePinyin": "常熟路"
+        },
+        "shmetro-en": {
+          "name": "Changshu Road",
+          "namePinyin": "常熟 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "衡山路",
+          "nextPinyin": "衡山路",
+          "int": []
+        },
+        "shmetro-zh": {
+          "next": "衡山路",
+          "nextPinyin": "衡山路",
+          "int": []
+        },
+        "shmetro-en": {
+          "next": "Hengshan Road",
+          "nextPinyin": "衡山 Road",
+          "int": [],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "lcgp": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "衡山路",
+          "namePinyin": "衡山路"
+        },
+        "shmetro-zh": {
+          "name": "衡山路",
+          "namePinyin": "衡山路"
+        },
+        "shmetro-en": {
+          "name": "Hengshan Road",
+          "namePinyin": "衡山 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "徐家汇",
+          "nextPinyin": "徐家汇",
+          "int": [
+            [
+              "9号线",
+              "11号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "徐家汇",
+          "nextPinyin": "徐家汇",
+          "int": [
+            [
+              "9号线",
+              "11号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Xujiahui",
+          "nextPinyin": "徐家汇",
+          "int": [
+            [
+              "Line 9",
+              "Line 11"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "j2kn": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "徐家汇",
+          "namePinyin": "徐家汇"
+        },
+        "shmetro-zh": {
+          "name": "徐家汇",
+          "namePinyin": "徐家汇"
+        },
+        "shmetro-en": {
+          "name": "Xujiahui",
+          "namePinyin": "徐家汇"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "上海体育馆",
+          "nextPinyin": "上海体育馆",
+          "int": [
+            [
+              "4号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "上海体育馆",
+          "nextPinyin": "上海体育馆",
+          "int": [
+            [
+              "4号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Shanghai Indoor Stadium",
+          "nextPinyin": "Shanghai Indoor Stadium",
+          "int": [
+            [
+              "Line 4"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "k9k5": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "上海体育馆",
+          "namePinyin": "上海体育馆"
+        },
+        "shmetro-zh": {
+          "name": "上海体育馆",
+          "namePinyin": "上海体育馆"
+        },
+        "shmetro-en": {
+          "name": "Shanghai Indoor Stadium",
+          "namePinyin": "Shanghai Indoor Stadium"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "漕宝路",
+          "nextPinyin": "漕宝路",
+          "int": [
+            [
+              "12号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "漕宝路",
+          "nextPinyin": "漕宝路",
+          "int": [
+            [
+              "12号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Caobao Road",
+          "nextPinyin": "漕宝 Road",
+          "int": [
+            [
+              "Line 12"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "x9gu": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "漕宝路",
+          "namePinyin": "漕宝路"
+        },
+        "shmetro-zh": {
+          "name": "漕宝路",
+          "namePinyin": "漕宝路"
+        },
+        "shmetro-en": {
+          "name": "Caobao Road",
+          "namePinyin": "漕宝 Road"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "上海南站",
+          "nextPinyin": "上海南站",
+          "int": [
+            [
+              "3号线",
+              "15号线"
+            ],
+            [
+              "金山铁路"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "上海南站",
+          "nextPinyin": "上海南站",
+          "int": [
+            [
+              "3号线",
+              "15号线"
+            ],
+            [
+              "金山铁路"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Shanghai South Railway Station",
+          "nextPinyin": "Shanghai South Railway Station",
+          "int": [
+            [
+              "Line 3",
+              "Line 15"
+            ],
+            [
+              "Jingshan Railway"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "srpy": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "上海南站",
+          "namePinyin": "上海南站"
+        },
+        "shmetro-zh": {
+          "name": "上海南站",
+          "namePinyin": "上海南站"
+        },
+        "shmetro-en": {
+          "name": "Shanghai South Railway Station",
+          "namePinyin": "Shanghai South Railway Station"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "锦江乐园",
+          "nextPinyin": "锦江乐园",
+          "int": []
+        },
+        "shmetro-zh": {
+          "next": "锦江乐园",
+          "nextPinyin": "锦江乐园",
+          "int": []
+        },
+        "shmetro-en": {
+          "next": "JinJiang Park",
+          "nextPinyin": "锦江 Park",
+          "int": [],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "jsat": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "锦江乐园",
+          "namePinyin": "锦江乐园"
+        },
+        "shmetro-zh": {
+          "name": "锦江乐园",
+          "namePinyin": "锦江乐园"
+        },
+        "shmetro-en": {
+          "name": "JinJiang Park",
+          "namePinyin": "锦江 Park"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "莲花路",
+          "nextPinyin": "莲花路",
+          "int": []
+        },
+        "shmetro-zh": {
+          "next": "莲花路",
+          "nextPinyin": "莲花路",
+          "int": []
+        },
+        "shmetro-en": {
+          "next": "Lianhua Road ",
+          "nextPinyin": "莲花 Road ",
+          "int": [],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "qzjx": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "莲花路",
+          "namePinyin": "莲花路"
+        },
+        "shmetro-zh": {
+          "name": "莲花路",
+          "namePinyin": "莲花路"
+        },
+        "shmetro-en": {
+          "name": "Lianhua Road ",
+          "namePinyin": "莲花 Road "
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "外环路",
+          "nextPinyin": "外环路",
+          "int": []
+        },
+        "shmetro-zh": {
+          "next": "外环路",
+          "nextPinyin": "外环路",
+          "int": []
+        },
+        "shmetro-en": {
+          "next": "Waihuanlu",
+          "nextPinyin": "外环路",
+          "int": [],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "l1mz": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "外环路",
+          "namePinyin": "外环路"
+        },
+        "shmetro-zh": {
+          "name": "外环路",
+          "namePinyin": "外环路"
+        },
+        "shmetro-en": {
+          "name": "Waihuanlu",
+          "namePinyin": "外环路"
+        }
+      },
+      "dep": {
+        "shmetro-wuu": {
+          "next": "莘庄",
+          "nextPinyin": "莘庄",
+          "int": [
+            [
+              "5号线"
+            ]
+          ]
+        },
+        "shmetro-zh": {
+          "next": "莘庄",
+          "nextPinyin": "莘庄",
+          "int": [
+            [
+              "5号线"
+            ]
+          ]
+        },
+        "shmetro-en": {
+          "next": "Xinzhuang",
+          "nextPinyin": "莘庄",
+          "int": [
+            [
+              "Line 5"
+            ]
+          ],
+          "noteLastTrain": false
+        }
+      }
+    },
+    "iwf6": {
+      "mdw": {
+        "shmetro-wuu": {},
+        "shmetro-zh": {},
+        "shmetro-en": {}
+      },
+      "arr": {
+        "shmetro-wuu": {
+          "name": "莘庄",
+          "namePinyin": "莘庄"
+        },
+        "shmetro-zh": {
+          "name": "莘庄",
+          "namePinyin": "莘庄"
+        },
+        "shmetro-en": {
+          "name": "Xinzhuang",
+          "namePinyin": "莘庄"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "sd6y": {
+      "name": "上海火车站"
+    },
+    "qnbj": {
+      "name": "汉中路"
+    },
+    "7x7k": {
+      "name": "新闸路"
+    },
+    "kaxg": {
+      "name": "人民广场"
+    },
+    "wbtv": {
+      "name": "一大会址·黄陂南路"
+    },
+    "jjh7": {
+      "name": "陕西南路"
+    },
+    "h3vs": {
+      "name": "常熟路"
+    },
+    "lcgp": {
+      "name": "衡山路"
+    },
+    "j2kn": {
+      "name": "徐家汇"
+    },
+    "k9k5": {
+      "name": "上海体育馆"
+    },
+    "x9gu": {
+      "name": "漕宝路"
+    },
+    "srpy": {
+      "name": "上海南站"
+    },
+    "jsat": {
+      "name": "锦江乐园"
+    },
+    "qzjx": {
+      "name": "莲花路"
+    },
+    "l1mz": {
+      "name": "外环路"
+    },
+    "iwf6": {
+      "name": "莘庄"
+    }
+  }
+}

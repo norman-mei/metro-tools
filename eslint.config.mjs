@@ -6,6 +6,9 @@ export default [
     ignores: [
       '**/.next/**',
       '**/node_modules/**',
+      'tools/**',
+      'android/**',
+      'mobile/**',
       'metro-memory-old/**',
       '**/build_output.txt',
       '**/lint_output*.txt',

@@ -26,7 +26,7 @@ const AchievementToast = ({
   onClose,
   onDontShowAgain,
 }: AchievementToastProps) => {
-  const achievementsHref = `/?tab=achievements&city=${encodeURIComponent(slug)}`
+  const achievementsHref = `/metro-memory?tab=achievements&city=${encodeURIComponent(slug)}`
 
   useEffect(() => {
     if (!open) return

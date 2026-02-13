@@ -257,7 +257,7 @@ export default function AdRecoveryLauncher({ flow }: { flow: FlowMode }) {
 
           {state === 'verified' && (
             <Link
-              href="/"
+              href="/metro-memory"
               className="rounded-full border border-emerald-300 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-700 transition hover:bg-emerald-100 dark:border-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-200 dark:hover:bg-emerald-900/50"
             >
               Return to Metro Memory

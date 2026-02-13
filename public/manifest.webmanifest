@@ -1,6 +1,6 @@
 {
-  "name": "Metro Memory",
-  "short_name": "MetroMemory",
+  "name": "Metro Tools",
+  "short_name": "MetroTools",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",

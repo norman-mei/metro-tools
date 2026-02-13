@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TransitGuesser Remixed</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Mapbox GL JS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+
+    <!-- Babel for in-browser transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <style>
+      /* Custom styles that are hard to replicate with Tailwind or for overrides */
+      body {
+        background-color: #0f172a; /* slate-900 */
+        color: #f8fafc; /* slate-50 */
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+      }
+      /* Default Mapbox marker style override */
+      .mapboxgl-marker svg {
+        fill: #3b82f6; /* blue-500 */
+        stroke: white;
+        stroke-width: 2px;
+        width: 24px;
+        height: 24px;
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+      }
+      .mapboxgl-marker-red svg {
+        fill: #ef4444; /* red-500 */
+      }
+      /* Custom class for the diamond-shaped 'express' train badge */
+      .express-diamond {
+        transform: rotate(45deg);
+      }
+      .express-diamond > span {
+        transform: rotate(-45deg);
+      }
+      /* Make table scrollable on smaller screens */
+      .table-container {
+        display: block;
+        max-height: 75vh;
+        overflow-y: auto;
+        border: 1px solid #334155; /* slate-700 */
+        border-radius: 0.5rem;
+      }
+      table thead th {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #1e293b; /* slate-800 */
+      }
+    </style>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script type="text/babel" data-type="module" data-presets="react">
+        import React, { useState, useEffect, StrictMode } from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';
+        import { createRoot } from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/client/+esm';
+        import { HashRouter, Routes, Route, Link, useParams, useNavigate } from 'https://cdn.jsdelivr.net/npm/react-router-dom@6.30.1/+esm';
+        import { Map, Marker, Source, Layer, MapProvider, useMap } from 'https://cdn.jsdelivr.net/npm/react-map-gl@8.1.0/+esm';
+
+        function sampleSize(array, size) {
+            if (!Array.isArray(array)) return [];
+            const copy = array.slice();
+            const sampleCount = Math.min(size, copy.length);
+            for (let i = copy.length - 1; i > 0; i--) {
+                const swapIndex = Math.floor(Math.random() * (i + 1));
+                [copy[i], copy[swapIndex]] = [copy[swapIndex], copy[i]];
+            }
+            return copy.slice(0, sampleCount);
+        }
+
+        function sortedLastIndex(array, value) {
+            let low = 0;
+            let high = array.length;
+            while (low < high) {
+                const mid = Math.floor((low + high) / 2);
+                if (value < array[mid]) {
+                    high = mid;
+                } else {
+                    low = mid + 1;
+                }
+            }
+            return low;
+        }
+
+        function repeatString(str, count) {
+            return (str || "").repeat(Math.max(0, count));
+        }
+
+        function fromPairs(pairs) {
+            return Object.fromEntries(pairs || []);
+        }
+
+        /*******************************************************************************
+         * TRANSITGUESSER REMIXED - SINGLE FILE EDITION
+         *
+         * This file contains the entire React application, bundled into a single
+         * HTML file for portability.
+         *
+         * NOTE: You MUST replace 'YOUR_MAPBOX_ACCESS_TOKEN_HERE' below with your
+         * actual Mapbox access token for the maps to work.
+         *******************************************************************************/
+
+        // === CONFIGURATION ==========================================================
+        const APP_CONFIG = {
+            MAPBOX_TOKEN: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE',
+            OPERATOR: 'mta',
+            SENTRY_DSN: null,
+            FIREBASE_ENABLED: 'no',
+            FIREBASE_CONFIG: {},
+        };
+
+        if (APP_CONFIG.MAPBOX_TOKEN === 'pk.eyJ1Ijoia2lya2xhbmR3YXRlcmJvdCIsImEiOiJjbTY3YzA5bXYwMWlwMmtvZ2V5OTNpYTBlIn0.eQH5_U0kjIVYq-a64S3xwQ') {
+            alert('Please add your Mapbox Access Token to the APP_CONFIG object in the script tag.');
+        }
+        mapboxgl.accessToken = APP_CONFIG.MAPBOX_TOKEN;
+
+        // === HELPER COMPONENTS & HOOKS ==============================================
+        
+        function FadeIn({ children, duration = 300, delay = 0 }) {
+            const [isMounted, setIsMounted] = useState(false);
+            useEffect(() => {
+                const timeoutId = setTimeout(() => setIsMounted(true), delay);
+                return () => clearTimeout(timeoutId);
+            }, [delay]);
+
+            return (
+                <div style={{ transition: `opacity ${duration}ms, transform ${duration}ms`, opacity: isMounted ? 1 : 0, transform: isMounted ? 'translateY(0)' : 'translateY(10px)' }}>
+                    {children}
+                </div>
+            );
+        }
+
+        function AnimatedNumber({ value }) {
+            const [currentValue, setCurrentValue] = useState(0);
+            
+            useEffect(() => {
+                let start = currentValue;
+                const end = value;
+                if (start === end) return;
+
+                let startTime = null;
+                const animationDuration = 500; // ms
+
+                const animation = (currentTime) => {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const progress = Math.min(timeElapsed / animationDuration, 1);
+                    const nextValue = start + (end - start) * progress;
+
+                    setCurrentValue(nextValue);
+
+                    if (timeElapsed < animationDuration) {
+                        requestAnimationFrame(animation);
+                    } else {
+                        setCurrentValue(end);
+                    }
+                };
+
+                requestAnimationFrame(animation);
+
+            }, [value]);
+
+            return <span>{Math.round(currentValue).toLocaleString()}</span>;
+        }
+
+        // === ORIGINAL FILE: operators/types.ts & operators/mta/types.ts =============
+        const Operator = {
+          MTA: "mta",
+        };
+
+        const MtaTrunkLine = {
+          EIGHTH_AVENUE_IND: "eightInd",
+          SIXTH_AVENUE_IND: "sixthInd",
+          CROSSTOWN_IND: "crossInd",
+          CANARSIE_BMT: "canarsie",
+          NASSAU_BMT: "nassau",
+          BROADWAY_BMT: "bwayBmt",
+          BROADWAY_IRT: "bwayIrt",
+          LEXINGTON_IRT: "lex",
+          FLUSHING_IRT: "flushing",
+          SHUTTLES: "s",
+        };
+
+        const MtaLineName = {
+          A: "A", C: "C", E: "E", B: "B", D: "D", F: "F", F_EXPRESS: "F Express", M: "M", G: "G", L: "L", J: "J", Z: "Z", N: "N", Q: "Q", R: "R", W: "W", ONE: "1", TWO: "2", THREE: "3", FOUR: "4", FIVE: "5", SIX: "6", SIX_EXPRESS: "6 Express", SEVEN: "7", SEVEN_EXPRESS: "7 Express", S: "S",
+        };
+        
+        // === ORIGINAL FILE: firebase.ts =============================================
+        // Firebase is disabled in this version for simplicity, but the hooks are kept.
+        const FirebaseCollection = {
+          GUESSES: "guesses",
+          SCORES: "scores",
+        };
+
+        function tryToSaveFirebaseDoc(collectionName, doc) {
+          if (APP_CONFIG.FIREBASE_ENABLED !== 'yes') return;
+          console.log(`Firebase is disabled. Would have saved to ${collectionName}:`, doc);
+        }
+
+        // === ORIGINAL FILE: game_logic.ts ===========================================
+        function distanceInMeters(a, b) {
+          const [lng1, lat1] = a;
+          const [lng2, lat2] = b;
+          const a1 = (lat1 * Math.PI) / 180;
+          const a2 = (lat2 * Math.PI) / 180;
+          const deltaA1A2 = ((lat2 - lat1) * Math.PI) / 180;
+          const deltaLambda = ((lng2 - lng1) * Math.PI) / 180;
+          const res = Math.sin(deltaA1A2 / 2) ** 2 + Math.cos(a1) * Math.cos(a2) * Math.sin(deltaLambda / 2) ** 2;
+          const c = 2 * Math.atan2(Math.sqrt(res), Math.sqrt(1 - res));
+          return 6371e3 * c;
+        }
+
+        function calculateScore(guess, station, zeroPointDistanceInMeters) {
+          let point = null;
+          let score = 0;
+          for (const coord of station.coordinates) {
+            let d = distanceInMeters(guess, coord);
+            let curScore = Math.round((5000 / zeroPointDistanceInMeters ** 2) * Math.max(zeroPointDistanceInMeters - d, 0) ** 2);
+            if (curScore >= score) {
+              score = curScore;
+              point = coord;
+            }
+          }
+          return { score, point: point };
+        }
+
+        function makeGame(config) {
+          return {
+            guesses: [null, null, null, null, null],
+            stations: sampleSize(config.stations, 5),
+          };
+        }
+
+        function guess(game, guess, turn) {
+          const newGuesses = [...game.guesses];
+          newGuesses[turn] = guess;
+          return {
+            guesses: newGuesses,
+            stations: game.stations,
+          };
+        }
+
+        // === ORIGINAL FILE: map_style.ts ============================================
+        const mapStyle = {
+          version: 8,
+          name: "Basic",
+          metadata: { "mapbox:autocomposite": true },
+          sources: {
+            transit: { url: "mapbox://mapbox.transit-v2", type: "vector" },
+            mapbox: { url: "mapbox://mapbox.mapbox-streets-v7", type: "vector" },
+          },
+          sprite: "mapbox://sprites/mapbox/basic-v8",
+          glyphs: "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+          layers: [
+            { id: "background", type: "background", paint: { "background-color": "#475569" }, interactive: true },
+            { id: "landuse_park", type: "fill", source: "mapbox", "source-layer": "landuse", filter: ["==", "class", "park"], paint: { "fill-color": "#334155" }, interactive: true },
+            { id: "grass", type: "fill", source: "mapbox", "source-layer": "landuse", filter: ["==", "class", "grass"], paint: { "fill-color": "#3a4a5f" }, interactive: true },
+            { id: "cemetery", type: "fill", source: "mapbox", "source-layer": "landuse", filter: ["==", "class", "cemetery"], paint: { "fill-color": "#415164" }, interactive: true },
+            { id: "industrial", type: "fill", source: "mapbox", "source-layer": "landuse", filter: ["==", "class", "industrial"], paint: { "fill-color": "#415164" }, interactive: true },
+            { id: "landuse_national_park", type: "fill", source: "mapbox", "source-layer": "landuse_overlay", filter: ["==", "class", "national_park"], paint: { "fill-color": "#334155" }, interactive: true },
+            { id: "water", type: "fill", source: "mapbox", "source-layer": "water", paint: { "fill-color": "#0f172a" }, interactive: true },
+          ],
+        };
+
+        // === ORIGINAL FILE: operators/mta/data.ts ===================================
+        // This is a massive data file. It will be defined here.
+        const { lines: mtaDataLines, linesByTrunkLine: mtaDataLinesByTrunkLine, stations: mtaDataStations, stationGuessData: mtaDataStationGuessData } = (() => {
+          const lines = { [MtaLineName.A]: { line: MtaLineName.A, displayName: "A", trunkLine: MtaTrunkLine.EIGHTH_AVENUE_IND }, [MtaLineName.C]: { line: MtaLineName.C, displayName: "C", trunkLine: MtaTrunkLine.EIGHTH_AVENUE_IND }, [MtaLineName.E]: { line: MtaLineName.E, displayName: "E", trunkLine: MtaTrunkLine.EIGHTH_AVENUE_IND }, [MtaLineName.B]: { line: MtaLineName.B, displayName: "B", trunkLine: MtaTrunkLine.SIXTH_AVENUE_IND }, [MtaLineName.D]: { line: MtaLineName.D, displayName: "D", trunkLine: MtaTrunkLine.SIXTH_AVENUE_IND }, [MtaLineName.F]: { line: MtaLineName.F, displayName: "F", trunkLine: MtaTrunkLine.SIXTH_AVENUE_IND }, [MtaLineName.F_EXPRESS]: { line: MtaLineName.F_EXPRESS, displayName: "F", trunkLine: MtaTrunkLine.SIXTH_AVENUE_IND }, [MtaLineName.M]: { line: MtaLineName.M, displayName: "M", trunkLine: MtaTrunkLine.SIXTH_AVENUE_IND }, [MtaLineName.G]: { line: MtaLineName.G, displayName: "G", trunkLine: MtaTrunkLine.CROSSTOWN_IND }, [MtaLineName.L]: { line: MtaLineName.L, displayName: "L", trunkLine: MtaTrunkLine.CANARSIE_BMT }, [MtaLineName.J]: { line: MtaLineName.J, displayName: "J", trunkLine: MtaTrunkLine.NASSAU_BMT }, [MtaLineName.Z]: { line: MtaLineName.Z, displayName: "Z", trunkLine: MtaTrunkLine.NASSAU_BMT }, [MtaLineName.N]: { line: MtaLineName.N, displayName: "N", trunkLine: MtaTrunkLine.BROADWAY_BMT }, [MtaLineName.Q]: { line: MtaLineName.Q, displayName: "Q", trunkLine: MtaTrunkLine.BROADWAY_BMT }, [MtaLineName.R]: { line: MtaLineName.R, displayName: "R", trunkLine: MtaTrunkLine.BROADWAY_BMT }, [MtaLineName.W]: { line: MtaLineName.W, displayName: "W", trunkLine: MtaTrunkLine.BROADWAY_BMT }, [MtaLineName.ONE]: { line: MtaLineName.ONE, displayName: "1", trunkLine: MtaTrunkLine.BROADWAY_IRT }, [MtaLineName.TWO]: { line: MtaLineName.TWO, displayName: "2", trunkLine: MtaTrunkLine.BROADWAY_IRT }, [MtaLineName.THREE]: { line: MtaLineName.THREE, displayName: "3", trunkLine: MtaTrunkLine.BROADWAY_IRT }, [MtaLineName.FOUR]: { line: MtaLineName.FOUR, displayName: "4", trunkLine: MtaTrunkLine.LEXINGTON_IRT }, [MtaLineName.FIVE]: { line: MtaLineName.FIVE, displayName: "5", trunkLine: MtaTrunkLine.LEXINGTON_IRT }, [MtaLineName.SIX]: { line: MtaLineName.SIX, displayName: "6", trunkLine: MtaTrunkLine.LEXINGTON_IRT }, [MtaLineName.SIX_EXPRESS]: { line: MtaLineName.SIX_EXPRESS, displayName: "6", trunkLine: MtaTrunkLine.LEXINGTON_IRT }, [MtaLineName.SEVEN]: { line: MtaLineName.SEVEN, displayName: "7", trunkLine: MtaTrunkLine.FLUSHING_IRT }, [MtaLineName.SEVEN_EXPRESS]: { line: MtaLineName.SEVEN_EXPRESS, displayName: "7", trunkLine: MtaTrunkLine.FLUSHING_IRT }, [MtaLineName.S]: { line: MtaLineName.S, displayName: "S", trunkLine: MtaTrunkLine.SHUTTLES } };
+          const linesByTrunkLine = { [MtaTrunkLine.EIGHTH_AVENUE_IND]: [lines[MtaLineName.A], lines[MtaLineName.C], lines[MtaLineName.E]], [MtaTrunkLine.SHUTTLES]: [lines[MtaLineName.S]], [MtaTrunkLine.SIXTH_AVENUE_IND]: [lines[MtaLineName.B], lines[MtaLineName.D], lines[MtaLineName.F], lines[MtaLineName.F_EXPRESS], lines[MtaLineName.M]], [MtaTrunkLine.CROSSTOWN_IND]: [lines[MtaLineName.G]], [MtaTrunkLine.CANARSIE_BMT]: [lines[MtaLineName.L]], [MtaTrunkLine.NASSAU_BMT]: [lines[MtaLineName.J], lines[MtaLineName.Z]], [MtaTrunkLine.BROADWAY_BMT]: [lines[MtaLineName.N], lines[MtaLineName.Q], lines[MtaLineName.R], lines[MtaLineName.W]], [MtaTrunkLine.BROADWAY_IRT]: [lines[MtaLineName.ONE], lines[MtaLineName.TWO], lines[MtaLineName.THREE]], [MtaTrunkLine.LEXINGTON_IRT]: [lines[MtaLineName.FOUR], lines[MtaLineName.FIVE], lines[MtaLineName.SIX], lines[MtaLineName.SIX_EXPRESS]], [MtaTrunkLine.FLUSHING_IRT]: [lines[MtaLineName.SEVEN], lines[MtaLineName.SEVEN_EXPRESS]] };
+          const stations = [ { lines: [lines[MtaLineName.FOUR], lines[MtaLineName.SIX], lines[MtaLineName.SIX_EXPRESS]], name: "Astor Pl", coordinates: [[-73.99106999861966, 40.73005400028978]] }, { lines: [lines[MtaLineName.ONE], lines[MtaLineName.TWO]], name: "50th St", coordinates: [[-73.98384899986625, 40.76172799961419]] }, { lines: [lines[MtaLineName.FOUR], lines[MtaLineName.TWO], lines[MtaLineName.THREE]], name: "Bergen St", coordinates: [[-73.97499915116808, 40.68086213682956]] }, /* ... A VERY LARGE AMOUNT OF STATION DATA ... */ { lines: [ lines[MtaLineName.SEVEN], lines[MtaLineName.SEVEN_EXPRESS]], name: "34th St - Hudson Yards", coordinates: [[-74.00219709442206, 40.75544635961596]]}, { lines: [lines[MtaLineName.Q]], name: "72nd St", coordinates: [[-73.95836178682246, 40.76880251014895]] }, { lines: [lines[MtaLineName.Q]], name: "86th St", coordinates: [[-73.95177090964917, 40.77786104333163]] }, { lines: [lines[MtaLineName.Q]], name: "96th St", coordinates: [[-73.9470660219183, 40.784236650177654]] } ];
+          const stationGuessData = [ { station: "Times Sq - 42nd St/Port Authority Bus Terminal (1,2,3,7,7Exp,A,C,E,N,Q,R,W,S)", avgScore: 4818.7731481481442 }, /* ... A LOT MORE GUESS DATA ... */ { station: "Prospect Ave (5,2)", avgScore: 976.4365482233502 }];
+          return { lines, linesByTrunkLine, stations, stationGuessData };
+        })();
+        
+        // === ORIGINAL COMPONENT: operator_components/mta/MtaLineBadge.tsx ============
+        function MtaLineBadge({ line, size = "md", greyscale = false }) {
+          const BACKGROUND_COLOR_BY_TRUNK_LINE = { [MtaTrunkLine.EIGHTH_AVENUE_IND]: "#0039a6", [MtaTrunkLine.SIXTH_AVENUE_IND]: "#ff6319", [MtaTrunkLine.CROSSTOWN_IND]: "#6cbe45", [MtaTrunkLine.CANARSIE_BMT]: "#a7a9ac", [MtaTrunkLine.NASSAU_BMT]: "#996633", [MtaTrunkLine.BROADWAY_BMT]: "#fccc0a", [MtaTrunkLine.BROADWAY_IRT]: "#ee352e", [MtaTrunkLine.LEXINGTON_IRT]: "#00933c", [MtaTrunkLine.FLUSHING_IRT]: "#b933ad", [MtaTrunkLine.SHUTTLES]: "#808183" };
+          const TEXT_COLOR_BY_TRUNK_LINE = { [MtaTrunkLine.BROADWAY_BMT]: "#000000" };
+
+          const isExpress = line.line.includes("Express");
+
+          const sizeClasses = {
+            sm: 'w-5 h-5 text-xs',
+            md: 'w-7 h-7 text-base',
+            lg: 'w-9 h-9 text-lg'
+          };
+          const expressSizeClasses = {
+             sm: 'w-5 h-5', // effective size will be smaller
+             md: 'w-6 h-6',
+             lg: 'w-8 h-8'
+          };
+
+          const baseClasses = `inline-flex items-center justify-center font-bold font-sans-serif transition-all`;
+          const shapeClasses = isExpress ? `express-diamond ${expressSizeClasses[size]}` : `rounded-full ${sizeClasses[size]}`;
+          
+          const style = {
+            backgroundColor: greyscale ? "#475569" : BACKGROUND_COLOR_BY_TRUNK_LINE[line.trunkLine],
+            color: greyscale ? "#cbd5e1" : (TEXT_COLOR_BY_TRUNK_LINE[line.trunkLine] || "#ffffff"),
+          };
+          
+          return (
+            <div style={style} className={`${baseClasses} ${shapeClasses}`}>
+              <span className="block">{line.displayName}</span>
+            </div>
+          );
+        }
+
+        // === ORIGINAL COMPONENT: operator_components/mta/MtaLinesRow.tsx ==============
+        function MtaLinesRow({ lines, small = false }) {
+          return (
+            <div className={`flex flex-row flex-wrap items-center gap-1 ${small ? 'h-6' : 'h-8'}`}>
+              {lines.map((line, i) => (
+                <MtaLineBadge key={i} line={line} size={small ? "sm" : "md"} />
+              ))}
+            </div>
+          );
+        }
+
+        // === ORIGINAL COMPONENT: operator_components/mta/MtaStationHeader.tsx =========
+        function MtaStationHeader({ station }) {
+          return (
+            <div className="bg-slate-800 p-4 my-4 rounded-xl shadow-lg text-white">
+              <h1 className="text-3xl font-extrabold text-slate-100 border-t-2 border-slate-400 pt-3 mt-3 mb-3 tracking-tight">
+                {station.name}
+              </h1>
+              <MtaLinesRow lines={station.lines} />
+            </div>
+          );
+        }
+
+        // === ORIGINAL FILE: operators/mta/config.ts ===================================
+        const mtaConfig = {
+          stations: mtaDataStations,
+          operator: Operator.MTA,
+          operatorName: "MTA",
+          domain: "nycguessr.com",
+          appName: "NYCGuessr",
+          hasAnalysisPage: true,
+          zeroPointDistanceInMeters: 20000,
+          lines: Object.values(mtaDataLines),
+          linesByTrunkLine: mtaDataLinesByTrunkLine,
+          initialMapState: { longitude: -73.875, latitude: 40.73065, zoom: 9.25 },
+          stationGuessData: mtaDataStationGuessData,
+          getColor: (t) => ({ [MtaTrunkLine.EIGHTH_AVENUE_IND]: "#0039a6", [MtaTrunkLine.SIXTH_AVENUE_IND]: "#ff6319", [MtaTrunkLine.CROSSTOWN_IND]: "#6cbe45", [MtaTrunkLine.CANARSIE_BMT]: "#a7a9ac", [MtaTrunkLine.NASSAU_BMT]: "#996633", [MtaTrunkLine.BROADWAY_BMT]: "#fccc0a", [MtaTrunkLine.BROADWAY_IRT]: "#ee352e", [MtaTrunkLine.LEXINGTON_IRT]: "#00933c", [MtaTrunkLine.FLUSHING_IRT]: "#b933ad", [MtaTrunkLine.SHUTTLES]: "#808183" }[t]),
+          shortNameForStation: (station) => station.name.split("/")[0],
+          uniqueNameForStation: (station) => {
+            const lines = station.lines;
+            const stationNameSuffix = lines.map((line) => `${line.displayName}${line.line.includes("Express") ? "Exp" : ""}`).join(",");
+            return `${station.name} (${stationNameSuffix})`;
+          },
+          renderStationHeading: (station) => <MtaStationHeader station={station} />,
+          renderLineForAnalysisMapView: (l, props) => <MtaLineBadge size="md" greyscale={props.greyscale} line={l} />,
+          renderLinesForDataView: (ls) => <MtaLinesRow lines={ls} small={true} />,
+          zoomConfigurations: [
+              { label: 'The Bronx', longitude: -73.88, latitude: 40.85, zoom: 11.5 },
+              { label: 'Brooklyn', longitude: -73.96, latitude: 40.65, zoom: 11 },
+              { label: 'Manhattan', longitude: -73.98, latitude: 40.78, zoom: 11.5 },
+              { label: 'Queens', longitude: -73.85, latitude: 40.73, zoom: 11 },
+          ]
+        };
+
+        // === ORIGINAL FILE: operators/config.ts =======================================
+        const configByOperator = { [Operator.MTA]: mtaConfig };
+
+        // === ORIGINAL COMPONENT: WrappedMap.tsx =====================================
+        function GuessDistributionOverlay({ sourceFile, geojsonFilter }) {
+          const filters = geojsonFilter ?? ["has", "score"];
+          return (
+            <Source type="geojson" data={sourceFile}>
+              <Layer
+                id="clusters"
+                type="circle"
+                filter={filters}
+                paint={{
+                  "circle-color": ["rgb", ["-", 255, ["*", 0.051, ["get", "score"]]], ["*", 0.051, ["get", "score"]], 0],
+                  "circle-radius": ["interpolate", ["linear"], ["zoom"], 8, 3, 13, 10],
+                  "circle-opacity": 0.5,
+                }}
+              />
+            </Source>
+          );
+        }
+
+        function WrappedMap({ id, guessMarker, guessesSourceFile, geojsonFilter, guessScore, stationMarker, zoomControls, onClick, initialViewState }) {
+          const mapRef = useMap();
+
+          const zoomLinks = zoomControls ? (
+            <div className="absolute top-2 left-2 z-10 bg-slate-800/70 backdrop-blur-sm rounded-md p-1 shadow-lg">
+              <ul className="flex items-center gap-1">
+                {zoomControls.map((zoomConfig) => (
+                  <li key={zoomConfig.label}>
+                    <button
+                      className="px-2 py-1 text-xs font-semibold text-slate-200 bg-slate-700/50 rounded hover:bg-slate-600/50 transition-colors"
+                      onClick={() => {
+                        const stateToJumpTo = { center: [zoomConfig.longitude, zoomConfig.latitude], zoom: zoomConfig.zoom, pitch: 0 };
+                        mapRef[id]?.flyTo(stateToJumpTo);
+                      }}
+                    >
+                      {zoomConfig.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null;
+          
+          return (
+            <div className="relative rounded-lg overflow-hidden shadow-2xl border-2 border-slate-700">
+              <Map
+                id={id}
+                initialViewState={initialViewState}
+                maxZoom={14}
+                minZoom={8.5}
+                onClick={(e) => onClick && onClick([e.lngLat.lng, e.lngLat.lat])}
+                style={{ width: '100%', height: 400 }}
+                mapStyle={mapStyle}
+              >
+                {zoomLinks}
+                {guessMarker && <Marker longitude={guessMarker[0]} latitude={guessMarker[1]} />}
+                {stationMarker && <Marker longitude={stationMarker[0]} latitude={stationMarker[1]} color="red" className="mapboxgl-marker-red"/>}
+                {guessesSourceFile && <GuessDistributionOverlay geojsonFilter={geojsonFilter} sourceFile={guessesSourceFile} />}
+              </Map>
+              {typeof guessScore === 'number' &&
+                <FadeIn>
+                    <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-black/70 to-transparent p-4 text-center">
+                        <div className="text-3xl font-bold text-white tracking-wider" style={{textShadow: '0 2px 4px rgba(0,0,0,0.5)'}}>
+                            Score: <AnimatedNumber value={guessScore} />
+                        </div>
+                    </div>
+                </FadeIn>
+              }
+            </div>
+          );
+        }
+
+        // === ORIGINAL COMPONENT: Game.tsx ===========================================
+        let localStorageFailed = false;
+
+        function shareableGame(game, score, config) {
+          const guessStrs = [0, 1, 2, 3, 4].map((turn) => {
+            const guess = game.guesses[turn];
+            const station = game.stations[turn];
+            const stationScore = calculateScore(guess, station, station.zeroPointDistanceInMetersOverride ?? config.zeroPointDistanceInMeters).score;
+            const scoreBrackets = [0, 1000, 2500, 4000, 4750];
+            const numStars = sortedLastIndex(scoreBrackets, stationScore);
+            let stationScoreEmojis = repeatString("⭐️", numStars) + repeatString("◽️", 5 - numStars);
+            return `${stationScoreEmojis} ${config.shortNameForStation(station)}`;
+          });
+          return `My score: ${score.toLocaleString()} / 25,000\n${guessStrs.join("\n")}\n${config.domain}`;
+        }
+
+        function getHighScores() {
+          try {
+            return JSON.parse(localStorage.getItem("highScores") ?? "[]").map(s => parseInt(s));
+          } catch {
+            localStorageFailed = true; return [];
+          }
+        }
+        function addHighScore(score) {
+          try {
+            let sortedScores = [...getHighScores(), score].sort((a, b) => b - a);
+            localStorage.setItem("highScores", JSON.stringify(sortedScores.slice(0, 5)));
+          } catch { localStorageFailed = true; }
+        }
+        function markInstructionsSeen() { try { localStorage.setItem("seenInstructions", "1"); } catch { localStorageFailed = true; } }
+        function hasSeenInstruction() { try { return localStorage.getItem("seenInstructions") !== null; } catch { localStorageFailed = true; return false; } }
+
+        function GameplayMap({ station, guess, guessConfirmed, initialViewState, onClick, config }) {
+          const guessScore = guess ? calculateScore(guess, station, config.zeroPointDistanceInMeters) : null;
+          return (
+            <WrappedMap
+              id="gameplayMap"
+              zoomControls={config.zoomConfigurations}
+              initialViewState={initialViewState}
+              onClick={onClick}
+              guessMarker={guess}
+              stationMarker={guessConfirmed ? guessScore.point : null}
+              guessScore={guessConfirmed ? guessScore.score : null}
+            />
+          );
+        }
+
+        function GameReview({ config, game, score, onNewGame }) {
+          const [copied, setCopied] = useState(false);
+          const [selectedTurn, setSelectedTurn] = useState(0);
+          const highScores = getHighScores();
+
+          const guess = game.guesses[selectedTurn];
+          const station = game.stations[selectedTurn];
+          const guessScore = calculateScore(guess, station, config.zeroPointDistanceInMeters);
+          
+          const mapRef = useMap();
+          const resetView = () => {
+            mapRef?.reviewMap?.flyTo({
+              center: [config.initialMapState.longitude, config.initialMapState.latitude],
+              zoom: config.initialMapState.zoom,
+              pitch: 0,
+            });
+          };
+          
+          useEffect(() => {
+              if (copied) {
+                  const timer = setTimeout(() => setCopied(false), 2000);
+                  return () => clearTimeout(timer);
+              }
+          }, [copied]);
+
+          return (
+            <div className="w-full max-w-lg mx-auto">
+              <FadeIn>
+                <div className="text-center my-6">
+                  <h2 className="text-5xl font-bold text-white">Final Score</h2>
+                  <p className="text-7xl font-bold text-sky-400 my-2"><AnimatedNumber value={score} /></p>
+                  {(highScores.length === 0 || score >= highScores[0]) && <p className="text-2xl font-semibold text-amber-400 animate-pulse">New High Score!</p>}
+                </div>
+              
+                <div className="flex gap-4 my-4">
+                  <button className="w-full text-lg font-bold bg-sky-600 hover:bg-sky-700 rounded-lg py-3 px-5 transition-all duration-200 transform hover:scale-105"
+                    onClick={() => {
+                      setCopied(true);
+                      navigator.clipboard.writeText(shareableGame(game, score, config));
+                    }}>
+                    {copied ? "Copied!" : "Share"}
+                  </button>
+                  <button className="w-full text-lg font-bold bg-emerald-600 hover:bg-emerald-700 rounded-lg py-3 px-5 transition-all duration-200 transform hover:scale-105" onClick={onNewGame}>Play Again</button>
+                </div>
+              </FadeIn>
+              
+              <FadeIn delay={200}>
+                <div className="bg-slate-800/50 rounded-xl p-4 mt-8">
+                  <div className="flex items-center border-b border-slate-700 pb-3 mb-3">
+                    <span className="font-bold mr-4">Turn:</span>
+                    <div className="flex gap-2">
+                    {[0, 1, 2, 3, 4].map((curTurn) => (
+                      <button key={curTurn}
+                        className={`w-10 h-10 font-bold rounded-full transition-colors ${curTurn === selectedTurn ? 'bg-sky-500 text-white' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'}`}
+                        onClick={() => { setSelectedTurn(curTurn); resetView(); }}>
+                        {curTurn + 1}
+                      </button>
+                    ))}
+                    </div>
+                  </div>
+
+                  {config.renderStationHeading(station)}
+                  <WrappedMap
+                    id="reviewMap"
+                    initialViewState={config.initialMapState}
+                    guessMarker={guess}
+                    stationMarker={guessScore.point}
+                    guessScore={guessScore.score}
+                  />
+                </div>
+              </FadeIn>
+
+              <FadeIn delay={400}>
+                <div className="bg-slate-800/50 rounded-xl p-4 my-8">
+                  <h3 className="text-2xl font-bold text-center mb-4 pb-2 border-b border-slate-700">High Scores</h3>
+                  {highScores.length > 0 ? highScores.map((s, i) => (
+                    <div key={i} className="flex justify-between items-center py-2 px-3 text-lg font-semibold bg-slate-700/50 rounded my-1">
+                      <span>{i + 1}.</span>
+                      <span>{s.toLocaleString()}</span>
+                    </div>
+                  )) : <p className="text-slate-400 text-center py-4">Play a game to see your high scores!</p>}
+                  {localStorageFailed && <span className="text-xs text-red-400 text-center block mt-2">Cannot load/save high scores in this browser/mode.</span>}
+                </div>
+              </FadeIn>
+            </div>
+          );
+        }
+
+        function ActiveGame({ config, onGuess, onContinue, onGameOver, turn, score, game }) {
+          const station = game.stations[turn];
+          const [guess, setGuess] = useState(null);
+          const [confirmed, setConfirmed] = useState(false);
+
+          return (
+            <div className="w-full max-w-lg mx-auto">
+              <header className="flex justify-between items-center bg-slate-800/50 p-3 rounded-lg my-4 text-lg">
+                <div className="font-semibold text-slate-300">Turn: <span className="font-bold text-white">{turn + 1} / 5</span></div>
+                <div className="font-semibold text-slate-300">Total Score: <span className="font-bold text-white">{score.toLocaleString()}</span></div>
+              </header>
+
+              <FadeIn key={turn}>
+                {config.renderStationHeading(station)}
+                <GameplayMap
+                  onClick={(g) => !confirmed && setGuess(g)}
+                  config={config}
+                  initialViewState={config.initialMapState}
+                  station={station}
+                  guessConfirmed={confirmed}
+                  guess={guess}
+                />
+              </FadeIn>
+
+              <div className="mt-4">
+                {!confirmed && (
+                  <button className="w-full text-xl font-bold bg-sky-600 hover:bg-sky-700 disabled:bg-slate-700 disabled:text-slate-500 disabled:cursor-not-allowed disabled:transform-none rounded-lg py-4 px-5 transition-all duration-200 transform hover:scale-105"
+                    disabled={guess === null}
+                    onClick={() => {
+                      onGuess(calculateScore(guess, station, config.zeroPointDistanceInMeters).score, guess);
+                      setConfirmed(true);
+                    }}>
+                    Confirm Guess
+                  </button>
+                )}
+                {confirmed && (
+                    <FadeIn>
+                        <button className="w-full text-xl font-bold bg-emerald-600 hover:bg-emerald-700 rounded-lg py-4 px-5 transition-all duration-200 transform hover:scale-105"
+                            onClick={() => {
+                                setGuess(null);
+                                setConfirmed(false);
+                                turn === 4 ? onGameOver() : onContinue();
+                            }}>
+                            {turn === 4 ? 'See Results' : 'Continue'}
+                        </button>
+                    </FadeIn>
+                )}
+              </div>
+            </div>
+          );
+        }
+
+        function Instructions({ config }) {
+          const [visible, setVisible] = useState(!hasSeenInstruction());
+
+          if (!visible) return null;
+
+          return (
+            <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4">
+              <FadeIn>
+                <div className="bg-slate-800 rounded-2xl shadow-2xl max-w-md w-full p-6 border border-slate-700">
+                  <h3 className="text-2xl font-bold mb-4 text-sky-400">Welcome to {config.appName}!</h3>
+                  <p className="text-slate-300 leading-relaxed mb-6">
+                    Click on the map to guess where the displayed {config.operatorName} stop is. There are 5 rounds.
+                    You get up to 5,000 points per round based on how close you are. Good luck!
+                  </p>
+                  <button className="w-full text-lg font-bold bg-sky-600 hover:bg-sky-700 rounded-lg py-3 px-5 transition-all"
+                    onClick={() => { setVisible(false); markInstructionsSeen(); }}>
+                    Got It!
+                  </button>
+                </div>
+              </FadeIn>
+            </div>
+          );
+        }
+
+        function GameImpl({ config }) {
+          const [game, setGame] = useState(() => makeGame(config));
+          const [gameOver, setGameOver] = useState(false);
+          const [turn, setTurn] = useState(0);
+          const [score, setScore] = useState(0);
+          
+          const mapRef = useMap();
+          const resetView = () => {
+            const stateToJumpTo = {
+              center: [config.initialMapState.longitude, config.initialMapState.latitude],
+              zoom: config.initialMapState.zoom,
+              pitch: 0,
+            };
+            if(mapRef.reviewMap) mapRef.reviewMap.flyTo(stateToJumpTo);
+            if(mapRef.gameplayMap) mapRef.gameplayMap.flyTo(stateToJumpTo);
+          };
+
+          return (
+            <main className="p-4">
+              <Instructions config={config} />
+              <div className="flex flex-col items-center">
+                {!gameOver ? (
+                  <ActiveGame
+                    config={config}
+                    onGuess={(guessScore, guessLoc) => {
+                      let newGame = { ...game };
+                      newGame.guesses[turn] = guessLoc;
+                      setScore(score + guessScore);
+                      setGame(newGame);
+                      tryToSaveFirebaseDoc(FirebaseCollection.GUESSES, {
+                        operator: config.operatorName, score: guessScore, station: config.uniqueNameForStation(game.stations[turn]), loc: guessLoc,
+                      });
+                    }}
+                    onContinue={() => { setTurn(turn + 1); resetView(); }}
+                    onGameOver={() => {
+                      addHighScore(score);
+                      tryToSaveFirebaseDoc(FirebaseCollection.SCORES, { score: score, operator: config.operatorName });
+                      setGameOver(true);
+                    }}
+                    game={game} turn={turn} score={score}
+                  />
+                ) : (
+                  <GameReview
+                    config={config} game={game} score={score}
+                    onNewGame={() => {
+                      setGame(makeGame(config));
+                      setGameOver(false);
+                      setTurn(0);
+                      setScore(0);
+                      resetView();
+                    }}
+                  />
+                )}
+              </div>
+            </main>
+          );
+        }
+
+        function GameComponent({ config }) {
+          return (<MapProvider><GameImpl config={config} /></MapProvider>);
+        }
+        
+        // === ORIGINAL COMPONENT: Analysis.tsx (Data Page) ===========================
+        function Analysis({ config }) {
+            const guessData = config.stationGuessData;
+            const { selectedIndex } = useParams();
+            const navigate = useNavigate();
+
+            const stationsByFirebaseName = fromPairs(
+                config.stations.map((station) => [config.uniqueNameForStation(station), station])
+            );
+
+            if (selectedIndex === null || selectedIndex === undefined) {
+                return (
+                    <div className="p-4 md:p-8">
+                        <div className="max-w-4xl mx-auto">
+                            <div className="text-center mb-8">
+                                <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2">{config.appName} Data</h1>
+                                <p className="text-slate-400">
+                                    Browse guess data by station. Or check out the <Link to="/map" className="text-sky-400 hover:text-sky-300 font-semibold">guess heatmap</Link>.
+                                </p>
+                            </div>
+                            <div className="bg-slate-800/50 rounded-xl shadow-lg table-container">
+                                <table className="w-full text-left">
+                                    <thead className="text-xs text-slate-300 uppercase">
+                                        <tr>
+                                            <th className="p-3">Station</th>
+                                            <th className="p-3">Lines</th>
+                                            <th className="p-3 text-center">Avg. Score</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="text-slate-100">
+                                        {guessData.map((stationGuessData, i) => {
+                                            const station = stationsByFirebaseName[stationGuessData.station];
+                                            if (!station) return null;
+                                            return (
+                                                <tr key={i} onClick={() => navigate(`/data/${i}`)} className="border-b border-slate-700 hover:bg-slate-700/50 cursor-pointer transition-colors">
+                                                    <td className="p-3 font-semibold">{station.name.split("/")[0]}</td>
+                                                    <td className="p-3">{config.renderLinesForDataView(station.lines)}</td>
+                                                    <td className="p-3 text-center font-mono">{Math.round(stationGuessData.avgScore)}</td>
+                                                </tr>
+                                            );
+                                        })}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+            // Individual station view not implemented in this version for brevity
+            return <div>Station detail view not available in this single-file version. <Link to="/data">Back to list.</Link></div>;
+        }
+
+        // === ORIGINAL COMPONENT: AllGuesses.tsx (Map Page) =========================
+        function AllGuesses({ config }) {
+            return (
+                <div className="p-4 md:p-8">
+                    <div className="text-center mb-8">
+                        <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2">{config.appName} Guess Map</h1>
+                        <p className="text-slate-400">
+                            A heatmap of all guesses made in {config.appName}. Green is good, red is less good!
+                            <br />
+                            <Link to="/data" className="text-sky-400 hover:text-sky-300 font-semibold">View data by station</Link> or <Link to="/" className="text-sky-400 hover:text-sky-300 font-semibold">play a new game</Link>.
+                        </p>
+                    </div>
+                    <div className="max-w-4xl mx-auto">
+                      <WrappedMap
+                        id="allGuessesMap"
+                        initialViewState={config.initialMapState}
+                        guessesSourceFile={`https://raw.githubusercontent.com/benmusch/nycguessr/main/public/mta/guesses.geojson`} // Using a remote source for this demo
+                        zoomControls={config.zoomConfigurations}
+                      />
+                    </div>
+                </div>
+            );
+        }
+        
+        // === ORIGINAL COMPONENT: App.tsx ============================================
+        const configToPlay = configByOperator[APP_CONFIG.OPERATOR];
+
+        function App() {
+          return (
+            <HashRouter>
+              <div className="min-h-screen text-slate-100">
+                <nav className="bg-slate-900/80 backdrop-blur-sm p-4 shadow-md sticky top-0 z-40">
+                    <div className="max-w-7xl mx-auto flex justify-between items-center">
+                        <Link to="/" className="text-2xl font-bold tracking-tighter text-white">{configToPlay.appName}</Link>
+                        <div className="flex gap-4 items-center">
+                            <Link to="/" className="font-semibold text-slate-300 hover:text-white transition-colors">Game</Link>
+                            {configToPlay.hasAnalysisPage && <Link to="/data" className="font-semibold text-slate-300 hover:text-white transition-colors">Data</Link>}
+                            {configToPlay.hasAnalysisPage && <Link to="/map" className="font-semibold text-slate-300 hover:text-white transition-colors">Map</Link>}
+                        </div>
+                    </div>
+                </nav>
+                <Routes>
+                  {configToPlay.hasAnalysisPage && <Route path="map" element={<AllGuesses config={configToPlay} />} />}
+                  {configToPlay.hasAnalysisPage && <Route path="data" element={<Analysis config={configToPlay} />} />}
+                  {configToPlay.hasAnalysisPage && <Route path="data/:selectedIndex" element={<Analysis config={configToPlay} />} />}
+                  <Route index element={<GameComponent config={configToPlay} />} />
+                </Routes>
+                <footer className="text-center p-8 text-sm text-slate-500 border-t border-slate-800 mt-12">
+                    <p className="max-w-lg mx-auto leading-relaxed">
+                        Developed by <a href="https://twitter.com/benmusch" className="font-semibold text-slate-400 hover:text-sky-400" target="_blank">Ben Muschol</a>,
+                        inspired by <a href="https://geoguessr.com" className="font-semibold text-slate-400 hover:text-sky-400" target="_blank">Geoguessr</a>. Remixed with Tailwind CSS.
+                        <br/>
+                        Thank you to <a className="font-semibold text-slate-400 hover:text-sky-400" href="https://www.mapbox.com/" target="_blank">Mapbox</a> for sponsoring the map.
+                        Code is <a href="https://github.com/benmusch/nycguessr" className="font-semibold text-slate-400 hover:text-sky-400" target="_blank">available on GitHub</a>.
+                    </p>
+                </footer>
+              </div>
+            </HashRouter>
+          );
+        }
+
+        // === RENDER THE APP =========================================================
+        const root = createRoot(document.getElementById("root"));
+        root.render(<StrictMode><App /></StrictMode>);
+
+    </script>
+</body>
+</html>
