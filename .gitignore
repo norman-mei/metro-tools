@@ -50,5 +50,5 @@ prisma/*.sqlite
 # metro sync cache
 /tmp/metro-sync
 
-/tools/stripmap/.next
-/tools/stripmap/node_modules
+/tools/**/node_modules/
+  /tools/**/.next/

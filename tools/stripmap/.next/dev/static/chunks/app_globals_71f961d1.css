@@ -1,0 +1,30 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap";
+/* [project]/app/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*# sourceMappingURL=app_globals_71f961d1.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kirk/Downloads/Coding%20Projects/stripmap/app/globals.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');\n\n* {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n\n/* Custom scrollbar for the preview area */\n.custom-scrollbar::-webkit-scrollbar {\n  height: 12px;\n}\n\n.custom-scrollbar::-webkit-scrollbar-track {\n  background: #1a1a1a;\n}\n\n.custom-scrollbar::-webkit-scrollbar-thumb {\n  background: #4a4a4a;\n  border-radius: 6px;\n}\n\n.custom-scrollbar::-webkit-scrollbar-thumb:hover {\n  background: #555;\n}"],"names":[],"mappings":"AAEA;;;;AAIA;;;;;;AAQA;;;;AAIA;;;;AAIA;;;;;AAKA"}}]
+}

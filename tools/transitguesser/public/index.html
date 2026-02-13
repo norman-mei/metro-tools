@@ -116,6 +116,33 @@
         return copy.slice(0, sampleCount);
       }
 
+      const MAPBOX_TOKEN_PLACEHOLDER = "YOUR_MAPBOX_ACCESS_TOKEN_HERE";
+      const runtimeConfig = {
+        mapboxToken: MAPBOX_TOKEN_PLACEHOLDER,
+      };
+
+      async function applyRuntimeMapboxToken() {
+        try {
+          const response = await fetch("/api/public-config", { cache: "no-store" });
+          if (response.ok) {
+            const data = await response.json();
+            const envToken = typeof data?.mapboxToken === "string" ? data.mapboxToken.trim() : "";
+            if (envToken) {
+              runtimeConfig.mapboxToken = envToken;
+            }
+          }
+        } catch (error) {
+          console.warn("Unable to load /api/public-config for TransitGuesser Mapbox token.", error);
+        }
+
+        if (runtimeConfig.mapboxToken === MAPBOX_TOKEN_PLACEHOLDER) {
+          alert("Please set NEXT_PUBLIC_MAPBOX_TOKEN in the root .env file.");
+          return false;
+        }
+
+        return true;
+      }
+
       // ===================================================================================
       // DATA STORE (from mta/data.tsx)
       // ===================================================================================
@@ -358,7 +385,7 @@
               onClick={(e) => onClick && onClick([e.lngLat.lng, e.lngLat.lat])}
               style={{ width: '100%', height: 400 }}
               mapStyle={mapStyle}
-              mapboxAccessToken="pk.eyJ1IjoiYm11c2NoIiwiYSI6ImNsZnM4Mjl4bjBldDAzcHM0eDFpZHV2Z3UifQ.zW2n_2y5p_03tG9oBsz4sQ" // Public token from the original repo
+              mapboxAccessToken={runtimeConfig.mapboxToken}
             >
               {!guessScore && zoomLinks}
               {guessMarker && <Marker longitude={guessMarker[0]} latitude={guessMarker[1]} />}
@@ -578,12 +605,19 @@
         );
       }
 
-      const root = createRoot(document.getElementById('root'));
-      root.render(
-        <React.StrictMode>
-          <App />
-        </React.StrictMode>
-      );
+      async function bootstrapApp() {
+        const hasMapboxToken = await applyRuntimeMapboxToken();
+        if (!hasMapboxToken) return;
+
+        const root = createRoot(document.getElementById('root'));
+        root.render(
+          <React.StrictMode>
+            <App />
+          </React.StrictMode>
+        );
+      }
+
+      bootstrapApp();
     </script>
   </body>
 </html>

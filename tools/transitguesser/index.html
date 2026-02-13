@@ -111,18 +111,38 @@
          *******************************************************************************/
 
         // === CONFIGURATION ==========================================================
+        const MAPBOX_TOKEN_PLACEHOLDER = 'YOUR_MAPBOX_ACCESS_TOKEN_HERE';
+
         const APP_CONFIG = {
-            MAPBOX_TOKEN: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE',
+            MAPBOX_TOKEN: MAPBOX_TOKEN_PLACEHOLDER,
             OPERATOR: 'mta',
             SENTRY_DSN: null,
             FIREBASE_ENABLED: 'no',
             FIREBASE_CONFIG: {},
         };
 
-        if (APP_CONFIG.MAPBOX_TOKEN === 'pk.eyJ1Ijoia2lya2xhbmR3YXRlcmJvdCIsImEiOiJjbTY3YzA5bXYwMWlwMmtvZ2V5OTNpYTBlIn0.eQH5_U0kjIVYq-a64S3xwQ') {
-            alert('Please add your Mapbox Access Token to the APP_CONFIG object in the script tag.');
+        async function applyRuntimeMapboxToken() {
+            try {
+                const response = await fetch('/api/public-config', { cache: 'no-store' });
+                if (response.ok) {
+                    const data = await response.json();
+                    const envToken = typeof data?.mapboxToken === 'string' ? data.mapboxToken.trim() : '';
+                    if (envToken) {
+                        APP_CONFIG.MAPBOX_TOKEN = envToken;
+                    }
+                }
+            } catch (error) {
+                console.warn('Unable to load /api/public-config for TransitGuesser Mapbox token.', error);
+            }
+
+            if (APP_CONFIG.MAPBOX_TOKEN === MAPBOX_TOKEN_PLACEHOLDER) {
+                alert('Please set NEXT_PUBLIC_MAPBOX_TOKEN in the root .env file.');
+                return false;
+            }
+
+            mapboxgl.accessToken = APP_CONFIG.MAPBOX_TOKEN;
+            return true;
         }
-        mapboxgl.accessToken = APP_CONFIG.MAPBOX_TOKEN;
 
         // === HELPER COMPONENTS & HOOKS ==============================================
         
@@ -830,8 +850,14 @@
         }
 
         // === RENDER THE APP =========================================================
-        const root = createRoot(document.getElementById("root"));
-        root.render(<StrictMode><App /></StrictMode>);
+        async function bootstrapApp() {
+            const hasMapboxToken = await applyRuntimeMapboxToken();
+            if (!hasMapboxToken) return;
+            const root = createRoot(document.getElementById("root"));
+            root.render(<StrictMode><App /></StrictMode>);
+        }
+
+        bootstrapApp();
 
     </script>
 </body>
